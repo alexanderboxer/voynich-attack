@@ -4,7 +4,12 @@
 |:-:|:-:|:-:|
 | `aaaa1` | aaaa2 | aaaa3 |
 | bbbb1 | **b2** | b3|
+| `aaaa1` | aaaa2 | aaaa3 |
+| `aaaa1` | aaaa2 | aaaa3 |
+| bbbb1 | *b2* | b3|
+| `aaaa1` | *q*q | aaaa3 |
+| bbbb1 | **b2** | b3|
 
 
 
-[Linke to README](README.md)
+[Link to README](README.md)
