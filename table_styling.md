@@ -1,3 +1,7 @@
+[⇦ Back](README.md) [| Table of Contents |](README.md) [Next ⇨](README.md)
+
+---
+
 # Table 1
 
 | A | B | C |
@@ -22,3 +26,7 @@
 <p align="center" style="margin-top: 0px; background-color: blue; color: red;">text</p>
 
 Hello?
+<hr style="border:none; height: 2px;"> </hr>
+
+---
+[⇦ Back](README.md) [| Table of Contents |](README.md) [Next ⇨](README.md)
