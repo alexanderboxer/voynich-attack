@@ -1,5 +1,5 @@
 
-⇦ Back | [Table of Contents](/) | Next ⇨
+⇦ Back | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | Next ⇨
 ###
 
 > *Nel mezzo del cammin di nostra vita*  
