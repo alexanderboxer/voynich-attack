@@ -1,5 +1,5 @@
 
-⇦ Back | [Table of Contents](/README.md) | Next ⇨
+⇦ Back | [Table of Contents](/) | Next ⇨
 ###
 
 > *Nel mezzo del cammin di nostra vita*  
@@ -8,5 +8,5 @@
 
 Dante, *Inferno*, I.1-3
 
-### Text
-Let's transcribe, analyze, and attempt to decipher the mysterious Voynich Manuscript. 
+### General Introduction
+Text, text, text
