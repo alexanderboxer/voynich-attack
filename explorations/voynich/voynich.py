@@ -8,28 +8,54 @@ from collections import Counter
 import pandas as pd 
 
 # ==============================================================================
-# Things
+# RefText Class
+# ==============================================================================
+class RefText:
+    """Reference text class"""
+    def __init__(self, filepath, read_from_col):
+        self.filepath = filepath
+        self.read_from_col = read_from_col
+        self.df = self._read_csv()
+        self.tklist = self._get_tklist()
+        self.charlist = self._get_charlist()
+
+    def _read_csv(self):
+        df = pd.read_csv(self.filepath)
+        return df
+
+    def _get_tklist(self):
+        nullchar = '$'
+        tklist = [k for k in self.df.iloc[:,self.read_from_col:].fillna(nullchar).to_numpy().flatten() if k != nullchar]
+        return tklist
+
+    def _get_charlist(self):
+        charlist = ','.join(self.tklist).split(',')
+        return charlist
+
+    def _ngram(self, gramlist, order):
+        order = max([1, order])
+        N = len(gramlist)
+        seqlist = list()
+        for i in range(order):
+            start_index = i
+            stop_index = N + 1 - order + i
+            seq = gramlist[start_index: stop_index]
+            seqlist.append(seq)
+        ndf = pd.DataFrame.from_dict(Counter(zip(*seqlist)), orient = 'index').reset_index()
+        ndf.columns = ['gram', 'n']
+        ndf['gram'] = [' - '.join([*k]) for k in ndf.gram]
+        ndf = ndf.sort_values('n', ascending = False).reset_index(drop = True)
+        return ndf
+
+    def tkdf(self, order = 1):
+        return self._ngram(self.tklist, order)
+
+    def chardf(self, order = 1):
+        return self._ngram(self.charlist, order)
+
+# ==============================================================================
+# Instantiate
 # ==============================================================================
 vmspath = '../../transcription/vms.csv'
-df = pd.read_csv(vmspath)
 
-collist = ['folio','par','line'] + ['w{}'.format(1 +k) for k in range(26)][::2]
-#df = df[collist]
-
-nullchar = '$'
-tklist  = [k for k in df.iloc[:,3:].fillna(nullchar).to_numpy().flatten() if k != nullchar] 
-
-
-tkdf = pd.DataFrame.from_dict(Counter(tklist), orient = 'index').reset_index()
-tkdf.columns = ['token','count']
-tkdf = tkdf.sort_values('count', ascending = False).reset_index(drop = True)
-
-z2 = zip(tklist[:-1],tklist[1:])
-tk2df = pd.DataFrame.from_dict(Counter(z2), orient = 'index').reset_index()
-tk2df.columns = ['tk2','count']
-tk2df = tk2df.sort_values('count', ascending = False).reset_index(drop = True)
-
-z3 = zip(tklist[:-2],tklist[1:-1],tklist[2:])
-tk3df = pd.DataFrame.from_dict(Counter(z3), orient = 'index').reset_index()
-tk3df.columns = ['tk3','count']
-tk3df = tk3df.sort_values('count', ascending = False).reset_index(drop = True)
+vms = RefText(vmspath, read_from_col = 3)
