@@ -67,18 +67,13 @@ class RefText_txt(RefText_base):
 class RefText_csv(RefText_base):
     """Reference text child class / read from .csv file"""
 
-    def __init__(self, filepath, language, read_from_col, read_from_row):
+    def __init__(self, filepath, language, read_from_col):
         self.filepath = filepath
         self.language = language
         self.read_from_col = read_from_col
-        self.read_from_row = read_from_row
-        self.df = self._read_csv()
+        self.df = pd.read_csv(self.filepath)
         self.tklist = self._get_tklist()
         self.charlist = ','.join(self.tklist).split(',')
-
-    def _read_csv(self):
-        df = pd.read_csv(self.filepath, skiprows = self.read_from_row)
-        return df
 
     def _get_tklist(self):
         nullchar = '$'
@@ -91,9 +86,22 @@ class RefText_csv(RefText_base):
 class RefText_csv_alt(RefText_csv):
     """Reference text child class / read from .csv file / alt format: individual characters are not comma-separated"""
 
-    def __init__(self, filepath, language, read_from_col, read_from_row):
-        super().__init__(filepath, language, read_from_col, read_from_row)
+    def __init__(self, filepath, language, read_from_col):
+        super().__init__(filepath, language, read_from_col)
         self.charlist = list(''.join([''.join([k for k in word if k.isalpha()]) for word in self.tklist]))
+
+# ==============================================================================
+# RefText_dataframe Child Class
+# ==============================================================================
+class RefText_dataframe(RefText_csv):
+    """Reference text child class / instantiate directly from a pandas dataframe"""
+
+    def __init__(self, dataframe, language, read_from_col):
+        self.df = dataframe
+        self.language = language
+        self.read_from_col = read_from_col
+        self.tklist = self._get_tklist()
+        self.charlist = ','.join(self.tklist).split(',')
 
 # ==============================================================================
 # Instantiate reference text corpora
@@ -101,11 +109,16 @@ class RefText_csv_alt(RefText_csv):
 
 # vms: full Voynich
 vmspath = '../../transcription/vms.csv'
-vms = RefText_csv(vmspath, language = 'voynich', read_from_col = 3, read_from_row = 0)
+vms = RefText_csv(vmspath, language = 'voynich', read_from_col = 3)
+
+# vms1: Voynich up to f103r
+f013r_idx = vms.df[vms.df.folio == '103r'].index.tolist()[0]
+vms1_df = vms.df.iloc[:f013r_idx].copy()
+vms1 = RefText_dataframe(vms1_df, language = 'voynich', read_from_col = 3)
 
 # vms2: Voynich from f103r
-f013r_idx = vms.df[vms.df.folio == '103r'].index.tolist()[0]
-vms2 = RefText_csv(vmspath, language = 'voynich', read_from_col = 3, read_from_row = f013r_idx) # read from folio 103r
+vms2_df = vms.df.iloc[f013r_idx:].copy()
+vms2 = RefText_dataframe(vms2_df, language = 'voynich', read_from_col = 3)
 
 # caesar: Caesar De Bello Gallico
 caesarpath = '../../corpora/latin/caesar_bellogallico/caesar_bellogallico_lat0.txt'
@@ -117,4 +130,4 @@ heb = RefText_txt(hebpath, 'hebrew')
 
 # enoch: MS 3188 Enochian 
 enochpath = '../../corpora/enochian/ms3188.csv'
-enoch = RefText_csv_alt(enochpath, 'enochian', read_from_col = 2, read_from_row = 0)
+enoch = RefText_csv_alt(enochpath, 'enochian', read_from_col = 2)
