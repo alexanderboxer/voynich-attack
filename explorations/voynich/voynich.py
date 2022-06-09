@@ -8,6 +8,78 @@ from collections import Counter
 import pandas as pd 
 
 # ==============================================================================
+# RefText_base Base Class
+# ==============================================================================
+class RefText_base:
+    """Reference text base class"""
+
+    def _ngram(self, gramlist, order):
+        order = max([1, order])
+        N = len(gramlist)
+        seqlist = list()
+        for i in range(order):
+            start_index = i
+            stop_index = N + 1 - order + i
+            seq = gramlist[start_index: stop_index]
+            seqlist.append(seq)
+        ndf = pd.DataFrame.from_dict(Counter(zip(*seqlist)), orient = 'index').reset_index()
+        ndf.columns = ['gram', 'n']
+        ndf['gram'] = [' - '.join([*k]) for k in ndf.gram]
+        ndf = ndf.sort_values('n', ascending = False).reset_index(drop = True)
+        nsum = ndf.n.sum()
+        ndf['pct'] = ['{:.2f}'.format(100*k/nsum) for k in ndf.n]
+        return ndf
+
+    def tkdf(self, order = 1):
+        return self._ngram(self.tklist, order)
+
+    def chardf(self, order = 1):
+        return self._ngram(self.charlist, order)
+
+# ==============================================================================
+# RefText_txt Child Class
+# ==============================================================================
+class RefText_txt(RefText_base):
+    """Reference text class"""
+
+    nonalpha_keepers = ['.', '!', ';', '?', ':']
+
+    def __init__(self, filepath, language):
+        self.filepath = filepath
+        self.language = language
+        self.source = self._read_txt()
+        self.wordstring = self._get_wordstring()
+        self.tklist = self.wordstring.split()
+        self.charlist = list(''.join(self.tklist))
+
+    def _read_txt(self):
+        with open(self.filepath, 'r') as f:
+            s = f.read()
+        return s
+
+    def _get_wordstring(self):
+        s = ' '.join([''.join([k for k in word if k.isalpha()]) for word in self.source.split()])
+        return s
+
+    def tkdf(self, order = 1):
+        return self._ngram(self.tklist, order)
+
+    def chardf(self, order = 1):
+        return self._ngram(self.charlist, order)
+
+
+
+
+
+caesarpath = '../../corpora/latin/caesar_bellogallico/caesar_bellogallico_alphaplus.txt'
+
+caesar = RefText_txt(caesarpath, 'latin')
+
+# ==============================================================================
+# RefText_csv Child Class
+# ==============================================================================
+
+# ==============================================================================
 # RefText Class
 # ==============================================================================
 class RefText:
