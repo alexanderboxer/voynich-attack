@@ -48,8 +48,7 @@ class RefText_txt(RefText_base):
         self.filepath = filepath
         self.language = language
         self.source = self._read_txt()
-        self.wordstring = self._get_wordstring()
-        self.tklist = self.wordstring.split()
+        self.tklist = self._get_tklist()
         self.charlist = list(''.join(self.tklist))
 
     def _read_txt(self):
@@ -57,9 +56,10 @@ class RefText_txt(RefText_base):
             s = f.read()
         return s
 
-    def _get_wordstring(self):
-        s = ' '.join([''.join([k for k in word if k.isalpha()]) for word in self.source.split()])
-        return s
+    def _get_tklist(self):
+        tkstring = ' '.join([''.join([k for k in word if k.isalpha()]) for word in self.source.split()])
+        tklist = tkstring.split()
+        return tklist
 
 # ==============================================================================
 # RefText_csv Child Class
@@ -86,6 +86,16 @@ class RefText_csv(RefText_base):
         return tklist
 
 # ==============================================================================
+# RefText_csv_alt Child Class
+# ==============================================================================
+class RefText_csv_alt(RefText_csv):
+    """Reference text child class / read from .csv file / alt format: individual characters are not comma-separated"""
+
+    def __init__(self, filepath, language, read_from_col, read_from_row):
+        super().__init__(filepath, language, read_from_col, read_from_row)
+        self.charlist = list(''.join([''.join([k for k in word if k.isalpha()]) for word in self.tklist]))
+
+# ==============================================================================
 # Instantiate reference text corpora
 # ==============================================================================
 
@@ -98,5 +108,13 @@ f013r_idx = vms.df[vms.df.folio == '103r'].index.tolist()[0]
 vms2 = RefText_csv(vmspath, language = 'voynich', read_from_col = 3, read_from_row = f013r_idx) # read from folio 103r
 
 # caesar: Caesar De Bello Gallico
-caesarpath = '../../corpora/latin/caesar_bellogallico/caesar_bellogallico_alphaplus.txt'
+caesarpath = '../../corpora/latin/caesar_bellogallico/caesar_bellogallico_lat0.txt'
 caesar = RefText_txt(caesarpath, 'latin')
+
+# heb: Torah
+hebpath = '../../corpora/hebrew/torah/torah.txt'
+heb = RefText_txt(hebpath, 'hebrew')
+
+# enoch: MS 3188 Enochian 
+enochpath = '../../corpora/enochian/ms3188.csv'
+enoch = RefText_csv_alt(enochpath, 'enochian', read_from_col = 2, read_from_row = 0)
