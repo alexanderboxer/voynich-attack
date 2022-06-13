@@ -5,8 +5,8 @@ padiel
 # Import
 # ==============================================================================
 import sys
-sys.path.insert(0, '../voynich')
-from voynich import vms
+sys.path.insert(0, '../voynpy')
+from corpora import vms, vms1, vms2, caesar
 
 
 # ==============================================================================
