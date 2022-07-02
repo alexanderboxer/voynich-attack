@@ -15,7 +15,7 @@ df = pd.read_csv('vms.csv').astype(str)
 # Format
 # ==============================================================================
 nullchar = '$'
-df.replace(nullchar, '')
+df = df.replace(nullchar, '')
 s = df.to_csv(sep = '|', index = False).replace('\n','|\n|') # csv to string
 
 table_header = '|' + s.split('\n')[0]
