@@ -43,12 +43,16 @@ df2 = pd.concat([df1.iloc[:,:3], df1.iloc[:,3:].agg(','.join, axis = 1)], axis =
 charstring = ','.join([k for k in df2.txt])  
 charset = sorted(list(set(charstring.split(','))))
 
-standard_chars = ['2','4','8','9','c','cc','c^c','M','m','N','n']
-odd_chars = ['3']
+standard_chars = ['2','4','8','9','a','c','cc','c^c','i','M','m','N','n','o','P1','P2','Q','x','Y','Z']
+odd_chars = ['3','9^','â','c^','c^o','c^9','h','ô','о̄','m+','v','V','V^','y','<','<*','>']
 goodchars = sorted(list(set(standard_chars).union(set(odd_chars))))
 
 badchars = set(charset) - set(goodchars) - set(nullchar)
 badchars = sorted([k for k in badchars if '?' not in k]) 
 
+bdf = df2[df2.txt.apply(lambda x: 'о̄' in x.split(','))]
 
-bdf = df2[df2.txt.str.contains('9^')]
+# ==============================================================================
+# Export clean vms.csv
+# ==============================================================================
+#df1.to_csv('vms.csv', index = False)
