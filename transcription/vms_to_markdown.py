@@ -9,12 +9,13 @@ import pandas as pd
 # ==============================================================================
 # Read csv
 # ==============================================================================
-df = pd.read_csv('vms.csv')
+df = pd.read_csv('vms.csv').astype(str)
 
 # ==============================================================================
 # Format
 # ==============================================================================
-df['line'] = [k if pd.isna(k) else str(int(k)) for k in df.line] # convert floats -> ints -> strings 
+nullchar = '$'
+df.replace(nullchar, '')
 s = df.to_csv(sep = '|', index = False).replace('\n','|\n|') # csv to string
 
 table_header = '|' + s.split('\n')[0]
