@@ -12,7 +12,7 @@ import pandas as pd
 # Read csv export from spreadsheet
 # ==============================================================================
 nullchar = '$'
-df0 = pd.read_csv('vmsraw.csv').fillna(nullchar).astype(str)
+df0 = pd.read_csv('vms_spreadsheet.csv').fillna(nullchar).astype(str)
 
 # ==============================================================================
 # Populate index values across empty cells, clean up paragraph and line labels 
