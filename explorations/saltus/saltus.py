@@ -52,7 +52,7 @@ tklist = [k[1] for k in line_and_tklist]
 linelist = [k[0] for k in line_and_tklist]
 
 # ==============================================================================
-# Generate and sequence dataframe, keep rows with the fewest unique tokens
+# Collate and sort add-1's and swap-1's
 # ==============================================================================
 df2 = tkount(tklist, linelist, 2)
 df2['diff'] = [sorted(list(set(k[0].split(',')) ^ set(k[1].split(',')))) for k in zip(df2[0],df2[1])]
