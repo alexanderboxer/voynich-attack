@@ -22,7 +22,8 @@ df0 = pd.read_csv('rdi_spreadsheet.csv').fillna(nullchar).astype(str)
 # ==============================================================================
 # Populate index values across empty cells
 # ==============================================================================
-df1 = df0
+df1 = df0.copy()
+df1 = df1.iloc[:1060].copy()
 
 def val_extend(val_array, nullchar = nullchar):
     val_splits = np.split(val_array, np.where(val_array != nullchar)[0])
