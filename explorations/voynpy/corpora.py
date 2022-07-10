@@ -4,6 +4,7 @@ Voynich reference text instances
 # ==============================================================================
 # Import
 # ==============================================================================
+import pandas as pd
 import reftext
 
 # ==============================================================================
@@ -21,6 +22,32 @@ vms1 = reftext.from_dataframe(vms1_df, language = 'voynich', read_from_col = 3, 
 # vms2: Voynich from f103r
 vms2_df = vms.df.iloc[f103r_idx:].copy()
 vms2 = reftext.from_dataframe(vms2_df, language = 'voynich', read_from_col = 3, comma_split_tokens = True) 
+
+# plants1: f1v through f57r
+idx1 = vms.df[vms.df.folio == '1v'].index.tolist()[0]
+idx2 = 1 + vms.df[vms.df.folio == '57r'].index.tolist()[-1]
+plants1_df = vms.df.iloc[idx1:idx2].copy()
+plants1 = reftext.from_dataframe(plants1_df, language = 'voynich', read_from_col = 3, comma_split_tokens = True) 
+
+# fems: f75r through f84v
+idx1 = vms.df[vms.df.folio == '75r'].index.tolist()[0]
+idx2 = 1 + vms.df[vms.df.folio == '84v'].index.tolist()[-1]
+fems_df = vms.df.iloc[idx1:idx2].copy()
+fems = reftext.from_dataframe(fems_df, language = 'voynich', read_from_col = 3, comma_split_tokens = True) 
+
+# plants2: f87r through f102vb
+idx1 = vms.df[vms.df.folio == '87r'].index.tolist()[0]
+idx2 = 1 + vms.df[vms.df.folio == '102vb'].index.tolist()[-1]
+plants2_df = vms.df.iloc[idx1:idx2].copy()
+plants2 = reftext.from_dataframe(plants2_df, language = 'voynich', read_from_col = 3, comma_split_tokens = True) 
+
+# stars: Voynich from f103r (same as vms2)
+stars_df = vms.df.iloc[f103r_idx:].copy()
+stars = reftext.from_dataframe(stars_df, language = 'voynich', read_from_col = 3, comma_split_tokens = True) 
+
+# plants: concat plants 1 and 2
+plants_df = pd.concat([plants1_df, plants2_df])
+plants = reftext.from_dataframe(plants_df, language = 'voynich', read_from_col = 3, comma_split_tokens = True) 
 
 # enoch: MS 3188 Enochian 
 enochpath = '../../corpora/enochian/ms3188.csv'
