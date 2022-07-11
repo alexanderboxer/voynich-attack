@@ -53,6 +53,9 @@ plants = reftext.from_dataframe(plants_df, language = 'voynich', read_from_col =
 enochpath = '../../corpora/enochian/ms3188.csv'
 enoch = reftext.from_csv(enochpath, language = 'enochian', read_from_col = 2, comma_split_tokens = False)
 
+#----------
+# Latin
+#----------
 # caesar: Caesar De Bello Gallico
 caesarpath = '../../corpora/latin/caesar_bellogallico/caesar_bellogallico_lat0.txt'
 caesar = reftext.from_txt(caesarpath, language = 'latin')
@@ -60,4 +63,15 @@ caesar = reftext.from_txt(caesarpath, language = 'latin')
 # heb: Torah
 hebpath = '../../corpora/hebrew/torah/torah.txt'
 heb = reftext.from_txt(hebpath, language = 'hebrew')
+
+#----------
+# English
+#----------
+# chaucer: canterbury tales, etc.
+chaucerpath = '../../corpora/english/chaucer/chaucer_lat0.txt'
+chaucer = reftext.from_txt(chaucerpath, language = 'english')
+
+# chaucer: canterbury tales, etc.
+wycliffepath = '../../corpora/english/wycliffe/wycliffe_lat0.txt'
+wycliffe = reftext.from_txt(wycliffepath, language = 'english')
 
