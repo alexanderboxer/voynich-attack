@@ -60,6 +60,9 @@ enoch = reftext.from_csv(enochpath, language = 'enochian', read_from_col = 2, co
 caesarpath = '../../corpora/latin/caesar_bellogallico/caesar_bellogallico_lat0.txt'
 caesar = reftext.from_txt(caesarpath, language = 'latin')
 
+#----------
+# Hebrew
+#----------
 # heb: Torah
 hebpath = '../../corpora/hebrew/torah/torah.txt'
 heb = reftext.from_txt(hebpath, language = 'hebrew')
@@ -71,7 +74,18 @@ heb = reftext.from_txt(hebpath, language = 'hebrew')
 chaucerpath = '../../corpora/english/chaucer/chaucer_lat0.txt'
 chaucer = reftext.from_txt(chaucerpath, language = 'english')
 
-# chaucer: canterbury tales, etc.
+# wycliffe bible
 wycliffepath = '../../corpora/english/wycliffe/wycliffe_lat0.txt'
 wycliffe = reftext.from_txt(wycliffepath, language = 'english')
+
+#----------
+# German
+#----------
+# simplicissimus (lat0)
+simp0path = '../../corpora/german/simplicissimus/simplicissimus_lat0.txt'
+simp0 = reftext.from_txt(simp0path, language = 'german')
+
+# simplicissimus (utf8)
+simp1path = '../../corpora/german/simplicissimus/simplicissimus_utf8.txt'
+simp1 = reftext.from_txt(simp1path, language = 'german')
 
