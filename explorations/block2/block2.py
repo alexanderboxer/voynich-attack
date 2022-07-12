@@ -9,8 +9,8 @@ import pandas as pd
 from collections import Counter
 
 import sys
-sys.path.insert(0, '../voynpy')
-from corpora import chaucer, wycliffe, caesar, plants1, plants2, plants
+sys.path.insert(0, '../../voynpy')
+from corpora import chaucer, wycliffe, caesar, plants1, plants2, plants, fems, stars
 
 # ==============================================================================
 # Non overlapping bigrams
