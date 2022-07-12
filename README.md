@@ -6,7 +6,7 @@ By all the laws of cryptology, the Voynich should have been cracked decades ago.
 
 
 ## Table of Contents
-1. [Introduction](explorations/01_intro/intro.md)
-2. Transcription
+1. [Transcription](transcription/vms.md)
+2. Voynich stats
 3. ...
 
