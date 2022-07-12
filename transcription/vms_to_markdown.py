@@ -24,6 +24,15 @@ table_body = s.split('\n', maxsplit = 1)[1].rsplit('\n', maxsplit = 1)[0]
 markdown_table = table_header + '\n' + table_formatting + '\n' + table_body
 
 # ==============================================================================
+# Description
+# ==============================================================================
+desc = ''
+desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | Next ⇨\n\n'
+##Transcription\n'
+
+markdown_table = desc + markdown_table
+
+# ==============================================================================
 # Export
 # ==============================================================================
 with open('vms.md', 'w') as f:
