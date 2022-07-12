@@ -28,7 +28,7 @@ markdown_table = table_header + '\n' + table_formatting + '\n' + table_body
 # ==============================================================================
 desc = ''
 desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | Next ⇨\n\n'
-desc += 'A new transcription of all extant pages of block text.\n\n'
+desc += 'A new transcription of all extant pages of block text\n\n'
 
 markdown_table = desc + markdown_table
 
