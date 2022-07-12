@@ -1,5 +1,7 @@
 [⇦ Back](https://github.com/alexanderboxer/voynich-attack) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | Next ⇨
 
+A nearly complete transcription, omitting only  
+
 |folio|par|line|t1|t2|t3|t4|t5|t6|t7|t8|t9|t10|t11|t12|t13|t14|t15|t16|t17|t18|t19|t20|t21|t22|t23|t24|t25|t26|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |1r|1|1|P1,a,cc,9,2|9,N,a,x|a,Z|o,N,a,m|c^c,o,x|c^c,o,Z,9?|c,M,c,2,c,2|9,N,o,Z|c^c,o,x,8,9||||||||||||||||||
