@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 
 import sys
-sys.path.insert(0, '../voynpy')
+sys.path.insert(0, '../../voynpy')
 import reftext
 from corpora import vms, vms1, vms2, caesar
 

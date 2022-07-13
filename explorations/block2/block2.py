@@ -10,7 +10,7 @@ from collections import Counter
 
 import sys
 sys.path.insert(0, '../../voynpy')
-from corpora import chaucer, wycliffe, caesar, plants1, plants2, plants, fems, stars
+from corpora import chaucer, wycliffe, caesar, plants1, plants2, plants, fems, stars, simp0, simp1
 
 # ==============================================================================
 # Non overlapping bigrams
@@ -32,5 +32,5 @@ def b2(tklist):
 cdf = b2(chaucer.tklist)
 wdf = b2(wycliffe.tklist)
 ldf = b2(caesar.tklist)
-
+sdf = b2(simp1.tklist)
 
