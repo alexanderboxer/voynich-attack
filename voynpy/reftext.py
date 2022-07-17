@@ -78,3 +78,15 @@ def from_csv(filepath, language, read_from_col = 0, comma_split_tokens = False):
     dataframe = pd.read_csv(filepath)
     reftext = from_dataframe(dataframe, language, read_from_col, comma_split_tokens)
     return reftext
+
+def from_textstring_csv(filepath, language, read_from_col = 0, comma_split_tokens = False):
+    dataframe = pd.read_csv(filepath)
+    textstring =  dataframe.iloc[:,read_from_col:].astype(str).apply(' '.join)[0]
+    tklist = [''.join([k for k in word if k.isalpha()]) for word in textstring.split()]
+    if comma_split_tokens:
+        charlist = ','.join(tklist).split(',')
+    else:
+        charlist = list(''.join(tklist))
+    reftext = RefText(language, tklist, charlist)
+    reftext.df = dataframe
+    return reftext
