@@ -93,3 +93,7 @@ simp1 = reftext.from_txt(simp1path, language = 'german')
 kuchepath = '../corpora/german/kuchemaistrey_1490/kuchemaistrey_lat1.csv'
 kuche = reftext.from_textstring_csv(kuchepath, language = 'german', read_from_col = 0, comma_split_tokens = False)
 
+# splendor solis (lat1)
+splendorpath = '../corpora/german/splendor_solis_1590/splendor_solis_lat1.csv'
+splendor = reftext.from_textstring_csv(splendorpath, language = 'german', read_from_col = 0, comma_split_tokens = False)
+
