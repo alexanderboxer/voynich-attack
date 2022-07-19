@@ -4,11 +4,19 @@ Voynich reference text instances
 # ==============================================================================
 # Import
 # ==============================================================================
+import os
 import pandas as pd
 import reftext
 
 # ==============================================================================
-# Instantiate
+# Navigate to this module's directory
+# ==============================================================================
+cwd = os.getcwd()
+module_path = os.path.dirname(os.path.realpath(__file__))
+os.chdir(module_path)
+
+# ==============================================================================
+# Instantiate Reftext objects
 # ==============================================================================
 # vms: full Voynich
 vmspath = '../transcription/vms.csv'
@@ -96,4 +104,9 @@ kuche = reftext.from_textstring_csv(kuchepath, language = 'german', read_from_co
 # splendor solis (lat1)
 splendorpath = '../corpora/german/splendor_solis_1590/splendor_solis_lat1.csv'
 splendor = reftext.from_textstring_csv(splendorpath, language = 'german', read_from_col = 0, comma_split_tokens = False)
+
+# ==============================================================================
+# Navigate back to the original working directory
+# ==============================================================================
+os.chdir(cwd)
 
