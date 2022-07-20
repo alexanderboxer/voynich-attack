@@ -33,7 +33,7 @@ class RefText:
             seqlist.append(seq)
         ndf = pd.DataFrame.from_dict(Counter(zip(*seqlist)), orient = 'index').reset_index()
         ndf.columns = ['gram', 'n']
-        ndf['gram'] = [' - '.join([*k]) for k in ndf.gram]
+        ndf['gram'] = ['-'.join([*k]) for k in ndf.gram]
         ndf = ndf.sort_values('n', ascending = False).reset_index(drop = True)
         nsum = ndf.n.sum()
         ndf['pct'] = ['{:.2f}'.format(100*k/nsum) for k in ndf.n]
