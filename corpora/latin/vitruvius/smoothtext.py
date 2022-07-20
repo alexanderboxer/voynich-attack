@@ -65,4 +65,4 @@ charset = set(fulltext)
 # Export
 # ==============================================================================
 if export_flag:
-    df.to_csv(output_filepath, index = False)
+    df.to_csv(output_filepath, index = True)
