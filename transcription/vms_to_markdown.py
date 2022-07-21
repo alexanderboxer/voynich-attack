@@ -27,7 +27,7 @@ markdown_table = table_header + '\n' + table_formatting + '\n' + table_body
 # Description
 # ==============================================================================
 desc = ''
-desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | Next ⇨\n\n'
+desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1grams)\n\n'
 desc += 'A new, freely shareable csv [transcription](https://github.com/alexanderboxer/voynich-attack/blob/main/transcription/vms.csv) of all extant pages of Voynich block text\n\n'
 
 markdown_table = desc + markdown_table

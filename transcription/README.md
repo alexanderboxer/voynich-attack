@@ -1,4 +1,4 @@
-[⇦ Back](https://github.com/alexanderboxer/voynich-attack) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | Next ⇨
+[⇦ Back](https://github.com/alexanderboxer/voynich-attack) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1grams)
 
 A new, freely shareable csv [transcription](https://github.com/alexanderboxer/voynich-attack/blob/main/transcription/vms.csv) of all extant pages of Voynich block text
 
