@@ -1,5 +1,5 @@
 '''
-Voynich tokens
+Voynich 2-tokens
 '''
 # ==============================================================================
 # Imports
@@ -13,7 +13,7 @@ from corpora import vms
 # ==============================================================================
 # Dataframe
 # ==============================================================================
-df = vms.tkdf().astype(str)
+df = vms.tkdf(2).astype(str)
 df = df[df.gram.apply(lambda x: '?' not in x)].reset_index(drop = True)
 df['rank'] = 1 + df.index
 df = df.set_index('rank').reset_index().rename(columns = {'pct':'%'})
@@ -37,14 +37,8 @@ markdown_table = dataframe_to_markdown(df)
 # Description
 # ==============================================================================
 desc = ''
-desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2tks)\n\n'
-desc += '## Voynich Token Frequencies (Top 1,000) \n\n'
-desc += 'Our Voynich [transcription](https://github.com/alexanderboxer/voynich-attack/tree/main/transcription) consists of 33,669 word-like units.'
-desc += ' These units are unlikely to represent words, however. More plausibly, they may encode sub-word units like bigrams, trigrams, or individual letters.'
-desc += ' For this reason, we refer to them by the more generic term “tokens.”'
-desc += ' In many instances, it is extremely difficult to determine whether a sequence of characters should be grouped into one token or split into several tokens. '
-desc += ' Consequently, there is an unavoidable element of subjectivity in all Voynich transcriptions, including this one.'
-desc += '\n\n'
+desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1tks) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack)\n\n'
+desc += '## Voynich 2-Token Frequencies (Top 1,000)\n\n'
 
 markdown_text = desc + markdown_table
 

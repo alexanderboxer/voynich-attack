@@ -1,6 +1,6 @@
-[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2grams)
+[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2tks)
 
-## Voynich Token Frequencies (top 1,000) 
+## Voynich Token Frequencies (Top 1,000) 
 
 Our Voynich [transcription](https://github.com/alexanderboxer/voynich-attack/tree/main/transcription) consists of 33,669 word-like units. These units are unlikely to represent words, however. More plausibly, they may encode sub-word units like bigrams, trigrams, or individual letters. For this reason, we refer to them by the more generic term “tokens.” In many instances, it is extremely difficult to determine whether a sequence of characters should be grouped into one token or split into several tokens.  Consequently, there is an unavoidable element of subjectivity in all Voynich transcriptions, including this one.
 
