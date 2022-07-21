@@ -20,6 +20,8 @@ df = df.set_index('rank').reset_index().rename(columns = {'pct':'%'})
 df['n'] = df['n'].apply(lambda x: '{:,}'.format(int(x)))
 df = df.iloc[:1000]
 
+df['gram'] = df['gram'].apply(lambda x: x.replace('-',' - ')) # add whitespace around hyphen for clarity
+
 # ==============================================================================
 # Convert to markdown
 # ==============================================================================
