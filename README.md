@@ -8,5 +8,6 @@ By all the laws of cryptology, the Voynich should have been cracked decades ago.
 ## Table of Contents
 1. [Transcription](transcription)
 2. Voynich stats
-3. ...
+    - [Character Frequencies](topics/voynich_stats/1grams)
+
 
