@@ -1,4 +1,4 @@
-[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | Next ⇨(https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1tks)
+[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1tks)
 
 ## Voynich 2-gram Frequencies
 

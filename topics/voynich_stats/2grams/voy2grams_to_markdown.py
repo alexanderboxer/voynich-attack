@@ -36,7 +36,7 @@ markdown_table = dataframe_to_markdown(df)
 # Description
 # ==============================================================================
 desc = ''
-desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | Next ⇨(https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1tks)\n\n'
+desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1tks)\n\n'
 desc += '## Voynich 2-gram Frequencies\n\n'
 desc += 'Note: unclear characters (marked with `?`) are not shown in the table but they are included in the total count and `%` calculations.\n\n'
 
