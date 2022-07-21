@@ -1,4 +1,4 @@
-[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/transcription) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | Next ⇨
+[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/transcription) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2grams)
 
 ## Voynich Character Frequencies
 
@@ -6,23 +6,23 @@ Our Voynich [transcription](https://github.com/alexanderboxer/voynich-attack/tre
 
 |rank|gram|n|%|
 |:-:|:-:|:-:|:-:|
-|1|o|21892|14.84|
-|2|c|21797|14.78|
-|3|9|15711|10.65|
-|4|a|12840|8.71|
-|5|8|11705|7.94|
-|6|N|9969|6.76|
-|7|cc|9922|6.73|
-|8|x|9422|6.39|
-|9|Z|6361|4.31|
-|10|M|5916|4.01|
-|11|4|5227|3.54|
-|12|c^c|4198|2.85|
-|13|m|3716|2.52|
-|14|2|2340|1.59|
-|15|n|1867|1.27|
-|16|P2|1494|1.01|
-|17|Q|1010|0.68|
+|1|o|21,892|14.84|
+|2|c|21,797|14.78|
+|3|9|15,711|10.65|
+|4|a|12,840|8.71|
+|5|8|11,705|7.94|
+|6|N|9,969|6.76|
+|7|cc|9,922|6.73|
+|8|x|9,422|6.39|
+|9|Z|6,361|4.31|
+|10|M|5,916|4.01|
+|11|4|5,227|3.54|
+|12|c^c|4,198|2.85|
+|13|m|3,716|2.52|
+|14|2|2,340|1.59|
+|15|n|1,867|1.27|
+|16|P2|1,494|1.01|
+|17|Q|1,010|0.68|
 |18|i|723|0.49|
 |19|P1|416|0.28|
 |20|m+|130|0.09|

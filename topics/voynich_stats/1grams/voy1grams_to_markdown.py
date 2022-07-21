@@ -17,6 +17,7 @@ df = vms.chardf().astype(str)
 df = df[df.gram.apply(lambda x: '?' not in x)].reset_index(drop = True)
 df['rank'] = 1 + df.index
 df = df.set_index('rank').reset_index().rename(columns = {'pct':'%'})
+df['n'] = df['n'].apply(lambda x: '{:,}'.format(int(x)))
 
 # ==============================================================================
 # Convert to markdown
@@ -35,7 +36,7 @@ markdown_table = dataframe_to_markdown(df)
 # Description
 # ==============================================================================
 desc = ''
-desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/transcription) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | Next ⇨\n\n'
+desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/transcription) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2grams)\n\n'
 desc += '## Voynich Character Frequencies\n\n'
 desc += 'Our Voynich [transcription](https://github.com/alexanderboxer/voynich-attack/tree/main/transcription) consists of 147,485 comma-separated characters.'
 desc += ' Of these, about 0.5% (756) are marked with a `?` to indicate an unclear or ambiguous reading.'
