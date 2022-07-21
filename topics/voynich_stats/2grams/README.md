@@ -2,6 +2,8 @@
 
 ## Voynich 2-gram Frequencies
 
+Note: unclear characters (marked with `?`) are not shown in the table but they are included in the total count and `%` calculations.
+
 |rank|gram|n|%|
 |:-:|:-:|:-:|:-:|
 |1|8-9|6,336|4.30|
