@@ -1,4 +1,4 @@
-[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/biblio) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack)
+[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/biblio) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/2grams)
 
 ## Latin Letter Frequencies
 
