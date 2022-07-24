@@ -65,8 +65,8 @@ enoch = reftext.from_csv(enochpath, language = 'enochian', read_from_col = 2, co
 # Latin
 #----------
 # Caesar: De bello gallico
-caesarpath = '../corpora/latin/caesar_bellogallico/caesar_bellogallico_lat0.txt'
-caesar = reftext.from_txt(caesarpath, language = 'latin')
+caesarpath = '../corpora/latin/caesar/caesar_lat0.csv'
+caesar = reftext.from_textstring_csv(caesarpath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
 # Vitruvius: De architectura
 vitruviuspath = '../corpora/latin/vitruvius/vitruvius_lat1.csv'
