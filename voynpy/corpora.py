@@ -69,7 +69,7 @@ caesarpath = '../corpora/latin/caesar/caesar_lat0.csv'
 caesar = reftext.from_textstring_csv(caesarpath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
 # Vitruvius: De architectura
-vitruviuspath = '../corpora/latin/vitruvius/vitruvius_lat1.csv'
+vitruviuspath = '../corpora/latin/vitruvius/vitruvius_lat0.csv'
 vitruvius = reftext.from_textstring_csv(vitruviuspath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
 #----------
