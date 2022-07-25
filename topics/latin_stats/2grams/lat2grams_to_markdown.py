@@ -8,7 +8,7 @@ import pandas as pd
 
 import sys
 sys.path.insert(0, '../../../voynpy')
-from corpora import caesar, vitruvius, celsus
+from corpora import caesar, vitruvius, celsus, pliny
 
 # ==============================================================================
 # Combine dataframes
@@ -16,8 +16,9 @@ from corpora import caesar, vitruvius, celsus
 df1 = caesar.chardf(2)
 df2 = vitruvius.chardf(2)
 df3 = celsus.chardf(2)
-dataframe_list = [df1, df2, df3]
-dataframe_namelist = ['Caesar', 'Vitruvius', 'Celsus']
+df4 = pliny.chardf(2)
+dataframe_list = [df1, df2, df3, df4]
+dataframe_namelist = ['Caesar', 'Vitruvius', 'Celsus', 'Pliny']
 tot_df = pd.concat(dataframe_list, axis = 0).groupby('gram').agg({'n': 'sum'}).sort_values('n', ascending = False).reset_index()
 N = tot_df.n.sum()
 tot_df['gram'] = tot_df['gram'].apply(lambda x: x.replace('-',''))
