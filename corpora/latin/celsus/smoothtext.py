@@ -12,7 +12,7 @@ import pandas as pd
 # Paths
 # ==============================================================================
 input_filepath = 'Perseus_text_2007.01.0088.xml'
-export_flag = 1
+export_flag = 0
 
 # ==============================================================================
 # Read XML document into pandas dataframe
@@ -39,11 +39,14 @@ df = df0.copy()
 
 nonalpha_keepers = ['.', '!', ';', '?', ':']
 
+df['textstring'] = df.textstring.apply(lambda x: re.sub('P. #', '', x)) # remove strange malformed tags
+df['textstring'] = df.textstring.apply(lambda x: re.sub('P#', '', x)) # remove strange malformed tags
 df['textstring'] = df.textstring.apply(lambda x: re.sub('<foreign.*?</foreign>', '', x)) # remove Greek text
 df['textstring'] = df.textstring.apply(lambda x: re.sub('<bibl.*?</bibl>', '', x)) # remove bibliographic citations
 df['textstring'] = df.textstring.apply(lambda x: re.sub('<note.*?</note>', '', x)) # remove English notes 
 df['textstring'] = df.textstring.apply(lambda x: re.sub('<.*?>', '', x)) # remove any leftover tags
-df['textstring'] = df.textstring.apply(lambda x: ' '.join([''.join([k for k in word if k.isalpha() or k in nonalpha_keepers]) for word in x.lower().split()]))
+df['textstring'] = df.textstring.apply(lambda x: [''.join([k for k in word if k.isalpha() or k in nonalpha_keepers]) for word in x.lower().split()])  
+df['textstring'] = df.textstring.apply(lambda x: ' '.join([k for k in x if len(k) > 0])) # remove anomalous remaining whitespaces
 
 fulltext = df.apply(' '.join).values[0]
 charset = set(fulltext)
