@@ -72,6 +72,10 @@ caesar = reftext.from_textstring_csv(caesarpath, language = 'latin', read_from_c
 vitruviuspath = '../corpora/latin/vitruvius/vitruvius_lat0.csv'
 vitruvius = reftext.from_textstring_csv(vitruviuspath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
+# Celsus: De medicina
+celsuspath = '../corpora/latin/celsus/celsus_lat0.csv'
+celsus = reftext.from_textstring_csv(celsuspath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
+
 #----------
 # Hebrew
 #----------

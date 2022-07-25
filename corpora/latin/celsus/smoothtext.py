@@ -12,7 +12,7 @@ import pandas as pd
 # Paths
 # ==============================================================================
 input_filepath = 'Perseus_text_2007.01.0088.xml'
-export_flag = 0
+export_flag = 1
 
 # ==============================================================================
 # Read XML document into pandas dataframe
@@ -52,5 +52,5 @@ charset = set(fulltext)
 # Export
 # ==============================================================================
 if export_flag:
-    df.to_csv('celsus.csv', index = True)
+    df.to_csv('celsus_lat0.csv', index = True)
 
