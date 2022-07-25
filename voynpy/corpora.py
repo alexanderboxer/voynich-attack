@@ -5,6 +5,7 @@ Voynich reference text instances
 # Import
 # ==============================================================================
 import os
+from weakref import ref
 import pandas as pd
 import reftext
 
@@ -72,13 +73,28 @@ caesar = reftext.from_textstring_csv(caesarpath, language = 'latin', read_from_c
 vitruviuspath = '../corpora/latin/vitruvius/vitruvius_lat0.csv'
 vitruvius = reftext.from_textstring_csv(vitruviuspath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
+# Celsus: De medicina
+celsuspath = '../corpora/latin/celsus/celsus_lat0.csv'
+celsus = reftext.from_textstring_csv(celsuspath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
+
 # Pliny: Naturalis historia
 plinypath = '../corpora/latin/pliny/pliny_lat0.csv'
 pliny = reftext.from_textstring_csv(plinypath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
-# Celsus: De medicina
-celsuspath = '../corpora/latin/celsus/celsus_lat0.csv'
-celsus = reftext.from_textstring_csv(celsuspath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
+# Latin: all texts
+reftext_list = [caesar, vitruvius, celsus, pliny]
+namelist = ['caes', 'vitr', 'cels', 'plin']
+
+latin_df = pd.DataFrame()
+for obj, name in zip(reftext_list, namelist):
+    opus_df = obj.df.copy()
+    opus_df.columns = ['line', 'textstring']
+    opus_df['op'] = name 
+    opus_df = opus_df[['op','line','textstring']]
+    latin_df = pd.concat([latin_df, opus_df], ignore_index = True)
+
+latin_fulltext = 'a'
+
 
 #----------
 # Hebrew
