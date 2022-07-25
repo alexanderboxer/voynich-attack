@@ -1,6 +1,6 @@
 [⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/1words) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack)
 
-## Latin Word Frequencies (Top 1,000)
+## Latin 2-Word Frequencies (Top 1,000)
 
 |rank|all texts|n|%|✧|Caesar|n|%|✧|Vitruvius|n|%|✧|Celsus|n|%|✧|Pliny|n|%|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
