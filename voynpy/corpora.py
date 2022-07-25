@@ -93,8 +93,11 @@ for obj, name in zip(reftext_list, namelist):
     opus_df = opus_df[['op','line','textstring']]
     latin_df = pd.concat([latin_df, opus_df], ignore_index = True)
 
-latin_fulltext = 'a'
-
+latin_fulltext = ' '.join([k for k in latin_df.textstring])
+latin_tklist = [''.join([k for k in word if k.isalpha()]) for word in latin_fulltext.split()]
+latin_charlist = list(''.join(latin_tklist))
+latin = reftext.RefText('latin', latin_tklist, latin_charlist)
+latin.df = latin_df
 
 #----------
 # Hebrew
