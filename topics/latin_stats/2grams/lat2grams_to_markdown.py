@@ -58,7 +58,7 @@ markdown_table = dataframe_to_markdown(df)
 # Description
 # ==============================================================================
 desc = ''
-desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/1grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack)\n\n'
+desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/1grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/1words)\n\n'
 desc += '## Latin Bigram Frequencies\n\n'
 
 markdown_text = desc + markdown_table

@@ -1,5 +1,5 @@
 '''
-Latin 1-words
+Latin 2-words
 '''
 # ==============================================================================
 # Imports
@@ -14,11 +14,11 @@ from corpora import caesar, vitruvius, celsus, pliny, latin
 # Combine dataframes
 # ==============================================================================
 nmax = 1000
-alldf = latin.tkdf().iloc[:nmax]
-df1 = caesar.tkdf().iloc[:nmax]
-df2 = vitruvius.tkdf().iloc[:nmax]
-df3 = celsus.tkdf().iloc[:nmax]
-df4 = pliny.tkdf().iloc[:nmax]
+alldf = latin.tkdf(2).iloc[:nmax]
+df1 = caesar.tkdf(2).iloc[:nmax]
+df2 = vitruvius.tkdf(2).iloc[:nmax]
+df3 = celsus.tkdf(2).iloc[:nmax]
+df4 = pliny.tkdf(2).iloc[:nmax]
 
 dataframe_list = [alldf, df1, df2, df3, df4, alldf]
 dataframe_namelist = ['all texts', 'Caesar', 'Vitruvius', 'Celsus', 'Pliny']
@@ -52,7 +52,7 @@ markdown_table = dataframe_to_markdown(df)
 # Description
 # ==============================================================================
 desc = ''
-desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/2grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/2words)\n\n'
+desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/1words) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack)\n\n'
 desc += '## Latin Word Frequencies (Top 1,000)\n\n'
 
 markdown_text = desc + markdown_table
