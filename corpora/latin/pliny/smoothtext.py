@@ -22,7 +22,7 @@ with open(input_filepath, 'r') as f:
 
 Q = dict()
 for i, book in enumerate(re.split('<div0 type="book".*?>', s0)[1:]):
-    for j, chapter in enumerate(re.split('<div1.*?>\s*<milestone.*?>', book)[1:]):
+    for j, chapter in enumerate(re.split('<div1.*?>', book)[1:]):
         textkey = '{}.{}'.format(i, j+1)
         Q[textkey] = chapter 
     
