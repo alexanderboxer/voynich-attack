@@ -20,7 +20,7 @@ df2 = vitruvius.tkdf(2).iloc[:nmax]
 df3 = celsus.tkdf(2).iloc[:nmax]
 df4 = pliny.tkdf(2).iloc[:nmax]
 
-dataframe_list = [alldf, df1, df2, df3, df4, alldf]
+dataframe_list = [alldf, df1, df2, df3, df4]
 dataframe_namelist = ['all texts', 'Caesar', 'Vitruvius', 'Celsus', 'Pliny']
 
 df = pd.DataFrame()
