@@ -132,6 +132,25 @@ kuche = reftext.from_textstring_csv(kuchepath, language = 'german', read_from_co
 splendorpath = '../corpora/german/splendor_solis_1590/splendor_solis_lat1.csv'
 splendor = reftext.from_textstring_csv(splendorpath, language = 'german', read_from_col = 0, comma_split_tokens = False)
 
+# German: all texts
+reftext_list = [simp]
+namelist = ['simp']
+
+german_df = pd.DataFrame()
+for obj, name in zip(reftext_list, namelist):
+    opus_df = obj.df.copy()
+    opus_df.columns = ['line', 'textstring']
+    opus_df['op'] = name 
+    opus_df = opus_df[['op','line','textstring']]
+    german_df = pd.concat([german_df, opus_df], ignore_index = True)
+
+german_fulltext = ' '.join([k for k in german_df.textstring])
+german_tklist = [''.join([k for k in word if k.isalpha()]) for word in german_fulltext.split()]
+german_charlist = list(''.join(german_tklist))
+german = reftext.RefText('german', german_tklist, german_charlist)
+german.df = german_df
+
+
 # ==============================================================================
 # Navigate back to the original working directory
 # ==============================================================================
