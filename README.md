@@ -14,5 +14,7 @@ By all the laws of cryptology, the Voynich should have been cracked decades ago.
 1. [Latin](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/1grams)
     - Letters: [1-grams](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/1grams) •  [2-grams](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/2grams)
     - Words: [1-grams](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/1words) •  [2-grams](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/2words)
-
+1. [German](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/german_stats/1grams)
+    - Letters: [1-grams](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/german_stats/1grams) •  [2-grams](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/german_stats/2grams)
+    - Words: [1-grams](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/german_stats/1words) •  [2-grams](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/german_stats/2words)
 
