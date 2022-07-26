@@ -120,13 +120,9 @@ wycliffe = reftext.from_txt(wycliffepath, language = 'english')
 #----------
 # German
 #----------
-# simplicissimus (lat0)
-simp0path = '../corpora/german/simplicissimus/simplicissimus_lat0.txt'
-simp0 = reftext.from_txt(simp0path, language = 'german')
-
-# simplicissimus (utf8)
-simp1path = '../corpora/german/simplicissimus/simplicissimus_utf8.txt'
-simp1 = reftext.from_txt(simp1path, language = 'german')
+# Simplicissimus  (utf8)
+simppath = '../corpora/german/simplicissimus/simplicissimus.csv'
+simp = reftext.from_textstring_csv(simppath, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
 # kuchemaistrey (lat1)
 kuchepath = '../corpora/german/kuchemaistrey_1490/kuchemaistrey_lat1.csv'
