@@ -1,4 +1,4 @@
-[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/1words) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack)
+[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/1words) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/german_stats/1grams)
 
 ## Latin 2-Word Frequencies (Top 1,000)
 
