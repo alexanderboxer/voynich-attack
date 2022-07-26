@@ -1,5 +1,5 @@
 '''
-Latin 1-grams
+German 1-grams
 '''
 # ==============================================================================
 # Imports
@@ -8,37 +8,28 @@ import pandas as pd
 
 import sys
 sys.path.insert(0, '../../../voynpy')
-from corpora import caesar, vitruvius, celsus, pliny
+from corpora import simp, german
 
 # ==============================================================================
 # Combine dataframes
 # ==============================================================================
-df1 = caesar.chardf()
-df2 = vitruvius.chardf()
-df3 = celsus.chardf()
-df4 = pliny.chardf()
-dataframe_list = [df1, df2, df3, df4]
-dataframe_namelist = ['Caesar', 'Vitruvius', 'Celsus', 'Pliny']
+alldf = german.chardf()
+df1 = simp.chardf()
 
-tot_df = pd.concat(dataframe_list, axis = 0).groupby('gram').agg({'n': 'sum'}).sort_values('n', ascending = False).reset_index()
-N = tot_df.n.sum()
-tot_df['%'] = tot_df['n'].apply(lambda x: '{:.2f}'.format(100 * x / N))
-tot_df['n'] = tot_df['n'].apply(lambda x: '{:,}'.format(x))
-tot_df['✧'] = ''
+dataframe_list = [alldf, df1]
+dataframe_namelist = ['all texts', 'Simplicissimus']
 
-df = tot_df.rename(columns = {'gram': 'all texts'})
+df = pd.DataFrame()
 for qdf, name in zip(dataframe_list, dataframe_namelist):
-    qdf = qdf.reindex(range(df.shape[0]), fill_value = '').rename(columns = {'gram': name})
-    qdf['n'] = qdf['n'].apply(lambda x: '{:,}'.format(int(x)) if x != '' else '')
-    qdf['%'] = qdf.pct.astype(str).apply(lambda x: x if len(x) > 0 else '')
-    qdf.drop('pct', axis = 1, inplace = True)
+    qdf.rename(columns = {'gram': name, 'pct': '%'}, inplace = True)
+    qdf['n'] = qdf['n'].apply(lambda x: '{:,}'.format(int(x)))
+    qdf['%'] = qdf['%'].astype(str).apply(lambda x: x if len(x) > 0 else '')
     qdf['✧'] = ''
     df = pd.concat([df, qdf], axis = 1)
 
 df = df.iloc[:,:-1]
 df['rank'] = df.index + 1
 df = df.set_index('rank').reset_index()
-
 
 # ==============================================================================
 # Convert to markdown
@@ -57,8 +48,8 @@ markdown_table = dataframe_to_markdown(df)
 # Description
 # ==============================================================================
 desc = ''
-desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/biblio) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/2grams)\n\n'
-desc += '## Latin Letter Frequencies\n\n'
+desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/2words) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/german_stats/2grams)\n\n'
+desc += '## German Letter Frequencies\n\n'
 
 markdown_text = desc + markdown_table
 

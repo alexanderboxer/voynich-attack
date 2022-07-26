@@ -1,5 +1,5 @@
 '''
-Latin 2-words
+German 1-words
 '''
 # ==============================================================================
 # Imports
@@ -8,20 +8,17 @@ import pandas as pd
 
 import sys
 sys.path.insert(0, '../../../voynpy')
-from corpora import caesar, vitruvius, celsus, pliny, latin
+from corpora import simp, german
 
 # ==============================================================================
 # Combine dataframes
 # ==============================================================================
 nmax = 1000
-alldf = latin.tkdf(2).iloc[:nmax]
-df1 = caesar.tkdf(2).iloc[:nmax]
-df2 = vitruvius.tkdf(2).iloc[:nmax]
-df3 = celsus.tkdf(2).iloc[:nmax]
-df4 = pliny.tkdf(2).iloc[:nmax]
+alldf = german.tkdf().iloc[:nmax]
+df1 = simp.tkdf().iloc[:nmax]
 
-dataframe_list = [alldf, df1, df2, df3, df4, alldf]
-dataframe_namelist = ['all texts', 'Caesar', 'Vitruvius', 'Celsus', 'Pliny']
+dataframe_list = [alldf, df1]
+dataframe_namelist = ['all texts', 'Simplicissimus']
 
 df = pd.DataFrame()
 for qdf, name in zip(dataframe_list, dataframe_namelist):
@@ -52,8 +49,8 @@ markdown_table = dataframe_to_markdown(df)
 # Description
 # ==============================================================================
 desc = ''
-desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/1words) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack)\n\n'
-desc += '## Latin 2-Word Frequencies (Top 1,000)\n\n'
+desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/german_stats/2grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/german_stats/2words)\n\n'
+desc += '## German Word Frequencies (Top 1,000)\n\n'
 
 markdown_text = desc + markdown_table
 
