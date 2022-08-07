@@ -8,16 +8,17 @@ import pandas as pd
 
 import sys
 sys.path.insert(0, '../../../voynpy')
-from corpora import simp, german
+from corpora import simp, promptuarium, german
 
 # ==============================================================================
 # Combine dataframes
 # ==============================================================================
 alldf = german.chardf(2)
 df1 = simp.chardf(2)
+df2 = promptuarium.chardf(2)
 
-dataframe_list = [alldf, df1]
-dataframe_namelist = ['all texts', 'Simplicissimus']
+dataframe_list = [alldf, df1, df2]
+dataframe_namelist = ['all texts', 'Simplicissimus', 'Promptuarium medicinae']
 
 df = pd.DataFrame()
 for qdf, name in zip(dataframe_list, dataframe_namelist):
