@@ -124,6 +124,10 @@ wycliffe = reftext.from_txt(wycliffepath, language = 'english')
 simppath = '../corpora/german/simplicissimus/simplicissimus.csv'
 simp = reftext.from_textstring_csv(simppath, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
+# Promptuarium medicinae  (lat0)
+promptuariumpath = '../corpora/german/promptuarium_medicinae/promptuarium1483.csv'
+promptuarium = reftext.from_textstring_csv(promptuariumpath, language = 'german', read_from_col = 1, comma_split_tokens = False)
+
 # kuchemaistrey (lat1)
 kuchepath = '../corpora/german/kuchemaistrey_1490/kuchemaistrey_lat1.csv'
 kuche = reftext.from_textstring_csv(kuchepath, language = 'german', read_from_col = 0, comma_split_tokens = False)
@@ -133,8 +137,8 @@ splendorpath = '../corpora/german/splendor_solis_1590/splendor_solis_lat1.csv'
 splendor = reftext.from_textstring_csv(splendorpath, language = 'german', read_from_col = 0, comma_split_tokens = False)
 
 # German: all texts
-reftext_list = [simp]
-namelist = ['simp']
+reftext_list = [simp, promptuarium]
+namelist = ['simp','prom']
 
 german_df = pd.DataFrame()
 for obj, name in zip(reftext_list, namelist):
