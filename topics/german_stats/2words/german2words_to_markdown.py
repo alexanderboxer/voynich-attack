@@ -8,7 +8,7 @@ import pandas as pd
 
 import sys
 sys.path.insert(0, '../../../voynpy')
-from corpora import simp, promptuarium, german
+from corpora import simp, kuche, promptuarium, german
 
 # ==============================================================================
 # Combine dataframes
@@ -16,10 +16,11 @@ from corpora import simp, promptuarium, german
 nmax = 1000
 alldf = german.tkdf(2).iloc[:nmax]
 df1 = simp.tkdf(2).iloc[:nmax]
-df2 = promptuarium.tkdf(2).iloc[:nmax]
+df2 = kuche.tkdf(2).iloc[:nmax]
+df3 = promptuarium.tkdf(2).iloc[:nmax]
 
-dataframe_list = [alldf, df1, df2]
-dataframe_namelist = ['all texts', 'Simplicissimus', 'Promptuarium medicinae']
+dataframe_list = [alldf, df1, df2, df3]
+dataframe_namelist = ['all texts', 'Simplicissimus', 'Kuchemaistrey', 'Promptuarium medicinae']
 
 df = pd.DataFrame()
 for qdf, name in zip(dataframe_list, dataframe_namelist):
