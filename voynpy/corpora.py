@@ -155,6 +155,13 @@ german = reftext.RefText('german', german_tklist, german_charlist)
 german.df = german_df
 
 
+#----------
+# French
+#----------
+# Rabelais: Pantagruel + Gargantual
+rabelaispath = '../corpora/french/rabelais/rabelais.csv'
+rabelais = reftext.from_textstring_csv_var1(rabelaispath, language = 'french', read_from_col = 3, comma_split_tokens = False)
+
 # ==============================================================================
 # Navigate back to the original working directory
 # ==============================================================================
