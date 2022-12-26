@@ -5,7 +5,7 @@ Voynich reference text instances
 # Import
 # ==============================================================================
 import os
-from weakref import ref
+import json 
 import pandas as pd
 import reftext
 
@@ -161,6 +161,15 @@ german.df = german_df
 # Rabelais: Pantagruel + Gargantual
 rabelaispath = '../corpora/french/rabelais/rabelais.csv'
 rabelais = reftext.from_textstring_csv_var1(rabelaispath, language = 'french', read_from_col = 3, comma_split_tokens = False)
+
+
+#----------
+# Ciphers
+#----------
+wallis1path = '../corpora/ciphers/wallis/wallis1.json'
+with open(wallis1path, 'r') as f:
+    j = json.load(f)
+wallis1 = reftext.RefText('cipher', tklist = j['tklist'], charlist = j['charlist'])
 
 # ==============================================================================
 # Navigate back to the original working directory
