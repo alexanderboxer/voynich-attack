@@ -164,6 +164,14 @@ rabelais = reftext.from_textstring_csv_var1(rabelaispath, language = 'french', r
 
 
 #----------
+# Spanish
+#----------
+# Cervantes: Don Quixote
+quixotepath = '../corpora/spanish/quixote/quixote_lat0.csv'
+quixote = reftext.from_textstring_csv_var1(quixotepath, language = 'spanish', read_from_col = 3, comma_split_tokens = False)
+
+
+#----------
 # Ciphers
 #----------
 wallis1path = '../corpora/ciphers/wallis/wallis1.json'
