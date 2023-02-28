@@ -136,6 +136,10 @@ kuche = reftext.from_textstring_csv(kuchepath, language = 'german', read_from_co
 splendorpath = '../corpora/german/splendor_solis_1590/splendor_solis_lat1.csv'
 splendor = reftext.from_textstring_csv(splendorpath, language = 'german', read_from_col = 0, comma_split_tokens = False)
 
+# luther september bible (lat0)
+lutherpath = '../corpora/german/luther_newe_testament/luther_nt22_lat0.csv'
+luther = reftext.from_textstring_csv_var1(lutherpath, language = 'german', read_from_col = 3, comma_split_tokens = False)
+
 # German: all texts
 reftext_list = [simp, kuche, promptuarium]
 namelist = ['simp','kuche','prom']
