@@ -58,6 +58,12 @@ stars = reftext.from_dataframe(stars_df, language = 'voynich', read_from_col = 3
 plants_df = pd.concat([plants1_df, plants2_df])
 plants = reftext.from_dataframe(plants_df, language = 'voynich', read_from_col = 3, comma_split_tokens = True) 
 
+# R7
+r7path = '../corpora/misc/stars/R7.csv'
+r7 = reftext.from_csv(r7path, language = 'voynich', read_from_col = 4, comma_split_tokens = True)
+r7.df.columns = ['folio','side','par','line'] + ['t{}'.format(k + 1) for k in range(r7.df.shape[1] - 4)]
+r7.df = r7.df.fillna('$')
+
 # enoch: MS 3188 Enochian 
 enochpath = '../corpora/enochian/ms3188.csv'
 enoch = reftext.from_csv(enochpath, language = 'enochian', read_from_col = 2, comma_split_tokens = False)
