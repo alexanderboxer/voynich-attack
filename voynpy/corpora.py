@@ -64,9 +64,11 @@ r7 = reftext.from_csv(r7path, language = 'voynich', read_from_col = 4, comma_spl
 r7.df.columns = ['folio','side','par','line'] + ['t{}'.format(k + 1) for k in range(r7.df.shape[1] - 4)]
 r7.df = r7.df.fillna('$')
 
-# enoch: MS 3188 Enochian 
-enochpath = '../corpora/enochian/ms3188.csv'
-enoch = reftext.from_csv(enochpath, language = 'enochian', read_from_col = 2, comma_split_tokens = False)
+# W7
+w7path = '../corpora/misc/stars/W7.csv'
+w7 = reftext.from_csv(w7path, language = 'voynich', read_from_col = 4, comma_split_tokens = True)
+w7.df.columns = ['folio','side','par','line'] + ['t{}'.format(k + 1) for k in range(w7.df.shape[1] - 4)]
+w7.df = w7.df.fillna('$')
 
 #----------
 # Latin
@@ -188,6 +190,13 @@ wallis1path = '../corpora/ciphers/wallis/wallis1.json'
 with open(wallis1path, 'r') as f:
     j = json.load(f)
 wallis1 = reftext.RefText('cipher', tklist = j['tklist'], charlist = j['charlist'])
+
+#----------
+# Enochian
+#----------
+# enoch: MS 3188 Enochian 
+enochpath = '../corpora/enochian/ms3188.csv'
+enoch = reftext.from_csv(enochpath, language = 'enochian', read_from_col = 2, comma_split_tokens = False)
 
 # ==============================================================================
 # Navigate back to the original working directory
