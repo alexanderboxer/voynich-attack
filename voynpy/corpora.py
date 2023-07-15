@@ -132,6 +132,10 @@ wycliffe = reftext.from_txt(wycliffepath, language = 'english')
 simppath = '../corpora/german/simplicissimus/simplicissimus.csv'
 simp = reftext.from_textstring_csv(simppath, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
+# Simplicissimus  (lat0)
+simp0path = '../corpora/german/simplicissimus/simplicissimus_lat0.csv'
+simp0 = reftext.from_textstring_csv(simp0path, language = 'german', read_from_col = 1, comma_split_tokens = False)
+
 # Promptuarium medicinae  (lat0)
 promptuariumpath = '../corpora/german/promptuarium_medicinae/promptuarium1483.csv'
 promptuarium = reftext.from_textstring_csv(promptuariumpath, language = 'german', read_from_col = 1, comma_split_tokens = False)
