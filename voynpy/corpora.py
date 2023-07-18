@@ -148,6 +148,10 @@ kuche = reftext.from_textstring_csv(kuchepath, language = 'german', read_from_co
 splendorpath = '../corpora/german/splendor_solis_1590/splendor_solis_lat1.csv'
 splendor = reftext.from_textstring_csv(splendorpath, language = 'german', read_from_col = 0, comma_split_tokens = False)
 
+# splendor solis (lat0)
+splendorpath0 = '../corpora/german/splendor_solis_1590/splendor_solis_lat0.csv'
+splendor0 = reftext.from_textstring_csv_lat0(splendorpath0, language = 'german')
+
 # luther september bible (lat0)
 lutherpath = '../corpora/german/luther_newe_testament/luther_nt22_lat0.csv'
 luther = reftext.from_textstring_csv_var1(lutherpath, language = 'german', read_from_col = 3, comma_split_tokens = False)
