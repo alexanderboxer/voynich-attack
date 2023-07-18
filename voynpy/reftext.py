@@ -103,3 +103,13 @@ def from_textstring_csv_var1(filepath, language, read_from_col = 0, comma_split_
     reftext = RefText(language, tklist, charlist)
     reftext.df = dataframe
     return reftext
+
+def from_textstring_csv_lat0(filepath, language):
+    dataframe = pd.read_csv(filepath, dtype = str, keep_default_na = False, index_col = 0)
+    textstring =  ' '.join([k for k in dataframe.textstring])
+    tklist = [''.join([k for k in word]) for word in textstring.split()]
+    tklist = [k for k in tklist if k != '']
+    charlist = list(''.join(tklist))
+    reftext = RefText(language, tklist, charlist)
+    reftext.df = dataframe
+    return reftext
