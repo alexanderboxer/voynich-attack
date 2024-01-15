@@ -56,7 +56,7 @@ def ngram(gramlist, order):
     ndf['gram'] = ['-'.join([*k]) for k in ndf.gram]
     ndf = ndf.sort_values('n', ascending = False).reset_index(drop = True)
     nsum = ndf.n.sum()
-    ndf['pct'] = ['{:.2f}'.format(100*k/nsum) for k in ndf.n]
+    ndf['pct'] = ['{:.1f}'.format(round(100*k/nsum, 1)) for k in ndf.n]
     return ndf
 
 
@@ -68,19 +68,61 @@ def tokens_by_position(voynich_dataframe, window, depth):
     smvdf = voypar(voynich_dataframe, window, backwards = True)
     tkxdf = pd.DataFrame()
     pctdf = pd.DataFrame()
+    nndf = pd.DataFrame()
     for i in range(1, window + 1):
         tkxdf['a{}'.format(i)] = ngram([k for k in vmsdf['t{}'.format(i)] if k != '$'], 1).gram.iloc[:depth]
         tkxdf['z{}'.format(i)] = ngram([k for k in smvdf['z{}'.format(i)] if k != '$'], 1).gram.iloc[:depth]
         pctdf['a{}'.format(i)] = ngram([k for k in vmsdf['t{}'.format(i)] if k != '$'], 1).pct.iloc[:depth]
         pctdf['z{}'.format(i)] = ngram([k for k in smvdf['z{}'.format(i)] if k != '$'], 1).pct.iloc[:depth]
+        nndf['a{}'.format(i)] = ngram([k for k in vmsdf['t{}'.format(i)] if k != '$'], 1).n.iloc[:depth]
+        nndf['z{}'.format(i)] = ngram([k for k in smvdf['z{}'.format(i)] if k != '$'], 1).n.iloc[:depth]
 
     collist = ['a{}'.format(k) for k in range(1, window + 1)] + ['z{}'.format(k) for k in range(1, window + 1)][::-1]
 
 
-    return tkxdf[collist], pctdf[collist] 
+    return tkxdf[collist], pctdf[collist], nndf[collist] 
 
 
 
 voynich_dataframe = stars.df
-tkxdf, pctdf = tokens_by_position(voynich_dataframe, 10, 5)
+tkxdf, pctdf, nndf = tokens_by_position(voynich_dataframe, 10, 5)
 
+parstats_df = pd.DataFrame()
+
+for col in list(tkxdf.columns):
+    parstats_df[col] = ['{} (n={}) {}%'.format(k[0],k[2],k[1]) for k in zip(tkxdf[col], pctdf[col], nndf[col])]
+
+
+# ==============================================================================
+# Convert to markdown
+# ==============================================================================
+def dataframe_to_markdown(dataframe):
+    s = dataframe.to_csv(sep = '|', index = False).replace('\n','|\n|')
+    table_header = '|' + s.split('\n')[0]
+    table_formatting = '|' + ':-:|' * dataframe.shape[1]
+    table_body = s.split('\n', maxsplit = 1)[1].rsplit('\n', maxsplit = 1)[0]
+    markdown_table = table_header + '\n' + table_formatting + '\n' + table_body
+    return markdown_table
+
+markdown_table = dataframe_to_markdown(parstats_df)
+
+# ==============================================================================
+# Description
+# ==============================================================================
+desc = ''
+desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2tks)\n\n'
+desc += '## Voynich Token Frequencies (Top 1,000) \n\n'
+desc += 'Our Voynich [transcription](https://github.com/alexanderboxer/voynich-attack/tree/main/transcription) consists of 33,669 word-like units.'
+desc += ' These units are unlikely to represent words, however. More plausibly, they may encode sub-word units like bigrams, trigrams, or individual letters.'
+desc += ' For this reason, we refer to them by the more generic term “tokens.”'
+desc += ' In many instances, it is extremely difficult to determine whether a sequence of characters should be grouped into one token or split into several tokens. '
+desc += ' Consequently, there is an unavoidable element of subjectivity in all Voynich transcriptions, including this one.'
+desc += '\n\n'
+
+markdown_text = desc + markdown_table
+
+# ==============================================================================
+# Write
+# ==============================================================================
+with open('README.md', 'w') as f:
+	f.write(markdown_text)
