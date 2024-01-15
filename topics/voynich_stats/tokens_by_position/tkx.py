@@ -9,7 +9,7 @@ from collections import Counter
 import pandas as pd 
 
 import sys
-sys.path.insert(0, '../../voynpy')
+sys.path.insert(0, '../../../voynpy')
 from corpora import plants, fems, stars
 
 # ==============================================================================
@@ -90,7 +90,7 @@ tkxdf, pctdf, nndf = tokens_by_position(voynich_dataframe, 10, 5)
 parstats_df = pd.DataFrame()
 
 for col in list(tkxdf.columns):
-    parstats_df[col] = ['{} (n={}) {}%'.format(k[0],k[2],k[1]) for k in zip(tkxdf[col], pctdf[col], nndf[col])]
+    parstats_df[col] = ['{}<br><sub>n={}</sub><br><sub>{}%</sub>'.format(k[0],k[2],k[1]) for k in zip(tkxdf[col], pctdf[col], nndf[col])]
 
 
 # ==============================================================================
