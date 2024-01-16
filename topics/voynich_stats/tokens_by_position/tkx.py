@@ -78,20 +78,31 @@ def tokens_by_position(voynich_dataframe, window, depth):
         nndf['z{}'.format(i)] = ngram([k for k in smvdf['z{}'.format(i)] if k != '$'], 1).n.iloc[:depth]
 
     collist = ['a{}'.format(k) for k in range(1, window + 1)] + ['z{}'.format(k) for k in range(1, window + 1)][::-1]
-
-
     return tkxdf[collist], pctdf[collist], nndf[collist] 
 
+# ==============================================================================
+# Voynich sections
+# ==============================================================================
+voynich_dataframe = plants.df
+tkxdf, pctdf, nndf = tokens_by_position(voynich_dataframe, 10, 5)
+parstats_df = pd.DataFrame()
+for col in list(tkxdf.columns):
+    parstats_df[col] = ['**{}**<br><sub>n={}</sub><br><sub>{}%</sub>'.format(k[0],k[2],k[1]) for k in zip(tkxdf[col], pctdf[col], nndf[col])]
+plants_parstats_df = parstats_df
 
+voynich_dataframe = fems.df
+tkxdf, pctdf, nndf = tokens_by_position(voynich_dataframe, 10, 5)
+parstats_df = pd.DataFrame()
+for col in list(tkxdf.columns):
+    parstats_df[col] = ['**{}**<br><sub>n={}</sub><br><sub>{}%</sub>'.format(k[0],k[2],k[1]) for k in zip(tkxdf[col], pctdf[col], nndf[col])]
+fems_parstats_df = parstats_df
 
 voynich_dataframe = stars.df
 tkxdf, pctdf, nndf = tokens_by_position(voynich_dataframe, 10, 5)
-
 parstats_df = pd.DataFrame()
-
 for col in list(tkxdf.columns):
     parstats_df[col] = ['**{}**<br><sub>n={}</sub><br><sub>{}%</sub>'.format(k[0],k[2],k[1]) for k in zip(tkxdf[col], pctdf[col], nndf[col])]
-
+stars_parstats_df = parstats_df
 
 # ==============================================================================
 # Convert to markdown
@@ -104,25 +115,34 @@ def dataframe_to_markdown(dataframe):
     markdown_table = table_header + '\n' + table_formatting + '\n' + table_body
     return markdown_table
 
-markdown_table = dataframe_to_markdown(parstats_df)
+markdown_table1 = dataframe_to_markdown(plants_parstats_df)
+markdown_table2 = dataframe_to_markdown(fems_parstats_df)
+markdown_table3 = dataframe_to_markdown(stars_parstats_df)
 
 # ==============================================================================
-# Description
+# sription
 # ==============================================================================
-desc = ''
-desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2tks)\n\n'
-desc += '## Voynich Token Frequencies (Top 1,000) \n\n'
-desc += 'Our Voynich [transcription](https://github.com/alexanderboxer/voynich-attack/tree/main/transcription) consists of 33,669 word-like units.'
-desc += ' These units are unlikely to represent words, however. More plausibly, they may encode sub-word units like bigrams, trigrams, or individual letters.'
-desc += ' For this reason, we refer to them by the more generic term “tokens.”'
-desc += ' In many instances, it is extremely difficult to determine whether a sequence of characters should be grouped into one token or split into several tokens. '
-desc += ' Consequently, there is an unavoidable element of subjectivity in all Voynich transcriptions, including this one.'
-desc += '\n\n'
+s = ''
+s += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2tks)\n\n'
+s += '## Voynich Positional Statistics \n\n'
+s += 'Text text text.'
+s += '\n\n'
+s += '### 1. Voynich Section: Plants\n'
+s += 'f1v - f57r; f87r - f102vb (335 paragraphs)\n\n'
+s += markdown_table1
+s += '\n\n'
+s += '### 2. Voynich Section: Femmes\n'
+s += 'f75r - f84v (108 paragraphs)\n\n'
+s += markdown_table2
+s += '\n\n'
+s += '### 3. Voynich Section: Stars\n'
+s += 'f103r - f116r (307 paragraphs)\n\n'
+s += markdown_table3
 
-markdown_text = desc + markdown_table
+
 
 # ==============================================================================
 # Write
 # ==============================================================================
 with open('README.md', 'w') as f:
-	f.write(markdown_text)
+	f.write(s)
