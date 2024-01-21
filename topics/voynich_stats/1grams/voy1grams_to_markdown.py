@@ -12,7 +12,7 @@ sys.path.insert(0, '../../../voynpy')
 from corpora import vms, plants1, fems, stars
 
 # ==============================================================================
-# function: ngram
+# Function: ngram
 # ==============================================================================
 def ngram(gramlist, order):
     order = max([1, order])
@@ -39,10 +39,10 @@ df['n'] = df['n'].apply(lambda x: '{:,}'.format(x))
 df['%'] = ['{:.2f}'.format(round(k,2)) for k in df['%']]
 df['✧'] = ''
 df['rank'] = [1 + k for k in range(df.shape[0])]
-df = df[['rank','gram','n','%','✧']].rename(columns = {'gram': 'All'})
+df = df[['rank','gram','n','%','✧']].rename(columns = {'gram': 'all'})
 
 subcorpus_list = [plants1, fems, stars]
-subcorpus_namelist = ['Plants<br><sub>f1v-f57r</sub>', 'Fems<br><sub>f75r-f84v</sub>', 'Stars<br><sub>f103r-f116r</sub>']
+subcorpus_namelist = ['plants<br><sub>f1v-f57r</sub>', 'fems<br><sub>f75r-f84v</sub>', 'stars<br><sub>f103r-f116r</sub>']
 
 for subcorpus, col_name in zip(subcorpus_list, subcorpus_namelist):
     qdf = ngram([k for k in subcorpus.charlist if '?' not in k], 1)
@@ -51,38 +51,7 @@ for subcorpus, col_name in zip(subcorpus_list, subcorpus_namelist):
     qdf['✧'] = ''
     qdf = qdf.rename(columns = {'gram':col_name})
     df = pd.concat([df, qdf], axis = 1)
-
-
-# df1 = plants1.chardf().copy()
-# df2 = fems.chardf().copy()
-# df3 = stars.chardf().copy()
-# dataframe_list = [df1, df2, df3]
-
-
-
-
-# corpora_list = [plants1, fems, stars]
-# dataframe_namelist = ['Plants','Fems','Stars']
-
-# df = vms.chardf().copy().rename(columns = {'gram': 'All'})
-# df['n'] = df['n'].apply(lambda x: '{:,}'.format(x))
-# df['%'] = df.pct.astype(str).apply(lambda x: x if len(x) > 0 else '')
-# df['✧'] = ''
-
-# for qdf, name in zip(dataframe_list, dataframe_namelist):
-#     qdf = qdf.reindex(range(df.shape[0]), fill_value = '').rename(columns = {'gram': name})
-#     qdf['n'] = qdf['n'].apply(lambda x: '{:,}'.format(int(x)) if x != '' else '')
-#     qdf['%'] = qdf.pct.astype(str).apply(lambda x: x if len(x) > 0 else '')
-#     qdf.drop('pct', axis = 1, inplace = True)
-#     qdf['✧'] = ''
-#     df = pd.concat([df, qdf], axis = 1)
-
-
-# df = vms.chardf().astype(str)
-# df = df[df.gram.apply(lambda x: '?' not in x)].reset_index(drop = True)
-# df['rank'] = 1 + df.index
-# df = df.set_index('rank').reset_index().rename(columns = {'pct':'%'})
-# df['n'] = df['n'].apply(lambda x: '{:,}'.format(int(x)))
+df = df.iloc[:,:-1]
 
 # ==============================================================================
 # Convert to markdown

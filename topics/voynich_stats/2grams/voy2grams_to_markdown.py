@@ -4,20 +4,54 @@ Voynich 2-grams
 # ==============================================================================
 # Imports
 # ==============================================================================
-import pandas as pd 
+import pandas as pd
+from collections import Counter 
 
 import sys
 sys.path.insert(0, '../../../voynpy')
-from corpora import vms
+from corpora import vms, plants1, fems, stars
+
+# ==============================================================================
+# Function: ngram
+# ==============================================================================
+def ngram(gramlist, order):
+    order = max([1, order])
+    N = len(gramlist)
+    seqlist = list()
+    for i in range(order):
+        start_index = i
+        stop_index = N + 1 - order + i
+        seq = gramlist[start_index: stop_index]
+        seqlist.append(seq)
+    ndf = pd.DataFrame.from_dict(Counter(zip(*seqlist)), orient = 'index').reset_index()
+    ndf.columns = ['gram', 'n']
+    ndf['gram'] = ['-'.join([*k]) for k in ndf.gram]
+    ndf = ndf.sort_values('n', ascending = False).reset_index(drop = True)
+    nsum = ndf.n.sum()
+    ndf['%'] = [100*k/nsum for k in ndf.n]
+    return ndf
 
 # ==============================================================================
 # Dataframe
 # ==============================================================================
-df = vms.chardf(2).astype(str)
-df = df[df.gram.apply(lambda x: '?' not in x)].reset_index(drop = True)
-df['rank'] = 1 + df.index
-df = df.set_index('rank').reset_index().rename(columns = {'pct':'%'})
-df['n'] = df['n'].apply(lambda x: '{:,}'.format(int(x)))
+df = ngram([k for k in vms.charlist if '?' not in k], 2)
+df['n'] = df['n'].apply(lambda x: '{:,}'.format(x))
+df['%'] = ['{:.2f}'.format(round(k,2)) for k in df['%']]
+df['✧'] = ''
+df['rank'] = [1 + k for k in range(df.shape[0])]
+df = df[['rank','gram','n','%','✧']].rename(columns = {'gram': 'all'})
+
+subcorpus_list = [plants1, fems, stars]
+subcorpus_namelist = ['plants<br><sub>f1v-f57r</sub>', 'fems<br><sub>f75r-f84v</sub>', 'stars<br><sub>f103r-f116r</sub>']
+
+for subcorpus, col_name in zip(subcorpus_list, subcorpus_namelist):
+    qdf = ngram([k for k in subcorpus.charlist if '?' not in k], 2)
+    qdf['n'] = qdf['n'].apply(lambda x: '{:,}'.format(x))
+    qdf['%'] = ['{:.2f}'.format(round(k,2)) for k in qdf['%']]
+    qdf['✧'] = ''
+    qdf = qdf.rename(columns = {'gram':col_name})
+    df = pd.concat([df, qdf], axis = 1)
+df = df.iloc[:,:-1]
 
 # ==============================================================================
 # Convert to markdown
@@ -38,7 +72,6 @@ markdown_table = dataframe_to_markdown(df)
 desc = ''
 desc += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1tks)\n\n'
 desc += '## Voynich 2-gram Frequencies\n\n'
-desc += 'Note: unclear characters (marked with `?`) are not shown in the table but they are included in the total count and `%` calculations.\n\n'
 
 markdown_text = desc + markdown_table
 
