@@ -39,6 +39,7 @@ df['n'] = df['n'].apply(lambda x: '{:,}'.format(x))
 df['%'] = ['{:.2f}'.format(round(k,2)) for k in df['%']]
 df['✧'] = ''
 df['rank'] = [1 + k for k in range(df.shape[0])]
+df['gram'] = ['**{}**'.format(k) for k in df['gram']]
 df = df[['rank','gram','n','%','✧']].rename(columns = {'gram': 'all'})
 
 subcorpus_list = [plants1, fems, stars]
@@ -49,6 +50,7 @@ for subcorpus, col_name in zip(subcorpus_list, subcorpus_namelist):
     qdf['n'] = qdf['n'].apply(lambda x: '{:,}'.format(x))
     qdf['%'] = ['{:.2f}'.format(round(k,2)) for k in qdf['%']]
     qdf['✧'] = ''
+    qdf['gram'] = ['**{}**'.format(k) for k in qdf['gram']]
     qdf = qdf.rename(columns = {'gram':col_name})
     df = pd.concat([df, qdf], axis = 1)
 df = df.iloc[:,:-1]
