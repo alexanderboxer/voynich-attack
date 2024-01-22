@@ -10,6 +10,7 @@ By all the laws of cryptology, the Voynich should have been cracked decades ago.
 1. [Voynich Stats](topics/voynich_stats/1grams)
     - Characters: [1-grams](topics/voynich_stats/1grams) •  [2-grams](topics/voynich_stats/2grams)
     - Tokens: [1-grams](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/1tks) •  [2-grams](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2tks)
+     - [Positional Ranks](topics/voynich_stats/tokens_by_position)
 1. [Reference Corpora](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/biblio)
 1. [Latin](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/1grams)
     - Letters: [1-grams](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/1grams) •  [2-grams](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/latin_stats/2grams)

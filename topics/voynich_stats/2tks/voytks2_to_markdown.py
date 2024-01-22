@@ -65,8 +65,6 @@ for subcorpus, col_name in zip(subcorpus_list, subcorpus_namelist):
 df = df.iloc[:1000,:-1]
 
 
-#df['gram'] = df['gram'].apply(lambda x: x.replace('-',' - ')) # add whitespace around hyphen for clarity
-
 # ==============================================================================
 # Convert to markdown
 # ==============================================================================
