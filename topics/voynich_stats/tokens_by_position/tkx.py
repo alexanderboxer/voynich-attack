@@ -10,7 +10,7 @@ import pandas as pd
 
 import sys
 sys.path.insert(0, '../../../voynpy')
-from corpora import plants, fems, stars
+from corpora import plants1, fems, stars
 
 # ==============================================================================
 # Function: smv
@@ -59,7 +59,6 @@ def ngram(gramlist, order):
     ndf['pct'] = ['{:.1f}'.format(round(100*k/nsum, 1)) for k in ndf.n]
     return ndf
 
-
 # ==============================================================================
 # function: tokens by position
 # ==============================================================================
@@ -70,24 +69,30 @@ def tokens_by_position(voynich_dataframe, window, depth):
     pctdf = pd.DataFrame()
     nndf = pd.DataFrame()
     for i in range(1, window + 1):
-        tkxdf['a{}'.format(i)] = ngram([k for k in vmsdf['t{}'.format(i)] if k != '$'], 1).gram.iloc[:depth]
-        tkxdf['z{}'.format(i)] = ngram([k for k in smvdf['z{}'.format(i)] if k != '$'], 1).gram.iloc[:depth]
-        pctdf['a{}'.format(i)] = ngram([k for k in vmsdf['t{}'.format(i)] if k != '$'], 1).pct.iloc[:depth]
-        pctdf['z{}'.format(i)] = ngram([k for k in smvdf['z{}'.format(i)] if k != '$'], 1).pct.iloc[:depth]
-        nndf['a{}'.format(i)] = ngram([k for k in vmsdf['t{}'.format(i)] if k != '$'], 1).n.iloc[:depth]
-        nndf['z{}'.format(i)] = ngram([k for k in smvdf['z{}'.format(i)] if k != '$'], 1).n.iloc[:depth]
+        tkxdf['x<sub>{}</sub>'.format(i)] = ngram([k for k in vmsdf['t{}'.format(i)] if k != '$'], 1).gram.iloc[:depth]
+        tkxdf['x<sub>-{}</sub>'.format(i)] = ngram([k for k in smvdf['z{}'.format(i)] if k != '$'], 1).gram.iloc[:depth]
+        tkxdf['✧'] = '…'
+        pctdf['x<sub>{}</sub>'.format(i)] = ngram([k for k in vmsdf['t{}'.format(i)] if k != '$'], 1).pct.iloc[:depth]
+        pctdf['x<sub>-{}</sub>'.format(i)] = ngram([k for k in smvdf['z{}'.format(i)] if k != '$'], 1).pct.iloc[:depth]
+        pctdf['✧'] = '…'
+        nndf['x<sub>{}</sub>'.format(i)] = ngram([k for k in vmsdf['t{}'.format(i)] if k != '$'], 1).n.iloc[:depth]
+        nndf['x<sub>-{}</sub>'.format(i)] = ngram([k for k in smvdf['z{}'.format(i)] if k != '$'], 1).n.iloc[:depth]
+        nndf['✧'] = '…'
 
-    collist = ['a{}'.format(k) for k in range(1, window + 1)] + ['z{}'.format(k) for k in range(1, window + 1)][::-1]
+    collist = ['x<sub>{}</sub>'.format(k) for k in range(1, window + 1)] + ['✧'] + ['x<sub>-{}</sub>'.format(k) for k in range(1, window + 1)][::-1]
     return tkxdf[collist], pctdf[collist], nndf[collist] 
 
 # ==============================================================================
 # Voynich sections
 # ==============================================================================
-voynich_dataframe = plants.df
+voynich_dataframe = plants1.df
 tkxdf, pctdf, nndf = tokens_by_position(voynich_dataframe, 10, 5)
 parstats_df = pd.DataFrame()
 for col in list(tkxdf.columns):
     parstats_df[col] = ['**{}**<br><sub>n={}</sub><br><sub>{}%</sub>'.format(k[0],k[2],k[1]) for k in zip(tkxdf[col], pctdf[col], nndf[col])]
+parstats_df['✧'] = '…'
+parstats_df['rank'] = [k+1 for k in range(parstats_df.shape[0])]
+parstats_df = parstats_df.set_index('rank').reset_index()
 plants_parstats_df = parstats_df
 
 voynich_dataframe = fems.df
@@ -95,6 +100,9 @@ tkxdf, pctdf, nndf = tokens_by_position(voynich_dataframe, 10, 5)
 parstats_df = pd.DataFrame()
 for col in list(tkxdf.columns):
     parstats_df[col] = ['**{}**<br><sub>n={}</sub><br><sub>{}%</sub>'.format(k[0],k[2],k[1]) for k in zip(tkxdf[col], pctdf[col], nndf[col])]
+parstats_df['✧'] = '…'
+parstats_df['rank'] = [k+1 for k in range(parstats_df.shape[0])]
+parstats_df = parstats_df.set_index('rank').reset_index()
 fems_parstats_df = parstats_df
 
 voynich_dataframe = stars.df
@@ -102,6 +110,9 @@ tkxdf, pctdf, nndf = tokens_by_position(voynich_dataframe, 10, 5)
 parstats_df = pd.DataFrame()
 for col in list(tkxdf.columns):
     parstats_df[col] = ['**{}**<br><sub>n={}</sub><br><sub>{}%</sub>'.format(k[0],k[2],k[1]) for k in zip(tkxdf[col], pctdf[col], nndf[col])]
+parstats_df['✧'] = '…'
+parstats_df['rank'] = [k+1 for k in range(parstats_df.shape[0])]
+parstats_df = parstats_df.set_index('rank').reset_index()
 stars_parstats_df = parstats_df
 
 # ==============================================================================
@@ -125,17 +136,15 @@ markdown_table3 = dataframe_to_markdown(stars_parstats_df)
 s = ''
 s += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2tks) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/biblio)\n\n'
 s += '## Voynich Positional Statistics \n\n'
-s += 'Text text text.'
-s += '\n\n'
-s += '### 1. Voynich Section: Plants\n'
-s += 'f1v - f57r; f87r - f102vb (335 paragraphs)\n\n'
+s += '### Plants\n'
+s += 'f1v - f57r (215 paragraphs)\n\n'
 s += markdown_table1
 s += '\n\n'
-s += '### 2. Voynich Section: Femmes\n'
+s += '### Fems\n'
 s += 'f75r - f84v (108 paragraphs)\n\n'
 s += markdown_table2
 s += '\n\n'
-s += '### 3. Voynich Section: Stars\n'
+s += '### Stars\n'
 s += 'f103r - f116r (307 paragraphs)\n\n'
 s += markdown_table3
 
