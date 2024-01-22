@@ -123,7 +123,7 @@ markdown_table3 = dataframe_to_markdown(stars_parstats_df)
 # sription
 # ==============================================================================
 s = ''
-s += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2grams) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2tks)\n\n'
+s += '[⇦ Back](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/voynich_stats/2tks) | [Table of Contents](https://github.com/alexanderboxer/voynich-attack) | [Next ⇨](https://github.com/alexanderboxer/voynich-attack/tree/main/topics/biblio)\n\n'
 s += '## Voynich Positional Statistics \n\n'
 s += 'Text text text.'
 s += '\n\n'
