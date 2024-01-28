@@ -118,8 +118,8 @@ heb = reftext.from_txt(hebpath, language = 'hebrew')
 # English
 #----------
 # chaucer: canterbury tales, etc.
-chaucerpath = '../corpora/english/chaucer/chaucer_lat0.txt'
-chaucer = reftext.from_txt(chaucerpath, language = 'english')
+chaucerpath = '../corpora/english/chaucer/chaucer.csv'
+chaucer = reftext.from_textstring_csv(chaucerpath, language = 'english', read_from_col = 1, comma_split_tokens = False)
 
 # wycliffe bible
 wycliffepath = '../corpora/english/wycliffe/wycliffe_lat0.txt'

@@ -15,7 +15,7 @@ import sys
 basename = 'chaucer'
 input_directory = '.'
 input_filepath = os.path.join(input_directory, basename + '_edited.txt')
-export_flag = 1
+export_flag = 0
 
 # ==============================================================================
 # Read
