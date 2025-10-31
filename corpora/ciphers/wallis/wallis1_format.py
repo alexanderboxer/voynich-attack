@@ -4,65 +4,68 @@ Smooth and export a given text: Pantagruel + Gargantua
 # ==============================================================================
 # Import modules
 # ==============================================================================
-import re 
-import sys 
+import re
 import json
 import pandas as pd
 
 # ==============================================================================
-# Read text 
+# Load data
 # ==============================================================================
 df0 = pd.read_csv('wallis1.csv').fillna('$')
+kdf = pd.read_csv('wallis1_key.csv')
 
 # ==============================================================================
 # Token list
 # ==============================================================================
-tklist = [str(k) for k in df0.values.flatten() if k != '$']
-tklist = [re.sub('\.0', '', k) for k in tklist] # fix entries that for some reason are read as floats 
+tklist0 = [str(k) for k in df0.values.flatten() if k != '$']
+tklist0 = [re.sub('\.0', '', k) for k in tklist0] # fix entries that for some reason are read as floats 
+
+# modify
+tklist = [k.replace("u","").replace("’","'") for k in tklist0] # remove underlines and apostrophes
+
+# hand corrections
+tklist[223] = '370' # was 170
+tklist[263] = '436' # was 426
+tklist[307] = '43' # was 49
+tklist[1087] = '290' # was 280
+tklist[1354] = '331' # (ri) was 342 (ti)
+
+# ==============================================================================
+# Key dictionary
+# ==============================================================================
+key_dict = kdf.astype(str).set_index('cipher').val.to_dict()
+
+# additions:
+key_dict.update({
+    "11'": "un",
+    "12'": "deux",
+    "14'": "quatre",
+    "16'": "six",
+    "17'": "septem",
+    "19'": "neuf",
+    "20'": "dix",
+    "30'": "vingt",
+    "ψ": "s",
+    "380": "pall", # not present in the original key, but present in the original decryption
+    "437": "ha", # not present in the original key, but present in the original decryption
+})
+
+# ==============================================================================
+# Plaintext
+# ==============================================================================
+plaintext = [key_dict[k] if k in key_dict.keys() else 'unk' for k in tklist]
+ciphertuples = [(k[0],k[1],k[2]) for k in zip(range(len(tklist)), tklist, plaintext)]
+
+'''
+for tpl in ciphertuples:
+    print(tpl)
+'''
 
 # ==============================================================================
 # Character list
 # ==============================================================================
-replacement_dict = {
-    '1u’': 'A',
-    '2u’': 'B',
-    '3u’': 'C',
-    '4u’': 'D',
-    '5u’': 'E',
-    '6u’': 'F',
-    '7u’': 'G',
-    '8u’': 'H',
-    '9u’': 'I',
-    '0u’': 'J',
-    '1’': 'a',
-    '2’': 'b',
-    '3’': 'c',
-    '4’': 'd',
-    '5’': 'e',
-    '6’': 'f',
-    '7’': 'g',
-    '8’': 'h',
-    '9’': 'i',
-    '0’': 'j',
-    '1u': 'k',
-    '2u': 'l',
-    '3u': 'm',
-    '4u': 'n',
-    '5u': 'o',
-    '6u': 'p',
-    '7u': 'q',
-    '8u': 'r',
-    '9u': 's',
-    '0u': 't',
-}
+charlist = [k for k in ''.join(tklist)]
 
-tklist_mod = tklist
-for key, val in replacement_dict.items():
-    tklist_mod = [re.sub(key, val, k) for k in tklist_mod]
-
-charlist = [k for k in ''.join(tklist_mod)]
-for key, val in replacement_dict.items():
-    charlist = [re.sub(val, key, k) for k in charlist]
 
 # ==============================================================================
 # Export as json
@@ -70,7 +73,9 @@ for key, val in replacement_dict.items():
 wallis1_dict = {
     'tklist': tklist,
     'charlist': charlist,
+    'key': key_dict,
 }
+
 
 j = json.dumps(wallis1_dict)
 with open('wallis1.json', 'w') as f:
