@@ -66,6 +66,33 @@ for tpl in ciphertuples:
 # ==============================================================================
 charlist = [k for k in ''.join(tklist)]
 
+# ==============================================================================
+# Alpha tokens
+# ==============================================================================
+def tk2alpha(tk):
+
+    alpha_dict = {
+        "0": "zero",
+        "1": "one",
+        "2": "two",
+        "3": "three",
+        "4": "four",
+        "5": "five",
+        "6": "six",
+        "7": "seven",
+        "8": "eight",
+        "9": "nine",
+        "'": "prime", 
+        "ψ": "psi",
+    }
+
+    tkalpha = ''.join([alpha_dict[k] if k in alpha_dict.keys() else 'Q' for k in tk])
+    return tkalpha 
+
+alpha_tklist = [tk2alpha(k) for k in tklist]
+alpha_keys = [tk2alpha(k) for k in key_dict.keys()]
+alpha_key_dict = dict(zip(alpha_keys, key_dict.values()))
+
 
 # ==============================================================================
 # Export as json
@@ -74,8 +101,9 @@ wallis1_dict = {
     'tklist': tklist,
     'charlist': charlist,
     'key': key_dict,
+    'alpha_tklist': alpha_tklist,
+    'alpha_key': alpha_key_dict
 }
-
 
 j = json.dumps(wallis1_dict)
 with open('wallis1.json', 'w') as f:
