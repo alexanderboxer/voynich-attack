@@ -7,7 +7,7 @@ Voynich reference text instances
 import os
 import json 
 import pandas as pd
-import reftext
+from . import reftext
 
 # ==============================================================================
 # Navigate to this module's directory
