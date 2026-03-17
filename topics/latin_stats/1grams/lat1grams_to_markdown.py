@@ -6,9 +6,7 @@ Latin 1-grams
 # ==============================================================================
 import pandas as pd 
 
-import sys
-sys.path.insert(0, '../../../voynpy')
-from corpora import caesar, vitruvius, celsus, pliny
+from voynpy.corpora import caesar, vitruvius, celsus, pliny
 
 # ==============================================================================
 # Combine dataframes

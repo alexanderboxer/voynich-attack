@@ -8,9 +8,7 @@ import re
 from collections import Counter
 import pandas as pd 
 
-import sys
-sys.path.insert(0, '../../../voynpy')
-from corpora import plants1, fems, stars
+from voynpy.corpora import plants1, fems, stars
 
 # ==============================================================================
 # Function: smv

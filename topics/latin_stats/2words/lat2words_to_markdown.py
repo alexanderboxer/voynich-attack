@@ -6,9 +6,7 @@ Latin 2-words
 # ==============================================================================
 import pandas as pd 
 
-import sys
-sys.path.insert(0, '../../../voynpy')
-from corpora import caesar, vitruvius, celsus, pliny, latin
+from voynpy.corpora import caesar, vitruvius, celsus, pliny, latin
 
 # ==============================================================================
 # Combine dataframes

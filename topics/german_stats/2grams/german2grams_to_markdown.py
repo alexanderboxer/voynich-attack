@@ -6,9 +6,7 @@ German 2-grams
 # ==============================================================================
 import pandas as pd 
 
-import sys
-sys.path.insert(0, '../../../voynpy')
-from corpora import simp, kuche, promptuarium, german
+from voynpy.corpora import simp, kuche, promptuarium, german
 
 # ==============================================================================
 # Combine dataframes

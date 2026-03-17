@@ -7,9 +7,7 @@ Voynich 2-grams
 import pandas as pd
 from collections import Counter 
 
-import sys
-sys.path.insert(0, '../../../voynpy')
-from corpora import vms, plants1, fems, stars
+from voynpy.corpora import vms, plants1, fems, stars
 
 # ==============================================================================
 # Function: ngram

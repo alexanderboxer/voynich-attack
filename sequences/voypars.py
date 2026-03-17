@@ -5,10 +5,8 @@ Create a csv of Voynich paragraphs
 # Import
 # ==============================================================================
 import re
-import sys
 
-sys.path.insert(0, '../voynpy')
-from corpora import vms
+from voynpy.corpora import vms
 
 # ==============================================================================
 # Create a dataframe of Voynich paragraphs

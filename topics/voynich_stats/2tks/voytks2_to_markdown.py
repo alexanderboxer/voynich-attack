@@ -4,21 +4,10 @@ Voynich 2-tokens
 # ==============================================================================
 # Imports
 # ==============================================================================
-import pandas as pd 
-
-import sys
-sys.path.insert(0, '../../../voynpy')
-from corpora import vms
-
-# ==============================================================================
-# Imports
-# ==============================================================================
 import pandas as pd
-from collections import Counter  
+from collections import Counter
 
-import sys
-sys.path.insert(0, '../../../voynpy')
-from corpora import vms, plants1, fems, stars
+from voynpy.corpora import vms, plants1, fems, stars
 
 # ==============================================================================
 # Function: ngram
