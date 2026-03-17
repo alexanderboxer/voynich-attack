@@ -9,15 +9,14 @@ Voynich-attack is a Python cryptanalysis research project for analyzing the Voyn
 ## Setup
 
 ```bash
-pip install -e .           # Install voynpy package in development mode
-pip install -r requirements.txt  # Install dependencies (pandas, numpy, matplotlib, IPython)
+pip install -e .           # Install voynpy package in development mode (includes all dependencies)
 ```
 
 Requires Python 3.12+.
 
 ## Running Scripts
 
-Scripts must be run from their own directory due to relative path dependencies:
+Scripts must be run from their own directory due to relative output paths:
 
 ```bash
 cd sequences && python voypars.py        # Generate paragraph-level CSV
@@ -47,4 +46,4 @@ Statistical report scripts in `topics/` subdirectories follow the same pattern. 
 
 ### Path Conventions
 
-Scripts use `sys.path.insert(0, '<relative-path-to-voynpy>')` to locate the package. Nesting depth varies (e.g., `'../voynpy'` in sequences/, `'../../../voynpy'` in deep topic directories).
+Scripts import from the installed `voynpy` package (e.g., `from voynpy.corpora import vms`). They write output files (like `README.md`) to the current working directory, so they must be run from their own directory.
