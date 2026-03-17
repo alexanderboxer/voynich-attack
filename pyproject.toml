@@ -9,6 +9,9 @@ dependencies = [
     "IPython",
 ]
 
+[project.optional-dependencies]
+dev = ["pytest"]
+
 [build-system]
 requires = ["setuptools>=68.0"]
 build-backend = "setuptools.build_meta"
