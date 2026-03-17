@@ -81,7 +81,7 @@ def from_csv(filepath, language, read_from_col = 0, comma_split_tokens = False):
 
 def from_textstring_csv(filepath, language, read_from_col = 0, comma_split_tokens = False):
     dataframe = pd.read_csv(filepath, dtype = str, keep_default_na = False)
-    textstring =  dataframe.iloc[:,read_from_col:].astype(str).apply(' '.join)[0]
+    textstring =  dataframe.iloc[:,read_from_col:].astype(str).apply(' '.join).iloc[0]
     tklist = [''.join([k for k in word if k.isalpha()]) for word in textstring.split()]
     if comma_split_tokens:
         charlist = ','.join(tklist).split(',')
@@ -93,7 +93,7 @@ def from_textstring_csv(filepath, language, read_from_col = 0, comma_split_token
 
 def from_textstring_csv_var1(filepath, language, read_from_col = 0, comma_split_tokens = False):
     dataframe = pd.read_csv(filepath, dtype = str, keep_default_na = False)
-    textstring =  dataframe.iloc[:,read_from_col:].astype(str).apply(' '.join)[0]
+    textstring =  dataframe.iloc[:,read_from_col:].astype(str).apply(' '.join).iloc[0]
     tklist = [''.join([k for k in word if (k.isalpha() or k == '&')]) for word in textstring.split()]
     tklist = [k for k in tklist if k != '']
     if comma_split_tokens:
