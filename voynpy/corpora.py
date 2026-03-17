@@ -4,23 +4,21 @@ Voynich reference text instances
 # ==============================================================================
 # Import
 # ==============================================================================
-import os
-import json 
+import json
+from pathlib import Path
 import pandas as pd
 from . import reftext
 
 # ==============================================================================
-# Navigate to this module's directory
+# Root directory of the repository
 # ==============================================================================
-cwd = os.getcwd()
-module_path = os.path.dirname(os.path.realpath(__file__))
-os.chdir(module_path)
+_root = Path(__file__).resolve().parent.parent
 
 # ==============================================================================
 # Instantiate Reftext objects
 # ==============================================================================
 # vms: full Voynich
-vmspath = '../transcription/vms.csv'
+vmspath = _root / 'transcription/vms.csv'
 vms = reftext.from_csv(vmspath, language = 'voynich', read_from_col = 3, comma_split_tokens = True)
 
 # vms1: Voynich up to f103r
@@ -59,13 +57,13 @@ plants_df = pd.concat([plants1_df, plants2_df])
 plants = reftext.from_dataframe(plants_df, language = 'voynich', read_from_col = 3, comma_split_tokens = True) 
 
 # R7
-r7path = '../corpora/misc/stars/R7.csv'
+r7path = _root / 'corpora/misc/stars/R7.csv'
 r7 = reftext.from_csv(r7path, language = 'voynich', read_from_col = 4, comma_split_tokens = True)
 r7.df.columns = ['folio','side','par','line'] + ['t{}'.format(k + 1) for k in range(r7.df.shape[1] - 4)]
 r7.df = r7.df.fillna('$')
 
 # W7
-w7path = '../corpora/misc/stars/W7.csv'
+w7path = _root / 'corpora/misc/stars/W7.csv'
 w7 = reftext.from_csv(w7path, language = 'voynich', read_from_col = 4, comma_split_tokens = True)
 w7.df.columns = ['folio','side','par','line'] + ['t{}'.format(k + 1) for k in range(w7.df.shape[1] - 4)]
 w7.df = w7.df.fillna('$')
@@ -74,19 +72,19 @@ w7.df = w7.df.fillna('$')
 # Latin
 #----------
 # Caesar: De bello gallico
-caesarpath = '../corpora/latin/caesar/caesar_lat0.csv'
+caesarpath = _root / 'corpora/latin/caesar/caesar_lat0.csv'
 caesar = reftext.from_textstring_csv(caesarpath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
 # Vitruvius: De architectura
-vitruviuspath = '../corpora/latin/vitruvius/vitruvius_lat0.csv'
+vitruviuspath = _root / 'corpora/latin/vitruvius/vitruvius_lat0.csv'
 vitruvius = reftext.from_textstring_csv(vitruviuspath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
 # Celsus: De medicina
-celsuspath = '../corpora/latin/celsus/celsus_lat0.csv'
+celsuspath = _root / 'corpora/latin/celsus/celsus_lat0.csv'
 celsus = reftext.from_textstring_csv(celsuspath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
 # Pliny: Naturalis historia
-plinypath = '../corpora/latin/pliny/pliny_lat0.csv'
+plinypath = _root / 'corpora/latin/pliny/pliny_lat0.csv'
 pliny = reftext.from_textstring_csv(plinypath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
 # Latin: all texts
@@ -111,53 +109,53 @@ latin.df = latin_df
 # Hebrew
 #----------
 # heb: Torah
-hebpath = '../corpora/hebrew/torah/torah.txt'
+hebpath = _root / 'corpora/hebrew/torah/torah.txt'
 heb = reftext.from_txt(hebpath, language = 'hebrew')
 
 #----------
 # English
 #----------
 # chaucer: canterbury tales, etc.
-chaucerpath = '../corpora/english/chaucer/chaucer.csv'
+chaucerpath = _root / 'corpora/english/chaucer/chaucer.csv'
 chaucer = reftext.from_textstring_csv(chaucerpath, language = 'english', read_from_col = 1, comma_split_tokens = False)
 
 # wycliffe bible
-wycliffepath = '../corpora/english/wycliffe/wycliffe_lat0.txt'
+wycliffepath = _root / 'corpora/english/wycliffe/wycliffe_lat0.txt'
 wycliffe = reftext.from_txt(wycliffepath, language = 'english')
 
 #----------
 # German
 #----------
 # Simplicissimus  (utf8)
-simppath = '../corpora/german/simplicissimus/simplicissimus.csv'
+simppath = _root / 'corpora/german/simplicissimus/simplicissimus.csv'
 simp = reftext.from_textstring_csv(simppath, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
 # Simplicissimus  (lat0)
-simp0path = '../corpora/german/simplicissimus/simplicissimus_lat0.csv'
+simp0path = _root / 'corpora/german/simplicissimus/simplicissimus_lat0.csv'
 simp0 = reftext.from_textstring_csv(simp0path, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
 # Promptuarium medicinae  (lat0)
-promptuariumpath = '../corpora/german/promptuarium_medicinae/promptuarium1483.csv'
+promptuariumpath = _root / 'corpora/german/promptuarium_medicinae/promptuarium1483.csv'
 promptuarium = reftext.from_textstring_csv(promptuariumpath, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
 # kuchemaistrey (lat1)
-kuchepath = '../corpora/german/kuchemaistrey/kuchemaistrey1490.csv'
+kuchepath = _root / 'corpora/german/kuchemaistrey/kuchemaistrey1490.csv'
 kuche = reftext.from_textstring_csv(kuchepath, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
 # splendor solis (lat1)
-splendorpath = '../corpora/german/splendor_solis_1590/splendor_solis_lat1.csv'
+splendorpath = _root / 'corpora/german/splendor_solis_1590/splendor_solis_lat1.csv'
 splendor = reftext.from_textstring_csv(splendorpath, language = 'german', read_from_col = 0, comma_split_tokens = False)
 
 # splendor solis (lat0)
-splendorpath0 = '../corpora/german/splendor_solis_1590/splendor_solis_lat0.csv'
+splendorpath0 = _root / 'corpora/german/splendor_solis_1590/splendor_solis_lat0.csv'
 splendor0 = reftext.from_textstring_csv_lat0(splendorpath0, language = 'german')
 
 # refFNHD miscellany
-refFNHDpath = '../corpora/german/refFNHD/refFNHD.csv'
+refFNHDpath = _root / 'corpora/german/refFNHD/refFNHD.csv'
 refFNHD = reftext.from_textstring_csv_lat0(refFNHDpath, language = 'german')
 
 # luther september bible (lat0)
-lutherpath = '../corpora/german/luther_newe_testament/luther_nt22_lat0.csv'
+lutherpath = _root / 'corpora/german/luther_newe_testament/luther_nt22_lat0.csv'
 luther = reftext.from_textstring_csv_var1(lutherpath, language = 'german', read_from_col = 3, comma_split_tokens = False)
 
 # German: all texts
@@ -183,7 +181,7 @@ german.df = german_df
 # French
 #----------
 # Rabelais: Pantagruel + Gargantual
-rabelaispath = '../corpora/french/rabelais/rabelais.csv'
+rabelaispath = _root / 'corpora/french/rabelais/rabelais.csv'
 rabelais = reftext.from_textstring_csv_var1(rabelaispath, language = 'french', read_from_col = 3, comma_split_tokens = False)
 
 
@@ -191,14 +189,14 @@ rabelais = reftext.from_textstring_csv_var1(rabelaispath, language = 'french', r
 # Spanish
 #----------
 # Cervantes: Don Quixote
-quixotepath = '../corpora/spanish/quixote/quixote_lat0.csv'
+quixotepath = _root / 'corpora/spanish/quixote/quixote_lat0.csv'
 quixote = reftext.from_textstring_csv_var1(quixotepath, language = 'spanish', read_from_col = 3, comma_split_tokens = False)
 
 
 #----------
 # Ciphers
 #----------
-wallis1path = '../corpora/ciphers/wallis/wallis1.json'
+wallis1path = _root / 'corpora/ciphers/wallis/wallis1.json'
 with open(wallis1path, 'r') as f:
     j = json.load(f)
 wallis1 = reftext.RefText('cipher', tklist = j['tklist'], charlist = j['charlist'])
@@ -207,11 +205,7 @@ wallis1 = reftext.RefText('cipher', tklist = j['tklist'], charlist = j['charlist
 # Enochian
 #----------
 # enoch: MS 3188 Enochian 
-enochpath = '../corpora/enochian/ms3188.csv'
+enochpath = _root / 'corpora/enochian/ms3188.csv'
 enoch = reftext.from_csv(enochpath, language = 'enochian', read_from_col = 2, comma_split_tokens = False)
 
-# ==============================================================================
-# Navigate back to the original working directory
-# ==============================================================================
-os.chdir(cwd)
 

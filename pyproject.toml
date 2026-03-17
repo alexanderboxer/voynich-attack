@@ -3,8 +3,11 @@ name = "voynich-attack"
 version = "0.1.0"
 description = "Voynich manuscript analysis tools"
 requires-python = ">=3.12"
-# No deps here — root project controls all versions
-dependencies = []
+dependencies = [
+    "numpy",
+    "pandas",
+    "IPython",
+]
 
 [build-system]
 requires = ["setuptools>=68.0"]
