@@ -113,3 +113,24 @@ def from_textstring_csv_lat0(filepath, language):
     reftext = RefText(language, tklist, charlist)
     reftext.df = dataframe
     return reftext
+
+def from_mapped(source_reftext, char_map, language):
+    new_charlist = [char_map.get(c, c) for c in source_reftext.charlist]
+    new_tklist = []
+    for tk in source_reftext.tklist:
+        parts = tk.split(',')
+        mapped_parts = [char_map.get(p, p) for p in parts]
+        new_tklist.append(','.join(mapped_parts))
+    mapped_reftext = RefText(language, new_tklist, new_charlist)
+    if hasattr(source_reftext, 'df'):
+        df = source_reftext.df.copy()
+        def _map_cell(cell):
+            if not isinstance(cell, str) or cell == '$':
+                return cell
+            parts = cell.split(',')
+            return ','.join(char_map.get(p, p) for p in parts)
+        token_cols = [c for c in df.columns if c.startswith('t') and c[1:].isdigit()]
+        for col in token_cols:
+            df[col] = df[col].map(_map_cell)
+        mapped_reftext.df = df
+    return mapped_reftext
