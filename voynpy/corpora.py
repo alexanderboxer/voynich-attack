@@ -68,11 +68,17 @@ w7 = reftext.from_csv(w7path, language = 'voynich', read_from_col = 4, comma_spl
 w7.df.columns = ['folio','side','par','line'] + ['t{}'.format(k + 1) for k in range(w7.df.shape[1] - 4)]
 w7.df = w7.df.fillna('$')
 
-# vms_unicode: Voynich with PUA Unicode mapping
+# vms_unicode: Voynich with PUA Unicode mapping (Supplementary PUA-B, U+FF400–FF51F)
 unicode_dict_path = _root / 'transcription/unicode_dict.json'
 with open(unicode_dict_path, 'r') as f:
     _unicode_char_map = json.load(f)
 vms_unicode = reftext.from_mapped(vms, _unicode_char_map, language='voynich_unicode')
+
+# vms_unicode_bmp: Voynich with BMP PUA mapping (U+E000–E11F)
+unicode_dict_bmp_path = _root / 'transcription/unicode_dict_bmp.json'
+with open(unicode_dict_bmp_path, 'r') as f:
+    _unicode_char_map_bmp = json.load(f)
+vms_unicode_bmp = reftext.from_mapped(vms, _unicode_char_map_bmp, language='voynich_unicode_bmp')
 
 
 #----------
