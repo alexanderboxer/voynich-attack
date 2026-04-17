@@ -1,0 +1,5 @@
+id,rule,source,scope,status,notes
+1,"9,[interior],9 ≡ o,[interior],x",9...9 / o...x frame analysis,global,confirmed,"9 shared-interior pairs, 0 constraint violations"
+2,"[prefix],c,9 ≡ [prefix],2,8",105v.1 vs 105v.3 token 3,global,hypothesis,"6 of 7 ...2,8 tokens have a ...c,9 partner"
+3,"9,N,[suffix] ≡ a,Z,[suffix]",105v.1 vs 105v.3 token 4,initial position,hypothesis,"16 partner pairs found"
+4,"4,o,[X] ≡ [X]  (4,o is delimiter)",4,o delimiter analysis,global,confirmed,"397 pairs checked, 0 true violations, 396 tokens eliminated"

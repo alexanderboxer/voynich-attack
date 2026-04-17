@@ -1,0 +1,897 @@
+EXCLUSION CONSTRAINTS FROM DOUBLED-TOKEN ADJACENCY
+If X doubles but never triples, then tokens adjacent to XX cannot encode the same letter as X.
+If X triples, we use the weaker no-quadruple constraint.
+Total exclusion pairs: 413
+====================================================================================================
+
+cc,o,x  (doubles=23, freq=349) TRIPLES
+  Constraint: quad only | Excluded partners: 36
+    ≠ c^c,o,x                             (before x1, after x1)
+    ≠ c,M,c,a,m                           (before x1, after x1)
+    ≠ N,o,Z                               (after x2)
+    ≠ cc,o,8,9                            (after x2)
+    ≠ c,M,c,9                             (after x2)
+    ≠ 8,a,m                               (after x2)
+    ≠ N,o,x                               (before x1)
+    ≠ o,N,cc,o,x,N,c^c                    (before x1)
+    ≠ 4,o                                 (before x1)
+    ≠ o,M,cc,o,x,o,c,M,c,o,x              (before x1)
+    ≠ 2                                   (before x1)
+    ≠ 8,a,Z,9                             (before x1)
+    ≠ o,N,9                               (before x1)
+    ≠ o,N,a,x                             (before x1)
+    ≠ 4,o,N,a,m                           (before x1)
+    ≠ cc,c,M,9                            (before x1)
+    ≠ o                                   (before x1)
+    ≠ o,Z                                 (before x1)
+    ≠ o,cc,c,9                            (before x1)
+    ≠ o,M,cc,o,x                          (before x1)
+    ≠ 2,o,N,cc,o,x                        (before x1)
+    ≠ o,M,a,Z                             (before x1)
+    ≠ 4,o,N,cc,o,8,9                      (before x1)
+    ≠ c^c,o,N                             (before x1)
+    ≠ c^c,o,x,8,9                         (before x1)
+    ≠ c,M,cc,9                            (after x1)
+    ≠ 8,x                                 (after x1)
+    ≠ cc,o,N,9                            (after x1)
+    ≠ 9,N,a,m                             (after x1)
+    ≠ cc,o,Z                              (after x1)
+    ≠ 8,a,n                               (after x1)
+    ≠ c,N,c,o,x                           (after x1)
+    ≠ 4,o,M,cc,c,9                        (after x1)
+    ≠ N,a,Q                               (after x1)
+    ≠ 4,o,N,9                             (after x1)
+    ≠ 9,N,c,c,o,x                         (after x1)
+
+4,o,N,c,c,8,9  (doubles=19, freq=307) TRIPLES
+  Constraint: quad only | Excluded partners: 32
+    ≠ 4,o,N,c,8,9                         (before x2, after x1)
+    ≠ 4,o,M,c,8,9                         (before x1, after x1)
+    ≠ cc,c,8,9                            (after x2)
+    ≠ x,o,x                               (before x1)
+    ≠ x,c^c,c,c,9                         (before x1)
+    ≠ cc,c,c,o,x                          (before x1)
+    ≠ o,M,a,Z,a,Q                         (before x1)
+    ≠ 2,o,x,N,c,c,8,9                     (before x1)
+    ≠ M,c,c,8,9                           (before x1)
+    ≠ 4,o,N,c^c,9                         (before x1)
+    ≠ o,M,c^c,c,8,9                       (before x1)
+    ≠ x,cc,c,8,9                          (before x1)
+    ≠ 8,c^c,c,o,x                         (before x1)
+    ≠ c^c,c,c,a,x                         (before x1)
+    ≠ c^c,c,a,x                           (before x1)
+    ≠ cc,c,o,x                            (before x1)
+    ≠ M,c,c,9                             (before x1)
+    ≠ o,M,c,8,a,n                         (before x1)
+    ≠ 4,o,N,a,Z                           (after x1)
+    ≠ 4,o,M,a,x                           (after x1)
+    ≠ 4,o,M,c,c,9                         (after x1)
+    ≠ 4,o,M,a,n                           (after x1)
+    ≠ 2,a,m                               (after x1)
+    ≠ 8,N,c,8,9                           (after x1)
+    ≠ cc,2,M,9                            (after x1)
+    ≠ c^c,o,x                             (after x1)
+    ≠ x,cc,8,9                            (after x1)
+    ≠ 4,o,N,c,o                           (after x1)
+    ≠ cc,c,9                              (after x1)
+    ≠ 4,o,M,c,9                           (after x1)
+    ≠ 4,o,N,c,9                           (after x1)
+    ≠ cc,c,a,x                            (after x1)
+
+8,a,m  (doubles=16, freq=794) 
+  Constraint: no triple | Excluded partners: 30
+    ≠ c,M,c,a,n                           (before x1, after x1)
+    ≠ 4,o,M,cc,9                          (before x1, after x1)
+    ≠ 9,M,o,Z                             (before x1)
+    ≠ 4,o,M,o,x                           (before x1)
+    ≠ cc,o,x                              (before x1)
+    ≠ cc,o                                (before x1)
+    ≠ 4,o,M,c^c,c,9                       (before x1)
+    ≠ o,M,cc,o,x                          (before x1)
+    ≠ o,N,c,c,9                           (before x1)
+    ≠ o,9,M,c,c,9                         (before x1)
+    ≠ c,P2,c,9                            (before x1)
+    ≠ 2,a,i,Z,o,x                         (before x1)
+    ≠ cc,c,c,N,9                          (before x1)
+    ≠ cc,o,8,9                            (before x1)
+    ≠ M,o,x                               (before x1)
+    ≠ 2,o,Z,a,Z,9                         (before x1)
+    ≠ o,M,cc,o,Z                          (after x1)
+    ≠ cc,M,9                              (after x1)
+    ≠ 4,o,N,cc,o                          (after x1)
+    ≠ cc,N,a,m                            (after x1)
+    ≠ c,M,c,o                             (after x1)
+    ≠ 8,a,n                               (after x1)
+    ≠ o,8,9                               (after x1)
+    ≠ 9                                   (after x1)
+    ≠ 8,a,x                               (after x1)
+    ≠ 9,M,c,c,2                           (after x1)
+    ≠ c^c,o,x                             (after x1)
+    ≠ 8,a,m,o,8,9                         (after x1)
+    ≠ 8,c,c,a,Q,cc,o,x                    (after x1)
+    ≠ cc,c,o,c,M,c,9                      (after x1)
+
+o,x  (doubles=12, freq=485) TRIPLES
+  Constraint: quad only | Excluded partners: 19
+    ≠ o,x,a,m                             (after x2)
+    ≠ a,Z                                 (before x1)
+    ≠ 4,o,M,cc,o,8,9                      (before x1)
+    ≠ a,n                                 (before x1)
+    ≠ cc,c,2                              (before x1)
+    ≠ x,cc,c,o,x                          (before x1)
+    ≠ cc,N,a,n                            (before x1)
+    ≠ o,cc,c,c,9                          (before x1)
+    ≠ 4,o,N,a,n                           (before x1)
+    ≠ o,N,c,c,9                           (before x1)
+    ≠ 9,a,m                               (before x1)
+    ≠ 8,o,x                               (after x1)
+    ≠ cc,c,9                              (after x1)
+    ≠ c^c,c,c,8,9                         (after x1)
+    ≠ 2,o,x,o,Z                           (after x1)
+    ≠ c^c,c,c,9                           (after x1)
+    ≠ cc,c,8,9                            (after x1)
+    ≠ o                                   (after x1)
+    ≠ c,c,M,c,9                           (after x1)
+
+4,o,N,c,8,9  (doubles=12, freq=267) TRIPLES
+  Constraint: quad only | Excluded partners: 16
+    ≠ 4,o,N,c,c,8,9                       (before x1, after x1)
+    ≠ c^c,c,c,N,c,9                       (before x2)
+    ≠ o,M,c,8,9                           (before x2)
+    ≠ 8,a,x                               (before x1, after x1)
+    ≠ 4,o,N,9                             (before x1)
+    ≠ c^c,c,9                             (before x1)
+    ≠ c^c,c,8,9                           (before x1)
+    ≠ a,x                                 (before x1)
+    ≠ 4,o,N,a,n                           (after x1)
+    ≠ 4,o,N,a,x,9                         (after x1)
+    ≠ x,c^c,c,c,N,c,9                     (after x1)
+    ≠ 2                                   (after x1)
+    ≠ 8,a,Z                               (after x1)
+    ≠ cc,c,N,c,9                          (after x1)
+    ≠ o,M,a,m                             (after x1)
+    ≠ 4,o,N,a,x                           (after x1)
+
+4,o,N,c,c,9  (doubles=12, freq=301) 
+  Constraint: no triple | Excluded partners: 21
+    ≠ cc,c,8,9                            (before x3, after x1)
+    ≠ 4,o,N,c,c,8                         (before x1)
+    ≠ 4,o,x,cc,c,9                        (before x1)
+    ≠ c^c,c,8,9                           (before x1)
+    ≠ 4,o,M,o,x,a,m                       (before x1)
+    ≠ 8,9                                 (before x1)
+    ≠ a,Z,o,8,9                           (before x1)
+    ≠ 4,o                                 (before x1)
+    ≠ 4,o,M,c,9                           (before x1)
+    ≠ x,o,M,9                             (before x1)
+    ≠ o,M,c,9                             (after x1)
+    ≠ o,x                                 (after x1)
+    ≠ c^c,N,cc,9                          (after x1)
+    ≠ x,cc,c,8,9                          (after x1)
+    ≠ 8,a,m                               (after x1)
+    ≠ P2,o,Z,a,n                          (after x1)
+    ≠ 4,o,N,c,c,8,9                       (after x1)
+    ≠ o,M,c,8,9                           (after x1)
+    ≠ Z,a,x                               (after x1)
+    ≠ x,a,c,8,9                           (after x1)
+    ≠ cc,8,a,x,9                          (after x1)
+
+cc,c,8,9  (doubles=10, freq=487) 
+  Constraint: no triple | Excluded partners: 19
+    ≠ o,N,a,n                             (before x2)
+    ≠ 4,o,N,c,8,9                         (before x1)
+    ≠ 4,o,N,o,x                           (before x1)
+    ≠ 4,o,N,a,x                           (before x1)
+    ≠ o,N,a,x                             (before x1)
+    ≠ 4,o,N,8,9                           (before x1)
+    ≠ cc,c,8                              (before x1)
+    ≠ x                                   (before x1)
+    ≠ o,N,o,x                             (before x1)
+    ≠ 4,o,N,a,n                           (after x1)
+    ≠ x,cc,9                              (after x1)
+    ≠ 8,a,m                               (after x1)
+    ≠ o,x,4,o,N,a,Z                       (after x1)
+    ≠ 8,a,x                               (after x1)
+    ≠ 4,o,M,a,Z                           (after x1)
+    ≠ M,c,c,9                             (after x1)
+    ≠ cc,c,8,9,M,c,o,N,a,n                (after x1)
+    ≠ M,c,c,8,9                           (after x1)
+    ≠ 2,o,Z                               (after x1)
+
+a,Z  (doubles=9, freq=267) 
+  Constraint: no triple | Excluded partners: 18
+    ≠ 2                                   (before x1)
+    ≠ N,a,Z                               (before x1)
+    ≠ o,M,c,a,Z                           (before x1)
+    ≠ c^c,c,9                             (before x1)
+    ≠ x,N,a,i,Z                           (before x1)
+    ≠ 9,N,c,8,o,Z                         (before x1)
+    ≠ 4,o,N,a,Z                           (before x1)
+    ≠ o,M,c,8,9                           (before x1)
+    ≠ c^c,c,c,9                           (before x1)
+    ≠ o,M,c,c,9                           (after x1)
+    ≠ c^c,c                               (after x1)
+    ≠ N,c,c,9                             (after x1)
+    ≠ o,N,9                               (after x1)
+    ≠ a,8,a,Q                             (after x1)
+    ≠ a,x,N,a,i,Z                         (after x1)
+    ≠ a,n                                 (after x1)
+    ≠ o,N,c,c,8,9                         (after x1)
+    ≠ a,m                                 (after x1)
+
+c^c,c,8,9  (doubles=9, freq=417) 
+  Constraint: no triple | Excluded partners: 16
+    ≠ 4,o,N,a,Z                           (before x2, after x1)
+    ≠ 4,o,M,c,c,8,9                       (before x1)
+    ≠ 9,M,a,Z,o,8,9                       (before x1)
+    ≠ 4,o,o,x,N,a,x                       (before x1)
+    ≠ 4,o,N,a,x                           (before x1)
+    ≠ o,M,a,n                             (before x1)
+    ≠ 8,o,x                               (before x1)
+    ≠ o,N,a,m                             (before x1)
+    ≠ o,x                                 (after x1)
+    ≠ 8,a,i,Z                             (after x1)
+    ≠ x,c^c,c,8,9                         (after x1)
+    ≠ c^c,c,9                             (after x1)
+    ≠ cc,c,8,9                            (after x1)
+    ≠ 8,a,x                               (after x1)
+    ≠ 8,9                                 (after x1)
+    ≠ 4,o,N,a,m                           (after x1)
+
+8,9  (doubles=8, freq=209) TRIPLES
+  Constraint: quad only | Excluded partners: 14
+    ≠ 9,M,9                               (before x1)
+    ≠ cc,o,x                              (before x1)
+    ≠ 8,o,x                               (before x1)
+    ≠ cc,o,N,cc,9                         (before x1)
+    ≠ 2                                   (before x1)
+    ≠ 8,a,m                               (before x1)
+    ≠ 9,M,cc,8,9                          (before x1)
+    ≠ 2,o,Z                               (after x1)
+    ≠ 4,o,N,cc,o,Z                        (after x1)
+    ≠ o,N,cc,9                            (after x1)
+    ≠ cc,c,N,c,9                          (after x1)
+    ≠ 9,N,c,c,cc,9                        (after x1)
+    ≠ 8,a,Z                               (after x1)
+    ≠ cc,c,Q                              (after x1)
+
+o,N,a,m  (doubles=6, freq=202) TRIPLES
+  Constraint: quad only | Excluded partners: 10
+    ≠ 8,c^c,9                             (before x1)
+    ≠ cc,c,N,a,Z                          (before x1)
+    ≠ 8,a,n                               (before x1)
+    ≠ x,o                                 (before x1)
+    ≠ cc,c,o,8,9                          (before x1)
+    ≠ cc,o,x                              (after x1)
+    ≠ 8,a,m                               (after x1)
+    ≠ 8,a,Z,a,Q                           (after x1)
+    ≠ cc,c,c,N,9                          (after x1)
+    ≠ o,M,a,Z                             (after x1)
+
+c^c,o,x  (doubles=5, freq=163) 
+  Constraint: no triple | Excluded partners: 10
+    ≠ 8,c^c,o,Z                           (before x1)
+    ≠ c^c,o,Z                             (before x1)
+    ≠ c^c,o,M                             (before x1)
+    ≠ c^c,o,x,a,m                         (before x1)
+    ≠ c,P2,c,o,x                          (before x1)
+    ≠ c,M,c,o,x                           (after x1)
+    ≠ c,M,c,9                             (after x1)
+    ≠ 8,a,m                               (after x1)
+    ≠ cc,8,9                              (after x1)
+    ≠ 4,o,c,N,c,o,x                       (after x1)
+
+cc,o,Z  (doubles=5, freq=212) 
+  Constraint: no triple | Excluded partners: 9
+    ≠ cc,c,N,c,9                          (before x1)
+    ≠ 4,o,M,o,Z                           (before x1)
+    ≠ 8,o,m                               (before x1)
+    ≠ 4,o,M                               (before x1)
+    ≠ N,c,o,8,9                           (before x1)
+    ≠ N,a,Z                               (after x1)
+    ≠ c^c,c,c,9                           (after x1)
+    ≠ cc,o,N,o,Z                          (after x1)
+    ≠ N,a,x                               (after x1)
+
+cc,8,9  (doubles=5, freq=130) 
+  Constraint: no triple | Excluded partners: 10
+    ≠ c^c,c,8,9                           (before x1)
+    ≠ o,N,a,Z                             (before x1)
+    ≠ o,N,c,8,9                           (before x1)
+    ≠ o,x                                 (before x1)
+    ≠ 4,o,M,a,Z                           (before x1)
+    ≠ 2,cc,9                              (after x1)
+    ≠ o,x,8,9                             (after x1)
+    ≠ o,M,a,x                             (after x1)
+    ≠ 4,o,N,a,m                           (after x1)
+    ≠ 4,o,N,a,Z                           (after x1)
+
+4,o,x  (doubles=5, freq=135) 
+  Constraint: no triple | Excluded partners: 8
+    ≠ cc,c,8,9                            (before x2, after x1)
+    ≠ 8,a,x                               (before x1)
+    ≠ c^c,c,N,c,9                         (before x1)
+    ≠ 9                                   (before x1)
+    ≠ o,x                                 (after x1)
+    ≠ o,M,c,c,8,9                         (after x1)
+    ≠ c^c,c,c,M,9,c,9                     (after x1)
+    ≠ N,a,n                               (after x1)
+
+o,N,c,c,9  (doubles=5, freq=152) 
+  Constraint: no triple | Excluded partners: 8
+    ≠ 8,a,i,Z,n                           (before x1, after x1)
+    ≠ a,Z,a,Z                             (before x1)
+    ≠ 4,o,N,c,c,c,9                       (before x1)
+    ≠ c^c,c,c,N,9                         (before x1)
+    ≠ a,n                                 (before x1)
+    ≠ x,cc,c,8,9                          (after x1)
+    ≠ 4,a,a,x                             (after x1)
+    ≠ c^c,9                               (after x1)
+
+8,a,Z  (doubles=4, freq=278) 
+  Constraint: no triple | Excluded partners: 7
+    ≠ o,M,a,Z                             (before x2)
+    ≠ cc,c,M,c,9                          (before x1)
+    ≠ 4,o,N,a,n                           (before x1)
+    ≠ 8,a,x                               (after x1)
+    ≠ c^c,c,8,9                           (after x1)
+    ≠ 8,9                                 (after x1)
+    ≠ c^c,c,o,Z                           (after x1)
+
+o,N,c,8,9  (doubles=4, freq=112) 
+  Constraint: no triple | Excluded partners: 7
+    ≠ 4,o,N,c,8,9                         (after x2)
+    ≠ c^c,2,o                             (before x1)
+    ≠ o,Z,o,Z                             (before x1)
+    ≠ o,M,c,8,9                           (before x1)
+    ≠ o,N,a,Z                             (before x1)
+    ≠ o,M,8,9                             (after x1)
+    ≠ cc,x,a,Z                            (after x1)
+
+o,M,a,m  (doubles=4, freq=134) 
+  Constraint: no triple | Excluded partners: 7
+    ≠ 9,M,o,m                             (before x1)
+    ≠ 8,a,m                               (before x1)
+    ≠ cc,c,N,c,a,m                        (before x1)
+    ≠ c,M,c,a,Z                           (after x1)
+    ≠ 9,P2,cc,c,2,9                       (after x1)
+    ≠ 9,P1,o,x,a,m                        (after x1)
+    ≠ a,Z                                 (after x1)
+
+cc,c,a,Z  (doubles=3, freq=51) 
+  Constraint: no triple | Excluded partners: 6
+    ≠ cc,a,Z                              (before x1)
+    ≠ a,x                                 (before x1)
+    ≠ o,M,a,x                             (before x1)
+    ≠ o,M,c,c,9                           (after x1)
+    ≠ cc,o,Z                              (after x1)
+    ≠ o,N,c,8,9                           (after x1)
+
+cc,9  (doubles=3, freq=131) 
+  Constraint: no triple | Excluded partners: 5
+    ≠ cc,o,N,cc,2,9                       (before x1, after x1)
+    ≠ 8,a,m                               (before x1)
+    ≠ cc,o,Z                              (before x1)
+    ≠ cc,c,N,9                            (after x1)
+    ≠ cc,o,N,cc,c,9                       (after x1)
+
+a,x  (doubles=3, freq=199) 
+  Constraint: no triple | Excluded partners: 6
+    ≠ o,N,c,c,2                           (before x1)
+    ≠ 4,o,N,a,m                           (before x1)
+    ≠ 8,a,n                               (before x1)
+    ≠ cc,c,8,a,n                          (after x1)
+    ≠ N,a,x,o,2                           (after x1)
+    ≠ N,c,c,8,9                           (after x1)
+
+4,o,M,c,8,9  (doubles=3, freq=90) 
+  Constraint: no triple | Excluded partners: 6
+    ≠ 4,o,N,c,c,9                         (before x1)
+    ≠ 4,o,P2,c^c,c,8,9                    (before x1)
+    ≠ cc,c,8,9                            (before x1)
+    ≠ 4,o,M,a,Z,9                         (after x1)
+    ≠ 4,o,N,c,8,9                         (after x1)
+    ≠ cc,2,8,9                            (after x1)
+
+4,o,N,a,n  (doubles=3, freq=284) 
+  Constraint: no triple | Excluded partners: 5
+    ≠ cc,c,c,M,c,9                        (before x1, after x1)
+    ≠ c^c,c,c,9                           (before x1)
+    ≠ 4,o,Z,c^c,9                         (before x1)
+    ≠ c^c,c,o,x                           (after x1)
+    ≠ cc,c,P2                             (after x1)
+
+4,o,N,a,x  (doubles=3, freq=188) 
+  Constraint: no triple | Excluded partners: 6
+    ≠ 2,o,c,N,c,c,9                       (before x1)
+    ≠ cc,c,o,x                            (before x1)
+    ≠ 4,o,N,a,Z                           (before x1)
+    ≠ c^c,c,8,9                           (after x1)
+    ≠ cc,c,c,M,9                          (after x1)
+    ≠ cc,c,o,8,9                          (after x1)
+
+o,M,a,n  (doubles=3, freq=90) 
+  Constraint: no triple | Excluded partners: 5
+    ≠ 4,o,N,a,n                           (before x1)
+    ≠ M,c,8,9                             (before x1)
+    ≠ o,M,a,x                             (after x1)
+    ≠ o,M,a,x,9                           (after x1)
+    ≠ a,Z                                 (after x1)
+
+c,M,c,a,Z  (doubles=2, freq=17) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ a,i,2                               (before x1)
+    ≠ o,cc,9                              (before x1)
+    ≠ 8,a,i                               (after x1)
+    ≠ c,M,c,9                             (after x1)
+
+c^c,o  (doubles=2, freq=115) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ cc,o,x,8,9                          (before x1)
+    ≠ cc,c,c,o,8,a,Q                      (before x1)
+    ≠ cc,a,m                              (after x1)
+    ≠ 8,9                                 (after x1)
+
+8,a,x  (doubles=2, freq=202) 
+  Constraint: no triple | Excluded partners: 3
+    ≠ 4,o,8,a,n,N,c,9                     (before x1)
+    ≠ N,c,8,9                             (before x1)
+    ≠ 8,o,x                               (after x1)
+
+c^c,o,Z  (doubles=2, freq=87) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ c^c,o,c,M,c,9                       (before x1)
+    ≠ cc,o,m                              (before x1)
+    ≠ 8,a,m                               (after x1)
+    ≠ c^c,9                               (after x1)
+
+c,N,c,c,9  (doubles=2, freq=31) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ 8,cc,c,c,9                          (before x1)
+    ≠ cc,N,c,c,9                          (before x1)
+    ≠ 8,a,m                               (after x1)
+    ≠ 9,N,c,c,9                           (after x1)
+
+8,a,n  (doubles=2, freq=209) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ 8,a,m+                              (before x1)
+    ≠ 4,o,N,a,x                           (before x1)
+    ≠ 8,a,m                               (after x1)
+    ≠ o                                   (after x1)
+
+cc,c,9  (doubles=2, freq=322) 
+  Constraint: no triple | Excluded partners: 3
+    ≠ o,x                                 (before x2)
+    ≠ N,cc,9                              (after x1)
+    ≠ cc,o,x                              (after x1)
+
+4,o,N,cc,8,9  (doubles=2, freq=44) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ cc,c,N,c,9                          (before x1)
+    ≠ c^c,c,o,x                           (before x1)
+    ≠ o,N,a,Z                             (after x1)
+    ≠ 4,o,M,9                             (after x1)
+
+o,M,a,Z  (doubles=2, freq=121) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ 8,cc,a,i,Z,a,Q                      (before x1)
+    ≠ 8,a,n                               (before x1)
+    ≠ cc,a,Z                              (after x1)
+    ≠ a,Z                                 (after x1)
+
+N,a,x  (doubles=2, freq=24) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ cc,c,N,c,9                          (before x1)
+    ≠ a,Z                                 (before x1)
+    ≠ 8,a,Z                               (after x1)
+    ≠ 4,o,M,a,n                           (after x1)
+
+o,Z  (doubles=2, freq=305) 
+  Constraint: no triple | Excluded partners: 3
+    ≠ c^c,c,c,9                           (before x2)
+    ≠ a,x                                 (after x1)
+    ≠ a,m                                 (after x1)
+
+4,o,P2,cc,c,8,9  (doubles=2, freq=32) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ c,c,c,9                             (before x1)
+    ≠ c,N,c,o,Z                           (before x1)
+    ≠ 8,9,x,cc,c,2                        (after x1)
+    ≠ 4,o,N,cc,c,8,9                      (after x1)
+
+4,o,M,c,c,8,9  (doubles=2, freq=72) 
+  Constraint: no triple | Excluded partners: 3
+    ≠ x,o,x                               (before x1)
+    ≠ 4,o,N,c,8,9                         (before x1)
+    ≠ P2,cc,c,8,a,x                       (after x1)
+
+4,o,N,a,m  (doubles=2, freq=255) 
+  Constraint: no triple | Excluded partners: 3
+    ≠ 4,o,x,cc,c,8,9                      (before x1)
+    ≠ cc,c,N,c,9                          (before x1)
+    ≠ cc,c,c,N,c,9                        (after x1)
+
+c^c,a,Z  (doubles=2, freq=33) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ P2,o,x                              (before x1)
+    ≠ 8,x,a,Z                             (before x1)
+    ≠ P2,cc,c,9                           (after x1)
+    ≠ Z                                   (after x1)
+
+o,x,N,a,n  (doubles=2, freq=36) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ 4,o,N,a,n                           (before x1)
+    ≠ 2,a,Z                               (before x1)
+    ≠ o,x                                 (after x1)
+    ≠ a,x                                 (after x1)
+
+o,M,a,x  (doubles=2, freq=129) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ 4,o,N,a,n                           (before x1)
+    ≠ cc,c,c,9                            (before x1)
+    ≠ x,M                                 (after x1)
+    ≠ o,x                                 (after x1)
+
+4,o,N,o,x  (doubles=2, freq=90) 
+  Constraint: no triple | Excluded partners: 3
+    ≠ cc,o,x                              (before x1, after x1)
+    ≠ 4,o,M,o,x                           (before x1)
+    ≠ 8,a,m                               (after x1)
+
+o,N,c,9  (doubles=2, freq=53) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ 4,o,N,c,o,x                         (before x1)
+    ≠ c,c,c,9                             (before x1)
+    ≠ N,c,c,9                             (after x1)
+    ≠ o,N,c,c,9                           (after x1)
+
+o,N,c,o,x  (doubles=2, freq=53) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ 4,o,N,c,o,x                         (before x1)
+    ≠ o,N,c,o,Z                           (before x1)
+    ≠ c^c,o,N,o,x                         (after x1)
+    ≠ c^c,9                               (after x1)
+
+cc,c,o,x  (doubles=2, freq=152) 
+  Constraint: no triple | Excluded partners: 4
+    ≠ 9                                   (before x1)
+    ≠ M,a,i,Z                             (before x1)
+    ≠ 8,o,n,Z                             (after x1)
+    ≠ N,cc,c,N,a,n                        (after x1)
+
+c^c,c,o,x  (doubles=2, freq=96) TRIPLES
+  Constraint: quad only | Excluded partners: 2
+    ≠ c^c,o,Z                             (before x1)
+    ≠ 4,o,N,cc,c,8,9                      (after x1)
+
+a,n  (doubles=2, freq=81) 
+  Constraint: no triple | Excluded partners: 3
+    ≠ cc,c,2                              (before x2)
+    ≠ a,x,9                               (after x1)
+    ≠ a,x                                 (after x1)
+
+N,c,c,9  (doubles=1, freq=38) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ o,N,cc,c,9                          (before x1)
+    ≠ 8,a,x                               (after x1)
+
+cc,a,Q  (doubles=1, freq=18) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ cc,a,x                              (before x1)
+    ≠ cc,o                                (after x1)
+
+cc,a,m  (doubles=1, freq=45) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 2,o,m                               (before x1)
+    ≠ 8,a,m                               (after x1)
+
+8,o,x  (doubles=1, freq=100) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ c^c,o,M,cc,o                        (before x1)
+    ≠ 8,o,Z                               (after x1)
+
+N,cc,o,x  (doubles=1, freq=24) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ M,c^c,9                             (before x1)
+    ≠ 8,P2,cc,9                           (after x1)
+
+N,cc,9  (doubles=1, freq=25) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ cc,9                                (before x1)
+    ≠ 9,N,c,o,8,9                         (after x1)
+
+4,o,N,cc,9  (doubles=1, freq=64) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ o,N,c^c,9                           (before x1)
+    ≠ 2                                   (after x1)
+
+4,o,N,9  (doubles=1, freq=147) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ o,Z,c^c,9                           (before x1)
+    ≠ cc,N,cc,9                           (after x1)
+
+4,o,M,cc,9  (doubles=1, freq=61) 
+  Constraint: no triple | Excluded partners: 1
+    ≠ 8,a,m                               (before x1, after x1)
+
+c^c,9  (doubles=1, freq=82) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ o,M,cc,9                            (before x1)
+    ≠ 8,cc,9                              (after x1)
+
+o,M,cc,o,Z  (doubles=1, freq=15) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ cc,9,4,o,x,8,9                      (before x1)
+    ≠ c,M,c,o,x                           (after x1)
+
+c,M,c,o,x  (doubles=1, freq=55) 
+  Constraint: no triple | Excluded partners: 1
+    ≠ c^c,o,Z                             (before x1, after x1)
+
+N,c^c,o  (doubles=1, freq=8) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ cc,N,c,c,9                          (before x1)
+    ≠ N,c,c,o,Z                           (after x1)
+
+cc,c,M,c,o  (doubles=1, freq=3) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,M,cc,9                          (before x1)
+    ≠ Z,cc,o,8,9                          (after x1)
+
+o,M,o,Z  (doubles=1, freq=27) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,N,a,x,8,9                       (before x1)
+    ≠ o,x,8,a,Z                           (after x1)
+
+o,N,a,n  (doubles=1, freq=142) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ cc,o,Z                              (before x1)
+    ≠ P1,cc,o,8,9                         (after x1)
+
+9,M,9  (doubles=1, freq=22) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 8,a,x,Z                             (before x1)
+    ≠ o,M,9                               (after x1)
+
+cc,o,N,9  (doubles=1, freq=37) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 9,N,o,x                             (before x1)
+    ≠ cc,o,x                              (after x1)
+
+c,M,c,9  (doubles=1, freq=109) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 8,a,m                               (before x1)
+    ≠ 9,o,N,a,x,o,8                       (after x1)
+
+9,N,c,o,x  (doubles=1, freq=11) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ N,a,m                               (before x1)
+    ≠ cc,a,Q                              (after x1)
+
+c^c,c,N,9  (doubles=1, freq=35) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ cc,c,N,c,9                          (before x1)
+    ≠ 8,a,x,o,c,M,o,c,9                   (after x1)
+
+8,cc,o,Z  (doubles=1, freq=22) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 8,c^c,o                             (before x1)
+    ≠ 8,a,m                               (after x1)
+
+o,N,cc,8,9  (doubles=1, freq=19) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ o,x                                 (before x1)
+    ≠ o,M,a,Z                             (after x1)
+
+o,M,cc,c,9  (doubles=1, freq=27) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 9,M,o,8,a,m                         (before x1)
+    ≠ 4,o                                 (after x1)
+
+8,a,Q  (doubles=1, freq=85) 
+  Constraint: no triple | Excluded partners: 1
+    ≠ M,o,c^c,c,9                         (after x1)
+
+N,cc,o,N,a,m  (doubles=1, freq=2) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ cc,o,N,cc,9                         (before x1)
+    ≠ o,N,9                               (after x1)
+
+o,P2,a,m  (doubles=1, freq=7) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ c^c,o,N,cc,9                        (before x1)
+    ≠ cc,o,P1,a,x,9                       (after x1)
+
+4,o,N,c,o,8,9  (doubles=1, freq=30) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,N,c,c,o,8,9                     (before x1)
+    ≠ 4,o,N,a,Z                           (after x1)
+
+o,x,c^c,c,8,9  (doubles=1, freq=28) 
+  Constraint: no triple | Excluded partners: 1
+    ≠ 4,o,N,a,n                           (before x1, after x1)
+
+o,x,N,c,8,9  (doubles=1, freq=30) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 9,N,c,c^c,c,9                       (before x1)
+    ≠ 4,o,x                               (after x1)
+
+cc,c,M,c,9  (doubles=1, freq=85) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ c^c,c,8,9                           (before x1)
+    ≠ o,Z                                 (after x1)
+
+9,M,c,8,9  (doubles=1, freq=26) 
+  Constraint: no triple | Excluded partners: 1
+    ≠ 8,a,Z                               (after x1)
+
+x,c^c,c,8,9  (doubles=1, freq=41) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,N,c,9                           (before x1)
+    ≠ cc,c,8,9                            (after x1)
+
+4,o,M,9  (doubles=1, freq=84) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,M,c,8,9                         (before x1)
+    ≠ 4,o,M,c,c,9                         (after x1)
+
+Z,o,x  (doubles=1, freq=19) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ x,cc,c,9                            (before x1)
+    ≠ cc,c,c,9                            (after x1)
+
+c^c,c,N,c,c,8,9  (doubles=1, freq=6) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,N,c,c,8,9                       (before x1)
+    ≠ 2,a,m                               (after x1)
+
+o,M,a,Q  (doubles=1, freq=44) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 9,M,a,x                             (before x1)
+    ≠ c^c,c,8,9                           (after x1)
+
+o,M,9  (doubles=1, freq=97) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ c^c,o,N,9                           (before x1)
+    ≠ o,M,a,n                             (after x1)
+
+4,o,c,N,o,x  (doubles=1, freq=2) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 8,a,m                               (before x1)
+    ≠ 4,o,c,N,c,o,x                       (after x1)
+
+o,P2,cc,c,o,Z  (doubles=1, freq=3) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ c^c,c,c,9                           (before x1)
+    ≠ o,P2,cc,c,o,x                       (after x1)
+
+o,Z,a,n  (doubles=1, freq=25) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 8,a,m                               (before x1)
+    ≠ o,x,8,a,m                           (after x1)
+
+9,N,c,c,9  (doubles=1, freq=53) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 8,a,x,8,9                           (before x1)
+    ≠ o,8,a,x                             (after x1)
+
+o,P2,cc,8,9  (doubles=1, freq=17) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ o,M,a,Z                             (before x1)
+    ≠ 4,o,M,a,Z                           (after x1)
+
+cc,c,N,a,m  (doubles=1, freq=7) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ o,8,9                               (before x1)
+    ≠ cc,N,9                              (after x1)
+
+o,N,c,o,8,9  (doubles=1, freq=24) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ o,Z,a,n                             (before x1)
+    ≠ 8,a,n,2,a,x,9                       (after x1)
+
+x,c^c,c,9  (doubles=1, freq=18) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ c^c,c,9                             (before x1)
+    ≠ 4,o,a,Z                             (after x1)
+
+x,cc,c,c,8,9  (doubles=1, freq=9) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ a,m,Z,o                             (before x1)
+    ≠ 4,o,2,a,m                           (after x1)
+
+o,M,a,i,Z  (doubles=1, freq=15) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ o,M,a,m                             (before x1)
+    ≠ o,N,c,c,8,9                         (after x1)
+
+o,N,a,x  (doubles=1, freq=139) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ o,M,a,i,Z                           (before x1)
+    ≠ 4,o,N,a,n                           (after x1)
+
+x,N,a,m  (doubles=1, freq=47) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ o,N,c,c,9                           (before x1)
+    ≠ o,N,a,n                             (after x1)
+
+o,M,c,c,9  (doubles=1, freq=102) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,N,o,x                           (before x1)
+    ≠ x,N,a,n                             (after x1)
+
+4,o,N,c,9  (doubles=1, freq=104) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ o,N,c,o,M,c,c,9                     (before x1)
+    ≠ 4,o,N,c,c,9                         (after x1)
+
+x,N,c,8,9  (doubles=1, freq=26) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,N,c,c,9                         (before x1)
+    ≠ 4,o,N,c,c,8,9                       (after x1)
+
+o,N,c,c,8,9  (doubles=1, freq=103) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,N,c,c,8,9                       (before x1)
+    ≠ cc,c,8,a,x                          (after x1)
+
+cc,a,x  (doubles=1, freq=46) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ cc,o,Z                              (before x1)
+    ≠ cc,c,8,9                            (after x1)
+
+x,cc,c,8,9  (doubles=1, freq=108) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ x,N,c,c,9                           (before x1)
+    ≠ 8,a,i,2                             (after x1)
+
+x,N,c,c,8,9  (doubles=1, freq=38) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 8,c^c,c,9                           (before x1)
+    ≠ cc,c,c,8,9                          (after x1)
+
+cc,c,N,c,c,9  (doubles=1, freq=34) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,N,a,n                           (before x1)
+    ≠ x,cc,c,8,9                          (after x1)
+
+o,M,c,c,8,9  (doubles=1, freq=89) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ cc,c,c,9                            (before x1)
+    ≠ o,M,a,m                             (after x1)
+
+o,M,c,8,9  (doubles=1, freq=137) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,N,c,8,9                         (before x1)
+    ≠ x,o                                 (after x1)
+
+x,N,9  (doubles=1, freq=19) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ o,P2,cc,c,8,9                       (before x1)
+    ≠ c^c,M,9                             (after x1)
+
+8,a,i,Z  (doubles=1, freq=78) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ N,o,x                               (before x1)
+    ≠ cc,8,a,i,Z                          (after x1)
+
+cc,c,8,a,n  (doubles=1, freq=20) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ cc,c,8,o,x                          (before x1)
+    ≠ c^c,c,8,9                           (after x1)
+
+o,P2,cc,c,8,9  (doubles=1, freq=48) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,M,a,m                           (before x1)
+    ≠ c^c,c,8,9                           (after x1)
+
+4,o,N,cc,c,8,9  (doubles=1, freq=37) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,M,cc,c,8,9                      (before x1)
+    ≠ cc,o,M,a,Z                          (after x1)
+
+4,o,N,cc,c,9  (doubles=1, freq=25) 
+  Constraint: no triple | Excluded partners: 2
+    ≠ 4,o,N,c,9                           (before x1)
+    ≠ Z,a,x                               (after x1)
+

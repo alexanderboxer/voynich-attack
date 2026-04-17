@@ -1,0 +1,9 @@
+"# BRIDGE MATCHES v1 — Rule 1: 4,o,[X] -> [X] (ACTIVE)"
+# Only pairs with 2+ independent bridges shown
+
+token_a,token_b,n_bridges,freq_a,freq_b,bridge_tokens
+"N,a,n","o,N,a,x",2,324,139,"x; N,9"
+"M,9","N,c,c,8,9",2,100,352,"N,c,8,9; 8,a,x"
+"c^c,c,8,9","cc,c,9",2,418,327,"o,x; cc,c,c,2"
+"cc,c,c,2","o,x",2,32,489,"c^c,c,8,9; cc,c,9"
+"N,9",x,2,160,239,"N,a,n; o,N,a,x"
