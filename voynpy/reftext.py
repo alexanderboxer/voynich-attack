@@ -5,7 +5,9 @@ Voynich reference text class
 # Import
 # ==============================================================================
 from collections import Counter
-import pandas as pd 
+import pandas as pd
+
+from voynpy.corpus_build.normalize import to_latin0 as _to_latin0
 
 # ==============================================================================
 # RefText class
@@ -113,6 +115,52 @@ def from_textstring_csv_lat0(filepath, language):
     reftext = RefText(language, tklist, charlist)
     reftext.df = dataframe
     return reftext
+
+def from_corpus_build_csv(filepath, language, block_types=("body",),
+                          text_column="textstring_simple", latin0_fold=True):
+    """Load a RefText from a corpus_build pipeline CSV (one row per sentence).
+
+    `block_types`: iterable of block types to include; None = all rows.
+      Default `('body',)` keeps just the running prose, excluding heads etc.
+    `text_column`: which normalized text column to use (default: textstring_simple).
+    `latin0_fold`: when True (default), fold tklist/charlist to a-z via NFKD
+      + manual map (so chardf reports only base Latin letters). Set False to
+      preserve the text column's native glyphs — useful when loading
+      `textstring_rich` to inspect the full character inventory (ß, ü, ẽ,
+      ñ, đ, ď, combining tildes).
+
+    The RefText's `.df` is a trimmed, analysis-focused frame with columns:
+      idx        — zero-padded 'par.line' string that sorts correctly
+      par        — paragraph id (int)
+      line       — sentence id within paragraph (int)
+      par_end    — bool, True iff this is the final line of its paragraph
+      textstring — the chosen normalized text (from `text_column`)
+    """
+    raw = pd.read_csv(filepath, dtype=str, keep_default_na=False)
+    if block_types is not None:
+        raw = raw[raw["block_type"].isin(list(block_types))]
+    par_ints = raw["para_id"].astype(int).values
+    line_ints = raw["sent_id"].astype(int).values
+    par_end_bools = raw["is_para_final"].str.lower().isin(["true", "1", "yes"]).values
+    par_width = max((len(str(v)) for v in par_ints), default=1)
+    line_width = max((len(str(v)) for v in line_ints), default=1)
+    idx_strs = [f"{p:0{par_width}d}.{l:0{line_width}d}" for p, l in zip(par_ints, line_ints)]
+    df = pd.DataFrame({
+        "idx": idx_strs,
+        "par": par_ints,
+        "line": line_ints,
+        "par_end": par_end_bools,
+        "textstring": raw[text_column].values,
+    }).reset_index(drop=True)
+    joined = " ".join(df["textstring"].astype(str).tolist())
+    if latin0_fold:
+        joined = _to_latin0(joined)
+    tklist = [w for w in joined.split() if w]
+    charlist = list("".join(tklist))
+    rt = RefText(language, tklist, charlist)
+    rt.df = df
+    return rt
+
 
 def from_mapped(source_reftext, char_map, language):
     new_charlist = [char_map.get(c, c) for c in source_reftext.charlist]
