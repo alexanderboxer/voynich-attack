@@ -171,6 +171,10 @@ refFNHD = reftext.from_textstring_csv_lat0(refFNHDpath, language = 'german')
 lutherpath = _root / 'corpora/german/luther_newe_testament/luther_nt22_lat0.csv'
 luther = reftext.from_textstring_csv_var1(lutherpath, language = 'german', read_from_col = 3, comma_split_tokens = False)
 
+# brunfels apodixis 1531 (corpus_build pipeline; textstring_simple column)
+brunfelspath = _root / 'corpora/german/brunfels_apodixis_1531/brunfels_apodixis_1531.csv'
+brunfels = reftext.from_corpus_build_csv(brunfelspath, language = 'german')
+
 # German: all texts
 reftext_list = [simp, kuche, promptuarium]
 namelist = ['simp','kuche','prom']
