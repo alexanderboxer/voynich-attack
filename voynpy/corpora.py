@@ -171,17 +171,70 @@ refFNHD = reftext.from_textstring_csv_lat0(refFNHDpath, language = 'german')
 lutherpath = _root / 'corpora/german/luther_newe_testament/luther_nt22_lat0.csv'
 luther = reftext.from_textstring_csv_var1(lutherpath, language = 'german', read_from_col = 3, comma_split_tokens = False)
 
+# =============================================================================
+# Lazy-loading framework for corpus_build pipeline texts.
+# Older texts above this point still load eagerly; new corpus_build texts
+# register lazy loaders and are materialized on first attribute access via
+# module-level __getattr__ (PEP 562). Migration of older texts is optional.
+# =============================================================================
+
+_LOADERS: dict[str, callable] = {}
+_CACHE: dict[str, reftext.RefText] = {}
+
+
+def _register(name: str):
+    def _decorator(fn):
+        _LOADERS[name] = fn
+        return fn
+    return _decorator
+
+
+def _get(name: str):
+    if name in _CACHE:
+        return _CACHE[name]
+    if name in _LOADERS:
+        _CACHE[name] = _LOADERS[name]()
+        return _CACHE[name]
+    raise AttributeError(f"module 'voynpy.corpora' has no attribute {name!r}")
+
+
+def __getattr__(name):
+    return _get(name)
+
+
 # brunfels apodixis 1531 (corpus_build pipeline; textstring_simple column)
-brunfelspath = _root / 'corpora/german/brunfels_apodixis_1531/brunfels_apodixis_1531.csv'
-brunfels = reftext.from_corpus_build_csv(brunfelspath, language = 'german')
+@_register('brunfels')
+def _load_brunfels():
+    path = _root / 'corpora/german/brunfels_apodixis_1531/brunfels_apodixis_1531.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
 
 # Nürnberg almanach 1473 (Koberger; corpus_build pipeline)
-almanachpath = _root / 'corpora/german/nn_almanach05_1473/nn_almanach05_1473.csv'
-almanach1473 = reftext.from_corpus_build_csv(almanachpath, language = 'german')
+@_register('almanach1473')
+def _load_almanach1473():
+    path = _root / 'corpora/german/nn_almanach05_1473/nn_almanach05_1473.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
 
 # Dracole pamphlet 1485 (Lübeck; Bartholomaeus Gothan; Low German; Vlad the Impaler)
-dracolepath = _root / 'corpora/german/nn_dracole_1485/nn_dracole_1485.csv'
-dracole1485 = reftext.from_corpus_build_csv(dracolepath, language = 'german')
+@_register('dracole1485')
+def _load_dracole1485():
+    path = _root / 'corpora/german/nn_dracole_1485/nn_dracole_1485.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# dta: combined RefText across all corpus_build-pipeline DTA texts.
+@_register('dta')
+def _load_dta():
+    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485')]
+    tklist = [t for _, rt in parts for t in rt.tklist]
+    charlist = list(''.join(tklist))
+    rt = reftext.RefText('german', tklist, charlist)
+    rt.df = pd.concat(
+        [p.df.assign(doc=name) for name, p in parts],
+        ignore_index=True,
+    )[['doc', 'idx', 'par', 'line', 'par_end', 'textstring']]
+    return rt
 
 # German: all texts
 reftext_list = [simp, kuche, promptuarium]
