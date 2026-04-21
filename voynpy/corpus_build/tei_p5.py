@@ -17,7 +17,7 @@ from typing import Optional
 
 from lxml import etree
 
-from .normalize import base_normalize, simple_normalize
+from .normalize import rich_normalize, simple_normalize
 from .schema import Row, split_sentences
 
 TEI_NS = "http://www.tei-c.org/ns/1.0"
@@ -91,16 +91,16 @@ def _post_process(s: str) -> str:
 _SECTION_LETTER_RE = re.compile(r"^\s*[A-Za-z]\.?\s*$")
 
 
-def _emit_rows(rich: str, doc_id: str, block_type: str, para_id: int, state: dict) -> list[Row]:
-    if not rich:
+def _emit_rows(orig: str, doc_id: str, block_type: str, para_id: int, state: dict) -> list[Row]:
+    if not orig:
         return []
-    sents = split_sentences(rich)
+    sents = split_sentences(orig)
     if not sents:
         return []
     last_idx = len(sents) - 1
     out = []
     for i, sent in enumerate(sents):
-        base = base_normalize(sent)
+        rich = rich_normalize(sent)
         out.append(
             Row(
                 doc_id=doc_id,
@@ -109,9 +109,9 @@ def _emit_rows(rich: str, doc_id: str, block_type: str, para_id: int, state: dic
                 sent_id=i,
                 is_para_final=(i == last_idx),
                 page_n=state.get("page_n"),
-                textstring_rich=sent,
-                textstring_base=base,
-                textstring_simple=simple_normalize(base),
+                textstring_orig=sent,
+                textstring_rich=rich,
+                textstring_simple=simple_normalize(rich),
             )
         )
     return out
@@ -122,16 +122,16 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
     tag = _tag(elem)
     if tag in _PARA_KIND:
         block_type = _PARA_KIND[tag]
-        rich = _post_process(_inline_text(elem, state))
+        orig = _post_process(_inline_text(elem, state))
         # Whole paragraph is just a section-letter marker (e.g. <p>B.</p>):
         # buffer it to prepend to the next paragraph. Don't emit a row.
-        if _SECTION_LETTER_RE.match(rich):
-            state["pending_prefix"] = state.get("pending_prefix", "") + rich + " "
+        if _SECTION_LETTER_RE.match(orig):
+            state["pending_prefix"] = state.get("pending_prefix", "") + orig + " "
             return rows
         pending = state.pop("pending_prefix", "")
         if pending:
-            rich = (pending + rich).strip()
-        para_rows = _emit_rows(rich, doc_id, block_type, counter["para_id"], state)
+            orig = (pending + orig).strip()
+        para_rows = _emit_rows(orig, doc_id, block_type, counter["para_id"], state)
         if para_rows:
             counter["para_id"] += 1
             rows.extend(para_rows)

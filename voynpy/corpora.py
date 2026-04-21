@@ -175,6 +175,14 @@ luther = reftext.from_textstring_csv_var1(lutherpath, language = 'german', read_
 brunfelspath = _root / 'corpora/german/brunfels_apodixis_1531/brunfels_apodixis_1531.csv'
 brunfels = reftext.from_corpus_build_csv(brunfelspath, language = 'german')
 
+# Nürnberg almanach 1473 (Koberger; corpus_build pipeline)
+almanachpath = _root / 'corpora/german/nn_almanach05_1473/nn_almanach05_1473.csv'
+almanach1473 = reftext.from_corpus_build_csv(almanachpath, language = 'german')
+
+# Dracole pamphlet 1485 (Lübeck; Bartholomaeus Gothan; Low German; Vlad the Impaler)
+dracolepath = _root / 'corpora/german/nn_dracole_1485/nn_dracole_1485.csv'
+dracole1485 = reftext.from_corpus_build_csv(dracolepath, language = 'german')
+
 # German: all texts
 reftext_list = [simp, kuche, promptuarium]
 namelist = ['simp','kuche','prom']

@@ -1,28 +1,50 @@
 """Normalization for reference-corpus CSVs.
 
 Two layers:
-- `base_normalize`: lowercase, letters + light punctuation, umlaut mapping
-  from combining superscript e; preserves combining tilde (titulus) so
-  downstream layers can expand it.
-- `simple_normalize`: aggressive form derived from the base — titulus
-  expansion, ß→ss, umlaut strip, j→i, v→u, punctuation removed.
+- `rich_normalize`: lowercase + letters + whitespace + combining tilde.
+  All punctuation dropped (virgule first replaced with space to preserve
+  word boundaries). Retains unusual glyphs — ß, ü/ö/ä, ẽ/ñ/ã/õ/ũ/ĩ, đ/ď,
+  combining marks — for downstream processing.
+- `simple_normalize`: aggressive form derived from rich — scribal
+  abbreviation expansion, titulus rules, ß→ss, umlaut strip, j→i, v→u.
 """
 
 import re
 import unicodedata
 
-_ALLOWED_PUNCT = set(".,;:!?/")
 _WS_RE = re.compile(r"\s+")
 _COMBINING_TILDE = "\u0303"
 
+# Latin Extended letters lacking NFKD decomposition to ASCII. Manual fold.
+_LATIN0_FOLD = {
+    "đ": "d", "ð": "d", "þ": "th", "ƿ": "w",
+    "æ": "ae", "œ": "oe", "ø": "o",
+    "ł": "l", "ĸ": "k", "ſ": "s",
+}
 
-def base_normalize(s: str) -> str:
-    """Lowercase; keep Unicode letters + `.,;:!?/` + whitespace + combining
-    tilde U+0303; drop the rest.
 
-    Preserves ß, ü, ö, ä and other special letters as single graphemes, and
-    preserves the combining tilde (titulus) so `simple_normalize` can expand
-    forms like `m̃` that lack a precomposed codepoint.
+def to_latin0(s: str) -> str:
+    """Fold a string to a-z (Latin-0) plus whitespace.
+
+    Lowercases, decomposes via NFKD and drops combining marks, maps known
+    Latin Extended letters to ASCII equivalents, drops anything else not
+    `a-z`. Used as the final guard of `simple_normalize` and by loaders
+    that need a Latin-0 invariant on tklist/charlist.
+    """
+    s = unicodedata.normalize("NFKD", s.lower())
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    for k, v in _LATIN0_FOLD.items():
+        s = s.replace(k, v)
+    return "".join(c for c in s if ("a" <= c <= "z") or c.isspace())
+
+
+def rich_normalize(s: str) -> str:
+    """Lowercase; keep Unicode letters + whitespace + combining tilde U+0303.
+
+    Virgule `/` is replaced with space to preserve word boundaries; all other
+    punctuation is dropped. Preserves ß, ü/ö/ä, precomposed vowel-tilde forms
+    (ẽ/ñ/ã/õ/ũ/ĩ), scribal letters (đ/ď), and combining tildes — so
+    `simple_normalize` can expand them.
     """
     if not s:
         return ""
@@ -30,11 +52,13 @@ def base_normalize(s: str) -> str:
     # 16th-c. German: a/o/u + combining superscript e (U+0364) encodes the
     # modern umlaut. Map to precomposed ä/ö/ü so the letter filter keeps them.
     s = s.replace("a\u0364", "ä").replace("o\u0364", "ö").replace("u\u0364", "ü")
+    # Virgule becomes a space so words on either side don't collide.
+    s = s.replace("/", " ")
     # Other combining marks (e.g. U+0366 superscript o) fall through and are
     # stripped by the filter below, leaving the bare host letter.
     out = []
     for ch in s:
-        if ch.isalpha() or ch.isspace() or ch in _ALLOWED_PUNCT or ch == _COMBINING_TILDE:
+        if ch.isalpha() or ch.isspace() or ch == _COMBINING_TILDE:
             out.append(ch)
     return _WS_RE.sub(" ", "".join(out)).strip()
 
@@ -56,14 +80,16 @@ _ABBREVIATIONS_RE = [
 _VOWEL_TILDE_RE = re.compile(r"([aeiou])\u0303")
 _N_TILDE_RE = re.compile(r"n\u0303")
 _M_TILDE_RE = re.compile(r"m\u0303")
-_DROP_PUNCT_RE = re.compile(r"[.,;:!?]")
+# Macron (U+0304) is scribally equivalent to tilde — both encode an omitted
+# nasal. Treat identically.
+_VOWEL_MACRON_RE = re.compile(r"([aeiou])\u0304")
 
 
-def simple_normalize(base: str) -> str:
-    """Stricter form derived from `base_normalize` output.
+def simple_normalize(rich: str) -> str:
+    """Stricter form derived from `rich_normalize` output.
 
     Conventions (arbitrary but consistent for German):
-    - Abbreviation `vñ` → `vnd`
+    - Scribal abbreviations: `vñ`→`vnd`, `dď`→`der`, `đ`→`der`
     - Titulus (combining tilde):
         vowel + ~   → vowel + n   (e.g. `heylẽ` → `heylen`)
         n + ~       → nn          (e.g. `mäñlichs` → `männlichs`)
@@ -71,25 +97,30 @@ def simple_normalize(base: str) -> str:
     - ß → ss
     - Umlauts stripped: ä → a, ö → o, ü → u
     - j → i, v → u
-    - Virgule `/` → space; all other punctuation removed
     """
-    if not base:
+    if not rich:
         return ""
-    s = base
+    s = rich
     for pat, repl in _ABBREVIATIONS_RE:
         s = pat.sub(repl, s)
-    # Decompose so all combining tildes are directly accessible
+    # Decompose so all combining marks are directly accessible
     s = unicodedata.normalize("NFD", s)
+    # Tildes (U+0303)
     s = _VOWEL_TILDE_RE.sub(r"\1n", s)
     s = _N_TILDE_RE.sub("nn", s)
     s = _M_TILDE_RE.sub("mm", s)
-    # Drop any remaining orphan combining tildes (e.g. DTA transcription where
-    # the base letter under the titulus was lost).
-    s = s.replace("\u0303", "")
+    # Macrons (U+0304) — same convention as tildes
+    s = _VOWEL_MACRON_RE.sub(r"\1n", s)
+    # Drop any remaining orphan combining tildes/macrons (e.g. DTA
+    # transcriptions where the base letter was lost).
+    s = s.replace("\u0303", "").replace("\u0304", "")
     s = unicodedata.normalize("NFC", s)
     s = s.replace("ß", "ss")
     s = s.replace("ä", "a").replace("ö", "o").replace("ü", "u")
+    # Typographic variants common in 15th-c. printing
+    s = s.replace("ſ", "s").replace("ʒ", "z").replace("ı", "i")
     s = s.replace("j", "i").replace("v", "u")
-    s = s.replace("/", " ")
-    s = _DROP_PUNCT_RE.sub("", s)
+    # Final invariant: anything that slipped through gets folded/dropped so
+    # `textstring_simple` is guaranteed Latin-0 (a-z + whitespace only).
+    s = to_latin0(s)
     return _WS_RE.sub(" ", s).strip()

@@ -5,31 +5,9 @@ Voynich reference text class
 # Import
 # ==============================================================================
 from collections import Counter
-import unicodedata
 import pandas as pd
 
-
-# Latin Extended letters lacking NFKD decomposition to ASCII. Manual fold.
-_LATIN0_FOLD = {
-    "đ": "d", "ð": "d", "þ": "th", "ƿ": "w",
-    "æ": "ae", "œ": "oe", "ø": "o",
-    "ł": "l", "ĸ": "k", "ſ": "s",
-}
-
-
-def _to_latin0(s):
-    """Fold a string to a-z (Latin-0) plus whitespace.
-
-    Lowercases, decomposes via NFKD and drops combining marks, maps known
-    Latin Extended letters to ASCII equivalents, drops anything else non-
-    `a-z`. Used when building the tklist/charlist from a normalized source
-    so n-gram analysis sees only base Latin letters.
-    """
-    s = unicodedata.normalize("NFKD", s.lower())
-    s = "".join(c for c in s if not unicodedata.combining(c))
-    for k, v in _LATIN0_FOLD.items():
-        s = s.replace(k, v)
-    return "".join(c for c in s if ("a" <= c <= "z") or c.isspace())
+from voynpy.corpus_build.normalize import to_latin0 as _to_latin0
 
 # ==============================================================================
 # RefText class
@@ -138,12 +116,18 @@ def from_textstring_csv_lat0(filepath, language):
     reftext.df = dataframe
     return reftext
 
-def from_corpus_build_csv(filepath, language, block_types=("body",), text_column="textstring_simple"):
+def from_corpus_build_csv(filepath, language, block_types=("body",),
+                          text_column="textstring_simple", latin0_fold=True):
     """Load a RefText from a corpus_build pipeline CSV (one row per sentence).
 
     `block_types`: iterable of block types to include; None = all rows.
       Default `('body',)` keeps just the running prose, excluding heads etc.
     `text_column`: which normalized text column to use (default: textstring_simple).
+    `latin0_fold`: when True (default), fold tklist/charlist to a-z via NFKD
+      + manual map (so chardf reports only base Latin letters). Set False to
+      preserve the text column's native glyphs — useful when loading
+      `textstring_rich` to inspect the full character inventory (ß, ü, ẽ,
+      ñ, đ, ď, combining tildes).
 
     The RefText's `.df` is a trimmed, analysis-focused frame with columns:
       idx        — zero-padded 'par.line' string that sorts correctly
@@ -151,9 +135,6 @@ def from_corpus_build_csv(filepath, language, block_types=("body",), text_column
       line       — sentence id within paragraph (int)
       par_end    — bool, True iff this is the final line of its paragraph
       textstring — the chosen normalized text (from `text_column`)
-
-    `tklist` / `charlist` are built from the textstring via Latin-0 folding,
-    so stray punctuation or diacritics don't leak into tokens.
     """
     raw = pd.read_csv(filepath, dtype=str, keep_default_na=False)
     if block_types is not None:
@@ -171,8 +152,10 @@ def from_corpus_build_csv(filepath, language, block_types=("body",), text_column
         "par_end": par_end_bools,
         "textstring": raw[text_column].values,
     }).reset_index(drop=True)
-    textstring = _to_latin0(" ".join(df["textstring"].astype(str).tolist()))
-    tklist = [w for w in textstring.split() if w]
+    joined = " ".join(df["textstring"].astype(str).tolist())
+    if latin0_fold:
+        joined = _to_latin0(joined)
+    tklist = [w for w in joined.split() if w]
     charlist = list("".join(tklist))
     rt = RefText(language, tklist, charlist)
     rt.df = df
