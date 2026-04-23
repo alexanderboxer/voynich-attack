@@ -20,6 +20,10 @@ from lxml import etree
 from .normalize import rich_normalize, simple_normalize
 from .schema import Row, split_sentences
 
+
+def _letter_count_inline(s: str) -> int:
+    return sum(1 for ch in s if ch.isalpha())
+
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 NS = {"tei": TEI_NS}
 
@@ -203,23 +207,41 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
     elif tag == "pb":
         _update_page(elem, state)
     elif tag == "table":
-        # Each <row> becomes one paragraph. The first row and any row with
-        # a merged cell (cols attribute) are treated as headers; remaining
-        # rows are body data. Cells are concatenated into the row's text.
-        row_idx = 0
+        # Each <row> becomes one paragraph. Header rows:
+        # - the first row of the table, and any row immediately following a
+        #   <cb/> column break (table continuation headers)
+        # - any row with a merged cell (cols attribute; typically month names)
+        # All other rows are body data. Cells are concatenated into the
+        # row's text. Table rows are ATOMIC — no sentence-splitting within
+        # a row (internal periods are usually decorative around numerals or
+        # transcription placeholders like `[---]`).
+        header_next = True  # first row is a header
         for child in elem:
-            if _tag(child) != "row":
+            ctag = _tag(child)
+            if ctag == "cb":
+                header_next = True
+                continue
+            if ctag != "row":
                 continue
             cells = [c for c in child if _tag(c) == "cell"]
-            is_header = (row_idx == 0) or any(c.get("cols") for c in cells)
+            is_header = header_next or any(c.get("cols") for c in cells)
             block_type = "head" if is_header else "body"
             orig = _post_process(_inline_text(child, state))
-            if orig:
-                para_rows = _emit_rows(orig, doc_id, block_type, counter["para_id"], state)
-                if para_rows:
-                    counter["para_id"] += 1
-                    rows.extend(para_rows)
-            row_idx += 1
+            if orig and _letter_count_inline(orig) >= 1:
+                rich = rich_normalize(orig)
+                rows.append(Row(
+                    doc_id=doc_id,
+                    block_type=block_type,
+                    para_id=counter["para_id"],
+                    sent_id=0,
+                    is_para_final=True,
+                    page_n=state.get("page_n"),
+                    textstring_orig=orig,
+                    textstring_rich=rich,
+                    textstring_simple=simple_normalize(rich),
+                ))
+                counter["para_id"] += 1
+            header_next = False
     elif tag in _SKIP_INLINE:
         pass
     else:

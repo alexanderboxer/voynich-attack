@@ -39,26 +39,22 @@ def to_latin0(s: str) -> str:
 
 
 def rich_normalize(s: str) -> str:
-    """Lowercase; keep Unicode letters + whitespace + combining tilde U+0303.
+    """Lowercase; keep Unicode letters + all combining marks + whitespace.
 
     Virgule `/` is replaced with space to preserve word boundaries; all other
-    punctuation is dropped. Preserves ß, ü/ö/ä, precomposed vowel-tilde forms
-    (ẽ/ñ/ã/õ/ũ/ĩ), scribal letters (đ/ď), and combining tildes — so
-    `simple_normalize` can expand them.
+    punctuation is dropped. Glyphs are preserved as-is — no transformation
+    of scribal forms (e.g. `uͤ` stays as u+U+0364, NOT folded to `ü`).
+    Letter-transformation rules (umlaut folding, titulus expansion, etc.)
+    are applied by `simple_normalize`, not here.
     """
     if not s:
         return ""
     s = unicodedata.normalize("NFC", s).lower()
-    # 16th-c. German: a/o/u + combining superscript e (U+0364) encodes the
-    # modern umlaut. Map to precomposed ä/ö/ü so the letter filter keeps them.
-    s = s.replace("a\u0364", "ä").replace("o\u0364", "ö").replace("u\u0364", "ü")
     # Virgule becomes a space so words on either side don't collide.
     s = s.replace("/", " ")
-    # Other combining marks (e.g. U+0366 superscript o) fall through and are
-    # stripped by the filter below, leaving the bare host letter.
     out = []
     for ch in s:
-        if ch.isalpha() or ch.isspace() or ch == _COMBINING_TILDE:
+        if ch.isalpha() or ch.isspace() or unicodedata.combining(ch):
             out.append(ch)
     return _WS_RE.sub(" ", "".join(out)).strip()
 
