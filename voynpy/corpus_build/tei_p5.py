@@ -34,6 +34,9 @@ def _tag(elem) -> str:
 
 
 _PARA_KIND = {"p": "body", "head": "head"}
+# Multi-line paragraph containers: each child <l> becomes a row within a
+# single paragraph (para_id), with sent_id incrementing per line.
+_PARA_MULTI_LINE_KIND = {"lg": "verse"}
 _SKIP_INLINE = {"note", "figure", "fw", "gap"}
 _SOFT_BREAK = {"lb", "cb"}
 _CHOICE_PREFER = ("reg", "expan", "corr", "orig", "abbr", "sic")
@@ -117,6 +120,31 @@ def _emit_rows(orig: str, doc_id: str, block_type: str, para_id: int, state: dic
     return out
 
 
+def _emit_multi_line_from_list(lines: list[str], doc_id: str, block_type: str, para_id: int, state: dict) -> list[Row]:
+    """Emit one row per verse line from a pre-extracted list of line strings.
+    sent_id increments per line within the paragraph."""
+    if not lines:
+        return []
+    out = []
+    last_idx = len(lines) - 1
+    for i, orig in enumerate(lines):
+        rich = rich_normalize(orig)
+        out.append(
+            Row(
+                doc_id=doc_id,
+                block_type=block_type,
+                para_id=para_id,
+                sent_id=i,
+                is_para_final=(i == last_idx),
+                page_n=state.get("page_n"),
+                textstring_orig=orig,
+                textstring_rich=rich,
+                textstring_simple=simple_normalize(rich),
+            )
+        )
+    return out
+
+
 def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
     rows: list[Row] = []
     tag = _tag(elem)
@@ -135,6 +163,38 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
         if para_rows:
             counter["para_id"] += 1
             rows.extend(para_rows)
+    elif tag in _PARA_MULTI_LINE_KIND:
+        block_type = _PARA_MULTI_LINE_KIND[tag]
+        # Walk children in document order. Accumulate direct <l> children
+        # into a running paragraph; when a nested <lg> is hit, flush the
+        # accumulation and recurse into the nested stanza. Document order
+        # is preserved for paragraph numbering.
+        pending: list[str] = []
+
+        def flush():
+            if not pending:
+                return
+            para_rows = _emit_multi_line_from_list(
+                pending, doc_id, block_type, counter["para_id"], state
+            )
+            if para_rows:
+                counter["para_id"] += 1
+                rows.extend(para_rows)
+            pending.clear()
+
+        for child in elem:
+            ctag = _tag(child)
+            if ctag == "l":
+                line_orig = _post_process(_inline_text(child, state))
+                if line_orig:
+                    pending.append(line_orig)
+            elif ctag == "lg":
+                flush()
+                rows.extend(_walk(child, doc_id, counter, state))
+            elif ctag == "pb":
+                _update_page(child, state)
+            # else: ignore (lb, notes, etc.)
+        flush()
     elif tag == "pb":
         _update_page(elem, state)
     elif tag in _SKIP_INLINE:
