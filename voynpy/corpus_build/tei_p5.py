@@ -34,9 +34,13 @@ def _tag(elem) -> str:
 
 
 _PARA_KIND = {"p": "body", "head": "head"}
-# Multi-line paragraph containers: each child <l> becomes a row within a
-# single paragraph (para_id), with sent_id incrementing per line.
-_PARA_MULTI_LINE_KIND = {"lg": "verse"}
+# Multi-line paragraph containers: each child of the specified child-tag
+# becomes one row within a single paragraph (para_id), with sent_id
+# incrementing per line.  Value: (block_type, child_tag_that_is_a_line).
+# Used for verse stanzas where the line boundaries are meaningful.
+_PARA_MULTI_LINE_KIND = {
+    "lg":  ("verse", "l"),
+}
 _SKIP_INLINE = {"note", "figure", "fw", "gap"}
 _SOFT_BREAK = {"lb", "cb"}
 _CHOICE_PREFER = ("reg", "expan", "corr", "orig", "abbr", "sic")
@@ -164,11 +168,11 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
             counter["para_id"] += 1
             rows.extend(para_rows)
     elif tag in _PARA_MULTI_LINE_KIND:
-        block_type = _PARA_MULTI_LINE_KIND[tag]
-        # Walk children in document order. Accumulate direct <l> children
-        # into a running paragraph; when a nested <lg> is hit, flush the
-        # accumulation and recurse into the nested stanza. Document order
-        # is preserved for paragraph numbering.
+        block_type, line_tag = _PARA_MULTI_LINE_KIND[tag]
+        # Walk children in document order. Accumulate direct line-children
+        # into a running paragraph; when a nested same-kind container is
+        # hit, flush the accumulation and recurse. Document order is
+        # preserved for paragraph numbering.
         pending: list[str] = []
 
         def flush():
@@ -184,11 +188,12 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
 
         for child in elem:
             ctag = _tag(child)
-            if ctag == "l":
+            if ctag == line_tag:
                 line_orig = _post_process(_inline_text(child, state))
                 if line_orig:
                     pending.append(line_orig)
-            elif ctag == "lg":
+            elif ctag == tag:
+                # same-kind nested container (e.g. <lg> inside <lg>)
                 flush()
                 rows.extend(_walk(child, doc_id, counter, state))
             elif ctag == "pb":
@@ -197,6 +202,24 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
         flush()
     elif tag == "pb":
         _update_page(elem, state)
+    elif tag == "table":
+        # Each <row> becomes one paragraph. The first row and any row with
+        # a merged cell (cols attribute) are treated as headers; remaining
+        # rows are body data. Cells are concatenated into the row's text.
+        row_idx = 0
+        for child in elem:
+            if _tag(child) != "row":
+                continue
+            cells = [c for c in child if _tag(c) == "cell"]
+            is_header = (row_idx == 0) or any(c.get("cols") for c in cells)
+            block_type = "head" if is_header else "body"
+            orig = _post_process(_inline_text(child, state))
+            if orig:
+                para_rows = _emit_rows(orig, doc_id, block_type, counter["para_id"], state)
+                if para_rows:
+                    counter["para_id"] += 1
+                    rows.extend(para_rows)
+            row_idx += 1
     elif tag in _SKIP_INLINE:
         pass
     else:

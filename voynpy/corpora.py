@@ -230,10 +230,17 @@ def _load_meerwunder1472():
     return reftext.from_corpus_build_csv(path, language='german', block_types=('verse',))
 
 
+# Nürnberg almanach 1481 (Creussner/Koberger; calendrical prose almanac)
+@_register('almanach1481')
+def _load_almanach1481():
+    path = _root / 'corpora/german/nn_almanach05_1481/nn_almanach05_1481.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
 # dta: combined RefText across all corpus_build-pipeline DTA texts.
 @_register('dta')
 def _load_dta():
-    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472')]
+    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481')]
     tklist = [t for _, rt in parts for t in rt.tklist]
     charlist = list(''.join(tklist))
     rt = reftext.RefText('german', tklist, charlist)

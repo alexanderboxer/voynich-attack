@@ -97,14 +97,19 @@ def _is_dot_boundary(s: str, pos: int) -> bool:
         i -= 1
     token = s[i + 1:token_end]
     if not token:
-        return True
+        # No alphabetic content preceding this period — likely decorative
+        # scribal punctuation (e.g. `.vij.  .xliij` between table cells, or
+        # a period at start of text). Treat as non-boundary.
+        return False
     if _is_time_context(token):
         return False
     if token.isdigit():
         return False
     if len(token) <= 2:
         return False
-    if _ROMAN_RE.match(token):
+    # ENHG often writes the final `i` of a Roman numeral as `j` (ij, iij, vij,
+    # xliij, etc.). Fold j→i before the Roman check.
+    if _ROMAN_RE.match(token.replace("j", "i").replace("J", "I")):
         return False
     j = pos + 1
     while j < len(s) and s[j].isspace():
