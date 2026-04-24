@@ -245,10 +245,18 @@ def _load_promptuarium1483():
     return reftext.from_corpus_build_csv(path, language='german')
 
 
+# Kuchemaistrey 1490 (Peter Wagner, Nürnberg; early printed German cookbook)
+# Replaces the older hand-coded `kuchemaistrey` entry.
+@_register('kuchemaistrey1490')
+def _load_kuchemaistrey1490():
+    path = _root / 'corpora/german/nn_kuchemaistrey_1490/nn_kuchemaistrey_1490.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
 # dta: combined RefText across all corpus_build-pipeline DTA texts.
 @_register('dta')
 def _load_dta():
-    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483')]
+    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490')]
     tklist = [t for _, rt in parts for t in rt.tklist]
     charlist = list(''.join(tklist))
     rt = reftext.RefText('german', tklist, charlist)
