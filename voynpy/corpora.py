@@ -129,11 +129,11 @@ heb = reftext.from_txt(hebpath, language = 'hebrew')
 # English
 #----------
 # chaucer: canterbury tales, etc.
-chaucerpath = _root / 'corpora/english/chaucer/chaucer.csv'
+chaucerpath = _root / 'corpora/english/legacy/chaucer/chaucer.csv'
 chaucer = reftext.from_textstring_csv(chaucerpath, language = 'english', read_from_col = 1, comma_split_tokens = False)
 
 # wycliffe bible
-wycliffepath = _root / 'corpora/english/wycliffe/wycliffe_lat0.txt'
+wycliffepath = _root / 'corpora/english/legacy/wycliffe/wycliffe_lat0.txt'
 wycliffe = reftext.from_txt(wycliffepath, language = 'english')
 
 #----------
@@ -313,6 +313,40 @@ def _load_has1490():
 def _load_fusspfad1492():
     path = _root / 'corpora/german/nn_fusspfad_1492/nn_fusspfad_1492.csv'
     return reftext.from_corpus_build_csv(path, language='german')
+
+
+# =============================================================================
+# English: EEBO-TCP pipeline. Each text is one TCP ID; Phase I texts are CC0.
+# =============================================================================
+
+# Caxton, Recuyell of the Historyes of Troye (1473; TCP A05232). First book
+# printed in English.
+@_register('caxton_troye_1473')
+def _load_caxton_troye_1473():
+    path = _root / 'corpora/english/EEBO/caxton_troye_1473/caxton_troye_1473.csv'
+    return reftext.from_corpus_build_csv(path, language='english')
+
+
+# eebo: combined RefText across all EEBO-TCP-pipeline English texts.
+# Also exposed as `english` — `from voynpy.corpora import english` yields
+# the full EEBO corpus (same instance). No `english_legacy` aggregate
+# exists; `chaucer` and `wycliffe` remain standalone legacy RefTexts.
+@_register('english')
+def _load_english():
+    return _get('eebo')
+
+
+@_register('eebo')
+def _load_eebo():
+    parts = [(name, _get(name)) for name in ('caxton_troye_1473',)]
+    tklist = [t for _, rt in parts for t in rt.tklist]
+    charlist = list(''.join(tklist))
+    rt = reftext.RefText('english', tklist, charlist)
+    rt.df = pd.concat(
+        [p.df.assign(doc=name) for name, p in parts],
+        ignore_index=True,
+    )[['doc', 'idx', 'par', 'line', 'par_end', 'textstring']]
+    return rt
 
 
 # dta: combined RefText across all corpus_build-pipeline DTA texts.
