@@ -97,14 +97,19 @@ def _is_dot_boundary(s: str, pos: int) -> bool:
         i -= 1
     token = s[i + 1:token_end]
     if not token:
-        return True
+        # No alphabetic content preceding this period — likely decorative
+        # scribal punctuation (e.g. `.vij.  .xliij` between table cells, or
+        # a period at start of text). Treat as non-boundary.
+        return False
     if _is_time_context(token):
         return False
     if token.isdigit():
         return False
     if len(token) <= 2:
         return False
-    if _ROMAN_RE.match(token):
+    # ENHG often writes the final `i` of a Roman numeral as `j` (ij, iij, vij,
+    # xliij, etc.). Fold j→i before the Roman check.
+    if _ROMAN_RE.match(token.replace("j", "i").replace("J", "I")):
         return False
     j = pos + 1
     while j < len(s) and s[j].isspace():
@@ -123,6 +128,32 @@ def _is_dot_boundary(s: str, pos: int) -> bool:
                 kk += 1
             if kk < len(s) and s[kk] == ".":
                 return False
+    # Enumeration list: at the current dot, look forward for a chain of
+    # `Word.` patterns (capitalized, ≥3 letters) ending in a lowercase
+    # continuation. Scribal lists like "Hemmel. Sunne. Mane. vnde sternen"
+    # use periods as separators, not sentence boundaries.
+    cur = j
+    chain_count = 0
+    check_pos = cur
+    while cur < len(s):
+        ws = cur
+        check_pos = ws
+        while cur < len(s) and s[cur].isalpha():
+            cur += 1
+        if cur - ws < 3 or not s[ws].isupper():
+            break
+        pp = cur
+        while pp < len(s) and s[pp].isspace():
+            pp += 1
+        if pp >= len(s) or s[pp] != ".":
+            break
+        chain_count += 1
+        cur = pp + 1
+        while cur < len(s) and s[cur].isspace():
+            cur += 1
+        check_pos = cur
+    if chain_count >= 1 and check_pos < len(s) and s[check_pos].islower():
+        return False
     return True
 
 
@@ -151,7 +182,16 @@ def split_sentences(s: str) -> list[str]:
     tail = s[start:].strip()
     if tail:
         sents.append(tail)
-    return [t for t in sents if _letter_count(t) >= 1]
+    # Merge letter-less segments (e.g. trailing date "1473." after a split at
+    # "Octobris.") back into the preceding sentence. Drop leading letter-less
+    # fragments with no predecessor to attach to.
+    merged: list[str] = []
+    for t in sents:
+        if _letter_count(t) >= 1:
+            merged.append(t)
+        elif merged:
+            merged[-1] = merged[-1] + " " + t
+    return merged
 
 
 def write_csv(rows: list[Row], path: str) -> None:

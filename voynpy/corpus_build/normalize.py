@@ -39,50 +39,54 @@ def to_latin0(s: str) -> str:
 
 
 def rich_normalize(s: str) -> str:
-    """Lowercase; keep Unicode letters + whitespace + combining tilde U+0303.
+    """Lowercase; keep Unicode letters + all combining marks + whitespace.
 
     Virgule `/` is replaced with space to preserve word boundaries; all other
-    punctuation is dropped. Preserves ß, ü/ö/ä, precomposed vowel-tilde forms
-    (ẽ/ñ/ã/õ/ũ/ĩ), scribal letters (đ/ď), and combining tildes — so
-    `simple_normalize` can expand them.
+    punctuation is dropped. Glyphs are preserved as-is — no transformation
+    of scribal forms (e.g. `uͤ` stays as u+U+0364, NOT folded to `ü`).
+    Letter-transformation rules (umlaut folding, titulus expansion, etc.)
+    are applied by `simple_normalize`, not here.
     """
     if not s:
         return ""
     s = unicodedata.normalize("NFC", s).lower()
-    # 16th-c. German: a/o/u + combining superscript e (U+0364) encodes the
-    # modern umlaut. Map to precomposed ä/ö/ü so the letter filter keeps them.
-    s = s.replace("a\u0364", "ä").replace("o\u0364", "ö").replace("u\u0364", "ü")
     # Virgule becomes a space so words on either side don't collide.
     s = s.replace("/", " ")
-    # Other combining marks (e.g. U+0366 superscript o) fall through and are
-    # stripped by the filter below, leaving the bare host letter.
     out = []
     for ch in s:
-        if ch.isalpha() or ch.isspace() or ch == _COMBINING_TILDE:
+        if ch.isalpha() or ch.isspace() or unicodedata.combining(ch):
             out.append(ch)
     return _WS_RE.sub(" ", "".join(out)).strip()
 
 
-# Word-level abbreviations to expand before character-level rules.
-# These encode scribal contractions that don't follow the regular titulus rule.
+# Word-level abbreviations — scribal contractions that don't follow the
+# default vowel+mark → vowel+n rule. Applied AFTER NFD decomposition so
+# combining marks are uniformly detached from base letters (e.g. ñ = n +
+# U+0303). Negative lookahead `(?![^\W\d_])` means "not followed by a
+# letter" — needed because combining marks aren't \w chars so trailing
+# \b doesn't fire at word end.
 _ABBREVIATIONS_RE = [
-    # vñ (v + combining-tilde n) = vnd (→ und after v→u). Stand-alone word.
-    (re.compile(r"\bvñ\b"), "vnd"),
-    # Digraph dď (d + d-with-caron) = der, as a printed word unit. Run
-    # before the character-level `đ → der` so `ď` is fully consumed.
-    (re.compile(r"dď"), "der"),
-    # đ (d with stroke through ascender) = -der suffix: `ođ`→`oder`,
-    # `anđ`→`ander`. Wikipedia (Scribal abbreviation) documents đ as
-    # de-/der/-ud; context in our texts so far is always der.
+    # vn + nasal-mark (tilde/macron/overline) = "vnd" (→ "und" after v→u).
+    # Covers vñ, vn̄, vn̅ regardless of original NFC/NFD form.
+    (re.compile(r"\bvn[\u0303\u0304\u0305](?![^\W\d_])"), "vnd"),
+    # ite + nasal-mark = Latin "item" (word-final abbreviation for m).
+    # Overrides default +n; scribal marks are word-specific — sometimes m,
+    # sometimes n — and "item" is a common Latin idiom in chronicles.
+    (re.compile(r"\bite[\u0303\u0304\u0305](?![^\W\d_])"), "item"),
+    # Digraph dď (d + d-with-caron) = "der", as a printed word unit. In
+    # NFD `ď` decomposes to `d + U+030C` (caron), so match that form.
+    (re.compile(r"dd\u030c"), "der"),
+    # đ (d with stroke) = -der (stays precomposed under NFD): `ođ`→`oder`,
+    # `anđ`→`ander`. Context in our texts so far is always der.
     (re.compile(r"đ"), "der"),
 ]
 
-_VOWEL_TILDE_RE = re.compile(r"([aeiou])\u0303")
-_N_TILDE_RE = re.compile(r"n\u0303")
-_M_TILDE_RE = re.compile(r"m\u0303")
-# Macron (U+0304) is scribally equivalent to tilde — both encode an omitted
-# nasal. Treat identically.
-_VOWEL_MACRON_RE = re.compile(r"([aeiou])\u0304")
+# Three combining marks (U+0303 tilde, U+0304 macron, U+0305 overline) are
+# scribal equivalents — all encode an omitted nasal. Treat identically.
+_NASAL_MARK = r"[\u0303\u0304\u0305]"
+_VOWEL_NASAL_RE = re.compile(rf"([aeiou]){_NASAL_MARK}")
+_N_NASAL_RE = re.compile(rf"n{_NASAL_MARK}")
+_M_NASAL_RE = re.compile(rf"m{_NASAL_MARK}")
 
 
 def simple_normalize(rich: str) -> str:
@@ -100,20 +104,19 @@ def simple_normalize(rich: str) -> str:
     """
     if not rich:
         return ""
-    s = rich
+    # NFD first so combining marks are detached from base letters.
+    # Word-level abbreviations then operate on a single canonical form
+    # (e.g. `ñ` and `n̄` both look like `n` + combining mark).
+    s = unicodedata.normalize("NFD", rich)
     for pat, repl in _ABBREVIATIONS_RE:
         s = pat.sub(repl, s)
-    # Decompose so all combining marks are directly accessible
-    s = unicodedata.normalize("NFD", s)
-    # Tildes (U+0303)
-    s = _VOWEL_TILDE_RE.sub(r"\1n", s)
-    s = _N_TILDE_RE.sub("nn", s)
-    s = _M_TILDE_RE.sub("mm", s)
-    # Macrons (U+0304) — same convention as tildes
-    s = _VOWEL_MACRON_RE.sub(r"\1n", s)
-    # Drop any remaining orphan combining tildes/macrons (e.g. DTA
-    # transcriptions where the base letter was lost).
-    s = s.replace("\u0303", "").replace("\u0304", "")
+    # Nasal marks (tilde/macron/overline) — default to +n convention
+    s = _VOWEL_NASAL_RE.sub(r"\1n", s)
+    s = _N_NASAL_RE.sub("nn", s)
+    s = _M_NASAL_RE.sub("mm", s)
+    # Drop any orphan nasal marks (e.g. DTA transcriptions where the base
+    # letter was lost).
+    s = s.replace("\u0303", "").replace("\u0304", "").replace("\u0305", "")
     s = unicodedata.normalize("NFC", s)
     s = s.replace("ß", "ss")
     s = s.replace("ä", "a").replace("ö", "o").replace("ü", "u")

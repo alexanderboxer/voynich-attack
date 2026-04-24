@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Das Meerwunder, in: Dresdner Heldenbuch des Kaspar von der Rhön, 1472, Bl. 193r&#x2013;199v</title>
+<title type="sub">Hrsg. und übersetzt von Anja Braun et al. Stuttgart, 2017</title>
+<author>
+<persName>
+<surname>N. N.</surname>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+<persName>
+<surname>Braun</surname>
+<forename>Anja</forename>
+</persName>
+<persName>
+<surname>Ketschik</surname>
+<forename>Nora</forename>
+</persName>
+<persName>
+<surname>Kirchhoff</surname>
+<forename>Matthias</forename>
+</persName>
+<persName>
+<surname>Kirchhoff</surname>
+<forename>Anne</forename>
+</persName>
+<persName>
+<surname>Seidl</surname>
+<forename>Stephanie</forename>
+</persName>
+<resp>
+<note type="remarkResponsibility">Edition und Übersetzung dreier Fassungen des &#x201E;Meerwunders&#x201C;</note>
+<note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</note>
+<ref target="http://www.uni-stuttgart.de/germed/forschung/digitale_editionen/Meerwunder/meermit.html"/>
+<date type="importDTA">2018-02-22T15:10:46Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<persName xml:id="NK">
+<surname>Ketschik</surname>
+<forename>Nora</forename>
+</persName>
+<persName xml:id="CT">
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+<resp><note type="remarkResponsibility">Konvertierung der Ausgangsdaten (HTML) nach DTABf und Nachbearbeitung des XML-Dokuments.</note></resp>
+</respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">17</measure>
+<measure type="tokens">2419</measure>
+<measure type="types">886</measure>
+<measure type="characters">12668</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:33:29Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by/4.0/deed.de">
+<p>Namensnennung 4.0 International (CC BY 4.0)</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/nn_meerwunder_1472</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/nn_meerwunder_1472</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/nn_meerwunder_1472</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/nn_meerwunder_1472</idno>
+<idno type="DTADirName">nn_meerwunder_1472</idno>
+<idno type="DTAID">32407</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-32407-9</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="MAN">[N. N.]: Das Meerwunder. In: &#x201A;Dresdner Heldenbuch&#x2018; (Heldenbuch des Kaspar von der Rhön). [s. l.], 1472, Bl. 193r&#x2013;199v. Hrsg. und übersetzt von Anja Braun et al. Stuttgart, 2017.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Das Meerwunder, in: Dresdner Heldenbuch des Kaspar von der Rhön, 1472, Bl. 193r&#x2013;199v</title>
+<title level="m" type="sub">Hrsg. und übersetzt von Anja Braun et al. Stuttgart, 2017</title>
+<author>
+<persName>
+<surname>N. N.</surname>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1">1</edition>
+</editionStmt>
+<publicationStmt>
+<publisher/>
+<date type="creation">1472</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden</repository>
+<idno>
+<idno type="shelfmark">Mscr.Dresd.M.201; PPN:274282186</idno>
+<idno type="URLCatalogue">https://katalogbeta.slub-dresden.de/id/0011552678/</idno>
+<idno type="URLImages">http://digital.slub-dresden.de/werkansicht/dlf/9933/1/</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Verfahren der Texterfassung: manuell (einfach erfasst).</p>
+<ul>
+<li>Bogensignaturen: keine Angabe;</li>
+<li>Druckfehler: dokumentiert;</li>
+<li>Geminations-/Abkürzungsstriche: nur expandiert;</li>
+<li>i/j in Fraktur: Lautwert transkribiert;</li>
+<li>langes s (&#x017F;): als s transkribiert;</li>
+<li>Normalisierungen: keine;</li>
+<li>Seitenumbrüche markiert: ja;</li>
+<li>u/v bzw. U/V: Lautwert transkribiert;</li>
+<li>Vollständigkeit: vollständig erfasst;</li>
+<li>Zeichensetzung: normalisiert;</li>
+<li>Zeilenumbrüche markiert: ja.</li>
+</ul>
+<p>
+Zeilenanfänge werden immer, ggf. auch entgegen der Vorlage, groß geschrieben.
+</p>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(fränkisches) Frühneuhochdeutsch</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Heldenepik</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">dtae</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/7/0/" n="Iv"/>
+<pb facs="#f0002" corresp="http://digital.slub-dresden.de/werkansicht/dlf/9933/12/0/" n="IVr"/>
+<pb facs="#f0003" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/13/0/" n="IVv"/>
+<div>                 <head rendition="#c"><supplied resp="#textsource-1">N. N.: Das Meerwunder.<lb/>
+In: &#x201A;Dresdner Heldenbuch&#x2018; (Heldenbuch des Kaspar von der Rhön),<lb/>
+[s. l.], 1472, Bl. 193r&#x2013;199v.<lb/>
+Hrsg. und übersetzt von Anja Braun et al. Stuttgart, 2017.</supplied></head><lb/>
+</div>     </front> <body>     <div>
+<pb facs="#f0004" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/400/" n="193r"/>
+<lg type="poem">   <lg n="1"> <l n="1"><hi rendition="#in">N</hi>un hort und schweigt zu disser<lb/>
+stunt:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Hört jetzt (gut) zu und seid still:&#x201C;</note></l> <l n="2">Ich mach euch abentewer<lb/>
+kunt<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ich mache Euch eine abenteuerliche Geschichte&#x201C;</note></l> <l n="3">Von einer kungine.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Von einer Königin bekannt.&#x201C;</note></l> <l n="4">Die<lb/>
+was <choice><sic>ein</sic><corr resp="#textsource-1">eim</corr></choice> kunig lobesan.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die gehörte zu einem vortrefflichen König.&#x201C;</note></l> <l n="5">Do w<choice><orig/><reg>-</reg></choice><lb/>
+<lb/>
+<choice><sic>usch</sic><corr resp="#textsource-1">uchs</corr></choice> ein teuffellicher man,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Damals wuchs ein teuflischer Kerl heran,&#x201C;</note></l> <l n="6">Der wolt die fr<choice><orig/><reg>-</reg></choice><lb/>
+awen gewine.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der sich die Dame unterwerfen wollte.&#x201C;</note></l> <l n="7">Er tet ir<note resp="#textsource-1" type="editorial"><bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl>: in</note> leides gar <choice><sic>genungt</sic><corr resp="#textsource-1">genug</corr></choice>,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er tat ihr viel Leid an,&#x201C;</note></l><lb/>
+<l n="8">Als ir hernach wert horen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wie ihr anschließend noch hören werdet.&#x201C;</note></l> <l n="9">Er was so grimig<lb/>
+und unfug,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er war so grimmig und unbändig,&#x201C;</note></l> <l n="10">Al weib wolt er betoren.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und er wollte alle Frauen um ihre Ehre bringen.&#x201C;</note></l> <l n="11">Er trug den<lb/>
+reinen frawen has.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er hasste die keuschen Damen.&#x201C;</note></l> <l n="12">Wo ym eine mocht wer<choice><orig/><reg>-</reg></choice><lb/>
+den,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wo immer er eine erwischte,&#x201C;</note></l> <l n="13">Die schwecht er und sie darnach fras.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Vergewaltigte er sie und fraß sie dann auf.&#x201C;</note></l> </lg> <lg n="2"> <l n="14">Nun mogt ir horen, wan er kom,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Nun sollt ihr erfahren, woher er abstammte,&#x201C;</note></l> <l n="15">Derselbe teu<choice><orig/><reg>-</reg></choice><lb/>
+ffellische stom,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er, dieser teuflische Abkömmling,&#x201C;</note></l> <l n="16">Von wem er wurd geporen:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und von wem er geboren worden war:&#x201C;</note></l> <lb/>
+<l n="17">Es sass ein edel fraw so her<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Es lebte eine edle und vornehme Dame&#x201C;</note></l> <l n="18">In Luneria<note resp="#textsource-1" type="editorial">nicht identifizierbare Ortsangabe, vgl. Fichtner, S. 226</note> pei<lb/>
+dem mer,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;In Luneria an der Küste,&#x201C;</note></l> <l n="19">Ein kungin ausderkoren.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Eine ganz auserwählte Königin (war sie).&#x201C;</note></l> <l n="20">Die<lb/>
+ging spacziren fur den walt<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die ging am Waldesrand spazieren,&#x201C;</note></l> <l n="21">Dort pei dem<lb/>
+mer so wilde.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dort am tobenden Meer.&#x201C;</note></l> <l n="22">Do kom ein merwunder gar<lb/>
+palt,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da kam plötzlich ein Meerungeheuer schnell daher,&#x201C;</note></l> <l n="23">Ein graussamliches pilde.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das entsetzlich anzuschauen war.&#x201C;</note></l> <l n="24">Das schwe<choice><orig/><reg>-</reg></choice><lb/>
+cht die frawen ausderkorn<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das vergewaltigte die auserwählte Königin&#x201C;</note></l> <l n="25">Mit noten uber<lb/>
+iren danck.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und nötigte sie mit Gewalt gegen ihren Willen.&#x201C;</note></l> <l n="26">Dovon der weidman wart geporn.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das führte zur Geburt des Frauenjägers.&#x201C;</note></l> </lg> <lg n="3"> <l n="27">Die fraw die leid gros angst und not,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die edle Dame erlitt große Angst und Not,&#x201C;</note></l> <l n="28">sie <lb/>
+<pb facs="#f0005" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/401/" n="193v"/>
+wer nahent gestorben dot<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das Meerungeheuer hätte sie &#x201C;</note></l> <l n="29">Wol von dem mere<choice><orig/><reg>-</reg></choice><lb/>
+wunder.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Fast ums Leben gebracht.&#x201C;</note></l> <l n="30">Er<note resp="#textsource-1" type="editorial">constructio ad sensum, da merwunder stn, das natürliche Geschlecht des Meerwunders aber männlich ist. Vgl. <ref target="#f0015">V. 243 [Bl. 198v]</ref>.</note> czwanck sie uber iren danck<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Es bezwang sie gegen ihren Willen,&#x201C;</note></l> <l n="31">Und<lb/>
+das die fraw wart totlich kranck<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So dass die Frau tödlich geschwächt wurde&#x201C;</note></l> <l n="32">Von dem<lb/>
+graussamen kunder:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Von dem grausamen Untier:&#x201C;</note></l> <l n="33">Es het fus als ein fle<choice><orig/><reg>-</reg></choice><lb/>
+dermaus<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Es hatte Füße wie eine Fledermaus&#x201C;</note></l> <l n="34">Und was rauch als ein pere,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und war behaart wie ein Bär,&#x201C;</note></l> <l n="35">Ging<lb/>
+aufgericht in hohem praus,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Es lief äußerst schnell auf zwei Beinen,&#x201C;</note></l> <l n="36">Recht als es ein<lb/>
+mensch were.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ganz so, als wäre es ein Mensch.&#x201C;</note></l> <l n="37">Es het augen nach falcken art,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Augen hatte es wie ein Falke,&#x201C;</note></l><lb/>
+<l n="38">Sein maul was einer spane weit,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sein Maul war eine Spanne breit, &#x201C;</note></l> <l n="39">Uber sein pr<choice><orig/><reg>-</reg></choice><lb/>
+ust so ging sein part.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Über seine Brust hing ihm der Bart.&#x201C;</note></l> </lg>  <lg n="4"> <l n="40">Die fraw gar nachent tot <subst><del rendition="#s">schlug</del><add place="intralinear">beleib</add></subst>,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die Frau blieb halbtot liegen,&#x201C;</note></l> <l n="41">Pis<lb/>
+das der teuffel do vertreib<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Bis der Teufel seiner Lust &#x201C;</note></l> <l n="42">Sein lust do mit der<lb/>
+frawen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;An der Dame Genüge getan hatte.&#x201C;</note></l> <l n="43">Sie sprach: &#x201E;awe der grossen not!<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sie sagte: &#x201E;Ach, welch große Not!&#x201C;</note></l> <l n="44">Nun<lb/>
+wolt ich lieber ligen dot<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ich wäre lieber tot&#x201C;</note></l> <l n="45">Den das ich hie sol<lb/>
+schawen:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Als dies hier erleben zu müssen:&#x201C;</note></l> <l n="46">So gar ein ungehewres pild<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ein derart monströses Wesen&#x201C;</note></l> <l n="47">Sol<lb/>
+mir mein leib beczwingen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Soll mich (vollkommen) bezwingen.&#x201C;</note></l> <l n="48">O her, nun pis<note resp="#textsource-1" type="editorial">pis zu wis: Imperativ Sg., stv.: &#x203A;Sei&#x2039;</note><lb/>
+mein schirm <choice><sic/><corr resp="#textsource-1">und</corr></choice><note resp="#textsource-1" type="editorial">und: Konjektur aus metrischen und inhaltlichen Gründen; <bibl><ref target="https://doi.org/10.1086/388433">Fuchs [1940]</ref></bibl>, <bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl> verzichten auf Konjektur.</note> schilt,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ach Herr (und Gott), sei du nun mein Schirm und Schild,&#x201C;</note></l> <l n="49">Las mir nit misselingen!<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Lass mir nichts Schlimmes widerfahren.&#x201C;</note></l><lb/>
+<l n="50">Sol ich dem wessen untertan,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Muss ich demjenigen untertan sein, &#x201C;</note></l> <l n="51">Der als ein te<choice><orig/><reg>-</reg></choice><lb/>
+uffel ist gestalt?<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der wie ein Teufel aussieht?&#x201C;</note></l> <l n="52">Nit lang ich das gedulden<lb/>
+kan.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ich kann das nicht lange ertragen.&#x201C;</note></l> </lg>  <lg n="5"> <l n="53">Do reit ein edel furst so her,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da kam (plötzlich) ein vornehmer Fürst herbeigeritten,&#x201C;</note></l> <l n="54">Der g<unclear reason="illegible" cert="low" resp="#textsource-1">un</unclear>t<note resp="#textsource-1" type="editorial">Evtl. gomt</note> do<lb/>
+iagen pei dem mer<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der dort an der Küste auf die Jagd &#x201C;</note></l> <l n="55">Hirs, hinden und manck <lb/>
+<pb facs="#f0006" n="194r" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/402/"/>
+wilde.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Nach Hirschen, Hirschkühen und anderem Wild gehen wollte.&#x201C;</note></l> <l n="56">Do schrey die fraw so wol getan:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da schrie die schöne Dame:&#x201C;</note></l> <l n="57">&#x201E;Helft<lb/>
+mir, ir tugenthafter man,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Helft mir, Ihr rechtschaffener Mann,&#x201C;</note></l> <l n="58">Hie von des teuffels<lb/>
+pilde!&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dem Ebenbild des Teufels hier zu entkommen!&#x201C;</note></l> <l n="59">Das merwunder hub sich darvon<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das Meerungeheuer machte sich auf und davon&#x201C;</note></l> <l n="60">Und<lb/>
+het sich schir verkrochen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und hatte sich sogleich verkrochen.&#x201C;</note></l> <l n="61">Do sprach der <choice><sic>fursch</sic><corr resp="#textsource-1">furst</corr></choice><lb/>
+so wol getan:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der vornehme Fürst sagte:&#x201C;</note></l> <l n="62">&#x201E;Fraw, was hat euch geprochen,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Edle Dame, was fehlt Euch,&#x201C;</note></l><lb/>
+<l n="63">Das ir so iemerlichen schreit?<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass Ihr so erbärmlich klagt?&#x201C;</note></l> <l n="64">Sagt mir ewr<lb/>
+not und all ewr clag.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Erzählt mir von Eurem Leid und all Eurer Not.&#x201C;</note></l> <l n="65">Kan ich, ir wert von<lb/>
+mir gefreit.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wenn ich es kann, so errette ich Euch daraus.&#x201C;</note></l> </lg>  <lg n="6"> <l n="66">Do sprach die fraw gar wol getan:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da erwiderte die sehr schöne Dame:&#x201C;</note></l> <l n="67">&#x201E;<subst><del rendition="#ow">Ich</del><add place="across">Ach</add></subst> her, ich<lb/>
+was in dissen tan<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ach Herr, ich war in diesen Wald&#x201C;</note></l> <l n="68">Durch <choice><sic>kurweil</sic><corr resp="#textsource-1">kurzweil</corr></choice> her gegan<choice><orig/><reg>-</reg></choice><lb/>
+gen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Gegangen, um mir die Zeit zu vertreiben.&#x201C;</note></l> <l n="69">Do kom ein graussamlicher degen,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da stürzte sich ein schreckliches Ungetüm auf mich,&#x201C;</note></l> <l n="70">Der<lb/>
+hat gewalcz hie mit mir pflegen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das mir hier Gewalt angetan hat.&#x201C;</note></l> <l n="71">Mir wa<choice><orig/><reg>-</reg></choice><lb/>
+rt nie zeit so langen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die Zeit schien mir still zu stehen.&#x201C;</note></l> <l n="72">Nun hat euch got wol<lb/>
+her gesant,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Nun hat Gott Euch zur Rettung her gesandt,&#x201C;</note></l> <l n="73">Es wer gewest mein ende!<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ansonsten wäre es mein Ende gewesen!&#x201C;</note></l> <l n="74">Do ir<lb/>
+<choice><sic>komp</sic><corr resp="#textsource-1">komt</corr></choice>, der teuffel verschwant<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Als Ihr aufgetaucht seid, ist der Teufel&#x201C;</note></l> <l n="75">Von mir also<lb/>
+behende.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Schnell von mir geflüchtet.&#x201C;</note></l> <l n="76">Und wert ir mir zu trost nit kumen,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Aber wenn Ihr mir nicht zu Hilfe gekommen wärt,&#x201C;</note></l><lb/>
+<l n="77">Ich mein, das teuffellische pild<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Glaube ich, dass das teuflische Ungeheuer&#x201C;</note></l> <l n="78">Het mir <choice><sic/><corr resp="#textsource-1">mein</corr></choice> leben<lb/>
+gar genumen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Mir das Leben genommen hätte.&#x201C;</note></l> </lg>  <lg n="7"> <l n="79">Des ist bekumert hie mein sin.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Deshalb bin ich noch ganz betrübt.&#x201C;</note></l> <l n="80">Er sprach:<lb/>
+&#x201E;wo ist der teuffel hin?<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er erwiderte: &#x201E;Wo ist der Teufel denn hin?&#x201C;</note></l> <l n="81">fur war, ich wolt euch<lb/>
+rechen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wahrlich, ich möchte Euch rächen.&#x201C;</note></l> <l n="82">Und das ich in mocht kumen an,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Falls ich ihn erwischen könnte,&#x201C;</note></l><lb/>
+<l n="83">Sein leben must er mir hie lan<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Müsste entweder er sein Leben lassen&#x201C;</note></l> <l n="84">Oder must<lb/>
+mir meins prechen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Oder mir meines nehmen.&#x201C;</note></l> <l n="85">Nun sagt mir, werde <lb/>
+<pb facs="#f0007" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/403/" n="194v"/>
+fraw so zart,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Nun sagt mir (schon), edle zarte Dame,&#x201C;</note></l> <l n="86">Und wo er hin sey kumen.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wo er hin geflüchtet ist.&#x201C;</note></l> <l n="87">Do sp<choice><orig/><reg>-</reg></choice><lb/>
+rach die fraw von hoher art:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Daraufhin antwortete die vornehme Dame:&#x201C;</note></l> <l n="88">&#x201E;Des hab ich nit<lb/>
+vernumen<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das habe ich nicht mitbekommen,&#x201C;</note></l> <l n="89">Und wo der teuffel kumen ist.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wo der Teufel hin ist.&#x201C;</note></l> <l n="90">Ich<lb/>
+mein, er sey im wildem mer,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ich schätze, er ist in das tobende Meer (zurück),&#x201C;</note></l> <l n="91">Dar in sein wa<choice><orig/><reg>-</reg></choice><lb/>
+nung ist al frist.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dorthin, wo er ansonsten immer lebt.&#x201C;</note></l> </lg>  <lg n="8"> <l n="92">Do sprach der edel furst so zart,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da sagte der edle schöne Herr, &#x201C;</note></l> <l n="93">Der was ein<lb/>
+here in Lampart:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der in der Lombardei herrschte:&#x201C;</note></l> <l n="94">&#x201E;So zichet mit mir heime<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dann kommt mit mir heim,&#x201C;</note></l><lb/>
+<l n="95">Und al ewr sorg die sey gelegen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und all Eure Sorge sei vergessen.&#x201C;</note></l> <l n="96">Man sol ewr<lb/>
+tugentlichen pflegen<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Man wird sich vorbildlich um Euch kümmern,&#x201C;</note></l> <l n="97">Als zarten frawen<lb/>
+reine.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wie es einer schönen, anständigen Dame gebührt.&#x201C;</note></l> <l n="98">Sie sprach: &#x201E;mein her, des danck euch<lb/>
+got,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sie entgegnete: &#x201E;Mein Herr, Gott belohne Euch dafür,&#x201C;</note></l> <l n="99">Edler her so lobesane.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ihr edler ruhmreicher Herr.&#x201C;</note></l> <l n="100">Det ichs verleit,<lb/>
+so sturb doch dot<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Beklagte ich es, so würde doch&#x201C;</note></l> <l n="101">Doheym mein lieber mane.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Zuhause mein lieber Mann sterben.&#x201C;</note></l><lb/>
+<l n="102">Do ich heut morgen von ym ging,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Als ich mich heute Morgen von ihm verabschiedete,&#x201C;</note></l> <l n="103">Doch<lb/>
+gab er mir lieblich sein kuss,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Gab er mir noch liebevoll einen Abschiedskuss,&#x201C;</note></l> <l n="104">Mit armen<lb/>
+schon er mich umbfing.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und umarmte mich zärtlich.&#x201C;</note></l> </lg>  <lg n="9"> <l n="105">Ich kan sein nymer mer verclagen,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ich kann es niemals mehr verschmerzen, &#x201C;</note></l> <l n="106">Das ich<lb/>
+mich tet so vere wagen<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass ich mich so weit hierher&#x201C;</note></l> <l n="107">Her in die grunen<lb/>
+awen,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;In die grüne Aue gewagt habe,&#x201C;</note></l> <l n="108">Das ich mein er verloren han.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass ich meine Ehre verloren habe. &#x201C;</note></l> <l n="109">Ich<lb/>
+mein, auf erden nie kein man<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ich glaube, dass auf Erden kein Mann&#x201C;</note></l> <l n="110">Gewan<lb/>
+als lieb ein frawen<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Jemals eine Frau so sehr &#x201C;</note></l> <l n="111">Als mych mein her<lb/>
+in ganczer lieb<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Von ganzem Herzen liebgewonnen hat,&#x201C;</note></l> <l n="112">Het lieb von ganczem<lb/>
+herczen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wie mich mein Gatte liebte.&#x201C;</note></l> <l n="113">Nun hot der teuffellische dieb<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Nun hat der teuflische Dieb,&#x201C;</note></l><lb/>
+<l n="114">Gemert mein leid und schmerczen,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der mir meine Ehre genommen hat, &#x201C;</note></l> <l n="115">Der <lb/>
+<pb facs="#f0008" n="195r" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/404/"/>
+mir mein er genumen hot.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Mein Leid und meine Schmerzen vermehrt. &#x201C;</note></l> <l n="116">Und wirt sein<lb/>
+yn mein lieber her,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Erfährt davon mein lieber Gatte &#x2013; &#x201C;</note></l> <l n="117">Ich sprich fur war, so<lb/>
+stirbt er dot.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ich sage es, wie es ist &#x2013; so stirbt er.&#x201C; &#x201C;</note></l> </lg>  <lg n="10"> <l n="118">&#x201E;Ach fraw, nun lat ewr senes<note resp="#textsource-1" type="editorial">senes zu adj. senec: &#x201A;schmerzlich&#x2018;</note> clagn,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ach, meine Dame, nun lasst Euer schmerzerfülltes Klagen,&#x201C;</note></l> <l n="119">Do von<lb/>
+do sol man nymant sagen,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Darüber soll man niemandem ein Wort sagen,&#x201C;</note></l> <l n="120">Ir wurd der sach<lb/>
+beczwungen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;(Denn) Ihr wurdet vergewaltigt.&#x201C;</note></l> <l n="121">Wolt ir, ich gib euch gut ge<choice><orig/><reg>-</reg></choice><lb/>
+leit,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wenn Ihr es wünscht, dann gebe ich Euch sicheres Geleit,&#x201C;</note></l> <l n="122">Pis ir kumpt in ewr sicherheit.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Bis Ihr (wieder) in euer Refugium gelangt.&#x201C;</note></l> <l n="123">Hot<lb/>
+es euch mysselungen,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wenn es Euch schlecht ergangen ist, &#x201C;</note></l> <l n="124">So secht euch fur<choice><orig/><reg>-</reg></choice><lb/>
+pas eben fur<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So seht Euch beim nächsten Mal sorgsam vor&#x201C;</note></l> <l n="125">Und tut nit mer spacziren<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und spaziert nicht mehr &#x201C;</note></l><lb/>
+<l n="126">Allein für ewres hausses tur,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Allein vor der Tür Eures Hauses, &#x201C;</note></l> <l n="127">So pleibt<lb/>
+ir wol pei wiren.<note resp="#textsource-1" type="editorial">wire wohl zu swf. wirde (dann Reimhärte?), evtl. nicht belegte Ableitung von wirekeit, stf. &#x201A;Gesunderhaltung&#x2018;</note> <note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dann bleibt Ihr gewiss unversehrt. &#x201C;</note></l> <l n="128">Das sol euch sein ein wa<choice><orig/><reg>-</reg></choice><lb/>
+rung gut<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dies soll Euch eine gute Maßregel sein: &#x201C;</note></l> <l n="129">Und get nit furpas in den<lb/>
+hag,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Geht nicht weiter ins Grüne hinaus, &#x201C;</note></l> <l n="130">Ir wist den, das ir seit behut.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Außer Ihr wisst, dass Ihr behütet werdet.&#x201C;</note></l> </lg>  <lg n="11"> <l n="131">Die aussderwelte fraw gemeit<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der adelige Fürst geleitete &#x201C;</note></l> <l n="132">Der edel<lb/>
+furste heim beleit<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die außerordentlich hübsche Dame &#x201C;</note></l> <l n="133">Pis an ir gut gewere.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Bis an die Grenze ihres Anwesens nach Hause. &#x201C;</note></l><lb/>
+<l n="134">Die fraw die was betrubet ser,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die Dame war sehr betrübt, &#x201C;</note></l> <l n="135">Wan sie<lb/>
+gedacht wol an ir er,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Denn sie dachte immerzu an ihre Ehre. &#x201C;</note></l> <l n="136">Ir hercz das was<lb/>
+ir schwere.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ihr Herz wurde ihr schwer. &#x201C;</note></l> <l n="137">Das gunt mercken der ku<choice><orig/><reg>-</reg></choice><lb/>
+nck lobsan,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der lobenswerte König bemerkte, &#x201C;</note></l> <l n="138">Das sie was ser betrübet.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass sie sehr betrübt war. &#x201C;</note></l> <l n="139">Er<lb/>
+sprach: &#x201E;zart fraw, was ligt euch an,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er sprach: &#x201E;Liebreizende Gattin, was bedrückt Euch, &#x201C;</note></l> <l n="140">Das<lb/>
+ir in leit euch ubet?<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass Ihr Euch (so sehr) im Leid übt? &#x201C;</note></l> <l n="141">Was pricht euch, was<lb/>
+ist euch geschechen?<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Was fehlt Euch, was ist Euch geschehen? &#x201C;</note></l> <l n="142">Die weil ir habt ge<choice><orig/><reg>-</reg></choice><lb/>
+<pb facs="#f0009" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/405/" n="195v"/>
+want pei mir,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Solange Ihr bei mir gewohnt habt,&#x201C;</note></l> <l n="143">Hab ich euch so <choice><sic>trawig</sic><corr resp="#textsource-1">trawrig</corr></choice> <choice><sic/><corr resp="#textsource-1">nie</corr></choice> gesehen.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Habe ich Euch noch niemals so traurig gesehen.&#x201C; &#x201C;</note></l> </lg>  <lg n="12"> <l n="144">Die fraw die sprach: &#x201E;trawt <del rendition="#s">fraw</del> here mein,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die Dame sprach: &#x201E;Mein lieber Herr, &#x201C;</note></l><lb/>
+<l n="145">Ir sult eins guten mutes sein,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ihr mögt guten Mutes sein, &#x201C;</note></l> <l n="146">Und mir gewir<choice><orig/><reg>-</reg></choice><lb/>
+et nichte.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Mir fehlt nichts.&#x201C;</note></l> <l n="147">Sie tet, als sie der here lert,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sie tat, wie ihr der Herr geraten hatte, &#x201C;</note></l> <l n="148">Der sie<lb/>
+<choice><sic>von</sic><corr resp="#textsource-1">vom</corr></choice> teuffel het dernert<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der sie vor dem Teufel &#x201C;</note></l> <l n="149">Aus <choice><sic>iemerliche</sic><corr resp="#textsource-1">iemerlicher</corr></choice> pfl<choice><orig/><reg>-</reg></choice><lb/>
+ichte.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Aus furchtbarer Bedrängnis gerettet hatte.&#x201C;</note></l> <l n="150">Gar dick sie do erseuffen<note resp="#textsource-1" type="editorial"><bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl> konjiziert: erseufzen</note> gund<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sehr oft seufzte sie nun, &#x201C;</note></l> <l n="151">Und wo<lb/>
+sie was alleine.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wenn sie allein war. &#x201C;</note></l> <l n="152">Das <choice><sic>merck</sic><corr resp="#textsource-1">merckt</corr></choice> ir her zu ma<choice><orig/><reg>-</reg></choice><lb/>
+nger stund<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das bemerkte ihr Gatte zu mehreren Malen &#x201C;</note></l> <l n="153">Von seiner frawen reine.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;An seiner reinen Ehefrau. &#x201C;</note></l> <l n="154">Wie<lb/>
+vil der her sie darumb fragt,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;(Doch) wie oft sie der Herr deswegen auch fragte, &#x201C;</note></l> <l n="155">So wolt sie<lb/>
+in betruben nicht,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wollte sie ihn nicht betrüben, &#x201C;</note></l> <l n="156">Das sie ym do von nich<choice><orig/><reg>-</reg></choice><lb/>
+cz nit sagt.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So dass sie ihm darüber gar nichts erzählte.&#x201C;</note></l> </lg>  <lg n="13"> <l n="157">Doch wart wachssen der frawen leib,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Jedoch schwoll der Körper der Frau an,&#x201C;</note></l> <l n="158">Als<lb/>
+noch hie tun die zarten weib,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wie es auch bei uns den jungen Frauen geschieht, &#x201C;</note></l> <l n="159">Wen sie sein<lb/>
+schwanger worden.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wenn sie schwanger geworden sind. &#x201C;</note></l> <l n="160">Darnach sie do ein<lb/>
+kint gepar.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Anschließend gebar sie ein Kind. &#x201C;</note></l> <l n="161">Sein haut die was mit sch<choice><orig/><reg>-</reg></choice><lb/>
+warczem har<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Seine Haut war voller schwarzer Haare, &#x201C;</note></l> <l n="162">Geleich der peren o<add place="superlinear">r</add>den.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wie es bei Bären der Fall ist. &#x201C;</note></l> <l n="163">Der<lb/>
+her und auch die fraw erschrack,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der Herr und auch die Dame erschraken, &#x201C;</note></l> <l n="164">Do sie<lb/>
+das kint an sahen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Als sie das Kind ansahen. &#x201C;</note></l> <l n="165">Der her sprach: &#x201E;was das<lb/>
+deuten magk -<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der Herr sprach: &#x201E;Was kann das bedeuten &#x2013; &#x201C;</note></l> <l n="166">Ob mich got wil verschm<choice><orig/><reg>-</reg></choice><lb/>
+ahen?<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Will Gott mich verachten? &#x201C;</note></l> <l n="167">Desgleich ich nie gesehen han,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So etwas habe ich noch nie gesehen, &#x201C;</note></l> <l n="168">Wan<lb/>
+das kint ist rauch als ein per,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Denn das Kind ist ja behaart wie ein Bär, &#x201C;</note></l> <l n="169">Sein augen<lb/>
+rot und schwarcze gran.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Seine Augen sind rot, und es hat schwarze Barthaare.&#x201C;</note></l> </lg>
+<pb facs="#f0010" n="196r" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/406/"/>
+<lg n="14"> <l n="170">Das kint zoch man gar lobesam<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das Kind erzog man auf vortreffliche Weise, &#x201C;</note></l> <l n="171">Pis es zu<lb/>
+czwelff iaren kam.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Bis es zwölf Jahre alt wurde. &#x201C;</note></l> <l n="172">Do nam es zu mit krafte,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da gewann es (derart) an Kräften, &#x201C;</note></l><lb/>
+<l n="173">Das nymant mocht vor ym bestan.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass ihm niemand standhalten konnte. &#x201C;</note></l> <l n="174">Vil man<choice><orig/><reg>-</reg></choice><lb/>
+ig werder kuner man,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sehr viele  angesehene und kühne Männer &#x201C;</note></l> <l n="175">Der wart von ym<lb/>
+gestrafte,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wurden von ihm gezüchtigt, &#x201C;</note></l> <l n="176">Das iderman den teuffel floh<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So dass jedermann vor diesem Teufel &#x201C;</note></l> <l n="177">Und<lb/>
+seinen grimen zoren.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und seinem grimmigen Zorn floh. &#x201C;</note></l> <l n="178">Wer sich mit vechten<lb/>
+gen ym zoch<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wer antrat, gegen ihn zu fechten, &#x201C;</note></l> <l n="179">Und der must sein verloren.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der war gewiss verloren. &#x201C;</note></l> <l n="180">Dar<choice><orig/><reg>-</reg></choice><lb/>
+umb so floch in iungk und alt.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Deshalb flohen Jung und Alt vor ihm. &#x201C;</note></l> <l n="181">Er wolt den<lb/>
+kungk vertreiben<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er wollte den König mit Gewalt &#x201C;</note></l> <l n="182">Von seinen landen mit<lb/>
+gewalt.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Aus seinen Landen vertreiben. &#x201C;</note></l> </lg>  <lg n="15"> <l n="183">Grosser untat er sich an<subst><del rendition="#ow">nom</del><add place="across">nam</add></subst>,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Schlimme Verbrechen beging er: &#x201C;</note></l> <l n="184">Was er der<lb/>
+iunckfrawen ankom,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wahrlich, alle Jungfrauen, deren er habhaft werden konnte,&#x201C;</note></l> <l n="185">Die schwecht er alle<lb/>
+czware.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Schändete er. &#x201C;</note></l> <l n="186">Gar heimelleich so tet er das<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er tat das ganz im Geheimen &#x201C;</note></l> <l n="187">Und<lb/>
+darnach ers zu speise as,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und verzehrte sie danach, &#x201C;</note></l> <l n="188">Das man vil<lb/>
+iunckfraw clare<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So dass viele schöne Jungfrauen &#x201C;</note></l> <l n="189">Verlas wol in des kunges<lb/>
+reich,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Im Reich des Königs verloren gingen,&#x201C;</note></l> <l n="190">Dye er al het gefressen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die er alle gefressen hatte. &#x201C;</note></l> <l n="191">Betreübet<lb/>
+wart der kungk geleich,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Entsprechend wurde der König darüber betrübt, &#x201C;</note></l> <l n="192">Das er sich het ver<choice><orig/><reg>-</reg></choice><lb/>
+messen<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass er (der Sohn) sich angemaßt hatte, &#x201C;</note></l> <l n="193">Zu schwechen vil der iunckfrawen<lb/>
+her,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Viele der wunderschönen Jungfrauen zu schänden &#x201C;</note></l> <l n="194">Die er heimlichen alle frass,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und heimlich alle zu fressen, &#x201C;</note></l> <l n="195">Das man<lb/>
+ir keine gesah nit mer.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So dass man keine von ihnen mehr zu Gesicht bekam.&#x201C;</note></l> </lg>  <lg n="16"> <l n="196">Der edel kunig ausderkorn<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der ausgesprochen herrliche König &#x201C;</note></l> <l n="197">Het mank<lb/>
+schone magt verlorn<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Hatte sehr viele schöne Jungfrauen &#x201C;</note></l> <l n="198">Wol von <choice><sic>den</sic><corr resp="#textsource-1">dem</corr></choice> argen<lb/>
+wichte.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Durch das bösartige Wesen verloren. &#x201C;</note></l> <l n="199">Und sprach zu ym: &#x201E;werstu mein<lb/>
+<pb facs="#f0011" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/407/" n="196v"/>
+sun,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er sprach zu ihm: &#x201E;Wärst Du mein Sohn, &#x201C;</note></l> <l n="200">So solstu adellicher tun.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Müsstest du adliger handeln. &#x201C;</note></l> <l n="201">Dein weis gefelt<lb/>
+mir nichte.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Deine Verhaltensweise gefällt mir nicht. &#x201C;</note></l> <l n="202">Werstu von adellichem stam<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wärst du von adliger Abstammung, &#x201C;</note></l> <l n="203">So<lb/>
+testu pas geparen.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Verhieltest du dich besser.&#x201C;</note></l> <l n="204">Do der teuffel die wort ver<choice><orig/><reg>-</reg></choice><lb/>
+nam,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Als der Teufel diese Worte hörte, &#x201C;</note></l> <l n="205">Das tet ym also zoren,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Verursachte ihm das derartigen Zorn, &#x201C;</note></l> <l n="206">Das er dem kunig<lb/>
+trug gros has.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass er den König sehr hasste. &#x201C;</note></l> <l n="207">Er wolt den vater toten,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er wollte den Vater töten, &#x201C;</note></l> <l n="208">Wen<lb/>
+er verpringen mochte das.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wenn er es zustande bringen könnte.&#x201C;</note></l> </lg>  <lg n="17"> <l n="209">Dem edlen kung vor etlich iarn<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dem edlen König hatte seine Frau vor etlichen Jahren&#x201C;</note></l> <l n="210">Het ym<lb/>
+sein weib ein sun geparn.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Einen Sohn geboren.&#x201C;</note></l> <l n="211">Der was starck,<lb/>
+frum und kune<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der war stark, tapfer und mutig&#x201C;</note></l> <l n="212">Und ym man grosse ere<lb/>
+seit.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und man zollte ihm große Ehre.&#x201C;</note></l> <l n="213">Dem trug der panckhart has und neit<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Gegen ihn hegte der Bastard Hass und Neid,&#x201C;</note></l><lb/>
+<l n="214">Wol umb sein <del rendition="#s">sein</del> er und schune.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wegen seiner Ehre und Schönheit.&#x201C;</note></l> <l n="215">Der pa<choice><orig/><reg>-</reg></choice><lb/>
+nckhart stellet nach seim leben<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der Bastard trachtete dem Vater &#x201C;</note></l> <l n="216">Dem vater<lb/>
+und dem sune.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und dem Sohn nach dem Leben.&#x201C;</note></l> <l n="217">Er tet ser nach dem kunck<choice><orig/><reg>-</reg></choice><lb/>
+reich strebn.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er strebte sehr nach dem Königreich.&#x201C;</note></l> <l n="218">Er wolt in den tot tune<note resp="#textsource-1" type="editorial"><bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl>: tane</note><note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er wollte sie umbringen&#x201C;</note></l><lb/>
+<l n="219">Und er wolt selber here sein.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und selber Herrscher sein.&#x201C;</note></l> <l n="220">Darumb vil<lb/>
+mancher werder man<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Deswegen erlitten sehr viele ehrenwerte Männer&#x201C;</note></l> <l n="221">Von ym kom in<lb/>
+des dotes pein.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Durch ihn einen qualvollen Tod.&#x201C;</note></l> </lg>  <lg n="18"> <l n="222">Do der vater und sein sun sach,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Als der Vater und der Sohn bemerkten,&#x201C;</note></l> <l n="223">Das er in<lb/>
+also stellet nach<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass er ihnen in dieser Weise nachstellte,&#x201C;</note></l> <l n="224">Wol umb ir peider leben,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Um sie beide umzubringen,&#x201C;</note></l><lb/>
+<l n="225">Do sprach der vater zu seim sun:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da sagte der Vater zu seinem Sohn: &#x201C;</note></l> <l n="226">&#x201E;Dein<lb/>
+pruder wirt uns den todt tun<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dein Bruder wird uns umbringen,&#x201C;</note></l> <l n="227">Und hut<lb/>
+wir uns nit eben.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wenn wir uns nicht ganz besonders hüten.&#x201C;</note></l> <l n="228">Mich dunckt nit, das<lb/>
+er mein sun sey,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ich glaube nicht, dass er mein Sohn ist,&#x201C;</note></l> <l n="229">Das er uns wil der<choice><orig/><reg>-</reg></choice><lb/>
+<pb facs="#f0012" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/408/" n="197r"/>
+stechen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wenn er uns erstechen will.&#x201C;</note></l> <l n="230">Was wil der arge teuffel frey<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Was will der üble, zuchtlose Teufel &#x201C;</note></l> <l n="231">Hie<lb/>
+an uns peiden rechen,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Hier an uns beiden rächen,&#x201C;</note></l> <l n="232">Das er uns pringen<lb/>
+wil in not?<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass er uns (derart) in Not bringen will?&#x201C;</note></l> <l n="233">Ein sin <choice><sic>wol</sic><corr resp="#textsource-1">woln</corr></choice><note resp="#textsource-1" type="editorial">Konjektur mit <bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl></note> wir wol finden,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wir wollen uns wohl einen Plan ausdenken,&#x201C;</note></l><lb/>
+<l n="234">Das er mus selber ligen dot.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass er selbst zu Tode kommt.&#x201C;</note></l> </lg>  <lg n="19"> <l n="235">Der vater sprach zum sun gar schan:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der Vater sprach zu dem bildschönen Sohn:&#x201C;</note></l> <l n="236">&#x201E;Wir<lb/>
+haben manchen werden man.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wir haben viele ehrenwerte Männer.&#x201C;</note></l> <l n="237">Las wir<lb/>
+ein mit ym streiten,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Lassen wir einen mit ihm kämpfen,&#x201C;</note></l> <l n="238">Wan er gros lieb zu<lb/>
+morden hat.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Denn er hat großes Wohlgefallen daran, zu morden!&#x201C;</note></l> <l n="239">Ob ein man in precht in<lb/>
+not,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wenn ein Mann ihn zu Fall brächte,&#x201C;</note></l> <l n="240">Der solt zu allen czeiten<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sollte er zu allen Zeiten&#x201C;</note></l> <l n="241">Pei uns der<lb/>
+peste sein genant<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Bei uns als der Beste&#x201C;</note></l> <l n="242">Ob allen werden fur<choice><orig/><reg>-</reg></choice><lb/>
+sten.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Von allen erlesenen Fürsten bezeichnet werden.&#x201C;</note></l> <l n="243">Do das manck werder man bekant,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Als viele kühne Männer dies erfahren hatten,&#x201C;</note></l><lb/>
+<l n="244">Die gunt nach eren dürsten.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dürsteten sie nach Ehre.&#x201C;</note></l> <l n="245">Itlicher<lb/>
+sprach: &#x201E;traut here mein,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ein jeder sprach: &#x201E;Mein lieber Herr,&#x201C;</note></l> <l n="246">Wes ir von mir<lb/>
+begeret,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Was (auch immer) Ihr von mir verlangt,&#x201C;</note></l> <l n="247">Des wil ich euch hie dinsthaft<lb/>
+sein.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Damit will ich Euch hier dienen.&#x201C;</note></l> </lg>  <lg n="20"> <l n="248">Die werden held gar wun<add place="superlinear">e</add>sam,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die ehrenwerten, beeindruckend aussehenden Helden&#x201C;</note></l> <l n="249"><choice><sic>Warem</sic><corr resp="#textsource-1">Waren</corr></choice><lb/>
+dem rawen alle gram,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Waren dem Behaarten alle feind&#x201C;</note></l> <l n="250">Wol umb sein ubel<lb/>
+mute,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wegen seiner üblen Gesinnung,&#x201C;</note></l> <l n="251">Das er vil werden manchen man<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da er vielen ehrenwerten Männern&#x201C;</note></l><lb/>
+<l n="252">Het den pitern tod gethan<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Den bitteren Tod gebracht&#x201C;</note></l> <l n="253">Und vergossen<lb/>
+het sein plute.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und ihr Blut vergossen hatte.&#x201C;</note></l> <l n="254">Die wolten sie nun rechen<lb/>
+al,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die wollten sie nun alle rächen,&#x201C;</note></l> <l n="255">Darumb komens zu noten.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dadurch stürzten sie sich ins Verderben.&#x201C;</note></l> <l n="256">Wol funf<choice><orig/><reg>-</reg></choice><lb/>
+<choice><sic>ick</sic><corr resp="#textsource-1">zick</corr></choice> man <choice><sic>prach</sic><corr resp="#textsource-1">pracht</corr></choice><del rendition="#s">ens</del> er zu fall,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wohl fünfzig Männer brachte er zu Fall,&#x201C;</note></l> <l n="257">Die er all<lb/>
+gunte toten,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die tötete er alle.&#x201C;</note></l> <l n="258">Die er all nacheinander <lb/>
+<pb facs="#f0013" n="197v" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/409/"/>
+dot schlug.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die er alle nacheinander totschlug,&#x201C;</note></l> <l n="259">Der man ye ein nach dem andern<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die trug man je&#x201C;</note></l></lg><lb/>
+<l n="260">Also dot hin zum grabe trug.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Einen nach dem anderen zu Grabe.&#x201C;</note></l> </lg> <lg n="21"><lb/>
+<l n="261">Do wolt in nymant mer bestan.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da wollte niemand mehr gegen ihn antreten,&#x201C;</note></l> <l n="262">In sche<choice><orig/><reg>-</reg></choice><lb/>
+wet mancher werden man,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Viele ehrenwerte Männer scheuten ihn,&#x201C;</note></l> <l n="263">Die teten vor<lb/>
+ym flichen,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sie flohen vor ihm, &#x201C;</note></l> <l n="264">Wol vor dem teuffel ungehewr.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dem teuflischen Ungeheuer.&#x201C;</note></l><lb/>
+<l n="265">Dem kung dem wurd freude teur.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dem König wurde Freude selten.&#x201C;</note></l> <l n="266">A<add place="superlinear">u</add>f sein<lb/>
+pest schlos do gunt er czichen,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er zog auf sein bestes Schloss.&#x201C;</note></l> <l n="267">Dasselbig<lb/>
+schlos das spert er zu<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dieses Schloss verriegelte er&#x201C;</note></l> <l n="268">Vor dem schewchslichen<lb/>
+kunder.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Vor dem scheußlichen Untier.&#x201C;</note></l> <l n="269">Der arge teuffel het kein ru.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der schlimme Teufel gab keine Ruhe.&#x201C;</note></l> <l n="270">Nun<lb/>
+mügt ir horen<note resp="#textsource-1" type="editorial"><bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl> liest heren</note> wunder:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Nun könnt ihr Staunenswertes hören:&#x201C;</note></l> <l n="271">Er scheuchet <choice><sic>wider</sic><corr resp="#textsource-1">weder</corr></choice><lb/>
+pfeill noch gschos,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er scheute weder Pfeil noch Geschoss,&#x201C;</note></l> <l n="272">Des schlosses tor das stis<lb/>
+er auf<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das Schlosstor stieß er auf&#x201C;</note></l> <l n="273">Mit einem mordiglichen stos.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Mit einem mörderischen Stoß.&#x201C;</note></l> </lg>  <lg n="22"> <l n="274">Die weil het sich gewapet an<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;In der Zwischenzeit hatten sich&#x201C;</note></l> <l n="275">Der kung,<lb/>
+der sun und die fraw schon<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der König, der Sohn und die schöne Frau&#x201C;</note></l> <l n="276">In stahel und<lb/>
+yn eissen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;In Stahl und in Eisen gewappnet.&#x201C;</note></l> <l n="277">Der kung sprach: &#x203A;nun helffet<lb/>
+mir,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der König sprach: &#x201E;Nun helft mir,&#x201C;</note></l> <l n="278">Das wir to<unclear reason="illegible" cert="low" resp="#textsource-1">t</unclear>en das arge tir;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Damit wir das furchtbare Tier töten können;&#x201C;</note></l> <l n="279">Dar<lb/>
+umb wirt man uns preissen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dafür wird man uns preisen.&#x201C;</note></l> <l n="280">Ob ich<lb/>
+das thir gemachet han,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass ich das Untier gezeugt habe,&#x201C;</note></l> <l n="281">Des kan ich nit<lb/>
+gelauben.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das kann ich nicht glauben. &#x201C;</note></l> <l n="282">Er ist der teuffel weideman,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er ist der Jäger der Teufel,&#x201C;</note></l><lb/>
+<l n="283">Er wil uns hie berauben<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er will uns hier &#x201C;</note></l> <l n="284">Des kunigre<choice><orig/><reg>-</reg></choice><lb/>
+ichs, merket eben.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Des Königreichs berauben, seid Euch dessen bewusst.&#x201C;</note></l> <l n="285">Darumb wil er uns<lb/>
+pringen<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Deswegen will er uns alle drei&#x201C;</note></l> <l n="286">Alle drey umb unsser lebn.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Um unser Leben bringen.&#x201C;</note><lb/>
+</l>
+<pb facs="#f0014" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/410/" n="198r"/>
+<lg n="23"> <l n="287">Der rauch kom zu in in den sall<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der Behaarte kam zu ihnen in die Halle,&#x201C;</note></l> <l n="288">Und schlug<lb/>
+auf sie gar unczal<note resp="#textsource-1" type="editorial"><bibl><ref target="https://doi.org/10.1086/388433">Fuchs [1940]</ref></bibl>, <bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl> lesen: une zal, <bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl> konjiziert: ane zal</note><note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und schlug auf sie&#x201C;</note></l> <l n="289">Der starcken schleg so<lb/>
+schwere.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Mit unzähligen starken Schlägen sehr hart ein.&#x201C;</note></l> <l n="290">Der vater und sein lieber sun<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der Vater und sein lieber Sohn&#x201C;</note></l> <l n="291">Die<lb/>
+teten, was sie mochten tun.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Taten, was sie zu tun vermochten.&#x201C;</note></l> <l n="292">Die edel kun<choice><orig/><reg>-</reg></choice><lb/>
+gin here,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die edle und vortreffliche Königin,&#x201C;</note></l> <l n="293">Die edel kungin hoch genant<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die edle, hoch gepriesene Königin&#x201C;</note></l><lb/>
+<l n="294">Die lies sich nit verdrissen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;War unermüdlich.&#x201C;</note></l> <l n="295">Sie <choice><sic>heten</sic><corr resp="#textsource-1">het</corr></choice> ein<lb/>
+pogen in der hant,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sie hatte einen Bogen in der Hand,&#x201C;</note></l> <l n="296">Do mit do gund sie sch<choice><orig/><reg>-</reg></choice><lb/>
+issen<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Mit dem schoss sie &#x201C;</note></l> <l n="297">In den rauchen vil manchen pfeil.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sehr viele Pfeile in den Behaarten.&#x201C;</note></l><lb/>
+<l n="298">Doch schlug er tiffe wunden<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Doch er schlug in der Zwischenzeit&#x201C;</note></l> <l n="299">Dem vater und<lb/>
+dem sun die weil.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dem Vater und dem Sohn tiefe Wunden.&#x201C;</note></l> </lg>  <lg n="24"> <l n="300">Die muter vil pfeil in in schos<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die Mutter schoss viele Pfeile in ihn,&#x201C;</note></l> <l n="301">Und das<lb/>
+vil plutes aus ym flos,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So dass viel Blut aus ihm floss,&#x201C;</note></l> <l n="302">Das es schwam<lb/>
+auf dem salle.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und auf dem Boden der Halle schwamm.&#x201C;</note></l> <l n="303">Der vater und <choice><sic>dem</sic><corr resp="#textsource-1">der</corr></choice> sun do<lb/>
+mit<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der Vater und der Sohn&#x201C;</note></l> <l n="304">Ym manche tiffe wunden schrit,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Schnitten ihm dabei viele tiefe Wunden,&#x201C;</note></l> <l n="305">Das<lb/>
+er tet einen falle.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So dass er stürzte.&#x201C;</note></l> <l n="306">Der vater und sein lieber<lb/>
+sun<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der Vater und sein lieber Sohn&#x201C;</note></l> <l n="307">Sich an dem rauhen rachen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Rächten sich an dem Behaarten.&#x201C;</note></l> <l n="308">Der<lb/>
+stiche heten sym vil tun,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Viele Stiche hatten sie ihm beigebracht,&#x201C;</note></l> <l n="309">Pis das sie in<lb/>
+derstachen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Bis sie ihn erstochen hatten.&#x201C;</note></l> <l n="310">Darzu halff yn das wer<choice><orig/><reg>-</reg></choice><lb/>
+de weib,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dabei half ihnen die ehrenwerte Frau,&#x201C;</note></l> <l n="311">Und<note resp="#textsource-1" type="editorial">hier &#x201A;so&#x2018;, auch V. 346</note> das do wart erneret wol<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So dass die drei hiermit&#x201C;</note></l><lb/>
+<l n="312">Hie vor dem tod der dreyer leib.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Vor dem Tode gerettet wurden.&#x201C;</note></l> </lg> <lg n="25"> <l n="313">Do nun der rauche lage tot,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Als nun der Behaarte tot da lag,&#x201C;</note></l> <l n="314">Der kunck<lb/>
+sprach: &#x201E;fraw, nun sagt <choice><sic>dar</sic><corr resp="#textsource-1">dur</corr></choice><note resp="#textsource-1" type="editorial">Konjektur mit <bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl></note> got,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sprach der König: &#x201E;Herrin, nun sagt bei Gott,&#x201C;</note></l> <l n="315">Wie ha<choice><orig/><reg>-</reg></choice><lb/>
+<pb facs="#f0015" n="198v" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/411/"/>
+bt ir in enpfangen?<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wie habt Ihr ihn empfangen?&#x201C;</note></l> <l n="316">Das sagt uns sicherlichen<lb/>
+eben,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das erzählt uns ganz genau,&#x201C;</note></l> <l n="317">Es sol euch alles sein vergeben,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Es soll Euch alles vergeben sein,&#x201C;</note></l> <l n="318">Ob ir het<lb/>
+myssegangen.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Solltet Ihr einen Fehltritt getan haben.&#x201C;</note></l> <l n="319">Die fraw die sprach: &#x201E;mein<lb/>
+lieber her,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die Dame antwortete: &#x201E;Mein lieber Herr,&#x201C;</note></l> <l n="320">Last mich pei ewrer hulde!<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Lasst mich in Eurer Huld!&#x201C;</note></l> <l n="321">Ich gy<choice><orig/><reg>-</reg></choice><lb/>
+nng spacziren nit gar fer,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ich bin spazieren gegangen, nicht zu weit,&#x201C;</note></l> <l n="322">Do durch kom<lb/>
+ich in schulde.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dadurch habe ich mich schuldig gemacht.&#x201C;</note></l> <l n="323">Do fing mich also graussam<choice><orig/><reg>-</reg></choice><lb/>
+lich<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da fing mich aufs grausamste&#x201C;</note></l> <l n="324">Ein schewchssliches merwunder<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ein scheußliches Meerwunder &#x201C;</note></l> <l n="325">Und<lb/>
+das det ser beczwingen mich.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und es vergewaltigte mich (äußerst) brutal.&#x201C;</note></l> </lg>  <lg n="26"> <l n="326">Der kung der sprach: &#x201E;trawt frawe mein,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der König sprach: &#x201E;Meine geliebte Ehefrau,&#x201C;</note></l><lb/>
+<l n="327">Das sol euch gar vergeben sein,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das soll Euch gänzlich vergeben sein,&#x201C;</note></l> <l n="328">Seit ir<lb/>
+sein wurt beczwungen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da Ihr dazu gezwungen worden seid.&#x201C;</note></l> <l n="329">Nun sagt mir,<lb/>
+ob <add place="superlinear">es</add> euch zym,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Jetzt erzählt mir, wenn es Euch beliebt,&#x201C;</note></l> <l n="330">Und wie ir kumen seit von<lb/>
+ym<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wie Ihr ihm entkommen seid,&#x201C;</note></l> <l n="331">Und do es euch mislungen?&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Als Euch das Unglück zugestoßen ist?&#x201C;</note></l> <l n="332">&#x201E;Ich sach<lb/>
+ew<note resp="#textsource-1" type="editorial"><bibl><ref target="https://doi.org/10.1086/388433">Fuchs [1940]</ref></bibl>, <bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl> lesen: ein</note> sicherlich fur war:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ich sage Euch die volle Wahrheit:&#x201C;</note></l> <l n="333">Ein her der gunt<lb/>
+herczichen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ein Edelmann kam vorbeigeritten.&#x201C;</note></l> <l n="334">Ich ruft in an mit noten<lb/>
+gar,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ich rief ihn an in großer Not;&#x201C;</note></l> <l n="335">Das merwunder gunt flichen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das Meerwunder machte sich auf und davon.&#x201C;</note></l> <l n="336">Der<lb/>
+her der half mir do aus not<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der Herr hat mir da aus der Not geholfen&#x201C;</note></l> <l n="337">Und tet<lb/>
+mich heim beleiten.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und mich nach Hause begleitet.&#x201C;</note></l> <l n="338">Des sol ym ymer<lb/>
+dancken got.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das soll ihm Gott immer danken.&#x201C; &#x201C;</note></l> </lg>  <lg n="27"> <l n="339">&#x201E;Ir ausderwelte fraw so fein,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ihr ausgesprochen schöne Dame,&#x201C;</note></l> <l n="340">Und<lb/>
+mocht es noch pei leben sein,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wenn es noch am Leben wäre,&#x201C;</note></l> <l n="341">Das selbig<lb/>
+merewunder,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dieses Meerwunder,&#x201C;</note></l> <l n="342">So wolt senden ich eu<choice><orig/><reg>-</reg></choice><lb/>
+ch do hin,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So wollte ich Euch dahin schicken &#x2013;&#x201C;</note></l> <l n="343">Ob noch zu euch ym stund <lb/>
+<pb facs="#f0016" n="199r" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/412/"/>
+sein syn,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wenn ihm immer noch der Sinn nach Euch stünde &#x2013;&#x201C;</note></l> <l n="344">Das wir das scheuchslich kunder<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So dass wir das scheußliche Untier&#x201C;</note></l><lb/>
+<l n="345">Auch mochten toten zu der stund,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ebenfalls bei dieser Gelegenheit töten könnten&#x201C;</note></l> <l n="346">Und das<lb/>
+ir wurt gerochen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und Ihr gerächt würdet.&#x201C;</note></l> <l n="347">Dodurch so wurd mir<lb/>
+<choice><sic/><corr resp="#textsource-1">freude</corr></choice><note resp="#textsource-1" type="editorial">Konjektur mit <bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl></note> kunt<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dadurch erführe ich Freude&#x201C;</note></l> <l n="348">Und als mein leit zuprochen.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und all mein Leid verginge.&#x201C;</note></l> <l n="349">Die fr<choice><orig/><reg>-</reg></choice><lb/>
+aw die sprach: &#x201E;des weis ich nicht.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die Dame antwortete: &#x201E;Das weiß ich nicht.&#x201C;</note></l> <l n="350">Ich tu was<lb/>
+ir gepitet,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ich werde tun, was Ihr gebietet,&#x201C;</note></l> <l n="351">Was mir halt darumb gesch<choice><orig/><reg>-</reg></choice><lb/>
+icht.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Was immer mir dadurch geschieht.&#x201C;</note></l> </lg>  <lg n="28"> <l n="352">Er sprach: &#x201E;zart fraw, so get so drat,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Er sprach: &#x201E;Anmutige Dame, so geht sogleich dorthin, &#x201C;</note></l> <l n="353">Do eu<choice><orig/><reg>-</reg></choice><lb/>
+ch der arg genotet hat,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wo Euch der Furchtbare in Not gebracht hat,&#x201C;</note></l> <l n="354">So wil ich und<lb/>
+mein sune<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So wollen ich und mein Sohn uns &#x201C;</note></l> <l n="355">Verporgen ligen auch dopei.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Auch dort verstecken.&#x201C;</note></l><lb/>
+<l n="356">Wir wollen trewlichen sten <choice><sic>p</sic><corr resp="#textsource-1"/></choice> euch frei,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wir werden Euch treu zur Seite stehen,&#x201C;</note></l><lb/>
+<l n="357">Das er euch nichcz mag tune.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;So dass er Euch nichts tun kann.&#x201C;</note></l> <l n="358">Die fraw<lb/>
+legt an ir zirlich wat<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die Dame legte ihr hübsches Gewand an,&#x201C;</note></l> <l n="359">Mit schonheit ma<choice><orig/><reg>-</reg></choice><lb/>
+nig<del rendition="#s">fah</del>falde<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Vielfältig schön geziert,&#x201C;</note></l> <l n="360">Und ging dar zu des meres<lb/>
+flut.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und ging zum Meer.&#x201C;</note></l> <l n="361">Das merwunder kom palde.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das Meerwunder erschien kurz darauf.&#x201C;</note></l> <l n="362">Do heten<lb/>
+sich verporgen schon<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da hatten sich&#x201C;</note></l> <l n="363">Der vater und sein<lb/>
+lieber sun;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der Vater und sein lieber Sohn bereits verborgen;&#x201C;</note></l> <l n="364">Das merwunder in nit ent<choice><orig/><reg>-</reg></choice><lb/>
+ran.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das Meerwunder entrann ihnen nicht.&#x201C;</note></l> </lg>  <lg n="29"> <l n="365">Sie fingen do das merwunder.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sie überwältigten da das Meerwunder.&#x201C;</note></l> <l n="366">Do spra<choice><orig/><reg>-</reg></choice><lb/>
+ch die edel fraw so her:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da sprach die edle, äußerst vornehme Dame:&#x201C;</note></l> <l n="367">&#x201E;Ich wil mich an<lb/>
+ym rechen!&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ich will mich an ihm rächen!&#x201C;</note></l> <l n="368">Und sie nam ires heren schw<choice><orig/><reg>-</reg></choice><lb/>
+ert.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und sie nahm das Schwert ihres Gatten.&#x201C;</note></l> <l n="369">Sie sprach: &#x201E;des han ich lang begert,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sie sprach: &#x201E;Das habe ich mir lange gewünscht,&#x201C;</note></l><lb/>
+<l n="370">Das ich dich sol derstechen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass ich dich erstechen werde.&#x201C;</note></l> <l n="371">Du hast betr<choice><orig/><reg>-</reg></choice><lb/>
+<pb facs="#f0017" corresp="https://digital.slub-dresden.de/werkansicht/dlf/9933/413/" n="199v"/>
+ubet mir den sin<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Du hast mich unglücklich gemacht&#x201C;</note></l> <l n="372"><add place="superlinear">und pracht zw grossem grawen.&#x201C;</add><note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und mir großes Grauen bereitet.&#x201C;</note></l> <l n="373">Das schwert das stach sie<lb/>
+dick durch yn.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sie stach mehrmals das Schwert in ihn.&#x201C;</note></l> <l n="374">Sie sprach: &#x201E;du solt kein frawen<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sie sprach: &#x201E;Du sollst niemals mehr Frauen &#x201C;</note></l><lb/>
+<l n="375">Nimer pringen in solche not!&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;In solche Not bringen!&#x201C;</note></l> <l n="376">Das swert das<lb/>
+stach sie dick durch in,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Das Schwert stach sie (so) oft durch ihn,&#x201C;</note></l> <l n="377">Pis das er vor ir lage<lb/>
+dot.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Bis er tot vor ihr lag.&#x201C;</note></l> </lg>     <lg n="30"> <l n="378">Do sprach der kunig und sein sun:<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da sprachen der König und sein Sohn:&#x201C;</note></l> <l n="379">&#x201E;Fraw, ir <choice><sic>habp</sic><corr resp="#textsource-1">habt</corr></choice><lb/>
+euch gerochen nun,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Herrin, nun habt Ihr Euch gerächt,&#x201C;</note></l> <l n="380">Ir solt nun gar fro seine.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Ihr könnt nun ganz erleichtert sein.&#x201C;</note></l><lb/>
+<l n="381">Und habt furpas ein guten mut<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und seid künftig guten Mutes,&#x201C;</note></l> <l n="382">Und nimer<lb/>
+also torlich tut<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Handelt nicht mehr so leichtsinnig,&#x201C;</note></l> <l n="383">Und das ir get alleine<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass Ihr künftig allein &#x201C;</note></l> <l n="384">Spa<choice><orig/><reg>-</reg></choice><lb/>
+cziren furpas an das mer,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;An das Meer spazieren geht.&#x201C;</note></l> <l n="385">So mag euch<lb/>
+nit misslingen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dann kann Euch nichts Schlimmes passieren.&#x201C;</note></l> <l n="386">Sein sun het<note resp="#textsource-1" type="editorial"><bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl> konjiziert: tet pringen. Mit Blick auf V. 70 ist flektiertes Modalverb plus Infinitiv aber möglich.</note> manchen helt<lb/>
+so her<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Sein Sohn hat manchen sehr tapferen Helden&#x201C;</note></l> <l n="387">Hie umb sein leben pringen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Hier um sein Leben gebracht.&#x201C;</note></l> <l n="388">Auch<lb/>
+wolt er uns han pracht in not,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Auch uns wollte er in Bedrängnis bringen,&#x201C;</note></l> <l n="389">Doch hat<lb/>
+uns got geholffen,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Doch Gott hat uns geholfen,&#x201C;</note></l> <l n="390">Das sie von uns peid<lb/>
+ligen dot.&#x201C;<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass sie beide durch uns tot da liegen.&#x201C;</note></l> </lg>  <lg n="31"> <l n="391">Do czugen sie mit freuden hein<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Da zogen sie mit Freuden heim,&#x201C;</note></l> <l n="392">Der kunck, der<lb/>
+sun, die fraw so rein<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Der König, sein Sohn und die makellose Dame&#x201C;</note></l> <l n="393">In also hohen eren.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Mit überaus großer Ehre.&#x201C;</note></l> <l n="394">Die sach<lb/>
+die plib also verschwign,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die Angelegenheit blieb gänzlich verschwiegen,&#x201C;</note></l> <l n="395">Die fraw wart keiner<lb/>
+uner czigen.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Die Dame wurde keiner Unehre bezichtigt.&#x201C;</note></l> <l n="396">Dopei so nemet lere,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Daraus zieht die Lehre,&#x201C;</note></l> <l n="397">Das man<lb/>
+in solchen <choice><sic/><corr resp="#textsource-1">sachen</corr></choice><note resp="#textsource-1" type="editorial">Die Konjektur erfolgt aus metrischen und inhaltlichen Gründen. Der Verfasser neigt zudem zu S-Alliterationen, vgl. etwa <ref target="#f0014">V. 289 [Bl. 198r]</ref>. <bibl><ref target="https://doi.org/10.1086/388433">Fuchs [1940]</ref></bibl> verzichtet auf eine Konjektur. <bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl> konjiziert: solchen dingen</note> sei<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass man in solchen Angelegenheiten&#x201C;</note></l> <l n="398">Verschwigen und getrewe.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Verschwiegen und treu sein muss.&#x201C;</note></l> <l n="399">Wer<lb/>
+das dut, der ist eren frei<note resp="#textsource-1" type="editorial"><bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl> konjiziert: +nit eren frei</note><note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Wer sich so verhält, der erhält sich seine Ehre (?)&#x201C;</note></l> <l n="400">Und pringet im<lb/>
+kein rewe.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Und es bringt ihm keine Reue.&#x201C;</note></l> <l n="401">Wan es ist der welt sit<del rendition="#s">e</del> also,<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Denn es ist auf der Welt nun einmal so,&#x201C;</note></l> <l n="402">Das<lb/>
+mancher hie auf erden ist<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Dass mancher hier auf Erden&#x201C;</note></l> <l n="403">Des seinen nechsten<lb/>
+ungluck<note resp="#textsource-1" type="editorial"><bibl><ref target="http://d-nb.info/979763177">Kofler [2006]</ref></bibl> konjiziert: unglucks</note> fro.<note resp="#textsource-1" type="editorial">Übertragung: &#x201E;Froh über das Unglück seines Nächsten ist.&#x201C;</note></l> </lg> </lg>     </div>         </body> </text> </TEI>
