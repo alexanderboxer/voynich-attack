@@ -47,9 +47,11 @@ _ATOMIC_KIND = {"item": "item", "titlePage": "head"}
 # Multi-line paragraph containers: each child of the specified child-tag
 # becomes one row within a single paragraph (para_id), with sent_id
 # incrementing per line.  Value: (block_type, child_tag_that_is_a_line).
-# Used for verse stanzas where the line boundaries are meaningful.
+# Used for verse stanzas where the line boundaries are meaningful. We emit
+# block_type='body' so verse-only texts (meerwunder, has_lob) are loadable
+# with the default body-only loader config.
 _PARA_MULTI_LINE_KIND = {
-    "lg":  ("verse", "l"),
+    "lg":  ("body", "l"),
 }
 _SKIP_INLINE = {"note", "figure", "fw", "gap"}
 _SOFT_BREAK = {"lb", "cb"}
@@ -210,10 +212,13 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
             counter["para_id"] += 1
     elif tag in _PARA_MULTI_LINE_KIND:
         block_type, line_tag = _PARA_MULTI_LINE_KIND[tag]
-        # Walk children in document order. Accumulate direct line-children
-        # into a running paragraph; when a nested same-kind container is
-        # hit, flush the accumulation and recurse. Document order is
-        # preserved for paragraph numbering.
+        # Walk children in document order. Default: accumulate direct
+        # line-children into a running paragraph and flush on each nested
+        # same-kind container (stanzas become paragraphs). Exception: a
+        # flat <lg type="poem"> with no nested <lg>s (a stanza-less poem
+        # like has_lob 1490) emits each <l> as its own paragraph.
+        has_nested = any(_tag(c) == tag for c in elem)
+        treat_as_flat = not has_nested and elem.get("type") == "poem"
         pending: list[str] = []
 
         def flush():
@@ -231,7 +236,16 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
             ctag = _tag(child)
             if ctag == line_tag:
                 line_orig = _post_process(_inline_text(child, state))
-                if line_orig:
+                if not line_orig:
+                    continue
+                if treat_as_flat:
+                    para_rows = _emit_multi_line_from_list(
+                        [line_orig], doc_id, block_type, counter["para_id"], state
+                    )
+                    if para_rows:
+                        counter["para_id"] += 1
+                        rows.extend(para_rows)
+                else:
                     pending.append(line_orig)
             elif ctag == tag:
                 # same-kind nested container (e.g. <lg> inside <lg>)
@@ -261,7 +275,11 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
             if ctag != "row":
                 continue
             cells = [c for c in child if _tag(c) == "cell"]
-            is_header = header_next or any(c.get("cols") for c in cells)
+            is_header = (
+                header_next
+                or any(c.get("cols") for c in cells)
+                or any(c.get("role") == "label" for c in cells)
+            )
             block_type = "head" if is_header else "body"
             orig = _post_process(_inline_text(child, state))
             if orig and _letter_count_inline(orig) >= 1:

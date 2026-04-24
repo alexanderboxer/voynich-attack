@@ -227,7 +227,7 @@ def _load_dracole1485():
 @_register('meerwunder1472')
 def _load_meerwunder1472():
     path = _root / 'corpora/german/nn_meerwunder_1472/nn_meerwunder_1472.csv'
-    return reftext.from_corpus_build_csv(path, language='german', block_types=('verse',))
+    return reftext.from_corpus_build_csv(path, language='german')
 
 
 # Nürnberg almanach 1481 (Creussner/Koberger; calendrical prose almanac)
@@ -276,10 +276,49 @@ def _load_ellenbog1524():
     return reftext.from_corpus_build_csv(path, language='german')
 
 
+# Artzney Buchlein wider allerlei kranckeyten der tzeen (1530, Lübeck;
+# anonymous Low German treatise on dental diseases and remedies).
+@_register('tzeen1530')
+def _load_tzeen1530():
+    path = _root / 'corpora/german/nn_tzeen_1530/nn_tzeen_1530.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Anonymous 1487 almanac (DTA nn_almanach04_1487).
+@_register('almanach1487')
+def _load_almanach1487():
+    path = _root / 'corpora/german/nn_almanach04_1487/nn_almanach04_1487.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Dracole waide (1488 print; second edition of the Dracole wyda narrative,
+# cf. dracole1485).
+@_register('dracole1488')
+def _load_dracole1488():
+    path = _root / 'corpora/german/nn_dracole_1488/nn_dracole_1488.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Kaspar Has, Eyn new gedicht der loblichen Stat Nürmberg (1490;
+# Nürnberg civic-praise poem, 742 rhymed verse lines).
+@_register('has1490')
+def _load_has1490():
+    path = _root / 'corpora/german/has_lob_1490/has_lob_1490.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Der fußpfadt zu der ewigen seligkeyt (1492; anonymous devotional work,
+# "The footpath to eternal salvation").
+@_register('fusspfad1492')
+def _load_fusspfad1492():
+    path = _root / 'corpora/german/nn_fusspfad_1492/nn_fusspfad_1492.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
 # dta: combined RefText across all corpus_build-pipeline DTA texts.
 @_register('dta')
 def _load_dta():
-    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490', 'crescentiis1493', 'springer1509', 'ellenbog1524')]
+    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490', 'crescentiis1493', 'springer1509', 'ellenbog1524', 'tzeen1530', 'almanach1487', 'dracole1488', 'has1490', 'fusspfad1492')]
     tklist = [t for _, rt in parts for t in rt.tklist]
     charlist = list(''.join(tklist))
     rt = reftext.RefText('german', tklist, charlist)

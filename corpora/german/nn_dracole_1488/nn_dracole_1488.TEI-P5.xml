@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Die geschicht dracole waide</title>
+<title type="sub">Historia Dracole Waida.</title>
+<author>
+<persName>
+<surname>N. N.</surname>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<persName>
+<surname>Roth</surname>
+<forename>Marcus</forename>
+</persName>
+<resp>
+<note type="remarkResponsibility">Transkription</note>
+<date type="importDTA">2014-02-20T12:00:00Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<persName>
+<surname>Schott</surname>
+<forename>Stephanie</forename>
+</persName>
+<persName>
+<surname>Trampenau</surname>
+<forename>Nicole</forename>
+</persName>
+<resp>
+<note type="remarkResponsibility">Konvertierung nach TEI-XML</note>
+<date type="importDTA">2014-02-20T12:00:00Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<persName>
+<surname>Schaffert</surname>
+<forename>Jan Christian</forename>
+</persName>
+<resp>
+<note type="remarkResponsibility">Kontrolle der Transkription</note>
+<date type="importDTA">2014-10-20T12:00:00Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<orgName>DFG-Projekt: Literaturexplosion und Intertextualität. Bedingungen und Merkmale der 'Verschriftlichung des Lebens' in Nürnberg</orgName>
+<resp>
+<note type="remarkResponsibility">Bereitstellung der digitalen Edition</note>
+<date type="importDTA">2014-02-20T12:00:00Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<orgName>Herzogin Anna Amalia Bibliothek Weimar</orgName>
+<resp>
+<note type="remarkResponsibility">Bereitstellung der Bilddigitalisate (Sign. Inc 609 [a])</note>
+<ref target="http://opac.ub.uni-weimar.de/DB=2/PPNSET?PPN=525339183"/>
+<date type="importDTA">2014-02-20T12:00:00Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">13</measure>
+<measure type="tokens">1968</measure>
+<measure type="types">768</measure>
+<measure type="characters">11933</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:32:45Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+<p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/nn_dracole_1488</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/nn_dracole_1488</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/nn_dracole_1488</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/nn_dracole_1488</idno>
+<idno type="DTADirName">nn_dracole_1488</idno>
+<idno type="DTAID">30607</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30607-9</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">[N. N.]: Historia Dracole Waida. [Nürnberg], [14]88.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Die geschicht dracole waide</title>
+<title level="m" type="sub">Historia Dracole Waida.</title>
+<author>
+<persName>
+<surname>N. N.</surname>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">4 Bl., III. [Holzschnitt], 4°</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Marx Ayrer</name></publisher>
+<pubPlace>Nürnberg</pubPlace>
+<date type="publication">1488</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Verfahrung der Texterfassung: manuell</li>
+<li>Druckfehler: ignoriert</li>
+<li>er- und us-Kürzel wurde aufgelöst</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Flugschrift</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ntsm</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001"/>
+<pb facs="#f0002"/>
+<pb facs="#f0003"/>
+<pb facs="#f0004"/>
+<pb facs="#f0005"/>
+<pb facs="#f0006"/>
+<pb facs="#f0007"/>
+<titlePage type="main"><titlePart type="main">Die ge&#x017F;chicht D&#xA75B;acole waide</titlePart><lb/>
+<figure/><lb/>
+</titlePage> </front>     <body>       <div>
+<pb facs="#f0008"/>
+<lb/>
+<opener>Nach Cri&#x017F;ti geburt. M.<lb/>
+C C C C. lvi.iar Hat der<lb/>
+Dracole vil er&#x017F;chrocke&#x0303;liche<lb/>
+wunderliche dinck gethan.<lb/>
+</opener>                               <p><hi rendition="#in">J</hi>Tem der alt gubernator hat den alte&#x0303; dracol<lb/>
+la&#x017F;en döten. Vnd der dracole vnd &#x017F;ein br&#x016F;der<lb/>
+haben abgetreten vo&#x0303; yrem glauben vn&#x0304; habe&#x0303;<lb/>
+verhai&#x017F;&#x017F;en vnd ge&#x017F;chworn&#x0304; den chri&#x017F;tliche&#x0303; ge-<lb/>
+lauben zu be&#x017F;chirmen.<lb/>
+Jtem deß &#x017F;elben iares i&#x017F;t er ge&#x017F;etzt worde&#x0303; tzu<lb/>
+einem herrn&#x0304; in der walachey. tzu hant lies er<lb/>
+töten den laßla wayda der da &#x017F;elbs herre i&#x017F;t<lb/>
+gewe&#x017F;en. Pald darnach hat er in &#x017F;ibenbu&#x0364;rge&#x0303;<lb/>
+auch in wurtzlande mit namen beckendorff<lb/>
+la&#x017F;en verbrennen. auch frawen vnd man in&#x0304;g<lb/>
+vnd alt. etlich hat er mit im heym gefu&#x0364;ret in<lb/>
+dy walachei an ey&#x017F;eren ketn&#x0304; vn&#x0304; da all ge&#x017F;pi&#x017F;t</p><lb/>
+<p>Ite&#x0303; er hat all i&#x016B;g knabe&#x0303; die in &#x017F;ein land ge<lb/>
+&#x017F;chickt &#x017F;ein worde&#x0303; vo&#x0303; lern&#x016B;g wege&#x0303; der &#x017F;prach<lb/>
+die hieß er in ein &#x017F;tuben &#x017F;perrn&#x0304; vn&#x0304; ließ &#x017F;y ver-<lb/>
+prennen der &#x017F;ein. c c c c. gewe&#x017F;en<lb/>
+Jtem er hat ein fride ge&#x017F;etzt. in de&#x0303;&#x017F;elben hat<lb/>
+er vil kaufleu&#x0364;t vnd furleu&#x0364;t auß wurtzland la&#x017F;<lb/>
+en &#x017F;pi&#x017F;&#x017F;en. <space dim="horizontal"/> Er hat auch ein gro&#x017F;s ge-<lb/>
+&#x017F;chlecht auß reu&#x0364;ten la&#x017F;en vnd &#x017F;pi&#x017F;&#x017F;en vo&#x0303; de&#x0303;<lb/>
+min&#x017F;ten piß zu dem mai&#x017F;ten i&#x016B;g vn&#x0304; alt.<lb/>
+Er hat &#x017F;ein volck etlich nacket la&#x017F;en e&#x012B; grab/<lb/>
+en piß zu dem nabel vn&#x0304; hat zu in la&#x017F;en &#x017F;chieß<lb/>
+en Er hat auch etlich la&#x017F;en pratn&#x0304; vn&#x0304;&#x017F;chinde&#x0303;</p><lb/>
+<p>Jtem er hat den iungen dan&#x0304; gefangen<lb/>
+vnd hat im ein grab la&#x017F;en machen vnd la&#x017F;en<lb/>
+be&#x017F;urgen nach cri&#x017F;tenlicher orden&#x016B;g. vn&#x0304; hat<lb/>
+im das haubt ab ge&#x017F;chlagen pey dem grab.</p><lb/>
+<pb facs="#f0009"/>
+<p>Item poten &#x017F;ein ge&#x017F;chickt wo&#xA75B;den von dem ku&#x0364;nigreich t&#x0292;u<lb/>
+hunge&#xA75B;n vnd &#x017F;ach&#x017F;&#x017F;en vnd Sibenbu&#x0364;&#xA75B;gen in der tzal. lv. in die<lb/>
+walachei Die lie&#x017F;&#x0292; der tracole fu&#x0364;nff wochen har&#xA75B;en vn&#x0305; lie&#x017F;&#x0292;<lb/>
+&#x017F;pi&#x017F;s fu&#x0364;r die he&#xA75B;b&#xA75B;ig &#x017F;tecken. al&#x017F;o &#x017F;ein die in g&#xA75B;o&#x017F;&#x0292;en &#x017F;o&#xA75B;gen ge/<lb/>
+we&#x017F;en. Das hat er dar vmb getan er fo&#xA75B;cht ver&#xA75B;eterey. Dy<lb/>
+weil &#x0292;og er in wurt&#x0292;land vnd &#x0292;er&#x017F;trewet das getraid vnd all<lb/>
+fru&#x0364;cht lies er ve&#xA75B;brennen. vn&#x0305; das volck lie&#x017F;&#x0292; er gefange&#x0305; fu&#x0364;ern&#x0305;<lb/>
+au&#x017F;erhalb der c&#xA75B;on&#x017F;tat al&#x017F;o genant do hat der dracole geru/<lb/>
+et pey &#x017F;ant iacobs capeln&#x0305; Er hat fo&#xA75B;&#x017F;tat la&#x017F;en ve&#xA75B;prennen<lb/>
+Auch als de&#xA75B; tag de&#x017F;&#x0292; mo&#xA75B;ges frwe kam. do lie&#x017F;&#x0292; er frawe&#x0305; vn&#x0305;<lb/>
+man iung vnd alt pey der capelln&#x0305; vm&#x0305; den perck la&#x017F;&#x0292;en &#x017F;pi&#x017F;&#x017F;e&#x0305;<lb/>
+vnd hat &#x017F;ich mitten vnter &#x017F;ie ge&#x017F;et&#x0292;t. vnd das mo&#xA75B;gen mal<lb/>
+mit freu&#x0364;den gee&#x017F;&#x017F;en.</p><lb/>
+<p>Ite&#x0305; er hat auch &#x017F;ant Ba&#xA75B;tholomes kirchen la&#x017F;en ve&#xA75B;p&#xA75B;ene&#x0305;<lb/>
+vnd all o&#xA75B;nat vn&#x0305; kelch von dan&#x0305; genum&#x0305;en.<lb/>
+Mer hat er &#x017F;eine&#xA75B; haubtma&#x0305; eine&#x0305; in ein g&#xA75B;o&#x017F;&#x0292; do&#xA75B;ff ge&#x017F;chickt<lb/>
+mit namen &#x0292;einding &#x0292;u ve&#xA75B;brennen. aber der &#x017F;elb haubtma&#x0305;<lb/>
+mocht das do&#xA75B;ff nit ve&#xA75B;brennen von wide&#xA75B;&#x017F;tant wege&#x0305; der<lb/>
+do&#xA75B;fleu&#x0364;t. vnd kam wide&#xA75B; haim &#x0292;u dem d&#xA75B;acole. vnd &#x017F;prach<lb/>
+ich hab nit mu&#x0364;gen ve&#xA75B;pringen das du mich gehei&#x017F;&#x017F;en ha&#x017F;t<lb/>
+von &#x017F;tund an lie&#x017F;&#x0292; er den haubtman &#x017F;pi&#x017F;&#x017F;en.</p><lb/>
+<p>Item kaufleu&#x0364;t vnd ande&#xA75B; volck mit irer kauffman&#x017F;chat&#x0292;s<lb/>
+komen von wurt&#x0292;land gegen der tunaw gen pregel in t&#x0292;al.<lb/>
+c c c c c c. die hat der dracole all la&#x017F;en &#x017F;pi&#x017F;&#x017F;en. vnd ir gut la&#x017F;en<lb/>
+nemen.</p><lb/>
+<p>Ite&#x0305; er hat la&#x017F;en machen ein g&#xA75B;o&#x017F;en ke&#x017F;&#x017F;el vnd daru&#x0364;be&#xA75B; bret/<lb/>
+er mit löche&#xA75B;n&#x0304; gemacht vnd hat die leu&#x0364;t mit den haubte&#xA75B;n&#x0305;<lb/>
+da&#xA75B;durch la&#x017F;&#x0292;en &#x017F;chieben vnd al&#x017F;o ve&#xA75B;&#x017F;per&#xA75B;n&#x0305; la&#x017F;en. vnd hat<lb/>
+den ke&#x017F;&#x017F;el mit wa&#x017F;&#x017F;er la&#x017F;en fu&#x0364;llen vnd hat g&#xA75B;o&#x017F;s feu&#x0364;er vnter<lb/>
+den ke&#x017F;&#x017F;el la&#x017F;en machen Vnd das volck al&#x017F;o iemerlich la&#x017F;en<lb/>
+&#x017F;chreien pi&#x017F;&#x0292; &#x017F;y gar ve&#xA75B;&#x017F;oten &#x017F;ein.</p><lb/>
+<p>Er&#x017F;ch&#xA75B;öckenliche fo&#xA75B;cht&#x017F;ame vnau&#x017F;p&#xA75B;echenliche pein hat<lb/>
+er erdacht d&#x0292; er hat la&#x017F;en mute&#xA75B; vn&#x0304; kind an de&#x0305; bru&#x0364;&#x017F;te&#x0305; a ij <fw place="bottom" type="sig"/>
+<pb facs="#f0010"/>
+<lb/>
+&#x017F;eu&#x0364;gent mit ein ande&#xA75B; &#x017F;pi&#x017F;&#x017F;en das die kind den mu&#x0364;tern&#x0305; an de&#x0305;<lb/>
+pru&#x0364;&#x017F;ten ge&#x0292;abelt haben pi&#x017F;&#x0292; in den tod. de&#x017F;&#x0292; gleichen die mu&#x0364;<lb/>
+ter hat er die pru&#x0364;&#x017F;t auf ge&#x017F;chnite&#x0305; vn&#x0305; die kind mit de&#x0305; haubt/<lb/>
+te&#xA75B;n&#x0305; da&#xA75B;durch ge&#x017F;choben vnd paide al&#x017F;o ge&#x017F;pi&#x017F;t.</p><lb/>
+<p>Item men&#x017F;che&#x0305; hat er &#x017F;eitling la&#x017F;en &#x017F;pi&#x017F;&#x017F;en allerlai volck cri&#x017F;t<lb/>
+en iuden. haiden das &#x017F;y &#x017F;ich lang haben mu&#x0364;gen ru&#x0364;&#xA75B;n&#x0305; vnnd<lb/>
+zabeln&#x0305; vn&#x0305; gewem&#x0305;e&#xA75B;t durch einande&#xA75B; als die fro&#x017F;ch. da&#xA75B;nach<lb/>
+hat er in hend vnd fu&#x0364;&#x017F;&#x0292; auch la&#x017F;en an &#x017F;pi&#x017F;&#x017F;en Vn&#x0305; er hat offt<lb/>
+in &#x017F;eine&#xA75B; &#x017F;p&#xA75B;ach gereth Ey wie g&#xA75B;o&#x017F;&#x0292; geradigkeit treiben &#x017F;y<lb/>
+al&#x017F;o hat er &#x017F;ein freu&#x0364;d gehabt. <lb/>
+<lb/>
+Item er het einen &#x0292;igewner gefangen de&#xA75B; het ge&#x017F;toln&#x0305;. do ka&#x0305;<lb/>
+en die ande&#xA75B;n &#x0292;igeu&#x0364;ner vn&#x0305; paten de&#x0305; d&#xA75B;acole er &#x017F;olt in ergebe&#x0305;.<lb/>
+Do &#x017F;p&#xA75B;ach er Er mu&#x0364;&#x017F;t hange&#x0305; vn&#x0305; ir mu&#x0364;&#x017F;t in &#x017F;elber hencken.<lb/>
+Sie &#x017F;prache&#x0305; es wer nicht ir gewonheit. da lie&#x017F;&#x0292; der dracole<lb/>
+den zigeu&#x0364;ner in einem ke&#x017F;&#x017F;el &#x017F;ieden. do mu&#x017F;ten in die ande&#xA75B;n&#x0305;<lb/>
+&#x0292;igewner e&#x017F;&#x017F;en mit flai&#x017F;ch vnd gepain.</p><lb/>
+<p>Es wa&#xA75B;d auch &#x0292;u im ge&#x017F;chickt ein erbriger man der ka&#x0305; t&#x0292;u<lb/>
+im pey den leu&#x0364;te&#x0305; die e&#xA75B; al&#x017F;o het la&#x017F;en &#x017F;pi&#x017F;&#x017F;en. do ging de&#xA75B; d&#xA75B;a<lb/>
+cole vnter in vmb vnd &#x017F;chawet &#x017F;y de&#xA75B; warn&#x0305; als ein gro&#x017F;&#x017F;er<lb/>
+walt Do &#x017F;p&#xA75B;ach der ge&#x017F;chickt man &#x0292;u dem dracole warvm&#x0305;<lb/>
+er al&#x017F;o vnte&#xA75B; dem ge&#x017F;tanck vm&#x0305; ging. der dracole &#x017F;p&#xA75B;ach ob<lb/>
+es in an &#x017F;tu&#x0364;nck Er &#x017F;p&#xA75B;ach ia. do lies er in vo&#x0305; &#x017F;tund an auff<lb/>
+in die hoch &#x017F;pi&#x017F;&#x017F;en das in die ande&#xA75B;n&#x0304; nit an &#x017F;tu&#x0364;ncken.</p><lb/>
+<p>Ite&#x0305; ein pfaff het gepredigt wie die &#x017F;und nit ve&#xA75B;gebe&#x0305; wu&#x0364;&#xA75B;d<lb/>
+en Neu&#x0364;er man geb vnrecht gut wider da lued de&#xA75B; dracol de&#x0305;<lb/>
+&#x0292;u hau&#x017F;&#x0292; und &#x017F;et&#x0292;et de&#x0305; an &#x017F;ein ti&#x017F;ch. der dracol p&#xA75B;ocket e&#x012B; wei&#x017F;&#x0292;<lb/>
+prot das er &#x017F;elber e&#x017F;&#x017F;en wolt. der pfaff begreif vnter &#x017F;tunde&#x0305;<lb/>
+der p&#xA75B;ocken einen vnd a&#x017F;&#x0292; in. Der dracole &#x017F;p&#xA75B;ach wie ha&#x017F;tu<lb/>
+hewt gep&#xA75B;edigt das die &#x017F;und nit ve&#xA75B;geben wirt ma&#x0305; geb dan&#x0305;<lb/>
+das vnrecht gut wider der pri&#x017F;ter &#x017F;p&#xA75B;ach ia. der dracole &#x017F;prach<lb/>
+waru&#x0364;mb i&#x017F;&#x017F;et du mir mein b&#xA75B;ot das ich mir hab ein p&#xA75B;ockt<lb/>
+von &#x017F;tund an &#x017F;pi&#x017F;&#x017F;et er den brie&#x017F;ter.</p><lb/>
+<p>Jtem mer de&#xA75B; dracole kom in &#x017F;ibenpu&#x0364;&#xA75B;gen gen Kalmot&#x0292; da<lb/>
+<pb facs="#f0011"/>
+<lb/>
+&#x017F;elb&#x017F;t hat er dy me&#x0305;&#x017F;chen la&#x017F;en hacke&#x0305; als das kraut die vber/<lb/>
+igen hat er heim gefu&#x0364;rt vnd ge&#x017F;pi&#x017F;t.<lb/>
+Er hat all &#x017F;ein lanther&#xA75B;n&#x0305; vn&#x0305; edel leu&#x0364;t in &#x017F;eine&#x0305; land &#x0292;u ti&#x017F;ch ge<lb/>
+laden da das mal volb&#xA75B;acht wa&#xA75B;d da hub er an / an de&#x0305; elte&#x017F;<lb/>
+ten vod fragt wie vil er waida die in dem land her&#xA75B;n&#x0305; &#x017F;ein ge/<lb/>
+we&#x017F;en gedecht Al&#x017F;o fragt er einen nach de&#x0305; ande&#xA75B;n&#x0305; Sie &#x017F;agt<lb/>
+ten all als vil ietlicher we&#x017F;t ainer &#x017F;agt. l. einer. xxx. Al&#x017F;o was<lb/>
+kainer vnter in er &#x017F;agt von &#x017F;ibe&#x0305; da lie&#x017F;&#x0292; er die her&#xA75B;n&#x0305; all &#x017F;pi&#x017F;&#x017F;en<lb/>
+de&#xA75B; warn&#x0304; in &#x0292;al. ccccc.</p><lb/>
+<p>Item er hat leu&#x0364;t auff &#x017F;chliff &#x017F;teine&#x0305; &#x0292;u tod la&#x017F;&#x0292;en &#x017F;chleiffen.<lb/>
+vn&#x0305; vil vnme&#x0305;&#x017F;chliche&#xA75B; dingk getha&#x0305; dy ma&#x0305; von im &#x017F;agt.<lb/>
+Ite&#x0305; er hat ein &#x017F;chlaffweib gehabt die gab &#x017F;ich au&#x017F;&#x0292; &#x017F;y wer<lb/>
+&#x017F;chwanger do lie&#x017F;&#x0292; de&#xA75B; d&#xA75B;acole die frawen be&#x017F;chauen mit de&#x0305;<lb/>
+heba&#x0305;men dy &#x017F;agten &#x017F;y wer nit &#x017F;chwange&#xA75B;. Do &#x017F;chneid er d&#x0292;<lb/>
+&#x017F;elb &#x017F;chlafweib von unten auff pi&#x017F;&#x0292; &#x0292;u den bru&#x0364;&#x017F;ten Vnd er<lb/>
+&#x017F;prach er wolt be&#x017F;ehen wo &#x017F;ein frucht wer. oder wo er ge/<lb/>
+we&#x017F;en wer.</p><lb/>
+<p>Poten &#x017F;ein ge&#x017F;chickt wo&#xA75B;den an&#x017F;&#x0292; der He&#xA75B;man&#x017F;tat in dy wa<lb/>
+lachey die haben ge&#x017F;agt da haim &#x017F;olchen iame&#xA75B; das &#x017F;y tot/<lb/>
+ter vnd ge&#x017F;pi&#x017F;ter als ein gro&#x017F;&#x017F;en walt ge&#x017F;ehen habe&#x0305;.<lb/>
+Anno dn&#x0305;i. M. CCCC. Lxij. iar i&#x017F;t der dracole kum&#x0305;en<lb/>
+in die gro&#x017F;&#x0292;en &#x017F;chiltaw do hat de&#xA75B; Dracole la&#x017F;en toten meer<lb/>
+dan&#x0305; xxv. tau&#x017F;ent me&#x0305; &#x017F;che&#x0305; alle&#xA75B;ley volck Cri&#x017F;ten iuden. auch<lb/>
+haiden Vnte&#xA75B; den &#x017F;ein dy alle&#xA75B; &#x017F;chon&#x017F;ten frawen vnd iunck<lb/>
+frauen gewe&#x017F;en dy durch &#x017F;ein hofge&#x017F;ind behalte&#x0305; &#x017F;ein wo&#xA75B;de&#x0305;<lb/>
+Vn&#x0305; paten de&#x0305; dracole das er in&#x017F;&#x0292; &#x0292;u elichen weibern&#x0305; geb Do<lb/>
+lie&#x017F;&#x0292; der dracole dy ma&#x0305; mit &#x017F;ampt de&#x0305; frawe&#x0305; vn&#x0305; iu&#x0305;ckfrawe&#x0305; t&#x0292;er/<lb/>
+hacke&#x0305; la&#x017F;en mit &#x017F;aibeln&#x0305; vn&#x0305; &#x017F;chwerte&#xA75B;n&#x0305; als d&#x0292; kraut. das hat<lb/>
+e&#xA75B; daevin&#x0305; getha&#x0305; d&#x0292; land i&#x017F;t de&#x0305; du&#x0364;rcke&#x0305; &#x0292;in&#x017F;&#x0292;haft gewe&#x017F;t vnd<lb/>
+de&#x0305; du&#x0364;rck hat de&#x0305; &#x0292;in&#x017F;&#x0292; offt an &#x012B; e&#xA75B;fode&#xA75B;t. Al&#x017F;o &#x017F;agt er de&#x0305; poten<lb/>
+er wolt &#x012B; &#x017F;elbe&#xA75B; reiche&#x0303; Er &#x0292;og &#x012B; das land do rait ma&#x0305; im ent/<lb/>
+gege&#x0305; de&#x017F;&#x0292; &#x0292;in&#x017F;&#x0292; halbe&#x0305; meinede dem kay&#x017F;er aldo &#x0292;e bringen Al<lb/>
+&#x017F;o kam e&#x012B; hau&#x017F;&#x017F; nach de&#x0305; ande&#xA75B;n&#x0305;. Do der. Dracole a iij<fw place="bottom" type="sig"/><lb/>
+<pb facs="#f0012"/>
+<lb/>
+&#x017F;ach das &#x017F;ein &#x0292;eit was do &#x017F;chlug er die all &#x0292;u tod die im ent/<lb/>
+gegen warn&#x0305; geriten. wan&#x0305; &#x017F;y &#x017F;ich de&#x017F;&#x0292; nit ve&#xA75B;&#x017F;ehen heten. vn&#x0305;<lb/>
+de&#xA75B; d&#xA75B;acole ve&#xA75B;p&#xA75B;ent die gant&#x0292;en wulgarey. vnd lie&#x017F;&#x0292; alle die<lb/>
+men&#x017F;chen die er gefahen mocht lie&#x017F;&#x0292; der dracole all &#x017F;pi&#x017F;&#x017F;en der<lb/>
+wa&#xA75B;n&#x0305; in &#x0292;al xxv tau&#x017F;ent an die ande&#xA75B;n&#x0305; die in de&#x0305; feu&#x0364;e&#xA75B; verdu&#x0364;rbe&#x0305;</p><lb/>
+<p>Er &#x017F;ach eine&#x0305; man arbeiten in eine&#x0305; kurt&#x0292;en hemd. do fraget<lb/>
+er in ob er ein weib het. er &#x017F;p&#xA75B;ach ia. De&#xA75B; dracole hie&#x017F;&#x0292; &#x017F;y fu&#x0364;r<lb/>
+in pringen vn&#x0305; fragt &#x017F;y was &#x017F;y arbeitet. &#x017F;y &#x017F;p&#xA75B;ach ich wa&#x017F;ch<lb/>
+pach vnd &#x017F;pin. t&#x0292;u hant lies er &#x017F;y &#x017F;pi&#x017F;&#x017F;en. daru&#x0364;mb das &#x017F;y ire&#x0305;<lb/>
+man&#x0305; kein langs hemd gemacht het. vnd gab im ein ander<lb/>
+weib vnd &#x017F;prach &#x017F;y &#x017F;olt im ein langes hemd machen ode&#xA75B; e&#xA75B;<lb/>
+wolt &#x017F;y auch &#x017F;pi&#x017F;&#x017F;en.</p><lb/>
+<p>Item es komen in &#x017F;ein land pey drey hundert zigeu&#x0364;ne&#xA75B;n&#x0305; da<lb/>
+nam er die pe&#x017F;ten d&#xA75B;ey au&#x017F;&#x0292; in vnd lie&#x017F;&#x0292; &#x017F;y braten die mu&#x017F;ten<lb/>
+die ande&#xA75B;n&#x0305; e&#x017F;&#x017F;en. Vn&#x0305; &#x017F;p&#xA75B;ach &#x0292;u in al&#x017F;o mu&#x0364;&#x017F;t ir all an einander<lb/>
+e&#x017F;&#x017F;en ode&#xA75B; &#x0292;iecht an die tu&#x0364;rcken. De&#x017F;&#x0292; waren die &#x0292;igeu&#x0364;ner fro.<lb/>
+an die tu&#x0364;rcken &#x0292;u &#x017F;treiten. Al&#x017F;o lie&#x017F;&#x0292; der dracole ro&#x017F;&#x0292; vnd man<lb/>
+in ku&#x0364;eheu&#x0364;t klaiden. Da nu&#x0305; die &#x0292;igeu&#x0364;ner an die tu&#x0364;rcken kame&#x0305;<lb/>
+Da &#x017F;cheu&#x0364;chten der du&#x0364;rcke&#x0305; ro&#x017F;&#x0292; vo&#xA75B; dem rau&#x017F;chen der ku&#x0364;eheu&#x0364;t<lb/>
+vnd gaben die flucht an ein wa&#x017F;&#x017F;er. do ertruncken der du&#x0364;rcke&#x0305;<lb/>
+gar vil. al&#x017F;o lagen die zigeu&#x0364;ner ob.<lb/>
+Im i&#x017F;t ein mu&#x0364;nch parfu&#x017F;er o&#xA75B;dens reittend auff einem e&#x017F;el<lb/>
+vntter wegen begegnet. Do lie&#x017F;&#x0292; der d&#xA75B;acole den e&#x017F;el vnd de&#x0305;<lb/>
+mu&#x0364;nch auf einande&#xA75B; &#x017F;pi&#x017F;&#x017F;en</p><lb/>
+<p>Item es wurde&#x0305; &#x0292;u im ge&#x017F;chickt etlich walhen. als &#x017F;y &#x0292;u im<lb/>
+kamen do naigten &#x017F;y &#x017F;ich vnd theten ir hu&#x0364;et ab. vnd dy pir<lb/>
+ret darvnter behielten &#x017F;y auf Do fragt er &#x017F;y waru&#x0364;mb &#x017F;y die<lb/>
+heu&#x0364;blein auch nit ab theten Si &#x017F;agten es wer ir gewo&#x0305;heit<lb/>
+vnd theten &#x017F;y gegen dem kay&#x017F;er nicht ab De&#xA75B; dracol &#x017F;p&#xA75B;ach<lb/>
+ich will eu&#x0364;ch das be&#x017F;tetn&#x0305;. t&#x0292;uhant lie&#x017F;&#x0292; er in die pir&#xA75B;et an die<lb/>
+hau&#x0364;bter &#x017F;ta&#xA75B;ck an nageln&#x0305; Damit das &#x012B; dy heu&#x0364;blein nit ab<lb/>
+fieln&#x0305; vn&#x0305; ir gewo&#x0305;heit plib. al&#x017F;o be&#x017F;tetigt er das.</p><lb/>
+<pb facs="#f0013"/>
+<lb/>
+<p>Item es &#x017F;ein &#x0292;wen mu&#x0364;nch kume&#x0305;n in &#x017F;ein land die hat er ge<lb/>
+laden &#x017F;y &#x017F;ollen &#x0292;u im kum&#x0305;en das ge&#x017F;chach Do nam er denn<lb/>
+eine&#x0305; mu&#x0364;nch vnd fragt in was man guttes von im &#x017F;aget. di&#x017F;/<lb/>
+er mu&#x0364;nch fo&#xA75B;cht &#x017F;ich &#x017F;er vnd &#x017F;prach Man &#x017F;agt alles gutes<lb/>
+von eu&#x0364;ch vn&#x0305; ir &#x017F;eit gar ein frum&#x0305;er her&#xA75B; das &#x017F;ag ich auch vo&#x0305;<lb/>
+eu&#x0364;ch Er hie&#x017F;&#x0292; di&#x017F;en mu&#x0364;nch behaltn&#x0305; Vnd ma&#x0305; p&#xA75B;acht im de&#x0305;<lb/>
+ande&#xA75B;n&#x0305; mu&#x0364;nchen. de&#xA75B; wa&#xA75B;d von im befragt wie der e&#xA75B;&#x017F;t. Do<lb/>
+gedacht de&#xA75B; ander mu&#x0364;nch ich mu&#x017F;&#x0292; doch &#x017F;te&#xA75B;be&#x0305;. ich will im<lb/>
+die wa&#xA75B;heit &#x017F;agen vnd &#x017F;p&#xA75B;ach Ir &#x017F;eit de&#xA75B; g&#xA75B;ö&#x017F;t wu&#x0364;trich den<lb/>
+ma&#x0305; mag vinde&#x0305; in de&#xA75B; welt. vn&#x0305; keine&#x0305; me&#x0305;&#x017F;chen han ich ge&#x017F;eh<lb/>
+en der eu&#x0364;ch ye gutes nach &#x017F;aget vn&#x0305; d&#x0292; habt ir wol bewi&#x017F;en.<lb/>
+Do &#x017F;p&#xA75B;ach de&#xA75B; d&#xA75B;acole Du ha&#x017F;t mir war ge&#x017F;agt darvmb &#x017F;o<lb/>
+will ich dich la&#x017F;en leben. vn&#x0305; lie&#x017F;&#x0292; in ledig. Vnd &#x017F;chickt wide&#xA75B;<lb/>
+nach de&#x0305; e&#xA75B;&#x017F;ten vn&#x0304; meint er wu&#x0364;&#xA75B;d im anch die wa&#xA75B;heit &#x017F;age&#x0305;<lb/>
+Do &#x017F;agt er wie vo&#xA75B;. Der tracol &#x017F;p&#xA75B;ach nempt in hin vn&#x0305; lie&#x017F;&#x0292;<lb/>
+in &#x017F;pi&#x017F;&#x017F;en von de&#xA75B; vnwa&#xA75B;heit wege&#x0305;.</p><lb/>
+<p>Item er lies k&#x0131;nde&#xA75B; praten die mu&#x017F;tn&#x0305; i&#xA75B;e mu&#x0364;te&#xA75B; e&#x017F;&#x017F;en. Vnnd<lb/>
+&#x017F;chnid de&#x0305; frawen die bru&#x0364;&#x017F;t ab die mu&#x017F;ten ir man e&#x017F;&#x017F;en Da&#xA75B;/<lb/>
+nach ließ er &#x017F;y alle &#x017F;pi&#x017F;&#x017F;en.</p><lb/>
+<p>Item er lie&#x017F;&#x0292; all petler in &#x017F;einem land ein gut mal bereiten.<lb/>
+nach dem mal lie&#x017F;&#x0292; er &#x017F;y in dem &#x017F;tadel darin &#x017F;y gee&#x017F;&#x017F;en heten<lb/>
+ver&#x017F;per&#xA75B;n&#x0305;. vnd ve&#xA75B;prent &#x017F;y all Er maint &#x017F;y e&#x017F;en den leu&#x0364;tenn<lb/>
+das ir vmb &#x017F;un&#x017F;t ab vnd ku&#x0364;nten das nit ve&#xA75B;dienen.<lb/>
+Pald da&#xA75B;nach fieng in der ku&#x0364;nig in hunge&#xA75B;n&#x0305; vnd behielt<lb/>
+in vil &#x0292;eit he&#xA75B;tigklich gefange&#x0305; . Da&#xA75B;nach lie&#x017F;&#x0292; er &#x017F;ich &#x0292;u ofen<lb/>
+taufen vn&#x0305; thet g&#xA75B;o&#x017F;&#x0292;e pue&#x017F;&#x0292;. Da&#xA75B;nach machet der ku&#x0364;nig de&#x0305;<lb/>
+Dracole wayda wider zu einem her&#xA75B;n&#x0305; als vo&#xA75B; Vnd ma&#x0305; &#x017F;agt<lb/>
+er deth da&#xA75B;nach vil guter &#x017F;ach.</p><lb/>
+<closer><dateline>Volendet am tag Calixti Von marco<lb/>
+ayrer Jm Lxxxviij iare.</dateline></closer><lb/>
+</div>     </body>   </text> </TEI>
