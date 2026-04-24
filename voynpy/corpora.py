@@ -316,6 +316,14 @@ def _load_fusspfad1492():
 
 
 # dta: combined RefText across all corpus_build-pipeline DTA texts.
+# Also exposed as `german` — so `from voynpy.corpora import german` yields
+# the full DTA corpus (same instance). The older hand-coded aggregate is
+# `german_legacy`.
+@_register('german')
+def _load_german():
+    return _get('dta')
+
+
 @_register('dta')
 def _load_dta():
     parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490', 'crescentiis1493', 'springer1509', 'ellenbog1524', 'tzeen1530', 'almanach1487', 'dracole1488', 'has1490', 'fusspfad1492')]
@@ -328,23 +336,24 @@ def _load_dta():
     )[['doc', 'idx', 'par', 'line', 'par_end', 'textstring']]
     return rt
 
-# German: all texts
+# German legacy: aggregate of the three hand-coded pre-DTA texts. `german`
+# itself now points to the DTA combined reftext (see lazy loader above).
 reftext_list = [simp, kuche, promptuarium]
 namelist = ['simp','kuche','prom']
 
-german_df = pd.DataFrame()
+german_legacy_df = pd.DataFrame()
 for obj, name in zip(reftext_list, namelist):
     opus_df = obj.df.copy()
     opus_df.columns = ['line', 'textstring']
-    opus_df['op'] = name 
+    opus_df['op'] = name
     opus_df = opus_df[['op','line','textstring']]
-    german_df = pd.concat([german_df, opus_df], ignore_index = True)
+    german_legacy_df = pd.concat([german_legacy_df, opus_df], ignore_index = True)
 
-german_fulltext = ' '.join([k for k in german_df.textstring])
-german_tklist = [''.join([k for k in word if k.isalpha()]) for word in german_fulltext.split()]
-german_charlist = list(''.join(german_tklist))
-german = reftext.RefText('german', german_tklist, german_charlist)
-german.df = german_df
+german_legacy_fulltext = ' '.join([k for k in german_legacy_df.textstring])
+german_legacy_tklist = [''.join([k for k in word if k.isalpha()]) for word in german_legacy_fulltext.split()]
+german_legacy_charlist = list(''.join(german_legacy_tklist))
+german_legacy = reftext.RefText('german', german_legacy_tklist, german_legacy_charlist)
+german_legacy.df = german_legacy_df
 
 
 #----------
