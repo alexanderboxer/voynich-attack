@@ -140,35 +140,35 @@ wycliffe = reftext.from_txt(wycliffepath, language = 'english')
 # German
 #----------
 # Simplicissimus  (utf8)
-simppath = _root / 'corpora/german/simplicissimus/simplicissimus.csv'
+simppath = _root / 'corpora/german/legacy/simplicissimus/simplicissimus.csv'
 simp = reftext.from_textstring_csv(simppath, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
 # Simplicissimus  (lat0)
-simp0path = _root / 'corpora/german/simplicissimus/simplicissimus_lat0.csv'
+simp0path = _root / 'corpora/german/legacy/simplicissimus/simplicissimus_lat0.csv'
 simp0 = reftext.from_textstring_csv(simp0path, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
 # Promptuarium medicinae  (lat0)
-promptuariumpath = _root / 'corpora/german/promptuarium_medicinae/promptuarium1483.csv'
+promptuariumpath = _root / 'corpora/german/legacy/promptuarium_medicinae/promptuarium1483.csv'
 promptuarium = reftext.from_textstring_csv(promptuariumpath, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
 # kuchemaistrey (lat1)
-kuchepath = _root / 'corpora/german/kuchemaistrey/kuchemaistrey1490.csv'
+kuchepath = _root / 'corpora/german/legacy/kuchemaistrey/kuchemaistrey1490.csv'
 kuche = reftext.from_textstring_csv(kuchepath, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
 # splendor solis (lat1)
-splendorpath = _root / 'corpora/german/splendor_solis_1590/splendor_solis_lat1.csv'
+splendorpath = _root / 'corpora/german/legacy/splendor_solis_1590/splendor_solis_lat1.csv'
 splendor = reftext.from_textstring_csv(splendorpath, language = 'german', read_from_col = 0, comma_split_tokens = False)
 
 # splendor solis (lat0)
-splendorpath0 = _root / 'corpora/german/splendor_solis_1590/splendor_solis_lat0.csv'
+splendorpath0 = _root / 'corpora/german/legacy/splendor_solis_1590/splendor_solis_lat0.csv'
 splendor0 = reftext.from_textstring_csv_lat0(splendorpath0, language = 'german')
 
 # refFNHD miscellany
-refFNHDpath = _root / 'corpora/german/refFNHD/refFNHD.csv'
+refFNHDpath = _root / 'corpora/german/legacy/refFNHD/refFNHD.csv'
 refFNHD = reftext.from_textstring_csv_lat0(refFNHDpath, language = 'german')
 
 # luther september bible (lat0)
-lutherpath = _root / 'corpora/german/luther_newe_testament/luther_nt22_lat0.csv'
+lutherpath = _root / 'corpora/german/legacy/luther_newe_testament/luther_nt22_lat0.csv'
 luther = reftext.from_textstring_csv_var1(lutherpath, language = 'german', read_from_col = 3, comma_split_tokens = False)
 
 # =============================================================================
