@@ -38,6 +38,10 @@ def _tag(elem) -> str:
 
 
 _PARA_KIND = {"p": "body", "head": "head"}
+# Atomic paragraph-producing tags: one row per element, no sentence-splitting
+# within. Internal periods are treated as decorative scribal punctuation
+# (e.g. citation lists "Auicenna. Primo. Secundo tertio. Quarto canonum").
+_ATOMIC_KIND = {"item": "item"}
 # Multi-line paragraph containers: each child of the specified child-tag
 # becomes one row within a single paragraph (para_id), with sent_id
 # incrementing per line.  Value: (block_type, child_tag_that_is_a_line).
@@ -50,13 +54,22 @@ _SOFT_BREAK = {"lb", "cb"}
 _CHOICE_PREFER = ("reg", "expan", "corr", "orig", "abbr", "sic")
 
 
+_FACS_RE = re.compile(r"#f(\d+)")
+
+
 def _update_page(elem, state: dict) -> None:
     n = elem.get("n")
     if n:
         state["page_n"] = n
-    else:
-        state["page_seq"] = state.get("page_seq", 0) + 1
-        state["page_n"] = str(state["page_seq"])
+        return
+    facs = elem.get("facs")
+    if facs:
+        m = _FACS_RE.match(facs)
+        if m:
+            state["page_n"] = str(int(m.group(1)))
+            return
+    state["page_seq"] = state.get("page_seq", 0) + 1
+    state["page_n"] = str(state["page_seq"])
 
 
 def _inline_text(elem, state: dict) -> str:
@@ -171,6 +184,23 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
         if para_rows:
             counter["para_id"] += 1
             rows.extend(para_rows)
+    elif tag in _ATOMIC_KIND:
+        block_type = _ATOMIC_KIND[tag]
+        orig = _post_process(_inline_text(elem, state))
+        if orig and _letter_count_inline(orig) >= 1:
+            rich = rich_normalize(orig)
+            rows.append(Row(
+                doc_id=doc_id,
+                block_type=block_type,
+                para_id=counter["para_id"],
+                sent_id=0,
+                is_para_final=True,
+                page_n=state.get("page_n"),
+                textstring_orig=orig,
+                textstring_rich=rich,
+                textstring_simple=simple_normalize(rich),
+            ))
+            counter["para_id"] += 1
     elif tag in _PARA_MULTI_LINE_KIND:
         block_type, line_tag = _PARA_MULTI_LINE_KIND[tag]
         # Walk children in document order. Accumulate direct line-children

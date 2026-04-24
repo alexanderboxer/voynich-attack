@@ -128,6 +128,32 @@ def _is_dot_boundary(s: str, pos: int) -> bool:
                 kk += 1
             if kk < len(s) and s[kk] == ".":
                 return False
+    # Enumeration list: at the current dot, look forward for a chain of
+    # `Word.` patterns (capitalized, ≥3 letters) ending in a lowercase
+    # continuation. Scribal lists like "Hemmel. Sunne. Mane. vnde sternen"
+    # use periods as separators, not sentence boundaries.
+    cur = j
+    chain_count = 0
+    check_pos = cur
+    while cur < len(s):
+        ws = cur
+        check_pos = ws
+        while cur < len(s) and s[cur].isalpha():
+            cur += 1
+        if cur - ws < 3 or not s[ws].isupper():
+            break
+        pp = cur
+        while pp < len(s) and s[pp].isspace():
+            pp += 1
+        if pp >= len(s) or s[pp] != ".":
+            break
+        chain_count += 1
+        cur = pp + 1
+        while cur < len(s) and s[cur].isspace():
+            cur += 1
+        check_pos = cur
+    if chain_count >= 1 and check_pos < len(s) and s[check_pos].islower():
+        return False
     return True
 
 

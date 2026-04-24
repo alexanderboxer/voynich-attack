@@ -237,10 +237,18 @@ def _load_almanach1481():
     return reftext.from_corpus_build_csv(path, language='german')
 
 
+# Promptuarium medicinae 1483 (Bartholomäus Ghotan, Magdeburg; Low German medical reference)
+# Replaces the older hand-coded `promptuarium` entry.
+@_register('promptuarium1483')
+def _load_promptuarium1483():
+    path = _root / 'corpora/german/nn_promptuarium_1483/nn_promptuarium_1483.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
 # dta: combined RefText across all corpus_build-pipeline DTA texts.
 @_register('dta')
 def _load_dta():
-    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481')]
+    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483')]
     tklist = [t for _, rt in parts for t in rt.tklist]
     charlist = list(''.join(tklist))
     rt = reftext.RefText('german', tklist, charlist)
