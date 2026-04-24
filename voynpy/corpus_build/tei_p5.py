@@ -37,11 +37,13 @@ def _tag(elem) -> str:
     return t if isinstance(t, str) else ""
 
 
-_PARA_KIND = {"p": "body", "head": "head"}
+_PARA_KIND = {"p": "body", "head": "head", "closer": "body"}
 # Atomic paragraph-producing tags: one row per element, no sentence-splitting
 # within. Internal periods are treated as decorative scribal punctuation
 # (e.g. citation lists "Auicenna. Primo. Secundo tertio. Quarto canonum").
-_ATOMIC_KIND = {"item": "item"}
+# `titlePage` joins all its titlePart/byline/imprint descendants into a single
+# head row — preserves long title pages like springer 1509.
+_ATOMIC_KIND = {"item": "item", "titlePage": "head"}
 # Multi-line paragraph containers: each child of the specified child-tag
 # becomes one row within a single paragraph (para_id), with sent_id
 # incrementing per line.  Value: (block_type, child_tag_that_is_a_line).
@@ -83,6 +85,11 @@ def _inline_text(elem, state: dict) -> str:
         elif ctag in _SOFT_BREAK:
             parts.append("\n")
         elif ctag in _SKIP_INLINE:
+            pass
+        elif ctag == "supplied" and (child.get("resp") or "").startswith("#textsource"):
+            # Editorial bibliographic supplement (DTA convention), not original
+            # text. Other <supplied> elements (missing-letter reconstructions)
+            # fall through to the default branch and are included inline.
             pass
         elif ctag == "choice":
             picked = None
@@ -281,7 +288,12 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
 
 
 def parse_tei(xml_path: str, doc_id: str) -> list[Row]:
-    """Parse a TEI-P5 XML into sentence-level Rows. Only `<text>/<body>` is walked."""
+    """Parse a TEI-P5 XML into sentence-level Rows.
+
+    `<text>/<front>` is walked first (preface/dedication content sometimes lives
+    here, e.g. crescentiis 1493), then `<text>/<body>`. `<back>` is skipped.
+    `<pb>` elements in front update page_n so body rows carry correct pages.
+    """
     tree = etree.parse(xml_path)
     root = tree.getroot()
     text_elem = root.find("tei:text", NS)
@@ -292,4 +304,9 @@ def parse_tei(xml_path: str, doc_id: str) -> list[Row]:
         raise ValueError(f"no <body> element in {xml_path}")
     counter = {"para_id": 0}
     state: dict = {"page_n": None, "page_seq": 0}
-    return _walk(body, doc_id, counter, state)
+    rows: list[Row] = []
+    front = text_elem.find("tei:front", NS)
+    if front is not None:
+        rows.extend(_walk(front, doc_id, counter, state))
+    rows.extend(_walk(body, doc_id, counter, state))
+    return rows

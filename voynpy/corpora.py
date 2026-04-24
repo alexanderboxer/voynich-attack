@@ -253,10 +253,33 @@ def _load_kuchemaistrey1490():
     return reftext.from_corpus_build_csv(path, language='german')
 
 
+# Crescentiis, Von den Figuren der Baum und Kreuter (1493, Peter Drach, Speyer;
+# German translation of Petrus de Crescentiis' agricultural/herbal work).
+@_register('crescentiis1493')
+def _load_crescentiis1493():
+    path = _root / 'corpora/german/crescentiis_figuren_1493/crescentiis_figuren_1493.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Springer, Merfart (1509, Balthasar Springer; account of an Indian voyage).
+@_register('springer1509')
+def _load_springer1509():
+    path = _root / 'corpora/german/springer_merfart_1509/springer_merfart_1509.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Ellenbog, Von den gifftigen temmpffen (1524, Ulrich Ellenbog, Augsburg;
+# treatise on toxic metalworking vapors).
+@_register('ellenbog1524')
+def _load_ellenbog1524():
+    path = _root / 'corpora/german/ellenbog_temmpffe_1524/ellenbog_temmpffe_1524.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
 # dta: combined RefText across all corpus_build-pipeline DTA texts.
 @_register('dta')
 def _load_dta():
-    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490')]
+    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490', 'crescentiis1493', 'springer1509', 'ellenbog1524')]
     tklist = [t for _, rt in parts for t in rt.tklist]
     charlist = list(''.join(tklist))
     rt = reftext.RefText('german', tklist, charlist)

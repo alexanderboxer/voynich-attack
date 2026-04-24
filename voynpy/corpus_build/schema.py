@@ -182,7 +182,16 @@ def split_sentences(s: str) -> list[str]:
     tail = s[start:].strip()
     if tail:
         sents.append(tail)
-    return [t for t in sents if _letter_count(t) >= 1]
+    # Merge letter-less segments (e.g. trailing date "1473." after a split at
+    # "Octobris.") back into the preceding sentence. Drop leading letter-less
+    # fragments with no predecessor to attach to.
+    merged: list[str] = []
+    for t in sents:
+        if _letter_count(t) >= 1:
+            merged.append(t)
+        elif merged:
+            merged[-1] = merged[-1] + " " + t
+    return merged
 
 
 def write_csv(rows: list[Row], path: str) -> None:
