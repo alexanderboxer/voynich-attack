@@ -140,35 +140,35 @@ wycliffe = reftext.from_txt(wycliffepath, language = 'english')
 # German
 #----------
 # Simplicissimus  (utf8)
-simppath = _root / 'corpora/german/simplicissimus/simplicissimus.csv'
+simppath = _root / 'corpora/german/legacy/simplicissimus/simplicissimus.csv'
 simp = reftext.from_textstring_csv(simppath, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
 # Simplicissimus  (lat0)
-simp0path = _root / 'corpora/german/simplicissimus/simplicissimus_lat0.csv'
+simp0path = _root / 'corpora/german/legacy/simplicissimus/simplicissimus_lat0.csv'
 simp0 = reftext.from_textstring_csv(simp0path, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
 # Promptuarium medicinae  (lat0)
-promptuariumpath = _root / 'corpora/german/promptuarium_medicinae/promptuarium1483.csv'
+promptuariumpath = _root / 'corpora/german/legacy/promptuarium_medicinae/promptuarium1483.csv'
 promptuarium = reftext.from_textstring_csv(promptuariumpath, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
 # kuchemaistrey (lat1)
-kuchepath = _root / 'corpora/german/kuchemaistrey/kuchemaistrey1490.csv'
+kuchepath = _root / 'corpora/german/legacy/kuchemaistrey/kuchemaistrey1490.csv'
 kuche = reftext.from_textstring_csv(kuchepath, language = 'german', read_from_col = 1, comma_split_tokens = False)
 
 # splendor solis (lat1)
-splendorpath = _root / 'corpora/german/splendor_solis_1590/splendor_solis_lat1.csv'
+splendorpath = _root / 'corpora/german/legacy/splendor_solis_1590/splendor_solis_lat1.csv'
 splendor = reftext.from_textstring_csv(splendorpath, language = 'german', read_from_col = 0, comma_split_tokens = False)
 
 # splendor solis (lat0)
-splendorpath0 = _root / 'corpora/german/splendor_solis_1590/splendor_solis_lat0.csv'
+splendorpath0 = _root / 'corpora/german/legacy/splendor_solis_1590/splendor_solis_lat0.csv'
 splendor0 = reftext.from_textstring_csv_lat0(splendorpath0, language = 'german')
 
 # refFNHD miscellany
-refFNHDpath = _root / 'corpora/german/refFNHD/refFNHD.csv'
+refFNHDpath = _root / 'corpora/german/legacy/refFNHD/refFNHD.csv'
 refFNHD = reftext.from_textstring_csv_lat0(refFNHDpath, language = 'german')
 
 # luther september bible (lat0)
-lutherpath = _root / 'corpora/german/luther_newe_testament/luther_nt22_lat0.csv'
+lutherpath = _root / 'corpora/german/legacy/luther_newe_testament/luther_nt22_lat0.csv'
 luther = reftext.from_textstring_csv_var1(lutherpath, language = 'german', read_from_col = 3, comma_split_tokens = False)
 
 # =============================================================================
@@ -223,10 +223,110 @@ def _load_dracole1485():
     return reftext.from_corpus_build_csv(path, language='german')
 
 
+# Das Meerwunder 1472 (heroic epic from Dresdner Heldenbuch; Early New High German verse)
+@_register('meerwunder1472')
+def _load_meerwunder1472():
+    path = _root / 'corpora/german/nn_meerwunder_1472/nn_meerwunder_1472.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Nürnberg almanach 1481 (Creussner/Koberger; calendrical prose almanac)
+@_register('almanach1481')
+def _load_almanach1481():
+    path = _root / 'corpora/german/nn_almanach05_1481/nn_almanach05_1481.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Promptuarium medicinae 1483 (Bartholomäus Ghotan, Magdeburg; Low German medical reference)
+# Replaces the older hand-coded `promptuarium` entry.
+@_register('promptuarium1483')
+def _load_promptuarium1483():
+    path = _root / 'corpora/german/nn_promptuarium_1483/nn_promptuarium_1483.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Kuchemaistrey 1490 (Peter Wagner, Nürnberg; early printed German cookbook)
+# Replaces the older hand-coded `kuchemaistrey` entry.
+@_register('kuchemaistrey1490')
+def _load_kuchemaistrey1490():
+    path = _root / 'corpora/german/nn_kuchemaistrey_1490/nn_kuchemaistrey_1490.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Crescentiis, Von den Figuren der Baum und Kreuter (1493, Peter Drach, Speyer;
+# German translation of Petrus de Crescentiis' agricultural/herbal work).
+@_register('crescentiis1493')
+def _load_crescentiis1493():
+    path = _root / 'corpora/german/crescentiis_figuren_1493/crescentiis_figuren_1493.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Springer, Merfart (1509, Balthasar Springer; account of an Indian voyage).
+@_register('springer1509')
+def _load_springer1509():
+    path = _root / 'corpora/german/springer_merfart_1509/springer_merfart_1509.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Ellenbog, Von den gifftigen temmpffen (1524, Ulrich Ellenbog, Augsburg;
+# treatise on toxic metalworking vapors).
+@_register('ellenbog1524')
+def _load_ellenbog1524():
+    path = _root / 'corpora/german/ellenbog_temmpffe_1524/ellenbog_temmpffe_1524.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Artzney Buchlein wider allerlei kranckeyten der tzeen (1530, Lübeck;
+# anonymous Low German treatise on dental diseases and remedies).
+@_register('tzeen1530')
+def _load_tzeen1530():
+    path = _root / 'corpora/german/nn_tzeen_1530/nn_tzeen_1530.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Anonymous 1487 almanac (DTA nn_almanach04_1487).
+@_register('almanach1487')
+def _load_almanach1487():
+    path = _root / 'corpora/german/nn_almanach04_1487/nn_almanach04_1487.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Dracole waide (1488 print; second edition of the Dracole wyda narrative,
+# cf. dracole1485).
+@_register('dracole1488')
+def _load_dracole1488():
+    path = _root / 'corpora/german/nn_dracole_1488/nn_dracole_1488.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Kaspar Has, Eyn new gedicht der loblichen Stat Nürmberg (1490;
+# Nürnberg civic-praise poem, 742 rhymed verse lines).
+@_register('has1490')
+def _load_has1490():
+    path = _root / 'corpora/german/has_lob_1490/has_lob_1490.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Der fußpfadt zu der ewigen seligkeyt (1492; anonymous devotional work,
+# "The footpath to eternal salvation").
+@_register('fusspfad1492')
+def _load_fusspfad1492():
+    path = _root / 'corpora/german/nn_fusspfad_1492/nn_fusspfad_1492.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
 # dta: combined RefText across all corpus_build-pipeline DTA texts.
+# Also exposed as `german` — so `from voynpy.corpora import german` yields
+# the full DTA corpus (same instance). The older hand-coded aggregate is
+# `german_legacy`.
+@_register('german')
+def _load_german():
+    return _get('dta')
+
+
 @_register('dta')
 def _load_dta():
-    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485')]
+    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490', 'crescentiis1493', 'springer1509', 'ellenbog1524', 'tzeen1530', 'almanach1487', 'dracole1488', 'has1490', 'fusspfad1492')]
     tklist = [t for _, rt in parts for t in rt.tklist]
     charlist = list(''.join(tklist))
     rt = reftext.RefText('german', tklist, charlist)
@@ -236,23 +336,24 @@ def _load_dta():
     )[['doc', 'idx', 'par', 'line', 'par_end', 'textstring']]
     return rt
 
-# German: all texts
+# German legacy: aggregate of the three hand-coded pre-DTA texts. `german`
+# itself now points to the DTA combined reftext (see lazy loader above).
 reftext_list = [simp, kuche, promptuarium]
 namelist = ['simp','kuche','prom']
 
-german_df = pd.DataFrame()
+german_legacy_df = pd.DataFrame()
 for obj, name in zip(reftext_list, namelist):
     opus_df = obj.df.copy()
     opus_df.columns = ['line', 'textstring']
-    opus_df['op'] = name 
+    opus_df['op'] = name
     opus_df = opus_df[['op','line','textstring']]
-    german_df = pd.concat([german_df, opus_df], ignore_index = True)
+    german_legacy_df = pd.concat([german_legacy_df, opus_df], ignore_index = True)
 
-german_fulltext = ' '.join([k for k in german_df.textstring])
-german_tklist = [''.join([k for k in word if k.isalpha()]) for word in german_fulltext.split()]
-german_charlist = list(''.join(german_tklist))
-german = reftext.RefText('german', german_tklist, german_charlist)
-german.df = german_df
+german_legacy_fulltext = ' '.join([k for k in german_legacy_df.textstring])
+german_legacy_tklist = [''.join([k for k in word if k.isalpha()]) for word in german_legacy_fulltext.split()]
+german_legacy_charlist = list(''.join(german_legacy_tklist))
+german_legacy = reftext.RefText('german', german_legacy_tklist, german_legacy_charlist)
+german_legacy.df = german_legacy_df
 
 
 #----------
