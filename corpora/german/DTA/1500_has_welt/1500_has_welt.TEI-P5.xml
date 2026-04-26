@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">            <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Von der Welt Lauf</title>
+<author>
+<persName ref="http://d-nb.info/gnd/121978443">
+<surname>Has</surname>
+<forename>Kunz</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<persName>
+<surname>Schaffert</surname>
+<forename>Jan Christian</forename>
+</persName>
+<orgName>DFG-Projekt: Literaturexplosion und Intertextualität. Bedingungen und Merkmale der 'Verschriftlichung des Lebens' in Nürnberg</orgName>
+<resp>
+<note type="remarkResponsibility">Transkription</note>
+</resp>
+</respStmt>
+<respStmt>
+<persName>
+<surname>Caspari</surname>
+<forename>Simon</forename>
+</persName>
+<persName ref="http://d-nb.info/gnd/1052557570">
+<surname>Sahm</surname>
+<forename>Heike</forename>
+</persName>
+<orgName>DFG-Projekt: Literaturexplosion und Intertextualität. Bedingungen und Merkmale der 'Verschriftlichung des Lebens' in Nürnberg</orgName>
+<resp>
+<note type="remarkResponsibility">Kontrolle der Transkription</note>
+</resp>
+</respStmt>
+<respStmt>
+<persName>
+<surname>Schaffert</surname>
+<forename>Jan Christian</forename>
+</persName>
+<orgName>DFG-Projekt: Literaturexplosion und Intertextualität. Bedingungen und Merkmale der 'Verschriftlichung des Lebens' in Nürnberg</orgName>
+<resp>
+<note type="remarkResponsibility">Konvertierung nach TEI-XML</note>
+<date type="importDTA">2015-07-01T00:00:00Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">8</measure>
+<measure type="tokens">2752</measure>
+<measure type="types">1084</measure>
+<measure type="characters">14915</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:29:56Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+<p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/has_welt_1500</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/has_welt_1500</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/has_welt_1500</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/has_welt_1500</idno>
+<idno type="DTADirName">has_welt_1500</idno>
+<idno type="DTAID">30975</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30975-6</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Has, Kunz: Hierin vindet mon die vrsach wodurch alle hendel yetz in der welt verkert und verderbt werden. Nürnberg, ca. 1500 (GW-Nr.: 12135).</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Von der Welt Lauf</title>
+<author>
+<persName ref="http://d-nb.info/gnd/121978443">
+<surname>Has</surname>
+<forename>Kunz</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">8</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Ambrosius Huber</name></publisher>
+<pubPlace>Nürnberg</pubPlace>
+<date type="publication">1500</date>
+</publicationStmt>
+<notesStmt>
+<note type="remarkSource">Der Gesamtkatalog der Wiegendrucke gibt als Titel "Von der Welt Lauf" und als Autor Kunz Has an. Dem schließt sich auch der Handschriftencensus an. Der Artikel Helmut Weinachts im Verfasserlexikon (VL 3, 1981, Sp. 538-545) nennt zwar ebenfalls den gleichen Titel, verwendet für Kunz Has jedoch die alternativen Namen Contz Haß und Conrat Hase. Bereits 1888 veröffentliche Ernst Matthias eine Edition Kunz Has' &#x201A;Von der Welt Lauf&#x2018;. Zu finden in: Ernst Matthias: Der Nürnberger Meistersänger Kunz Has, in: Mitteilungen des Vereins für Geschichte der Stadt Nürnberg Band 7, S. 169-236. Die Edition findet sich auf den Seiten 193&#x2013;204.</note>
+</notesStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Bayrische Staatsbibliothek München</repository>
+<idno>
+<idno type="shelfmark">BSB-Ink H-7</idno>
+<idno type="URLCatalogue">http://opacplus.bsb-muenchen.de/title/BV001524243</idno>
+<idno type="URLImages">http://daten.digitale-sammlungen.de/~db/0002/bsb00027246/images/index.html</idno>
+<idno type="URN">http://nbn-resolving.de/urn:nbn:de:bvb:12-bsb00027246-3</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>
+Dieses Werk wurde gemäß den DTA-Transkriptionsrichtlinien in XML/TEI P5
+nach dem DTA-Basisformat codiert. Abbreviaturen wurden kommentarlos aufgelöst,
+Graphiefehler mittels dem Element &lt;choice&gt; korrigiert und Sonderzeichen, mit Ausnahme der Superskripte,
+vereinheitlicht. Eine Ausnahme bildet die Abbreviatur "dn", die nicht mit einer
+allgemeinen Regel erfasst werden und somit letztlich nicht immer zweifelsfrei aufgelöst
+werden kann.
+</p>
+<p>
+Die Zeilenumbrüche des Drucks wurden beibehalten. Verspaare sind anhand der Initialen zu erkennen.
+</p>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Reimpaarspruch</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ntsm</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>         <front>
+<pb facs="#f0001" n="1r"/>
+<titlePage type="main">                     <docTitle>                         <titlePart type="main">                             <hi rendition="#larger">                                 Hierin vindet mon die vrsach wo<lb/>
+durch alle hendel yetz in der welt<lb/>
+verkert vnd verderbt werden.<lb/>
+</hi>                             <figure>                                 <note type="editorial">                                     Der Holzschnitt zeigt im Vordergrund links eine Frau, die nach links gebeugt                                      Pflanzen (vermutlich Korn) mit einer Sichel schneidet.                                     Rechts dahinter, im Mittelgrund, wird ein nach Krebsen fischender Mann von                                      einer aus einem Fluss auftauchenden Gestalt mit langen Haaren in                                     das Wasser gezogen. Im Hintergrund eine Landschaft mit bewaldeten Hügeln zu beiden                                      Seiten und Stadtansicht in der Mitte.                                 </note>                             </figure>                         </titlePart>                     </docTitle>                 </titlePage>         </front>         <body>
+<pb facs="#f0002" n="1v"/>
+<p>                 N<note type="editorial">Die Initale fehlt</note>Vn ho&#x0364;rt mir zu ein abenteur. dy mir ist widerfaren<lb/>
+heu&#x0364;r Da man den habern schneiden solt. do ging ich<lb/>
+selber auß vnd wolt. Mich richten noch dem alten<lb/>
+wort. als ich vor zeiten het gehort Wy alweg in der haber ern.<lb/>
+die krebs am aller pesten wern. Dar durch mir viel in mein<lb/>
+getrecht. wy ich der krebs zu wegen precht. Gar vast san<lb/>
+ich her vnd hin. byß das mir viel in meinen sin. Ein wasser<lb/>
+west ich an eim end. da hin so fu&#x0364;gt ich mich behend. <choice><sic>Wu</sic><corr>Wo</corr></choice> es<lb/>
+zu fischen was gemein. vnd het auch gar ein guten rein. Oder<lb/>
+wie mans nent ein rangen. da vermeint ich krebs zu fangen<lb/>
+Als ich vormals mer het than. mit zuchten fieng ich aber an<lb/>
+Es was das wasser so tieff im grund. das ich es nit erwa<choice><orig/><reg>/</reg></choice><lb/>
+ten kund Jch bleib her aussen auff dem land. vnd suchet pald<lb/>
+biß das ich fand Vil lo&#x0364;cher in dem selben wag. da manig<lb/>
+krebs verporgen lag Noch den ich mit der hant grapelt. in<lb/>
+dem selben wasser zapelt. Etwas gar vast zu mir her auff<lb/>
+doch het ich kein achtung dar auff Forchtet mich auch vor<lb/>
+im gantz nischt. bey einer hant es mich erwischt Vnd ruck<choice><orig/><reg>/</reg></choice><lb/>
+et mich hin vnder vest. vor grossem schrecken ich nit west<lb/>
+Wie ich hin vnder was gefarn. got det mich fleissiglich be<choice><orig/><reg>/</reg></choice><lb/>
+warn Das do kein wasser in mich kam. vnd auch sunst kein<lb/>
+schaden nam Noch am leben oder am leib. also furt mich ein <lb/>
+wasser weib Vnder dem wasser an ein ort. zu einer weide/<lb/>
+lichen pfort Das was ein schoner grosser stein. den rucket<lb/>
+sy ab vnd furt mich ein In den selben schonen palast. entpfing<lb/>
+sy mich als iren gast Auch zucht vnd ere dy sy mir thet. der<lb/>
+ich da nit gesuchet het. Da in dem selben tiefen hol. das was<lb/>
+so meisterlich vnd wol Nach aller notturft schon gesch/<lb/>
+muckt. plumenwerck in das praun getruckt Damit het man<lb/>
+die wend bezogen. mit merbelstein schwinpogen Warn ir<lb/>
+gewelg geschlossen. pilberck darein vil scho&#x0364;oner possen/<lb/>
+Ein yder stund noch seiner art. es was auch meisterlich vnd<lb/>
+zart. Scho&#x0364;n verglast mit cristallen. da durch kein wasser<lb/>
+mocht vallen. Gab in doch allen scheins genug. ich sach<lb/>
+drey alte menner klug Studiren gar auß grossen witzen. der<lb/>
+<pb facs="#f0003" n="2r"/>
+ein hies mich nider sytzen Thet mich auch gar schon enpfahen.<lb/>
+er sprach las dir nit verschmahen Vnßer wesen in disem hol.<lb/>
+der ander sprach gehab dich wol. <choice><sic>Darfft</sic><corr>Darfst</corr></choice> nit trauren oder<lb/>
+klagen. der drit sprach ich muß dich fragen Wan ich verstee<lb/>
+in kurczer frist. das du etwas weit gewandert bist Hast yn<lb/>
+deinen iungen iaren. vil fremder obenteu&#x0364;r erfaren. Die nit<lb/>
+ein yder hat verstanden. wy stets itzunt dauß in landen Kanstu<lb/>
+mich des nit berichten. ich sprach ich kans nit auß gedichten<lb/>
+Die klag vnd yemmerliche not. die allenthalben die welt hot<lb/>
+Mit all dem das der mensch sol niessen. wil nimmer vo&#x0364;llick/<lb/>
+lich ensprissen An allen orten wil zurinnen. vnd alles das arm<lb/>
+leu&#x0364;t beginnen Dy sich mit arbeit sollen neren. ku&#x0364;nnen sich kaum<lb/>
+des hungers erweren Deyhen vil an dem pettel stab. die gros<choice><orig/><reg>/</reg></choice><lb/>
+sen kaufleut lassen ab An den doch alle narung leit. durch sy<lb/>
+ein lant dem andern geit Das vor nit hat vnd haben muß. das<lb/>
+schafft in alles der kauffman puß Der durch ein land inß an<choice><orig/><reg>/</reg></choice><lb/>
+der vert. ytzund leit es in allen hert Dy hendel wollen nit mer<lb/>
+tragen. ho&#x0364;rt man mangen kauffman klagen Wan sie auf meß<lb/>
+vnd iarmarckt kummen. stend sy da als die stummen Leit die war<lb/>
+bey in auff hauffen. all die in ab so&#x0364;llen kauffen. Als priester<lb/>
+burger vnd der adel. sein all vmb geben mit dem zadel Jr kein/<lb/>
+er wil kein gelt nit finden. der kauffman stet allein dort hinden Be<choice><orig/><reg>/</reg></choice><lb/>
+dorft des geldes veintlich wol. wan furlon zerung vnd der zol<lb/>
+Get nit dest minder als auff in. er muß mit schaden geben hin<lb/>
+Aufs teu&#x0364;erst porgt er ein anders wider. da durch leit im sein<lb/>
+handel nider Die war hat er zu teu&#x0364;er genummen. wan im nun<lb/>
+die tagzeit kummen Das er ye sol bezalen. muß er  sein handel<lb/>
+lassen fallen Kan mit allem seinem gut nit reichen. von hauß<lb/>
+vnd hoff muß er weichen. Er verderbt mit im ander acht<lb/>
+er sprach merck was das selbig macht. Wil ich dyr her/<lb/>
+nach wol sagen. muß ich dich vor ein anders fragen. Be<choice><orig/><reg>/</reg></choice><lb/>
+richt mich etwas von dem gelt. damit man doch in aller<lb/>
+welt. Feintlich handelt her vnd dar. ich sprich hab vernum<choice><orig/><reg>/</reg></choice><lb/>
+men zwar. Der guten mu&#x0364;ntz wirt abgezogen. dar durch <lb/>
+gar manger wirt <choice><sic>betroben</sic><corr>betrogen</corr></choice> Vil kaufleu&#x0364;t han dar an verloren<lb/>
+<pb facs="#f0004" n="2v"/>
+die kremer sein all mu&#x0364;ntzer worden. Auch sunst vil schlechter<lb/>
+gesellen. die golt vnd silber mu&#x0364;ntz schnellen. Mit der wag<lb/>
+sy das beginnen. was sy groschen vnd gulden <ref type="editorialNote" xml:id="n1" corresp="#k1">finnen</ref><note type="editorial" xml:id="k1" corresp="#n1">finnen eine Schreibvariane von finden</note>. Die<lb/>
+schwer genug sind an dem gewicht. der kumbt keiner mer<lb/>
+zu licht. Werden all verschmeltzt im feu&#x0364;er. die selbig ferlich<lb/>
+abenteu&#x0364;er. Jst so gemein noch nie gewesen. karnali giessen<lb/>
+durch den pesen. Die das selbig nit kunnen than. die sammen<lb/>
+oder pelian Lassen in darnach probirn. die lant ire gute muntz<lb/>
+verlirn. Mit den selben bo&#x0364;sen sachen. ein teil kunnen wasser<lb/>
+machen. Nemen der mu&#x0364;ntz den zehen teil. er sprach nun sch/<lb/>
+weig mit dem ein weil Hernach will ich dir pas erklern. ein<lb/>
+anders wolt ich wissen gern Wie stets vmb iunckfrau vnd<lb/>
+frauen. ich sprach mir thut feintlich grauen. Het ich ein toch<choice><orig/><reg>/</reg></choice><lb/>
+ter ich decht mir leyd. vnter in ist wenig vnterscheid. Wie<lb/>
+wol sich etlich iunckfrau nennen. so kan man doch gar kaum<lb/>
+erkennen. Das sy fur ein iunckfrau stand. vnkeusch hat ge<choice><orig/><reg>/</reg></choice><lb/>
+nummen vber hand. Leider hie auf diser erden. ich fo&#x0364;rcht es<lb/>
+muß gestrafft werden. Als sich die grossen su&#x0364;nd anfieng.<lb/>
+sodoma gamor vnter gieng. Durch die groß sodomittrey.<lb/>
+dy su&#x0364;ndt was kaum so mangerley Die man da zu zeiten thet.<lb/>
+alß mans leider ytzund beget. Vber al in allen landen. nimant<lb/>
+schemt sich mer der schanden. Die meyd pult selber vmb<lb/>
+den knecht. die eefrau meint sie thuß mit recht. Die weil sis<lb/>
+neu&#x0364;r verborgen treib. der eeman sucht ein ander weib. Dar<lb/>
+durch der epruch wirt gemein. prister ligen nit gern allein<lb/>
+Richter schultheis mu&#x0364;nchen vnd pfaffen. die das selbig sol/<lb/>
+len straffen Treibens selber vnuerholen. got dem herren sey<lb/>
+es befolen Jch wil da von nit reden weiter. wy wol die ding<lb/>
+sein fast verheiter. Dan ich itzund hab geredt. mo&#x0364;cht ymantz<lb/>
+sein dem es zorn thedt Der mir daru&#x0364;mb wolt sprechen zu. <lb/>
+der wasserman sprach hab dein ru. Bericht mich hie ein <lb/>
+anders vor. die richter vnd dy procurator. Die das recht<lb/>
+zum vnrecht spalden. wie sich itzund dy selben halden. Get<lb/>
+vber die nit auch ein klag. ich sprach es <choice><sic>is</sic><corr>ist</corr></choice> ein scharpffe frag.<lb/>
+Vnd pin ir auch nit wol bericht. auch ob ich west so dorft<lb/>
+ich nicht. Den selben handel gantz erkleren. ich mo&#x0364;cht von den<lb/>
+<pb facs="#f0005" n="3r"/>
+gestroffet weren Dy regirn das selbig spil. ich hoff es sch/<lb/>
+ad vns hie nit vil. Vnd ob ich euch ein wenig sag. manch <lb/>
+armer fu&#x0364;rt ein grosse klag Der vmb sein gut geteu&#x0364;scht wu&#x0364;rt.<lb/>
+durch den der im sein handel fu&#x0364;rt Darumb das er ist arm vnd<lb/>
+schlecht. vnd ob er schon hat go&#x0364;tlich recht Schenckt nu&#x0364;r im/<lb/>
+mer dem vnd disem. silber kleinat oder pisem. Kocht in grosse<lb/>
+visch mit mandel. sein widerpart gewint den handel Der<lb/>
+vber geits mit grossem gut. das man dem armen vnrecht thut<lb/>
+Der hat sein gut da durch verloren. es ist auch gantz ein sprich/<lb/>
+wort worden Wo man yetz von handel sagt. ein armer zu einem<lb/>
+reichen klagt Man fragt nit wer das vnrecht hab. von stund/<lb/>
+an legt man dem armen ab. Ein iederman heist yn ein narn.<lb/>
+spricht du hast nit auß zu haren. Mit gelt dringt er in da<choice><orig/><reg>/</reg></choice><lb/>
+van. also erschreckt man manchen man. Das er sein handel<lb/>
+fallen let. den er su&#x0364;nst gewunnen het So das recht fur recht<lb/>
+sol gen. im namen gotz las ichs sten Wil da von nit reden<lb/>
+vort. yr habt zu guter maß das gehort. Von mir ein ant/<lb/>
+wort auff dy frag. vnd auch ein teil der welt klag. Wy wol<lb/>
+sie ist mangerley. die wassermender alle drey. Namen wunder<lb/>
+von der sach. der ein hub an zu mir vnd sprach. Zu rechter zeyt<lb/>
+bistu her kummen. dein meinnung hab ich wol vernummen. Dy du<lb/>
+vns ytzund hast geseit. wie wol gewalt nit an vns leit So<lb/>
+wo&#x0364;ll wir doch hie arguirn. ob mir nicht auß mo&#x0364;chten stu/<lb/>
+dirn Wie du dich darin halten solst. ob du gewaltig werst<lb/>
+vnd wolst Machen ein ander regiment. von anfang mitel vnd dem<lb/>
+ent. Wo&#x0364;l wir dir ein lernung geben. ho&#x0364;r mir zu vnd merck mich<lb/>
+eben. Dein anfang waz von armen leuten. nimant will hacken oder reuten<lb/>
+Zum pauers werck sein wir ser plo&#x0364;d. darumb vil ecker ligen o&#x0364;d<lb/>
+Die noch wo zu pauen weren. vil pauersknecht ietz hantwe/<lb/>
+rck lern Da durch der hantwerck wirt zu vil. ir keiner mer an ack<choice><orig/><reg>/</reg></choice><lb/>
+er wil Sid doch ein teil gar grob fantasten. haben ir hantwerck nit<lb/>
+am pasten Gelernet vnd gemerkt eben. vnd lassen in doch weiber ge<choice><orig/><reg>/</reg></choice><lb/>
+ben pald sy die leer iar auß leren. Von stundan welens meister<lb/>
+weren Vnd kunes hantwerck noch nit gar Die machen vil lo&#x0364;rles<lb/>
+war Vnd gebens wolfeil vmb ein dant. do mit sint erfu&#x0364;lt die lant<lb/>
+Dy guten werck sind verworffen. auch find mon in den dorffen<lb/>
+<pb facs="#f0006" n="3v"/>
+Hantwerck kaufleu&#x0364;t vnd verleger. so du werst im land ein<lb/>
+pfleger Vnd hest gewalt als landes heren. das selbig mustu<lb/>
+fleissig weren Das auff dem dorf kein handel treiben. auf das<lb/>
+die stet bey wirden pleiben Viel keiner dem andern in sein stant.<lb/>
+so ko&#x0364;m vns wider gluck ins lant. Des weisen ratz danck ich<lb/>
+im schon. da sprach der ander wasser man Gesel was hastu mer<lb/>
+gefragt. ich sprach wie der kaufman klagt Das im sein handel<lb/>
+ser ab nem. er antwort mir das kumbt von dem Seit die schn/<lb/>
+eider verkaufen thuch. vnd das man tru&#x0364;ckt so manig buch Dar<lb/>
+durch die kunst ist weit gestreu&#x0364;t. vnd haben gar vil schechter<lb/>
+leu&#x0364;t Ler vnd weis dar auß genumen. die weil das in das lant<lb/>
+sind kumen Schotten die so mit grosser macht. die haben funden<lb/>
+vnd betracht. Zu hausiren mit der war. in dem land dort hin vnd<lb/>
+dar Sind sie gezogen auf vnd ab. vnd haben zert vom petelstab<lb/>
+Auff dem dorff vnd vnter wegen. in steten hand sie herschaft<lb/>
+pflegen. Als dan kaufleut sollen leben. Kunden die war vil ne/<lb/>
+her geben Dan die knecht vnd pfert heten. da mit sie groß ze<choice><orig/><reg>/</reg></choice><lb/>
+rung theten Das hat dem handel schaden gethan. auch ist<lb/>
+ietz schir kein hantwerckman. Sein hantwerck sei groß oder<lb/>
+klein. er will darzu ein kaufman sein Vnd tichtet dar auf nacht vnd<lb/>
+tag. ob erß schon nit am gut vermag Vnd hat ein gulden oder<lb/>
+neu&#x0364;n. der porgt vnd macht vil grosser zeu&#x0364;n. Alle die im por<choice><orig/><reg>/</reg></choice><lb/>
+gen neu&#x0364;r. schwert er veintlich tieff vnd teu&#x0364;er. Er wo&#x0364;llß be/<lb/>
+zaln auf katherein. ich sprich solt ich gewaltig sein. So wolt<lb/>
+ich machen regiment. welcher man ein hantwerck kent Mu&#x0364;sts<lb/>
+allein noch ordenung treiben. vnd den kauffman lassen bleiben<lb/>
+Jn seinem handel geleich wie vor. mayn auch sicherlich fur<lb/>
+wor. Es stu&#x0364;nd an allen enden pas. er sprach zu mir wy ge/<lb/>
+felt dir das. Hat dich der nit gar schon bericht. ich sprach<lb/>
+furbar ich straff sein nicht. Jch pin im auch von hertzen<lb/>
+holt. wie dan vmb silber vnd vmb golt. Darauß man hat ge<choice><orig/><reg>/</reg></choice><lb/>
+macht das gelt. als du am ersten hast gemelt Die gute muntz<lb/>
+die werd verloren. die silbren mu&#x0364;ntz mi irem koren. Helt hy<lb/>
+wenig vnd dortten vil. wo man dan ytzund machen wil.<lb/>
+Ein neu&#x0364;e mu&#x0364;ntz wirt gering. wer sich dan verstet dieser ding<lb/>
+<pb facs="#f0007" n="4r"/>
+Sicht wie sie das silber kauffen. list die schweren mu&#x0364;ntz zu<lb/>
+hauffen. Gewint <choice><sic>au</sic><corr>an</corr></choice> der marck die weil ein lot. ich sprich<lb/>
+wen mit der ewig got Verlihen het der genaden schein. vnd<lb/>
+solt der ding ein straffer sein. So wolt ich setzen gut ver/<lb/>
+drauen. die mu&#x0364;sten gar fleissig dar auf schauen. Wie man<lb/>
+sol in tigel rechen. kein mu&#x0364;ntz solt mir niemat zerbrechen<lb/>
+Nicht renouiren oder etzen. ein itlich mu&#x0364;ntz wolt ich setzen<lb/>
+Wie sie der furst het geben aus. so must erß wider in sein<lb/>
+hauß Nemen fur zynß vnd rent. der erst hub wider an behent<lb/>
+Der mir hat gesagt von armen leu&#x0364;ten. der sprach nun solt ich<lb/>
+dir bedeu&#x0364;ten Von den mannen vnd den weiben. die offenbar<choice><orig/><reg>/</reg></choice><lb/>
+lich eebruch treiben Vnd doch pleiben vngestrafft. so fur/<lb/>
+cht ich etlich bristerschaft. Vnd ein teil die grossen heren.<lb/>
+der selben ding nit ho&#x0364;ren geren. Wan etlich tantzen noch der<lb/>
+geigen. daru&#x0364;mb wil ich ein teil schweigen. Ee das man mirß<lb/>
+zum argen mist. wo man dan alte pu&#x0364;cher list Vindt man<lb/>
+doch darynn geschriben. die alten hons auch getriben. Doch<lb/>
+in der stil vnd gantz verholen. nit als ytzund die groben knollen<lb/>
+Die sich des ru&#x0364;men auf vnd ab. maniger sagt wie das er<lb/>
+hab Ein pulen den man so&#x0364;lchs nit zey. sagt von stundan wer<lb/>
+er sey Die in verperg vor irem man. vnd leu&#x0364;gt die frummen frauen<lb/>
+an Die weis kein wort von seinem klaffen. wen ich solt die sel/<lb/>
+ben straffen. Kent die kunst dy filius treib. so wolt ich wer<lb/>
+eim frumen weib Jr zucht vnd er vergifft mit ligen. dem mu&#x0364;st<choice><orig/><reg>/</reg></choice><lb/>
+ten stetz die grossen fligen. Wandern auß vnd ein in dem <lb/>
+maul. vnd stincken als ein toder gaul. Auff das er solchs<lb/>
+nymer thet. welcher man ein tochter het. Dy er gern zug<lb/>
+zu&#x0364; eren. mu&#x0364;st er sie fleissig also leren. Wo er sie schickt hin<lb/>
+vnd wider. mu&#x0364;st sie dy augen schlagen <choice><sic>uider</sic><corr>nider</corr></choice>.  Mit stetem<lb/>
+kopff schnell fur sich gen. bey keiner manns person nit sten<lb/>
+Neur guten morgen vnd nit mer. die kunt ir iunckfreuliche<lb/>
+er. Vor aller welt behalten vest. wo ich aber der eine west.<lb/>
+Dy do gar lang stentner machen. vnd  mit dem vnd disem lach<choice><orig/><reg>/</reg></choice><lb/>
+en Jn heimlich winckel vil spatzirn. byß sy ir iunckfrauschaft<lb/>
+verlirn Mein es werd nit offenbar. gend hernach lang in irem har <lb/>
+<pb facs="#f0008" n="4v"/>
+Vnd ziren das mit einem krantz. die selben wolt ich an dem tantz<lb/>
+Vor den frummen da beschemen. vnd das krentzlen ir ab nemen<lb/>
+Mit gewalt ein schleyr vmb pinden. gedecht die ander auch<lb/>
+dort hinden. Behu&#x0364;t mir got die ere mein. das sol mir yetz<lb/>
+ein warnung sein Das ich mich hin fu&#x0364;r hu&#x0364;ten wil. geschee der<lb/>
+hendel nit als vil. Junckfrau schwechen kint vertreiben. got<lb/>
+der wil den frummen weiben. Jr zucht vnd ere vor laster fristen.<lb/>
+nun sol ich sagen von iu&#x0364;risten Die das recht zu vnrecht ma/<lb/>
+chen. so pin ich mit den selben sachen In der kunst ein we<choice><orig/><reg>/</reg></choice><lb/>
+nig zu schlecht. dy weils die herren duncket recht Die es wol<lb/>
+zu straffen heten. vnd es auch gar pillig theten Got geb in<lb/>
+hie vnd dort den lan. kem auch menger frummmer arm man.<lb/>
+Nicht so gar po&#x0364;slich vmb sein gelt. es stu&#x0364;nd furwar in al/<lb/>
+ler welt. mit allen dingen dester pas. daru&#x0364;mb bit ich dich<lb/>
+Contz has. Wen du kumbst wider auß dem wag. das du<lb/>
+mit fleissicklicher frag. Auß wandern wolst in alle land. nach<lb/>
+erenholt vnd parschefand Wa du dy waist vnd finden magst.<lb/>
+das du in also fleissig sagst. Das sy sich yetz recht erzeigen.<lb/>
+vnd der warheit nit verschweigen Vor den daland vnd leu&#x0364;t<lb/>
+an leit. vnd das sie an sehen dy schweren zeit. Den iamer den<lb/>
+dy armen leiden. nit an einander also neiden. Krieg vnd hader<lb/>
+sy legen hin. das geb in got in iren sin. Gedult frid vnd auch<lb/>
+einigkeit. helf vns maria die reyne meit. Die ist ein muter al<choice><orig/><reg>/</reg></choice><lb/>
+ler gnaden. behu&#x0364;t vns arm leut vor schaden Dort dy sel vnd<lb/>
+hy den leib. her wyder kom das wasser weib. Das mich hi<choice><sic>u</sic><corr>n</corr></choice><lb/>
+vnder het gezu&#x0364;ckt. dy sprach es hat dir hie geluckt Vil weiß/<lb/>
+heit hastu hy erfarn. kum her so wil ich dich bewarn Vnd<lb/>
+an schaden auß hin weysen. auch vnser lob solt<choice><sic>n</sic><corr>u</corr></choice> preysen<lb/>
+Wirstu von vns gar wol genisen. darumb so las dich nit<lb/>
+verdryssen. Verkund es weiter in die welt. das man nit durch<lb/>
+das schno&#x0364;de gelt. Das vbel vngestroffet laß. Also hat ge/<lb/>
+dicht Contz haß. <lb/>
+Gedruckt zu Nu&#x0364;renberck Von Ambrosio Huber.<lb/>
+</p>         </body>     </text> </TEI>

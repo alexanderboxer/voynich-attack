@@ -16,10 +16,17 @@ _WS_RE = re.compile(r"\s+")
 _COMBINING_TILDE = "\u0303"
 
 # Latin Extended letters lacking NFKD decomposition to ASCII. Manual fold.
+# Includes common Middle English / EEBO-TCP scribal abbreviation glyphs:
+#   ꝑ (p with stroke)  → per
+#   ꝓ (p with flourish) → pro
+#   ꝯ (con ligature)    → con
+#   ꝰ (modifier us)     → us
+#   ꝙ (q with stroke)   → quod
 _LATIN0_FOLD = {
     "đ": "d", "ð": "d", "þ": "th", "ƿ": "w",
     "æ": "ae", "œ": "oe", "ø": "o",
     "ł": "l", "ĸ": "k", "ſ": "s",
+    "ꝑ": "per", "ꝓ": "pro", "ꝯ": "con", "ꝰ": "us", "ꝙ": "quod",
 }
 
 

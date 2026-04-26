@@ -42,6 +42,15 @@ _ROMAN_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Multi-character scribal/citation abbreviations that aren't sentence-final.
+# Most common: "cap." / "capit." (Latin capitulum, German Capitel) — used
+# in chapter citations like "vj. cap. Johannis", "ij. cap. Genesis".
+_KNOWN_ABBREVS = frozenset({
+    "cap", "capit", "capitl", "capitel", "capittel", "capittell",
+})
+
+
+
 def _letter_count(s: str) -> int:
     return sum(1 for ch in s if ch.isalpha())
 
@@ -111,12 +120,26 @@ def _is_dot_boundary(s: str, pos: int) -> bool:
     # xliij, etc.). Fold j→i before the Roman check.
     if _ROMAN_RE.match(token.replace("j", "i").replace("J", "I")):
         return False
+    if token.lower() in _KNOWN_ABBREVS:
+        return False
     j = pos + 1
     while j < len(s) and s[j].isspace():
         j += 1
     if j >= len(s):
         return True
     if s[j].islower():
+        return False
+    if s[j].isdigit():
+        # Biblical / scribal citation pattern: book abbreviation followed
+        # by chapter (and verse) number — e.g. "Gen. 22", "Gal. 3",
+        # "Johan. 11", "Reg. 17". The period belongs to the citation, not
+        # to a sentence boundary.
+        return False
+    if s[j] == "\x03":
+        # Sentinel: a TEI <bibl> citation begins immediately after this
+        # period. Trailing biblical citations attach to their preceding
+        # text, so suppress the boundary here. The matching `\x04` close
+        # sentinel forces the boundary at the end of the citation.
         return False
     if s[j].isalpha() and _is_letter_ref_context(token):
         k = j + 1
@@ -157,41 +180,111 @@ def _is_dot_boundary(s: str, pos: int) -> bool:
     return True
 
 
-def split_sentences(s: str) -> list[str]:
-    """Split on `.!?` only; virgules `/` stay inline (they are clause-level).
+def split_sentences_with_offsets(s: str) -> list[tuple[int, str]]:
+    """Split on `.!?` only and return (start_offset_in_s, sentence) pairs.
 
     Terminal punctuation stays attached to its sentence. `!` and `?` are
     always boundaries; `.` uses the heuristic in `_is_dot_boundary` to avoid
-    splitting on abbreviations and numerals.
+    splitting on abbreviations and numerals. Letter-less segments are merged
+    back into the preceding sentence (keeping the predecessor's offset).
     """
     if not s or not s.strip():
         return []
-    sents: list[str] = []
+
+    def _push(out: list, raw_start: int, raw_end: int) -> None:
+        seg = s[raw_start:raw_end]
+        stripped = seg.strip()
+        if not stripped:
+            return
+        lead = len(seg) - len(seg.lstrip())
+        out.append((raw_start + lead, stripped))
+
+    raw: list[tuple[int, str]] = []
     start = 0
     for i, ch in enumerate(s):
         if ch == "!" or ch == "?":
-            seg = s[start:i + 1].strip()
-            if seg:
-                sents.append(seg)
+            _push(raw, start, i + 1)
+            start = i + 1
+        elif ch == "\x04":
+            # `\x04` closes a <bibl> citation. Default: force a sentence
+            # boundary so the citation attaches to the *preceding* text
+            # (trailing-citation convention). Two exceptions, both detected
+            # by looking past intervening whitespace:
+            #   - Next is `\x03` (start of another <bibl>): chain consecutive
+            #     citations onto the same preceding sentence.
+            #   - Next is a lowercase letter: the citation is mid-sentence
+            #     (e.g. "Hiere. 29. vnd Exo. 21. ſagt Moſes…") and should
+            #     merge with the following continuation rather than break.
+            k = i + 1
+            while k < len(s) and s[k].isspace():
+                k += 1
+            if k < len(s) and (s[k] == "\x03" or s[k].islower()):
+                continue
+            _push(raw, start, i + 1)
             start = i + 1
         elif ch == "." and _is_dot_boundary(s, i):
-            seg = s[start:i + 1].strip()
-            if seg:
-                sents.append(seg)
+            _push(raw, start, i + 1)
             start = i + 1
-    tail = s[start:].strip()
-    if tail:
-        sents.append(tail)
-    # Merge letter-less segments (e.g. trailing date "1473." after a split at
-    # "Octobris.") back into the preceding sentence. Drop leading letter-less
-    # fragments with no predecessor to attach to.
-    merged: list[str] = []
-    for t in sents:
-        if _letter_count(t) >= 1:
-            merged.append(t)
-        elif merged:
-            merged[-1] = merged[-1] + " " + t
+    _push(raw, start, len(s))
+
+    merged: list[tuple[int, str]] = []
+    for off, t in raw:
+        if _letter_count(t) < 1:
+            # Letter-less fragment (e.g. trailing date "1473." after a split
+            # at "Octobris."): glue back onto the predecessor.
+            if merged:
+                prev_off, prev_t = merged[-1]
+                merged[-1] = (prev_off, prev_t + " " + t)
+            continue
+        if merged and len(t.split()) == 1:
+            # Single-word "sentence" almost always arises from a typographic
+            # period inside a multi-word phrase ("vierdẽ. Capittel.",
+            # "v. xij.") rather than a real boundary. Merge into predecessor.
+            prev_off, prev_t = merged[-1]
+            merged[-1] = (prev_off, prev_t + " " + t)
+            continue
+        merged.append((off, t))
+
+    # Move trailing inline dialogue speaker labels (all-caps abbreviations
+    # like "ANTO.", "AVCT.", "AVCTOR") from the end of one sentence to the
+    # start of the next. Some Reformation dialogues typeset speaker tags
+    # inline rather than via TEI <sp>/<speaker>, so the splitter ends up
+    # leaving the label dangling at the end of the previous speech.
+    for i in range(len(merged) - 1):
+        cur_off, cur_t = merged[i]
+        peeled: list[str] = []
+        while True:
+            parts = cur_t.rsplit(None, 1)
+            if len(parts) < 2:
+                break
+            if not _is_speaker_label(parts[1]):
+                break
+            peeled.append(parts[1])
+            cur_t = parts[0].rstrip()
+        if peeled:
+            prefix = " ".join(reversed(peeled))
+            next_off, next_t = merged[i + 1]
+            merged[i] = (cur_off, cur_t)
+            merged[i + 1] = (next_off, prefix + " " + next_t)
     return merged
+
+
+def _is_speaker_label(token: str) -> bool:
+    """A token looks like an inline dialogue speaker label if it is at least
+    3 alphabetic characters, all uppercase, optionally followed by `.`, and
+    not a Roman numeral (which would otherwise sweep up dates like XXIX,
+    MDXXII, etc.)."""
+    word = token.rstrip(".")
+    if len(word) < 3 or not word.isalpha() or not word.isupper():
+        return False
+    if _ROMAN_RE.match(word.replace("J", "I")):
+        return False
+    return True
+
+
+def split_sentences(s: str) -> list[str]:
+    """Split on `.!?`; see split_sentences_with_offsets for details."""
+    return [t for _, t in split_sentences_with_offsets(s)]
 
 
 def write_csv(rows: list[Row], path: str) -> None:

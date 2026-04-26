@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Passional Christi vnd Antichristi</title>
+<author>
+<persName ref="http://d-nb.info/gnd/118575449">
+<surname>Luther</surname>
+<forename>Martin</forename>
+</persName>
+</author>
+<author>
+<persName ref="http://d-nb.info/gnd/118522582">
+<surname>Cranach</surname>
+<forename>Lucas</forename>
+</persName>
+</author>
+<author>
+<persName ref="http://d-nb.info/gnd/118580485">
+<surname>Melanchthon</surname>
+<forename>Philipp</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<persName>
+<surname>Tolkachova</surname>
+<forename>Oksana</forename>
+</persName>
+<resp>
+<note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+<note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</note>
+<date type="importDTA">2017-04-26T10:10:50Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<persName>
+<surname>Aehnelt</surname>
+<forename>Sandra</forename>
+</persName>
+<persName>
+<surname>Stoltz</surname>
+<forename>Dominik</forename>
+</persName>
+<resp>
+<note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+<date type="importDTA">2017-04-26T10:10:50Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">28</measure>
+<measure type="tokens">1734</measure>
+<measure type="types">908</measure>
+<measure type="characters">11544</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:31:07Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/2.0/de/">
+<p>Distributed under the Creative Commons Attribution-ShareAlike 2.0 Generic (German) License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/luther_passional_1521</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/luther_passional_1521</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/luther_passional_1521</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/luther_passional_1521</idno>
+<idno type="DTADirName">luther_passional_1521</idno>
+<idno type="DTAID">31679</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-31679-3</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">[Luther, Martin]: Passional Christi vnd Antichristi. [Wittenberg], [1521].</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Passional Christi vnd Antichristi</title>
+<author>
+<persName ref="http://d-nb.info/gnd/118575449">
+<surname>Luther</surname>
+<forename>Martin</forename>
+</persName>
+</author>
+<author>
+<persName ref="http://d-nb.info/gnd/118522582">
+<surname>Cranach</surname>
+<forename>Lucas</forename>
+</persName>
+</author>
+<author>
+<persName ref="http://d-nb.info/gnd/118580485">
+<surname>Melanchthon</surname>
+<forename>Philipp</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">[14] Bl. : Ill. (Holzschn.)</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Rhau-Grunenberg, Johann</name></publisher>
+<pubPlace>Wittenberg</pubPlace>
+<date type="publication">1521</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden</repository>
+<idno>
+<idno type="shelfmark">SLUB Dresden, Hist.eccl.E.319,2</idno>
+<idno type="URLCatalogue">http://katalogbeta.slub-dresden.de/id/0012038272/#detail</idno>
+<idno type="URLImages">http://digital.slub-dresden.de/id48003818X</idno>
+<idno type="URN">urn:nbn:de:bsz:14-db-id48003818X7</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Die Transkription erfolgte nach den unter
+<a href="http://www.deutschestextarchiv.de/doku/basisformat">http://www.deutschestextarchiv.de/doku/basisformat</a>
+formulierten Richtlinien.</p>
+<p>Verfahren der Texterfassung: manuell (einfach erfasst).</p>
+<p>
+Bogensignaturen: gekennzeichnet;
+Druckfehler: dokumentiert;
+fremdsprachliches Material: nicht gekennzeichnet;
+Geminations-/Abkürzungsstriche: expandiert, markiert;
+Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): gekennzeichnet;
+i/j in Fraktur: wie Vorlage;
+I/J in Fraktur: wie Vorlage;
+Kolumnentitel: gekennzeichnet;
+Kustoden: gekennzeichnet;
+langes s (&#x017F;): wie Vorlage;
+Normalisierungen: keine;
+rundes r (&#xA75B;): wie Vorlage;
+Seitenumbrüche markiert: ja;
+Silbentrennung: wie Vorlage;
+u/v bzw. U/V: wie Vorlage;
+Vokale mit übergest. e: wie Vorlage;
+Vollständigkeit: vollständig erfasst;
+Zeichensetzung: DTABf-getreu;
+Zeilenumbrüche markiert: ja;
+</p>
+<p>Dieses Werk wurde manuell einfach erfasst, von zweiter und dritter Hand korrigiert und in XML/TEI P5 nach <a href="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</a> kodiert.</p>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Flugschrift</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">dtae</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<pb facs="#f0001"/>
+<front><titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd<lb/>
+Antich&#xA75B;i&#x017F;ti.</hi></titlePart></docTitle></titlePage>
+</front>
+<body>
+<div n="1">
+<pb facs="#f0002"/>
+<fw place="top" type="header"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd</hi></fw><lb/>
+<figure/><lb/>
+<head>Ch&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Do Jhe&#x017F;us innen wardt/ das &#x017F;ie kommen wurden vnd yhnen<lb/>
+tzum konig machen/
+i&#x017F;t er abermals vffin bergk geflohen/ er al-<lb/>
+lein. <bibl><ref target="https://www.bibleserver.com/text/LUT/Johannes6">Johan. 6.</ref></bibl>
+Mein reich i&#x017F;t nicht von dißer welt. <bibl><ref target="https://www.bibleserver.com/text/LUT/Johannes18">Joh. 18.</ref></bibl> Die<lb/>
+konnige der welt
+hir&#x017F;chen yr/ vnd die gewaldt haben/ werden<lb/>
+gnedige hern genandt/ yr aber nicht
+alßo/ ßonder der do gro&#x017F;&#x017F;er<lb/>
+i&#x017F;t vnther euch/ &#x017F;all &#x017F;ich nydern/ als der weniger.
+<bibl><ref target="https://www.bibleserver.com/text/LUT/Lukas22">Luce. 22.</ref></bibl>
+</p>
+</div>
+<div n="1">
+<pb facs="#f0003"/>
+<fw place="top" type="header"><hi rendition="#b">Antich&#xA75B;i&#x017F;ti.</hi></fw><lb/>
+<figure/><lb/>
+<head>Antich&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Auß obirkayt die wir &#x017F;onder tzweyffell tzum <choice><abbr>keyßerthu&#x0303;b</abbr><expan>keyßerthumb</expan></choice> haben/ <lb/>
+<choice>
+<abbr>vn&#x0303;</abbr>
+<expan>vnd</expan>
+</choice>
+auß vnßer gewalt/ &#x017F;eynt wir des keyßertumbs/ ßo &#x017F;ich das<lb/>
+vo&#xA75B;ledigt/ ein rechter erbe/
+<bibl>
+<choice>
+<abbr>cle.</abbr>
+<expan>Clementina</expan>
+</choice>
+pa&#x017F;to&#xA75B;alis ad
+<choice>
+<abbr>fi.</abbr>
+<expan>finem</expan>
+</choice>
+de
+<choice>
+<abbr>&#x017F;en.</abbr>
+<expan>&#x017F;ententia</expan>
+</choice>
+et re
+<abbr>iudi.</abbr>
+</bibl>
+<lb/>
+<choice><abbr>Su&#x0303;ma</abbr><expan>Summa</expan></choice>
+<choice><abbr>&#x017F;ummaru&#x0303;</abbr><expan>&#x017F;ummarum</expan></choice>.
+Nichts anders i&#x017F;t in des Bap&#x017F;ts <choice><abbr>gey&#x017F;tliche&#x0303;</abbr><expan>gey&#x017F;tlichen</expan></choice><lb/>
+rechte tzu finden/ dan das es &#x017F;eynen abgot
+vnd Antich&#xA75B;i&#x017F;t vbir<lb/>
+alle keyßer/ ko&#x0364;nig <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice>
+fur&#x017F;ten irhebet/ als Petrus vo&#xA75B;ge&#x017F;agt hat.<lb/>
+Es werden <choice><abbr>ko&#x0303;men</abbr><expan>kommen</expan></choice> vnuo&#xA75B;&#x017F;chambts Bi&#x017F;choff die die
+weltlich<lb/>
+her&#x017F;chafft werden vo&#xA75B;achten. <bibl><ref target="https://www.bibleserver.com/text/LUT/2.Petrus2">2. Pet. 2.</ref></bibl>
+</p>
+<fw type="sig" place="bottom">A ij</fw>
+</div>
+<pb facs="#f0004"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd</hi></fw><lb/>
+<figure/><lb/>
+<head>Ch&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Die &#x017F;oldner haben geflochten eyne kronen von do&#x0364;&#xA75B;nen/ <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> auff<lb/>
+&#x017F;ein heubt
+ged&#xA75B;uckt/ darnach mit eynem purper kleydt haben &#x017F;ie<lb/>
+yn bekleydet. <bibl><ref target="https://www.bibleserver.com/text/LUT/Johannes19">Johan. 19.</ref></bibl>
+</p>
+</div>
+<pb facs="#f0005"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Antich&#xA75B;i&#x017F;t.</hi></fw><lb/>
+<figure/><lb/>
+<head>Antich&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Der Key&#x017F;er Con&#x017F;tantinus hat vns die key&#x017F;erlich krone/ getzirde<lb/>
+allen andern ge&#x017F;chmuck in
+ma&#x017F;&#x017F;en wie yhn <choice><abbr>&#x010F;</abbr><expan>der</expan></choice> key&#x017F;er tregt/ pur-<lb/>
+per cleyt alle andere cleyder
+<choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> &#x017F;cepter
+zutragen <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> tzub&#xA75B;auchen<lb/>
+geben <bibl>c. Con&#x017F;tantinus. cxvi. di&#x017F;.</bibl> Solche lu&#x0364;gen haben
+&#x017F;ie yre ty-<lb/>
+ranney tzu erhalten erticht wyder alle hi&#x017F;to&#xA75B;ien <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> kunt&#x017F;chafft/
+<lb/>
+dan es i&#x017F;t nit b&#xA75B;auchlich geweßen den Romi&#x017F;chen Key&#x017F;ern ein<lb/>
+&#x017F;olche krone
+tzutragen.</p>
+<fw type="sig" place="bottom">A iij</fw>
+</div>
+<pb facs="#f0006"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd</hi></fw><lb/>
+<figure/><lb/>
+<head>Ch&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Szo ich ew&#xA75B;e fueße habe gewa&#x017F;chen <choice><abbr>&#x010F;</abbr><expan>der</expan></choice>
+ich ewir herr <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> mey&#x017F;ter<lb/>
+bin/ vill meh&#xA75B;
+&#x017F;olt yr einander vnter euch die fuße waschen. Hie-<lb/>
+mit habe ich euch ein <choice><abbr>antzeygu&#x0303;g</abbr><expan>antzeygung</expan></choice>
+<choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> bey&#x017F;piel geben/ wie ich ym<lb/>
+than habe/ alßo &#x017F;olt ir hinfur auch thuen. Warlich
+warlich<lb/>
+&#x017F;age ich euch/ <choice><abbr>&#x010F;</abbr><expan>der</expan></choice> knecht i&#x017F;t nicht meh&#xA75B; dan &#x017F;eyn herre/ ßo i&#x017F;t
+auch<lb/>
+nicht <choice><abbr>&#x010F;</abbr><expan>der</expan></choice> ge&#x017F;chickte botte meh&#xA75B; <choice><abbr>da&#x0303;</abbr><expan>dan</expan></choice> <choice><abbr>&#x010F;</abbr><expan>der</expan></choice> yn ge&#x017F;andt hat/ Wi&#x017F;t yr
+das?<lb/>
+Selig &#x017F;eyt yr ßo yr das thuen werdent. <bibl><ref target="https://www.bibleserver.com/text/LUT/Johannes13">Johan. 13.</ref></bibl></p>
+</div>
+<pb facs="#f0007"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Antich&#xA75B;i&#x017F;ti.</hi></fw><lb/>
+<figure/><lb/>
+<head>Antich&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Der Bab&#x017F;t
+ma&#x017F;t &#x017F;ich an itzlichen Tyrannen vnd heydni&#x017F;chen<lb/>
+fur&#x017F;ten/ ßo yre fueß den leuten tzu
+kußen dar gereicht/ nach tzu-<lb/>
+volgen/ damit es waer werde das ge&#x017F;ch&#xA75B;ieben i&#x017F;t.
+Wilcher dießer<lb/>
+be&#x017F;tien bilde nicht anbettet/ &#x017F;all geto&#x0364;dt werden
+<bibl><ref target="https://www.bibleserver.com/text/LUT/Offenbarung13">Apocalip.13.</ref></bibl></p><lb/>
+<p>Ditz ku&#x017F;&#x017F;ens darff &#x017F;ich der Bap&#x017F;t yn <choice><abbr>&#x017F;eyne&#x0303;</abbr><expan>&#x017F;eynen</expan></choice> decretalen vnuo&#xA75B;-<lb/>
+&#x017F;chembt ru&#x0364;men.
+<bibl>c. <choice><abbr>cu&#x0303;</abbr><expan>cum</expan></choice>
+<choice><abbr>ol&#x0129;</abbr><expan>olim</expan></choice> de <choice><abbr>p&#xA75B;i.</abbr><expan>privilegiis</expan></choice> <abbr>cle.</abbr>
+Si &#x017F;ummus <choice><abbr>pon.</abbr><expan>pontifex</expan></choice> de <abbr>&#x017F;en.</abbr> <abbr>exco&#x0303;</abbr>.</bibl></p>
+</div>
+<pb facs="#f0008"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd</hi></fw><lb/>
+<figure/><lb/>
+<head>Ch&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Gehe
+hyn tzum meh&#xA75B;/ <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> laß yn dynen hamen/ dem er&#x017F;ten fi&#x017F;ch<lb/>
+der &#x017F;ich vff wirfft/ thue
+das mauel auff/ do&#xA75B;innen wir&#x017F;tu <choice><abbr>finde&#x0303;</abbr><expan>finden</expan></choice><lb/>
+einen gulden/ den gib tzu tzoll vo&#xA75B; mich
+vnd dich. <bibl><ref target="https://www.bibleserver.com/text/LUT/Matth%C3%A4us17">Mat. 17.</ref></bibl></p><lb/>
+<p>Gebt der obirkeyt die das &#x017F;chwerdt yn iren henden hat &#x017F;eyne
+ge-<lb/>
+bu&#x0364;re/ den tzinß/ wem der tzinß tzu&#x017F;tehet/ den tzoll/ dez er
+geburdt<lb/>
+<bibl><ref target="https://www.bibleserver.com/text/LUT/R%C3%B6mer13">Paul. ad Roma. 13.</ref></bibl></p>
+</div>
+<pb facs="#f0009"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Antich&#xA75B;i&#x017F;ti.</hi></fw><lb/>
+<figure/><lb/>
+<head>Antich&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Wir &#x017F;etzen vnd o&#xA75B;dnen das den mit nicht getzimen &#x017F;all ßo den<lb/>
+<choice><abbr>weltliche&#x0303;</abbr><expan>weltlichen</expan></choice>
+gerichts <choice><abbr>tzwa&#x0303;gk</abbr><expan>tzwangk</expan></choice> <choice><abbr>habe&#x0303;</abbr><expan>haben</expan>
+</choice> &#x017F;tewir <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> &#x017F;choß <choice><abbr>de&#x0303;</abbr><expan>den</expan></choice>
+<choice><abbr>gey&#x017F;tliche&#x0303;</abbr><expan>gey&#x017F;tlichen</expan></choice><lb/>
+per&#x017F;onen vfftzulegen ader den tzu fo&#xA75B;deren
+<choice><abbr>vo&#x0303;</abbr><expan>von</expan></choice> yren
+hewßern <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice><lb/>
+allen andern guttern bey der puß des &#x017F;chweren bans vnd
+inter-<lb/>
+dicts/ des gleychen &#x017F;ollen die gey&#x017F;tlichen dieße alle nicht tzalen<lb/>
+&#x017F;onder
+vnßer erleubnis. <bibl>c. i. de i&#x0303;munit. eccle. li. vi.</bibl> Alßo hat der<lb/>
+Bap&#x017F;t gots gebott durch
+&#x017F;eyne gebott tzuri&#x017F;&#x017F;en/ welchs &#x017F;eyner<lb/>
+vnch&#xA75B;i&#x017F;tlichen decretael eynigs werck
+i&#x017F;t.</p>
+<fw type="sig" place="bottom">B</fw>
+</div>
+<pb facs="#f0010"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd</hi></fw><lb/>
+<figure/><lb/>
+<head>Ch&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Ch&#xA75B;i&#x017F;tus ab er wol yn der gotlichen fo&#xA75B;m war/ dennoch hat er<lb/>
+&#x017F;ich des
+geew&#x017F;ert &#x017F;ich gnydert <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> geberdet wie eyn knecht gleich<lb/>
+den andern men&#x017F;chen
+antzu&#x017F;ehen vnd befundenn eyn men&#x017F;ch der<lb/>
+&#x017F;ich gedemu&#x0364;tiget hat Vnnd i&#x017F;t geho&#xA75B;&#x017F;am
+geweßen biß ynn den<lb/>
+todt <bibl><ref target="https://www.bibleserver.com/text/LUT/Philipper2">Philippen&#x017F;es. 2.</ref></bibl></p>
+</div>
+<pb facs="#f0011"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Antich&#xA75B;i&#x017F;ti.</hi></fw><lb/>
+<figure/><lb/>
+<head>Antich&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Der bap&#x017F;t meynt es &#x017F;ey &#x017F;eynen eh&#xA75B;en tzue nahe das er &#x017F;ich demu&#x0364;-<lb/>
+tige/ dann der &#x017F;ich
+tzu fa&#x017F;t demu&#x0364;tiget gedeyget ym ynn dem<lb/>
+regiment tzuuo&#xA75B;achtung. <bibl><abbr>c. quando 86.
+di&#x017F;tinc.</abbr></bibl></p><lb/>
+<p>Alßo &#x017F;agt die glo&#x017F;a. das i&#x017F;t waer bey denn nar&#xA75B;enn/ das i&#x017F;t
+ßo<lb/>
+vil mann muß ge&#x017F;trengt vbir die deut&#x017F;chenn nar&#xA75B;en regiren/ ßo<lb/>
+halten &#x017F;ie vill von vns.<lb/>
+</p>
+<fw type="sig" place="bottom">B ij</fw>
+</div>
+<pb facs="#f0012"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd</hi></fw><lb/>
+<figure/><lb/>
+<head>Ch&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Als Jhe&#x017F;us i&#x017F;t ein weytten wegk gangen/ i&#x017F;t
+er mu&#x0364;d wo&#xA75B;den.<lb/>
+<bibl><ref target="https://www.bibleserver.com/text/LUT/Johannes4">Johan. 4.</ref></bibl> Der mir wil nach volgen/ der nem &#x017F;eyn Creutz
+vff<lb/>
+&#x017F;ich vnd volge mir. <bibl><ref target="https://www.bibleserver.com/text/LUT/Matth%C3%A4us16">Mathei 16.</ref></bibl></p><lb/>
+<p>Er hatt ym &#x017F;eyn Creutze &#x017F;elb&#x017F;t
+getragen vnd i&#x017F;t tzu der &#x017F;tell die<lb/>
+Caluarie gnant wirdt/ gangen.
+<bibl><ref target="https://www.bibleserver.com/text/LUT/Johannes19">19.</ref></bibl></p> 
+</div>
+<pb facs="#f0013"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Antich&#xA75B;i&#x017F;ti.</hi></fw><lb/>
+<figure/><lb/>
+<head>Antich&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Das capittel Si quis &#x017F;uadente <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> dergleychen tzeygt gnug an<lb/>
+wie gerne <choice>
+<sic>drr</sic>
+<corr>der</corr>
+</choice> Bap&#x017F;t das creutz der wyder wertigkeyt duldet/ &#x017F;o<lb/>
+er alle die ihenen/ die
+hand an die pfaffen an <choice><abbr>lege&#x0303;</abbr><expan>legen</expan></choice> vo&#xA75B;maladeyet<lb/>
+<choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> dem teuffel gibt
+Vnd alßo ouch tregt der Bap&#x017F;t das creutz<lb/>
+das ynnen getauffte Ch&#xA75B;i&#x017F;ten vff
+y&#xA75B;en ach&#x017F;&#x017F;elen tragen mu&#x0364;&#x017F;&#x017F;en.</p>
+<fw type="sig" place="bottom">B iij</fw>
+</div>
+<pb facs="#f0014"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd</hi></fw><lb/>
+<figure/><lb/>
+<head>Ch&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Jch mu&#x0364;ß ouch andern &#x017F;tetenn p&#xA75B;edigen das
+reych gots dan ich<lb/>
+von des wegen ge&#x017F;andt byn <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> hab gep&#xA75B;edigt yn den
+Synago-<lb/>
+gen durch Gallileam <bibl><ref target="https://www.bibleserver.com/text/LUT/Lukas4">Luce 4.</ref></bibl></p>
+</div>
+<pb facs="#f0015"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Antich&#xA75B;i&#x017F;ti.</hi></fw><lb/>
+<figure/><lb/>
+<head>Antich&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Es ge&#x017F;chiecht offt das die Bi&#x017F;choff mit vielen hendeln <choice><abbr>belade&#x0303;</abbr><expan>beladen</expan></choice><lb/>
+&#x017F;eyn vnnd von wegen Jrer
+fhedenn/ auch tzun tzeytten konnen<lb/>
+&#x017F;ies nit/ das dan nit &#x017F;eyn &#x017F;oll/ mogen des
+<choice><sic>peedigens</sic><corr>predigens</corr></choice> nit <choice><abbr>gewarte&#x0303;</abbr><expan>gewarten</expan></choice><lb/>
+ßonderlich wan yre bi&#x017F;thumb groß &#x017F;eint dan mogen &#x017F;ie ande-<lb/>
+re vo&#xA75B; &#x017F;ich <choice><abbr>be&#x017F;telle&#x0303;</abbr><expan>be&#x017F;tellen</expan></choice>
+die do <choice><abbr>p&#xA75B;edige&#x0303;</abbr><expan>p&#xA75B;edigen</expan></choice> <bibl>c. Jnter cerera de offi.
+o&#xA75B;dina.</bibl><lb/>
+Das &#x017F;eynd die bi&#x017F;choff die y&#xA75B;es <choice><abbr>o&#xA75B;de&#x0303;lichen</abbr><expan>o&#xA75B;denlichen</expan></choice> ampts
+verge&#x017F;&#x017F;en/ &#x017F;int<lb/>
+<choice><abbr>wo&#xA75B;de&#x0303;</abbr><expan>wo&#xA75B;den</expan></choice> <choice><abbr>an&#x0129;alia</abbr><expan>animalia</expan></choice>
+<choice><abbr>ve&#x0303;tris</abbr><expan>ventris</expan></choice>. 3.
+<choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> <choice><abbr>&#x017F;p&#xA75B;eche&#x0303;</abbr><expan>&#x017F;p&#xA75B;echen</expan></choice>/
+<choice><abbr>ko&#x0303;met</abbr><expan>kommet</expan></choice> <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice>
+la&#x017F;t vns <choice><abbr>&#x017F;chle&#x0303;me&#x0303;</abbr><expan>&#x017F;chlemmen</expan></choice><lb/>
+vnd temmen vnd alßo fur vnd fur gut leben haben.
+<bibl><ref target="https://www.bibleserver.com/text/LUT/Jesaja56">E&#x017F;ai. 56.</ref></bibl></p>
+</div>
+<pb facs="#f0016"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd</hi></fw><lb/>
+<figure/><lb/>
+<head>Ch&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Die fuchß haben yre gru&#x0364;ben/ vnnd die fogell der lufft ire ne&#x017F;ter/
+<lb/>
+Aber der &#x017F;on des <choice><abbr>me&#x0303;&#x017F;chen</abbr><expan>men&#x017F;chen</expan></choice>
+hat nicht do er &#x017F;ein heubt legte. <bibl><ref target="https://www.bibleserver.com/text/LUT/Lukas9">Lu. 9</ref></bibl><lb/>
+Dießer ab er wol reich war/ dennoch vmb vn&#x017F;ert
+willen i&#x017F;t er<lb/>
+arm wo&#xA75B;den/ vnd &#x017F;eyn armut hat vns reych gemacht. <bibl><ref target="https://www.bibleserver.com/text/LUT/2.Korinther8">2. Co&#xA75B;. 8</ref></bibl>
+</p>
+</div>
+<pb facs="#f0017"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Antich&#xA75B;i&#x017F;ti.</hi></fw><lb/>
+<figure/><lb/>
+<p>Wir loßen auff alle eyde die die gey&#x017F;tlichen tzu gefengknis gelo-<lb/>
+bet haben vnnd gebieten das
+mann nit allein mit gey&#x017F;tlichem&#x0303;/<lb/>
+ßonder auch mit dem weldtlichem &#x017F;chwerdt Jre gu&#x0364;tter <choice>
+<sic>be-<lb/>
+&#x017F;chutzen&#x017F;all</sic>
+<corr>be-<lb/>
+&#x017F;chutzen &#x017F;all</corr>
+</choice> &#x017F;o lang <choice>
+<sic>bi</sic>
+<corr>bis</corr>
+</choice> das &#x017F;ie yr etwandt gu&#x0364;t widder haben<lb/>
+<bibl>15. q. 6. c. Aucto&#xA75B;itate&#x0303;</bibl>
+<choice><abbr>vn&#x0303;</abbr><expan>vnd</expan>
+</choice> <choice><abbr>&#x010F;</abbr><expan>der</expan></choice>
+ynn dießem krieck &#x017F;tirbt adir vo&#xA75B;-<lb/>
+dirbt wirdt erlangen das ewig leben
+<bibl>23. q. 5. c. <choice><abbr>o&#x0129;m</abbr><expan>olim</expan></choice> et q. 8.<lb/>
+c. omni</bibl>
+das hey&#x017F;t ßeyns guts gewiß &#x017F;ein das mans ouch vo&#xA75B;<lb/>
+gu&#x0364;t acht ab &#x017F;cho&#x0364;n Ch&#xA75B;i&#x017F;tenn blu&#x0364;t do&#xA75B;ubir
+vo&#xA75B;go&#x017F;&#x017F;en wirdt.</p>
+<fw type="sig" place="bottom">C</fw>
+</div>
+<pb facs="#f0018"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd</hi></fw><lb/>
+<figure/><lb/>
+<head>Ch&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Sich an/ dein konigk kompt dir demu&#x0364;tigk vff einem <choice><abbr>iunge&#x0303;</abbr><expan>iungen</expan></choice> e&#x017F;el<lb/>
+<bibl><ref target="https://www.bibleserver.com/text/LUT/Matth%C3%A4us21">Mathei 21.</ref></bibl> Alßo i&#x017F;t
+Ch&#xA75B;i&#x017F;tus kommen reyttendt vffinn fremb-<lb/>
+den e&#x017F;ell arm vnd &#x017F;anfftmu&#x0364;tigk <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice>
+reydt nicht tzu regiren ßon-<lb/>
+der vns allen tzu eynem &#x017F;eligen todte <bibl><ref target="https://www.bibleserver.com/text/LUT/Johannes12">Johannis 12.</ref></bibl></p>
+</div>
+<pb facs="#f0019"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Antich&#xA75B;i&#x017F;ti.</hi></fw><lb/>
+<figure/><lb/>
+<head>Antich&#xA75B;i&#x017F;ti.</head><lb/>
+<p>Die
+gey&#x017F;tlichen &#x017F;eint alle konnige vnnd das betzeygt die platten<lb/>
+vffim kopffe. <bibl>duo 12
+q. 1.</bibl></p><lb/>
+<p>Der Bap&#x017F;t magk gleych wie der key&#x017F;&#x017F;er reytten <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> der keyßer
+i&#x017F;t<lb/>
+&#x017F;eyn th&#xA75B;abant vff das bi&#x017F;chofflicher <choice><abbr>wirde&#x0303;</abbr><expan>wirden</expan></choice>
+gehalt nicht <choice><sic>gemin<lb/>
+dert</sic><corr>gemin-<lb/>
+dert</corr></choice>
+werde <bibl>c. con&#x017F;tantinus 10. c. 6. di&#x017F;.</bibl></p><lb/>
+<p>Der Bap&#x017F;t i&#x017F;t allen volckern vnd reychen
+vo&#xA75B;ge&#x017F;atzt <bibl>ex vag &#x017F;up<lb/>
+gentes Johannis 22.</bibl></p>
+<fw type="sig" place="bottom">C ij</fw>
+</div>
+<pb facs="#f0020"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd</hi></fw><lb/>
+<figure/><lb/>
+<head>Ch&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Jr &#x017F;olt nicht haben golt nach
+&#x017F;ilber/ nicht gelt an ewirn go&#xA75B;teln<lb/>
+keyne ta&#x017F;chen ouch nit tzwen ro&#x0364;ck nach &#x017F;chueh
+nach eyn wan-<lb/>
+der&#x017F;tab. <bibl><ref target="https://www.bibleserver.com/text/LUT/Matth%C3%A4us10">Math. 10.</ref></bibl></p><p>Sanct Peter &#x017F;agt/ Jch habe wyder golt
+nach &#x017F;ilber <bibl><ref target="https://www.bibleserver.com/text/LUT/Apostelgeschichte3">act. 3.</ref></bibl><lb/>
+Vbi i&#x017F;t dan Patrimonium Petri?</p>
+</div>
+<pb facs="#f0021"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Antich&#xA75B;i&#x017F;ti.</hi></fw><lb/>
+<figure/><lb/>
+<head>Antich&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Keyn Bi&#x017F;choff &#x017F;all vff eyn gering vnd kleyne &#x017F;tadt geweyet<lb/>
+werden/ ßondern tzu eynem
+erlichen titell ge&#x017F;atzt vnd hoch ge-<lb/>
+eh&#xA75B;et &#x017F;eyn. <bibl>80. di&#x017F;t. c.
+Epi&#x017F;copi.</bibl></p><lb/>
+<p>Wir o&#xA75B;dnen das keyne weyhung ane gnugliche
+vo&#xA75B;&#x017F;o&#xA75B;gung<lb/>
+krefftig &#x017F;ey. <bibl>70. di&#x017F;t. &#x017F;ancto&#xA75B;um.</bibl></p>
+<fw type="sig" place="bottom">C iij</fw>
+</div>
+<pb facs="#f0022"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd</hi></fw><lb/>
+<figure/><lb/>
+<head>Ch&#xA75B;i&#x017F;tus.</head><lb/>
+<p>Das reich gots i&#x017F;t nit/yn ew&#x017F;&#x017F;erlichen geberden/ &#x017F;ye hie/ aber do<lb/>
+i&#x017F;t Ch&#xA75B;i&#x017F;tus/
+be&#x017F;onder das reich gots i&#x017F;t innerlich yn euch. <bibl><ref target="https://www.bibleserver.com/text/LUT/Lukas17">Lu.<lb/>
+17.</ref></bibl> Warumb habt ir das gebott gots
+vbirtretten von men&#x017F;chen<lb/>
+ge&#x017F;etz wegen/ Alle eh&#xA75B;en mich vo&#xA75B;geblich/ die
+do men&#x017F;chen lere<lb/>
+vnd gebot halten. <bibl><ref target="https://www.bibleserver.com/text/LUT/Matth%C3%A4us15">Mat. 15.</ref></bibl>
+<bibl><ref target="https://www.bibleserver.com/text/LUT/Jesaja21">E&#x017F;aie. 21.</ref></bibl>
+</p>
+</div>
+<pb facs="#f0023"/>
+<div n="1">
+<fw place="top" type="header">Antich&#xA75B;i&#x017F;ti.</fw><lb/>
+<figure/><lb/>
+<p>Des Antich&#xA75B;i&#x017F;ts reich i&#x017F;t gantzlich in ewßerlichem weßen/<lb/>
+was &#x017F;agt des Bap&#x017F;ts recht
+anders dan o&#xA75B;dnung vonn ka&#x017F;eln<lb/>
+cleydern platten/ <choice><abbr>feyertage&#x0303;</abbr><expan>feyertagen</expan></choice>/
+<choice><abbr>weyu&#x0303;gen</abbr><expan>weyungen</expan></choice>/ pfreunden/ &#x017F;ecten/
+<choice><abbr>monche&#x0303;</abbr><expan>monchen</expan></choice><lb/>
+vnd pfaffen/ <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> nennen
+&#x017F;ich/ yre habe <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> gutter gey&#x017F;tlich gu&#x0364;t/<lb/>
+&#x017F;ich allein die ch&#xA75B;i&#x017F;tlich
+kirche/ die pfaffen das außerwelte volck<lb/>
+gots/ gleich &#x017F;am weren die leyen nicht in <choice><abbr>&#x010F;</abbr><expan>der</expan></choice>
+kirchen vnnd gots/<lb/>
+Wyder alle &#x017F;ch&#xA75B;ifft vbir das vo&#xA75B;beut er die &#x017F;peyße/
+ehe/ wie dann<lb/>
+Paulus vo&#xA75B;ge&#x017F;agt hat. Es werden <choice><abbr>ko&#x0303;men</abbr><expan>kommen</expan></choice> vo&#xA75B;lougne
+gey&#x017F;t <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice><lb/>
+&#x017F;olche ding vo&#xA75B;bieten.
+<bibl><ref target="https://www.bibleserver.com/text/LUT/1.Timotheus4">1. Timo. 4.</ref></bibl>
+</p>
+</div>
+<pb facs="#f0024"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd</hi></fw><lb/>
+<figure/><lb/>
+<p>Er hat funden ym <choice><abbr>te&#x0303;pell</abbr><expan>tempell</expan></choice>
+vo&#xA75B;kauffer/ &#x017F;chaff/ ochßen <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> tawben<lb/>
+<choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> wech&#x017F;ler &#x017F;itzen/
+<choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> hat gleich ein
+gey&#x017F;&#x017F;el gemacht <choice><abbr>vo&#x0303;</abbr><expan>von</expan></choice>
+<choice><abbr>&#x017F;tricke&#x0303;</abbr><expan>&#x017F;tricken</expan></choice><lb/>
+alle &#x017F;cha&#x0364;ff/ ochßen/
+<choice><abbr>taube&#x0303;</abbr><expan>tauben</expan></choice>
+<choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> wechßler außem
+tempell trieben/<lb/>
+das gelt ver&#x017F;chu&#x0364;t/ die tzall b&#xA75B;edt vmkart
+<choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> tzu den die
+tawben<lb/>
+vo&#xA75B;kaufften ge&#x017F;p&#xA75B;ochen. Hebt euch hin mit dießen auß meins<lb/>
+vatern
+hauß &#x017F;olt ir nit ein kauff hauß <choice><abbr>mache&#x0303;</abbr><expan>machen</expan></choice>.
+<bibl><ref target="https://www.bibleserver.com/text/LUT/Johannes2">Joh. 2.</ref></bibl>
+Jr habts<lb/>
+vmb &#x017F;un&#x017F;t/ <choice><abbr>daru&#x0303;b</abbr><expan>darumb</expan></choice> gebts
+vmb &#x017F;un&#x017F;t. <bibl><ref target="https://www.bibleserver.com/text/LUT/Matth%C3%A4us10">Mat. 10.</ref></bibl> Dein gelt &#x017F;ey mit<lb/>
+dir yn vo&#xA75B;damnuß.
+<bibl><ref target="https://www.bibleserver.com/text/LUT/Apostelgeschichte8">Act. 8.</ref></bibl>
+</p>
+</div>
+<pb facs="#f0025"/>
+<div n="1">
+<fw place="top" type="header">Antich&#xA75B;i&#x017F;ti.</fw><lb/>
+<figure/><lb/>
+<p>Hie &#x017F;itzt der Antich&#xA75B;i&#x017F;t ym tempell gots <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice>
+ertzeygt &#x017F;ich alß got<lb/>
+wie <choice><abbr>Paul&#x2079;</abbr><expan>Paulus</expan></choice> vo&#xA75B;kundet
+<bibl><ref target="https://www.bibleserver.com/text/LUT/2.Thessalonicher2">2. The&#x017F;&#x017F;al 2.</ref></bibl>
+vo&#xA75B;andert alle gotlich o&#xA75B;d-<lb/>
+nung wie Daniel &#x017F;agt vnnd vntherd&#xA75B;uckt die heylig
+&#x017F;ch&#xA75B;ifft/<lb/>
+vo&#xA75B;keufft di&#x017F;pen&#x017F;acion/ Ablas Pallia Bi&#x017F;thumb lehen/ erhebt<lb/>
+die
+&#x017F;chetz der erden/ Lo&#x017F;t vff die ehe/ be&#x017F;chwerdt die gewi&#x017F;&#x017F;enn<lb/>
+mit &#x017F;eynen ge&#x017F;etzen/
+Macht recht vnd vmb gelt tzurey&#x017F;t er das/<lb/>
+Erhebt heyligen/ Benedeyet <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> maledeyet
+yns vierde ge&#x017F;chlecht<lb/>
+<choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> gebewt ßeyn &#x017F;tym tzuho&#xA75B;en gleych wie gots &#x017F;tym
+<bibl>c. &#x017F;ic <choice><abbr>o&#x0129;s</abbr><expan>omnis</expan></choice><lb/>
+di&#x017F;. 19.</bibl>
+vnd nimants &#x017F;all ym eynreden. <bibl>17 q. 4. c. nemini.</bibl></p>
+</div>
+<pb facs="#f0026"/>
+<div n="1">
+<fw place="top" type="header"><hi rendition="#b">Pa&#x017F;&#x017F;ional Ch&#xA75B;i&#x017F;ti vnd</hi></fw><lb/>
+<figure/><lb/>
+<p>Jn y&#xA75B;en an&#x017F;ehen i&#x017F;t er
+auffgehaben vnd die wolcken haben ynn<lb/>
+hinwegk genommen <choice><abbr>vo&#x0303;</abbr><expan>von</expan></choice> y&#xA75B;en ougen. Dißer Je&#x017F;us
+der von euch<lb/>
+yn himmel auffgenommen i&#x017F;t/ wirdt alßo wyder <choice><abbr>komme&#x0303;</abbr><expan>kommen</expan></choice> wie<lb/>
+y&#xA75B; ynn
+ge&#x017F;ehen habt tzu himmel fharen. <bibl><ref target="https://www.bibleserver.com/text/LUT/Apostelgeschichte1">Act. 1.</ref></bibl>
+Seyn reych hat<lb/>
+keyn ende <bibl><ref target="https://www.bibleserver.com/text/LUT/Lukas1">Luce. 1.</ref></bibl> Wer do
+mir dient der wird mir nach volgen<lb/>
+<choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> wu ich bin do wirt meyn diener ouch ßeyn
+<bibl><ref target="https://www.bibleserver.com/text/LUT/Johannes12">Joha&#x0303;. 12.</ref></bibl>
+</p>
+</div>
+<pb facs="#f0027"/>
+<div n="1">
+<fw place="top" type="header">Antich&#xA75B;i&#x017F;ti.</fw><lb/>
+<figure/><lb/>
+<p>Es i&#x017F;t ergriffen
+die Be&#x017F;tia <choice><abbr>vn&#x0303;</abbr><expan>vnd</expan></choice> mit yr
+<choice><abbr>&#x010F;</abbr><expan>der</expan></choice> fal&#x017F;ch p&#xA75B;ophet der durch<lb/>
+&#x017F;ie tzeychen than
+hat do mit er vo&#xA75B;furdt hat/ die ßo ßeyn <choice><abbr>tzeyche&#x0303;</abbr><expan>tzeychen</expan></choice><lb/>
+von yme genommen/ vnd &#x017F;ein
+bildt angebet ßeynt ver&#x017F;enckt yn<lb/>
+die teuffe des fewirs vnd &#x017F;chweffels vnd &#x017F;eynd getodt
+mit dem<lb/>
+&#x017F;chwerdt des der do reydt vffim wey&#x017F;&#x017F;en pferdt/ das auß <choice><abbr>&#x017F;eyne&#x0303;</abbr><expan>&#x017F;eynem</expan></choice><lb/>
+mauel
+gehet. <bibl><ref target="https://www.bibleserver.com/text/LUT/Offenbarung19">Apocal: 19.</ref></bibl> Danne wirdt offenbar werden der<lb/>
+&#x017F;chalckhafftige denn wirdt der
+her&#xA75B; Je&#x017F;us toeten mit dem atem<lb/>
+ßeyns mundts vnd wirdt yn &#x017F;turtzen durch die
+glo&#xA75B;i ßeyner <choice><sic>tzu<lb/>
+kunfft.</sic><corr>tzu-<lb/>
+kunfft.</corr></choice>
+<bibl><ref target="https://www.bibleserver.com/text/LUT/2.Thessalonicher2">2. ad Te&#x017F;&#x017F;a. 2.</ref></bibl>
+</p>
+</div>
+<pb facs="#f0028"/>
+<div n="1">
+<p>Sint eyn ichlich &#x017F;chandt bu&#x0364;ch vnd famo&#x017F;us libellus nit mag<lb/>
+genendt werden es
+begreyfft dan yn &#x017F;ich &#x017F;chandtlich la&#x017F;ter vnd<lb/>
+vnthate ßo i&#x017F;t offentlich das ditz buchle
+nit mag vo&#xA75B; ein <choice><abbr>&#x017F;cha&#x0303;d</abbr><expan>&#x017F;chand</expan></choice><lb/>
+buch
+<choice><abbr>gehalte&#x0303;</abbr><expan>gehalten</expan></choice> <choice><abbr>werde&#x0303;</abbr><expan>werden</expan></choice> nach durch die
+gebot ßo wyder die &#x017F;chand<lb/>
+&#x017F;ch&#xA75B;ifft außgangen/ vo&#xA75B;botten &#x017F;eyn/ dieweyl
+alles das <choice><abbr>hirinne&#x0303;</abbr><expan>hirinnen</expan></choice><lb/>
+&#x017F;teht/ Jnn dem Beb&#x017F;tlichem gey&#x017F;tliche/ rechte nit allein
+alls<lb/>
+tzimliche dingk/ &#x017F;onder ouch als ge&#x017F;etze tzu befinden/ vnnd
+i&#x017F;t<lb/>
+vo&#xA75B;nemlich außgangen alleyne des gey&#x017F;tlichenn flei&#x017F;chlichenn<lb/>
+rechts
+grundt yn eyner &#x017F;umme vnd kurtzlich antzutzeygen/ ge-<lb/>
+meynem nutz der
+Ch&#xA75B;i&#x017F;tenheyt fo&#xA75B;derlich tzu guthe.</p>
+</div>
+</body>
+<back><trailer>¶ Nembt alßo vo&#xA75B;gut<lb/>
+Es wirdt baldt be&#x017F;&#x017F;er werden.</trailer></back>
+</text>
+</TEI>

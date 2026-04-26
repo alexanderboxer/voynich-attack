@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Wahrhaftiger Bericht, daß das Wort Gottes, ohne Tumult, ohne Schwärmerei, zu Goslar und Braunschweig gepredigt wird</title>
+<author>
+<persName ref="http://d-nb.info/gnd/118670182">
+<surname>Corvinus</surname>
+<forename>Anton</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/h-59-4f-helmst-9s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/h-59-4f-helmst-9s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">30</measure>
+<measure type="tokens">6979</measure>
+<measure type="types">2018</measure>
+<measure type="characters">43097</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:22:25Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/corvinus_bericht_1529</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/corvinus_bericht_1529</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/corvinus_bericht_1529</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/corvinus_bericht_1529</idno>
+<idno type="DTADirName">corvinus_bericht_1529</idno>
+<idno type="DTAID">30189</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30189-1</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Corvinus, Anton: Wahrhaftiger Bericht, daß das Wort Gottes, ohne Tumult, ohne Schwärmerei, zu Goslar und Braunschweig gepredigt wird. Wittenberg, 1529.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Wahrhaftiger Bericht, daß das Wort Gottes, ohne Tumult, ohne Schwärmerei, zu Goslar und Braunschweig gepredigt wird</title>
+<author>
+<persName ref="http://d-nb.info/gnd/118670182">
+<surname>Corvinus</surname>
+<forename>Anton</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Rau</name></publisher>
+<pubPlace>Wittenberg</pubPlace>
+<date type="publication">1529</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main"><figure/><lb/>
+<docTitle><titlePart type="main">Warhafftig be-<lb/>
+richt/ Das das wort Gotts/<lb/>
+ohn tumult/ ohn schwer-<lb/>
+merey/ zu Gosler vnd Braun-<lb/>
+schweigk gepredigt wird/<lb/>
+durch<lb/>
+Anto. Coruinum<lb/>
+zitho-<lb/>
+gallum/ zu<lb/>
+Gosler predicanten<lb/>
+ynn S. Steffans Pfarr.<lb/>
+</titlePart></docTitle>
+<docImprint><docDate>M. D. XXIX.</docDate></docImprint></titlePage>
+<pb facs="#f0002"/>
+</front>
+<body>
+<div>
+<pb facs="#f0003"/>
+<head>Den Ersamen / weisen / vnd wolgelerten Johanni Nordek / Heynrich Lesener /
+Hessischen Secretarien entpiet ich Antonius Coruinus gnad vnd fried durch
+Christum.<lb/>
+</head>
+<p>WAs ich euch vom Brunschweigischen tumult / dazu vom lauff des Euangelij bey vns
+/ auff den itzt vorgangen Reichstag / geschrieben hab / ist euch on zweyffel
+noch wol bewust / Dieweil euch aber solch newe zeittung nicht fast erfrewet
+(denn ich weis was mißgefallen yhr an auffrhur / so vnter dem schein des
+Euangelij angerichtet werden) Vnd ich auch befinde / das das gerücht falsch
+gewesen / hab ich gedacht dieses gesprech / so ich mit Auctor Sanders einem
+grossen freunde des Euangelij / nach diesen Ostern gehalten / euch zu senden /
+Auff das nicht allein die Brunschweiger auffrhur halben / bey euch vnd allen
+frummen hertzen / sonder auch wir zu Gosler entschuldigt werden / denn was yhnen
+durch böse leute felschlich auffgelegt / wirt auch von vns gesagt / Wiewol sichs
+nymer ynn der warheit befinden sol / Sind wir nicht die gelertesten / so wissen
+wir dennoch von der gnad Gotts / das die Oberkeit ein ordnung Gotts ist /
+welcher niemand wid-
+<pb facs="#f0004"/>
+derstreben / sonder yderman gehorsam
+sein solle / Straffen müssen wir sie wol mit Göttlichem wort / wo sie Gotts ehr
+verhindert / Das schwerdt aber müssen vnd sollen wir yhnen lassen / wir wolten
+den&#x0303; / wieder Müntzer / widder Gotts befelh thun / Gott hat
+mich yo bisher vor schwermerey beschützt / Verhoffen auch / er werde mich auch
+hinfurt behüten / nicht allein vor des Müntzers / sondern auch des Zwinglij
+schwermerey / yrthumb / vnd allen secten / Böse leut las ich sagen was sie
+wöllen / Sie können nicht anders thun / denn yhres vaters art / welcher von
+anfang gewesen ist ein lügner / Will derhalben auch euch meine lieben pa tronen
+gebeten haben / yhr wölt diesen Dialogum lesen / vnd bericht aus dem selbigen
+nemen / wie vnd mit was fleisse / bey vns vnd den Brunschweigern / das
+Euangelion geprediget werde / vnd euch warnen lassen vor denen / so nicht anders
+thun / denn das sie das ergeste von yderman singen vnd sagen / vnd vnglück mit
+lügen anrichten / Wie ich mich bey euch gehalten / dazu die warheit geprediget
+hab / Also wil ich auch hinfurt / ob Gottwil / der gepür mich halten / Hab ich
+verwandelt die stedde / nach beruffung des Herrn / so hab ich doch nicht
+verwandelt das gemüth. Die gnad Gots sey mit euch / Lasset euch befolhen sein
+alle diener des worts. Datum Gosler. xxix. montags nach Trinitatis.</p>
+<pb facs="#f0005"/>
+</div>
+<div>
+<head>Antonius. Auctor.<lb/>
+</head>
+<p>ANtonius / Sey gegrüsset Auctor. AVCTOR danck müssestu haben lieber Antoni /
+Rümmestu itzunder von Gosler ANTONI. Ja / Ich hab solch begir bisher gehabt /
+dich zu sehen / vnd mit dir zu reden / das ich nicht hab künnen lenger verziehen
+/ ich muste dich heimsuchen. AVCTOR / Warlich so bistu mir ein wilkumener gast /
+vnd bin deiner zukunfft seer erfrewet / Denn wir haben vns lang nicht gesehen.
+ANTONIVS / Ich gestehe es / denn es ist bey vi. iaren / das mich / wie einen
+Lutherischen buben / mein Abt veriagt hat. AVCT. So hab ich dich ynn solchen
+kleidern nicht mehr gesehen / vnd solte dich wol nicht gekant haben / wo du mich
+zu erst nicht angesprochen hettest / Es gefelt mir nicht vbel dein verwandlung.
+ANTONIVS / Die kleider sind yo verwandelt / wolt Gott das auch das alte
+vnördiglich leben / so gentzlich verwandelt were / Am kleid hat Gott nicht
+grossen gefallen / Er sihet viel mehr yns hertze vnd prüffet die nieren. AVCTOR
+/ Der das<note place="right">Hiere. xis Apoca. ijs</note> hertz prüffet /
+kans auch rein machen / dazu gnad geben / das wir das alte böse leben verlassen
+/ vnd ein new mensch werden / las vns nür mit dem Dauid sagen / Schaff mir Gott
+ein reyn hertze / vnd<note place="right">Psalm. ls</note> ernere yn mir
+einen willige&#x0303;n geist / Kleider vorwandlen ist wol ein menschlich
+werck / wie die natur des Pardi auch vermag / nu diese / denn ihene farbe an
+sich nemen / Aber das hertz vorwandelen<note place="right">Eccle.
+xlv</note> ist ein Gotts werck. ANTO. Das bekenne ich
+<pb facs="#f0006"/>
+auch /
+Gott hab danck / Ich hab aber gesehen / das ich ein solchs nicht gleubte /
+sondern eygnen wercke&#x0303; zuschreyb / vnd also mein eygene hende
+küssete / welchs denn der geringsten sunde keine ist. <note place="left">Job. xxxi</note>AVCTOR / Das war ynn der zeit / da wir / als der Heidnisch
+Bion Boryschenites sagt / zur helle zu lieffen mit zugethanen augen / Aber
+vmbkeren ist gut. ANTO. Wol gesagt / wir habens zur selbigen zeit nicht besser
+gewust / Die weil wirs aber besser wissen / musten wir vns bessern vnd mit dem
+<note place="left">Psalm. lxxvlij.</note>Dauid sagen / Gedencke nicht
+an vnser vorige missethat etce. Wiewol was rhüme ich / das ichs nü besser
+wissen Hab ich was / das ist von Gott / vnd hab es also / das ich gleichwol
+einen ewige&#x0303; kampff füle ynn mir / vn&#x0303; zuneigung zun
+sunde&#x0303;. Der geist ist wol gut / Aber ym fleisch füle ich
+nichts guts / das ich wol sagen möchte / Ja viel pillicher sagen / den&#x0303; der heilige Paulus / Ich sehe ein ander gesetz ynn <note place="left">Roma. vij.</note>meinen glidern / das da widder strebt
+dem gesetz ynn meinem gemüt. AVCT. Solchen mutwillen wird der geist Christi / an
+welchen wir gleuben / wol ynn vns vberwinde&#x0303; / aber nicht gantz
+weck ne men / den&#x0303; anfechtung des fleischs wirt bleiben ynn vns /
+die weil wir leben / Sie wird aber nicht vberhandt / so wir Christen sind /
+nemen / odder ynn <note place="left">Roma. vij. <sic>.</sic>ij. Cor. v</note>vns
+hirschen / wie denn zun Römern dieser kampff des geists vnd fleischs reichlich
+ist beschrieben / vn&#x0303; zun Chorintern. ANTO. Wolan ich hab verwan
+delt die kleider / Auch zum teil (den ich mein schwacheit gern beken) das
+vnordiglich leben / Doch alles mit der hülffe Gotts / welcher ohn zweyfel
+<pb facs="#f0007"/>
+weiter gnad geben wirt. Wo aber kompt her dein
+verwandelung AVCTOR / Was ist ynn mir verwandelt ANTO. die gestalt / Do
+ich von dir gezogen byn am letsten warstu ein hübscher iunger knab / Nu sihestu
+/ als komestu gekrochen aus dem fegefeur Patritij / odder der spelunken
+Trophonij. AVC. Lieber Antoni viele vnde grosse sorge machen grawe köpfe. ANTO.
+Wo vor hastu sorg getragen Versehe mich nicht dieweil du Christum<note place="right">Mat. vi.</note> erkant hast / das du widder sein befelh
+vor zeitlich gut sorge tragest. AVC. Nein ich lieber Antoni / Es ist anderswo
+hyn gestreckt worden mein sorge. ANTO. mag ichs wissen AVCT / Ja wol / mein
+sorge ist nu etliche iar die gewesen / das die heilsame lere Christi vnsers
+lieben herrn / möchte frey bey vns auff den plan kummen. Hab auch keinen vleis
+gespart / bis ichs mit der hülffe Gotts dahin gebracht hab / sampt andern guten
+hertze&#x0303;. das das Euangelion bey vns ym schwange gehet / ANTO.
+Gott hab lob yn ewigkeit / der dein Christ lich fürnemen so krefftiglich
+ausgefüret hat. Ich hatte die von Brunschweig wol halb vbergeben / Nu hat Gott
+(dem alle ding müglich) geruffen dem das nicht ist / das es sey / wie Paulus
+sagt / Vnd vorwar ich kan dein sorge / nicht ein vnnütze<note place="right">Rom. iiij.</note> sorge heissen / dieweil du zu
+förderung des Eua&#x0303;gelij die selbige getragen hast / vnd also ein
+werckzeug des Herrn gewesen bist / Gott geb nür / das die sache gewynne einen
+glückselige&#x0303; vortgang. Die alte gestalt so du drüber vberkomen
+hast / wird dir nicht schedlich sein. AVC. Der es angefange&#x0303; hat /
+<pb facs="#f0008"/>
+wirds wol vort treiben. Wir haben bisher das wort noch
+ynn der stille gehabt / nicht das nicht auch gottlose bey vns sein / sonder das
+sie vor der Oberkeit zu eusserlicher einigkeit gehalte&#x0303; sein / Es
+ist aber ia nu der Sathan zugefaren / vnd mit seiner kunst vnterstanden ein
+zweyspaltigung zu machen / wie du on zweiffel gehört hast. ANT. Ich habs ia
+gehört / Wolte auch gern der sach berichtet sein / denn die schuld wird
+allenthalben auff / euch Christen gelegt / Es haben die leut ein solch geschrey
+gemacht / was auffrhur hie gewesen / das es vber alle masse ist. AVCT. Des lasse
+ich mich balde vberreden / den ich fast wol weis aus dem Virgilio / was Fama /
+vor ein thier ist / Aber gleub mir / wie vns geschicht / also geschicht euch
+auch. ANTO. Ich gleubs vnd weis es zu guter masse wol / Aber wo ich vnschüldig
+bin / gibt mirs nicht viel zu schaffen / Kan auch wol sagen mit dem heiligen
+Paulo / Vnser rhum ist das gezeugnis vnsers <note place="left">ij. Cor.
+x. i. Cor. iiij</note>gewissens. Item / Est ist mir ein gerings / das ich
+von euch gerichtet werde / Odder von einem menschlichen tage etc. Allein das
+thut mir weh / das sich frumme hertzen / an solchen lügen / so von vns ertichtet
+werden / ergern sollen. Vnd Gott gebe / das negst bösen gottlosen leuten / nicht
+auch falsche brüder sein / die solche gerüchte zuweilen mache&#x0303; /
+AVT. Böser leut zungen können viel zuwege brin <note place="left">Prouer.
+xviij.</note>gen / also / das auch der Solomon ynn solcher zungen hende /
+todt vnd leben setzet / Aber mein meynung ist / Es sey nichts schedlichers /
+den&#x0303; der ihenigen <note place="left">ij. Cor.
+xi.</note>lügen / so sich des Euangelions rhümen / vnd
+<pb facs="#f0009"/>
+doch
+fern ym hertzen dauon sind / denn diese thun mehr schadens / erwecken grösser
+ergernis / denn die / so offentliche feinde sein / Vor diesen weis sich der
+einfeltige Christ zu hütten / Vor ihenen aber wissen sich wenig zu hütten /
+drümb das sie ausspeyen yhren gifft vnder dem namen des Euangelij / vnd sol ich
+recht sagen / was von euch vnd vns gesagt wird / Wiewol der gottlose hauff seer
+dazu hilfft / so wirts doch am meisten erdacht von den falschen brüdern. ANTO.
+du hast es getroffen. AVC. Es wird derhalben die not foddern das wir vns
+entschuldigen / bey den Christen / so sich an den vielfeltigen lügen geergert
+haben. ANTO. Ym druck etwas lassen ausgehen / ist vber mein kunst / sonst were
+besonderlich vns Goslerschen pre digern / einer entschuldigung von nöten. AVCT.
+Die warheit bedarff nicht viel verblümts lateins<note place="right">i.
+Corin. iij</note> noch hoher kunst / sonder ist einfeltig / schlecht vnd
+recht / Doch verachten wir nicht das wolreden der gelerten / sonder loben auch
+ynn yhren gaben Gott den Herrn / So werden sie auch widderumb nicht verachten
+vnser warhafftige einfeltigkeit. ANTO. Die yenigen so recht gelert sein / thuns
+nicht / Was aber die andern thun werden / so mit dem Momo all ding zu straffen
+gelernt haben / weis ich fast wol / Hetten wir eitel Socrates zu Richtern /
+welcher sagte / Eins wuste er / nemlich / das / das er nichts wuste / so würde
+es kein not ha ben / Derhalben wöllen wir ym so thun / Du solt mir ansagen /
+alles was du von vns hie gehört hast / darauff wil ich kürtzlich bescheid geben
+/
+<pb facs="#f0010"/>
+Darnach wil ich dich fragen / vnd dir erzelen / was bey vns
+von euch gesagt ist worden / vnd darauff dein antwort hören / auff das du vns
+bey den Brunschwigern / vnd ich euch bey den Goslerschen entschuldigen könne /
+bis Gott weiter gnade gibt. AVCT. Das ist nicht ein böse meynung / So ists auch
+besser / die weil du zu mir komen bist / wir reden von der sache des Euangelij /
+denn von vnnützen <note place="left">Eph. vi.</note>dingen / welche
+Paulus verpeut / das aus vnserm munde nicht gehn solle. Wolan so sag mir zum
+ersten / Wie es ein gestalt hab vmb euch predi ger / Ob auch der lere einigkeit
+/ vnd sonst Christliche liebe bey yhnen sey ANT. Ich versehe mich ia / <note place="left">i. Cor. ij.</note>Denn wir leren eintrechtiglich Ihesum
+Christum vnd den gecreutziget / Das ist / das er sey die einige <note place="left">Esa. liij.</note>gnugthuung vor der welt sünde / Esa.
+liii vnd das einige opffer / da durch ynn ewigkeit volendet sein <note place="left">Ebre. x.</note>die heiligen / Ebre. x. Vnd wie er vmb
+vnser sunde willen gestorbe&#x0303; / das er also auch vmb vnser gerech
+<note place="left">Roma. iiij</note>tigkeit willen erstanden sey /
+Roma. iiii. Das er allein vnser mitler / zugang / vorspreche sey vor Gott <note place="left">.i. Timo. iiij. Ebre. iiij</note>vnserm hymlische&#x0303; vater .i. Tymo. iiii. Hebre. iiii. ix. Das derhalben nichts
+gelten verdienst oder wercke / vnd auch kein freyer wille ym menschen sey / der
+sich zum guten könne bereiten / sonder schlechts <note place="left">Ephe.
+ij. Actu. iiij.</note>stehe ynn der gütigkeit / gnad vnd barmhertzigkeit des
+Herrn / Ephe. ii. Actu. iiii. AVCT. Wer Christum so lernet / der kan des zils
+nicht wol feylen / Doch vermeyn ich / Yhr lernet nicht allein den glauben auff
+die weise / ynn Christum Ihesum / sonder auch Christliche wercke. ANT.
+Christliche
+<pb facs="#f0011"/>
+wercke leren wir / Aber nicht der hende wercke
+anbeten / das ist / auff die wercke vertrawen. Was<note place="right">Esa. ij.</note> weren wir vor Christen / wen&#x0303; wir vns des
+glaube&#x0303;s rhümeten / vnd die werck rieffen das widderspielt
+S. Paulus leret / wir seyen zum guten geschaffen /<note place="right">Eph. ij.</note> das wir darynn wandlen solle&#x0303; / vnd wir
+solten einnen glauben on werck leren so würde vns S. Jacob<note place="right">Jacobi. ij</note> sagen / Der glaub on werck ist todt /
+Doch leren wir nicht vnnütze vn&#x0303; vnnötige werck / sondern die / so
+wir beschrieben haben beym Esaia / Dem<note place="right">Esa.
+lviij.</note> hungerigen brich dein brod / den elenden vmbschweiffende&#x0303; fure ynn dein haus / dem nackten gib kleider / vn&#x0303;
+vorachte dein fleisch nicht etc. Das wir Mess hören / geistlich werden / kertzen
+anzünde&#x0303; / öle fressen / solten gute werck heissen / thun wir
+nicht / So leren wir auch nicht guts thun / vmb verdienst / sondern vmb Gotts
+willen / Die weil dem gute&#x0303; der lohn von sich selbs volgt / ob er
+schon nicht drauff denckt. Künden wir trewlich dienen / wir dürfften vor den
+lohn nicht sorge&#x0303; / Wer gab den lohn Abra ham / der doch nicht
+drümb diente Thets nicht der / der zu yhm sagte. Ich bin dein beschützer /
+vnd<note place="right">Gene. xv.</note> dein seer grosse belonung
+AVCT. Ewer lere / so noch erzelt / ist gut / Vnd wolte Gott / das der gemeyn
+hauff / die lere vom glauben / also merckte vnd annehme. Wie bereitet yhr aber
+zu solchem glauben das volck ANTONIVS. Wir predige&#x0303;<note place="right">Lu. xxiiij.</note> als Christus hies seine Aposteln /
+vorhin penitentiam / das ist / busse. AVCT / Was heisset yhr busse  ANTO.
+Abstehen von den sünden / odder sterbe&#x0303; der sunde / vn&#x0303; leben der gerechtigkeit. AVC.
+<pb facs="#f0012"/>
+Wie kan ich von
+den sünden abstehen / die ich noch nicht erkenne  ANTO. Drümb treyben wir
+<note place="left">Röm. vij.</note>das gesetze / welchs die sunde
+anzeigt / Wen&#x0303; sie die sunde denn erkennen / vnd gern loss sein
+wolten / finden aber / das solchs ynn yhrem vermüge&#x0303; nicht ist /
+als denn predigen wir vergebung der sunde / vnd weisen yhre zuuersicht auff den
+Christum / <note place="left">Johan. x</note>wie Johannes / da er sagte /
+Sihe da / das ist das lemblyn Gotts / welchs tregt die sunde der welt / Wyr
+wissen kein besser bereitung / Vns ist ia bisher von menschlicher bereittung zur
+gnad viel geschrieben vnd vorgehalten / Aber was des ist / hat itzunder vber
+einen hauff gebracht / Hans Kochleffel / vnd wils ynn Engellandt / darnach ghen
+Venedig vnd Pariss / ynn den marckt füren / Dieweil es ynn deutscher nation
+nicht nach seiner wirde bezalt wirt. AVC. meinstu den kauffman / der itzt yhm
+marckte zu Leiptzick mit sieben köpffen ausgestanden / vnd nach dem sprichwort
+Vespasiani / Lucri bonus odor ex re qualibet / seine narheit vor gros gelt /
+vorkaufft hat  ANTO. Den selbigen meyne ich. AVCT / Ah sag mir nicht von dem
+armen menschen / Merckstu nicht aus den sieben köpffen / so er dem guten Luthero
+gibt / sein sieben synne vnder welchen kaum einer weiss sey  Sage du mir
+weiter von ewer bereittung. ANT. Du hasts schon gehört / das wir vor die beste
+bereittung zur gnad / halten ein zerknyrscht hertz / vn&#x0303;
+gedemütigten geist / nach dem das der Herr sagt durch den Propheten / Vber wen
+sol komen mein geist etc. Item durch den Dauid / Ein zerknyrscht
+<pb facs="#f0013"/>
+hertz vnd so gedemütigt ist / wirstu nicht verach / ten.
+AVCTOR / Dein antwort ist viel anders / denn das gerüchte gewesen ist / Aber ich
+gleub dir mehr / denn des Euangelii feinden. ANT. Stünds vmb die sache anders /
+wolt ich dirs als meinem lieben bruder warlich bekenne&#x0303;. AVCTOR /
+Was wird bey euch gehalten vom Zwinglio vnd Oecolampadio  ANTO. Der gemein man
+helt nichts dauon / denn er auch wenigk / Gott hab lob / dauon weis / Wir andern
+halten sie vor solche leute / so sich zu seer auff yhre kunst verlassen / vnd
+den Christum zur schule füren wöllen / doch nicht wie die Sophisten / sondern
+vnter dem namen / das sie allein die schrifft recht auslege&#x0303; vnd
+verstehen. Ich hette mich zeitlich vom Zwingel lassen vberreden / wo nicht so
+hell der Text were bey allen Euangelisten / dazu beym Paulo / Wenn sie lang von
+yhren Tropis vnd allegorijs gesungen haben / so bleibt gleichwol ein heller text
+da / dem ich gleuben mus / Ich wölle denn widder mein eygen gewissen thun.
+AVCTOR / Abermals ist falsch das gerüchte / Denn man sagte / Er hette stette bey
+euch diese lere funden / sonderlich beym Amando. ANTO. Wo das her kumpt / weis
+ich wol / Es hat einer von den vnsern ein mal beym Amando ein Zwinglisch buch
+gesehen / daraus hat er flux geschlossen / Amandus hat Zwingels bücher / Ergo.
+AVC. Das ist ia nicht ein feine consequentz. ANTO. Ich sage dir recht / also
+gehts zu / Wo itzunder ein armer gesel ist / den man gern vnter die fusse hette
+/ dem mus mit solchen lügen der
+<pb facs="#f0014"/>
+strick gelegt werden / weren
+nicht auffkomen diese zwo secten / des Zwingels vnd Müntzers / wo mit wolte denn
+der Sathan arme gesellen treyben aus dem weingarte&#x0303; des Herrn
+Nicht da sich die Tropisten verteydingen wölle / sondern das michs verdreust /
+das die / so dieser sache vnschuldig sein / derhalben leiden sollen. Ich habs
+vom Amando nie gehört / Er ist mir wol so freuntlich / wenn ers schon heimlich
+hielte / hette er mirs bekant / Nu helt ers heimlich nicht / hat es auch nie
+gelernt öffentlich / wie gantz Gosler bekennen mus / Dennoch mus er ein
+schwermer sein / Aber denen / so wol begerten / das noch Luther / noch
+Euangelion / noch kein Euangelischer man were. Ich sehe Amandum dafur an / wo
+yhn de schwermer vberredt hetten / Er würde es öffentlich leren vnd bekennen /
+vnd solts yhm gros vnglück zuwenden. AVCTOR / Warlich ich hör die entschuldigung
+gern / Vor dich hatte ich nicht so grosse sorge / den&#x0303; vor eym
+iare / da her Johan Pomer auch nicht bey vns war / weis ich / das du vns / aus
+dem lande zu Hessen gewarnet hast vor dieser secten / So bistu auff Lutherum
+vn&#x0303; sein lere allzeit gantz verstürtzt gewesen. ANT. Luther
+hie / Luther da / bey Gotts wort wüssen wir stehen / Wo dasselbige Lutherus wie
+sichs gepürt / handelt / Warumb solt ich nicht von yhm halten  Sagt nicht
+Christus selbst / Wer <note place="left">Matth. x.</note>einen Propheten
+/ ym namen eins Prophete&#x0303; auffnimpt / der sol eins Propheten lohn
+entfangen  AVC. Haltet yhr nichts von den Tropisten / viel weniger werdet yhr
+denn halten von der widderteuffer lere. AN. Ach sage mir von dem bube&#x0303; spiel
+<pb facs="#f0015"/>
+nichts / wir sind durch yhr treume noch
+nie bewegt worden / geschweige das wir solten drüber halten. AV. Wolan / es hat
+vmb ewer lere ein gute gestalt. Wie stets aber bey euch vmb brüderliche
+einigkeit  Es ist hie gesagt / Man finde bey euch hass vn&#x0303;
+zwitracht. ANT. Itzunder nicht / Das sie aber da gewesen sey / gestehe ich. AVC.
+Aus was sachen sind sie erstande&#x0303;  vnd welche zeit  ANT. Aus
+geringen sachen erstlich / darnach aus grossen / ehe denn ich ghen Gosler komen
+bin. AVC. Lieber erzele mir die vrsach. ANTO. Was sol ich viel erzelen  Es ist
+vnlüstich beide zu erzelen vn&#x0303; zu hören / So würde es vns auch die
+zeit zu kurtz mache&#x0303; / Doch ist kürtzlich dis die vrsach / Nach
+dem herr Niclas Amsdorff das Euangelion bey vns ynn den schwangk gebracht / vnd
+darnach ghen Meideburg widder gefordert ward / ist vom Radt / Gilden vn&#x0303; Gemeyn beruffen vnd angenome&#x0303; Amandus ynn aller
+weise vn&#x0303; gestalt wie Amsdorff / das er solte yn der marck kirchen
+predigen / darüber superintende&#x0303;s sein vber alle pfarren / So ist
+den andern predicante&#x0303; solchs angesagt auff dem Radthaus / vnd
+daneben gepoten / Sie solten dem Doctori ynn den Ceremonien völgich sein / Die
+weil aber Amandus etliche Cere monien anders den&#x0303; Amsdorff
+gehalten / nach der Nürmberger ordnung / so yhm befolhen war / haben sich
+etliche der prediger wider den Doctore&#x0303; ge setzt / vn&#x0303; hadder erweckt / da die sache nicht haders wert was. AVC. Vmb der Ceremonien
+wille&#x0303;  AN. Ja. AVC. das ist warlich nicht feinn Wo wir der
+lere eins sein / das wir vmb Ceremonien zancken /
+<pb facs="#f0016"/>
+Was kündts
+geschaden / das einer dem andern hiryn gehorchte  Steht doch ynn den
+ceremonien nicht vnser seelen seligkeit  ANTO. Es ist aber der zanck dahyn
+komen / das sie Amandum nicht erkennen wolte&#x0303; vor einen
+superintendente&#x0303; / welchs yhn doch an yhr ehre nicht gegangen
+were. AVC. Das lob ich abermals nicht / wenn sie schon geschickter gewesen weren
+denn der Amandus / solten sie dennoch yhm gehorsam erzeigt haben / drümb das er
+vom Radt / Gilden vnd Gemeyn zum superintendente&#x0303; verordent war.
+Ich finde solchen stoltz ynn Tyto / Timotheo vnd andern Pauli iüngern nicht. Ist
+gekomen zu dienen vnser Herr <note place="left">Matt. xx.</note>Christus
+/ warumb solten wir einer dem andern yn&#x0303; zimlichen dingen nicht
+vnterworffen sein  Was schadts das alle ding ordenlich zu gehen  ANT. Daran
+gedachten sie wenig / Vnd ist zu letzt ein solche bitterkeit draus erstanden /
+das sie auch die predige Amandi angefangen haben zu tadlen. AVCTOR / Wie künden
+sie das thun / wenn yhr so prediget / wie du gesagt hast  ANTO. Was thut ein
+hessiger / stoltzer geist nicht  Er predigte das fünffte buch Mosi / darynnen
+denn vnter andern gesagt / wie geschickt sein solle die oberkeit / da er das
+auslegte / muste er habe&#x0303; Müntzers geist / da muste er suchen
+auffrhur / Ja da fieng man an zu predigen / Das gesetz wer kein nütze / Es mache
+nichts denn auffrhur / Solte derhalben nicht geprediget werden. AVC. Wie kan der
+Teuffel aus eym geringen ding / so einen grossen handel machen. ANTO. Er mag
+ewercken was er wil / Es hat
+<pb facs="#f0017"/>
+yhm gefelet das er suchte / Er
+vermeynte das Euangelion nidder zu drücken / vnd ist viel weiter denn vorhin
+eyngerissen / Die zweyspaltung ist weg / vnd der lere sind wir eins. AVCTOR /
+Vergebs denen Gott / die solcher zwitracht vrsach sind gewesen. ANTO. Amen / Ich
+günne es yhn wol / verhoff auch / sie werden zuletzt erkennen / das / also
+handlen / nicht Christlich sey / Villeicht hetten sie es nicht gethan / wo sie
+böse leut nicht verfürt hetten. Ich hab nicht viel gesehen / das von der Pfaffen
+vnd Münche gemeynschafft yemand besser sey worden / Es heisst / Qui tangit picem
+in quinatur<note place="right">Eccle. xiij i. Cor. xv.</note> ab ea / Vnd
+/ Corrumpu&#x0303;t mores bonos etc. AVCT. Wer meynstu das sie verfürt
+hab  ANT. Der Walkenreder Münch vnd vnser Dechan sampt andern Baals pfaffen /
+so sich des Euange lions rhümen / vnd gleichwol verteydingen wöllen den freyen
+willen / vnd das die Mess ein opffer sey etc. AVCT. Meynstu den Münch / der dir
+von raben ein liedlin anfieng / da er solte grund an zeigen seins glaubens
+ANTO. Ja. AVC. Was ist der Dechan vor ein man  ANTO. Der darff sagen / wo er
+zu besserung seins lebens ermant wird / Er müsse sündigen vnd ein hure haben /
+Die weil die Lutherischen leren / Der mensche hab keinen freyen willen / So hat
+er auch die meynung / Niemant müsse sunde straffen er thue denn mirakel / vnd
+ist vnter vnsern geistlichen fast der gelerteste. AVCT. So ist der Thum nicht
+vbel versorget. ANTO. Ich bekens. AVC. Wie helt sich gegen das wort Gotts ewer
+Oberkeit? Man sagt hie /
+<pb facs="#f0018"/>
+sie werde vom Amando zu hart
+angegriffen. AN. Etliche halte&#x0303; sich wie die ienigen pflegen / so
+nichts liebers haben / denn die ehre Gotts. AVC. Ist der viel  ANT. Sie sind
+wol zu zelen. AVC. Wie halten sich die andern  ANT. Nach yhrer art. AVC. Was
+ist yhr art  ANT. Verbüntnis mache&#x0303; widder <note place="left">Psal. ij.</note>Gott vnd seinen gesalbten / Christum
+schenden vnd lestern / sein heilsames wort verhindern / vnd die Christen
+beschedige&#x0303;. AVCT. Thun sie das offentlich  ANT. Mehr denn
+es gut ist. AVC. Das hab ich bey vns dennoch nicht vernomen / geschichts aber /
+so mus es geschehen heimlich. AN. So hat mich auch nicht wunder / das sie von
+ewren predigern nicht werde&#x0303; angegriffen / Amandus strafft sie mit
+göttlichem wort / Aber nicht on grosse vrsach. Es ist bisher ein solch schenden
+/ ein solch lestern / ein solch rottirn bey vns gewesen / das sie wol erbit tert
+hetten die sanfftmut selbst. AVC. Wie ist das rottirn zu gangen. ANT. Es haben
+sich versamlet die gottlosen / den Christen zu trotz bey funfftzige&#x0303; / sechtzigen / vnd siebentzigen / itzt ynn dieses / denn ynn ihenes haus /
+Vnd haben / wenn das bier ynn den man komen ist / ein solch schenden vnd lestern
+vber Gotts wort getrieben / das sich der hymel dauor hette entsetzen mügen / vnd
+war zubesorgen / Es würde ein mal gros vnglück draus entstehen / So hette denn
+das Euangelion die schuld gehabt. AVC. Das hette billich verpoten ein erbar
+Radt. ANT. Es ward verpoten / So bald aber das gepot geschehen was / lieffen sie
+widder zu hauffe / Ja etliche von den Obersten waren dieser rotten
+<pb facs="#f0019"/>
+heubtleut / Wie kundts da nachbleiben  AV. Da musten die
+prediger noch wol yns spiel sagen / Denn was wolte daraus werde&#x0303; /
+wo die / so Gots lesterung vnd auffrhur straffen sollen / selbst lesterer vnd
+auffrhürisch weren  ANT. Das sind noch die geringsten stück / Es sind etliche
+bey vns / die sa gen dürffen / Das sacrament so wir predicanten reichen / sey
+des Teuffels fleisch vnd blut / der teufel soles auch fressen vnd sauffen. AVC.
+Almechtiger Gott was höre ich. AN. Es sind etliche / die yhren weibern das newe
+Testament yns feuer werffen / Etliche verbieten yhrem hausgesinde / Gotts wort
+zu hören / Etliche so ynn den ehestandt getretten / sind aus der stadt zum
+Richenberge gelauffen / vn&#x0303; sich lassen von den München zu hauffen
+geben / widder vnser angenomen ordnung / Etliche dörffen sagen / sie wöllen
+tausent gülden dran hengen / das Euangelion sol gestürtzt werden / Etliche nemen
+/ weis nicht vnder was schein / andern leuten die weiber / halten sie darnach
+vor yhr eygen / Etliche teuffen die kinder ynn den heusern / Etliche sagen was
+sie geben sollen ynn den Gemeynen kasten / wöllen sie lieber tragen yns hurhaus.
+Der wucher hat also vberhand bey etlichen genomen / das sie auff xl. floren.
+diewochen einen haben wöllen. Der Pfaffen offenberliche hurerey / der Münch
+verfürung / werden nicht allein nit gestrafft / sondern auch verteydingt.
+Düncken dich solche stücklin nicht straffens werd sein  meinstu nicht das sich
+etliche von solchem lestern vnd bubenspiel müsten enthalten /
+<pb facs="#f0020"/>
+wo nicht der Abt die würffel selbs trüge  AVCT. Ich höre wol / man sagt das
+eine vnd nicht das ander / Das Amandus strafft / wird fleissig nachgesagt / Das
+yhm aber so gros vrsach dazu gegeben wird / sagt niemant / Steths zu Gosler also
+/ so geb euch Gott sein gnad. ANTO. Es möcht villeicht besser werden / Denn Gott
+hat vns einen solchen man ym Winter zum heubt gegeben / der nicht allein eins
+erbarn lebens / sondern auch zu forderung der ehre Gotts vnd des Euangelij
+geneigt ist / Wirts aber bey desselbige&#x0303; mans zeit nicht gut zu
+Gosler / so bin ich gewis das der Herr etwas mit yhn ym synne hat. AVCT. Da
+machstu mir widder ein hertze / denn ein solcher man kan viel guts thun. ANTO.
+Ich hab dir doch vom selbigen ehr geschrieben. AVCT. Ich habs nicht vergessen /
+Aber sag mir itzt weiter / Wie halte&#x0303; sich die bürger  Das
+geschrey ist hie / Sie sein vngehor sam vnd auffrhürisch. ANTO. Vngehorsam hab
+ich nicht bey yhn gespürt / wil auch derhalben ynn der warheit sagen / es werde
+solchs aus hass vnd neid den armen leuten auffgelegt / du wöllest denn das
+vngehorsam heissen / ynn des glaubens sachen <note place="left">Acto.
+v.</note>/ Gott mehr vnterthan sein denn den mensche&#x0303; / Gleub mirs
+Auctor / das wir ynn dieser sache nicht schlaffen / sondern mit ernst die
+vndersassen gegen yhre oberherrn recht sich zu halten / ermanen vnd wöllen vns
+des beruffen haben / nicht allein auff die gemeyn Gotts bey vns / sondern auch
+auff die feinde des Euangelij / Können die ynn der warheit sagen / Es sey der
+gemeyn man vom Amando /
+<pb facs="#f0021"/>
+odder anders wem / zum vngehorsam
+gesterckt / wil ich als ein auffrhürer / meinen hals verloren haben. AVCTOR /
+Euch predicanten hat man nicht so hart ynn diesem teil beschüldigt / sondern
+gesagt / Es sey das hartz volck von art ein vngezemet volck / Wiewol das ich
+recht bekenne / dem Ama&#x0303;do ist der bürger vngestümmigkeit wol halb
+zu geschrieben. ANT. So ist yhm vnrecht geschehen / Eben wie dem arme&#x0303; heufflin / Doch ich mus dich recht bescheyden / Amandus hat
+geprediget / wie auch oben gesagt das fünffte buch Mosi / Da zu den Propheten
+Oseam. Nu weistu fast wol / das beym Mose gelernet / wie die Oberkeit geschickt
+sein solle / Solte da der gute man vberhin gehen vnd den selben text stehen
+lassen  was wolten denn gesagt haben die zuhörer / so da stunden mit yhren
+büchern  Er muste ia das eine verkleren so wol als das ander. Das ein prediger
+kein schwermer sein sal / weis ich wol / Weis aber auch daneben / das er nicht
+sein sol ein heuchler / Sol man leren die vndersossen gehorsam sein / Warrumb
+solte denn nicht auch ermanet werden recht zuthun die oberkeit  Thun nicht
+beiderley die Propheten  ynn sonderheit Moses. Thuts nicht Paulus zun
+Römern  Thut ers nicht auch ynn seiner<note place="right">Rom. xiij.
+Ephe. vi.</note> Epistel zun Ephesern? Desselbigen gleichen hat er auch
+müssen thun ym Osea / welcher denn auch das gesetz harte treibt / vn&#x0303; die herrn vnfreuntlich / wie sie es heissen / beweilen
+angreifft. Ist derhalben etwas gesagt ynn diesem teil vom Amando / ist daher
+komen / das er seinen vorgenomen büch-
+<pb facs="#f0022"/>
+eren hat müssen
+gnug thun. AVCT. die warheit zu sagen / Ich hab dem gerüchte nie wöllen glau ben
+geben / denn ich weis was rechtschaffnen pre digern diese welt pflegt fur lohn
+zu geben. Straffen <note place="left">Ezech. iij.</note>sie nicht / so
+stehet Gott da drawende / Er wölle der gottlosen blut aus yhren henden fordern /
+Straffen sie aber auch / wo es gros von nöten ist / so sind sie schwermer. Wolan
+/ Christus muste auch auffrhürisch heissen / Dazu Paulus sampt al len Aposteln /
+damit müget yhr euch trösten. ANT. Das sey geschwermet hin vnd her / Wo der
+Pharao <note place="left">Exo. v. Marci vi Ezech. xix</note>öffentlich
+Gotts wort verschmehet vnd schendet / Wo der Herodes dem Philippo offenberlich
+das weib nimpt / Wo der Jehoiakim nicht abstehet die leut / wie ein lewe zu
+verschlingen / vnd von <note place="left">Job. xxiiij Acto.
+vij.</note>allem / so von tyrannen Job sagt / Wo man offenberlich widdersteht
+dem heiligen geiste / Da müssen <note place="left">  Timo. v</note>wir
+halten die regel Pauli / Die da sundigen / straff offentlich / Dazu die
+gewonheit der Prophe <note place="left">Esa. i.</note>ten. Esa. Hört
+Gotts wort yhr Fürsten von Sodom etc. Doch also / das nicht ein Müntzerisch
+geist / sondern ein solcher bey vns gespürt werde / <note place="left">Gala. v.</note>der nicht anders denn Gotts ehre vnd yhrer seelen seligkeit
+vnd nicht verderbnis suche / vnd derhalben nicht loben / was das Euangelion mit
+freuel vnd mutwillen verhindert / Wer solch <note place="left">Psal.
+xxx.</note>Christlich straffen nicht tragen odder dulden kan, der thue wie Dauid
+der Prophet sagt / Stehe ab vom bösen vnd thue guts. Ynn den sunden aber <note place="left">Mat. xviij</note>so heimlich sein / vnd wider vnser
+person geschehen / halten wir die regel Christi / Sündiget ynn dich
+<pb facs="#f0023"/>
+dein bruder / sags yhm zwische&#x0303; dir vnd yhm
+allein / Ja wir müsten verzweifelte bösswichter sein / wen&#x0303; wir
+heimliche sunde offenbar machten / wie du nu hörst / das wir der grossen hansen
+offenberliche sunde / offenberlich yns gemeyn straffen / also halte&#x0303; wir auch die vndersassen mit teglichem ermanen / zu fride / zu eynigkeit vnd
+gehorsam / Wenn auch<note place="right">i. Petri. ij.</note> schon böse
+sein die öbersten / was sollen wir mehr hun  das ist ia nit gelernt
+auffrhur wen&#x0303; wir leren der ordnung Gotts sey nicht zu
+widderstreben  Es<note place="right">Rom. xiij.</note> hat mir
+kürtzlich einer vnder mein augen gesagt / Es sey ein gemeyn geschrey / das
+Amandus nicht allein prediger / sondern auch Burgemeister sey zu Gosler /
+gleicherweis / als setzten sich die prediger vber die regenten / wo sie yhnen
+ansage&#x0303; / was Gott von den obersten fordert. Nathan sagte auch
+dem<note place="right">ij. Reg. vij xij.</note> Dauid an / was er
+thun solte / was recht vnd vnrecht were / war Nathan drumb könig  Also thut
+Amandus / was die schrifft von den Regenten fordert / zeigt er yhn an / Das er
+aber solte regiren / setzen odder entsetzen / thut er nicht / kans vnd begerts
+auch nicht zu thun / sonder gibts dem heim / dauon Maria singt / Er hat
+abgesetzt die geweldigen<note place="right">Luce. i. Job. xxiiij</note>
+von den stülen etc. AVC. Als ich höre den armen bürgern geschicht vnrecht. ANT.
+Ja freilich / Es wer yhnen wol vrsach zum auffrhur gnug gegebe&#x0303; /
+wo sie Heidnisch vn&#x0303; nicht Christlich handle&#x0303; wolten
+/ Aber yhnen wirt teglich vorgehalte&#x0303; Gots<note place="right">Deute. 32. Ezech. ix.</note> wort / das also sagt / Die
+rache ist mein / Ich wils vergelten / vn&#x0303; sollen die burger / so
+sie vns gehorche&#x0303; wöllen / nymer anders thun / denn Gott hie
+fodert.
+<pb facs="#f0024"/>
+Bisher hat sie das Euangelion furwar dauon gehalten /
+sonst wer nicht müglich das der Teufel ynn so grossem iammer / darynn sie
+gelegen / nicht solte haben ein vnglück angerichtet / Sie haben Tyrannen auss /
+vnd ynn der stat. AVCTOR. Nu gleub dem gerüchte mehr die bademagt / Ich werde es
+nicht thun / denn der lügen vater ist behend / kan viel derhalben erdichten.
+ANTO. Weistu dennoch etwas mehr sag frey her aus. AVCT. Was solich viel sagen /
+wie das vorige erlogen ist / also kan auch erlogen sein das ander / doch das ich
+dir nichts verberge / Man hat auch gesagt / Es seyen die bilder bey euch
+gestürmet. ANTO. Die bilder waren wegk genomen / ehe denn ich gen Gosler kam /
+vnd Amandus / Das bekenne ich aber / das auff dem kirchoff zu S. Steffan
+gestanden haben die funff stürtzung (wie sie es genent haben) des Herrn / ynn
+steine gehawen / vnd war zu einer iglichen figuren gegeben hundert tag ablas /
+So waren sie auch geweihet / Diese steine sind teg lich angebettet worden / von
+denen so sich vnter den scepter Christi nicht begeben wöllen / welchs ich nicht
+gehört / sondern mit meinen eygen augen gesehen hab / Ja es ist mir nicht ein
+mal / sondern viel zu trotz geschehen. Was solt ich hie thun  AVCT / Mit Gotts
+wort solche anbeters straffen / vnd die steinern götter stürtzen. ANTO. Es ist
+geschehen / Wie denn aber wenn das wort bey harten köpffen keinen nutz schaffte
+/ vnd die anbetung gleichwol blieben AVC. Da gehört solchem grewel zu weren
+der oberkeit. ANTO. Recht. Der ober
+<pb facs="#f0025"/>
+keit haben wirs auch
+angesagt / darnach sind zuge faren / nicht allein ynn vnser pfarr / sondern ynn
+allen / die sechzehen / so wir nennen die Alter leut / vnd haben solche steine
+allenthalbe&#x0303; auff den kirchoffen / on tumult / on
+vnstümmigkeit / sondern ördenlich weggenomen / nicht das wir götzen nicht sehen
+könten / sondern schlecht vmb der anbettung willen. AVCTOR / Das kan ich nicht
+bildstürmen heissen. ANTO. Es können aber dasselbige etliche bey vns gar wol /
+Auch von denen so sich Euangelisch rhümen. AVC. Das müsset yhr Gott befelhen.
+ANT. Das thun wir gern / denn durch gedult müssen wir besitzen vnser seel / wie
+der Herr<note place="right">Luce xxi.</note> sagt. Weistu odder hastu
+auch mehr gehört? AV. Ynn sonderheit nichts. ANTO. So sage mir wid derümb /
+Wie halten sich ewer prediger? Ich meyne nicht Doctor Sprengel vnd weiwasser /
+der fur gab / wie du mir yns land zu Hessen schriebest zu iar / Er wolte mit
+dreyen predigen all Lutherische ketzerey zu Braunschweig stürtzen vnd ausrotten
+/ Sonder die / so nu bey euch das Euangelion predigen. AVCT. Sie predigen auch
+Christum / wie yhr / on zusatz menschlicher trewme vnd glose. ANT. Was halten
+sie von den Tropisten? AVC. Nichts. ANTO. Recht / Sie werden freilich vom
+widdertauff auch nicht viel halten. AVC. Vberall nichts. ANTO. Gott sey gelobt /
+denn ich nicht allein gern höre / das euch Braunschweigern gegebe&#x0303;
+ist das wort des lebens / welchs allein Christus<note place="right">Joan.
+vi.</note> hat vnd gezeigt / der brun / dauon gesagt hat der Zacharias / das
+er offen sein solle Dauids haus<note place="right">Zacha. xiij</note>
+<pb facs="#f0026"/>
+vnd Hierusalem / sondern das euch auch der selbige brun mit
+keinen secten verunreynigt wird / die denn itzunder keinen geringen schaden thun
+dem <note place="left">Hiere. ij.</note>Euangelio. AVC. Der vns diesen
+born so wir böslich verlassen hatten / wie Hieremias sagt / widder geöffnet hat
+vn&#x0303; gezeigt / wird auch weiter helffen / <note place="left">Esa. xij.</note>das geschehe / wie gesagt ist beym Esa.
+Yhr werdent mit freuden wasser schepffen aus dem born des heils. ANT. Des helffe
+euch vnd vns Gott / Ist vnter den predicante&#x0303; auch sonst
+einigkeit AV. Ja / denn das sie ein freuntliche vnderredung mit dem herrn
+Pomerano gehabt haben / der Ceremo nien halben / welche denn endlich dahin
+kome&#x0303; ist / das sie fein eintrechtiglich beschlossen / vnd der
+sachen eins worden sind. ANT. Solche Christliche vnterredung können nicht böse
+sein / dieweil das draus entsteht / das alle ding / wie Paulus sagt / ordiglich
+<note place="left">i. Cor. xiiij</note>zu gehen. AVC. War ists. AN.
+Werden auch offenberliche sunde / schande / ergernus / leste rung bey euch mit
+Gotts wort / wie von nöten / gestraffet? Es ist mir nicht ein mal gesagt / Es
+werde hirynn etlicher mass geheuchlet. AVC. Das hab ich zwar noch nicht
+vermerckt / vnd wo ichs vermerckt hette / wolt ich dirs sage&#x0303; / Ja
+es meynen etliche zarte oren / der W. herr Martinus vnser superintendent /
+greiffe sie zu harte an. ANTO. Da gehts her / da gehts her / das Euangelion vom
+ge creutzigten Ihesu können wir dulden / straff aber können wir nicht dulden /
+Ich hab den guten man gestern hören auslege&#x0303; den andern Psalm
+Dauids / da er doch wol vrsach gehabt hette / die harten
+<pb facs="#f0027"/>
+köpffe hart anzugreiffen / Da aber hat er sich also gehalten / das er warlich
+von niemant mag getaddelt werden / Sehe auch denselbigen Martinu&#x0303;
+da fur an / Er sey ein solcher Johannes / der dem Herodi wol dürffe sagen / was
+recht vnd vnrecht sey / Vnd thun ewer andern predicanten auch wie er thut / so
+bin ich zu milde berichtet / Sage mir nu wie sich halten ewer herrn? denn
+wünderlich ding sagt man von yhnen / darümb das sie gewichen sein. AVCT. Ym
+hertzen kan ich nicht wissen / wie sie gesynnet sind / denn das weis allein der
+Herr / Ynn eusserlichen dingen aber / haben sie sich bisher also gehalte&#x0303; / das die gantze stadt an yhnen gehabt hat einen wolgefallen /
+Sind sie schon ym hertzen dem armen heufflin feind / wie denn Christus
+seyne<note place="right">Luce. xij.</note> gemeyn nennet / So haben
+sie sich dennoch von offenberlichem schenden vn&#x0303; lestern
+enthalte&#x0303; / welchs den&#x0303; zum frid sehr gedient
+hat. ANT. So wundert mich noch nicht / das gesagt wird / Ewer prediger handlen
+glimpflicher / denn vnser Amandus O wie wolten wir so gern auch glimpflich
+handeln / wo sich von offenberlichem schenden vn&#x0303; des worts
+lesterung / vnser grossen hansen enthielten / Man sagts yhn heimlich / ermant
+vnd bittet sie auch heymlich / das sie nicht weiter thun denn der Nürmberger
+ordenung / welche sie aus eigenem wilkör gefoddert vnd angenomen / dazu yderman
+gepoten / nach der selbigen zu thun / mitbringen / Hilfft aber alles nicht / Wie
+sollen wir denn thun? Es mus da gelten ruffens vnd schreyens / als beym Esaias
+stehet am lviij.<note place="right">Esa. lviij.</note>
+<pb facs="#f0028"/>
+Mich wundert aber / dieweil ewer herrn so geschickt sein /
+warumb sie von euch geflohen sein? AVCT. Das verwundert wol mehr leut. ANTO.
+Weistu die vrsache? AVCT. Nein. ANTO. Was haben denn gebracht vor ein antwort
+von yhnen / ewer gesandten. AVCT. Das ist vns befolhen / heimlich zu halten /
+bis zu seiner zeit. ANT. Was heimlich sein soll / beger ich auch nicht zu wissen
+/ doch mus ich auff ein landtgeschrey wol fragen. Etliche sagen / Es sey die
+schuld des gemeynen mans / Ist dem also? AVCT. Das werden die ge wichen herrn
+auch selbst nicht sagen. ANTO. Ist denn nicht ein auffrhur bey euch gewesen?
+AVCT. Die burger sind eintrechtiglich zu hauff komen / Aber nicht der meynung /
+das sie vnlust anrichten / odder der oberkeit einen finger zu krempffen wolten /
+wie man sagt / sondern ynn etlichen sachen / freuntlich / Christlich vnd gütlich
+zu handlen / beide die ehre Gotts vnd gemeynen nutz belangende / Wie sie aber
+mit fried zu hauff komen sind / also haben sie auch friedlich mit vnsern herrn
+gehandelt / vnd zu letzt friedlich vnd gütlich genomen yhren abscheid. ANTO. Das
+laut anders denn ich gehört hab / Wolte derhalben ich hette meine brieffe widder
+(darynne dieser sachen gedacht) so Ich meinen günnern vnd freunde&#x0303;
+Johanni Nordeck / vnd Heinrich Lesener Hessischen Secretarien itzt gen Speier
+geschrieben hab / Wiewol ich habs geschrieben als ein vngewis ding / darnach ich
+bass fragen vnd forschen wolte. AVCT. Du habst gehört was du wöllest / Es ist
+nicht an-
+<pb facs="#f0029"/>
+ders denn ich dir sage / vnd wil dir mehr sagen
+/ Ist yemant der mit der warheit kan beybringen / das die gemeyn / von der zeit
+an sie das Euangelion gehabt / hab der oberkeit gewalt thun wöllen / wil ich
+sein ein schelm vnd bösewicht / dazu mein leben verloren haben / Sind wir nicht
+volkomen Christen / So wissen wir dennocht / das die Euan<note place="right">Joan. viij i. Petri.ij.</note> gelische freyheit nicht
+fleischlich / sondern ein freyheit des gewissens ist / vnd derhalben niemant
+erleubt sey / vnter dem mantel Christlicher freyheit / der oberkeit zu
+widderstreben / mit gewalt zufare&#x0303; / vnd ein vngehorsam vnd
+Heydnisch leben zu suchen / Dieweil aus solche&#x0303; vngehorsam vnser
+freyheit nicht allein nicht bestettiget / sondern viel mehr der nam Gots
+gelestert wirt / Wöllen vns derhalbe&#x0303; der<note place="right">i. Timo. vi.</note> gepür hirynn wol wissen zu halten.
+ANT. Steths denn so vmb die sache / so wundert mich noch / das die guten leut
+gewichen sind. AVCT. Meins bedünckens ists ein plage Gotts / Wir hatten / wie
+wir meinten / das herteste vberwunden / sassen ynn der stille vnd gutem friede /
+vermeynten auch / es hette nu kein not / wir weren allem vnglück entlauffen /
+Sihe aber zu / mitten ynn solcher sicherheit wird vns zugewand dieser vnfal /
+Warüm das vns Gott warnen wil vor nachlessigkeit / dazu gelernet haben / das
+wir allzeit ynn forchten stehen / wie Paulus sagt / Auch das wir vns auff
+die<note place="right">i. Cor. x<gap quantity="1" unit="chars" reason="illegible"/> Roma. xi.</note> menschen nicht
+anheben zu verlassen / wie denn alle Propheten auch leren / sondern allein auff
+Gott den Herrn. ANTO. Des fall ich dir zu / denn ich selbst füle vnd sehe / wie
+nachlessig wir werden /
+<pb facs="#f0030"/>
+wo wir ym worte vns nicht teglich
+vben / vnd des Herrn geissel auff dem nacken nicht haben / Man sagt / scharpffe
+ruthen machen frome / gehorsame / forchtsame kinder / gute tage aber böse buben
+/ vn&#x0303; warlich es ist auch war. Was wolte zu letzt aus euch worden
+sein / ynn solcher sicherheit? Yhr solt ynn ewer stille des Herrn wol
+vergessen haben / Paulus sagt nicht das gute tage / sondern versuchung / die
+hoffnung zu Gott erwecke. AVCT. Es <note place="left">Roma.
+v.</note>möchte warlich geschehen sein / wie du sagest. AN. Wir wöllen aber ynn
+der hoffnung sein / es solle noch all gut werden / Der euch betrübt hat / wird
+euch auch wider trösten. AVC. Ich zweiffel nicht dran. ANTO. Yhr solt das ewer
+dazu thun / Begern sie gnad / ists billich yhn werde gnad erzeigt. AVCT. Warumb
+nicht? An der gemeyn wirdts nicht manglen / wie sie sich selber ym lichte
+nicht stehen werden. Was Christlich ist sol geschehen. ANTO. So kan die sach
+auch gut werden. AVC. Des helffe vns aber Gott. ANT. Was wöllen wir nu thun /
+Ich bin zu friede / denn ich höre das die sache bey euch anders stehet / denn
+mir gesagt ist worden. AVCT. Wir wöllen essen was wir aus des herrn güte haben /
+den&#x0303; du hast mein hertz ynn diesen vielen gerüchten auch zu
+fried gestalt / Ich weis nu wie ich euch (wo es die not foddert) vorantworten
+sol. ANTO. Desselben gleichen weis <note place="left">Mat. vlt.</note>ich
+auch / Gott der vns itzt getröstet hat / wird vns nymer verlassen / sondern bis
+ans ende der welt bey vns halte&#x0303;. AVCT. Amen / das geschehe.</p>
+<p>Gedrückt zu Wittemberg durch Georgen Rhaw.</p>
+<p>M. D. XXIX.</p>
+</div>
+</body>
+</text>
+</TEI>
