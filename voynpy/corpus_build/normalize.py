@@ -61,7 +61,12 @@ def rich_normalize(s: str) -> str:
     s = s.replace("/", " ")
     out = []
     for ch in s:
-        if ch.isalpha() or ch.isspace() or unicodedata.combining(ch):
+        # `&` (ampersand) and `⁊` (U+204A, Tironian et) are
+        # single-character words in medieval and early-modern typography
+        # (`&` mostly Latin/Western, `⁊` German/Anglo-Saxon). Preserve
+        # them through to the rich form so downstream rules can see
+        # patterns like "&c~" / "⁊c~" and expand them to "etc".
+        if ch.isalpha() or ch.isspace() or unicodedata.combining(ch) or ch in "&⁊":
             out.append(ch)
     return _WS_RE.sub(" ", "".join(out)).strip()
 
@@ -76,6 +81,15 @@ _ABBREVIATIONS_RE = [
     # vn + nasal-mark (tilde/macron/overline) = "vnd" (→ "und" after v→u).
     # Covers vñ, vn̄, vn̅ regardless of original NFC/NFD form.
     (re.compile(r"\bvn[\u0303\u0304\u0305](?![^\W\d_])"), "vnd"),
+    # `&c~` and `⁊c~` (ampersand or Tironian et, plus c, plus optional
+    # macron) are the universal medieval/Latin/early-modern abbreviations
+    # for "et cetera"; expand to "etc". Macron is optional — `&c.` and
+    # `&c` appear in print without it too.
+    (re.compile(r"[&\u204A]c[\u0303\u0304\u0305]?"), "etc"),
+    # Standalone `&` / `⁊` → "et" (the underlying Tironian "et" ligature).
+    # Must come AFTER the &c rule above; otherwise this would consume the
+    # `&` in `&c` first.
+    (re.compile(r"[&\u204A]"), "et"),
     # ite + nasal-mark = Latin "item" (word-final abbreviation for m).
     # Overrides default +n; scribal marks are word-specific — sometimes m,
     # sometimes n — and "item" is a common Latin idiom in chronicles.
@@ -86,6 +100,45 @@ _ABBREVIATIONS_RE = [
     # đ (d with stroke) = -der (stays precomposed under NFD): `ođ`→`oder`,
     # `anđ`→`ander`. Context in our texts so far is always der.
     (re.compile(r"đ"), "der"),
+
+    # Latin scribal contractions. Final macron over `a` / `u` typically
+    # expands to "+m" (`quā` -> "quam", `cū` -> "cum"); macron
+    # over `i` in `oī…` / `hoī…` / `noī…` stems
+    # signals a longer "omn"/"hom"/"nom" contraction (`hoīes` ->
+    # "homines"). These patterns don't fire on the German texts (no qu+a~,
+    # cu~, hoi~ word forms) so we apply them globally.
+    # Word-final `u` + nasal mark expands to "+m". This is correct for
+    # both Latin -um endings (Petrum, Iesum, Capernaum, opium, datum,
+    # sexennium, pactum…) and the common German accusatives "zum"/"kum"/
+    # "darum" — empirically ~33 correct vs 2 wrong on the existing
+    # German + EEBO corpus. The one notable miss, "nū" -> "nun" (German
+    # "now"), is handled by the specific rule below.
+    (re.compile(r"\bnu[̃̄̅](?![^\W\d_])"), "nun"),
+    (re.compile(r"u[̃̄̅](?![^\W\d_])"), "um"),
+    # Word-final `a` + nasal mark stays "+n" by default — German has many
+    # native -an/-ann endings (man, dan, wan, gethan, haubtman, etwan…)
+    # where the macron is +n. We only special-case known Latin words.
+    (re.compile(r"\bqua[̃̄̅](?![^\W\d_])"), "quam"),
+    (re.compile(r"\bea[̃̄̅](?![^\W\d_])"), "eam"),
+    (re.compile(r"\betia[̃̄̅](?![^\W\d_])"), "etiam"),
+    (re.compile(r"\bipsa[̃̄̅](?![^\W\d_])"), "ipsam"),
+    (re.compile(r"\baqua[̃̄̅](?![^\W\d_])"), "aquam"),
+    # `aī` is a stem-abbreviation for `anim-` (animus / anima / animalis)
+    # — the macron over `i` represents the missing `nim` / `nima` / `n`
+    # depending on what follows. Hardcode the forms encountered so far:
+    (re.compile(r"\bai[̃̄̅]alia(?![^\W\d_])"), "animalia"),
+    (re.compile(r"\bai[̃̄̅]duerterem(?![^\W\d_])"), "animaduerterem"),
+    (re.compile(r"\bai[̃̄̅]mus(?![^\W\d_])"), "animus"),
+    (re.compile(r"\bai[̃̄̅]mo(?![^\W\d_])"), "animo"),
+    (re.compile(r"\bai[̃̄̅]m(?![^\W\d_])"), "animam"),
+    (re.compile(r"\bai[̃̄̅]o(?![^\W\d_])"), "animo"),
+    # Specific stems where the macron represents more than "+m":
+    (re.compile(r"\beni[̃̄̅](?![^\W\d_])"), "enim"),
+    (re.compile(r"\boi[̃̄̅]a(?![^\W\d_])"), "omnia"),
+    (re.compile(r"\boi[̃̄̅]s(?![^\W\d_])"), "omnis"),
+    (re.compile(r"\bhoi[̃̄̅]es(?![^\W\d_])"), "homines"),
+    (re.compile(r"\bhoi[̃̄̅]e(?![^\W\d_])"), "homine"),
+    (re.compile(r"\bnoi[̃̄̅]e(?![^\W\d_])"), "nomine"),
 ]
 
 # Three combining marks (U+0303 tilde, U+0304 macron, U+0305 overline) are

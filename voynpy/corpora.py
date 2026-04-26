@@ -468,7 +468,33 @@ def _load_splendorsolis1590():
 # printed in English.
 @_register('caxton_troye_1473')
 def _load_caxton_troye_1473():
-    path = _root / 'corpora/english/EEBO/caxton_troye_1473/caxton_troye_1473.csv'
+    path = _root / 'corpora/english/EEBO/1473_caxton_troye/1473_caxton_troye.csv'
+    return reftext.from_corpus_build_csv(path, language='english')
+
+
+# Caxton, Game and Playe of the Chesse (1474; TCP A18343). Caxton's
+# second printed book, translation of Cessolis.
+@_register('caxton_chesse_1474')
+def _load_caxton_chesse_1474():
+    path = _root / 'corpora/english/EEBO/1474_caxton_chesse/1474_caxton_chesse.csv'
+    return reftext.from_corpus_build_csv(path, language='english')
+
+
+# Caxton, Parvus Catho (1476; TCP A18231). Bilingual Latin/English print
+# of the Distichs of Cato; build.py promotes the Latin distichs from
+# <lg><head>/<l> into leading <l> siblings so the body rows interleave
+# Latin and English in original reading order.
+@_register('caxton_cato_1476')
+def _load_caxton_cato_1476():
+    path = _root / 'corpora/english/EEBO/1476_caxton_cato/1476_caxton_cato.csv'
+    return reftext.from_corpus_build_csv(path, language='english')
+
+
+# Lydgate, Stans puer ad mensam (1476; TCP A06567). Caxton's print of
+# Lydgate's Middle English courtesy poem on table manners.
+@_register('lydgate_stans_1476')
+def _load_lydgate_stans_1476():
+    path = _root / 'corpora/english/EEBO/1476_lydgate_stans/1476_lydgate_stans.csv'
     return reftext.from_corpus_build_csv(path, language='english')
 
 
@@ -483,7 +509,7 @@ def _load_english():
 
 @_register('eebo')
 def _load_eebo():
-    parts = [(name, _get(name)) for name in ('caxton_troye_1473',)]
+    parts = [(name, _get(name)) for name in ('caxton_troye_1473', 'caxton_chesse_1474', 'caxton_cato_1476', 'lydgate_stans_1476')]
     tklist = [t for _, rt in parts for t in rt.tklist]
     charlist = list(''.join(tklist))
     rt = reftext.RefText('english', tklist, charlist)
