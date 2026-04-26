@@ -205,35 +205,35 @@ def __getattr__(name):
 # brunfels apodixis 1531 (corpus_build pipeline; textstring_simple column)
 @_register('brunfels')
 def _load_brunfels():
-    path = _root / 'corpora/german/brunfels_apodixis_1531/brunfels_apodixis_1531.csv'
+    path = _root / 'corpora/german/DTA/1531_brunfels_apodixis/1531_brunfels_apodixis.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
 # Nürnberg almanach 1473 (Koberger; corpus_build pipeline)
 @_register('almanach1473')
 def _load_almanach1473():
-    path = _root / 'corpora/german/nn_almanach05_1473/nn_almanach05_1473.csv'
+    path = _root / 'corpora/german/DTA/1473_nn_almanach05/1473_nn_almanach05.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
 # Dracole pamphlet 1485 (Lübeck; Bartholomaeus Gothan; Low German; Vlad the Impaler)
 @_register('dracole1485')
 def _load_dracole1485():
-    path = _root / 'corpora/german/nn_dracole_1485/nn_dracole_1485.csv'
+    path = _root / 'corpora/german/DTA/1485_nn_dracole/1485_nn_dracole.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
 # Das Meerwunder 1472 (heroic epic from Dresdner Heldenbuch; Early New High German verse)
 @_register('meerwunder1472')
 def _load_meerwunder1472():
-    path = _root / 'corpora/german/nn_meerwunder_1472/nn_meerwunder_1472.csv'
+    path = _root / 'corpora/german/DTA/1472_nn_meerwunder/1472_nn_meerwunder.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
 # Nürnberg almanach 1481 (Creussner/Koberger; calendrical prose almanac)
 @_register('almanach1481')
 def _load_almanach1481():
-    path = _root / 'corpora/german/nn_almanach05_1481/nn_almanach05_1481.csv'
+    path = _root / 'corpora/german/DTA/1481_nn_almanach05/1481_nn_almanach05.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
@@ -241,7 +241,7 @@ def _load_almanach1481():
 # Replaces the older hand-coded `promptuarium` entry.
 @_register('promptuarium1483')
 def _load_promptuarium1483():
-    path = _root / 'corpora/german/nn_promptuarium_1483/nn_promptuarium_1483.csv'
+    path = _root / 'corpora/german/DTA/1483_nn_promptuarium/1483_nn_promptuarium.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
@@ -249,7 +249,7 @@ def _load_promptuarium1483():
 # Replaces the older hand-coded `kuchemaistrey` entry.
 @_register('kuchemaistrey1490')
 def _load_kuchemaistrey1490():
-    path = _root / 'corpora/german/nn_kuchemaistrey_1490/nn_kuchemaistrey_1490.csv'
+    path = _root / 'corpora/german/DTA/1490_nn_kuchemaistrey/1490_nn_kuchemaistrey.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
@@ -257,14 +257,14 @@ def _load_kuchemaistrey1490():
 # German translation of Petrus de Crescentiis' agricultural/herbal work).
 @_register('crescentiis1493')
 def _load_crescentiis1493():
-    path = _root / 'corpora/german/crescentiis_figuren_1493/crescentiis_figuren_1493.csv'
+    path = _root / 'corpora/german/DTA/1493_crescentiis_figuren/1493_crescentiis_figuren.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
 # Springer, Merfart (1509, Balthasar Springer; account of an Indian voyage).
 @_register('springer1509')
 def _load_springer1509():
-    path = _root / 'corpora/german/springer_merfart_1509/springer_merfart_1509.csv'
+    path = _root / 'corpora/german/DTA/1509_springer_merfart/1509_springer_merfart.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
@@ -272,7 +272,7 @@ def _load_springer1509():
 # treatise on toxic metalworking vapors).
 @_register('ellenbog1524')
 def _load_ellenbog1524():
-    path = _root / 'corpora/german/ellenbog_temmpffe_1524/ellenbog_temmpffe_1524.csv'
+    path = _root / 'corpora/german/DTA/1524_ellenbog_temmpffe/1524_ellenbog_temmpffe.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
@@ -280,14 +280,14 @@ def _load_ellenbog1524():
 # anonymous Low German treatise on dental diseases and remedies).
 @_register('tzeen1530')
 def _load_tzeen1530():
-    path = _root / 'corpora/german/nn_tzeen_1530/nn_tzeen_1530.csv'
+    path = _root / 'corpora/german/DTA/1530_nn_tzeen/1530_nn_tzeen.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
 # Anonymous 1487 almanac (DTA nn_almanach04_1487).
 @_register('almanach1487')
 def _load_almanach1487():
-    path = _root / 'corpora/german/nn_almanach04_1487/nn_almanach04_1487.csv'
+    path = _root / 'corpora/german/DTA/1487_nn_almanach04/1487_nn_almanach04.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
@@ -295,7 +295,7 @@ def _load_almanach1487():
 # cf. dracole1485).
 @_register('dracole1488')
 def _load_dracole1488():
-    path = _root / 'corpora/german/nn_dracole_1488/nn_dracole_1488.csv'
+    path = _root / 'corpora/german/DTA/1488_nn_dracole/1488_nn_dracole.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
@@ -303,7 +303,7 @@ def _load_dracole1488():
 # Nürnberg civic-praise poem, 742 rhymed verse lines).
 @_register('has1490')
 def _load_has1490():
-    path = _root / 'corpora/german/has_lob_1490/has_lob_1490.csv'
+    path = _root / 'corpora/german/DTA/1490_has_lob/1490_has_lob.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
@@ -311,7 +311,152 @@ def _load_has1490():
 # "The footpath to eternal salvation").
 @_register('fusspfad1492')
 def _load_fusspfad1492():
-    path = _root / 'corpora/german/nn_fusspfad_1492/nn_fusspfad_1492.csv'
+    path = _root / 'corpora/german/DTA/1492_nn_fusspfad/1492_nn_fusspfad.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Anonymous 1492 almanac (DTA nn_almanach04_1492).
+@_register('almanach1492')
+def _load_almanach1492():
+    path = _root / 'corpora/german/DTA/1492_nn_almanach04/1492_nn_almanach04.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Friedrich Morgener, Walfart in sant Thomas land (1497; chivalric pilgrimage
+# ballad in stanzas).
+@_register('morgener1497')
+def _load_morgener1497():
+    path = _root / 'corpora/german/DTA/1497_oa_morgener/1497_oa_morgener.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Von ritter gotfrid wie er sein weib erlöst (1497; anonymous chivalric
+# rescue ballad).
+@_register('gottfried1497')
+def _load_gottfried1497():
+    path = _root / 'corpora/german/DTA/1497_nn_gottfried/1497_nn_gottfried.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Rechnungsbuch (1500; ledger entries — grain sales / receipts in pounds,
+# pennings, schillings; Regensburg-area). Each row is one ledger item.
+@_register('rechnungsbuch1500')
+def _load_rechnungsbuch1500():
+    path = _root / 'corpora/german/DTA/1500_rechnungsbuch01/1500_rechnungsbuch01.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Kunz Has, Hierin vindet mon die vrsach (1500; Nürnberg verse satire on
+# the corruption of the world; same author as has1490).
+@_register('has1500')
+def _load_has1500():
+    path = _root / 'corpora/german/DTA/1500_has_welt/1500_has_welt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Kunz Has, Ein ſpruch vonn einem pecken knecht (1516; Nürnberg verse
+# narrative on a Vienna mass murder; same author as has1490, has1500).
+@_register('has1516')
+def _load_has1516():
+    path = _root / 'corpora/german/DTA/1516_has_spruch/1516_has_spruch.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Martin Bucer, Das ym selbs (1521; early Reformation dialogue between
+# parishioners — Pfarrer, Schultheyß — on faith and works).
+@_register('bucer1521')
+def _load_bucer1521():
+    path = _root / 'corpora/german/DTA/1521_bucer_dialogus/1521_bucer_dialogus.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Luther, Passional Christi und Antichristi (1521; polemical pamphlet
+# contrasting Christ with the Pope, with woodcuts).
+@_register('luther_passional1521')
+def _load_luther_passional1521():
+    path = _root / 'corpora/german/DTA/1521_luther_passional/1521_luther_passional.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Luther, Das Newe Testament Deutzsch (1522; the "September Testament" —
+# Luther's German translation of the New Testament). DTA-pipeline parse;
+# the legacy hand-coded entry is `luther`.
+@_register('luther1522')
+def _load_luther1522():
+    path = _root / 'corpora/german/DTA/1522_luther_septembertestament/1522_luther_septembertestament.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Antonius Corvinus, Warhafftig bericht (1529; Wittenberg-printed report
+# on the Reformation in Goslar and Braunschweig).
+@_register('corvinus1529')
+def _load_corvinus1529():
+    path = _root / 'corpora/german/DTA/1529_corvinus_bericht/1529_corvinus_bericht.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Luther, Eyn Enchiridion oder Handbüchlein (1524; early devotional /
+# prayer handbook, precursor to the Small Catechism).
+@_register('luther_enchiridion1524')
+def _load_luther_enchiridion1524():
+    path = _root / 'corpora/german/DTA/1524_luther_enchiridion/1524_luther_enchiridion.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Luther, Das Elltern die kinder zur Ehe nicht zwingen (1524; pastoral
+# tract on parental authority and marriage consent).
+@_register('luther_elltern1524')
+def _load_luther_elltern1524():
+    path = _root / 'corpora/german/DTA/1524_luther_elltern/1524_luther_elltern.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Luther, 95 Theses (1557 German edition; Disputatio pro declaratione
+# virtutis indulgentiarum, German translation by Luther).
+@_register('luther_thesen1557')
+def _load_luther_thesen1557():
+    path = _root / 'corpora/german/DTA/1557_luther_thesen/1557_luther_thesen.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Alexius Crosner, Ein Sermon vom Hochwirdigen heiligen Sacrament
+# (1531; Wittenberg sermon on the Eucharist, with preface by Luther).
+@_register('crosner_sacrament1531')
+def _load_crosner_sacrament1531():
+    path = _root / 'corpora/german/DTA/1531_crosner_sermon/1531_crosner_sermon.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Anonym, Newe zeyttung (1535; news pamphlet on the fall of Münster on
+# 25 June 1535, ending the Anabaptist kingdom).
+@_register('zeyttung1535')
+def _load_zeyttung1535():
+    path = _root / 'corpora/german/DTA/1535_anonym_zeyttung/1535_anonym_zeyttung.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Erhard Schnepf, Ordnung in Eesachen (1536; Württemberg marriage
+# ordinance / ecclesiastical regulation on betrothal and divorce).
+@_register('schnepf1536')
+def _load_schnepf1536():
+    path = _root / 'corpora/german/DTA/1536_schnepf_eesachen/1536_schnepf_eesachen.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Alexius Crosner, Ein Sermon von der heiligen Christlichen Kirchen
+# (1531; Wittenberg sermon on the Reformation church, with preface by
+# Luther).
+@_register('crosner_kirchen1531')
+def _load_crosner_kirchen1531():
+    path = _root / 'corpora/german/DTA/1531_crosner_sermon2/1531_crosner_sermon2.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Splendor Solis (1590; anonymous German alchemical treatise; same text
+# as the legacy `splendor`/`splendor0`, parsed via the DTA pipeline).
+@_register('splendorsolis1590')
+def _load_splendorsolis1590():
+    path = _root / 'corpora/german/DTA/1590_nn_splendorsolis/1590_nn_splendorsolis.csv'
     return reftext.from_corpus_build_csv(path, language='german')
 
 
@@ -360,7 +505,7 @@ def _load_german():
 
 @_register('dta')
 def _load_dta():
-    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490', 'crescentiis1493', 'springer1509', 'ellenbog1524', 'tzeen1530', 'almanach1487', 'dracole1488', 'has1490', 'fusspfad1492')]
+    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490', 'crescentiis1493', 'springer1509', 'ellenbog1524', 'tzeen1530', 'almanach1487', 'dracole1488', 'has1490', 'fusspfad1492', 'almanach1492', 'morgener1497', 'gottfried1497', 'rechnungsbuch1500', 'has1500', 'has1516', 'luther_passional1521', 'bucer1521', 'luther1522', 'luther_enchiridion1524', 'luther_elltern1524', 'corvinus1529', 'crosner_sacrament1531', 'crosner_kirchen1531', 'zeyttung1535', 'schnepf1536', 'luther_thesen1557', 'splendorsolis1590')]
     tklist = [t for _, rt in parts for t in rt.tklist]
     charlist = list(''.join(tklist))
     rt = reftext.RefText('german', tklist, charlist)
