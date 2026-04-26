@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">                <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Ritter Gottfried</title>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<persName>
+<surname>Holetzek</surname>
+<forename>Tim</forename>
+</persName>
+<orgName>DFG-Projekt: Literaturexplosion und Intertextualiteät. Bedingungen und Merkmale der 'Verschriftlichung des Lebens' in Nürnberg</orgName>
+<resp>
+<note type="remarkResponsibility">Transkription</note>
+</resp>
+</respStmt>
+<respStmt>
+<persName>
+<surname>Schaffert</surname>
+<forename>Jan Christian</forename>
+</persName>
+<persName>
+<surname>Caspari</surname>
+<forename>Simon</forename>
+</persName>
+<resp>
+<note type="remarkResponsibility">Kontrolle der Transkription</note>
+</resp>
+</respStmt>
+<respStmt>
+<persName>
+<surname>Holetzek</surname>
+<forename>Tim</forename>
+</persName>
+<resp>
+<note type="remarkResponsibility">Konvertierung nach TEI-XML</note>
+<date type="importDTA">2015-07-01T00:00:00Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">20</measure>
+<measure type="tokens">2556</measure>
+<measure type="types">947</measure>
+<measure type="characters">13086</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:32:47Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+<p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/nn_gottfried_1497</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/nn_gottfried_1497</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/nn_gottfried_1497</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/nn_gottfried_1497</idno>
+<idno type="DTADirName">nn_gottfried_1497</idno>
+<idno type="DTAID">30976</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30976-1</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">N. N.: Ritter Gottfried. Nürnberg, um 1497 (GW-Nr.: 1257350N).</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Ritter Gottfried</title>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">19</measure>
+</extent>
+<publicationStmt>
+<publisher/>
+<pubPlace>Nürnberg</pubPlace>
+<date type="publication">1497</date>
+</publicationStmt>
+<notesStmt>
+<note type="remarkSource">Werktitel nach Gesamtkatalog der Wiegendrucke und Verfasserlexikon (Frieder Schanze, in: VL 8, 1992, Sp. 98f.): 'Ritter Gottfried'; Verfassername Kunz Has, Contz Haß, Conrat Hase.</note>
+</notesStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek München</repository>
+<idno>
+<idno type="shelfmark">Cim. 38#36</idno>
+<idno type="URLCatalogue">https://epub.ub.uni-muenchen.de/11413/</idno>
+<idno type="URLImages">https://epub.ub.uni-muenchen.de/11413/1/Cim.38_36.pdf</idno>
+<idno type="URN">urn:nbn:de:bvb:19-epub-11413-3</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>
+Dieses Werk wurde im Rahmen des DFG-Projektes &#x201A;Literaturexplosion und Intertextualität.
+Bedingungen und Merkmale der Verschriftlichung des Lebens in Nürnberg&#x2018; transkribiert, kontrolliert
+und in XML/TEI P5 nach DTA-Basisformat kodiert. Sämtliche Abbreviaturen und Graphiefehler
+wurden im Element &lt;choice&gt; korrigiert und die Sonderzeichen, mit Ausnahme der
+Superskripte, vereinheitlicht.
+</p>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Religiöse Reimpaarerzählung</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ntsm</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>         <front>
+<pb facs="#f0001" n="313"/>
+<titlePage type="main">                     <docTitle>                         <titlePart type="main">Von ritter gotfrid wie er sein weib erlöst.</titlePart>                     </docTitle><lb/>
+<figure/><lb/>
+</titlePage><lb/>
+</front>         <body>
+<pb facs="#f0002" n="314"/>
+<div n="1"> <p><hi rendition="#in">I</hi>R herren schweigt vnd höret zu<lb/>
+Ein hystori ich sagen thu<lb/>
+Von einem ritter wol erkant<lb/>
+Der selb was her gotfryd genant<lb/>
+Darumb so wil ich euch thun kunt<lb/>
+was ich von im geschriben funt<lb/>
+Do er zu seinen iaren kam<lb/>
+Der selbig iungling fur sich nam<lb/>
+Vnd bettet zu allen stunden<lb/>
+Fünff pater noster den fünf wunden<lb/>
+Das in got het in seiner hut<lb/>
+Behüt in vor vnrechtem gut<lb/>
+Do er nu zu eim ritter wart<lb/>
+Er tet nach ritterlicher art<lb/>
+Ward der pest durnierer erkant<lb/>
+Sein gleich fand man nit in<lb/>
+kein lant<lb/>
+Wo man hoflich solt geparen<lb/>
+Preis tet man von im erfaren<lb/>
+Vor fürsten frawen vnd auch hern<lb/>
+Sein ros kund er wol darzu kern<lb/>
+Nach preis so fur er in die lant<lb/>
+Er füret auch in seiner hant<lb/>
+Ein sper das was wol armes gros<lb/>
+<pb facs="#f0003" n="315"/>
+Das feur dick aus den helmen schos<lb/>
+Wenn nach seiner scharpffen krone<lb/>
+Vbt er sich nach preises lone<lb/>
+Ein ritter im sein tochter gab<lb/>
+Czu weib als ich vernommen hab<lb/>
+Darzu ward im geben ein gut<lb/>
+Das im hin nach betrübt sein mut<lb/>
+Das was von eim kloster kommen<lb/>
+Vnrechtlich hab ich vernommen<lb/>
+Wenn wer vnrecht gut ynnen hat<lb/>
+Der selben sele wirt nymmer rat<lb/>
+Des kam die fraw in grosse pein<lb/>
+Sy solt ewig verloren sein<lb/>
+Gar lange zeit vnd kurtze iar<lb/>
+<choice><sic>Lebte</sic><corr>Lebten</corr> </choice>     sy mit einander zwar<lb/>
+Der rytter vnd sein eigen weib<lb/>
+Der tot kam vnd nam ir den leib<lb/>
+Und tet sy also kurtzlich scheid<lb/>
+Dem ritter geschach grosses leid<lb/>
+Das im sein liebes weib was tot<lb/>
+Des kam der ritter in gros not<lb/>
+Doch wer got pitt andechtiglich<lb/>
+Dem selben in gnad got zeigt sich<lb/>
+<pb facs="#f0004" n="316"/>
+Der ritter pat got den reichen<lb/>
+Mit gros andacht tugentleichen<lb/>
+Das in got hie auff diset erdn<lb/>
+Vor seinem end lies ynnen werdn<lb/>
+Ob nun die sel der frawen sein<lb/>
+Wer in frewden oder in pein<lb/>
+O herr durch dein gnad ir hilff thu<lb/>
+Vnd gib ir herr die ewig ru<lb/>
+Las ir erschein das ewig licht<lb/>
+O herre got vergis ir nicht<lb/>
+Wann sy ist deine hant getat<lb/>
+Dein tot sy teur erarnet hat<lb/>
+Von dem gebete er nit lie<lb/>
+Teglichen er da mit vmbgie<lb/>
+Do er nun so lang trug sein leit<lb/>
+Do ward von eim turnier geseit<lb/>
+Von dem ritter wol viertzig meil<lb/>
+Der ritter begund do hin eil<lb/>
+Do kamen sy zu einer stat<lb/>
+Der herr sprach zu dem knecht gar drat<lb/>
+Dz er eben fragt vnd nit lies<lb/>
+Vnd sich auch gar pald weisen hies<lb/>
+Czu einem wirt in eren fest<lb/>
+<pb facs="#f0005" n="317"/>
+Der gar wol pfleg der fremden gest <lb/>
+Der knecht wol für ein herberg kam<lb/>
+Gar reiche wirtschaft er vernam<lb/>
+Leuten vnd pferden gut gemach<lb/>
+wann dz dem knecht noch eins gebrach<lb/>
+Sah ein pet gros weit vnde lang<lb/>
+Vmb dz selb do gieng ein furhang<lb/>
+Der knecht reit pald hinwider do<lb/>
+Vnd sagt es seinem herren also<lb/>
+Jn disem haus ist aller rat<lb/>
+Den das ein kindpet darynn stat<lb/>
+Der herr sprach hin ein ich nit reit<lb/>
+Seit die fraw in dem kindpet leit<lb/>
+Die solt man mit ru lan pleyben<lb/>
+Durch er aller frummer weyben<lb/>
+Doch reit er fur des wirtes tur<lb/>
+Er sprach her wirt nun get herfur<lb/>
+Kunt ir nit armer gest pflegen<lb/>
+Der wirt sprach ich hab allwegen<lb/>
+Wirtschaft lang gehalten nach ern<lb/>
+Vnd gastung rittern vnd auch hern<lb/>
+Der her sprach ich schew nu die zeit<lb/>
+Seit die fraw in dem kindpet leit<lb/>
+<pb facs="#f0006" n="318"/>
+Der wirt sprach herr es ist mein sun<lb/>
+Eins mals hat er aus reiten thun<lb/>
+Nach einer prewt so tet man far<lb/>
+Mein sun wich von in aus der schar<lb/>
+Gen im reit ein teuflischer man<lb/>
+Gantz vngehewr als ich verstan<lb/>
+Sein gsellen reiten mit im hy<lb/>
+Ein arme sel die furten sy<lb/>
+Herr do hin zu der ewigen pein<lb/>
+Secht dawas auch der sune mein<lb/>
+Seyner synn als gar vergessen<lb/>
+Vnd: seins mutz also vermessen<lb/>
+Das er an got doch nit gedacht<lb/>
+Vnd kein kreutz fur sich het gemacht<lb/>
+Do er vergas des kreutzes preit<lb/>
+Mit zorn der teuffel auff in reit<lb/>
+Vnd so grimmiglich auf in stach<lb/>
+Das alles das an im zerbrach<lb/>
+Das do in seinem leibe was<lb/>
+Do viel er nyder in das gras<lb/>
+Seit ist er glegen das ist war<lb/>
+Petris wol lenger dann vier iar<lb/>
+Man mus in etzen vnd trencken<lb/>
+<pb facs="#f0007" n="319"/>
+Herr es mag nyemands erdencken <lb/>
+Ob er ymer mer werd gesunt<lb/>
+Der herr sprach zu der selben stunt<lb/>
+Lieber wirt versint er auch sich<lb/>
+Ja herr er ist noch gar redlich<lb/>
+Er ist frisch an hertz füß vnd mund<lb/>
+Last mich in sehen do zestund<lb/>
+Do der ritter fur das pet trat<lb/>
+Er sprach iungling weis mir die stat<lb/>
+Wo du schaden hast genommen<lb/>
+Ob ich möcht schicken dein frommen<lb/>
+Der iung sprach do ist vnferr hin<lb/>
+Den herr das nembt in ewern syn<lb/>
+Ob ir die selben stras auch drabt<lb/>
+Vnd das ir got im hertzen habt<lb/>
+Auch sein kreutz zu einem schilt preit<lb/>
+Anders euch geschicht hertze leit<lb/>
+Des nachtes er pey dem wirt sas<lb/>
+Czu morgens do er tranck vnd gas<lb/>
+Den iungling er senlich ansach<lb/>
+Wenn er zu seinem vatter sprach<lb/>
+Wirt ich will nit lenger peitten<lb/>
+Auch will ich auf die stras reitten<lb/>
+<pb facs="#f0008" n="320"/>
+Do er genommen hat schaden <lb/>
+Ob mir got hulf mit sein gnaden<lb/>
+Der iungling geit mir die vrkunt<lb/>
+Meiner frawen sel von irem munt<lb/>
+Die selbigen zeit ist gefarn<lb/>
+Diser reiß will ich nit lenger sparn<lb/>
+Mein leben oder mein ende<lb/>
+Das sol sten in gottes hende<lb/>
+Vnd pflegt mir meines gesinds wol<lb/>
+Jch zal euch als ich billich sol<lb/>
+Guter pfand seyt von mir gewert<lb/>
+Jch las euch mein silber vnd pfert<lb/>
+Darzu mein kleinat vnd auch golt<lb/>
+Der wirt sprach herr ich bin euch holt<lb/>
+wolt ir ewers selbs leibs pflegen<lb/>
+So last die reis vnder wegen<lb/>
+Vnd wendent do von ewren mut<lb/>
+Furwar herr es deucht mich gar gut<lb/>
+Der ritter sprach das dar ich nicht<lb/>
+was mir leides darumb geschicht<lb/>
+wann die senung was also starck<lb/>
+Sy gieng im durch pein vnd sein marck<lb/>
+Vnd durch alle sein gelider<lb/>
+<pb facs="#f0009" n="321"/>
+Von seinem roß trat er nyder <lb/>
+Er kniet nyder auff einen stein<lb/>
+Sein gebet was lauter vnd rein<lb/>
+Wenn er sprach zu allen stunden<lb/>
+Funff pater noster den funff wunden<lb/>
+Das in got het in seiner hut<lb/>
+Auch behut vor vnrechtem gut<lb/>
+Auch funff dem leiden vnsers hern<lb/>
+Vnd das in got lies ynen wern<lb/>
+Dann ob die sele der frawen sein<lb/>
+Wer in frewden oder in pein<lb/>
+Vor wein wurdn im sein augen nas<lb/>
+Vmb sein frawen vnd mercket das<lb/>
+Von dem gebet so lies er gar<lb/>
+Vnd gieng zu seinem rosse dar<lb/>
+wenn sein roß wolt er gurten pas<lb/>
+Do er es gegürt vnd auff sas<lb/>
+Do reit der selbig ritter stoltz<lb/>
+Alters einig vor das selb holtz<lb/>
+Den helm er zu seinem haubt pant<lb/>
+Das schwerte greif er in die hant<lb/>
+Er hielt ein klein weil das ist war<lb/>
+Do kam ein teuffel offenbar<lb/>
+<pb facs="#f0010" n="322"/>
+In mannes weis geritten dort her <lb/>
+Von rotem gloh so prant sein sper<lb/>
+Sein pferd sprang vber manchen stein<lb/>
+Das feur im aus der nassen schein<lb/>
+Do schry der teuffel do aus grymm<lb/>
+So mit einer vorchtlichen stymm<lb/>
+Das dem ritter so vnuerzeit<lb/>
+Gar schier wer entwischt sein mannheit<lb/>
+Der ritter gottes das kreutz auff zoch<lb/>
+Der teuffel fur von im vnd floch<lb/>
+Er sprach ritter las mich frid han<lb/>
+Du bist der tugenthafftigst man<lb/>
+Der ritter sprach du pöser geist<lb/>
+Sag an wenn du es selb wol weist<lb/>
+Du pist ewiglichen verlorn<lb/>
+Vnd zu der ewigen hel erkorn<lb/>
+Der teuffel erseufftzet vnd sprach<lb/>
+Ey wie ein pitters vngemach<lb/>
+Das ich bin von ewig freyden<lb/>
+Czu ewiger pein gescheiden<lb/>
+Hat lucifer wider got gethan<lb/>
+Do hab ich wenig schuld dar an<lb/>
+Höre mich edler ritter wert<lb/>
+<pb facs="#f0011" n="323"/>
+Stos wider ein dein eigen schwert <lb/>
+Dein kreutz hat mich vberwunden<lb/>
+Vnd dein gepet zu der stunden<lb/>
+So pind dein roß auf disen plan<lb/>
+Kumm her ich will dich sehen lan<lb/>
+Dar zu in disem holen perck<lb/>
+Do sichst du wunderliche werck<lb/>
+Vnd auch die yemerlichen not<lb/>
+Die dein fraw teglich leit vnd hot<lb/>
+Nu wiltu anders volgen mir<lb/>
+Do pey so will ich raten dir<lb/>
+wenn du wirst sehen leut stechen<lb/>
+Die sper auf einander prechen<lb/>
+Die seind dir all ser wol bekant<lb/>
+wenn an des helmes assen pant<lb/>
+Du sichst auch trincken vnd essen<lb/>
+Du solt alles nit vergessen<lb/>
+was sy thun vnd auch beginnen<lb/>
+wilt mit leib vnd sel von hinnen<lb/>
+Er volgt dem teuffel nach in perck<lb/>
+Do sach er wunderliche werck<lb/>
+Do sach er gar manigen stecher<lb/>
+<pb facs="#f0012" n="324"/>
+Vnd so vil der sper zu prechen <lb/>
+Sy waren dem ritter wol bekant<lb/>
+Maniger in pey dem namen nant<lb/>
+Vnd schrien do aus lautter stymm<lb/>
+So gar mit vorchtiglichem grymm<lb/>
+wol her her gotfrid precht ein sper<lb/>
+Der ander bracht im ein schön pfer<lb/>
+ Sein manheit het in leicht erstritten<lb/>
+Das er wer mit in geritten<lb/>
+Het im der teuffel nit gewert<lb/>
+Mit dem er aber furbas kert<lb/>
+Fand er ein wol bereyten tisch<lb/>
+Darauff stunde wilpret und visch<lb/>
+wolt mit in essen vnd trincken<lb/>
+Do thet im der teuffel wincken<lb/>
+Mit einem vngefügen schlag<lb/>
+Das er vor im auf der erd lag<lb/>
+Der herr sprach sag auff die trew dein<lb/>
+Solle das schimpf oder ernst sein<lb/>
+Der teufel sprach ich thus vmb das<lb/>
+Das du dich furan hütst dest pas<lb/>
+Mer wiltu ye nit volgen mir<lb/>
+Diser schleg mangen gib ich dir<lb/>
+<pb facs="#f0013" n="325"/>
+Sy tetten aber weitter hin gan <lb/>
+Was sahen sy do vor in stan<lb/>
+Eyn tisch der vil schon bereit was<lb/>
+Mit kostlicher speis on all mas<lb/>
+Sy sprachen all ist her gotfryt<lb/>
+Der herr sprach gern wer es syt<lb/>
+Wann ir habt gar ein guten koch<lb/>
+Der teufel sprach yamert dich noch<lb/>
+Alhie nach meiner kuchen speis<lb/>
+Den an schleg so wirt nymand weis<lb/>
+Sy gingen aber fürbas zu hant<lb/>
+Der ritter so manigen tantz fant<lb/>
+Er sach so wunniglich meyen<lb/>
+Auch zu vorderst an dem reyen<lb/>
+Do sach er vnder diser schar<lb/>
+Sein liebe frawen auch her far<lb/>
+Vor wunder er kaum genas<lb/>
+Das sy so gar recht schön was<lb/>
+Do sy des ritters ward gewar<lb/>
+Sy wand ir hend vnd rauft ir har<lb/>
+O herr gotfryd werder ritter<lb/>
+Nun ist mein leiden erst pitter<lb/>
+Vor ist es gewest einfeltig<lb/>
+<pb facs="#f0014" n="326"/>
+Erst so ist es taussent speltig <lb/>
+Wie hat euch begriffen gots zorn<lb/>
+Habt ir ewr langs gepet verlorn<lb/>
+Vnd ir des todes seit gefreyt<lb/>
+Vnd mit leib vnd sel hynen seyt<lb/>
+Er sprach du liebste frawe mein<lb/>
+Wie geren wolt ich pey dir sein<lb/>
+Wann ich vor nie gesehen hon<lb/>
+Am deim leib also grosse schon<lb/>
+Sy sprach tret ein wenig darpas<lb/>
+Das ir der kurtzweil nit werd nas<lb/>
+Ein ackerleng er hindersich trat<lb/>
+Do warf sy auf ir vehe wat<lb/>
+Das fewr allenthalb von ir schlug<lb/>
+Mit glanster vnd gros ongefug<lb/>
+Recht als zwelff stedel auf erden<lb/>
+Die all angezündet werden<lb/>
+Der ritter erschrack also ser<lb/>
+Oewiger got vnd auch her<lb/>
+Der durch vns tot vnd marter lit<lb/>
+Herr teil ir dein erparmung mit<lb/>
+Der durch vns leid gar offenbar<lb/>
+Auf erd vierthalb vnd dreissig iar<lb/>
+<pb facs="#f0015" n="327"/>
+Er sprach du liebste frawe mein <lb/>
+Warumb ist so pitter dein pein<lb/>
+Sy sprach wolt ir mich mercken eben<lb/>
+Mir ward ein hab zu euch geben<lb/>
+Die nam mein vater mit gewalt<lb/>
+Vnrechtlich von eim kloster palt<lb/>
+Das kloster heist zu pertingen<lb/>
+Des mus mir ymer misselingen<lb/>
+Wenn ich klag meiner sele nicht<lb/>
+Sy ist verlorn vnd gantz entwicht<lb/>
+Er sprach wenn ich dir helfen kunt<lb/>
+Das du von der not wurst gesunt<lb/>
+Die hab wolt ich wider geben<lb/>
+wer es deinen kinden eben<lb/>
+Er sprach woltens mein kind nit thon<lb/>
+Jch geb in iren teil dar von<lb/>
+Vnd wolt dir helfen aus der not<lb/>
+Darumb geb ich mein teil durch got<lb/>
+Jn ein geistlich ordn will ich farn<lb/>
+Ob ich vnser sel möcht bewarn<lb/>
+Des gib ich euch mein stette trew<lb/>
+Sy sprach es müst mich ymer rew<lb/>
+Das ir hie berürt meine hant<lb/>
+<pb facs="#f0016" n="328"/>
+Wann ir würt von stund an verprannt <lb/>
+Wenn ir mir zu helffen begert<lb/>
+Piet mir den knopff an ewrem schwert<lb/>
+So will ich euch dar an schreyben<lb/>
+Vnd lat es mir nicht beleyben<lb/>
+Wenn ir müst sust auch in die pein<lb/>
+Ewig mit mir verloren sein<lb/>
+Sein schwertz knopfe er ir do pot<lb/>
+Vor hitz vnd auch vor grosser not<lb/>
+Ward er do bald verschmoltzen gar<lb/>
+Bis auf das kreutz das ist war<lb/>
+Sy sprach secht an vnser freyden<lb/>
+Die wir armen teglich leyden<lb/>
+Vnser fich eytel nateren sein<lb/>
+Was man vns von tranck schencket ein<lb/>
+Das ist eytel schwebel vnd pech<lb/>
+Darumb dencket das es geschech<lb/>
+Halt an mir ewer ritterlich trew<lb/>
+Das dise pein nit fall auff ew<lb/>
+Das euch nit greiff der pitter tot<lb/>
+Der vns inn sünden grifen hot<lb/>
+Den sy also vor im verschwant<lb/>
+Do er ir grosse not erkant<lb/>
+<pb facs="#f0017" n="329"/>
+Der ritter also greisen war <lb/>
+Sein part vnd auch sein schönes har<lb/>
+Der teuffel furt in wider dar von<lb/>
+Do fand er noch sein pferd do stan<lb/>
+Do ers nun hin gebunden het<lb/>
+Auch sprach der teuffel an der stet<lb/>
+Ritter danck got dem herren dein<lb/>
+Hilff vnd gnad die er dir tut schein<lb/>
+Der pot mir zu dir her kommen<lb/>
+Nun hastu gar wol vernommen<lb/>
+Das soltu mercken gar eben<lb/>
+Wilt ir helffen zum ewig leben<lb/>
+So weistu wol das vnrecht gut<lb/>
+Do dein hertz synn und darzu mut<lb/>
+Lange zeit hat vmb gepetten<lb/>
+Wiltu volgen meinen retten<lb/>
+Dardurch du denn her bist gefarn<lb/>
+Wiltu des purgers sun bewarn<lb/>
+Se hin die püx mit der salben<lb/>
+Streiche ims an allenthalben<lb/>
+Jne gotes namen dreystundt<lb/>
+So wirt er bald wider gesundt<lb/>
+Der ritter widerumb heim reyt<lb/>
+<pb facs="#f0018" n="330"/>
+Czu seim gesind vud wirt gemeit <lb/>
+Der ritter doch das nit enlies<lb/>
+Er tet was in der teuffel hies<lb/>
+Vnd salbet den iungling dreistunt<lb/>
+Do ward er pald wider gesunt<lb/>
+Darnach der ritter zu land reit<lb/>
+Heim mit all sein kinden gemeit<lb/>
+Teilt er sein hab vnd auch seim gut<lb/>
+Also gar mit mennlichem mut<lb/>
+Dem kloster er do wider gab<lb/>
+Die hub als ich vernommen hab<lb/>
+Auch gab er in zins darzu<lb/>
+Das hat er von der sel nutz thu<lb/>
+Er gab sein kindn irn teil dauon<lb/>
+Mit dem seinem so tet er gon<lb/>
+Jn ein kloster des grawen ordn<lb/>
+Ein leyen pruder was er wordn<lb/>
+Do er nu in dem kloster was<lb/>
+Drey tage als ich von im las<lb/>
+Seiner frawn sel erschein im drat<lb/>
+Schön in einer schne weissen wat<lb/>
+Do er sy sach vnd plicket an<lb/>
+Er meinet es wer maria fran<lb/>
+<pb facs="#f0019" n="331"/>
+Er viel ir nyder zu fusse<lb/>
+Do lachet die sel so süsse<lb/>
+Sy sprach wer meinest der ich seyn<lb/>
+Sag mir lieber erlöser mein<lb/>
+Dein tugent mag nyemand schreyben<lb/>
+Bist gesegnet ob allen weyben<lb/>
+Vnd gottes muter maria<lb/>
+Schöne ros von ierarchia<lb/>
+Sy sprach zu im mein lieber man<lb/>
+Jch bin dein weib wol getan<lb/>
+Durch dein hilff gebet vnd auch stewr<lb/>
+Bin ich erlöst von ewig fewr<lb/>
+Gesegen dich got lieber pul<lb/>
+Czu himel do ist vnser stul<lb/>
+Czu himel will ich peitten dein<lb/>
+Jm dritten iar solt pey mir sein<lb/>
+Die sel also vor im verschwant<lb/>
+Vnd fur gen himel alzu hant<lb/>
+Der ritter lebt in hertikeyt<lb/>
+Im kloster vertreib er sein zeit<lb/>
+Bis in got nam aus dem ellent<lb/>
+Domit hat das gedicht ein ent<lb/>
+<pb facs="#f0020" n="332"/>
+</p>             </div>         </body>     </text> </TEI>
