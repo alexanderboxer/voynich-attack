@@ -498,6 +498,60 @@ def _load_lydgate_stans_1476():
     return reftext.from_corpus_build_csv(path, language='english')
 
 
+# Lydgate, The Horse, the Goose, and the Sheep (1477; TCP A06553).
+# Caxton's print of Lydgate's Middle English debate poem.
+@_register('lydgate_horsegoosesheep_1477')
+def _load_lydgate_horsegoosesheep_1477():
+    path = _root / 'corpora/english/EEBO/1477_lydgate_horsegoosesheep/1477_lydgate_horsegoosesheep.csv'
+    return reftext.from_corpus_build_csv(path, language='english')
+
+
+# Dictes or Sayings of the Philosophers (1477; TCP A69207). Caxton's
+# print of Earl Rivers' English translation; collected sayings of
+# ancient philosophers (one of Caxton's most important early prints).
+@_register('dictes_1477')
+def _load_dictes_1477():
+    path = _root / 'corpora/english/EEBO/1477_dictes/1477_dictes.csv'
+    return reftext.from_corpus_build_csv(path, language='english')
+
+
+# Caxton, Parvus Catho — 1477 edition (TCP A18230). Bilingual Latin/
+# English print of the Distichs of Cato; distinct TEI encoding from the
+# 1476 edition (`<l>` siblings under `<div>`, no `<lg>` wrapping —
+# build.py wraps them in `<lg>` so the parser includes them).
+@_register('caxton_cato_1477')
+def _load_caxton_cato_1477():
+    path = _root / 'corpora/english/EEBO/1477_caxton_cato/1477_caxton_cato.csv'
+    return reftext.from_corpus_build_csv(path, language='english')
+
+
+# Chaucer, Parliament of Fowls (1477; TCP A18559). Caxton's print of a
+# Chaucer collection opening with the Parliament of Fowls and including
+# other short pieces (e.g. Lenvoy a Scogan).
+@_register('chaucer_parliament_1477')
+def _load_chaucer_parliament_1477():
+    path = _root / 'corpora/english/EEBO/1477_chaucer_parliament/1477_chaucer_parliament.csv'
+    return reftext.from_corpus_build_csv(path, language='english')
+
+
+# Caxton, Sarum Pie advertisement (1477; TCP A18294). Single-broadside
+# advertisement for the Sarum-Use liturgical "pyes"; the first printed
+# English advertisement.
+@_register('caxton_advertisement_1477')
+def _load_caxton_advertisement_1477():
+    path = _root / 'corpora/english/EEBO/1477_caxton_advertisement/1477_caxton_advertisement.csv'
+    return reftext.from_corpus_build_csv(path, language='english')
+
+
+# Chaucer, Canterbury Tales (1477; TCP A18548). Caxton's first edition.
+# Distinct from the legacy `chaucer` RefText, which is a different
+# (modern-spelling) transcription.
+@_register('chaucer_canterbury_1477')
+def _load_chaucer_canterbury_1477():
+    path = _root / 'corpora/english/EEBO/1477_chaucer_canterbury/1477_chaucer_canterbury.csv'
+    return reftext.from_corpus_build_csv(path, language='english')
+
+
 # eebo: combined RefText across all EEBO-TCP-pipeline English texts.
 # Also exposed as `english` — `from voynpy.corpora import english` yields
 # the full EEBO corpus (same instance). No `english_legacy` aggregate
@@ -509,7 +563,7 @@ def _load_english():
 
 @_register('eebo')
 def _load_eebo():
-    parts = [(name, _get(name)) for name in ('caxton_troye_1473', 'caxton_chesse_1474', 'caxton_cato_1476', 'lydgate_stans_1476')]
+    parts = [(name, _get(name)) for name in ('caxton_troye_1473', 'caxton_chesse_1474', 'caxton_cato_1476', 'lydgate_stans_1476', 'lydgate_horsegoosesheep_1477', 'dictes_1477', 'caxton_cato_1477', 'chaucer_parliament_1477', 'caxton_advertisement_1477', 'chaucer_canterbury_1477')]
     tklist = [t for _, rt in parts for t in rt.tklist]
     charlist = list(''.join(tklist))
     rt = reftext.RefText('english', tklist, charlist)

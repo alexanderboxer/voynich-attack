@@ -139,6 +139,19 @@ _ABBREVIATIONS_RE = [
     (re.compile(r"\bhoi[̃̄̅]es(?![^\W\d_])"), "homines"),
     (re.compile(r"\bhoi[̃̄̅]e(?![^\W\d_])"), "homine"),
     (re.compile(r"\bnoi[̃̄̅]e(?![^\W\d_])"), "nomine"),
+    # Labial-assimilation rule: vowel + nasal mark + (p / b / m) → "+m".
+    # In Latin/Middle English, the missing nasal assimilates to `m` before
+    # labials (the same orthographic rule that turns con- into com- before
+    # labials). Examples: `tēpred` → `tempred`, `cōp…` → `comp…`,
+    # `nūber` → `number`. Specific enough to be safe alongside the German
+    # default-`+n` rule.
+    (re.compile(r"([aeiou])[̃̄̅]([pbm])"), r"\1m\2"),
+    # `hō + nes` is another Latin abbreviation for `homines` (macron over
+    # `o` represents `omi`), distinct from the `hoī + es` form.
+    (re.compile(r"\bho[̃̄̅]nes(?![^\W\d_])"), "homines"),
+    # `ḡ` (g with macron) is a rare Latin abbreviation for `gra` in early
+    # printed books. Specific expansion for `ḡuiter` → `grauiter`.
+    (re.compile(r"\bg[̃̄̅]uiter(?![^\W\d_])"), "grauiter"),
 ]
 
 # Three combining marks (U+0303 tilde, U+0304 macron, U+0305 overline) are
