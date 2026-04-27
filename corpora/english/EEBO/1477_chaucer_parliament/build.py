@@ -1,22 +1,28 @@
-"""Build sentence-level CSV for Caxton's Recuyell of the Historyes of Troye (1473).
+"""Build sentence-level CSV for Chaucer's Parliament of Fowls (1477).
 
-First book printed in English. TCP ID A05232 (Phase I, CC0).
-Source: https://github.com/textcreationpartnership/A05232
+Caxton's print of Chaucer's Middle English dream-vision poem (catalog
+cites the opening: "The lyf so short, the craft so longe to lerne").
+TCP ID A18559 (Phase I, CC0).
+Source: https://github.com/textcreationpartnership/A18559
 """
 
 from pathlib import Path
 
+from voynpy.corpus_build.eebo import download_xml
 from voynpy.corpus_build.schema import write_csv
 from voynpy.corpus_build.tei_p5 import parse_tei
 
 HERE = Path(__file__).parent
-DOC_ID = "caxton_troye_1473"
-TCP_ID = "A05232"
+DOC_ID = "1477_chaucer_parliament"
+TCP_ID = "A18559"
 XML_PATH = HERE / f"{TCP_ID}.xml"
 CSV_PATH = HERE / f"{DOC_ID}.csv"
 
 
 def main() -> None:
+    if not XML_PATH.exists():
+        print(f"downloading {TCP_ID} from EEBO-TCP...")
+        download_xml(TCP_ID, XML_PATH)
     rows = parse_tei(str(XML_PATH), DOC_ID)
     write_csv(rows, str(CSV_PATH))
     paras = {r.para_id for r in rows}
