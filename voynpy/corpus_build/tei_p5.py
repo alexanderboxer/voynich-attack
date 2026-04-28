@@ -505,7 +505,12 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
                 or _row_is_all_red(cells, state)
             )
             block_type = "head" if is_header else "body"
-            orig = _post_process(_inline_text(child, state))
+            # Join cell text with whitespace so adjacent-cell content stays
+            # word-separated (otherwise e.g. a tune-incipit cell concatenates
+            # directly into a psalm-number cell: "frayv. psalm" instead of
+            # "fray v. psalm" — Souterliedekens 1540 Registere der wijsen).
+            cell_texts = [_post_process(_inline_text(c, state)) for c in cells]
+            orig = " ".join(t for t in cell_texts if t).strip()
             if orig and _letter_count_inline(orig) >= 1:
                 rich = rich_normalize(orig)
                 rows.append(Row(

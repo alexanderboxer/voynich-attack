@@ -1,10 +1,8 @@
-"""Build sentence-level CSV for Ars moriendi (1488).
+"""Build sentence-level CSV for Dit boecxken leert hoemen mach voghelen vanghen (1509; bird-catching handbook).
 
-Anonymous Middle Dutch *art of dying* treatise, first edition Peter van Os,
-Zwolle, 1488. DBNL provides a diplomatic TEI Lite transcription preserving
-period orthography. DBNL ID `_ars002arsm01`.
+DBNL provides a diplomatic TEI Lite transcription. DBNL ID `_dit005ditb01`.
 
-Source: https://www.dbnl.org/titels/titel.php?id=_ars002arsm01
+Source: https://www.dbnl.org/titels/titel.php?id=_dit005ditb01
 """
 
 from pathlib import Path
@@ -15,8 +13,8 @@ from voynpy.corpus_build.tei_p5 import parse_tei
 from voynpy.corpus_build.validate import validate, format_report
 
 HERE = Path(__file__).parent
-DOC_ID = "1488_ars_moriendi"
-DBNL_ID = "_ars002arsm01"
+DOC_ID = "1509_voghelen_vanghen"
+DBNL_ID = "_dit005ditb01"
 XML_PATH = HERE / f"{DBNL_ID}.xml"
 CSV_PATH = HERE / f"{DOC_ID}.csv"
 

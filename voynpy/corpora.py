@@ -583,6 +583,34 @@ def _load_german():
     return _get('dta')
 
 
+# DBNL Dutch texts. Each text has its own loader; aggregates `dbnl` and
+# `dutch` are defined below — they are identical (alias pattern) and
+# cover all DBNL-pipeline Dutch texts.
+
+@_register('alexander1477')
+def _load_alexander1477():
+    path = _root / 'corpora/dutch/DBNL/1477_alexander/1477_alexander.csv'
+    return reftext.from_corpus_build_csv(path, language='dutch')
+
+
+@_register('souen_wysen1478')
+def _load_souen_wysen1478():
+    path = _root / 'corpora/dutch/DBNL/1478_souen_wysen/1478_souen_wysen.csv'
+    return reftext.from_corpus_build_csv(path, language='dutch')
+
+
+@_register('parijs_ende_vienna1487')
+def _load_parijs_ende_vienna1487():
+    path = _root / 'corpora/dutch/DBNL/1487_parijs_ende_vienna/1487_parijs_ende_vienna.csv'
+    return reftext.from_corpus_build_csv(path, language='dutch')
+
+
+@_register('arent_bosman1488')
+def _load_arent_bosman1488():
+    path = _root / 'corpora/dutch/DBNL/1488_arent_bosman/1488_arent_bosman.csv'
+    return reftext.from_corpus_build_csv(path, language='dutch')
+
+
 # Ars moriendi 1488 (Peter van Os, Zwolle; DBNL pipeline; TEI Lite source).
 # Anonymous Middle Dutch *art of dying* treatise. Diplomatic transcription
 # preserves period orthography (uu-as-v digraph in `duuel`, `gh-` clusters,
@@ -590,6 +618,48 @@ def _load_german():
 @_register('ars_moriendi1488')
 def _load_ars_moriendi1488():
     path = _root / 'corpora/dutch/DBNL/1488_ars_moriendi/1488_ars_moriendi.csv'
+    return reftext.from_corpus_build_csv(path, language='dutch')
+
+
+@_register('voghelen_vanghen1509')
+def _load_voghelen_vanghen1509():
+    path = _root / 'corpora/dutch/DBNL/1509_voghelen_vanghen/1509_voghelen_vanghen.csv'
+    return reftext.from_corpus_build_csv(path, language='dutch')
+
+
+@_register('ix_quaesten1528')
+def _load_ix_quaesten1528():
+    path = _root / 'corpora/dutch/DBNL/1528_ix_quaesten/1528_ix_quaesten.csv'
+    return reftext.from_corpus_build_csv(path, language='dutch')
+
+
+@_register('excellente_chronijck1531')
+def _load_excellente_chronijck1531():
+    path = _root / 'corpora/dutch/DBNL/1531_excellente_chronijck/1531_excellente_chronijck.csv'
+    return reftext.from_corpus_build_csv(path, language='dutch')
+
+
+@_register('luther_slotelen1531')
+def _load_luther_slotelen1531():
+    path = _root / 'corpora/dutch/DBNL/1531_luther_slotelen/1531_luther_slotelen.csv'
+    return reftext.from_corpus_build_csv(path, language='dutch')
+
+
+@_register('vorsterman_bijbel1531')
+def _load_vorsterman_bijbel1531():
+    path = _root / 'corpora/dutch/DBNL/1531_vorsterman_bijbel/1531_vorsterman_bijbel.csv'
+    return reftext.from_corpus_build_csv(path, language='dutch')
+
+
+@_register('souterliedekens1540')
+def _load_souterliedekens1540():
+    path = _root / 'corpora/dutch/DBNL/1540_souterliedekens/1540_souterliedekens.csv'
+    return reftext.from_corpus_build_csv(path, language='dutch')
+
+
+@_register('ridderlycke_reyse1544')
+def _load_ridderlycke_reyse1544():
+    path = _root / 'corpora/dutch/DBNL/1544_ridderlycke_reyse/1544_ridderlycke_reyse.csv'
     return reftext.from_corpus_build_csv(path, language='dutch')
 
 
@@ -601,9 +671,25 @@ def _load_dutch():
     return _get('dbnl')
 
 
+_DBNL_TEXTS: tuple[str, ...] = (
+    'alexander1477',
+    'souen_wysen1478',
+    'parijs_ende_vienna1487',
+    'arent_bosman1488',
+    'ars_moriendi1488',
+    'voghelen_vanghen1509',
+    'ix_quaesten1528',
+    'excellente_chronijck1531',
+    'luther_slotelen1531',
+    'vorsterman_bijbel1531',
+    'souterliedekens1540',
+    'ridderlycke_reyse1544',
+)
+
+
 @_register('dbnl')
 def _load_dbnl():
-    parts = [(name, _get(name)) for name in ('ars_moriendi1488',)]
+    parts = [(name, _get(name)) for name in _DBNL_TEXTS]
     tklist = [t for _, rt in parts for t in rt.tklist]
     charlist = list(''.join(tklist))
     rt = reftext.RefText('dutch', tklist, charlist)
