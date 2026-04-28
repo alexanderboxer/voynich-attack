@@ -583,6 +583,37 @@ def _load_german():
     return _get('dta')
 
 
+# Ars moriendi 1488 (Peter van Os, Zwolle; DBNL pipeline; TEI Lite source).
+# Anonymous Middle Dutch *art of dying* treatise. Diplomatic transcription
+# preserves period orthography (uu-as-v digraph in `duuel`, `gh-` clusters,
+# `ij` digraph etc.).
+@_register('ars_moriendi1488')
+def _load_ars_moriendi1488():
+    path = _root / 'corpora/dutch/DBNL/1488_ars_moriendi/1488_ars_moriendi.csv'
+    return reftext.from_corpus_build_csv(path, language='dutch')
+
+
+# dbnl: combined RefText across all DBNL-pipeline Dutch texts.
+# Also exposed as `dutch` — `from voynpy.corpora import dutch` yields the
+# full DBNL corpus (same instance).
+@_register('dutch')
+def _load_dutch():
+    return _get('dbnl')
+
+
+@_register('dbnl')
+def _load_dbnl():
+    parts = [(name, _get(name)) for name in ('ars_moriendi1488',)]
+    tklist = [t for _, rt in parts for t in rt.tklist]
+    charlist = list(''.join(tklist))
+    rt = reftext.RefText('dutch', tklist, charlist)
+    rt.df = pd.concat(
+        [p.df.assign(doc=name) for name, p in parts],
+        ignore_index=True,
+    )[['doc', 'idx', 'par', 'line', 'par_end', 'textstring']]
+    return rt
+
+
 @_register('dta')
 def _load_dta():
     parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490', 'crescentiis1493', 'springer1509', 'ellenbog1524', 'tzeen1530', 'almanach1487', 'dracole1488', 'has1490', 'fusspfad1492', 'almanach1492', 'morgener1497', 'gottfried1497', 'rechnungsbuch1500', 'has1500', 'has1516', 'luther_passional1521', 'bucer1521', 'luther1522', 'luther_enchiridion1524', 'luther_elltern1524', 'corvinus1529', 'crosner_sacrament1531', 'crosner_kirchen1531', 'zeyttung1535', 'schnepf1536', 'luther_thesen1557', 'splendorsolis1590')]
