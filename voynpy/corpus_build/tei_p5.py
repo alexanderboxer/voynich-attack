@@ -37,6 +37,16 @@ def _tag(elem) -> str:
     return t if isinstance(t, str) else ""
 
 
+def _find(elem, name):
+    """Find first child with given local-name, namespace-agnostic.
+    Tries TEI-P5 namespace first, then falls back to no-namespace
+    (TEI Lite / TEI.2, used by DBNL)."""
+    found = elem.find(f"tei:{name}", NS)
+    if found is None:
+        found = elem.find(name)
+    return found
+
+
 _PARA_KIND = {"p": "body", "head": "head", "closer": "body"}
 # Atomic paragraph-producing tags: one row per element, no sentence-splitting
 # within. Internal periods are treated as decorative scribal punctuation
@@ -114,7 +124,7 @@ def _inline_text(elem, state: dict) -> str:
         elif ctag == "choice":
             picked = None
             for pref in _CHOICE_PREFER:
-                picked = child.find(f"tei:{pref}", NS)
+                picked = _find(child, pref)
                 if picked is not None:
                     break
             if picked is None and len(child):
@@ -374,7 +384,7 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
         # — otherwise the period plus an uppercase first word in the speech
         # triggers `split_sentences` to break the speaker off into its own
         # row.
-        speaker = elem.find("tei:speaker", NS)
+        speaker = _find(elem, "speaker")
         if speaker is not None:
             spk_text = _post_process(_inline_text(speaker, state)).rstrip(".")
             if spk_text:
@@ -495,7 +505,12 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
                 or _row_is_all_red(cells, state)
             )
             block_type = "head" if is_header else "body"
-            orig = _post_process(_inline_text(child, state))
+            # Join cell text with whitespace so adjacent-cell content stays
+            # word-separated (otherwise e.g. a tune-incipit cell concatenates
+            # directly into a psalm-number cell: "frayv. psalm" instead of
+            # "fray v. psalm" — Souterliedekens 1540 Registere der wijsen).
+            cell_texts = [_post_process(_inline_text(c, state)) for c in cells]
+            orig = " ".join(t for t in cell_texts if t).strip()
             if orig and _letter_count_inline(orig) >= 1:
                 rich = rich_normalize(orig)
                 rows.append(Row(
@@ -528,16 +543,16 @@ def parse_tei(xml_path: str, doc_id: str) -> list[Row]:
     """
     tree = etree.parse(xml_path)
     root = tree.getroot()
-    text_elem = root.find("tei:text", NS)
+    text_elem = _find(root, "text")
     if text_elem is None:
         raise ValueError(f"no <text> element in {xml_path}")
-    body = text_elem.find("tei:body", NS)
+    body = _find(text_elem, "body")
     if body is None:
         raise ValueError(f"no <body> element in {xml_path}")
     counter = {"para_id": 0}
     state: dict = {"page_n": None, "page_seq": 0}
     rows: list[Row] = []
-    front = text_elem.find("tei:front", NS)
+    front = _find(text_elem, "front")
     if front is not None:
         rows.extend(_walk(front, doc_id, counter, state))
     rows.extend(_walk(body, doc_id, counter, state))

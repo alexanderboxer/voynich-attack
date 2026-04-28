@@ -48,17 +48,24 @@ def to_latin0(s: str) -> str:
 def rich_normalize(s: str) -> str:
     """Lowercase; keep Unicode letters + all combining marks + whitespace.
 
-    Virgule `/` is replaced with space to preserve word boundaries; all other
-    punctuation is dropped. Glyphs are preserved as-is — no transformation
-    of scribal forms (e.g. `uͤ` stays as u+U+0364, NOT folded to `ü`).
-    Letter-transformation rules (umlaut folding, titulus expansion, etc.)
-    are applied by `simple_normalize`, not here.
+    Virgule `/` and period `.` are replaced with space to preserve word
+    boundaries; all other punctuation is dropped. Glyphs are preserved
+    as-is — no transformation of scribal forms (e.g. `uͤ` stays as
+    u+U+0364, NOT folded to `ü`). Letter-transformation rules (umlaut
+    folding, titulus expansion, etc.) are applied by `simple_normalize`,
+    not here.
+
+    Period→space matters for chronicle / calendar texts where dates are
+    written with internal periods like `iaer.iiijc.ende.iiij.na` (= "year
+    4 hundred and 4 after"). Without this rule the parts would glue into
+    `iaeriiiicendeiiiina`. Sentence-final periods at the end of a row
+    don't gain anything visible because trailing whitespace is stripped.
     """
     if not s:
         return ""
     s = unicodedata.normalize("NFC", s).lower()
-    # Virgule becomes a space so words on either side don't collide.
-    s = s.replace("/", " ")
+    # Virgule and period become spaces so words on either side don't collide.
+    s = s.replace("/", " ").replace(".", " ")
     out = []
     for ch in s:
         # `&` (ampersand) and `⁊` (U+204A, Tironian et) are
