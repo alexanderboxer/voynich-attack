@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Von den Fallstricken etlicher newer Sacramentschwermer zu Wittenberg, im newen Bekentnis, listiglich verstecket, die Welt damit zuberücken und zuverführen</title>
+<title type="sub">Erinnerung und Warnung</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116187263">
+<surname>Kirchner</surname>
+<forename>Timotheus</forename>
+</persName>
+</author>
+<author>
+<persName ref="http://d-nb.info/gnd/117383317">
+<surname>Wigand</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+<author>
+<persName ref="http://d-nb.info/gnd/118639595">
+<surname>Hesshus</surname>
+<forename>Tilemann</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/149-11-theol-5s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/149-11-theol-5s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">80</measure>
+<measure type="tokens">11705</measure>
+<measure type="types">2968</measure>
+<measure type="characters">77912</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:30:44Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Distributed under the Creative Commons Attribution-ShareAlike 3.0 Generic (German) License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/kirchner_fallstricke_1572</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/kirchner_fallstricke_1572</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/kirchner_fallstricke_1572</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/kirchner_fallstricke_1572</idno>
+<idno type="DTADirName">kirchner_fallstricke_1572</idno>
+<idno type="DTAID">30072</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30072-1</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Kirchner, Johann u. a.: Von den Fallstricken etlicher newer Sacramentschwermer zu Wittenberg, im newen Bekentnis, listiglich verstecket, die Welt damit zuberücken und zuverführen. Erinnerung und Warnung. Jena, 1572.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Von den Fallstricken etlicher newer Sacramentschwermer zu Wittenberg, im newen Bekentnis, listiglich verstecket, die Welt damit zuberücken und zuverführen</title>
+<title level="m" type="sub">Erinnerung und Warnung</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116187263">
+<surname>Kirchner</surname>
+<forename>Timotheus</forename>
+</persName>
+</author>
+<author>
+<persName ref="http://d-nb.info/gnd/117383317">
+<surname>Wigand</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+<author>
+<persName ref="http://d-nb.info/gnd/118639595">
+<surname>Hesshus</surname>
+<forename>Tilemann</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher/>
+<pubPlace>Jena</pubPlace>
+<date type="publication">1572</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<pb facs="#f0001"/>
+<front><titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b"><hi rendition="#in">V</hi>on den</hi><lb/>
+<hi rendition="#aq">FALLSTRICKEN</hi><lb/>
+<hi rendition="#b"><hi rendition="#in">E</hi>tlicher newer <hi rendition="#in">S</hi>a-</hi><lb/>
+crament&#x017F;chwermer zu Wittenberg /<lb/>
+im newen Bekentnis / li&#x017F;tiglich ver-<lb/>
+&#x017F;tecket / die Welt damit zuberücken<lb/>
+und zuuerfüren.</titlePart></docTitle><milestone rendition="#hr" unit="section"/><lb/>
+<titlePart type="desc">Erinnerung und Warnung/<lb/>
+Durch die Theologen<lb/>
+zu Jhena.</titlePart><lb/>
+<milestone rendition="#hr" unit="section"/> <docImprint>Gedruckt zu <pubPlace>Jhena</pubPlace><lb/>
+<milestone rendition="#hr" unit="section"/><hi rendition="#aq"><hi rendition="#i">Anno</hi> </hi><docDate><hi rendition="#aq"><hi rendition="#i">M.D.LXXII.</hi></hi></docDate></docImprint></titlePage></front>
+<body>
+<div>
+<pb facs="#f0002"/>
+<pb facs="#f0003"/>
+<head>Von den FALLSTRICKEN Etlicher newer Sacramentschwermer zu Wittenberg / im
+newen Bekentnis listiglich verstecket / die Welt damit zuberücken vnd
+zuuerfüren.</head><lb/>
+<head>Erinnerung vnd Warnung.</head><lb/>
+<p>DEr Bapst zu Rom / hat die se Autoritet vnnd ansehen in der gantzen Christen heit
+auff Erden haben wollen / Was er redete / setzete / ordnete / ausschriebe /
+geböte / solte kein En gel im Himel oder Mensche auff Erden macht haben
+zustraffen / vnd da er gleich / wie seine Drecket brüllen / vnzeliche Seelen in
+Abgrund der Hellen fürete / solte doch niemand sagen / Papa, quid facis? Ey
+Bepstlin / was machstu da? Was gibstu für? Was rich testu doch an?</p>
+<pb facs="#f0004"/>
+<p>AVff solche weise hat er etliche hundert jar / mit grausamer gewalt /
+vnmenschlicher hoffart / vnd schrecklichen straffen / mit Bann vnd
+blutfliessenden Kriegen / viel hundert tausent Seelen vntergedrucket / vnd allen
+Mutwillen geübet.</p>
+<p>ABer der man Gottes D. Luther / ist der Clamant vnd ruffende Engel gewesen /
+welcher aus der Bibel geschrien / vnd in die gantze Welt verkündigt / das ein
+jedlicher Christe / one alle vnterscheid der Personen / guten fug / recht /
+macht vnd gewalt habe / allerley lere / die man in der Welt höret / lieset /
+vernimpt / nach der geraden Richtschnur des Göttlichen Worts zu vrteilen vnd
+zurichten / das böse freidiglich zu verwerffen / vnd das gute zu loben. Wie S.
+Paulus spricht / prüfet alles / das gute behaltet. 1. Thessal. 5.</p>
+<p>WEil denn solche freiheit / recht / vnd macht / der gantzen Christenheit auff
+Erden / aus Gottes sonderlichen gnaden widerumb zugestellet ist / der ewige /
+allmechtige vnd barmhertzige Gott / hab dafür lob vnd danck / so wird vns kein
+Christ in der gantzen Welt verdencken können oder sollen / das wir von dem new
+geschmiedeten / vnd in
+<pb facs="#f0005"/>
+die Welt
+ausgestreweten Bekentnis / etlicher Sacramenschwermer zu Wittenberg / vnsere
+Christliche / nothwendige / vnnd in Gottes Wort wol gegrünte Erinnerung vn&#x0303; Warnung thun / vnd das helle liecht / den ein fallenden
+finsternissen entgegen setzen.</p>
+<p>DEnn es ja nicht mehr ein heimlich / verborgen oder versiegelt Bekentnis /
+sondern ist nun / Gott sey es geklaget / leider durch den druck mit sonderlichem
+pracht / als soltens zwo Vniuersiteten / drey Consistoria / vnnd viel
+Superintendenten / derer keiner doch mit Namen gesetzet wird / zusamen bracht ha
+ben / in den Acker des HERRN ausgeseet / schweiffet herumb / vnd thut nicht
+geringen schaden / dem lieben Gotte an seinen Eheren / seinem Worte an seiner
+Warheit / vnnd den Schefflin Christi an jrhem höhesten schatze / dem Testament
+jhres einigen Heilands vnd Seligmachers Ihesu Christi.</p>
+<p>WIewol wir aber bisher bey etlichen / mit vnseren Christlichen vnd trewen
+Erinnerungen vnd Warnungen / nicht allein keinen danck / Sondern auch nur mehr
+zornige vnd vnmenschliche schmehungen vnd leste rungen / nach alter gewonheit /
+verdienet / je-
+<pb facs="#f0006"/>
+doch weil wir
+gewis / Gottlob / wissen / das vnser arbeit / bey vielen fromen Christen /
+welche noch hin vnd wider Gott erhelt vnd hat / im HErrn nicht vergebens gewesen
+/ Müssen wir auch dismal solche vnsere Schrifft wider die einreissende Irrthume
+gerichtet / vnserm lieben Gotte befehlen / vnd demselben zu ehren / auch guten
+einfeltigen Christen / welchen als wir hoffen hiemit gedienet wird / zu nötiger
+vnterrichtung / die grewlichen lester vnd schmeewort / des gegen teils / gerne
+vber vns gehen lassen.</p>
+<p>DEnn wir mit gutem Gewissen für Gott vnd allen Christen sagen können / das wir
+keiner Person zu lieb oder leid / solche erinnerunge vnd Warnungsschrifft lassen
+ausgehen / Sondern alleine das wir aus gantzem hertzen gerne wolten / das die
+Göttliche Lehre welche wir von Gott / durch vnd von seinem trewen Diener D.
+Luther empfangen / reine vnd vnuerfelscht behalten / vnd auff die Nachkomen
+gebracht werden möchte.</p>
+<p>IHesus Christus vnser Ertzbischoff vnnd Seligmacher / gebe seinen heiligen Geist
+/ der vns in alle Warheit leite / vnd von
+<pb facs="#f0007"/>
+aller vnwarheit abführe / auff das
+wir alleine bey jme bleiben / vnd aller frembden Hirten Schwermerey vnd Irrthume
+/ sie sind des Bapsts / des Türckens / der Sacramentschender / Schwenckfelder /
+Seruetianer / Arrianer / Antinomer / Interimisten / Adiaphoristen / Synergisten
+/ Maioristen / Enthusiasten / Widerteuffer / Manicheer oder wie sie alte oder
+newe namen haben / fliehen vnd meiden mögen / Amen.</p>
+<p>DAmit aber die einfeltigen / denen wie gesagt / wir hiermit fürnemlich dienen /
+alles durch Gottes gnade desto klerer sehen / vnd leichter nach Gottes Wort
+vrteilen mögen / wollen wir erstlich in gemein etliche punckten zuer wegen
+geben.</p>
+<p>DArnach auch in sonderheit die Fallstricke / zur betriegerey vnd berückung der
+einfeltigen / oder derer / welche Gott sonsten / nach seinem zornigen Gerichte
+mit blindheit schlecht / weil sie die offenbare Warheit nicht wollen annemen /
+mit sonderlichen / grossen geschwinden liesten zugericht / so viel der liebe
+Gott Gnade gibt / gleich als mit fingern anzeigen vnd weisen.</p>
+<pb facs="#f0008"/>
+</div>
+<div>
+<head>In gemein Erinnerung.</head><lb/>
+<p>VNS ist gar kein zweiuel / viel Gottliebende vn&#x0303; verstendige Chri
+sten / werden in dem newen etlicher Wittenberger ausgegangenen Bekentnis /
+darein sie listiglich auch andere einmengen / viel dinges selbst sehen / welches
+der alten vorigen richtigkeit in Religions sachen / welche bey leben D. Martini
+Lutheri seliger / breuchlich / vnd der gantzen Christen heit heilsam war / nicht
+gemes vnd gleichför mig sind. Damit aber die einfeltigen auch erinnert / vnd für
+abfall vnnd lesterungen gewarnet werden / So mögen sie auffdiese stücke in
+gemein achtung geben.</p>
+<p>ERstlich erscheinet aus der newen Bekentnis / gantz vnnd gar keine Busse / keine
+nachlassung der Sünden / keine enderung / ja sie verachten trötziglich vnd
+hochmütiglich alle erinnerung vnd vermanung / welche jnen von vielen
+Christlichen Lerern in vi elen fürnemen Kirchen / mit wolgegründe-
+<pb facs="#f0009"/>
+ten Schrifften bisher
+geschehen / vnd wollen also gantz vnd gar / kein straucheln / keinen fall /
+weder zu des Interims zeiten / noch mit dem Sacramentschwermerischen Catechismo
+/ vnd andern vnreinen Büchern gethan / erkennen / Bleiben derwegen one alle er
+kentnis jhrer Sünden / ohne alle bekehrung / mit schrecklicher hartneckikeit vnd
+ver bossung in allen jren falschen Leren vnnd Sünden / da doch die gantze
+Christenheit numehr weis / wie man zu des Interims zeit / aus fleischlicher
+Schwacheit / vnd des Teufels antreiben / auch hernacher / vnd jtzt im vnreinen
+Schwermerischen Catechismo / vnd andern Büchern mehr / gröblich angelauffen / zu
+weit gangen / vnd in der Sacramentirer Schue vnd Schulen getretten D. Luther
+schreibt auch von den Sacramentschendern / sonderlich von den Lerern / das sie
+nicht zu bekehren</p>
+<p>SOlches ist ja billich zubeklagen / vnd nichts guts dabey zu hoffen. Denn Gottes
+zorn vnd Straffen / damit geheuffet werden.</p>
+<p>FVrs ander / bitten sie vnd richten den Spies wider jre trewe vermaner / welche
+<pb facs="#f0010"/>
+jhrer Seelen Heil / Gottes ehre /
+vnd der Kirchen Wolfart gesuchet / Vnd dürffen schreiben / sie wollen dieselbe
+für jedermenniglich / wie jhre wort lauten F. 1. billich beschüldigen / als die
+wieder die Warheit noch den Frieden suchen. So recht / Fuchs Reinicke / du bist
+from / Aber welche deine böse thaten beschüldigt haben / sind vnrecht. Gleicher
+gestalt hat der Wolffrecht welcher das Schefflin beklagt / vnnd auffrass / als
+welches jme das Wasser hette betrübt / Er aber hette reinen Mund vnd Klawen /
+vnd sein lebenlang nie was böses begangen. Also ist D. Luther stets von den
+Bepstischen grewlich angeklagt / als der die gantze Chri stliche Kirche hette
+turbiret vnd verunruiget / wie auch Christus vnd die Aposteln zu jrer zeit von
+den Phariseern beschüldiget wurden. Item die Sacramentschwermer haben stets
+geschrien / D. Luther richtet Trennung vnd Lermen an / der jrrete vom Testament
+des HERRN / vnd nicht sie.</p>
+<p>Fürs dritte / Canonisirn vnd verteidigen sie jhren vnreinen / falschen /
+verfürischen Catechismum / vnd jhre Grundsuppe aller Sacramentschwermerey / vnd
+setzen sie mit-
+<pb facs="#f0011"/>
+ten in die
+Schulen der Kinder / auff den Stuel vnd Catheder / aller Christlichen reinen
+Kirchen vnd Lerer Erinnerung / Warnung / bitten / zu entgegen vnd zuwider / Prei
+sen jre Sünde / wie die zu Sodom vnd Gomorra / Vnd wollen fürsetzlich junge
+Sacra mentschwermerlein auffziehen / vnd die kleinen Kinder auch mit jhrem
+Ergernis erfüllen / Gott gebe / Gottfürchtige Eltern / so für jhre Kinder vnd
+Nachkomen hertzlich bekümmert sind / sagen oder weinen darzu / was oder wie sie
+wollen / vnd fragen nach dem grossen Mülsteine / damit Christus solchen Ergernis
+Stifftern / so ernstlich getrawet / weniger dann nichts. Denn sie habens jhnen
+in den sinn genomen / vnd fürgesagt / es sol also fortgehen / vnd durchreissen /
+Gott erbarm sich darüber / vnd wehre.</p>
+<p>FVrs vierdte / Antworten sie nicht fein directe / gerade vnd klar auff die
+Heuptpuncten in dieser hochwichtigen Sachen / vom Testament des HERRN / Sondern
+vb springen die vornemesten Puncten / dauon sie jtziger zeit beide jhr Be-
+<pb facs="#f0012"/>
+kendnis thun / vnnd frome /
+Gottselige Hertzen / die nach der Göttlichen Warheit seufftzen vnd dürsten / als
+lerer / solten berichten / Vertuschen viel dings / vnd gehen in summa nicht auff
+richtigem fusse / der Warheit vnter augen / wie D. Luther vnd andere im anfang
+des Euangelij gethan / dauon hernach weiter.</p>
+<p>FVrs fünffte / Es sind die Wort in dieser newen Bekentnis / mit sonderlicher list
+/ kunst / vnd behendigkeit / auff gut Sacramentirische weise / gesetzt / das die
+Sacramentschwermer wol damit können zu frieden sein / vnd dieselbe auff jhre
+vnrechte meinung ziehen / Einfeltige Christen aber auch sich bedüncken lassen /
+als lereten sie recht. Etliche aber darüber bestürtzt vnd jrre werden / vnd
+wissen nicht / wie sie es recht verstehen sollen / so verdrehet / so verbrochen
+/ so verzwickt / so verwirret ist es alles / vnd auff schrauben gesetzt / auff
+gut Cothurnische vnd betriegliche weise / das man ja vnd nein / Lügen vnnd
+Warheit daraus auff vnd nider zwengen vnd lencken kan / wie denn aller Be
+trieger vnd verführer art vnd eigentschafft ist.</p>
+<pb facs="#f0013"/>
+<p>FVrs Sechste so werden der Sacramentschwermer gründe / darauff sie jhre falsche
+Lere bawen / erstmals heimlich / darnach auch offentlich genugsam / mit
+eingeschoben / auff das sie also jmer allgemach mögen vortschreiten / vnd das
+gantze Sacramentschwermische gebew darauff setzen vnd auffrichten.</p>
+<p>FVrs siebende / Mercke die alte gewonheit der Sacramentschender / Das sie zum
+schein etwas geben / welches sie darnach wider nemen.</p>
+<p>OB nun solche stücke auffrichtigen / warhafftigen / trewen Deudschen Dienern des
+Göttlichen Worts zustehen / kan ein jeder Christe / welcher Gott / die Warheit /
+vnd seiner Seelen Seligkeit von hertzen liebet / leicht vrteilen. Aber wir
+müssen die Fallstricke in sonderheit fein richtig / deutlich vnnd klerlich
+anzeigen / ob etliche der Lerer / oder auch derer / welche sie bethöret /
+möchten durch Gottes Gnade die augen auffthun / vnd frome hertzen gewarnet
+werden.</p>
+<pb facs="#f0014"/>
+</div>
+<div>
+<head>Von den Fallstricken in sonderheit.</head><lb/>
+<head>Dieses sind aber die sieben bösen / ja freylich bösen vnd schedliche
+Fallstricke.</head><lb/>
+<head>I.</head><lb/>
+<p>DAs die Lere vom Abendmal des Herrn nicht richtig ist erklert.</p>
+</div>
+<div>
+<head>II.</head><lb/>
+<p>DAs Luther jtzt nur zum schein vnd allein betrieglicher weise angezogen wird.</p>
+</div>
+<div>
+<head>III.</head><lb/>
+<p>Das sie nicht richtig sich auff Schrifften beruffen.</p>
+</div>
+<div>
+<head>IIII.</head><lb/>
+<p>DAs sie nur zum schein etliche Sacramentirer verwerffen.</p>
+<pb facs="#f0015"/>
+</div>
+<div>
+<head>V.</head><lb/>
+<p>DIe Veter listiglich anziehen.</p>
+</div>
+<div>
+<head>VI.</head><lb/>
+<p>DIe ordnung der Sachen vmbkeren.</p>
+</div>
+<div>
+<head>VII.</head><lb/>
+<p>FElschlich fürgeben / als führeten sie nur einerley Form der Lere.</p>
+</div>
+<div>
+<head>Der I. Fallstrick.</head><lb/>
+<head>DAs die Lere vom Abendmal des HERRN / nicht richtig im newen Bekentnis ist
+erkleret.</head><lb/>
+<p>MAN lieset von den Arrianern das sie jmmer eine Bekentnis vber die ander
+geschmiedet / vnd doch alle so listig vnd verschlagen gestellet gewesen / das
+die rechgleubende Christen / nicht haben können damit zu frieden sein /
+<pb facs="#f0016"/>
+Alldieweil sie nicht auffrichtig /
+klar / vnd der Warheit gemess geschehen. Also hat bisher D. Maior eine
+vnrichtige vnd wetterwendische Bekentnis / seiner jrrigen meinung / nach der
+andern gethan / Aber nichts damit anders bey der Kirchen Christi ausgerichtet /
+denn das er sein vnbusfertig Hertze / desto mehr an tag gegeben vnd bekant
+gemacht.</p>
+<p>GLeicher gestalt tregt sich jtziger zeit mit den newen Sacramentschwermern in Wit
+tenberg auch zu / das sie eine Bekentnis / Klerung / Deutelung vber die andere
+heraus bringen vnd auswerffen / welche je lenger je mehr vor der gantzen
+Christenheit bezeugen / das sie in der Sacramentierer Schwer merey / bey sich
+selbst vnd andere desto mehr einwickeln vnd verwirren.</p>
+<p>DEnn das sie solches fürsetzlich vnd muts willens fürhaben / beweisen sie mit
+einem vnchristlichen Fallstrick / denen sie andern fürstellen / vnd damit viel
+leute in die Wolffsgruben fellen / vnd berücken wollen / vnd stehet derselbe
+falsche Fallstrick darinnen:</p>
+<p>ERstlich / das sie nicht fein klar / auffrich
+<pb facs="#f0017"/>
+tig / deutlich / auff die
+Heuptpuncten des Abendmals des Herrn / wie sie jtziger zeit in der Kirchen
+Christi bekant / zur Bekentnis gehörig / vnd allen argwohn von sich abzuwenden
+nötig / jre Schrifft richten.</p>
+<p>DEnn sie sind von andern vnterrichtet / da sie es ja nicht verstande&#x0303; / auffgeweckt / da sie ja so hart geschlaffen / ermahnet / da sie ja so faul
+vnd hinlessig / gebeten / da sie ja selbst nicht gewolt / das sie fein klar /
+richtig / deutlich / nicht mit halben maul / oder verschraubeten vnd
+zweyzüngigen worten / auff die Heuptpunct wolten antworten / vnnd nicht die
+gantze Christenheit auff Erden / affen vnd narren / vnd Gottes im Himel darzu /
+wie eines tockenmenlins spotten.</p>
+<p>DIe Heuptpunckten aber / darauff sie eigentlich vnd klar solten jre Bekendtnis
+vnd antwort richten / wie sie auch derer zuuorn sind erinnert worden / sind
+diese.</p>
+<p>OB da im brauch des heiligen Abendmals des Herrn / mit vnd vnter dem Brot vn&#x0303; Wein / der ware / wesentliche / gegenwertige natürliche Leib vnd
+Blut Christi / wie die wort Christi lauten / ausgeteilet vnd empfangen
+werden</p>
+<pb facs="#f0018"/>
+<p>OB der Leib vnd das Blut Christi / jtzt nach der Himelfart / allein im Himel sey
+vnd bleibe bis an Jüngsten tag / vnd nicht allenthalben auff Erden zugleich / wo
+sein Abendmal nach seinem Wort gehalten wird / wesentlich / warhafftig /
+gegenwertig vnnd da sey / Sondern wie Beza vnd die andern Sacramentirer klar
+heraus schreiben vnnd sagen / das die Menschliche Natur so weit vom Abendmal sey
+/ als der Himel von der Erde.</p>
+<p>OB nicht alleine mit dem Glauben / sondern auch mit dem Munde / der ware /
+Wesentliche / Natürliche / gegenwertige Leib Christi empfangen werde?</p>
+<p>Ob sie rund vnd klar verdammen / die da sagen / man empfahe nicht mit dem Munde
+den waren / Wesentlichen / Natürlichen / gegenwertigen leib Christi?</p>
+<p>OB man das <foreign xml:lang="el"><gap reason="fm"/></foreign>, die wort / Das ist mein Leib / Das ist mein
+Bluth / steiff vnd feste behalten vnd verteidigen sol / vnd dagegen
+Carolostadij, Oecolampadij, Cinglij, Bullingeri, Caluini, Bezae vnd der andern
+significat, figuram, typum, das ist falsche glossen / als bedeute es nur den
+Leib / es sey ein zeichen des Leibs /
+<pb facs="#f0019"/>
+der doch nicht aldar verhanden / verdammen?</p>
+<p>OB die vnwirdigen im brauch des Abendmals / eben so wol den waren / wesentlichen
+/ gegenwertigen Leib Christi / doch zu jhrem Gerichte essen / als die wirdigen
+zum leben?</p>
+<p>OB die Streitbücher D. Luthers wider die Sacramentschwermer / seien warhafftig
+vnd bestendig / vnnd ob sie dieselben von Hertzen annemen / loben / vnd als jhr
+eigen Bekendnis wider die Sacramentschender wollen halten / vnnd einerley
+Bekendnis wider sie füren?</p>
+<p>DIeses sind nicht fürwitzige oder vnnötige fragen / wie die vngenanten im newen
+falschen Bekendtnis freuelhafftig lestern / vnnd die Leute in jhre Fallstricke
+zurücken vnnd einzuwickeln / sich mit listigen worten vnterstehen / Sondern
+darinnen ligt vnnd stehet heutiges tages / Da man vom Abendmal des HERRN in der
+Christenheit streitet / das Bekendnis / vnnd der eigentliche Bericht. Da sol
+vnnd mus man Christum vnd Belial / Warheit vnd Lügen / Luther vnnd den
+Sacramentschwermerischen
+<pb facs="#f0020"/>
+hauffen /
+Carlstadt / Zwingel / Oecolampad / Bullinger / Caluinum / Bezam / Boquinum / vnd
+andere von einander scheiden / des vnd kein anders / Denn Gott leret in seinem
+Wor te / das man die widersprecher der Göttlichen Warheit / sol widerlegen / vnd
+jhnen den mund stopfen / vnd schlechter dinge die vnbusfertigen vnter das
+Anathema, das ist / vnter den fluch vnd verdammung setzen. Tit. 1. Galat. 1.
+Denn das Gerichte ist Gottes des Allmechtigen selbst / der wils also haben.</p>
+<p>FVrs ander / das sie gantz vnd gar auff der Sacramentschwermer schlag vnd art /
+nur eine listige / verschlagene / verdrehete General / das ist / gemeine rede
+füren / vnd das da nötig darzu gehörete / aussen lassen / Als das sie sagen /
+das der HErr Christus in dieser Ordnung seines heiligen Abendtmals / warhafftig
+/ lebendig / wesentlich vnd gewis gegenwertig ist / Also / das er seinen waren
+Leib für vns am stam des Creutzes auffgeopffert / vnd sein wares Blut vor vns
+vergossen / mit Brod vnd Wein in diesem Sacrament vns giebet.</p>
+<p>ITem / darinnen der HErr Christus / vns mit den eusserlichen / sichbaren
+Symbolis,
+<pb facs="#f0021"/>
+als nemlich mit Brot vnd
+Wein / gewislich seinen warhafftigen Leib vnd Blut / gegenwertig gibet vnd
+mitteilet. Haec illi.</p>
+<p>WEnn nun ein einfeltiger Christe vber diese Wort kömpt / so sol er wehnen / die
+Vogelsteller meinen es sehr guth / pfeiffen wie die rechten Vögel / vnd wollen
+den andern Waldt Vögelein alles guts leren vnd thun. Aber da ligt der Fallstrick
+verborgen in deme:</p>
+<p>DAs sie nicht mit einem einigen wörtlein dabey sagen / ob denn der Leib vnd Blut
+Christi nur im Himel sey / vnd behalten wer de / wie Caluinus / Beza vnd andere
+felschlich leren / oder aber / ob derselbe Leib auch auff Erden zugleich an
+vielen orten / da sein heiligs Abendmal nach seiner einsetzung gebraucht wird /
+gegenwertig vnd warhafftig alda sey / vnd derselbe gegenwertige Leib / nicht
+alleine mit dem Glauben / Sondern auch mit dem Munde empfangen / vnd nicht
+allein von Wirdigen / Sondern auch von Vnwirdigen gessen werde. Das sie nun
+solches alles vberspringen / verschweigen vnd vertuschen / das ist ein
+betrieglicher fallstrick der falschen Lerer.</p>
+<pb facs="#f0022"/>
+<p>GLeich solche betriegerey vnd tücke vnter gemeinen rede&#x0303; / brauchen
+die andern Sacramentschwermer heutiges tags / mit grosser vnuerschampter
+listigkeitwie diese newe&#x0303; Sacramentirer / dz mancher
+darauffschwüre / sie weren mit D. Luther vnnd vns gantz vnd gar gleichstimmend
+vnd einig / damit sie die leute betriegen / vnd vnsers HErrn Gottes vnd seiner
+Kirchen fürse tzlich vnd bösslich spotten.</p>
+<p>HEisset das nun nicht eine Engels laruen für sich nemen / vnnd einen Schaffspeltz
+anziehen / vnnd dahinter den ergesten feind des Testaments des HErrn / vnd alle
+zeene / klawen / hals / bauch vnd peine / des reissenden / schedlichen
+Sacramentschwermerischen Wolffs / in den Schaffstall Christi ein schleiffen /
+vnnd in summa / mit dem Abendmal des HERRN eine Geuckeley treiben / vnnd wie D.
+Luther schreibet / Mum Mum sprechen / vnd darnach in den Mund geben / was den
+Geucklern gefellet? Matthei 7. 2. Corinth. 11.</p>
+<p>Fürs dritte / wie die Sacramentschender allzeit gethan / dz sie zum schein mit
+worten sich stellen / als geben sie viel vnd nemens
+<pb facs="#f0023"/>
+doch darnach wider hinweg / wie D.
+Luther drüber klagt / Also thun diese junge Schülerlin auch.</p>
+<p>Caluinus vnnd Beza schreiben fein daher / das im Abendmal warhafftiglich vnnd
+gegenwertig der Leib vnnd Blut Christi da sey / ausgeteilet vnd empfangen werde
+/ Vnd das nicht blosse oder ledige zeichen nur da sein. Aber nicht fern hernach
+setzen sie / das Christi Leib vnd Blut so ferne vom Abendmal sey / als Himel vnd
+Erden. Heisset das nicht redlich mit einer Hand geben / vnd mit der andern wider
+nemen? Die Kinder spielen vnter sich bisweilen also / das sie einem einen Apffel
+darbieten / vnnd ziehen jhn bald wider zu rücke / vnnd zeigen jhme den daumen
+zwischen den fingern / daher sie pflegen zu schreyen / Nemers / Gebers / Aber
+hie ist es nicht vmb Epffel oder Pirn zu thun / Sondern vmb den werden Leib /
+vnd vmb das thewre Blut vnsers HErrn Ihesu Christi / daran vns allen vnsere
+ewige Selig keit gelegen. Das man nun den selben Leib / vnd dasselbe Blut /
+vnsers einigen allerliebsten Seligmachers / vns im Testament mit klaren worten
+vermachet vnnd bescheiden /
+<pb facs="#f0024"/>
+mit
+etlichen worten vns geben wil / vnd bald doch widerumb vns nicht geben / sondern
+entrücken / vnd allein droben in dem Himel ein vnd verschliessen wil / das sind
+nicht geringschetzige betriegereien.</p>
+<p>ALso thun auch diese newe / doch vngenante Sacramentschwermer / weil sie jhre
+namen verbergen / welche betrieglich mit der Christenheit vmbgehen / vnd mit
+jhren gemeinen vnd aufflistigliche Schrauben gesetzte reden / den Leuten das
+maul auffsperren / mit einem grossen Schein / als solte da Christi Leib vnd Blut
+warhafftig vnd gegenwertig mitgeteilet werden. Aber in des verstecken sie hin
+vnd wider die gegenlere der Sacramentschwermer / nemlich / das solches nicht der
+Menschlichen natur in Christo eigne vnd zugehöre / an vielen orten zugleich auff
+Erden zu sein / vnd bawen jmerdar / doch sol es vnuermerckt zugehen / vorher /
+wie man hienauff sol fahren mit dem Glauben in Himel / etc.</p>
+<p>DArnach aber / da sie nach jrem bedüncken eine grosse Mundsperrung angerichtet /
+das alle Narren sollen meinen / sie sind mit Luthers vnd vnserer Rechtgleubenden
+Chri
+<pb facs="#f0025"/>
+sten Lere einig / so faren sie
+in den letzten Wettern / wie sich denn der Teuffel nimermehr gantz vnd gar
+bergen kan / er mus jrgendt ein lang Ohre oder Klawen heraus kucken / vnd sehen
+lassen / heraus / vnd setzen frey vnuer holen / vnd schlagen auch mit grosser
+vngestümi keit heraus / das der Leib Christi nicht könne an vielen orten
+zugleich auff Erden sein / vnd wissen nicht / wie sie spötlich / verechlich /
+schimpfflich / solches auslestern vnd verdam men sollen / das die Christenheit
+leret vnd gleubet / das Christi Leib vnd Blut auff erden sein könne / vnd sey /
+dahin er sich in seinem gewissen vnd klaren worte gebunden / vnd verpflichtet da
+zu sein / als in seiner Kirchen / vnd im Abendmal des HErrn.</p>
+<p>LIeber Christ / sind das nicht Nemers Gebers? Heisset das nicht alle Christen
+auff erden fein betrogen / ja geaffet vnd genarret? Was hat? Was empfahet jr
+denn im Abend mal des HErrn lieben Christen / sintemal diese junge&#x0303; Sacramentschwermerlin deutlich sagen / das Christi Leib vnd Blut / nicht
+könne auff einmal auff erden in vielen ortern in der Warheit sein? Je / haben
+sie doch zuuor grosse geschwulstige / prechtige / viel
+<pb facs="#f0026"/>
+wort gemacht / das der ware
+wesentliche Leib Christi im Abendmal gegeben vnd mitgeteilet wird? Ja lieber
+Christ / höre dargegen den ausgang vnd beschluss / daran allezeit am meisten
+gelegen? Du wirst betrogen / es ist nichts. Denn diese verkehrer vnd betrieger
+sagen zum end vrteil / das Christi Leib vnd Blut nicht könne auff Erden zugleich
+an vielen ortern sein. Was hastu denn im Abendmal? Christi Leib vnnd Blut kan
+nicht an allen örten der Welt / wie sie sagen / da sein. So behelstu der
+Sacramentschwer mer hülsen / Brot vnnd Wein / vnd Zeichen des abwesenden Leibs
+vnd Bluts Christi / Aber derselben Frucht wollen sie dir nur alleine lassen.</p>
+<p>Da vrteile nun lieber Deudscher Christen mensch / ob diese Theologi recht
+auffrich tig mit vns vmbgehen? Woher lernet man denn solches? Antwort? Fragstu?
+von den Frantzhosichen Caluino vnd Beza / von denen lernen sie solche
+betriegereien. Gott erbarm sich drüber vnd wehre.</p>
+<p>Heisset nun sich das gut Lutherisch erkleret? Ach Herrgott nein / Sondern es
+heisset sich auff gut Caluinische / Bezische
+<pb facs="#f0027"/>
+Schwermerische weise erkleret / vnd
+D. Luthers Lere mit füssen getretten / die Christenheit genarret / vnd Gottes im
+Himel gespottet.</p>
+<p>Aber höre noch mehr Fallstricke / vnnd verdackte vogels netze.</p>
+</div>
+<div>
+<head>Vom II. Fallstrick.</head><lb/>
+<head>Das man D. Luthers Nahmen vnd Schrifft / nur zum Schein vnnd betrugk
+anzeucht.</head><lb/>
+<p>ES ist Gott lob vnd danck D. Luthers Lere vnd namen / in der ware&#x0303;
+Kirchen Ihesu Christi noch vnuorgessen / vnnd wissen alle frome Christen / was
+der Man Gottes in dem Artickel vom Abendmal des Herrn / das wir anderer auff
+dismal geschweigen / nicht alleine wider des Bapsts Grewel vnd verkehrung /
+sondern auch wider die Sacramentschender geleret vnd gestritten / vnnd gedencken
+jnen denselben edlen vnd hohen Schatz / welchen er jnen gelassen vnd treulich
+beuohlen / nicht nemen zulassen.</p>
+<pb facs="#f0028"/>
+<p>NVn mercken das die jungen vnd newen Sacramentschwermerlein zu Wittenberg sehr
+wol / das es jnen nicht einen geringen stos wil geben / das sie auch in der Lere
+vom Abendtmal des HErrn / wie in etlichen andern hohen Ler puncten / vom Luthero
+offentlich abfallen / Derwegen die Leute zubetriegen / zuthören vnd zu narren /
+füren sie den namen Lutheri noch im kalten maule / da das Hertz weit von ist /
+vnd gedencken ja auch mit gezwengter feder vnd zunge / seiner Schrifften /
+souiel es jnen gelüstet / vnd mitler weile so tretten sie im Grunde vnd in der
+Warheit / D. Luthers lere in den koth / verhönen / verlachen / verdammen sie
+auff das aller schendlichst.</p>
+<p>ALso mus D. Luthers name vnd Lere / diesen Sacramentschwermerlein / zu eitel
+Springkelen / Schleiffen / Vogelsnetzen werden / das sie die albern /
+einfeltigen oder auch vnwissende / vnuerstendige Leut mit D. Luthers namen /
+mitten in den Sacrament schwermerischen schlam vnd vnflath hinein füren / vnd
+ins tieffste versencken. Diese Fallstricke müssen wir ein wenig auffdecken / Wer
+augen zusehen hat / der sehe / wer ohren zu hö ren hat / der höre.</p>
+<pb facs="#f0029"/>
+<p>ERstlich hat man D. Martini Luthers Catechismus / vnd seine Bücher / gantz vnd
+gar ausgemustert vnd ausgeschlossen aus jhrem hauffen bücher / welchen sie
+Corpus Doctrinae genent. Da ist D. Luther nicht werd gewesen / dessen kleiner
+oder grosser Catechismus / oder jrgend eines seiner Bücher het te mit müssen
+oder sollen / ins Corpus / merck / ins Corpus Doctrinae eingehen / Also bleiben
+Luthers bücher ausser dem Leibe derselben Lere / vnd sind keine glieder
+desselben Leibs.</p>
+<p>Fürs ander / so wird D. Luthers Catechismus noch heutiges tages nich in jhr
+Corpus gebracht oder darein neben den andern Canonisirt / ob sie gleich von
+andern sint darumb angemanet worden.</p>
+<p>Fürs dritte / das sie nur zum Schein / des Catechismi Lutheri gedencken / vnd
+doch nichts anders fürhaben vnd thun / denn das sie jn verfelschen vnd
+vnterdrücken / sint dieses starcke beweisungen.</p>
+<p>DAs sie den Catechismum Lutheri / beide in dieser Schrifft / vnd in jrem
+Catechismo / vnd in der Grundsuppe vernichtigen / vnd dargegen jren newen
+falschen Catechismum erheben / als solte D. Luthers Cate-
+<pb facs="#f0030"/>
+chismus nur für die kleinen
+Kinder / jrer aber für die / so da er wachsen / dienen / vnd fast also sich
+verlauten lassen / als könten sie viel vol komener leren / als Lutherus.</p>
+<p>O wie leicht würde D. Luthers Lere in vergessen kommen / vnnd vnter die banck
+gestossen werden / da es jhnen solte nach jhrem fürnemen gelingen.</p>
+<p>Item / das sie dem Catechismo Lutheri eine frembde vnnd falsche meinunge
+andichten / als rede er von einer solchen gegenwart vnd mitteilung des Leibs vnd
+Bluts Christi im Abendtmal / da der Leib vnnd Blut Christi nicht sey
+allenthalben / wo das Abendmal nach den worten des HErrn gehal ten wird /
+warhafftig vnnd leiblich vorhanden.</p>
+<p>Item / das sie mit erschrecklicher vnd fürsetzlicher vnuerschamheit / sich
+dürffen vnterstehen / vnd D. Martini beschreibung des Abendmals des Herrn wollen
+Concilijrn / vn&#x0303; vergleichen mit der Sacramentschwer mer
+beschreibung / die sie in jrem Catechismo gesetzt / als sey es ein gemeinschafft
+des Leibes vnnd Bluts Christi / verstehe / nicht wie es Paulus verstehet /
+Sondern / wie sie es her-
+<pb facs="#f0031"/>
+nach
+mit Beza vnd andern Schwermern erkleren / das Christi Leib vnnd Blut nur im
+Himel beschlossen sey / vnd nicht zugleich allenthalben / wo das Heilige
+Nachtmal / nach vnd mit Christi Worten gehalten wird / sey. Item / das er nicht
+beide im Glauben vnnd auch Mündlich vnnd Leiblich / wie D. Luther redet /
+empfangen werde. Das heisset ja Weiss in Schwartz / Liecht in Warheit verkehren.
+Aber der Prophet Esaias schreiet mit lauter Stimme dazu wehe / wehe sagt er
+denen / die böses gut / vnd gutes böse heissen / die aus finsternis Liecht / vnd
+aus liecht finsternis machen. Die aus sauwer süsse / vnnd aus süsse sawer
+machen. Item es hat für diesen auch Petrus Praetorius angefangen den Ca
+techismum Lutheri zuuorfelschen / wie er denn dauon für der Christenheit ist
+beschuldigt worden.</p>
+<p>Fürs vierde / referirn vnd ziehen sie sich nicht / in erklerung dieser Lerevnnd
+Streit / auff den grossen Catechismum Lutheri / vnd noch viel weniger auff die
+herrlichen / schönen / bestendigen Streitbücher Lutheri / wieder die
+mancherleyen Sacrament-
+<pb facs="#f0032"/>
+schender.
+Die müssen jhnen nun vnter die Banck / wie in der Grundsuppen jrer Sacra
+mentschwer merey / sie anfahen zu kieffen vnd das Leder zufressen / das ist
+dieselbigen Bücher / welche jnen eitel Dornen in Augen vnd Hertzen sind zu
+berüsseln vnd geringschetzig zu machen / dauon hernach weiter.</p>
+<p>Fürs fünffte / zihen sie Lutherum wider die Sacramentierer c. 3. vnd hernacher
+nur der gestalt an / als hette er nur die gegenwart Christi / den blossen
+Deutzeichen der Sacra mentschender entgegen gesetzt / O jhr Vogelsteller / wie
+betrieget jhr die armen Leute? Denn D. Luther hat solche leibliche gegenwart
+Christi / auch den Schwarm entgegen gesetzt / als solte Christi Leib nur im
+Himel beschlossen sein / vnd nicht allenthalben können gegenwertig sein / da
+sein Nachtmal gehalten wird / Item / als solten die vnwirdigen nicht den
+gegenwertigen Leib Christi essen / vnd sein Blut trincken. Also setzen diese
+Vogelsteller zum schein etwas von Luthero / vnd das notwendig darzu gehört /
+vertuschen vnd verbuschen sie / das es die nerrischen Vögelin / welche sie
+berücken wollen / nicht mercken sollen.</p>
+<pb facs="#f0033"/>
+<p>Heisset nun dieses sich gut Lutherisch erkleret / da man D. Luther zum Lockuogel
+auffsetzet / nur andere Leute zubetriegen / ja im grunde D. Luther doch auch
+nieder trit?</p>
+<p>Derwegen solten diese Betrieger / welche mit worten nur Gauckeley treiben / fein
+Deudsch sich heraus erkleren / das sie in der Lere vom Abendmal / von D. Luther
+abfielen / vnd jn für einen Ketzer hielten / als der lerete / Christi Leib vnd
+Blut were nicht alleine im Himel / Sondern allenthalben im brauch seines
+Abendmals / vnnd das man nicht allein mit dem Glauben / sondern auch mündlich
+jhn empfahe / etc.</p>
+<p>Denn dieses leret ja D. Luther / vnd diese newe Sacramentschwermerlein die
+verdammens. Man flicke nun mit namen / Worten / verdrehen / lencken / beugen /
+Scheinhendelen / Religion / Malerey / wie man wolle / so bleiben sie doch wider
+einander.</p>
+<pb facs="#f0034"/>
+</div>
+<div>
+<head>Vom III. Fallstrick.</head><lb/>
+<head>Das sie sich nicht richtig auff die Schrifften beruffen.</head><lb/>
+<p>SIe referieren vnd ziehen sich auffetliche Bücher / Aber zum theil nur zum Schein
+vnd felschlich / Zum teil auff etliche auch sonsten betrieglicher weise /
+Als.</p>
+<p>Sie beruffen sich auff die Augspurgische Bekentnis.</p>
+<p>Nuhn ist aber die rechte Vhralte Bekendnis also deudlichen gesteller / das dauon
+mit worten vnd der that / im zehenden Artickel die Sacramentierer / mit allen
+Stücken jrer Schwermerey vom Abendmal / sind ausgeschlossen / Als nemlich / mit
+den worten Improbant secus docentes / die Gegenlehre wird verworffen / Vnd haben
+dazumal Anno Domini 1530. da solche Bekendnis dem Keiser Karolo dem fünfftem
+vberantwortet / die Sacramentierer selbs sich rein vnnd gladt von derselben
+Bekendtnis / fürnemlich vmb
+<pb facs="#f0035"/>
+der Wort
+willen abgeschliessen / Wie auch das Reich / aus dem Reichs friede dieselbigen
+Sacramentierer ausgeschlossen / ist one noth allhier zuer zehlen?</p>
+<p>Wie können denn diese newe Sacramentschwermer / sich auff die rechte
+Augspurgische Bekendnis beruffen / da do die angezogenen wort jhre Lere
+verwerffen vnd verdammen?</p>
+<p>Item die Apologia saget klar / das vns Christus leiblich gereicht vnd gegeben
+wird im Abendmal / Aber diese Sacramentierer sagen / Christus Leib könne nicht
+allenthalben auff Erden im Abendmal sein / es sey ein gedicht / sol das nicht
+betriegen heissen?</p>
+<p>Item / wie man mit der Bekendnis vnd Apologia gespielet / das ein Man etliche
+wort heraus gethan / etliche aber verendert / hinter der Kirchen Christi wissen
+/ Befehl / vnnd verwilligung / ist Weltrüchtig. Da nuhn das Improbant secus
+docentes / das ist die Gegenlehre wird verworffen / ward ausgekratzet /
+ausgeleschet / vnnd hinweg gethan / <choice><sic>wit</sic><corr>mit</corr></choice> welchen worten doch zuuor / wie gesagt /
+die Sacramentierer verdammet wurden /
+<pb facs="#f0036"/>
+da da fingen dieselbigen Schwermer / als Ioannes a Lasco vnd andere an / vn&#x0303; krochen auch in die Augspurgische Confession / als weren sie nun
+auch drinnen / da sie doch niemand hinein genommen hatte. Ja da fingen die
+offentlichen Sacramentierer an / vnd durfften frey heraus fahren vnnd rhümen /
+sie weren die rechten der Augspurgischen Confession verwanten / Denn derselben
+Schreiber hielte es mit jnen / vnd die andern werens nicht / welcher Eltern die
+Bekendnis hetten vberantwortet / bisher drüber gelitten vnnd gestritten. Aus der
+Vrsachen hat man auch anfenglich nicht die vhralte Bekentnis ins Cor pus
+gedruckt.</p>
+<p>ITem / man darff fürgeben / das die alte Bekentnis durch die newe so verendert /
+solte erkleret werden / das sich viel anders er helt / nach vnd in der
+Warheit.</p>
+<p>DErwegen ists noth / das alle Christen auff diese schantz wol achtung haben / das
+man nicht vnter dem schein einer Augspurgischen Bekentnis / jnen den gantzen
+Sacramentirischen Schwarm bey bringe vnd eingiesse.</p>
+<p>Item / es ist nötig / das die Christen der
+<pb facs="#f0037"/>
+alten / rechten / bestendigen
+Augspurgischen Bekentnis warhafftigen verstand von des HERRN Abendmal / nicht
+nemen aus dieser newen Wittenberger Catechismo oder Bücher / sondern aus D.
+Luthers Catechissmus klein vnnd gros / vnnd auch aus seinen gründtlichen
+streitten wider die Sacramenschwermer / dahin denn diese newe Wittenberger die
+Leute nicht weisen noch führen.</p>
+<p>VNd ist fürwar nicht ein gering stücklin oder viel mehr tücklein dieser Leute /
+das sie nicht ein mal in diesen hochwichtigen Strei ten vnd Lere vom Abendmal /
+die Leute weisen auff D. Luthers Streitbücher wider die Sacramentschender /
+darin alle falsche Leren vnd jrrige Gründe / derselben Schwermer so reichlich /
+so herrlich / so gewaltig durch Gottes Geist sind widerlegt vnnd erkleret
+worden. Lieber Christ sol man denn schier diese Leute / so mit den rechten
+Sacramentschwermern vnter einer decke liegen / vnd nur eitel fallstricke aus
+Munde vnd federn reden vnd schreiben lernen erkennen? Wie lang sol man wider
+Gottes wort vnd Befehl / auff beiden seiten hincken?</p>
+<pb facs="#f0038"/>
+<p>Wie lang sol die Ehre Gottes geschmehet werden / gehet der Glaube noch nicht
+genungsam vnd vberflüssig in die hende?</p>
+<p>Sie beruffen sich auff jhr Corpus Doctrinae Da nemen aber viel Gottfürchtender
+Pfarr hern vnnd Christen / die alte ware / rechte Augspurgische Confession vnd
+Apologia aus / Aber was die andern Bücher Philippi betriefft / bekennen sie
+offentlich / das sie ohne grosse vnterscheid / desselben einigen Menschen bücher
+nicht können annemen / als eine Normam / Regel / vnd vnbeweglichen grundt des
+Glaubens.</p>
+<p>Vrsachen sind / das noch niemals die Christliche Kirche / zu des Menschen Bücher
+sich verbunden / vnnd das Philippus ein Mensch gewesen / der seine Bücher
+offtmals verendert / auch in etlichen puncten / seine gebrechligkeit vnd
+vnrechte meinung gehat / das er von D. Luther vielmals / durch Gottes Segen /
+hat wider in die rechte bahn müs sen geführet vnd gebracht werden. Was aber guts
+ist in dieses Mannes Büchern / das ist / das mit Gottes wort vnd Lutheri
+Schrifften vberein kömpt / das lobet billich ein jeder Christe / wie denn dieser
+hochbegabte Man /
+<pb facs="#f0039"/>
+viel feines
+nützlichs dinges geschrieben / vnd fein deutlich vnd artig es geben können /
+aber darin er als ein Mensch vnrecht geleret / das mit Gottes wort vnnd Lutheri
+Schrifften nicht vbereinstimmet / da ist vnnd sol kein Mensch auff Erden dazu
+verpflichtet / verbunden oder gezwungen werden / das er solches loben / lieben /
+probieren / vnterschreiben solte / vnd müssen die Christen seine Bücher lesen /
+cum pia discretione, das ist mit vnterscheid / wie Augustini / Hieronymi vnd
+ande rer alten Lerer Schrifft / so man Patres nennet. Denn Gottes Son sagt /
+seine Schefflein sollen einer frembden stimme nicht folgen. Item / S. Paul sagt
+/ der ein ander Euangelium / den er leret / sol man verfluchen / Denn man sol
+keinen Menschen auff Erden / wie hoch er jmmer mehr begabet sey / noch Engel im
+Himel vber Gottes wort erheben vnnd setzen / Da heist es / liebe Gott deinen
+Herrn vber Menschen / Praeceptoren, Engel / Auff Gottes wort haben wir in der
+Tauffe geschworen / vnd dazu / das man alle gegenlere wolle ernstlich fliehen
+vnd meiden.</p>
+<p>Es ist aber Weltrüchtig vnd bekant / das
+<pb facs="#f0040"/>
+in Locis vnnd andern Büchern dieses Menschen / die Lere vom freyen willen /
+vom Gesetze vnnd Euangelio / von der Rechtfertigung / vom Abendmal / nicht aller
+dinge rein vnnd mit Gottes wort vnnd Lutheri Lere nicht gleichstimmend / man
+flicke / pletze / glos siere / schmiere / verdrehe / verblüme / vertusche /
+verkleistere es mit artigem / listigem schein / vnnd blende reden / wie man
+jmmermehr wölle.</p>
+<p>Es ist ja gewis / das der Mensche in der Lere vom Abendmal / von der ersten
+rechten meinunge / so er wider Oecolampadium / vnd in den Zeugnissen der Veter
+von jme zusamen gelesen / vnd im druck ausgangen / bekant / hernacher ist
+abgefallen / hat mit D. Luther nicht emsig wider die Sacramentschender
+gestritten / Sondern seinen Gesellen alleine lassen im kampff stehen vnd fechten
+/ Er gedencket auch keiner Sacramentschwermer in Locis oder andern seinen
+Büchern / wie es sich in Antithesi / vnd in solchen grossen Streiten vnd nöthen
+der Christenheit gebüret hette / vnnd er sonsten wol viel geringere Ketzer
+weidlich in seinen Schriff ten angegrieffen.</p>
+<pb facs="#f0041"/>
+<p>WIr wissen / das HErr Amsdorff gar offte dem D. Luther dauon geschrieben vnd
+erinnert / das der Mensch keine Sacrament schender widerlegete / noch die Kirche
+Christi von denselben Schwermereien warnete.</p>
+<p>ITem / Es haben Caluinus vnd Bullinger die rechten Fenriche vnnd redlins fürer in
+der Sacramentschwer merey in offentlichen Schrifften sich auff den Man beruffen
+/ das er es mit jrer Ketzerey hielte. Aber da hat er bey seinem Leben die
+Christenheit lassen darumb seufftzen vn&#x0303; weinen / das der Man also
+heimlich mit den Gottslesterischen Feinden des Testaments Christi solte vnter
+einer deckeliegen. Wir haben Brieue gelesen / welche er dem Hardenberger / de&#x0303; greulichen Sacramentierer vnd zurütter der Kirchen zu Brema
+geschrieben / darin er seinen Schwarm billiget / vnd jme zusaget / zu jme in der
+Sacramentschenderey zutretten / vnd jn zuuerteidigen / da doch der Löbliche
+Sechsische Kreis solchs vnangesehen / den schedlichen vnd Gotteslesterischen
+Hardenberger / eben vmb der Sacramentschwermerey willen / aus demselben Kreise
+stracks weg geweisset / vnd verboten / nicht wider darinne zu leren.</p>
+<pb facs="#f0042"/>
+<p>Vnd was wil man sagen? die priuat Episteln, so man nach seinem Tode one
+vnterscheid / das er doch bey seinem Leben niemals hette zugelassen oder
+gestattet / das ist gewis lesset mit hauffen ausgehen / bezeugen für aller Welt
+/ das er mit den Sacramentierern jmerdar durch den zaun gestochen / vnd mit jnen
+geküntzelt vnd geleichelt habe / damit sie denn selbst den Man für Gott vnnd
+aller Welt zum höchsten vnehrn / weil sie jtzt alles mit der Sacramentschenderey
+gedencken zu erfüllen Gott steure vnd wehre.</p>
+<p>Solches müssen wir klar vnnd deutlich anzeigen / weil viel Christen eben darüber
+leiden / das sie ohne vnterscheid nicht können noch sollen den Büchen dieses
+Menschen vnterschreiben / vnd das böse vom guten / nach des allerhöhesten Gottes
+befehl / billich vnterscheiden wollen.</p>
+<p>Ob das auch eine Christliche that zuachten / das etliche das feine Büchlin dieses
+Mannes darin er die Zeugnis / aus den Vetern wider die Sacramentierer gezogen /
+aus den Theologischen dieses Mannes Tomis aussen gelassen vnd vertuschet / das
+mögen rechte Christen vrteilen? Gott sihets vnd wirds auch richten.</p>
+<pb facs="#f0043"/>
+<p>Derwegen ist es ein grober vnd greifflicher Fallstrick / das diese Leute / die
+Christen weisen auch auff solche Schriffte / darinnen dieser Artikel vom
+Abendmal selbs nicht reine / vnd darzu die gegenlere der Sacramentierer nicht
+gehandelt ist / gleich als wenn einer ein Schaff weisset in des Wolffes nest /
+als solte es darinnen raht vnd trost suchen / Ja noch mehr / ehe gedachter
+Mensch hat auch aus D. Palladij Buchlin von den Ketzern dieser zeit / den
+Artickel von Sacramentschendern ausgerissen / one vnd wider des Herrn Palladij
+sehliger willen / wie er zu etlichen geklagt.</p>
+<p>Heisset nun sich das gut Lutherisch erkleret? Ja wider Lutherum vnd seine
+Lere.</p>
+</div>
+<div>
+<head>Vom IIII. Fallstrick.</head><lb/>
+<head>Das sie nur zum Schein etliche Sacramentierer verwerffen.</head><lb/>
+<p>WEil die Christliche rechtgleuben de Kirche auff Erden / diese Leute mit dem
+Nahmen der Sacramentierer billich zwenget / so sehe
+<pb facs="#f0044"/>
+man allhier Wunder vber Wunder zu /
+wie diese Vogelsteller / so meisterlich auch diesen Fallstrick legen / vnd
+dürffen frey alle scham von Stirn vnd Hertzen abwischen / vnd fürgeben / aber
+gar betrieglicher weise / das sie auch jrrige meinung vnd Irthume der
+Sacramentierer verwerffen? Aber sihe vnd mer cke auff den blawen Dunst / den sie
+den Leuten für die Augen treiben / vnnd schendlich blenden wollen.</p>
+<p>Denn sie beschreiben vnd verwerffen solche Sacramentirer / welche jtzt nicht mehr
+in rerum Natura / das ist / in der Welt sein / vnd welche man im
+Schlauraffenland suchen müsse / vnd beschreiben die mit viererley Irthumen /
+Als:</p>
+</div>
+<div>
+<head>I.</head><lb/>
+<p>DIe da für geben / das der HErr Christus nicht wesentlich bey diesem Nachtmal
+sey.</p>
+</div>
+<div>
+<head>II.</head><lb/>
+<p>NOch seinen Leib vnd Blut vns gegenwertig austeile.</p>
+</div>
+<div>
+<head>III.</head><lb/>
+<p>Sagen das nichts denn Brot vnd Wein im Nachtmal sey.</p>
+<pb facs="#f0045"/>
+</div>
+<div>
+<head>IIII.</head><lb/>
+<p>HAlten die Sacramenta allein für eusserliche kennzeichen. Haec illi. D. iij.</p>
+<p>SInd nicht nun dieses schlechte vnnd glatte ketzlin? meinen es die Vogelsteller
+nicht gut mit jren pfeiffen? Ja liebes Vögelin / begib dich nur auff diesen
+Vogelhert / das Netz sol dir bald vber den Kopff springen / Denn mercke
+drauff:</p>
+<p>Caluinus / Bullinger / Beza / vnd die jtzigen Sacramentierer / verdammen diese
+stücke vnd meinungen alle sampt. Denn sie haben den groben / tölpischen Zwingel
+vnnd Carlstadt / in den alten stücke&#x0303; / fast in die Schantz
+geschlagen vnnd vbergeben / das sie darüber nicht mehr streiten.</p>
+<p>ABer das sind nun die grossen knoten / damit die jtzige Sacramentschender vmb
+gehen?</p>
+<p>Das Christi Leib vnd Blut / nicht könne allenthalben sein / da man nach Christi
+worten sein Abendmal handelt vnd brauchet.</p>
+<p>Das Christi Leib so weit vom Abendmal sey / als die Erde vom Himel.</p>
+<p>DAs Christi warer natürlicher Leib / alleine im Himel sey nach der Himmelfart /
+<pb facs="#f0046"/>
+vnd nicht heraus kome / bis an
+den Jüngsten tag.</p>
+<p>Das nur die krafft / wirckung / wolthaten / des Leibs vnd Bluts Christi / so im
+Himel jtzt alleine ist vnd behalten wird / im Abendmal mitgeteilet werde.</p>
+<p>Das man nicht mit dem Munde den gegenwertigen / wahren / Natürlichen Leib Christi
+empfahe / Sondern allein mit dem Glauben / der müsse in die höhe in den Himel
+hinauff steigen vnd fahren.</p>
+<p>Das die vnwirdigen nicht empfahen mit jrem Munde / den warhafftigen / Natürlichen
+/ gegenwertigen Leib Christi / gleich wie die wirdigen / nach den worten Christi
+/ doch die Gleubigen zum Leben / die vngleubigen zum Gericht.</p>
+<p>Das sind die Nüsslin / welche diese Gesellen sollen beissen / vnd diese jrrige
+meinung der jtzigen hochschedlichen Sacramentierer solten sie fein richtig vnd
+klar verwerffen vnd verdammen / Aber diese stacheln stechen sie in die
+feuste.</p>
+<p>Derwegen ist es nur ein Spiegel vnnd scheinfechten / ja ein betriegliche
+Geucklerey / das sie etzliche gemeine / dunckele / zwey-
+<pb facs="#f0047"/>
+züngige wort setzen / welche
+sie als tückische Meister / auff vnd nider schrauben können / wie sie wollen /
+vnnd die einfeltigen wollen bereden / als verwürffen sie auch Sacramentierer /
+da sie doch mitten im Koth der Sacramentschwermer liegen / vnnd darinnen bis
+vber die Ohren ersoffen sind / Heissen aber dieses nicht arglistige Vogelsteller
+/ etwas zum Schein pfeiffen / vnd das fürneme sie dainit man die Leute fahen vnd
+verführen wil / fein vertuschen?</p>
+<p>Fürs ander / machen sie einen Schirmen schlag vnd Parath / als wollen sie viel
+vnnützer gefehrlicher vnnd ergerlicher disputation vnd fragen einstellen. Ja
+lieben Vogelsteller / so berücket jhr die Nerrischen Vögelein. Sind das geringe
+vnnötige stücke dauon wir jtzt gesaget darinnen doch / wie ein jeder weis / die
+Heuptsach des Abendtmahls wider die jtzigen Sacramentschwermer hafftet vnnd
+stehet / dauon auch jederman sol guten grundt vnd Bescheid wissen vnnd haben /
+auff das er das böse nach Gottes wort fliehen / vnnd das gute behalten möge / 1.
+Thessal. 5.</p>
+<pb facs="#f0048"/>
+<p>Fürs dritte / wie fein können diese Leute / welche sonderliche grosse Leuchter
+vnnd Liechter in der Christenheit auff Erden sein wollen / verschweigen vnd
+vertuschen / wer doch jtziger zeit die Sacraments Wolffe sind / welcher
+gedruckte vnd offentliche Bücher man solte verbieten / fliehen vnnd meiden / dem
+HErrn Christo zu ehren / vnnd zu vieler Leute Seligkeit / als da sind Bullin /
+ger / Caluinus / Beza / Boquinus / Pintzier vnd dergleichen / wo sind die Seher
+der Kiu chen? wo thuen sie die Augen hin? wo sind die Wechter? wie schreien sie
+wider solche Wolffe? wie die todten Hunde pellen sie. Ja sie musten sich selbst
+anpellen vnd anschreien / das lassen sie. Wolan / so müssen wir vnd andere durch
+Gottes gnad vnd stercke / jhnen in die Ohren vnnd Hertzen schreien / vnnd die
+Christenheit warnen / so lang sie sich nicht bekehren.</p>
+<p>Fürs vierde / setzen / gründen / stützeln vnd bawen sie selbst / die Lere der
+Sacramentierer / sintemal sie derselbigen Wort / Grunde / Zeugnis in jhren
+Schrifften führen / wie oben angezeigt. Wie solten sie denn fein ausdrücklich /
+auffrichtig / eigentlich / die Sa-
+<pb facs="#f0049"/>
+cramentierer mit jren Irrthumen verwerffen?</p>
+<p>Denn sie lehnen sich auff diese Schrauben / das im Abendmal sey eine
+gemeinschafft des Leibs vnd Bluts Christi / nicht auff S. Pauli weise / Sondern
+auff Boquini / Bezae vnd anderer Sacramentierer felschliche auslegung.</p>
+<p>Sie brauchen gemeine reden / welche sie auff vnd nieder mögen schrauben nach jrem
+mutwillen.</p>
+<p>Sie setzen den grund / das die allenthalbenheit des Leibes vnd Bluts Christi auff
+Erden im Abendmal / sey ein Gedichte.</p>
+<p>Vnd in Summa / sie werden heraus noch müssen / vnd sagen / das sie Bezae vnd
+anderer Sacramentierer Lere beyfallen / vnnd müssen den guten Luther mit dem
+Herrn Christo in den dreck tretten vnd bescharren. Denn zurück werden die Duxij
+das ist die mutwilligen Sacramentierer schwerlich komen. Andere verführete /
+möchte Gott nach seiner gnade vnd allmacht zu rechte bringen.</p>
+<p>Fürs vierde / so ist auch in diesem punct / D. Lutheri Schrifften wieder die
+Sacramentschender / verschwiegen / denn sie beruf-
+<pb facs="#f0050"/>
+fen sich E. ij. auff die
+Bücher / so sie zuuorn gedacht / Nemlich / do ausser der Augspurgischen
+Confession vnd Apologia / sie selbst nicht rein.</p>
+<p>Es schweiffen vnd maussen herumb etliche vrsachen von den Niemand oder Pasquillo
+Romano gestellet / worumb man nicht ausdrücklich in specie / vnnd redlich wie
+sichs gebühret / nach Gottes wort / die Sacramentschender verdammen wölle.</p>
+<p>ABer da findestu nicht ein tröpfflein eiueriges Christen Bluts innen / es wird
+nicht ein wörtlin aus Gottes Wort angezogen / Sondern sind nur fleischliche vnd
+der blinden Vernunfft gedancken / vnnd darzu voller Sünde / wenn man nach Gottes
+befehl / seiner Ehre / vnnd rechten bekentnis dieselben sol vrteilen / vnd
+sollen sich billich alle Christen in Lung vnd Leber damit schemen / denn wie
+wollen sie für Christi augen vnd Gerich te damit bestehen.</p>
+<p>DEnn sol man darumb offentliche falsche Lere vnd Lerer nicht verdammen / weil jhr
+viel sein / so mustu das Bapsthum / der viel mehr als der Sacramentierer / ja
+die Türcken auch nicht verdammen / scheme dich
+<pb facs="#f0051"/>
+du loser Christ / heisset dich das
+GOTtes wort.</p>
+<p>Sol man darumb das Liecht vnter die banck stecken / weil etliche vmb der
+Sacramentschwermerey willen leiden? Da doch ein gros vnterscheid ist vnter der
+straffe vnd dem Martyrio. Die Sacramentschender sind Gotteslesterer / welche das
+newe Testament Christi verfelschen vnd schenden / sind auch gemeinlich mit
+auffrührer / wie die Historien zeugen. Die nun also leiden / sind keine
+Mertyrer. Leiden aber etliche sonst vmb reiner Lehre willen / hat es seinen weg.
+Aber darumb solte man so viel desto mehr die falsche Lehre vnd Lerer offenbaren
+vnnd deutlich straffen / damit einfeltige Christen wüsten / was sie bekennen /
+vnd warüber sie leiden solten / vnnd nicht leiden müsten als Auffrhürer /
+stürmer / Diebe / Mörder / wie Petrus leret.</p>
+<p>Es ist eine grobe offenberliche Lügen / das man nicht habe von anfang des
+Euangelij / jrgend andere so falsch gelehret verdampt. Ich meine / das hat ja D.
+Luther vnnd andere Kirchen / in der Sacramentierer / der Osiandristen vnnd
+andere mehr
+<pb facs="#f0052"/>
+Sachen fein richtig vnd
+herrlich nach Gottes wort gethan / mit grossen ehren Gottes / vnd nutz vieler
+Menschen auff Erden.</p>
+<p>Das andere auch nicht sind gestraffet oder verdampt worden / wegen der
+Sacramentiererey / ist wider den Spruch Gal. 1. Denn Gottes wort das verdampt
+die Irthume / darumb böse Exempel nichts beweisen / vnd niemand sol sich böser
+werck vnd thaten rühmen / Wo ist Glaube? wo bleibt Bekendnis? wo bleibt eiuer
+vmb Christi Gesetz willen? Reichs Gesetz vnd Statuten sind offentlich wider die
+Sacramentierer.</p>
+<p>Eine Geuckeley ist es / das man anderer falsche meinunge müste annemen. Scheme
+dich du armer Mensch / mit deinem nerrischen fürgeben / recht solstu thun / vnd
+keinen Menschen ansehen. Wer aber diesem oder jenem / erste oder andere stimme
+gebe / falsche Lere vnd Lerer zu vrteilen vnd zuuerdammen / findestu nicht in
+Gottes wort / dessen man doch in den vrsachen gar geschweiget / D. Luther hat
+ein Büchlin lassen ausgehen / das ein jeder Christ dessen macht hat / nach
+Gottes wort / wie es denn auch Ehre ist / vnnd herrligkeit bey Gott vnnd
+Menschen /
+<pb facs="#f0053"/>
+falsche Lere vnnd Lerer /
+so fern sie sich nicht bekehren / fein richtig vnd klar zuuerwerffen. Ja wie ist
+man da so heilig vnnd Gewissen eng / da man doch so muhtig andere auch wol
+vnschuldige mit grausamen worten verwirf fet vnd verdampt?</p>
+<p>Aber weil die Fleddermaus noch zur zeit in der nacht fleugt / vnd die helle Sonne
+des Göttlichen worts / vnd der Christen Vrteil fürchtet / wollen wir sie jtzt
+ein wenig geschewet haben / Aber da sie herfür wird brechen an den tag / werden
+viel Christen derselben Torheit vnd Gottlosigkeit ohne zweiffel offentlich
+straffen / vnd jhrer nicht schonen mit dem krefftigen vnd durchdringenden wort
+Gottes?</p>
+<p>Eins müssen wir noch gedencken / wie man so Gottlos mit der hohen Sachen vmbgehet
+/ Es ist ein Redlinsführer fast der grobsten vnnd stoltzesten einer / der sol zu
+etlichen gesagt haben / er were bisher ein Sacramen tierer gewesen / das were
+jhm leid / nun aber hette er sich bekehret / vnd wolt kein Sacramentierer mehr
+sein / Sondern er hielte es mit jhrem ausgegangenen Catechismo / vnd der Feste
+one Grund.</p>
+<pb facs="#f0054"/>
+<p>Ist aber dis nicht ein Teufelischer hohnspruch / wider GOTT vnd die einfeltigen
+Christen? Er ist zuuor auff D. Luthers meinung gewesen / das nennet er ein
+Sacramentierer sein / vnnd wo er solche art zu reden gelernet / ist vns zu guter
+massen bekand. Das sagen wir ist nicht Menschlich / Sondern gantz Teufelisch /
+den guten D. Luther / der so vleissig / eiuerig / ritterlich vnnd bestendig
+wider die Sacramentierer aus vnnd mit Gottes Wort gestritten / für einen
+Sacramentierer schelten vnd ausruffen / vnd darnach die arme Jugend blenden /
+als seien die rechten / eigentlichen / grewlichen Sacramentschwermereien /
+Bezae, Caluini, vnd dieses spotters keine Sacrame&#x0303;tiererey. Straff
+dich Gott Sathan / denn man wil sich nicht bekehren.</p>
+<p>JA lieber Christ siehe dich vmb / was doch offentlich / vnuerholen / vnd
+vngeschew et geschiehet / das eben ein Gotteslesterischer Sacramentierischer
+Fenrich Beza / etlichen vnter jnen Bücher dedicirt vnnd zuschreibt im Drucke.
+Item sie denselben Bezam anhetzen / wie man saget / das er jnen beyspringen /
+vnd mit grimmigen schreiben wider die
+<pb facs="#f0055"/>
+rechtlehrende in Deudschland toben sol / Aber das wird von tag zu tag jhnen jhe
+offenberlicher. Denn von Zürich vnnd andern örtern der Sacramentierer / numehr
+Kinder zu jnen geschickt werden. Es ziehen auch gelerte aus dem hauffen der
+Sacramentierer / wie wir wissen / zu jnen spatziern / küntzeln vnd beleichen
+sich mit einander. Item / sie haben jtzt selber wider gedruckt des Bezae
+schandbuch / wider etli che in Deudschland / vnd den namen Geneuae drauff
+gesetzt.</p>
+<p>Der wegen betriegen sie die Leute gantz felschlich / mit dem scheine / als
+verdampten sie die alten vnnd jtzigen Sacramentierer. Heisset nun das sich auff
+gut Lutherisch erkleret? O nein / das feilet weit.</p>
+<p>Höre doch / wie D. Luther im kurtzen bekentnis saget / Ich als der ich nun auff
+der Gruben gehe / wil dis zeugnis vnnd diesen rhum mit mir für meines lieben
+HErrn vnd Heilands Ihesu Christi Richtstul bringen / das ich die Schwermer vnd
+Sacramentsfeinde / Carlstad / Zwingel / Oecolampad / Stenckfelt vnd jhre Jünger
+zu Zürich / vnd wosie sind / mit gantzem ernst verdampt vnd gemieden habe / nach
+seinem Befehl Tit. 3.
+<pb facs="#f0056"/>
+Einen Ketzer
+soltu meiden / wenn er eins oder zwey vermanet ist / vnd wisse das ein solcher
+verkehret ist / vnnd sündiget / als der schlecht wil verdampt sein. Sie sind /
+offt genug / auch ernstlich gnug vermanet / von mir vnd vielen andern / die
+Bücher sind am tage / vnnd gehet noch teglich vnser aller Predigt / wider jre
+Lesterliche vnd Lügenhafftige Ke tzerey / welchs sie wol wissen / Haec
+Lutherus.</p>
+<p>Item / Ibidem, Ich rechen sie alle in einen Kuchen / wie sie auch sind / die
+nicht gleuben wollen / das des HErrn Broth im Abendmal / sey sein rechter
+Natürlicher Leib / welchen der Gottlose oder Judas / eben so wol Mündlich
+empfehet / als S. Petrus vnd alle Heiligen / Wer das / sage ich / nicht wil
+gleuben / der las mich nur zu frieden / mit Brieuen / Schrifften / oder worten /
+vnnd hoffe bey mir keiner gemeinschafft / da wird nichts anders aus. Haec iterum
+Lutherus.</p>
+<p>Höre zu / mercke drauff / das wil den alten vnd newen Sacramentierern / durch
+Leber vnd Lunge / durch Marck vnd Peine gehen / vnd auch die Sacramentschwermer
+zu Wit tenberg in den Kuchen bringen. Das hörestu ist gut / vnd recht gut
+Lutherisch von den
+<pb facs="#f0057"/>
+Sachen geredet /
+vnnd nicht den Brey im maul herumb werffen / wie diese / so die newe Bekendnis
+one Geist Gottes / one Glauben one Eiuer / one richtigkeit geschrieben. Denn so
+sie derer etwas gehabt / würden sie sich gut Lutherisch / vnd nicht gut Bezisch
+/ vnd Betriegerisch haben erkleret. O die jhr verführer seid / kehret wider /
+ehe der grosse Tag des HERRN euch vbereile.</p>
+</div>
+<div>
+<head>Vom V. Fallstrick.</head><lb/>
+<head>Das sie der Veter Schriffte listiglich anziehen.</head><lb/>
+<p>SIe ziehen auch etliche Sprüche der Veter an / damit ein geplerr zumachen / als
+solten die vom Abendmal eben also geleret haben / als sie mit den andern
+Sacramentschendern / Aber lieber Christe mercke drauff.</p>
+<p>Erstlich sihestu ja in diesem handel vom Abendmal / das in der newen Bekendtnis /
+nicht ein einiger Spruch aus dem alten o-
+<pb facs="#f0058"/>
+der newen Testament / zur
+bestetigung war hafftiger Lere angezogen würde. Aber aus den Vetern haben sie
+mit grosser mühe vnnd fleiss etliche Sprüche beide Lateinisch vnd Deudsch /
+gesetzet / gantz vnd gar auff die wei se / wie auch die Sacramentierer pflegen
+zu thun.</p>
+<p>Ja im gantzen newen Bekendtnis / ziehen sie nicht einen Spruch aus Gottes wort an
+/ one alleine im anfang / ausser den Heuptleren / so sie in dem Buche
+fürhaben.</p>
+<p>O Das heisset noch lange nicht / auff gut Lutherisch sich erkleren / Denn D.
+Luthers gewonheit war / das er nur auff GOTtes wort füret / darin vnd daraus
+Sprüche zeigete / darauff das gewissen sich feste vnnd gewis gründen könte / vnd
+brauchet gar wenig Veter vnnd Concilien / vnnd damit kam das Liecht der
+Göttlichen warheit wider herfür / vnnd ward die Christenheit erbawet. Itzt wil
+mans wider vmbkeren.</p>
+<p>Nun ist das gewis / das kein Vater / oder Menschen Schrifft / einen einigen
+Artikel des Glaubens machen oder gründen kan.</p>
+<p>Es kan auch niemand seinen Glauben in Sachen der Seligkeit / auff jhre Schrifften
+setzen.</p>
+<pb facs="#f0059"/>
+<p>Wo sie am besten sind / da sind es zeugen der warheit / vnd nur so fern zu loben
+/ so fern sie mit Gottes Wort vberein treffen / das allein die Regel vnnd
+richtscheid ist der Warheit / wie man denn in allen Colloquijs / alleine die
+Biblische Schriffte zu dem einigem Richter hat wollen vnnd sollen haben / Da die
+Bepstischen die Veter vnnd Concilia mit haben wollen einmengen / Aber man hat es
+nen niemals eingangen.</p>
+<p>Vber das ist D. Luther in viel wege in der Lehre vom Abendmal ein gelerterer /
+hochbegabter / besserer Pater / Lerer vnd scribent / denn nach den Aposteln /
+keiner in der Welt bisher gewesen / dauon wir wüsten. Worumb zeucht man denn aus
+jhme nicht so viel Sprüche / zu dieser Sachen gehörig aus seinem Streitbüchern
+an / als aus alten Lerern / welche vmb der jtzigen Sacramentierer Schwermerey
+nicht souiel gewust vnnd erfahren / als Lutherus Raht zu Rehter gut / warumb
+bleibt das nach solte auch dis die Vrsache sein / das er es mit diesen Sacra
+mentierern nicht halte? da möchte es erraten sein.</p>
+<p>Dieses wird nicht der meinung gesagt /
+<pb facs="#f0060"/>
+wie es etliche vorleumbden möchten / das man die Patres gantz vnd gar verwerffe.
+Nein traun / Sondern das man mehr auff Gottes wort sehe / setze vnnd gründe /
+denn auff die Patres. Item mit bescheidenheit sie anziehe / denn sie nicht alle
+rein. Item mit massen / das man nicht darüber Gottes wort verliere / vnnd lasse
+sie nur Zeugen bleiben / wo sie am besten sind.</p>
+<p>Fürs ander mercke / wie sie so verschlagen damit vmbgehen / vnnd dahin fein leise
+vnnd vnuormerckt wollen bringen / das sie nur wol len den Glauben hinauff gen
+Himel führen / als were der ware Natürliche Leib Christi nur im Himel / vnnd
+nicht allenthalben auff Erden im Abendtmal / da er sich mit seinem worte hin
+verbunden hat.</p>
+<p>Darumb so ist mit liste der Spruch / so in Nicena Synodo sol stehen / bis auff
+das letzte gespahret / als der zweck dahin sie schiessen wollen. Aber man findet
+die angezogene wort aus dem Concilio Niceno, weder im Sym bolo Niceno / noch in
+den rechten Canonibus / noch in der Historia dieses Concilij / weder im Eusebio,
+Sozomene. Theodoreto, Socrate, noch Nycephoro, Die Zwinglianer aber ha-
+<pb facs="#f0061"/>
+ben die angezogene wort her
+für bracht / wie jre Schrifften zeugen / vnd beruffen sich auff ein Exemplar in
+der Bibliotheca zu Basel. Weil aber die alten Historici nicht dauon gedencken /
+vnd wol ehe obgedachte Canones falsirt sind / wie wissentlich / vnd die
+Sacramentierer Mendacium ipsum sind / teste epistola Iacobi praepositi ad
+Lutherum, wer wil jnen denn trawen in solchen hochwichtigsten Sachen des
+Glaubens das merckestu aber fein Christlicher Leser / das die Wittenberger
+vleissige Schüler der Sacramentierer sind.</p>
+<p>Fürs dritte ist es ein lauter betriegerey / als solten die Veter haben geleret /
+das Chri sti Leib nicht könte allenthalben auff Erden in seinem Nachtmal
+gegenwertig sein / nach seinen worten / vnd würde nicht auch mündlich daselbst
+empfangen / wie an seinem orte ferner kan dargethan werden.</p>
+<p>Derwegen greiffet jederman auch in diesem Stücke / was diese Leute fürhaben / vnd
+sich nicht auff gut Lutherisch erkleren.</p>
+<pb facs="#f0062"/>
+</div>
+<div>
+<head>Vom VI. Fallstrick.</head><lb/>
+<head>Das sie die Ordnung der Sachen vmbgekehret.</head><lb/>
+<p>ES beschüldigen diese Leute etliche andere / welche sie doch in gegenwertigen
+Bekentnis nicht nennen / als / das man die Lere von Abendmal des HErrn / auff
+die wort der einsetzung vnnd Stifftung des HERrn Christi solte gründen / so
+hetten etliche auff die Maiestet des Menschens Ihesu Christi / erstlich jhren
+grund richten vnnd setzen wollen.</p>
+<p>Nun ist es recht / das man auff die wort des Testaments sehe / vnd den Grund
+dieser hohen Sachen daraus neme. Aber merckestu auch Christlicher lieber Leser /
+das diese Leute eben dasselbe thun / das sie an andern straffen / Nemlich fein
+listiglich von ersten / von der Person vnd Menschwerdung Christi / von seiner
+Maiestet vnnd Himelfahrt /
+<pb facs="#f0063"/>
+auff das
+prechtigst herein reden vnnd darnach vom Abendmal handeln.</p>
+<p>Fürs ander / das sie in den fördern stücken fein heimlich die Fallstricke vnnd
+Angel mit einwerffen / damit sie die Leute wollen in jre meinung fangen / als
+sey dem menschen Christo nicht gegeben / das er allenthalben im Abendmal auch
+mit seiner menschlichen Natur könte sein / vnnd daselbst nach seinem worte /
+nicht alleine mit dem Glauben / sondern auch mit dem Munde gessen werden. Dieses
+wird in etlichen verborgenen worten / das der Menschheit in Christo nur gros se
+Macht / vnnd nicht Allmacht mitgeteilet sey / vnnd dergleichen mehr fein
+tückisch vntergebracht.</p>
+<p>Fürs dritte / am ende vnnd Abschiede pflegt man zu sagen / ist am meisten
+gelegen. Siehe wie der Trachenschwantz sich krümmet im beschlusse / da sie
+listiglich sagen / man lehre ein physicam communicationem, da man Realem leret.
+Leug Teufel leug / oder du wirst bersten. Aber damit wollen sie die albern vnnd
+vnuerstendigen einnemen / als lerete man / der Menschheit in Christo wür-
+<pb facs="#f0064"/>
+den die Eigenschafften der
+Göttlichen Natur mitgetheilet / nicht anders / als wenn man Honig in ein Wasser
+geusset / dauon das Wasser süsse wird.</p>
+<p>Da sie doch wissen / das keiner so wider die Sacramentierer streitet / es hat
+Physicam / das ist eine Natürliche mitteilung genennet / Sondern darumb Realem
+geheissen docendi gratia, das es eine warhafftige mitteilung ist / vnd nicht
+alleine eine Phrasis oder art zu reden ist / dauon zur andern zeit weiter.</p>
+<p>Fürs vierde sagen sie frey heraus / das die Allenthalbenheit der Menschlichen
+Natur Christi / so wir mit dem Sone Gottes vnd Luthero Leren vnd Glauben im
+Abendmal des HErrn / da seine Wort gebraucht werden vnd lauten / sey ein
+gedichte. Da recht / da hastu die Kerls / mit jhren grossen Ohren vnd langen
+Klawen. Cape tibi hoc Christe, Paule, Luthere? die Ohrfincken nemet für lieb /
+bis das jhr mehr kriegt.</p>
+<p>Ach Gott / sol Christus es dichten / das ist liegen / das er sagt / das ist mein
+Leib / das ist mein Blut. Er saget ja nicht / das ist meine Gottheit / welche
+doch auch darbey vnd ge-
+<pb facs="#f0065"/>
+genwertig ist. Nun sol sein Testament an allen ortern vnd enden der
+Erden / in der waren Christenheit gehalten vnnd gebrauchet werden. Ist nun
+Christi warer Leib vnnd Blut nicht gegenwertig in der Warheit / vnd sol er alda
+nicht mit dem Glauben vnd Mun de empfangen vnnd genossen werden / warumb werden
+denn daselbst diese wort gesprochen vnnd widerholet / Nemet hin / Esset / das
+ist / hörestu / das ist mein Leib. Trincket alle daraus / das ist / es ist /
+hörestu wol / mein Blut etc. Sol das nu nicht eine greuliche Gotteslesterung
+sein / das man saget / solches von der Allenthalbenheit des Leibes Christi an
+vielen orten der Christenheit / da man das Nachtmal Christi nach seinem wor ten
+helt / sey ein Gedichte?</p>
+<p>Ach lieber S. Paule / dücke dich für diesen Reformierern. Du sagest / du habest
+es vom HErrn empfangen / das Brot sey der Leib Christi / Item die Gemeinschafft
+des Leibs Christi / etc. Nun sagen diese / du leugest / das Christi Leib
+allenthalben in der Kirchen im brauch dieses Testaments sey.</p>
+<p>Lieber Luther mustu diesen jungen Schwermerlin / in deinem Stuele / da jrer
+etliche
+<pb facs="#f0066"/>
+doch dich nicht gehöret /
+auch ein Dichter vnd Lügener sein / der du also schreibest vnd lehrest in
+Büchlin / Das die Wort / das ist mein Leib / noch feste stehen. Doch vmb der
+vnsern willen zu stercken / wil ich weiter handeln / wie der Schwermer Grund
+vnnd Vrsach nichts sind / vnd zum vberflus beweisen / das nicht wider die
+Schrifft noch Artikel des Glaubens sey / das CHRISTVS Leib zugleich im Himel
+vnnd im Abendmal sey.</p>
+<p>Item hernach / Er ist nu auch vnbegreifflich worden / vnnd wirst jhn nicht
+ertappen / Ob er gleich in deinem Brot ist / es sey denn / das er sich dir
+anbinde / vnnd bescheide dich zu einem sonderlichen Tisch / durch sein Wort /
+vnnd deute dir selbs das Brot durch sein Wort / da du jhn essen solt / welchs er
+denn thut im Abendmahl / vnnd spricht / Das ist mein Leib / als solt er sagen /
+daheimen magstu auch Brot essen / da ich auch freilich nahe genug bey bin / Aber
+dieses ist das rechte Tuto / Das / das ist mein Leib. Wenn du dis so jssest / so
+jssestu meinem Leib / vnnd sonst nicht. Warumb? darumb / das ich mich
+<pb facs="#f0067"/>
+hie wil mit meim Wort hefften / auff
+das du nicht müssest Schwermen / vnd mich wollen suchen / an allen orten / da
+ich bin. Es würde dir zuuiel / so werestu auch zu geringe da zu / mich daselbst
+zuergreiffen / on mein Wort.</p>
+<p>O Wie gar wenig sind auch vnter den Hochgelerten / die diesen Artikel von Christo
+/ je so tieff bedacht / oder je gegleubet haben / das so vberaus ein
+vnbegreifflich ding ist / das Gott sol Mensch / vnnd Mensch sol Gott sein / Aber
+die Schrifft stehet da / vnd der Glaube helts gewislich für Warheit.</p>
+<p>Ists denn nu war / So haben wir hiemit den Schwermern jhren besten Grundt einen
+vmbgestossen / Nemlich / das nicht wider einander / Sondern der Schrifft vnnd
+dem Glauben gemes sey / das Christus Leib zugleich im Himel vnnd im Abendmahl
+sey. Hactenus Lutherus.</p>
+<p>Mehr Zeugnus vnnd herrliche / starcke klare Beweisung / findet der Christliche
+Leser mit hauffen / im selben vnnd andern Büchern Lutheri.</p>
+<p>Fürs vierde / mus es diesen Leuten eine
+<pb facs="#f0068"/>
+Schwenckfeldische Lere sein. Da da. Lieber Christe / Paule vnd Luther / die
+Kappe friss in dich / ob gleich diese Sacramentschwerlin solches nimmermehr
+beweisen können / Sondern vnuorschampt lestern / vnnd wie stecken sie voller
+jungen Bepstlein / welche hoch her Pronuncirn vnd Decreta ausruffen.</p>
+<p>Fürs fünffte / höre Wunder zu / wie sie das Bad ausgiessen / vnd Ohren vnd Klawen
+/ Zungen vnd Speichel alles auff einen hauffen herfür vnd heraus bringen / so
+lauten jre Wort / Es sey eine offenbarliche implicatio contradictionis / welche
+mit der Göttlichen / Ewigen Warheit streitet / das Christus im Heiligen Abendmal
+vns seinen warhafftigen Leib gibt / vnd das er doch keinen warhafftigen /
+Menschlichen Leib nach seiner Verklerung haben sol / welches one mittel folget /
+wo die Allenthalbenheit der wesentlichen ausgiessung der Göttlichen Eigen
+schafften / in die Menschheit Christi eingefüret werden sol. Haec illi. Sie
+darüber hat man gekochet / vnd so mancherley Fewer angeleget vnd vntergesch oben
+in den vorgehenden puncten. Das ist nun der Brey den sie ausschütten.</p>
+<pb facs="#f0069"/>
+<p>Aber wer leret doch vnter denen / die da wider die Sacramentierer streiten / das
+Christus keinen waren Menschlichen Leib / nach seiner Verklehrung haben soll
+Lieber nennet das Kindt. Ach lieget mit vollem maule jr armen Leute? D. Luther
+klaget die Sacramentierer zu seiner zeit an / das sie jm merdar vnuorschempt vnd
+schendlich pflegen zu liegen / diese Hoffarbe traget jhr auch auff ewren Ermeln.
+Denn weil jr jnen zu Hofe reitet / könnet jr nicht anders.</p>
+<p>Item wie beweiset jr jrrigen Leute / das Christi Natürlicher vnnd warer Leib /
+nicht solle noch könne im Abendmal des HErrn / nach seinem Worten / zugleich an
+vielen örtern der Christenheit sein / vnd mit Glauben vnnd Munde empfangen
+werden? Lieber da schwermet ferner Ewer Decret vnd Pronuncirn / das gilt vns
+hierein ja so wenig als des Bapsts zu Rom. Ja wir sagen / das jr Christum vnsern
+HErrn in seinem Abend mal schendlich Lügenstraffet / vnnd sollet in alle
+Ewigkeit das nicht erweisen / das es / wie jr redet in diesem Bekendtnis / wider
+die Warheit / Item ein Gedichte sey / das Christi Rechter / Warer / Natürlicher
+gegenwer-
+<pb facs="#f0070"/>
+tiger Leib vnd
+Blut / allenthalben an vielen ortern zugleich im Abendmahl laut seines Worts /
+sey / vnnd im Glauben vnd Mündlich empfangen werde.</p>
+<p>Item jhr lestert vnd Schwermet durch das gantze Bekentnis daher / das auch nicht
+Allmacht dem Menschen Christo sey mirgeteilet / damit jhr ja auch Christum
+abermals lügenstraffet / der da klar sagt / Mir ist Alle (Nota alle) gewalt
+gegeben / im Himel vnnd auff Erden / Was heisset Alle gewalt? Lautet der Spruch
+nicht von der Menschheit CHRISTI / der da gegeben wird / sintemal die Gottheit
+CHRISTI zuuor alles hat?</p>
+<p>Aber von diesem Stücke ferner zu seiner zeit.</p>
+<p>Heisset nun sich das auff gut Lutherisch erklehren / Ja wider Luther vnnd
+Christum selbst dazu? Da mercke auff lieber Christ / wie dieser Fallstrick /
+jmmer zu dem gantzen hauffen aller Sacramentschender / gleich zugehet vnd
+zufüret.</p>
+<pb facs="#f0071"/>
+</div>
+<div>
+<head>Vom VII. fallstrick.</head><lb/>
+<head>Das sie einerley Form der Lere / vom Abendmal des HERRN behalten wie allezeit
+zu Wittenberg geleret worden.</head><lb/>
+<p>Es ist eine vberaus vnuerschempte künheit / das sie die vnuerstendigen Leute /
+welche nicht nachlesen / oder nachforschen können / wollen bereden / als
+behielten sie eben die Form / art vnd weise der Lere vom Nachtmal des HErrn /
+wie zu D. Luthers zeiten.</p>
+<p>Aber nicht eine Spanne / Sondern viel Meilen wegs / mangeln dar an / sintemal es
+ja so offentlich vnd gewis aus denen stücken / so bisher verzeichnet / das mans
+schier mit fingern solches greiffen möchte / wer keine augen zusehen hette. Denn
+dencke jm doch nach.</p>
+<p>Diese Leute gedencken in dieser Schrifft nicht ein mahl / nicht mit einem
+wörtlein / nicht mit einer Syllaben der Streitbücher Lutheri wider die
+Sacramentierer /
+<pb facs="#f0072"/>
+da sie doch von
+anderer Büchern / viel wort machen.</p>
+<p>D. Luther leret / das Christi Leib vnnd Blut / im Abendmal / an allen enden vnd
+ortern der Christenheit / da man es nach seinen Worten gebrauchet / gegenwertig
+sey / vnnd nicht allein im Glauben / sondern auch münd lich vnd leiblich
+empfangen werde.</p>
+<p>Aber diese Gesellen sagen / es sey ein Gedichte / es sey nicht die Warheit / das
+Christi Leib allenthalben im Abendtmal sey auff Erden / ja sie schweigen auch /
+das er Mündlich empfangen vnnd gessen werde / welches doch neben dem Glauben /
+Lutherus so emsig getrieben.</p>
+<p>D. Luther leret / das die Vnwirdigen eben so wol den gegenwertigen Leib Christi
+im Abendmal empfahen / doch zur verdamnis / als die Gleubigen zur Seligkeit.</p>
+<p>Lieber wo leren diese Geuckeler dauon / vnd hat nicht D. Eberus das widerspiel
+geleret? darumb etliche in der Kirchen Christi wider jn geschrieben.</p>
+<p>D. Luther hat vleissig vnnd eiuerig wider die Sacramentschwermer / die zu seiner
+zeit waren / mit nahmen als ein trewer Hir-
+<pb facs="#f0073"/>
+te vnnd Wechter gestritten /
+die Warheit im Testament Christi zuerhalten.</p>
+<p>Lieber wie vnd wenn haben diese Gesellen / wieder Bullingerum, Caluinum, Bezam
+vnd andere grewliche lesterer des Testaments des HErrn / denn bey leben Lutheri
+waren / ein Buch / eine zeile / einen buchstaben / ein Pünctlin geschrieben / da
+doch dieselben Sa cramentierer ohne vnterlas auff die rechte / warhafftige /
+gewisse Lere D. Luthers / wer nur dieselbe bekand / haben gestürmet vnnd
+getobet? weis her? sage her? Ja das ist offenbar / das sie eben die jtzt
+benanten Schwermer vnd lesterer / gar sanffte mit brieuen wie ein Schwein das
+ander / haben gekrawet vnd zusamen geküntzelt / vnnd noch heutiges tages / damit
+wir die gegeneinanderhaltung kürtze halben / auff dis mal abbrechen.</p>
+<p>Ist denn nun keine scham / für Gott noch der Welt in diesen Leuten / das sie so
+felschlich fürgeben / als füreten sie mit Luthero noch jtzund in jhren Büchern
+einerley Form der Lehre? Ja wie der Belial Christo gleich formig ist / also ist
+D. Luthers Lere vom Abendmal / vnnd dieser jungen Sacramentschwermerlein einig /
+das siehet / greiffet / fü-
+<pb facs="#f0074"/>
+let
+man ja / was sollen denn diese vnerfindliche wort dieser leute? Schewet man sich
+den&#x0303; nicht / für dem Allsehenden / Allwissenden / Allmechtigen
+Gotte? Sol sich nicht ein Christlich hertze für solchen greifflichen
+betriegereien entsetzen? Noch sol man nicht sehen mit sehenden augen / nicht
+greiffen in offenberlichen Wercken? Denn wer da nur sich vnterstehet zu sagen /
+Papa quid facis? Bepstlein was thustu? was redestu so bösslich? Der hat Zorn /
+vnd einen hauffen vnnützer / schmeehafftiger wort am halse / wie denn der
+Sacramentirische Geist stets vom anfang bisher die gewonheit gehabt.</p>
+<p>Ach wie war hat der hocherleuchte Man Gottes D. Lut. gesagt / vnd ist im Druck
+für der gantzen Christenheit. In der Kirchen Postil. Domi 21. Der Teuffel
+schlefft nicht / er wird des dings noch viel mehr machen / sihet sich vmb vnd
+befleisset sich das er es dahin bringe / das keine rechte Lere in der Kirchen
+bleibe / Vnd wird es (ist zubesorgen) endlich dahin bringen / das / so man das
+gantze Deud schland aus durch vnd durch gieng / das man keinen rechten
+Predigstuel wird finden kön-
+<pb facs="#f0075"/>
+nen
+/ da das Wort Gottes rein gepredigt werde. Er vnterstehet sichs mit aller macht
+/ das er keine rechte Lere lasse auffkomen / den&#x0303; er kan es nicht
+leiden. Item Cap. 4. Galat. Es würde mich fürwar wunder düncken / wenn diese
+vnsere (Wittenbergische) kirche / welche durch Gottes Gnad so rein vnd heilsam
+in Lere vnd Glauben ist angericht / in einer oder zweie&#x0303; Predigten
+von eine&#x0303; Schwermerischen Menschen / also vmbgekeret würde / das
+sie mich nicht lenger für jren Lerer erkennen wolte. Welches denn ein mal gesche
+hen wird (Nota) wo nicht bey vnserm Leben / doch wenn wir tod vnd dauon sind.
+Denn als denn werden jhr viel auffstehen / welche wollen Magistri sein / die
+vnter einem schein der Gottseligkeit / verkerte Leren werden für bringen / vnd
+in einer kurtzen zeit alles vmbkehren / was wir eine lange zeit / vnd mit
+grosser mühe gebawet haben etc. Haec Lutherus.</p>
+<p>Vmb solcher Wort willen / darff niemand mit vns schnarchen oder pochen / Es sind
+D. Luthers wort / die in seinen offentlich gedruckten Büchern stehen / da mag er
+vber zürnen / vnnd die Bletter ausreissen / wie
+<pb facs="#f0076"/>
+dann etliche sich daran haben machen
+wollen / wie Herr Amsdorff in der Vorrede vber die Tomos Lutheri anzeiget / Aber
+sie haben die finger darüber redlich verbrant / vnd billich.</p>
+<p>Es ist letzlich auch dieses ein new Meisterstück in der Kirchen Gottes / das /
+wenn gleich solche Sacramentirische Bücher von den Wittenbergischen
+Sacramentschwermerlein ausgehen / sie nicht jre eigene Tauffnamen darunter
+schreibe&#x0303; / wie zuuor / da Luther lebete / breuchlich war /
+vnnd man in den Schmalkaldischen Artikeln vnd mehr Büchern findet. Aber da
+verstecken vnd verbergen sich diese leute vnter generalen Titelen / als leute /
+die nicht ans Liecht wollen / vnnd man sie wie die gespenste wohl höret / aber
+nicht sehen kan / das ist nicht der alten / rechten Deudschen Lerer art / vnd
+gehet also nach dem Sprichwort:</p>
+<l>Niemand der gute alte Man Mus alle Bosheit han gethan. Wer hat den Catechismum
+gemacht? Niemand / dessen der Böse lacht / Wer hat das new Bekendtnis gedicht?
+Niemand / der alte Bösewicht /
+<pb facs="#f0077"/>
+Wer
+leugt vnd schmecht so lesterlich? Niemand / Ey das laut Meisterlich / O Gott
+sihets vnd weis es nicht / Wirds auch nicht eiuern im Gericht. Wer wird denn
+fahren in die Hell? Niemand / Betreug dich nicht Gesell.</l>
+<p>Dieses haben wir / als getrewe Wechter vnsers HErrn Ihesu Christi / weil die
+Betriegereien in der newen Bekentnis etlicher Wittenberger / auch hieher
+gestrewet / vnnd gelanget / nach vnserm Ampte / auff Gottes Befehl / nach vnserm
+geringen Gaben / erin / nerungs vnd warnungs weise billich anzeigen sollen vnd
+wollen.</p>
+<p>ERstlich vnserm lieben HErrn Ihesu Christo / seine Ehre vnnd Warheit / im
+Abendmal zuretten / so viel er mit der Bekentnis vnnd widerlegung von vns
+billich fordert / Matth. 10. Tit. 1.</p>
+<p>Fürs ander / die Thumkühnen jungen Theologen zu Wittenberg / welche sich zu weit
+vnd ferne aus der Zinnen des Tempels in die Sacramentirische Lufft hienein
+begeben / hiemit zuerinnern / vnnd auch vmb Gottes willen zu bitten / wie wir
+sie auch hie-
+<pb facs="#f0078"/>
+mit gebeten haben
+wollen / das sie den Fuss nicht fort setzen / Sondern zu rücke tretten / die
+falsche Lere Bezae vnd anderer vom Abendtmahl des HErrn / fahren lassen / vnnd
+verwerffen / vnd aus Luthero dieselbige Lere besser erforschen / Lernen /
+bekennen vnd behalten.</p>
+<p>Wo sie aber das nicht thun wollen / vnd ja fort springen sollen / auch nichts
+nach Chri sti Zorn fragen / so bitten wir sie vmb Gottes willen / sie wollen
+doch die armen / einfeltigen Schefflin Christi nicht ferner / mit listigen /
+verschlagenen / verschraubeten worten affen vnd narren / Sondern auff Deudsche
+weise / fein klar heraus bekennen / wie es im Grunde ist / vnd sagen / das sie
+von D. Luthers Lere offentlich vnd vnuerholen abfallen / vnd sonderlich seine
+Lere vom Abendtmal in seinen Streit Büchern vnd sonsten verdammen. So können
+beide hohe vnd nidere Personen wissen / was sie seyen / vnd wa für sie zuhalten.
+Denn Tockmeuserey stehet für Gott vnd Menschen vbel.</p>
+<p>Fürs dritte / vnsere Christliche Liebe gegen vnsern Schülern / Zuhörern / vnd
+auch
+<pb facs="#f0079"/>
+gegen andere einfeltige Christen
+/ vnsere Brüder vnd mit Gliedmassen in Christo vnserm Heupte / wo auch dieselben
+sein / wie wir schuldig zubeweisen / auff das sie für den vor deckten
+Fallstricken / Angeln / Netzen / Sprinckeln / Schleiffen / sich vorsehen vnd
+hüten. Denn es ist kein Schertz. Es betrifft den Leib vnd das Blut Christi / ob
+wir die auch allenthalben in der Kirchen Gottes / wo man das Nachtmal des HERREN
+helt / haben / Vnd nicht allein droben im Himel mit Glauben erreichen / Sondern
+auch alldar mündtlich essen seinen waren / natürlichen / gegenwertigen Leib /
+vnd trincken sein heiligs Blut / vmb vnser Sünde vergossen. Diesen Schatz wollen
+vns diese Sacramen tierer rauben / vnd denselben alleine in den Himel
+beschliessen.</p>
+<p>VNser lieber HERR vnnd Heiland Ihesus Christus / welcher auch mit seiner
+Menscheit / vnnd nicht alleine mit seiner Gottheit / weil er in einer
+vnzertrennlichen Person warer GOTT vnnd Mensch / bey zweien oder dreien ist / da
+man in seinem Nahmen betet / wolle sol-
+<pb facs="#f0080"/>
+cher vnser wolmeinenden
+Schrifft / Segelt vnd Krafft gnediglich verleihen / das sie Ime zu Ehren / zu
+erhaltung erkandter vnnd bekandter Warheit / so D. Luther gepredigt vnd
+geschrieben / zu Bekerung / Heil / Leben / vnnd Seligkeit vieler Leute /
+gereichen vnd gedeien müge. Dicat tota Ecclesia Christi, Amen, Amen, Amen.</p>
+<p>Johannes Wigandus D.</p>
+<p>Tilemanus Heshusius D.</p>
+<p>Timotheus Kirchnerus D.</p>
+</div>
+</body>
+</text>
+</TEI>
