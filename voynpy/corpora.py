@@ -85,38 +85,23 @@ vms_unicode_bmp = reftext.from_mapped(vms, _unicode_char_map_bmp, language='voyn
 # Latin
 #----------
 # Caesar: De bello gallico
-caesarpath = _root / 'corpora/latin/caesar/caesar_lat0.csv'
+caesarpath = _root / 'corpora/latin/legacy/caesar/caesar_lat0.csv'
 caesar = reftext.from_textstring_csv(caesarpath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
 # Vitruvius: De architectura
-vitruviuspath = _root / 'corpora/latin/vitruvius/vitruvius_lat0.csv'
+vitruviuspath = _root / 'corpora/latin/legacy/vitruvius/vitruvius_lat0.csv'
 vitruvius = reftext.from_textstring_csv(vitruviuspath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
 # Celsus: De medicina
-celsuspath = _root / 'corpora/latin/celsus/celsus_lat0.csv'
+celsuspath = _root / 'corpora/latin/legacy/celsus/celsus_lat0.csv'
 celsus = reftext.from_textstring_csv(celsuspath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
 # Pliny: Naturalis historia
-plinypath = _root / 'corpora/latin/pliny/pliny_lat0.csv'
+plinypath = _root / 'corpora/latin/legacy/pliny/pliny_lat0.csv'
 pliny = reftext.from_textstring_csv(plinypath, language = 'latin', read_from_col = 1, comma_split_tokens = False)
 
-# Latin: all texts
-reftext_list = [caesar, vitruvius, celsus, pliny]
-namelist = ['caes', 'vitr', 'cels', 'plin']
-
-latin_df = pd.DataFrame()
-for obj, name in zip(reftext_list, namelist):
-    opus_df = obj.df.copy()
-    opus_df.columns = ['line', 'textstring']
-    opus_df['op'] = name 
-    opus_df = opus_df[['op','line','textstring']]
-    latin_df = pd.concat([latin_df, opus_df], ignore_index = True)
-
-latin_fulltext = ' '.join([k for k in latin_df.textstring])
-latin_tklist = [''.join([k for k in word if k.isalpha()]) for word in latin_fulltext.split()]
-latin_charlist = list(''.join(latin_tklist))
-latin = reftext.RefText('latin', latin_tklist, latin_charlist)
-latin.df = latin_df
+# `latin` is registered below as a lazy loader (Corpus Corporum + classical legacy
+# minus the Pliny duplicate). See the `@_register('latin')` block further down.
 
 #----------
 # Hebrew
@@ -902,6 +887,142 @@ def _load_dta():
         ignore_index=True,
     )[['doc', 'idx', 'par', 'line', 'par_end', 'textstring']]
     return rt
+
+
+# =============================================================================
+# Corpus Corporum (UZH, mlat.uzh.ch) — Auctores scientiarum varii (67 texts).
+# Each cc_<author>_<work> name loads a single CC text on demand.
+# `latin_corpus_corporum` aggregates all 67.
+# =============================================================================
+
+_CC_AUCTORES_BASE = _root / 'corpora/latin/CorpusCorporum/auctores_scientiarum_varii'
+
+_CC_AUCTORES: tuple[tuple[str, str, str], ...] = (
+    # (reg_name, author_slug, work_slug)
+    ('cc_alanus_merlini',              'alanus_de_insulis',           'explanatio_in_prophetia_merlini_ambrosii'),
+    ('cc_aurelii',                     'anonymus',                    'liber_aurelii'),
+    ('cc_aurelii_abbrev',              'anonymus',                    'liber_aurelii_versio_abbreviata'),
+    ('cc_rhetorica_herennium',         'anonymus',                    'rhetorica_ad_herennium'),
+    ('cc_augustinus_dialectica',       'augustinus_hipponensis',      'de_dialectica'),
+    ('cc_avienus_ora_maritima',        'avienus_rufius_festus',       'ora_maritima'),
+    ('cc_avienus_periegesis',          'avienus_rufius_festus',       'periegesis_seu_descriptio_orbis_terrarum'),
+    ('cc_balbus_expositio',            'balbus',                      'expositio_et_ratio_omnium_formarum'),
+    ('cc_bernardus_crisi',             'bernardus_gordonensis',       'tractatus_de_crisi_et_de_diebus_creticis'),
+    ('cc_cardanus_subtilitate',        'cardanus_hieronymus',         'de_subtilitate'),
+    ('cc_cato_re_rustica',             'cato',                        'de_re_rustica_vel_de_agri_cultura'),
+    ('cc_cicero_legibus',              'cicero',                      'de_legibus'),
+    ('cc_cicero_arati',                'cicero',                      'translatio_arati_phaenomenorum'),
+    ('cc_galenus_pulsibus',            'claudius_galenus',            'synopsis_librorum_suorum_de_pulsibus'),
+    ('cc_copernicus_revolutione',      'copernicus_nicolaus',         'de_revolutione_orbium_caelestium_liber_primus'),
+    ('cc_erasmus_adagia',              'desiderius_erasmus',          'adagia'),
+    ('cc_dicuil_mensura',              'dicuil',                      'de_mensura_orbis_terrae'),
+    ('cc_schleusinger_cometis',        'eberhard_schleusinger',       'de_cometis'),
+    ('cc_frontinus_aquis',             'frontinus_sextus_iulius',     'de_aquis'),
+    ('cc_frontinus_strategemata',      'frontinus_sextus_iulius',     'strategemata'),
+    ('cc_fronto_epistulae',            'fronto',                      'epistulae'),
+    ('cc_gaius_institutiones',         'gaius',                       'institutiones'),
+    ('cc_gariopontus_passionarius',    'gariopontus',                 'passionarius_vel_de_febribus_liber_v_i_xv'),
+    ('cc_gerhardus_de_causis',         'gerhardus_cremonensis',       'liber_de_causis'),
+    ('cc_gualterus_mahomete',          'gualterus_compendiensis',     'otia_de_mahomete'),
+    ('cc_guilelmus_philosophia',       'guilelmus_de_conchis',        'de_philosophia'),
+    ('cc_hyginus_astronomia',          'hyginus',                     'de_astronomia'),
+    ('cc_hyginus_fabulae',             'hyginus',                     'fabulae'),
+    ('cc_sacrobosco_sphaera',          'iohannes_de_sacrobosco',      'de_sphaera'),
+    ('cc_sacrobosco_numerandi',        'iohannes_de_sacrobosco',      'tractatus_de_arte_numerandi'),
+    ('cc_isidorus_etymologiae',        'isidorus_hispalensis',        'etymologiae'),
+    ('cc_iustinianus_digesta',         'iustinianus',                 'digesta_iustiniani_augusti'),
+    ('cc_firmicus_mathesis',           'julius_firmicus_maternus',    'mathesis'),
+    ('cc_lambertus_aristotelis',       'lambertus_de_monte',          'de_salvatione_aristotelis'),
+    ('cc_lavater_spectris',            'lavater_ludwig',              'de_spectris'),
+    ('cc_macer_herbarum',              'macer_floridus',              'de_viribus_herbarum'),
+    ('cc_manilius_astronomica',        'manilius',                    'astronomica'),
+    ('cc_moneta_catharos',             'moneta_cremonensis',          'adversus_catharos_et_valdenses'),
+    ('cc_cusanus_apologia',            'nicolaus_cusanus',            'apologia_doctae_ignorantiae'),
+    ('cc_cusanus_beryllo',             'nicolaus_cusanus',            'de_beryllo'),
+    ('cc_cusanus_coniecturis',         'nicolaus_cusanus',            'de_coniecturis'),
+    ('cc_cusanus_docta_ignorantia',    'nicolaus_cusanus',            'de_docta_ignorantia'),
+    ('cc_cusanus_mathematica',         'nicolaus_cusanus',            'de_mathematica_perfectione'),
+    ('cc_cusanus_non_aliud',           'nicolaus_cusanus',            'de_non_aliud'),
+    ('cc_cusanus_apice',               'nicolaus_cusanus',            'dialogus_de_apice_theoriae'),
+    ('cc_cusanus_abscondito',          'nicolaus_cusanus',            'dialogus_de_deo_abscondito'),
+    ('cc_cusanus_idiota_mente',        'nicolaus_cusanus',            'idiota_de_mente'),
+    ('cc_cusanus_possest',             'nicolaus_cusanus',            'trialogus_de_possest'),
+    ('cc_oresmius_proportionibus',     'oresmius_nicolaus',           'de_proportionibus_proportionum'),
+    ('cc_plinius_naturalis_historia',  'plinius_maior',               'naturalis_historia'),
+    ('cc_mela_chorographia',           'pomponius_mela',              'de_chorographia'),
+    ('cc_ps_caesar_africo',            'ps_caesar',                   'de_bello_africo'),
+    ('cc_ps_caesar_alexandrino',       'ps_caesar',                   'de_bello_alexandrino'),
+    ('cc_ps_caesar_hispaniensi',       'ps_caesar',                   'de_bello_hispaniensi'),
+    ('cc_ps_galenus_glauconem',        'ps_galenus',                  'ad_glauconem_liber_tertius'),
+    ('cc_ps_galenus_pulsibus',         'ps_galenus',                  'de_pulsibus_ad_antonium'),
+    ('cc_sammonicus_medicinalis',      'quintus_serenus_sammonicus',  'liber_medicinalis'),
+    ('cc_baco_opus_majus',             'rogerus_baco',                'opus_majus'),
+    ('cc_baco_opus_tertium',           'rogerus_baco',                'opus_tertium'),
+    ('cc_baco_secretum',               'rogerus_baco',                'secretum_secretorum'),
+    ('cc_seneca_naturales',            'seneca',                      'naturales_quaestiones'),
+    ('cc_solinus_mirabilibus',         'solinus',                     'de_mirabilibus_mundi'),
+    ('cc_suetonius_illustribus',       'suetonius',                   'de_viris_illustribus'),
+    ('cc_varro_agricultura',           'varro',                       'de_agricultura'),
+    ('cc_varro_lingua',                'varro',                       'de_lingua_latina'),
+    ('cc_velleius_historiae',          'velleius',                    'historiae_romanae'),
+    ('cc_witelo_perspectiva',          'witelo',                      'de_perspectiva_lib_1'),
+)
+
+
+def _make_cc_loader(author_slug: str, work_slug: str):
+    def _load():
+        path = _CC_AUCTORES_BASE / author_slug / work_slug / f"{work_slug}.csv"
+        return reftext.from_corpus_build_csv(path, language='latin')
+    return _load
+
+
+for _reg_name, _author, _work in _CC_AUCTORES:
+    _LOADERS[_reg_name] = _make_cc_loader(_author, _work)
+
+
+@_register('latin_corpus_corporum')
+def _load_latin_corpus_corporum():
+    parts = [(name, _get(name)) for name, _, _ in _CC_AUCTORES]
+    tklist = [t for _, rt in parts for t in rt.tklist]
+    charlist = list(''.join(tklist))
+    rt = reftext.RefText('latin', tklist, charlist)
+    rt.df = pd.concat(
+        [p.df.assign(doc=name) for name, p in parts],
+        ignore_index=True,
+    )[['doc', 'idx', 'par', 'line', 'par_end', 'textstring']]
+    return rt
+
+
+# `latin` = Corpus Corporum (67 texts) + classical legacy (Caesar, Vitruvius,
+# Celsus). The legacy Pliny is intentionally omitted: CC includes the same
+# Naturalis historia as cc_plinius_naturalis_historia, and that edition is
+# preferred (corpus_build pipeline, structural metadata).
+@_register('latin')
+def _load_latin():
+    cc = _get('latin_corpus_corporum')
+    # Harmonize legacy classical .df into corpus_build schema so the combined
+    # .df has one consistent column layout.
+    def _legacy_to_corpus_build(rt, doc_name):
+        df = rt.df.copy()
+        df.columns = ['line', 'textstring']
+        df['doc'] = doc_name
+        df['idx'] = range(len(df))
+        df['par'] = df.index + 1
+        df['par_end'] = True
+        return df[['doc', 'idx', 'par', 'line', 'par_end', 'textstring']]
+    legacy_parts = [
+        ('caesar', caesar),
+        ('vitruvius', vitruvius),
+        ('celsus', celsus),
+    ]
+    legacy_tklist = [t for _, rt in legacy_parts for t in rt.tklist]
+    legacy_dfs = [_legacy_to_corpus_build(rt, name) for name, rt in legacy_parts]
+    tklist = list(cc.tklist) + legacy_tklist
+    charlist = list(''.join(tklist))
+    rt = reftext.RefText('latin', tklist, charlist)
+    rt.df = pd.concat([cc.df, *legacy_dfs], ignore_index=True)
+    return rt
+
 
 # German legacy: aggregate of the three hand-coded pre-DTA texts. `german`
 # itself now points to the DTA combined reftext (see lazy loader above).

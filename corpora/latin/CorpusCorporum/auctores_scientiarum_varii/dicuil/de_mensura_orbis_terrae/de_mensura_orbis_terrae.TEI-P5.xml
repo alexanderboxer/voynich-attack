@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM 'teixlite.dtd'>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+<title>De mensura orbis terrae</title>
+              <author ref="http://viaf.org/viaf/44658177">Dicuil<date>fl.c.814-825</date></author>
+</titleStmt>
+              
+              
+              <note>pb only up to page 10</note>
+              <publicationStmt>
+         <pubPlace>Lutetiae</pubPlace>
+                 <publisher>Ex typis Firmini Didot</publisher>
+                 <date>1807</date>
+              </publicationStmt>
+<seriesStmt>
+           <title>Auctores scientiarum varii</title>
+           <idno>Dicuil.DeMeOrb</idno>
+           </seriesStmt>
+        <notesStmt>
+           <note></note>
+        </notesStmt>
+<sourceDesc>
+           
+              
+              <editionStmt>
+              <edition>eclectic edition, no apparatus</edition>
+              <editor>Dicuili Hiberniae monachi a Firmino Didot editum. OCR: <a href="http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dicuil/De_mensura_orbis_terrae/text*.html" target="_blank">Bill Thayer</a>.</editor>       </editionStmt>
+           
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <projectDesc>this file was encoded in TEI xml for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2017</projectDesc>
+         <editorialDecl>
+            <normalization>Mediaeval Latin orthography</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+    <div1 id="praef."><head>Praefatio</head>
+
+<p>Praefatio. Incipit Prologus libri de mensura provinciarum orbis terrae.</p>
+<p>Post congregatam epistolam de quaestionibus decem artis grammaticae, cogitavi, ut liber de mensura provinciarum orbis terrae sequeretur, secundum illorum auctoritatem quos Sanctus Theodosius imperator ad provincias praedictas mensurandas miserat; et, iuxta Plinii Secundi praeclaram auctoritatem, ipsarum dimensionem volo supplens ostendere.</p>
+<p>Sed duabus causis, contra temporum rationem, scripturam Missorum Theodosii verbis Plinii Secundi ordine scribendi praepono; et quod illi, in duodenis novissime versibus, diligentius
+<pb n="4"/>antiquis fecisse affirmant, et quod exemplaria codicum Naturalis Historiae Plinii Secundi, quae scrutatus fui, nimis a scriptoribus ultimorum temporum dissipata praevidi.</p>
+<p>Sermones quidem praedictorum Missorum, quia minus vitiose scripti sunt, quantum potero corrigere curabo.</p>
+<p>At, ubi in libris Plinii Secundi corruptos absque dubio numeros fieri cognovero, loca eorum vacua interim fore faciam; ut, si non invenero certa exemplaria, quicumque repererit emendet. Nam, ubi dubitavero utrum certi nec ne sint numeri, sicut caeteros cassabo; ut praedictus quisquis veros viderit, veraciter corrigat.</p>
+<p>Nulli stuporem praebere debet, quando numerus millium inter Plinium Secundum et Missos imperatoris dissentit. Quoniam illi, sicut praedixi, quod intentius vere hoc opus perfecerunt quam veteres, testantur.</p>
+
+<p>I. De Europa.</p>
+
+<p>II. De Asia.</p>
+
+<p><pb n="5"/>III. De Africa.</p>
+
+<p>IV. De Aegypto atque Aethiopia cum illius insulis.</p>
+
+<p>V. De longitudine ac latitudine orbis terrae, versibusque Missorum.</p>
+
+<p>VI. De quinque fluminibus et aliis.</p>
+
+<p>VII. De aliquibus nominatim insulis.</p>
+
+<p>VIII. De latitudine et longitudine Tyrrheni maris.</p>
+
+<p>IX. De sex montibus.</p>
+
+<p>In quinto decimo anno regni imperatoris Theodosii, praecepit ille suis Missis provincias orbis terrae in longitudinem et latitudinem mensurari. Terrarum orbis tribus dividitur nominibus, Europa, Asia, Libya, quodk divus Augustus primus omnium, per chorographiam, ostendit.</p>
+	</div1>
+<div1 n="1"><head>1. De Europa</head>
+<div2 n="1"><head>§ 1</head>
+    <p>    Principium ergo erit omnibus ab Europae freto, quem locum Graeci Heracleias appellant. Hispaniarum igitur provinciae tres, ex eo loco ad montes Pyrenaeos, per millia
+<pb n="6"/>passuum <FONT CLASS="overline">DCCCC</FONT> in longitudinem porriguntur. Eademque latitudo in austro; sed, qua contrahitur, <FONT CLASS="overline">CCC</FONT> passuum, videtur ita proxima a Pyrenaeis montibus.</p>
+<p><milestone n="2"/> Ulterior, Cordubensis, Baetica. Prima itaque provincia finitur ab oriente saltu carthaginiensi et Accitania; ab Occidente Oceano, a Septentrione flumine Ana, a Meridie mari Celtiberico. Hispania Lusitania cum Asturia et Gallecia finitur ab Oriente <app>Cantabria</app> quae est ad mare Oceanum in directa regione, ab Occasu allata, a Septentrione Oceano, a Meridie flumine Ana. Patet in longitudinem millia passuum <FONT CLASS="overline">CCCCLXXX</FONT>, in latitudinem <FONT CLASS="overline">CCCCL</FONT>.
+<milestone n="3"/> Hispania Citerior finitur ab Oriente saltu Pyrenaeo, ab Occidente <app>Citeriori</app> quae est ad Oceanum mari directa, a Septentrione Oceano, a Meridie Celtiberico; longitudo <FONT CLASS="overline">D</FONT>, latitudo <FONT CLASS="overline">CC</FONT>.
+	</p></div2>
+<div2 n="2"><head>§ 2</head> 
+<p>Gallia Comata cum insulis Britannicis finitur ab Oriente flumine Rheno, ab Occidente Pyrenaeo, a Septentrione Oceano mari, a Meridie Rhodano et montis Cebennicis; longitudine mill. pass. DCCCCXXVIII, latitudine CCCLXIII, iuxta Plinium Secundum in quarto libro <app>N.H. 4.31.105</app>: in longitudinem DCCCCXX, in latitudinem CCCVIII <app>Agrippae Mensura</app>.</p>
+    
+<p>Provincia Narbonensis finitur ab Oriente Alpibus, ab Occidente saltu Pyrenaeo, a Septentrione finibus Viennensium et montibus Cebennicis, a Meridie mari Gallico; longitudo millia pass. CCCXXXIII, latitudo CLXXXVIIII, iuxta Plinium Secundum in eodem <app>tertio; N.H. 3.5.37</app>: "longitudinem provinciae Narbonensis CCCLXX Agrippa tradidit, latitudinem CCCXLVIII".</p>
+</div2>
+<div2 n="3"><head>§ 3</head>
+    
+<p>Italia finitur ab Oriente mari Ionio, ab Occidente Alpibus et flumine Varo, a Septentrione mari Adriatico et flumine Arsia, a Meridie mari Tyrrhenico; longitudo decies centum millia, latitudo CCCCXX; qua contrahitur LX. Iuxta Plinium Secundum in eodem <app>tertio; vide N.H. 3.6.44</app>:
+
+    <milestone n="2"/> "Italia dein, primumque eius Liguria; mox Etruria, Umbria, Latium: ibi Tiberina p8ostia, et Roma Terrarum caput XVI passuum intervallo a mari; Volscum postea litus et Campania; Picentinum inde, ac Lucanum Brutiumque, quo longissime in Meridiem ab Alpium paene lunatis iugis in maria excurrit Italia. Ab eo Graeciae ora, mox Sallentini, Poediculi, Apuli, Paeligni, Frentani, Marrucini, Vestini, Sabini, Picentes, Galli, Umbri, Tusci, Veneti, Carni, Iapudes, Histri, Liburni" <app>N.H. 3.6.38</app>.</p>
+
+<p><milestone n="3"/> Idem post pauca longitudo Italiae "decies centena et <FONT CLASS="overline">XX</FONT> passuum. Multo amplius mensura fieret Lacinium usque, ni talis obliquitas in latus digredi videretur. Latitudo eius varia est: <FONT CLASS="overline">CCCCX</FONT> millium inter duo maria, inferum et superum amnesque Varum atque Arsiam"
+	
+    <app><hi>N.H.</hi> 3.6.43‑44</app>.</p>
+</div2>
+<div2 n="4"><head>§ 4</head>
+    Rhaetia Minor, Noricus, Pannonia, Illyricum, Dalmatia, Liburnia finiunt ab Oriente Dardania, ab Occidente flumine Rheno, a Septentrione flumine Danubio, a meridie,
+<pb n="9"/>mari Adriatico. Longitudo m. pm. <FONT CLASS="overline">DCXXXIII</FONT>; Latitudo <FONT CLASS="overline">CCCXXI</FONT> 
+<app>vide <hi>N.H.</hi> 3.29.150</app>.
+</div2>
+<div2 n="5"><head>§ 5</head> 
+    Epirus, Achaia, Attica, Tessalia; hae finiuntur ab Oriente mari Aegeo, ab Occidente mari Adriatico, a Septentrione montibus Cercetio Olympo Pelio, a Meridie ab Aegeotusco mari; patent in longitudinem m. p. <FONT CLASS="overline">CCCCX</FONT>. Iuxta Plinium Secundum in <app>quarto</app>: in longitudinem m. p. <FONT CLASS="overline">CCCCXXX</FONT>, in latitudinem <FONT CLASS="overline">CCCLXXXVII</FONT>
+	
+    <app><hi>N.H.</hi> 4.16.32</app>.
+	</div2>
+<div2 n="6"><head>§ 6</head>
+Macedonia, Thracia, Hellespontus et pars sinistrior Ponti; hae finiuntur ab Oriente mari Pontico, ab Occidente desertis Dardaniae, a Septentrione flumine Histro; patent in longitudinem m. p. DCCXX, in latitudinem <FONT CLASS="overline">CCCLXXXI</FONT> iuxta Plinium Secundum in eodem
+	
+<app>N.H. 4.18.50</app>:
+<milestone n="2"/> "Promontorium Chrysoceras, in quo oppidum Byzantium liberae conditionis antea Lygos dictum abest a Dyrrhachio DCCXI p. millia. Tantum patet longitudo terrarum inter Adriaticum mare et Propontidem"
+	
+<app>N.H. 4.18.46</app>.
+	</div2>
+<div2 n="7"><head>§ 7</head>
+    <p>Germania omnis et Gothia finiuntur ab Oriente flumine Vistula, ab Occidente flumine Rheno, a Septentrione Oceano, a Meridie flumine Danubio; patent in longitudinem m. p. circiter <FONT CLASS="overline">DCCC</FONT>, in latitudinem <FONT CLASS="overline">CCCLXXXIIII</FONT>.</p>
+<p><milestone n="2"/> Dacia et Alaunia finiuntur ab Oriente Desertis Sarmatiae, ab Occidente flumine Vistula, a Septentrione Oceano, a Meridie flumine Histro; patent in longitudinem decies centum millia, latitudo quae cognoscitur m. p. CCCLXXXVI iuxta Plinium Secundum in secundo 
+<app>vide <hi>N.H.</hi> 
+2.112.242 ff.,
+	
+4.26.91</app>:</p>
+<p><milestone n="3"/> "Agrippa totum eum tractum ab Histro ad Oceanum bis <app>ad</app> decies centum m. p. in longitudinem, quattuor <app>millibus et</app> <FONT CLASS="overline">CCCC</FONT> in latitudinem ad flumen Vistulam a Desertis Sarmatiae prodidit"
+	
+    <app>N.H. 4.25.81</app>.</p>
+	</div2>
+<div2 n="8"><head>§ 8</head>
+    <p>Sarmatia, Scythia, Taurica; hae finiuntur ab Oriente iugis montis Caucasi et mari Caspio, ab Occidente flumine Borysthene, a Septentrione Oceano, a Meridie provincia Pontica; longitudo m. p. DCCCCLXXX, latitudo <FONT CLASS="overline">DCCXV</FONT>
+	
+<app>N.H. 4.26.91</app>.</p>
+<p><milestone n="2"/> Armenia Maior et mare Caspium, quae circa gentes sunt ad Oceanum, finiuntur ab Oriente Oceano Serico, ab Occidente iugis montis Caucasi et mari Caspio, a Septentrione Oceano, a Meridie monte Tauro; patent in longitudinem m. p. CCCCLXXX, in latitudinem <FONT CLASS="overline">CCLXXX</FONT>
+	
+    <app>N.H. 5.15.37</app>.</p>
+
+	</div2></div1>
+<div1 n="2"><head>2. De Asia</head>
+<div2 n="1"><head>§ 1</head>
+    <p>Asiae pars citerior finitur ab Oriente litoribus Asiae, ab Occidente Graecia, a Septentrione mari Aegeo, a Meridie Cretico et Carpathico; longitudo m. p. DCC, latitudo <FONT CLASS="overline">CCCC</FONT>.</p>
+<p><milestone n="2"/> Asiae pars superior finitur ab Oriente Armenia Minore, ab Occidente finibus Phrygiae Lycaoniae Pamphyliae, a Septentrione provincia Pontica, a Meridie mari Pamphylico quod inter Cyprum et Ciliciam est; longitudo m. p. DXXX, latitudo CCCXX iuxta Plinium Secundo in quinto:</p>
+<p><milestone n="3"/> "Et quae proprie vocatur Asia, in duas eam partes Agrippa divisit: unam inclusit ab Oriente Phrygia <app>et</app> Lycaonia, ab Occidente mari Aegeo<app>, a Meridie Aegypto, a Septentrione Paphlagonia</app>; huius longitudinem <FONT CLASS="overline">CCCCLXX</FONT>, latitudinem <FONT CLASS="overline">CCCXX</FONT> fecit; alteram determinavit ab Oriente Armenia Minore, ab Occidente Phrygia Lycaonia Pamphylia, a Septentrione provincia Pontica, a Meridie mari Pamphylico; longitudinem <FONT CLASS="overline">DLXXV</FONT>, latitudinem CCCXXV"
+	
+    <app>N.H. 5.28.102</app>.</p>
+</div2>
+<div2 n="2"><head>§ 2</head>
+    Syria finitur ab Oriente flumine Euphrate, ab Occidente mari Aegyptio, a Septentrione mari quod inter Cyprum et Syriam est, a Meridie Arabia quae est inter mare Rubrum et sinum Arabicum; huius spatium patet in longitudinem CCCCLXX, in latitudinem CLXXV
+	
+<app>N.H. 5.13.67</app>.
+</div2>
+<div2 n="3"><head>§ 3</head>
+    Arabia Eudemon, Phlecmea <app>patet ea?</app> inter duos sinus: Arabicum et Persicum, itemque citra Arabicum Trogodyte Arabia <app>et</app> Aegypto proxima; hae finiuntur ab oriente solis sinu Persico, ab Occidente Nilo, a Septentrione Pharon et Vab Arabia, a Meridie oceano Erythraeo; patet in longitudinem millia passuum decies centum LX, in latitudinem <FONT CLASS="overline">DCCCCXXX</FONT>.
+</div2>
+<div2 n="4"><head>§ 4</head>
+    Mesopotamia, Babilonia, Caldea finiuntur ab Oriente flumine Tigri, ab Occidente flumine Euphrate, a Septentrione monte Tauro, a Meridie mari Persico; longitudo m. p. DCCCC, latitudo <FONT CLASS="overline">CCCLX</FONT> iuxta Plinium Secundum eadem mensura est
+	
+<app>N.H. 5.31.137</app>.
+</div2>
+<div2 n="5"><head>§ 5</head>
+    Media, Parthia, Persis finiuntur ab Oriente flumine Indo, ab Occidente flumine Tigri, a Septentrione monte Tauro, a Meridie mari Rubro; longitudo m. p. DCCCXX, latitudo CCCCXXI iuxta Plinium Secundum eadem mensura est 
+<app>\1</app>.
+</div2>
+<div2 n="6"><head>§ 6</head>
+    India Ulterior finitur ab Oriente flumine Gange et Oceano Indico, ab Occidente flumine Indo, a Septentrione monte Tauro, a Meridie Oceano Indico; longitudo decies centum millia, latitudo trigies <FONT CLASS="overline">XXX</FONT>.
+
+    </div2></div1>
+<div1 n="3"><head>3. De Africa</head>
+<div2 n="1"><head>§ 1</head>
+    Gaulia <app>Gaetulia</app> et Mauritania finiuntur ab Oriente flumine Amsaga <app>Ampsaga</app>, ab Occidente Oceano Atlantico, a Septentrione mari Africo, a Meridie mari <app>et</app> Oceano Aethiopico; in longitudine m. p. CCCCLXII, in latitudine duodecies XXX. Iuxta Plinium Secundum in tertio <app>quarto/quinto</app>: "utriusque Mauritaniae longitudo m. p. CCCCLXXX, latitudo CCCLXVIII"
+	
+<app>N.H. 5.1.21</app>.
+</div2>
+<div2 n="2"><head>§ 2</head>
+    <pb n="10"/>Numidia et Africa Carthaginiensis finiuntur ab Oriente Syrti Minore, ab Occidente flumine Amsaga, a Septentrione mari Africo, a Meridie Oceano; longitudo m. p. DLXXX, latitudo CC m. p. Iuxta Plinium eadem mensura est
+	
+<app>N.H. 5.3.25</app>;
+</div2>
+<div2 n="3"><head>§ 3</head>
+    idem dicit in sexto: "Africae (ut media ex omni varietate prodentium sumatur computatio) efficit longitudo centum trigies et quatuor <app>septem</app> et LXXVIII m. p., latitudo, qua colitur, nusquam <FONT CLASS="overline">CCL</FONT> excedit"
+	
+<app>N.H. 5.38.208</app>.
+</div2>
+<div2 n="4"><head>§ 4</head>
+    Mensuram Tripolitaniae provinciae inter duas Syrtes, et mensuram Lybiae Cirenaicae cum sua Pentapolitana provincia, nequaquam adhuc scriptam repperi secundum Theodosii missos.
+    </div2></div1>
+<div1 n="4"><head>4. De Aegypto et Aethiopia cum illius insulis.</head>
+<div2 n="1"><head>§ 1</head>
+    <p>Aegyptus Inferior finitur ab Oriente Scenitarum Arabia <app>et</app> Trogodyte, ab Occidente Lybia Deserta, a Septentrione mari Aegyptio, a Meridie Aethiopia; longitudo m. p. CCCLXIIII, latitudo <FONT CLASS="overline">CLXVII</FONT> iuxta Plinium Secundum in eodem 
+<app>sed quartum/quintum est; vide
+	
+<hi>N.H.</hi> 5.9.48</app>:</p>
+</div2>
+<div2 n="2"><head>§ 2</head>
+<p> longitudinem Aegypti superioris cum sua <app>cum mari Rubro habet</app> Aethiopia C decies et quater <app>-</app> et semel LXX m. p., latitudinem Aethiopiae et Aegypti Superioris <FONT CLASS="overline">DCCCCLVII</FONT> passuum Agrippa existimavit
+	
+<app>N.H. 5.35.196</app>.</p>
+</div2>
+<div2 n="3"><head>§ 3</head>
+    
+<p> "Aethiopia ab Oriente hiberno, ad Occidentem hibernum, meridiano cardine silvae <app>h</app>ebeno maxime virent; a media eius parte, imminens mari mons excelsus aeternis ardet ignibus Theon Ochema dictus a Graecis, a quo navigatione quatridui, promontorium Hesperu Ceras vocatur confine Africae, iuxta Aethiopas Hesperios. Quidam, et in eo tractu modicos colles amoena opacitate vestitos, Aegipanum Satyrorumque produnt
+	
+<app>N.H. 5.35.197</app>; insulas toto eo mari et Ephorus complures esse tradidit, et Eudoxus et Timosthenes, Clitharcus vero Alexandro Regi renuntiat"
+	
+<app>N.H. 5.36.198</app>.</p>
+</div2></div1>
+<div1 n="5"><head>5. De longitudine et latitudine orbis terrae versibusque missorum.</head>
+<div2 n="1"><head>§ 1</head>
+    <p>Idem dicit in tertio <app>secundo</app>:"Pars nostrarum terrarum, de qua commemoro, ambienti, ut dictum est, Oceano velut innatans, longissime ab ortu ad occasum patet, hoc est ab India ad Herculis Columnas Gadibus sacratas centum mill. sexagies et sexies et <FONT CLASS="overline">XXX</FONT>; simpliciter triginta millia passuum ut Artemidoro auctori placet"
+	
+<app>N.H. 2.112.242</app>.</p>
+<p><milestone n="2"/> Idem, post pauca dicit: "Latitudo autem terrae a meridiano situ ad Septentrionem dimidio ferme colligitur quadrigies atque ter et XLVIII simpliciter millia passuum. Quo palam fit, quantum et hinc vapor abstulerit et illinc liquor. Neque enim deesse terris arbitrior, aut non esse globi formam, sed inhabitabilia utrinque incomperta esse"
+	
+<app>N.H. 2.112.245</app>.</p>
+<p><milestone n="3"/> Si numeremus praescriptam longitudinem ab orientali parte Indiae usque ad Gades insulas per milliaria signa, verbi gratia, per lapides milliarios terminantes singuli singula, millia passuum <FONT CLASS="overline">VII</FONT> et DCXXX erunt. Latitudinem vero a septentrionali in australem <FONT CLASS="overline">III</FONT> et <FONT CLASS="overline">CCCXLVIII</FONT>, praetermissis praedictis partibus intollerabilis frigoris atque caloris.
+    Mensuratio orbis terrae finit.</p>
+</div2>
+<div2 n="2"><head>§ 2</head>
+    Duodecim versus praedictorum Missorum, de imperante Theodosio hoc opus fieri, incipiunt
+    <l>Hoc opus egregium, quo mundi summa tenetur,</l>
+<l>Aequora quo montes, fluvii, portus, freta er urbes</l>
+<l>Signantur, cunctis ut sit cognoscere promprum,</l>
+<l>Quicquid ubique latet; clemens genus, inclita proles,</l>
+<l>Ac per saecla, pius totus, quam vix capit orbis,</l>
+<l>Theodosius princeps venerando iussit ab ore</l>
+<l>Confici, ter quinis aperit cum fascibus annum.</l>
+<l>Supplices hoc famuli, dum scribit, pingit et alter,</l>
+<l>Mensibus exiguis veterum monumenta secuti,</l>
+<l>In melius reparemus opus culpamque priorem.</l>
+<l>Tullimua, ac totum breviter comprehendimus orbem:</l>
+<l>Sed tamen, hoc tua nos docuit sapientia princeps.</l>
+Non debet mirari quod in primo loco septimi et octavi versus istorum amphimachrus scriptus est; quoniam, ut reor, non imperitia, sed auctoritate aliorum poetarum, et maxime Virgilii, quem in talibus causis noster simulavit Sedulius; qui in heroicis carminibus raro pedes alienos ab illis posuerunt.
+</div2></div1>
+<div1 n="6"><head>6. De quinque fluminibus et aliis</head>
+<div2 n="1"><head>§ 1</head>
+    <p>Iuxta Plinium Secundum, numerorum loca quae in prologo praedixi relinquere vacua, repertis illis, supplevi. Sed, quisquis meliora exemplaria invenerit, videat, si placuerit, ne piger corrigere fuerit. Plinius Secundus in quinto de flumine Nilo haec narrat: "Proxima Africae <app>in</app>colitur Aegyptus introrsus ad Meridiem recedens, donec a tergo praetendantur Aethiopes. Inferiorem eius partem Nilus dextra levaque divisus amplexu suo determinat, Canopico ostio ab Africa, ab Asia Pelusiaco, <FONT CLASS="overline">CCLXX</FONT> passuum intervallo. Quam ob causam, inter insulas quidam Aegyptum retulere ita se findente Nilo, ut triquetram terrae figuram efficiat: ideoque, multi graecae litterae vocabulo Delta appellavere Aegyptum.</p>
+<p><milestone n="2"/> Mensura ab unitate alvei, unde se primum findit in latera, ad Canopicum ostium <FONT CLASS="overline">CLXVI</FONT> passuum, ad Pelusiacum <FONT CLASS="overline">CLVI</FONT> passuum
+<app>N.H. 5.9.48</app>. Summa pars, contermina Aethiopiae, Thebais vocatur"
+<app>N.H. 5.9.49</app>.</p>
+<p><milestone n="3"/> Nilus "incipit crescere a luna nova quaecunque post solstitium est, sensim modiceque cancrum sole transeunte, abundantissime autem leonem; et residit in virgine iisdem <app>quibus adcrevit modis; in totum autem</app> revocatur intra ripas in libra, ut tradit Herodotus, centesimo die.</p>
+<p><milestone n="4"/> Quo crescit reges autem et praefectos navigare eo nefas diiudicatum est. Auctus, per puteos mensurae notis deprehenditur iustum incrementum cubitorum XVI
+<app>N.H. 5.10.57</app>. Minores aquae non omnia rigant; amplioresque detinent tardius recedendo. Haerendo tempora assumunt solo madente; illae non dant sitiente: utrimque reputat provincia. In duodecim cubitis famem sentit, in XIII esurit; XIIII cubiti hilaritatem afferunt, XV securitatem; XVI delicias. Maximum incrementum, ab hoc aevo, fuit cubitorum XVII<app>I</app>, Claudio principe: minimum V pharsalico bello, veluti necem magno prodigio quodam fulmine <app>flumine</app> aversante. Cum stetere aquae, apertis montibus <app>molibus</app> admittuntur: ut quaeque liberata est terra, seritur. Idem amnis unus omnium nullas expirat auras"
+<app>N.H. 5.10.58</app>.</p>
+	</div2>
+<div2 n="2"><head>§ 2</head>
+    <p>Julius Solinus in collectaneis de eodem Nilo nuntiat: "Aegyptus ad Meridiem introrsus recedit quo apprehendunt Aethiopes a tergo. Interiorem eius partem Nilus circumfluit, qui scissus a loco cui Delta nomen est, ad insulae faciem spatia amplectitur interna, et incerto paene fonte decurrens proditur, ut loquemur.</p>
+<p><milestone n="2"/> Originem habet a monte inferioris Mauritaniae qui Oceano propinquat. Hoc affirmant punici libri. Hoc Iubam regem accipiumus tradidisse. Igitur protinus lacum efficit quod Niliden dicunt. Nilum autem iam inde esse coniiciunt, quod hoc stagnum herbas, pisces, belluas nihil minus procreat, quam in Nilo videmus.</p>
+<p><milestone n="3"/> Quando Mauritaniae undique origo eius a nivibus densioribus aut imbribus inrigatur; inde incrementa exundationis in Aegypto augentur. Sed effusus hoc lacu, arenis sorbetur, et cuniculis caecis absconditur.</p>
+<p><milestone n="4"/> Deinde in Caesariensi specu <app>Caesariensi pede</app> prorumpens ampliora eadem indicia profert quae in exortum notavimus; rursusque subsidit; nec se prius reddit, quam post intervalla itineris extenti contingat Aethiopas; ubi exit, et nigrum facit fluvium, quem supra diximus esse terminum limitis Africani. Astapum eum inde gentes vocant, scilicet aquam e tenebris profluentem. Multas magnasque ambit insulas, quarum pleraeque sunt tam diffusae vastae magnitudinis, ut vix eas dierum quinque cursus praetermeet, quamvis concitus, ibi feratur.</p>
+<p><milestone n="5"/> Nobilissima earum est Meroe circum quam divisus dextero alveo Astisapes <app>Astosapes</app>, levo Astabores nominantur. Tunc quoque emensus magna longinqua, cum primum, occurrentibus scopulis, asperatur <app>tantis</app> agminibus, extollitur inter obiecta rupium; ut ruere potius, quam manare credatur: demumque a cataracte ultimo tutus est.</p>
+<p><milestone n="6"/> Ita enim quaedam claustra eius Aegyptii nuncupant: relicto tamen hoc priore <app>pone</app> suo nomine quod Nigris vocatur, mox inoffensus meat. Septem ostiis conditur Septentrionem <app>in Meridiem</app> versus, et excipitur Aegyptio mari" 
+    <app>De Mirab. M. 33</app>.</p>
+	</div2>
+<div2 n="3"><head>§ 3</head>
+    <p>Quamquam in libris alicuius auctoris fluminis Nili partem in Rubrum mare exire nequaquam legimus; tamen affirmans fidelis frater meo magistro Suibneo narravit coram me (cui, si profeci quicquid, post Deum imputo) quod adorationis causa in urbe Hierusalem clerici et laici habitaria usque ad Nilum velificaverunt.</p>
+<p><milestone n="2"/> Deinde in Nilo longe navigando, septem horrea, secundum numerum annorum et ordinem abundantiae, quae Sanctus Joseph fecerat de longinquo ad mirantes, tamquam montes viderunt. Quattuor in uno loco, ac tria in altero.</p>
+<p><milestone n="3"/> Hinc ad horrea tria miraculi causa vadentes, Leonem et octo homines viros atque foeminas iuxta illa mortuos invenerunt. Leo sua fortitudine occidit illos: illi hastis et gladiis ipsum interfecerunt; quia deserta utraque loca sunt in quibus horrea septem constructa fuerant.</p>
+<p><milestone n="4"/> Post haec, diligenter considerando tria horrea iterum mirabantur, a principio fundamenti usque ad finem altitudinis illorum, omnino lapidea fieri. Illa in inferiore parte quadrata facta sunt, in superiore vero rotunda; in fine sublimitatis quasi gracile acumen habent.</p>
+<p><milestone n="5"/> Post haec, praedictus frater unum latus unius horrei ab angulo, usque ad alterum, pedibus quadringentis mensuravit.</p>
+<p><milestone n="6"/> Deinceps, intrantes in naves in Nilo flumine, usque ad introitum Rubri maris navigaerunt. Ex illo portu, ad orientalem plagam, usque ad Moysi viam, per Rubrum mare parvum est spatium. Ille mensurator lateris horrei ire usque ad portum in quo intravit Moyses cum populo suo in mare voluit; non solum, ut intrasset in portum, sed, ut in eo vestigia curruum et rotarum orbitas Pharaonis cerneret. Nautae illi non consenserunt. Latitudo maris in eodem loco quasi <FONT CLASS="overline">VI</FONT> sibi visa est.</p>
+<p><milestone n="7"/> Inde, in occidentali parte Rubri maris, hoc est, in sinu extendente se longe, in septentrionalem partem velivola festinatione navigaverunt. Illud est mare quod murmurantem populum Israelitarum in deserto coartavit; ne in terram Aegypti regredi potuisset.</p>
+<p><milestone n="8"/> Non mirum est unum fluvium in diversa flumina dividi, cuius latitudo maxime in Aegypto magno Ponto comparantur; ut Priscianus, in tertio decimo libro parabolando dicens, monet: "ut si aspicientes mare, dicamus talem esse Nilum" <app>Prisc., Inst. Gramm. 13,33</app>.</p>
+<p><milestone n="9"/> Hodie in Cosmographia quae sub Iulio Caesare et Marco Antonio consulibus facta est, scriptam inveni partem Nili fluminis exeuntem in Rubrum mare iuxta civitatem Olivam et Castra Monsei.</p>
+<p><milestone n="10"/> Quisquis longitudinem Nili cognoscere desiderat, sciat prius quot millia ab occidentali parte Africae usque ad orientalem plagam Aegypti numerantur; inde, usque ad ostium per quod pars illius, iuxta Castra Monsei et civitatem quae nuncupatur Oliva, vadit in mare Rubrum: vel si longius voluerit, usque ad Pelusiacum ostium, per quod altera ipsius pars in Tyrrhenum mare intrat; aut si, usque ad finem fere totius plenitudinis eius computaverit; in Canopico ostio terminabit, sed longius ad Pelusiacum 
+    <app>vide in <hi>N.H.</hi> 5.9.48</app>. Latitudo istius fluvii per quot millia dilatatur non repperi.</p>
+	</div2>
+<div2 n="4"><head>§ 4</head>
+    <p>Iulius Solinus in eodem praedicto volumine de Euphrate hoc docet: "Euphraten fundit Armenia Maior. Ortus supra Zi<app>za</app>mam, sub radicibus montis quem Catoten <app>Capoten</app> accolae nominant Scythis proximum; hic, receptis in se aliquot amnibus, convalescit, et stipatus convenis aquis luctatur cum montis Tauri obiectu, quem apud Elegeam scindit, licet et resistit duodecim millibus passuum latitudine 
+<app>De Mirab. M. 38</app>. Vero <FONT CLASS="overline">DCCCLXII</FONT>.</p>
+<p><milestone n="2"/> Plinius Secundus de eodem Euphrate in quinto libro dicit <app>Mensuras vide in <hi>N.H.</hi> 5.20.83‑84 et 5.21.86&#8209;90 quas colligantur ad <FONT CLASS="small">DCCCLXXVII</FONT></app>.
+Increscit autem et ipse Euphrates Nili modo, aestatis diebus: paululum differens ab eo Mesopotamiam inundat, sole optinente vicesimam partem cancri. Minui incipit leone transgresso in virgine. In totum vero remeat in vicesima nona parte virginis.
+</p></div2>
+<div2 n="5"><head>§ 5</head>
+    <p>Idem Iulius <app>Solinus</app> in eodem libro: "De Tigri quoque dicere hoc loco par est. In Armeniae regione, caput tollit mire quam lucidum, conspicuo fonte in loco edito qui Egelos 
+<app>Elegos in Solino, Elegosine vero in <hi>N.H.</hi> 5.31.127</app> nominatur; nec ab exordio statim totus est. Primum pigre fluit, non suo nomine: at, cum fine<app>s</app> Medorum invectus est, Tigris statim dicitur: ita nominant Medi sagittam.</p>
+<p><milestone n="2"/> Influit in Arethusam <app>Arethissam</app> lacum omnia pondera sustinentem, cuius pisces nunquam se alveo Tigris miscent; sicut, nec amnici pisces in stagnum transeunt Arethusae <app>Arethissae</app>, per quod dissimili colore et volucri meat cursu.</p>
+<p><milestone n="3"/> Mox, Tauro resistente, in profundum specum mergitur, quem subter labens, in altero eius latere apud Azoma <app>Zomadam</app> emicat, ulvas et purgamenta plurima secum trahens. Deinde, identidem absconditur se, rursusque redditur<app>.</app> ad Abienos <app>Adiabenos</app> Mesopotamiam amplectitur, Arabasque praeterfluit, amnem nobilissimum Coaspen accipit" 
+<app>De Mirab. M. 38 videndo
+	
+<hi>N.H.</hi> 7.31.127‑128</app>. Longitudo illius <FONT CLASS="overline">DCCCXCV</FONT> <app>ubi non exstat!</app>; latitudinem eius non legi.</p>
+<p><milestone n="4"/> Sed Plinius Secundus altero nomine <app>Thospites in <hi>N.H.</hi> 7.31.128</app> praedictum stagnum nominat, quod nunc obliviscor, et aquam illius stagni amaram esse narrat, atque fluminis dulcem: ideo fluvii pisces evitant ire in stagnum, veluti stagni pisces intrare in flumen fugiunt
+	
+    <app>N.H. 7.31.127</app>.</p>
+	</div2>
+<div2 n="6"><head>§ 6</head>
+    <p>Idem Iulius post <app>non</app> multa 
+<app>De Mirab. M. 38</app>. "Maximi in India amnes Gange et Indus, quorum Gangen quidam fontibus incertis nasci et Nili modo exultare contendunt; alii volunt a Scythicis montibus exoriri. Hypranes <app>Hypanis</app> etiam ibi nobilissimus fluvius, qui Alexandri Magni iter terminavit, sicuti arae in ripa eius positae probant. Minima Gangis latitudo per <FONT CLASS="overline">VIII</FONT> passuum, maxima per <FONT CLASS="overline">XX</FONT> patet; longitudo <FONT CLASS="overline">CCCCLIII</FONT>, altitudo ubi vadosissimum est mensura C pedum devorat" 
+<app>De Mirab. M. 53</app>.</p>
+<p><milestone n="2"/> Idem paulo <app>sed multo</app> post:
+    "In Gange insula est populissima amplissimam continens gentem, cuius rex peditum <FONT CLASS="overline">L</FONT>, equitum LIIII <app>IV</app> millia in armis habet. Omnes sane quicumque praediti sunt regia potestate, non sine maximo elephantorum, equitum etiam, peditumque numero militarem agitant disciplinam" <app>Ibid.</app>.</p>
+	</div2>
+<div2 n="7"><head>§ 7</head>
+    <p>Idem paulo post: "Anguillas ad trigenos pedes longas educat Ganges, quem Statius Sebosus inter precipua miracula ait vermibus abundare ceruleis, nomine et colore; hi bina habent brachia longitudinis cubitorum non minus senorum, adeo robustis viribus, ut elephantos ad potum ventitantes mordaci comprehensos ipsorum manu rapiant in profundum" <app>Ibid.</app>.</p>
+<p><milestone n="2"/> "Sunt in India praeterea Boves unicornes <app>et tricornes, solidis ungulis nec bifissis</app>; sed atrocissimus est Monoceros: monstrum mugitu horrido, equino cirpore, elephanti pedibus claudis, villosis, capite cervino, cornu a media fronte eius protenditur splendore mirifico, ad magnitudinem pedum quattuor, ita acutum ut, quicquid impetat, facile ictu eius perforetur. Vivus non venit in hominum potestatem, et interimi quidem potest, capi non potest" <app>Ibid.</app>.</p>
+<p><milestone n="3"/> Est Renoceron in Aethiopia, sive eiusdem, vel alterius similis generis, de quo Iulius Solinus longe sic ait: "Ante ludos Cnei Pompeii, Renocerotem romana spectacula nesciebant, cui bestiae color buxeus, innaribus cornu unicum et repandum, quod subinde attritum cautibus in mucronem excitat eo quod, adversus elephantos proeliatur. Par ipsis longitudine brevior auribus <app>cruribus</app>: naturaliter alvum petens; quam solam intelligit ictibus suis perviam" 
+<app>De Mirab. M. 31</app>.</p>
+<p><milestone n="4"/> Est aliud animal in Africa Cirenaica quod in alia terra fieri non legimus: de quo idem ita longe ante infit: "Hienam <app>Hyaenam</app> quoque mittit Africa, cui cum spina riget collum, continua unitate flectit, non nisi toto corpore circumactu. Multa de ea mira: primum, quod sequitur stabula pastorum, et auditu assiduo addiscit vocamen, quo exprimere possit imitationem vocis humanae, ut in hominem, astu accitum, nocte saeviat. Vomitus quoque humanos mentitur, falsisque singultibus sollicitatos canes sic devorat; qui, forte si venantes umbramque eius secuti contingerit, latrare nequeunt voce perdita.</p>
+<p><milestone n="5"/> Eadem hiena inquisitione corporum sepultorum busta eruit. Praeterea, promptius est marem capere; feminis enim ingenita est callidior astutia. Varietas multiplex inest oculis, colorumque mutatio; in cuius pupulis lapis invenitur, hienium dicunt praeditum illa potestate, ut cuius hominis linguae fuerit suppositus, praedicat futura. Verum hiena quodcunque animal ter lustraverit, movere se non potest; quapropter magicam scientiam inesse ei pronuntiaverunt. In Aethiopiae parte coit cum Leaena, unde nascitur monstrum cui Chorococtae <app>Crocottae</app> nome est. Voces hominum et ipsa pariter affectat. Nunquam cohibet aciem orbium oculorum; sed, in obtutu sine nictatione contendit. In ore lingua <app>gingiva</app> nulla: dens unus atque perpetuus qui, ut nunquam retundatur, naturaliter capsularum modo clauditur" 
+    <app>De Mirab. M. 28</app>.</p>
+</div2>
+<div2 n="8"><head>§ 8</head>
+    <p> Idem longe prius de flumine Danubio inquit: "Hister Germanicis iugis oritur, effusus monte qui Rauracos Galliae aspectat. Sexaginta amnes in se recipit ferme omnes navigabiles. Septem ostiis Pontum influit. Quorum primum Peuce, secundum Naracustoma, tertium Calonstoma, quartum Pseudostoma, quintum Borionstoma, ac deinde Spilonstoma languidiora sunt caeteris, septimum vero pigrum, ac palustri specie, non habet quod amni comparetur. Priora quattuor ita magna sunt ut per longitudinem <FONT CLASS="overline">CCCC</FONT> passuum non misceantur aequori, dulcemque haustum inconsumpto detineant sapore" 
+        <app>De Mirab. M. 14</app>. Longitudo ipsius <app>M</app><FONT CLASS="overline">DCCCCXXIII</FONT> <app>ubi non exstat!</app>.</p>
+	</div2>
+<div2 n="9"><head>§ 9</head>
+    <p>Haec de praetitulatis quinque fluminibus congregatim scripta sunt. Brevius de sequentibus fluviis ex Cosmographia tantum praedicta nuper in meas manus veniente, excerpetur.
+Fluvius Iordanis nascitur sub Libano monte circumiens eum; vergit in lacum Tiberiadem, de eo exiens ad Citopolim quam secans mediam et ab ea exiens effunditur in mare Mortuum; currit per millia DCCXXII <app>an CCXXII</app>.</p>
+<p><milestone n="2"/> Hermus nascitur in campis Asiae; influit in mare Cycladarum; currit per millia DCVIIII.</p>
+<p><milestone n="3"/> Meandros nascitur in campis Asiaticis bicornus; currit quasi sinu reddens se ad unum; influit in mare Cycladarum; currit per millia DCCCXCVII <app>probltr CCXCVII</app>.</p>
+<p><milestone n="4"/> Fluvius Eurotas nascitur in campis Phrygiae <app>Laconiae</app>; influit in mare Tyrrhenum <app>Aegeum</app>; currit per millia DCCCXXV <app>LXXV forsitan</app>.</p>
+<p><milestone n="5"/> Fluvius Tanais nascitur in monte Hyperborei Riphei; per Meotidas paludes exiens, influit in Euxinum Pontum; currit per millia DCLIII.</p>
+<p><milestone n="6"/> Borysthenes nascitur in monte Hyperboreo; influit in mare Ponticum; currit per millia CCX.</p>
+<p><milestone n="7"/> Sperthius <app>Sperchios</app> nascitur in monte Macedoniae; influit in mare Aegeum; currit per millia DCII <app>sed XLII</app>.</p>
+<p><milestone n="8"/> Alpheus nascitur in campis Achaiae; influit in mare Tyrrhenum; currit per millia CCCCLXX <app>sed hodie C</app>.</p>
+<p><milestone n="9"/> Achiloius <app>Achelous</app> nascitur in campis Ephyri; influit in mare Ionium; currit per millia DCCXV <app>fors. CCXV, sed hodie ad CL</app>.</p>
+<p><milestone n="10"/> Tiberis nascitur in monte Apennino; occidit in mare Tyrrheno; currit per millia CCCCXCV <app>sed hodie CCXCV</app>.</p>
+<p>11 Rhenus nascitur in Alpibus <app>Apenninis</app>; occidit in Oceano Occidentali; currit per millia DLII <app>vero hodie ad CM</app>.</p>
+<p><milestone n="12"/> Rhodanus nascitur in Alpibus Coticis <app>Cottiaeis</app>; influit in mare Tyrrhenum; currit per m. p. <app>hodie DL sed in texto Mensura deest</app>.</p>
+<p><milestone n="13"/> Garonna <app>Garumna</app> nascitur in Aquitaniae campis; influit in Oceanum Occidentalem; currit per millia CCVIIII <app>vero hodie ad CCCCXL</app>.</p>
+<p><milestone n="14"/> Baetis nascitur in campis Hispaniae; occidit in Oceano Occidentali; currit per millia CCCCX.</p>
+<p><milestone n="15"/> Tagus nascitur in campis Hispaniae; occidit in Oceano Occidentali; currit per millia CCCII <app>vero hodie ad DCLXXX</app>.</p>
+<p><milestone n="16"/> Mineus nascitur prope Pyrenaeum; in rotunditate vertitur, ut Bregantium oppidum maritimum includat, et sic se in Oceanum Occidentalem recipit; currit per millia CCCX <app>hodie CCX</app>.</p>
+<p><milestone n="17"/> Hiberus nascitur sub Assiriis <app>Asturiis; sed Cantabris</app> montibus Pyrenaei; vicinitas inlustrans Hispanias; infundit se mari iuxta Tarraconam; currit per millia CCIIII <app>hodie vero DCXIIII</app>.</p>
+<p>Haec omnia quae de fluminum longitudine dixi, ex Cosmographia accepi.</p>
+</div2></div1>
+<div1 n="7"><head>7. De aliquibus nominatim Insulis.</head>
+
+<div2 n="1"><head>§ 1</head>
+    <p>Scribens de Aethiopia quae ad Africam pertinet, de multis eius insulis iuxta Plinium Secundum breviter locutus sum <app>vide par. 4</app>; sed, nulla nominatim praedixi. Ideo paucas ex illis quarum nomina legeram nominatas ostendam.</p>
+<p><milestone n="2"/> Idem Plinius Secundus in sexto libro, iuxta Aethiopas Aroteras insulas esse docet; item Bachias et Antibachias et Stratioton
+	
+<app>N.H. 5.34.173</app>.</p>
+<p><milestone n="3"/> Priscianus in libro qui in graeco Periegesis nominatur, id est: Descriptio Orbis Terrae, quam per metrum valde bonum fecerat, Erythraeam insulam iuxta Atlanticam Aethiopiam fore monet:
+
+<l>"Aethiopes habitant Erythiam pectore iusti,</l>
+<l>Atlantem iuxta longaevi. Finibus olim, . . ." <app>Priscian., <hi>Perieg</hi>. 570‑571</app>.</l></p>
+
+<p><milestone n="4"/> Gaulea insula in Australi Oceano Occidentalis Aethiopiae, cuius vocabulum Isidorus in XIIII <app>14,6,8ss</app> libro Aethimologiarum ostendit.</p>
+<p><milestone n="5"/> Fortunatae atque Gorgodes, Hesperides, quae insulae quod sunt in occidentali pelago Africae multi nuntiant. Longius ab Africa Gorgodes quam Fortunatae, ac Hesperides quam Gorgodes. Cum, in eo quod in Cosmographia fluvius Malva <app>vide: Isid., <hi>Aethim.</hi> 14,5,11‑12 cum <hi>N.H.</hi> 5.1.18</app> sub insula Fortunata nasci fertur, ex hoc prope ad Africam esse perhibetur. Distant autem Gorgodes a continenti terra bidui navigatione, ut in quarto decimo libro Aethimologiarum <app>14,6,9</app> Isidorus ait.</p>
+	</div2>
+<div2 n="2"><head>§ 2</head>
+    <p>In occidentali vel septentrionali mari Hispaniae insulas fieri non legimus.
+Circum nostram insulam Hiberniam sunt insulae; sed aliae parvae, atque aliae minimae. Iuxta insulam Britanniam multae aliae magnae, aliae parvae, aliaeque mediae sunt, aliae in australi mari et aliae in occidentali; sed magis in parte circii et septentrionis illius abundant. In aliquibus ipsarum habitavi, alias intravi, alias tantum vidi, alias legi.</p>
+<p><milestone n="2"/> Plinius Secundus in <app>secundo/tertio</app> quarto libro edocet quod Pytheas Massiliensis <app>sed: Timaeus</app>, sex dierum navigatione, in Septentrionem, a Britannia Thilen distantem narrat
+	
+<app>N.H. 4.30.104</app>.</p>
+<p><milestone n="3"/> De eadem semper deserta, in eodem XIIII Aethimologiarum libro Isidorus infit: "Thyle ultima insula Oceani inter septentrionalem et occidentalem plagam, ultra Britanniam; a sole nomen habens, quia in <app>ea</app> aestivum solstitium sol facit" <app>Isid., <hi>Aethim.</hi> 14,6,4</app>.</p>
+<p><milestone n="4"/> Priscianus de eadem in Periegesi manifestius quam Isidorus inquit:
+        <l>"Oceani tranans hinc navibus aequor apertum,</l>
+        <l>Ad Thulen veniens, quae nocte dieque relucet</l>
+<l>Titanis radiis, cum curru scandit ad axes</l>
+<l>Signiferi, boreas succedens lampade partes" <app>Priscian., <hi>Perieg.</hi> 588‑591</app>.</l></p>
+		
+
+<p><milestone n="5"/> De eadem manifestius et plenius quam Priscianus Iulius Solinus de Britannia loquens, in collectaneis ita scripsit: "Thyle ultima in qua, aestivo <app>solstitio</app> sole de cancri sidere faciente transitum, nox nulla; brumali solstitio, perinde, nullus dies <app>Solino, De Mirab. M. 22 secunda ed.</app>.</p>
+<p><milestone n="6"/> Trigesimus nunc annus est a quo nuntiaverunt mihi clerici, qui a kalendis febroarii usque kalendis augusti in illa insula manserunt, quod, non solum in aestivo solstitio, sed in diebus circa illud, in vespertina hora, occidens sol abscondit se quasi trans parvulum tumulum, ita ut, nihil tenebrarum in minimo spatio ipso fiat, sed quicquid homo operari voluerit, vel peduculos de camisia abstrahere, tanquam in praesentia solis potest; et, si in altitudine montium eius fuissent, forsitan nunquam sol absconderetur ab illis. In medio illius minimi temporis, medium noctis fit in medio orbis terrae <app>iuncto: "Et sic puto, e contrario in hiemali solstitio, et in paucis diebus circa illud, auroram in minimo spatio in Thyle apparere quando meridies fit in medio orbis terrae"</app>; et idcirco mentientes falluntur qui circum eam concretum fore mare scripserunt, et qui a vernali aequinoctio usque ad autumnale continuum diem sine nocte, atque autumnali, versa vice, usque ad vernale aequinoctium assiduam quidem noctem, dum illi navigantes in naturali tempore magni frigoris eam intrabant, ac manentes in ipsa, dies noctesque semper praeter solstitii tempus alternatim habebant; sed, navigatione unius die ex illa ad boream congelatum mare invenerunt.</p>
+</div2>
+<div2 n="3"><head>§ 3</head>
+    Sunt aliae insulae multae in Septentrionali Britanniae Oceano, quae a septentrionalibus Britanniae insulis duorum dierum ac noctium recta navigatione, plenis velis, assiduo feliciter adiri queunt. Aliquis presbyter religiosus mihi retulit quod, in duobus aestivis diebus, et una intercedente nocte, navigans in duorum navicula transtrorum, in unam illarum intrivit. Illae insulae sunt aliae parvulae; fere cunctae simul angustis distantes fretis, in quibus in centum ferme annis heremitae ex nostra Scotia navigantes habitaverunt, sed, sicut a principio mundi, desertae semper fuerunt; ita, nunc causa latronum Normannorum, vacuae anachoritis, plenae innumerabilibus ovibus, ac diversis generibus multis nimis marinarum avium. Nunquam eas insulas in libris auctorum memoratas invenimus.
+	</div2>
+<div2 n="4"><head>§ 4</head>
+    <p>Iulius Solinus in collectaneis de Germania atque insulis eius: "in hoc tractu, et in omni Septentrionis plaga bisontes frequentissimi, qui bobus fere similes, setosi collo, iubas horridi, ultra tauros pernicitate, capti assuescere manu nesciunt. Sunt et uri quos imperitum vulgus vocat bubalos; cum bubali paene ad cervinam faciem in Africa procreentur. Istis porro quos uros dicimus, taurina cornua in tantum modum protenduntur, ut dempta ob insignem capacitatem inter regias mensas potuum gerula fiant.</p>
+<p><milestone n="2"/> Est et alces mulis comparanda, adeo propenso labro superiore, ut, nisi recedens in posteriora vestigia pasci non queat. Gravia <app>Gangavia</app> insula regionis Germaniae emittit animal quale alces, et cui suffragines <app>ut elephantis</app> flecti nequeunt: propterea, non cubat cum dormiendum est. Tamen somnolentum arbor sustinet, quae prope ad casuram secatur; ut, fera dum assuetis ful<app>ci</app>mentis nititur, faciat ruinam. Ita capitur, alioquin difficile est eam mancipari; nam, in illo rigore poplitum incomprehensibili fuga pollet.</p>
+<p><milestone n="3"/> Germanicarum insularum Scandinavia maxima est. Sed nihil in ea magnum praeter ipsam" 
+    <app>De Mirab. M. 21</app>.</p>
+	</div2>
+<div2 n="5"><head>§ 5</head>
+    <p>Plinius Secundus in libro <app>quarto</app> de Septentrionali Oceano Scythiae insulis illius: Septentrionalem Oceanum Amalchium Hecatheus appellat "a Parapaniso amne qui Scythiam alluit; quod nomen qius gentis lingua significat congelatum mare
+	
+<app>N.H. 4.27.94</app>. Philemon Morimarusam a Cimbris dicit vocari, hoc est Mortuum mare, inde usque ad promontorium Rubeas, ultra deinde Cronium nominat.</p>
+<p><milestone n="2"/> Xenophon Lam<app>p</app>sacenus, a litore Scytharum tridui navigatione, insulam esse immensae magnitudinis Balciam tradit. Eamdem Pytheas Basiliam nominat.</p>
+<p><milestone n="3"/> Non longe feruntur et Oeoecenae <app>Oeonae</app> insulae, quarum ovis avium marinarum et avenis vulgo nascentibus incolae vivunt. Aliae in quibus equinis pedibus homines nascuntur Hippopodes appellati. Aliae <app>Fanesiorum</app> in quibus nuda corpora praegrandes ipsorum aures tota contegant"
+<app>N.H. 4.27.95</app>.</p>
+<p><milestone n="4"/> Idem Plinius Secundus de insulis Germania: "Incipit deinde clarior aperiri fama, ab gente Ingueonum quae est prima in Germania. Mons Saevo ibi immensus, nec Ripheis jugis minor, immanem ad Cimbrorum usque promontorium efficit sinum qui Codanus vocatur, refertus insulis; quarum clarissima est Scandinavia, incompertae magnitudinis, portionem tantum eius, quod sit notum, Hillevionum gente quingentis incolente pagis, quare alterum orbem terrarum eam appellat. Nec minor est opinione Epigia <app>Eningia</app>
+<app>N.H. 4.27.96</app>. Quidam haec habitari ad Vistulam usque fluvium, a Sarmatis, Venedis, Scirisque tradunt"
+<app>N.H. 4.27.97</app>.</p>
+	</div2>
+<div2 n="6"><head>§ 6</head>
+    <p>In praedicta Cosmographia legitur esse insula Solis quae appellatur Perusta, ubi Ganges intrat in mare. Et in eodem Orientali Oceano Hipodes, et Silephantine, atque Theras.</p>
+<p><milestone n="2"/> Plinius Secundus in libro sexto, in Oceano Indico insulas fieri, ita monet: "Quattuor satrapiae mox paulo ad Taprobanem insulam festinante animo	
+<app>N.H. 5.23.79</app>. Sed, ante est Aliopatale <app>sunt aliae: Patale</app> quam significavimus in ipsis faucibus Indi, triquadra figura <FONT CLASS="overline">CCXX</FONT> passuum latitudine. Extra ostia Indi, Crhyse et Argyre fertiles metallis, ut credo. Nam, quod aliqui tradidere aureum argenteumque his solum esse, haud facile crediderim. Ab his, <FONT CLASS="overline">XX</FONT> passuum latitudine, Crotale Tabeaque XII <app>Crocala et ab ea XII</app> millia Bibaga ostreis et concylis referta. Deinde Oralliba <app>Coralliba</app> <FONT CLASS="overline">VIII</FONT>, a supra dicta, multaeque ignobiles"
+<app>N.H. 5.23.80</app>.</p>
+<p><milestone n="3"/> Iulius Solinus in postrema parte praedicti illius libri scripsit:</p>
+<p><milestone n="4"/> "Tylos Indiae insula est: ea fert palmas, oleam creat, vineis abundat, terras omnes hoc miraculo sola vincit, quod quaecumque in ea arbor nascitur, nunquam caret foliis" 
+<app>De Mirab. M. 53</app>. Idem Iulius paulo ante: "Indica maria ballenas <app>balaenas</app> habent ultra spatia quattuor iugerum in longitudine; sed, et quos fusiteres <app>physeteras</app> nuncupant, qui enormes supra molem ingentium columnarum, ultra antemnas se navium extollunt, haustosque fistulis fluctus ita eructant ut, nimbosa alluvie, plerumque deprimant alveos navigantium <app>Ibid.</app>.</p>
+<p><milestone n="5"/> Idem paulo post: "Taprobanem insulam, antequam temeritas humana exquisitio penitus mari fidem panderet, diu orbem alterum putaverunt; et quidem quam habitare Eachites <app>Antichtones</app> crederentur. Verum Alexandri Magni virtus, ignorantiam publici erroris non tulit ulterius permanere; sed, in haec usque secreta propagavit nominis sui gloriam. Missus igitur Onesicritus, praefectus classis Macedonicae, terram istam, quanta esset, quid gigneret, quo modo haberetur, exquisitam notitiae nostrae dedit. Patet in longitudinem stadiorum <FONT CLASS="overline">VII</FONT>, in latitudinem stadiorum <FONT CLASS="overline">V</FONT>; scinditur amni interfluo: nam pars eius bestiis et elephantis repleta est maioribus multo quam fert India; partem homines tenent. Margaritis scatet et gemmis. Sita est inter ortum et occasum.</p>
+<p><milestone n="6"/> Ab Eoo mari incipit praetenta Indiae. A Prasia Indorum gente dierum XXI in eam fuit cursus; sed, cum papyraceis et Nili navibus illo pergeretur; mox cursu nostrarum navium septem dierum iter factum est. Mare vadosum interiacet altitudinis non amplius senorum passuum. Certis autem canalibus depressum adeo, ut nullae unquam anchorae ad profundi illius fundamenta potuerunt pervenire. Nulla in navigando siderum observatio; utpote ubi Septentriones nequaquam videntur, Vergiliae nunquam apparent. Lunam ab octava, in sextam decimam tantum supra terram vident. Lucet ibi Canopus sidus clarum et amplissimum. Solem orientem dextera habent, occidentem sinistra. Observatione itaque navigandi nulla suppetente; ut adeo, nactum pergentes locum capiant; vehunt alites quarum meatus terram petentium magistros habent cursus regendi. Quaternis non amplius mensibus in anno navigatur" 
+<app>De Mirab. M. 54</app>.</p>
+<p><milestone n="7"/> Priscianus in Periegesi de eadem insula Taprobane, ceterisque duabus, haec sententia dicit:
+<l>"Hinc tepidos proram convertens navis ad austros,</l>
+<l>Taprobanen venies; generat quae magna elephantes</l>
+<l>Per fines Asiae. Iacet haec sub sidere Cancri.</l>
+<l>Litoribus cuius saliunt densissima cete,</l>
+<l>Quae pascit vastum mare Rubrum, montibus aequa;</l>
+<l>Tenditur horribilis quorum per terga, per armos</l>
+<l>Spina ferens cladem, fatumque sub ore feroci;</l>
+<l>Quippe solent pariter navem sorbere, virosque.</l>
+<l>Nam mala tam pelagus quam terra merentibus offert.</l>
+<l>Ulterius pergas si post Carmanida summam,</l>
+<l>Ogyris occurrat qua dicitur esse sepulchrum</l>
+<l>Regis Erythraei, dederat qui nomina ponto.</l>
+<l>Persicus inde sinus penetratur, et Icaron offert,</l>
+<l>Insula quae fertur nimium placare Dianam" <app>Priscian., <hi>Perieg.</hi> 595‑608</app>.</l>
+</p>
+<p><milestone n="8"/> Sicut longitudinem et latitudinem insulae Taprobanae per stadiorum millia Solinus praedixit, ita enumerans: "Patet in longitudinem stadiorum <FONT CLASS="overline">VII</FONT>, in latitudinem stadiorum <FONT CLASS="overline">V</FONT>" 
+    <app>De Mirab. M. 54</app>. Sic eamdem longitudinem et latitudinem per millia passuum. Postea Isidorus in XIIII Aethimologiarum libro ostendit dicens: "Patet in longitudinem DCCCLXXV m. p., in latidudinem <FONT CLASS="overline">DCXXV</FONT>" <app><hi>Aethim.</hi> 14,6,12</app>.</p>
+	</div2>
+<div2 n="7"><head>§ 7</head>
+    <p>Et, quemadmodum idem Iulius elephantes praedictae insulae maiores multo fieri quam elephantes Indiae nuntiavit; ita, elephantes Mauritaniae minores fuisse quam elephantes Indiae, loquens de Mauritania ipsiusque elephantibus narravit 
+<app>De Mirab. M. 26</app>.</p>
+<p><milestone n="2"/> Idem Iulius de Africa Cirenaica et leonibus illius, his verbis locutus: "Leones aversi coeunt, nec ipsi tantum; sed, et lynces et cameli et elephanti, et rinocerotes et tigres. Laenae fetu primo catulos quinque educant; deinde, per singulos <app>partus</app> numerum demunt insequentibus annis, et postremo cum ad unum materna fecunditas advenerit, sterilescunt in aeternum. Annos leonum frons et cauda indicant, sicut motus equini auribus intelliguntur" 
+<app>De Mirab. M. 28</app>.</p>
+<p><milestone n="3"/> Sed idem Iulius nuntiando de Germania insulisque eius, unum de elephantis mentiens, falso loquitur dicens, elephantem nunquam iacere <app>vide Ibid. 21</app>: dum ille sicut bos certissime iacet; et, ut populi communiter regni Francorum elephantem, in tempore imperatoris Karoli, viderunt. Sed, forsitan, ideo hoc de elephante ficte aestimando scriptum est: eo quod genua et suffragines sui, nisi quando iacet non palam apparent.</p>
+</div2>
+<div2 n="8"><head>§ 8</head>
+    Idem Iulius narrat de India. <FONT CLASS="overline">VI</FONT> CCCCLIII annos a Libero patre usque ad Alexandrum Magnum fuisse scripserat <app>vide Ibid. 53</app>. Inde aliud incredibile scripsit, homines "Gangis <app>aquas</app> fontemque colunt quod nullius escae opus indigent; sed tantum odore vivunt, pomorum silvestrium. Longius pergentes eadem illi in praesidio gerunt, ut olfactu alantur: quod si tetriorem spiritum forte traxerint, exanimari eos certum est" <app>Ibid.</app>. De latitudine Gangis fluminis et Euphratis quam in isto libro scripsit, dubitans, taceo.
+	</div2>
+<div2 n="9"><head>§ 9</head>
+    <p>Idem Iulius locutus de Aegypto et Nilo naturam corcodrilli refert vera falsis commiscens, his verbis: "Corcodrillus <app>Crocodilus</app> malus quadrupes et in terra et in flumine pariter valet. Linguam non habet, maxillam movet superiorem" 
+<app>De Mirab. M. 33</app>. Et paulo post: "Qualia anser<app>es</app> insedit ova, metatur locum <app>nido</app> naturali providentia, nec alibi fetus premit, quam quo crescentis Nili aquae non possunt pervenire" <app>Ibid.</app>.</p>
+<p><milestone n="2"/> Et paulo post: "In aqua obtusius vident, in terra acutissime. Hieme cibum nullum capiunt, quin etiam quattuor menses a coeptu brumae inedia exigunt" <app>Ibid.</app>. Alia quae scripsit de natura corcodrilli, idcirco hic praetermitto; quia in XII Aethimologicarum libro, quisquis voluerit, inveniet <app>Isid., <hi>Aethim.</hi> 12,2,36 et 12,6,11.19‑20</app>.</p>
+<p><milestone n="3"/> In aliis quae sequuntur illi non sum credulus, ita paulo ante dicenti: "Habitant in insula Nili homines forma exigui, sed audacia usque adeo periti, ut corcodrillis se offerant obvios. Nam haec monstra fugientes sequuntur, formidant resistentes, et capiuntur, subactaque etiam inter aquas suas serviunt, et perdomita metu ita obsequuntur, ut immemores atrocitatis, victores suos equitantes in dorso vehant. Hanc ergo insulam et hanc gentem ubicumque indicio odoris persenserint, procul fugiunt 
+    <app>De Mirab. M. 33</app>.</p>
+	</div2>
+<div2 n="10"><head>§ 10</head>
+    <p>Idem Iulius in eodem praedicti paene voluminis fine, aliquas nominatim de Rubri maris insulis ostendit, dicens: "In occidentali mari Persidis Solis est insula rubens, omni animantium generi inaccessa; quippe quae omne animal inlatum perimit <app>Ibid. 55</app>.</p>
+    <p><milestone n="2"/> Idem paulo post hoc, in fine sui libri: "Ex Arabicis insulis <app>dicat:</app> quas Acitae Arabes habent dicunt esse insulam cui ''E re nata'' datum nomen; nam bubulis utribus contabulatas crates superponunt, vectatique hoc ratis genere, pretereuntes infestant sagittis venenatis.</p>
+	</div2>
+<div2 n="11"><head>§ 11</head>
+    <p>Habitari etiam dicuntur loca Aethiopiae adusta Trogodytarum, et Ichthyophagorum nationibus" <app>Ibid. 57</app>, quorum cum "ferulae <app>ibi</app> surgunt ad arboris magnitudinem, earum quae nigrae sunt, expressae liquorem reddunt amarissimum, atque candidae aquas revomunt, etiam potui accomodatas.</p>
+    <p><milestone n="2"/> Alteram insulam Iunoniam appellari ferunt, pauxillae aedis ignobiliter ad culmen fastigiatam. Tertia huic proximat eodem nomine, nuda prope omnia. Quarto loco, Capraria appellatur, enormibus lacertis plusquam referta. Sequitur Nivaria aere nebuloso, et coacto, ac propterea semper nivalis. Deinde Canaria repleta canibus forma eminentissimis; unde etiam duo exhibiti sunt Iubae regi. In ea edificiorum durant vestigia. Avium magna copia, nemora pomifera, palmeta caryotas ferentia <app>feritantia</app> multa nux pinea, larga mellatio, amnes siluris piscibus abundantes. Perhibent etiam exspui in eam undoso mari beluas; deinde, cum monstra illa cum putredine tabefacta sunt, omnia illic infici tetro odore: ideoque non penitus ad nuncupationem suam congruere, insularum qualitatem" <app>Ibid.</app>.</p>
+	</div2>
+<div2 n="12"><head>§ 12</head>
+    <p>Isidorus in XII Aethimologiarum codice de foenice ave Arabiae scripsit: "Phoenix Arabiae avis, dicta quod colorem phoeniceum habeat, vel quod sit in toto orbe singularis et unica: nam Arabes singularem ''phoenicem'' vocant. Haec D ultra annis vivens, dum se viderit senuisse, collectis aromatum virgultis, rogum sibi instruit, et conversa ad radium solis alarum plausu voluntarium sibi incendium nutrit: sicque iterum de cineribus suis resurgit" <app>Isid., <hi>Aethim.</hi> 12,7,22</app>.</p>
+<p><milestone n="2"/> Iulius Solinus de Arabia locutus, de praedicto alite sequentia scripsit: "Apud Arabes est phoenix avis aquilae magnitudine, capite honorato, in conum plumis extantibus, cristatis faucibus, circa collum fulgore aureo, postera parte purpureus, praeter caudam, in qua roseis pennis caeruleus inscribitur nitor. Probatum est quadraginta et quingentis eam durare annis; rogos sibi struit cynnamis, quos prope Prachteam <app>Panchaiam</app> concinunt, in solis orbem struere, altaribus superpositis" 
+    <app>De Mirab. M. 34</app>.</p>
+	</div2>
+<div2 n="13"><head>§ 13</head>
+    <p>Opazion <app>Topazion</app> Arabiae insula nebulis cooperta, in decimo sexto Aethimologiarum volumine fertur esse <app>Isid., <hi>Aethim.</hi> 16,7,9</app>.</p>
+    <p><milestone n="2"/> Quidem in Orientali Oceano Aegypti atque australi Aethiopiae illius insulas esse non legimus, sicut nec in mari Caspio.</p>
+	</div2>
+<div2 n="14"><head>§ 14</head>
+    Paucas insulas parvas Tyrrheni maris quas multi narrare praeterierunt, hic equidem nuntiare congrue disposuit Isidorus in nono Aethimologiarum libro <app>vide in Isid., <hi>Aethim.</hi> 9,2,24.124</app>. Insulam Sardum angusto freto, a Phoenicis litore, separatam fore scripsit <app>sed Aradus in Ibid. 9,2,24</app>. Priscianus in Periegesi succedentes versus cecinit:
+    <l>"Panditur hinc pelagus, tumidaque Propontide fervet</l>
+<l>Ad boream: saxisque viget Proconesus in illa.</l>
+<l>Est etiam levis Euxini partibus una,</l>
+<l>Quam Leucen perhibent adversa Borysthenis amni,</l>
+<l>Pascit aves quoniam multas candore nivali.</l>
+<l>Hic animas perhibent heroum laude potentes</l>
+<l>Degere securas, virtutis munere pulchro.</l>
+<l>Cimmerium recta sed, si quis Bosporon ibit,</l>
+<l>Cernitur huic, immensae dextra vastae Maeotidis unda</l>
+<l>Insula mole gravis stans Alopecea lata;</l>
+<l>Postquam Phaenagoren Hermonassamque nepotes</l>
+<l>Egregiae quondam coluerunt gentis Ionum" <app>Priscian., <hi>Perieg.</hi> 555‑566</app>.</l>
+
+	</div2>
+<div2 n="15"><head>§ 15</head>
+    <p>Iulius de Scythicis insulis: "Insula Apollonitarum LXXX millibus passuum abest a Bosporo Thraciae circa Histrum sita, ex qua <app>M.</app> Lucullus Apollinem Capitolinum nobis extulit. Ante Borysthenem Achillis insula est cum aede sacra; quam aedem nullus ingreditur ales: et, qui forte advolaverit, raptim fugam properat" 
+<app>De Mirab. M. 19</app>.</p>
+<p><milestone n="2"/> Idem Iulius de Borysthene flumine locutus paulo ante: "Apud Neuros nascitur Borysthenes flumen, in quo pisces egregii saporis, et quibus ossa nulla sunt, nec aliud quam cartilagines tenerrimae. Verum Neuri, ut accepimus, statis temporibus in lupos transfigurantur. Deinde, exacto spatio, quod huic sorti attibutum est, in pristinam faciem revertuntur" <app>Ibid. 15</app>.</p>
+</div2></div1>
+<div1 n="8"><head>8. De latitudine et longitudine Tyrrheni maris.</head>
+
+<div2 n="1"><head>§ 1</head>
+    <p>Post haec, Tyrrheni maris latitudo, in quot millibus passuum dilatatur, hic scribi congruit secundum missos Theodosii. Longitudo Syriae ab australi parte minoris Asiae incipit, ac tangens Arabiam et inferiorem Aegyptum finitur. In quo spatio <FONT CLASS="overline">CCCCLXX</FONT> passuum fieri scripserunt. Ipsa est iuxta Syriam latitudo maris Tyrrheni, cui longitudo ab insulis Gadibus usque ad Syriam amplior extenditur quam longitudo Europae et Africae.</p>
+<p><milestone n="2"/> Insula Cyprus in Cosmographia <FONT CLASS="overline">CLXXV</FONT> habere in longitudine legitur, et latitudine CXXV <app>vide <hi>N.H.</hi> 5.35.129</app> millia passuum. Et Creta in longitudine CLXXII <app>CCLXX in <hi>N.H.</hi> 4.20.58 et ibidem pro longitudine</app> millia, ab oriente in occidentem; atque in latitudine <FONT CLASS="overline">L</FONT> passuum.</p>
+	</div2>
+<div2 n="2"><head>§ 2</head>
+    <p>Plinius Secundus de Sicilia, latitudineque maris Tyrrheni, haec dicit in quarto libro: "Verum ante omnes claritate Sicilia, Sicania Thucydidi dicta, Trinacria pluribus <app>aut Triquetra</app> a triangula specie: circuitu patens, ut auctor est Agrippa, <FONT CLASS="overline">DCXVIII</FONT>. Quondam Bruttio agro cohaerens; mox interfuso mari avulsa <FONT CLASS="overline">XV</FONT> in longitudinem freto, in latitudinem autem I millium ac dimidium, iuxta Columnam Regiam.</p>
+<p><milestone n="2"/> Ab hoc dehiscindi argumento Regium Graeci nomen dedere oppido, in margine Italiae sito
+<app>N.H. 3.14.86</app>. In eo freto scopulus est Scylla, item Charybdis mare vertigoso: ambae clarae sevitia.</p>
+<p><milestone n="3"/> Ipsius Triquadrae, ut diximus, promontorium Pelorum vocatur, adversum Scyllam vergens in Italiam. Pachinum in Graeciam, <FONT CLASS="overline">CCCCXL</FONT> ab eo distante Peleponense. Lylibeum <app>Lilybaeum</app> in Africam <FONT CLASS="overline">CLXXX</FONT> intervallo a Mercurii promontorio, et a Caralitano Sardiniae <FONT CLASS="overline">CXC</FONT>. Inter se autem promontoria ac latera distantia spatiis.</p>
+<p><milestone n="4"/> Terreno itinere a Peloro <app>Pachinum <FONT CLASS="overline">CLXXVI</FONT> inde LYlibeum CC unde Pelorum <FONT CLASS="overline">CCXLII</FONT> {<hi>N.H.</hi> 3.14.87}. Coloniae ibi V, urbes aut civitates LXIII. A Peloro</app>, mare Ionium, oram (eius) expectante oppido Messana civium Romanorum, qui Mamertini vocantur; promontorium Drepanum, colonia Tauromenium quae antea Naxos, flumen Asines, mons Ethna <app>Aetna</app> nocturnis mirus incendiis. (Crater eius patet ambitu stadia XX. Favilla Tauromenium et Catinam usque pervenit fervens, fragor vero ad Mauroneum <app>Maroneum</app> et gemel<app>l</app>os Colles.)
+<app>N.H. 3.14.88</app> Scopuli tres Ciclopum, portus Ulixis, colonia Catina"
+<app>N.H. 3.14.89</app>.</p>
+<p><milestone n="5"/> Sic, a Mercurii promontorio usque ad oppidum Regium in margine Italiae situm CCCXXIII m. p. et amplius inveniuntur. Sed a Lylibeo usque ad Regium, non ad septentrionem in directum navigium porrigitur, sed, ad boream mensura declinat: namque a septentrione usque ad Italiam quot millia sunt scriptum non repperi.</p>
+<p><milestone n="6"/> In XIIII Aethimologiarum libro de Siciliae circuitu ita, scriptum admiror: "Omnis ambitus eius clauditur stadiorum tribus millibus" <app>Isid., <hi>Aethim.</hi> 14,6,34</app>, quae sine dubio tantum <FONT CLASS="overline">CCCLXXV</FONT> passuum sunt. Hoc non errore factoris, sed postea scriptorum fore existimo. Isidorum enim <FONT CLASS="overline">V</FONT> stadiorum scripsisse autumo, quae fiunt <FONT CLASS="overline">DCXXV</FONT> passuum <app>vide supra in <hi>N.H.</hi> 3.14.86: <FONT CLASS="overline">DCXVIII</FONT></app>.</p>
+<p><milestone n="7"/> Iulius Solinus de monte Ethna: "In Ethna vero <app>vertice</app> hiatus duo sunt, Crateres nominati per quos eructatus erumpit vapor, praemisso prius fremitu, qui per aestuantes cavernarum latebras longo mugitu intra terrae viscera divolvitur. Nec ante se flammarum globi attollunt quam interni strepitus antecedent" 
+<app>De Mirab. M. 5</app>.</p>
+<p><milestone n="8"/> Servius in commentario librorum Virgilii ubi narrat in tertio Aeneidos:
+<l>"Portus ab accessu ventorum immotus et ingens</l>
+<l>Ipse, sed horrificis iuxta tonat Ethna <app>Aetna</app> ruinis," <app>Verg., <hi>Aen.</hi> 3,570‑571</app></l>
+haec ita docet: "Ethna <app>Aetnam</app> constat, ab ea parte qua eurus vel africus flant, habere speluncas et plenas sulphuris et usque ad mare deductas. Hae speluncae recipientes in se fluctus ventum creant, qui agitatus ignem gignit ex sulphure; unde esse quod videtur incendium. Hoc autem certum est. Illa comprobat ratio quia, et aliis flantibus ventis, nihil ex se mittit, et pro modo flatuum euri vel africi, interdum fumum, interdum favillas, nonnunquam vomit incendia" <app>Servio, in Verg. Aen. 3,571,6‑13</app>.</p>
+<p><milestone n="9"/> Priscianus in Periegesi, postquam de Sicilia narravit, de duabus insulis iuxta Africam, hoc est, iuxta minorem Syrtim retulit haec:
+<l>"Ad Noton est pontus Lybiae, Syrtisque vadosa</l>
+<l>Maior: at ulterius si pergas, cerne minorem</l>
+<l>Occiduam: iuxta quam Meninx insula fulget,</l>
+<l>Et Cerninna simul Lybica statione patentes" <app>Priscian., <hi>Perieg.</hi> 506‑509</app>.</l></p>
+	</div2>
+<div2 n="3"><head>§ 3</head>
+    Iulius Solinus de promontoriis Africae, de Lybia Cirenaica dicens, haec docet: "Omnis Africa Zeugitano pede incipit promontorio Apollinis, Sardiniae controverso, promontorium Mercurii procedens in frontem Sicanam. Proinde extenta in duas prominentias, quarum altera promontorium Candidum sicitur, altera quae est in Cirenaica regione, quam Ficontem <app>Phucuntem</app> vocant" 
+<app>De Mirab. M. 28</app>.
+	</div2>
+<div2 n="4"><head>§ 4</head>
+    <p>Plinius Secundus postquam in quarto <app>tertio</app> Naturalis Historiae libro de Italia scripserat, paulo post de insula Corsica haec scripsit: "In Ligustico mari est Corsica quam Graeci Cyrnon appellavere, sed Tusco proprior. A septentrione in meridiem proiecta, longa passuum CLX <app>sed CL</app> millia, lata maiore <app>circuitu</app> ex parte <FONT CLASS="overline">CCCXXV</FONT>, abest a Vadis Volaterranis <FONT CLASS="overline">LXII</FONT>. Civitates habet XXXII et colonias"
+<app>N.H. 3.12.80</app>.</p>
+<p><milestone n="2"/> Idem post pauca dicit: "Sardinia minus octo millia passuum a Corsicae extremis"
+<app>N.H. 3.12.83</app>. Idem post pauca: "Sardinia ab oriente patens <FONT CLASS="small">CLXXXII</FONT> <app>sed <FONT CLASS="small">CLXXXVIII</FONT></app> millia, ab occidente <FONT CLASS="overline">CLXXV</FONT>"... (Circuitus eius) "<FONT CLASS="overline">DLXV</FONT>, abest ab Africa Caralitano promontorio <FONT CLASS="overline">CC</FONT>"
+<app>N.H. 3.13.84</app>.</p>
+<p><milestone n="3"/> In libro Aethimologiarum <FONT CLASS="small">XIIII</FONT>, de insula Sardinia sic scriptum est: "Sardus ab Hercule procreatus cum magna multitudine a Lybia profectus, Sardiniam occupavit, et ex suo vocabulo insulae nomen dedit. Haec in Africo mari facie vestigii humani, in orientem quam in occidentem latior prominet; ferme paribus lateribus quae in meridiem et septentrionem vertunt. Ex quo, ante commercium a navigantibus Graecorum, Ichnos appellata est. Terra patet in longitudinem <FONT CLASS="overline">CXL</FONT>, in latitudinem <FONT CLASS="overline">XL</FONT> <app>Isid., <hi>Aethim.</hi> 14,6,39‑40</app>.</p>
+<p><milestone n="4"/> Ita ab Italia, id est: a Vadis Volaterranis usque ad Corsicam, <FONT CLASS="overline">LXXII</FONT>; longitudo Corsicae <FONT CLASS="overline">CLX</FONT> ab extremis, hoc est: a promontorio Corsicae usque ad Sardiniam, minus quam <FONT CLASS="overline">VIII</FONT>; latitudo Sardiniae a septentrione in austrum <FONT CLASS="overline">XL</FONT>; a Sardinia usque ad Africam <FONT CLASS="overline">CC</FONT>. Quae omnia pariter coniuncta, quasi <FONT CLASS="overline">CCCCLXX</FONT> passuum complent. Ita est in illa parte latitudo maris Tyrrheni.</p>
+<p><milestone n="5"/> Sed, quam Plinius Secundus dixit ab extremis Corsicae usque ad Sardiniam, minus quam millia VIII esse a promontorio Corsicae extendente se ad Sardiniam, illa mensura constat; quoniam <FONT CLASS="overline">XX</FONT> quae in primo Orosii libro <app>Oros., Hist. 1,101</app>, atque XIIII Aethimologiarum scripta sunt, non ad promontoria, sed ad communia utrarumque insularum latera pertinent; ipsius Corsicae latitudinem in Orosii libro primo per XXXVI <app>sed XXVI; Ibid. 1,103</app> millia passuum dilatari legimus.</p>
+	</div2>
+<div2 n="5"><head>§ 5</head>
+    <p>Iulius Solinus de Hispania nuntians, de Gaditano freto haec refert: "Gaditanum fretum a Gadibus insulis dictum. Atlanticus aestus in nostrum mare discidium immittit orbis. Nam Oceanus, quem Graii sic nominant de celeritate, ab occasu solis irrumpens, laevo latere Europam radit, Africam dextero, scissisque Calpe et Abinna montibus quos dicunt Columnas Herculis, inter Mauros funditur et Hispaniam; et a freto isto cuius <FONT CLASS="overline">XV</FONT> passuum efficit longitudo, latitudo vix septem millia, quodam ostio aperit limen interni aequoris <app>De Mirab. M. 24</app>.</p>
+<p><milestone n="2"/> Eamdem longitudinem fretum Gaditanum et fretum Siciliae habent. De cuius latitudine in tertio decimo Aethimologiarum libro haec scripta sunt: "<app>Fretum Siciliae</app> est arctissimum, trium millium spatio Siciliam ab Italia dividens" <app>Isid., <hi>Aethim.</hi> 13,18,3</app>; sed iuxta Columnam Regiam, ut Plinius Secundus praescripsit, in latitudine mille ac dimidium solummodo habet <app>vide supra in <hi>N.H.</hi> 3.14.86</app>; id est: integram leucam <app>mensuram</app>, hoc est: XII stadia, quia unum stadium CXXV passus possidet <app>vide <hi>N.H.</hi> 2.21.85</app>; unus passus quinque pedibus mensuratur.
+Latitudine maris Tyrrheni quater metata, ad metendam Britanniam stilum vertere conabor.</p>
+	</div2>
+<div2 n="6"><head>§ 6</head>
+    <p>    Iulius Solinus de illa scripsit haec: "Finis erat orbis ora Gallici litoris, nisi Britannia insula <app>non</app> qualibet amplitudine, nomen paene orbis alterius mereretur. DCCC enim et amplius millia passuum in longitudine detinet" <app>De Mirab. M. 23</app>, in latitudine <FONT CLASS="overline">CC</FONT> <app>CCC vero in <hi>N.H.</hi> 4.30.102</app>.</p>
+<p><milestone n="2"/> Idem paulo post: "Multis insulis nec ignobilibus circumdatur, quarum Hibernia ei proximat magnitudine <app>...</app> Alias ita pabulosa, ut pecora nisi interdum a pastibus arceantur, ad periculum agat" <app>De Mirab. M. 23</app>.</p>
+<p><milestone n="3"/> Idem paulo post: "Sed mare quod inter hanc et Britanniam interluit undosum inquietumque toto in anno, non nisi pauculis diebus est navigabile <app>...</app> (idque) in centum viginti millia passuum latitudinis diffunditur" <app>Ibid.</app> inter Britanniam et Morinos in Gallia Belgica, ubi civitas Rutupi[ae] portus est; unde in Britanniam proximus et brevissimus est transitus; cuius in millibus passuum L <app>vide <hi>N.H.</hi> 4.30.102</app>, sive, ut quidam scripserunt, in CCCCL stadiis latitudo coartatur <app>vide Itin. Mar.</app>.</p>
+<p><milestone n="4"/> Idem Iulius paulo post: "circuitus Britanniae quadragies octies <FONT CLASS="overline">LXXV</FONT> sunt" <app><hi>De Mirab.</hi> M. 23</app>. Si quis voluerit ipsius circuitus mensuram scriptam ab Iulio facilius intelligere, <FONT CLASS="overline">CCCC</FONT> DCCCC esse, certe fore cognoscat. Sed, si alicui tardenti ingenio haec dimensio non satis fecerit, milliaria signa in fine singulorum millium, verbi causa, milliarios lapides esse fingat, in quibus <FONT CLASS="overline">XXX</FONT> et DC simpliciter lapides fieri quis dubitabit: Plinius Secundus in tertio libro dicit: "octogenis cubitis super Britanniam intumescere aestus, ut Pytheas Massiliensis auctor est"
+	
+    <app>N.H. 2.99.217</app>.</p>
+	</div2>
+<div2 n="7"><head>§ 7</head>
+    <p>In Cosmographia legitur, quod Salinarum lacus in Africa, qui est in Tripolitana provincia et in regione Bezatio, in lunari mense crescit atque descrescit.</p>
+<p><milestone n="2"/> <app>Idem</app> Plinius Secundus in tertio libro: "Altissimum mare XV stadiorum Fabianus tradit"
+	
+    <app>N.H. 2.105.224</app>; sed, quis credet Fabianum totius profunditatem Oceani posse scire?</p>
+	</div2>
+<div2 n="8"><head>§ 8</head>
+    De septem rebus sequentibus in Cosmographia haec scripta sunt: "Orientalis pars habet maria VIII, insulas VIIII, montes VII, provincias VII, oppida LXXV, flumina XVII, gentes XLIIII. Meridiana pars habet maria II, insulas XVI, montes VI, provincias XVII, oppida LXII, flumina VI, gentes XXIIII. Occidua pars habet maria VII <app>VIII</app>, insulas XVII <app>XV/XVI</app>, montes XV, provincias XXV, oppida LXXVI, flumina XIII, gentes XXIIII. Septentrionalis pars habet maria XI, insulas XXXI, montes XII, provincias XVI, oppida LVII, flumina XVIIII, gentes XXIIII. Omnis orbis habet maria XXVIIII, insulas LXXII, montes XL, provincias LXV, oppida CCLXI <app>CCLXXXI</app>, flumina LV, gentes CXVI".
+
+    	</div2></div1>
+<div1 n="9"><head>9. De sex montibus.</head>
+  <div2 id="praef"><head>Praefatio</head>  
+Sed, ne litterator reprehendat quod corporales et visibiles hic dixi, Prisciani testimonium in codice quem de duodecim primis versibus XII librorum Aeneidos scripserat, accipiat. Quia disputari de primo versu tertii illorum, haec tractat, dicens: "Quidam grammatici incorporalia solent res dicere. Tamen vera ratione omnia quae sunt sive corporalia, sive incorporalia res possunt nominari, sicut hic res Asiae dixit Virgilius, pro opes Asiae, et respublica, et res familiares, et res uxoria <app>Prisc., Part. XII Vers. Aen. 3,70</app>. Et hoc divinum eloquium, apud nos, in Exodo confirmat, ubi dicit: "Non concupisces rem proximi tui" <app>Ex. 20,17</app>. Post haec novissime in cacumina montium ascendam.
+</div2>
+<div2 n="1"><head>§ 1</head>
+    Iulius Solinus de Thessalia narrans de monte Olympo ita retulit: "Olympum ab Homero non per audaciam celebratum docent, quae in eo visitantur. Primum excellenti vertice tantus extollitur ut summa eius coelum accolae vocent. Ara est in cacumine eius Iovi dicata, cuius altaribus, si qua de extis inferuntur, non difflantur ventosis spiritibus, nec <app>humentibus</app> pluviis diluuntur, sed, volvente anno, cuiusmodi relicta fuerint, eiusmodi repperiuntur: et omnibus tempestatibus ac corruptelis aurarum vindicatur quicquid ibi semel est Deo consecratum" <app><hi>De Mirab.</hi> M. 9</app>.
+</div2>
+<div2 n="2"><head>§ 2</head>
+    In XIIII Aethimologiarum volumine haec dicuntur: "Athos mons Macedoniae, et ipse altior nubibus, tantoque sublimis ut, in Lemnum insulam, umbra eius pertendat, quae ab eo LXXVII <app>sed: septuagintasex</app> millibus separatur" <app>Isid., <hi>Aethim.</hi> 14,8,10</app>.
+	</div2>
+<div2 n="3"><head>§ 3</head>
+    <p>Iulius Solinus in collectaneis haec de monte Atlante docuit: "Atlas mons e media arenarum consurgit vastitate, et eductus in viciniam lunaris circuli, ultra nubila caput condit, qua ad Oceanum extenditur cui a se nomen dedit; manat fontibus, nemoribus inhorrescit, rupibus asperatur, squalet ieiuna humus nuda, nec herbida: qua contra Africam versus est, felix nascentibus sponte frugibus, arboribus proceris opacissimus, quarum odor gravis; comae cupressi similes vestiuntur lanugine sericis velleribus nihilo viliore; in eo latere et herba euphorbea copiosa, cuius succus ad oculorum profici claritatem, nec mediocriter percellit vim vevenorum. Vertex semper nivalis. Saltus eius quadrupedes, ac serpentes et ferae, et cum his elephanti, occupaverunt. Silet per diem universus, nec sine horrore secretus est. Lucet nocturnis ignibus: choris Aegipanum undique personatur. Audiuntur et cantus tibiarum et tinnitus cymbalorum" <app>De Mirab. M. 25</app>.</p>
+<p><milestone n="2"/> De eodem Isidorus Atlante in XIIII Aethimologiarum scripsit libro: "Atlas <app>Athlans</app> cognominatur, qui propter altitudinem suam quasi coeli machinam atque astra sustentare videtur" <app>Isid., <hi>Aethim.</hi> 14,8,17</app>.</p>
+<p><milestone n="3"/> Duo hic quasi contraria Iulius Solinus de Atlante monuit: quod: "ultra nubila caput condit, qua ad Oceanum extenditur"; et quod: "vertex eius semper nivalis" <app>vide supra in <hi>De Mirab.</hi> M. 25</app>. Si vertex eius semper nivalis est, transcendere semper nubes non potest. Et si nubes semper altitudo illius excedit, non solum nunquam tegi, sed nec tangi nivibus valet. Nives etenim et grandines, ac pluviae, atque tonitrua, fulmina non ascendunt a nubibus, sed semper de nubibus descendunt. In eo quod imbuit, quod eductus in viciniam lunaris circuli ultra nubila caput condit, qua ad Oceanum extenditur, manifesto instrui in aliquibus pinnis Atlantem transcendere nubes, quarum circum latera nives tanquam coronam facere puto. Et cum Isidorus tacuit illum transire altius nubes, quod vix excedat ipsas existimo. Ac, dum Iulius verticem eius niveam semper esse scripserat, in aliquibus plagis altitudinis sui inferioribus praedictis nivibus semper tegi monstratur. Quae duo climata in quarto Aeneidos Virgilius ostendit aiens:
+<l>"Illa fretus agit ventos et turbida tranat</l>
+<l>Nubila. iamque volans apicem et latera ardua cernit</l>
+<l>Atlantis duri coelum qui vertice fulcit;</l>
+<l>Atlantis, cinctum assidue cui nubibus atris</l>
+<l>Piniferum caput et vento pulsatur et imbri,</l>
+<l>Nix umeros infusa tegit: tum flumina mento</l>
+<l>Praecipitant senis, et glacie riget horrida barba" <app>Verg., <hi>Aen.</hi> 4,245‑251</app>. </l>
+
+In tertio versu huius exempli praescripto altissima cacumina dixisse autumo; in aliis succedentibus ipsis inferiora monstrasse opinor.</p>
+	</div2>
+<div2 n="4"><head>§ 4</head>
+    <p>Plinius Secundus in libro secundo Naturalis Historiae de altissimo Thessaliae monte refert: "Dicaearchus vir in primis eruditus regum cura permensus montes, ex quibus altissimum prodidit Pelion <app>Pelium</app> millibus CCL passuum ratione perpendiculi"
+	
+<app>N.H. 2.65.162</app>. In altitudine ascensionis Alpium <FONT CLASS="overline">L</FONT> fore legi; sed non recordor in quo libro repperi <app>compara sub <hi>N.H.</hi> 3.23.132</app>.</p>
+<p><milestone n="2"/> Quanquam Priscianus in Periegesi Pyrenaeum Hispaniae montem sublimem nimis in hoc versu: "Pyrrhenes coelum quae tangit vertice summo" <app>Priscian., <hi>Perieg.</hi> 337</app>.
+    Tamen Isidorus Hispaniensis Episcopus in XIIII libro praedicto Solurium?? montem esse, Pyrenaeo excelsiorem his sermonibus ostendit: "Solurius a singularitate dicitur, quod omnibus Hispaniae montibus solus altior videatur" <app>Isid., <hi>Aethim.</hi> 14,8,16</app>.</p>
+	</div2>
+<div2 n="5"><head>§ 5</head>
+    <l>Dicuil accipiens ego tracta auctoribus ista</l>
+<l>Pauca loquar senis metro de montibus altis.</l>
+<l>Summus Athos, Atlas, nubes trascendit Olympua;</l>
+<l>Pulvere ob hoc squallent terna alta cacumina quorum.</l>
+<l>Montibus ambosus sed celsior instat Olympus:</l>
+<l>Atlas inferior praedictis montibus altis;</l>
+<l>Inde corona caput cingit sublime nivalis:</l>
+<l>Mons medius tendens excelsa cacumina coelo,</l>
+<l>Undecies umbris obscurat millia septem.</l>
+<l>Exta anno integro Divo custodit Olympus,</l>
+<l>Immaculata tenes oblata in vertice summo.</l>
+<l>Non alios legimus montes excedere ventos.</l>
+<l>Sublimen Atlantem torret sol fervidus austri:</l>
+<l>Iam binos alios aquilonis frigus adurit.</l>
+<l>Afri Atlanta tenent; Adon <app>Athon</app> Argi; Graecus Olyumpum.</l>
+<l>Arduus occiduas Atlas custodit arenas.</l>
+<l>Grandis Alexandri tellus hos servat avita.</l>
+<l>Frigus in excelsis est, fervor solis in imis:</l>
+<l>Et medium spatium fovet Aeronne serenus,</l>
+<l>Atlantis triplicis fundentis flumina curva</l>
+<l>In partes euri, sephyri, boreaeque vel austri.</l>
+<l>Quinquaginta semel centum bis millia supra</l>
+<l>Pelion extollens caput inter nubila consit.</l>
+<l>Quinque Alpes decies transfigunt millia sursum.</l>
+<l>Solurius summo scandens sit vertice coelo,</l>
+<l>Mensuram haud legi cuius quot millia complent.</l>
+<l>Thessalus, atque Italus, Hispanus possidet ipsos.</l>
+<l>Post octingentos viginti quinque peractos</l>
+<l>Summi annos Domini terrae, ethrae carceris atri,</l>
+<l>Semine triticeo, sub ruris pulvere tecto,</l>
+<l>Nocte bobus requies largitur fine laboris.</l>
+</div2>
+</div1>
+</body></text>
+</TEI>
