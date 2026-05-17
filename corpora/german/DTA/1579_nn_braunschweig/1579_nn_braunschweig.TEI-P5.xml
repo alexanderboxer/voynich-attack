@@ -1,0 +1,2485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Der Stadt Braunschweig Ordnung, ihre christliche Religion, auch allerhand Kriminal-, Straf- und Polizei-Sachen betreffend</title>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/s-236b-4f-helmst-3s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/s-236b-4f-helmst-3s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">126</measure>
+<measure type="tokens">15700</measure>
+<measure type="types">3369</measure>
+<measure type="characters">103784</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:32:34Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Distributed under the Creative Commons Attribution-ShareAlike 3.0 Generic (German) License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/nn_braunschweig_1579</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/nn_braunschweig_1579</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/nn_braunschweig_1579</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/nn_braunschweig_1579</idno>
+<idno type="DTADirName">nn_braunschweig_1579</idno>
+<idno type="DTAID">30062</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30062-7</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Der Stadt Braunschweig Ordnung, ihre christliche Religion, auch allerhand Kriminal-, Straf- und Polizei-Sachen betreffend. Magdeburg, 1579.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Der Stadt Braunschweig Ordnung, ihre christliche Religion, auch allerhand Kriminal-, Straf- und Polizei-Sachen betreffend</title>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher/>
+<pubPlace>Magdeburg</pubPlace>
+<date type="publication">1579</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001" n="titlepage"/>
+<titlePage type="main"><docTitle><titlePart type="main">Der Stadt<lb/>
+<hi rendition="#b"><hi rendition="#fr"><hi rendition="#in">B</hi>raün&#x017F;chweig</hi><lb/>
+Ordnunge/</hi></titlePart><titlePart type="sub"><hi rendition="#b">jre Chri&#x017F;t-</hi><lb/>
+liche Religion / auch allerhandt Crimi-<lb/>
+nal / Straff vnd Policey &#x017F;achen betreffendt.</titlePart><titlePart type="desc"> Be-<lb/>
+radt&#x017F;chlagt vnd eindrechtiglich bewilligt vnd angenomen von<lb/>
+einem Erbarn Rathe/ Rathsge&#x017F;chworen/ Zehenmannen/ Ge&#x017F;chickten/<lb/>
+Gildemei&#x017F;tern vnd Haubtleuten der Stadt Braun&#x017F;chweig/<lb/>
+vor &#x017F;ich vnd von wegen der gantzen gemei-<lb/>
+nen Bürger&#x017F;chafft dar&#x017F;elb&#x017F;t.</titlePart></docTitle><lb/>
+<figure/><lb/>
+<docImprint>Nach Jhe&#x017F;u Chri&#x017F;ti un&#x017F;ers <hi rendition="#g">HERREN</hi> und Selig-<lb/>
+machers Geburt/im <docDate>Fünfftzehenhundert Neun und Sie-<lb/>
+bentzig&#x017F;ten</docDate> Jare / Donner&#x017F;tags nach<lb/>
+Lichtme&#x017F;&#x017F;en.</docImprint></titlePage><div>
+<pb facs="#f0002"/>
+<pb facs="#f0003" n="2"/>
+<p>WIr Bürger meistere vnd Rathmanne der Stadt Braunschweig / thun hiemit kundt vnd
+zu wissen / das wir diese volgende Ordnunge / vnsere Christliche angenommen
+Religion / auch straff vnd Policey sachen betreffendt / aus Gottes worte vnd
+Göttlichen gebotten / aus bewerten Keiserlichen vnd Sechsischen / auch vnser
+Stad althergebrachten Statuten / rechten vnd löblichen gewonheiten / zusamen
+ziehen / vnd in eine zimliche ordnunge vor dero zeit bringen / vnd dieselben in
+jchtwas jtzo erkleren vnd vorbessern lassen haben. Vnd ist vnser ernstlicher
+befehl / vnd wollen / das die-
+<pb facs="#f0004"/>
+se Ordnunge hinfüro in vnser Stadt / steiff / veste vnd vnuorbrochen
+obseruiert vnd gehalten werden solle.</p>
+</div></front>
+<body><div>
+<head>Setzen vnd ordenen demnach wie folget.</head><lb/>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 1.</head><lb/>
+</div>
+<div>
+<head>Von der Christlichen Religion.</head><lb/>
+<p>WO jemandts in der Stadt Braunschweig betroffen vnd gefunden würde / dem die
+Articul vnsers Christlichen Glaubens nicht bekant noch wisslich weren / vnd er
+dieselben zu lernen / vorechtlich vnterliesse / der solt in der Stadt nicht
+geduldet noch gelidden werden / bis so lange er sich der gebür nach / leren vnd
+vnterrichten liesse.</p>
+<p>ALle die in vnser Stadt wonen / vnd sich wesentlich enthalten wollen / sollen
+sich Christlicher Lere vnd lebens befleissigen / vnd daran keinen
+<pb facs="#f0005" n="3"/>
+gebrech oder mangel (der
+aus vorachtunge oder mutwillen herflösse) erscheinen oder befinden lassen /
+sonsten solten sie aus der Stadt vorweiset vnd allhie nicht gedüldet werden.</p>
+<p>DIe Lehr aber / darnach sich alle vnser Stadt Bürger vnd Einwoner richten vnd
+halten sollen / sol den heiligen Göttlichen / Prophetischen vnd Apostolischen
+schrifften / den dreien <hi rendition="#i">Symbolis</hi>, als dem <hi rendition="#i">Apostolico, Niceno</hi> vnd des heiligen <hi rendition="#i">Ambrosij</hi> vnd <hi rendition="#i">Augustini</hi> gemess sein / wie die
+alle zusamen in der Augspurgischen <hi rendition="#i">Confeßion Anno</hi> 1530.
+auffs kürtzte vorfasset / der Röm. Kei. Ma. auff dem Reichs tage zu Augspurg
+vberantwort / vnd bisshero in den reinen Kirchen dieser Sechsischen lande
+erhalten vnd blieben sein / sampt der <hi rendition="#i">Apologia</hi>, so kurtz
+darauff gestelt / vnd in öffentlichen Druck ist ausgangen.</p>
+<p>DAs alles findet man bey vnser Kirchen Ordnung / die <hi rendition="#i">Anno</hi>
+1528. erstlich gestellet vnd publiciert / vn&#x0303; hernach <hi rendition="#i">Anno</hi> 1563. widerumb Repetiert vnd von newes in Druck ist
+ausgangen / darüber wir auch ernstlich vnd vnnachlesslig halten wollen / in
+aller massen / als solchs in der <hi rendition="#i">Praefation</hi> solcher
+ordnung ist ausgedruckt vnd angezeigt.</p>
+<pb facs="#f0006"/>
+<p>WEr aber solch <hi rendition="#i">Corpus Doctrinae</hi> mit worten oder wercken
+zu vbertreten / zu vorachten oder schimpfflich dauon zu reden fürnemen / vnd
+sich vnterstehen würde / vnd daruon auff gütliche Vormanunge nicht abestehen vnd
+rechtschaffene Buss auch nicht thun vnd leisten würde / der solt als ein
+vorechter Gottes vnd seines Göttlichen Worts geachtet / vnd aus der Stadt
+vnnachlessig vorweiset werden / biss so lange er seiner besserunge gute zeugnis
+vnd kundtschafft von vnserm gantzen <hi rendition="#i">Colloquio</hi> erlangen /
+vnd also fürbringen könne / das wir derselben vollenkommen Glauben zustellen vnd
+geben können.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 2.</head><lb/>
+</div>
+<div>
+<head>Von den Sacramentschwermern / Wiederteuffern / vnd dergleichen Rotten vnd
+Secten.</head><lb/>
+<p>WO jemandt allhie in vnser Stadt mit der Sacramentschwermerey / oder der
+Wiederteufferey / oder andern dergleichen vnchristlichen Rotten vnd Secten die
+Gottes worte / der Augspurgischen
+<pb facs="#f0007" n="4"/>
+<hi rendition="#i">Confeßion</hi>, derselbigen <hi rendition="#i">Apologia</hi>,
+vnd vnser Christlichen Kirchen Ordnunge zu gegen weren / behafftet zu sein
+befunden würde / Solt er deshalben vor vnser Geistliche <hi rendition="#i">Colloquium</hi> fürbescheiden / vnd darselbst aus Gottes Worte / von seinem
+jrthumb abezustehen / mit getrewem vleis vnterrichtet vnd vormanet werden / vnd
+so er dann darüber bey seinem jrthumb öffentlich noch vorharren würde / Solt er
+aus vnser Stadt vnd Gebiete so lange vorweiset vnd darin nicht gelidden werden /
+Er habe dann sich gegen vns schrifftlich erklert / das er von seinem Irthumb
+abgestanden sey / als dann wollen wir jme den eingang vnser Stadt wiederumb
+erleuben / mit diesem weiterm bescheide / das er als dann / wenn er wieder in
+die Stadt komen / zu nehesten male / wen&#x0303; die Herren vnsers
+Geistlichen <hi rendition="#i">Colloquij</hi> in vnser Brüder Kirchen beinander
+sein werden / darselbst vor jnen erscheinen / vnd seinen jrthumb auch
+wiederruffen / vnd daruon gentzlich abezulassen / angeloben werde.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 3.</head><lb/>
+</div>
+<div>
+<head>Von dem Fluchen vnd Gotteslestern.</head><lb/>
+<pb facs="#f0008"/>
+<p>WIewol das Fluchen vnd Gottslestern in Gottes Worte ernstlich vorbotten / vnd
+darauff die straffe gesetzt ist / das die Flücher mit steinen zu todte geworffen
+werden sollen / So ist doch leider solche straffe / nach langheit der zeit in
+missbrauch komen / von wegen grosser mennige / deren / die mit fluchen sich zu
+vorsündigen pflegen.</p>
+<p>DIeweil aber gleichwol das fluchen sehr vngleich vn&#x0303; mercklich
+vnterscheiden ist / also das etliche aus leichtfertigkeit vnd einer bösen
+angenomen gewonheit leichtlich fluchen / Etliche aber aus bösem fürsatz vnd
+mutwillen / So wollen wir vns fürbehalten haben / nach gelegenheit der
+vbertrettung die straffe zu mindern oder zu mehren.</p>
+<p>WO aber einer betretten oder vberweiset würde / das er bey Gotts vnd seines
+lieben Sons Ihesu Christi Namen / oder Blute / Krafft / Macht / Leib / Gliedern
+/ Wunden / Tode / Marter / Sacramenten vnd Elementen / oder dergleichen
+Göttlichen Namen vnd Emptern / jemande böses geflucht oder gewünschet hette /
+Solt er wenn das geschege / vorfestet werden / Vnd so er sich dann bes-
+<pb facs="#f0009" n="5"/>
+sern vnd wieder in
+die Stadt wil / sol er die Festunge mit einem Gülden bessern.</p>
+<p>WVrde er aber zu Gottes des Allmechtigen eigener vorachtunge dergleichen wort vnd
+rede gebrauchen / Sol er der Stadt so lange emperen / bis man seiner Busse vnd
+besserunge gute kundtliche antzeigung haben kondte / Dann Gott sagt / Wer den
+Namen Gottes lestert / sol des Todts sterben / Darumb sol keine Obrigkeit
+darüber so leicht hinstreichen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 4.</head><lb/>
+</div>
+<div>
+<head>Von Schweren.</head><lb/>
+<p>ES sollen auch die leichtfertigen Schwerers gleicher gestalt / wie die Flucher
+gestraffet werden / Wo sie aber gerichtlich / oder in andere wege einen falschen
+Meineidt schweren / sollen sie gestraffet werden / wie hernach folgen wird / <hi rendition="#i">sub titulo</hi>, von falschem gezeugnis.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 5.</head><lb/>
+</div>
+<div>
+<head>Von Zauberey.</head><lb/>
+<pb facs="#f0010"/>
+<p>WO jemandt bekennet oder vberweiset wird / das er einen andern mit Zeuberey an
+Leibe oder gute beschedigt habe / der sol one alle gnade mit dem Fewr gestraffet
+vnd zu puluer verbrant werden.</p>
+<p>WVrde er aber andern Leuten oder jme selbs mit Zeuberey an Leibe / Viehe oder
+anderm Gute helffen / oder zu helffen vnterstehen / Were er ein Frembder / oder
+in vnser Stadt nicht besessen / So solt er der Stadt ein Jar lang verweiset
+werden / vnd wo er sich in der zeit besserte / als dann nach vorlauffe des Jars
+/ gegen erlegung einer Marck straffgeldes / den ein vnd ausgang vnser Stadt
+widerumb vberkommen mügen. Were er aber ein besessener Bürger oder Bürgersche /
+so solt er vmb drey Marck gestraffet werden.</p>
+<p>WEr aber bey Zeubern oder Warsagern / trost / hülffe oder radt suchen / vnd
+dessen vberwunden würde / So solt er vns sechs Marck zur straffe geben / vnd
+sich auch für vnserm Geistlichen <hi rendition="#i">Colloquio</hi> als ein
+Bussfertiger ertzeigen / also / das man mit jme zu frieden sein köndte. Ein
+frembder aber solt der Stadt zwey Jar emperen / vnd wo er
+<pb facs="#f0011" n="6"/>
+dann Busse thete / mit
+zweyen Marcken den einganck wiederumb erwerben mügen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 6.</head><lb/>
+</div>
+<div>
+<head>Von vorachtunge der Prediger Göttlichs Worts.</head><lb/>
+<p>WVrde sich jemandt wieder die bestalten Prediger Göttlichs Worts / mit
+schimpfflichen worten / in Bierbencken oder sonsten vornemen lassen / der solt
+so offt das geschege / einen Gülden zu bröke geben.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 7.</head><lb/>
+</div>
+<div>
+<head>Von Friedewirckung der Prediger.</head><lb/>
+<p>WVrde jemandt so freuel vnd vnartig befunden / das er einen Prediger in seinem
+Hause vberlauffen vnd bedrouwen dörffte / oder aber die handt an jme legete vnd
+jne schlüge / So solt er ein Jarlang mit der fürsatz vorfestet werden / Wolte er
+aber
+<pb facs="#f0012"/>
+nach vorlauffe des Jars
+wieder in die Stadt / solt er die fürsatz mit ein vnd zwentzig Gülden vnd neun
+vnd zwentzig Pfenningen bessern / vnd darzu auch allen vorursachten vnkosten
+legen.</p>
+<p>DIss alles ist zuuornehmen / wo der Theter durch die flucht entrunne / vnd dar
+von keme / Würde er aber betretten vnd gefangen / er solte der straffe gewarten
+/ die hernach auff den Hausfriedbruch vorordent ist.</p>
+<p>WO jemandt gröblicher breche / solt er auch nach gelegenheit herter gestraffet
+werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 8.</head><lb/>
+</div>
+<div>
+<head>Von zuhaltung der Thor / Sontags vnd Feirtags.</head><lb/>
+<p>AN allen Sontagen vnd Feirtagen / sollen die Zingeln vor den Thoren zugehalten /
+vnd niemandt zu Ross oder Wagen / aus oder eingelassen werden / ohne
+sonderlichen erleub des Bürgermeisters in dem Weichbilde / darzu das Thor gehört
+/ handelte ein
+<pb facs="#f0013" n="7"/>
+Thorhüter
+dawider / er solt zween newe Schillinge zur straffe vorfallen sein.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 9.</head><lb/>
+</div>
+<div>
+<head>Von denen die auff den Sontag oder Feirtag vnter der Predigt Göttlichs worts
+auff den Kirchhöfen stehen / oder in solcher zeit auff den Marckten feyhl
+haben.</head><lb/>
+<p>VNd weil wir leider bis dahero offt vnd vielmals gesehen vnd befunden / das sich
+etzliche Müssiggenger gelüsten lassen haben / auff den Sontag oder Feirtag
+Vormittags vnter wehrender Predigte auff den Kirchhofen zu stehen / oder darumb
+hero zu spatzieren / das vor eine mutwillige vorachtung des heiligen Göttlichen
+Worts zu achten vnd halten / So wollen wir / das nun hinfurter das stehend oder
+spatzierent auff den Kirchhöfen / Vormittags vnter wehrender Predigt von
+jederman gentzlich vnterlassen werden solle / Dann wir durch vnsere
+Marckmeistere vnd Diener darauff achtunge geben / vnd die vbertretter dieses
+vnsers
+<pb facs="#f0014"/>
+Gebots jedesmal vor vnsere
+Brölcherren Citieren / vnd von einem jeden darselbst einen newen Schilling zu
+Straffgelde fordern lassen vnd haben wollen.</p>
+<p>ES sol auch niemandt von vnsern Bürgern / Bürgerinnen / Bürger Kindern oder jrem
+Gesinde / oder jemande von vnsern Vnterthanen aus vnsern Gerichten vnd Dörffern
+auff den Sontag oder Feirtag Vormittags vnter wehrender Predigte / auff vnsern
+Marckten allhier etwas fehele haben vnd vorkeuffen / Bey bröke eins Gülden / so
+offt das geschege. Wo aber das jemandt frembdes vnwissent thun würde / dem solt
+es von vnsern Marckmeistern vnd Dienern ernstlich verbotten werden / vnd wo er
+sich dann daran nicht keren wolte / solt er darüber gepfandet / oder sonst von
+vns nach gelegenheit ernstlich gestraffet werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 10.</head><lb/>
+</div>
+<div>
+<head>Von Sontags oder Fests geseuffe.</head><lb/>
+<pb facs="#f0015" n="8"/>
+<p>NIemandt sol auff einen Sontag oder Feirtag Vormittags vnter der Predigt oder
+Messen Geste setzen / Brantewein / rechten Wein / oder ander Getrencke zu
+sauffen / Bey straffe einer festung.</p>
+<p>IN dergleichen straffe sollen auch solche Geste von vns genommen werden.</p>
+<p>VNd sol auch solch sauffen auff den Sontag oder Feirtag Vormittags vnter der
+Predigt auff vnser Apoteken / Wein vnd Bierkellern keins wegs geschehen oder
+gestattet werden.</p>
+<p>ES sollen auch die Handtwercksgesellen oder jemandt anders auff den Sontagen vnd
+Feirtagen / bis nach der <hi rendition="#i">Vesper</hi> Predigte sich züchtich
+vnd stille halten / vnd mit grossem geschrey / Trommeln oder anderer
+leichtfertigkeit kein vnfug anrichten / Sonsten wil man jnen auch mit einer
+festunge folgen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 11.</head><lb/>
+</div>
+<div>
+<head>Vom Spiel am Sontage vnd Feirtage.</head><lb/>
+<pb facs="#f0016"/>
+<p>WO der Marckmeister oder sein Gesinde des Sontags oder Feirtags vnter der Predigt
+/ Vor oder Nachmittage eine leichtfertige Bursch auff der Marsch / oder sonsten
+ausserhalbe Thors auffm Spiel erhaschen würden / sollen sie macht haben / von
+jedem ein Pfandt zu nemen / vnd wenn sie das wieder lösen wollen / sollen sie
+dem Marckmeister oder seinem Gesinde einen newen Schilling dafür geben. Vnd wo
+gleich einer oder mehr entlieffen / vnd hernach erforschet vnd ausgekundtschafft
+würden / solt ein jeder vorberürter straffe nicht geübrigt sein / sie würden
+sich dann mit jrem Eide entledigen vnd vnschüldig machen.</p>
+<p>WVrden vormügende Bürger / Bürgerskindere oder vorstendige Handtwercksgesellen /
+dergestalt auffm Spiel betroffen / sollen sie vnnachlessig vorfestet / vnd damit
+nicht vorschonet werden / wenn sie gleich die straffe als bald erlegen wolten /
+damit sich ein jeder schande halben für solcher leichtfertigkeit zu hüten / vmb
+so viel deste mehr vrsache nemen müge.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 12.</head><lb/>
+<pb facs="#f0017" n="9"/>
+</div>
+<div>
+<head>Von dem Schiessen / Spielen vnd Tantzen auff vnser Newenstadt Marsch oder
+anderswor vor den Thoren in den Pfingsten.</head><lb/>
+<p>VOr Dinstags des Nachmittags in den heiligen Pfingsten / sollen die Schützen oder
+jemand anders / auff vnser Newen stadt Marsch oder anderswor / in oder vor vnser
+Stadt / vor der Scheiben nicht schiessen / Spielen oder Tantzen / oder
+dergleichen kurtzweile zu treiben / bey straffe einer festunge / Sondern des
+Dinstags in den Pfingsten Nachmittage / mügen vorberürte vnd andere ehrliche
+kurtzweile erleubt sein. Es sollen sich aber als dann die jenigen / die sich des
+Tantzens gebrauchen wollen / aller zucht vnd ehre darbey gebrauchen / vnd die
+Frawen vnd Jungfrawen in dem Tantze schendlich nicht vordreihen / darauff die
+Marckmeister vnd jr gesinde gute achtunge geben sollen / vnd wollen als dann
+einen jeden vorbrecher dieses vnsers Mandats jedesmals vmb zween newe Schillinge
+straffen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 13.</head><lb/>
+<pb facs="#f0018"/>
+</div>
+<div>
+<head>Von den Kirchhöfen.</head><lb/>
+<p>DIeweil wir leider augenscheinlich befinden / das sich etzliche Vnfleter eine
+zeithero gelüsten lassen haben / die Kirchhöfe mit jrem eigen vnflate
+zubeschmeichen vnd zuuorunreinigen / so vorbieten wir hiemit ernstlich / das
+solchs hinfüro nicht mehr geschehen sol / dann wo jemandt hierüber betretten
+wird / sol er deshalben verfestet werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 14.</head><lb/>
+</div>
+<div>
+<head>Von dem der seine Eltern morden / oder schlagen / oder jnen fluchen / oder
+seine Kinder ermorden würde.</head><lb/>
+<p>WO jemandt (das Gott gnediglich vorhüte) seinen Vater oder Grossuater / Mutter
+oder Grossmutter / Ja auch seinen Stieffuater vnd Stieffmutter / die sein
+ehelich oder allein natürliche Eltern / freuentlich ermorden / oder mit gifft
+vmbbrengen würde / der sol vom Gerichte aus der Stadt geschleiffet werden / biss
+an den ort
+<pb facs="#f0019" n="10"/>
+der straffe /
+vnd darnach mit einem Blochrade von vnten auff gestossen / vnd gewönlicher weise
+in das Radt geflochten / vnd alldo den Raben vnd schedlichen Thieren zur Speise
+vbergeben werden. Dieweile er grausamer vnd schrecklicher gehandelt / den&#x0303; man anwilde&#x0303; Thieren gewondt ist. Es sol aber auch
+zu richtlicher ermessigung stehen / Ob man vorbemelten grausamen Mörder / an
+statt des schleiffens / mit glüenden Zangen ein riss oder etzliche geben
+wolte.</p>
+<p>WVrde jemandt seine Eltern schlagen / der hette wol nach Gottes Gebote vnd
+Ordnunge den Hals vorwircket / desgleichen wenn er seinen Eltern fluchet /
+Dieweil aber die straffe in diesen Landen nicht in vbunge gefunden / sol man
+einen solchen Gotts vnd ehr vergessenen Buben / vier Wochen lang mit zimlichem
+gefengnis straffen / doch das er nicht anders dann mit Wasser vnd Brot gespeiset
+werde.</p>
+<p>SO aber jemandt mehr dann ein mal / solche vnthat vben würde / sol gleichwol die
+Leibsstraffe hiemit vnbegeben sein.</p>
+<pb facs="#f0020"/>
+<p>HIeher gehören auch die / so jre Kindere heimlich vmbbringen / Dieweile Eltern
+vnd Kindere <hi rendition="#i">Correlatiua</hi> sein / vnd billich in gleichem
+rechte stehen sollen. Darumb wollen wir / das alle Kinder mörderin geschleufft /
+oder mit Zangen gerissen / vnd hernach vorseufft / vnd auff ein Radt gelegt
+werden sollen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 15.</head><lb/>
+</div>
+<div>
+<head>Von Meuterey vnd Auffrhur.</head><lb/>
+<p>WEr sich vnterstehet zweydracht zu stifften / zwischen dem Landsfürsten vnd der
+Stadt / oder zwischen dem Rathe vnd den Gilden / oder zwischen dem Rathe vnd der
+Gemeine / sein Leib vnd Gut stehet in des Raths handt.</p>
+<p>ES sol niemandts Vorsamlungen machen heimlich des tags oder nachtes / ohne des
+Raths wissenschafft / bey Leibe vnd bey Gute / dar der Stadt schade mochte von
+kommen.</p>
+<p>KEin Bürger sol reiten / dauon der Stadt oder der Bürgerschafft schade entstehen
+möchte / wer das thete / sein straffe sein zehen Marcken.</p>
+<pb facs="#f0021" n="11"/>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 16.</head><lb/>
+</div>
+<div>
+<head>Von deme der seine Wehre aus freuel / damit gewalt zu vben / austziehen
+würde.</head><lb/>
+<p>WO jemandts gegen einem andern seine Wehre aus fürsatz vnd freuel / damit gewalt
+zu vben / vnd nicht vmb Notwehr damit zu thun / ausziehen würde / der sol
+deshalben mit einer fürsatz verfestet werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 17.</head><lb/>
+</div>
+<div>
+<head>Von Todtschlage.</head><lb/>
+<p>TOdtschlag wird in Rechte zweierleye befunden / Nemlich fürsetzlich vnd zufellig
+oder vnuorsehnlich.</p>
+<p>ERstlich / wenn einer mit fürsatz vnd wolbedachtem mute den andern todtschlegt /
+vnd der wird gegriffen / Sein straffe ist verlierung des Heubts / Nach dem
+vrtheil Gottes / Wer Menschen Blut vorgeust / des Blut sol auch vergossen
+werden.</p>
+<pb facs="#f0022"/>
+<p>WEr aber daruon kompt vnd nicht ergriffen wird / sol fünfftzig Jar der Stadt
+emperen / Wil er darnach wieder herein / Er sol sich erstlich mit Gott vnd der
+Kirchen / auch mit des entleibten Freundtschafft vorsünen / vnd von vnserm <hi rendition="#i">Colloquio</hi> absoluieren lassen / vnd darnach dreissig
+Gülden straffe geben / so kondt er wieder eingenommen werden.</p>
+<p>ZVm Andern / wo einer einen vnuorsehentlichen Todtschlag begienge / der möchte
+nicht an Leibe vnd Leben / sondern Wilkürlich gestraffet werden / Wie
+folget.</p>
+<p>EIn vnuorsehenlich Todtschlag aber kan sich auff vierley weise zu tragen. Zum
+Ersten / wenn einer den andern anfertigt / vnd jne mit Wehre vnd Waffen also
+drenget vnd anficht / das er zu errettung seins Leibs vnd lebens die gegenwehre
+gebrauchen müste / ob er dann gleich den Ansprenger zu todte schlüge / Er bleibe
+des gar ohne straffe vnd wandel.</p>
+<p>ZVm Andern / Wo einer vnuorsehens / ohne alle seine schuldt vnd bösem fürsatz /
+einen andern vmbbrechte / er müchte darumb auch
+<pb facs="#f0023" n="12"/>
+nicht gestraffet werden /
+Als wenn die Schützen für der Scheiben / vnd also an gewönlichen örten schiessen
+/ vnd es gienge einer in den weg / vnd würde erschossen / der Theter bliebe des
+ohne straffe / Oder wo zween mit einander stechen / vnd der eine fiel sich vom
+Pferde zu tode / oder neme sonst einen schaden / dauon er des Todts were / der
+Theter hette darumb auch keine straffe zu besorgen.</p>
+<p>WEnn aber zum Dritten einer den andern vnuorsehens tödte / vnd gleichwol an
+solchem Todtschlagen etwas schuldt hette / als wenn einer an einem vngewönlichen
+orte zum ziel / Oder sonsten nach einem Thier oder Vogel schösse / vnd entleibte
+einen vnuorsehens / so hette er daran schuldt / das er am vngewönlichen orte
+solchen gefehrlichen handel geübt / vnd muste derhalben funff Jar der Stadt
+emperen / vnd nach geendigten fünff Jaren / sich mit des entleibten Freunden
+vortragen / vnd darzu zehen Gülden zur straffe geben.</p>
+<p>ZVm Vierden / wo einer noch mehr schuldt hette / dan&#x0303; eine
+schlechte vorwarlosunge oder vnfleis / sondern fünde sich / das auch der wille /
+den
+<pb facs="#f0024"/>
+andern zu beschedigen mit dar
+zu komen were / Als wenn einer in eine zeche keme / vnd daselbst mit keinem zu
+schaffen hette / den er zu beschedigen bedacht were / sondern keme vnuorsehens
+mit einem zu hader / vnd würde mit zorn so fern bewogen vnd vbereilet / das er
+denselben zu tode schlüge / keme er gleichwol dauon / vnd kondt in fünff Jaren
+oder bald darnach / mit des entleibten Freundtschafft ein Vortrag machen / des
+hette er billig zu geniessen / also / das er nach vorlauffe der fünff Jar vns
+dem Rathe zehen Gülden gebe / vnd den eingang der Stadt erwürbe. Würde er aber
+ergriffen / so müste er gefahr stehen / das er an Leibe vnd Leben gestraffet
+würde / doch nicht anders / dann nach erwegung aller vmbstende / die etwan also
+geschaffen sein müchten / das er mit der Leibs straffe nicht allerding vorschont
+würde / vnd in solchen fellen wollen wir vns bey Rechtsgelerten raths zu erholen
+vnbegeben / sondern ausdrücklich fürbehalten haben.</p>
+<p>WEr mit giffte oder zeuberey / jemandt fürsetzlich vmbbringet / sol mit Fewr
+vorbrant / oder auff ein Blochradt gestossen werden.</p>
+<p>DEr Wird des Hauses / darin ein Todtschlag geschehen / sol vns eine Marck zur
+straffe ge-
+<pb facs="#f0025" n="13"/>
+ben /
+andern zur warnunge / auff jre Geste vnd Gesinde / deste bessere auffachtunge zu
+geben.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 18.</head><lb/>
+</div>
+<div>
+<head>Von den / die einem Todtschlage oder Balgerey zu sehen.</head><lb/>
+<p>WO einer dar bey ist vnd zusihet / vnd höret / das zween oder mehr zu vnwillen
+vnd schlagen kommen / der sol hiemit gewalt haben / den Haderern von Gerichts
+wegen friede zu gebieten. Wurde dann einer so freuel befunden / das er dem
+Gebote nicht gehorchen wolte / vnd schlüge darüber einen andern todt / sol mit
+dem Schwerdt als ein Friedebrecher gerichtet werden / Schlüge er eine Wunden /
+er sol die straffe leiden / die hernach auff Wunden gesetzt ist / Würde er aber
+selbs Todt geschlagen / der Theter sol mit der Leibsstraffe vorschont bleiben /
+vnd der gantze handel sol zu vnser ermessigung stehen / ob vnd wie der Theter zu
+straffen sey / darin wir gelegenheit der Personen / Wehre vnd gegenwehre / auch
+vrsachen / dadurch der Hader angangen / vnd dergleichen vmbstende mit fleis
+bewegen sollen vnd wollen.</p>
+<pb facs="#f0026"/>
+<p>WEr einer Balgerey zusthet / vnd dieselben gar nicht vnterstehet zu hindern /
+sondern etwan darzu lust oder gefallen hat / der sol vorfestet werden / vnd so
+er wieder in die Stadt begert / sol er eine Marck zur straffe geben.</p>
+<p>WEr den Theter ohne redliche vrsache vnuorhindert lest daruon lauffe&#x0303; / oder jme fürschub thut / das er daruon kompt / sol nach gelegenheit seins
+vormügens an gelde / oder mit vorweisunge / oder gefengnus gestraffet werden /
+dann wen&#x0303; die Theter so leichtlich nicht dauon kommen kond- ten /
+würde mancher so mutich nicht sein / das er so bald vmb sich schlüge oder steche
+/ sondern one zweiffel manniger Todtschlag vnuolbracht bleiben.</p>
+<p>WIrd aber jemandt einen todtschleger hindern vn&#x0303; auffhalten / das
+er zu gefengnus gebracht werde&#x0303; mag / sol er derwegen an seinen
+ehren oder an Gilden vnd Ampten nicht getadelt oder geeussert / sondern dessen
+ohne nachteil bleiben / vnd von vns vortretten vnd entnommen werden.</p>
+<p>VNd wo jemandt einem obberürt sein Bürgerlich vnd ehrlich fürnemen vorweislich
+auffrücken / oder fürlegen würde / der solte mit einer
+<pb facs="#f0027" n="14"/>
+fürsatz vorfestet / vnd
+ehe in die Stadt nicht wieder gestattet werden / biss das er vns dem Rathe zur
+straffe gegeben habe ein vnd zwentzig Gülden vnd neun vnd zwentzig Pfenninge /
+darumb das er wieder gemeine ruhe vnd Menschliche natürliche trewe gehandelt hat
+/ die einer dem andern zu seiner beschützunge zu leisten für Gott schüldig
+ist.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 19.</head><lb/>
+</div>
+<div>
+<head>Von Wunden die da Kampffbar.</head><lb/>
+<p>WIrd jemandt Kampffbar vorwundet / ob er gleich nicht klagen wolte / wir der Rath
+wollen dennoch der bröke oder straffe nicht emperen / sondern den Theter von
+Gerichts wegen zu straffen fürbehalten haben / Fünde man auch / das der
+Vorwundete selbs zu der beschedigung vrsach gegeben / oder den hader angefangen
+/ vnd derhalben die That zuuortrücken vnd zuuortuschen lust hette / Man sol
+nichts deste minder in der sachen ergehen lassen / was recht ist / vnd den
+vorwundten so wol als den Theter straffen / wo er schüldig befunden wird.</p>
+<pb facs="#f0028"/>
+<p>WEr den andern Kampffbar vorwundet / vnd in der Stadt begriffen wird / der sol
+von Ampts wegen eingetzogen / vnd bis zu erkündigung der gantzen geschichte /
+vorwarlich gehalten werden.</p>
+<p>DIe erkündigung aber sol also fürgenommen werden / das der Bürgermeister in dem
+Weichbilde / darin die That geschehen / vnd do der Vorwundete anzutreffen /
+selbs allein / oder durch andere Herren / der zum wenigsten zween sein sollen /
+der Parteien bericht höre / vnd als bald zween Herren des Raths vnd zwen
+geschickte Balbierer zu dem vorwundten schicke / vnd die Wunde besehen lasse /
+ob sie tödtlich sey oder nicht / Ist sie nicht tödtlich / vnd der Vorwundte kan
+von dem Theter als bald zum Vortrage bewogen werden / so mag man den Vortrag zu
+lassen / vnd den Gefangenen / gegen erlegung zehen Gülden straffe / neben auch
+entrichtunge des fange Gülden / Schliesgeldes vnd Kostgeldes / seiner
+gefencklichen hafft entledigen.</p>
+<p>WIrd aber die Wunde tödtlich oder zum weinigsten zweiffelhafftig befunden / Man
+sol den Theter die neun fahrtage behalten / stür-
+<pb facs="#f0029" n="15"/>
+be in des der
+vorwundete / ohne seine selbs vorwarlosung / Man sol jnen nach obgesatzter
+Ordnunge straffen.</p>
+<p>WEr sich aber auff des entleibten eigene vorwarlosunge steuret / der ist dieselbe
+zuerweise&#x0303; schüldig / dann zu Rechte wird sie nicht
+vormutet.</p>
+<p>WOlte sich aber der Vorwundete / für ausgange der Neun tage nicht abehandeln
+lassen / So sol der Theter in hafft bleiben / vnd seine gefahr vnd ebentheur
+auswarten.</p>
+<p>WO der Vorwundete die Neun fahrtage vber lebte / vnd seine besserunge etwas
+vormutlich were / Ob er sich gleich mit dem Theter nicht vortraaen wolte /
+dannoch wo der Theter sich zu rechte beut / vnd desselben auszuwarten gnugsam
+vorbürget / sol man zehen Gülden / auch den fange Gülden / Schlissgeldt vnd
+Kostgeldt von jme nemen / vnd jne der gefengnis entledigen.</p>
+<p>BLiebe er aber der Vorwundete noch für vnd für schwach / vn&#x0303; stünde
+in gefahr seins lebens den Theter möchte man fürder behalten / bis man sehe /
+wie es mit der Wunden hinaus wolte.</p>
+<pb facs="#f0030"/>
+<p>VOrwünne aber der Vorwundete seinen schaden / vnd keme wiederumb zu vöriger
+gesundtheit / der Theter were gleichwol schüldig / sich mit jme zu vortragen /
+vnd vns dem Rathe zehen Gülden straffe zu geben / neben dem fange Gülden /
+Schliesgelde vnd Kostgelde.</p>
+<p>ENtlieffe der Theter / vnd würde nicht gefangen / man sol jme folgen mit einer
+feste / vnd in einem Jare den eingang der Stadt nicht wieder gönnen. Es were
+dann / das er sich / ehe die festunge vber jne ergangen / mit seinem wiederparte
+vortragen / vnd vns einen feste Gülden zur straffe gegeben hette / als dann solt
+er mit der festunge vorschont bleiben.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 20.</head><lb/>
+</div>
+<div>
+<head>Von schlechten Wunden / die nicht Kampffbar oder Kampffwirdig sein.</head><lb/>
+<p>SCHlüge oder steche einer den andern / vnd die Wunden würden nicht Kampffbar
+befunden / er sol sich mit dem beschedigten vortragen / vnd vns dem Rathe eine
+Marck zur straffe geben.</p>
+<pb facs="#f0031" n="16"/>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 21.</head><lb/>
+</div>
+<div>
+<head>Von Beulen vnd Dumschlegen / die keine Blutrust haben.</head><lb/>
+<p>SChlüge einer den andern fürsetzlich / mit Knütteln oder andern Instrumenten /
+vn&#x0303; folgte gleich keine Blutrust / sondern vieleicht eine
+schlechte Beule / der sol sich (wie jtzo gesagt) mit dem beschedigten vortragen
+/ vnd vns ein vnd zwantzig Gülden vnd neun vnd zwantzig Pfenninge zur straffe
+geben / Es were dann / das die That mit bösen vmbstenden beschweret / vnd
+grösser gemacht würde / So wollen wir vns nach gelegenheit die straffe zu
+steigern vnd zu mehren fürbehalten.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 22.</head><lb/>
+</div>
+<div>
+<head>Von vnfuge auff des Raths Kellere vnd andern gemeinen orten / vnd in
+Vorlöbnussen vnd Brauthensern.</head><lb/>
+<pb facs="#f0032"/>
+<p>WEr auff des Raths Rellern / Apoteken / Lustheusern / oder sonsten in des Raths
+gelage&#x0303; / wo dieselben bestalt sein / dem andern mit worten
+oder thaten vnfug thut / jne schlecht oder schmehet / sol ohne vnterscheid zehen
+Gülden zur straffe vorfallen sein.</p>
+<p>WEr solchs auff der Gilde gemeinen Heusern thete / solt sechtzig Schillinge zur
+straffe geben / hette er des Geldes nicht / er sol so lange der Stadt emperen /
+bis ers bezalen kan.</p>
+<p>WEr in Vorlöbnussen oder auff Brautheusern hader oder vnfuge anrichtet / den
+andern reuffet / schlegt oder schmehet / Sol sechtzig Schilling wetten / oder
+der Stadt emperen / biss ers bezalen kan.</p>
+<p>WO zween in einer Vorlöbnusse oder Brauthaus mit einander haddern / Sollen jeder
+auch sechtzig Schillinge vorfallen sein.</p>
+<p>ES were dann / das einer den hadder mutwilligs hette angefangen / vnd dem andern
+zur wiedersprach vrsach gegeben / dann sol derselbe allein gestraffet
+werden.</p>
+<pb facs="#f0033" n="17"/>
+<p>GEschege dem Breutgam schade darüber / der Anfenger sol den gelten / oder wo sie
+gleiche schuldt hetten / sollen sie auch gleichen schaden tragen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 23.</head><lb/>
+</div>
+<div>
+<head>Von vorachtunge der Stadtfeste.</head><lb/>
+<p>WEr ohne not vber des Raths feste steiget / ob er gleich sonst den Kopff nicht
+vorwircket hette / Er solt vmb des vbersteigens willen / mit dem Schwerte
+gestraffet werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 24.</head><lb/>
+</div>
+<div>
+<head>Von Hausfriede.</head><lb/>
+<p>WER dem andern bey Tage oder bey Nachte mit fürsatz sein Haus auffstiesse / vnd
+darin jemands schlüge / oder gewaldt darin vbte / das sol für ein Haus
+friedbruch erkandt / vnd mit dem Schwerte gestraffet werden / darin auch keinen
+seine trunckenheit sol entschüldigen.</p>
+<pb facs="#f0034"/>
+<p>WER zu dem andern mit gewehrter handt in sein Haus gienge oder lieffe / jnen
+darin zubeschedigen / ob er gleich an jnen nicht kommen / oder etwas thetlichs
+ausrichten köndte / er solt dennoch ein Jar lang mit einer fürsatz aus der Stadt
+vorfestet / vnd nach vorlauffe des Jars darin nicht ehe wieder gestattet
+werde&#x0303; / bis das er ein vnd zwantzig Gülden vnd neun vnd
+zwantzig Pfenninge zur straffe gegeben.</p>
+<p>WVrde er den Hauswirdt / sein Weib / Kinder oder Gesinde beschedigen vnd Wunden /
+Er sol den Kopff verloren haben.</p>
+<p>ZVschlecht einer dem andern seine Fenster / Schrancken / Laden oder was er zu
+feilem kauffe / oder sonsten ausgesatzt oder ausgehangen / Man sol jne ohne
+gnade mit einer fürsatz vorfesten.</p>
+<p>WEr zu dem andern in sein Haus laufft / vnd jne allda mit lesterlichen worten
+vberfahret / er sey Frawe oder Man / Er sol auch vorfestet werden mit einer
+fürsatz.</p>
+<p>DAs hat auch stadt / ob gleich einer in einem gemieten Hause wonete / dann in
+seiner Wonunge sol jederman billich mit friede vnd ru-
+<pb facs="#f0035" n="18"/>
+he bleiben / vnd
+von einem andern nicht vberlauffen werden / also / das auch die Rechte vorbieten
+/ jemande aus seinem Hause mit gewalt in Gefenck nus zu ziehen / Es were dann
+die sache peinlich / vnd belangte den Hals / darumb auch nach Stadtrechte kein
+Bürger aus seiner Wonunge genommen vnd gefangen werden sol / er sey dann zuuor
+angesprochen vnd gehört.</p>
+<p>GEschege jemande gewaldt in seinem Hause / es were bey Tage oder bey Nacht / vnd
+die Wachte würde ersucht / oder sonsten des inne / Sie sol ohne sonderlichen
+befehl als bald zu lauffen vnd retten / vnd nicht durch die Finger sehen / Bey
+vormeidunge vnser des Raths ernstlicher straffe.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 25.</head><lb/>
+</div>
+<div>
+<head>Von Nachtgange.</head><lb/>
+<p>VOn S. Gallen tage bis auff Mitfasten / sol niemandt der nicht Bürger ist / nach
+geleuter Wechterglocken / one licht oder Latern auff der Strassen sich finden
+lassen / allem oder Rottenweise / bey straffe zweier newer Schillinge.</p>
+<pb facs="#f0036"/>
+<p>VNd sol niemandt bey nechtlicher weile allhie auff der Strassen / vnzüchtige
+Lieder singen / noch ergerliche leichtfertigkeit oder vngebür treiben / dann wo
+jemandt von vnsern Wechtern dar über betretten würde / solten sie ein Pfandt von
+jme fordern vnd nemen / dabey er des Morgens zu kennen / vnd der gebür zu
+straffen sey.</p>
+<p>AVch sol niemandt allhie / der vnbekandt oder vordechtig were / bey nechtlicher
+weile auff der Strassen eine lange Wehre oder ein Rohr tragen / bey vorlust
+derselbigen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 26.</head><lb/>
+</div>
+<div>
+<head>Von den Marckmeistern vnd Wechtern.</head><lb/>
+<p>NIemandt sol sich an vnsern Marckmeistern vnd Wechtern vorgreiffen / bey straffe
+einer fürsatz.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 27.</head><lb/>
+</div>
+<div>
+<head>Von aus fordern oder ausheischen.</head><lb/>
+<pb facs="#f0037" n="19"/>
+<p>WEr sein eigen Richter wil sein / vnd darzu nicht Gerichte oder Recht gebraucht /
+sondern seinen gegenpart freuentlich ausfordert / sich mit jme zu Balgen / der
+sol vnnachlessig mit einer fürsatz ein Jarlang vorfestet werden / vnd die
+darauff gesetzte straffe / Nemlich ein vnd zwantzig Gülden vnd neun vnd zwantzig
+Pfenninge erlegen.</p>
+<p>WEr aber gefordert wird / sol dem Pucher zu folgen keins wegs macht haben /
+sondern wo er es thete / sol er einen Gülden zur straffe geben.</p>
+<p>WVrde der ausforderer geschlagen / Er sol den schaden jme selbs zumessen / vnd
+der Geforderte jme darzu zu antworten nicht schüldig sein.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 28.</head><lb/>
+</div>
+<div>
+<head>Von fürsetzlichen vnd andern Iniurien / Schmehe vnd Drauworten / vnd von
+fürsetzlicher vberfallunge oder anfertigung.</head><lb/>
+<pb facs="#f0038"/>
+<p>WIewol die Iniurien / so mit worten vnd wercken geschehen / alle vnter dem worte
+vnfug begriffen werden / so ist doch nicht vndienstlich von schmehesachen einen
+besondern Titel zu ordnen / damit solch Haderwerck vmb so viel deste besser
+vorhütet bleiben müge.</p>
+<p>DArumb wollen wir / das sich ein jeder fleissig fürsehe / vnd seinen eben
+Christen Menschen oder Bruder nicht beschwere / oder mit schmehe oder drauworten
+angreiffe.</p>
+<p>DAnn wo jemandts den andern fürsetzlich mit Worten oder mit der That Iniurijret /
+vberfelt oder anfertigt / der sol vmb eine fürsatz gestraffet werden / vnd dem
+Wiederpart einen wiederruff thun.</p>
+<p>WO aber jemandt den andern aus vnbedacht vnd zorn / mit worten Iniurijrn /
+schmehen oder bedrawen / das jme darnach leidt sein würde / vnd doch gleichwol
+darüber geklagt wird / den sollen wir der Rath macht haben zu gebieten / das sie
+die sache mechtiglich auff vns stellen / Diese
+<pb facs="#f0039" n="20"/>
+heimstellunge aber sol den
+vorstandt nicht haben / das die sachen alle wege gegen einander auffgehoben
+werden musten / Sondern wo ein theil dem andern zu viel oder vnrecht gethan
+hetten / sol der Schmeher dem Geschmeheten eine Christliche gebürliche abbit vnd
+wiederruff thun / vnd vns auch auff vnser Brökedorntzen einen Gülden zu bröke
+geben. Würden wir aber vns solcher sachen / die zuuortragen nicht vnternemen /
+so sol der Schmeher vor vnsere Brökeherren auch Citiert werden / vnd darselbst
+die Abbitt vnd wiederruff thun / vnd vmb einen Gülden gestraffet werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 29.</head><lb/>
+</div>
+<div>
+<head>Von Schmeheworten wieder den Rath oder eine Rathspersone / in Raths
+geschefften.</head><lb/>
+<p>WO sich jemandt gelüsten lassen würde / vns den Rath / oder eine Rathspersone in
+vnsern des Raths geschefften gegenwertiglich zu schmehen / vbel anzufahren vnd
+zu misshandeln / der sol ein
+<pb facs="#f0040"/>
+halb
+Jar der Stadt emperen / vnd darnach wenn er wieder in die Stadt wolte / eine
+fürsatz büssen / vnd darzu einen wiederruff vnd abebitt thun.</p>
+<p>GEschege aber das vorberürte schmehent / vbel anfahrent vnd misshandelnt nicht
+gegenwertiglich / sondern ruglings gegen andern Leuten / So solt der Theter auch
+ein halb Jar aus der Stadt weichen / vnd vmb einen Gülden gestraffet werden /
+vnd die geübte Misshandlunge vnd Schmehewort abebitten vnd wiederruffen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 30.</head><lb/>
+</div>
+<div>
+<head>Von Schmeheschrifften / Liedern vnd affterreden.</head><lb/>
+<p>WIr gebieten auch vnd wollen / das niemandt wes Standes der sey / den Dienern
+Göttlichs Worts / der Oberigkeit / noch seinem negsten jre <hi rendition="#i">Dignitet</hi>, Hoheit / Ehre / Glimpff vnd gute Gerüchte nicht antasten
+oder abeschneiden sol / durch Schmeheschrifften / Gesenge / Reime / Lieder oder
+Gedichte / in keinerley weise noch wege / do aber jemandt in dem schüldig
+<pb facs="#f0041" n="21"/>
+befunden / Sol er als ein
+vnruhiger / mutwilliger vnd böser Mensche / welcher zu vnruhe / vnfriede /
+Meuterey vnd allem argen geneigt / in vnser Stadt nicht gelidden werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 31.</head><lb/>
+</div>
+<div>
+<head>Von Schmehesachen der Gilde vnd Handtwercks Leute.</head><lb/>
+<p>DEn Gilden vnd Handtwercks meistern sol hiemit vorbotten sein / jemande seiner
+Gilde oder Handtwercks / aus eigenem fürnemen ohne rechtliche erkentnis zu
+entsetzen. Geschege es aber / vnd sich der / so entsetzt were / gegen vns dem
+Rathe deshalben beklagen würde / Solt er die Gildemeister vnd Handtwercks
+Meister vor vns Citiren lassen / So wollen wir nach gehörter klage vnd antwort /
+gütlich oder rechtlich darin vorfügen vnd erkennen / was sich gebüret vnd recht
+sein wird.</p>
+<p>SCHildt ein Gildebruder oder Handtwercks Geselle den andern / so sol solchs für
+der Gil-
+<pb facs="#f0042"/>
+de vnd Handtwercks
+Meistern / wie das bishero gebreuchlich gewesen / gütlich vortragen werden /
+oder der Schmeher sol es darselbst ausfüren vnd die Scheltewort war machen /
+oder darthun / das dem Gemeinen nutz / oder zum wenigsten der Gilde daran
+gelegen sey / das solche that geoffenbart werde. Würde er aber dem also nicht
+nachkommen / folt er von den Gilden vnd Handewercks Meistern jrem gebrauch nach
+/ gestraffet werden.</p>
+<p>IM fall aber / das die Gilde vnd Handtwercks Meistere die vorberürte Sache
+gütlich oder in ander wege nicht würden vortragen oder entscheiden mügen / Solt
+sie an vns geweiset werden / die gütlich oder rechtlich zu entscheiden / vnd dem
+Schmeher / wo ferne er schüldig befunden würde / in die auff Schmehewort
+gesetzte straffe zu nemen / vnd jne auch zur abbitt vnd wiederruffe
+anzuhalten.</p>
+<p>ES sollen auch die Handtwercks Gesellen / neben vnd <choice><sic>wit</sic><corr>mit</corr></choice> dem geschmeheten / so
+lange zu arbeiten schüldig sein / Bis das die schmehesache mit Rechte erörtert
+sey / welche sich aber hierin wiedersetzig ertzeigen / sollen vorfestet
+werden.</p>
+<pb facs="#f0043" n="22"/>
+<p>WVrden sich viel vber einen zusammen rotten / vnd aus eigenem fürnemen / ohne
+rechtliche erkentnis zu tadeln oder zu hindern vnterstehen / die wollen wir alle
+aus der Stadt vorfesten / bis sie den andern vnehrlich machen / oder jne wieder
+zu friede bringen.</p>
+<p>WVrden auch Gildeleute oder Handiwercker hinaus an andere örter lauffen / vnd jre
+Gildebrüder vber jemandt vorhetzen / das er oder andere von seinent wegen
+auffgetrieben würden / vnd allhie rechtlichs vortrags nicht erwarten / die
+wollen wir alle vorfesten / bis sie den Lermen wieder stille machen / vnd andere
+Leute vnbemühet lassen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 32.</head><lb/>
+</div>
+<div>
+<head>Von wortlichen Schmehendlen ins gemeine.</head><lb/>
+<p>IN allen wortlichen Schmehe handlen / setzen wir diese Regel / das sich keiner
+damit entledigen solle / das er die zugemessene Schmehewort beweisen könne /
+dann dessen vngeachtet / sol er die gesetzte straffe erle-
+<pb facs="#f0044"/>
+gen / darumb das er
+Gericht vnd Recht vorachtet / vnd sein mütlein eigens gewalts mit schmeheworten
+zu külen fürgenommen.</p>
+<p>WEr aber ein redelicher Man / vnd vngestraffet wil bleiben / hat der mit einem
+andern zu schaffen / So klage er es seiner Oberigkeit / jme sol wol Rechts
+vorholffen werden.</p>
+<p>WEis er aber von einem andern etwas / daran dem gemeinen nutz gelegen / er klage
+es seinem regierenden Bürgermeister / Oder wo es ein Gilde sache ist / seinem
+Gildemeister / vnd richte darmit in der Stadt keinen vnordentlichen tumult oder
+lermen an / So kan man mit ruhe vnd frieden bey einander leben / vnd mit gutem
+Gewissen Gott anruffen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 33.</head><lb/>
+</div>
+<div>
+<head>Von Ehebruche.</head><lb/>
+<p>WEr do bekent oder mit warheit vberzeuget oder vberwunden wird / das er seine Ehe
+gebrochen habe / es sey Frawe oder Man / er sol zwey Jar der Stadt emperen / vnd
+wo er sich in des besserte /
+<pb facs="#f0045" n="23"/>
+vnd nach der zeit wieder herein wolte / sol er dreissig Gülden zur straffe
+geben / vnd sich Absoluieren lassen für vnserm <hi rendition="#i">Colloquio</hi>.</p>
+<p>WVrde er aber allein berüchtigt / er mag sich mit seinem Eide entledigen / vnd
+das erste mal frey hin gehen / Erführe man aber hernach / das er ein Meineidt
+geschworen hette / sollen jme zween Finger abgehawen / vnd darzu auch der Stadt
+ewiglich vorweiset werden.</p>
+<p>WOlte er aber lieber sechs Gülden geben dann schweren / die wahl sol jme gegont
+werden.</p>
+<p>WO sich aber einer mit sechs Gülden ein mal gelöset hette / vnd keme zum andern
+mal mit bösem geschrey wieder / Er sol mit dem blossen Eide oder sechs Gülden
+nicht mehr loss werden / sondern die Stadt ein Jarlang reumen / vnd wo er
+hernach wieder herein begert / zehen Gülden zur straffe zu geben schüldig
+sein.</p>
+<p>WIrd einer vberwunden / das er zum andern male die Eche gebrochen habe / Sol er
+auch zwey Jar der Stadt emperen / vnd darnach
+<pb facs="#f0046"/>
+sechtzig Gülden zur straffe geben
+/ vnd dann wieder in die Stad gestattet werden / wo ferne er sich in zeit seiner
+vorweisunge gebessert hette.</p>
+<p>WIrd jemandt zum Dritten male des Ehebruchs vberwunden / Sol er aus der Stadt
+ewiglich vorweiset werden / ohne gnade.</p>
+<p>WVrde ein Eheman oder Ehefraw / in vnsern des Raths Mülen / wenn sie dar malen
+liessen / Ehebruch treiben / solten sie die straffe leiden / die nechst hieroben
+zum andern male auff den Ehebruch verordnet ist.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 34.</head><lb/>
+</div>
+<div>
+<head>Von Jungfrawen vnd Megden beschlaffen.</head><lb/>
+<p>WVrde jemandt eins Bürgers Tochter / Magdt oder Witwe in vnehren beschlaffen oder
+schwengern / solte er vns zur straffe vor solche seine vnzucht fünff zehen
+Gülden / vnd vor die geschwengerte Persone zehen Gülden / vnd derselbigen auch
+<pb facs="#f0047" n="24"/>
+in das Kindelbedde die
+Sechswochen vber sechs Gülden zur zerunge geben / vnd darnach auch das Kindt der
+gebür zu ernehren bestellen / vnd darzu der geschwengerten Person mit einem
+Gülden vnd einem par Schuch / wo ferne er sie zu den ehren nicht nemen würde /
+abtrag machen / Wolt er das / wie jtzundt gemeldet / nicht thun / solt er so
+lange der Stadt emperen / bis er das zu thun bedacht oder vormügens werde.</p>
+<p>WElche Weibs Person aber sich anderswo beschlaffen hette lassen / vnd würde alhie
+das Kindtbette mit vnserm willen halten / dieselbe sol vns gleichsfals zehen
+Gülden zur straffe geben / oder so lang die Stadt emperen / biss sie das zu thun
+bedacht oder des vormügens würde.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 35.</head><lb/>
+</div>
+<div>
+<head>Von dem der eine Frawe oder Jungfrawe ohne jrer Eltern / Vormunden oder
+Freunde wissen vnd willen aus der Stadt hinweg führete.</head><lb/>
+<pb facs="#f0048"/>
+<p>WEr eine Frawe oder Jungfrawe aus der Stadt hinweg führete / one jrer Eltern /
+Vormunden oder Freunde / wissen vnd willen / der solt vorfestet vnd der Frawen
+oder Jungfrawen jr Erb gut nicht gefolget werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 36.</head><lb/>
+</div>
+<div>
+<head>Von vnzucht der Personen / die nicht im Ehestande leben.</head><lb/>
+<p>WO ein Mans Persone in seinem Witwen stande / oder ein Jungergeselle zum ersten
+male auff vntzucht begriffen oder erforschet würde / solt er eine Marck zur
+straffe geben.</p>
+<p>Zum Andern male aber zwo Marck.</p>
+<p>VNd zum Dritten male / solt er aus der Stadt vorweiset / vnd nicht wieder darin
+gestattet werden / er lasse sich dann wiederumb einwerben / mit zusage sein
+leben zu bessern / vnd gebe vns dann darneben zehen Gülden zur straffe.</p>
+<pb facs="#f0049" n="25"/>
+<p>WVrde er dann darnach wiederumb vntzucht treiben / sol die jtztgemelte straffe
+jmme zu gedoppelt werden.</p>
+<p>VNd wo sich ein Weibspersone ausserhalbe der Ehe beschlaffen lassen würde / solt
+sie der Bürgerschafft / so sie die gehabt / vorfallen sein / vnd darzu vns zum
+ersten male eine Marck / vnd zum andern male zwo Marcken zur straffe geben / Zum
+dritten male aber sol sie aus vnser Stadt vnd Gebiete vorweiset werden.</p>
+<p>WVrde jemandt Hurerey treiben in den Mehelmülen / der solt ein Jar lang der Stadt
+emperen / vnd also dann dreissig Gülden zur straffe geben.</p>
+<p>WEnn sich ein Jungfraw oder Magdt lest beschlaffen vnd Schwanger wird / Sol sie
+baldt / wenn sie jre schuldt vormerckt ein Schleiger auffsetzen vnd tragen / Wo
+sie aber in den Haren ginge / solt sie vns dem Rathe zehen Gülden zur straffe
+geben.</p>
+<p>WElche sich wie ein Magdt helt vnd kleidet / biss das sie in das Kindelbedde
+kommet / Gebirt sie jr Kindt in beysein der Bademut-
+<pb facs="#f0050"/>
+ter / oder anderer
+ehrlichen Frawen / Man sol jr nicht weigern / jr kindelbette in der Stadt zu
+halten.</p>
+<p>HEtte sie aber das Kindt heimlich / vnd vnterstünde sich dasselbe zu vorbergen /
+oder aus dem wege zu bringen / Sol sie ewiglich der Stadt emperen.</p>
+<p>LEgte eine Magdt oder Weibs person jre eigen Kindt hinweg / vnd beflisse sich
+nicht dasselbe / wie Menschlich vnd billig ist / zu ernehren / vnd wird darüber
+ausgeforschet / Man sol sie nach den Sechswochen der Stadt auch ewiglich
+vorweisen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 37.</head><lb/>
+</div>
+<div>
+<head>Von Leichtfertigen gemeinen Weibern.</head><lb/>
+<p>ALle vnzüchtige Weibspersonen / die jre vnzucht fehele tragen / Heute einen /
+morgen den andern vorkeuffen / sollen gefenglich eingezogen / acht tage mit
+Wasser vnd Brot gespeiset / vnd darnach aus der Stadt vnd Gebiete vorweiset
+werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 38.</head><lb/>
+<pb facs="#f0051" n="26"/>
+</div>
+<div>
+<head>Von Kuplerey vnd Rufferey.</head><lb/>
+<p>WO jemandt ein Kupler oder Kuplerin würde / vnd also durch jre Botschafften vnd
+Brieffe / oder in eigener Person Jungfrawen / Frawen / Töchtere / Megde /
+Gesinde / oder andere vorführen / Haus / Hoff / vnd Gemach / Hurerey oder
+Ehebruch darin zu volbringen / darleihen / die sollen aus der Stadt vorweiset /
+vnd darin nicht wieder gestattet werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 39.</head><lb/>
+</div>
+<div>
+<head>Von Incoest.</head><lb/>
+<p>OB jemandt mit seiner oder seiner Hausfrawen Blutsuorwandten Freunden / die jme
+in den Glieden vorwandt / darin nach Göttlichen oder Keiserrechten / die Ehe
+vorbotten ist / fleischliche werck vbte / vnd thete das ausserhalb der Ehe / Er
+sol mit dem Schwerte vom Leben zum Todte bracht / die Weibspersonen aber
+erseufft werden.</p>
+<p>THeten sie das im schein der Ehe / sie solte&#x0303; beide aus der Stadt
+vorweiset werden wenn auch gleich der grad nicht in Göttliche&#x0303;
+oder Keiser-
+<pb facs="#f0052"/>
+lichen / sondern
+allein in diesen Stadtrichten vorbotten were / vnd das vmb ergerlichs Exempels
+willen / das damit eingeführet würde / vnd andern zu gleicher vbertrettung möcht
+vrsach geben / oder sonst ergerung bringen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 40.</head><lb/>
+</div>
+<div>
+<head>Von Notzogung.</head><lb/>
+<p>WEre jemandt so Gottlos vnd vngehalten / das er sich vnterstehen dörffte / eine
+ehrliche Frawe / Jungfrawe / oder auch eine berüchtigte vnehrliche Person mit
+gewalt zu fleischlichen wercken zu dringen / Ob er gleich das werck mit jr von
+Jugendt / oder anderer sachen wegen nicht aller dinge vollenbringen konte / er
+solt nichts deste weniger den kopff vorwircket haben.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 41.</head><lb/>
+</div>
+<div>
+<head>Von Eheleuten die ohne erhebliche vrsache von einander sein.</head><lb/>
+<p>WO Eheleute ohne erhebliche vrsache von einander sein / Ist es Christlich vnd
+<pb facs="#f0053" n="27"/>
+billig / das sie wieder
+zusamen gefordert werden / darzu wollen wir / wenn wir darumb ersucht würden /
+vnsern müglichen fleis gern thun vnd anwenden / Wo sie dann nach vorhör der
+sachen nicht wieder zusamen wollen / sol der schüldige theil aus der Stadt
+vorweiset werden / Wo sie aber beiderseitz schüldig befunden / vnd wolten
+dennoch nicht wieder zusamen / so sollen sie beide der Stadt so lange emperen /
+bis sie bedacht werden / sich wiederumb beysamen zuuorfügen / vnd mit einander
+Christlich vnd friedsam zu leben vnd haus zu halten.</p>
+<p>WElcher Man seine Ehefrawe vnuorhört vnd erkanter sache / mit gewaldt von sich
+triebe oder schlüge / vnd sie doch Kampffbar nicht vorwundte / der sol sie auff
+vnsern befehel wieder zu sich nemen / vnd sich mit jr Christlich vnd wol
+vortragen / Wo er aber das nicht thun würde / vnd klage darüber keme / so sol er
+die Staet reumen vnd nicht wieder darin kommen / er habe dann vns eine Marck zur
+straffe / vor seinen vngehorsam geben / vnd angelobt / seine Ehefrawe wieder zu
+sich zu nemen / vnd sie weiter nicht zu schlagen / oder vbel mit jr Haus zu
+halten.</p>
+<pb facs="#f0054"/>
+<p>WVrde sich auch ein Man oder Frawes persone allhier enthalten / vnd anderswo
+seinen Ehegaten haben / von dem er sondern redeliche vrsache sein würde / der
+solt aus der Stadt vorweiset werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 42.</head><lb/>
+</div>
+<div>
+<head>Von Ehemennern die jre Ehefrawen bey sich haben / vnd sie vnuorschuldes
+reuffen oder schlagen.</head><lb/>
+<p>WEr seine Ehefrawen bey sich haben / vnd sie vnuorschuldes reuffen oder schlagen
+wird / der sol wenn er nach vorhör der sachen schüldig befunden wird / eine
+Marck zur straffe geben / vnd sich mit seiner Ehefrawe&#x0303; wiederumb
+vorsünen.</p>
+<p>WO aber ein Man seine Ehefrawe Kampffbar vorwundet / sol er die straffe leiden /
+die auff Kampffbare Wunden gesetzt ist.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 43.</head><lb/>
+</div>
+<div>
+<head>Von Diebstal vnd stelen.</head><lb/>
+<pb facs="#f0055" n="28"/>
+<p>EInen Dieb sol man hengen / fürnemlich / so der begangene Diebstal gros vnd viel
+werd ist. Item / wenn der Dieb sich zu stelen gewohnet / vnd mehr dann ein mal
+gestolen hat / sonsten wenn es ausserhalbe dieser felle were / vnd der Dieb auff
+dem ersten Diebstale begriffen würde / vnd solcher Diebstal nichts sonderlichs
+werd were / wollen wir den fall bewegen / vnd wo not ist / vns darüber des
+Rechten zu beleren vnbegeben haben.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 44.</head><lb/>
+</div>
+<div>
+<head>Von gestolenem Gute.</head><lb/>
+<p>WEnn bey jemande gestolen Gut angetroffen vnd besprochen wird / ob er es gleich
+redlich gekaufft hette / Er mus es doch dem rechten Herrn / wenn er es / das es
+sein sey wie recht beweisen / oder mit seinem Eide vor Gerichte betewren wird /
+wieder geben / vnd seine Pfenninge daran vorlieren / seinem gewehren aber mag er
+folgen / vnd sich seines schadens bey jme erholen.</p>
+<p>WO der / so gestolen Gut in seinen gewehren hat / ein redlich vnbescholten Man
+ist /
+<pb facs="#f0056"/>
+vnd kan seinen gewehren
+namkündig machen / So wird er von wegen der gestolen hafe nicht vordechtig / kan
+auch zur peinliche&#x0303; frage nicht getzogen werden / Were es aber ein
+vordechtiger Man / oder der vorhin solcher Kauffmanschafft mehr gepflogen / vnd
+kondte seinen gewehren nicht fürstellen / So kondt er wol so vordechtig werden /
+das er möchte peinlich angegriffen / vnd die warheit an jme erkundet werden.</p>
+<p>WEnn das Gerichte ohne jemandes ansuchen durch seinen fleis gestolen oder geraubt
+Gut ausrichtet / Es sol dasselbe Jar vnd Tag vnuorthan halten / kompt der rechte
+Herr vnd fordert das mit rechte / Man sol es jme ohne entgelt folgen lassen /
+keme aber niemandt der es fordert in Jar vnd Tage / das Gerichte mag es alles in
+seinen nutz keren.</p>
+<p>WEnn auch ein Dieb oder Reuber / mit gestolener oder geraubter Habe betretten /
+vnd von jemande ausgeklagt wird / Man sol das gantze Gut dem rechten Herren
+folgen lassen.</p>
+<p>WEr Gut findet / der sol es dem / so es gehört / wieder geben / weis er aber
+nicht / wem es zu
+<pb facs="#f0057" n="29"/>
+kompt /
+sol ers von der Cantzel allhie vorkündigen lassen / Thut er das nicht / sol er
+vor einen Dieb gehalten vnd gestraffet werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 45.</head><lb/>
+</div>
+<div>
+<head>Von Dieberey in Kirchen.</head><lb/>
+<p>WEr in einer Kirchen etwas von Altar geschmuek / Büchern oder anderm / das zur
+Kirchen gehört / dieblich hinweg trüge oder neme / der sol (vngeachtet das der
+Diebstal klein were) vmb seines bösen füssatz willen mit dem Rade gestraffet /
+vnd auff ein Blochradt gelegt werden / Man kondte jme dann etzlicher vmbstende
+halben gnade erzeigen vnd linder straffen</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 46.</head><lb/>
+</div>
+<div>
+<head>Von Beutelschneiden.</head><lb/>
+<p>WEr in der Kirchen einen oder mehr Beutel abschnitte / Sol mit der Staupe
+gestraffet werden.</p>
+<pb facs="#f0058"/>
+<p>WEr auff der Gassen oder auff dem Marckte Beutel abschnitte / oder sonsten einem
+andern aus der Taschen oder aus dem Beutel etwas stele / Sol nach grosse des
+Diebstals gestraffet / vnd zum aller geringsten zur Staupe geschlagen
+werden.</p>
+<p>WEr Frawen oder Jungfrawen in Vorlöbnussen / Hochzeiten oder andern ehrlichen
+Gelagen / jre Gürtel abschnitte / solt mit dem Stricke gerichtet vnd
+auffgehenget werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 47.</head><lb/>
+</div>
+<div>
+<head>Von Fischdieben.</head><lb/>
+<p>WEr aus Teichen vnd dergleichen gefasseten Wassern Fische stüle / sein die vber
+fünff Goltgülden werdt / Man sol jne auffhencken / vnd vom leben zum Todte
+bringen.</p>
+<p>SEin sie vber fünff Goltgülden nicht werdt / Man sol jnen der Stadt
+vorweisen.</p>
+<p>WER aber aus Wilden gehegten Wassern Fische stilt / sol mit der Staupe gestraffet
+werden.</p>
+<pb facs="#f0059" n="30"/>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 48.</head><lb/>
+</div>
+<div>
+<head>Von Dieberey so in Badtstuben begangen wird.</head><lb/>
+<p>WEr in Badtstuben ander Leute kleider stilt / Ist es vber einen Gülden wirdig /
+er sol mit der Staupe gestraffet werden / Were es aber nicht vber einen Gülden
+werd / Er sol der Stadt emperen / auff gnade.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 49.</head><lb/>
+</div>
+<div>
+<head>Von bestelunge eins Erbes.</head><lb/>
+<p>WVrde jemandt in ein Haus gehen / bey Tage oder Nacht / darin ein legend
+vnangenommen Erbe vorwart würde / vnd von solchem Erbe etwas zu seinen handen
+nemen vnd stelen / der sol nach grösse des Diebstals mit der Staupe / oder mit
+dem Stricke gericht werden.</p>
+<p>WO aber ein Erbe selbs etwas aus der Erbschafft vorschieffelt oder vorhelet / vnd
+in das gewonliche <hi rendition="#i">Inuentarium</hi> nicht bringen lest / vnd
+kan dessen vberweiset oder vberwunden werde&#x0303; /
+<pb facs="#f0060"/>
+er mus es doppelt erstatten /
+denen / welchen es zugehöret / hette er selbs auch ein theil daran / sein recht
+vnd antheil hat er verloren / vnd mus es den andern allein folgen lassen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 50.</head><lb/>
+</div>
+<div>
+<head>Von Wucher.</head><lb/>
+<p>NAch dem der Wucher in Göttlicher heiliger Schrifft / der ausgekündigten
+Keiserlichen Policey ordnunge vnd allen Rechten vorbotten vnd Vnchristlich ist /
+So thun wir auch den Wucher hiermit ernstlich vorbieten / vnd so jemandt
+hierüber schüldig befunden / der sol das gewucherte Geldt / dem jenigen / dem er
+das abgewuchert / wieder geben / vnd darzu vns zehen Gülden zur straffe geben.
+Vnd was vor Wucher zu achten vnd halten sey / das wollen wir jedesmal / wenn vns
+die klage fürkommen würde / nach ordnung der Rechte erkennen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 51.</head><lb/>
+</div>
+<div>
+<head>Von fürsetzlichem auffborgen vnd betriegerey / Auch von der <hi rendition="#i">Ceßion bonorum</hi> vnd der frewlichen Gerechtigkeit.</head><lb/>
+<pb facs="#f0061" n="31"/>
+<p>WO jemandt in vnser Stadt vnd Gebiete fürsetzlicher / mutwilliger vnd
+gefehrlicher weise / vnd vngeachtet / das er keinen erlidden schaden zu beweisen
+/ Geldt vnd Gut auffborgen / vnd damit hinweg ziehen vnd vorlauffen würde / vnd
+also gemeinet were / frome Leute fürsetzlich zu betriegen / vnd vmb das jre zu
+bringen / der sol als bald mit der that vnd von rechts wegen vor einen ehrlosen
+Man gehalten / vnd in vnser Stadt vnd Gebiete nicht geduldet oder gelidden
+werden.</p>
+<p>WIr wollen auch vber einen solchen Betrieger / wo er in vnser Stadt oder Gebiete
+betretten / vnd darüber zu rechte geklagt würde / auff die pene / in gemeinen
+beschrieben Rechten befunden / Procedieren / vnd zu rechte vorfahren lassen.</p>
+<p>WO einer aber gleich nicht weglieffe / sondern sich sonsten vorborgen hielte /
+das man seiner zu Rechte nicht konte mechtig sein / oder da wissendt / oder aber
+aus allerhandt einkommenem bericht vnd anzeigungen vermutlich / das einer mehr
+oder vngeferlich so viel schuldig were / Als er-
+<pb facs="#f0062"/>
+vormöchte / das dann vff
+jedern solchen fal vns frey stehen soll / vff ansuchung etzlicher Gleubiger /
+oder auch Ampts halber die Güter <hi rendition="#i">Inuentiren</hi> zu lassen /
+vnd <hi rendition="#i">Curatores bonorum</hi> zuuerordnen / damit die Gleubiger
+vmb so viel desto eher zu dem jren gelangen mügen.</p>
+<p>WVrde auch ein solcher Betrieger / von vnsern Bürgern vnd Bürgerschen / mit Gelde
+/ das er fürsetzlich / als oben berürt / auffgeborget / Renthe oder Güter an
+sich keuffen / vnd solch Geldt vber bestimpte zeit schüldig bleiben / So sol er
+/ wenn deshalben klage vber jne geschege / vorfestet vnd in vnser Stadt nicht
+wieder gestattet werden / Er habe dann vorerst / das Geldt / das er also
+geborget / bezalt / oder der Kleger sol von vns auff sein anruffen / in die mit
+seinem Gelde erkauffte Güter vnd Renthe / wenn die bey dem Kenffer noch
+vnuorandert vorhanden weren / eingeweiset werden / sich seins Geldes / so weit
+sich solche Güter vnd Renthe erstrecken / daran zuerholen.</p>
+<p>VNd darmit der wachsenden betriegerey desto statlicher vorgebawet werde / Sol die
+<hi rendition="#i">Ceßïo bonorum</hi> oder abtrettung der Güter / so vor der
+zeit alhie nicht gebreuchlich gewesen / Aber
+<pb facs="#f0063" n="32"/>
+neben vnd mit dem
+vnglauben einschleichen wollen / gentzlich vnd gar nicht allein abgethan sein /
+sondern es sol den Gleubigern der schult thurm wieder jre Schüldiger vff die
+mass vnd weise / wie bisshero gebreuchlich gewesen / oder aber jnen aus der
+Stadt zuuerweisen vergont sein.</p>
+<p>OB auch wol die frewlige Gerechtigkeit bisshero gebreuchlich gewesen / Inmassen
+dann dieselbe in den gemeinen beschriebenen Rechten also geordnet / Jedoch nach
+dem das werck zu erkennen gegeben / das solchs zu einem mercklichen missbrauch
+gekommen / derowegen viel guter redlicher Leute von dem allgemeinem handel vnd
+wandel abgehalten / daraus dann weiter erfolget / das die Bürgerliche nahrung
+fast geschwecht vnd gehindert worden / So sol solche frewliche gerechtigkeit
+forthin abgeschafft sein / Dergestalt / das sich eine Frawe in denen Gütern /
+die sie zu dem Manne eingebracht / vnd demselben in seine verwaltung / narung
+vnd hantierung gethan / jegen jres Mannes Gleubiger nicht zubehelffen oder
+vffzuhalten haben sol / Sondern es sollen solche Güter vnter die Gleubiger nach
+eines jeden Recht / so weit sie reichen / aussgetheilet werden.</p>
+<pb facs="#f0064"/>
+<p>WVrde jemandt so vnuorsichtig sein / vnd in oder ausserhalbe vnser Stad / oder in
+frembden Landen Geld leihen vnd fürstrecken eins Bürgers Sone / der noch vnter
+seiner Eltern gewalt / vnd doch denselbigen oder seinen Vormunden vngehorsam /
+auch ein Schlemmer / Brasser / Spieler / oder dergleichen vnordentlichen Lebens
+were / vnd das leihen vnd borgen auch ohne der Eltern vnd Vormunden willen vnd
+befehl were geschehen / oder nicht ausfündig gemacht werden konte das gemelter
+vnser Bürgers Sone / das geborgete Geld in seiner Eltern nutz vnd frommen / oder
+zu bezalunge jrer Schulde / Oder zu seinen <hi rendition="#i">Studijs</hi>, oder
+seiner selbs eigen Leibs nottorfft / in seiner Kranckheit angewent hette / So
+were zuuormuten / das er das Geld vnnützlich vorschwendet vnd vbel zugebracht
+hette / darumb es auch die Eltern oder Vormunden / vngeachtet das es der Sone
+mit seiner Handtschrifft oder Brieffen an sie vorweiset hettt / zu bezalen nicht
+schüldig sein sollen / sie wolten es dann mit gutem willen thun / Darumb wollen
+wir hiermit jedermenniglich guter wolmeinunge vorwarnet haben / das sich ein
+jeder hierinne fürsehen / vnd vor schaden vorhüten müge.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 52.</head><lb/>
+<pb facs="#f0065" n="33"/>
+</div>
+<div>
+<head>Von Doppelspiele.</head><lb/>
+<p>HIeroben ist Doppelspiel auff Sontage vnd Feirtage vorbotten worden / Nun wollen
+wir dasselbige auff andere tage auch nicht gestatten / auff vnser Apoteken /
+oder in vnser Wein oder Bierkellern / Dann wo jemandt hiewieder handlen würde /
+solt deshalben vorfestet werden.</p>
+<p>WVrde sonst jemandt einem andern an einem andern orte / der mit karte&#x0303; / Bretspiele oder in ander wege auff einem sitze / mehr dann
+fünff newe Schillinge abgewinnen / vnd der so das Geld verloren hette / klage
+darüber thun / solt das vberige gewonnen Geldt / an vns den Rath fallen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 53.</head><lb/>
+</div>
+<div>
+<head>Von denen die jr Gut vnnützlich vorbringen.</head><lb/>
+<p>WVrde jemandt er were Jung oder Alt / befunden / das er seine Güter vbel vnd
+lesterlich vorschwendet / dem wollen wir vber seine Güter Vormunden setz-
+<pb facs="#f0066"/>
+en / vnd so dann jemandt
+mit jme handlen oder jme wes zu Borge thun würde / das solt vnkrefftig vnd nicht
+bindende sein / Wenn er sich aber wieder besserte vnd solchs erkandt würde / so
+solt jme / seinen Gütern selbs wieder fürzustehen erleubt werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 54.</head><lb/>
+</div>
+<div>
+<head>Von Malsteinen vnd andern Grentze zeichen.</head><lb/>
+<p>WO jemandt betroffen oder vberweiset würde / das er Maelsteine oder Maelbeume /
+oder andere zeichen / die zuerhaltung der Grentzen gesetzt / fürsetzlich
+vorruckt / vnd ferner gesetzt hette / seinen Acker oder Garten zuerweitern / Er
+sol das abgezogen Landt wieder geben / vnd darzu nach grosse vnd wichtigkeit
+seiner vbertrettung / vmb eine Geldsumma gestraffet werden / vngefehrlich auffs
+halbe theil des werds / so er dem andern zu entziehen im fürhaben gewesen.</p>
+<p>ALso sol es auch mit denen gehalten werden / die jre Zeune / den Nachbarn zu
+schaden wol-
+<pb facs="#f0067" n="34"/>
+bedechtig
+fortsetzen / vnd denen die do jren Nachbarn wissentlich abepflügen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 55.</head><lb/>
+</div>
+<div>
+<head>Von dem der ein Gutzweien vorkeufft / vorpfendet oder vorwechselt.</head><lb/>
+<p>WEr ein Gut jrer zweien vorkeufft / vorpfendet oder vorwechselt / Welchem es erst
+vberantwort wird / der behelt den vortzuge. Der Keuffer aber oder Vorpfender /
+sol den andern jre abgetrogen Geldt / mit sampt dem <hi rendition="#i">Interesse</hi> vnd zugefügtem schaden erstatten / vnd dem Gerichte eine
+Marck zur straffe geben / oder so lange die Stadt reumen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 56.</head><lb/>
+</div>
+<div>
+<head>Von Vntrewe.</head><lb/>
+<p>WO jemandts etwas zu machen oder zu uorarbeiten gebracht würde / vnd er were so
+vntrew / das er das gebrachte Gut vorkeuffte oder sonsten von abehenden
+<pb facs="#f0068"/>
+brechte / der sol den betrogenen
+als bald bezalen vnd zu frieden stellen / vnd einen Gülden zur straffe geben /
+Thut er das nicht / sol er vorfestet werden / weis auch der beschwerte sein Gut
+anzutreffen / er mag es mit seinem Eide ziehen / wie gewonlich.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 57.</head><lb/>
+</div>
+<div>
+<head>Von Garten Dieben.</head><lb/>
+<p>DIeweile eine zeithero viel klagen komen / das in den Garten viel stelens geübt
+worden / sol man darauff gute bestellunge thun vnd nachforschen.</p>
+<p>WO ein Gartendieb erkundet würde / der sol nach gelegenheit seiner Dieberey / mit
+der Staupe oder mit dem Stricke gestraffet werden.</p>
+<p>WVrde auch einer in frembden Garten betroffen / vnd ohne abbruch seins lebens gar
+wol geschlagen / Man sol es seiner eigen vorwirckunge zu messen / vnd darüber
+nicht richten.</p>
+<p>WVrde aber der Dieb besehen / vnd entlieffe doch / er sol sich mit dem Eide
+reinigen / wo es jme der Kleger darzu wil kommen lassen /
+<pb facs="#f0069" n="35"/>
+konte er aber jne mit
+einem glaubwirdigen Zeugen vberweisen / Man mag jne peinlich vberziehen / vnd
+die warheit an jme erkunden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 58.</head><lb/>
+</div>
+<div>
+<head>Von Strassenreubern vnd jrer straffe.</head><lb/>
+<p>DIe Strassenreuber werden nach Sechsischem rechte vnd gebrauche dieser Lande
+gemeinlich mit dem Schwerte gerichtet vnd auff ein Blochradt gelegt.</p>
+<p>DIe aber Mörderey darneben begangen / werden mit einem Blochrade gestossen vnd
+darauff gelegt / dabey wollen wir es hinfurder auch lassen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 59.</head><lb/>
+</div>
+<div>
+<head>Von denen die den Dieben helffen / oder sie hausen vnd hegen.</head><lb/>
+<pb facs="#f0070"/>
+<p>WEr Dieben vnd Reubern zu jrem stelen vnd rauben hülffe oder beystand leistet /
+oder sie darzu hauset / heget / etzet oder trencket / Wird er des vberwunden /
+vnd hat mit jnen genies oder ausbeut genomen / der sol dem rechten Principal
+Theter gleich geachtet vnd gerichtet werden / wenn er allein seine viertzehen
+Jar erreicht hat.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 60.</head><lb/>
+</div>
+<div>
+<head>Von falscher Gewichte / Maes vnd Elen.</head><lb/>
+<p>EIn jeder sol rechte Gewichte vnd Maesse haben / die mit vnserm des Raths zeichen
+gezeichnet vnd vorordent / damit er auch in vnd auswegen vnd messen sol / Wer
+des anders befunden würde / solte vns vor jede vngezeichnete Gewichte vnd Maes
+einen Gülden zur straffe geben.</p>
+<p>WEr vngezeichnete falsche Gewichte / mass oder Elen hette / der solte vns
+jedesmal vor jedes stücke eine Marck zur straffe geben / vnd wo
+<pb facs="#f0071" n="36"/>
+darüber geklagt würde /
+solte Beklagter dem Kleger auch seinen zugefügten schaden erstatten.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 61.</head><lb/>
+</div>
+<div>
+<head>Von dem Zol vnd Zolzeichen.</head><lb/>
+<p>EIn jeder er sey in oder auslendisch / sol vns dem Rathe den rechten gesetzten
+vn&#x0303; gewonlichen Zol geben / dann so das jemandt nicht thun /
+sondern vns mit dem Zol betrogen vnd vorkürtzet hette / der solt vns den Zol /
+den er vns entwendet / neun mal geben / Bey straffe einer festunge.</p>
+<p>WEr vnsere Zolzeichen vnd Freyzeichen aus vnser Zolbuden fordern / vnd die
+frembden Leuten aus betrug / in oder ausserhalbe vnser Stadt zugebrauchen /
+zustellen vnd vberantworten würde / der sol vorfestet werden mit einer
+fürsatz.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 62.</head><lb/>
+</div>
+<div>
+<head>Von der Müntze.</head><lb/>
+<pb facs="#f0072"/>
+<p>WO jemandt Gülden oder Silbern Müntze beschneiden / auswippen oder zu Granali
+machen / vnd dieselbe vmb genies willen vorkeuffen würde / der solt zur Staupe
+geschlagen / vnd der Stadt vorweiset werden.</p>
+<p>WEr aber falsche Müntze gemacht hette / solt mit Feur lebendig vorbrant
+werden.</p>
+<p>WEr falsche Müntze in die Stadt brechte / vnd wissentlich damit die Leute betröge
+/ solt das falsche Geldt alle verloren haben / darzu zur Staupe geschlagen vnd
+der Stadt vorweiset werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 63.</head><lb/>
+</div>
+<div>
+<head>Von falschen Gezeugnus.</head><lb/>
+<p>SCHweret einer in peinlichen sachen einen Eidt / vnd gibt falsch zeugnus wieder
+einen andern / den er vmb Leib vnd Leben / oder in andere Leibs fahre brechte
+oder bringen wolte / Er sol die straffe leiden / darin er den andern hat bringen
+wollen.</p>
+<pb facs="#f0073" n="37"/>
+<p>WO er aber in Bürglichen sachen einen andern zu schaden falsch gezeugnus gegeben
+hette / vnd das würde wieder jne geklagt vnd beweiset / Man sol jme die Finger /
+damit er den falschen Eidt geschworen hat / abehawen / vnd jne auch ehrloss vnd
+rechtloss machen / vnd der Stadt vorweisen / Würde er aber nicht beklagt / vnd
+doch sein Meineidt offenbar / man sol jnen ehr vnd rechtlos halten.</p>
+<p>WEr seine sache seinem kegentheil auff ein Eidt stellet / sol jme an dem Eide
+gnügen lassen / vnd in der anhengigen sachen ferner dawieder zu handeln / nicht
+gestattet werden.</p>
+<p>WOlt er aber peinliche klage deshalben erhebe&#x0303; / vnd darumb einen
+newen Proces führen / das sol jme hiemit vnabgeschnitten / sondern ausdrücklich
+fürbehalten sein.</p>
+<p>WIr thun vns auch hiemit fürbehalten / einen jeden mutwilligen Vnrechtschwerer
+von Ampts wegen / wilkürlich zu straffen.</p>
+<p>WEr eine Vrfriede bricht / die er gerichtlich hat geschworen / Er sol mit dem
+Schwerte gericht vnd vom leben zum todte bracht werden.</p>
+<pb facs="#f0074"/>
+<p>WEr sich zu einem Eide erbote / vnd ehe dann er schwure / vberweiset werden konte
+/ das er falsch hette schweren wollen / Er sol mit dem Eide nicht zugelassen /
+sondern abgeweiset / vnd vmb sechtzig Schillinge gestraffet werden.</p>
+<p>SChwüre er aber vnd konte darnach Meineidts vberwunden werden / Er hette beide
+Finger vorlorn / vnd muste der Stadt emperen / ohne gnade.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 64.</head><lb/>
+</div>
+<div>
+<head>Von Keuffen vnd Vorkeuffen / vnd von Fürkauffe.</head><lb/>
+<p>ES sol kein frembder von einem andern frembden / ausserhalbe der freie&#x0303; Marckte / in vnser Stadt etwas keuffen / bey vorlust des
+gekaufften Guts / das an vns vorfallen / vnd der Keuffer seines Geldes / das er
+darfür gegeben / emperen sol.</p>
+<p>WO jemandt dem andern allhier in vnser Stadt in einen Kauff fallen / vnd mehr als
+der erste Keuffer / dieweil er es noch im kauf-
+<pb facs="#f0075" n="38"/>
+fe hette / dem
+Vorkeuffer dafür bieten würde / der solt vorfestet werden.</p>
+<p>WEr allhier auff dem Marckte etwas keufft / vnd bar Geldt dafür lobet zu bezalen
+/ das sol er thun / also fort er darumb gemaent wird. Geschicht es nicht / so
+sol der Keuffer gepfandet werden / hat er aber des Pfandes nicht / sol er
+vorfestet werden / bis das er bezalt habe.</p>
+<p>AVch sol niemandt in vnser Landtwehr vnd für vnser Stadt etwas auff Fürkauff /
+oder zu seiner eigen Haushaltunge vnd notturfft keufsen / das die Leute anhero
+in vnser Stadt zu marckte bringen wollen / es sey was es wolle / Bey straffe
+einer festunge / ausgenomen Bawholtz oder Hopffen staken / mag ein jeder zu
+seinem eigen Bauwercke / vnd auff seinen Hopffengarten zu gebrauchen wol keuffen
+/ es geschege in oder vor vnser Stadt.</p>
+<p>SO sol auch niemandt bey straffe einer festunge Brenholtz in vnsern Landtwehren /
+oder vor vnsern Thoren / oder in vnser Stadt / ehe dann das es in die Stadt
+durch die ersten Schla-
+<pb facs="#f0076"/>
+gebeume gefahren sey / keuffen oder zu keuffen besprechen.</p>
+<p>AVch vorbieten wir gentzlich vnd bey einer festunge / das niemandt sich gelüsten
+lassen solle / in vnsern Landtwehren / oder in vnser Stadt Fische auff fürkauff
+zu keuffen.</p>
+<p>VNd weiter sol niemandt gestattet werden / in vnser Stadt auff den Marckten
+Vormittags vor zehen schlegen / so lange die Banner aussteckt / jenige wahre /
+güter oder Vieh / auff fürkauff zu keuffen / Bey verlust dessen / das er also
+auff Fürkauff gekaufft hette.</p>
+<p>WAs auch Vormittags nach zehen schlegen / oder Nachmittage von auswendig zu
+kauffe in vnser Stadt gebracht wird / das sol niemandt desselben Tags auff
+Fürkauff keuffen / Bey vorlust des guts.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 65.</head><lb/>
+</div>
+<div>
+<head>Von dem Kornkauffe.</head><lb/>
+<pb facs="#f0077" n="39"/>
+<p>ES sollen keine vnser Bürger / Bürgerinne / Bürgerkinder / Diener oder Inwoner /
+einem frembden zum besten / der nicht vnser Bürger were / mit desselben Gelde /
+Korn in vnser Stadt auff dem Marckte keuffen / Bey straffe eins halben Gülden /
+vns vor jeden Scheffel korns zur straffe zu geben.</p>
+<p>WER allhier ein Fuder Korns auff dem Marckte kaufft / der sol einem andern Bürger
+/ wenn er das begerte / vmb denselben kauff von solchem Fuder Korns / einen
+Scheffel Korns oder weiniger zu seinem behufe daruon vbergeben vnd folgen lassen
+/ Bey straffe eins halben Gülden / so offt er sich des weigern würde.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 66.</head><lb/>
+</div>
+<div>
+<head>Von dem Maltze.</head><lb/>
+<p>NIemandt sol frembdt Maltz in vnser Stadt bringen / vnd dasselbige allhie auch
+nicht vorkeuffen / bey straffe zweier Gülden / vns vor jeden Scheffel zu
+ge-
+<pb facs="#f0078"/>
+ben / So solt
+auch der gleiche straffe geben / der in vnser Stadt frembde Maltz herbergen
+würde.</p>
+<p>WEr aber Maltz keuffen wil / der sol es von niemande / dann von vnsern Bürgern
+vnd Bürgerinnen keuffen / Bey einem halben Gülden straffgeldes / vor jeden
+Scheffel vns vorfallen zu sein.</p>
+<p>AVch sol niemandt in vnser Stadt mit frembden Leuten Marschoppey haben /
+denselbigen alhier / mit darlegung jres Geldes / auff jrer beiderseits gewin vnd
+vorlust / Maltz zu machen / Bey straffe eins Gülden / vor jeden Scheffel Maltz
+vns zu geben.</p>
+<p>WER sonst Maltz in vnser Stadt keufft / vnd daraus führen wil / der sol vns vor
+jeden Scheffel auff vnsere Zolbuden zween Mariengroschen zu ziese geben / vnd
+darauff die Zolzeichen nemen / die vnsern Thorhütern zu vberantworten / sonst
+sol das Maltz aus der Stadt nicht gestattet werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 67.</head><lb/>
+<pb facs="#f0079" n="40"/>
+</div>
+<div>
+<head>Von Hoeckwercke.</head><lb/>
+<p>ALle vnd jede frembde Kauffleute / die allhie Hoeckwerck zum Marckte bringen /
+Sollen damit in jeder Wochen nicht mehr dann des Dingstags im Hagen / vnd des
+Freitags in der Altenstadt zu Marckte stehen / vnd allein vnsern Bürgern /
+Bürgerinnen vnd Inwonern / vnd wissentlich keinen frembden vorkeuffen / Bey
+straffe einer Marck.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 68.</head><lb/>
+</div>
+<div>
+<head>Von den Saltzführern.</head><lb/>
+<p>DIe Saltzführer / so Saltz allhie zu marckte bringen / vnd daselbst fehele haben
+/ sollen es auff dem Marckte oder auff den Strassen allhie vorkeuffen / vnd
+niemandt sol solch Saltz / wenn es von dem Marckte wieder abgeführet würde /
+einnemen vnd herbergen / bey straffe eins Gülden / so offt das geschege.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 69.</head><lb/>
+</div>
+<div>
+<head>Von Erbe vnd Zinse zu vorkeuffen oder zu vorgeben.</head><lb/>
+<pb facs="#f0080"/>
+<p>WEr ein Erbe oder Zins vorkeufft / der sol es gewehren bey einer festung.</p>
+<p>WEr ohne vnser des Raths wissen vnd willen sein Erbe / dar vnser Stadt jre
+pflicht mit abegehet / vorkeufft oder vorgibt / der sol solch Erbe verlieren /
+vnd dasselbige an vns fallen / vnd der Vorkeuffer sol darzu vorfestet
+werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 70.</head><lb/>
+</div>
+<div>
+<head>Von dem der eins andern angefelle oder gedinge keufft / vnd an sich
+bringet.</head><lb/>
+<p>VNsere Bürgere oder Bürgerinnen / sollen des andern angefelle oder gedinge / das
+derselbige in seinen Lehenschen gewehren / oder daran er die gesambte Handt /
+oder sonst die mituorsamlunge vnd die mitlehenunge hette / ohne sein wissen vnd
+volbordt nicht keuffen vnd an sich bringen / Bey straffe einer festunge.</p>
+<pb facs="#f0081" n="41"/>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 71.</head><lb/>
+</div>
+<div>
+<head>Von dem der Leibgedinge keuffen wil.</head><lb/>
+<p>VNsere Bürgere oder Bürgerinnen / sollen ohne vnser des Raths willen / nirgents
+anderswor Leibgedings Renthe keuffen oder beleggen / dann alleine bey vns auff
+vnser Müntzschmiede / Bey straffe zehen Marck.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 72.</head><lb/>
+</div>
+<div>
+<head>Von dem der zins gibt von seinem Hause vnd ligenden Gründen.</head><lb/>
+<p>WElch Bürger oder Bürgerinne Zinse von seinem Hause / oder andern seinem zu
+Weichbilde gelegen Gütern / jemande anders dann vnsern Bürgern / Bürgerinnen /
+oder den / die sie vns verschossen vnd vorunpflichten / vorkeuffen wollen / die
+sollen dafür vns dem Rathe / das vns das Jarliche Schoss vnd vnpflicht daruon
+gegeben werde / gut sein / bey zehen Marck straffgeldes zuuormeiden.</p>
+<pb facs="#f0082"/>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 73.</head><lb/>
+</div>
+<div>
+<head>Von vorlassung eins Erbes oder Geldes an einem Erbe.</head><lb/>
+<p>ES sol niemandt Erbe aufflassen / noch keinerley Geldt daran / dann alleine vor
+vns dem Rathe / vnd vor vnsern Richteherren vnd Vogten / offenbar zu rechter
+dinge zeit tags in Gerichte / vn&#x0303; das sol er in eigener Person
+selbs thun / es were dann das jme solchs Ehehaffte not beneme / so mag er durch
+seinen Volmechtigen das Erbe oder Zins vor Gerichte vorlassen / Jedoch das als
+dann der also Erbe oder Zins durch seinen Volmechtigen vorlest / vor Gerichte
+namhafftig gemacht werde.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 74.</head><lb/>
+</div>
+<div>
+<head>Von Vorpfendunge.</head><lb/>
+<p>WEr einem andern sein Haus / Hoff oder Garten / oder sein Gut vorpfenden / oder
+vor ein Vnterpfandt einsetzen wil / der sol allerley betriegligkeit vnd
+hinterlist
+<pb facs="#f0083" n="42"/>
+zuuor kommen /
+die vorpfendinge also im Gerichte in das Gerichts Buch schreiben lassen / Vnd
+sollen die Parteien oder jre Volmechtige selbs gegenwertig sein.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 75.</head><lb/>
+</div>
+<div>
+<head>Von dem der Geldtkeufft an eins andern Erbe.</head><lb/>
+<p>WEr Geldt keufft an eins andern Erbe / der sol das schreiben lassen in der Stad
+Buch / wie theur er das kaufft / oder es sol nicht binden / ausbescheiden
+Erbezins / vnd Wortzins / vnd zins den man vber dreissig Jar in auffname gehabt
+/ darmit blieben der Auffnemer vnd seine Erben bey jrer gerechtigkeit / vnd man
+sol auch dissfals gegeben Brieffe vnd Siegel halten.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 76.</head><lb/>
+</div>
+<div>
+<head>Von dem der nicht helt sein Haus in bauw vnd besserunge.</head><lb/>
+<pb facs="#f0084"/>
+<p>WEr sein Haus / der Stadt / sich selbs vnd den Zinsherren zu gute nicht heldt /
+in notdurfftigem Baw vnd besserunge / sondern lest es vorfallen vnd vorterben /
+der sol deshalben / wenn klage darüber keme / vorfestet werden / bis das er
+bedacht werde / die besserunge zu thun vnd zuuorrichten.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 77.</head><lb/>
+</div>
+<div>
+<head>Von den gefehrlichen Feurstedten vnd Fewrsnot.</head><lb/>
+<p>ES sollen die Fewrstedten durch vnsere darzu vorordente Fewrherren / zu welcher
+zeit wir der Rath das befehlen / besehen werden / Wor sie dann gefehrliche
+Fewrstedte befinden / oder wir sonst das erfaren / oder geklagt würde / So sol
+demselbigen dem die Fewrstedte zugehört / von vns oder vnsern Fewrherren
+angezeigt vnd auffgelegt werden / die Fewrstedte zu bessern vnd zu vorwaren /
+bey einer festunge zu vormeiden.</p>
+<p>SO sol auch ein jeder selbs vnd durch sein Gesinde / auff sein Fewr vnd Licht gut
+auffsehens
+<pb facs="#f0085" n="43"/>
+haben / dann
+würde das jemandt mutwillig vorachten / vnd seinem Nachbar (das Gott gnediglich
+vorhüte) schade daruon geschehen / den sol er gelten / oder wo nicht / als dann
+so lange der Stadt emperen / bis das er sich mit dem beschedigten vortragen
+habe.</p>
+<p>WEnn bey Tage oder bey Nachte / von wegen Fewrsnot / ein geschrey oder
+Glockenschlag würde / so sol ein jeder vnser Bürger mit seinem Harnische vnd
+Wehre / für dem Rathause des Weichbildes / darin er wonhafftig / vngeseumet
+erscheinen / vnd darselbst gutwillig sein zu thun / was wir oder vnser
+Heuptleute vnd Befehlhaber jme aufflegen vnd befehlen werden / Bey straffe eins
+Gülden.</p>
+<p>DIe Zimmerleute aber vnd Steindecker vnd alle ander Leute / die vormüge vnser
+hiebeuor Publicierten Fewrordnung zu dem Fewr zu lauffen bescheiden sein / die
+sollen sich in aller eile dahin finden / vnd das Fewr leschen vnd retten helffen
+/ Bey vormeidunge vnser ernstlichen straffe.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 78.</head><lb/>
+<pb facs="#f0086"/>
+</div>
+<div>
+<head>Von Hopffreuer / Bonen vnd Maenstro nicht bey sich zu legen / vnd bey dem
+Liechte mit Flachse nicht vmb zugehen.</head><lb/>
+<p>WIr vorbieten ernstlich vnd wollen / das niemandt Hopffreuer / Bonen vnd Maenstro
+in seine gewarsam bringen vnd enthalten / vnd bey keinerley Lichte Flachs
+schwingen / treiten / hecheln oder risten / oder dasselbige durch sein Gesinde
+oder jemandt anders thun lassen sol / Bey straffe zweier newer Schillinge / so
+offt einer hiewieder handlen würde.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 79.</head><lb/>
+</div>
+<div>
+<head>Von dem Herbergen.</head><lb/>
+<p>EIn jeder sol sehen wen er herberget / keme dar schade von / vnd der Wirt bedacht
+würde / das er kein fleissig auffsehens auff den Gast gehabt hette / So sol der
+Wirt wilkürlich gestraffet werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 80.</head><lb/>
+</div>
+<div>
+<head>Von Heusern vnd Buden / die frembden Leuten nicht zuuormieten.</head><lb/>
+<pb facs="#f0087" n="44"/>
+<p>KEin vnser Bürger / Bürgerin oder Inwoner / sol auswendigen Leuten / die vns dem
+Rathe nicht schossen / Heuser oder Buden allhier vormieten / ohne vnser des
+Raths erleubnusse / bey straffe einer Marck.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 81.</head><lb/>
+</div>
+<div>
+<head>Von dem Fenstergelde.</head><lb/>
+<p>DIeweile wir in erfahrung kommen / das etzliche Bürgere / Bürgerinnen vnd
+Einwoner newe thewrbare Fenster in jre Heuser machen lassen / die sie von jren
+Herrn vnd Freunden zu bezalen bitten / also ist vnser ernstlich Gebot vnd wollen
+/ das niemandt hinfüro für ein Fenster / das er einem andern gibt / dem Glaser
+vber sechs Mariengroschen entrichten sol / Bey straffe eins orts Gülden. Was
+aber solche theurbare Fenster mehr kosten / das sol bezalen der dem die Fenster
+zugehörig sein.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 82.</head><lb/>
+</div>
+<div>
+<head>Von den Strassen reine zu halten / vnd in die Ouker keinen Dreck zu
+werffen.</head><lb/>
+<pb facs="#f0088"/>
+<p>ALle vnd jede vnsere Bürgere / Bürger kindere vnd Inwoner / sollen alle
+Sonnabendt vnd des Abendts vor den vier Zeiten jre Steinwege fegen / vnd als
+dann auch den Dreck also fort daruon bringen / bey straffe zweyer newer
+Schillinge.</p>
+<p>SO sol auch in die Ouker vnd Wasserströme gantz vnd gar kein Dreck oder
+Hausfegelse getragen oder geschüttet werden / Bey straffe eins Gülden zum ersten
+male / Zum andern male bey zween Gülden / vnd zum dritten male bey einer
+festunge mit der fürsatz.</p>
+<p>SO wollen wir auch das vnsere Auffzüger vnd Wechter vnsere Marckte vnd andere
+gemeine Steinwege vnd Pletze / die wir in besserunge halten lassen / fegen / vnd
+den Dreck daruon mit vnser Wechter karre auff vnser Welle / an gewönliche vnd
+gelegen örter führen lassen sollen / bey vormeidunge vnser straffe.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 83.</head><lb/>
+</div>
+<div>
+<head>Von der Fastnacht.</head><lb/>
+<pb facs="#f0089" n="45"/>
+<p>ES sol niemandt allhie in oder vor vnser Stadt in der Fasenacht / weder Tags oder
+Nachts sich vormummen oder Laruen fürbinden / vnd also Fastelabendt lauffen /
+oder ein grewlich vngeberdig geschrey mit singen oder andern gedone anrichten /
+oder sonst ein vngeschickt leben treiben / bey straffe eins Gülden / so offt er
+dessen betretten würde / Vnd wo sich der schüldige dawieder setzen / vnd sich zu
+solcher straffe nicht begeben wolte / solt er darüber vorfestet werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 84.</head><lb/>
+</div>
+<div>
+<head>Von dem Grase in vnserm Bruche.</head><lb/>
+<p>NIemandt sol des Jars vor dem heiligen Pfingstabendt aus der Gemeine / in vnserm
+Bruche Grass holen / vnd nach Pfingsten mit Senssen in dem Bruche kein Grass
+meigen / noch dasselbige mit Schiffen heuffig daraus führen / Sondern wer des
+Grases zu thun hat / mag zu behuff seiner Kühe / den tag einen Korb vol oder
+zween mit Sicheln im Bruche schneiden vnd daraus holen vnd nicht mehr / Bey
+<pb facs="#f0090"/>
+einem newen Schillinge vor jeden
+vbrigen Drachkorb Grases / vns zur straffe zu geben.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 85.</head><lb/>
+</div>
+<div>
+<head>Von den Hirten vnd Viehe / dasselbige allhier auff gemeiner Weide / in vnser
+Landtwehr zu hüten.</head><lb/>
+<p>DIe Knochenhawer in jedem Weichbilde / mügen wol einen eigen Schafshirte&#x0303; haben / der jnen jre Boetlinge / die sie alhie auff die Scharnen
+schlachten wollen / austreiben vnd hüten mügen / Sonst sol niemandt anders zu
+seinem Vieh vnd Quecke einen eigen Hirten halten / bey straffe eins newen
+Schillings vor jedes Haubt Viehs / so offt er das mit seinem eigen Hirten
+austreiben vnd weiden lassen würde / zu geben.</p>
+<p>ABer wer allhier in den freien Marckten oder auff andere zeite / Schafe /
+Boetlinge oder Schweine anhero brechte / dieselben allhie zu vorkeuffen / der
+mag sie auff vnser Stadt Weide wol achte tage lang treiben vnd hüten / vnd
+lenger nicht / Oder wir wollen sie darüber pfanden /
+<pb facs="#f0091" n="46"/>
+vnd die vorberürte
+Geldtstraffe von jme fordern vnd nemen lassen.</p>
+<p>SO sol auch niemandt frembdes auff vnser Stadt Weide Pferde / Ochsen / Kühe oder
+Ziegen treiben / sie darselbst hüten zu lassen / Bey straffe einer Pfandunge vnd
+zweier newer Schilling straffgeldes / vor jedes Haubt zu geben.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 86.</head><lb/>
+</div>
+<div>
+<head>Von den die jre Schweine allhie auff der Strassen gehen lassen.</head><lb/>
+<p>WEr Schweine hat / der mag sie vor den Schweinhirten treiben / oder in seinem
+Hause behalten / Aber auff der Strasse sol er sie nicht gehen lassen / dann wo
+das geschicht / sollen die Schweine von vnsern Wechtern gepfandet werden / Würde
+auch ein Schwein darüber schaden bekommen / den solt niemandt zu erstatten
+schüldig sein.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 87.</head><lb/>
+<pb facs="#f0092"/>
+</div>
+<div>
+<head>Von Wildtwercke vnd Vogelwercke.</head><lb/>
+<p>NIemandt sol zwischen Ostern vnd Trinitatis Wildtwerck / dieweile es Jungen
+hecket / schiessen oder fangen / Bey straffe einer Marck / so offt einer dessen
+betretten würde.</p>
+<p>WIR vorbieten auch / das kein Vogelwerck zwischen Liechtmessen vnd S. Jacobs tage
+gefangen werden solle / Bey straffe eins halben Gülden / so offt er schüldig
+befunden würde.</p>
+<p>VNd niemandt sol in vnser Landtwehr oder Gebiete Hirsche / Rehe oder wilde
+Schweine bey zween Marcken / auch keine Hasen bey einem Gülden straffgeldes /
+vor jedes stück vns zu geben / schiessen / Es geschehe dann mit vnser
+erleubnusse.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 88.</head><lb/>
+</div>
+<div>
+<head>Von Fischen zu fangen.</head><lb/>
+<p>WIr wollen auch nicht / das jemandt in der Ouker / dar sie gemeine ist / oder in
+andern gemeinen Wassern / mit Zoch oder Woffr-
+<pb facs="#f0093" n="47"/>
+netzen oder mit der
+Jacht / oder mit Garn / Körben fischen sol / Aber mit Waden / Herckelen / Hamen
+/ vnd Angeln / ausserhalbe der Leiche zeit / sol es frey sein vnd bleiben.</p>
+<p>ES sol aber niemandt den Fischen mit Kormügen nachstellen / vnd die gemeinen
+Wasser damit nicht vorwüsten.</p>
+<p>NIemandt sol ohne vnsere erleubnusse / in vnsern Stadtgraben / Teichen vnd
+Landtwehren / oder in andern heech Wassern / daran er keinen eigenthumb hat /
+oder die er vmb Zinss nicht gebraucht / fischen / in keinerlry weise noch wege /
+vnd wo nun jemandt dieser vorgemelten stücke eins vorechtlich vbertretten würde
+/ Solt er mit einer festunge gestraffet werden.</p>
+<p>WIr wollen auch alle vnd jede Fischer hiemit vormanet vnd begert haben / das sie
+die gar kleinen Fische / ausgenommen Bleke vnd Grundklinge / aus den Wassern vnd
+Teichen nicht fangen / sondern lauffen lassen sollen / das sie grösser werden
+vnd leichen mügen / das gereicht jnen den Fischern / vnd dem gemeinen nutz mit
+zu gute.</p>
+<pb facs="#f0094"/>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 89.</head><lb/>
+</div>
+<div>
+<head>Von den Flachsrothen.</head><lb/>
+<p>ES sol niemandt in der Ouker zwischen der Stadt vnd Runingen / auch nicht im
+Bruche oder in den Stadt vnd newen Stadt Marschgraben / Flachsrothe&#x0303; / Wer aber sein Flachs in vnuorbotten Wasser orte in die Rothe leget / sol
+sich der Torue aus dem Anger zu stechen / vnd darauff zu legen / enthalten /
+sondern wem des von nöten / mag die Mode aus der grundt des Wassers nemen / vnd
+auff das Flachs schütten / vnd wenn das Flachs gerothet ist / sol alles
+Holtzwerck / Stro vnd steine / damit das Flachs beleget gewesen / daruon
+gebracht / vnd in dem Wasser nicht gelassen werden / bey straffe einer
+festunge.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 90.</head><lb/>
+</div>
+<div>
+<head>Von den gepflantzten Weiden.</head><lb/>
+<p>NIemandt sol gepflantzte Weiden / an vnsern Stadtgraben / gemeinen Weiden /
+Wiesen / Eckern / Garten / oder anders-
+<pb facs="#f0095" n="48"/>
+wor schampfieren /
+schellen oder gar abhawen vnd vorterben / Bey straffe einer festunge vnd der
+fürsatz.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 91-</head><lb/>
+</div>
+<div>
+<head>Von den Müllern / auch Maltz vnd Korn zu malen.</head><lb/>
+<p>DIe Müller vnd jr Gesinde / sollen einem jeden sein Korn vnd Maltz / das er in
+die Mülen bringet / getrewlich malen vnd vorwaren / das ein jeder das seine /
+wenn es gemalen ist / gentzlich wieder bekommen müge / Bey vormeidunge vnser
+ernsten straffe.</p>
+<p>NIemandt sol mehr Korn oder Maltz in die Mülen sacken vnd schicken / darselbst zu
+malen / dann als er vorzieset hat / nach Scheffel vnd Hempten zal / Bey straffe
+eins halben Gülden / vor jeden vbrigen Hempten zu geben.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 92.</head><lb/>
+</div>
+<div>
+<head>Von dem Bierbrawen.</head><lb/>
+<pb facs="#f0096"/>
+<p>ES sol keinem vnser Bürger Kinder gestattet werden / die narunge des Bierbrawen
+zu treiben er sey dann achtzehen Jar alt / als dann vnd nicht ehe sol er den
+gewonlichen Brawer Eidt schweren.</p>
+<p>ZWo personen sollen in einem Hause nicht Bier brawen / Noch eine Persone in zween
+Heusern / Bey straffe zehen Marck.</p>
+<p>VND sol ein jeder Brawer vorpflichtet vnd schüldig sein / die Brawer ordnunge /
+die wir jedes Jars nach einkauff des Hopffen / Gersten / Holtz vnd nach anderer
+gelegenheit setzen / bey geschwornem Eide vnd straffe des Meineidts getrewlich
+zu halten.</p>
+<p>VNd ein jeder Brawer sol zu jedem Brawbiers vier gestrichen Scheffel vnd vier
+auffgeheuffte Hempten Maltz / vnd nicht darüber in die Müle sacken / Bey straffe
+eins halben Gülden / vor jeden vbrigen Hempten zu straffgelde zu geben.</p>
+<p>DArumb auch ein jeder Brawer seinem knechte vn&#x0303; Gesinde ernstlich
+anzeigen sol / zu jedem
+<pb facs="#f0097" n="49"/>
+Brawbiers vber vier Scheffel / vnd vier auffgeheuffte Hempten Maltz in die Mülen
+nicht zu sacken / Würden sie aber das vbertretten / so solten sie vns / die
+vorberürte Geldtstraffe / vor jeden vbrigen Hempten zu geben / auch vorfallen
+sein.</p>
+<p>IN jedem vnserm Weichbilde / sol ein Rathsherr vorordent sein / dem ein jeder
+Brawer jedesmal anzeigen sol / wenn er Mummen ausserhalbe Landes vorschicken wil
+/ Als dann sol der Rathsherr solche Mummen schmecken / vnd wenn er die gut
+befindet / das Fass mit vnserm Zeichen brennen / Wo aber das nicht geschicht /
+sollen vnsere Thorhüter solche Mummen aus vnserm Thore zu füren nicht gestatten
+/ bey vormeidunge vnser straffe.</p>
+<p>NIemandt allhier sol Mariengroschen Bier ausserhalbe seins Hauses / bey
+Quartieren / halbe Stübechen / oder gantze Stübechen / auch nicht in Glesern
+oder andern gefessen vorkeuffen / Bey bröke dreissig Gülden / Aber in seinem
+Hause vnd Wonunge / mag er es seinen Gesten vor Geldt wol schencken / Oder aus
+seinem Hause in gantzen oder halben Fessern vorkeuffen ohne bröke.</p>
+<pb facs="#f0098"/>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 93.</head><lb/>
+</div>
+<div>
+<head>Von den Steinwegen / Steinsetzern / Zimmerleuten / Steindeckers / Gartenern /
+Garten vnd Zeunen.</head><lb/>
+<p>EIn jeder sol seinen Steinweg machen / vnd wenn er zerbrochen ist / bessern
+lassen / Vnd wenn er das thun wil / sol er mit den Steinsetzers den Nachbarn
+zeigen vnd weisen / wie der Steinweg gebawet vnd gebessert werden sol / vnd
+hören / ob sie damit also auch friedlich sein wollen / Darumb sol niemandt
+seinen Steinweg zu hoch / vnd seinen Nachbarn zu nachteil setzen lassen / Dann
+wo das geschehen / vnd das vns dem Rathe geklagt würde / sol der / dem der
+Steinweg zugehörig / vnd der Steinsetzer jeder einen halben Gülden dafür zu
+bröke geben / Vnd sol als dann auch der Steinweg wieder auffgenommen / vnd also
+gemacht werden / das er den Nachbarn nicht schedlich sey / Bey straffe einer
+festunge.</p>
+<p>DIe Zimmerleute sollen / wor sie bawen / keine Sülle / vnd die Steindecker keine
+Rennen auffnemen / sie fordern dan&#x0303; vorerst die Nach-
+<pb facs="#f0099" n="50"/>
+barn / den mit
+daran gelegen / dar bey / vnd das es dann mit jrem willen geschehe / Können sie
+sich aber darüber nicht vorgleichen / sollen sie vns den Rath ersuchen / Zween
+vnsere Rathsherren dar bey zu schicken / vnd sich durch dieselbigen weisen vnd
+vortragen lassen / würde aber das necht geschehen können / so sol es durch den
+Rath des Weichbildes in den augenschein genommen / vnd in güte vorgliechen /
+oder ein bescheidt / darnach sich die Parteien zu richten gegeben werden / Würde
+sich dann ein theil des bescheidts beschwert befinden / so sol jme frey stehen /
+dar von an vns den gemeine&#x0303; Rath zu Appellieren / würden aber der
+Hausherr / Zimmerleute vn&#x0303; Steindecker / diss vnser Mandat vnd
+Ordnunge vberschreiten oder dawieder handelen / so sol ein jeder einen halben
+Gülden zur straffe geben / vnd dennoch die Sülle vnd Rennen also wieder legen /
+das die Nachbars damit zu frieden sein mügen / Bey vormeidunge vnser des Raths
+weiter straffe.</p>
+<p>ES sol niemandt Garten / die zu Weichbilde legen / bawen / Er beschaffe dann /
+das vns dem Rathe vnd der Stadt die gebürliche Pflicht dar von werde / Bey einer
+festunge zu vormeiden.</p>
+<pb facs="#f0100"/>
+<p>VNd bey vormeidunge solcher straffe / sol auch niemandt ohne vnser des Raths
+volwort newe Hopffen oder andere Garten / dar zuuor keine Garten gewesen /
+machen.</p>
+<p>VND niemandt sol vor seinem Garten einen newen Graben / der zuuor nicht dar
+gewesen / machen / ohne vnser des Raths vorwissen vnd willen / Bey straffe einer
+Marck.</p>
+<p>WElcher Gartner von seinem Garten vnd Lande zu Weichbilde gelegen / jemande
+anders / wenn vnsern Bürgern oder Bürgerinnen / oder denen / die dar von der
+Stadt pflicht thun / Zins gibt / der sol gut dafür sein / das vns dem Rathe das
+gebürliche Schoss von solchem Zinss gegeben werde / Bey straffe einer
+festunge.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 94.</head><lb/>
+</div>
+<div>
+<head>Von Dienstknechten / Dienstjungen vnd Dienstmegden.</head><lb/>
+<pb facs="#f0101" n="51"/>
+<p>WElcher Dienstknecht / Dienstjunge / oder Dienstmagdt sich vormietet / vnd einem
+andern sich darnach dieselben zeit auch vormietet hette / der solt die erste
+mietung halten / Oder wo er das nicht thun wolte / solt er wenn es geklagt würde
+/ nicht gelidden werden / in einem gantzen Jar allhier zu dienen.</p>
+<p>WEre auch ein Knecht / Junge oder Maget bey einem Herren oder Frawen in dienste /
+vnd vorpflichte sich einem andern zu dienen / dar von er aber darnach einen
+abstandt thun / vnd bey seinem ersten Herrn oder seiner ersten Frawen / auff jr
+begeren / lenger bleiben wolte / so solte er die andern mietung dem Herrn oder
+der Frawen sechs wochen vor Ostern / oder sechs wochen vor Michaelis wieder
+abekündigen vnd auffsagen / Bey straffe einer Marck / die er vns geben solte /
+Wo er aber das nicht thete / solt er so lange hier dienstes emperen / bis das er
+vns eine Marck erlegt hette.</p>
+<p>WVrde ein Knecht / Junge oder Magdt / jren Herrn vnd Frawen wieder jren willen /
+vnd ohne erhebliche vrsache (darüber zu erken&#x0303;en /
+<pb facs="#f0102"/>
+wir vns fürbehalten) aus jrem
+dienste / ehe dan&#x0303; das sie ausgedient hetten / entlauffen / die
+sollen von der zeit an zu rechnen / in einem gantzen Jare / von einem andern
+vnserm Bürger / Bürgerinnen / Diener vnd Inwoner allhier in vnser Stad zu
+dienste nicht angenommen werden / Bey vormeidunge zweier Gülden
+straffgeldes.</p>
+<p>WElcher Knecht / Junge oder Magt jren Herren vnd Frawen vrsache geben würden /
+sie von jres vngehorsams vnd mutwillens wegen / ehr der zeit jres vorsproche&#x0303; diensts zu enturlauben / So sollen sie jne gleichwol nicht das
+gantze / sondern das gebürliche lohn / nach anzal der zeit / die sie gedient
+hetten / zu geben schüldig sein.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 95.</head><lb/>
+</div>
+<div>
+<head>Von Harnische vnd Wehre der Bürger / vnd vnser des Raths Diener.</head><lb/>
+<p>ALle vnd jede vnsere Bürgere vnd Diener / sollen jre Harnische / Büchsen vnd
+Wehre / darauff sie gesetzt sein / vnd jne billig zu haben gebürt / jeder zeit
+fertig
+<pb facs="#f0103" n="52"/>
+halten / vnd vnser
+damit gewertig sein / Bey vormeidunge vnser ernstlichen straffe.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 96.</head><lb/>
+</div>
+<div>
+<head>Von dem ausziehen zu Felde in Kriegsleufften oder sonsten auff vnsern des
+Raths befehl.</head><lb/>
+<p>SO wir der Rath vnsere Bürgere vnd Diener in Kriehsleufften / oder sonsten von
+notwegen / mit jrem Harnische vnd Wehre zu Felde schicken wolten / So sol jeder
+/ den wir darzu fordern / mit seinem Harnische vnd Wehre darzu fertig /
+gutwillig vnd gehorsam sein / vnd vnsern Heubtleuten vnd Befehlhabern aus dem
+Felde nicht entfliehen / Bey straffe Leibs vnd guts.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 97.</head><lb/>
+</div>
+<div>
+<head>Wenn in Kriehsleufften oder sonsten von notwegen / bey tage oder nachte ein
+Glockenschlag würde.</head><lb/>
+<pb facs="#f0104"/>
+<p>ALle vnd jede vnsere Bürgere / sollen / wen&#x0303; in Kriegsleufften oder
+sonsten von notwegen / bey Tage oder Nacht / ein geschrey oder Glockenschlag
+würde / ein jeder vor das Rathaus seins Weichbildes mit seinem Harnische vn&#x0303; wehre vngeseumet sich vorfügen / vnd darselbst vns vnd vnsern
+Heubtleuten vnd Befehlhabern gehör geben vnd gehorsam sein / bey vnser
+ernstlichen straffe zu vormeiden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 98.</head><lb/>
+</div>
+<div>
+<head>Von den / die in zeit eins gemachten Glockenschlags / oder in Kriegsleufften
+jre jungen Kindere auff die strassen oder ins Feldt lauffen lassen
+würden.</head><lb/>
+<p>NIemandt sol seine Kinder in zeit eins gemachten Glockenschlags / oder in
+Kriegesleufften auff die Strasse oder ins Feldt lauffen lassen / dann wo
+denselben darüber vngemach wiederführe / wolten wir der Rath darüber nicht
+richten.</p>
+<pb facs="#f0105" n="53"/>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 99.</head><lb/>
+</div>
+<div>
+<head>Von der Nachtwache.</head><lb/>
+<p>WElchem vnserm Bürger wir der Rath durch vnsere Bawrmeister anzeigen lassen /
+oder sonsten befehelen die Nachtwacht auff vnsern Thoren zu halten / der sol es
+thun mit getrewem fleis / bey den Pflichten vnd Eiden / damit er vns vorwandt
+ist / Wo er aber solche Nachtwacht in eigener Person aus Leibs schwacheit oder
+andern Ehehafften vrsachen zu halten vorhindert würde / so sol er einen andern
+getrewen Bürger in seine stedte vorordenen / Bey straffe zweier newer Schillinge
+/ so offt er diese Wachte vorseumen / vnd nicht bestellen würde.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 100.</head><lb/>
+</div>
+<div>
+<head>Von dem Einlager.</head><lb/>
+<p>WEnn von vns dem Rathe jemande angekündigt vnd auffgelegt würde / vmb seiner
+vorwirckunge vnd vbertrettunge willen / ein Inlager zu halten / So sol
+<pb facs="#f0106"/>
+er gehorsam sein / vnd in das
+Einlager gehen / Bey straffe einer festunge.</p>
+<p>WVrde auch jemandt aus solchem Einlager gehen / ehe dann das es jme von vns
+erleubt würde / der solte vorfestet werden / mit einer fürsatz.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 101.</head><lb/>
+</div>
+<div>
+<head>Von der Festunge.</head><lb/>
+<p>WEr vmb einer Misshandlunge willen / damit er den Hals vorwircket / vorfestet /
+vnd sich gleichwol in der Stadt / oder anderswor in vnser des Raths Jurisdiction
+vnd Gebiete finden lassen / vnd darüber ergriffen würde / der solt am Halse
+gestraffet werden.</p>
+<p>WEhre er aber vmb schülde willen / oder einer schlechten gemeinen Kampffertiger
+Wunden / die nicht tödtlich vnd mit fürsatz nicht geschehen / oder einer andern
+that halben / damit er den Hals nicht vorbrochen / vorfestet oder vorweiset /
+vnd würde darnach in vnsern des
+<pb facs="#f0107" n="54"/>
+Raths Gerichten betretten / vnd gefencklich angehalten / So sol er
+in den hafften so lange sitzen / bis das er mit seinem Wiedertheile vortragen
+were / vnd vns dem Rathe zwantzig Gülden zu bröke erlegt habe / Würde er das
+nicht thun können / so solt er aus den hafften wieder gelassen / vnd aus vnsern
+des Raths Gerichten so lange entweichen vnd bleiben / bis das er seins
+Wiederparts willen gemacht / vnd vns zwantzig Gülden straffgeldes / neben dem
+fange Gülden / schlies vnd Kostgelde / entrichtet habe / Als dann mag er sich
+darauff vor vnserm vntergerichte wiederumb einwerben lassen.</p>
+<p>WIrd auch jemandt mit einer fürsatz vorfestet / vnd darnach in vnsern des Raths
+Gerichten / daraus er vorfestet / ergriffen / der sol vns viertzig Gülden zur
+straffe geben / vnd seins wiederparts willen treffen / oder wo nicht / so lange
+der Stadt vnd vnser des Raths Gerichte emperen.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 102.</head><lb/>
+</div>
+<div>
+<head>Von der Bürgerschafft vnd dem Schosse.</head><lb/>
+<pb facs="#f0108"/>
+<p>NIemandt sol allhie in der Stadt freien vnd wonen / Er habe dann zuuor die
+Bürgerschafft / Bey einer festunge zu vormeiden.</p>
+<p>ES darff keins Bürgers Kindt die Bürgerschafft gewinnen / Es were dann das er aus
+der Stadt züge / vnd anderswor wonhafftig were / vnd darselbst eigen Fewr vnd
+Rauch hielte / Jar vnd Tag / wolt er darnach wiederkommen / so solt er die
+Bürgerschafft von newes gewinnen.</p>
+<p>WEr allhie Bürger oder Burgerinne werden wil / vnd also von vns angenommen wird /
+der sol vns vor die Bürgerschafft geben / was wir jeder zeit darauff gesetzt
+haben / vnd damit die Bürgerschafft gewinnen.</p>
+<p>WO vns ein Bürger oder Bürgerinne hinterstellig Schoss vnd andere vnpflicht zu
+geben schüldig / oder etzliche seine Güter allhie zu Weichbilde gelegen / hette
+/ daruon er vns das gebürliche Schoss vnd andere vnpflicht nicht vorschaffen
+wolte / sondern züge von hier hinweg / sich ausserhalbe vnser Stadt anderswor zu
+besetzen /
+<pb facs="#f0109" n="55"/>
+oder darselbst
+sich zu enthalten / den wollen wir vorfesten / bis das er vns das hinterstellige
+Schoss / vnd andere gebürliche vnpflicht entrichtet vnd geleistet habe.</p>
+<p>WVrde jemandt die Bürgerschafft freuentlich auffsagen / von deswegen das er vns
+keinen gehorsam ertzeigen wolte / der sol zu derselben zeit schweren / in
+viertzehen tagen den nehesten aus vnser Stadt zu weichen / vnd darin / es
+geschege dann mit vnserm des Raths wissen vnd willen / nicht wieder kommen / Bey
+straffe einer festunge.</p>
+<p>WOlt er auch darnach / Wenn er vnsern willen erlanget / die Bürgerschafft wieder
+gewinnen / So sol er vns bey geschwornem Eide / in vier Wochen den nehesten /
+dachdem er wieder zu der Bürgerschafft gelassen / vnd in die Stadt kommen / das
+Schoss vnd andere gebürliche vnpflicht / so er vns hinterstellig vnd vorsessen
+hette / entrichten vnd leisten / Vnd was jme dann weiter vor die Bürgerschafft
+zu gewinnen / auszugeben gebüren wolte / das sol stehen zu vnserm des Raths
+Wilkür / dasselbige von jme zu fordern / oder nach gelegenheit zu
+Moderieren.</p>
+<pb facs="#f0110"/>
+<p>VNd weil wir gern sehen vnd begeren / das sich vnser Burger Kindere mit
+Göttlicher hülffe redlich ernehren / vnd also etwas erwerben mügen / So wollen
+wir hinfüro geschehen lassen / das vnser Bürger Kindere mit jrer barschafft von
+hinnen in andere Lande / vnd sich daselbst zu dienste begeben / oder redliche
+Kauffmanschafft vnd Gewerbe vben vnd treiben mügen / vnd so lange sie dermassen
+ausserhalbe vnser Stadt sein / vnd nicht eigen Fewr vnd Rauch anderswo halten /
+Sollen sie von jrer Barschafft vnd beweglichen Gütern vns schoss vnd vnpflicht
+zu geben gefreihet sein / vnd mügen auch darneben bey der Bürgerschafft bleiben.
+Hetten sie aber allhie zu Weichbilde gelegen Dingpflichtige Güter / daruon
+solten sie vns alle Jar das gebürliche Schoss geben / vnd damit nicht vorschont
+werden / Wenn sie sich auch wieder anhero begeben / vnd allhie sich enthalten
+oder besetzen / Sollen sie vns Jarlichs alle jre Güter beweglich vnd vnbeweglich
+/ gleich andern vnsern Bürgern vorschossen vnd vorunpflichten.</p>
+<p>WO jemandt der Stadt Feindt / oder sich zu der Stadt Feinden sellen / vnd mit
+denselbigen Participieren / oder jnen fürschub thun
+<pb facs="#f0111" n="56"/>
+würde / der sol der
+Bürgerschafft vorfallen sein / vnd der Stadt mit Weib / Kindern vnd Gesinde
+ewiglich emperen / ohne gnade.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 103.</head><lb/>
+</div>
+<div>
+<head>Von dem / der fürsetzlich vmb hiernach gemelter vrsachen willen flüchtig
+wird.</head><lb/>
+<p>WEr aus der Stadt / von deswegen / das er an der Stadt rechte kein gnügen haben
+wolte / flüchtig würde / der solt vor einen vnbescheiden mutwilligen Menschen
+gehalten werden / vnd die zeit seins lebens mit seinem Weibe vnd Kindern der
+Stadt emperen.</p>
+<p>WER auch aus der Stadt vorlauffen würde schulde halben / der solt vorfestet
+werden.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 104.</head><lb/>
+</div>
+<div>
+<head>Von sachen / die in güte oder mit Rechte entscheiden sein.</head><lb/>
+<pb facs="#f0112"/>
+<p>WAs zween oder mehr Rathsherren aus vnserm des Raths befehl / zwischen Parteien
+in güte vorgleichen vnd vortragen / das sol so feste / als ob wir der gantze
+Rath solche sachen gütlich vorhandelt vnd vortragen hetten / gehalten werden /
+Bey bröke zweier hundert Gülden.</p>
+<p>WAS auch wir der Rath zwischen Parteien gütlich vortragen / oder mit Vrtheil vnd
+Rechte scheiden / das sollen sie halten vnd nicht wiederruffen / Bricht das
+jemandt / der sol vns dem Rathe zwey hundert Gülden zur straffe geben / Würde er
+aber das nicht thun / solt er mit seinem Weibe vnd Kindern der Stadt emperen /
+bis das er vns die zwey hundert Gülden entrichtet habe.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 105.</head><lb/>
+</div>
+<div>
+<head>Von der Stadt Gemeine.</head><lb/>
+<p>Der Stadt Gemeine sol nicht vorjahren.</p>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 106.</head><lb/>
+<pb facs="#f0113" n="57"/>
+</div>
+<div>
+<head>Von den Bürgern vnd Bürgerinnen / die ausserhalbe vnser Stadt auff dem
+Rennelberge vnd auff dem Steinwege wonen.</head><lb/>
+<p>VNd sollen alle vnd jede vnsere Bürgere vnd Bürgerinnen / die ausserhalbe der
+Stadt auff vnserm Rennelberge vnd Steinwege wonen / diese vnsere Ordnunge in
+allen Punrten vnd Articulen auch zu halten vorpflichtet vnd schüldig sein / so
+wol als vnsere Bürgere vnd Bürgerinnen in der Stadt / bey vormeidunge der
+Straffe die bey jedem Passele gesetzt ist.</p>
+<p>VNd wer in gegenwertiger Ordnunge vormeldet wird / das die Delinquenten aus der
+Stadt vorfestet vnd vorweiset werden sollen / Also sollen gleicher gestalt auch
+die Delinquenten / so auff dem Rennelberge vnd Steinwege wonen / oder sich
+darselbst enthalten / nicht alleine aus der Stadt / sondern auch von dem
+Rennelberge vnd Steinwege dar sie Haus gehalten / vorfestet vnd vorweiset
+werden.</p>
+<pb facs="#f0114"/>
+</div>
+<div>
+<head><hi rendition="#i">TITVLVS</hi> 107.</head><lb/>
+</div>
+<div>
+<head>Von den Brökeherren vnd dem Straffgelde einzufordern.</head><lb/>
+<p>VNsere vorordente Brökeherren / sollen jedesmal bey geschwornem Eide / von dem
+Reichen so wol als von dem Armen / vnd hinwieder von dem Armen so wol als von
+dem Reichen / das vorwirckte straffgeldt einfordern / vnd damit die gleichheit
+halten.</p>
+<p>VND sollen das Straffgeldt von allen vnd jeden Articulen vnsers Stadtrechtens /
+des vntergerichts Proces vnd dieser Ordnunge / wenn die nicht gehalten werden /
+vnd jnen solchs angebracht wird / vnd also zu wissen kriegen / einnemen / ohne
+alles ansehens der Personen / oder jeniger andern Affection vnd vor
+hinderunge.</p>
+<p>WIR behalten vns auch für zu jeder zeit nach gelegenheit vnd nottorfft diese
+vnsere Ordnunge zu bessern / zu Moderieren oder zu endern</p>
+<pb facs="#f0115" n="58"/>
+<p>VNd ist diese hieuorgeschrieben Ordnung / mit vnserm des Raths / Rathsgeschworen
+/ Zehenmannen / Geschickten / Gildemeistern vnd Heubtleuten gutem wissen vnd
+willen / vor vns selbs / vnd von wegen der gantzen gemeinen Bürgerschafft
+berathschlagt / vnd einhelliglich bewilligt vnd angenommen. Nach Ihesu Christi
+vnsers HERREN vnd Seligmachers Geburt / im Fünffzehen hundert neun vnd
+siebentzigsten Jare / Donnerstags nach Lichtmessen.</p>
+<pb facs="#f0116"/>
+<pb facs="#f0117"/>
+</div>
+<div>
+<head>Register.</head><lb/>
+<l><hi rendition="#i">Titul. Folio.</hi></l>
+<l>1. Von der Christlichen Religion. 2</l>
+<l>2. Von den Sacramentschwermern / Wiederteuffern / vnd dergleichen Rotten vnd
+Secten. 4</l>
+<l>3. Von dem Fluchen vnd Gottes lestern. 4</l>
+<l>4. Von Schweren. 5</l>
+<l>5. Von Zauberey. 5</l>
+<l>6. Von vorachtung der Prediger Göttlichs Worts. 6</l>
+<l>7. Von Friedewirckunge der Prediger. 6</l>
+<l>8. Von zuhaltunge der Thor Sontags vnd Feirtags. 7</l>
+<l>9. Von denen / die auff den Sontag oder Feirtag vnter der Predigt Göttlichs Worts
+auff den Kirchhöfen stehen / oder in solcher zeit auff den Marckten fehele
+haben. 7</l>
+<pb facs="#f0118"/>
+<l><hi rendition="#i">Titul.</hi> Register. <hi rendition="#i">Folïo.</hi></l>
+<l>10. Von Soutags oder Festes geseuffe. 8</l>
+<l>11. Von spielen am Sontage vnd Feirtage. 8</l>
+<l>12. Von dem Schiessen / Spielen vnd Tantzen auff vnser Newenstadt Marsch / oder
+anderswor vor den Thoren in den Pfingsten. 9</l>
+<l>13. Von den Kirchhöfen. 9</l>
+<l>14. Von dem der seine Eltern morden oder schlagen / oder jnen fluchen / oder
+seine Kinder ermorden würde. 9</l>
+<l>15. Von Meuterey vnd Auffrhur. 10</l>
+<l>16. Von deme der seine Wehre aus freuel / damit gewalt zu vben / ausziehen würde.
+11</l>
+<l>17. Von Todtschlage. 11</l>
+<l>18. Von den / die einem Todtschlage oder Balgerey zusehen. 13</l>
+<l>19. Von Wunden die da kampffbar. 14</l>
+<l>20. Von schlechten Wunden / die nicht kampffbar oder Kampffwirdig sein. 15</l>
+<pb facs="#f0119"/>
+<l><hi rendition="#i">Titul.</hi> Register. <hi rendition="#i">Folio.</hi></l>
+<l>21. Von Beulen vnd Dumschlegen / die keine Blutrust haben. 16</l>
+<l>22. Von vnfuge auff des Raths Kellern vnd andern gemeinen orten / vnd in
+Vorlöbnussen vnd Brautheusern. 16</l>
+<l>23. Von vorachtunge der Stadt Feste. 17</l>
+<l>24. Von Hausfriede. 17</l>
+<l>25. Von Nachtgange. 18</l>
+<l>26. Von den Marckmeistern vnd Wechtern. 18</l>
+<l>27. Von ausfordern oder ausheischen. 18 19</l>
+<l>28. Von fürsetzlichen vnd andern Juiurien / Schmehe vnd Drauworten / vnd von
+fürsetzlicher vberfallunge oder anfertigung. 19</l>
+<l>29. Von Schmeheworten wieder den Rath oder eine Raths Persone in Rahts
+geschefften. 20</l>
+<pb facs="#f0120"/>
+<l><hi rendition="#i">Titul.</hi> Register. <hi rendition="#i">Folio.</hi></l>
+<l>30. Von Schmeheschrifften / Liedern vnd affterreden. 20</l>
+<l>31. Von schmehesachen der Gilde vnd Handwercks Leute. 21</l>
+<l>32. Von Wörtlichen schmehehendeln ins gemeine. 22</l>
+<l>33. Von Ehebruch. 22</l>
+<l>34. Von Jungfrawen vnd Megden beschlaffen. 23</l>
+<l>35. Von dem / der eine Frawe oder Jungfrawe / ohne jrer Eltern / Vormunden oder
+Freunde wissen vnd willen / aus der Stadt hinweg führete. 24</l>
+<l>36. Von vnzucht der Personen / die nicht im Ehestande leben. 24</l>
+<l>37. Von leichtfertigen gemeinen Weibern. 25</l>
+<l>38. Von Kuplerey vnd Rufferey. 26</l>
+<l>39. Von Incoest. 26</l>
+<l>40. Von Notzogung. 26</l>
+<pb facs="#f0121"/>
+<l><hi rendition="#i">Titul.</hi> Register. <hi rendition="#i">Folio.</hi></l>
+<l>41. Von Eheleuten / die ohne erhebliche vrsache von einander sein. 26</l>
+<l>42. Von Ehemennern / die jre Ehefrawen bey sich haben / vnd sie vnuor schuldes
+reuffen oder schlagen. 27</l>
+<l>43. Von Diebstal vnd stelen. 27</l>
+<l>44. Von gestolenem gute. 28</l>
+<l>45. Von Dieberey in Kirchen. 29</l>
+<l>46. Von Beutelschneiden. 29</l>
+<l>47. Von Fischdieben. 29</l>
+<l>48. Von Dieberey / so in Badtstuben begangen wird. 30</l>
+<l>49. Von bestelunge eins Erbes. 30</l>
+<l>50. Von Wucher. 30</l>
+<l>51. Von fürsetzlichem auffborgen vnd betriegerey / Auch von der <hi rendition="#i">Ceßion bonorum,</hi> vnd der Frewlichen Gerechtigkeit. 31</l>
+<l>52. Von Doppelspiele. 33</l>
+<l>53. Von denen die jr Gut vnnützlich vorbringen. 33</l>
+<pb facs="#f0122"/>
+<l><hi rendition="#i">Titul.</hi> Register. <hi rendition="#i">Folio.</hi></l>
+<l>54. Von Maelsteinen vnd andern Grentze zeichen. 33</l>
+<l>55. Von dem / der ein Gut zweien vorkeufft / vorpfendet oder vorwechselt. 34</l>
+<l>56. Von Vntrewe. 34</l>
+<l>57. Von Garten Dieben. 34</l>
+<l>58. Von Strassenreubern vnd jrer straffe. 35</l>
+<l>59. Von denen / die den Dieben helffen / oder sie hausen vnd hegen. 35</l>
+<l>60. Von falscher gewichte / Maes vnd Elen. 35</l>
+<l>61. Von dem Zol vnd Zolzeichen. 36</l>
+<l>62. Von der Müntze. 36</l>
+<l>63. Von falschen gezeugnis. 36</l>
+<l>74. Von keuffen vnd vorkeuffen / vnd von fürkauffe. 37</l>
+<l>65. Von dem Kornkauffe. 38</l>
+<l>66. Von dem Maltze. 39</l>
+<l>67. Von Hoeckwercke. 40</l>
+<l>68. Von den Saltzführern. 40</l>
+<pb facs="#f0123"/>
+<l><hi rendition="#i">Titul.</hi> Register. <hi rendition="#i">Folio.</hi></l>
+<l>69. Von Erbe vnd Zinse zuuorkeuffen oder zuuorgeben. 40</l>
+<l>70. Von dem / der eins andern Angefelle oder Gedinge keufft vnd an sich bringet.
+40</l>
+<l>71. Von dem der Leibgedinge keuffen wil. 41</l>
+<l>72. Von dem der Zins gibt von seinem Hause vnd ligenden Gründen. 41</l>
+<l>73. Von vorlassung eins Erbes oder Geldes an einem Erbe. 41</l>
+<l>74. Von Vorpfendunge. 41</l>
+<l>75. Von dem der Geldt keufft an eins andern Erbe. 42</l>
+<l>76. Von dem / der nicht helt sein Haus in baw vnd besserunge. 42</l>
+<l>77. Von den gefehrlichen Fewrstedten vnd Fewrsnot. 42</l>
+<l>78. Von Hopffreuer / Bonen vnd Maenstro nicht bey sich zu legen / vnd bey dem
+Lichte mit Flachse nicht vmbzugehen. 43</l>
+<pb facs="#f0124"/>
+<l><hi rendition="#i">Titul.</hi> Register. <hi rendition="#i">Folio.</hi></l>
+<l>79. Von dem Herbergen. 43</l>
+<l>80. Von Heusern vnd Buden / die frembden Leuten nicht zu vormieten. 43</l>
+<l>81. Von dem Fenstergelde. 44</l>
+<l>82. Von den Strassen reine zu halten / vnd in die Ouker keinen Dreck zu werffen.
+44</l>
+<l>83. Von der Fasenacht. 44</l>
+<l>84. Von dem Grase in vnserm Bruche. 45</l>
+<l>85. Von den Hirten vnd Vieh / dasselbige allhier auff gemeiner Weide in vnser
+Landtwehr zu hüten. 45</l>
+<l>86. Von den / die jre Schweine allhie auff der Strassen gehen lassen. 46</l>
+<l>87. Von Wildtwercke vnd Vogelwercke. 46</l>
+<l>88. Von Fischen zu fangen. 46</l>
+<l>89. Von Flachsröthen. 47</l>
+<l>90. Von den gepflantzten Weiden. 47</l>
+<pb facs="#f0125"/>
+<l><hi rendition="#i">Titul.</hi> Register. <hi rendition="#i">Folio.</hi></l>
+<l>91. Von den Müllern / auch Maltz vnd Korn zu malen. 48</l>
+<l>92. Von dem Bierbrawen. 48</l>
+<l>93. Von den Steinwegen / Steinsetzern / Zimmerleuten / Steindeckers / Gartenern /
+Garten vnd Zeunen. 49</l>
+<l>94. Von Dienstknechten / Dienstjungen / vnd Dienstmegden. 50. 51</l>
+<l>95. Von Harnische vnd Wehre der Bürger / vnd vnser des Raths Diener. 51</l>
+<l>96. Von dem ausziehen zu Felde in Kriegsleufften / oder sonsten auff vnsern des
+Raths befehel. 52</l>
+<l>97. Wenn in Kriegsleufften oder sonsten von notwegen / bey tage oder nacht ein
+Glockenschlag würde. 52</l>
+<l>98. Von den / die in zeit eins gemachten Glockenschlags oder in Kriegsleufften
+jre Jungen Kindere auff die Strassen oder ins Feldt lauffen lassen würden.
+52</l>
+<pb facs="#f0126"/>
+<l><hi rendition="#i">Titul.</hi> Register. <hi rendition="#i">Folio.</hi></l>
+<l>99. Von der Nachtwachte. 53</l>
+<l>100. Von dem Einlager. 53</l>
+<l>101. Von der Festunge. 53</l>
+<l>102. Von der Bürgerschafft vnd dem Schosse. 54</l>
+<l>103. Von dem / der fürsetzlich vmb hiernach gemelter vrsachen willen flüchtig
+wird. 56</l>
+<l>104. Von sachen die in güte oder mit rechte entscheiden sein. 56</l>
+<l>105. Von der Stadt Gemeine. 56</l>
+<l>106. Von den Bürgern vnd Bürgerinnen / die ausserhalbe vnser Stadt auff dem
+Rennelberge vnd auff dem Steinwege wonen. 57</l>
+<l>107. Von den Brökeherren vnd dem Straffgelde einzufordern. 57</l>
+<p>Gedruckt zu Magdeburgk / durch Wolffgang Kirchner / Anno 1579.</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -452,6 +452,197 @@ def _load_crosner_kirchen1531():
     return reftext.from_corpus_build_csv(path, language='german')
 
 
+# === Batch 3 (1552–1579): post-Reformation German prose. =====================
+
+# Hans Sachs, "Die kunigin peschlieff ein merwunder" (1552;
+# Meistergesang on a queen + sea monster, MG 13 fol. 35r–35v).
+@_register('sachs_meerwunder1552a')
+def _load_sachs_meerwunder1552a():
+    path = _root / 'corpora/german/DTA/1552_sachs_meerwunder1/1552_sachs_meerwunder1.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Württemberg, Newe Landtsordnung (1552; territorial law code,
+# revised and expanded edition).
+@_register('wuerttemberg1552')
+def _load_wuerttemberg1552():
+    path = _root / 'corpora/german/DTA/1552_wuerttemberg_landtsordnung/1552_wuerttemberg_landtsordnung.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Johannes Brenz, Kirchenordnung (1555; church ordinance for the
+# Duchy of Württemberg; doctrine + ceremony).
+@_register('brenz_kirchenordnung1555')
+def _load_brenz_kirchenordnung1555():
+    path = _root / 'corpora/german/DTA/1555_brenz_kirchenordnung/1555_brenz_kirchenordnung.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Hans Staden, Warhaftige Historia und beschreibung eyner Landtschafft
+# der Wilden (1557; first-hand German account of Brazil and Tupinambá
+# captivity).
+@_register('staden1557')
+def _load_staden1557():
+    path = _root / 'corpora/german/DTA/1557_staden_landschafft/1557_staden_landschafft.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Heinrich Bullinger, Haußbuoch (1558; Zürich Reformed home-and-faith
+# manual, by far the largest text in this batch ~20k rows).
+@_register('bullinger1558')
+def _load_bullinger1558():
+    path = _root / 'corpora/german/DTA/1558_bullinger_haussbuoch/1558_bullinger_haussbuoch.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Hans Sachs, "Die irrfart Ulissi mit den Werbern und seiner gemahel
+# Penelope" (written 1555, this edition 1561; Meistergesang Odyssey
+# adaptation).
+@_register('sachs_ulisses1561')
+def _load_sachs_ulisses1561():
+    path = _root / 'corpora/german/DTA/1561_sachs_ulisses/1561_sachs_ulisses.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Hans Sachs, "Königin Deudalinda mit dem Meerwunder" (1562;
+# Meistergesang SG 15 fol. 104ff.).
+@_register('sachs_meerwunder1562')
+def _load_sachs_meerwunder1562():
+    path = _root / 'corpora/german/DTA/1562_sachs_meerwunder2/1562_sachs_meerwunder2.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Melchior Walther, Ein Einfaltiger Vnd Christlicher Sermon oder
+# Leichpredigt (1562; funeral sermon).
+@_register('walther1562')
+def _load_walther1562():
+    path = _root / 'corpora/german/DTA/1562_walther_sermon/1562_walther_sermon.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Jacob Andreä, Ein Christliche Predig über der Leich (1564;
+# funeral sermon).
+@_register('andrea1564')
+def _load_andrea1564():
+    path = _root / 'corpora/german/DTA/1564_andrea_predig/1564_andrea_predig.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Anonymous, Kirchenordnung (1564; church ordinance, doctrine +
+# sacraments).
+@_register('kirchenordnung1564')
+def _load_kirchenordnung1564():
+    path = _root / 'corpora/german/DTA/1564_nn_kirchenordnung/1564_nn_kirchenordnung.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Johannes Brenz, Kirchenordnung (1565; second Brenz ordinance in
+# our corpus, distinct from 1555).
+@_register('brenz_kirchenordnung1565')
+def _load_brenz_kirchenordnung1565():
+    path = _root / 'corpora/german/DTA/1565_brenz_kirchenordnung/1565_brenz_kirchenordnung.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Braunschweig-Wolfenbüttel, Kirchenordnung (1569; church ordinance
+# issued by Duke Julius).
+@_register('braunschweig_kirchenordnung1569')
+def _load_braunschweig_kirchenordnung1569():
+    path = _root / 'corpora/german/DTA/1569_braunschweig_kirchenordnung/1569_braunschweig_kirchenordnung.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Timotheus Kirchner, Bekentnis Von der Rechtfertigung (1569;
+# confessional treatise on justification and good works).
+@_register('kirchner_bekentnis1569')
+def _load_kirchner_bekentnis1569():
+    path = _root / 'corpora/german/DTA/1569_kirchner_bekentnis/1569_kirchner_bekentnis.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Braunschweig-Wolfenbüttel, Hofgerichtsordnung (1571; ducal court
+# procedural code).
+@_register('braunschweig_hofgerichtsordnung1571')
+def _load_braunschweig_hofgerichtsordnung1571():
+    path = _root / 'corpora/german/DTA/1571_braunschweig_hofgerichtsordnung/1571_braunschweig_hofgerichtsordnung.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Gallus Etschenreutter, Aller heilsamen Bäder vnd Brunnen Natur (1571;
+# balneological / medicinal-springs treatise; high `item` block ratio
+# reflects structured spring-by-spring listings).
+@_register('etschenreutter1571')
+def _load_etschenreutter1571():
+    path = _root / 'corpora/german/DTA/1571_etschenreutter_baeder/1571_etschenreutter_baeder.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Nikolaus Selnecker, Kurtze Bekantnus (1571; brief confessional
+# statement).
+@_register('selnecker_bekantnus1571')
+def _load_selnecker_bekantnus1571():
+    path = _root / 'corpora/german/DTA/1571_selnecker_bekantnus/1571_selnecker_bekantnus.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Nikolaus Selnecker, Summa der warhafftigen Lehre (1571; companion
+# longer confessional summary).
+@_register('selnecker_summa1571')
+def _load_selnecker_summa1571():
+    path = _root / 'corpora/german/DTA/1571_selnecker_summa/1571_selnecker_summa.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Braunschweig-Wolfenbüttel, Repetition und Erklerung (1574;
+# confessional restatement of public Schriften and Confessionen).
+@_register('braunschweig_repetition1574')
+def _load_braunschweig_repetition1574():
+    path = _root / 'corpora/german/DTA/1574_braunschweig_repetition/1574_braunschweig_repetition.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Laurentius Dresserus, Leichpredigt (1578; funeral sermon).
+@_register('dresserus1578')
+def _load_dresserus1578():
+    path = _root / 'corpora/german/DTA/1578_dresserus_leichpredigt/1578_dresserus_leichpredigt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Tilemann Hesshus, Bekandtnus Von der Formula Concordiae (1578;
+# anti-Formula-of-Concord confessional polemic).
+@_register('hesshus1578')
+def _load_hesshus1578():
+    path = _root / 'corpora/german/DTA/1578_hesshus_bekendtnus/1578_hesshus_bekendtnus.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Anonymous, Erdichte Lesterschrifft (1578; defense of Hesshus against
+# a "fabricated slanderous tract").
+@_register('lesterschrifft1578')
+def _load_lesterschrifft1578():
+    path = _root / 'corpora/german/DTA/1578_nn_lesterschrifft/1578_nn_lesterschrifft.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Timotheus Kirchner, Zeugnusse und Aussage von D. Jacobs Andree
+# Einigkeit (1579; theological controversy text).
+@_register('kirchner_zeugnusse1579')
+def _load_kirchner_zeugnusse1579():
+    path = _root / 'corpora/german/DTA/1579_kirchner_zeugnusse/1579_kirchner_zeugnusse.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# Anonymous, Der Stadt Braunschweig Ordnung (1579; Braunschweig
+# religious + civic ordinance).
+@_register('braunschweig_ordnung1579')
+def _load_braunschweig_ordnung1579():
+    path = _root / 'corpora/german/DTA/1579_nn_braunschweig/1579_nn_braunschweig.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# === end Batch 3 ============================================================
+
+
 # Splendor Solis (1590; anonymous German alchemical treatise; same text
 # as the legacy `splendor`/`splendor0`, parsed via the DTA pipeline).
 @_register('splendorsolis1590')
@@ -702,7 +893,7 @@ def _load_dbnl():
 
 @_register('dta')
 def _load_dta():
-    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490', 'crescentiis1493', 'springer1509', 'ellenbog1524', 'tzeen1530', 'almanach1487', 'dracole1488', 'has1490', 'fusspfad1492', 'almanach1492', 'morgener1497', 'gottfried1497', 'rechnungsbuch1500', 'has1500', 'has1516', 'luther_passional1521', 'bucer1521', 'luther1522', 'luther_enchiridion1524', 'luther_elltern1524', 'corvinus1529', 'crosner_sacrament1531', 'crosner_kirchen1531', 'zeyttung1535', 'schnepf1536', 'luther_thesen1557', 'splendorsolis1590')]
+    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490', 'crescentiis1493', 'springer1509', 'ellenbog1524', 'tzeen1530', 'almanach1487', 'dracole1488', 'has1490', 'fusspfad1492', 'almanach1492', 'morgener1497', 'gottfried1497', 'rechnungsbuch1500', 'has1500', 'has1516', 'luther_passional1521', 'bucer1521', 'luther1522', 'luther_enchiridion1524', 'luther_elltern1524', 'corvinus1529', 'crosner_sacrament1531', 'crosner_kirchen1531', 'zeyttung1535', 'schnepf1536', 'luther_thesen1557', 'splendorsolis1590', 'sachs_meerwunder1552a', 'wuerttemberg1552', 'brenz_kirchenordnung1555', 'staden1557', 'bullinger1558', 'sachs_ulisses1561', 'sachs_meerwunder1562', 'walther1562', 'andrea1564', 'kirchenordnung1564', 'brenz_kirchenordnung1565', 'braunschweig_kirchenordnung1569', 'kirchner_bekentnis1569', 'braunschweig_hofgerichtsordnung1571', 'etschenreutter1571', 'selnecker_bekantnus1571', 'selnecker_summa1571', 'braunschweig_repetition1574', 'dresserus1578', 'hesshus1578', 'lesterschrifft1578', 'kirchner_zeugnusse1579', 'braunschweig_ordnung1579')]
     tklist = [t for _, rt in parts for t in rt.tklist]
     charlist = list(''.join(tklist))
     rt = reftext.RefText('german', tklist, charlist)

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Königin Deudalinda mit dem Meerwunder, in: SG 15, 1562, Bl. 104ff.</title>
+<title type="sub">Hrsg. und übersetzt von Anja Braun et al. Stuttgart, 2017</title>
+<author>
+<persName ref="http://d-nb.info/gnd/118604597">
+<surname>Sachs</surname>
+<forename>Hans</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+<persName>
+<surname>Braun</surname>
+<forename>Anja</forename>
+</persName>
+<persName>
+<surname>Ketschik</surname>
+<forename>Nora</forename>
+</persName>
+<persName>
+<surname>Kirchhoff</surname>
+<forename>Matthias</forename>
+</persName>
+<persName>
+<surname>Kirchhoff</surname>
+<forename>Anne</forename>
+</persName>
+<persName>
+<surname>Seidl</surname>
+<forename>Stephanie</forename>
+</persName>
+<resp>
+<note type="remarkResponsibility">Edition und Übersetzung dreier Fassungen
+des &#x201E;Meerwunders&#x201C;</note>
+<note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle
+Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand
+zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen
+muss.</note>
+<ref target="http://www.uni-stuttgart.de/germed/forschung/digitale_editionen/Meerwunder/meermit.html"/>
+<date type="importDTA">2018-02-22T15:10:46Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<persName xml:id="NK">
+<surname>Ketschik</surname>
+<forename>Nora</forename>
+</persName>
+<persName xml:id="CT">
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+<resp><note type="remarkResponsibility">Konvertierung der Ausgangsdaten (HTML)
+nach DTABf und Nachbearbeitung des XML-Dokuments.</note></resp>
+</respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">5</measure>
+<measure type="tokens">980</measure>
+<measure type="types">542</measure>
+<measure type="characters">5922</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:36:25Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by/4.0/deed.de">
+<p>Namensnennung 4.0 International (CC BY 4.0)</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/sachs_meerwunder2_1562</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/sachs_meerwunder2_1562</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/sachs_meerwunder2_1562</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/sachs_meerwunder2_1562</idno>
+<idno type="DTADirName">sachs_meerwunder2_1562</idno>
+<idno type="DTAID">32723</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-32723-3</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="MAN">Hans Sachs: Königin Deudalinda mit dem Meerwunder. In: &#x201A;SG 15&#x2018; (Spruchgedichtband 15). [s. l.], 1562, Bl. 104ff. Hrsg. und übersetzt von Anja Braun et al. Stuttgart, 2017.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Königin Deudalinda mit dem Meerwunder, in: SG 15, 1562, Bl. 104ff.</title>
+<title level="m" type="sub">Hrsg. und übersetzt von Anja Braun et al. Stuttgart, 2017</title>
+<author>
+<persName ref="http://d-nb.info/gnd/118604597">
+<surname>Sachs</surname>
+<forename>Hans</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher/>
+<date type="creation">1562</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Stadtarchiv Zwickau</repository>
+<idno>
+<idno type="shelfmark">SG 15 (Spruchgedichtband 15), Bl. 104ff. [verschollen, daher ediert nach Keller/Goetze 1886]</idno>
+<idno type="URLCatalogue">http://d-nb.info/454247818</idno>
+<idno type="URLImages">https://books.google.com/books?id=2Qc3AAAAMAAJ</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<handDesc>
+<p>Current</p>
+</handDesc>
+<typeDesc>
+<p>Handschrift</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Verfahren der Texterfassung: manuell (einfach erfasst).</p>
+<p>Der Sangspruchband SG 15 des Stadtarchivs Zwickau, der auf Blatt 104ff. das Gedicht &#x201E;Königin Deudalinda mit dem Meerwunder&#x201C; enthält, ist seit mindestens 1853 verschollen. Der Text ist daher nur noch durch eine <a href="http://d-nb.info/454247818" target="_blank">Edition von Keller/Goetze aus dem Jahr 1886</a> erschließbar. Ein kritischer Apparat ist dem Text nicht beigegeben, so dass Aussagen über eventuelle Eingriffe der Herausgeber in den ursprünglichen Wortlaut der Handschrift nicht möglich sind. <br/>
+Der editorische Handlungsspielraum der vorliegenden Neuedition ist durch die Überlieferungssituation stark eingeschränkt. Es werden folgende Eingriffe vorgenommen: Korrektur grammatischer Fehler, moderne Interpunktion, Zusammenziehen halbgetrennter Wörter wie &#x201E;zu-letzt&#x201C;. Andere Gepflogenheiten wie Groß- und Kleinschreibung und u/v-Ausgleich entsprechen bei Keller/Goetze modernen Standards und mussten deshalb nicht verändert werden. </p>
+<ul>
+<li>Druckfehler: dokumentiert;</li>
+<li>Geminations-/Abkürzungsstriche: nur expandiert;</li>
+<li>i/j in Fraktur: Lautwert transkribiert;</li>
+<li>langes s (&#x017F;): als s transkribiert;</li>
+<li>Normalisierungen: keine;</li>
+<li>Seitenumbrüche markiert: ja;</li>
+<li>u/v bzw. U/V: Lautwert transkribiert;</li>
+<li>Vollständigkeit: vollständig erfasst;</li>
+<li>Zeichensetzung: normalisiert;</li>
+<li>Zeilenumbrüche markiert: ja.</li>
+</ul>
+<p>
+Zeilenanfänge werden immer, ggf. auch entgegen der Vorlage, groß geschrieben.
+</p>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Heldenepik</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">dtae</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<pb facs="#f0001" n="59b"/>
+<front>              <div>                  <head><supplied resp="#NK"><persName ref="http://d-nb.info/gnd/118604597">Hans Sachs</persName>:</supplied><lb/>
+Historia: Königin Deudalinda mit dem<lb/>
+meerwunder.</head><lb/>
+</div>          </front>          <body>          <div>              <lg type="poem">                  <lg n="1">                      <l n="1">Der Lamparder cronica sagt das,<note resp="#NK" type="editorial">Übertragung: &#x201E;Die Chronik der Lombarden erzählt davon,&#x201C;</note></l><lb/>
+<l n="2">Wie ein köng in Lamparten saß,<note resp="#NK" type="editorial">Übertragung: &#x201E;wie ein König über die Lombardei herrschte,&#x201C;</note></l><lb/>
+<l n="3">Agilulphus genennt mit nam,<note resp="#NK" type="editorial">Übertragung: &#x201E;dessen Name Agilulphus war,&#x201C;</note></l><lb/>
+<l n="4">Der viertzehendt könig freysam.<note resp="#NK" type="editorial">Übertragung: &#x201E;der vierzehnte gewaltige König.&#x201C;</note></l><lb/>
+<l n="5">Hett deß königs tochter, genannt<note resp="#NK" type="editorial">Übertragung: &#x201E;Er hatte die Tochter des bayrischen Königs zur Frau,&#x201C;</note></l><lb/>
+<l n="6">Deudalinda, auß Bayerland,<note resp="#NK" type="editorial">Übertragung: &#x201E;Deudalinda genannt,&#x201C;</note></l><lb/>
+<l n="7">Ein zartes weib, ehrlich und frumb.<note resp="#NK" type="editorial">Übertragung: &#x201E;eine anmutige, ehrenhafte und tüchtige Frau.&#x201C;</note></l><lb/>
+<l n="8">Die eins tags in dem königthumb<note resp="#NK" type="editorial">Übertragung: &#x201E;Die fuhr eines Tages innerhalb des Königreichs ans Meer aus, &#x201C;</note></l><lb/>
+<l n="9"><choice><sic>Außfuhren</sic><corr resp="#NK">Außfuhr</corr></choice> an das meer spatzieren<note resp="#NK" type="editorial">Übertragung: &#x201E;um spazieren zu gehen,&#x201C;</note></l><lb/>
+<l n="10">Und wolt ein klein sich ermayiren<note resp="#NK" type="editorial">Übertragung: &#x201E;und wollte ein wenig &#x201C;</note></l><lb/>
+<l n="11">Mit iren edelen junckfrawen,<note resp="#NK" type="editorial">Übertragung: &#x201E;mit ihren adligen Jungfrauen den Frühling genießen,&#x201C;</note></l><lb/>
+<l n="12">An deß meeres gstatt in einr awen,<note resp="#NK" type="editorial">Übertragung: &#x201E;am Meeresstrand in einer Aue;&#x201C;</note></l><lb/>
+<l n="13">Da zu erfrischen ir gemüt<note resp="#NK" type="editorial">Übertragung: &#x201E;dort (wollte sie) ihr Gemüt erfrischen&#x201C;</note></l><lb/>
+<l n="14">In deß grunenden meyen blüt.<note resp="#NK" type="editorial">Übertragung: &#x201E;in der Blüte des grünenden Mai.&#x201C;</note></l><lb/>
+<l n="15">Mancherley farb blümlein sie funden.<note resp="#NK" type="editorial">Übertragung: &#x201E;Sie fanden Blümchen von vielerlei Farbe.&#x201C;</note></l><lb/>
+<l n="16">Da sie artliche kräntzlein bunden<note resp="#NK" type="editorial">Übertragung: &#x201E;Sie banden dort kunstvolle Kränzlein&#x201C;</note></l><lb/>
+<l n="17">Und hetten da singende reyen<note resp="#NK" type="editorial">Übertragung: &#x201E;und tanzten dort singend Reigen&#x201C;</note></l><lb/>
+<pb facs="#f0002" n="59c"/>
+<l n="18">Mit ander freuden mancherleyen,<note resp="#NK" type="editorial">Übertragung: &#x201E;neben vielerlei anderen Freuden;&#x201C;</note></l><lb/>
+<l n="19">Eine hie und die ander dort.<note resp="#NK" type="editorial">Übertragung: &#x201E;die eine hier und die andere dort.&#x201C;</note></l><lb/>
+<l n="20">Aber die köngin an dem ort<note resp="#NK" type="editorial">Übertragung: &#x201E;Die Königin ging dann aber an diesem Ort &#x201C;</note></l><lb/>
+<l n="21">Fuß für fuß gieng da in kürtzweyl<note resp="#NK" type="editorial">Übertragung: &#x201E;Schritt für Schritt als Zeitvertreib&#x201C;</note></l><lb/>
+<l n="22">Etwas fast auff ein viertheilmeyl<note resp="#NK" type="editorial">Übertragung: &#x201E;etwas zu weit fort, eine Viertelmeile&#x201C;</note></l><lb/>
+<l n="23">In dem gestreuß <choice><sic>an</sic><corr resp="#NK">ans</corr></choice> meers gestatt.<note resp="#NK" type="editorial">Übertragung: &#x201E;im Gesträuch am Meeresstrand.&#x201C;</note></l><lb/>
+<l n="24">Da sie alsbald ersehen hatt<note resp="#NK" type="editorial">Übertragung: &#x201E;Dort sah sie bald&#x201C;</note></l><lb/>
+<l n="25">In dem meer ein schröcklich meerwunder,<note resp="#NK" type="editorial">Übertragung: &#x201E;im Meer ein schreckliches Meerwunder,&#x201C;</note></l><lb/>
+<l n="26">Einer grewlichen gstalt besunder,<note resp="#NK" type="editorial">Übertragung: &#x201E;von einer ausnehmend scheußlichen Gestalt,&#x201C;</note></l><lb/>
+<l n="27">Das uberal verwachssen war,<note resp="#NK" type="editorial">Übertragung: &#x201E;das am ganzen Körper missgestaltet war&#x201C;</note></l><lb/>
+<l n="28">Wie ein ber, mit rabschwartzem haar.<note resp="#NK" type="editorial">Übertragung: &#x201E;wie ein Bär, mit rabenschwarzem Haar;&#x201C;</note></l><lb/>
+<l n="29">Sein augen glasteten mit fewer.<note resp="#NK" type="editorial">Übertragung: &#x201E;seine Augen loderten voller Feuer,&#x201C;</note></l><lb/>
+<l n="30">Auch hett das meerwunder unghewer<note resp="#NK" type="editorial">Übertragung: &#x201E;zudem hatte das furchtbare Meerwunder&#x201C;</note></l><lb/>
+<l n="31">Zwen flügel wie die fledermeuß.<note resp="#NK" type="editorial">Übertragung: &#x201E;zwei Flügel wie die Fledermäuse.&#x201C;</note></l><lb/>
+<l n="32">Diß meerwunder auß dem gestreuß<note resp="#NK" type="editorial">Übertragung: &#x201E;Dieses Meerwunder aus dem Gesträuch&#x201C;</note></l><lb/>
+<l n="33">Eylt geschwind her auß dem meer tiff<note resp="#NK" type="editorial">Übertragung: &#x201E;eilte geschwind aus dem tiefen Meer heraus&#x201C;</note></l><lb/>
+<l n="34">Und die zart königin ergriff.<note resp="#NK" type="editorial">Übertragung: &#x201E;und ergriff die anmutige Königin.&#x201C;</note></l><lb/>
+<l n="35">Die köngin thet ihm widerstreben,<note resp="#NK" type="editorial">Übertragung: &#x201E;Die Königin leistete ihm Widerstand&#x201C;</note></l><lb/>
+<l n="36">Schrey: &#x201E;Mordio!&#x201C; von leib und leben.<note resp="#NK" type="editorial">Übertragung: &#x201E;(und) schrie: &#x201A;Mordio!&#x2018;, um Leib und Leben.&#x201C;</note></l><lb/>
+<l n="37">Doch unerhöret war ihr stimm.<note resp="#NK" type="editorial">Übertragung: &#x201E;Doch ihre Stimme wurde nicht gehört.&#x201C;</note></l><lb/>
+<l n="38">Das meerwunder in sterck mit grimm<note resp="#NK" type="editorial">Übertragung: &#x201E;Das Meerwunder überwältigte sie voller Stärke und Ingrimm,&#x201C;</note></l><lb/>
+<l n="39">Sie ubergweltigt, mit ir rang,<note resp="#NK" type="editorial">Übertragung: &#x201E;kämpfte mir ihr,&#x201C;</note></l><lb/>
+<l n="40">Fellt sie und in dem gstreuß notzwang.<note resp="#NK" type="editorial">Übertragung: &#x201E;brachte sie zu Fall und vergewaltigte sie im Gesträuch.&#x201C;</note></l><lb/>
+<l n="41">Die köngin schrey in hertzenleyd.<note resp="#NK" type="editorial">Übertragung: &#x201E;Die Königin schrie vor Herzeleid.&#x201C;</note></l><lb/>
+<l n="42">Indem ein ritter vom gejeyd<note resp="#NK" type="editorial">Übertragung: &#x201E;Unterdessen kam von ungefähr ein Ritter&#x201C;</note></l><lb/>
+<l n="43">Ungfehr reit, hört die kläglich stimm<note resp="#NK" type="editorial">Übertragung: &#x201E;von der Jagd dahergeritten; er hörte die klagende Stimme&#x201C;</note></l><lb/>
+<l n="44">Der frawen und rennet in grimm<note resp="#NK" type="editorial">Übertragung: &#x201E;der Frau und eilte ingrimmig&#x201C;</note></l><lb/>
+<l n="45">Dem gestreuß zu, dem gschrey nachsucht.<note resp="#NK" type="editorial">Übertragung: &#x201E;auf das Gesträuch zu. Er ging dem Geschrei auf den Grund.&#x201C;</note></l><lb/>
+<l n="46">Da gab das meerwunder die flucht<note resp="#NK" type="editorial">Übertragung: &#x201E;Da flüchtete das Meerwunder&#x201C;</note></l><lb/>
+<l n="47">Und sprang hinein das wüttend meer.<note resp="#NK" type="editorial">Übertragung: &#x201E;und sprang in das wütende Meer hinein.&#x201C;</note></l><lb/>
+<l n="48">Die köngin betrübt weynet sehr.<note resp="#NK" type="editorial">Übertragung: &#x201E;Die betrübte Königin weinte bitterlich.&#x201C;</note></l><lb/>
+<l n="49">Doch zeygt sie dem ritter nicht an,<note resp="#NK" type="editorial">Übertragung: &#x201E;Dennoch berichtete sie dem Ritter nicht, &#x201C;</note></l><lb/>
+<l n="50">Was das meerwunder hett gethan.<note resp="#NK" type="editorial">Übertragung: &#x201E;was das Meerwunder getan hatte.&#x201C;</note></l><lb/>
+<l n="51">Sagt, es hett sie wöllen ertrencken,<note resp="#NK" type="editorial">Übertragung: &#x201E;Sie sagte, es habe sie ertränken&#x201C;</note></l><lb/>
+<l n="52">Mit gewalt in das meer versencken.<note resp="#NK" type="editorial">Übertragung: &#x201E;und mit Gewalt ins Meer versenken wollen.&#x201C;</note></l><lb/>
+<l n="53">Der beleyt die köngin forchtsam,<note resp="#NK" type="editorial">Übertragung: &#x201E;Der (Ritter) geleitete die verängstigte Königin,&#x201C;</note></l><lb/>
+<l n="54">Biß zu dem frawenzimmer kam.<note resp="#NK" type="editorial">Übertragung: &#x201E;bis sie zu ihrem Gefolge gelangte.&#x201C;</note></l><lb/>
+<l n="55">Die war vol hertzleyd, angst und schrecken,<note resp="#NK" type="editorial">Übertragung: &#x201E;Die (Königin) war erfüllt von Herzeleid, Angst und Schrecken,&#x201C;</note></l><lb/>
+<l n="56">Vol unmuts in dem hertzen stecken.<note resp="#NK" type="editorial">Übertragung: &#x201E;voller Verzagtheit im Herzen.&#x201C;</note></l><lb/>
+<l n="57">Doch sagt sie niemand die geschicht.<note resp="#NK" type="editorial">Übertragung: &#x201E;Dennoch erzählte sie niemandem die Geschichte.&#x201C;</note></l><lb/>
+<l n="58">Nach eim monat fund sie gericht,<note resp="#NK" type="editorial">Übertragung: &#x201E;Nach einem Monat bemerkte die Königin,&#x201C;</note></l><lb/>
+<pb facs="#f0003" n="59d"/>
+<l n="59">Daß die köngin war schwanger worn<note resp="#NK" type="editorial">Übertragung: &#x201E;dass sie&#x201C;</note></l><lb/>
+<l n="60">Von dem meerwundr, und hat geborn<note resp="#NK" type="editorial">Übertragung: &#x201E;von dem Meerwunder schwanger geworden war. Und sie gebar&#x201C;</note></l><lb/>
+<l n="61">Nach der zeit ein ungschaffen sun,<note resp="#NK" type="editorial">Übertragung: &#x201E;nach der Zeit (der Schwangerschaft) einen missgestalteten Sohn,&#x201C;</note></l><lb/>
+<l n="62">Rauch und schwartz, gleich seim vatter nun.<note resp="#NK" type="editorial">Übertragung: &#x201E;haarig und schwarz, der nun seinem Vater glich.&#x201C;</note></l><lb/>
+<l n="63">Deß iederman groß wunder hatt<note resp="#NK" type="editorial">Übertragung: &#x201E;Darüber wunderte sich jedermann sehr&#x201C;</note></l><lb/>
+<l n="64">Und hielt es für ein wunderthat.<note resp="#NK" type="editorial">Übertragung: &#x201E;und hielt es für eine Wundertat.&#x201C;</note></l><lb/>
+<l n="65">Dises kind aufferzogen wur,<note resp="#NK" type="editorial">Übertragung: &#x201E;Dieses Kind wurde groß gezogen;&#x201C;</note></l><lb/>
+<l n="66">Das war gantz dückischer natur.<note resp="#NK" type="editorial">Übertragung: &#x201E;es war von ganz tückischem Wesen:&#x201C;</note></l><lb/>
+<l n="67">In seiner jugend junger jar<note resp="#NK" type="editorial">Übertragung: &#x201E;In seiner Jugend, in jungen Jahren&#x201C;</note></l><lb/>
+<l n="68">Es vil kinder bescheding war.<note resp="#NK" type="editorial">Übertragung: &#x201E;verletzte es viele Kinder.&#x201C;</note></l><lb/>
+<l n="69">Mit sein fingern ir augn außstach,<note resp="#NK" type="editorial">Übertragung: &#x201E;Mit seinen Fingern stach es ihre Augen aus,&#x201C;</note></l><lb/>
+<l n="70">Sie stürtzt, ihn arm und beyn abbrach.<note resp="#NK" type="editorial">Übertragung: &#x201E;warf sie zu Boden, riss ihnen Arme und Beine aus.&#x201C;</note></l><lb/>
+<l n="71">Als er kam in das zwölffte jar,<note resp="#NK" type="editorial">Übertragung: &#x201E;Als er ins zwölfte Lebensjahr kam,&#x201C;</note></l><lb/>
+<l n="72">Er gar wüst und tyrannisch war<note resp="#NK" type="editorial">Übertragung: &#x201E;war er sehr wüst und tyrannisch&#x201C;</note></l><lb/>
+<l n="73">Und bracht umb vil der edlen knaben,<note resp="#NK" type="editorial">Übertragung: &#x201E;und brachte viele adlige Knaben um,&#x201C;</note></l><lb/>
+<l n="74">Wo die mit im geschertzet haben.<note resp="#NK" type="editorial">Übertragung: &#x201E;wenn diese mit ihm spielten.&#x201C;</note></l><lb/>
+<l n="75">Das hofgsind hett an im ein grawen,<note resp="#NK" type="editorial">Übertragung: &#x201E;Der Hofgesellschaft graute es vor ihm,&#x201C;</note></l><lb/>
+<l n="76">Er schwecht auch frawen und junckfrauwen.<note resp="#NK" type="editorial">Übertragung: &#x201E;er missbrauchte auch Damen und Jungfrauen.&#x201C;</note></l><lb/>
+<l n="77">Zuletzt ward er gar ungestümb,<note resp="#NK" type="editorial">Übertragung: &#x201E;Schließlich wurde er (so) überaus anmaßend,&#x201C;</note></l><lb/>
+<l n="78">Daß er bracht etlich männer umb,<note resp="#NK" type="editorial">Übertragung: &#x201E;dass er etliche Männer umbrachte,&#x201C;</note></l><lb/>
+<l n="79">Wer ihm solch böse stück ward wehrn,<note resp="#NK" type="editorial">Übertragung: &#x201E;die ihn an seinen bösen Taten hinderten&#x201C;</note></l><lb/>
+<l n="80">Ihn ziehen wolt zu fürstling ehrn.<note resp="#NK" type="editorial">Übertragung: &#x201E;und ihn zu fürstlichen Ehren erziehen wollten.&#x201C;</note></l><lb/>
+<l n="81">Als in der köng einsmals selbst strafft<note resp="#NK" type="editorial">Übertragung: &#x201E;Als ihn der König einmal persönlich &#x201C;</note></l><lb/>
+<l n="82">Mit worten, wurd er so boßhafft,<note resp="#NK" type="editorial">Übertragung: &#x201E;mit Worten tadelte, wurde er so boshaft,&#x201C;</note></l><lb/>
+<l n="83">Daß er den köng mit trutz loff an,<note resp="#NK" type="editorial">Übertragung: &#x201E;dass er den König voller Feindseligkeit&#x201C;</note></l><lb/>
+<l n="84">Mit zogner wehr, und ihn wolt han<note resp="#NK" type="editorial">Übertragung: &#x201E;mit gezogener Waffe angriff, und ihn&#x201C;</note></l><lb/>
+<l n="85">Erstochen auff deß königs saal.<note resp="#NK" type="editorial">Übertragung: &#x201E;in der Halle des Königs erstechen wollte.&#x201C;</note></l><lb/>
+<l n="86">Der allein war und hett dißmal<note resp="#NK" type="editorial">Übertragung: &#x201E;Dieser war ohne Gefolge und hatte bei dieser Gelegenheit&#x201C;</note></l><lb/>
+<l n="87">Sein rechten son, welcher bald zug<note resp="#NK" type="editorial">Übertragung: &#x201E;seinen rechtmäßigen Sohn (bei sich), der sofort&#x201C;</note></l><lb/>
+<l n="88">Von ledr und auff das monstrum schlug<note resp="#NK" type="editorial">Übertragung: &#x201E;das Schwert zog und auf das Monstrum einschlug&#x201C;</note></l><lb/>
+<l n="89">Und dem könig da halff zu stund.<note resp="#NK" type="editorial">Übertragung: &#x201E;und dem König dort augenblicklich half.&#x201C;</note></l><lb/>
+<l n="90">Doch wurdens all beyd von im wund.<note resp="#NK" type="editorial">Übertragung: &#x201E;Jedoch wurden sie alle beide von ihm (dem Bastard) verwundet.&#x201C;</note></l><lb/>
+<l n="91">Doch hawtens im auch wunden groß.<note resp="#NK" type="editorial">Übertragung: &#x201E;Dennoch schlugen sie ihm ebenfalls große Wunden.&#x201C;</note></l><lb/>
+<l n="92">Die köngin kam und selber schoß<note resp="#NK" type="editorial">Übertragung: &#x201E;Die Königin kam und schoss höchstpersönlich&#x201C;</note></l><lb/>
+<l n="93">Mit dem handbogen manchen stral,<note resp="#NK" type="editorial">Übertragung: &#x201E;mit dem Handbogen viele Pfeile,&#x201C;</note></l><lb/>
+<l n="94">Biß sie doch erlegten zumal<note resp="#NK" type="editorial">Übertragung: &#x201E;bis sie schließlich zusammen&#x201C;</note></l><lb/>
+<l n="95">Dises ungefüge monstrum.<note resp="#NK" type="editorial">Übertragung: &#x201E;dieses grässliche Monstrum erlegten.&#x201C;</note></l><lb/>
+<l n="96">Nachdem der alte könig frum<note resp="#NK" type="editorial">Übertragung: &#x201E;Danach sprach der treffliche alte König&#x201C;</note></l><lb/>
+<l n="97">Die köngin war anreden thun:<note resp="#NK" type="editorial">Übertragung: &#x201E;die Königin an:&#x201C;</note></l><lb/>
+<l n="98">&#x201E;Diser ist nicht gwest mein sun.&#x201C;,<note resp="#NK" type="editorial">Übertragung: &#x201E;&#x201A;Dieser ist nicht mein Sohn gewesen.&#x2018;,&#x201C;</note></l><lb/>
+<l n="99">Weyl er nicht gwest wer seinr natur.<note resp="#NK" type="editorial">Übertragung: &#x201E;da er nicht seinem (des Königs) Wesen entsprochen habe.&#x201C;</note></l><lb/>
+<pb facs="#f0004" n="59d"/>
+<l n="100">&#x201E;Darumb bekenn lauter und pur,<note resp="#NK" type="editorial">Übertragung: &#x201E;&#x201A;Darum bekenne klar und rein,&#x201C;</note></l><lb/>
+<l n="101">Von wem du den entpfangen hast!<note resp="#NK" type="editorial">Übertragung: &#x201E;von wem du diesen empfangen hast!&#x201C;</note></l><lb/>
+<l n="102">Deß ehbruchs solt kein uberlast<note resp="#NK" type="editorial">Übertragung: &#x201E;Du sollst nicht übermäßig am Ehebruch leiden,&#x201C;</note></l><lb/>
+<l n="103">Haben, sey dir warhafft vergeben,<note resp="#NK" type="editorial">Übertragung: &#x201E;er sei dir wahrhaft vergeben,&#x201C;</note></l><lb/>
+<l n="104">Nicht mehr zu dencken dein gantz leben.&#x201C;<note resp="#NK" type="editorial">Übertragung: &#x201E;dass du nicht dein ganzes Leben daran denken musst.&#x2018;&#x201C;</note></l><lb/>
+<l n="105">Da sagt die köngin her besunder,<note resp="#NK" type="editorial">Übertragung: &#x201E;Da berichtete die Königin ausführlich,&#x201C;</note></l><lb/>
+<l n="106">Was sich mit dem schendling meerwunder<note resp="#NK" type="editorial">Übertragung: &#x201E;was sich mit dem schändlichen Meerwunder&#x201C;</note></l><lb/>
+<l n="107">Vor diser zeit begeben het,<note resp="#NK" type="editorial">Übertragung: &#x201E;vor Zeiten begeben hatte;&#x201C;</note></l><lb/>
+<l n="108">Und den ritter anzeygen thet,<note resp="#NK" type="editorial">Übertragung: &#x201E;und sie benannte den Ritter,&#x201C;</note></l><lb/>
+<l n="109">Der auch irem gschrey zu war kommen,<note resp="#NK" type="editorial">Übertragung: &#x201E;der ihrem Geschrei gefolgt war,&#x201C;</note></l><lb/>
+<l n="110">Als das meerwundr die flucht het gnommen.<note resp="#NK" type="editorial">Übertragung: &#x201E;(und) wie das Meerwunder die Flucht ergriffen hatte.&#x201C;</note></l><lb/>
+<l n="111">Der ritter da bekennen thet,<note resp="#NK" type="editorial">Übertragung: &#x201E;Der Ritter bestätigte dies,&#x201C;</note></l><lb/>
+<l n="112">Der hinderwertling gsehen het<note resp="#NK" type="editorial">Übertragung: &#x201E;welcher das Meerwunder von hinten&#x201C;</note></l><lb/>
+<l n="113">Das meerwunder ins meere springen.<note resp="#NK" type="editorial">Übertragung: &#x201E;ins Meer springen gesehen hatte.&#x201C;</note></l><lb/>
+<l n="114">Der köng gelaubet disen dingen.<note resp="#NK" type="editorial">Übertragung: &#x201E;Der König glaubte diesen Darstellungen&#x201C;</note></l><lb/>
+<l n="115">Aller sach wol zufrieden war.<note resp="#NK" type="editorial">Übertragung: &#x201E;(und) war mit den Dingen hochzufrieden.&#x201C;</note></l><lb/>
+<l n="116">Doch hett er lust auch mit gefahr,<note resp="#NK" type="editorial">Übertragung: &#x201E;Doch hatte er, um ihm zu schaden, Lust darauf,&#x201C;</note></l><lb/>
+<l n="117">Dises meerwunder selbst zu sehen,<note resp="#NK" type="editorial">Übertragung: &#x201E;dieses Meerwunder selbst zu sehen,&#x201C;</note></l><lb/>
+<l n="118">Von dem diser grewl war geschehen.<note resp="#NK" type="editorial">Übertragung: &#x201E;von dem diese Gräueltat geschehen war.&#x201C;</note></l><lb/>
+<l n="119">Und reit mit seinem son außhin.<note resp="#NK" type="editorial">Übertragung: &#x201E;Und (er) ritt mit seinem Sohn hinaus&#x201C;</note></l><lb/>
+<l n="120">Namb auch mit ihm die königin<note resp="#NK" type="editorial">Übertragung: &#x201E;(und) nahm auch die Königin mit sich&#x201C;</note></l><lb/>
+<l n="121">Gleich zu dem gstreuß, da ir vor jarn<note resp="#NK" type="editorial">Übertragung: &#x201E;direkt zu dem Gesträuch, wo ihr vor Jahren&#x201C;</note></l><lb/>
+<l n="122">Die grewligkeit war widerfahrn<note resp="#NK" type="editorial">Übertragung: &#x201E;die Grausamkeit von diesem schrecklichen Meerwunder&#x201C;</note></l><lb/>
+<l n="123">Von disem schröcklichen meerwunder.<note resp="#NK" type="editorial">Übertragung: &#x201E;widerfahren war.&#x201C;</note></l><lb/>
+<l n="124">Die zwen verhielten sich besunder<note resp="#NK" type="editorial">Übertragung: &#x201E;Die beiden versteckten sich abseits&#x201C;</note></l><lb/>
+<l n="125">Im gstreuß. die köngin gieng einwertz,<note resp="#NK" type="editorial">Übertragung: &#x201E;im Gesträuch; die Königin ging hinein,&#x201C;</note></l><lb/>
+<l n="126">Doch war ir darzu schwer das hertz.<note resp="#NK" type="editorial">Übertragung: &#x201E;doch war ihr dabei das Herz schwer.&#x201C;</note></l><lb/>
+<l n="127">Indems meerwunder auß dem meer<note resp="#NK" type="editorial">Übertragung: &#x201E;Im selben Augenblick sprang das Meerwunder aus dem Meer&#x201C;</note></l><lb/>
+<l n="128">Sprang und eylt auff die köngin sehr.<note resp="#NK" type="editorial">Übertragung: &#x201E;und stürzte auf die Königin zu.&#x201C;</note></l><lb/>
+<l n="129">Die fieng mit krefften an zu schreyen<note resp="#NK" type="editorial">Übertragung: &#x201E;Die fing aus Leibeskräften an,&#x201C;</note></l><lb/>
+<l n="130">Umb hilff, gar kleglich disen zweyen.<note resp="#NK" type="editorial">Übertragung: &#x201E;um Hilfe zu schreien, was diese beiden beklagenswert fanden.&#x201C;</note></l><lb/>
+<l n="131">Vatter und son von leder zugen,<note resp="#NK" type="editorial">Übertragung: &#x201E;Vater und Sohn zogen das Schwert,&#x201C;</note></l><lb/>
+<l n="132">Auffs meerwunder stachen und schlugen.<note resp="#NK" type="editorial">Übertragung: &#x201E;stachen und schlugen auf das Meerwunder ein,&#x201C;</note></l><lb/>
+<l n="133">Das sich ernstlich zu wehr ward stellen<note resp="#NK" type="editorial">Übertragung: &#x201E;das sich erbittert zur Wehr setzte&#x201C;</note></l><lb/>
+<l n="134">Mit beissen, werffen und mit krellen,<note resp="#NK" type="editorial">Übertragung: &#x201E;mit Beißen, Schleudern und mit Krallen,&#x201C;</note></l><lb/>
+<l n="135">Wann es war sehr krefftig und starck<note resp="#NK" type="editorial">Übertragung: &#x201E;denn es war sehr kräftig und stark&#x201C;</note></l><lb/>
+<l n="136">Und sehr schwind, gantz mördisch und arg.<note resp="#NK" type="editorial">Übertragung: &#x201E;und sehr geschwind, überaus mordgierig und hinterlistig.&#x201C;</note></l><lb/>
+<l n="137">Wehrt sich ihr auff ein gantze stund,<note resp="#NK" type="editorial">Übertragung: &#x201E;(Es) erwehrte sich ihrer fast eine ganze Stunde lang,&#x201C;</note></l><lb/>
+<l n="138">Biß sie es doch hawten todwund,<note resp="#NK" type="editorial">Übertragung: &#x201E;bis sie ihm doch tödliche Wunden schlugen,&#x201C;</note></l><lb/>
+<l n="139">Daß es fiel und lag todt zuletzt.<note resp="#NK" type="editorial">Übertragung: &#x201E;so dass  es stürzte und schließlich tot dalag.&#x201C;</note></l><lb/>
+<l n="140">Der köng sich seiner gstalt entsetzt.<note resp="#NK" type="editorial">Übertragung: &#x201E;Der König entsetzte sich vor seinem Anblick.&#x201C;</note></l><lb/>
+<pb facs="#f0005" n="60b"/>
+<l n="141">Zogen wider heym von dem meer<note resp="#NK" type="editorial">Übertragung: &#x201E;Sie zogen zurück heimwärts von dem Meer&#x201C;</note></l><lb/>
+<l n="142">Und sageten gott lob und ehr.<note resp="#NK" type="editorial">Übertragung: &#x201E;und sagten Gott Lob und Ehre.&#x201C;</note></l><lb/>
+<l n="143">Die gschicht geschehen ist fürwar<note resp="#NK" type="editorial">Übertragung: &#x201E;Die Geschichte ist wahrlich geschehen&#x201C;</note></l><lb/>
+<l n="144">Ungfehr, als man sechshundert jar<note resp="#NK" type="editorial">Übertragung: &#x201E;ungefähr, als man sechshundert Jahre&#x201C;</note></l><lb/>
+<l n="145">Nach Christi geburt zehlet hat.<note resp="#NK" type="editorial">Übertragung: &#x201E;nach Christi Geburt gezählt hatte.&#x201C;</note></l><lb/>
+</lg>                  <lg n="2">                      <head>Beschluß<note resp="#NK" type="editorial">Übertragung: &#x201E;Schluss(folgerung)&#x201C;</note></head>                      <l n="147">Auß der geschicht man klar verstaht,<note resp="#NK" type="editorial">Übertragung: &#x201E;Aus der Geschichte versteht man deutlich,&#x201C;</note></l><lb/>
+<l n="148">Daß ein weyb nich sol weit spatzieren<note resp="#NK" type="editorial">Übertragung: &#x201E;dass eine Frau nicht weitab spazieren gehen soll&#x201C;</note></l><lb/>
+<l n="149">Und auß fürwitz sol umbrefieren<note resp="#NK" type="editorial">Übertragung: &#x201E;und aus Neugierde an Orten umherschweifen&#x201C;</note></l><lb/>
+<l n="150">An orten, so sind öd und wildt.<note resp="#NK" type="editorial">Übertragung: &#x201E;die verlassen und verwildert sind&#x201C;</note></l><lb/>
+<l n="151">Daran ein ehrlich weibesbildt<note resp="#NK" type="editorial">Übertragung: &#x201E;und an denen eine ehrliche Frauengestalt&#x201C;</note></l><lb/>
+<l n="152">Etwann geschendet werden mag<note resp="#NK" type="editorial">Übertragung: &#x201E;zuweilen gegen ihren Willen &#x201C;</note></l><lb/>
+<l n="153">Ohn iren willn bey nacht und tag<note resp="#NK" type="editorial">Übertragung: &#x201E;bei Tag und Nacht &#x201C;</note></l><lb/>
+<l n="154">Von einem unverschempten mann,<note resp="#NK" type="editorial">Übertragung: &#x201E;von einem schamlosen Mann geschändet werden kann,&#x201C;</note></l><lb/>
+<l n="155">Da sie sich nicht entschütten kann<note resp="#NK" type="editorial">Übertragung: &#x201E;da sie sich nicht mit ihrem&#x201C;</note></l><lb/>
+<l n="156">Mit irm notschreyen oder gelffen.<note resp="#NK" type="editorial">Übertragung: &#x201E;Hilfeschreien oder Rufen befreien kann&#x201C;</note></l><lb/>
+<l n="157">Ir auch auß gfahr kan niemand helffen.<note resp="#NK" type="editorial">Übertragung: &#x201E;(und) ihr auch niemand aus (der) Gefahr helfen kann.&#x201C;</note></l><lb/>
+<l n="158">Auch nicht kan helffn ir gegenwehr,<note resp="#NK" type="editorial">Übertragung: &#x201E;Ebenso wenig hilft (ihr) ihre Gegenwehr,&#x201C;</note></l><lb/>
+<l n="159">Sonder kombt umb ir weiblich ehr,<note resp="#NK" type="editorial">Übertragung: &#x201E;vielmehr wird sie um ihre weibliche Ehre gebracht,&#x201C;</note></l><lb/>
+<l n="160">Die sie nicht widerbringen mag.<note resp="#NK" type="editorial">Übertragung: &#x201E;die sie nicht wiederzugewinnen vermag;&#x201C;</note></l><lb/>
+<l n="161">Hat darob schand ir lebent tag.<note resp="#NK" type="editorial">Übertragung: &#x201E;sie hat deshalb ihr Lebtag Schande.&#x201C;</note></l><lb/>
+<l n="162">Ob es gleich sonst kein mensch mehr weiß,<note resp="#NK" type="editorial">Übertragung: &#x201E;Obwohl sich sonst kein Mensch mehr daran erinnert,&#x201C;</note></l><lb/>
+<l n="163">Muß sie doch sorgen böß geschreys.<note resp="#NK" type="editorial">Übertragung: &#x201E;muss sie sich doch vor übler Nachrede fürchten.&#x201C;</note></l><lb/>
+<l n="164">Derhalb sol sich ein weib einziehen,<note resp="#NK" type="editorial">Übertragung: &#x201E;Aus diesem Grund soll eine Frau zurückgezogen leben,&#x201C;</note></l><lb/>
+<l n="165">Alle einsame örter fliehen<note resp="#NK" type="editorial">Übertragung: &#x201E;alle einsamen Orte meiden&#x201C;</note></l><lb/>
+<l n="166">Und sich halten bey der gemeyn.<note resp="#NK" type="editorial">Übertragung: &#x201E;und sich in Gesellschaft aufhalten,&#x201C;</note></l><lb/>
+<l n="167">Da sie verwart mag sicher seyn<note resp="#NK" type="editorial">Übertragung: &#x201E;in der sie sicher aufgehoben ist,&#x201C;</note></l><lb/>
+<l n="168">In zucht irer weiblichen ehr<note resp="#NK" type="editorial">Übertragung: &#x201E;wie es ihrer weiblichen Ehre gebührt,&#x201C;</note></l><lb/>
+<l n="169">Bey ander ehrling frawen mehr<note resp="#NK" type="editorial">Übertragung: &#x201E;bei vielen anderen ehrlichen Frauen,&#x201C;</note></l><lb/>
+<l n="170">Und werd gefreyt solch ungemachs.<note resp="#NK" type="editorial">Übertragung: &#x201E;so dass sie von solchem Ungemach verschont bleibt.&#x201C;</note></l><lb/>
+<l n="171">Den trewen rhat geyt ihr Hans Sachs.<note resp="#NK" type="editorial">Übertragung: &#x201E;Diesen getreuen Rat gibt ihr Hans Sachs.&#x201C;</note></l><lb/>
+</lg>              </lg>              <gap reason="insignificant" unit="lines" quantity="1"/><lb/>
+</div>          </body>      </text>  </TEI>

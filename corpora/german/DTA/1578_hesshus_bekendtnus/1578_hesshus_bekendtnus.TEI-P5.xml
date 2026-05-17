@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Bekandtnus Von der Formula Concordiae, Wieder das Gottlos und lesterlich gedicht des falschen Brieffs</title>
+<author>
+<persName ref="http://d-nb.info/gnd/118639595">
+<surname>Hesshus</surname>
+<forename>Tilemann</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/c-328a-4f-helmst-3s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/c-328a-4f-helmst-3s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">40</measure>
+<measure type="tokens">6649</measure>
+<measure type="types">2068</measure>
+<measure type="characters">45892</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:30:30Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/hesshus_bekendtnus_1578</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/hesshus_bekendtnus_1578</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/hesshus_bekendtnus_1578</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/hesshus_bekendtnus_1578</idno>
+<idno type="DTADirName">hesshus_bekendtnus_1578</idno>
+<idno type="DTAID">30204</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30204-8</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Hesshus, Tilemann: Bekandtnus Von der Formula Concordiae, Wieder das Gottlos und lesterlich gedicht des falschen Brieffs. Wolfenbüttel, 1578.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Bekandtnus Von der Formula Concordiae, Wieder das Gottlos und lesterlich gedicht des falschen Brieffs</title>
+<author>
+<persName ref="http://d-nb.info/gnd/118639595">
+<surname>Hesshus</surname>
+<forename>Tilemann</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher/>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1578</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main"><byline><docAuthor><hi rendition="#aq">Doctoris Tilemani Heshusij</hi></docAuthor></byline>
+<docTitle><titlePart type="main"><hi rendition="#b">Bekandtnus</hi><lb/>
+Von der<lb/>
+<hi rendition="#aq">Formula Concordiae,</hi><lb/>
+Wieder das Gottlos und lesterlich ge-<lb/>
+dicht des falschen Brieffs.<lb/>
+</titlePart></docTitle>
+<figure/><lb/>
+<epigraph><cit><bibl>Psalm. 64.</bibl><lb/>
+<quote>Sie sind küne mit ihren bösen anschlegen / und sagen / Wie sie<lb/>
+Stricke legen wollen/ und sprechen/ Wer kan sie sehen?
+Sie errich-<lb/>
+ten Schalkheit/ und haltens heimlich/ sind verschlagen / und haben<lb/>
+geschwinde renke/ Aber Gott wird sie plötzlich schiessen / das inen<lb/>
+wehe thun wird / Ihr eigen Zunge wird sie fellen/ das ihr spotten<lb/>
+wird/ wer sie sihet etc.</quote></cit></epigraph>
+<docImprint> <pubPlace>Heinrichstadt</pubPlace><lb/>
+Gedruckt durch <publisher>Cunrad Horn</publisher>.<lb/>
+<docDate><hi rendition="#aq #g">1578</hi></docDate></docImprint>
+</titlePage>
+<pb facs="#f0002"/>
+</front>
+<body>
+<div>
+<pb facs="#f0003"/>
+<head>Dem Ehrwirdigen Herrn Petern / Abten des Keiserlichen Freyen Stiffts Berga vor
+Magdeburg / meinem günstigen Herrn vnd guten Freunde.<lb/>
+</head>
+<head>Gottes gnad vnd Fried durch Jesum Christum seinen Eingebornen Son / vnsern
+Heiland / vnd einigen Seligmacher zuuorn /<lb/>
+</head>
+<p>EHrwirdiger Herr Abt / als E. Erw. newlicher zeit mich in meiner schwacheit
+besuchten / vnd mir das erticht / Gottlos / vnd lesterlich schreiben / so vnter
+meinem namen wider Doctor Jacobum Andreae / vnd sonderlich wider die Formulam
+Concordiae / den Chur: vnd Fürstlichen Heusern / Sachsen etc. Brandenburg
+<pb facs="#f0004"/>
+etc. vnd Braunschweig etc. zu
+ehrenrürigem schimpff gesprenget wird / zu lesen gaben / mit gantz fleissiger
+vnd embsiger bitte / da das schreiben von mir nicht her keme / wie es E. Erw.
+dafür hielten / so wolte ich solchs mit zweyen oder dreyen worte&#x0303;
+bezeugen / ermannete ich mich souiel in meiner schwacheit / das ich mit eigener
+Hand bezeugete / mir were niemals in den sinn kommen / solche Gottlose /
+Vnchristliche lesterliche Schrifft wider die Formulam Concordiae zuschreiben /
+vnd thete meine kurtze bekantnus von der Formula Concordiae / Wie dann auch der
+Durchleuchtiger / Hochgeborner Fürst vnd Herr / Herr Julius / Hertzog zu
+Braunschweig vn&#x0303; Lüneburg etc. mein gnediger Fürst vnd Herr / als
+S. F. G. dessen von E. Er. berichtet worden / sich darauff gleich alsbald aus
+dem steigreiffone einiges hinderdencken erkleret / vnd solchs auch an die
+Churfürsten zu Sachsen etc. vnd Brandenburg etc. meine gnedigste Herrn / hat
+gelangen lassen / welchs E. Er. mit hertzlicher dancksagung auffnamen. Ich
+stelle es auch in keinen zweiffel / E. Erw. werden solch mein bekantnus nicht
+bey sich verborgen gehalten / sondern vielen Gottseligen vom Adel / vnd wer es
+sonsten begeret hat / mit getheilet / vnd weit haben kommen lassen / Wie mir
+dann für-
+<pb facs="#f0005"/>
+kümpt / das viel
+guter Gottseliger leute / die durch die Lesterschrifft waren jrre gemacht /
+wieder zu recht seind gebracht worden. Nu werde ich gleichwol von vielen noch
+ersucht / ob ich einige wissenschafft vmb die Gottlose schrifft habe / vnd ob
+ich der Formulae Concordiae also zuwider / Daraus ich leicht abnemen kan / das
+die heimliche falsche tücke des ertichten / vnd weit durch gantz Deutschlandt
+gesprengten Brieffs / durch meine kurtze bekantnus / weil es nicht in offnem
+Druck ist / noch nicht sein gedempfft / welches dann auch nicht wunder / Denn
+die Kinder dieser Welt seind klüger vnd listiger / treiben auch jr thund viel
+hefftiger / denn die Kinder des Liechtes / Die Welt hat mehr lust zun lügen /
+denn zur warheit / darumb gleubet sie den lügen bald / vnd sprenget sie aus mit
+grosser geschwindigkeit. Damit ich denu souiel Gottselige / frome vnd einfeltige
+Christen / so durch das falsch betrieglich vnd Vnchristlich schreiben jrre
+gemacht seind worden / in der furcht vnd argwohn / als were etwas geferliches
+vnd Vnchristliches in der Formula Concordiae / nicht stecken / auff mir auch die
+gantz beschwerliche Calumnien nicht beruhen lasse / gleichsam / als hette ich in
+allen meinen certaminibus ichts anders / denn die heilsame / reine / gesunde
+Lere / die in der
+<pb facs="#f0006"/>
+Formula
+Concordiae herrlich vnd ausführlich erkleret vnd dargethan wird / gesucht / habe
+ichs für eine hohe notturfft erachtet / meine bekanntnus von der vorgedachten /
+Gottlosen ertichten schrifft etwas ausführlicher darzu thun / vnd in offenen
+Druck der gantzen Christenheit vorzulegen / damit doch die leidigen feindselige
+tücke vnd Practicken / damit die Rottengeister jhre böse sache wollen stutzen /
+für aller Welt zu schanden möchten werden / Auch das ich / souiel an mir ist /
+das heilsame / hochnötige / Christliche werck der einigkeit / nicht allein mit
+meinem Gebet zu Gott / sondern auch mit meinem Consensu / vermanung vnd anhalten
+helffe befürdern / wie ein jeder Christ / vermöge seines Beruffs / vnd souiel
+jme müglich ist / die einigkeit in der Christenheit zubefürdern / den
+Corruptelen vnd spaltungen aber zuwehren / für Gott schüldig ist. E. Erw. ist
+sonderlich wol bekandt / wie es denn auch durch gantz Deudschland erschollen /
+vnd zwar den Papisten vnd Caluinisten vnuerborgen bleibet / mit was hohem
+ernsten / Christlichen / vnd bestendigen eiffer vor hoch gedachter mein gnediger
+Fürst vnd Herr / Hertzog Julius zu Braunschweig vnd Lüneburg etc. sich dieses
+heilsamen vnd hochnötigen wercks / das wahre / Christliche vnd bestendige
+<pb facs="#f0007"/>
+einigkeit / mit fortpflantzung
+reiner vnuerfelschter Lere des Euangelij / vnd abschaffung aller eingerissenen
+Corruptelen / möge auffgerichtet werden / annimmet / solchs mit höhestem fleis
+befürdert / grosse vnd schwere vnkosten / dauon J. F. G. keinen andern nutz
+hoffen noch wünschen / denn das die hochbetrübte Christenheit in einen richtigen
+standt gesetzt / vnd auff die liebe Posteritet reine / gesunde / vnuerfelschte
+Lere des Euangelij geerbet werde / anwenden / vnd keine mühe noch arbeit hieran
+sparen / sondern wie einem Gottseligen Nutricio Ecclesiae, vnd eisserigem
+löblichen Fürsten in der Christenheit gebüret / zum höchsten jr lassen angelegen
+sein / vnd ohn auffhören bey andern Chur: vnd Fürsten vmb fortsetzung dieses
+wercks anhalten.</p>
+<p>Nun hat aber E. Erw. zuerachten / wie hochermelts meines Gnedigen Fürsten vnd
+Herren Reputation / Christlicher eiffer / vnd herrlicher rhum / den sie bey
+frommen Christen habendurch das erdicht meuchlisch vnd Gottlos schreiben
+geschmelert vnd verringert wird / sintemal es Ire F. G. bey den vnerfahrnen
+gerne in den verdachtsetzen wolt / als vnterhielten Ire F. G. solche Leute / die
+sich vngeschewet wieder die For-
+<pb facs="#f0008"/>
+mulam Concordiae setzten / dieselbige lesterten vnd vbel ausmachten /
+vnd theten das in Schrifften an Ihre F. G. / daher menniglich müste argwohnen /
+es müste Ihrer F. G. so grosser ernst nicht sein / Hat also der liechtflüchtige
+Nachtrabe / abtrünniger Apostata / oder Sacramentirischer Caluinist / vnd
+meuchel Schreiber (jedoch hiemit andere reine auslendische Kirchen Lerer / so
+nihe von der Warheit abgefallen / nicht gemeint) nicht alleine das heilsame
+Werck der Concordien turbiren / meine geringe Person in gefahr bringen / Sondern
+auch höchst vnd hochgedachte Chur: vn&#x0303; Fürstliche Heuser Sachsen
+etc. Brandenburg etc. vnd Braunschweig etc. in schimpff vnd spott führen wollen
+/ Solche gifftige Ottern sein die verschlagene Rottengeister / schonen keines
+Menschen / ist jnen auch kein vnthat zuuiel.</p>
+<p>Derwegen mir in alle wege gebühren wil / nicht alleine meine vnschuldt darzuthun
+/ Sondern auch / so viel an mir ist / meiner Gnedigsten vnd Gnedigen Herrn der
+Chur: vnd Fürsten Sachsen etc. Brandenburg etc. vnd Braunschweig etc. Vhralte /
+erstammete vnd wol hergebrachte Reputation / vnd Christlichen guten
+<pb facs="#f0009"/>
+Namen zuretten / vnd die grawsame
+feindselige Calumnien abzulehnen. Ich höre mein wunder / wie die ertichte
+Gotlose schrifft so geschwind durch gantz Deutschland sey gelauffen / welchs ein
+anzeigung ist / das es allenthalben viel heimblicher Caluinisten haben müsse.</p>
+<p>Es ist auch die art der Calumnien vnd vnwarheit / das sie geschwind alle winckel
+durchkreucht / vnd zum höchsten sich bemühet / das sie der grossen Herrn vnd des
+Pöpels hertzen zuuor / ehe dann die warheit ankome / einnehme / damit ja die
+liebe warheit / die langsam hernach hincket / nicht raum noch platz finde / Aber
+wie Cyprianus saget lib. 1. Epist: 3. Mendacia non diu fallunt, tandem luci
+cedunt tenebrae. Sölches bezeuget auch die Historia der gantzen Welt. Endlich
+werden die lügen vnd verleumbdungen / wie subtil sie auch gesponnen / wie
+tückisch sie sind gewircket / zuschanden / Denn Gott ist Richter auff Erden der
+helt ob der warheit / gerechtigkeit vnd vnschuld. Veritas laborare potest,
+opprimi non potest, Wenn gleich die warheit Zehen klaffter tieff in der Erden
+begraben lege / vnd aller Welt verborgen were / wie viel jr thun so heimlich
+spielen / es sol kein Mensch darumb wissen / so bringet sie doch Gott wieder
+herfür / wie den hellen Mittag / denn es ist nichts
+<pb facs="#f0010"/>
+verborgens / saget Christus / das
+nicht offenbar werde / Demnach ist mir kein zweiffel / es wird der tag ein mal
+kommen / das diese sehalckheit mit dem ertichten Brieffe aller Welt wird
+offenbar werden / Das Gott gebe / Amen.</p>
+<p>Diese meine verantwortung aber habe ich E. Erw. zuschreiben wollen / damit ich
+öffentlich bezeugete / das ich mich zu der kurtzen Schrifft / so ich in meiner
+kranckheit E. Erw. gegeben / bekennete / E. Erw. auch in dem Christlichen
+fürnhemen vnd Proposito / das sie sich der Formulae Concordiae / die in E. Erw.
+Closter zu Berga von den Theologis ist reuidiret / vnd verglichen worden / vnd
+von den abgefallenen Sacramentirische Apostaten zu nicht geringer schmach / ob
+Hochgedachter Chur: vnd Fürstlichen Heuser / das Bergische Buch genennet wird /
+so Christlichen annemen / sterckete durch meine vermanunge / auch mich ettlicher
+massen danckbarlich erzeigete / für die wolthat / das E. Erw. mit zeigung meiner
+Handt / meinen guten Namen bey vielen vom Adel vnd andern Christen gerettet /
+vnd das ich an der falschen / verlogenen / Gottlosen ertichteten Schrifft
+vnschüldig / bey vielen bethewret / In solchem Christlichen vnd Gott-
+<pb facs="#f0011"/>
+seligen fürnhemen / die
+heilsame / seligmachende Warheit zubefürdern / vnd den Lesterungen zu weren /
+welchs Christlichen Praelaten wol anstehet / wölle der trewe Gott durch seinen
+heiligen Geist E. Erw. stercken / vnd von tage zu tage das erkantnus des
+heiligen Euangelij / das jhr verstehen möget die allerhögesten wolthaten des
+Sohns Gottes <hi rendition="#i">IESV</hi> Christi vnsers einigen Heilands / vnd
+allen Irrthümben / greweln / vnd lesterungen des Bapstumbs von Hertzen feind
+sein / in E. Erw. mehren / vnd bis ans ende erhalten / Amen. Datum Helmstedt den
+22. Maij / Anno etc. 1578.</p>
+<p>Tilemanus Heshusius D.</p>
+<pb facs="#f0012"/>
+</div>
+<div>
+<head>D. Tilemani Heshusij bekantnus / von der Formula Concordiae.<lb/>
+</head>
+<p>ES fleuget ein Brieff vmbher / vn&#x0303; wird von vielen / gleich wie
+Heiligthumb vmbgetragen / auch mit sonderm fleis vn&#x0303; frolocke&#x0303; / wie mir fürkömpt / an Chur: vn&#x0303; Fürstliche Höfe
+gesand / denen vom Adel zugestecket / sonderlich zu Magdeburg / zu Hall / zu
+Leipzig / vnd zu Ihena gelerten vnd vngelerten gezeiget / vnter meinem D.
+Tilomani Heshusij namen / Als solte ich an den Durchleuchtigen vnd Hochgebornen
+Fürsten vnd Herrn / Herrn Juliussen / Hertzogen zu Braunschweig vnd Lüneburg
+etc. meinen gnedigen Fürsten vnd Herrn / ein schreiben gethan haben / darin
+Doctor Jacobus Andreae grewlichen ausgemacht / auch also lesterlich / wie sich
+ein vnuerschempter holhipper nicht grewlicher vnderstehen dürffte / alles nur /
+wie michs ansihet / dahin gerichtet / bey S. F. G. vnd andern Potentaten mich in
+mißtrawen vnd ver-
+<pb facs="#f0013"/>
+dacht
+zusetzen / Das end vom lied aber / vnd das ziel des schreibens ist / daß das
+werck der Concordien / vn&#x0303; das von den Theologis verglichen Buch
+Formula Concordiae auffs eusserst geschendet vnd gelestert / für ein Gottlos
+Buch / darin viel Irrthüme vnd alles vnglücke stecken sol / ausgeruffen wird.
+Vnd werde daneben berichtet / das etliche / nicht allein zuhörer / sondern auch
+Lerer / vber obgenanter Schrifft hertzlich frolocken vnd jubiliren sollen / das
+sich doch einer herfür gethan / der das werck der Concordien / vnd die Formulam
+/ der sie von hertzen feind / ob gleich derselben jrer etliche mit Handt one
+Hertzen vnterschrieben / dürffte angreiffen / Da sie jnen auch die hoffnung
+gemacht / es möchte nun das werck in brunnen fallen.</p>
+<p>Wenn mir nun die tücke / rencke / vnd griff der abgefallenen Christen /
+Caluinisten / vnd anderer Rottengeister vnbekandt weren / würde ich mich
+gewislich vber der grossen künheit / vnuerschempten geticht / vnd frechem freuel
+verwundern / Aber Gott lob vnd danck / in den vielen Jahren / so ich mit den
+Caluinisten / vnd andern Rottengeistern durch Gottes schickung bin im streit
+gestanden / habe ich jre art / kunst vnd gewonheit zimlich lernen kennen / Vnd
+nimpt mich gar nicht wunder /
+<pb facs="#f0014"/>
+das
+sie solche possen erdacht / vnd vnter meinem Namen also spielen / Denn ich weis
+/ das jhnen nichts zuuiel ist / keine vntrew / noch falscheit mag so bübisch /
+kein tuck mag so Gottlos / keine vnwarheit mag so vnuerschembt sein / sie gehen
+mit dem Kopff hindurcher / vnd wie im 73. Psalm stehet / Sie thun / was sie nur
+gedencken.</p>
+<p>Ob nun wol mein bekandtnus von den streitigen Articuln / vnd also von der Formula
+Concordiae aus etlichen meinen Büchern / so der gantzen Kirchen für augen liggen
+/ wol zunhemen / auch Chur: vnd Fürsten / vnd vielen ehrliebenden vnd
+Gottseligen vom Adel bekandt ist / das ich mit Handt vnd Hertzen der Formulae
+Concordiae hab vnterschrieben / mit hertzlichem Gebet / das Gott vom Himel das
+heilsame / hochnötige vnd Christliche werck / der lang gesuchten vnd gewünschten
+Concordien zu einem guten end durch seinen heiligen Geist bringen wölle / So
+werde ich doch von vielen berichtet / wie die leidige / Gottlose vnd ertichte
+Schrifft / so viel fromer Hertzen in Thüringen / Meissen vnd Sachsen höchlich
+solle betrüben vnd jrre machen / wie es den&#x0303; gar leicht geschehen
+ist / das einfeltige vnd fromme Hertzen in Religions sachen verwirret werden /
+So ist auch die vnerbare / feindselige tückische schrifft so
+<pb facs="#f0015"/>
+verschlagen / listig vnd gifftig
+gestellet / wie denn die Caluinisten geübte / vnd der hendel durchgangene
+Meister sind / das sie auch erfarne vnd treffliche Theologen / denen doch
+Heshusij glaub vnd bekantnus wol bekant ist / jrre gemacht hat / Derwegen hab
+ichs für eine hohe notdurfft erachtet / öffentlich für der gantzen Christenheit
+zubezeugen / das ich an der Vnchristlichen / vnerbaren / Gottlosen vnd
+meuchlischen Schrifft / so wieder die Formulam Concordiae vmbgetragen wird /
+vnschüldig bin / vnd mir solche lesterung in den sinn nihe komen sey: Auch was
+ich von dem Concordien Buch halte / in offenen Druck rundt vnd richtig zu
+bekennen / weil die Welt ja mein bekantnus wissen wil / damit frome einfeltige
+Hertzen in der warheit vnd Christlichem fürhaben / einigkeit auffzurichten /
+gestercket / Die feindselige Cal uinisten aber vnd andere Rottengeister / mit
+jren Gottlosen tücken vnd rencken für aller Welt zu schanden werden.</p>
+<p>ICh Tilomanus Heshusius / der Heiligen Schrifft Doctor / vnd Professor der
+löblichen / nützlichen / reinen / Christlichen Julius Vniuersitet zu Helmstedt /
+Bezeuge für GOtt / den niemand betriegen kan / bey meinem Christli-
+<pb facs="#f0016"/>
+chen gewissen / bethewre es
+auch mit dem Eidt im heiligen Geist / das der Gottlose vnd lesterliche Brieff /
+so vnter meinem Namen / wieder D. Jacobum Andreae / vnd wider die Formulam
+Concordiae inter Saxonicas &amp; Sueuicas Ecclesias, welcher den 24.
+Februarij an den Durchleuchtigen vnd Hochgebornen Fürsten vnd Herrn / H. Julius
+/ Hertzogen zu Braunschweig vnd Lüneburg etc meinen gnedigen Fürsten vnd Herrn /
+solte geschrieben sein / nicht mein sey / noch von mir herkommen / das ich auch
+nicht ein wort darumb wisse / wer solchen feindseligen Brieff vnter meinem namen
+müge getichtet / vnd vnter die Leute gesprenget haben / Das auch der Gottlose /
+Vnchristliche / falsche Brieff / meinem Christlichen bekandtnus stracks zuwieder
+/ Hochgedachtem meinem gnedigen Fürsten vnd Herrn / H. Julio / Hertzogen zu
+Braunschweig vnd Lüneburg etc. ist in gnaden bewust / das J. F. G. ein solch
+lesterlich schreiben niemals von mir empfangen haben / Vielmehr aber ist J. F.
+G. bewust / wie ich in etlichen schrifften das herrliche / vnd in Gottes Wort
+starck gegründtes Concordien Buch gerhümet habe.</p>
+<p>Wer mag doch denn in aller Welt der tückische / feindselige meuchler vnd tichter
+obgedachtes Brieffs sein / der vnter eines bekanten Theologi
+<pb facs="#f0017"/>
+heilsam vnd hochnötig werck der
+Christenheit / das nicht allein von etlichen fürnemen Theologen herkömpt /
+Sondern von Chur: vnd Fürsten / vnd Stenden der Augspürgischen Confession / mit
+grossem ernst / Christlichem eiffer / vnd schweren vnkosten getrieben wird / mit
+so frechen vnd lesterhafftigen worten thar angreiffen / vnd so grewlichen
+ausmachen.</p>
+<p>Gott im Himel ist der tückischer Author vnd tichter ohne zweiffel wol bekant /
+Die heimliche Rottgesellen der Caluinisten werden jhne auch wol wissen / ich
+aber kenne jn nicht / Ich bitte aber von grund meines Hertzen / den heiligen
+trewen vnd fromen Gott / dem nichts verborgen ist / weder im Himel noch auff
+Erden / noch in der Helle / der das verborgen auch wird ans liecht bringen /
+auff den tag Jesu Christi / Er als ein schützer vn&#x0303; liebhaber der
+Warheit vnd Gerechtigkeit / wolle zu rettung der Warheit / vnd zu trost vieler
+frommen Gottseligen hertzen / auch das die heimischen tückische / feindselige
+anschlege der Gottlosen Calumisten / damit sie jre bawfellige sache zustutzen
+meinen / für aller Welt möge zuschanden: zu dem das andern zur abschew der
+freuele tichter gebürlich gestrafft werden / den Authorem vnd tichter des
+Brieffs an den tag bringen / vnd der gantzen
+<pb facs="#f0018"/>
+Christenheit bekant machen / laut
+des Spruchs / Job. 5. Er fehet die weisen in jrer listigkeit / vn&#x0303;
+stürtzet den verkerten rath: Vnd Prau. 12. Die tücken werden zu schanden / vnd
+der böse wird gefangen in seinen eigenen falschen worten. Das der Brieff von
+einem ertichtet sey / der der Formulae Concordiae von Hertzen feind sey / vnd
+das heilsame werck der einigkeit entweder zerstöre&#x0303; / oder je noch
+ein zeitlang gern auffhalten wolte / das ist so gewis / das kein vernünfftiger
+daran kan zweiffeln. Meine gedancken seind / das ein arglistiger / tückischer
+vnd verschlagener abtrünniger Christ / Apostata / oder Caluinist der Inuentor
+sey dieses vnerbaren Bubenstücks / Denn bey jnen ists fast breuchlich / vnter
+frembden oder ertichten namen / so in rerum natura nicht sind / jre gifft also
+auszugiessen. Ein recht Bubenstück mag ichs wol nennen / denn es nicht allein
+wider Gottes Wort / sondern auch wieder die Keiserliche Rechten / ein grob
+Crimen falsi, darzu Famosus libellus ists / in welchem grewliche schmehungen vnd
+lesterungen vnter einem frembden vnd ertichten namen / ausgesprenget werden. Ist
+aber der Author huius famosi scripti ein Synergist vnd Maiorist / oder mit allen
+Secten beschmitzt / so ists gleich souiel / Summa / ein Gottloser Rottengeist /
+der sich fürchtet / er vnd
+<pb facs="#f0019"/>
+seine
+Rott gesellen werden durch die Formulam Concordiae tanquam graui &amp;
+publica Censura Principum &amp; Statuum Augustanae Confessionis,
+praecipuorum Theologorum totius Germaniae, &amp; magno consensu &amp;
+communi voce Ecclesiae IESV Christi, quae in Germania colligitur, verdampt / vnd
+aus dem Religion frieden gesetzet werden / Ist ohne allen zweiffel der Meister
+vnd tichter dieser Schrifft.</p>
+<p>Nun kan gleichwol der weise vnd frome Gott diese kunst, das wenn er etwas böses
+geschehen lest / vnd der Sathan vnd böse Leut nicht denn eitel böses vnd
+vnglücke im sinn haben / So weis dannoch Gott die sache also zu regieren / das
+auch das böse seine gerechtigkeit darthun / vnd der Christlichen Kirchen zu heil
+vnd nutz gereichen mus / nach dem Spruch Josephi: Vos cogitastis de me malum,
+&amp; Deus vertit hoc in bonum: vt saluos faceret populos multos. Demnach ob
+wol die heimblichen Rottengeister viel böses mit dieser Schrifft zustifften
+vermeinen / so wird doch Gott die wege zufinden wissen / das sie der
+Christlichen Kirchen zur warnung / sterckung vnd besserung gereichen vnd gedeien
+müssen.</p>
+<p>So viel guts können vnd sollen frome Gottselige hertzen aus der ertichten
+Schrifft nhemen / das sie sehen / wie die Caluinisten vnd Rottengeister jre
+sache nicht getrawen mit öffentlichen be-
+<pb facs="#f0020"/>
+kantnus vnd klarem grunde
+Göttliches Worts zuerhalten / Sondern vnterstehen sich mit heimlichen tücken /
+bösen rencken / ertichten falschen Brieffen / in Keiserlichen Rechten verbotenen
+Practiken / Crimine falsi, &amp; famosis libellis, jhr thund zustutzen / Aus
+welchem frome Gottselige Christen mercken können / das die Caluinisten vn&#x0303; Rot tengeister / so der Formulae Co&#x0303;cordiae feind
+sind / vom Geist Gottes nicht getrieben werden / vnd keine gute sache haben /
+Denn in welchem Capittel lieset man / das die Propheten vn&#x0303;
+Aposteln mit solchen falschen Brieffen vnd heimlichen tücken sind vmbgangen /
+Haben nicht alle Propheten vnd Aposteln / auch die Bluthzeugen vnd trewe
+Bischoffen fein öffentlich mit aller frendigkeit die Welt gestraffet / vnd die
+warheit bekant / wenn sie gleich die eusserste gefahr jhres lebens für augen
+gesehen. Dieser meuchler aber wil sich vnterstehen / andere Lerer zustraffen /
+vnd der Christenheit bekantnus anzugreiffen / vn&#x0303; wil nicht allein
+nicht bekant sein / kreucht in die finsternus / sondern wil noch darzu die
+gefahr einem andern / der an seiner falschen schrifft vnschüldig / auffden
+halstreiben / ist also nicht allein ein verleugner seines namens / auch des
+Namens Christi / wo ferne er seine meinung für recht helt / Sondern auch ein
+Mörder
+<pb facs="#f0021"/>
+seines Negsten / Solt GOtt
+daran ein gefallen haben?</p>
+<p>Wir lesen in der gantzen H. Schrifft / sonderlich im Psalter / sprüchen Salomonis
+vnd Propheten / wie der Geist Gottes aller falscheit / betrug / arglistigkeit /
+bösen tücken vnd rencken von hertzen feind ist / die ernstlich verbeut / mit
+scharffen worten straffet / vnd drewet jnen / das sie für aller Welt sollen zu
+schanden werden. Dagegen aber fordert der Geist Gottes auffrichtigkeit / warheit
+/ einfeltigkeit / vnd reine trewe hertzen / Psalm. 5. spricht der Geist Gottes /
+Der HErr hat grewel an den Blutgirigen vn&#x0303; falschen. Vom
+Antichrist vnd allen Rottengeistern sagt der 10. Psal: Sein Mund ist vol
+fluchens / falsches vnd trugs / Seine Zunge richtet mühe vnd arbeit an. Von den
+falschen Lerern spricht der 26. Psalm / Welche mit bösen tücken vmbgehen / vnd
+nemen gerne geschenck. Im 64. Psalm beschreibt der H. Geist der falschen Lerer /
+vnd Gottlosen Rottengeister tück vn&#x0303; rencke / damit sie teglich
+vmbgehen mit diesen worte&#x0303;: Sie seind kühne mit jhren bösen
+anschlegen / vnd sagen / wie sie stricke legen wollen / vnd sprechen / Wer kan
+sie sehen? Sie ertichten schalckheit / vnd haltens heimlich / sind verschlagen /
+vnd haben geschwinde rencken. Hie ist der falsche Brieff mit le-
+<pb facs="#f0022"/>
+bendiger farbe abgemalet:
+Es volget aber darauff / Ihr eigen Zunge wird sie fellen / das jr spotten wird /
+wer sie sihet. Psal 83. Sie machen listige anschlege wider dein Volck. Prou. 12.
+Die tücken werden zu schanden / der böse wird gefangen in seinen eigenen
+falschen worten. Prou. 14. Die mit bösen rencken vmbgehen werden feilen / etc.
+Jerem. 9. Es ist allenthalben triegerey vnter jnen / vnd für trigerey wollen sie
+Mich nicht kennen / spricht der HErr. In summa / die gantze heilige Schrifft ist
+vol der sprüche / in welchen der H. Geist bezeuget / das Gott von hertzen aller
+falscheit / bösen tücken vnd rencken / vnd aller triegerey feind sey / vnd
+straffen wölle. Ists aber nun nicht ein grosser betrug / freuentliche falscheit
+/ vnd böser / arglistiger / trewloser ranck / solchen Gottlosen vn&#x0303; lesterhafftigen Brieff vnter eines frembden Lehrers Namen / der doch nicht
+ein wort darumb weis ertichten vnd aussprengen / vnd viel frome hertzen damit
+jrre machen. Wenn ein tröpflein auffrichtiges vnd redliches geblüts vnd gemühts
+in dem tichter gewesen were / solte er seinen namen darzu bekant haben / vnd
+wenn er darumb von der Oberkeit angesprochen were worden / sich dar gestellet /
+vnd seine küne that verantwortet haben / Aber das war dem Rottengeist nicht
+gelegen /
+<pb facs="#f0023"/>
+denn er ist nicht
+bedacht / sich vmb des bekandnus willen in gefahr zustecken / sondern vielleicht
+der meinung ein Bauchchrist zubleiben / von einem zum andern zufallen / vnd also
+mit dem meisten hauffen zuleichen.</p>
+<p>Wer dann nun augen von Gott hat / der wölle sie auffthun vnd mercken / das die
+Caluinisten vnd Rottengeister jrer sachen nicht trawen / das sie auch vom H.
+Geist nicht gefüret werden / denn der gehet mit solchen tücken / rencken / vnd
+falschen possen nicht vmb / die er so hart straffet in seinem Wort. So lange ich
+mit den Caluinisten im streit bin gestanden / hab ich stets vber solche
+falscheit vn&#x0303; betrug geklaget / das keine auffrichtigkeit in jhnen
+sey / sondern alles wollen sie mit list vn&#x0303; lügen ausrichten / Wie
+solchs auch Lutherus seliger befunden / daher sein Spruch ist an Herrn Jacobum
+Probst / Zvvingliani non sunt tantùm mendaces, sed ipsum mendacium. Die
+Zwinglianer sind nicht allein lügenhafftig / sondern die lügen selbs. Des
+schlags ist auch mein Heßhusij spruch / den ich aus erfarenheit gelernet /
+Caluiuistae non tantùm sunt perfidi &amp; fraudulenti, sed ipsa fraus
+&amp; perfidia: nihil est in eis fanum &amp; rectum. Die Caluinisten
+sind nicht allein trewlos vnd betrieglich / sondern die falscheit / vntrew vnd
+betrug selbs: vnd ist nichts gesundes / vnd kein auffrichtig gemüth in jnen. Wer
+Gott von her-
+<pb facs="#f0024"/>
+tzen fürchtet /
+vnd die gaben hat / die Geister zu vnterscheiden / vnd dann etlich Jar mit den
+Calninisten wird vmbgehen / der wird mir recht geben / das bin ich gewis / Wer
+es aber jetzt nicht gleubet / dem dürfft wol der Glaube in die Faust kommen /
+wie bereit etlichen geschehen.</p>
+<p>Demnach warne ich alle Gottliebende Hertzen / denen jre Seligkeit lieb ist / das
+sie für den tückischen / verschlagenen / arglistigen / meuchlischen Caluinisten
+vnd Rottengeister sich hüten vnd fürsehen wollen / vnd jnen daran keinen
+zweiffel machen / das sie eine böse sache haben / denen sie selbst nicht
+getrawen. Wie wir aber jhre falsche böse sache / das sie die gegenwart des Leibs
+vnd Bluts Jesu Christi verleugnen / vnd den heiligen Gott Jesum Christum lügen
+straffen / mit grund Göttliches Worts wiederlegen / ist hie nicht zeit
+einzufüren / wird anders wo reichlich dargethan / vnd ist jhnen vnuerborgen /
+das wir dessen keine schew tragen.</p>
+<p>Ob einer alhie wolt fürgeben / Wie vrtheilestu so hart von den Caluinisten aus
+diesem brieff / vnd bist doch vngewiß / wer jn gemacht hat? Dem gebe ich diese
+antwort / Ich weis / das ich mit meinem vrtheil nicht feile / denn das ein
+Rottengeist der der Formulae Concordiae von hertzen feind /
+<pb facs="#f0025"/>
+den Gottlosen Brieff ertichtet hat
+/ daran kan kein vernünfftiger zweiffeln. So ist auch offenbar das keine Sect so
+hart wider die Formulam Co&#x0303;cordiae practiciret / als eben die
+Caluinisten / So bin ich auch berichtet worden / das nicht wenig Caluinisten /
+die wol den namen nicht haben wollen / aber der gifft alle Adern / sehnen vnd
+knochen vol sind / / zum höchsten vber diesen Gottlosen vn&#x0303;
+falschen Brieff jubiliret / vnd höhestes fleisses in alle örte Deutscher Nation
+spar girt haben / welches eben so viel ist / als wenn sie die Authores weren /
+Zu dem sind solche hendel vnd rencke bey jnen vblich vn&#x0303;
+breuchlich / wie jnen wol kan dargethan werden / Wollen sie dann dieses
+verdachts sich entschütten / so machen sie den Authorem / der jnen ohn zweiffel
+vnuerborgen ist / namkündig.</p>
+<p>Aus dem ertichten Brieffe ist auch dieser nutz zunemen / Weil der böse Gottlose
+Brieff so geschwind vmbher geflogen / von vielen mit frolocken ist angenommen
+worden / die auch alsbaldt denselben jren freunden / wie einen Beutpfenning zum
+zeichen des erlangten Siegs / haben zugesand / So ist das ein vnfeilbar zeugnis
+/ das viel / so der Formulae Concordiae vnterschrieben haben / vnd doch vber
+diesen Brieff frolocken / in jrem hertzen der Formulae Concordiae feind sind /
+vnd
+<pb facs="#f0026"/>
+heimlich voller Rotten vnd
+schwermerey stecken / Derowegen solchen gesellen nichts zutrawen / ob sie gleich
+vnterschrieben haben / Darumb mögen Christliche Oberkeiten / vnd Gottselige
+Gemeinen hie gleichsfals die Augen aufsthun.</p>
+<p>Aus dem ertichten vnd falschen Brieff siehet man auch klar für augen / das die
+Caluinsten vnd Rotten geister weder lust noch liebe haben zu warer Christlicher
+einigkeit / Denn mit dem Buch ja anders nicht gesucht noch gemeint wird / dan&#x0303; das die Corruptelen ausgesetzt vnd abgeschafft / vnd widerumb
+ware / Christliche / vertrawliche / vnd bestendige einigkeit in den Kirchen
+angerichtet vn&#x0303; erhalten werde. Nun schilt aber der tichter des
+Buchs die Formulam / ein Pandoram / ein gefeß / darin alles vnglück stecke / ein
+Buch voller Irrthümen / ein Gottlos Buch / damit er frome hertzen dauon
+abschrecke / vnd das heilsame werck der Concordien verhindere. Wie stimmet nun
+solchs mit dem befehl Gottes / Suche friede / vnd jage jme nach / Psal. 34. Vnd
+Matth. 5. Selig sind die friedfertigen / denn sie werden Gottes Kinder heissen:
+Hieraus volget / das die friedhessigen Rotte&#x0303;geister / des
+Teuffels Kinder sind / Darumb welche Obrigkeit vnd Christliche Gemeine eine
+stillefriedsame / rühige Kirche vnd Schule haben wil-
+<pb facs="#f0027"/>
+die hüte sich vor solche
+Rottengeister / die aller Christlichen einigkeit feind sind / vnd allerley
+Praeticken erdencken / den frieden zuuerhindern / wie das (leider) in
+Niederlanden / vnsern benach barten in volle&#x0303; schwang gehet / Gott
+wolle es bessern.</p>
+<p>Es hat der tichter des feindseligen Brieffs etliche wort genommen aus meiner
+Predigt / die ich Anno 1570. am Sontag Esto mihi / durch Gottes Geist gethan hab
+/ welche in offenen Druck ist / damit er seiner lügen einen schein machte / als
+müste ich diesen leidigen Gottlosen Brieff auch gestellet haben / weil meine
+wort darin funden werden.</p>
+<p>Es sol sich aber der Rottengeist erinnert habe&#x0303; / das vor acht
+Jaren viel andere hendel fürlieffen / denn jetzunder in der Formula Concordiae
+verfast sind / Denn ob gleich etlicher Hohen Potentaten gemüt vnd meinung
+Concordiam vnd einigkeit zust ifften auch domals gewesen ist / So mag doch nicht
+verneint werden / das die Schrifft / so domals ward vmbgefüret / vn&#x0303; den Theologis fürgelegt / so weit war von der jtzigen Formula Co&#x0303;cordiae / als Winter vnd Sommer / Tag vnd Nacht / Liecht vnd Finsternis /
+Stahlfest vnd Wachs / von einander sind / In jennen schrifften war keine
+richtige erklerung der Streitten / keine austrückliche verwerffung der
+eingerissenen Cor-
+<pb facs="#f0028"/>
+ruptelen /
+sondern nur ein eilender Cothurnus / den man so wol am lincken / als am rechten
+Fueß köndt anziehen / Darumb auch die von Wittenberg deportirten / vnd des
+Caluinismt vberfürten Theologi domals wol damit zufrieden / Welchen bestand aber
+solche Conciliatio vnd tüncherey habe / hat Gottes sonderbares Gericht / vnd die
+erfarung klar gegeben Derwegen bin ich noch derselben meinung vnd bekanntnus /
+wie vor acht ja ren / dasmit tüncherey / Amnistia in dissidijs religionum, mit
+Conciliationen / wenn man mit einem Füchssen schwantz vber die Corruptelen
+herstreicht / vnd sie nicht klar aussetzet / wenn man Christum vnd Belial in
+einen klumpen schmeltzet / der Kirchen Christi nichts gedienet / noch jchts
+ausgericht sey / sondern das viel mehr damit vbel erger gemacht / mehr haders /
+zancks vnd vnfriedens gestifftet wird / wie solchs mit vielen Exempeln der
+gantzen Kirchen zubezeugen vnd darzuthun / Auch in gemelter Predigt vor acht
+Jaren am Sontag Esto mihi zu Weimar gethan / gnugsam ist erwiesen / Dahin ich
+mich geliebter kürtz halben auff dißmal wil referiret haben.</p>
+<p>Nu hats aber in jtziger Formula Concordiae / von den Theologis begriffen vnd
+reuidiret / viel eine andere meinung / denn darin die Religions
+<pb facs="#f0029"/>
+Streite nicht concilijrt noch
+vbertüncht / sondern die gesunde / reine Lere nach der Richtschnur Götlichs
+Worts / Augspürgischer Confession / vnd Catechismi Lutheri / richtig werden
+erkleret / vnd bestettigt / Vnd dagegen die falsche Lere / Corruptelen vnd
+Secten nicht alleine rundt vnd austrucklich ausgesetzt / verworffen vnd verdampt
+/ sondern auch mit gewaltigen vnwiederle glichen grundt Göttlichs Worts /
+Augspürgischer Confession vnd Catechismi Lutheri confutiret. Weil dann dis der
+einige / heilsame vnd beste weg ist zu Christlicher vnd bestendiger einigkeit /
+worumb solte ich dem heilsamen vnd Christlichem werck zu wider sein / vnd nicht
+viel mehr mit gefaltenen Henden Gott dancken / das er mich den tag aus gnaden
+hat erleben lassen / da die Corruptelen gründlich seind widerlegt vnd ausgesetzt
+/ die reine / gesunde Lere aber richtig ist erkleret / vnd also der allerbeste
+grundtstein zur waren einigkeit ist gelegt worden. Es seind nun 18. Jar / das
+mein Feld Herr vnd Sieges Fürst <hi rendition="#i">IESVS</hi> Christus mich
+recht gegen die Feinde zu kempffen geordnet / vnd hub sich der streit mit den
+Caluinisten zu Heidelberg / da hatten sie mich vmbgeben wie die hungerige Bienen
+/ Sie lieffen zu aus allen winckeln / zu dempffen vnd zu leschen / als wenn ein
+<pb facs="#f0030"/>
+Fewer in Dornen angehet / Bald
+hernach ist ein streit auff den andern gefolget / vnd ist gantz Deutschland
+vnuerborgen das ich ein wolgeplagter Theologus die zeit hero gewesen bin. Was
+nun meine streite gewesen sind / das zeigen meine bücher / die in offenen Druck
+sind / Wider die Caluinisten / die schender des Testaments Jesu Christi / hab
+ich geschrieben / darnach wider die Synergisten / das ist / wider die
+vertheidinger des Freyen willens / darnach wider den Flacium Illiricum / vnd
+seinen Manicheischen schwarm / von der wesentlichen Erbsünde. Maioris falsche
+Proposition hab ich auch verworffen in meinen schrifften / Vnd vmb dieses meines
+bekantnus willen bin ich zu etlichen malen hart verfolget worden / dann die
+vertheidinger der Corruptelen hatten damals die vberhandt. Wem nun diese meine
+streite vnd mein bekantnus aus meinen Schrifften bekant ist / vnd hierauff mit
+gutem bedacht die Formulam Concordiae / von den Theologen verglichen lieset /
+der wird bald sehen vn&#x0303; bekennen müssen / das darin die
+Corruptelen / wieder die ich gestritten / confutiret vnd widerlegt werden / eben
+mit den zeugnissen der Schrifft / die auch meine gründe gewesen sind / Hergegen
+die rechte vnd gesunde Lere / darüber ich als ein trewer Diener
+<pb facs="#f0031"/>
+GOttes gehalten / wird adprobiret
+vnd gebillichet / vn&#x0303; darzu mit klaren / hellen / vnfeilbaren
+zeugnissen der Schrifft bestetiget vnd erwiesen / das also meine Certamina / so
+ich in der gemeine Gottes geführet / in der Formula Concordiae justificiret:
+mein gegentheil aber verdampt wird. Solt ich nun Gott nicht von Hertzen
+dancksagen / für solche herrliche zeugnis / denn ob gleich mein Gewissen sich
+nicht gründet auff Menschen Vrtheil vnd zeugnis / als die da feilen können /
+wenn gleich alle Welt einem recht gebe / sondern sihet auff das zeugnis des
+heiligen Geistes in seinem Göttlichen Wort / auff mein Christlich Gewissen für
+GOtt im Gebet vnd H. Geist / welchs nicht treuget / vnd auffdas Vrtheil Jesu
+Christi des Richters der lebendigen vnd der Todten / welchs er am Jüngsten tage
+wird ergehen lassen / so erfrewet gleichwol mein Hertz / nach dem der streit so
+lange geweret / vnd beider teil Schrifften fleissig sind erwogen worden / das
+dennoch die fürnemsten Theologen beke&#x0303;nen müssen / ich habe vber
+der warheit gehalten / vnd gern bestendiglich gelitten / vnd sonderlich das sie
+eben die sprüche der H. schrifft zum grunde reiner Lere legen / welche auch
+meine höheste beweisungen gewesen sind / Worumb solte ich dann nun dem Buch
+zuwidern sein? mit was Gewissen
+<pb facs="#f0032"/>
+köndte ichs für ein Gottlos Buch schelten / das voller Irrthüme steckte? also
+müste ich alle meine vorige Certamina retractiren vn&#x0303; verdammen /
+Ich habe je nichts anders geleret noch gestritten / wie solches meine Bücher /
+so in offenen Druck sind / bezeugen / denn was in der Formula Concordiae geleret
+/ bekant / vnd gestritten wird.</p>
+<p>Derwegen dancke ich meinem HERRN vnd trewen Gott Jesu Christo vnserm Heiland /
+das er noch bey meinem leben diesen handel so weit gebracht hat / das nicht
+allein etliche fürneme Theologi die erregten Religion streit fein ausführlich
+gefast / decidiret / aus Gottes Wort erkleret / vnd die falsche meinungen / so
+nach dem todte Lutheri bisher die Kirche betrübet / vnd zu mancherley verfolgung
+vrsach gegeben / mit GOttes Wort widerlegt haben / Sondern das solch Buch den
+fürnembsten Kirchen vnd Lerern Deutscher Nation vngeschewet zu judiciren ist zu
+geschickt worden / Auff welcher Kirchen Lerer erinnerungen das Buch dermassen
+ist verbessert / corrigiret vnd allenthalben verwaret / das es eine richtige
+Norma ist / darnach man die streitige Religions hendel / vermöge Gottes Worts /
+kan vrtheilen / welches die abgefallene Apostaten / Calumisten vnd Bauch
+Christen wol vngebissen lassen / vnd nicht
+<pb facs="#f0033"/>
+verdewen / viel weniger mit jrem
+stürmen etwas ausrichten werden / ob sie es gleich gern fressen wolten / Ob den
+gleich etliche heimbliche Sacramentierer vnd Rottengeister in solche Religions
+Formulam nicht wollen willigen / etliche aber derselben mit jhren Henden
+vnterschrieben / aber nichts desto minder heimblich vnd meuchlinges / wie jhre
+art ist / dawider mit aller macht practiciren / wie der ertichte falsche Brieff
+ein stück ist solcher Practicken / So lassen jnen doch durch Gottes gnaden die
+bewertesten / berümbsten / fürnemsten vnd meisten Schulen / Kirchen vnd Lehrer
+gantz Deutscher Nation solche Formulam Concordiae / zu Berga im Closter
+verglichen / wolgefallen / adprobiren die erklerung vnd decidirung der Religion
+streit / vnd bezeugen einen gewünschten / heilsamen / Christlichen Consensum in
+allen Articuln / Dafür wir Gott nimmer gnugsam dancken können / Demnach bitte
+vnd flehe ich auch neben andern fromen / friedsamen vnd Gottseligen Hertzen zu
+Gott / seine güte / barmhertzigkeit vnd allmacht wolle nicht ansehen etlicher
+leute bosheit vn&#x0303; freuel / die mehr lust haben zun lügen /
+gifftiger / schedlicher künheit / denn zur warheit / zu ewigem vnauffh örlichen
+zanck vnd hader / denn zu heilsamen frieden / vnd vmb derselben willen
+<pb facs="#f0034"/>
+disheilsam / hochnötig werck nicht
+zu rügk treiben lassen / sondern viel mehr vmb seines heiligen Namens / seiner
+hochbetrübten Kirchen / vnd vmb der lieben Posteritet willen / alle feindtselige
+vnd Gottlose / böse / schedliche tücke / rencke / Praeticken vnd anschlege / so
+wider dis Concordien werck fürgenommen werden / zu nicht vnd zu schanden machen
+/ der Chur: vn&#x0303; Fürsten hertzen durch seinen H. Geist erleuchten
+vnd führen / das sie dis heilsame werck nicht fallen / noch sich durch einige
+Calumnien dauon abhalten lassen sondern mit Christlichem vnd bestendigen eiffer
+dis Christlich heilsam fürhaben fortsetzen / befürdern / vnd zum lang
+gewünschten end bringen / Solchs auch der gantzen Kirchen zu heil vnd trost / zu
+erhaltung vnd steter fortpflantzung der seligmachenden Warheit / zu abschaffung
+vn&#x0303; gentzlicher ausrottu&#x0303;g der falschen Lere /
+vnd feindseligen Corruptelen / vnd dann zu widerauffrichtung vnd bestettigung
+heilsamer einigkeit / vnd bestendigen Friedens in der Gemeine Jesu Christi
+gedeyen möge / Amen / Amen.</p>
+<p>Ich stelle es in keinen zweiffel / da sich einer würde herfür thun / heimlich
+oder öffentltch / vnd die Formulam Concordiae angreiffen / die Herren
+Collectores dieses Buchs werden sich der warheit annemen / vnd den widersachern
+aus grund Göt-
+<pb facs="#f0035"/>
+liches Worts
+bestendiglich zubegegnen / vnd alle für einen / vnd einer für alle zustehen /
+vnd des letzten Schaffstals Jesu Christi in guter huet vnd acht zu haben wissen
+/ dürffen zwar meiner vertrettung nicht. Dieweil aber nun mehr die Formula
+Concordiae ein gemein werck ist / vn&#x0303; ich derselben vnterschrieben
+/ Vnd aber der liechtschewende Nachtrabe / der tichter des falschen Gottlosen
+Brieffs / dem Concordien Buch schuld gibt / als sey es ein Gottlos Buch / ein
+gefeß volles vnglückes / ein Buch voller Irrthümen / so gebüret mir auch darnach
+zufragen / was den&#x0303; für Irrthümen darinnen sind / wissentlich wil
+ich ja nicht Irrthümen vnterschreiben / dafür mich der trewe vnd frome Gott
+wolle behüten / Demnach frage ich dich Feind Gottes / dich meuchlingischen
+tichter dieses Brieffs / sage an / Was hastu für Irrthüme in der Formula
+gemerckt / murmule nicht vnter dem Bart her / wispele nicht aus dem staube wie
+die Zeuberer / sondern rede frey / rundt vnd deutlich / Was sind es für Irrthüme
+in dem Bergischen Buche / vnd verbesserten Formula Concordiae / Wie heissen die
+Irrthümen? an welchem ort stehen sie? mit welchen worten sind sie gesetzt? mit
+welchen sprüchen Göttliches Worts sind die Irrthümen zuwiderlegen / das wir
+dauon abstehen /
+<pb facs="#f0036"/>
+vnd vns dafür
+hüten können? Wenn du lesterer die gemeine Gottes mit trewen meinetest / so
+hette dir je solchs gebüret anzuzeigen / Oder / fragestu nicht darnach / das die
+Schefflein Christi verfüret werden / worumb gibstu nicht dem Kinde einen namen?
+Wie kan man sich für Irrthümen / die nicht deutlich gezeiget werden / hüten?
+Siehestu denn nicht du Christlicher Gottliebender Leser / das solche zerstörer
+des friedes / feindselige Fladergeister vnd heimliche Practickanten / von Gottes
+Geist nicht geführet werden / die Gemeine Ihesu Christi nicht mit trewen meinen
+/ jrer faulen bösen Sachen auch keinen grund haben / das dann nicht allein jre
+Sacramentierer vnd Rottengeister / sondern viel mehr alle fromme Gottfürchtende
+vnd friedliebende hertzen wissen.</p>
+<p>Was ich Tilemanus Heßhusius von der im Closter zu Berga verglichener Formula
+Concor diae halte / so sage ich rund vnd richtig in diesem offenen Druck /
+fürder gantzen Christenheit / das ich keinen Irrthumb / noch falsche Lere in der
+Formula Concordiae kan finden / viel mehr lese ich darinn gesunde / reine /
+heilsame vnd warhafftige Lere / die mit den schrifften der Propheten vnd
+Aposteln vberein stimmet / auch aus dem brunnen Israel genommen ist / Vnd sage
+rundt vnd klar /
+<pb facs="#f0037"/>
+das Buch Formula
+Concordiae sey nicht ein Pandora oder gefeß / darin alles vnglücke stecke / sey
+nicht ein Gottlos Buch / wie der falsche verlogene Brieff tichtet / der
+meuchlische Caluinist vnter frembden namen ausspeiet / Sondern sey ein
+Christlich / tapffer / herrlich / nützlich / vnd nötig Buch / darin die rechte
+gesunde meinung von den fürgefallenen Religionsstreiten ausführlich vnd gewaltig
+erkleret / vnd aus rechtem grunde Göttlichs Worts erwiesen / die falsche /
+jrrige vnd schedliche meinung aber / so bisher allen jammer in der Kirchen
+angerichtet / vnd viel einfeltige Hertzen jemmerlich verführet hat / deutlich
+vnd klar verworffen vnd verdampt / auch mit starcken vnd festen zeugnissen der
+schrifft widerlegt / vnd gantz zu bodem gestossen wird / Thar derwegen wol trotz
+bieten / allen Sacramentsfeinden / vnd andern Rottengeistern / das sie sich an
+dis Buch machen / Sind sie aber nur Weltlich / Erbar vn&#x0303;
+auffrichtig so gehen sie vns redlich vnter augen / verkappen sich nicht vnter
+frembden oder ertichte&#x0303; name&#x0303; / wie jre art ist /
+sondern bekennen jren namen / das man jnen möge antworte&#x0303; / vn&#x0303; die gantze Gemeine Jesu Christi darüber richten lassen. Es hat
+mich kein heel / das ich von Gott wünsche / Chur: vnd Fürsten / so der
+vnnerenderten Augspürgischen Con-
+<pb facs="#f0038"/>
+fession von Hertzen zugethan sind / demütig darumb bitte / desgleichen
+die Herrn Collectores / so sich werck noch vnterhanden haben / vn&#x0303;
+alle Gottliebende Theologos / trewlich erinnere / vnd darzu vermane / achte es
+auch zum högsten von nöten / wie ich solches in meinem bedencken ausführlich
+dargethan / vnd aus Gottes hellem Wort erwiesen habe / Man wolle die Hypotheses
+bey einem jeden Articul klar vnd mit namen setzen / am aller meisten vmb der
+lieben Posteritet willen / die deren am meisten wird bedürffen / mit anzeigung
+der Bücher / vnd der örter / darin sie solche falsche meinung gesprenget / vnd
+die Gemeine Gottes dardurch betrübt haben.</p>
+<p>Dis ist nicht alleine meine erinnerunge / die aus Gottes Wort starck darzuthun
+vnd zu beweisen ist / sondern ich weis / das viel gelerte vnd Gottselige
+Theologen / so wol in gantz Sachsen / vnd in den See Stedten / als im Ober
+Deutschland sind die dasselbige neben mir bitten / suchen / vnd für hochnötig
+achten. Eines bin ich gewis / wann Gott die gnad wolt geben / das solche
+Hypotheses bey einem jeden Articul deutlich / vnd in dieser herrlichen /
+ausführlichen / heilsamen / in den Schrifften der Propheten vnd Aposteln so
+ge-
+<pb facs="#f0039"/>
+waltig gegründeten
+Formula Concordiae gesetzet / vnd die Authores Corruptelarum / die auch niemals
+dauon gewichen / sondern stets fest darüber gehalten haben / ausgedruckt wurden
+/ Gott vom Himel würde desto mehr gnad vnd Segens zu diesem heilsamen Concordien
+werck geben / So würden auch die heimblichen / meuchlingischen / falschen /
+verschlagene / abtrünnige Caluinisten vnd Rottengeister / deren viel mit
+falschem Hertzen der Formulae Concordiae vnterschrieben haben / sich desto mehr
+an den tag geben / zu rüg prallen / vnd kundt thun / was sie im Schild füreten.
+Ob dann nun die Herrn Collectores auff diese meine erinnerunge vnd bitte / die
+austruckliche benennung der Authorum Corruptelarum der Formulae Concordiae bey
+einem jeden Articul inseriren / Oder / wie man dauon saget / solches auff einem
+Generali Synodo mit raht mehrer Theologen / fürnemen vnd fortsetzen wollen /
+stehet bey jnen / Ich habe jnen nichts fürzuschreiben / ich thue nur mein
+bekantnus / bitte für die Posteritet / vnd trewe erinnerung / Vnd dancke meinem
+Gott / das so viel von den fürnembsten Theologen bekandt ist / das ich neben
+andern für die Warheit gestritten / vnd die Corruptelen mit klaren worten sind
+verworffen.</p>
+<pb facs="#f0040"/>
+<p>Der Ewige / trewe vnd Barmhertzige Gott wolle vmb seines Sons Jesu Christi willen
+/ jm diss heilsam / hochnötig Christlich Concordien werck trewlich befohlen sein
+lassen / gnedig befürdern / vnd zum lang gewünschtem ende kommen lassen / das
+alle Corruptelen vnd falsche Lere abgeschaffet vnd ausgerottet / heilsame vnd
+allein seligmachende vnuerfelschte Warheit bey vns erhalten / vnd auff vnsere
+Nachkommen / als eine thewre beylage gebracht möge werden / vnd wir sampt allen
+Gleubigen / durch dieselbe Göttliche warheit die ewige Seligkeit in Jesu Christo
+erreichen / AMEN.<lb/>
+</p>
+</div>
+</body>
+</text>
+</TEI>

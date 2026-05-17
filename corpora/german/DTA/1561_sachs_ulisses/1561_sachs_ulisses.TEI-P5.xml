@@ -1,0 +1,3611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Die irrfart Ulissi mit den Werbern und seiner gemahel Penelope</title>
+<title type="sub">Comedi. Mit 14. Personen und hat XII. Actus</title>
+<title type="volume" n="3">Das dritt vnd letzt Buch. Sehr Herrliche Schoene Tragedi, Comedi vnd schimpf Spil, Geistlich vnd Weltlich, vil schoener alter warhafftiger Histori, auch kurtzweiliger geschicht auff das deutlichst an Tag geben : Welche Spil auch nit allein gut, nutzlich vnd kurtzweilig zu lesen sindt, sonder auch leichtlich aus disem Buch spilweis anzurichten, weil es so ordenlich alle Person, gebaerden, wort vnd werck, außgeng vnd eingeng aufs verstendigst anzeiget, du[r]ch alle Spil, der vormal keins im Truck ist außgangen, noch gesehen worden</title>
+<author>
+<persName ref="http://d-nb.info/gnd/118604597">
+<surname>Sachs</surname>
+<forename>Hans</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt xml:id="textsource-1">
+<orgName>
+Hans Sachs: kritische Neuedition der "Comedi" "Die irrfart Ulissi" (1555), herausgegeben von Nathanael Busch und Hans Rudolf Velten, Universität Siegen
+</orgName>
+<resp>
+<note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+<note type="remarkRevisionDTA">
+Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.
+</note>
+</resp>
+</respStmt>
+<respStmt>
+<persName ref="http://d-nb.info/gnd/1053042477">
+<surname>Busch</surname>
+<forename>Nathanael</forename>
+</persName>
+<persName ref="http://d-nb.info/gnd/1055783571">
+<surname>Velten</surname>
+<forename>Hans Rudolf</forename>
+</persName>
+<resp>
+<note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+<date type="importDTA">2019-11-22T14:29:24Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">24</measure>
+<measure type="tokens">9255</measure>
+<measure type="types">2736</measure>
+<measure type="characters">55400</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:36:25Z</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">
+<p>CC BY-NC-SA 4.0</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/sachs_ulisses_1561</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/sachs_ulisses_1561</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/sachs_ulisses_1561</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/sachs_ulisses_1561</idno>
+<idno type="DTADirName">sachs_ulisses_1561</idno>
+<idno type="DTAID">34821</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-34821-7</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="DS">Sachs, Hans: Die irrfart Ulissi mit den Werbern und seiner gemahel Penelope. In: Sehr herrliche, schöne, und warhaffte Gedicht. Das dritt vnd letzt Buch. Nürnberg, 1561, S. 91b-103a.</bibl>
+<biblFull>
+<titleStmt>
+<title level="a" type="main">Die irrfart Ulissi mit den Werbern und seiner gemahel Penelope</title>
+<title level="a" type="sub">Comedi. Mit 14. Personen und hat XII. Actus</title>
+<title level="a" type="volume" n="3">Das dritt vnd letzt Buch. Sehr Herrliche Schoene Tragedi, Comedi vnd schimpf Spil, Geistlich vnd Weltlich, vil schoener alter warhafftiger Histori, auch kurtzweiliger geschicht auff das deutlichst an Tag geben : Welche Spil auch nit allein gut, nutzlich vnd kurtzweilig zu lesen sindt, sonder auch leichtlich aus disem Buch spilweis anzurichten, weil es so ordenlich alle Person, gebaerden, wort vnd werck, außgeng vnd eingeng aufs verstendigst anzeiget, du[r]ch alle Spil, der vormal keins im Truck ist außgangen, noch gesehen worden</title>
+<author>
+<persName ref="http://d-nb.info/gnd/118604597">
+<surname>Sachs</surname>
+<forename>Hans</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">[4], CCLXIIII (=263), CCC, LXXXIIII (= 83) Bl.</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Christoff Heußler</name></publisher>
+<pubPlace>Nürnberg</pubPlace>
+<date type="publication">1561</date>
+<date type="creation">1555</date>
+</publicationStmt>
+<seriesStmt>
+<title level="s" type="main">Sehr herrliche, schöne, und warhaffte Gedicht</title>
+<biblScope unit="pages">91b-103a</biblScope>
+</seriesStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Bayerische Staatsbibliothek</repository>
+<idno>
+<idno type="shelfmark">Rar. 2298-3</idno>
+<idno type="URLCatalogue">https://opacplus.bsb-muenchen.de/search?oclcno=165795033&amp;db=100&amp;View=default</idno>
+<idno type="URLImages">http://daten.digitale-sammlungen.de/bsb00084758/image_722</idno>
+<idno type="URN">urn:nbn:de:bvb:12-bsb00084758-9</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Die Transkription erfolgte nach den unter
+<a href="http://www.deutschestextarchiv.de/doku/basisformat/">http://www.deutschestextarchiv.de/doku/basisformat/</a>
+formulierten Richtlinien.</p>
+<p>Verfahren der Texterfassung: manuell (einfach erfasst).</p>
+<p>
+Bogensignaturen: gekennzeichnet;
+Druckfehler: ignoriert;
+fremdsprachliches Material: gekennzeichnet;
+Geminations-/Abkürzungsstriche: wie Vorlage;
+Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+I/J in Fraktur: wie Vorlage;
+i/j in Fraktur: wie Vorlage;
+Kolumnentitel: gekennzeichnet;
+Kustoden: gekennzeichnet;
+langes s (&#x017F;): wie Vorlage;
+Normalisierungen: keine;
+rundes r (&#xA75B;): wie Vorlage;
+Seitenumbrüche markiert: ja;
+Silbentrennung: wie Vorlage;
+u/v bzw. U/V: wie Vorlage;
+Vokale mit übergest. e: wie Vorlage;
+Vollständigkeit: vollständig erfasst;
+Zeichensetzung: wie Vorlage;
+Zeilenumbrüche markiert: ja;
+</p>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">dtae</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001" n="XCIb"/>
+<fw type="header" place="top">Der ander Theil/</fw>
+<gap reason="insignificant" unit="lines"/>
+<cb/>
+<titlePage type="main">
+<titlePart type="main">Comedi.<lb/>
+Mit 14. Per&#x017F;onen/<lb/>
+Die jr&#xA75B;fart
+Vli&#x017F;&#x017F;i mit den Wer-<lb/>
+bern/vnd &#x017F;einer gemahel
+<lb/>
+Penelope/vnd hat <lb/>
+VII. Actus.<lb/>
+</titlePart>
+</titlePage>
+</front>
+<body>
+<div n="1" type="act">
+<sp who="#EHRNHOLDT">
+<speaker>Der Eh&#xA75B;nholdt</speaker>
+<stage>tritt ein/neigt <lb/>
+&#x017F;ich vnnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p><hi rendition="#in">H</hi>Eil &#x017F;ey den Erbern
+Eh-<lb/>
+renue&#x017F;ten<lb/>
+Er&#x017F;amen außerwelten
+<lb/>
+Ge&#x017F;ten<lb/>
+Zu&#x0364;chtigen Frawen vnd Jungkfrawen<lb/>
+Vnd all &#x017F;o
+wo&#x0364;llen hie zu &#x017F;chawen<lb/>
+Den wir zu eh&#xA75B;en her &#x017F;ind
+kummen<lb n="5"/>
+Vns ein Hi&#x017F;tori fu&#x0364;r genummen<lb/>
+Comedi weiß zu
+recediern<lb/>
+Welch g&#x017F;chicht vor lang&#x017F;t thet
+pre&#x017F;chri-biern<lb/>
+<persName ref="http://d-nb.info/gnd/11855333X">Homerus</persName> der Griechi&#x017F;ch Poet<lb/>
+Jn <name type="artificialWork" ref="4193022-8">Odi&#x017F;ea</name> mich ver&#x017F;teht<lb n="10"/>
+Darinn er
+anzeiget nach art<lb/>
+Vli&#x017F;&#x017F;i deß Fu&#x0364;r&#x017F;ten
+jr&#xA75B;fart<lb/>
+Als der fu&#x0364;r <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName> zogen war<lb/>
+Kam er&#x017F;t haim im zwentzig&#x017F;ten
+jar<lb/>
+Mitler zeit der Landher&#xA75B;en So&#x0364;hn<lb n="15"/>
+Bultn vmb Penelope die
+&#x017F;cho&#x0364;n<lb/>
+Sein liebe gmahel keu&#x017F;ch vnd frumb<lb/>
+Die &#x017F;ich
+ih&#xA75B; auffhielt vmb vnd vmb<lb/>
+Die ta&#x0364;glich rieten ab vnd zu<lb/>
+Auch gantz
+mutwillig mit vnrhu<lb n="20"/>
+Ver&#x017F;chlemtens jr/jr gut vnd hab<lb/>
+Biß ins vierdt
+jar/da &#x017F;ich begab<lb/>
+Minerua die Go&#x0364;ttin der Weißheit<lb/>
+Sach an die
+groß vnbilligkeit<lb/>
+<fw type="catch" place="bottom">Hieß</fw>
+<pb facs="#f0002" n="XCIIa"/>
+<fw type="header" place="top">Weltlich vnd Poetisch
+histori.</fw><cb/>
+<lb/>
+Hieß Thelemachum &#x017F;einen Sohn<lb n="25"/>
+Jn <placeName ref="http://d-nb.info/gnd/4093976-5">Griechen lande</placeName> rai&#x017F;en
+thon<lb/>
+Vnd nach &#x017F;eim Vatter haben frag<lb/>
+Da machtn die Werber ein
+an&#x017F;chlag<lb/>
+Jn zu ermo&#x0364;rden auff der &#x017F;traß<lb/>
+Minerua vnterkam
+doch das<lb n="30"/>
+Jn dem kam Vli&#x017F;&#x017F;es zu landt<lb/>
+Jn Betlers
+g&#x017F;talt gar vnerkandt<lb/>
+Allein erkennet jn &#x017F;ein Hundt<lb/>
+Vnd &#x017F;ein
+Sohn dem er &#x017F;ich macht kundt<lb/>
+Seinr lieben gmahel Penelope<lb n="35"/>
+Gab er
+&#x017F;ich nit zu erkennen eh<lb/>
+Biß er die Werber all er&#x017F;chlug<lb/>
+Darzu halff
+jm trewlich genug<lb/>
+Sein lieber Sohn Thelemachus<lb/>
+Ewmeus vnd Philecius<lb n="40"/>
+Sein Sewhirdt vnd &#x017F;ein Och&#x017F;enhirt<lb/>
+Nach dem er &#x017F;ich
+&#x017F;chmucket vnd zirt<lb/>
+Als ein Fu&#x0364;r&#x017F;t gab &#x017F;ich er&#x017F;t
+zu kennen<lb/>
+Seiner Penelope benennen<lb/>
+Die jn mit gro&#x017F;&#x017F;er frewd
+vmbfing<lb n="45"/>
+Nach dem er jr erzelt all ding<lb/>
+Was er erlieden het die
+zeit<lb/>
+Fu&#x0364;r er&#x017F;chro&#x0364;cklich gefeh&#xA75B;ligkeit<lb/>
+Nun
+&#x017F;eit &#x017F;till wenn man an thut fangen<lb/>
+Ho&#x0364;ret vnd &#x017F;ehet mit
+verlangen<lb n="50"/>
+Wie alle ding &#x017F;eyen vergangen.<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus ein Sohn Vli&#x017F;&#x017F;i</speaker>
+<lb/>
+<stage>gehet ein vnnd klagt.</stage>
+<lb/>
+<p>Ach ich ellendt verlaßner Waiß<lb/>
+Der armut&#x017F;elig&#x017F;t ich wol haiß<lb/>
+Wann
+ich hab bald jetz ward geboren<lb/>
+Mein Vatter Vli&#x017F;&#x017F;em verloren<lb n="55"/>
+Vor <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName> in der Griechen
+Heer<lb/>
+Oder i&#x017F;t etwan in dem Meer<lb/>
+Ertruncken/als er heim wolt faren<lb/>
+Jch
+hab jn je in zweintzig jaren<lb/>
+Nit g&#x017F;ehen noch kein gwi&#x017F;es wort<lb n="60"/>
+Von jm vernummen noch gehort<lb/>
+<cb/>
+Deß ich vnd die Fraw Mutter
+mein<lb/>
+Penelope/vnd der Vatter &#x017F;ein<lb/>
+Laertes/biß her vn&#x017F;er
+zeit<lb/>
+Verzert haben in trawrigkeit<lb n="65"/>
+Dort &#x017F;teht ein Ga&#x017F;t den
+will ich fragen<lb/>
+Ob er mir doch etwas ku&#x0364;ndt &#x017F;agen<lb/>
+Vom hertzen
+lieben Vatter mein<lb/>
+O Ga&#x017F;t trit baß zu mir herrein<lb/>
+Wer bi&#x017F;t du/vnd
+wann komb&#x017F;t du her<lb n="70"/>
+Wei&#x017F;t du nit etwan gute ma&#x0364;r<lb/>
+Von
+Vli&#x017F;&#x017F;i dem thewren Fu&#x0364;r&#x017F;ten<lb/>
+Den je nach redligkeit war
+du&#x0364;r&#x017F;ten<lb/>
+Ob der &#x017F;ey lebendt oder todt.<lb/>
+</p>
+</sp>
+<sp who="#MINERUA">
+<speaker>Minerua Go&#x0364;ttin der Weißheit.</speaker>
+<lb/>
+<p>Thelemache ich &#x017F;chwer bey Gott<lb n="75"/>
+Dir warhafte kundt&#x017F;chaft zu
+geben<lb/>
+Das dein Vatter noch i&#x017F;t im leben<lb/>
+Wird auff gehaltn in einer
+Jn&#x017F;eln<lb/>
+Wider &#x017F;ein willn mit wain vn&#x0303;
+win&#x017F;&#x017F;eln<lb/>
+Jetzundt biß in das &#x017F;iebendt jar<lb n="80"/>
+Darumb
+&#x017F;o i&#x017F;t mein rath du fahr<lb/>
+Gehn <placeName ref="http://d-nb.info/gnd/4234889-4">Pillum</placeName> zum Fu&#x0364;r&#x017F;ten
+Ne&#x017F;tor<lb/>
+Der mit jm i&#x017F;t gelegen vor<lb/>
+<placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName>/vnd auch mit jm abgfarn<lb/>
+Vnd
+kan&#x017F;t du bey jm nichts erfarn<lb n="85"/>
+Zeuch gen <placeName ref="http://d-nb.info/gnd/4056054-5">Sparta</placeName> zu Menelao<lb/>
+Dem
+Ko&#x0364;nig vnd erkundt aldo<lb/>
+Wo Vli&#x017F;&#x017F;es der Vatter dein<lb/>
+Hin
+kummen &#x017F;ey in gemein<lb/>
+Die Griechen furhn von <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName> ab<lb n="90"/>
+Weil er als ich
+vernummen hab<lb/>
+Auch er&#x017F;t newlich i&#x017F;t kummen heim<lb/>
+Vnd wenn du denn
+erfor&#x017F;cht in gheim<lb/>
+Wo dein Vatter &#x017F;ey in dem landt<lb/>
+So &#x017F;uch
+jn fu&#x0364;h&#xA75B; jn heim zu handt<lb n="95"/>
+Den Go&#x0364;ttling rath will ich
+dir geben.<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O Ga&#x017F;t ich will dir volgen eben<lb/>
+<fw type="sig" place="bottom">q ij</fw><fw type="catch" place="bottom">Vnd</fw>
+<pb facs="#f0003" n="XCIIb"/>
+<fw type="header" place="top">Der ander Theil/</fw><cb/>
+Vnd
+das auff den morgigen tag.<lb/>
+</p>
+</sp>
+<sp who="#MINERUA">
+<speaker>Minerua</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Deinr Mutter gar nichts daruon &#x017F;ag<lb/>
+Jch will &#x017F;elber rai&#x017F;en mit
+dir<lb n="100"/>
+Mein Thelemache &#x017F;ag du mir<lb/>
+Was i&#x017F;t das fu&#x0364;r
+ein fro&#x0364;licher &#x017F;chal<lb/>
+Von den ge&#x017F;ten in dem jnnern Sal<lb/>
+Oder
+i&#x017F;t es nur dein Hofge&#x017F;ind.<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ach nein laider die&#x017F;es &#x017F;ind<lb n="105"/>
+Der Landther&#xA75B;en
+So&#x0364;hn obgenandt<lb/>
+Alhie in <placeName ref="http://d-nb.info/gnd/4109169-3">Jtaca</placeName> dem landt<lb/>
+Vnd ander lender &#x017F;o herumb &#x017F;ein<lb/>
+Die
+werben vmb die Mutter mein<lb/>
+Der &#x017F;ind von Adel außge&#x017F;undert<lb n="110"/>
+Vier vnd zweintzig vnd darzu hundert<lb/>
+Die kummen nach einander her<lb/>
+Von den mein
+Hof i&#x017F;t &#x017F;elten ler<lb/>
+Vnd haben alda Futer vnd Mal<lb/>
+Die
+&#x017F;chlemen vn&#x0303; demmen auff dem Sal<lb n="115"/>
+Gar trutzigklichen von dem
+mein.<lb/>
+</p>
+</sp>
+<sp who="#MINERUA">
+<speaker>Minerua</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Was thut darzu die Mutter dein?<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Die hat vor jn gleich gar kein rhu<lb/>
+Slecht jn nichts ab/&#x017F;agt jn nichts
+zu<lb/>
+Thut &#x017F;ich durch einen li&#x017F;t auff halten<lb n="120"/>
+Hat jn zu
+g&#x017F;agt bald &#x017F;ie dem alten<lb/>
+Laertes jrem Schweher hab<lb/>
+Sein Tuch hab
+außgewu&#x0364;rckt zum grab<lb/>
+Vnd wo in mitler zeit nit
+kumb<lb/>
+Haim/Vli&#x017F;&#x017F;es mein Vatter frumb<lb n="125"/>
+Als denn wo&#x0364;ll
+&#x017F;ie nemen jr einen<lb/>
+Zu eim gmahel on als verneinen<lb/>
+An dem Leichtuch
+wu&#x0364;rckt &#x017F;ie all tag<lb/>
+Gar ku&#x0364;n&#x017F;tliche arbeit ich
+&#x017F;ag<lb/>
+<cb/>
+Vnd als was &#x017F;ie beim tag thut wiffeln<lb n="130"/>
+Thut
+&#x017F;ie bey nacht wider auff triffeln<lb/>
+Darmit blendt &#x017F;ie der Werber
+&#x017F;char<lb/>
+Helts darmit auff ins vierdte jar<lb/>
+Mit lerer hoffnung jmmer
+zu.<lb/>
+</p>
+</sp>
+<sp who="#MINERUA">
+<speaker>Minerua</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Nun Thelemache ordne du<lb n="135"/>
+Heimlich all notturft in das Schieff<lb/>
+Das wir
+vber das Meere tieff<lb/>
+Morgen fah&#xA75B;en auff <placeName ref="http://d-nb.info/gnd/4234889-4">Pilum</placeName> hin<lb/>
+Darzu ich denn dein
+mitgfert bin<lb/>
+Vnd lai&#x017F;te dir trewe g&#x017F;el&#x017F;chaft.<lb n="140"/>
+</p>
+</sp>
+<stage>Minerua gehet ab.</stage>
+<lb/>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>redt mit jhm<lb/>
+&#x017F;elber vnnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jch entpfind gleich ein Go&#x0364;ttlich kraft<lb/>
+Vnd ku&#x0364;nheit in dem hertzen
+mein<lb/>
+Diß wird warhaft Minerua &#x017F;ein<lb/>
+Die zarte Go&#x0364;ttin der
+Weißheit<lb/>
+Will mir in widerwertigkeit<lb n="145"/>
+Jn men&#x0303;licher ge&#x017F;talt
+bey&#x017F;tehn<lb/>
+Nun will ich bald vnd eilendt gehn<lb/>
+Zu bereiten vn&#x017F;er
+Schiffart<lb/>
+Was vns denn not i&#x017F;t aller art.<lb/>
+</p>
+</sp>
+<stage>Thelemachus gehet ab.</stage>
+<lb/>
+<stage>Die vier Werber gehen ein</stage>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ho&#x0364;rt Thelemachus der jung Fu&#x0364;r&#x017F;t<lb n="150"/>
+Redt &#x017F;o
+verwegen vnd gedu&#x0364;r&#x017F;t<lb/>
+Heut mit troworten vnbe&#x017F;cheiden<lb/>
+Wir
+Werber &#x017F;ollen &#x017F;ein Hof meiden<lb/>
+Vnd jm abzeren nit das
+&#x017F;ein<lb/>
+Sonder wir &#x017F;ollen all gemein<lb n="155"/>
+Jeder heimziehen in
+&#x017F;ein her&#xA75B;&#x017F;chaft<lb/>
+Das wir nit wern eins mals
+ge&#x017F;traft<lb/>
+Rath zu jr Werber was hat er im &#x017F;in.<lb/>
+</p>
+</sp>
+<fw type="catch" place="bottom">Ewrimachus</fw>
+<pb facs="#f0004" n="XCIIIa"/>
+<fw type="header" place="top">Weltlich vnd Poetisch histori.</fw>
+<cb/>
+<sp who="#EWRIMACHUS">
+<speaker>Ewrimachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Man &#x017F;aget er &#x017F;ey gefahren hin<lb/>
+Gen <placeName ref="http://d-nb.info/gnd/4056054-5">Sparta</placeName> vnd auch gen <placeName ref="http://d-nb.info/gnd/4234889-4">Pilum</placeName><lb n="160"/>
+Wie wenn er da ein
+gro&#x017F;&#x017F;e &#x017F;umb<lb/>
+Kriegßleut be&#x017F;telt vns
+vberzu&#x0364;g<lb/>
+Vnd vns auß &#x017F;einem Hoff all &#x017F;chlu&#x0364;g<lb/>
+Wann er
+hat je in &#x017F;einem zorn<lb/>
+Vns Werbern allen den todt g&#x017F;chworn<lb n="165"/>
+Derhalb du&#x0364;rff wir nit lenger bleiben.<lb/>
+</p>
+</sp>
+<sp who="#AGELAUS">
+<speaker>Agelaus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O er wird vns lang&#x017F;am außtreiben<lb/>
+Er mu&#x0364;&#x017F;t nur
+g&#x017F;chnitzte Men&#x0303;lein bringen<lb/>
+Die fu&#x0364;r jn &#x017F;tritten in den
+dingen<lb/>
+Wer main&#x017F;t der &#x017F;ich &#x017F;ein neme an<lb n="170"/>
+Der vns
+allen wolt wider&#x017F;tahn<lb/>
+Vnd vn&#x017F;er feindt&#x017F;chaft auff &#x017F;ich
+laden<lb/>
+Glaub eh das er vns zu &#x017F;chaden<lb/>
+Mit Gift/&#x017F;ey gen
+<placeName>Ephira</placeName> gfaren<lb/>
+Da die vergiften Krewter waren<lb n="175"/>
+Darmit vns im tranck zu vergeben<lb/>
+Al&#x017F;o tu&#x0364;cki&#x017F;ch nemen das
+leben<lb/>
+D&#xA75B;umb la&#x017F;t vns Triackes einnemen.<lb/>
+</p>
+</sp>
+<sp who="#AMPHINEMUS">
+<speaker>Amphinemus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Mich wundert das dich nit thu&#x017F;t &#x017F;cheme&#x0303;<lb/>
+Mein Agelae auff mein
+Eid<lb n="180"/>
+Der jung Fu&#x0364;r&#x017F;t i&#x017F;t nit &#x017F;o
+ge&#x017F;cheid<lb/>
+Das er mit Gift we&#x017F;t vmbzugehn<lb/>
+Vnd vns darmit zu
+wider&#x017F;tehn<lb/>
+Auch nit &#x017F;o ku&#x0364;n vnd keck fu&#x0364;rwar<lb/>
+Das er
+vn&#x017F;er eim kru&#x0364;mbt ein Har<lb n="185"/>
+Weßhalb ha&#x017F;t denn ob jm ein
+grauß.<lb/>
+</p>
+</sp>
+<sp who="#AGELAUS">
+<speaker>Agelaus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jch treib nur mein fatzwerck darauß<lb/>
+Er i&#x017F;t ein Kindt bey allen
+Wei&#x017F;en<lb/>
+Do&#x0364;rft mich kaum in ein Finger bei&#x017F;en<lb/>
+Er i&#x017F;t
+ein milchling zag vnd &#x017F;chlecht.<lb n="190"/>
+</p>
+</sp>
+<cb/>
+<sp who="#EWRIMACHUS">
+<speaker>Ewrimachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jh&#xA75B; Her&#xA75B;n ver&#x017F;teht der &#x017F;ach nit recht<lb/>
+Thelemachus
+feh&#xA75B;t vmb allein<lb/>
+Zu erfor&#x017F;chen den Vatter &#x017F;ein<lb/>
+Denck aber
+wol der kumb nit wider<lb/>
+Jn fu&#x0364;h&#xA75B;t denn ein Rab im Kropf her<lb n="195"/>
+Wen&#x0303; nun der Sohn auch &#x017F;chaden nemb<lb/>
+Sambt dem Vatter nit wider
+khem<lb/>
+Was mu&#x0364;&#x017F;ten denn wir Werber than.<lb/>
+</p>
+</sp>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Wenn Fraw Penelope kein Man<lb/>
+Auß vns Werbern jr erwelt<lb n="200"/>
+Wie &#x017F;ie
+&#x017F;elb hat ein zil ge&#x017F;telt<lb/>
+Mit dem Leichtuch/&#x017F;o wolten
+wir<lb/>
+Werber/nit abla&#x017F;&#x017F;en von jr<lb/>
+Biß wir verzerten all jr
+gut<lb/>
+Mit &#x017F;chlemmen/pra&#x017F;&#x017F;en vn&#x0303; guten mut<lb n="205"/>
+Wird
+vns die Fu&#x0364;r&#x017F;tin nit zu thail<lb/>
+So hat &#x017F;ie zwo&#x0364;lff Magd
+die &#x017F;ind gail<lb/>
+Mit den &#x017F;o treib wir bulerey<lb/>
+Die vns tag vnd nacht
+wohnen bey<lb/>
+Jh&#xA75B; Hofg&#x017F;ind hat vns nit vngern<lb n="210"/>
+Vns auch gar
+nit außtreiben wern<lb/>
+Die Burger&#x017F;chaft in die&#x017F;er Stat<lb/>
+Die
+vn&#x017F;er gro&#x017F;&#x017F;e nutzung hat<lb/>
+Nun ta&#x0364;glich her bey vier
+jarn.<lb/>
+</p>
+</sp>
+<sp who="#EWRIMACHUS">
+<speaker>Ewrimachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Anthinoe ich hab erfarn<lb n="215"/>
+Von einer dirn im Frawenzimmer<lb/>
+Was die
+Fu&#x0364;r&#x017F;tin thut wu&#x0364;rcken jmmer<lb/>
+Beim tag an die&#x017F;em
+Leichtuch macht<lb/>
+Triffelt &#x017F;ie wider auff zu nacht<lb/>
+Fu&#x0364;h&#xA75B;t vns
+al&#x017F;o vmb bey der Na&#x017F;en.<lb n="220"/>
+</p>
+</sp>
+<sp who="#AGELAUS">
+<speaker>Agelaus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jch hab mich leng&#x017F;t beduncken la&#x017F;en<lb/>
+Sie wu&#x0364;rckt an dem
+Leichtuch zu lang.<lb/>
+</p>
+</sp>
+<fw type="sig" place="bottom">q iij</fw>
+<fw type="catch" place="bottom">Amphi-</fw>
+<pb facs="#f0005" n="XCIIIb"/>
+<fw type="header" place="top">Der ander Theil/</fw>
+<cb/>
+<sp who="#AMPHINEMUS">
+<speaker>Amphinemus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jch hab wol gemerckt im anfang<lb/>
+Das &#x017F;ie hat wenig lu&#x017F;t zu
+vns<lb/>
+Leicht auß anleitung jh&#xA75B;es Suhns<lb n="225"/>
+Derhalben &#x017F;eyen wir
+groß Nar&#xA75B;en<lb/>
+Das wir als lang alhie verhar&#xA75B;en<lb/>
+Solt
+Vli&#x017F;&#x017F;es jetz wider kummen<lb/>
+Vns wu&#x0364;rd allen das leben
+gnumen<lb/>
+Be&#x017F;&#x017F;er wer wir theten abziehen.<lb n="230"/>
+</p>
+</sp>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O wer jn fu&#x0364;rcht der mag wol fliehen<lb/>
+Jch komb von die&#x017F;er Ziechen
+nicht<lb/>
+Dieweil ein Federn herauß &#x017F;ticht<lb/>
+Jch will zu Hof bleiben
+allein<lb/>
+E&#x017F;&#x017F;en/Trincken vnd fro&#x0364;lich &#x017F;ein<lb n="235"/>
+Kombt la&#x017F;t vns zum Nachtmal hinein.<lb/>
+</p>
+</sp>
+<stage>Sie gehen alle auß.</stage>
+<lb/>
+</div>
+<div n="1" type="act">
+<head>Actus 2.</head>
+<sp who="#NESTOR">
+<speaker>Ne&#x017F;tor der alt Fu&#x0364;r&#x017F;t zu <placeName ref="http://d-nb.info/gnd/4234889-4">Pilum</placeName></speaker>
+<lb/>
+<stage>geht ein vnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Danck &#x017F;ey Nephtuno dem Meergot<lb/>
+Das er mich hat vor Wa&#x017F;&#x017F;ers
+noth<lb/>
+Verwaret als ich ab hin g&#x017F;chiden<lb/>
+Vor <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName> kummen bin mit friden<lb n="240"/>
+Gen <placeName ref="http://d-nb.info/gnd/4234889-4">Pilum</placeName> heim
+durchs wu&#x0364;tendt Meer<lb/>
+Zu meinem Fu&#x0364;r&#x017F;tenthumb mit
+eh&#xA75B;<lb/>
+Glu&#x0364;cklich vor andern Griechen allen<lb/>
+So hat es den
+Go&#x0364;ttern gefallen.<lb/>
+</p>
+</sp>
+<sp who="#'EHRNHOLDT">
+<speaker>Der Eh&#xA75B;nholdt</speaker>
+<stage>kombt/&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Gnediger Her&#xA75B; es &#x017F;ind zwen Mon<lb n="245"/>
+Gar zwo Adeliche
+Per&#x017F;on<lb/>
+Jm Vorhof begerten zu euch.<lb/>
+</p>
+</sp>
+<cb/>
+<sp who="#NESTOR">
+<speaker>Ne&#x017F;tor</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Heiß &#x017F;ie herrein on alle &#x017F;cheuch<lb/>
+Vnd mir anzeigen jr
+begeren<lb/>
+J&#x017F;t es mu&#x0364;glich ich will &#x017F;ie gweren.<lb n="250"/>
+</p>
+</sp>
+<stage>Minerua vnd Thelemachus<lb/>
+treten ein/</stage>
+<sp who="#NESTOR">
+<speaker>Ne&#x017F;tor</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jh&#xA75B; lieben Ge&#x017F;t wann kombt jr her<lb/>
+Wer &#x017F;eit jr/was i&#x017F;t
+ew&#xA75B; beger.<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>neiget &#x017F;ich<lb/>
+vnnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O Ne&#x017F;tor du gar thewrer Mon<lb/>
+Aller Griechen ein werde Kron<lb/>
+Auß <placeName ref="http://d-nb.info/gnd/4109169-3">Jtaca</placeName> dem
+Fu&#x0364;r&#x017F;tenthumb<lb n="255"/>
+Auß gro&#x017F;&#x017F;em vertrawen ich
+kumb<lb/>
+Zu dir/bin der Sohn Vli&#x017F;&#x017F;i<lb/>
+Bey dir gwiß zu erfaren hy<lb/>
+Wo
+Vli&#x017F;&#x017F;es mein Vatter &#x017F;ey<lb/>
+Der dir doch hat gewonet bey<lb n="260"/>
+Jn der belegrung vor <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName><lb/>
+Ob du doch wei&#x017F;t wie oder wa<lb/>
+Ob er vor <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName> het &#x017F;chaden
+gnumen<lb/>
+Oder wo er doch hin &#x017F;ey kumen<lb/>
+Wann &#x017F;eit er rai&#x017F;t auß
+<placeName ref="http://d-nb.info/gnd/4109169-3">Jtaca</placeName><lb n="265"/>
+Jm
+Griechi&#x017F;chen heer vor <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName><lb/>
+Hab wir gar nichts von jm gehort<lb/>
+Seit doch all
+Fu&#x0364;r&#x017F;ten an dem ort<lb/>
+So g&#x017F;undt &#x017F;ind blieben vnd im
+leben<lb/>
+All widerumb haim kummen eben<lb n="270"/>
+Denn außgnumen der Vatter
+mein.<lb/>
+</p>
+</sp>
+<sp who="#NESTOR">
+<speaker>Ne&#x017F;tor</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Thelemache der Vatter dein<lb/>
+Vnd ich haben &#x017F;eh&#xA75B; vil erlitten<lb/>
+Vnfals
+vnd gfeh&#xA75B;ligkeit durch&#x017F;tritten<lb/>
+Vor <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName> daruor Patroclus<lb n="275"/>
+Achilles vnd Antilochus<lb/>
+Mein Son/v&#x0303;n manch Griechi&#x017F;cher held<lb/>
+<fw type="catch" place="bottom">Von</fw>
+<pb facs="#f0006" n="XCIIIIa"/>
+<fw type="header" place="top">Weltlich vnd Poetisch histori.</fw><cb/>
+Von den Troyaner ward
+gefelt<lb/>
+Da ich vnd dein Vatter mit nam<lb/>
+Vns allmal trewlich hielten z&#x017F;am<lb n="280"/>
+Jn allen &#x017F;charmu&#x0364;tzel fru&#x0364; vnd
+&#x017F;pa&#x0364;t<lb/>
+Dein Vatter gab die wei&#x017F;ten ra&#x0364;th<lb/>
+Fu&#x0364;r
+alle Fu&#x0364;r&#x017F;ten in dem Krieg<lb/>
+Durch &#x017F;ein li&#x017F;t/ erlangt wir
+den &#x017F;ieg<lb/>
+Als die Stat wu&#x0364;rd g&#x017F;chlaift v&#x0303;n
+zer&#x017F;to&#x0364;rt<lb n="285"/>
+Priamus vnd &#x017F;ein Sohn
+ermo&#x0364;rdt<lb/>
+Vnd wir mit der bewt wol beladen<lb/>
+Abfu&#x0364;h&#xA75B;n/doch mit
+der Gotes vngnaden<lb/>
+Wann etlich Griechen bo&#x0364;&#x017F;er art<lb/>
+Die hetten
+&#x017F;ich ver&#x017F;u&#x0364;ndet hart<lb n="290"/>
+Deß machtens &#x017F;ie durch groß
+vngwitter<lb/>
+Vn&#x017F;er heimfart &#x017F;awer vnd bitter<lb/>
+Das jr vil gangen
+&#x017F;ind zu grund<lb/>
+Dein Vatter auch abfuh&#xA75B; zu &#x017F;tund<lb/>
+Fuh&#xA75B;t
+d&#xA75B;eyzehen Nauen mit jn<lb n="295"/>
+Wo er aber i&#x017F;t kummen
+hin<lb/>
+Da&#x017F;&#x017F;elbig i&#x017F;t vnwi&#x017F;&#x017F;endt mir<lb/>
+Wann von
+einander kamen wir<lb/>
+Kurtzer zeit im vng&#x017F;tummen Meer<lb/>
+Derhalb mein Sohn volg
+meiner leer<lb n="300"/>
+Vnd eilendt hin <placeName ref="http://d-nb.info/gnd/4056054-5">Sparta</placeName> fah&#xA75B;<lb/>
+Zu Ko&#x0364;nig Menelao dar<lb/>
+Der &#x017F;elb
+i&#x017F;t auch bey etling jarn<lb/>
+Jn der jr&#xA75B; auff dem Meer vmbgfarn<lb/>
+Ob der
+&#x017F;elb etwan het vernummen<lb n="305"/>
+Wo doch entlichen hin wer
+kummen<lb/>
+Vli&#x017F;&#x017F;es der lieb Vatter dein.<lb/>
+</p>
+</sp>
+<sp who="#MINERUA">
+<speaker>Minerua</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ja das i&#x017F;t auch die mainung mein<lb/>
+Die &#x017F;ach da klarer zu
+erfragen<lb/>
+Nun morgen fru&#x0364; bald es i&#x017F;t tagen<lb n="310"/>
+Wo&#x0364;ll
+wir auff &#x017F;ein vnd faren daruon.<lb/>
+</p>
+</sp>
+<sp who="#NESTOR">
+<speaker>Ne&#x017F;tor</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Nun thu&#x0364;t hinein die thu&#x0364;rnitz gohn<lb/>
+Da wo&#x0364;llen wir
+e&#x017F;&#x017F;en zu nacht<lb/>
+<cb/>
+Vnd bald das nachtmal i&#x017F;t
+verbracht<lb/>
+Wo&#x0364;ll wir zu Bett euch leuchten nider<lb n="315"/>
+Auff das außruhen
+ew&#xA75B; glieder<lb/>
+Das jr morgen mo&#x0364;gt wider rei&#x017F;en<lb/>
+Jedoch
+&#x017F;o mu&#x0364;&#x017F;t jr mir verhei&#x017F;&#x017F;en<lb/>
+Das ir auff der
+jr&#xA75B;fart allein<lb/>
+Bey mir wo&#x0364;lt wider keren ein.<lb n="320"/>
+</p>
+</sp>
+<stage>Sie gehen alle auß.</stage>
+<sp who="#MENELAUS">
+<speaker>Ko&#x0364;nig Menelaus zu <placeName ref="http://d-nb.info/gnd/4056054-5">Sparta</placeName></speaker>
+<lb/>
+<stage>geht ein vnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Wie wol thut mir jetzundt die rhu<lb/>
+Das ich bin wider kummen zu<lb/>
+Mein
+Lacedemeni&#x017F;chen Reich<lb/>
+Hab auch wider die jnnigkleich<lb/>
+Helena mein
+hold&#x017F;eligs Weib<lb n="325"/>
+Von zart vnd Adelichem Leib<lb/>
+Die mir Paris
+entfu&#x0364;h&#xA75B;et da<lb/>
+Deß Ko&#x0364;nigs Sohn gen <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName><lb/>
+Von der wegen ich an dem
+endt<lb/>
+Bawt auch vil jar das ellendt.<lb n="330"/>
+</p>
+</sp>
+<sp who="#EHRNHOLDT">
+<speaker>Der Eh&#xA75B;nholdt</speaker>
+<stage>kombt/&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Großmechtiger Ko&#x0364;ng vor dem Sal<lb/>
+Stehn zwen eh&#xA75B;lich Menner zu
+mal<lb/>
+Begern ein einigs wort mit dir<lb/>
+Zu reden auß hertzlicher begir<lb/>
+Wo es dir
+wolt befu&#x0364;glich &#x017F;ein.<lb n="335"/>
+</p>
+</sp>
+<sp who="#MENELAUS">
+<speaker>Menelaus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ja heroldt bald laß &#x017F;ie herein<lb/>
+Wer weiß was in felt an dem endt<lb/>
+Wann wer
+vmbzeucht in dem ellendt<lb/>
+Dem thut wol in der frembd allzeit<lb/>
+Wird jm
+bewei&#x017F;t gut willigkeit.<lb n="340"/>
+</p>
+</sp>
+<stage>Der Eh&#xA75B;nholdt fu&#x0364;h&#xA75B;t &#x017F;ie beide<lb/>
+ein/</stage>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht</stage>
+<lb/>
+<fw type="sig" place="bottom">q iiij</fw>
+<fw type="catch" place="bottom">Groß-</fw>
+<pb facs="#f0007" n="XCIIIIb"/>
+<fw type="header" place="top">Der ander Theil/</fw>
+<cb/>
+<p>Großmechtiger Ko&#x0364;ng wir bitn dich<lb/>
+Wo&#x0364;l&#x017F;t mich
+anho&#x0364;&#xA75B;en gu&#x0364;n&#x017F;tigklich.<lb/>
+</p>
+</sp>
+<sp who="#MENELAUS">
+<speaker>Ko&#x0364;nig Menelaus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O Ju&#x0364;ngling &#x017F;ag an wer du &#x017F;ei&#x017F;t<lb/>
+Dein ge&#x017F;talt vns
+klerlich außwei&#x017F;t<lb/>
+Geboren gar von Edlem &#x017F;tamen.<lb n="345"/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Her&#xA75B; Ko&#x0364;ng mein Vatter hei&#x017F;t mit namen<lb/>
+Vli&#x017F;&#x017F;es
+ein Fu&#x0364;r&#x017F;t zu <placeName ref="http://d-nb.info/gnd/4109169-3">Jtaca</placeName><lb/>
+Welcher im Krieg vor <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName><lb/>
+J&#x017F;t außzogen mit
+<placeName ref="http://d-nb.info/gnd/4093976-5">Griechenlandt</placeName><lb/>
+Her&#xA75B; Ko&#x0364;nig i&#x017F;t dir der bekandt.<lb n="350"/>
+</p>
+</sp>
+<sp who="#MENELAUS">
+<speaker>Ko&#x0364;nig Menelaus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O Sohn &#x017F;olt ich den kennen nicht<lb/>
+Der mit weißheit meh&#xA75B; hat
+außghricht<lb/>
+Denn etlich tau&#x017F;ent mit der handt<lb/>
+Sag an i&#x017F;t er noch
+nit zu landt.<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ach nein darumb ich komb zu fragen<lb n="355"/>
+Ob du mir was von im
+ku&#x0364;n&#x017F;t &#x017F;agen<lb/>
+Ob er wer lebendt oder todt<lb/>
+Wan&#x0303; ich
+leid daheim ang&#x017F;t vnd noth<lb/>
+Von den Werbern mein Hof i&#x017F;t
+b&#x017F;e&#x017F;&#x017F;en<lb/>
+Die mir das mein mit gwalt abfre&#x017F;&#x017F;en<lb n="360"/>
+Das mir endtlich reicht zu verderben<lb/>
+Vnuer&#x017F;chembt vmb mein Muter
+werben<lb/>
+Nun bitt ich wei&#x017F;t thu antwort geben<lb/>
+Ob mein Vatter noch
+&#x017F;ey bey leben<lb/>
+Di&#x017F;t i&#x017F;t an dich mein ho&#x0364;ch&#x017F;te
+bit.<lb n="365"/>
+</p>
+</sp>
+<sp who="#MENELAUS">
+<speaker>Ko&#x0364;nig Menelaus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O mein Sohn ich weiß ander&#x017F;t nit<lb/>
+Von deim Thewren Vatter zu
+&#x017F;agen<lb/>
+Den&#x0303; als ich war vom Windt ver&#x017F;chlage&#x0303;<lb/>
+Jn ein
+Jn&#x017F;el <placeName>Pharus</placeName> genandt<lb/>
+Ein tagraiß von Egipten landt<lb n="370"/>
+<cb/>
+Da ich mit meinr Arma da lag<lb/>
+Etwas da biß auff zweintzig tag<lb/>
+Als
+wir hetten an Prouant mangel<lb/>
+Da gieng ich ans Meer mit dem Angel<lb/>
+Da ein
+Go&#x0364;ttin auf&#x017F;choß im Meer<lb n="375"/>
+Jdothea gab mir ein leer<lb/>
+Wie ich
+mo&#x0364;cht jren Vatter fangen<lb/>
+Protheum/da mo&#x0364;cht ich erlangen<lb/>
+Ein
+antwort wie es mir &#x017F;oll gehn<lb/>
+Dem kam ich nach als ich fieng den<lb n="380"/>
+Bandt jn vnd wiewol &#x017F;ich der alt<lb/>
+Verkert in mancherley
+ge&#x017F;talt<lb/>
+Jn Lo&#x0364;wen vnd Trachen vnghewer<lb/>
+Auch in ein groß
+er&#x017F;chro&#x0364;cklich Fewer<lb/>
+Noch hielt wir jn gebunden ve&#x017F;t<lb n="385"/>
+Solch &#x017F;ein verwandlung ich vor we&#x017F;t<lb/>
+Vnd no&#x0364;tt jn das er mir
+mu&#x017F;t &#x017F;agen<lb/>
+Als vnter andern ich thet fragen<lb/>
+Von meim Bruder
+Agamemnon<lb/>
+Da &#x017F;agt er mir jn het abthon<lb n="390"/>
+Egi&#x017F;tus auß
+&#x017F;eins Weibes rath<lb/>
+Clitime&#x017F;tra welch vntrew that<lb/>
+Wurd durch
+Here&#x017F;tem noch gerochen<lb/>
+Durch den wurdens beide er&#x017F;tochen<lb/>
+Von
+trawren &#x017F;o klopff mir mein Hertz<lb n="395"/>
+Darnach &#x017F;agt er mir auch on
+&#x017F;chertz<lb/>
+Ayax ertruncken wer im meer<lb/>
+Als er den Go&#x0364;ttern nit gab
+die eh&#xA75B;<lb/>
+Als er auß dem &#x017F;chifbruch auß&#x017F;chwumb<lb/>
+D&#xA75B;umb
+jn Nephtunus widerumb<lb n="400"/>
+Vnd jn wider ins Meere &#x017F;tu&#x0364;rtzt<lb/>
+Von
+deim Vatter &#x017F;agt er aufs ku&#x0364;rtzt<lb/>
+Er het dein Vatter g&#x017F;ehen mit
+nam<lb/>
+Jnn der Jn&#x017F;el &gt;<placeName>Ogigiam&gt;</placeName><lb/>
+Sitzen gantz trawrig
+vberauß<lb n="405"/>
+Jn der Go&#x0364;ttin Calip&#x017F;o Hauß<lb/>
+Vnd er het durch der
+Go&#x0364;tter zorn<lb/>
+All &#x017F;ein Schiff vnd gferten
+verlorn<lb/>
+Mu&#x0364;&#x017F;t al&#x017F;o widr &#x017F;ein will vngern<lb/>
+Seins
+lieben Vatterlandts entbern<lb n="410"/>
+<fw type="catch" place="bottom">So</fw>
+<pb facs="#f0008" n="XCVa"/>
+<fw type="header" place="top">Weltlich vnd Poetisch histori.</fw><cb/>
+So vil ho&#x0364;&#xA75B;t ich vom
+Vatter dein<lb/>
+Vom Meergot/darumb &#x017F;olt du &#x017F;ein<lb/>
+Mein Thelemache guts
+muts<lb/>
+Weil noch zu hoffen i&#x017F;t als guts<lb/>
+Von Vli&#x017F;&#x017F;e dem Vatter
+dein<lb n="415"/>
+Das er noch muß im leben &#x017F;ein<lb/>
+Vnd heim kummen in kurtzer
+zeit<lb/>
+Auß der Go&#x0364;tter fu&#x0364;r&#x017F;ichtigkeit<lb/>
+All ding
+g&#x017F;chehen nach jrem rath.<lb/>
+</p></sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jch danck Ko&#x0364;ngklicher Maye&#x017F;tat<lb n="420"/>
+Der guten ma&#x0364;r der
+gleich ich je<lb/>
+Von keinem Men&#x017F;chen ho&#x0364;ret nie<lb/>
+Nun wo&#x0364;llen
+fro&#x0364;lich &#x017F;cheiden wir.<lb/>
+</p>
+</sp>
+<sp who="#MENELAUS">
+<speaker>Ko&#x0364;nig Menelaus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Bleibt ein tag oder zwo&#x0364;lff bey mir<lb/>
+Biß jh&#xA75B; außruhet das i&#x017F;t
+mein bit.<lb n="425"/>
+</p>
+</sp>
+<sp who="#MINERUA">
+<speaker>Minerua</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Lenger hab wir zu bleiben nit<lb/>
+Wir mu&#x0364;&#x017F;&#x017F;en gleich wider auff
+&#x017F;ein.<lb/>
+</p>
+</sp>
+<sp who="#MENELAUS">
+<speaker>Menelaus</speaker>
+<stage>reicht jhm ein<lb/>
+Schewern vnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Thelemache O Sohne mein<lb/>
+Nimb von mir zu &#x017F;chenck die Credentz<lb/>
+Deinem
+Vatter zu Reuerentz<lb n="430"/>
+Der ob Gottwill noch i&#x017F;t im leben<lb/>
+Wie mir
+Protheus &#x017F;aget eben<lb/>
+Jch will euch das gelaid nauß geben.<lb/>
+</p>
+</sp>
+<stage>Sie gehen alle auß.</stage>
+<lb/>
+</div>
+<div n="1" type="act">
+<head>Actus 3.</head>
+<stage>Die vier Werber gehen ein </stage>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage>&#x017F;p&#xA75B;icht</stage>
+<lb/>
+<cb/>
+<p>Jh&#xA75B; Werber ich berichtet bin<lb/>
+Thelemachus vnd der &#x017F;ey hin<lb n="435"/>
+Gen <placeName ref="http://d-nb.info/gnd/4234889-4">Pilum</placeName> vnd <placeName ref="http://d-nb.info/gnd/4056054-5">Sparta</placeName> gezogen<lb/>
+Sein Vatter zu
+&#x017F;uchen verwogen<lb/>
+Vnd den bringen herhaim zu landt<lb/>
+Jch rath wir Werber
+alle&#x017F;andt<lb/>
+Machen vns auff vnd jm verlegen<lb n="440"/>
+Alle Port vnd
+Clau&#x017F;en dargegen<lb/>
+Vnd richten jn heimlich vom B&#xA75B;odt<lb/>
+So kummen wir
+den&#x0303; on alle noth<lb/>
+Jn &#x017F;einem Hof pra&#x017F;&#x017F;en vnd
+&#x017F;chlemen<lb/>
+Biß vn&#x017F;er eim thut ehlich nemen<lb n="445"/>
+Penelope die
+Fu&#x0364;r&#x017F;tin zart.<lb/>
+</p>
+</sp>
+<sp who="#AMPHINEMUS">
+<speaker>Amphinemus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ey &#x017F;olten wir mo&#x0364;rdi&#x017F;cher art<lb/>
+Vmbbringen das jung
+Fu&#x0364;r&#x017F;tlich Blut<lb/>
+Das wer je vnrecht vnd nit gut<lb/>
+Nein ich bewillig
+nichts darein<lb n="450"/>
+Er &#x017F;oll genie&#x017F;&#x017F;en der vn&#x017F;chuld
+&#x017F;ein<lb/>
+Er hat vns nichts darzu than<lb/>
+Ob er vns gleich oft redet an<lb/>
+Wir
+&#x017F;ollen im raumen &#x017F;ein Ve&#x017F;ten<lb/>
+Main&#x017F;t du er hab
+den&#x0303; von vns Ge&#x017F;ten<lb n="455"/>
+Ein klein vnruh ich &#x017F;chweig den
+&#x017F;chaden<lb/>
+Darmit er ta&#x0364;glich wird beladen<lb/>
+Das wir in &#x017F;einem
+Hof auff zeren<lb/>
+Vnd jm das weng&#x017F;t nit wider eh&#xA75B;en<lb/>
+Das laß wir jn zu
+frieden billich.<lb n="460"/>
+</p>
+</sp>
+<sp who="#AGELAUS">
+<speaker>Agelaus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ey lieber er i&#x017F;t gar vnwillig<lb/>
+Jch glaub mo&#x0364;cht er vns richten
+hin<lb/>
+Als wol wir mo&#x0364;chten hinrichten jn<lb/>
+Fu&#x0364;rwar er wu&#x0364;rd vns
+das nit &#x017F;paren<lb/>
+Er i&#x017F;t vergebens nit außgfaren<lb n="465"/>
+Das er
+&#x017F;ich thut vmb hilff bewerben<lb/>
+Das allein zu vn&#x017F;erm
+verderben<lb/>
+Ku&#x0364;ndt wir jm nun kummen zuuor<lb/>
+Wer das nit thet/wer je ein Thor<lb/>
+<fw type="catch" place="bottom">Derhalben</fw>
+<pb facs="#f0009" n="XCVb"/>
+<fw type="header" place="top">Der ander Theil/</fw><cb/>
+Derhalben rath ich nit daruon.<lb n="470"/>
+</p>
+</sp>
+<sp who="#EWRIMACHUS">
+<speaker>Ewrimachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ja lieben Her&#xA75B;n das wo&#x0364;ll wir thon<lb/>
+Kombt la&#x017F;t vns eilen ans
+ge&#x017F;tat<lb/>
+Vnd &#x017F;itzen in ein Schiff gar &#x017F;pat<lb/>
+Vnd faren auff das
+hohe Meer<lb/>
+Es i&#x017F;t auff der widerfart &#x017F;eh&#xA75B;<lb n="475"/>
+Thelemachus/das wir jn hencken<lb/>
+Er&#x017F;techen oder jn ertrencken<lb/>
+Bring wir
+gleich vmb den jungen Man<lb/>
+Jch glaub es kre nach jm kein Han<lb/>
+Es darfs gar
+niemandt von vns &#x017F;agen<lb n="480"/>
+Darauff wo&#x0364;ll wir es ku&#x0364;nlich
+wagen.<lb/>
+</p>
+</sp>
+<stage>Sie gehen alle vier auß.</stage>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>geht ein mit Ewriclea<lb/>
+ih&#xA75B;er Hofmei&#x017F;terin vnd
+&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ewriclea i&#x017F;t dir bewi&#x017F;t<lb/>
+Wo mein Sohn Thelemachus i&#x017F;t<lb/>
+Hab
+den in zwo&#x0364;lff tagen nit g&#x017F;ehen.<lb/>
+</p>
+</sp>
+<sp who="#EWRICLEA">
+<speaker>Ewriclea</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Er i&#x017F;t gezogen auß zu &#x017F;pehen<lb n="485"/>
+Vli&#x017F;&#x017F;em
+&#x017F;einen Vatter frum<lb/>
+Gen <placeName ref="http://d-nb.info/gnd/4056054-5">Sparta</placeName> vnd auch gen <placeName ref="http://d-nb.info/gnd/4234889-4">Pilum</placeName><lb/>
+Ein gefeh&#xA75B;liche raiß gewagt.<lb/>
+</p>
+</sp>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Nun hat er mich nit rath gefragt<lb/>
+Vnd hat das thun on meinen rath.<lb n="490"/>
+</p>
+</sp>
+<sp who="#EWRICLEA">
+<speaker>Ewriclea</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Es wer das wenig&#x017F;t die&#x017F;e that<lb/>
+Jch weiß noch vil ein
+bo&#x0364;&#x017F;ers g&#x017F;chrey.<lb/>
+</p>
+</sp>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ewriclea &#x017F;ag was es &#x017F;ey.<lb/>
+</p>
+</sp>
+<cb/>
+<sp who="#EWRICLEA">
+<speaker>Ewriclea</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Die Werber habn durch heimi&#x017F;ch tu&#x0364;ck<lb/>
+Vnter&#x017F;tanden ein
+mo&#x0364;rdi&#x017F;ch &#x017F;tu&#x0364;ck<lb n="495"/>
+Thelemachum den jungen
+Her&#xA75B;n<lb/>
+Verwarten auff dem Meer von fer&#xA75B;n<lb/>
+Vnd vngewarnt den
+vmbzubringen.<lb/>
+Sind auch &#x017F;chon hin geru&#x0364;&#x017F;t zu de&#x0303;
+dingen.<lb/>
+Jch hab jren an&#x017F;chlag gehort.<lb n="500"/>
+</p>
+</sp>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>&#x017F;chlecht jh&#xA75B; hendt<lb/>
+zu&#x017F;amen vnnd
+&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Oh mord/mord vber alle mord<lb/>
+O zetter waffen vber waffen<lb/>
+Er&#x017F;t merck ich
+das mich haben b&#x017F;chaffen<lb/>
+Die Go&#x0364;tter zu vnglu&#x0364;ck
+geborn<lb/>
+Weil ich mein gmahel hab verlorn<lb n="505"/>
+Deß gleich nie lebt in
+<placeName ref="http://d-nb.info/gnd/4093976-5">Griechen landt</placeName><lb/>
+Vnd nun
+auch mit mo&#x0364;rdi&#x017F;cher handt<lb/>
+Die Werber wo&#x0364;llen mich auff
+glauben<lb/>
+Auch mein eynigen tro&#x017F;ts berauben<lb/>
+Meins Sohns/O &#x017F;chmertz
+ob allem &#x017F;ch-mertz<lb n="510"/>
+Nit wunder wer mir brech dz hertz<lb/>
+So es
+ander&#x017F;t mu&#x0364;glichen wer<lb/>
+Lauff klag eilendt die laiding
+ma&#x0364;r<lb/>
+Laerti meinem Schweher alt.<lb/>
+</p>
+</sp>
+<sp who="#EWRICLEA">
+<speaker>Ewriclea</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Du Edle Fu&#x0364;r&#x017F;tin dich enthalt<lb n="515"/>
+Dich &#x017F;olcher
+&#x017F;chweren trawrigkeit.<lb/>
+Die Go&#x0364;tter mu&#x0364;gen kurtzer zeit<lb/>
+All
+dein hertzlaid zu frewden wenden<lb/>
+Es &#x017F;teht je als in jren henden<lb/>
+Rath
+wo&#x0364;l&#x017F;t Laertem den Schweher dein<lb n="520"/>
+Die ding jetz noch verborgen
+&#x017F;ein<lb/>
+Vnd jn nit gehling mit betru&#x0364;ben<lb/>
+Der &#x017F;ich
+&#x017F;on&#x017F;t thut in hertzlaid vben<lb/>
+Vnd i&#x017F;t &#x017F;amb lebendig
+ge&#x017F;torben<lb/>
+All frewd vnd mut in jm verdorben<lb n="525"/>
+D&#xA75B;umb geh hin
+laß dein trawrigkeit<lb/>
+<fw type="catch" place="bottom">Minerua</fw>
+<pb facs="#f0010" n="XCVIa"/>
+<fw type="header" place="top">Weltlich vnd Poetisch
+histori.</fw><cb/>
+Minerua die Go&#x0364;ttin der Weißheit<lb/>
+Wird wol erretten
+Thelemachum<lb/>
+Das er fri&#x017F;ch vnd g&#x017F;undt wider kumb<lb/>
+Sambt
+Vli&#x017F;&#x017F;e &#x017F;eim Vatter eben.<lb n="530"/>
+</p>
+</sp>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ach das wo&#x0364;llen die Go&#x0364;tter geben<lb/>
+Zu den je all mein hoffnung
+&#x017F;teht<lb/>
+Nun ich geh trawrig hin gen Beht<lb/>
+Das jnnerhalb zweintzig
+jaren<lb/>
+Seit mein gmahel i&#x017F;t außgefaren<lb n="535"/>
+Fu&#x0364;r <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName> vnd &#x017F;eit i&#x017F;t
+verlorn<lb/>
+Vor zehern nie i&#x017F;t druckn worn<lb/>
+Vor betru&#x0364;bnuß vnd vor
+hertzenlaid<lb/>
+Va&#x017F;t alle nacht on vnter&#x017F;cheid.<lb/>
+</p>
+</sp>
+<stage>Sie gehen beid auß.</stage>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>geht ein gekleidt wie<lb/>
+ein Betelman/redt mit jhm<lb/>
+&#x017F;elber vnnd
+&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ach ich hart&#x017F;eliger vnd armer<lb n="540"/>
+Kein Gott warhaft i&#x017F;t mein
+erbarmer<lb/>
+Jch bin mit dem Griechi&#x017F;chen Heer<lb/>
+Fu&#x0364;r <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName> gfaren vber Meer<lb/>
+Belegert
+das zehendthalb jar<lb/>
+Als nun die Stat erobert war<lb n="545"/>
+Bin ich mit
+d&#xA75B;eyzehen Naue abgfarn<lb/>
+Vnd hab nun fa&#x017F;t bey zehen
+jarn<lb/>
+Er&#x017F;tanden gro&#x017F;&#x017F;e gfeh&#xA75B;ligkeit<lb/>
+Zu landt vnd
+Wa&#x017F;&#x017F;er die&#x017F;e zeit<lb/>
+Jch hab etlich Schifbruch genumen<lb n="550"/>
+Bin in zweien allein außg&#x017F;chwumen<lb/>
+Bey <placeName>Pheacia</placeName> ich
+auß kam<lb/>
+Da mich der Ko&#x0364;ng freundtlich annam<lb/>
+Als ich jm erzelt mein
+jr&#xA75B;fart<lb/>
+Verhieß er gutwilliger art<lb n="555"/>
+Mich zu fu&#x0364;h&#xA75B;n
+auß <placeName>Pheacia</placeName><lb/>
+Jn mein Vatterlandt <placeName ref="http://d-nb.info/gnd/4109169-3">Jtaca</placeName>.<lb/>
+So habens mich
+hingfu&#x0364;h&#xA75B;t in eim &#x017F;chieff<lb/>
+<cb/>
+Jm faren vor frewde
+ent&#x017F;chlieff<lb/>
+Habens mich &#x017F;chlaffent tragn an landt<lb n="560"/>
+Jn die
+Jn&#x017F;el mir vnbekandt<lb/>
+Vnd haben &#x017F;ich heimlich verholen<lb/>
+Mit dem
+Schiff hin von mir ge&#x017F;tolen<lb/>
+Nun weiß ich nit wie obgemelt<lb/>
+Wo ich jetzundt
+bin in der Welt<lb n="565"/>
+Er&#x017F;t wird &#x017F;ich anfahen mein noth<lb/>
+Wann hie
+i&#x017F;t weder Wein noch B&#xA75B;odt<lb/>
+Noch Flei&#x017F;ch damit ich mich
+mo&#x0364;cht spei&#x017F;-&#x017F;en<lb/>
+Die wilde&#x0303; Thier wern mich
+zurei&#x017F;&#x017F;en<lb/>
+Die Jn&#x017F;el du&#x0364;nckt mich o&#x0364;d vnd wild<lb n="570"/>
+Dort &#x017F;ich ich &#x017F;amb ein Go&#x0364;ttlich bild<lb/>
+Es wird gewiß
+Minerua &#x017F;ein<lb/>
+Die Go&#x0364;ttin der Weißheit allein<lb/>
+Minerua heller
+Morgen&#x017F;tern<lb/>
+O wie &#x017F;ich ich dich al&#x017F;o gern<lb n="575"/>
+Ach wie
+ha&#x017F;t mich &#x017F;o lang verla&#x017F;&#x017F;en<lb/>
+Jn no&#x0364;then
+&#x017F;amb the&#x017F;t du mich ha&#x017F;&#x017F;en<lb/>
+Der ich doch dir thet Opffer
+vil<lb/>
+O Go&#x0364;ttin hilff mir ißt dein will<lb/>
+Das ich komb in mein
+Vatterlandt.<lb n="580"/>
+</p>
+</sp>
+<sp who="#MINERUA">
+<speaker>Minerua</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Vli&#x017F;&#x017F;e i&#x017F;t dir vnbekandt<lb/>
+Das ich nie hab
+verla&#x017F;&#x017F;en dich<lb/>
+War bey dir doch vn&#x017F;ichtbarlich<lb/>
+Zu landt vnd
+auff dem Meer tieff<lb/>
+Jch fuh&#xA75B; mit dir auch in dem Schieff<lb n="585"/>
+Biß in
+dein lande <placeName ref="http://d-nb.info/gnd/4109169-3">Jtaca</placeName>.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>J&#x017F;t diß mein Vatterlande da<lb/>
+Nun &#x017F;icht es jm je vngeleich<lb/>
+O du
+Go&#x0364;ttin der Weißheit reich<lb/>
+Nit betriege mich ellenden Man.<lb n="590"/>
+</p>
+</sp>
+<sp who="#MINERUA">
+<speaker>Minerua</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Mein Vli&#x017F;&#x017F;e nun &#x017F;chawe an<lb/>
+Sich&#x017F;t du denn nit an
+die&#x017F;em ort<lb/>
+<fw type="catch" place="bottom">Phertino</fw>
+<pb facs="#f0011" n="XCVIb"/>
+<fw type="header" place="top">Der ander
+Theil/</fw><cb/>
+<placeName>Phertino</placeName> die ko&#x0364;&#x017F;tlich
+Meerport<lb/>
+Sich&#x017F;t nit den Olbaum vnd das hol<lb/>
+Darinn wohn die
+Meergo&#x0364;ttin wol<lb n="595"/>
+Naiades &#x017F;ich&#x017F;t nit darumb<lb/>
+Den
+waldigen Berg <placeName>Neritum</placeName><lb/>
+Sag Vli&#x017F;&#x017F;es
+erken&#x017F;t du dich.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Minerua jetz erken&#x0303; ich mich<lb/>
+Das ich bin in meinem Vatterlandt.<lb n="600"/>
+</p>
+</sp>
+<sp who="#MINERUA">
+<speaker>Minerua</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jch will dich machen vnbekandt<lb/>
+Von ge&#x017F;talt geberden vnd leib<lb/>
+Das dich
+niemandt ken&#x0303; noch dein Weib<lb/>
+Auch dir verwandeln dein
+Ang&#x017F;icht.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Warumb das &#x017F;elb verhalt mir nicht.<lb n="605"/>
+</p>
+</sp>
+<sp who="#MINERUA">
+<speaker>Minerua</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Da wiß es &#x017F;ind in deinem Hauß<lb/>
+Der edlen So&#x0364;hn viel vberauß<lb/>
+Die
+all werben vmb dein gemahel<lb/>
+Die keu&#x017F;ch eh&#xA75B;enue&#x017F;t wie der
+Stahel<lb/>
+Hoft noch &#x017F;tetigs auff dein zukunft<lb n="610"/>
+Vnd zeucht auff mit
+li&#x017F;t vnd vernunft<lb/>
+Die Werber all ins vierdte jar<lb/>
+Nun die Werber
+mu&#x017F;t du fu&#x0364;rwar<lb/>
+All be&#x017F;tehn vnd zu todt
+&#x017F;chlagen.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>So wird es mir in kurtzen tagen<lb n="615"/>
+Ergehn wie Ko&#x0364;nig Agamemnon<lb/>
+Der
+in &#x017F;eim Hauß ward abgethon<lb/>
+Als er heimkom von &#x017F;einen Weib.<lb/>
+</p>
+</sp>
+<sp who="#MINERUA">
+<speaker>Minerua</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Vli&#x017F;&#x017F;e gar on &#x017F;orge bleib<lb/>
+Dein gmahel i&#x017F;t
+&#x017F;ta&#x0364;t frumb vnd trew<lb n="620"/>
+<cb/>
+Derhalben &#x017F;o hab kein
+ab&#x017F;chew<lb/>
+Jch will dir bey ge&#x017F;tehn durch rath<lb/>
+Zu enden die
+treffenlich that<lb/>
+Der Werber dich frey zu erweh&#xA75B;en<lb/>
+Vnd du mu&#x017F;t
+er&#x017F;tlichen ein keh&#xA75B;en<lb n="625"/>
+Ermklich in eines Betlers
+g&#x017F;talt<lb/>
+Zu Ewmeo deim Sewherten alt<lb/>
+Bleib bey jm biß wird kummen
+thun<lb/>
+Thelemachus dein lieber Suhn<lb/>
+Dem &#x017F;elben gib dich zu erkennen<lb n="630"/>
+Mu&#x017F;t du keim men&#x017F;chen dich auch nen&#x0303;en<lb/>
+Biß ich
+widerumb zu dir kumb<lb/>
+Dir weiß vnd leh&#xA75B; gib widerumb<lb/>
+Nun geh vnd
+&#x017F;aumb nit lenger dich<lb/>
+Gen Himel will ich &#x017F;chwingen mich.<lb n="635"/>
+</p>
+</sp>
+<stage>Minerua geht ab.</stage>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>hebt &#x017F;ein hendt auff<lb/>
+vnnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Der Go&#x0364;ttin &#x017F;ey lob/eh&#xA75B; vnd preiß<lb/>
+Die mich &#x017F;o
+fu&#x0364;r&#x017F;ichtiger weiß<lb/>
+Verkert ha&#x017F;t mein ge&#x017F;talt all
+den<lb/>
+Das ich mich gleich jetz &#x017F;elb nit ken&#x0303;<lb/>
+Zu gut mir vnd meim
+lieben Suhn.<lb n="640"/>
+Mit fleiß will ich dir dienen nun<lb/>
+Ein hundert hewbtich
+opffer thun.<lb/>
+</p>
+</sp>
+<stage>Vli&#x017F;&#x017F;es gehet ab.</stage>
+<lb/>
+</div>
+<div n="1" type="act">
+<head>Actus 4.</head>
+<sp who="#EWMEUS">
+<speaker>Ewmeus der Sewhirdt</speaker>
+<stage>/gehet<lb/>
+ein vnd redt wider &#x017F;ich<lb/>
+&#x017F;elber al&#x017F;o.</stage>
+<lb/>
+<p>Jch hab aber ein Saw ge&#x017F;chickt<lb/>
+Jnt Stat das die &#x017F;elbt werd
+ver&#x017F;chlickt<lb/>
+Von den Werbern den vnnu&#x0364;tzen ge&#x017F;ten<lb n="645"/>
+<fw type="catch" place="bottom">Den</fw>
+<pb facs="#f0012" n="XCVIIa"/>
+<fw type="header" place="top">Weltlich vnd Poetisch histori.</fw><cb/>
+Den ich kaumb genug Sew kan
+me&#x017F;ten<lb/>
+Jch wolt das &#x017F;ie den Ket&#x017F;ch dran
+fre&#x017F;&#x017F;en<lb/>
+Auff das &#x017F;ie darnach nichts meh&#xA75B;
+e&#x017F;&#x017F;en.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>kombt vnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O alter ich bitt dich durch Gott<lb/>
+Gib mir ein Suppen vnd ein Brodt<lb n="650"/>
+Auff
+das deß hungers ich mich weh&#xA75B;.<lb/>
+</p>
+</sp>
+<sp who="#EWMEUS">
+<speaker>Ewmeus der Sewhirdt.</speaker>
+<lb/>
+<p>Komb herein Ga&#x017F;t vnd mit mir zer<lb/>
+Jch theil dir mit was ich vermag<lb/>
+Jch
+&#x017F;itz gleich da vnd &#x017F;euftz vnd klag<lb/>
+Das mein frumer
+Fu&#x0364;r&#x017F;t Vli&#x017F;&#x017F;es<lb n="655"/>
+Auch etwan Betlers weiß dir
+gmeß<lb/>
+Vmb zeucht muß &#x017F;ich in armut neh&#xA75B;en<lb/>
+Dieweil mit vberfluß
+verzeren<lb/>
+Jm frembde freßling all &#x017F;ein gut<lb/>
+Das &#x017F;elb
+beku&#x0364;mert mir mein mut<lb n="660"/>
+Das ich mag nit meh&#xA75B; fro&#x0364;lich
+&#x017F;ein.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Sag mir wer i&#x017F;t der Her&#xA75B;e dein.<lb/>
+Wan&#x0303; ich zeuch auch weit vmb
+im landt<lb/>
+Ob er mir etwan &#x017F;tieß zu handt.<lb/>
+</p>
+</sp>
+<sp who="#EWEMUS">
+<speaker>Ewemeus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ach Gott er i&#x017F;t vor zweintzig jaren<lb n="665"/>
+Mit den Griechen fu&#x0364;r
+<placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName> gfaren<lb/>
+Nun hat
+man &#x017F;eit her nit vernummen<lb/>
+Ein bott&#x017F;chaft wo er hin &#x017F;ey
+kummen<lb/>
+Ob er &#x017F;ey lebendt oder todt.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>hebt zwen Finger<lb/>
+auff vnnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ho&#x0364;r alter ich &#x017F;chwer dir bey Gott<lb n="670"/>
+Das Vli&#x017F;&#x017F;es
+der Fu&#x0364;r&#x017F;te hoch<lb/>
+Verhanden i&#x017F;t vnd lebet noch<lb/>
+Vnd wird auch
+noch in die&#x017F;em iar<lb/>
+<cb/>
+Haimkummen in &#x017F;ein landt
+fu&#x0364;rwar<lb/>
+Vnd &#x017F;ich auch an all denen rechen<lb n="675"/>
+Die in
+&#x017F;eim Hof &#x017F;chlemen vnd zechen<lb/>
+Vnd &#x017F;eim gmahel vnd lieben
+Sohn<lb/>
+So &#x017F;chwerlich belaidigen thon<lb/>
+Gwiß vnd fu&#x0364;rwar ich dir das
+&#x017F;ag.<lb/>
+</p>
+</sp>
+<sp who="#EWMEUS">
+<speaker>Ewmeus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O &#x017F;olt ich erleben den tag<lb n="680"/>
+Das mein Vli&#x017F;&#x017F;es wider
+khem<lb/>
+Vnd &#x017F;ein her&#xA75B;&#x017F;chaft wider einnemb<lb/>
+Kein
+gro&#x0364;&#x017F;&#x017F;er frewd ku&#x0364;ndt ich meh&#xA75B; haben<lb/>
+Den&#x0303;
+&#x017F;o er die vnuer&#x017F;chembten Knaben<lb/>
+Hinrichtet zu irem verderben<lb n="685"/>
+Den&#x0303; wolt ich de&#x017F;ter &#x017F;enfter &#x017F;terben<lb/>
+Jch hab
+aber &#x017F;org du fele&#x017F;t weit<lb/>
+Weil vil landtfah&#xA75B;er die&#x017F;e
+zeit<lb/>
+Haben g&#x017F;agt &#x017F;ie haben in nehen<lb/>
+Mein Her&#xA75B;en
+Vli&#x017F;&#x017F;em ge&#x017F;ehen<lb n="690"/>
+Doch als erlogen vnd
+erdicht<lb/>
+Welches doch in dem grundt war nicht<lb/>
+Zu erlangen gut
+bottenb&#xA75B;odt.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jch merck es i&#x017F;t on alle noth<lb/>
+Das ich vil &#x017F;chwu&#x0364;r in
+die&#x017F;er fri&#x017F;t<lb n="695"/>
+Weil du &#x017F;o gar vnglaubig
+bi&#x017F;t<lb/>
+Nun hab ich je gar in der nehen<lb/>
+Dein Her&#xA75B;en fri&#x017F;ch vnd
+g&#x017F;undt ge&#x017F;ehen<lb/>
+Der &#x017F;agt mir auch von &#x017F;einem
+Suhn<lb/>
+Thelemacho/&#x017F;ag mir auch nun<lb n="700"/>
+Wo der &#x017F;elb &#x017F;ein
+Sohn jetzundt i&#x017F;t<lb/>
+Das het &#x017F;ein Vatter gern gewi&#x017F;t.<lb/>
+</p>
+</sp>
+<sp who="#EWMEUS">
+<speaker>Ewmeus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Man &#x017F;agt er &#x017F;ey in kurtzen tagen<lb/>
+Gefah&#xA75B;n nach &#x017F;eim
+Vatter zu fragen<lb/>
+Gen <placeName ref="http://d-nb.info/gnd/4234889-4">Pilum</placeName> vnd auch gen <placeName ref="http://d-nb.info/gnd/4056054-5">Sparta</placeName><lb n="705"/>
+Nun i&#x017F;t die &#x017F;ag von <placeName ref="http://d-nb.info/gnd/4109169-3">Jtaca</placeName><lb/>
+Sein die Werber gezogen/auß<lb/>
+<fw type="sig" place="bottom">r</fw><fw type="catch" place="bottom">Vli&#x017F;&#x017F;i</fw>
+<pb facs="#f0013" n="XCVIIb"/>
+<fw type="header" place="top">Der ander Theil/</fw><cb/>
+Vli&#x017F;&#x017F;i meines Her&#xA75B;en Hauß<lb/>
+Den
+jungen Fu&#x0364;r&#x017F;ten vmbzubringen<lb/>
+Bin deß beku&#x0364;mert in den dingen<lb n="710"/>
+Wird der jung Fu&#x0364;r&#x017F;t auch hin gericht<lb/>
+So wolt im landt ich
+bleiben nicht<lb/>
+Mo&#x0364;cht der Werber vnblid nit &#x017F;ehen.<lb/>
+</p>
+</sp>
+<stage>Thelemachus der jung Fu&#x0364;r&#x017F;t<lb/>
+kombt/</stage>
+<sp who="#EWMEUS">
+<speaker>Ewmeus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Schaw Ga&#x017F;t da thut &#x017F;ich zuhernehen<lb/>
+Der junge Fu&#x0364;r&#x017F;t
+Thelemachus<lb n="715"/>
+Den ich mit frewd entpfahen muß.<lb/>
+<stage>Ewmeus vmbfecht jn/&#x017F;p&#xA75B;icht.</stage><lb/>
+O Thelemache lob &#x017F;ey
+Gott<lb/>
+Der dich errettet auß der noth<lb/>
+Jch hab warlich gefu&#x0364;rchtet
+&#x017F;eh&#xA75B;<lb/>
+Jch werd dich &#x017F;ehen nimmermeh&#xA75B;<lb n="720"/>
+Gar
+bo&#x0364;ß an&#x017F;chleg waren verhanden.<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ewmee mir i&#x017F;t bey ge&#x017F;tanden<lb/>
+Minerua die Go&#x0364;ttin der
+Weißheit<lb/>
+Das ich deß Meer&#x017F;tu&#x0364;cks bin gefreit<lb/>
+Ewmee &#x017F;ag du
+mir was ha&#x017F;t<lb n="725"/>
+Du da bey dir fu&#x0364;r einen Ga&#x017F;t<lb/>
+Wer
+i&#x017F;t er vnd wann kombt er her.<lb/>
+</p>
+</sp>
+<sp who="#EWMEUS">
+<speaker>Ewmeus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jch merck vnd es wer &#x017F;ein beger<lb/>
+Das du in nemb&#x017F;t gen Hof mit
+dir<lb/>
+Wann er &#x017F;agt es wer kummen &#x017F;chir<lb n="730"/>
+Vli&#x017F;&#x017F;es
+dein hertzlieber Vatter<lb/>
+Dem landt der aller ho&#x0364;ch&#x017F;t
+wolthater.<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Die zeitung ho&#x0364;&#xA75B;t ich von im gern<lb/>
+Jedoch kan ich jn nit gewern<lb/>
+Zu
+fu&#x0364;h&#xA75B;en haim in mein Hauß<lb n="735"/>
+<cb/>
+Wann er wird veracht
+vberauß<lb/>
+Vnd mu&#x0364;&#x017F;t der Werber &#x017F;potuogel &#x017F;ein<lb/>
+Darumb
+bhalt jn bey dir allein<lb/>
+Du Ewmee mach dich auft &#x017F;traß<lb/>
+Sag heimlich meiner
+Mutter/das<lb n="740"/>
+Jch wider zu landt kummen &#x017F;ey<lb/>
+Fri&#x017F;ch vnd
+g&#x017F;undt on alle meutrey<lb/>
+Das vmb mich nemb ein endt ir klag.<lb/>
+</p>
+</sp>
+<sp who="#EWMEUS">
+<speaker>Ewmeus</speaker>
+<stage>lauft ab/&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jch lauff vnd die gut bott&#x017F;chaft &#x017F;ag.<lb/>
+</p>
+</sp>
+<stage>Minerua kombt/winckt Vli&#x017F;&#x017F;em<lb/>
+Der geht zu jr ab/kombt wider
+ver-<lb/>
+kleidt/</stage>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Du bi&#x017F;t nit der vorig arm Ga&#x017F;t<lb n="745"/>
+Dein kleid vnd ang&#x017F;icht
+geit ein gla&#x017F;t<lb/>
+Du bi&#x017F;t kein Men&#x017F;ch &#x017F;onder ein
+Gott<lb/>
+Von Himel abge&#x017F;tigen on &#x017F;pot<lb/>
+So will ich dir ein opffer
+thon.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>vmbfecht jn/&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O Thelemache lieber Sohn<lb n="750"/>
+Jch bin kein Gott &#x017F;onder
+allein<lb/>
+Vli&#x017F;&#x017F;e der lieb Vatter dein<lb/>
+Von deß wegn du
+tru&#x0364;b&#x017F;al vnd klag<lb/>
+Du ha&#x017F;t gehabt vil jar vnd tag<lb/>
+Das
+&#x017F;ich nun wird zu frewden wenden.<lb n="755"/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Mein Vatter wie ha&#x017F;t an den enden<lb/>
+Dein arme g&#x017F;talt &#x017F;o
+g&#x017F;chwind verkeh&#xA75B;t<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Das &#x017F;elb hat thon die hoch geeh&#xA75B;t<lb/>
+Minerua Go&#x0364;ttin der
+Weißheit<lb/>
+Die fu&#x0364;r vns &#x017F;org hat alle zeit<lb n="760"/>
+Wie du leicht
+auch oft ha&#x017F;t vernummen<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<fw type="catch" place="bottom">O Vatter</fw>
+<pb facs="#f0014" n="XCVIIIa"/>
+<fw type="header" place="top">Weltlich vnd Poetisch histori.</fw>
+<cb/>
+<p>O Vatter wie bi&#x017F;t du her kummen<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Alcineus der Ko&#x0364;nig gleich<lb/>
+Jn <placeName>Pheacia</placeName> dem
+Ko&#x0364;nigreich<lb/>
+Der hat mich la&#x017F;&#x017F;en bringen her<lb n="765"/>
+Mein
+Sohn nun ho&#x0364;&#xA75B; ich bo&#x0364;&#x017F;e ma&#x0364;r<lb/>
+Die Werber
+vn&#x017F;er Hoff vnd Hauß<lb/>
+Gwaltig be&#x017F;itzen vberauß<lb/>
+Vnd &#x017F;ey ir gar
+ein Michel &#x017F;char.<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Her&#xA75B; Vatter das i&#x017F;t leider war<lb n="770"/>
+O wie &#x017F;ollen wir der ab
+kummen<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jch hab von der Go&#x0364;ttin vernummen<lb/>
+Sie wo&#x0364;ll vns helffen vnd
+bey&#x017F;tehn<lb/>
+Darumb &#x017F;o thu gen Hof nein gehn<lb/>
+So will ich morgen mit
+dem frummen<lb n="775"/>
+Vn&#x017F;erm Sewhirten nachhin kummen<lb/>
+Jn Betlers
+g&#x017F;talt wie ich vor war<lb/>
+Vnd laß dich nit beku&#x0364;mern gar<lb/>
+Ob gleich
+die Werber &#x017F;potten mein<lb/>
+Das ich muß jr &#x017F;potuogel &#x017F;ein<lb n="780"/>
+Mit &#x017F;cheltworten &#x017F;ich an mich lainen<lb/>
+Werffen mit delern
+oder bainen<lb/>
+Das leid vnd nit der gleichen thu<lb/>
+Samb du mir etwas
+gho&#x0364;re&#x017F;t zu<lb/>
+Auch nimb ich da ein Eid von dir<lb n="785"/>
+Das du keim
+Men&#x017F;chen &#x017F;ag&#x017F;t von mir<lb/>
+Biß das Minerua wappent mich<lb/>
+Denn
+will ich rechen mich vnd dich<lb/>
+Vnd mein hertz aller lieb&#x017F;ten gmahel<lb/>
+Die
+ehlich trew helt ve&#x017F;t wie Stahel<lb n="790"/>
+An den Werbern allen gemein<lb/>
+Die
+mu&#x0364;&#x017F;&#x017F;en mir bezalen fein<lb/>
+Mit irem Blut den ku&#x0364;len
+Wein.<lb/>
+</p>
+</sp>
+<stage>Sie gehen beid auß.</stage>
+<lb/>
+</div>
+<cb/>
+<div n="1" type="act">
+<head>Actus 5.</head>
+<stage>Die vier Werber gehen ein</stage>
+<lb/>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Wir &#x017F;ind gar zu lang&#x017F;am gezogen<lb/>
+Vns i&#x017F;t warlich der Vogel
+entpflogen<lb n="795"/>
+Dem wir die &#x017F;printzen hetten g&#x017F;telt.<lb/>
+</p>
+</sp>
+<sp who="#AMPHINEMUS">
+<speaker>Amphinemus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Die Go&#x0364;tter haben nit gewelt<lb/>
+Vn&#x017F;chuldiges Blut
+zuuergie&#x017F;&#x017F;en<lb/>
+Das werden &#x017F;ie vns la&#x017F;&#x017F;en
+genie&#x017F;&#x017F;en.<lb/>
+</p>
+</sp>
+<sp who="#AGELAUS">
+<speaker>Agelaus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jh&#xA75B; Werber &#x017F;chickt euch all gemein<lb n="800"/>
+Es tritt Penelope
+herein<lb/>
+Die erleucht den gantzen Palla&#x017F;t<lb/>
+Recht als der liechten Sunnen
+gla&#x017F;t.<lb/>
+</p>
+</sp>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage> tritt ein mit ih&#xA75B;er<lb/>
+Ewriclea vnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Anthineo du vnd dein g&#x017F;ellen<lb/>
+Habt meim Son heimlich nach thun
+&#x017F;tel-len<lb n="805"/>
+Mit vntrew vnd mo&#x0364;rderi&#x017F;chem
+betrug<lb/>
+Hab wir nit vberla&#x017F;ten genug<lb/>
+Von euch das jr in
+vbermut<lb/>
+Auffre&#x017F;t vnd verzert vn&#x017F;er gut<lb/>
+Wider Gott billigkeit vnd
+eh&#xA75B;<lb n="810"/>
+Wo&#x0364;lt vns belaidigen noch meh&#xA75B;<lb/>
+Das werden
+noch die Go&#x0364;tter rechen<lb/>
+Vnd ewer jung leben abbrechen<lb/>
+Es g&#x017F;chech
+geleich heut oder morgen.<lb/>
+</p>
+</sp>
+<sp who="#EWRIMACHUS">
+<speaker>Ewrimachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Penelope &#x017F;ey du on &#x017F;orgen<lb n="815"/>
+Das einer nemb ein &#x017F;olchs in
+&#x017F;in<lb/>
+Wann ich &#x017F;elber bereitet bin<lb/>
+<fw type="sig" place="bottom">r ij</fw><fw type="catch" place="bottom">Fu&#x0364;r</fw>
+<pb facs="#f0015" n="XCVIIIb"/>
+<fw type="header" place="top">Der ander
+Theil/</fw><cb/>
+Fu&#x0364;r dich vnd deinen Sohn zu &#x017F;terben<lb/>
+Jch hoff dein
+huld zu erwerben<lb/>
+Fu&#x0364;r die&#x017F;e Werber alhie zu mal<lb n="820"/>
+Wer ir
+noch &#x017F;o ein gro&#x017F;&#x017F;e zal.<lb/>
+</p>
+</sp>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jch het ew&#xA75B; freundt&#x017F;chaft aller gnug<lb/>
+Wer ich ein Man vnd het
+&#x017F;ein fug<lb/>
+Jh&#xA75B; &#x017F;olt mir nit lang hinnen &#x017F;ein.<lb/>
+</p>
+</sp>
+<sp who="#AMPHINEMUS">
+<speaker>Amphinemus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Penelope O nimb dir kein<lb n="825"/>
+Be&#x017F;chwert ob vns in deinem Hauß<lb/>
+Wo nit
+&#x017F;o gehn wir all hinauß.<lb/>
+</p>
+</sp>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ja morgen komb wir aber wider<lb/>
+Wann auff dich &#x017F;o hoffet ein jeder.<lb/>
+</p>
+</sp>
+<stage>Die vier Werber gehen auß.<lb/>
+Thelemachus kombt
+Fu&#x0364;r&#x017F;t-<lb/>
+lich/</stage>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Thelemache weil jetz allein<lb n="830"/>
+Die Werber nit entgegen &#x017F;ein<lb/>
+Sag mir
+was du von deim frummen<lb/>
+Vatter Vli&#x017F;&#x017F;i vernummen<lb/>
+Ob er &#x017F;ey
+todt oder im leben.<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ne&#x017F;tor kundt wenig kundt&#x017F;chaft geben<lb n="835"/>
+Aber von Ko&#x0364;nig
+Menelao<lb/>
+Ho&#x0364;&#xA75B;t ich wie er von Protheo<lb/>
+Dem Meergott het
+geho&#x0364;&#xA75B;t gemeß<lb/>
+Wie mein Her&#xA75B; Vatter
+Vli&#x017F;&#x017F;es<lb/>
+Seßbey der Go&#x0364;ttin Calip&#x017F;o<lb n="840"/>
+Jn jrem
+Hauß trawrig al&#x017F;o<lb/>
+Jn einem Schifbruch außge&#x017F;chwumen<lb/>
+Wu&#x0364;rd
+bald zu &#x017F;eim Vatterlandt kumen<lb/>
+Mit gun&#x017F;t vnd gnad der Go&#x0364;tter
+willen.<lb/>
+</p>
+</sp>
+<cb/>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O Sohn das thut zum theil mir &#x017F;tillen<lb n="845"/>
+Mein jamer trawrig
+hertzenlaid<lb/>
+Nun auff den frewdenreichen b&#x017F;chaid<lb/>
+Will ich ob Gott will
+&#x017F;chlaffen die nacht<lb/>
+Der ich durch trawren hab durch wacht<lb/>
+Vil
+tau&#x017F;ent in tru&#x0364;b&#x017F;al wehklagen<lb n="850"/>
+Vnd beweinet biß es wolt
+tagen<lb/>
+Meins lieben gmahels ang&#x017F;t vnd noth<lb/>
+Das i&#x017F;t gewe&#x017F;t
+mein ta&#x0364;glich brodt.<lb/>
+</p>
+</sp>
+<stage>Penelope vn&#x0303; Ewriclea gehn ab.<lb/>
+Die vier Werber kummen</stage>
+<lb/>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Sey vns wilkomb auß frembden landen<lb/>
+Was antwort i&#x017F;t dir zu
+ge&#x017F;tanden<lb n="855"/>
+Von deinem Vatter hin vnd her.<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ey Gott lob eitel gute ma&#x0364;r.<lb/>
+</p>
+</sp>
+<sp who="#EWRIMACHUS">
+<speaker>Ewrimachus</speaker>
+<stage>&#x017F;sch&#xA75B;eit.</stage>
+<lb/>
+<p>Magden trag vns ein &#x017F;chlaftrunck auff<lb/>
+Das jm jeder ein Pol&#x017F;ter
+&#x017F;auff<lb/>
+Darauff er ruhen mu&#x0364;g die Nacht.<lb n="860"/>
+</p>
+</sp>
+<sp who="#AGELAUS">
+<speaker>Agelaus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Du ha&#x017F;t mir hewt noch keines bracht<lb/>
+Dacht &#x017F;chon ein weil du
+wer&#x017F;t mir feind.<lb/>
+</p>
+</sp>
+<sp who="#EWRIMACHUS">
+<speaker>Ewrimachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Zwen dobelt tru&#x0364;nck bring ich dir heint<lb/>
+Das der alt groll aller hin
+&#x017F;ey.<lb/>
+</p>
+</sp>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Bald wein kombt &#x017F;o bring ich dir frey<lb n="865"/>
+Zu eim Khu&#x0364;fuß ein
+gantz Kleblat<lb/>
+Das dir der wilkomb drauff gerath.<lb/>
+</p>
+</sp>
+<fw type="catch" place="bottom">Amphinemus</fw>
+<pb facs="#f0016" n="XCIXa"/>
+<fw type="header" place="top">Weltlich vnd Poetisch histori.</fw>
+<cb/>
+<sp who="#AMPHINEMUS">
+<speaker>Amphinemus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ma&#x0364;gden lang Wu&#x0364;rffel vnd Karten her<lb/>
+Das einr dem andern den Beutel
+ler<lb/>
+Jch mag &#x017F;o bald nit &#x017F;chlaffen gon<lb n="870"/>
+Biß zum dritten mal
+kret der Hon.<lb/>
+</p>
+</sp>
+<stage>Ewmeus der Sewhirdt kombt<lb/>
+mit Vli&#x017F;&#x017F;i/der kombt in
+Betlers<lb/>
+ge&#x017F;talt/</stage>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Schawt zu jr Werber on gefer<lb/>
+Wie ein feins g&#x017F;indlein kombt daher<lb/>
+Ein
+fauler Schelm den andern fu&#x0364;h&#xA75B;t<lb/>
+Darbey man das alt &#x017F;prichwort
+&#x017F;pu&#x0364;rt<lb n="875"/>
+Gleich vnd gleich ge&#x017F;ell &#x017F;ich
+gern.<lb/>
+</p>
+</sp>
+<sp who="#EWRIMACHUS">
+<speaker>Ewrimachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ho&#x0364;&#xA75B; Sawhirdt thu vns bald erklern<lb/>
+Wann komb&#x017F;t mit dem
+Schmarotzer her<lb/>
+Vor gro&#x017F;&#x017F;er faulkeit &#x017F;tincket er<lb/>
+Vil Bawrn
+heu&#x017F;er hat er vmbg&#x017F;to&#x017F;en.<lb n="880"/>
+</p>
+</sp>
+<sp who="#AGELAUS">
+<speaker>Agelaus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ho&#x0364;&#xA75B; alter in den gflickten Ho&#x017F;en<lb/>
+Kan&#x017F;t du
+&#x017F;ingen oder pfeiffen.<lb/>
+</p>
+</sp>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jch glaub er ku&#x0364;nn wol zu greiffen<lb/>
+Findt ein ding ehs verloren wirdt<lb/>
+Mit
+Diebs negeln er den Baw&#xA75B;n &#x017F;chirt<lb n="885"/>
+Was nit will gehn thut er
+tragen<lb/>
+Wie denn das alt &#x017F;p&#xA75B;ichwort thut &#x017F;agen.<lb/>
+</p>
+</sp>
+<sp who="#AMPHINEMUS">
+<speaker>Amphinemus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ey lieber la&#x017F;t den alten frey<lb/>
+Jch glaub das er ge&#x017F;chicket
+&#x017F;ey<lb/>
+Von Vli&#x017F;&#x017F;e auß der Heel herauß<lb n="890"/>
+Zu &#x017F;ehen
+wie wir halten hauß<lb/>
+Ob wir Werber nit &#x017F;chier habendt<lb/>
+Mit &#x017F;eim gut
+gemacht feyerabendt.<lb/>
+</p>
+</sp>
+<cb/>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage>wirft Vli&#x017F;&#x017F;em<lb/>
+vnnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Seh nimb von mir das Bottenbrodt<lb/>
+Hat dich ge&#x017F;chicket her det todt<lb n="895"/>
+Gehin vnd &#x017F;ag jm widerumb<lb/>
+Es &#x017F;ey nun wol zeit das er kumb<lb/>
+Wir
+haben lang auff jn gewart.<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ho&#x0364;&#xA75B;t auff jr habt jn gnug genart<lb/>
+Billicher &#x017F;olt ir euch
+erbarmen<lb n="900"/>
+Deß ellenden verlaßnen armen<lb/>
+Es i&#x017F;t deß fatzwercks
+heint genunck<lb/>
+Geht auff den Sal zu dem &#x017F;chlaff trunck<lb/>
+Vnd legt euch
+darnach an die Bett.<lb/>
+</p>
+</sp>
+<sp who="#AMPINEMUS">
+<speaker>Ampinemus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Thelemachus hat war geredt<lb n="905"/>
+Kombt la&#x017F;t vns trincke&#x0303; vn&#x0303;
+&#x017F;chlaffen gehn<lb/>
+Morgen ku&#x0364;n&#x0303; wir vmb Mittag
+auf&#x017F;tehn.<lb/>
+</p>
+</sp>
+<stage>Die vier Werber gehn ab.</stage>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ewmee &#x017F;ag der Mutter mein<lb/>
+Das &#x017F;ie ein genglein thu herrein.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Thelemache O Sohne mein<lb n="910"/>
+Bald ich heint kam in Hof herein<lb/>
+Da erblicket
+mich zu der &#x017F;tundt<lb/>
+Auff dem Mi&#x017F;t dort mein alter Hundt<lb/>
+Der kendt
+mich in der warheit gantz<lb/>
+Loff gen mir wechelt mit dem Schwantz<lb n="915"/>
+Vnd fiel
+gleich als bald vmb vnd &#x017F;tarb<lb/>
+Vnd als ich &#x017F;ach das er
+verdarb<lb/>
+Giengen vber die Augen mir<lb/>
+Ob dem alten getrewen Thir.<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<fw type="sig" place="bottom">r iij</fw>
+<fw type="catch" place="bottom">Her&#xA75B;</fw>
+<pb facs="#f0017" n="XCIXb"/>
+<fw type="header" place="top">Der ander Theil/</fw>
+<cb/>
+<p>Her Vateer das i&#x017F;t ein groß wunder<lb n="920"/>
+Das dich noch kennet hat
+be&#x017F;under<lb/>
+Der Hundt vnd dich &#x017F;un&#x017F;t niemandt<lb/>
+Weder zu Hof
+noch auff dem landt<lb/>
+Laß &#x017F;ehen ob dich die Mutter kenn.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O Thelemache mich nit nenn<lb n="925"/>
+Vnd meld mich gar nit das ich es
+&#x017F;ey<lb/>
+Doch will ich mit ir reden frey<lb/>
+Jch will jr wol mit meiner
+kun&#x017F;t<lb/>
+Machen ein &#x017F;eltzam btoben dun&#x017F;t<lb/>
+Samb hab ich
+Vli&#x017F;&#x017F;em ge&#x017F;ehen<lb n="930"/>
+Will jr mit worten das verjehen<lb/>
+Das
+jr Hertz in frewden thu brennen<lb/>
+Jedoch &#x017F;o &#x017F;oll &#x017F;ie mich nit
+kennen.<lb/>
+</p>
+</sp>
+<sp who="#PENELOPE">
+<speaker>Penelope </speaker>
+<stage>die Fu&#x0364;r&#x017F;tin kombt<lb/>
+vnnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Thelemache &#x017F;ag was ha&#x017F;t<lb/>
+Du da fu&#x0364;r einen frembden
+Ga&#x017F;t<lb n="935"/>
+Ewmeus der hat mir verjehen<lb/>
+Wie das er hab
+Vli&#x017F;&#x017F;em g&#x017F;ehen<lb/>
+Ho&#x0364;&#xA75B; Ga&#x017F;t &#x017F;ag an
+i&#x017F;t &#x017F;olichs war.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ja Wolgeborne Fu&#x0364;r&#x017F;tin klar<lb/>
+Jn <placeName ref="http://d-nb.info/gnd/4073791-3">Creta</placeName> meinem Vatterlandt<lb n="940"/>
+Hab ich ge&#x017F;ehen vnd erkandt<lb/>
+Vli&#x017F;&#x017F;em in meins Vatters
+Hauß<lb/>
+Als er gleich zug vor <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName> auß<lb/>
+Lag da zu herberg auff d&#xA75B;ey tag.<lb/>
+</p>
+</sp>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Mein Ga&#x017F;t mir zu warzeichen &#x017F;ag<lb n="945"/>
+Wie Vli&#x017F;&#x017F;es
+bekleidet war.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Er trug ein Purpur Mantel zwar<lb/>
+<cb/>
+Oben mit einer Gu&#x0364;lden
+&#x017F;pangen<lb/>
+Het gu&#x0364;lden kno&#x0364;pff vorn hinab hangen<lb/>
+Ein Saumb het
+er auff meinen Eid<lb n="950"/>
+Ku&#x0364;n&#x017F;tlich ge&#x017F;ticket ein
+gejaid<lb/>
+Wie ein Hund fieng einen Rechbock<lb/>
+Het vnter dem Mantel an ein
+Rock<lb/>
+Von gar zarter &#x017F;u&#x0364;btiler Seiden.<lb/>
+</p>
+</sp>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O Ga&#x017F;t du ha&#x017F;t mich recht b&#x017F;cheiden<lb n="955"/>
+All die&#x017F;e
+obgenante Kleider<lb/>
+Hab ich im angeleget leider<lb/>
+Als er fu&#x0364;r <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName> i&#x017F;t gefarn<lb/>
+Nun etwas
+vor zweintzig jarn<lb/>
+Hab &#x017F;eit in meins hertzen grund<lb n="960"/>
+Gehabt gar
+kein fro&#x0364;liche &#x017F;tund<lb/>
+Bin auch noch &#x017F;tetigs trawrens
+vol.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ach Edle Fraw gehabt euch wol<lb/>
+Jch hab geho&#x0364;&#xA75B;t von leuten hoch<lb/>
+Der
+Thew&#xA75B; Vli&#x017F;&#x017F;es lebe noch<lb n="965"/>
+Ziecht al&#x017F;o vmb in
+Betlers g&#x017F;talt<lb/>
+Vnd wer auch anheims kummen baldt<lb/>
+Vnd noch eh das
+ver&#x017F;cheint ein jar.<lb/>
+</p>
+</sp>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O Ga&#x017F;t du ha&#x017F;t erku&#x0364;ckt fu&#x0364;r war<lb/>
+Mein hertz/an deinr
+adelichen Complexi-on<lb n="970"/>
+Jch auch gar wol erkennen kon<lb/>
+Das du kein
+Betler bi&#x017F;t geborn<lb/>
+Wie dich etwan der Go&#x0364;tter zorn<lb/>
+Hat
+vntertru&#x0364;ckt we&#x017F;t ich auch gern.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O Fu&#x0364;r&#x017F;tin thu mich nit be&#x017F;chwern<lb n="975"/>
+Zu meh&#xA75B;en mir
+mein trawrigkeit<lb/>
+Darinn ich lieg ein lange zeit<lb/>
+Mir g&#x017F;chwindt wenn ich
+dran thu ge-dencken.<lb/>
+</p>
+</sp>
+<fw type="catch" place="bottom">Penelope</fw>
+<pb facs="#f0018" n="Ca"/>
+<fw type="header" place="top">Weltlich vnd Poetisch histori.</fw>
+<cb/>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Nun ich will dich nit mit bekrencken<lb/>
+Thelemache O Sohne mein<lb n="980"/>
+Laß dir
+den Ga&#x017F;t beuolhen &#x017F;ein<lb/>
+Vnd thu jm zu Hof alles guts<lb/>
+Vnd halt jm
+vor dem Werbern &#x017F;chutz<lb/>
+Vnd leg jm an ein Hofkleid<lb/>
+Er hat geringert mir
+mein leid<lb n="985"/>
+Fro&#x0364;licher ich von euch ab&#x017F;cheid.<lb/>
+</p>
+<stage>Sie gehen alle auß.</stage>
+<lb/>
+</sp>
+</div>
+<div n="1" type="act">
+<head>Actus 6.</head>
+<stage>Thelemachus vnd Vli&#x017F;&#x017F;es gehn<lb/>
+ein/</stage>
+<sp who="#MINERUA">
+<speaker>Minerua</speaker>
+<stage>bringet den<lb/>
+Handtbogen<lb/>
+/&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Vli&#x017F;&#x017F;e Held nun i&#x017F;t es zeit<lb/>
+Zu dem kampf dich heimlich
+bereit<lb/>
+Laß Spieß vnd Schwerdter vberal<lb/>
+Tragen auß deim
+Fu&#x0364;r&#x017F;tlichen Sal<lb n="990"/>
+Vnd in die Harni&#x017F;ch kamer
+b&#x017F;chlie&#x017F;&#x017F;en<lb/>
+Das die Werber jr nit
+genie&#x017F;&#x017F;en<lb/>
+Al&#x017F;o i&#x017F;t es der Go&#x0364;tter will.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O Go&#x0364;ttin zeig vns in der &#x017F;till.<lb/>
+Wie wir es &#x017F;ollen greiffen
+an.<lb n="995"/>
+</p>
+</sp>
+<sp who="#MINERUA">
+<speaker>Minerua</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Thelemache du junger Man<lb/>
+Deins Vatters Ho&#x0364;rnen Handtbogen<lb/>
+Den er oft hat
+g&#x017F;pant vnd aufzogen<lb/>
+Den trag zu den Werbern nein<lb/>
+Vnd &#x017F;ag wer vnter
+jn allein<lb n="1000"/>
+Jn einem zug den &#x017F;pannen kan<lb/>
+Der &#x017F;oll
+&#x017F;ein deiner Mutter Man<lb/>
+<cb/>
+Den Handtbogen keiner &#x017F;pannen mag<lb/>
+Als
+denn zu deinem Vatter &#x017F;ag<lb/>
+Das er den Ho&#x0364;rnen Bogen &#x017F;pann<lb n="1005"/>
+Bald er den &#x017F;pant mag er als dann<lb/>
+Angreiffen mit
+g&#x017F;chu&#x0364;tz der Werber roth<lb/>
+Sie alle richten zu dem todt<lb/>
+Darzu wird
+jm behilflich &#x017F;ein<lb/>
+Du vnd auch die zwen Hirten dein.<lb n="1010"/>
+</p>
+</sp>
+<stage>Minerua gehet ab.<lb/>
+Ewmeus der Sewhirdt vnnd<lb/>
+Philecius der Ochßenhirdt
+gehn<lb/>
+ein/</stage>
+<sp who="#EWMEUS">
+<speaker>Ewmeus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ach mich tawret der Her&#xA75B;e mein<lb/>
+So ich &#x017F;ich den Handtbogen
+&#x017F;ein<lb/>
+Der etwan i&#x017F;t g&#x017F;torben im ellendt.</p>
+</sp>
+<lb/>
+<sp who="#PHILECIUS">
+<speaker>Philecius der Ochßenhirdt.</speaker>
+<lb/>
+<p>Jch rauff mein Har vn&#x0303; windt mein he&#x0303;dt<lb/>
+Wenn ich an mein
+Her&#xA75B;en gedenck<lb n="1015"/>
+Von gantzem hertzn ich mich bekrenck<lb/>
+Er hat
+regiert &#x017F;o &#x017F;enftmu&#x0364;tig<lb/>
+Gegn armen vnd reichen
+gu&#x0364;tig<lb/>
+Jch glaub das in keim Ko&#x0364;nigreich<lb/>
+Auff erd jetzund
+&#x017F;ey &#x017F;ein geleich<lb n="1020"/>
+Er war lieb vnd wert jederman<lb/>
+O er hat
+mir vil guts gethan.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jh&#xA75B; zwen &#x017F;agt mir auff ew&#xA75B;en Eid<lb/>
+Was wolt jh&#xA75B; jetzundt
+thun albeid<lb/>
+Wenn ewer Fu&#x0364;r&#x017F;t herwider khem.<lb n="1025"/>
+</p>
+</sp>
+<sp who="#PHILECIUS">
+<speaker>Philecius</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O nichts wer mir &#x017F;o angenemb<lb/>
+Jch wolt die Werber an dem endt<lb/>
+Auch
+&#x017F;ehen la&#x017F;&#x017F;en meiner hendt<lb/>
+Was kraft darinn verborgen
+wer.<lb/>
+</p>
+</sp>
+<fw type="sig" place="bottom">r iiij</fw>
+<fw type="catch" place="bottom">Ewmeus</fw>
+<pb facs="#f0019" n="Cb"/>
+<fw type="header" place="top">Der ander Theil/</fw>
+<cb/>
+<sp who="#EWMEUS">
+<speaker>Ewmeus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O all jr Himli&#x017F;chen Go&#x0364;tter<lb n="1030"/>
+Thu&#x0364;t vns
+Vli&#x017F;&#x017F;em wider &#x017F;chaffen<lb/>
+Jch hilff jm die&#x017F;e Werber
+&#x017F;traffen,<lb/>
+Vnd &#x017F;olt es ko&#x017F;ten mir das leben.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jh&#xA75B; lieben getrewen merckt eben<lb/>
+So wi&#x017F;t das ich Vli&#x017F;&#x017F;es
+bin<lb n="1035"/>
+So von euch i&#x017F;t gezogen hin<lb/>
+Fu&#x0364;r <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName> mit der Griechen heer.<lb/>
+</p>
+</sp>
+<sp who="#EWMEUS">
+<speaker>Ewmeus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Den Go&#x0364;ttern &#x017F;ey lob danck vnd eh&#xA75B;.<lb/>
+</p>
+</sp>
+<stage>Sie tru&#x0364;cken vnd ku&#x0364;&#x017F;&#x017F;en beide<lb/>
+Vli&#x017F;&#x017F;i
+&#x017F;ein handt/vnd wainen vor<lb/>
+frewden/</stage>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>La&#x017F;t vom ge&#x017F;chray vnd ew&#xA75B;em weinen<lb/>
+Auff das wir nit etwan von
+einen<lb n="1040"/>
+Werbern alda verkundt&#x017F;chaft wern<lb/>
+Jch will eucht mein
+gemu&#x0364;t erklern<lb/>
+Jetz wenn die Werber einher gehn<lb/>
+So
+be&#x017F;chlie&#x017F;&#x017F;et die Thu&#x0364;&#xA75B; als den<lb/>
+Vberal in dem
+gantzen Hauß<lb n="1045"/>
+Das niemandt ein mag oder auß<lb/>
+Du Thelemache nach dem
+b&#x017F;chaid<lb/>
+Verwapne dich vnd &#x017F;ie all baid<lb/>
+Den&#x0303; habt alle drey
+acht auff mich<lb/>
+Bald die Werber angreiffe ich<lb n="1050"/>
+Als denn &#x017F;o
+&#x017F;teht mir alle d&#xA75B;ey<lb/>
+Vnuerzagt vnd kecklich bey<lb/>
+Als den&#x0303; wir
+die Werber vnd &#x017F;po&#x0364;tter<lb/>
+Wo&#x0364;llen wu&#x0364;rgen mit hilff der
+Go&#x0364;tter<lb/>
+Der &#x017F;ieg vns &#x017F;chon ver&#x017F;prochen i&#x017F;t.<lb n="1055"/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Nun &#x017F;o wo&#x0364;l wir in &#x017F;chneller fri&#x017F;t<lb/>
+Alles verbringen
+nach dein worten<lb/>
+<cb/>
+Geht hin vnd be&#x017F;chlie&#x017F;t alle
+pforten<lb/>
+Den&#x0303; wo&#x0364;llen wir vns wappen allein<lb/>
+Her&#xA75B; Vatter vnd
+bald bey dir &#x017F;ein.<lb n="1060"/>
+</p>
+</sp>
+<stage>Sie gehen alle d&#xA75B;ey auß.<lb/>
+Vli&#x017F;&#x017F;es &#x017F;etzt &#x017F;ich an
+die erdt/<lb/>
+die vier Werber kummen/<lb/>
+</stage>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jh&#xA75B; Edlen Ju&#x0364;ngling ich beger<lb/>
+Gebt mir ewer Almu&#x017F;&#x017F;en
+her<lb/>
+Das ich hab ein Suppen zu e&#x017F;&#x017F;en.</p>
+</sp>
+<lb/>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage> gibt jm ein Blick.</stage>
+<lb/>
+<p>Alter wie das du &#x017F;o verme&#x017F;&#x017F;en<lb/>
+Vnd vnuer&#x017F;chembt vnter
+vns trite&#x017F;t<lb n="1065"/>
+Vnd vns vmb ein Almu&#x017F;&#x017F;en
+bitte&#x017F;t<lb/>
+Du gieng&#x017F;t zwar wol auß die&#x017F;em Hauß<lb/>
+Eh wir dich
+beim Har &#x017F;chlaiffen nauß.<lb/>
+</p>
+</sp>
+<sp who="#EWRIMACHUS">
+<speaker>Ewrimachus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ey laß hinnen den geruntzeltn alten<lb/>
+Er mo&#x0364;cht vns in dem Hof erkalten<lb n="1070"/>
+Das vns &#x017F;ein glatzete Stirn leucht<lb/>
+Vnd das er vns die wendt
+befeucht<lb/>
+Mit Spital Blumen vberal.<lb/>
+</p>
+</sp>
+<sp who="#AGELAUS">
+<speaker>Agelaus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Er wer nu&#x0364;tzer in eim Spital<lb/>
+Das er drin&#x0303; fieng die
+Spitalmu&#x0364;ß<lb n="1075"/>
+Vnd to&#x0364;dtet den alten Weibern die Leuß<lb/>
+Vnd
+tru&#x0364;g jn den Bruntz&#x017F;cherben auß.<lb/>
+</p>
+</sp>
+<sp who="#AMPHINEMUS">
+<speaker>Amphinemus</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ach hierin&#x0303; fel&#x017F;t weit vberauß<lb/>
+Solt er andern die Leuß
+to&#x0364;dten<lb/>
+Es wer jm &#x017F;elber hoch von no&#x0364;ten<lb n="1080"/>
+Jch wett
+er hab in &#x017F;einem Rock<lb/>
+Der Leuß &#x017F;elber meh&#xA75B; denn d&#xA75B;ey
+&#x017F;chock<lb/>
+Er khem jr lieber &#x017F;elber ab.<lb/>
+</p>
+</sp>
+<fw type="catch" place="bottom">Agelaus</fw>
+<pb facs="#f0020" n="CIa"/>
+<fw type="header" place="top">Weltlich vnd Poetisch histori.</fw>
+<cb/>
+<sp who="#AGELAUS">
+<speaker>Agelaus</speaker>
+<stage>&#x017F;to&#x0364;&#x017F;t ihn mit einem<lb/>
+Fuß vnnd
+&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Seh alter dir ein Eh&#xA75B;trunck hab<lb/>
+Den nimb fu&#x0364;r ein Brenten Wein<lb n="1085"/>
+Mich du&#x0364;nckt du wir&#x017F;t noch nu&#x0364;chter
+&#x017F;ein.<lb/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>bringt den handt-<lb/>
+bogen vnnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jh&#xA75B; Werber von welchen wird aufzogen<lb/>
+Meins lieben Vatters handtbogen<lb/>
+Den
+hat mein Mutter jr erwelt<lb/>
+Vnd zu eim gmahel zu gezelt.<lb n="1090"/>
+</p>
+</sp>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage>will den Bogen<lb/>
+&#x017F;pannen vnnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Der Bogen i&#x017F;t mir zu hart vnd &#x017F;treng<lb/>
+Zu &#x017F;pannen i&#x017F;t er
+gar vngeng<lb/>
+Ewrimache &#x017F;o &#x017F;pann du jn.<lb/>
+</p>
+</sp>
+<sp who="#EWRIMACHUS">
+<speaker>Ewrimachus</speaker>
+<stage>&#x017F;pant/le&#x017F;t nach<lb/>
+vnnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Zu &#x017F;chwach ich die&#x017F;em Bogen bin<lb/>
+Solt ich heyraten
+nimmermeh&#xA75B;<lb n="1095"/>
+Agelae dich mit vereh&#xA75B;.<lb/>
+</p>
+</sp>
+<sp who="#AGELAUS">
+<speaker>Agelaus</speaker>
+<stage>&#x017F;pant jhn auch nit<lb/>
+vnnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Wer den Bogen &#x017F;pant muß gewiß<lb/>
+Sein ein &#x017F;tarcker Held oder
+Riß<lb/>
+Amphileme ver&#x017F;uch dich dran.<lb/>
+</p>
+</sp>
+<sp who="#AMPHILEMUS">
+<speaker>Amphilemus</speaker>
+<stage>ver&#x017F;ucht &#x017F;ich<lb/>
+auch mit vnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Den Bogen ich nit &#x017F;pannen kan<lb n="1100"/>
+Jch glaub es leb kein Man auff
+erd<lb/>
+Von dem der Bog ge&#x017F;pannet werd.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Ach langt mir auch den Bogen her<lb/>
+<cb/>
+Daran ich auch mein &#x017F;terck
+bewer.<lb/>
+</p>
+</sp>
+<sp who="#ANTHINOUS">
+<speaker>Anthinous</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Schaw nur dem heilo&#x017F;en Betler zu<lb n="1105"/>
+Hie fri&#x017F;&#x017F;e&#x017F;t
+das Almu&#x017F;en du<lb/>
+Erfer&#x017F;t all vn&#x017F;er heimligkeit<lb/>
+Jch merck wol
+du wol&#x017F;t mit der zeit<lb/>
+Vns Werbern all ding nach thon<lb/>
+Reich keiner jm den
+Bogen non.<lb n="1110"/>
+</p>
+</sp>
+<sp who="#THELEMACHUS">
+<speaker>Thelemachus</speaker>
+<stage>&#x017F;p&#xA75B;icht:</stage>
+<lb/>
+<p>Der Handtbogen meins Vatters i&#x017F;t<lb/>
+Trutz einem der in die&#x017F;er
+fri&#x017F;t<lb/>
+Mir in dem Fu&#x0364;r&#x017F;tling Hof zu weh&#xA75B;en<lb/>
+Den
+Ga&#x017F;t auch darmit zu vereh&#xA75B;en.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<stage>Thelemachus gibt dem Vatter<lb/>
+den Handtbogen/der &#x017F;pant jhn<lb/>
+rincklich
+auff vnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jch bin nit &#x017F;o &#x017F;chwach als jr meint<lb n="1115"/>
+Wiewol mir &#x017F;ind
+die Werber feindt<lb/>
+Will ich ver&#x017F;uchen on verdrie&#x017F;&#x017F;en<lb/>
+Mit dem
+Handtbogen zu&#x017F;chie&#x017F;&#x017F;en.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>legt ein Pfeil auff &#x017F;cheu&#x017F;t<lb/>
+trift das zil vnd
+&#x017F;p&#xA75B;icht zornig.</stage>
+<lb/>
+<p>Jh&#xA75B; Hund wie habt jr mir mit trutz<lb/>
+Verzert vnd ver&#x017F;chlembt &#x017F;o
+vil guts<lb n="1120"/>
+Nach ge&#x017F;telt dem gemahel mein<lb/>
+Vnd meim Sohn nach dem
+leben &#x017F;ein<lb/>
+Vnd habt mir mein Hauß geuneh&#xA75B;t<lb/>
+Mit ewer vnzucht gar
+verkeh&#xA75B;t<lb/>
+Das mu&#x0364;&#x017F;t jr zaln mit ew&#xA75B;n verderben<lb n="1125"/>
+Jh&#xA75B; mu&#x0364;&#x017F;t von meinen henden sterben.<lb/>
+</p>
+</sp>
+<sp who="#EWRIMACHUS">
+<speaker>Ewrimachus</speaker>
+<stage>&#x017F;p&#xA75B;icht:</stage>
+<lb/>
+<p>Wer bi&#x017F;t das du redts &#x017F;o gedu&#x0364;r&#x017F;t<lb/>
+Bi&#x017F;t du
+Vli&#x017F;&#x017F;es der landts Fu&#x0364;r&#x017F;t<lb/>
+So ver&#x017F;chon
+vn&#x017F;er bitten wir<lb/>
+Als wo&#x0364;ll wir wider gelten dir.<lb n="1130"/>
+<fw type="catch" place="bottom">Beide</fw>
+<pb facs="#f0021" n="CIb"/>
+<fw type="header" place="top">Der ander Theil/</fw><cb/>
+Beide an eh&#xA75B; vnd auch an gut<lb/>
+All ding
+dir wider machen gut<lb/>
+Was wir dir haben thon fu&#x0364;r &#x017F;chaden.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Von mir verhoffet keiner gnaden<lb/>
+Biß das ich ewer aller Seel<lb n="1135"/>
+Hinab
+&#x017F;chick in abgrundt der Heel<lb/>
+Be&#x017F;&#x017F;er wird es euch nit
+ergohn<lb/>
+Jh&#xA75B; kombt den mit der flucht daruon.<lb/>
+</p>
+</sp>
+<stage>Da greifft Vli&#x017F;&#x017F;es an/die d&#xA75B;ey<lb/>
+kumen jm zu hilff/als denn
+&#x017F;chla-<lb/>
+gen &#x017F;ie die vier Werber alle zu<lb/>
+todt/</stage>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Jh&#xA75B; zwen &#x017F;aumbt euch nit in dem Hauß<lb/>
+Bald tragt die todten
+Co&#x0364;rper nauß<lb n="1140"/>
+Darnach &#x017F;o hencket die zwo&#x0364;lff
+Maid<lb/>
+Die mir zu &#x017F;chandt vnd hertzen laid<lb/>
+Habn mit den Werbern trieben
+vnzucht<lb/>
+Vnd auch Melancium verrucht<lb/>
+Den Gaißhirten der mich auß verdrieß<lb n="1145"/>
+Vera&#x0364;chtlich mit &#x017F;ein fer&#x017F;&#x017F;en
+&#x017F;tieß<lb/>
+Vnd den Werbern Weher zu trug<lb/>
+Den peinigt rechtlich wol vnd
+gnug<lb/>
+Vnd viertheilt jn als ein Verreter<lb/>
+Den vngetrewen vbeltheter<lb n="1150"/>
+Wa&#x017F;cht ti&#x017F;ch vn&#x0303; penck vom blut al&#x017F;amen<lb/>
+Trucknet
+&#x017F;ie ab mit eim bad&#x017F;chwamen<lb/>
+Macht gut geruchwerck in den Sal<lb/>
+Vnd
+ziert die wendt vberal<lb/>
+Mit deppich/denn will ich mich eben<lb n="1155"/>
+Penelope zu
+kennen geben<lb/>
+Das ich &#x017F;ey fri&#x017F;ch vnd g&#x017F;undt im leben.<lb/>
+</p>
+</sp>
+<stage>Vli&#x017F;&#x017F;es geht ab mit Thelemacho<lb/>
+Die zwen Hirten tragen<lb/>
+die
+todten ab.<lb/>
+</stage>
+</div>
+<cb/>
+<div n="1" type="act">
+<head>Actus 7.</head>
+<sp who="#PENELOPE">
+<speaker>Penelope die Fu&#x0364;r&#x017F;tin</speaker>
+<stage>geht ein<lb/>
+&#x017F;etzt &#x017F;ich nider vnd klagt.</stage>
+<lb/>
+<p>Jh&#xA75B; Go&#x0364;tter will denn mein ellendt<lb/>
+Auch nit ein mal nemen ein
+endt<lb/>
+Man thut mir vil vertro&#x0364;&#x017F;tung geben<lb n="1160"/>
+Mein lieber
+Her&#xA75B; &#x017F;ey noch im leben<lb/>
+Deß wart ich noch &#x017F;einer zukunft<lb/>
+O
+heint hat mir vberuernunft<lb/>
+Getraumbt ein holdt&#x017F;eliger traumb<lb/>
+Wie ich
+vnter ein Feygenbaumb<lb n="1165"/>
+Meinen Vli&#x017F;&#x017F;em hab vmbfangen<lb/>
+Mit
+lieb vnd hertzlichem verlangen<lb/>
+Jm gab ein Kuß an &#x017F;einen mund<lb/>
+O erlebete
+ich die &#x017F;tund<lb/>
+Das &#x017F;olcher traumb mir war thet wern<lb n="1170"/>
+Darnach &#x017F;o wolt ich &#x017F;terben gern.<lb/>
+</p>
+</sp>
+<sp who="#EWRICLEA">
+<speaker>Ewriclea ih&#xA75B; Hofmei&#x017F;terin</speaker>
+<lb/>
+<stage>kombt vnnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O ich bring frewdenreiche ma&#x0364;r<lb/>
+Fu&#x0364;r&#x017F;tin &#x017F;aumb dich nit
+komb bald her<lb/>
+Zu &#x017F;ehen mit dein Augen wert<lb/>
+Das du mit &#x017F;euftzen
+ha&#x017F;t begert<lb n="1175"/>
+Dein Vli&#x017F;&#x017F;em den thew&#xA75B;en
+frummen<lb/>
+Der i&#x017F;t wider zu lande kummen<lb/>
+Vnd hat die Werber all
+er&#x017F;chlagen<lb/>
+Die jm zu &#x017F;chaden allhie lagen<lb/>
+Eil bald vnd komb zu
+&#x017F;ehen jn.<lb n="1180"/>
+</p>
+</sp>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O Mu&#x0364;tterlein der &#x017F;einen &#x017F;in<lb/>
+Bi&#x017F;t du von den
+Go&#x0364;ttern beraubt<lb/>
+Jch het es aber nit geglaubt<lb/>
+Das du mich al&#x017F;o
+thet&#x017F;t betru&#x0364;ben<lb/>
+Jn meinem hertzenlaid zu vben<lb n="1185"/>
+Dein
+&#x017F;chertz i&#x017F;t mir nit &#x017F;u&#x0364;ß vnd ring.<lb/>
+</p>
+</sp>
+<fw type="catch" place="bottom">Ewriclea</fw>
+<pb facs="#f0022" n="CIIa"/>
+<fw type="header" place="top">Weltlich vnd Poetisch histori.</fw>
+<cb/>
+<sp who="#EWRICLEA">
+<speaker>Ewriclea</speaker>
+<stage>&#x017F;p&#xA75B;icht:</stage>
+<lb/>
+<p>Tochter ich &#x017F;ag warhafte ding<lb/>
+Er i&#x017F;t zu landt der
+eh&#xA75B;enue&#x017F;t<lb/>
+Thelemachus hats leng&#x017F;t gewe&#x017F;t<lb/>
+Hats doch
+nit offenbaren wo&#x0364;llen<lb n="1190"/>
+Biß &#x017F;o lang &#x017F;ie die Werber
+fellen<lb/>
+Auch ich Dir ein warzeichen &#x017F;ag<lb/>
+Jch hab jm auff den heuting
+tag<lb/>
+Sein fu&#x0364;ß gwa&#x017F;che&#x0303;/vn&#x0303; &#x017F;ach auff
+trawen<lb/>
+Die ma&#x017F;&#x017F;en die ims wild Schwein hat ghawen<lb n="1195"/>
+Auff
+<placeName ref="http://d-nb.info/gnd/4044717-0">Perua&#x017F;um</placeName> an dem
+gejaid<lb/>
+Darumb laß ab dein hertzen laid<lb/>
+Komb zu dem lieben gmahel dein.<lb/>
+</p>
+</sp>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>felt jh&#xA75B; vmb den<lb/>
+Hals vnnd &#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O hertzenliebes Mu&#x0364;tterlein<lb/>
+Er&#x017F;t glaub ich dir gentzlich
+fu&#x0364;rwar<lb n="1200"/>
+Nun i&#x017F;t ver&#x017F;chwunden gantz vnd gar<lb/>
+Mein
+trawern vnd hertzliche klag<lb/>
+Wol mir das ich erlebt den tag<lb/>
+Das ich meinen
+Her&#xA75B;n &#x017F;ehen &#x017F;ol.<lb/>
+</p>
+</sp>
+<sp who="#EWRICLEA">
+<speaker>Ewriclea</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>Schaw dort kombt er jetz ken&#x017F;t jn wol<lb n="1205"/>
+Weil er jetz
+fu&#x0364;r&#x017F;tlich i&#x017F;t bekleid<lb/>
+Der vor in eins Betlers
+be&#x017F;cheid<lb/>
+Zu Hof vertrieben hat vil tag<lb/>
+Vnerkandt in trawren vnd
+klag.<lb/>
+</p>
+</sp>
+<stage>Vli&#x017F;&#x017F;es kombt/</stage>
+<sp who="#PENELOPE">
+<speaker>Penelope</speaker>
+<stage>lauft<lb/>
+jhm entgegen/felt jhm vmb den<lb/>
+Hals vnnd
+&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>O mein hertzlieb&#x017F;ter gmahel frumb<lb n="1210"/>
+Biß mir zu tau&#x017F;ent mal
+wilkumb<lb/>
+Jch hab be&#x017F;orgt du &#x017F;ei&#x017F;t lang&#x017F;t todt<lb/>
+Vor
+<placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName> in dem blute
+roth<lb/>
+Oder auff der heimfart ver&#x017F;uncken<lb/>
+<cb/>
+Jn dem wu&#x0364;tenden Meer
+ertruncken<lb n="1215"/>
+Wie dann vil Griechen i&#x017F;t ge&#x017F;chehen<lb/>
+Wie man
+das ho&#x0364;rt &#x017F;ingen vnd jehen<lb/>
+Het &#x017F;chier verzagt an deiner zu
+kunft<lb/>
+Es du&#x0364;nckt mich wider all vernunft<lb/>
+Das du bi&#x017F;t kumen
+&#x017F;o armer g&#x017F;talt<lb n="1220"/>
+Ewriclea lauff &#x017F;chnel vnd
+bald<lb/>
+Bring Laertem &#x017F;ein Vatter rein<lb/>
+Den hertzenlieben Schweher
+mein<lb/>
+Der &#x017F;ich vmb dich &#x017F;o hart hat ku&#x0364;mert<lb/>
+Das jm
+i&#x017F;t all &#x017F;ein frewd zertru&#x0364;mert<lb n="1225"/>
+Hat &#x017F;ein wonung
+im Weinbergen dauß<lb/>
+Mocht nit meh&#xA75B; wohnen in dem Hauß<lb/>
+Dieweil du nit
+war&#x017F;t anheim meh&#xA75B;<lb/>
+So ellend er &#x017F;ein zeit verzer<lb/>
+Vnd
+&#x017F;euftzet tag vnd nacht nach dir<lb n="1230"/>
+Ach mein Vli&#x017F;&#x017F;e
+&#x017F;ag doch mir<lb/>
+Wo bi&#x017F;t du doch gewe&#x017F;t &#x017F;o lang.<lb/>
+</p>
+</sp>
+<sp who="#ULISSES">
+<speaker>Vli&#x017F;&#x017F;es</speaker>
+<stage>&#x017F;p&#xA75B;icht.</stage>
+<lb/>
+<p>So merck aufs ku&#x0364;rtzt in dem anfang<lb/>
+Als wir biß in das zehendt jar<lb/>
+Lagen vor der Stat <placeName ref="http://d-nb.info/gnd/4060974-1">Troya</placeName>
+zwar<lb n="1235"/>
+Die gwunnen/als ich heimwertz fu&#x0364;h&#xA75B;<lb/>
+Mit mein
+Schifn ich be&#x017F;tritten wur<lb/>
+Von den Cicones/auch ein
+vnge&#x017F;tu&#x0364;mb<lb/>
+Warff vns darnach auf dem Meer vmb<lb/>
+Neun tagraiß/darnach
+ich mit nam<lb n="1240"/>
+Jn die Heel deß Cicloppen kam<lb/>
+Der meiner g&#x017F;ellen mir
+&#x017F;echs fraß<lb/>
+Den ich mit li&#x017F;t doch blenden was<lb/>
+Das ich jm auß der
+Heel entron<lb/>
+Vnd nach dem fuh&#xA75B;en wir hinon<lb n="1245"/>
+Zu Eolo dem
+Ko&#x0364;nig der hat<lb/>
+Vns wol gehalten ein gantz Monat<lb/>
+Vnd fertigt mich auch
+eh&#xA75B;lich ab<lb/>
+Da ich auch &#x017F;chon ge&#x017F;ehen hab<lb/>
+<placeName ref="http://d-nb.info/gnd/4109169-3">Jtaca</placeName> mein lieb Vatterlandt<lb n="1250"/>
+Da &#x017F;ich aber erhub zu handt<lb/>
+Ein vnge&#x017F;tu&#x0364;migkeit im Meer<lb/>
+<fw type="catch" place="bottom">Vnd</fw>
+<pb facs="#f0023" n="CIIb"/>
+<fw type="header" place="top">Der ander Theil/</fw><cb/>
+Vnd warff auch vn&#x017F;er Schiff &#x017F;o
+&#x017F;eh&#xA75B;<lb/>
+Zum Volck in <placeName>Le&#x017F;trigoniam</placeName><lb/>
+Das
+meine Schiff zerwarff all&#x017F;am<lb n="1255"/>
+Mit &#x017F;teinen/das &#x017F;ie
+vnter&#x017F;uncken<lb/>
+Vnd meine gferten all ertruncken<lb/>
+Biß on das Schiff darinn
+ich &#x017F;aß<lb/>
+Mit die&#x017F;em Schiff ich komb fu&#x0364;rbaß<lb/>
+Zu Fraw Circe
+die mir verkert<lb n="1260"/>
+Mein g&#x017F;elln in Sew/der ich mich
+weh&#xA75B;t<lb/>
+No&#x0364;tt &#x017F;ie das &#x017F;ie in die&#x017F;er Wildtnuß<lb/>
+Jn
+wider gab Men&#x017F;chliche Bildtnuß<lb/>
+Bey jr blieb wir ein gantzes jar<lb/>
+Nach dem
+&#x017F;o zeiget &#x017F;ie mir dar<lb n="1265"/>
+Jn die Helle hinab zu
+fah&#xA75B;en<lb/>
+Tire&#x017F;ias zu offenbaren<lb/>
+Wie ich doch wider heim
+mo&#x0364;cht kummen<lb/>
+Jn der Helle hab ich vernummen<lb/>
+Mein liebe Mutter/vnd der
+Held vil<lb n="1270"/>
+Der ich ku&#x0364;rtz halb nit nennen wil<lb/>
+Ayacem vnd den
+Achillem<lb/>
+Fu&#x0364;r die Syrenes wir nach dem<lb/>
+Fuh&#xA75B;en/hielten zu die
+Oh&#xA75B;en lang<lb/>
+Das wir nit ho&#x0364;rten jh&#xA75B; ge&#x017F;ang<lb n="1275"/>
+Fuh&#xA75B; auch fu&#x0364;r die gfeh&#xA75B;liche&#x0303; Meerw&#x016B;der<lb/>
+Caribdim vnd
+Cylla be&#x017F;under<lb/>
+Kam darnach in <placeName ref="http://d-nb.info/gnd/4055193-3">Sicilia</placeName><lb/>
+Da mein g&#x017F;ellen &#x017F;chlachten alda<lb/>
+Der Sunnen
+geheiligtes Viech<lb n="1280"/>
+Derhalb Jupiter zornigklich<lb/>
+Herrab &#x017F;choß einen
+donner Strahl<lb/>
+Zer&#x017F;chmettert mein Schiff vberal<lb/>
+Da ertruncken all
+g&#x017F;ellen mein<lb/>
+Vnd im zerbrochen Schiff allein<lb n="1285"/>
+Neun tag vnd nacht
+ich al&#x017F;o &#x017F;chwam<lb/>
+Jn die Jn&#x017F;el
+<placeName>Ogigiam</placeName><lb/>
+Da die Go&#x0364;ttin Calip&#x017F;o war<lb/>
+Bey der
+ich wohnet &#x017F;ieben jar<lb/>
+Biß die Go&#x0364;tter &#x017F;chickten zu jr<lb n="1290"/>
+Das &#x017F;ie &#x017F;olt &#x017F;ein behilflich mir<lb/>
+Auff die heimfart
+ins Vatterlandt<lb/>
+<cb/>
+Jch macht ein Floß vnd fuh&#xA75B; zu handt<lb/>
+Von jr/doch auß
+neid Nephtunus<lb/>
+Bewegt das Mer mit vng&#x017F;tu&#x0364;mnus<lb n="1295"/>
+Vnd mir
+auch meinen Floß zutru&#x0364;mert<lb/>
+Al&#x017F;o &#x017F;chwam ich ellendt
+beku&#x0364;mert<lb/>
+Auff einem Bret drey tag vnd nacht<lb/>
+Biß ich mich doch zu lande
+bracht<lb/>
+Jnn dem lande <placeName>Pheacia</placeName><lb n="1300"/>
+Deß Ko&#x0364;nigs
+Tochter Naw&#x017F;ica<lb/>
+Mich fand beim Meer/die het ein We&#x017F;ch<lb/>
+Mit jrem
+Frawenzimmer re&#x017F;ch<lb/>
+Die mich bekleidt/vnd &#x017F;chickt al&#x017F;o<lb/>
+Jnt
+Stat zu Ko&#x0364;nig Alcineo<lb n="1305"/>
+Jrem Vatter der mich zu gnaden<lb/>
+Nam/hat
+mich auff ein Schiff geladen<lb/>
+Der hat mich bracht ins Vatterlandt<lb/>
+Mit hilff der
+Go&#x0364;tter aller&#x017F;andt<lb/>
+So ha&#x017F;t in kurtz die gantzen &#x017F;umb<lb n="1310"/>
+Der meinen jr&#xA75B;fart vmb vnd vmb<lb/>
+Nach leng &#x017F;o het ich dir
+fu&#x0364;rwar<lb/>
+Darvon zu&#x017F;agen ein gantzes jar<lb/>
+Den Go&#x0364;ttern
+&#x017F;ey lob/preiß vnd eh&#xA75B;<lb/>
+Die mich zu landt vnd auff dem Meer<lb n="1315"/>
+Jn &#x017F;olcher gfah&#xA75B; be&#x017F;chu&#x0364;tzet hon<lb/>
+Den&#x0303;
+wo&#x0364;ll wir in den Tepmel gon<lb/>
+Ein hundert hewpich opffer thon.<lb/>
+</p>
+</sp>
+<stage>Sie gehen alle auß. </stage>
+<sp who="#EHRNHOLDT">
+<speaker>Der Eh&#xA75B;nholdt</speaker>
+<stage> be&#x017F;chleu&#x017F;t</stage>
+<lb/>
+<p> ¶ So hat die Comedi ein endt<lb/>
+Auß der werden &#x017F;echs leh&#xA75B;
+erkendt<lb n="1320"/>
+Er&#x017F;tlich bey Fraw Penelope<lb/>
+Ein frumes Bidrweib
+ver&#x017F;teh<lb/>
+Das &#x017F;ie mit &#x017F;cham/zucht vnd
+keu&#x017F;chheit<lb/>
+Jh&#xA75B; Eh&#xA75B; bewar zu aller zeit<lb/>
+Als jren aller
+ho&#x0364;ch&#x017F;ten &#x017F;chatz<lb n="1325"/>
+Vnd geb keim Buler &#x017F;tat noch
+platz<lb/>
+Fliech jr verhei&#x017F;&#x017F;ung/ &#x017F;chmeichel vn&#x0303;
+&#x017F;che&#x0303;ck<lb/>
+Jh&#xA75B; Cuplen/hoffieren vnd renck<lb/>
+<fw type="catch" place="bottom">Halt</fw>
+<pb facs="#f0024" n="CIIIa"/>
+<fw type="header" place="top">Weltlich vnd Poetisch histori.</fw><cb/>
+Halt lieb vnd trew jh&#xA75B;em Ehmon<lb/>
+Da
+hat &#x017F;ie lob vnd eh&#xA75B;e von<lb n="1330"/>
+Zum andern leh&#xA75B;t bey
+Vli&#x017F;&#x017F;i<lb/>
+Ein Biderman das er alhy<lb/>
+Jn allem &#x017F;ein thun vnd
+wandel<lb/>
+Fein weißlich vnd fu&#x0364;r&#x017F;ichtig handel<lb/>
+Auff das er
+&#x017F;ich zu aller zeit<lb n="1335"/>
+Hu&#x0364;t vnd fu&#x0364;r&#x017F;ech vor
+gfeh&#xA75B;ligkeit<lb/>
+Wo er aber komb in gefah&#xA75B;<lb/>
+Das er denn &#x017F;ein
+gebet nit &#x017F;par<lb/>
+Zu Gott der im erlo&#x0364;&#x017F;ung &#x017F;endt<lb/>
+Vnd
+auch &#x017F;ein tru&#x0364;b&#x017F;al vnd ellendt<lb n="1340"/>
+Starckmu&#x0364;tig vnd
+geduldig trag<lb/>
+Nit kleinmu&#x0364;tig darinn verzag<lb/>
+Biß &#x017F;ich Glu&#x0364;ck
+wider zu jm keh&#xA75B;<lb/>
+Geb wider g&#x017F;undtheit/gut vnd eh&#xA75B;<lb/>
+Als denn
+mag er &#x017F;ich wider rechen<lb n="1345"/>
+Vnd gwalt mit gegen gwalt brechen.<lb/>
+Zum
+dritten bey Thelemacho<lb/>
+So leh&#xA75B;t ein frummer Sohn al&#x017F;o<lb/>
+Sein Eltern
+trewlich vor zu gehn<lb/>
+Jnn allen no&#x0364;then bey zu &#x017F;tehn<lb n="1350"/>
+Es
+treff an leib/eh&#xA75B; oder gut<lb/>
+Soll er mit gehor&#x017F;amen mut<lb/>
+Sein Eltern
+&#x017F;ein in dien&#x017F;t ergeben<lb/>
+So gibt jm Gott ein langes leben.<lb/>
+Zum
+vierdte&#x0303; bey den zwey Hirtn &#x017F;chon<lb n="1355"/>
+Soll leh&#xA75B;en hie ein
+vnterthon<lb/>
+Das er in not auch gleicher ma&#x017F;&#x017F;en<lb/>
+Sein Obrigkeit nit
+&#x017F;oll verla&#x017F;&#x017F;en<lb/>
+Sonder bey&#x017F;tehn mit leib vnd gut<lb/>
+Vnd
+fu&#x0364;r &#x017F;ie kempfen auff das Blut.<lb n="1360"/>
+Zum fu&#x0364;nften bey den
+vntrewen Maiden<lb/>
+Leh&#xA75B;t ein Ehalt hie wol be&#x017F;chaiden<lb/>
+Wo er auch helt
+vntrewlich hauß<lb/>
+Das jm auch endtlich volg darauß<lb/>
+Schandt/la&#x017F;ter vnd die
+Go&#x0364;ttlich rach<lb n="1365"/>
+Vntrewes dien&#x017F;tes lohn entpfach.<lb/>
+Zum
+&#x017F;ech&#x017F;ten bey den Werbern &#x017F;o&#x0364;llen<lb/>
+Mercken/die frechen
+jungen g&#x017F;ellen<lb/>
+Wo &#x017F;ie &#x017F;o vnver&#x017F;chambt
+vmb&#x017F;chawen<lb/>
+Zu bulen vmb frumme Ehfrawen<lb n="1370"/>
+Mit li&#x017F;tigen
+rencken vnd &#x017F;achen<lb/>
+Jh&#xA75B;n Ehmennern trewlos machen<lb/>
+Dergleichen
+frumme To&#x0364;chterlein<lb/>
+Auch bringen in die &#x017F;chnur&#xA75B; hinein<lb/>
+Ab&#x017F;augen mit vntrewem mut<lb n="1375"/>
+Auch zu der eh&#xA75B;/ih&#xA75B; hab vnd
+gut<lb/>
+Das &#x017F;olche &#x017F;tu&#x0364;ck wie obge&#x017F;prochen<lb/>
+An jn nit
+bleibet vngerochen<lb/>
+Zalens &#x017F;ie es nicht mit jrm Blut<lb/>
+Gott &#x017F;ie doch
+endtlich &#x017F;traffen thut<lb n="1380"/>
+Mit &#x017F;chandt/armut oder
+kranckheit<lb/>
+Oder aufs weng&#x017F;t nach die&#x017F;er zeit<lb/>
+Jn pein ewiges
+vngemachs.<lb/>
+Daruor bhu&#x0364;t vns Gott wu&#x0364;n&#x017F;cht Hans Sachs.<lb/>
+</p>
+</sp>
+</div>
+<div n="1">
+<head>Die Per&#x017F;on in die Comedi.</head>
+<lb/>
+<castList>
+<castItem><role xml:id="EHRNHOLDT">Eh&#xA75B;nholdt.<space dim="horizontal"/>1</role></castItem>
+<lb/>
+<castItem><role xml:id="MENELAUS">Menelaus</role>
+<roleDesc>Ko&#x0364;nig zu <placeName ref="http://d-nb.info/gnd/4056054-5">Sparta</placeName><space dim="horizontal"/>.2</roleDesc></castItem>
+<lb/>
+<castItem><role xml:id="NESTOR">Ne&#x017F;tor</role>
+<roleDesc>ein Fu&#x0364;r&#x017F;t zu <placeName ref="http://d-nb.info/gnd/4234889-4">Pilum</placeName><space dim="horizontal"/>.3</roleDesc></castItem>
+<lb/>
+<castItem><role xml:id="ULISSES">Vli&#x017F;&#x017F;es</role>
+<roleDesc>ein Fu&#x0364;r&#x017F;t zu <placeName ref="http://d-nb.info/gnd/4109169-3">Jtaca</placeName><space dim="horizontal"/>.4</roleDesc></castItem>
+<lb/>
+<castItem><role xml:id="PENELOPE">Penelope</role>
+<roleDesc>die keu&#x017F;ch &#x017F;ein Haußfraw.<space dim="horizontal"/>5</roleDesc></castItem>
+<lb/>
+<castItem><role xml:id="THELEMACHUS">Thelemachus</role>
+<roleDesc>jh&#xA75B; beider Sohn.<space dim="horizontal"/>6</roleDesc></castItem>
+<lb/>
+<castItem><role xml:id="MINERUA">Minerua</role>
+<roleDesc>die Go&#x0364;ttin der Weißheit.<space dim="horizontal"/>7</roleDesc></castItem>
+<lb/>
+<castItem><role xml:id="EWRICLEA">Ewriclea</role>
+<roleDesc>die Kamerfraw Penelope.<space dim="horizontal"/>8</roleDesc></castItem>
+<lb/>
+<castGroup rendition="#rightBraced">
+<castItem><role xml:id="ANTHINOUS">Anthinous.<space dim="horizontal"/>9</role></castItem>
+<lb/>
+<castItem><role xml:id="EWRIMACHUS">Ewrimachus.<space dim="horizontal"/>10</role></castItem>
+<lb/>
+<castItem><role xml:id="AGELAUS">Agelaus.<space dim="horizontal"/>11</role></castItem>
+<lb/>
+<castItem><role xml:id="AMPHINEMUS">Amphinemus.<space dim="horizontal"/>12</role></castItem>
+<lb/>
+<roleDesc>Die 4. Werber.</roleDesc>
+</castGroup>
+<castItem><role xml:id="EWMEUS">Ewmeus</role>
+<roleDesc>der Sewhirdt.<space dim="horizontal"/>13</roleDesc></castItem>
+<lb/>
+<castItem><role xml:id="PHILECIUS">Philecius</role>
+<roleDesc>der Ochßenhirdt.<space dim="horizontal"/>14</roleDesc></castItem>
+<lb/>
+</castList>
+</div>
+</body>
+<back>
+<docDate when="1555-02-20">Anno Saluis/M. D. L. V.<lb/>
+Am XX. Tag Februarij.<lb/>
+</docDate>
+</back>
+</text>
+</TEI>
