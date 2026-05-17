@@ -1,0 +1,1805 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Ad Glauconem liber tertius</title>
+<author>Ps-Galenus</author>
+</titleStmt>
+<publicationStmt>
+<pubPlace>Napoli</pubPlace>
+<publisher>Annali dell'Istituto Universitario Orientale di Napoli</publisher>
+<date>2003</date>
+</publicationStmt>
+<seriesStmt>
+<title>Auctores scientiarum varii</title>
+<idno>PSGale.AdLaLib</idno>
+</seriesStmt>
+<notesStmt>
+<note/>
+</notesStmt>
+<sourceDesc>
+<editionStmt>
+              <edition>transcription</edition>
+              <editor>Galeni qui fertur ad Glauconem Liber tertius ad fidem codicis Vindocinensis 109. Editionem curavit Klaus-Dietrich Fischer, in: <hi>Galenismo e Medicina tardoantica. Fonti greche, latine e arabe. Atti del Seminario Internazionale di Siena 2002, a cura di Ivan Garofalo e Amneris Roselli (Quaderni 7)</hi>, p. 283-346.</editor>       
+              </editionStmt>
+</sourceDesc>
+</fileDesc>
+ <encodingDesc>
+   <projectDesc>this text was converted to TEI xml for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</projectDesc>
+   <editorialDecl>
+     <normalization>Mediaeval Latin orthography</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ <xenoData xmlns:cc="http://mlat.uzh.ch/2.0">
+      <pre-analysis xmlns="http://mlat.uzh.ch/2.0" timestamp="2024-09-27T16:29:13.708">
+        <possible_abbreviations>
+          <!-- Abbreviation analysis not performed -->
+        </possible_abbreviations>
+        <tei_problems>
+          <critical note="The document can't be loaded with those errors"/>
+          <minor note="Those error won't prevent document from being loaded, but should be fixed anyway">
+            <text_nodes_under_div>3</text_nodes_under_div>
+          </minor>
+        </tei_problems>
+      </pre-analysis>
+      <!-- 
+    ### instructions for processing ###
+    ### uncomment this node and remove ###-enclosed comments ###
+    ### delete any unncessary items and insert right values ###
+    ### if you do not need any special options, delete this node completely ###
+    <prep-instructions xmlns="http://mlat.uzh.ch/2.0">
+      <abbreviations add_or_replace="ADD|replace ###replace=replace default (valid also for all following @add_or_replace. ADD=default) ###">
+        <plain ### for simple string abbreviations ###>abbreviation1 abbreviation2 ...</plain>
+        <rgx ### regular expression abbreviations ###>
+          <abbr>abbreviations</abbr>
+          ...
+        </rgx>
+      </abbreviations>
+      <paratext_elements add_or_replace="ADD|replace">### space-separated list of names of paratext elements. Default: app rdg note graphic ###</paratext_elements>
+      <hierarchy_elements add_or_replace="ADD|replace">### space-separated list of hierarchy-constructing elements. Default: div p lg head argument table list docTitle titlePart### </hierarchy_elements>
+      <text_containing_elements add_or_replace="add|replace">### space-separated list elements considered text containers. Default: div p lg head argument table list  docTitle titlePart ### </text_containing_elements>
+      <cancel_tokenization>### list of elements, where no sentence tokenization occurs ###</cancel_tokenization>
+      <process_front>TRUE|false ### whether tei:front elements should be processed, lemmatised, sphinx-indexed. Can be also inserted as @cc:process="false" into the appropriate node ### </process_front>
+      <process_back>TRUE|false ### dtto as for tei:back ### </process_back>
+      
+      <no_lemmatisation/> ### insert, if you don't want to perform the lemmatisation (e. g. for texts in languages you don't have any lemmatiser). Otherwise remove this element!!! ###
+      <use_tei-s_only/> ### insert, if the text contains tei:s elements and the cc:s elements should be inserted only in those. Otherwise remove this element ###
+    </prep-instructions>
+  
+   -->
+    </xenoData>
+  </teiHeader>
+<text>
+ <body>	
+  <div1 id="cap.">
+        <head>Galeni qui fertur Ad Glauconem liber tertius ad fidem codicis Vindocinensis 109</head>
+          
+<p>I 1.1  Cephalaea</p>
+<p>II 2.1  Curatio cephalargiae</p>
+<p>III  3.1  De scotomaticis</p>
+<p>IIII  4.1  Curatio scotomaticorum</p>
+<p>V  5.1  Incipit de epilepticis</p>
+<p>VI 6.1  Curatio epilepticorum</p>
+<p>VII 7.1  Incipi[un]t causa maniae</p>
+<p>VIII 8.1  Curatio eorum talis est</p>
+<p>VIIII 9.1  Incipiunt causae quae in uisceribus sunt</p>
+<p>X 10.1  [De] Stomachi autem quot causae sint</p>
+<p>XI 11.1  Algema, id est dolor</p>
+<p>XII 12.1  His adhibenda‹e› sunt calefactiones tales</p>
+<p>XIII 13.1  De phlegmone</p>
+<p>XIIII 14.1   Hi, s‹i› uirtus non deest, phlebotomandi sunt</p>
+<p>XV 15.1  Scleroma, id est duritia</p>
+<p>XVI 16.1  Hos autem curabis sic</p>
+<p>XVII 17.1  Empneumatosis</p>
+<p>XVIII 18.1  [Et] Mane fricentur etiam manus et pedes</p>
+<p>XVIIII 19.1  De anorexia</p>
+<p>XX 20.1</p>
+<p>XXI 21.1  Paralysis stomachi</p>
+<p>XXII 22.1  Quibus oxymelli[s] dandum est</p>
+<p>XXIII 23.1  Incipi[un]t de perihelcoseos</p>
+<p>XXIII 23.2  Curatio eorum talis est</p>
+<p>XXIIII 24.1 Incipiunt causae stomachi, id est phlegmone[s]</p>
+<p>XXV 25.1  Curandi sunt autem sic</p>
+<p>XXVI 26.1 Incipit de apostema‹te› stomachi</p>
+<p>XXVII 27.1  Curatio eorum talis est</p>
+<p>XXVIII 28.1  [De] Vulnera si nascantur in uentre</p>
+<p>XXVIIII 29.1  Quibus oua sorbilia</p>
+<p>XXX 30.1  Incipiunt causae coeliacorum</p>
+<p>XXXI 31.1  Quibus adhibenda sunt adiutoria</p>
+<p>‹XXXII 32.1  De peripleumonia.›</p>
+<p>XXXIII 33.1  Curatio eis talis adhibenda est</p>
+<p>XXXIIII 34.1  [Incipit de] Pleuresis</p>
+<p>XXXV 35.1  Curatio eorum id est pleuresis talis est</p>
+<p>XXXVI 36.1  Incipiunt causae epaticae</p>
+<p>XXXVII 37.1  Phlegmone, id est tumor iecoris, intelligitur sic</p>
+<p>XXXVIII  38.1  Apostema iecoris</p>
+<p>XXXVIIII  39.1  Cum se ruperit apostema,</p>
+<p>‹XL›  40.1  Phlegmone‹n› autem curabis sic</p>
+<p>XLI  41.1  Incipit apostematis cura quod fit in iecore</p>
+<p>XLII  42.1  Incipit de uulnera‹tione› iecoris postquam se ruperit</p>
+<p>XLIII  43.1  Incipit curatio scleriae, ex qua incipit causa epatis</p>
+<p>XLIIII 44.1</p>
+<p>XLV 45.1 Incipit ‹de› syrrexi</p>
+<p>XLVI  46.1  Quibus maxime diuretica danda sunt</p>
+<p>XLVII  47.1  Quod si apostema susu‹m› se[t] ad carnem dederit,</p>
+<p>‹XLVIII›  48.1  Incipit ‹de› scirrosi id est duritia iecoris.</p>
+<p>XLVIIII  49.1  Incipiunt signa splenis,</p>
+<p>L  50.1  Curatio splenis</p>
+<p>LI 51.1  Incipiunt causae haemoptoicorum</p>
+<p>LII 52.1  Curatio eorum [id est emoptoicorum] talis est</p>
+<p>LIII 53.1  Incipiunt causae empyicorum</p>
+<p>LIIII  54.1  Curatio empyicorum talis est</p>
+<p>LV 55.1  Incipiunt causae nefreticorum</p>
+<p>LVI 56.1  Cognoscitur autem phlegmon renum sic</p>
+<p>LVII 57.1  Incipiunt signa nefreticorum</p>
+<p>LVIII 58.1  Incipiunt curationes nefreticorum</p>
+<p>LVIIII 59.1  Incipiunt curationes eorum qui ‹lapides in› renibus habent</p>
+<p>LX 60.1  Curatio uulnerationum talis est</p>
+<p>LXI 61.1  Incipiunt causae uesicae et signa</p>
+<p>LXII 62.1  Incipiunt signa ‹eorum› qui lapides in uesica habent</p>
+<p>LXIII 63.1  Incipiunt signa eorum qui sanguinem meiant</p>
+<p>LXIIII 64.1  Incipiunt curationes calculorum</p>
+<p>LXV 65.1  Incipit curatio uulnerationis quae facta est in uesica</p>
+<p>LXVI 66.1  Curatio eorum qui sanguinem meiant</p>
+<p>LXVII 67.1  Incipiunt curationes eorum, qui trichiasin patiuntur,</p>
+<p>LXVIII 68.1  Cura eorum qui furfures meiant</p>
+<p>LXVIIII 69.1  Incipiunt causae colicorum uel signa</p>
+<p>LXX 70.1  Quorum cura haec est</p>
+<p>LXXI 71.1  Incipiunt causae dysentericorum</p>
+<p>LXXII 72.1  Incipiunt causae dysenteriae quae in intestino maiore est</p>
+<p>LXXIII 73.1  Incipi‹un›t signa, ut agnoscas, ex quibus locis et uulneribus sanguis descendat</p>
+<p>LXXIIII 74.1  Cura [eorum] talis adhibenda omnibus dysentericis</p>
+<p>LXXV 75.1  Incipit causa synanches.</p>
+<p>LXXVI  76.1  Alia synanche</p>
+<p>LXXVII 77.1 Incipiunt causae apoplexiae</p>
+<p>LXXVIII 78.1  Curatio eorum talis est</p>
+<p>LXXVIIII 79.1  Incipiunt causae paralyticorum uel signa</p>
+<p>LXXX  80.1  Curatio illius talis est</p>
+
+<p>EXPLICIUNT CAPITULA LIBRI .III.
+  INCIPIT LIBER TERTIUS GALIENI.</p>
+</div1>
+<div1 n="1">
+        <head>I</head>
+<div2 n="1">
+          <head>1</head>
+<p>Cephalaea est dolor capitis qui multum tempus tenet, id est non recens sed uetus, semper sensibilis, subinde plus, subinde minus. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Sic intelligitur: Solem ferre non possunt, sed neque calorem quemlibet nimium, nam mox commoue[bu]ntur; nec uoces nimias nec uinum ferre possunt, sed neque frigus uel biles.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Huius causae signa sunt haec: Temporum pulsus non deest, et totum caput graue est, tinnitus aurium, nerui ceruicis dole‹n›t.</p>
+</div2>
+      </div1>
+<div1 n="2">
+        <head>II</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio cephalargiae: Hos constitue in domu[m], ubi nec nimie lux grandis sit, nec nimie obscurum. Nam cura ei[u]s talis est adhibenda: Foueant eis caput ex oleo cyprino calido ‹aut chamaemelino calido›, et si uentrem constrictum habent, ‹adhibes› ei‹s› au‹t› lene catharticum aut clysterem, et fricentur ei‹s› manus uel pedes assidue. Diutius detrahas sanguinem ex uena media quae in fronte est, hoc est inter geminos, aut de brachio, id est de matrice, et post tertiam diem nardum infundis in auribus tepidum. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Quod si haec adiutoria non profuerint, resoluis in oleo supra scripto aut Philonium aut Hadrianum et sic in aures infundis, et ‹caput ex nouacula radis et› cucurbitas in occipitio capitis accipiat cum scalpello. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Quod si haec non subueneri‹n›t, cataplasma tale facis: ut capiti[s] imponas sinapem, cappari‹s› radices, panis medium infusum in aqua calida, et coquuntur omnia aequis ponderibus et capiti imponis.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Trochiscum ei talem facis: </p>
+<p>peucedanu ÷ I, opiu Quiren‹aic›u ÷ I, euphorbiu ÷ I, [IIII] et cum suco papaueris et lacte teris et trochiscos facis, et cum siccauerint, teris cum lacte et in fronte inlinis. Hi autem &#x86;temporis&#x86; accipere debent etiam catharticum, sed interdum, non assidue. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Cibi uero eorum oua sorbilia et suci diuersi simplices. Caueant ne indigesti sint. [In] Iuscellum olerum cum ipsis oleribus accipiant. </p>
+
+<p>Potio sit aqua tepens. Nam uinum lene et ipsum parcius biba‹n›t aquatum, cum dolor minuerit.</p>
+</div2>
+      </div1>
+<div1 n="3">
+        <head>III</head>
+<div2 n="1">
+          <head>1</head>
+<p>De scotomaticis. Hi qui scotosin patiuntur haec signa habent: Aut ‹circium, id est giros, patiuntur›1 ante oculos uolitare assidue caliginosa uolumina circa ora sibi uidentur et quasdam uertigines nigras, et quotiens se ad terram inclinauerint et intenti fuerint, cadunt; et caput ei[u]s grauatur.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>[id est] Rotas etiam currentium raedarum uel figulorum si[bi] uideant aut circulos [fuerint cadunt et caput eius.], et si in alto attendant aut in aqua fluminis rapidi, [et] ‹statim circium patiuntur et› cadunt, paulatim flectentes ‹caput tamquam somno grauati, ante uero putantes› omnia secum uolui et cadere.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Nam et inflationes ‹patiuntur› stomachi et nausiam frequenter et uomitum patiuntur et colera proiciunt et assidue tristes sunt et macri fiunt et fastidio laborant, et nisi cito fuerint curati, aut amente‹s› (id est insani[a]) aut epileptici efficiuntur.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Nascitur haec causa ‹his›, quibus ‹aut3› sanguis de naribus assidue solitus est fluere aut haemorroidae constringuntur4, quae cum non fuerint functae5 officio suo, tunc eos tenet morbus hic capitis [fit] et frontis.</p>
+</div2>
+      </div1>
+<div1 n="4">
+        <head>IIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio scotomaticorum: Cum ceciderint, leuandi sunt odoribus herbarum bonarum, id est puleio ad nares ei‹s› applicato aut thymo. Trahis etiam aures uel capillos ipsorum et sic clamabis eos nominibus suis. Fricas eis manus, pectus uel stomachum, continens caput. Fomentum capitis facis tale quale supra etiam cephalargicis fieri diximus.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Hi mox in principio phle‹bo›tomandi sunt de matrice, id est de uena brachii, et post sextum diem aut picram aut hieram cathartica accipiant, ita ut uentrem deducat et stomachum confirmet. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Cataplasma ad stomachum tale facis: Cyminum, baccas lauri, caricas infusas in dulcore, mastice, absinthium et panem siccum tritum, miscis et calida in stomachum imponis. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>‹Alio diatrito cucurbitas stomacho imponis› et caput ex nouacula radis et in sole [ei] feruido ‹dropaces› imponis et postea hieram accipiat aut antidotum dia trion ‹pepereon›, aut supra scriptum in modum auellanae dabis. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Hi etiam apophlegma‹tiza›ndi sunt, id est caput eis purgandum est. Sternutatio prouocanda est. [Manducent oxymelle ieiuni quamdiu omnino manducari possunt et super oxymelli quod restit[u]erit mittis calidam quod sufficiat et dabis ut bibat ad satietatem et postea digitis missis in ore uomitum ‹prouocabis›.] </p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Euphorbium aut piper tritum aut struthi ‹radices olefaciant›. [in nares] Quibus de naribus prouocabis ‹sternutationem›: Anagallido‹s› sucum [aut betae albae sucum cum lacte mulieris quae masculum nutrit] ‹naribus infundis› aut mentae ‹hortensis› sucum aut urticae aut cyclaminis sucum aut betae albae sucum. </p>
+</div2>
+<div2 n="7">
+          <head>7</head>
+<p>Quod si haec minime senserit, dabis ei‹s› catarthicum ex elleboro albo, sicut subtus purgationes scriptae sunt. Sed et in balneo caput sinapizare debe‹n›t et post omnia adiutoria artis phlebotomandi sunt.</p>
+</div2>
+<div2 n="8">
+          <head>8</head>
+<p>Hi autem cibos accipiant tales: Pastinacas et porros coctos, ‹a›sparagos et apium in patella manducent, qui‹a› urinam prouocant. Etiam et salsa comedant et carnes agrestes, ut est perdix si‹ue› aper et lepus et alia quaeque talia. Vinum album bibant sed parcius; tamen si amplius uoluerint, calidam aquam bibant.</p>
+</div2>
+      </div1>
+<div1 n="5">
+        <head>V</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipit de epilepticis uel causa eorum. Epilepsiae genera sunt duo: unum est tale, in quo cadunt subito nescientes et contractionem pedum et manu‹u›m uel ceruicis seu tremorem patiuntur; aliud autem est, in quo spumant uel stertunt, non contrahunt membra, cum ceciderint, quos uulgus daemoniacos dicit. Hi quidem ex parte sentiunt, illi uero omnino sine sensu sunt. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Nascuntur autem haec causae de sanguine uiscido uel amaro ‹et› de felle nigro uitiato, quae cum se miscuerint, cerebrum petunt ‹bulliendo›, in quo principaliter anima habitat, quo conturbato cadunt.</p>
+</div2>
+      </div1>
+<div1 n="6">
+        <head>VI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio epilepticorum: Manducent radices in oxymelle infusas ieiuni quamdiu omnino manducare possunt, et super oxymelli quod restiteri[n]t mittis calidam satis et dabis eis bibere. Bibant ad satietatem et post horam missis digitis in ore uomitum prouocabis.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Quod si missis digitis uomere non potuerint, tunc aes [id est rame] ustum tritum unam drachmam cum oleo coclearia II immiscis et intincta pinna in ore missa exinde uomitum prouocabis, et post hoc phlebotomas, et in principio causae hoc utile est, nulla alia re[s id est causa] impediente[s]. </p>
+	
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Sternutationes eis prouocentur aut ex elleboro aut ex castore‹o› aut ex piper‹e› aut ex euphorbio aut pyrethro trito; ad nares singula[s] cum applicueris uel infuderis, prouocas sternutamenta. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Catharticum eis tale facies: Aloe ÷ I, ellebori ÷ II, radices feniculi elixatae in aqua‹e› hemina coquis ut ad tertias partes redeat; mellis non dispumati tantundem; misces omnia et dabis eis exinde duo coclearia uno diatrito id est per triduum. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Caput eis radendum est et sinapizandum sic: Mittis sinapi‹s› semen heminam I, caricas XX infusas in aqua, aceti cotilam unam. Et cum infuderis caricas, [et] teris ‹et› extrahi‹s e›t in ipsa aqua mittis sinape et sic teres omnia et caricas immiscis ‹et cataplasma calidum capiti imponis.›</p>
+<p>Obseruandum est ne indigestionem patiantur neue balnea uta‹n›tur. Cucurbitas in occipitio capitis impones et scarifabis. Cibos uero dabis eis tales ut superius diximus in scotomaticis.</p>
+</div2>
+      </div1>
+<div1 n="7">
+        <head>VII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipi[un]t causa maniae. Mania est quae amentes uel insanos facit, quorum uaria est diuersitas: Nam alii eorum laeti et hilares sunt, alii tristes et furiosi.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Mania‹e› signa sunt haec: Aliena loquuntur, homines ‹timent›, in tenebris se abscondunt, aliqui autem se ferro percutiunt et praecipitant, aliqui rident, aliqui cantant. Sunt et alii tristes et taciti uel omnia quae eis dicta fuerint ut obseruent faciunt, alii inoboediunt et nudi currunt uel illicita[s] faciunt.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Haec uero causa nascitur ex coleribus nigris nimium uiridi‹bu›s aut qui biberint aut sucum iusquiami aut mandragorae sucum ‹aut conium›6 [sucus]. Multis etiam sine uenenis et sine colera scimus hanc causam ex uino nimio contrahi[tur], uel quibus solet sanguis de naribus aut ex haemorroidis uenire et non uenit, aut quibus siccum cerebrum et calidum fuerit. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Colorem aut‹em› habent liuidum, subnigrum uel sanguine‹u›m. Qui autem taciti sunt, humore[s] infestantur ‹frigido et sicco. Qui loquuntur uel clamant, humore infestantur› calido et humido.</p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Sunt etiam qui ‹aut› per ‹litteras› nimias aut ‹per› philosophiam aut per multum cogitatum in maniam perueniunt, id est insaniam. Quos antequam in causam ueniunt, sic cognoscis: Primum patiuntur inconsuetas ‹uigilias et egrediuntur› nocte incassum. Sunt enim inquieti neque [enim] in uno loco sedere possunt et assidue male faciunt et nonnumquam iracundi sunt et sine causa mouentur et aliquotiens expoliant se incongrue et locis &#x86;incertis&#x86; et litigant sine causa neque uerentur aut confunduntur, et tinnitus aurium frequens sentitur, et si femina est aut uir, scortari satis desi‹d›erant, neque odorem bonum aut malum sentiunt. Qui quidem pauca insana faciunt, non tamen omnia, et horis suis insaniunt atque corpore sentiunt, interrogati uera respondent.</p>
+</div2>
+      </div1>
+<div1 n="8">
+        <head>VIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio eorum talis est: Qui eo tempore curandi sunt, quando hora‹s› sanas habuerint. Mulierem sic curabis. Menstrua prouocanda ‹sunt›; phlebotomandae sunt in tali[bu]s; cathartica diuersa ‹danda›, maxime quae nigra ‹colera› deponant. Caput radant et foueant ex oleo roseo et aceto, in quo infusum fuerit et decoctum serpyllum et polygonum. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Et si uigilias patiuntur, opio meconis id est suco papaueris agrestis cum lacte trito nares et frontes illinis, et ieiunis, sicut supra dictum est in aliis causis, uomitum prouocabis. Frigidam aquam assidue bibant et post haec omnia cauteres accipiant ex utraque parte capitis quae deretro sunt, id est in occipitio, ita ut usque ad ossum perueniat, et subinde etiam ossum rades, donec ex osso carnes sentias nutriri. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Escas autem dabis sicut in multis iam scriptum est, abstinens a uino et carnibus. Frequenter etiam comminaberis eis et caedes, ut timere incipia‹n›t.</p>
+</div2>
+      </div1>
+<div1 n="9">
+        <head>VIIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt causae quae in uisceribus sunt et caput petunt, id est stomachi. Qui cum febre[s] nausiam passi fuerint et escas non continent uel fastidium patiuntur et nihil eos accipere delectat; qui etiam dolores in stomacho patiuntur. Hi stomachici sunt.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Hos curas ex oleo, in quo mastice et absinthium Ponticum uel anethum infusum fuerit per triduum atque ita decoctum; ergo ex hoc oleo et mollibus lanis stomachum foue[a]s easdemque lanas expressas super stomachum ponis et fascias, aut ex oleo Sicyonio cum uino modico calefacto similiter foues stomachum.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Postea epithema imponis, quod conficis sic: Aloe, mastice, absinthium Ponticum, dactulos infusos in uino et mala granata purgata et mellis modicum et ceram et oleum nardi‹n›um; facies cerotum et admisces omnia et super stomachum imponis, et cucurbitas accipiant id est cuphas, et ex oleo nardino calido stomachum perungues et antequam cucurbitas imponas et postquam imposueris. His dolet pars dextra maxime stomachi, quoniam in ea parte magis stomachum decliue subiacet.</p>
+</div2>
+      </div1>
+<div1 n="10">
+        <head>X</head>
+<div2 n="1">
+          <head>1</head>
+<p>[De] Stomachi autem quot causae sint, scire [autem] conuenit: Algema, hoc est ‹dolor. Phlegmone, hoc est tumor uel feruor. Scleroma[m], hoc est duritia. Emp[e]neumatosis, id est [fastidium. siue] inflatio. Anorexia, id est fastidium. Paralysis, id est stomachi contractio. Emetos›, hoc est uomitus. Apostasis, id est apostema uel collectio. Helcosis, ‹id› est exulceratio. Omnia ista sic intelligis atque curabis.</p>
+</div2>
+      </div1>
+<div1 n="11">
+        <head>XI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Algema, id est dolor, qui si solus fuerit, pungitur doloribus stomachus, uomicae consequuntur, febres grauiores erunt7.</p>
+</div2>
+      </div1>
+<div1 n="12">
+        <head>XII</head>
+<div2 n="1">
+          <head>1</head>
+<p>His adhibenda‹e› sunt calefactiones tales ex oleo calido, in quo infusum est faenum Graecum et baccae lauri XXti et anethi modicum, et stomachum sicut supra dictum est, foues. Et cum compleuerit triduum, potionabis ex Philonio aut trochiscos dia spermaton resoluis in uino, si febres non fuerint; si uero febrierint, cum sucis ptisanae, et diebus quibus non accepit potionem, accipiat tres buccellas in mero calefacto, si febris non erit.</p>
+</div2>
+      </div1>
+<div1 n="13">
+        <head>XIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>De phlegmone id est tumor, [uel] qui feruorem habuerit; sic eum intelligis: Grauabitur eis stomachus dolore ‹et› eclipsin id est angustias patiuntur, sic ut cibum gluttire non possint. Assidue ructantur, dolores in dorso uel in scapulis et renibus patiuntur.</p>
+</div2>
+      </div1>
+<div1 n="14">
+        <head>XIIII</head>
+<div2 n="1">
+          <head>1</head>
+ Hi, s‹i› uirtus non deest, phlebotomandi sunt. Et post phlebotomum fomentum eis tale facies: Oleum, in quo infusum est melilotum et absinthium et mastice et castoreum, decoques et sicut superius diximus, stomachum fouebis aut stomachum melle calido perungues, et desuper spargis puluer‹em› tale‹m›: Mastice tritum, aloen et piper, bdellam imponis calida aut lanae sucidae floccum et fascias et epithematium postea id est Polyarchion aut dia spermaton aut Serapionos aut Nileos aut absinthium Ponticum in calda infusum, ut color aquae mute[n]tur. 
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Ieiunis bibere dabis [quibus dabis] et antidotum dia trion pepereon. Quibus mane siccis manibus pedes ac manus [illi] fricandae sunt. [quibus mane] Si aer calidus fuerit, foris deambule‹n›t, si minus caluerit, intra domum ambule‹n›t.</p>
+</div2>
+      </div1>
+<div1 n="15">
+        <head>XV</head>
+<div2 n="1">
+          <head>1</head>
+<p>Scleroma, id est duritia, sic intelligitur: Ingluttire enim escas non possunt, quasi aliquod graue[s] habeant; in stomacho pondus sentiunt. Inclinari se non possunt, supini iacent et torquere se in latus non possunt, id est uertere, quia statim pondus grauius in stomacho sentiunt. Ventrem facilem non habent. Quibus uero si manus imposueris super stomachum, id est in utrasque partes, ‹et› digitis temptaueris atque loca leuiter compresseris, statim dolore[s] pulsantur.</p>
+</div2>
+      </div1>
+<div1 n="16">
+        <head>XVI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Hos autem curabis sic: </p>
+<p>Caricas infundis in mulsa et coque, nitrum teris et cribellas et salem similiter et mel cum caricis tritis [et] in plagellas ponis, et emplastris diaphoreticis curabis, quorum confectio talis est: Castoreum ÷ I, mastice ÷ I, storace ÷ I, cera Punica ÷ II, oleum nardinum ÷ III. Medicamen conficis et sic imponis. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Aliud fomentum tale facis: </p>
+<p>Oleo, in quo absinthium et asphodelum et mastice decoctum ‹est› [in u[i]num] simul, fomenta eos et lanas sucidas super imponis et fascias.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Potionem eis talem facies: </p>
+<p>Piperis albi ‹grana› XXI, zinziber ÷ I, mala[g] Matiana[s] infusa[s] per noctem unam et cocta[s] in mellis dispumati selibra et dabis exinde mane ieiunis coclearium I.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Item aliud stomachicum: </p>
+<p>Cyminum Aethiopicum ÷ I, rutae folia ÷ I, piper ‹, cytonia[s] V elixata[s] in uino et purgata[s] abintus et deforis, nitri Z, mellis dispumati libram uel quantum sufficit; et exinde dabis coclearium plenum. Temperan‹d›a[e] sunt amba[e] electuaria.</p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Item aliud stomachicum: Petroselinum Macedonicum ÷ I, zinziber infusum in uino per triduum ÷ I, folium ÷ II, piper album semuncia; si autem album non fuerit, mittis nigrum ÷ I; mel quantum sufficit; similiter ut supra.</p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Haec autem omnia faciunt ad omnes stomachicos; abstinent uomitum, stomachum resumunt, duritias resoluunt, fastidium tollunt, digestionem praestant, apostemata rumpunt et optime ac diligenter curant.</p>
+
+<p>XVII 17.1  Empneumatosis, id est inflatio, agnoscitur sic: Extensa est pars stomachi dextra, ubi subiacet, [f]ructuatio assidua fit et euentationes per anum assiduas patiuntur. Ventrem inflatum quibuscumque percusseris, sonat sicut uter. Sitim patiuntur diutius. Ex his signis inflatio[nes] dinoscitur.</p>
+
+<p>XVIII 18.1  [Et] Mane fricentur etiam manus et pedes et &#x86;ieiunos potionis&#x86; eos clamare similiterque ieiunis uomitus prouocandus es‹t›. </p>
+
+<p>Cibos eis tales facies. Salsum [si] dabis eis manducare et de uolatilibus ‹perdices› et ‹de› pedestribus lepores [perdices] ‹et› apros manducent, et radices erunt in esca illorum et rutam et nasturtium et erucas similiter comedant et uinum album lene bibant; similiter autem et omnes escas quae pertinent ad digestiones.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Malagma‹te› uteris sic [uero] in stomacho eorum dia spermaton et dia styr[i]acos, et mane ungues eos oleo, in quo bullierit absinthium et ruta, et cibi eorum tales sint secundum scripturam supra scriptam.</p>
+</div2>
+      </div1>
+<div1 n="19">
+        <head>XVIIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>De anorexia hoc est fastidium. Si autem sine febre[s] fastidium euenerit, periculum non habebunt. Si enim cum febre, periculum graue habent. </p>
+
+</div2>
+<div2 n="1">
+          <head>1</head>
+<p>Ergo qui sine febre fastidium patiuntur, dabis eis bibere ieiunis absinthium Ponticum coctum in uino [XX Curatio anorexiae] aut in uino absinthiato et buccellas in mero austero dabis eis tres ieiunis et postea salsum cum aceto et dulcore comeda‹n›t. Sinape temperatum cum erucis manducent et raphanos (id est radices) comedendum dabis. Thymum et nasturtium et erucas et omnia quae calidas uirtutes et austeras habent ad comedendum dabis. Alium in cibo[s] similiter eis conditum dabis et ex melle cotidie ad bibendum dabis. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Epithema autem Polyarchion ad stomachum ponis et electuarium [id est] ‹ad› stomachi causam supra scriptam dabis eis, sicut scriptum est. Cauendum autem erit, ne indigestiones patiantur, et merum calefactum ieiuni[s] bibant et buphagu‹m›8 oxyporium ieiuni[s] accipiant et frequenter uecte‹n›tur.</p>
+</div2>
+      </div1>
+<div1 n="21">
+        <head>XXI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Paralysis stomachi ita cognoscitur: Si quid acceperint, [et] non digerunt aut esca[s] recepta[s] stomachus graua[n]tur, uel cum escas acceperint, incoctas eas[que] per uentres emittunt.</p>
+</div2>
+      </div1>
+<div1 n="22">
+        <head>XXII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Quibus oxymelli[s] dandum est cum piper‹e› trito, mane ieiunis coclearium I, acrimoniis omnibus utantur. </p>
+
+<p>Sinapizandus est ‹in› stomacho. </p>
+
+<p>In balneo apophlegmatizandus est sic: Acetum scilliticum, piper longum grana LX, sinape tritum; omnia commisces in unum et dabis ei exinde ieiuno coclearium I. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Memineris autem in omnibus causis supra dictis uel infra scriptis, non uno tempore omnia haec adiutoria adhibenda esse, sed per interualla uel spatia temporum, ita ut interualla habea‹n›t uacationis biduum uel triduum. Aut enim quando phlebotoma‹n›tur, his diebus nullum adiutorium accipiant, nisi post dies quinque aut amplius septem.</p>
+</div2>
+      </div1>
+<div1 n="23">
+        <head>XXIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipi[un]t de perihelcoseos, id est de uulnera in stomacho qui habuerint, sic agnoscuntur: Cum [dolore] aliquid ingluttiunt, ‹dolorem› senti‹un›t, sanguinem antequam excree‹n›t et proici‹an›t. Sic et sanias excreant albas interdum sanguine[m] commixto et putent, ut intelligas id ex stomacho esse quod excreant. Cum uero excreauerint, dolores in stomacho et quasi morsum iam sibi factum sentiunt.</p>
+
+<p>‹23.2  Curatio eorum talis est:› Lacte caprinum dum caluerit id est statim mulctum [hoc est autem quod praesens mulgitur] ieiunus bibat [ad uomitum amolum aut gummi solum cum mulsa bibat] et antidotum dia codion dabis eis ut bibant.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Atque electuarium eis tale facies: Tragacantum infusum in dulcore[m] ÷ I, crocum ÷ I, myrra troclita ÷ I. Omnia in simul commisces [in u[i]num] cum mel‹le› quantum sufficit et dabis ieiunis coclearium I. Eruum etiam cum cocleario mellis dabis,</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>aut antidotum diorobon cum suco ptisanae dabis et accipiant. Mali granati sucus [atque] eis accipiendus est ieiunis et caricas elixas in dulcore dabis et aristologium tritum cum melle mixtum dabis eis. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Quibus cataplasma tale [eis] facies: Dactulos coctos in uino, sidiae id est flos mali granati et mala[s] Ma[la]tiana[s] et mastice tritum cum melle cataplasma imponis. Escas autem supra dictas dabis. </p>
+</div2>
+      </div1>
+<div1 n="24">
+        <head>XXIIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt causae stomachi, id est phlegmone[s], quod nos dicimus tumorem cum feruore stomachi.  Cum fuerit dolor, non deest et duritia; lingua ‹sicca› et os aridum et calens. Manus ac pedes frigidos habe‹n›t et sitim patiuntur, uentrem constrictum ‹et› pondus uentris, interdum quasi auis uolantis motum intra se sentiunt[ur].</p>
+</div2>
+      </div1>
+<div1 n="25">
+        <head>XXV</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curandi sunt autem sic: Cataplasma facies eis ex faeno Graeco et pane sicco, caricas elixas in dulcore et tritas, baccas lauri, mellis heminam. De hoc autem toto cataplasma facies et sic super uentrem imponis. Dabis uero eis et per potionem faeni Graeci sucum cum melle coclearium I et sucum ptisanae cotidie accipiant et antidotum Hadrianum uel dia trion pepereon et malagma Polyarchion uel dia spermaton apponendum est illis et cibos leues atque digestorios accipiant et uinum album bibant, si autem non febrierint. Utantur et sinape et dropaces uel aquas calidas et harenas maris.</p>
+</div2>
+      </div1>
+<div1 n="26">
+        <head>XXVI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipit de apostema‹te› stomachi. Sic enim intelligitur: Dolor[es] cum pulsu sentitur. Duritias et grauedinem stomachi patiuntur et ipse dolor mica‹t› in uentrem et fastidium facit. Sed si [haec] apostema ruperit, sentitur atque cognoscitur sic: Dolor soluitur et minuitur. Per urinas sanias meiant ‹et› tumor atque duritia[s] illa et pulsus stomachi recedit. Haec autem signa habent: Frigidum bibere desiderant et aestuationem patiuntur et nudi iacere uolunt; corpore etiam attenuantur.</p>
+</div2>
+      </div1>
+<div1 n="27">
+        <head>XXVII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio eorum talis est: Irisillyrica‹e› frustilla quinque et croci dr. I et sucum faeni Graeci calicem unum cum uino, ubi irisillyrica infusa fuerit. Omnia enim haec commiscis et excepta irisillyrica ieiunis dabis.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Malagma autem dia spermaton aut Polyarchion imponitur. Sed ante spongiis calidis ex aqua calida uaporas et sic epithema imponis.</p>
+</div2>
+      </div1>
+<div1 n="28">
+        <head>XXVIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>[De] Vulnera si nascantur in uentre, sentitur dolor cum morsu. Quando autem accipi‹un›t manducare et bibere, nausiantur et os putet eis et febriunt et quodcumque digerunt, sanguinosum apparet et putet ultra consuetudinem. </p>
+</div2>
+      </div1>
+<div1 n="29">
+        <head>XXVIIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Quibus oua sorbilia et sucus hordei simpliciter pro cibo dantur ex dulcore.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>[enim] Et electuaria talia accipiant: Nucleum purgatum ‹et› recens [et] butyrum et polentas hordei. Coquuntur omnia in se et datur eis ieiunis ad comedendum. Et lenticulas cum suco plantaginis atque ipsas lenticulas comeda‹n›t et farinam de lenticula[s], quae est cum melle dispumato, ut electuarium ieiuni[s] accipiant.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Et cerotum eis tale facies: Oleum roseum et cyprinum, resinam frixam, castoreum, bitumen Iudaicum; exinde [ut] cerotum facis durum et sic imponis. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Item malagma dia styracos aut dia spermaton desuper eis impones. Cibos leues et digestibiles accipiant; uinum album et lene recipiant ad bibendum.</p>
+</div2>
+      </div1>
+<div1 n="30">
+        <head>XXX</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt causae coeliacorum. Coeliace id est solutio uentris assidua. Eorum qui hoc pati‹un›tur signa haec sunt: Sitim infinitam patiuntur et fastidia ciborum atque defectionem ‹habent›.</p>
+</div2>
+      </div1>
+<div1 n="31">
+        <head>XXXI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Quibus adhibenda sunt adiutoria haec: [autem] Cataplasma dia phoenicon, id est dactulos quinque in uino infundis et cydonium purgatum unum et mala[g] Matiana ‹duo› et bulliant in se, et panem siccum tritum Afrum et mel quantum sufficit; coques et sic cataplasmas per triduum super umbilicum et usque ad pectinem ponis ita, ut totum uentrem tegat.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Et eodem die etiam hanc potionem dabis: Siliquas Graecas et semen plantaginis et nucleos acinarum quae in aqua[s] bulliunt, et dabis ex eadem aqua eis bibere.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Datur autem et trochiscus per alium triduum, id est dia spermaton, uel trochiscus crocodes aut Philonium uel Hadrianum secundum disciplinam suam, quam in dynamidiis legimus.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Item aliud ut supra, alium trochiscum optimum: Semen apii infundis in aquam lenticulae et teris et admiscis gummi et sucum plantaginis et sic trochiscos facis, et exinde dabis in aqua calida uel in ceteris rebus quae uentrem constringunt; et orizam manducent atque sucum ipsius bibant. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Lac etiam caprinum coquis cum lapidibus fluminis ad tertias et exinde dabis calicem unum, si tamen non febrierit.</p>
+
+<p>Si autem febrierit, non accipiat, quia febrientibus lac uenenum est. </p>
+
+<p>Et caseus uiridis similiter praestat et facit; et mala granata ad comedendum dabis uel mespilas et sorba et lenticulas &#x86;murtas&#x86; cotonias ‹...›</p>
+
+<p>[Initium capitis tricesimi secundi in codice V omissum codice Vind. 175, fol. 56v aliisque codicibus nisus suppleui.]</p>
+
+</div2>
+      </div1>
+<div1 n="32">
+        <head>‹XXXII›</head>
+<div2 n="1">
+          <head>‹1›</head>
+<p>‹De peripleumonia.›  Peripleumonia est passio acuta et ex ipso qui patitur loco nomen accepit, quod pleumon pulmo dicitur. </p>
+
+<p>Cuius haec sunt signa: Est dolor totius thoracis, maxime in parte dextra super mamillam grauiter pungens, ascendens etiam ad scapulas per ipsum latus. </p>
+
+<p>Febris acuta et anhelitus non deest. </p>
+<p>Frigida quaerunt ‹et› tussi‹unt› minute; et dolor percutit thoracem et post palam, et pulsus ei[u]s ingens est et spissus, et quod excrea‹n›t rufum est et spumosum. </p>
+
+<p>Vultus ei[u]s rubet et maxime genae. Facies illi‹s› est nitida et grata, id est ipso rubore decentior est. Non possunt supini iacere, sed magis sedentes se tolerant, et frequenter se uersant uel agitant. Haec signa ostendunt humorem esse in pulmone[s. Sed] calidum et igneum. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Quem interrogare debes, quae primum fuerit passus. Nam infantibus cum mulieribus quam plurime haec causa contingit, quia haec causae in calido et humido corpore nascuntur. Mulieres enim et adolescentes calidum corpus et humidum habent.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Haec causa nascitur adolescentibus usque ad XXXV [hic iterum incipit V] annos et est in eis periculum aut uix euadunt, feminis autem post uicesimum quintum annum aut non nascitur, aut si nata fuerit, neque grauis est nec periculosa, et facilius curantur.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Concipitur uero haec causa eo tempore, quo[d] cum sit calor temporis, aerem facit humidum. Nam et de catarro [ex hac re siue de hac causa] nascitur et ex pleuretico recedente[s], id est ex lateris dolore efficitur peripneumonicus. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Quod si haec causa [in] dies quattuordecim transierit et postea non tussierit neque sanias excreauerit, cito curabitur.</p>
+
+<p>Quod si post quartum decimum diem tussierit aut sanias excreauerit, dicitur a‹d› uicesimum primum diem esse curaturum. Quod uero si uiginti et unum diem transierit et haec signa habuerit, grauis est desperatio atque mors non dubia.</p>
+</div2>
+      </div1>
+<div1 n="33">
+        <head>XXXIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio eis talis adhibenda est: </p>
+<p>Embroce[n] id est ex oleo et uino calido et mollibus lanis fortius uaporabis, maxime omnes partes dextras thoracis et fauces et fascias. Hoc facies per triduum. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Item cerotum facies ex cera et oleo cyprino et sinape trito et exinde plagellas superimponis, et uentosas super thoracem siue ad loca dolentia superimponis; maximum est adiutorium. </p>
+	
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Quibus autem escam talem dabis: </p>
+<p>Oua sorbilia, sucum ptisanae ‹cum› liquamine et piper‹e› et sine liquamine, et mulsam cotidie ieiuni sumant. Si fieri potest, quotiens bibere petierit, ipsam accipiat. </p>
+
+<p>In qua mulsa elixanda est ruta aut amygdalae amarae aut hysopum aut origanum aut polygonus herba, nam sucus solus polygoni datus optime et bene iuuat.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Item ad ut supra. </p>
+<p>Absinthium Ponticum in aqua coquis cum irisillyrica et hysopo, similiter ieiunis dabis uel quotienscumque bibere uoluerit.</p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Item aliud ad idem ut supra: </p>
+<p>Rutae folia, urticae semen, tragacantum in dulcore infusum et mellis dispumati quantum sufficit, et dabis exinde ieiunis coclearium I.</p>
+</div2>
+      </div1>
+<div1 n="34">
+        <head>XXXIIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>[Incipit de] Pleuresis id est lateris dolor, qui signa similia cum epaticis et peripneumonicis habet; sed pleuresis his signis agnoscitur:</p>
+	
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Febribus exagitantur acerrimis, dolores lateris intolerabiles sinistri[s] uel dextri[s]. Quibus hic dolor in costis mollibus nascitur uel super costas, ferit etiam retro costas nouissimas aliquotiens, et omne latus dolet. Peruenit etiam dolor ad iugulum, percutiens et post scapulas et humeros, et ilia etiam dolore tenentur. Tussiunt assidue, non impetose, sed minutatim. Assidue quidem, sed leniter et sanguinem excreant et cum ipso sanguine aliquotiens excreant humorem rufum. Vigilias patiuntur et non possunt in latus dextrum iacere, et haec si diutius tenueri‹n›t, periculum haud dubium erit nec curantur. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Sed ut intelligas, qui curari possint et qui non possint, signa haec sunt: Quaeris ex eo qui patitur, si aliquando percussus est in ipso latere uel ante dies plurimos ceciderit et contuderit. Et si id erit, hi facilius curantur. Nam si hoc [est] de frigdore passus fuerit aut ex reumatismo aliquo[d], difficilius curantur. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Quod si ei ante epar doluerit uel pulmo et sic pleuresis uen‹er›it, magnum periculum habet. Et si splena doluerit et dolor quicquid splenis et similiter dolor lateris sinistri euenerit, etiam ipse graue periculum habet, et si synanche‹n› ante passus fuerit, sic lateris intelligis dolorem ex reumatismo contigisse. Quae res habet periculum non minimum.</p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Ita quaeris ab eo, si uentrem constrictum habet aut si urinam minime facit aut si solum sibi sentit dolore‹m› in ipso latere esse aut si quod excreat diuersos colores muta[n]t; haec signa mortalia sunt. His ergo indiciis existentibus poteris cognoscere uel morituros uel sanaturos aut qui cum periculo curantur.</p>
+</div2>
+      </div1>
+<div1 n="35">
+        <head>XXXV</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio eorum id est pleuresis talis est adhibenda: Est eis frequenter mulsa danda uel ieiunis uel quotiens bibere uolueri‹n›t. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Embrocen eis talem facis: Oleum et uinum, myrra et anethum, bulliant in se omnia et eisdem latus ex lana molli et oleo isto uaporabis diligentius. Et saccellos cum sale calido imponis et saccellos furfuris in aqua salsa decocti utiliter apponuntur.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Quod si haec adiutoria minime profuerint, phlebotomandi sunt de matrice, id est de uena brachii, sed non ex ea parte, qua‹e› dolet, et uenter clysma‹te› molli[s] prouocandus est. [hoc est per clystere]</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Item ad quod supra: </p>
+<p>Hysopum et origanum in mulsa decoques et ieiuno propinabis. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Cataplasma eis tale facis: </p>
+<p>Samsucu et rutae agrestis folia et bacas lauri, omnia singulariter tundis et in plagella ponis et omne latus et loca dolentia uaporas, et post uaporationem tege lanis calidis et ceroto et fascias. </p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Et postea [non cessant] non cessante dolore uentosas [et] ubi dolet imponis, et scarifas ea loca detrahens sanguinem. Sed quando uehementius dolet, saccellos salis non accipiat[ur]. Memineris autem, ut de latere alio sanguinem educas, et post triduum ponis in ea scarifatione cerotum ex oleo cyprino, et antidota, quae scieris pleureticis prodesse, dare conuenit, maxime acharistum.</p>
+</div2>
+<div2 n="7">
+          <head>7</head>
+<p>Antidotum leue ad ut supra: </p>
+<p>Carpobalsamum, batu, irisillyrica, hysopum, ruta, hypericum, petroselinum Macedonicum ana ÷ I, mel dispumatum quod ‹sufficit, inde› dabis coclearium I ieiuno. </p>
+
+<p>Quod si hoc antidotum leue non profuerit, adhibebis antidotum fortius, sicut in dynamidiis scripta sunt. </p>
+
+<p>Escas leues, maxime sucos, dabis.</p>
+</div2>
+      </div1>
+<div1 n="36">
+        <head>XXXVI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt causae epaticae. Epar una res est, id est iecur, quae ex nomine causam designat periculosam, sed habet causas sex. Quae causae diuersis signis suis agnoscuntur uel demonstrantur, id est: Apostema in iecore, syrrexis id est ruptio apostematis, helcosis id est uulneratio, phlegmone hoc est feruor uel tumor, scleria hoc est duritia cum sensu et dolore, scirrosis id est nimia duritia sine dolore et sine sensu, quae9 in iecore habetur.</p>
+</div2>
+      </div1>
+<div1 n="37">
+        <head>XXXVII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Phlegmone, id est tumor iecoris, intelligitur sic: In dextra parte sub costas molles, quas hypochondria Graeci dicunt, tumor subleuatus inuenitur (id est erectus) et grauedine‹m› praeponderatam in ea parte sentiunt. Dolor e‹st› in eo loco, per totum latus ascendet usque ad iugulum et humerum dextrum. Urinas quas faciunt quasi ‹sub›sanguinea‹e› appare‹n›t; fastidio tenentur; colore pallido efficiuntur; febris lenis non deest; frigus assidue sentiunt, ita ut tremor non desi[sta]t. Typum patiuntur, escas non continent.</p>
+</div2>
+      </div1>
+<div1 n="38">
+        <head>XXXVIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Apostema iecoris haec signa habet: Tumet iecur et manu tangi non potest. Dolor crudelis est et somnus non est. Quod si ‹s›e ruperit, prope saniam meiant aut uenter eadem egerit. Dolor quiescit [et erit uulneratus]. Quod si mox eum non curaueris, e‹m›pyicum facit. Quod si intra uicesimum et quintum diem uenerit et non se ruperit, helcosis erit, hoc est uulneratio iecoris.</p>
+</div2>
+      </div1>
+<div1 n="39">
+        <head>XXXVIIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Cum se ruperit apostema, his signis agnoscis, quae aforis in ipso iecore sunt. Tamen et exstans conspicitur, et quod per uentrem egerunt, uelut aqua sanguinea ‹est›.</p>
+
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Color in facie rubeus et subtumens, et dum ei super ipsum iecur manum imposueris, dolor grauis sentitur, et emarcescunt; </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>quos Hippocrates syntecticos appellat. Nam imperiti causam non intelligentes omnes macilentos ex quacumque causa factos syntecticos appellant, cum syntectici esse non possint, nisi fuerint signa supra scripta ex iecoris causa. Unde hydrops insanabilis fit. Curatio causarum supra dictarum subtus subiacet.</p>
+
+
+<p>‹XL›  40.1  Phlegmone‹n› autem curabis sic. Mox ab initio phlebotomandi sunt magis ex parte sinistra, et post expletos dies phlebotomi fomentum ex oleo tale facis: Mittis oleum et rutam et anethum et semen apii et meconi[a] id est papaueris ‹sucum› quod uolueris; coques cum oleo et exinde ex lanis mollibus dextrum latus uaporabis. Lanam super imponis et fascias, et post triduum facis cataplasma tale: Polentam ex ‹hordeo›, dactulos in uino decoctos et mala Matiana et caricas et capparis radices et mel et acetum; omnia trita et cocta in plagella calida imponis.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Et uentosae subinde imponendae sunt et malagma dia spermaton. Haec autem omnia utiliter apponis. Et si uentrem constrictum habent, per clysterem uentrem prouocabis. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Absinthium Ponticum et centauriam et rutae agrestis, petroselini semen Macedonici, mel dispumatum quod sufficit; dabis ieiuno coclearium I [et] electuarium.</p>
+</div2>
+      </div1>
+<div1 n="41">
+        <head>XLI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipit apostematis cura quod fit in iecore. Ab initio cataplasmandi sunt. Cataplasma eis tale facis: Pollines hordei, caricas in lixiua coctas et stercus columbinum, mel quod sufficit; calida ‹in› plagella imponis, et continuo malaxat [id est mollit] et intus rumpit.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Et si ‹se› ruperit, signis supra scriptis intelligitur. Cui dabis mulsam cotidie ut bibat, et lac caprinum coctum utiliter datur et asininum etiam, mox ut mulgitur. Et aquam dabis eis bibere, in qua caricae et centauria decocta est.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Item ut supra. Aqua, in qua absinthium decoctum est Ponticum et petroselinum Macedonicum, bibenda datur. Epithema etiam supra dictum dia spermaton imponis cotidie, ita ut non auferatur, quod tota die habeat.</p>
+</div2>
+      </div1>
+<div1 n="42">
+        <head>XLII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipit de uulnera‹tione› iecoris postquam se ruperit, id est postquam apostema ruperit. Quam secundum signa supra scripta intelligis. Curatio eorum talis est: Lac asininum bibat, ita ut ipsa asina maxime murta pascatur. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Caprinum etiam lac mox mul‹c›tum datur et antidotum dia echidnon utiliter. Post haec omnia datur theriaca et antidotum Mithridaticum, quod antidotum cum uino et calida aqua solues in modum fabae maioris et das.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Item ad ut supra. Quotiens biberit, non accipiat nisi [ex] calidam, in qua absinthium et centauria et polygonia decocta fuerint.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Epithema ad quod supra: </p>
+<p>Picem, ceram ana lib. I; mannam thuris ÷ II; storacem ÷ II; oleum cyprinum ÷ V aut nardinum;  et ante spongiis calidissimis et calda, in qua decoctae sunt bacae lauri et centauria et absinthium, loca dolentia diutius uaporabis et sic epithema imponis.</p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Antidotum ad quod supra: </p>
+<p>Irisillyrica, murra trocliten, piper album, storace, calami‹n›the, semen apii, singula ana ÷ semis; mel quod sufficit. Unde dabis ut granum auellanae in calda aqua.</p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Quod si uulneratio ipsa plus sordida fuerit uel sanias per os miserit, mulsam cum supra dictis antidotis dabis. </p>
+</div2>
+      </div1>
+<div1 n="43">
+        <head>XLIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipit curatio scleriae, ex qua incipit causa epatis. Nam ideo intelligitur et discernitur inter scleriam et scirrosin, quod duritia a se incipi[a]t et nulla fuit ante eparis causa[s]. Scirrosis autem, quamuis et ipsa duritia dicatur et ‹similia habeat et› nomina et signa, tamen inde agnoscitur atque discernitur ab scleria, quod ante scirrosin multae eparis causae fuerint. Nam scirrosis esse non potest, nisi fuerit phlegmone iecoris aut dolor. Ergo cum haec cognoueris, scleriae congrua [XLIIII Curatio] auxilia sunt adhibenda.</p>
+
+</div2>
+<div2 n="1">
+          <head>1</head>
+<p>Ex ‹a›qua‹e› calice[m] I, ubi absinthium Ponticum et radices maluae agrestis decoctae sunt, id est altheae, et faenum Graecum et ruta[e] agrestis et centauria [ut aqua ubi decocta sunt], ex spongiis maioribus loca diutissime uaporas. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Quibus post haec per &#x86;termina&#x86; cataplasma adhibendum est tale, quod recipit pollinis tritici sicci aut polentae aut absinthii Pontici sicci cum uino, et aprotanum et sesamum, et dactulos cum caricis in uino infundes, et cyminum et bacas lauri et mel quod sufficit, et cataplasmas per triduum et alio diatrito uentosas imponis.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Et hoc ut melius curetur, coques in oleo rutam et absinthium Ponticum uiride; si autem aridum e‹s›t, radices capparis et mastice. Ex eo oleo calido foues et lanam superimponis, ita ut ab eo tota die non auferatur. Hoc per plurimos dies adhibendum est. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Quibus potionibus diureticis dandae sunt uel calda diuretica procuranda est. Quam caldam conficis sic: Mittis in calda petroselinum et anethum et semen apii aut ipsas radices et coques cum melle, et dabis eis cotidie bibere. Quod si febris non fuerit, addis etiam uinum. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Post haec omnia dabis antidotum dia coloquintidos, quod conficis sic: Aperis gelela‹m›10 in breui foramine et ex ea omnia quae intus sunt proicis, ita ut non frangatur, ne quod acceptura est perdat, et mittis in ea passum, melius si Creticum, quod ferre potuerit, et erit in ea die ac nocte. Et post refundes passum in calice et in eo infundes crocum drachmas IIII, galbanum ÷ V, et mollie[ri]s galbanum et crocum. Teres in mortario diligenter, ‹et cum trita›ueris, leuas de mortario et ponis, et tundis irisillyrica‹m› et hy‹so›pu‹m› y IIII, piperis ÷ I, melilotu ÷ II et nucleos purgatos ÷ II. </p>
+
+<p>Haec omnia tunsa et cribellata in mortario mittes cum nucleis supra scriptis et ea omnia, quae infusa sunt, et mellis despumati lib. II. Exinde dabis coclearium I mane et sero.</p>
+</div2>
+      </div1>
+<div1 n="45">
+        <head>XLV</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipit ‹de› syrrexi, id est ruptio apostematis. Quae cum facta fuerit, dolor apostematis quiescit, quoniam &#x86;sirexis apostema&#x86; descendit; qui per uentrem et urinam album egerunt. Inficiuntur enim urinae ex ipsa sanie, quam pus dicimus, et credunt se iam sanos esse, et fastidio, quod ante fuit, carent.</p>
+</div2>
+      </div1>
+<div1 n="46">
+        <head>XLVI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Quibus maxime diuretica danda sunt, ut omnis illa calamitas per uentrem et urinam mittatur. Sed ‹si› per rostrum, non per uentrem idem pus, id est saniem, proiecerit, empyicus erit. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Quod si per rostrum miserit, ita curandus est: </p>
+<p>Conficis electuarium tale: Pollinem herbi rufi ÷ I, nucleos nouos purgatos et assos ÷ II, crocum semuncia, tragacanti ÷ I, dulcorem quod sufficit. In quo infundes crocum et tragacantum, et mel dispumatum quod sufficit. Conficis et dabis coclearium I mane et sero.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Hoc electuarium etiam, si iusu‹m› aut susu‹m› effuderit se, facis: Faenugraeci sucum, sed primum in eodem coques hysopum et irisillyricam et dabis cotidie ieiunis bibere. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Sed ‹si› pus ipsum sordidum fuerit (quod enim expuerit, sordidum et nigrum et putridum exit) et si super carbones positum fuerit aut super focum, peius putrescit. ‹Cui› adhibebis medicamen purgatorium, id est eruum cum melle dispumato et exinde ut electuarium accipiat mane coclearium I et sero unum et lac caprinum mox mul‹c›tum bibat.</p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Sed si ‹uulnus› mundum fuerit, signa haec habent: Quae [con]spuunt, alba sunt et munda. Est quando et sanguinem iacta‹n›t et morsum in eodem loco sentiunt, et cum gluttieri‹n›t quod comedunt, tactu ipsi‹us› escae tamquam rasuram sentiunt.</p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Quibus antidotum ad uulnus mundandum tale conficis:  Murra‹m› trocliten ÷ I, gummi11 ÷ II, thus masculum, crocum ana 3 I. </p>
+
+<p>Haec omnia tundis et cribellas et mel dispumatum ammisces. Dabis ex eo mane et sero coclearium I electuarii more. </p>
+
+<p>Et aforis epithema dia spermaton imponis aut cirram aut barbaram. </p>
+
+<p>Caldam diureticam accipiant et sucum ptisanae, ‹cui› mel admisces et sic dabis. Similam hordeaciam dabis eis; ‹crethmon,› quod nos orimen dicimus, maxime manducare debe‹n›t, et oxyporia eis dantur, quae possi‹n›t cicatrices inducere et molliant uentrem.</p>
+</div2>
+<div2 n="7">
+          <head>7</head>
+<p>Quod conficis sic: Cyminum assum ÷ I, zinziber ÷ I, piperis ‹, semen lini assum ÷ II, rutae agresti‹s› semen 3, mellis quod sufficit; et dabis ei‹s› ut electuarium mane coclearium I et sero I. Hoc autem mollit uentrem et cicatricem inducit. A balneis abstinendi sunt et omnibus pomis et recente[m].</p>
+</div2>
+      </div1>
+<div1 n="47">
+        <head>XLVII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Quod si apostema susu‹m› se[t] ad carnem dederit, ut intelligas ferro esse fundendum, cataplasma eis tale facis: Caricas elixas in dulcore et pollines hordei et nitrum et stercus ‹columborum;› exinde cataplasma facis ita, ut ante spongiis calidissimis foueas [et] ex aqua, in qua decocta est centauria et chamaeleonta et radices cucumeris amari[s]. Et &#x86;dum&#x86; diligentius uaporaueris, id est ex cataplasmate supra scripto, diutissime uaporationes debent uel sex in die fieri. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Quod cum bene susum ascenderit et molle[m] uideris, ferro tange ex parte iossana, ne colpon facias, et non permittis, ut semel fundatur, ne ipse qui curatur ex nimia effusione lassetur et periculum uitae sustineat. Sed cum aperueris, permitte modice pus exire et paratum habebis ex linteolis factum ueluti epirum, ut illuc inicias et claudat. Et cum iam effundi uolueris, subducis epirum, qui illuc iniectus est. Effundet se, sed non tantum effundatur, ut paulatim effundendo purgetur, ne‹c› semel (ut dixi), ‹ne› facias uitae periculum. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Quod uulnus cum bene purgatum fuerit, aperies id leniter, ut non sit angustum foramen, et cotidie ex mulso et physario (hoc est clystere) uulnus laua. Et superimponis medicamina mollia, id est lemniscos ‹infusos› in basilice[n], id est in tetrapharmaco resoluto in oleo roseo, donec omne illud uulnus sic fuerit mundatum. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Sed si sordidum fuerit, medicamento additur mel, ut melius purget. Quod si purgatum bene fuerit, retrahis mel et cura‹s› ex medicamine ‹solo› in oleo supra scripto resoluto. Et cum iam bene se coeperit implere uulnus, barbaram impones secundum eam disciplinam, quae ponitur, sicut in dynamidiis habetur.</p>
+
+
+<p>‹XLVIII›  48.1  ‹Incipit ›de‹ scirrosi id est duritia iecoris. Signa habent› haec: Duritia est in iecore grandis, sine dolore. Cum escam acceperint, eam reiciunt. Colorem immutant et uentrem non facilem habent ‹et› urinam similiter. Et cum manus imposueris super iecur, sentis quomodo lapidem sic esse, et non eis dolet, et si ista causa in longum tempus protrahi‹tur›, hydropicum facit, qui hydropicus non curatur. Sed in initio mox eis succurrendum est et cum curari facilius possi‹n›t, ne uenia‹n›t ad causam mortalem.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Fomentationem eis talem facis ex oleo calido, in quo centauria et asphodeli radix, id est quod nos albucium dicimus, &#x86;et uinum mittes&#x86;. Omnia in se bulliant et ex lana sucida duritiam ipsam foues et uaporas et ex lana sucida calida imponis et fascias desuper.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Et post quinque dies facis ei‹s› epithema tale: Caricas infusas in lixiua et aceto, et centauria‹m› tunsa‹m› et cribellata‹m›, absinthium et nitrum, sale et sinape, cera‹m› et adipe‹m› anserinum et gallinacium: De his uero, quae resoluuntur, singulas libras mitte, et de his, quae teruntur, binas uncias tantum, et ‹in› loca tumentia oppones. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Et ieiunum iubebis exerceri ‹et› ceroma[m] facere et se malaxet dia ca‹m›pson faciendo, id est frequenter surgens et sedens poplite. Et cum uenerit de ceroma‹te›, dabis et aquam calidam, in qua absinthium Ponticum decoctum est. Esca eorum obseruanda est, maxime ne panem manduce‹n›t et ne recentem biba‹n›t; contraria enim sunt epaticis.</p>
+</div2>
+      </div1>
+<div1 n="49">
+        <head>XLVIIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt signa splenis, qui est positus in latere sinistro. Cuius signa haec sunt: ‹Toti[s]dem causis ut epar subiacet,› sed numquam intus uulnus facit et duritiam tolerat (id est scirrosin) aliquotiens non grauem, aliquotiens grauem. Qui fastidium patiuntur. Nam hi asperam linguam sentiunt ‹et› ut typici patiuntur frigus et post cibos in ipso loco tensionis laborem non sufferunt. Vulneratio corporis nascitur et minime curari possunt, eo quod putridus quidam et melancholicus humor (id est niger et spissus), quem exhalat et exundat ipse splen[is], in uulnerosis maxime locis decurrit et [in] uulnera eorum prope incurabilia sunt. Nam paulatim chironia fiunt.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+ Sunt etiam maesti uultu prope omnes splenetici, et macilenti. Nam procedenti etiam tempore si naturaliter sunt pingues, extenuantur, et frigidi incipiunt[que] esse pigri‹que›. Nam et uenter ipsorum difficilior fit, urinae non sanae atque naturali uide‹n›tur colore, sed aut ‹sub›nigrae ‹aut› uiriditate[m] quadam subpallidae. 
+
+<p>Stomachi etiam digestio in ipsis segnior inuenitur, et colore nigro efficiuntur, et si ambulauerint uel ‹cu›currerint, anhelitum non sufferunt, sed quasi contrahuntur dolore splenis. Et si causa per longum tempus fuerit tracta, hydropem facit; qui hydrops curari non potest.</p>
+</div2>
+      </div1>
+<div1 n="50">
+        <head>L</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio splenis: Acetum ‹scilliticum› cata mane bibendum coclearia III aut merum ferro calente exustum et rubi radices bibat luna decrescente. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Epithema ei tale facis: </p>
+<p>Radices capparis et Santonicae et uiscum putidum id est quod de quercu arbore conficitur qui ex Italia uenit, quo aues in aqua et in stagnis capiuntur, et sinape et chamaepi‹tyis› singulas uncias, cera lib. I, resina frixa libra I, gutta ammoniaci libra I.‹. ..› alia cum aceto terenda sunt, et quae soluenda sunt, solue cum oleo, et refundes in mortario, ubi acetum et pigmenta sunt. Et teres diligenter ut in unum co[qu]eant pariter temperata et ‹in› aluta ad splenem ponis per omnes dies, quousque sanus fuerit. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Et dabis eis ieiunis manducare radices uel sinape cum oxymelle, ubi pridie ipsae radices infusae sunt. Qui continue aquam calidam bibant et sic digitis aut pennis in ore missis uomitum prouocent. Et in mari natare iubebis. Item [adhuc supra] dropaces impositi prosunt. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Prodest etiam et sinape in balneo impositum et sanguisugiae ad splen ponendae sunt, ut sanguinem educant, et uena tangenda est, quae de digito minori manu‹s› sinistrae descendit. Et si adiutoria haec minime senserit, cauter[em] in ipso splene imponendus est, tria puncta, et dimittis ea non curare, ut diutius reumatizent et humor decurrat splenis per eadem uulnera.</p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Antidotum eis tale facis, id est post cauterem: Scilla‹m› cocta‹m› in aqua lapatii agresti‹s›, semen chamaedryos ‹et› chamaepityos, cap‹p›aris radices et tamarici semen singulas drachmas, mel dispumatum et acetum mittis quod sufficit, et dabis coclearium unum ieiunis post cauterem. </p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Lapidem etiam pyriten ad magnitudinem splenis incidis et feruefactum igni aceto perfusum et spleni saepius uaporationis causa superpositum uehementer scimus profuisse. Idem facit etiam lapis mylites.</p>
+</div2>
+      </div1>
+<div1 n="51">
+        <head>LI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt causae haemoptoicorum. </p>
+<p>Signa sic intelligis: Sanguinem reiciunt, sed iactatio sanguinis non est una. Sunt quibus de faucibus sanguis erumpit, aliis de gula; sunt quibus ex pulmone aut arteria, rumpitur uena aliis ex thorace, aliis ex stomacho, aliis ex uentre, aliis ex capite.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Cuius sanguinis distantia‹e› et signa haec sunt: </p>
+<p>Si fertur de faucibus [signa haec sunt], sine tusse sanguinem expuunt, non uomunt, et ‹si› aperies eis rostrum, tument ambae faucium partes et sanguineae inueniuntur et ingluttire non possunt et nihil calidum traicere. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>De broncho, id est de gula, sanguinem uenientem sic intelligis: Quando tussiunt, titillationes in gula patiuntur et sanguinem cum phlegma‹te› expuunt, ut plus phlegma sit quam sanguis. Dolor ‹in› ipsa gula aforis sentitur et manu tacti dolent.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Pulmonis sanguinem sic intelliges: Est mundus sanguis et russeus et spumosus et largus, sine tusse et sine dolore. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Si ex thorace sanguinem emiserit, ita intelligetur:  Erit non sine tusse, cum dolore ingenti, et uomunt sanguinem copiosum; etiam ambae mamillae doloribus urgentur. Scias uenam eis crepuisse, quae in thorace est. </p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Ventris et stomachi sanguinem sic intelligis. Qui quidem curam et signa similiter habent. Vomunt sanguinem ‹satis› nigrum et [satis] sine tusse et nausiantur assidue et sanguinem aliquotiens reiciunt.</p>
+</div2>
+<div2 n="7">
+          <head>7</head>
+<p>Si de capite sanguis uenerit, ita intelliges: Tussis grauis est et sanguinem mundissimum expuunt. Uua12 eis super linguam [sub]iacet uel a solito amplius propendet ‹et› uomitum eis prouoca[n]t titillationem ‹faciens›.</p>
+</div2>
+      </div1>
+<div1 n="52">
+        <head>LII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio eorum [id est emoptoicorum] talis est:</p>
+<p>‹Si de capite fuerit, ita eum curabis:› Poscam eis primum dabis, ut gargarize‹n›t, ‹si ex eis locis sunt, ad quae gargarizum peruenire potest.› </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Si autem [et] ex alto sanguis uenerit, dabis bibendum poscam et trochiscum dia corallu[m], et oxymelle de penna loca inungue, unde sanguis uenit; curanda sunt, si possunt attingi. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Si de gula fuerit, curabis spongias frigidas cum posca et sale imponi[s] aforis, et antidotum Philonium eis bibere dabis et uinum myrtinum bibendum utiliter datur et omphacomeli datum prodest. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Si de pulmone sanguis uenerit, ita eum curabis: [et] Cauendum est, ne poscam bibant. Quibus dabis sucum arnoglossae bibendum et hypocistidae sucum similiter, et gummi[n] cum amylo solutum cum aqua frigida bibere dabis. </p>
+
+<p>Murtam etiam et senticem in aqua infusa et cocta bibendum dabis. </p>
+
+<p>Quibus aforis apponis in latere dextro acetum cum oleo roseo frigidum cum lanis.</p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Sympasma eis tale facis: </p>
+<p>Gummi[n] soluis in aqua, gallas tundes et cribellas, amylum et semen plantaginis, murtam siccam, aloe et rossyriacum et omphacium; omnia haec tundis et cribellas et ungues ex gummi infuso uel soluto pectus totum et latus dextrum, et super puluerem supra scriptum ‹sparges. </p>
+
+<p>Omphacium› conficis sic: Quod restat de acinis expressis acidis, id est carnes ipsas et nucleos, siccas in s‹ol›e et tundis et habes omphacium.</p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Si uero ex thorace sanguis uenerit, ita eum curabis: Posca frigida cum spongiis maioribus pectus foues et poscam sine sale bibere dabis eis; et si iuuenis fuerit, phlebotomandus est. </p>
+
+<p>Et pones super pectus ‹medicamen› constrictorium id est barbaram, ut totum pectus medicamine tegas. Cui barbarae admiscendum est stercus caninum ‹et butyrum› secundum disciplinam, quae in dynamidiis est. </p>
+</div2>
+<div2 n="7">
+          <head>7</head>
+<p>Si uero ex uentre aut ex stomacho sanguis uenerit, ita eum curabis: </p>
+
+<p>Misces in posca gessamias et astera Samium et sucum hypocistidae et omphaciu[m] puluerem et tragacanti et gummen; dabis eis in posca, ut bibant.</p>
+</div2>
+<div2 n="8">
+          <head>8</head>
+<p>Item ad ut supra: </p>
+<p>Lenticulae sucum dabis, ut bibant, in aceto coctae. </p>
+
+<p>Item ad quod supra: </p>
+<p>Omphacomeli et aquam cytoniorum et murta‹m› e‹t› sentice‹m› et siliquam Graecam, omnia in aqua cocta: ipsam aquam bibendum dabis.</p>
+</div2>
+<div2 n="9">
+          <head>9</head>
+<p>Item aforis in uentre[m] sic facis: </p>
+<p>Mittes acaciam in posca et teres thus masculum semotim et aloe et Lemniam signatam et puluer coralli et puluer[em] electri et unges uentrem et pectus de acacia et posca sicut scriptum est; puluer istud super pectus et uentrem sparges ‹aegroti›. </p>
+</div2>
+<div2 n="10">
+          <head>10</head>
+<p>Omnes haemoptoicos abstinendum scire debes a clamoribus [abstinendos] et ab iracundia et a uenere et ab acrimonia et fumo et omni impatientia. </p>
+
+<p>Lectus eorum in terra sit, non pensilis, et ipsis ubi iacent cubiculi aerem facies stypticum. </p>
+</div2>
+      </div1>
+<div1 n="53">
+        <head>LIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt causae empyicorum, id est eorum, qui sanias proiciunt uel purulenta excreant. Signa eorum haec sunt.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Empyici sunt, quibus apostema factum est in pulmone siue in epar‹e› siue in thorace et crepuerit et saniauerit, et per rostrum sanias mittunt uel ‹r›eiciunt et febricitant et tussiunt et macri fiunt et saniem excreant ‹putidam. Si fuerit ex epare, ipsud quod excreant› est mixtum sanguinem habens, et dolor interdum latus percutit et tussiunt et sania ipsa, si in carbonibus posueris, putet. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Ex pulmone empyicus qui est, albas sanias et spumosas proiciunt, sed non cum tusse nimia, et sine dolore eis ascendet et non putet. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Si uero ex thorace uenerit sanguis, grauitudinem patiuntur pectoris et non excreant, sed uomunt purulenta et uultus eis tumet, uentrem non faciunt, et ipsum quod uomunt aut excreant, liquidum et aquosum est.</p>
+</div2>
+      </div1>
+<div1 n="54">
+        <head>LIIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio empyicorum talis est: </p>
+<p>Ergo si ex epar‹e› fuerit causa, curandi sunt sic: </p>
+<p>Mulsam bibere dabis, ubi anethum et murra decoctum est. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Item crocum et irisillyricam et murram troclite‹n› in dulcore ‹infusum› et mellis calicem plenum; omnia aequis ponderibus misces et da mane coclearium I ieiunis, et inducit cicatricem et purgat uulnus, et si altum fuerit, repletur. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Epithema eis tale facis: </p>
+<p>Cera‹m› Punica‹m› lib. I, olei Sicyonei lib. semis, ‹dicamen uncias sex,› opopanace ÷ I, rutae hortinae semen ÷ I, aerugine‹m› Campana‹m› ÷ I, baccas lauri ÷ I, ‹galbanum,› polline‹m› seminis ÷ I, thus ÷ I, radices maluae agrestis ÷ I, polion ÷ I, aprotanu ÷ I, stercus columborum ÷ I, pyrethrum ÷ I, nitrum ÷ I, kachryos ÷ I. </p>
+
+<p>Quae tundenda sunt, tundes et cribellas. Opopanace et galbanum infundis in oxymelle die et nocte et teres. Extra resoluis ceram et [me]dicamen, et cum se resolueri‹n›t, misces omnia in unum et imponis in plagella ad loca, unde res nata est. </p>
+
+<p>Hoc epithema omnibus empyicis facit. </p>
+
+<p>Memineris autem acetum non esse mittendum propter[ea] galbanum et opopanace [et] in coctura‹m›, sed i‹n› ‹tritura› omnia misce‹an›tur, ne[c] causa aceti cera [con]funda[n]tur.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Si ex pulmone proiciunt, electuarium eis tale facis: Gummi in aqua soluis ÷ I, et tragacantum ÷ I infusum in aqua soluis; nucleos purgatos et assos ÷ II, semen urticae assum ÷ I, crocum ?. </p>
+
+<p>Quae terenda sunt tere, et quae soluenda sunt, cum aqua soluis; crocum infundis in aqua. Deponis mel dispumatum de foco et omnia simul misces in mortario et dabis exinde ieiunis coclearium I.</p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Cibos eis tale‹s› facis: </p>
+<p>Lac caprinum cotidie dabis bibendum </p>
+
+<p>et olera, quae uentrem molliant: dabis eis porros et pastinacas, et brassicam coctam dabis, ut manducent, et bibant ipsam loturam, quae sine sale cocta est, quia purgat et replet ‹et› cicatricem inducit hoc iuscellum. </p>
+
+<p>Vinum autem bibendum eis dabis non multum, sed candidum et uetus, et sucum ptisanae accipiant, ubi decoctum est hysopum et aprotanum, et sucum faeni Graeci, ubi caricae decoctae sunt. </p>
+
+<p>Detur utiliter et mulsum, ubi decoctum est puleium et hysopum et origanum; dabis bibere uel ieiunis uel non ieiunis.</p>
+
+<p>Antidotum eis conficitur dia trion pepereon, non quod phlegma siccat, sed purgat uulnera. </p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Omnes empyici abstinendi sunt a lauacro uel a salsis rebus et a recente uel acrimonii‹s› et a leguminibus uel ab obsoniis; sed holera supra scripta manducent uel supra dictos sucos semper accipiant; et non in humidis habitent locis nec in frigidis aut nimium calidis.</p>
+</div2>
+      </div1>
+<div1 n="55">
+        <head>LV</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt causae nefreticorum, qui renum dolorem ferre non possunt. Qui13 [dolorem] et lapides habent in renibus et phlegmonem, id est feruorem et tumorem; inde renum fit et14 apostema et uulneratio[ne] et effusio sanguinis per naturam et harenae egestio.</p>
+</div2>
+      </div1>
+<div1 n="56">
+        <head>LVI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Cognoscitur autem phlegmon renum sic: Dolor ex utraque parte renium est. Tenet dolor et amba[s] ilia[s], aliquotiens et una pars renum et unum ilium dolet. Pondus in renibus [non] sentiunt graue[m] et feruorem in ipsis locis intolerabilem, et quando urinam faciunt, lipothym‹i›am, id est angustias, patiuntur et non possunt urinam facere. Frigus eis fit, uomunt colera cum phlegma‹te›. His signis demonstra[n]tis scias tumorem esse in renibus, ‹aliquibus aforis,› aliquibus intrinsecus.</p>
+</div2>
+      </div1>
+<div1 n="57">
+        <head>LVII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt signa nefreticorum. Quibus nascuntur harenae uel lapides in renibus, cognoscuntur sic: Dolor amba[s] latera tenet, et retro renes frigidum sentiunt ‹et› pondus cum dolore graui. Urinam facere uolunt et non possunt. Venter eis facilis non est. Et cum ruperit apostema, ipsi refrigerium et requiem eius doloris sentiunt. Et si non citius fuerint curati, ‹a›ut per anum aut per urinam, uitio superati quod eru‹m›pit, humoribus purge‹n›tur. </p>
+
+<p>Vulnerat‹ur› illis uesica et nimio calore lapides coagulat. </p>
+
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Vulnera autem intelligis sic: Urinam facilem habent ‹et› subsanguinea‹m› et in ipsa urina parent ueluti furfures quaedam natantes. Pruriginem in ano patiuntur, et cum urinam traiecerint, natura eorum dolet et quasi subcomeditur morsibus. Quidam patiuntur etiam tensiones laterum et stomachi, et qui haec signa nesciunt, colicos putant; quibus etiam cum ruperit apostema, minuitur dolor. Scire autem debes has causas habere aliarum causarum similitudinem [et] propter uicinitatem coli et uesicae.</p>
+</div2>
+      </div1>
+<div1 n="58">
+        <head>LVIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt curationes nefreticorum. Curatio phlegmonis hoc est tumoris: Si iuuenis fuerit et fortis, phlebotomet ex ipsa parte, qua[ntum] dolorem habet. Cum ‹III› dies phlebotomi expliciti fuerint, embroces eis tales facis: Oleum et uinum in se bullia‹n›t, et misces illuc faenum Graecum et radices maluae agrestis et papauer, et lanis sucidis ex ipso suco id est ex hac embroce loca dolentia foues et lanam super imponis calidam et fascias. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Et si febris non est, ut purgari possit, hiera danda est dia coloquintidos. </p>
+
+<p>Et cataplasma eis tale facis: </p>
+<p>Herba libanotidos et samsucu et cyperu. </p>
+
+<p>Tunde omnia ista et cribella[s], et cum coxeris, imponis in plagella ‹in› loca dolentia.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Item aliud cataplasma: </p>
+<p>Aprotanum, stercus columbinum, pice‹m› et resina‹m›, thus et galbanum, aequalia pondera in se habentia, coctum in plagella imponis et fascias. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Clysterem talem facis eis: </p>
+<p>Mittis oleum et rutam et castoreum et coques in se et exinde clysteriabis, et dabis eis bibere trochiscum dia spermaton aut Philonium et eas potiones, quae ad nefreticos faciunt.</p>
+</div2>
+      </div1>
+<div1 n="59">
+        <head>LVIIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt curationes eorum qui ‹lapides in› renibus habent. Dabis eis bibere semen apii uel semen maluae agrestis et anethum et absinthium infusum in mulsa dabis eis bibere, et facies lauare in balneo, in quo mittis abundanter oleum, id est in solio, ut embrocen patiantur.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+ Dabis eis omnia diuretica uel antidota alia, quae conficis sic: Saxifraga, cyminum Alexandrinum, semen cucumeri‹s› dulcis, semen melonis, semen pastin‹ac›ae ana ÷ I, crocum ÷ I, passum quantum sufficit; 
+
+<p>infundis crocum in passo et assarum ÷ I. </p>
+
+<p>Omnia quae tundenda sunt tundis, et dabis eis bibere in passo Cretico uel Afro optimo.</p>
+</div2>
+      </div1>
+<div1 n="60">
+        <head>LX</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio uulnerationum talis est: </p>
+<p>Dabis eis bibere cata mane mulsum, ubi infusum est assarum et irisillyrica et crocum et dabis eis bibere ieiunis mane. Calda‹m› autem ‹a›quam cum uino in conuiuiis bibant, in cucumam ipsam semen apii et cyminum Alexandrinum ‹mittis,› hoc semper bibant.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Clysma eis facis tale: </p>
+<p>Oleum, ubi coques anethum et castoreum et murram et rutam; ipsum oleum per clysterem inicies.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Cibi eorum esse debent ‹hi›: </p>
+<p>Asparagos agrestes dabis manducare et porros coctos et pastinacas agrestes coctas dabis. </p>
+
+<p>Vinum bibant ‹album et lene› et balneo utantur. </p>
+
+<p>Interdum abstineant a frigida et omni frigdore.</p>
+</div2>
+      </div1>
+<div1 n="61">
+        <head>LXI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt causae uesicae et signa, id est quibus tumor in uesica et lapides fiunt et apostema, uulneratio, e‹t› p‹i›tyriasis, id est illi qui, cum mingerint, uelut furfures supernatant; stranguiria, id est constrictio urinae, et dysuria, id est difficultas mingendi, et haemorrogia, hoc est qui sanguinem meiant. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Ergo si tumor fueri[n]t uesicae, ita eum intelligis: Dolor est super pectinem, ubi cum manu‹m› posueris, non baiulat dolorem. Urinam cum dolore faciunt. Inflationem uentris ‹patiuntur et uentrem› non facile‹m› habent; febricitant et fastidium patiuntur et uomitum et uigilias et somnia uana.</p>
+</div2>
+      </div1>
+<div1 n="62">
+        <head>LXII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt signa ‹eorum› qui lapides in uesica habent: Natura subturgens est, pruriginem patiuntur etiam in ano, et cum meiare uoluerint, dolorem patiuntur et non possunt meiare. Nascitur autem haec causa in infantibus; sunt ex his, qui lapides minores meiant, et qui nesciunt, putant eos nefreticos aut colicos esse. Nam nefresis non in infantibus, sed in uiris contingit. </p>
+</div2>
+      </div1>
+<div1 n="63">
+        <head>LXIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt signa eorum qui sanguinem meiant: Sunt quidam ex his, qui mixtum sanguinem meiant cum urina; alii sunt, qui solum et purum sanguinem. Hi dolorem in coxis sentiunt et super pectinem, et sanguineos lapides meiant. Et cum uoluerint meiare, si tubus, id est meatus naturae, ex ipsis lapidibus clausus fuerit, naturam ipsam manibus sibi ipsi calculosi fricant et lapis redit intus et tunc urinam faciunt et paregoriam patiuntur. </p>
+
+<p>Si haec fuerint signa, intelligis calculosum esse.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Signa autem [o]p‹i›tyriasis, id est qui cum meiant, natant uelut furfures in urina ipsa‹m›que propter inspectionem in calicem suscipis. </p>
+
+<p>Si haec signa fuerint et uelut furfures supernatauerint, scias lapidem habere in uesica ualde maiorem. </p>
+
+<p>Nam furfures ipsi nascuntur sic: Dum lapis maior fuerit et sibi naturam confricauerit, intus redit lapis et tundit se. Ex ipsa confricatione scabra sua uesica[e] dimittit et exinde furfures in urina supernatant[ur].</p>
+</div2>
+      </div1>
+<div1 n="64">
+        <head>LXIIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt curationes calculorum. </p>
+<p>Si phlegmone fuerit, ita curandus est. Cataplasma tale super pectinem imponis: Pollinem faenu[m]graeci cum oleo et mel‹le› cocto superimponendum est et cucurbitae imponendae sunt super pectinem et sanguis per scarifationem detrahendus est </p>
+
+<p>et fomentatio ex oleo cyprino siue nardino adhibenda est. In ipso etiam oleo castoreum et euphorbium terendum ‹est; ex quo super pectinem et renes ungendum est›.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Et dabis ei antidota, quae ad calculum faci‹un›t uel ad lapides frangendos, sicut in dynamidiis scripta sunt.</p>
+</div2>
+      </div1>
+<div1 n="65">
+        <head>LXV</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipit curatio uulnerationis quae facta est in uesica. </p>
+
+<p>Cataplasma tale facis: </p>
+<p>Bacas lauri, cyminum, opopanace. </p>
+
+<p>Omnia resoluta coques cum melle et impones calida super pectinem uel testes.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Embrocen talem facis: </p>
+<p>Mittes olei eminam, ubi decoctum est anethum et asphodeli radix (id est albucii) et mastice tritum. </p>
+
+<p>Ex lana sucida fomentas ei pectinem et testes et lanam super impone et fascias loca ipsa.</p>
+</div2>
+      </div1>
+<div1 n="66">
+        <head>LXVI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio eorum qui sanguinem meiant: Si fuerint fortes, phlebotoma eos de matrice, id est de uena brachii. </p>
+<p>Si minus fortes sunt, imponenda est cucurbita super renes et detrahes sanguinem et cum posca frigida spongiam impones super pectinem et testes eorum.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Cataplasma eis tale facis: Grossum mali granati, murta‹m› e‹t› colicos senticis, id est summitates eorum teneras, dactulos infusos in posca et alica per biduum, deinde coctos; teres et omnia ista tunsa et cribellata simul coques in posca et impones frigidum cataplasma super pectinem et testes et fascias.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Clysterem eis talem facis: </p>
+<p>Sucum de sentice, thus et aquam de gallis coctis, et balaustia, sucum de hypocistidos; teres omnia in se et cum posca clysterias. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Dabis autem bibere poscam, ubi infusi sunt dactuli et mala Matiana et cytonia. </p>
+
+<p>Et raphanos, id est radiclas coctas in posca manducent et salsum cum oxymelle manducandum est, </p>
+
+<p>et si super pectinem calorem senserint, acetum et oleum roseum cum lanis impone sucidis.</p>
+</div2>
+      </div1>
+<div1 n="67">
+        <head>LXVII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt curationes eorum, qui trichiasin patiuntur, id est qui capillos meiant. Sentiunt grauedinem (id est pondus) pectinis. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Facis caldas cum oleo cocto et facis illum ibi sedere.</p>
+
+<p>Et dabis ei bibere passum cum semine apii et piperis albi grana XX, et si non fuerit album, duplum mitte. </p>
+
+<p>Et epithema dia spermaton impones super pectinem et testes </p>
+
+<p>et potionem dabis talem: Murra ÷ I, uua passa purgata ÷ II, mellis dispumati ÷ I. Dabis eis cata mane coclearium I.</p>
+</div2>
+      </div1>
+<div1 n="68">
+        <head>LXVIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Cura eorum qui furfures meiant: Dulcia eos manducare facies et lac asininum bibant statim ‹mulctum de asina et› cancros manducent. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Antidotum eis tale facis: </p>
+<p>Cyminum Aethiopicum, semen apii, mel Atticum, siseleos singulas uncias cum mel‹le› et lac‹te› singulos calices. </p>
+
+<p>Omnia misces et dabis eis ieiunis mane coclearia singula.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Olera talia manducent: </p>
+<p>Maluas, ‹betas, pastinacas, asparagos, ›...‹ perdices,› oua sorbilia et sucum hordei; in quo[s] suco mittis dulcore‹m› et piper. </p>
+
+<p>Hi cotidie balneo utantur et passum eis dabis bibere ‹aut› mel Atticum, et silp‹h›i &#x86;cali&#x86; ‹et› aristologia‹m› et petroselinum; omnia elixas et dabis cum passo ieiunis bibere.</p>
+</div2>
+      </div1>
+<div1 n="69">
+        <head>LXVIIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt causae colicorum uel signa. </p>
+<p>Colicum sic cognoscis: Dolor in parte dextera super pectinem; uentrem constrictum habent; uentositatem patiuntur. Sanguinem intermixtum cum stercore egerunt[ur]. Dolor ab umbilico ascendit usque ad ‹splenem et discendit usque ad› inguinem sinistrum [et] perueniens usque ad anum [ab iliis] ‹et› usque ad renes. Infestis doloribus urgentur et senti‹un›t intestini ipsius grossitudinem, qui a‹no› ‹i›ungitur, id est coli. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Sentitur [et si] ab eo, qui hoc habet, tamquam intus scissum sit. Vox eis aliquotiens intercluditur et interdum reparatur, et nec uentum per anum aut scybala egerere ‹possunt› et delectat eos secessus uentris et ponderibus et desiderio urge‹n›tur et tamen uentrem non faciunt; interdum et frigus patiuntur, aliquotiens et tremulationem. Sonum intestinorum sentiunt. Fastidium patiuntur, ut nihil accipere uel traicere ‹possint.› Ructari uolunt et non possunt, tensionem uentris et stomachi intolerabilem patiuntur.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Unde si medicus haec signa nescierit, errorem patietur, ut credat eos nefreticos esse, cum causa sit similis, sed habet distantiam. Nam nefreticus aut sanguinem meia[n]t aut harenas mittit aut urina est ueluti sanguinea. Colicus autem talia non facit. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Aliqui[s] simili errore, dum ad partem sinistram ex colo uenit, [his signis supra dictis intelligis] colicum esse [Alii autem] putant et inde spleneticum, cum inter utrosque similis dolor sit, sed longa distantia. Nam spleneticus scirrosin et tumorem habet in latere sinistro, colicus uero in ano uel longaone[m], hoc est in intestino maiore patiuntur, quae res ab spleneticis longe aliena est.</p>
+</div2>
+      </div1>
+<div1 n="70">
+        <head>LXX</head>
+<div2 n="1">
+          <head>1</head>
+<p>Quorum cura haec est: In partibus ‹dolentibus› cataplasmandi sunt, id est super pectinem usque ad umbilicum et renes usque ad anum uel in omnibus locis, ubicumque ‹dolor› pulsauerit. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Cataplasma eis tale facis: </p>
+<p>Sulfur uiuum, cyminum Aethiopicum aut Alexandrinum, si non fuerit, Afrum duplum mitte; staphisagria, nitrum, castoreum; omnia aequis pond‹erib›us; mel quod sufficit. </p>
+
+<p>Tunsa et cribellata miscentur et calidum cataplasma locis supra dictis imponis et fascias.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Qui etiam cucurbitandi sunt ita, ut oleum, quod sub cucurbitas mittitur, laurinum aut nardinum sit. Et post cucurbitas ex eo oleo loca fricabis.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Item ad quos supra fomentum, id est encathisma: </p>
+<p>Aquam et oleum coques cum lauro et cypresso, et dum feruet, quia abundanter conficere debebis, mittis in semicupium ita, ut cooperiat. </p>
+
+<p>Embroca ipsum usque ad umbilicum ita, ut manibus pectine‹m› eis et renes fomentes. </p>
+
+<p>Et cum exinde fuerint leuati, mox extergantur et inuolua‹n›tur rude[s] de fullone et ponantur in lecto et cooperiantur loco calido, ut nullum frigdorem patia‹n›tur.</p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>[Incipit] Primum clystere‹m› simplicem: </p>
+<p>Mittis oleum, in quo maluae agrestes decoctae sunt, et faenum Graecum et castoreum ÷ I; soluis et exinde eum qui patitur colum clyster‹i›abis.</p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Item alium clysterem simplicem: </p>
+<p>Oleum laurinum, ubi decocta est malua agrestis et cyminum et cyperum, et cum omnia bullierint, inde eum clysterias.</p>
+</div2>
+<div2 n="7">
+          <head>7</head>
+<p>Et si uideris, quia haec minime prosunt, clysterem fortiorem facis: </p>
+<p>Oleum in quo decocta est ruta agrestis et castoreum et pyrethrum (id est herba dentaria) et euphorbium; omnia in se cum bullierint, exinde clyster‹i›abis.</p>
+</div2>
+<div2 n="8">
+          <head>8</head>
+<p>Quibus unctionem facis ad loca dolentia: </p>
+<p>Sulfur uiuum, piper nigrum et euphorbium </p>
+
+<p>cum oleo Sicy‹o›nio omnia haec terenda sunt et miscenda cum [oleo et] cera Punica, ut cerotum facias ex his; omnia aequis ponderibus mitte excepta cera, quae minus mittenda est, ut sit tenerum; et exinde usque ‹ad anum› ungues.</p>
+</div2>
+<div2 n="9">
+          <head>9</head>
+<p>Quibus conditum tale facis: </p>
+<p>Piperis albi, spica Indica, pyrethrum (id est herba dentaria), petroselinum Macedonicum ana ÷ I, euphorbium ? II, nitrum 3 II, mel dispumatum quod sufficit. Dabis calicem plenum ieiunis cum calda.</p>
+</div2>
+<div2 n="10">
+          <head>10</head>
+<p>Quibus dropaces imponendi sunt ad loca dolentia in feruente sole, et si hiems fuerit, in loco calidissimo imponendum est, ubi carbones mittendi sunt atque applicandi proxime ad eum, ut propemodum solis praestet uirtutem, in calido cubiculo faciendum. </p>
+</div2>
+<div2 n="11">
+          <head>11</head>
+<p>Et si haec omnia pro nimietate causae minime profuerint, adiutoria maiora adhibenda sunt, id est si fortis aut iuuenis fuerit, phlebotoma eum de matrice, hoc est de uena brachii. Et post expletas dies phlebotomi dabis eis hiera antidotum siue potiones, quas huic causae prodesse cognoueris.</p>
+</div2>
+<div2 n="12">
+          <head>12</head>
+<p>Unguentum eis ad anum tale facis. &#x86;et ne uanum superscriptum ungentum necessarium duxi&#x86; Colum iungitur ano, et dum anus fuerit uaporatus, necessario prosit et colo, quia colum intestinum est grande, ‹colligens› in se frigidum phlegma.</p>
+</div2>
+<div2 n="13">
+          <head>13</head>
+<p>Unctio supra scripta: Oleum, in quo decocta est ruta agrestis et radices cucumeris agrestis et petroselinum et radices iunci et papaueris et cera Punica modicum; et cum omnia decocta fuerint diligenter, in oleo mittis ceram, ut efficiatur cerotum mollissimum, ut unguentum ‹magis› quam cerotum uideatur. Et exinde loca dolentia et maxime anum unguito assidue et mollibus inuoluis lanis.</p>
+</div2>
+<div2 n="14">
+          <head>14</head>
+<p>Collyrium ad colicos: </p>
+<p>Opium Z IIII in lacte mulieris infunde, diagridia Z III, elleborum nigrum ÷ I, gummi ÷ I. Quae terenda sunt tere et quae soluenda sunt solue in lac‹te› sine foco et exinde collyrium facis, quod in ano traicere possis, longum digitis tribus, et subicies in anum.</p>
+</div2>
+<div2 n="15">
+          <head>15</head>
+<p>Sed interdum faciendum est, non semper, quia forte adiutorium et pro nimietate causae est hoc collyrium adhibendum. Soluit uentrem, scybala[m] deponit, dolorem amputat et somnum facit. Longaonem ipsum (id est colum) calfacit, omnia paragorizat. </p>
+</div2>
+<div2 n="16">
+          <head>16</head>
+<p>Balnea prouidenda sunt talia, quae aquam salsam habeant; et si salsa non fuerit, salem addis aut nitrum Alexandrinum. &#x86;Baiae calidae, id est aquae calidinae&#x86; in balneis quae ex sulfure a terra nascitur, aut aspaltina (id est quae sulfur aut asphaltum olet) ‹...› Cibi coli‹c›orum sint suci[s] calidi[s] et iuscella.</p>
+</div2>
+      </div1>
+<div1 n="71">
+        <head>LXXI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt causae dysentericorum.</p>
+
+	
+<p>Dysenteria autem ‹is›15 nascitur, qui primo solutionem uentris passi fuerint. Sunt qui et per multum tempus negligenter adhibiti16 sunt et quos diutissime solutio uentris obtinuit, ut exusti intestini17 uulnera facerent et sanguinem mitterent.</p>
+
+	
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Nam dysenteriae causae duae sunt. Una est, quae fit in intestinis minoribus, quae desuper sunt. Alia est, quae de maiore intestino uenit, quod inferius positum est, in quo potiones peruenire non possunt; nam per clysterem magis curantur.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Ergo si de superiore loco dysenteria uenerit, haec signa sunt: ‹Dolorem› super umbilicum ‹sentiunt, sonum super umbilicum› in intestinis minoribus pati‹un›tur; sitim et fastidium ‹habent› et per anum minutas guttas et sanguineas mittunt. Istos scias ex superioribus intestinis causam habere. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Qui potionibus curantur et cibis causae aptis et constrictoriis. Dabis eis bibere aquam talem, ubi cocta sunt cytonia aut myrtae aut samsucum aut oriza, aut aquam, in qua cocta est siliqua Graeca, aut aqua‹m› de malis Matianis, aut aquam, in qua hypocistida cocta est aut acacia aut gummi aut tragacantum aut gessamia aut amylu aut burrea de cardo, unde coagulum fit, aut grossum mali granati. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Escas autem accipere debe‹n›t, quae stomachum non laeda‹n›t, aut sucum orizae aut asparagos aut coliculum aut lenticulas cum plantagine decocta‹s et› cum modico aceto, aut porrum leuiter coctum. </p>
+
+<p>Et cerasia manducanda sunt et damascena et sorba et caseus uetus assus et uinum Siculum bibendum est et panis siccus comedendus. </p>
+
+<p>Cytonia assa cum piper‹e› et siliqua Graeca manducanda sunt cum corio suo. </p>
+
+<p>Datur et lac, ubi decoctum fuerit sebum caprinum, bibat.</p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Epithema eis tale facis: </p>
+<p>In aqua infundis gummi et tundis acacia‹m› et grossum mali granati. Sic unges de diluto gummi uentrem eius ab umbilico susum et spargis puluer desuper et imponis plagella‹m› et fascias.</p>
+</div2>
+<div2 n="7">
+          <head>7</head>
+<p>Quod si adiutoria haec minime profuerint, dabis primum trochiscum dia spermaton, si suffic[i]erit; si minus, dabis aut theriacam aut Hadrianum aut Philonium uel cetera, quae in dynamidiis huic causae necessaria inueneris.</p>
+</div2>
+      </div1>
+<div1 n="72">
+        <head>LXXII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt causae dysenteriae quae in intestino maiore est, hoc est de inferiore parte, id est in longaone[m], qui ano iungitur. Dolor est super pectinem usque ad renes et umbilicum tenens, et quando egerunt sanguinem cum phlegma‹te›, pausant; est quando scybala[s] cum sanguine[s] assellant. Ponderibus urgentur, nec tamen uentrem faciunt, et putor est in ipsa egestione grauissimus, et delectationem patiuntur cum pondere, ut diu assellentur et prorsus leuare se nolint. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Dolor est in ambobus uertebulis et renes tenet. Sanguinem satis sordidum mittunt et mucilagines proiciunt cum sanguine, in initio et sine sanguine mucilagines assellantur; interdum et phlegma cum sanguine putrido mixtum proiciunt ‹et› colera. Assidue magis pallescunt et macies additur corpori.</p>
+</div2>
+      </div1>
+<div1 n="73">
+        <head>LXXIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipi‹un›t signa, ut agnoscas, ex quibus locis et uulneribus sanguis descendat. </p>
+
+<p>Si uulnus sordidum in intestino maiori fuerit, putet sanguis ipse, qui egeritur, et diuersum colorem in sanguine inuenis, id est nigrum subalbidum spumosum, et cetera diuersa sine dolore assellantur. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Si uulnus mundum fuerit, ita intelligis: </p>
+<p>Quod proiciunt, sanguis mundus ‹est› sine stercore et non tanto fetore. Dolor in eodem loco in intestino grauis est eo tempore, quo assellantur, et postquam pausaueri‹n›t, alleuiatur dolor[e] et putant se releuari plurimum.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Putrida autem uulnera sic intelligis et sordida: Sanguinem spissum et nigrum assellantur cum fetore intolerabili, interdum et gelatum, ut carnes putres, et dolor es‹t› super pectinem ingens et sanias putridas assellantur.</p>
+</div2>
+      </div1>
+<div1 n="74">
+        <head>LXXIIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Cura [eorum] talis adhibenda omnibus dysentericis: </p>
+<p>Oleum roseum tepidum cum lana sucida super pectinem imponendum e‹s›t in ipsis locis, ubi sentiunt dolorem.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Cataplasma eis tale facis: </p>
+<p>Faenugraeci pollines et tritici coques in oxymelle et posca ‹et› cataplasma‹s›. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Oleum simplex tepidum inice per clysterem; quod oleum accipiat duo oua elixa dura, id est uitella.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Item ad ut supra: </p>
+<p>Lac[te] caprinum cum ptisana, de ipso suco clysterias. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Item alium clysterem simplicem, qui per anum iniciendus est: </p>
+<p>Faenum Graecum cum aqua decoques et mittes illuc sidia[s] et gallas tres decoctas et exinde eum clysterias.</p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Item alium clysterem simplicem: </p>
+<p>Murtam et rosam et dactulos; ista omnia coquis in lac‹te› caprino et de ipso suco clysterias.</p>
+</div2>
+<div2 n="7">
+          <head>7</head>
+<p>Item alium clysterem: </p>
+<p>Lac caprinum, ubi decoquis galla‹s› et senticis coliculos aut rossyriacum; omnia haec decocta in lac‹te› supra dicto, exinde eum clysterias.</p>
+</div2>
+<div2 n="8">
+          <head>8</head>
+<p>Incipit cataplasma simplex ad supra: </p>
+<p>In posca coques dactulos quinque et mala cydonia et mala Matiana et alumen scissum, balaustia et semen plantaginis et semen polygoniae; haec omnia mixta. Quae sunt tundenda, tundes; quae mollia, teres et misce mel calicem unum. Coquis et pone super pectinem ‹et renes›.</p>
+</div2>
+<div2 n="9">
+          <head>9</head>
+<p>Item cataplasma simplex: </p>
+<p>Tundes gallas et corium mali granati et murtam siccam et rosam siccam, omphacium et capreolos de uite communes et dactulos aequis ponderibus. Haec omnia in uino Siculo aut alio styptico aut quolibet austero ‹coques et› impones in plagella super pectinem et renes.</p>
+
+<p>[LXXVIIII] 74.10  Item compositio trochiscorum qui fortiter faciunt ad dysentericos. Si ea omnia, quae scripta sunt superius, non senserint, adiutorium: Trochiscum Faustinianum, sicut est in dynamidiis, teres [trociscum supra scriptum] et misces illum cum suco orizae, [et] ubi decocta fuerit siliqua Graeca, et exinde clysteriabis. </p>
+
+<p>Sed antea dabis eis buccellas tres in uino Siculo aut quolibet uino ueteri. </p>
+</div2>
+<div2 n="11">
+          <head>11</head>
+<p>Alterius trochisci compositio: </p>
+<p>Sidia[s] ÷ I, sucum hypocistidae ÷ I, rossyriacum ÷ I, lycium Indicum 3 IIII, amylum 3 IIII, acacia ÷ I. Haec omnia tere[s] et misce in aqua, ubi decocta fuerit myrta, et trochiscos facis. Tollis unum et teris cum suco orizae [ss.] et exinde clysterias eum. </p>
+</div2>
+<div2 n="12">
+          <head>12</head>
+<p>Obseruet a carnibus omnibus exceptis agrestibus et a recente et a iuscellis coctis et ab holeribus, id est a beta, a malua, a catone, a pomis, et a balneis abstinebis eum. </p>
+</div2>
+<div2 n="13">
+          <head>13</head>
+<p>Hi etiam mirabiliter uaporandi sunt ex aqua cauliculi teneri et ex oleastro, ubi decocti sunt secundum disciplinam, quae in dynamidiis est. </p>
+</div2>
+<div2 n="14">
+          <head>14</head>
+<p>Cibos eis tales dabis stypticos, sicut superius demonstrauimus, qui dantur dysentericis minutarum intestinarum, et obseruabunt a carnibus. </p>
+
+<p>In dynamidiis uero et potiones et epithema‹ta› et trochiscos ad utrasque partes necessarias uel omnia causae supra scriptae necessaria[s] inuenies.</p>
+</div2>
+      </div1>
+<div1 n="75">
+        <head>LXXV</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipit causa synanches. </p>
+<p>Synanchicorum causae duae sunt, quas sic intelligimus: Una est, quae in faucibus nascitur, quae facile ‹ap›paret. Alia est, quae in gula nascitur. Quae autem in faucibus nascitur, cum os aperuerit, tumor magnus et rubor apparet. Qui etiam anhelare non possunt praefocationis causa neque aliquid ingluttire [et] nec loqui possunt bene, quia etiam uox eis ex ipsa praefocatione tenetur. Haec synanche periculosa non est. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Alia uero, quae est periculosa, id est quae in gula nascitur, signa haec habet: Hi[c] paene nec loquuntur, tumor etiam in ipsa gula uel collo nascitur, neque anhelitus reddunt. Ceruicem torquere non possunt neque caput inclinare, ut suum umbilicum uideant. Hanc enim Hippocrates causam non synanchen, sed cynanchen appellauit. His autem nisi in continenti medicina succurreris, tertia die praefocantur et moriuntur. ‹Haec quoque synanche maxime aestate periculosa est.›</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Curatio synanches, quae in faucibus est, talis adhibenda est: </p>
+<p>Diachrisma eis tale facis dia moron uel gargarisma [facis]: Mitte folia rosae siccae et dactulos et lenticulas et coques simul et addis duo coclearia mellis et ex suco ipso gargarizent.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Item alium gargarismum: </p>
+<p>Passum calicem plenum, glycyrrhizae semuncia‹m›; teris simul et addis eis aquam, in qua caricae discoctae sunt, et inde assidue gargarizent. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Et aforis cataplasma eis tale facis: Pollines faenugraeci et hordei pari mensura coquis in mulsa et aforis [in] calida ‹in› plagella imponis.</p>
+</div2>
+      </div1>
+<div1 n="76">
+        <head>LXXVI</head>
+<div2 n="1">
+          <head>1</head>
+<p>Alia synanche, quae in gula nascitur. </p>
+<p>Quam cum intellexeris, curas sic, si prima die fuerit aut secunda; si tertia die fuerit, moritur. Quamuis in aestate magis haec causa periculosa ‹est›, ad talem facis clysterem uiscidum et clysteriabis eos. </p>
+
+<p>Et si iuuenis fuerit, phlebotomandus est et uenae, quas sub lingua habet, scarificandae sunt. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Clysterem uero talem facis: </p>
+<p>Mittis aquam et oleum et mel, sal et nitrum et aphronitrum et exinde sicut superius dixi facis. Caricas elixatas in aqua et semen papaueris agrestis et pollines hordei et faenum Graecum, scapulas et pectus et guttur calide cataplasmas. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Gargarisma taliter facis: </p>
+<p>Corium mali granati in aqua infundis et lenticulam Alexandrinam cum terra sua et omphacium; omnia simul coques et ex ipsa gargarizandum dabis. Melius est, si bibere possit.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Item alium gargarismum: </p>
+<p>Mittis passum partes duas et mel partem unam et decoques ibi hysopum et hypocistidis et caduca mali granati et rossyriacum, et cum decoxeris omnia, dabis ei, ut gargarizet, aut bibere, si potuerit.</p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Antidotum etiam dia co[n]dion sicut est simplex coclearia diurna dabis duo mane uel sero. </p>
+
+<p>Et trochiscum eis Andronium dabis sic: Soluis in passo et dabis eis bibere uel gargarizare, et ex mulsa soluto ‹aut› in melle uel de pinna loca perunges.</p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Diachrisma de hirundinibus tale facis: </p>
+<p>Capis hirundines maiores; sic cum plumis suis in urceolis, qui focum ferre possunt, mittis et claudis ora urceolorum uel cucumae nouae et mittis in furno, et cum assatum fuerit, teris ita, ut in puluerem redigas. Cui pulueri admiscis mel dispumatum et exinde loca cum pennis perungis. </p>
+
+<p>Quod si haec omnia adiutoria minus ualuerint, inter scapulas sanguinem detrahes.</p>
+</div2>
+      </div1>
+<div1 n="77">
+        <head>LXXVII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt causae apoplexiae, quae similitudinem habet paralysis. Sed inter apoplexiam et paralysin multae distantiae sunt. Nam apoplexiae duae sunt causae.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Maior enim apoplexia sic intelligitur: Venit enim aut per cibos nimios aut per uinum nimium aut per balnearum nimium calorem. Hi subito cadunt et moriuntur. Nam hi aut[em] dum [aut] comedunt aut dum lauant, hoc malo morbo tene‹n›tur. Multi etiam et post cenam dormientes ex hac causa mortui sunt. Huic causae nulla res succurrere potes‹t›, qu‹i›a latenter uenit et subito occidit. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Minor[um] quae est, curatur quidem, ‹sed› cum difficultate. Quam intelligis sic: Cum passus fuerit, uelut paralysin non una pars corporis sentit[ur]. </p>
+
+<p>Sed signa haec apoplexia supra scripta habet: Lingua eis tene[n]tur, ut loqui non possint, aut cum locuti fuerint, difficillime intelliguntur, et manibus uerba sua uolunt ostendere. Et si eos digitis strictius tenueris, sentiunt; non enim habent corpus mortuum, sed iacent exanimes et graues sibi uidentur et aliquotiens homines non cognoscunt. Nam omnes se leuare non possunt, in tantum, ut si leuare eos uelis, grauiores inueniantur.</p>
+</div2>
+      </div1>
+<div1 n="78">
+        <head>LXXVIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio eorum talis est: Pennis in ore missis uomitum prouocabis et clysterem eis acerrimum adhibebis. </p>
+
+<p>Sucus centauriae per nares adiciendus est.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Euphorbium etiam et castoreum tritum mittis modicum in naribus, ut sternutamentum prouoce[n]tur. Manus quoque uel pedes eorum ex nitro et sale frica‹ri› diutissime iubebis et anum eorum ex felle taurino ungui iubebis.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Staphisagria et adarces melle addito similiter anum eorum ungeri facito. </p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Collyrium etiam tale facis, quod balanion dicitur: </p>
+<p>Nitri partem unam, scamonia‹e› duas, castorei dimidiam. </p>
+
+<p>Haec omnia teris simul et cum melle coquis et in pastillos collecta ano inicis collyria singula. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Quod si haec omnia minus ualuerint, clysterem eis talem facis: Folia maluae hortinae decoques et folia betarum et cucumeris agrestis folia aut radices decoques, ut tertia pars remaneat; addis oleum et mel et aphronitria et inde eum clysteriabis.</p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Quod si iuuenis fuerit, id est ab anno XX usque ad quinquagesimum, phlebotomandus est. Si ante uicesimum annum fuerit aut plus de quinquagesimo, adiutoria supra scripta tantummodo adhibebis.</p>
+</div2>
+<div2 n="7">
+          <head>7</head>
+<p>Praeterea apoplexia‹e› causa non ‹omnibus› obueni[un]t, non enim tenet nisi aetate declinante aliquem, id est post quadragesimum scilicet annum. Sed si haec causa in iuuenibus nata fuerit, non nisi aut ex aegritudine aut ex uulnere aliquo sordido; quae quidem, si uenerit, facile curatur. Nam tunc intelligis ex aegritudine aut ex uulnere apoplexiam unicuique contigisse, cum apoplexia‹m› aegritudo aut uulnus praecesserit.</p>
+</div2>
+<div2 n="8">
+          <head>8</head>
+<p>Haec causa et iuuenibus et maioribus aetatibus poterit euenire. Si ergo causam ex aegritudine intellexeris, cathartico curabis. </p>
+
+<p>Si autem ex uulnere, catharticum dabis et uulnus curabis. Vulnere enim curat[i]o et humore per uentrem ‹detracto causa› necesse est amputetur.</p>
+</div2>
+      </div1>
+<div1 n="79">
+        <head>LXXVIIII</head>
+<div2 n="1">
+          <head>1</head>
+<p>Incipiunt causae paralyticorum uel signa. ‹Paralysis et apoplexia minor,› quae quamuis magnam inter se distantiam habea‹n›t, tamen similitudinem habe‹n›t. </p>
+
+<p>Apoplexiae minoris [Cuius] signa haec sunt: Omnis paralysis non nascitur, nisi cum aetas coeperit declinare, id est post quadragesimum et quintum annum, aut si frigidioris naturae fuerint, etiam in XLmo anno hoc possunt18, quamuis aliquotiens et iuuenibus ex aegritudine haec causa nascatur.</p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Quae quidem facillime in iuuenibus curatur. Nam et aliquotiens ‹medici falluntur, quotiens›19 uident in iuuenibus ‹sine aegritudine›20 hanc causam nasci[tur], sed non est paralysis, sed cuiuscumque humoris deriuatio, qui partem corporis tenet.</p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Vera autem paralysis post XL annum humana tene[n]t corpora. </p>
+
+<p>Cuius signa haec sunt: </p>
+<p>Pars ei‹s› dimidia tenetur, ut suo officio fungi non possi[n]t21. Quibus aperies os et inuenies linguam eorum in una[m] parte[m], in qua paralysin patiuntur, albidiorem esse. Ipsam partem linguae tunc intelligis paralysis causam habere. Nam paralysis ab eo, quod mediam partem teneat, nomen accepit. Si enim omnes partes tenet, apoplexiam iudicabis. Nam multi ex apoplexia minore ad paralysin transeunt.</p>
+</div2>
+      </div1>
+<div1 n="80">
+        <head>LXXX</head>
+<div2 n="1">
+          <head>1</head>
+<p>Curatio illius talis est: </p>
+<p>Mittis eum in cubiculo ‹calido› &#x86;et tutissimo&#x86;, ubi frequenter missi carbones calorem faciunt, et expolias eum et considera manus eius, si non contraxerint, et quam inueneris frigidam, inde eum ‹continuo› phlebotomas. </p>
+</div2>
+<div2 n="2">
+          <head>2</head>
+<p>Et post expletum triduum purgabis eum sic: </p>
+<p>Semen cocognidii 3 II, [E]gelela 3 III, euphorbium 3 I, piperis 3 II. Haec omnia cum melle dispumato colliges et dabis eis ieiunis coclearium I cum mulsa. </p>
+
+<p>Hoc enim catharticum phlegma uehementer deponet. </p>
+</div2>
+<div2 n="3">
+          <head>3</head>
+<p>Ungentum eis tale facis: </p>
+<p>Pice‹m› liquida‹m›, dicamen, ceram libras singulas; piperis 3 III, euphorbium 3 I, adarce ÷ I, nitrum ÷ II, oleum Sicyonium quod sufficit, ut cerotarium mollissimum fiat, et in locis, ubi paralysin tentata est, unges; et cucurbita‹s› addita stupa impone, ut loca relaxari possint. </p>
+
+<p>Secundum membrorum artus uim breues cucurbitae imponendae sunt; ubi maiores ferre poterint, easdem imponis.</p>
+</div2>
+<div2 n="4">
+          <head>4</head>
+<p>Aliud fricamentum: </p>
+<p>Axungiam ueterem, medullam ceruinam, adipes anserinos et gallinacios cum suco centauriae. Haec omnia inmisces et defricas eum in sole nimio aut contra carbones. </p>
+
+<p>Et dropaces eis imponendi sunt aut ad solem, si tempus fuerit, aut in loco calido. </p>
+</div2>
+<div2 n="5">
+          <head>5</head>
+<p>Quibus etiam uomica prouocanda sunt frequenter sic: </p>
+<p>Olei pars una, aquae partes duae calidae, salis coclearia duo et nitri unum. </p>
+
+<p>Temperas ista omnia et dabis eis calicem plenum bibere et digitis aut pennis missis uomitum prouocabis. </p>
+</div2>
+<div2 n="6">
+          <head>6</head>
+<p>Quod uomitum excipiendum est et mensurandum in calice[m]. Si enim aliquid plus, quam biberi[n]t, euomerit, alio die eum similiter curabis. </p>
+
+<p>Si autem quod bibit tantummodo reiecerit, iterabis ei ea‹n›dem potionem et iterum uomitum prouocabis, ut aliquod amplius quam quod bibit reiciat. </p>
+</div2>
+<div2 n="7">
+          <head>7</head>
+<p>Quod si hoc facto minime phlegma per uomitum reiecerit, chalcucecaumenu teres in aqua calida et dabis eis bibere, et uomitum sicut dictum est prouocabis. </p>
+
+<p>His et diuersa acopa calida necessaria adhibentur, et Hadrianum. Sed cum Hadrianum dederis, quoniam constringit, clysma austerum adhibendum est.</p>
+
+<p>EXPLICIT LIBER .III.</p>
+</div2>
+      </div1>
+</body>
+  </text>
+</TEI>

@@ -66,6 +66,12 @@ _PARA_MULTI_LINE_KIND = {
 _SKIP_INLINE = {"note", "figure", "fw", "gap"}
 _SOFT_BREAK = {"lb", "cb"}
 _CHOICE_PREFER = ("reg", "expan", "corr", "orig", "abbr", "sic")
+# Div-family containers. The default `<div>` (TEI all/Basisformat) lives here
+# alongside TEI-Lite's numbered variants `<div1>`..`<div7>`. Containers normally
+# only recurse into children, but if they have direct prose content (TEI-Lite
+# style with text + <milestone/> markers or bare <l> verse lines), we use the
+# mixed-content walker.
+_DIV_LIKE = {"div", "div0", "div1", "div2", "div3", "div4", "div5", "div6", "div7"}
 
 
 _FACS_RE = re.compile(r"#f(\d+)")
@@ -373,6 +379,117 @@ def _emit_multi_line_from_list(lines: list[str], doc_id: str, block_type: str, p
     return out
 
 
+def _div_has_mixed_content(elem) -> bool:
+    """True if this div has prose-style direct content (TEI-Lite signal).
+    We check for: non-whitespace `elem.text`, presence of <milestone> or
+    bare <l> children, or non-whitespace `child.tail` text. A pure
+    container with only <head>/<p>/<div> children (DTA-Basisformat style)
+    returns False — it goes through the standard recurse path."""
+    if (elem.text or "").strip():
+        return True
+    for child in elem:
+        ctag = _tag(child)
+        if ctag in {"milestone", "l"}:
+            return True
+        if (child.tail or "").strip():
+            return True
+    return False
+
+
+def _walk_div_mixed(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
+    """Walk a div whose direct content is prose / verse (TEI-Lite style).
+
+    Children are processed in document order, accumulating text or <l>
+    verse lines into paragraph buffers. Flushes happen at <milestone/>
+    boundaries, <head>/<p>/nested-div boundaries, and at the end.
+
+    Two paragraph kinds are accumulated:
+      - prose: free text between elements, with <milestone/> as soft breaks
+      - verse: runs of consecutive <l> siblings, emitted via
+        `_emit_multi_line_from_list` (one para_id, one row per line)
+    """
+    rows: list[Row] = []
+    text_buf = ""
+    verse_buf: list[str] = []
+
+    def flush_text() -> None:
+        nonlocal text_buf
+        if not text_buf.strip():
+            text_buf = ""
+            return
+        cleaned = _post_process(text_buf)
+        text_buf = ""
+        if not cleaned:
+            return
+        page_at_start = state.get("page_n")
+        para_rows = _emit_rows(
+            cleaned, doc_id, "body", counter["para_id"], state,
+            page_at_start=page_at_start, marks=None,
+        )
+        if para_rows:
+            counter["para_id"] += 1
+            rows.extend(para_rows)
+
+    def flush_verse() -> None:
+        if not verse_buf:
+            return
+        para_rows = _emit_multi_line_from_list(
+            verse_buf, doc_id, "body", counter["para_id"], state,
+        )
+        verse_buf.clear()
+        if para_rows:
+            counter["para_id"] += 1
+            rows.extend(para_rows)
+
+    if elem.text:
+        text_buf = elem.text
+
+    for child in elem:
+        ctag = _tag(child)
+        if ctag == "l":
+            # verse line — terminate any pending prose, accumulate verse
+            flush_text()
+            line_text = _post_process(_inline_text(child, state))
+            if line_text:
+                verse_buf.append(line_text)
+            if child.tail and child.tail.strip():
+                # tail after verse line breaks the verse run and starts prose
+                flush_verse()
+                text_buf = child.tail
+        elif ctag == "milestone":
+            # paragraph boundary in TEI-Lite prose: flush, then capture tail
+            flush_text()
+            flush_verse()
+            if child.tail:
+                text_buf = child.tail
+        elif ctag == "pb":
+            _update_page(child, state)
+            if child.tail:
+                text_buf += child.tail
+        elif ctag == "head" or ctag in _PARA_KIND or ctag in _DIV_LIKE \
+                or ctag in _PARA_MULTI_LINE_KIND or ctag in _ATOMIC_KIND \
+                or ctag == "table":
+            # Structural element — flush buffers, walk it normally, then
+            # capture tail text as start of next prose paragraph.
+            flush_text()
+            flush_verse()
+            rows.extend(_walk(child, doc_id, counter, state))
+            if child.tail:
+                text_buf = child.tail
+        elif ctag in _SKIP_INLINE:
+            if child.tail:
+                text_buf += child.tail
+        else:
+            # Generic inline (hi, emph, foreign, name, etc.): keep prose flowing
+            text_buf += _inline_text(child, state)
+            if child.tail:
+                text_buf += child.tail
+
+    flush_text()
+    flush_verse()
+    return rows
+
+
 def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
     rows: list[Row] = []
     tag = _tag(elem)
@@ -528,6 +645,12 @@ def _walk(elem, doc_id: str, counter: dict, state: dict) -> list[Row]:
             header_next = False
     elif tag in _SKIP_INLINE:
         pass
+    elif tag in _DIV_LIKE:
+        if _div_has_mixed_content(elem):
+            rows.extend(_walk_div_mixed(elem, doc_id, counter, state))
+        else:
+            for child in elem:
+                rows.extend(_walk(child, doc_id, counter, state))
     else:
         for child in elem:
             rows.extend(_walk(child, doc_id, counter, state))
