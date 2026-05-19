@@ -1,0 +1,18 @@
+# Linguist: committed corpus content (source HTML/XML + built CSV + auxiliary
+# manifests/dicts) is upstream data, not project code. Marked vendored so
+# GitHub's language statistics reflect the analysis package under voynpy/
+# rather than the bulk of pristine source text.
+
+corpora/**/*.html  linguist-vendored
+corpora/**/*.xml   linguist-vendored
+corpora/**/*.csv   linguist-vendored
+corpora/**/*.txt   linguist-vendored
+corpora/**/*.json  linguist-vendored
+corpora/**/*.dic   linguist-vendored
+
+# Voynich transcription is research artifact, not source code
+transcription/*.csv   linguist-vendored
+transcription/*.json  linguist-vendored
+
+# Notebooks (if ever committed) — not part of the analysis package
+*.ipynb            linguist-vendored
