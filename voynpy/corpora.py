@@ -750,13 +750,30 @@ def _load_eebo():
     return rt
 
 
-# dta: combined RefText across all corpus_build-pipeline DTA texts.
-# Also exposed as `german` — so `from voynpy.corpora import german` yields
-# the full DTA corpus (same instance). The older hand-coded aggregate is
-# `german_legacy`.
+# Luther Bibel 1545 (Zeno.org; Gemeinfrei). The complete 1545 Bible —
+# 66+ books OT/NT/Apocrypha plus Luther's prefaces — at ~850k tokens.
+@_register('luther_bible_1545')
+def _load_luther_bible_1545():
+    path = _root / 'corpora/german/zeno/luther_bible_1545/luther_bible_1545.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
+# `german` aggregate: DTA German + Luther Bibel 1545 (combined ~2.3M tokens
+# across both corpus_build pipelines). The standalone `dta` loader remains
+# DTA-only for DTA-specific statistics; `luther_bible_1545` likewise stands
+# alone. The older hand-coded aggregate is `german_legacy`.
 @_register('german')
 def _load_german():
-    return _get('dta')
+    dta_rt = _get('dta')
+    lb_rt = _get('luther_bible_1545')
+    lb_df = lb_rt.df.copy()
+    lb_df['doc'] = 'luther_bible_1545'
+    lb_df = lb_df[['doc', 'idx', 'par', 'line', 'par_end', 'textstring']]
+    tklist = list(dta_rt.tklist) + list(lb_rt.tklist)
+    charlist = list(''.join(tklist))
+    rt = reftext.RefText('german', tklist, charlist)
+    rt.df = pd.concat([dta_rt.df, lb_df], ignore_index=True)
+    return rt
 
 
 # DBNL Dutch texts. Each text has its own loader; aggregates `dbnl` and
