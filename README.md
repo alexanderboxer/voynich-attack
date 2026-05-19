@@ -55,8 +55,8 @@ See [`transcription/LICENSE`](transcription/LICENSE) for terms (CC-BY 4.0).
 | Language | Source | Texts | Tokens |
 |---|---|---:|---:|
 | **Latin** | Corpus Corporum (UZH) + Perseus classical | 70 | 4,388,030 |
+| **German** | Deutsches Textarchiv (DTA) + Luther Bibel 1545 (Zeno.org) | 57 | 2,312,923 |
 | **Dutch** | Digitale Bibliotheek voor de Nederlandse Letteren (DBNL) | 12 | 1,704,699 |
-| **German** | Deutsches Textarchiv (DTA) | 56 | 1,462,043 |
 | **English** | EEBO-TCP | 10 | 511,725 |
 | **Voynich** | own transcription | 1 | 33,669 |
 
