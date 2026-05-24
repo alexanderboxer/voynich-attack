@@ -1010,13 +1010,27 @@ def _load_latin_corpus_corporum():
     return rt
 
 
+@_register('ellis_1854')
+def _load_ellis_1854():
+    """Ellis 1854 *Medical Formulary* — apothecary recipes.
+
+    Sentence-level CSV matches `voynpy.corpus_build.schema` with an
+    extra `heading` column. Each Ellis recipe is one paragraph (para_id);
+    each line of a recipe is one sentence (sent_id).
+    """
+    path = _root / 'corpora/latin/apothecary/ellis_1854/ellis_1854.csv'
+    return reftext.from_corpus_build_csv(path, language='latin')
+
+
 # `latin` = Corpus Corporum (67 texts) + classical legacy (Caesar, Vitruvius,
-# Celsus). The legacy Pliny is intentionally omitted: CC includes the same
-# Naturalis historia as cc_plinius_naturalis_historia, and that edition is
-# preferred (corpus_build pipeline, structural metadata).
+# Celsus) + Ellis 1854 apothecary recipes. The legacy Pliny is intentionally
+# omitted: CC includes the same Naturalis historia as
+# cc_plinius_naturalis_historia, and that edition is preferred (corpus_build
+# pipeline, structural metadata).
 @_register('latin')
 def _load_latin():
     cc = _get('latin_corpus_corporum')
+    ellis = _get('ellis_1854')
     # Harmonize legacy classical .df into corpus_build schema so the combined
     # .df has one consistent column layout.
     def _legacy_to_corpus_build(rt, doc_name):
@@ -1034,10 +1048,11 @@ def _load_latin():
     ]
     legacy_tklist = [t for _, rt in legacy_parts for t in rt.tklist]
     legacy_dfs = [_legacy_to_corpus_build(rt, name) for name, rt in legacy_parts]
-    tklist = list(cc.tklist) + legacy_tklist
+    ellis_df = ellis.df.assign(doc='ellis_1854')[['doc', 'idx', 'par', 'line', 'par_end', 'textstring']]
+    tklist = list(cc.tklist) + legacy_tklist + list(ellis.tklist)
     charlist = list(''.join(tklist))
     rt = reftext.RefText('latin', tklist, charlist)
-    rt.df = pd.concat([cc.df, *legacy_dfs], ignore_index=True)
+    rt.df = pd.concat([cc.df, *legacy_dfs, ellis_df], ignore_index=True)
     return rt
 
 
