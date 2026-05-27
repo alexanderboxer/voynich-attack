@@ -33,12 +33,13 @@ underlying sentence-level data.
 
 ## What's in here
 
-- **`voynpy/`** — the analysis package. `RefText` class, lazy corpus
-  registry (`voynpy.corpora`), n-gram frequency methods, and a TEI/XML
-  parsing pipeline (`voynpy.corpus_build`) for adding new reference texts.
 - **`transcription/`** — the Voynich transcription. See below.
 - **`corpora/`** — reference texts in various languages, packaged as
   sentence-level CSVs with regenerable build scripts.
+- **`voynpy/`** — the analysis package. `RefText` class, lazy corpus
+  registry (`voynpy.corpora`), n-gram frequency methods, and a TEI/XML
+  parsing pipeline (`voynpy.corpus_build`) for adding new reference texts.
+- **`voynpy.pseudo_vms`** — symbol-sequence cipher generator (see [package README](voynpy/pseudo_vms/README.md)).
 
 ## The Voynich transcription
 
