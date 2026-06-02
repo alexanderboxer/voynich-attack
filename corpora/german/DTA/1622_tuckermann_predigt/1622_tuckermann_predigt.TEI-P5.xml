@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Eine Predigt Von unsers Herrn unnd Heylandes Jesu Christi Hohenpriesterlichen Ampt/ und deß Menschen Gewissen/ unnd wie dasselbige durch Christi Blut gereiniget werde</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124599281">
+<surname>Tuckermann</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/485-2-theol-1s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/485-2-theol-1s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">40</measure>
+<measure type="tokens">8405</measure>
+<measure type="types">2222</measure>
+<measure type="characters">53891</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:31Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/tuckermann_predigt_1622</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/tuckermann_predigt_1622</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/tuckermann_predigt_1622</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/tuckermann_predigt_1622</idno>
+<idno type="DTADirName">tuckermann_predigt_1622</idno>
+<idno type="DTAID">30298</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30298-7</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Tuckermann, Peter: Eine Predigt Von unsers Herrn unnd Heylandes Jesu Christi Hohenpriesterlichen Ampt/ und deß Menschen Gewissen/ unnd wie dasselbige durch Christi Blut gereiniget werde. Wolfenbüttel, 1622.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Eine Predigt Von unsers Herrn unnd Heylandes Jesu Christi Hohenpriesterlichen Ampt/ und deß Menschen Gewissen/ unnd wie dasselbige durch Christi Blut gereiniget werde</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124599281">
+<surname>Tuckermann</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Holwein</name></publisher>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1622</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main"><figure/><lb/>
+<docTitle><titlePart type="main">Eine Predigt<lb/>
+VOn vnsers HErrn vnnd <lb/>
+Heylandes JEsu Christi<lb/>
+Hohenpriesterlichen Ampt/<lb/>
+vnd
+deß Menschen Gewissen / vnnd <lb/>
+wie dasselbige durch Christi<lb/>
+Blut gereiniget
+werde.<lb/>
+</titlePart></docTitle>
+<byline>  Gethan <lb/>
+Am Stillen Freytag<lb/>
+Von <lb/>
+<docAuthor><hi rendition="#aq">M. Petro</hi> Tuckerman</docAuthor>/ Hoffprediger. <lb/>
+<hi rendition="#g">1622</hi>.<lb/>
+</byline>
+<docImprint>Gedruckt zu <pubPlace>Wolffenbüttel</pubPlace><lb/>
+Durch <publisher>Eliam Hollwein</publisher> / F: Br:<lb/>
+Buchdrucker
+daselbst.<lb/>
+</docImprint></titlePage>
+<pb facs="#f0002"/>
+</front><body>
+<pb facs="#f0003"/>
+<div>
+<head>Text: Zun Ebreern am 9. Cap.<lb/>
+</head>
+<p>DA nun solches alles zugerichtet war / giengen die Priester allezeit in die
+fördersten Hütten / vnd richteten aus den GOttes Dienst. In die ander aber /
+gieng nur einmal im Jahr alleine der Hohepriester nicht ohn Blut / daß er
+opfferte für sein selbst / vnnd deß Volcks Vnwissenheit. Damit der heylige Geist
+deutet / daß noch nicht offenbart were der Weg zur Heyligkeit / so lange die
+erste Hütte stünde / welche muste zur selbigen Zeit ein Fürbilde seyn / In
+welcher Gaben vnnd Opffer geopffert würden / vnnd könten nicht vollkommen machen
+nach dem Gewissen / den / der da GOttes Dienst thut / allein mit Speiß vnd
+Tranck / vnd mancherley Tauffe vnd eusserlicher Heyligkeit / die biß auff die
+zeit der besserung sind auffgelegt.</p>
+<pb facs="#f0004"/>
+<p>Christus aber ist kommen / daß er sey ein Hoherpriester der zukünfftigen Güter /
+durch eine grössere vnd vollkomnere Hütten / die nicht mit der Hand gemacht ist
+/ das ist / die nicht also gebawet ist. Auch nicht durch der Böcke oder Kälber
+Blut / sondern er ist durch sein eigen Blut / einmal in das heylige eingegangen
+/ vnnd hat eine ewige Erlösung erfunden.</p>
+<p>Denn so der Ochsen vnnd der Böcke Blut / vnnd die Aschen von der Kuhe gesprenget
+/ heyliget die Vnreinen / zu der leiblichen Reinigkeit / wie viel mehr wird das
+Blut Christi / der sich selbst ohn allen Wandel / durch den heyligen Geist /
+GOtt geopffert hat / vnser Gewissen reinigen von den Todten Wercken / zu dienen
+dem lebendigen GOTT.</p>
+<pb facs="#f0005"/>
+<p>DEr hentige Tag wird genant der Stille Freytag / denn als heute ist eine grosse
+Stille worden im Himmel / durch Christi Todt ist gestillet der Zorn GOttes /
+Röm. 5 der vber vns hette ewig sollen donnern vnd blitzen: Als heute ist eine
+grosse Stille worden in der Helle / denn Christus durch seinen Todt / vnd
+Hellefahrt dieselbe zerstöret / vnd ist jhr eine Pestilentz worden / Oseae 13.
+Als heute ist eine grosse Stille worden auff Erden bey den Jüden den Feinden
+Christi / denn da dieselben sehr vnruhig gewesen / vnd das crucifige, Creutzige
+/ Creutzige vber Christum geschryen / so sind sie nach Christi Todt gestillet:
+Als heute ist auch eine grosse Stille worden bey Christo / den&#x0303; nach dem
+er am Stam&#x0303; deß Creutzes die sieben Wort geredt / ist er Stille worden
+vnd verschieden / seine Seele ist auch in der Stille / in deß Vaters Handt auff
+genommen / vnd sein Leib in der Stille ins Grab gelegt / vnnd zu ruhe kommen.
+Vnd wenn man jhme recht nachdencket / so ist / so lang die Welt gestanden / kein
+schrecklicher / vnd dagegen auch kein tröstlicher vnd nützlicher Tag erschienen
+vnd gewesen. Der allerschrecklichste Tag ists / denn Christus JEsus hieran am
+Holtz zum Fluch worden / Gal. 3. Vnd ist der Fürst deß Lebens getödtet / Act. 3.
+Der HErr der Herrligkeit gecreutziget / 1. Cor. 2. Vnd GOtt gestorben / welches
+/ ob es wol der Vernunfft zu hoch vnd zu wieder / so ists doch Göttliche Warheit
+/ den&#x0303;
+<pb facs="#f0006"/>
+wie GOtt warhafftig Mensch worden / so ist
+auch Gott warhafftig gestorben / denn da Christus stirbet / stirbet eine solche
+Persohn / die nicht allein Mensch / sondern auch GOtt ist: Wie wir im 2.
+Artickel vnsers Christlichen Glaubens bekennen: Ich glaube / das JEsus Christus
+(GOttes vnd Marien Sohn) gelitten / gecreutziget vnd gestorben. Wer könte doch
+etwas schrecklichers erdencken / denn daß der gerechte / heylige / ewige GOTT
+zum Fluch wird / leydet vnd stirbt? Der allerschrecklichste Tag ist er auch den
+Teuffeln / denn da die Hellische Schlange hieran Christum in die Fersen
+gestochen / so hat er jhr wiederumb den Kopff zutreten / Gen. 3. jhre Wercke
+zerstöret / 1. Johan. 3. vnnd sie mit Ketten der Finsterniß gebunden / daß sie
+zur Helle verstossen vnnd vbergeben / vnnd zum Gericht soll behalten werden / 2.
+Pet. 2. Der tröstliche vnd nützlichste Tag aber ist dieser Tag vns Menschen /
+denn in dem Christus hieran zum Fluch worden / hat er vns vom Fluch erlöset /
+Gal. 3. vnd den Segen wieder gebracht / in dem er gelitten vnnd gestorben / hat
+er durch seinen Todt dem Todt die Macht genommen / vnd das Leben / vnnd ein
+vnvergänglich Wesen ans Liecht gebracht / 2. Tim. 1. Ja er hat durch seinen Todt
+die Macht genommen dem der deß Todts Gewalt hatte / das ist / dem Teuffel / vnd
+hat erlöset die / so durch Furcht deß Todtes im gantzen Leben Knechte sein
+musten / Ebre. 2. Heut ist erfüllet / was wir singen: Wie vns nu hat ein frembde
+Schuld /
+<pb facs="#f0007"/>
+in Adam all verhönet / also hat vns ein frembde
+Huld / in Christo all versönet / vnd wie wir all durch Adams Fall / sind ewiges
+Todts gestorben / also hat Gott durch Christi Todt / vernewt das war verdorben.
+Derwegen sollen wir billich heute alle auff vnsere Knie fallen / vnnd dem HErrn
+JEsu Christo für solch sein bitter Leyden vnnd Sterben von Hertzen Grund Lob
+vnnd Danck sagen. Von demselben Leyden vnd Sterben Christi / vnd dessen grossen
+Nutzen wird nu gehandelt in jetz verlesenen Worten / aus dem 9. Cap. der Epistel
+an die Ebreer genom&#x0303;en / darinnen wird vermeldet / daß Christus der
+Hohepriester sein eigen Blut vergossen / vnd sich selbst ohn Wandel GOtt
+geopffert / welches als heute am Stillen Freytage geschehen. Wollen derwegen im
+Namen GOttes den Text zu erklären für vns nem&#x0303;en / darinnen eine
+Vergleichung angestelt wird / zwischen dem Hohenpriester deß Alten / vnd Christo
+dem Hohenpriester deß newen Testaments / vnd wird gezeiget / wie viel besser
+dieser sey als jener. 2. Werden auch gegen einander gehalten / die Opffer vnd
+Blut deß Alten Testaments vnnd Christi Opffer vnd Blut / vnd wird berichtet /
+was wir hievon für grossen Nutzen haben. Hierzu verleyhe vns GOtt der Vater die
+Gnad / deß heyligen Geistes vmb JEsu Christi seines Sohns willen. Amen.</p>
+<pb facs="#f0008"/>
+</div>
+<div>
+<head>Vom Ersten.<lb/>
+</head>
+<p>BEtreffent das Erste / so ist ein grosser vnterscheid vnd vngleichheit zwischen
+dem Hohenpriester deß Alten / vnnd zwischen Christo dem Hohenpriester deß newen
+Testaments / denn erstlich sind die Persohnen vngleich: Der Hohepriester deß
+Alten Testaments ist nur ein blosser sterblicher / ja sündlicher Mensch gewesen
+/ wie sich am ersten vnd fürnembsten Hohenpriester Aaron außgewiesen / der vnter
+andern darin gröblich geirret / daß er den Kindern Israel ein Kalb gegossen /
+vnnd damit zur Abgötterey Vrsach gegeben / Exod. 32. Darvmb er auch nicht hat
+können ins gelobte Land kommen / sondern hat in der Wüsten sterben müssen. Vnd
+daher hat der Hohepriester deß Alten Testaments vorher allezeit für seine selbst
+eigene Sünde vnd Vnwissenheit opffern müssen / vnd darnach für deß Volcks / wie
+in verlesenen Worten bekandt wird: Christus aber der Hohepriester deß newen
+Testaments ist zwar auch wol Mensch / aber zugleich GOtt vber alles gelobt in
+Ewigkeit / Röm. 9. Vnnd hat nicht zu erst dürffen für seine Sünde opffern / denn
+er keine Sünde gehabt noch gethan / Lut. 1. sagt der Engel zu Maria: Das Heylige
+daß von dir geboren wird / etc. Johan. 8. spricht er selber: Welcher vnter euch
+kan mich einer Sünde zeihen? 1. Pet. 2. Er hat keine Sünde gethan / ist auch
+kein Betrug in seinem Mund erfunden: 2. Cor. 5. er hat von keiner
+<pb facs="#f0009"/>
+Sünde gewust. Vnd das hat sein müssen / sonsten hette er vns
+von Sünden nicht können helffen: Davon Ebrer. 7. zu lesen: Einen solchen
+Hohenpriester solten wir haben / der da were heylig / vnschüldig / vnbefleckt /
+von den Sünden abgesondert / vnd höher dann der Himmel ist / dem nicht täglich
+noht were / wie jenen Hohenpriestern / so zu erst für seine eigene Sünde Opffer
+zu thun / darnach für deß Volcks Sünde / denn das hat er gethan einmal / da er
+sich selbst opffert / denn das Gesetz macht Menschen zu Hohenpriestern / die da
+Schwachheit haben / diß Wort aber deß Eydes / daß nach dem Gesetz gesagt ist /
+setzet den Sohn ewig vnd vollkommen. Darumb haben wir vns der Vnschuld /
+Heyligkeit / Gerechtigkeit vnd Vollkommenheit vnsers Hohenpriesters JEsu Christi
+von Hertzen zuerfrewen / denn sie kommet vns zum besten / er ist vns gemacht von
+GOtt zur Gerechtigkeit vnd zur Heyligung 1. Cor. 1. Vnd GOtt hat denen / der von
+keiner Sünde wuste / für vns zur Sünde gemacht / auff daß wir würden in jhm der
+Gerechtigkeit / die für GOtt gilt / 2. Cor. 5.</p>
+<p>Zum Andern ist ein grosser Vnterscheid vnd Vngleichheit zwischen dem
+Hohenpriester deß Alten / vnnd Christo dem Hohenpriester deß newen Testaments
+der Opffer halben. Der Hohepriester deß Alten Testaments hat Viehische Opffer
+verrichtet / als Farren / Widder / Lämmer / Kälber / Tauben vnnd dergleichen /
+vnnd hat frembd Blut vergossen: Aber Christus der
+<pb facs="#f0010"/>
+Hohepriester deß newen Testaments hat nicht von Vieh ein Opffer gethan / sondern
+hat sich selbst GOtt seinem Him&#x0303;lischen Vater geopffert / wie in vnserm
+Text stehet / vnd hat sein eigen Blut vergossen: Im 7. Cap. dieser Epistel wird
+dasselbige auch bekandt / er hat sich selbst geopffert: Vnd in verlesenen Worten
+/ Er ist nicht durch der Böcke oder Kälber Blut / sondern durch sein eigen Blut
+eingegangen: 10. Cap. Darumb da er in die Welt kommet / spricht er / Opffer vnnd
+Gaben hastu nicht gewolt / den Leib aber hastu mir zubereitet / nemblich zum
+Opffer: Vnd aber mal am selbige&#x0303; Ort: Wir sind geheyliget /
+geschehe&#x0303; / durch das Opffer deß Leibes Jesu Christi: 1. Pet. 2. Er hat
+vnser Sünde selbst an seinem Leibe auff dem Holtz geopffert: Vnd Eph. 5.
+Christus hat sich selbst dar gegeben für vns zur Gabe vnd Opffer GOtt zu einem
+süssen Geruch. Damit ohn allen zweiffel zurück gesehen wird in das 9. Cap. deß
+ersten Buchs Mosis / da wir lesen / daß Noah / nach dem er aus dem Kasten kommen
+/ von allerley reinem Vieh / vnd von allerley reinem Gerögel genommen / vnd
+Brandopffert geopffert / vnnd der HErr habe den lieblichen Geruch gerochen / vnd
+in seinem Hertzen gesprochen: Ich wil die Erde hinfort nicht mehr verfluchen vmb
+der Menschen willen: Also da Christus sich selbst geopffert / hat GOtt der
+Him&#x0303;lische Vater den rechten lieblichen Geruch davon gerochen / vnd
+empfunden / vnd deß halben zugesagt / dem armen Menschlichen Geschlecht vmb
+solcheß ange-
+<pb facs="#f0011"/>
+nemen thewren Opffers willen Gnad zu beweisen.
+Es ist aber mit der Auffopfferung Christi so bald vnd liederlich nicht zugangen
+/ wie mit Viehischem Opffer. Zu geschweigen seines gantzen Lebens / welches ein
+stetes Leyden vnd Auffopfferung gewesen / vnd allein dieser Marter wochen
+zugedencken / so hat er darinnen viel außstehen müssen: Im Garten am Oelberg hat
+er für Gottes Gericht blutigen Schweiß geschwitzet / sein Seele ist betrübt
+worden / biß in den Todt / ja mit dem Todt hat er gerungen: Ist von seinem
+Jünger dem Juda verrahten / vnd von Feinden gebunden worden. Für dem
+Hohenpriester hat er einen Backenstreich müssen für lieb nemen / vnnd sich für
+einen GOttes Lästerer lassen außruffen / vnd was sich mehr zugetragen. Der
+Weltliche Richter Pilatus hat jhn zu geisseln vbergeben / mit einer Dornen Kron
+lassen krönen / vnd so vbel zurichten / daß er selbst muß beken&#x0303;en vnd
+sagen / sehet / welch ein Mensch: Darauff ist er hinaus geführet / an Händen vnd
+Füssen durchgraben / als ein Fluch zwischen Himmel vnd Erden an ein Holtz
+gehangen / vnd getödtet: Der Zorn GOttes hat jhn gedrücket / die Last der Sünden
+beschweret / jhm ist zu Sin&#x0303; gewesen / als wenn GOtt der
+Him&#x0303;lische Vater die Hand gantz abgezogen hette / wie er klagt / mein
+GOtt / mein GOtt warumb hastu mich verlassen? Stricke deß Todtes haben jhn
+vmbfangen / vnd Angst der Hellen hat jhn troffen / er ist kommen in Jammer vnd
+Noht Psal. 116. Summa, es stehet nicht alle
+<pb facs="#f0012"/>
+außzusprechen /
+was für Leyden vber jhn ergangen. So viel hats jhn gekostet / vnser Heyl wieder
+zubringen / vnd ein solch Opffer hat er verrichten müssen: Daher wir singen: Aus
+dem Todt wir könten / durch vnser eigen Werck / nimmer werden errettet / die
+Sünde war zu starck / daß wir würden erlöset / so könts nicht anders seyn / denn
+GOttes Sohn must leyden / deß Todtes bitter Pein.</p>
+<p>Zum Dritten ist ein grosser Vnterscheidt vnd Vngleichheit deß Orts halben: Der
+Hohepriester deß Alten Testaments hat geopffert auffm geweiheten Altar / im
+heiligen Tempel zu Jerusalem / da GOtt Fewr vnd Herd gehabt / Esai. 31. Vnd ist
+darauff in das allerheyligste / einen besondern Ort im Tempel eingegangen / da
+sonsten niemand hat dörffen hinkommen: Es ist aber der Tempel vnd das
+allerheyligste mit Händen gemacht gewesen / vnd zuletzt verheret vnd verderbet /
+da die Stad Jerusalem in die Asche gelegt worden. Christus aber der Hohepriester
+deß newen Testaments hat viel einen andern Ort gehabt zu seinem Opffer. Der
+Altar ist gewesen sein Creutz / vnd ist damit erfüllet das schöne Bild Gen. 22.
+Da Isaac ist auff das Holtz gelegt worden / welches er den Berg Morya hinan
+getragen: Das ist vns zum besten geschehen / denn er damit ein Fluch für vns
+worden / vnd hat vns vom Fluch deß Gesetzes erlöset / Gal. 3. Christus hat vns
+erlöset von dem Fluch deß Gesetzes / da er ward ein Fluch für vns / (denn es
+stehet
+<pb facs="#f0013"/>
+geschrieben / verflucht sey jederman der am Holtz
+hanget) auff daß der Segen Abrahe vnter die Heyden keme in Christo JEsu. Der
+Tempel ist gewesen die Schedelstedt: Für der Welt ein abschewlicher /
+schendlicher vnd vnehrlicher Ort / aber wir sind es auch trefflich gebessert /
+denn da wir kein ehrlich Begräbniß haben / sondern wie ein Esel mit Jojakim
+Jerem. 22. hetten sollen begraben werden / ja auff der Schindkuhl vnd
+Schedelstedt der Hellen hetten ein ewig Grewel sein sollen / Esai. 66. so hat
+Christus solche Schmach auff sich genommen / vnsere Gräber geheiliget vnd
+ehrlich gemacht / vnd vns von dem ewigen Grewel errettet / vnd ist dar auff in
+das allerheyligste eingegangen / daß Allerheyligste ist der Himmel / das ist der
+rechte heyligste Ort / dar ein nicht jrgend ein gemeines / vnd das da Grewel
+thut / vnd Lügen / hineingehen wird / Apoc. 21. Das Allerheyligste ist nicht mit
+Händen gemacht / wird auch in Ewigkeit nicht abgebrochen noch verheret können
+werden / davon in verlesenem Text stehet / Christus ist kommen daß er sey ein
+Hoherpriester der zukünfftigen Güter durch eine grössere vnd
+vollkom&#x0303;enere Hütten / die nicht mit der Hand gemacht ist / das ist / die
+nicht also gebawet ist: Vnd 2. Cor. 5. Wir wissen / so vnser Irdisch Hauß dieser
+Hütten zubrochen wird / daß wir einen Baw haben von GOtt erbawet / ein Hauß
+nicht mit Händen gemacht / das ewig ist im Himmel. Vnnd wie kein Mensch in das
+Allerheyligste ohn den Hohenpriester hat gehen dürffen / so
+<pb facs="#f0014"/>
+hette auch kein Mensch in das Allerheyligste / das ist / in den Himmel gehen
+dürffen noch können / ohn allein der Hohepriester Christus / Johan. 3. Niemand
+fehret gen Himmel / denn der vom Himmel kommen ist / deß Menschen Sohn / der im
+Himmel ist: Aber in dem Christus der Hohepriester deß newen Testaments gelitten
+/ gestorben / aufferstanden vnd gen Himmel gefahren / hat er vns einen Zugang
+darzu gemacht: Johan. 14. In meines Vaters Hause sind viel Wohnungen / wenns
+nicht so wehre / so wolte ich zu euch sagen / ich gehe hin / euch die Stette
+zubereiten / vnd ob ich hingienge euch die Stette zu breiten / wil ich doch
+wieder kommen / vnd euch zu mir nemen / auff das jhr seyd / wo ich bin: Johan.
+17. Vater ich wil / daß wo ich bin / auch die sind / die du mir hast / daß sie
+meine Herrligkeit sehen / Röm. 5. Durch Christum haben wir einen Zugang im
+Glauben: Ephes. 2. Durch jhn haben wir den Zugang alle beyde in einem Geiste zum
+Vater: Vnd 3. Cap. Durch welchen wir haben Frewdigkeit vnd Zugang in aller
+Zuversicht durch den Glauben an jhn. Daher an diesem Tage bey der Creutzigung
+Christi der Fürhang fürm Allerheyligsten von oben an biß vnten aus / solches
+zubedeuten vnd anzuzeigen / zurissen ist. Der Durchbrecher ist hindurch
+gebrochen / vnd für vns herauff gefahren / vnd wir werden auch durch brechen /
+Michae. 2. Derwegen ob wir wol allhie / so lang wir im Leibe wallen / arme
+Pilgrim vnd Gäste seyn / so sein wir doch droben im Himmel /
+<pb facs="#f0015"/>
+in dem Allerheyligsten Bürger / vnd vnser Wandel ist im Himmel Phil. 3. Vnd sein
+nu nicht mehr Gäste vnd Frembdlinge / sondern Bürger mit den Heyligen vnnd
+GOttes haußgenossen Ephes. 2. dessen wir vns von Hertzen zuerfrewen haben.</p>
+<p>Zum Vierdten ist ein grosser Vnterscheidt vnnd Vngleichheit der zeit halben: Die
+Priester deß Alten Testaments sein allezeit in den Tempel gangen / den Gottes
+dienst zuverrichten / aber nur einmal deß Jahrs ist der Hohepriester in das
+Allerheyligste gegangen / das hat er alle Jahr wiederholen vnd in acht nemen
+müssen: Davon in verlesenem Text die Wort also lauten: Da nu solches alles
+zugericht war / giengen die Priester allezeit in die fördersten Hütten / vnd
+richteten aus den GOttes Dienst. In die ander aber gieng nur einmal im Jahr
+alleine der Hohepriester nicht ohn Blut / daß er opfferte für seine selbst vnd
+deß Volcks Vnwissenheit. Damit der heylige Geist deutet / daß noch nicht
+offenbart were der Weg zur Heyligkeit / so lang die erste Hütte stünde / welche
+muste zur selbigen zeit ein Fürbilde seyn / in welcher Gaben vnd Opffer
+geopffert würden / vnd könten nicht vollkommen machen nach dem Gewissen / denn
+der da GOttes Dienst thut / alleine mit Speiß vnd Tranck / vnd mancherley Tauffe
+vnd eusserlicher Heyligkeit / die biß auff die zeit der besserung sind
+auffgelegt. Christus aber der Hohepriester deß newen Testaments hat nicht alle
+Jahr mit seinem Blut dürffen eingehen / sondern wie hie bezeuget wird / er ist
+durch sein
+<pb facs="#f0016"/>
+eigen Blut einmal in das Heylige eingegangen: An
+dem ists gnug gewesen / wie auch im nach folgenden 10. Cap. geschrieben stehet:
+Ein jglicher Priester ist eingesetzt / daß er alle Tage GOttes Dienst pflege /
+vnd offtmals einerley Opffer thut / welche nimmermehr könten die Sünde abnemen:
+Dieser aber da er hat ein Opffer für die Sünde geopffert / daß ewiglich gilt /
+sitzet er nu zur Rechten GOttes / vnd wartet hinfort / biß das seine Feinde zum
+Schemel seiner Füsse gelegt werden. Den&#x0303; mit einem Opffer hat er in
+Ewigkeit vollendet die geheyliget werden. Ist derwegen ein schrecklich Grewel im
+Pabstumb / daß sie in allen jhren Messen Christum vermeinen abermahl zu opffern
+/ welches sie sacrificium incruentum ein Opffer ohn Blut nennen / weil das
+blutige Opffer am Creutz geschehen. Davon GOttes Wort gantz nichts weiß / vnnd
+ist dasselbige dem Opffer / das Christus einmahl verrichtet verkleinerlich / als
+wenn dasselbe nicht gnugsam vollkommen wehre. Wer von solchem Grewel mehr zu
+wissen begehret / der kans bey andern / die davon weitleufftig geschrieben /
+lesen. Wir sollen dafür trewlich gewarnet seyn / vnd vns an das eine Opffer /
+damit er in Ewigkeit vollendet hat die geheyliget werden / mit wahrem Glauben
+halten / vnnd vns daran lassen gnügen / so werden wir nicht zu kurtz kommen.</p>
+<p>Zum Fünfften ist ein grosser vnterscheidt deß Hohenpriesterlichen Schmucks
+halben. Wenn die Aaronische Priester jhre Opffer verrichtete&#x0303; / so hatten
+sie einen
+<pb facs="#f0017"/>
+sonderlichen Priestertichen Schmuck an / davon
+Exod. 28. zulesen / Du solt Aaron heylige Kleyder machen / die herrlich vnd
+schön seyn / etc. den Leib Rock sollen sie machen von Gold / geler Seyden /
+Scharlaken / Rosinrot / vnd gezwirneter weisser Seyden / etc. Item / das
+Stirnblat von feinem Golde / vnd außgegraben / wie man die Siegel außgräbt / die
+Heyligkeit deß HErrn / vnd solts hefften an eine Schnur / fornen an den Huet /
+auff der Stirn Aaron / daß also Aaron trage die Missethat deß Heyligen / daß die
+Kinder Israel heyligen in allen Gaben jhrer Heyligung / vnd es sol allwege an
+seiner Stirn seyn / daß er sie versüne dem HErrn / etc. Christus der
+Hohepriester deß newen Testaments hat zwar solchen eusserlichen herrlichen
+Schmuck vnd Kleider nicht an gehabt / da er als heute am Stillen Freytage sein
+Opffer verrichtet / denn da ist jhm sein Rock außgezogen / ein Purpurmantel
+vmbgehengt / vnd wieder sein Rock angelegt worden / vmb welchen die
+Kriegsknechte beym Creutz das Loß geworffen / vnd er also nackt vnnd bloß hat
+hangen müssen: Aber für GOtt vnd allen heyligen Engeln hat er den rechten
+Hohenpriesterlichen Schmuck angetragen / Vnschuld vnd Gerechtigkeit / vnd ein
+Rosinfarb Kleyd / denn sein thewr Blut jhm vbern gantzen Leib geflossen: In dem
+Kleyde hat jhn Esaias lang zuvor im Geist gesehen / 63 Cap. Wer ist der / so von
+Edom kom&#x0303;et / mit rötlichen Kleydern von Batzra? der so geschmücket ist
+in seinen Kleydern / vnd einher tritt in seiner
+<pb facs="#f0018"/>
+grossen
+Krafft? Ich bins / der Gerechtigkeit lehret / vnd ein Meister bin zuhelffen.
+Warumb ist denn dein Gewand so rotfarb / vnd dein Kleyd wie eines Keltertretter?
+Ich trete die Kelter allein / vnnd ist niemand vnter den Völckern mit mir. Ich
+hab sie gekeltert in meinem Zorn / vnd zutreten in meinem Grim&#x0303; / daher
+ist jhr Vermügen auff meine Kleyder gesprützt / vnd ich habe all mein Gewand
+besuddelt / etc. Damit hat Christus vns / die wir durch den Sündenfall das
+Ehrenkleyd verlohren / ein statlich Priesterlich Kleyd erworben / Vnschuld /
+Gerechtigkeit vnd Heyligkeit / welches Priesterlichen Kleydes sich Esaias von
+Hertzen erfrewet 61. Cap. Ich frewe mich im HErrn / vnd meine Seele ist frölich
+in meinem GOtt / denn er hat mich angezogen mit Kleydern deß Heyls / vnd mit dem
+Rock der Gerechtigkeit gekleydet. wie einen Breutigam mit Priesterlichen Schmuck
+gezieret / vnd wie eine Braut in jhrem Geschmeide berdet.</p>
+<p>Wie auch der Hohepriester auff seinem Haupt ein Stirnblad getragen / auff welchem
+gegraben gewesen die Heyligkeit deß HErrn / das ist der heylige Nahme GOttes
+Jehovah: So ist auch Christo dem Hohenpriester an stat deß Stirnblads zu seinen
+Häupten gehefftet worden / in dreyen vnterschiedenen Sprachen die Vberschrifft /
+JEsus von Nazareth der Juden König / das ist sein rechter heyliger Nahme / vnd
+obwol Pilatus den Juden damit einen heimlichen Verdrieß vnd Schande anthun
+wollen / welches sie wol gemerckt / darumb sie
+<pb facs="#f0019"/>
+darwieder
+gewesen vnd gesagt / schreib nicht der Juden König / sondern daß er gesagt hat /
+er sey der Juden König / so hat doch GOtt viel weiter mit diesem in dreyen
+Sprachen geschriebenen Stirnblad vnd Titel gesehen / den er wolte damit
+zuverstehen geben / es würde der Todt seines Sohns berühmbt vnd außgebreitet in
+aller Welt / vnd allen Völckern dieser gecreutzigter JEsus / der vorlengst den
+Juden verheissen / verkündiget werden. An stat deß Stirnblats hat auch Christus
+getragen die Dörnen Krone / vnnd vns damit die Kron deß Lebens Apoc. 2. Die Kron
+der Ehren / 1. Pet. 5. Die Kron der Gerechtigkeit / 2. Tim. 4. erworben. Am
+Himmelfahrts Tage aber / da er eingangen in das Allerheyligste / nicht mit
+Händen gemacht / das ist in den Himmel / da hat er den rechtschaffenen
+Hohenpriesterlichen Schmuck recht angelegt / welchen er gezeiget / als er auffm
+Berge Thabor verkleret ward / Matth: 17. Da sein Angesicht leuchtet wie die
+Sonne / vnd seine Kleider worden weiß als ein Liecht. Vnd so wirds mit vns auch
+werden im aller heiligsten am Jüngsten Tage / Apoc: 7. Eine grosse Schar stund
+für dem Stul / vnnd für dem Lamb / angethan mit weissem Kleide etc. Vnd der
+eltesten einer sprach: Diese sinds / die kommen sind aus grossem Trübsal / vnd
+haben jhre Kleider gewaschen / vnd haben jhre Kleider helle gemacht im Blut des
+Lambs / darvmb sind sie für dem Stul GOttes / vnnd dienen jhm Tag vnd Nacht in
+seinem Tempel etc. Derwegen wir auff das
+<pb facs="#f0020"/>
+Hohenpriesterliche
+Kleid / oder Schmuck vnsers Hohenpriesters Christi mit fleiß haben acht
+zugeben.</p>
+<p>Zum Sechsten ist ein grosser Vnterscheidt vnd Vngleichheit der Wunderwerck halben
+/ die sich bey beyden Hohenpriestern zugetragen: Im dritten Buch Mose am 9. Cap.
+lesen wir / da Aaron der erste Hohepriester das erste Opffer in der
+Stifftshütten verrichtet / daß ein groß Wunderwerck dabey geschehen sey / denn
+die Herrligkeit GOttes deß HErrn ist erschienen / vnnd Fewer vom Himmel herab
+gefallen / vnd hat das Brandopffer auffm Altar angezündet vnd verzehret / damit
+GOTT zu verstehen gegeben / es were jhm dasselbige ein angenehm Liebopffer /
+deßwegen auch alles Volck / so solches gesehen / von Hertzen gefrolocket / vnd
+auffs Antlitz gefallen. Vielmehr hat sich bey Christi deß newen Testaments
+Hohenpriesters Auffopfferung die Herrligkeit deß HErrn sehen lassen / vnd sein
+vielmehr Zeichen vnd Wunder geschehen: Die Sonne hat jhren Schein verlohren /
+vnnd ist eine grosse vbernatürliche Finsterniß worde&#x0303; / deß Tempels
+Vorhang ist zurissen / von obe&#x0303; an biß vnten auß / die Gräber haben sich
+auff gethan / die Felsen sind zusprungen / vnd die Erde hat gebebet / vnd hat
+Gott der HErr mit solcher seiner Herrligkeit oben am Himmel vnd vnten auff Erden
+wollen zu verstehen geben / daß Christi seines liebens Sohns deß rechten
+Hohenpriesters Opffer jhm ein sehr lieb / süß vnd angenehm Opffer were /
+zugeschweigen anderer Dinge / die dadurch sind
+<pb facs="#f0021"/>
+bedeutet
+worden / davon sonsten in der Historia deß Leydens Christi gehandelt wird.
+Derwegen so viel Wunderwerck geschehen seyn / so viel Zeugen haben wir / daß diß
+das rechte Sünopffer sey / dadurch GOtt zu frieden gestelt worden. Darumb sollen
+wir auch von Hertzen drüber frolocken / vnd mit vnserm Antlitz auff die Erden
+fallen / vnnd GOTT dafür mit Mund vnnd Hertzen dancken.</p>
+<p>Zum Siebenden vnd letzten ist ein grosser Vnterscheidt vnnd Vngleichheit der
+Erlösung halben: Die Hohepriester deß Alten Testaments haben ein Jährliche
+Erlösung mit jhrem Eingang in das Allerheyligste gesucht: Christus aber hat eine
+ewige Erlösung mit seinem Opffer vnd Eingang gefunden vnnd erworben / wie in
+verlesenem Text stehet / Er ist durch sein eigen Blut einmal in das Heylige
+eingegangen / vnd hat eine ewige Erlösung erfunden. Nu ists eine statliche
+Erlösung gewesen / da die Kinder Israel aus Egyptenland von der Tyranney
+Pharaonis durch eine starcke gewaltige Hand sind erlöset worden / wie auch die
+Erlösung aus dem Babylonischen Gefängniß / davon im 114. Pfalm stehet / das daß
+Meer geflohen / der Jordan sich zurück gewand / die Berge wie die Lämmer
+gehüpffet / vnd die Hügel wie jungen Schaffe / etc. Vnnd im 126. Psalm / Wenn
+der HErr die Gefangenen Zion erlösen wird / so werden wir sein wie die
+Trewmende: Denn wird vnser Mund voll lachens / vnd vnser Zungen voll rühmens
+seyn / etc. Aber
+<pb facs="#f0022"/>
+diese Erlösung durch vnsern Hohenpriester
+Christum geschehen / gehet weit vor / denn jene ist eine Erlösung gewesen von
+Leiblichen Feinden / diese ist eine Erlösung von Geistlichen Feinden / von Sünd
+/ Todt / Teuffel / Hell vnd Verdamniß: Jene Erlösung ist zeitlich gewesen / vnd
+hat nicht jmmer gewehret / diese aber ist ewig / vnnd hat kein Ende. Von dieser
+Erlösung finden wir viel in GOttes Wort: Esai. 61. Cap. Der HErr hat mich
+gesandt / zu predigen den Gefangenen eine Erledigung / den Gebundenen eine
+Eröffnung: Vnd 63. Ich habe einen Tag der Rache mir fürgenommen / daß Jahr die
+Meinen zu erlösen ist kommen. Matth. 20. spricht Christus / Deß Menschen Sohn
+ist nicht kommen / daß er jhm dienen lasse / sondern daß er diene / vnnd gebe
+sein Leben zu einer Erlösung für viele: Luc. 1. sagt der alte Zacharias durch
+eingeben deß heyligen Geistes: Gelobet sey der HERR der GOTT Israel / denn er
+hat besucht vnd erlöset sein Volck: Paulus schreibt 1. Tim. 2. Christus habe
+sich selbst gegeben für alle zur Erlösung: Vnd Petrus 1. Cap. 1. Wisset / daß
+jhr nicht mit vergenglichem Silber oder Gold erlöset seyd von ewrem eiteln
+Wandel / nach Väterlicher weise / sondern mit dem thewren Blut Christi / als
+eines vnschüldigen vnbefleckten Lammes. Für diese Erlösung sollen wir vnserm
+Hohenpriester vnd seinem Him&#x0303;lischen Vater danckbar seyn / wie Paulus
+Col. 1. vermahnet / danck saget de&#x0303; Vater / der vns tüchtig gemacht hat
+zu dem
+<pb facs="#f0023"/>
+Erbtheil der Heyligen im Liecht / vnd hat vns
+versetzt in das Reich seines lieben Sohns / an welchem wir haben die Erlösung
+durch sein Blut / nemlich die vergebung der Sünde: Sollen jhm auch als sein
+erlöstes Eigenthumb im gantzen Leben dafür dienen / Luc. 1. daß wir erlöset aus
+der Hand vnser Feinde / jhm dieneten ohn Furcht vnser Lebenlang / in Heyligkeit
+vnd Gerechtigkeit / die jhm gefellig ist. Tit. 2. Christus hat sich selbst für
+vns gegeben / auff daß er vns erlösete von aller Vngerechtigkeit / vnnd reiniget
+jhm selbst ein Volck zum Eigenthumb / das fleissig were zu guten Wercken.</p>
+<p>Dienet derwegen vns diß alles darzu / daß wir Christum für den rechten
+Hohenpriester erkennen vnnd halten: Mit denen im Alten Testament ists eytel
+Schatten vnd Fürbild gewesen: Sie haben das Volck zwar gelehret / aber
+mehrentheils das Gesetz getrieben / Christus aber hat das heylige Evangelium aus
+dem Schoß seines Vaters herfür gebracht / Johan. 1. Sie haben den Segen vbers
+Volck gesprochen / Christus aber hat denselben erworben / sie haben für das
+Volck gebetet / Christus hat nicht allein vorher / sondern auch als heute am
+Stillen Freytage / am Tage seines Fleisches / Hebre. 5. Gebet vnd Flehen mit
+starckem Geschrey vnd Thränen gethan / vnd ist erhöret worden: Sie haben Vieh
+geopffert / Christus aber hat sich selbst auffgeopffert zur versühnung für aller
+Welt Sünde: Dieweil wir den einen grössern Hohenpriester haben / Jesum den
+<pb facs="#f0024"/>
+Sohn GOttes / der gen Himmel gefahren ist / so lasset vns
+halten an dem Bekentniß. Denn wir haben nicht einen Hohenpriester / der nicht
+kunte Mitleyden haben mit vnser Schwachheit / sondern der versucht ist
+allenthalben / gleich wie wir / doch ohn Sünde. Darumb lasset vns herzutreten
+mit freydigkeit zu dem Gnadenstuel / auff daß wir Barmhertzigkeit empfahen / vnd
+Gnaden finden auff der zeit / wenn vns Hülffe noht sein wird: Heb. 5. So viel
+vom Ersten.</p>
+</div>
+<div>
+<head>Vom Andern.<lb/>
+</head>
+<p>FVrs Ander / wird die Krafft vnnd Wirckung deß Opffers vnd Bluts Christi mit dem
+Viehischen Opffer vnd Blut verglichen / vnd gegen einander gesetzt in diesen
+Worten: So der Ochsen vnd der Böcke Blut / vnd die Aschen von der rötlichen Kuh
+gesprenget / heyliget die Vnreinen zu der Leiblichen Reinigkeit / wie viel mehr
+wird das Blut Christi / der sich selbst ohn allen Wandel durch den heyligen
+Geist GOtt geopffert hat / vnser Gewissen reinigen von den Todten Wercken / zu
+dienen dem lebendigen GOtt? Hiemit wird zurück gesehen / ins Alte Testament auff
+der Ochsen vnd Böcke Blut / vnnd sonderlich ins 19. Cap. deß vierten Buchs Mosis
+/ da hat GOtt befohlen eine rötliche Kuhe ohn Wandel zuschlachten / vnnd der
+Hohepriester hat jhres Bluts müssen nemen / vnd stracks gegen der Hütten deß
+<pb facs="#f0025"/>
+Stiffts sprengen: Das vbrige von der Kuhe hat müssen zu
+Achschen verbrand werden / vnd auff die Asche ist gethan worden fliessend Wasser
+in ein Gefeß / vnnd ein reiner Mann hat Isopen müssen nemen / vnd ins Wasser
+tuncken / vnd die Hütten besprengen / vnd alle Gerete / vnd alle Seelen die
+drinnen gewesen seyn / auch sonsten der einen Todten angerühret / vnnd sich
+verunreiniget / der ist damit besprenget / vnd wieder rein worden. Solche
+Reinigung ist / wie hie bekandt wird / eine eusserliche Leibliche Reinigung
+gewesen / vnd wird daraus vom geringern zum grössern geschlossen / so der Ochsen
+vnd der Böcke Blut / vnd die Aschen von der Kuhe gesprenget / heyliget die
+Vnreinen zur Leiblichen Reinigkeit / wie viel mehr wird das Blut Christi
+reinigen / nicht zur Leiblichen Reinigkeit vnsern Leib / sondern Geistlich vnser
+Gewissen / nicht von eusserlichen Vnflat / sondern von den Todten Wercken / von
+den Sünden vnd Missethaten / damit das Gewissen beschwerer / vnd man zeitlichen
+vnd ewigen Todt vnd Verdamniß verdienet / denn Christi Blut ist Blut deß Sohns
+GOttes 1. Johan. 1. Vnd GOtt hat seine Gemeine durch sein eigen Blut erworben /
+Actor. 20. Es ist desselben sein Blut / der ohne Wandel vnd Sünde ist / ja der
+sich selbst durch den heyligen Geist GOtt seinem Him&#x0303;lischen Vater zum
+lieblichen vnnd süssen Geruch geopffert hat. Derwegen kan das Blut Christi
+solche Krafft vnd Wirckung haben / die Gewissen zu reinigen / nicht aber zu dem
+ende / daß
+<pb facs="#f0026"/>
+man hinfort das Gewissen weiter beschweren / vnnd
+in Sünden fortfahrensol / sondern zu dienen dem leben digen GOtt nach seinem
+Willen vnd Wolgefallen</p>
+<p>Hie lernen wir nu / was wir für Nutzen haben von Christi Blut / Opffer vnd Todt /
+nemblich die Reinigung deß Gewissens. Müssen derwegen etwas weiter vom Gewissen
+reden / denn niemand kan erkennen / was es für eine vberaus herrliche vnnd
+grosse Wolthat sey durch Christi Blut vom bösen Gewissen gereiniget vnd erlöset
+werden / als der da weiß / was am bösen vnd vnreinen Gewissen zuthun. Das aber
+ein Gewissen sey / ist vnnötig / weitleufftig zubeweisen / denn GOttes Wort
+bezeugt es / die Heyden habens auch niemals können in abreden seyn / vnd die
+Erfahrung hat es von anbegin der Welt nach dem Sündenfall alßbald biß auff den
+heutigen Tag gegeben. Vnd wird nu das Gewissen verunreiniget oder böß gemacht /
+durch die Todten Wercke / das ist durch die böse Wercke vnnd Sünden wieder das
+Gewissen begangen / damit der Todt vnd Verdamniß verdienet wird: Davon Sap. 17.
+geschrieben stehet / daß einer so verzaget ist / daß macht seine eigen Boßheit /
+die jhn vberzeugt vnd verdampt / vnd ein erschrocken Gewissen versiehet sich
+jmmerdar deß ärgesten: In Exempeln kan mans am besten sehen / vnsere erste
+Eltern begingen ein Todtenwerck / in dem sie von GOtt vnd seinem Wort abfielen /
+vnnd dem Teuffel gehorchten vnnd folgeten / dadurch bekamen sie ein böß Gewissen
+/ Gen. 3.
+<pb facs="#f0027"/>
+Cain jhr Sohn begieng auch ein Todtenwerck / vnd
+ermordet seinen Bruder Abel / dadurch wart sein Gewissen böß vnd verunreiniget:
+David treib Ehebruch mit Bathseba / vnd jhren Mann Vriam ließ er vnschüldig
+vmbbringen / daß machte jhm ein rechtschaffen böß Gewissen: Antiochus hatte viel
+vnschüldiges Bluts vergossen / vnd sich an Geistlichen Gütern vergriffen /
+darvber ward sein Gewissen böß vnd beschweret / etc. Man fühlet aber das böse
+Gewissen nicht allezeit fluchs im anfang / sondern es schlefft vnd ruhet gleich
+offt eine zeitlang / wie GOtt andeutet Gen. 4. Bistu nicht from / so ruhet die
+Sünde für der Thür: Lutherus setzt am Rande / Ebreisch lautet Thür so viel / als
+das offen stehet / oder auffgethan wird / Marc. 7. Hephetah, thu dich auff etc.
+Vnd ist die Meinung / die Sündeliegt vnd ruhet wie ein Ochslein liegt
+vn&#x0303;ruhet / aber sie liegt in der Thür / dz ist sie wird offen
+stehe&#x0303; oder offenbar werden / ob gleich der Sünder eine zeitlang dahin
+gehet / als sey die Sünde todt oder schlaffe: Vnd sitzen da Teuffel vnd Welt bey
+der Wiege&#x0303; / darin das Gewissen also schlefft vnd ruhet / vnd singen
+lieblich / daß es in dem Schlaff müge desto lenger bleiben / vnd jmmer fort vnd
+fort fahren / vnd Sünden mit Sünden heuffen: Gleich wie ein Vogelfänger den
+Vogeln süß vorpfeifft / wenn er sie gedenckt zufangen. GOtt aber hat sonderliche
+Mittel / daß Gewissen auffzuwecken / damit jhm gerahten vnnd geholffen werde:
+Ein Mittel das Gewissen auffzuwecken ist die Predigt
+<pb facs="#f0028"/>
+deß
+Gesetzes: Dadurch ist Cains Gewissen auffgewecket worden / Gen. 4. Was hastu
+gethan / sprach GOtt: Die Stimme deines Bruders Blut schreyet zu mir von der
+Erden: Vnnd nu verflucht seystu auff der Erden / die jhr Maul hat auffgethan /
+vnd deines Bruders Blut von deinen Händen empfangen: So ist Davids Gewissen
+auffgewecket / durch die Predigt Nathans seines Seelsorgers / 2. Sam. 12. Warumb
+hastu das Wort deß HErrn verachtet / daß du solches Vbel für seinen Augen
+thetest? Vriam den Hethiter hastu erschlagen mit dem Schwert / sein Weib hastu
+dir zum Weibe genommen / jhn aber hastu erwürget mit dem Schwert der Kinder
+Ammon. Nu so sol von deinem Hause das Schwert nicht lassen ewiglich / etc.
+Gleichfals ist deß heyligen Apostels Petri Zuhörern jhr Gewissen erwecket durch
+seine Predigt am ersten Pfingst-Tage deß newen Testaments gethan / es ist jhnen
+durchs Hertz gangen / vnd haben gesprochen zu Petro vnnd zu den andern Aposteln
+/ jhr Männer lieben Brüder was sollen wir thun. Vnnd noch heutiges Tages fühlet
+es mancher in der Predigt / daß jhm das Hertz vnnd Gewissen geregt / vnnd seines
+Seelsorgers Wort Spiesse vnd Nägel seyn / Im Prediger Salom. 12. Cap. darvber
+etliche mit jhrem Schaden vnd Verdamniß zürnen / eetliche aber mit jhrem besten
+vnnd Seligkeit sichs eine Warnung lassen seyn / Buß thun / vnnd sich bekehren.
+Ein Mittel das Gewissen auffzuwecken / ist auch aller-
+<pb facs="#f0029"/>
+ley
+Creutz vnd Vnglück / in Klagliedern Jerem: 1. Cap. Meine schwere Sünde sind
+durch seine sttraffe erwacht: Das hat sich ereuget bey Jacobs Söhnen / Gen. 42.
+da sie in Egypten in Creutz vnd Wiederstand gerahten / reget sich das Gewissen /
+vnd wacht von der Schlaffsucht auff: So ists auch ergangen mit Manasse / da er
+in Creutz vnd Gefängniß gerahten / vnd mit dem verlohrnen Sohn / da er hat
+angefangen zu darben vnnd hungern Luc. 15. vnd man befindet es bey sich / wenn
+einem ein Creutz begegnet vnnd wiederfähret / so felts einem fluchs auffs Hertz
+vnd Gewissen / was man zuvor Böses gethan / vnd gedenckt man / daß hastu da vnd
+damit verschuldet. Ein Mittel das Gewissen auffzuwecken / sind auch wol
+sonderliche Wunder vnnd Zeichen GOttes / vnvernünfftige Thiere vnd dergleichen:
+Danielis 5. cap. sind Finger herfür gange&#x0303; / alß einer Mensche&#x0303;
+Hand / vnd haben dem Belsazer seine Straff an die Wand geschrieben dar vber jhm
+das Gewissen erwacht. Matth. 26. krehet ein Hane / dadurch wird Petro das
+Gewissen auff gewecket / vnd gedenckt an seinen schweren Fall. Von Dietrich von
+Bern schreibt man / nach dem er Symmachum vnnd Böetium vnverschulder Sache
+hinrichten lassen / daß durch einen grossen Fischkopff / der jhm auff den Tisch
+getragen worden / daß Gewissen sey auffgewacht / vnd habe sich eingebildet / es
+were deß Symmachi Kopff / vnd ist drüber kranck worden / vnd gestorben. Vom
+Besso lieset man / daß jhm durch der Schwalben Geschrey oder Stimme das Gewissen
+vnruhigsey
+<pb facs="#f0030"/>
+worden / vnnd habe er sich verlauten lassen / sie
+würffen jhm seines Vaetrs Todt für. Beym Habacuc. 2. Cap. das Steine vnd Holtz
+den Babyloniern jhr Gewissen sollen rege machen / vnnd von jhrer Boßheit zeugen
+/ die Steine in den Mawren werden schreyen / vnd die Balcken im Gesperr werden
+jhnen antworten: Wie der wunderlichen Fälle sich offt zutragen / dadurch den
+Leuten das Gewissen auffgewecket wird / dar auff man wol sein Lebenlang nicht
+gedacht / vnd sich ehe Himmelfalls vermutet hette. Ein Mittel das Gewissen
+auffzuwecken ist auch wol Todtes Noht vnd Angst / da man jtz von hinnen scheiden
+sol / vnnd einem das schwartze Register von allerhand Blutschulden fürkompt /
+wie Lutherus daß vom reichen Mann Luc. 16. dahin verstehet / daß jhm in Todtes
+Nöhten sein Gewissen auffgewacht / vnnd die Gedancken sich vnter einander
+verklagt / vnnd sein Gewissen vnd Hertz jhm ein solch schrecklich Vrthel
+gesprochen. Vnd das ereuget sich manchmahls bey den Sterbenden / denn wenn sie
+da in GOttes Gewalt liegen / vnnd für Gericht sollen / das Gewissen von wegen
+jhrer vorher begangenen Sünde auffwachet</p>
+<p>Wenn nu das Gewissen durch dieser Mittel eines oder mehr auffgewecket / da ists
+den ein schrecklich Ding vmb ein böß auffgewachtes Gewissen: In GOttes Wort
+wirds angedeutet: Deut. 28. Der HErr wird dir ein bebendes Hertz geben / daß das
+Hertz jmmer schlegt / zittert vnd klopfft / vnd verschmachte Augen / daß
+<pb facs="#f0031"/>
+einem die Augen im Kopff werden liegen / als esse man nicht
+halb sat / vnd verschmachtete / vnd verdorrete Seele / die gar vertrocknet ist /
+da kein Tröpfflein Trostes noch Frewden fürhanden / daß dein Leben wird für dir
+schweben Nacht vnd Tag wirstu dich fürchten / vnd deines Lebens nicht stcher
+seyn / deß Morgens wirstu sagen / ach daß ich den Abend erleben möchte / deß
+Abends wirstu sagen / ach daß ich den Morgen erleben möchte / für Furcht deines
+Hertzen / die dich schrecken wird / etc. Esa. 66. wird das bose Gewissen ein
+ewiger vnsterblicher nagender Wurm genant. Man schreibt von einem Volck /
+welches im AEthiopia bey einer Wildniß wohnen / vnnd sich von Hewschrecken
+nehren sol / daß jhnen / wenn das alter herankompt / viel seltzame geflügelte
+Leuse / erschrecklich anzusehen / im Leibe wachsen sollen / die erstlich den
+Bauch fressen / darnach das Hertz / vnnd ferner hölern sie den gantzen Leib aus
+/ biß sie erbärmlicher weyse sterben. Das ist ist ein schrecklichs: Aber mit dem
+Gewissen ists viel schrecklicher / denn jene sterben zuletzt / vnd fühlen der
+Würme nagen nicht mehr / aber die Gottlosen mögen leben oder sterben / so
+frisset vnnd naget doch der Wurm deß Gewissens jmmer fort vnd fort / vnd höret
+nimmer vnd in Ewigkeit auff. 1. Johan 3. wird das böse Gewissen genant cor
+condemnans, ein Hertz daß sich selbst verdambt / daß dem Menschen zeitlichen
+vnnd ewigen Todt zuspricht vnd zuerkennet / wie dann viele vom bösen Gewissen
+getrieben sich manchmals selbst angeben / vnd bit-
+<pb facs="#f0032"/>
+ten jhnen
+jhr Recht zuthun / halten sich auch für Hellebrände / vnd schreyen vber sich das
+ach vnd wehe / sie können nicht selig werden. Man neme für sich den Cain mit
+seinem auffgewachten Gewissen / da siehet man / was am Gewissen zu thun / Gen.
+4. Cain sprach zu dem HErrn / meine Sünde ist grösser / dann daß sie mir
+vergeben werden müge / siehe / du treibest mich heute aus dem Lande / vnd muß
+mich für deinem Angesicht verbergen / vnd muß vnstet vnd flüchtig seyn auff
+Erden: So wird mirs gehen / daß mich todtschlägt / wer mich findet / etc. Also
+gieng Cain von dem Angesichte deß HErrn. Fromme Hertzen dencken diesem weiter
+nach. Man neme für sich mit seinem auffgewachten Gewissen den Antiochum den
+Reuber der Geistlichen Güter / vnnd lese das 6. Cap. im 1. Buch der Maccabeer /
+da weiset sich auch aus / wie es mit bösen Gewissen bewand. Man neme für sich
+Judam den Dieb vnd Verrähter / der leufft von einem Ort zum andern / vnd kan
+keine Ruhe finden / wirfft das Gelt von sich / schreyet / er habe vbel gethan /
+daß er vnschüldig Blut verrahten / vnnd wart jhm die gantze Welt zu enge / vnd
+ward sein eigen Hencker. Man neme auch vom bußfertigen vnd frommen das Exempel
+Davids für sich: Wie vbel befindet er sich im sechsten Psalmen von wegen seiner
+Sünde vnnd auffgewachten bösen Gewissens: Wie winselt vnnd klaget er im 38.
+Psalm eben dieser Vrsach halben: Deine Pfeile stecken in mir / vnd deine Hand
+drücket mich: Es ist nichts ge-
+<pb facs="#f0033"/>
+sundes an meinem Leibe für
+deinem drewen / vnd ist kein Fried in meinen Gebeinen für meiner Sünde. Denn
+meine Sünde gehen vber mein Heupt / wie eine schwere Last sind sie mir zu schwer
+worden. Meine Wunden stincken vnd eytern für meiner Thorheit. Ich gehe krum vnnd
+sehr gebücket / den gantzen Tag gehe ich trawrig. Denn meine Lenden verdorren
+gantz / vnd ist nichts gesundes an meinem Leibe. Es ist mit mir gar anders /
+vnnd bin sehr zustossen / ich heule für Vnruhe meines Hertzen. Mein Hertz heulet
+/ meine Krafft hat mich verlassen / vnd das Liecht meiner Augen ist nicht bey
+mir. Die Heyden haben auch etwas aus der erfahrung von deß bösen gewissens Qual
+vnd Marter gewust: Daher schreibt der Poet iuvenalis:</p>
+<l>Paena autem vehemens, ac multo saevior illis, Quas &amp; seditius gravis invenit,
+&amp; Rhadamantus, Nocte dieque suum gestare in pectore testem:</l>
+<p>Tag vnd Nacht seinen Zeugen / das böse Gewissen bey sich tragen / ist eine
+schwerere Straff als die Hellischen Richter den verdampten anlegen können. Vnnd
+dannenher ist auch kommen bey jhnen das Geticht von den Hellischen Furien / die
+sie beschrieben mit brennenden Fackeln in Händen / vnd mit grewlichen Schlangen
+in Haren vnd an der Brust vnd Armen / damit sie andeuten wollen / das böse
+Gewissen / könne nicht schrecklich gnugsam beschrieben werden.</p>
+<p>Solchem bösen vnnd auffgewachten Gewissen ist
+<pb facs="#f0034"/>
+nu zum höchsten
+nötig Artzney vnd Hülff / daß es geheylet vnd gestillet werde: Vnser erste
+Eltern haben gemeinet / sie woltens mit Feygenblettern zudecken / aber sie sind
+in jhrer Meynuug betrogen: Viele bilden sich ein / sie wollen das böse Gewissen
+vertreiben mit fressen sauffen / Seytenspiel vnd Weltlicher Lust vnd Frewde /
+aber Salomo sagt Proverb. 14. Wenn das Hertz (oder Gewissen) trawrig ist / so
+hilfft kein eusserliche Frewde: Es wird vielmehr dadurch beschweret / Luc. 21.
+Hütet euch daß ewer Hertz nicht beschweret werde mit fressen vnnd sauffen / etc.
+Judas vnnd andere haben jhnen die Hoffnung gemacht / wenn sie sich vmbbrechten /
+so wehre dem Gewissen gerahten vnd geholffen / aber dadurch haben sie jhre
+Straffe geheuffet vnd vermehret. Wir aber sollen wissen / daß kein besser vnd
+auch kein ander Mittel sey / als daß nach dem das Gewissen verrahten / die Sünde
+erkant vnnd bekant / vnd von Hertzen Buß gethan / man sich mit wahrem Glauben
+halte an das thewre Blut vnd Verdienst vnsers HErrn JEsu Christi / vnd dasselbe
+er greiffe / wie in dem verlesenen Text außdrücklich stehet / so der Ochsen vnd
+der Böcke Blut / vnnd die Aschen von der Kuhe gesprenget / heyliget die Vnreinen
+zu der leiblichen Reinigkeit / wie viel mehr wird das Blut Christi / der sich
+solbst ohn allen Wandel / durch den heyligen Geist GOtt geopssert hat / vnser
+Gewissen reintgen von den Todten Wercken: 1. Johan. 1. das Blut JEsu Christi deß
+Sohns GOttes macht vns
+<pb facs="#f0035"/>
+kein / von aller Sünde. Wo aber
+reinigung vnd vergebung der Sünden ist / da ist auch Fried mit GOtt / ein gut
+Gewissen / Leben vnnd Seligkeit. Darumb auch Christus alle mit Sünden vnd bösem
+Gewissen beladene zu sich rufft: Matth. 11. Kommet her zu mir alle die jhr
+müheselig vnd beladen seyt / ich wil euch erquicken / nemet auff euch mein Joch
+vnd lernet von mir / denn ich bin sanfftmütig vnd von Hertzen demütig / so
+werdet jhr ruhe finden für ewre Seele / etc. Esai. 53. Fürwar er trug vnser
+Kranckheit / vnd lud auff sich vnser Schmertzen wier aber hielten jhn für den /
+der geplagt / vnd von GOtt geschlagen / vnd gemartert were / aber er ist vmb
+vnser Miss that willen verwundet / vnnd vmb vnser Sünde willen zuschlagen / die
+Straffe liegt auff jhm / auff daß wir Friede hetten / vnnd durch seine Wunden
+sind wir geheylet. Hiedurch ist vnserer ersten Eltern / Davids / Petri vnd
+anderer auffgewachtem bösen Gewissen geholffen worden / vnd anders kan vns auch
+nicht geholffen werden / denn es ist in keinem andern Heyl / ist auch kein ander
+Nahme den Menschen gegeben / darinnnen wir sollen selig werden Act. 4.</p>
+<p>Der wegen sollen wir vns diß ander Stück erstlich darzu zu nutz machen / daß wir
+erkennen lernen / die grosse Liebe / Gnad vnnd Wolthat vnsers HErrn JEsu Christi
+/ die er vns erzeiget / in dem er gelitten / gestorben / vnnd sein Blut
+vergossen: Er hette vns keine grössere Wolthat beweisen können / denn damit hat
+er vns die
+<pb facs="#f0036"/>
+Reinigung deß bösen Gewissens zu wege gebracht:
+Wir hetten vns mit dem bösen Gewissen / mit dem vnsterblichen nagenden Wurm /
+mit dem verdammenden Hertzen / Tag vn&#x0303; Nacht / hier vn&#x0303; dort in
+alle ewige Ewigkeit schlepffen sollen / was das für ein vnaußsprechlich Jammer
+vnd Elend wehre gewesen / können wir mit sinnen nicht erreichen / die Verdampten
+werdens mit jhrem ewigen Schaden erfahren: Da hat nu Christus mit seinem Blut
+das beste gethan / derwegen wir jhm von Hertzen grund dafür dancken sollen / wir
+werdens in ewige Ewigkeit nicht gnugsam mit Danck erkennen können: Vnd sol derwe
+en nu keiner seiner Sünd halben / sie mögen auch so groß sein als sie jmmer
+können / verzweifflen vnnd verzagen / vnnd mit Cain sagen / meine Sünde ist
+grössec / denn daß sie mir vergeben werden müge: Nein / sondern sollen antworten
+du leug st Teuffel / Hertz vnd Welt / GOttes Gnad vnd Barmhertzigkeit vnd das
+thewre Blut JEsu Christi ist viel grösser als aller Welt Sünde / vnd derwegen
+sagen / Turbabor, sed non perturbabor, quia vulnerum Christi recordabor, Mein
+Sünd mich werden kräncken sehr / mein Gewissen wird mich plagen / den&#x0303;
+jhr sind viel wie Sand am Meer / doch wil ich nicht verzagen / gedencken wil ich
+an dienen todt / Herr Jesu Christ dein Wunden rot / die werden mich erhalten:
+Vnd abermahl: Mitten in der Hellen Angst vnser Sünd vns treiben / wo sollen wir
+dann fliehen hin / da mir mügen bleiben? zu dir HErr Christ alleine / vergossen
+ist dein thewres Blut / das gnug für die Sünde
+<pb facs="#f0037"/>
+thut. Hat
+derwegen kein Mensch Vrsach sich seines bö sen Gewissens halben vmb zubringen
+oder zu verzagen / GOtt lob vnnd danck / es ist gut Raht darzu / nur Buß gethan
+/ vnd seine zuflucht genommeu zu dem Blut vnd Wunden Christi kein besser Mittel
+ist zufinden / nullum, sagt jener Kirchenlehrer tam efficax remediu&#x0303; est
+ad conscientiae vulnera sananda, quam sedula vulnerum Christi meditatio, kein
+krefftiger Artzeney die Wunden deß Gewissens zuheylen / ist / als fleissige
+betrachtung der Wunden Christi: Wie dem Hiskiae ein Pflaster von Feygen gemacht
+/ vnd auff seine Drüse gelegt worden / dadurch die Hitze außgezogen / die
+Schmertzen gelindert vnd gestillet / vnd er gesund worden / Esai. 38. Also ein
+Pflaster vom Blut vnd Wunden Christi auff die Drüse vnd Wunde&#x0303; deß
+Gewissens gelegt / vn&#x0303; mit warem Glauben appliciret, zeucht die Hitze aus
+dem Gewissen / lindert vnnd stillet die Schmertzen / vnnd macht einen armen
+Sünder an der Seelen gesund. Derwegen gedencke ein jeder in Gewissens Nöhten
+hieran / vnd laß es jhm trewlich befohlen seyn.</p>
+<p>Darnach sollen wir vns diß ander Stück auch darzu zu nutz machen / daß wir
+bedencken / was es für ein schrecklich ding vmb die Sünde vnnd vmb die
+Todtenwercke sey / die Weltkinder schlagens in Wind / vnnd der Teuffel hilfft
+darzu / Sicherheit / Fluchen / Meineyd / verachtung Göttliches Worts vnd
+Sacramenten / Vngehorsam / Haß / Mord / Fressen / Sauffen / Vnzucht /
+<pb facs="#f0038"/>
+Hoffart / Vngerechtigkeit / Verleumbdung vnd dergleichen
+Todtenwercke achten sie gering / vnnd machen sich kein Gedancken drüber / aber
+zuletzt findet sich dann das böse Gewissen / vnnd wenn keine Straffe mehr wehre
+/ kein Zorn GOttes / kein Helle / kein Teuffel / so wehre doch ein böß Gewissen
+Straffe gnug / eine vnerträgliche Straffe / derwegen man jmmer an das Ende / ans
+böse Gewissen gedencken / vnd sich von den Todtenwercken abschrecken sol lassen
+/ Syrach 7. Was du thust / so bedencke das Ende / so wirstu nimmermehr vbels
+thun: 21. Cap. Mein Kind / hastu gesündiget / so höre auff / vnnd bitte / daß
+dir die vorigen auch vergeben werden / fleuch für der Sünde wie für einer
+Schlange / denn so du jhr zu nahe kommest / so sticht sie dich / jhre Zäne sind
+wie Lewen Zäne / vnd tödten den Menschen: Ein jgliche Sünde ist wie ein scharff
+Schwert / vnd verwundet das niemand heylen kan. Dagegen aber sollen wir dienen
+dem lebendigen GOtt / wie in vnserm Text stehet / das Christi Blut vnser
+Gewissen reinige von den Todtenwercken / zu dienen dem lebendigen GOtt: Darzu
+sind wir von Christo durch sein Blut vnd Todt erlöset / wie der alte Zacharias
+auch bekennet Luc. 1. daß wir erlöset aus der Hand vnser Feinde / jhm dienen ohn
+Furcht vnser lebenlang / in Heyligkeit vnd Gerechtigkeit / die jhm gefellig ist:
+Vnd sollen vns eines guten Gewissens befleissigen / 1. Tim. 1. Vbe eine gute
+Ritterschafft / behalt den Glauben / vnd gut Gewissen: 1. Pet. 3. Habt ein gut
+<pb facs="#f0039"/>
+Gewissen / denn wol dem / der kein böß Gewissen hat /
+vnd seine Zuversicht jhm nicht enfallen ist / sagt Syrach 14. Cap. ein guter
+Muth / oder gut Gewissen / ist ein täglich Wolleben / Proverb. 15. Wenn einer
+schon täglich zuessen hette gesotten vnd gebraten / vnnd zutrincken Wein vnd
+Bier / vnd hette kein gut Gewissen / was wehre jhm damit gedienet? er könte
+nimmer keinen guten Tag haben / wie Salomo an jtz gedachtem Ort bekennet / aber
+wenn man nur Saltz vnd Brod hat / vnd hat ein gut Gewissen / so kan man täglich
+dabey wol leben. Eines solchen guten Gewissens hat sich beflissen der heylige
+Apostel Paulus Act. 24. Ich vbe mich zuhaben ein vnverletzt Gewissen
+allenthalben / beyde gegen GOtt vnd den Menschen / vnd 2. Cor. 1. Vnser Ruhm ist
+der / nemblich das Zeugniß vnsers Gewissens / daß wir in Einfeltigkeit vnd
+Göttlicher Lauterkeit / nicht in fleischlicher Weißheit / sondern in der Gnade
+GOttes auff der Welt gewandelt haben / etc. Das stehet einem Prediger wol an.
+Eines solchen guten Gewissens haben sich auch beflissen Moses vnnd Samuel / Num.
+16. vnnd 1. Samuel. 12. Das sie mit gutem Gewissen haben können bezeugen / sie
+haben nie keinen Esel oder Ochsen oder Geschenck von jhren Vnterthanen
+genom&#x0303;en / vnd jhnen die Augen blenden lassen / auch niemand Gewalt vnnd
+Vnrecht gethan: Das zieret gar herrlich eine Oberkeit. Wolte GOtt / ein jeder
+machte es noch heutiges Tages im Oberkeit Stande also / daß er das auch mit
+gutem
+<pb facs="#f0040"/>
+Gewissen vn&#x0303; Warheit sagen könte / so würde es
+wol ein wenig besser stehen. Eines solchen guten Gewissens hat sich auch
+beflissen Hiob / wie er spricht 27. Cap. Mein Gewissen beisset mich nicht meines
+gantzen Lebens halben: So sol ein jeder Christ seine Sachen durch GOttes Hülff
+anstellen / daß jhn der Wurm deß Gewissens von wegen der Todtenwercke auch nicht
+beisse. Derwegen wer es biß anhero versehen / der endere es hinfort / die weil
+er noch zeit hat / vnd die Gnadenthür noch offen stehet. Nun wir dancken dem
+HErrn JEsu Christo dem Hohenpriester deß newen Testaments für sein heylig vnd
+vollkommen Sünopffer / so er am Stam&#x0303; deß Creutzes für vns verrichtet /
+vnd für sein thewres Blut / daß er als heute zur reinigang vnser Gewissen vnnd
+zu vnser Seligkeit vergossen / vnnd buten jhn von Hertzen / daß er vns seinen
+heyligen Geist schencke / damit wir vnser Sünd vnd Todtenwercke erkennen vnd Buß
+thun / vnd mit wahrem Glauben sein Blut vnd Verdienst ergreiffen / damit vnser
+böse Gewissen gereiniget werden / vnnd wir hinfort dem lebendigen GOtt dienen /
+vnd vns eines guten Gewissens befleissigen / vnd endlich selig werden / Das
+gönne vnd gebe vns des getrewe Hohepriester JEsus Christus / vmb seines Bitter
+Leyden vnnd Sterbens willen.</p>
+<p>AMEN.<lb/>
+</p>
+</div>
+</body>
+</text>
+</TEI>

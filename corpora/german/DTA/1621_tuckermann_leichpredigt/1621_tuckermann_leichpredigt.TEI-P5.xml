@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Leichpredigt. Des Ehrnvesten/ Achtbarn vnd Kunstreichen Herrn. Michaelis Prætorii, Fürstl: Br: gewesenen Capellmeisters</title>
+<title type="sub">Welcher im Gott am 15. Februarij seliglich entschlaffen/ vnd am 23. ejusdem in die Heinrichstädtische Kirche begraben worden</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124599281">
+<surname>Tuckermann</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/j-276-4f-helmst-7s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/j-276-4f-helmst-7s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">48</measure>
+<measure type="tokens">8790</measure>
+<measure type="types">2498</measure>
+<measure type="characters">54803</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:30Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/tuckermann_leichpredigt_1621</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/tuckermann_leichpredigt_1621</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/tuckermann_leichpredigt_1621</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/tuckermann_leichpredigt_1621</idno>
+<idno type="DTADirName">tuckermann_leichpredigt_1621</idno>
+<idno type="DTAID">30294</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30294-8</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Tuckermann, Peter: Leichpredigt. Des Ehrnvesten/ Achtbarn vnd Kunstreichen Herrn. Michaelis Prætorii, Fürstl: Br: gewesenen Capellmeisters. Wolfenbüttel, 1621.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Leichpredigt. Des Ehrnvesten/ Achtbarn vnd Kunstreichen Herrn. Michaelis Prætorii, Fürstl: Br: gewesenen Capellmeisters</title>
+<title level="m" type="sub">Welcher im Gott am 15. Februarij seliglich entschlaffen/ vnd am 23. ejusdem in die Heinrichstädtische Kirche begraben worden</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124599281">
+<surname>Tuckermann</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Holwein</name></publisher>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1621</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main"><figure/><lb/>
+<docTitle><titlePart type="main">Leichpredigt.<lb/>
+Des Ehrnvesten/ Achtbarn vnd Kunst-<lb/>
+reichen Herrn.<lb/>
+<hi rendition="#b">Michaelis <hi rendition="#aq">Praetorii</hi>,</hi><lb/>
+Fürstl: Br: gewesenen Ca-<lb/>
+pellmeisters/<lb/>
+Welcher in GOtt am
+15. Februarij <lb/>
+seliglich entschlaffen/vnd am 23. ejusdem <lb/>
+in die
+Heinrichstädtische Kirche <lb/>
+begraben worden:<lb/>
+</titlePart></docTitle>
+<byline>Gethan Durch <lb/>
+<docAuthor><hi rendition="#aq">M. PETRUM TVCKERMANNUM</hi></docAuthor><hi rendition="#aq">,</hi><lb/>
+</byline>
+<figure/><lb/>
+<docImprint> Gedruckt zu <pubPlace>Wolffenbüttel</pubPlace> / Durch <publisher>Eliam Holwein</publisher> /<lb/>
+F. B. Buchdrucker dasesbst.
+Im Jahr/ <docDate>1621</docDate>.</docImprint></titlePage></front>
+<pb facs="#f0002"/>
+<body>
+<pb facs="#f0003" n="3"/>
+<div>
+<head>Im ersten Buch Mose am 32. Cap.<lb/>
+</head>
+<p>DA rang ein Mann mit jhm / biß die Morgenröte anbrach / vnd da er sahe / daß er
+jhn nicht vbermocht / rüret er das Gelenck seiner Hüfft an / Vnd das Gelenck
+seiner Hüfft ward vber dem ringen mit jhm verrenckt. Vnd er sprach laß mich
+gehen / denn die Morgenröte bricht an. Aber er antwortet / Ich laß dich nicht /
+du segnest mich denn. Er sprach / wie heissestu? Er antwortet Jacob. Er sprach /
+Du solt nicht mehr Jacob heissen / sondern Israel / denn du hast mit GOtt vnd
+mit Menschen gekempfft / vnd bist obgelegen.</p>
+<p>Vnd Jacob fraget jhn / vnd sprach /
+<pb facs="#f0004" n="4"/>
+Sage doch wie heissestu? Er aber sprach / warumb fragestu / wie ich
+heisse? Vnd er segnet jhn daselbst. Vnd Jacob hieß die Stet Pniel / denn ich
+habe GOtt von Angesicht gesehen / vnd meine Seele ist genesen. Vnnd als er für
+Pnuel vber kam / gieng jhm die Sonne auff / vnd er hincket an seiner Hüfft /
+daher essen die Kinder Israel keine Spanader auff dem Gelenck der Hüfft / biß
+auff den heutigen Tag / darumb / daß die Spanader an dem Gelenck der Hüfft Jacob
+gerüretward.</p>
+<p>GEliebte im HErrn / wir lesen Esaiae 56. Cap. Der Gerechte kommet vmb / vnd
+niemand ist / der es zu Hertzen neme / vnd heillge Leute werden auffgerafft /
+vnd niemand achtet darauff: Denn die Gerechten werden weg gerafft für dem
+Vnglück / vnd die richtig für sich gewandelt haben / kommen zum Friede / vnnd
+ruhen in jhren Cammern. In diesen Worten wird angedeutet / wenn ein Vnglück
+fürhanden / daß den GOtt pflege
+<pb facs="#f0005" n="5"/>
+Fromme vnd Gottselige Leute hinweg zunehmen / denn weil sie jhm
+liebe vnd angeneme Kinder seyn / so wil er nicht / daß sie das Vnglück sehen vnd
+erfahren sollen. Darvon haben wir ein fein Exempel im 2. Buch der Könige am 22.
+Cap. da wolte GOtt von wegen des Volcks Sünde ein groß Vnglück vbers Land führen
+/ aber er ließ vorher dem Frommen vnd Gottseligen Könige Josiae sagen: Ich wil
+dich zu deinen Vätern samlen / daß du mit Frieden in dein Grab versamlet werdest
+/ vnd deine Augen nicht sehen alle das Vnglück / daß ich vber diese Städte
+bringen wil. Weil denn GOtt der HErr eine zeithero etliche Fromme vnd Gottselige
+Hoffdiener / zu welchen wir auch billich den in GOtt verstorbenen Herrn
+Capellmeister rechnen / weggerafft / so ist wol zubesongen / daß ein Vnglück
+fürhanden sey / wie es sich dann albereits im gantzen heiligen Römischen Reich
+vbel anlesset. Derwegen sollen wir solches nicht in den Wind schlagen / sondern
+drauff achten / vnd es zu Hertzen nemen / vnd trewlich zur Buß vermahnet seyn /
+denn kein besser Mittel dawieder zufinden ist / wie GOtt selber Amos 4.
+zuverstehen gibt / weil ich dir also thun wil / so schicke dich Israel / vnd
+begegne dem HErrn deinem GOtt: Vnd Joel 2. da auch ein groß Vnglück fürhanden
+war / sagt er / bekehret euch zu mir vom gantzen Hertzen mit fasten /
+<pb facs="#f0006" n="6"/>
+mit weinen / mit klagen /
+zureisset ewre Hertzen / vnd nicht ewre Kleider / vnd bekehret euch zu dem HErrn
+ewrem GOtt / denn er ist gnedig / barmhertzig / vnd von grosser Güte / vnd rewet
+jhn bald der Straff / wer weiß / es mach jhn wiederumb gerewen / vnd einen Segen
+hinder sich lassen: GOtt thut auch eine herrliche Verheissung Jerem. 18.
+Plötzlich rede ich wieder ein Volck vnd Königreich / daß ichs außrotten /
+zerbrechen vnd verderben wolle / wo sichs aber bekehret von seiner Bößheit / da
+wieder ich rede / so sol mich auch rewen das Vnglück / daß ich jhm gedacht
+zuthun. So ist auch das Exempel der Niniviten bekant / die das vorstehende
+grosse Vnglück vnd Vntergang durch Buß vnd Gebet bey GOtt abgewendet. GOtt gebe
+Gnad durch seinen heyligen Geist / daß wirs auch also machen / vnd entfliehen
+dem Vnglück / das fürhanden ist / vnd mit Frewden für des Menschen Sohn an jenem
+Tage stehen mögen.</p>
+<p>Zu der Leichpredigt aber deß in GOtt verstorbenen Herrn Capellmeisters habe ich
+diese jtzt verlesene schöne Historiam / da ein Mann mit Jacob gerungen / aus
+gewissen Vrsachen nemen wollen: Eins weil wir am verschienen Sontage von
+Teufflischen Versuchungen gehöret / daß wir jtzt etwas hören mögen von GOttes
+Aufechtungen. Dar-
+<pb facs="#f0007" n="7"/>
+nach
+weil auch diese Histori mit dem zukünfftigen Sontags Evangelio von dem
+Cananeischen Weiblein fein vberein stimmet / denn Christus der das Cananeische
+Weiblein auff die Prob gesetzt / hat auch alhie Jacob auff die Prob gesetzt /
+vnd wie das Cananeische Weiblein gesieget / also auch Jacob: Vnd zuletzt weil
+auch der Herr Capellmeister S. von solchen hohen tentationibus vnnd Anfechtungen
+offt Noht gelitten / vn&#x0303; ein jeder / der gedenckt selig zu werden
+/ sich derselben vermuten muß / damit man sich recht wisse darein zuschicken.
+Wir wollen im Nahmen GOttes erstlich reden von dem Mann / der mit Jacob gerungen
+/ vnd was Jacob habe leyden vnnd außstehen mussen. 2. Wie Jacob sich verhalten
+vnd bezeiget. Vnd 3. wie es abgelauffen / vnd was Jacob für Nutz davon gehabt.
+GOtt verleyhe vns dazu die Gnad seines heiligen Geistes vmb JEsu Christi willen.
+Amen.</p>
+</div>
+<div>
+<head>Vom Ersten.<lb/>
+</head>
+<p>ANlangendt das Erste / so wird anfenglich angedeutet die zeit / da diß geschehen
+/ nicht am Tage / sondern in der Nacht / vnd das hat diesen Kampff dem Jacob
+desto gefehr: vnd beschwerlicher gemacht / denn wen&#x0303;man des Tages
+von einem
+<pb facs="#f0008" n="8"/>
+angefallen wird /
+so kan man jhn desto besser sehen / man kan jhm auch desto besser begegnen: Aber
+in der Nacht hats zuthun. Ohn zweiffel ist Jacob in der meinung gestanden / es
+were ein Gespenst / oder ein Mörder / der jhn wolte vmb Leib vnd Leben bringen /
+den es heisset / wie der Poet schreibet / surgunt de nocte latrones, des Nachts
+mauset solch Gesindlein gemeiniglich / vnd lassen sich finden.</p>
+<p>Darnach wird angezeiget / daß in der Nacht ein Mann sey zu Jacob kommen / der
+Mann aber verreth sich hernach selbst / vnd spricht / du hast mit GOtt / vnd mit
+Menschen gekempfft. Ists derwegen nicht GOtt der Vater / denn der ist wol GOtt
+aber nicht Mensch: Es ist auch nicht der heilige Geist / denn der ist auch warer
+GOtt / aber nicht Mensch: Viel weniger ists ein guter oder böser Engel gewesen /
+denn die sind weder GOTT noch Mensch: Sondern einig vnnd allein der Sohn GOttes
+vnser HErr vnd Heyland JEsus Christus der ist GOtt vnnd Mensch in einer
+vnzertrenten Person / <foreign xml:lang="el"><gap reason="fm"/></foreign>;, GOtt von Art vnd Mensch ein
+Held: GOTT vom Vater in Ewigkeit / vnnd Mensch von der Jungfrawen Maria in der
+zeit geboren / wie wir in dem andern Artickel vnsers Christlichen Glaubens
+bekennen. Er wird aber alhier ein
+<pb facs="#f0009" n="9"/>
+Mann genant / denn in Maus gestalt ist er Jacob erschienen / er
+solte auch ein Mann werden / vnnd warhaffte Manß oder Menschliche Natur an sich
+nemen / vnd Eva vnser aller Mutter hatt jhn auch einen Mann geheissen / Gen. 4.
+Ich habe den Man&#x0303; den HErrn.</p>
+<p>Weiter wird zuverstehen gegeben / was der Mann / GOtt vnd Mensch gethan / er hat
+mit Jacob gerungen: Wie die Ringer vnd Kempffer einander rechtschaffen
+angreiffen / sich in die Arm fassen / vnd weitlich tummeln / also hat dieser
+Mann der Sohn GOttes Jacob in die Arm gefasset / jhn gewaltig angegriffen / vnd
+sich als seinen Feind gestelt: In seiner Sprach kommet ringen vom Staube her /
+wie auch Lutherus am Rande zeuget / als wenn zween mit einander ringen / das der
+Staub sich erhebet / vnd dicke vmb sie wird / vnd lautet so viel / es steubet
+ein Mann mit jhm / ein hefftiger Kampff ist es gewesen.</p>
+<p>Zu letzt wird gemeldet / was Jacob in diesem Kampff gelitten vnd außgestanden /
+er hat an Leib vnd Seel Noth gelitten. Das er an der Seel gelitten / kan man
+daraus abnemen / daß er nach geendigtem Kampff sagt / meine Seele ist genesen /
+salva facta est anima mea, meine Sele ist erlöset / errettet oder selig worden:
+Derwegen ist jhm in dem Kampff
+<pb facs="#f0010" n="10"/>
+zu sin gewesen / als wenn seine Seele solte darauff gehen / er
+werde an derselben Schaden leyden / vnd verdampt vnd verloren werden. Der Leib
+aber hat auch ein hartes außgestanden / daß er nicht allein von dem Mann / ohn
+zweiffel / hart angegriffen / daß es jhm wehe gethan / vnd Jacob den Tod gleich
+für Augen gesehen / sondern der Mann hat jhm auch das Gelenck seiner Hüfft
+angegriffen / welches jhm darüber verrenckt worde&#x0303; / daß er an
+seiner Hüfft gehincket / vnd sich mit dem Schaden / wie es etzliche dafür halten
+/ sein lebenlang hat schleppen müssen. Dieser Mann / der Sohn Gottes hat sich
+eines Kunststücks gebraucht / wie dann Ringer vnd Fechter gemeiniglich ein
+stücklein pflegen für sich zu behalten / daß sie im nohtfall zur Hand nemen /
+vnd thut der Mann nur einen griff / da ists mit der Hüfft Jacobs geschehen / jhm
+damit zu Gemüt zuführen / wen&#x0303;s eusserliche stercke gelten / vnd
+es jhm ein ernst sein solte / so würde Jacob nicht bestehen können / das Jacob
+aber gewinne / daß habe er nicht seines Leibes Kräfften zu zuschreiben / sondern
+der Krafft des Geistes vnd dem Glauben. Vnd daß ist der Verstand vnd meinung des
+ersten.</p>
+<p>Hiebey haben wir nu eine nötige vnnd nützliche Lehr in acht zunehmen von GOttes
+Anfechtungen vnd Versuchungen / damit er seinen liebsten Kin-
+<pb facs="#f0011" n="11"/>
+dern am hefftigsten
+zusetzt. Das kömmet vns frembd für / vnd könnens vns nicht wol einbilden / das
+GOtt die seinen versuchen soll: Aber neben diesem Exempel bezeuget es GOttes
+Wort an vielen örten: Gen. 22. stehet außdrücklich: Nach diesen Geschichten
+versuchte GOtt Abraham: Vnd Deut. <hi rendition="#i">8.</hi> lesen wir / das
+GOTT die Kinder Israel in der Wüsten / viertzig Jahr lang versucht habe: vnd das
+Cananeische Weiblein ist auch vom HErrn Christo rechtschaffen versucht worden:
+Vnnd Syrach sagt 2. Capittel: Mein Kind wiltu Gottes Diener seyn / so schicke
+dich zur Anfechtung. GOTT greifft aber in solchen Versuch-vnnd Anfechtungen die
+Gotseligen an Leib vnnd Seel an / wie sich an Jacob alhier ereuget: Seine Seele
+leydet grosse Noht / vnd ist jhr / als wenn sie sol vmbkommen vnd verdampt
+werden: So ists mit Abraham zugangen in der Versuchung GOttes / denn weil jhm
+GOtt in Jsaac die Verheissung vom Heyland zu seiner Seelen Seligkeit gethan /
+vnd derselbe in seiner Jugent sol geschlachtet werden / kan man leichtlich
+erachten / wie es in der Anfechtung mit seiner Seel gestanden: Also bekennet
+Hanna 1. Samu- 2. Gott tödte vnd führe in die Helle: Ihr ist in der Anfechtung
+zu sin gewesen / als wen&#x0303; sie Gott getödtet
+<pb facs="#f0012" n="12"/>
+vnd in die Helle geführet
+hette: David sagt im 31. Psalm: Ich sprach in meinem zagen / ich bin von deinen
+Augen verstossen / : Er leidet die hohe Anfechtung / als wenn er vnter die
+reprobos, die verdampt werden / gehöre. Im 77. Psalm stehet: Meine Seele wil
+sich nicht trösten lassen: Vnd im 87. Psalm: Ich leyde dein Schrecken / daß ich
+schier verzage. Vom Hißkia lesen wir Esai. 38. Ich sprach / nun muß ich zur
+Helle Pforten fahren: Siehe vmb Trost war mir sehr bange / du hast dich meiner
+Seele hertzlich angenommen / daß sie nicht verdörbe / denn du wirffest alle
+meine Sünde hinder dich zurück: Damit er andeutet / daß seine Seele Noht
+gelitten / in der Versuchung. Jonas 2. Cap. im Bauch des Walfisches / ich schrey
+aus dem Bauch der Hellen / ich gedachte ich were von deinen Augen verstossen:
+Meine Seele verzagte bey mir. In der Passion hören wir von Christo / daß er in
+der hohen Anfechtuug Blutigen Schweiß geschwitzet / seine Seele betrübt worden /
+biß in den Todt / vnd am Stamme des Creutzes geruffen / mein GOtt mein GOTT /
+warumb hastu mich verlassen. So gehets in GOttes Anfechtungen mit der Seelen zu.
+Bey der Seel aber bleibts gemeiniglich nicht allein / sondern wie alhier der
+Sohn GOttes dem Jacob das Gelenck seiner Hüfft gerühret / daß er / wie es
+etzliche da-
+<pb facs="#f0013" n="13"/>
+für halten
+/ eine zeitlang / nach etzlicher meinung aber sein lebelang gehincket / so
+pflegt GOtt auch den seinen neben den Anfechtungen der Seelen / schwer leiblich
+Creutz zu zuschicke&#x0303; / wie sich auch an allen Heiligen vnnd
+Kindern GOttes außgewiesen: Von Mose lesen wir Num. 12. daß er ein sehr
+geplagter Mensch vber alle Menschen auff Erden gewesen sey. Hannae Leib hatte
+GOtt verschlossen / vnd jhre wiederwertige betrübte sie / vnd trotzte sie sehr /
+1. Sam. 1. David muste wie ein Rebhun flüchtig seyn / vnd könte fürm Saul seinem
+Feinde im Lande nicht bleiben: Hiob kam vmb seine Kinder / Güter vnd Gesundheit:
+Wenn man meinen Jammer wüge / sagt er im 6. Cap. vnd mein Leyden zusammen in
+eine Wage legte / so würde es schwerer seyn den Sand am Meer. Assaph klaget im
+73. Psalm / daß er geplagt sey täglich / vn&#x0303; seine Straffe sey
+alle Morgen da. Wie es auch den Propheten vnd Aposteln er gangen / ist bekand /
+sie sein als ein Fluch der Welt / vnd ein Fegopffer aller Leute gewesen / 1.
+Cor. 4. Paulus hat von seinem Leyden ein gantz Register auff gezeichnet 2. Cor.
+11. vnd 12. Vnd Summa der Gerechte muß viel leyden Psal. 34. Wir müssen durch
+viel Trübsal eingehen in das Reich GOttes Actor. 14. Alle die GOttselig leben
+wollen in Christo JEsu / müssen Verfolgung leiden: 2. Tim. 3. Sie sind alle der
+<pb facs="#f0014" n="14"/>
+Züchtigung theilhafftig
+werden / Hebr. 12. Also sein die Christen traun in einem recht schweren Orden /
+da sie hohe Anfechtungen außstehen / vnd an Leib vnd Seel viel leiden müssen /
+sie müssen jmmer im streit sein Hiob: 7. vnd findet sich bey jhnen außaußwendig
+Streit / vnnd inwendig Furcht 2. Cor. 7.</p>
+<p>Es meinet es aber GOtt mit solchen Versuchungen vnd Creutz nicht böß / sondern
+hat vnnd behelt ein recht Vater Hertz dabey / vnnd wie ein Vater spielet er mit
+seinen Kindern: Ein leiblicher Vater stellet sich bißweilen auch feindselig
+gegen sein liebes Kind / vnnd thut als wolte ers vmbbringen / oder von sich
+weisen / vnnd es nicht mehr für sein Kind erkennen / damit ers prüffe / wie es
+sich verhalten wolle / wenn dann das Kind anfengt kleinmütig zu werden / oder zu
+ruffen vnnd schreyen / stellet er sich desto freundlicher: Sit licet in gnatos
+facies austera parentum, aequa tamen semper mens est &amp; ubique voluntas: So
+stellet sich auch GOTT der Himmlische Vater bißweilen raw vnnd hart vnnd als ein
+Feind: Du bist mir verwandelt in einen grawsamen / sagt Hiob am 30. Capittel:
+vnnd zeigest deinen Gram an mir mit der Stärcke deiner Hand: Aber es ist sein
+ernst nicht / GOtt plagt vnd betrübt die Menschen nicht von Hertzen
+<pb facs="#f0015" n="15"/>
+Thren: 3. Er setzt sie auff die Probe / daß sie im
+Glauben / Hoffnung / Gebet vnnd Gedult bewehret werden / Syrach 2. Capittel: Wie
+das Goldt durchs Fewr / so werden die / so GOTT gefallen / durchs Fewr der
+Trübsal bewehret. 1. Pet. 1. Ihr seyd jtzt eine kleine zeit trawrig in
+mancherley Anfechtungen / auff das ewer Glaube rechtschaffen vnnd viel
+köstlicher erfunden werde / denn das vergengliche Gold (das durchs Fewr bewehret
+wird) zu lobe / preiß vnnd Ehren / wenn nun offenbahret wird JESVS CHRISTVS. In
+solchen Anfechtungen merckt man auch desto fleissiger auff GOttes Wort / darauff
+andere wenig passen / Esai: 28. Anfechtung lehret auffs Wort mercken: Sonderlich
+aber lesset GOtt ohn zweiffel der from&#x0303;en Seele in den
+Anfechtungen noht leyden / daß sie etwas vom Zorn GOTTES vnnd von der Hellen
+Angst fühlen / damit sie in Ewigkeit desto hertzlicher Christo dafür dancken /
+daß er sie davon erlöset: Denn Gottlosen aber zur warnung vnd schrecken / daß
+sie in sich schlagen vnnd gedencken sollen / geschicht das am grünen Holtz / was
+wil am dürren werden? Luc. 23. Vnnd fengt das Gericht des HErrn so starck am
+Hause des HERRN an / was wils für ein ende nehmen an denen die dem Evangelio
+nicht glauben?
+<pb facs="#f0016" n="16"/>
+vnd so der
+Gerechte kaum erhalten wird / wo wil der Gottlose vnnd Sünder erscheinen? 1.
+Pet. <hi rendition="#i">4.</hi> Ja es werden die Frommen von GOtt so hart offt
+mit genommen / daß sie sich nicht vberheben / sondern in Demuth erhalten werden
+/ 2. Cor. 12. Auff das ich mich der hohen Offenbahrung nicht vberhebe / ist mir
+ein Pfaal gegeben ins Fleisch des Satans Engel / der mich mit Feusten schlage /
+auff das ich mich nicht vberhebe / : Es werden jhnen auch wol die Hüffte oder
+andere Glieder am Leibe gelehmet / daß der alte Adam gekrencket / getödtet /
+gecreutzet vnd vnter gehalten werde / 1. Pet. <hi rendition="#i">4.</hi> Wer am
+Fleisch leydet / der höret auff von Sünden / daß er hinfort / was noch
+hinderstelliger zeit im Fleisch ist / nicht der Menschen Lüsten / sondern dem
+Willen GOttes lebe. Deßgleichen wird man dem Ebenbild Christi dadurch ehnlich /
+denn welche GOtt versehen hat / die hat er auch verordnet / daß sie gleich sein
+sollen dem Ebenbild seines Sohns Röm. 8.</p>
+<p>Diß dinet nun Frommen vnnd Gottseligen Hertzen dazu / daß sie sich nicht
+einbilden / GOTT werde jhnen jmmer Rosen / wie man sagt zulachen / Nein / wie
+Jacob einen harten Standt hat außstehen / vnd sich schwer anfechten vnd
+versuchen müssen lassen / so hats GOtt je vnd vnd allwege mit den aller Frömsten
+gehalten / vnd thuts noch / es wieder-
+<pb facs="#f0017" n="17"/>
+fehret den Frommen
+nicht etwas seltzams / 1. Pet. 4. sondern eben dieselbigen Leyden sind vber alle
+jhre Brüder in der Welt gangen 1. Pet. 5. Sie sollen aber solchen Kampff nicht
+für ein Zorn / sondern Gnadenzeichen halten / Tobiae 12. Weil du GOtt lieb
+warest / so könte es nicht anders seyn / du müßtest Anfechtung haben / auff das
+du bewehret würdest: Hebr. 12. Mein Sohn achte nicht geringe die Züchtigung des
+HErrn / vnd verzage nicht / wenn du von jhm gestrafft wirst / denn welchen der
+HErr lieb hat den züchtiget er / er steupt aber einen jglichen Sohn den er
+auffnimpt: So jhr die Züchtigung erduldet / so erbeut sich euch Gott als
+Kindern: Den&#x0303; wo ist ein Sohn / den der Vater nicht züchtiget? Syd
+jhr aber ohn Züchtigung / welcher sie alle sind theilhafftig worden / so seyd
+jhr bastarte vnd nicht Kinder. Derwegen sol man nicht wündschen vnd begehren /
+daß man jmmer möge vnangefochteu vnnd ohne Kampff bleiben.</p>
+</div>
+<div>
+<head>Vom Andern.<lb/>
+</head>
+<p>FVrs Ander folget von Jacob / wie sich derselbe in diesem ringen bezeiget vnd
+verhalten. Anfenglich bringts der Text mit sich / das Jacob / da jhn der Mann /
+der Sohn GOttes an-
+<pb facs="#f0018" n="18"/>
+gegriffen / nicht Hände vn&#x0303; Füsse / wie wir reden fluchs
+habe sincken lassen / sondern er hat sich gewehret / vnd auff seiner seiten auch
+gerungen vnd gekempfft / vnd seine eusserste Kräffte vnd Vermügen dran
+gestreckt. Er hat aber nicht allein mit Händen vnd Leibeskräfften gerungen /
+sondern auch vnd zwar am meisten mit dem Glaube&#x0303; / den&#x0303; er hat im Kampff zwiefache Anfechtung gehabt / deß Leibes vnd
+Guts als müste er sterbe&#x0303; vnd alles verlassen / vn&#x0303;
+der Seelen halben / als solte er verdampt vn&#x0303; verlore&#x0303; werde&#x0303;. Dawieder hat er sich erin&#x0303;ert der
+verheissung Gottes / die er jhm Gen. 28. vn&#x0303; 31. gethan / das in
+seinem Samen alle Geschlechte / vn&#x0303; er also auch selber gesegnet /
+vn&#x0303; dz er im verheissene&#x0303; Heyland der Welt sol
+selig werden / vnd dan&#x0303; das jhm Gott befohlen wieder in sein
+Vaterland zuziehen / er wolle mit jhm seyn / vnd jhn behüten: An die verheissung
+Gottes Leibvn&#x0303; Seel betreffent hat sich Jacob mit warem glauben
+gehalten / vnd draus geschlossen / weil jhm GOtt das zugesagt / so könte vnnd
+würde es kein noht haben / vn&#x0303; wen&#x0303; schon der Män&#x0303;er noch mehr auff jhn zusetzte&#x0303; / vnd jhn anfielen.
+Vn&#x0303; wen&#x0303; er den Glaube&#x0303; an der
+Verheissung nicht gehabt / so würde er ohn zweiffel vber den vnverhofften anfall
+also erschrocken vnd erstarret seyn / daß er nicht gewust / worzu er hette
+greiffen / vn&#x0303; was er hette anfange&#x0303; solle&#x0303; / aber der glaube hat das beste gethan / vn&#x0303; jhn
+erhalte&#x0303; / daß der Man&#x0303;
+<pb facs="#f0019" n="19"/>
+der Sohn GOttes jhn nicht
+vbermöcht / den sonsten hette er wieder seine eigene Verheissung vnd Zusage
+handlen müssen / welches vnmüglich.</p>
+<p>Darnach wird alhier von Jacob gemeldet / da die Morgenröte angebrochen / hat der
+Man&#x0303; der Sohn Gottes begehret / Jacob solte jhn gehe&#x0303; lassen / aber Jacob hat nicht dran gewolt / sondern hat
+angehalte&#x0303; / vn&#x0303; gesagt / ich lasse dich nicht /
+du segnest mich dan&#x0303;. Hier verwundert man sich billich / wie Jacob
+doch diesen Mann nicht habe wollen lassen / da er doch viel mehr Gott hette
+solle&#x0303; dancke&#x0303; daß er seiner were loß worde&#x0303;: Insonderheit aber / dz er eine&#x0303; Sege&#x0303; von dem begehret / der sich für seine&#x0303; ergste&#x0303;
+Feind anlesset? Etzliche sind der meinung / der Man&#x0303; der Son
+Gottes habe sich im abzuge anders vn&#x0303; freundlicher gegen Jacob
+erzeiget als vorhin / vn&#x0303; mit geberden oder Worten zuverstehen
+gegeben dz er nicht sein Feind sey / vn&#x0303; es böse meine / dadurch
+Jacob verursacht worde&#x0303; / den Segen von jhm zu bitten. Lutherus
+schreibt vber diese Wort / Jacob habe von dem Man&#x0303; einen
+Wiederspruch oder Wiederruff begehret / den&#x0303; er habe gesagt / er
+sey verflucht / vn&#x0303; darüber sey seine Seele erschrocken / vnd am
+hefftigsten betrübt worden / darnmb sol er die Wort wiederruffen / vnd jhn für
+gesegnet bekennen / sonsten wolle er jhn nicht lassen. Andere legens also aus /
+das Jacob von dem Mann eine Versicherung vnnd Friedes--
+<pb facs="#f0020" n="20"/>
+Zeichen habe
+gefoddert / in dem er gesagt / er sol jhn segnen / denn der Segen stehe zwar
+GOtt eigentlich zu / aber es könne auch ein Mensch den andern wol segnen / nicht
+allein mit Worte&#x0303; vnd Glückwünschung / wie Jacob den Pharaonem
+gesegnet Gen. 47. sondern auch mit Verehrungen / Geschenck vnd Gaben / als im
+folgenden 33. Cap. da Jacob sein Geschenck vnd Gaben einen Segen nennet / vnnd
+spricht zum Esau: Nim den Segen von mir an / denn ich dir gebracht habe: Solchen
+Segen habe auch Jacob von diesem Manne begehrt / daß er jhm für den anlauff vnd
+verrückung der Hüfft etwas guts wiedervmb beweisen solle mit Worten oder
+Wercken: Er habe jhn erschreckt vnd betrübt / er sol jhn auch wieder erfrewen
+vnd trösten / er habe als ein Feind auff jhn zugesetzt / vnd als hette er jhm
+das Leben nehmen wollen / er sol jhn jtzt versichern / das ers der meinung nicht
+gethan / vnd er nichts böses sich von jhm zu befahren habe.</p>
+<p>Diese Bitte vnd Gebet / vnd das Jacob so bestendig anhelt / gefelt dem Mann / dem
+Sohn GOttes so wol / daß er thut / was er begehret / vnd segnet jhn: Vnd ohn
+zweiffel hat er sich gestellet / als könte er nicht von jhm kommen / zu dem ende
+/ daß er solch Gebet vnd bestendigkeit hat wollen heraus locken / vnd den Segen
+hinter sich lassen.</p>
+<pb facs="#f0021" n="21"/>
+<p>Zu letzt ist auch hieraus abzunehmen / das grosse Gedult beym Jacob gewesen /
+denn ob jhm wol die Hüfft verrenckt / so hat er doch wieder GOtt nicht gemurret
+/ sondern es mit Gedult erlitten vnd außgestanden / vnd ohn zweiffel sichs
+gerühmet / daß er in dem Kampff solch Malzeichen bekommen.</p>
+<p>Bey diesem Andern Stücklein haben wir nu eine trewhertzige Vermahnung zubedencken
+/ daß wir in Aufechtungen vnd Versuchungen / Leib vnd Seel zeitliche vnd ewige
+Wolfahrt betreffent / dem Jacob folgen / in seine Fußstapffen treten / vnd bey
+jhm in die Schul gehen sollen / denn er kan für einen Meister passiren / wie jhm
+alhier Zeugniß gegeben wird. Er aber hat gerungen vnd gekempfft / so sollen wir
+auch ringen vnd Kempffen: Dazu vns auch Christus selber vermahnet Luc. 13.
+Ringet darnach / daß jhr durch die enge Pforten eingehet / <foreign xml:lang="el"><gap reason="fm"/></foreign>;, es ist ein solch Wörtlein / daß nicht allein von Kämpffern
+gebraucht wird / sondern auch vom Todes-Kampff / als von Christo / da er mit dem
+Tode gerungen / vnd es kam / daß er mit dem Tode rang / stehet Luc. 23. Solchen
+ernst sollen wirs vns lassen seyn. Der heilige Apostel Paulus befielt es auch 1.
+Tim. 1. Vbe eine gute Ritterschafft / behalt den Glauben / vnd ein gut Gewissen:
+Vnd 2. Tim. 2.
+<pb facs="#f0022" n="22"/>
+Leyde dich
+als eine&#x0303; guter Streiter JEsu Christi / kein Kriegsman flicht sich
+in Händel der Nahrung / auff das er gefalle dem / der jhn angenom&#x0303;en hat: Vnd so jemand auch kempffet / wird er doch nicht gekrönet / er kempffe
+den recht. Vn&#x0303; 2. Tim. 4. schreibt Paulus von sich selbst: Ich
+habe einen guten Kampff gekempffet / ich habe den lauff volendet / ich hab
+glauben gehalten.</p>
+<p>Weil aber der Man&#x0303; / der mit dem Jacob gerungen / der Sohn Gottes
+vnser HErr JEsus Christus nicht also sichtbarlich heutiges Tages mit vns ringt /
+sondern es geschicht durch hohe vnd schwere tentationes Versuch-vn&#x0303; Anfechtung des Leibes durch Creutz vnd Vnglück / vn&#x0303; der Seelen
+durch kleinmütigkeit / Furcht vn&#x0303; schrecke&#x0303; / so
+dürffen wirs auch auff vnsere arme vn&#x0303; Leibskräffte in dem Kampff
+nicht setze&#x0303; / vn&#x0303; da sein wir auch wie Jacob viel
+zuschwach: sondern wir solle&#x0303; erstlich in dem ringen vn&#x0303; kempffen gebrauchen den glauben / wie Jacobs glaube mehr gethan
+den seine Arme / den nichts ist vnmüglich dem / der da gleubet Mar. 9. Vn&#x0303; vnser glaube ist der Sieg: 1. Joh. 5. Darumb ists auch Gott
+fürnemlich zuthun / dz vnser glaub geübet werde: Nach dem glauben sehe&#x0303; Gottes Augen Jerem. 5. vn&#x0303; was nicht aus dem
+Glauben gehet / dz ist Sünde Röm 14. vnd ohn den glauben ists vnmüglich Gott
+gefalle&#x0303; Heb. 11. Der glaube ist / wen&#x0303; man
+Gottes wort vnd verheissung für sich hat / vnd verlesset sich getrost
+<pb facs="#f0023" n="23"/>
+darauff: Solcher glaube kan die hohe vnnd schwere
+Anfechtungen vberwinden / wie die Exempel außweisen: Abraham hatte Gottes Wort
+vnnd verheissung für sich / daß jhm von Sara ein Sohn solte geboren werden / von
+welchem der Heyland der Welt sol herkom&#x0303;en: an das Wort vnd
+verheissung hielt er sich / vn&#x0303; trawete vn&#x0303; gleubte
+demselbe&#x0303; / ob sichs schon vbel darzu anließ / vnd damit
+vberwan er die hohe Anfechtung / wie Röm. 4. geschrieben stehet: Er hat
+gegleubet / auff Hoffnung / da nichts zuhoffen war / auff das er würde ein Vater
+vieler Heyde&#x0303; / wie dan&#x0303; jhm gesagt ist / also sol
+dein Same seyn / vnd er ward nicht schwach / im glauben / sahe auch nicht an
+seinen eigen Leib / welcher schon erstorben war / weil er fast hundertjährig war
+/ auch nicht den erstorbe&#x0303; Leib Sara / den er zweiffelte nicht an
+der verheissung Gottes durch vnglauben / sondern ward starck im glaube&#x0303; / vn&#x0303; gab Gott die Ehre / vnd wuste auffs aller
+gewissest / das was Gott verheisset / daß kan er auch thun. Darumb ists jhm auch
+zur Gerechtigkeit gerechnet.</p>
+<p>Vn&#x0303; da er hernacher abermal von Gott versucht ward vnd denselben
+Sohn schlachten vnd auff opffern solte / vberwan er die hohe vnd schwere
+Anfechtung gleichfals durch den glauben / damit er sich an Gottes wort vn&#x0303; verheissung hielt / wie Heb. 11. davon zulesen / durch den
+Glauben opfferte Abraham den Isaac / da er ver-
+<pb facs="#f0024" n="24"/>
+sucht ward / vnnd
+gab dahin den eingebornen / da er schon die Verheissung empfangen hatte / von
+welchem gesagt ward / in Isaac wird dir dein Same geheissen werden / vnd dachte
+/ GOtt kan auch wol von den Todten erwecken / daher er auch jhn zum Fürbilde
+wieder nam. So hat David sich auff GOttes Wort vnd Verheissung verlassen / vnd
+durch den Glauben die Anfechtungen vberwunden: HErr sagt er im 27. Psalm: Mein
+Hertz helt dir dein Wort für / etc. Da habe ich dein Wort vnd Verheissung /
+darauff verlasse ich mich: Vnnd Psal. 116. Ich glaube / darumb rede ich. Also da
+er mit Goliath wolte streiten / vnd es nicht ohne hohe Anfechtung abging / hielt
+er sich mit dem Glauben an Gottes Wort / daß er hatte / er sol König werden /
+vnnd an die Verheissung der Beschneidung 1. Samuel. 17. Deßgleichen Josaphat
+hatte wieder sich einen mechtigen Feind / vnd fing fast an den Zeterpfenning
+zugeben / aber da er GOttes Wort vnd Verheissung bekam / verließ er sich drauff
+/ vnd vermahnete das Volck auch zum Glauben / vnd sprach: Gleubet an den HErrn
+ewern GOtt / so werdet jhr sicher seyn / vnd gleubet seinen Propheten / so
+werdet jhr Glück haben: Es geschahe auch / wie 2. Chron. 20. zulesen. Johan. 4.
+gleubte der Königsche dem Wort / das JEsus zu jhm saget / vnd ging hin / vnd
+alßbald
+<pb facs="#f0025" n="25"/>
+wart sein Kind
+gesund: Das Cananeische Weiblein hielt sich auch mit dem Glauben an Christi Wort
+/ vnd erlangte was sie begerte / wie jhr Christus jhres Glaubens halben ein
+statlich Zeugniß gab: O Weib dein Glaub ist groß. Derwegen sollen wir in dem
+Streit vnnd Kampff / sonderlich in hohen vnd schweren Anfechtungen vnserer
+Seligkeit halben vns auff GOttes Wort vnd Verheissung verlassen / vnd vns nichts
+daran lassen abwendig machen / vnd treiben: sein Wort / singen wir / laß dir
+gewisser seyn / vnd ob dein Hertz spräch lauter nein / so laß doch dir nicht
+grawen.</p>
+<p>Lutherus schreibt gar schöne vber diesen Text: Ich wil GOttes Wort behalten / vnd
+damit zu frieden seyn / vnd mich drangnügen lassen / da wil ich sterben / da wil
+ich leben: Ich habe Verheissung vnnd Schutzes gnug an GOttes verheissung / nicht
+allein wieder Teuffel / Welt vnd Fleisch / sondern auch wieder diese hohe
+Anfechtung / denn so GOtt einen Engel sendete / der da sagte / du solt oder
+darffest diesen Verheissungen nicht glauben / so wolte ich jhn verwerffen vnd
+sprechen / hebe dich von mir Sathan / etc. oder so GOtt selber erschiene in
+seiner Mayestät vnd Herligkeit / vnd sagte / du bist meiner Gnaden nicht werth /
+ich wil meinen Raht endern / vnd dir die verheissung nicht halten: Da sol vnnd
+müste ich nicht
+<pb facs="#f0026" n="26"/>
+weichen /
+sondern wieder GOtt zum hefftigsten kempffen / wie Hiob sagt / vnnd wenn mich
+der HERR würde tödten / so wil ich dennoch auff jhn hoffen: Würde er mich in die
+vnterste Helle werffen / vnnd vnter die Teuffel setzen / so gleube ich doch daß
+ich werde selig werden / denn ich bin getaufft / ich bin von Sünden in der
+Beicht loß gesprochen / ich habe das Pfand meines Heyls vnnd Seligkeit / den
+Leib vnd Blut des HERRN im Abendmal empfangen / wil derwegen nichts anders sehen
+noch hören / sondern wil in diesem Glauben Leben vnnd Sterben / es rede GOTT /
+oder ein Engel / oder der Teuffel dawieder. Es führet auch Lutherus ein das
+Exempel von der Kloster Jungfer Mechtilde / die sey vom Teuffel hefftig geplaget
+vnnd angefochten worden / daß sie nicht wuste oder fühlete vom Glauben: Das war
+eine Versuchung der Kleinmütigkeit vnd Mißtrawens / welches ein hefftiger
+Schmertz vnd Qual des Gewissens ist / da setzte die Jungfraw jhm nichts anders
+zuwieder als diese Wort: Ich bin eine Christin / daß ist / ich bin getaufft auff
+das Blut vnnd Verdienst des Sohns GOTTES / ich bin gespeiset vnnd getrencktt mit
+dem Leib vnnd Blut Christi / daran halte ich mich fest / an dem Trost lasse ich
+mich begnügen / ob schon GOTT ein anders sagte. Wo
+<pb facs="#f0027" n="27"/>
+ein solcher Glaube ist / da
+hats kein Noht / da muß GOTT selbst gewunnen geben / denn er ist vnnd kan auch
+nicht wieder sein eigen Wort vnnd Verheissung / darauff der Glaube siehet /
+daran er sich helt / vnnd darauff er sich verlest. Derwegen im Kampff wieder
+alle Anfechtungen vnnd Versuchungen der Glaube sein sol vnd muß.</p>
+<p>Darnach wie aus Jacobs Glauben das Gebet kömpt / vnnd er den Mann / den Sohn
+GOTTES / nicht lassen wil / er segne jhn dann / vnnd jhn also bittet / vnnd bey
+jhm anhelt vmb den Segen: Also sollen wir in hohen vnd schweren Anfechtungen
+Leibes vnd der Seelen neben dem Glauben das liebe Gebet zur Hand nehmen / vnd
+GOTT fleissig anruffen / da er vns vnser meinung nach verflucht / so wolle er
+vns wieder segnen / da er vns betrübet / er wolle vns wieder trösten / da er vns
+geschlagen vnnd verwundet / er wolle vns wieder heylen / da er vns getödtet / er
+wolle vns wieder lebendig machen / da er vns in die Helle geführet / er wolle
+vns wieder heraus führen / da vnser Glaub schwach worden / er wolle denselben
+wieder in vns stercken / mehren vnnd erhalten / etc. So hat nicht allein Jacob
+hie gebetet / sondern auch die andern Heyligen GOTTES:
+<pb facs="#f0028" n="28"/>
+Welch ein beten vnd
+seufftzen wird Abraham gethan vnd getrieben haben in der hohen schweren
+Anfechtung / da er seinen Sohn schlachten solte / Hanna in jhren Anfechtungen /
+da jhr zu sinne war / GOTT hette sie getödtet / vnd in die Helle geführet /
+betet fleissig / gehet nach Silo / da die Lade des Bundes war / schüttet jhr
+Hertz vor GOtt aus / vnd thut jhr Gebet mit heissen Thränen 1. Sam. 1. David
+ließ in seinem Zagen vnd Anfechtungen das Gebet nicht anstehen / Psal. 31. Ich
+sprach in meinem Zagen / ich bin von deinen Augen verstossen / dennoch hörestu
+meines flehens Stim / da ich zu dir schrey: Vnd Psal. 116. Stricke des Todes
+hatten mich vmbfangen / vnnd Angst der Hellen hatten mich troffen / ich kam in
+Jam mer vnnd Noht: Aber ich rieff an den Namen des HErrn / O HErr errette meine
+Seele. Jonas hat auch fleissig gebetet im Bauch des Walfisches in schweren
+Anfechtungen 2. Cap. Da meine Seele bey mir verzagte / gedacht ich an den HErrn
+/ vn&#x0303; mein Gebet kam zu dir in deinem heiligen Tempel. Christus da
+er in höchsten Nöhten vn&#x0303; Anfechtungen war / vergaß deß Gebets
+nicht / sondern hielt sich dran / vnd ging dreymal hin vnd betet / vnd am Stam
+des Creutzes sprach er: Mein GOtt mein GOtt warumb hastu mich verlassen? Paulus
+hat auch dreymal dem HErrn geflehet / das Sathans Engel möchte
+<pb facs="#f0029" n="29"/>
+von jhm weichen 2. Cor. 12.
+Vnd je mehr sich GOtt stellet / daß er von vns weichen wolle / vnnd vns
+verlassen / oder je feindseliger er auff vns zusetzt vnd zuschlecht / je
+instendiger vn&#x0303; hefftiger wir beten solle&#x0303; / wie wir
+am Cananeischen Weiblein ein Exempel haben / vn&#x0303; an Christo selber
+Luc. 23 Es kam / daß er mit dem Tode rang / vnd betet hefftiger. Mit solchem
+gleubigen / eyfferigen vnnd instendigem Gebet kan man GOtt gleich halten / wie
+hier Jacob thut / vnd Loth Gen. 19. der bittet GOtt / daß er in ein klein
+Städtlein fliehen möge / vnnd sich erretten / da antwortet jhm GOtt / siehe /
+ich habe auch in diesem stück dich angesehen / oder erhöret / eyle vnd errette
+dich daselbst denn ich kan nichts thun / biß daß du hinein kommest. So hat auch
+GOtt sich mit dem Gebet von Mose halten lassen / vnd hat loß begehret zuwerden /
+Exod. 32. Nu laß mich / sagt er / daß mein Zorn vber sie ergrimme / vnnd sie
+auff fresse: So viel vermach ein rechtschaffen Gebet bey GOtt Psal. 145. Der
+HErr ist nahe allen / die anrnffen / die jhn mit ernst anruffen / er thut was
+die Gottfürchtigen begehren / vnnd höret jhr schreyen / vnnd hilfft jhnen.
+Syrach 35. Das Gebet der Elenden dringet durch die Wolcken / vnd höret nicht
+auff biß der Höhest drein sehe / vnnd lesset nicht abe / biß hinzu komme: Jacob.
+5. Des Gerechten Gebet vermach viel / wenn es ernstlich ist.</p>
+<pb facs="#f0030" n="30"/>
+<p>Zu letzt wie Jacob mit Gedult den Kampff hat außgestande&#x0303; / vn&#x0303; ob jhm schon das Gelenck der Hüfft verrenckt worde&#x0303; / nicht drüber gemurret / vnd vngedültig worden / sondern solch Mallzeichen
+Christi gern an seinem Leibe getragen / vnd sich desselben ohn zweiffel erfrewet
+vnd gerühmet: Also wenn wir etwas im Kampff mit GOtt kriegen / vnd Schaden am
+Leibe oder Haab vnnd Gütern nehmen / sollen wir gedültig vnnd mit GOTT zü
+frieden seyn / denn ists doch alles GOTTES / so mach er auch damit vmbgehen
+seines gefallens / vnnd es geben oder nehmen / bawen oder brechen schwächen oder
+stärcken / wir sollen mit Hiob sagen 1. Cap. Der HErr hats gegeben / der HErr
+hats genommen / der Nahm des HErrn sey gelobet. Vmb solche Gedult ists ein
+köstlich ding / Esai. 30. Wenn jhr stillet bliebet (daß ist / wie Lutherus am
+Rande setzt / leyden / Gedult vnnd harren) so würde euch geholffen / durch
+stille sein vnd hoffen / werdet jhr starck seyn. In Klagliedern Jerem. 3. Cap.
+Es ist ein köstlich ding gedültig seyn / vnnd auff die Hülffe des HERRN hoffen /
+es ist köstlich ding einem Mann / daß er das Joch in seiner Jugent trage / daß
+ein verlassener gedültig sey / wenn jhn etwas vberfelt / vnd seinen Mund in den
+staub stecke / vnnd der Hoffnung erwarte. Luc. 21. Fasset ewer
+<pb facs="#f0031" n="32"/>
+Seelen mit Gedult / Röm. 12
+Gedültig in Trübsal: 2. Cor. 6. Lasset vns beweisen als die Diener Gottes in
+grosser Gedult. Heb: 10. Gedult ist euch noht / daß jhr den willen GOttes thut /
+vnd die Verheissung empfahet. Ja man sol sichs rühmen / wenn man von Gott ein
+Denck oder Malzeichen bekömpt / denn es ist einem eine Ehre dem Ebenbild Christi
+ehnlich werden / vnnd seine Malzeichen am Leibe tragen / Röm. 5. Wir rühmen vns
+der Trübsal / denn Trübsal bringet Gedult / Gedult bringt Erfahrung / Erfahrung
+bringt Hoffnung / Hoffnung lest nicht zu schanden werden: 2. Cor. 7. Ich bin
+vberschwenglich in Frewden / in alle vnserm Trübsall / etc.</p>
+<p>Derwegen dienet vns diß darzu / daß wir vns in den Kampff mit Gott / vnd in hohe
+vnd schwere Anfechtungen Leib vnd Seel betreffent / wissen recht zuschicken /
+nemlich kempfft vnd ringt Gott / so sollen wir auch kempffen vnd ringen / vnd
+vns nicht gewunnen geben / sondern vns mit warem Glauben an sein vnfeilbares
+Wort vnd Verheissung halten / fleissig beten / vnd in verrückung der Hüfft /
+oder Glieder / oder Güter GOtt gedültig außhalten / vnd zu vnser Seelen / wenn
+sie vngedültig wil werden / mit David aus dem 42. Psalm sprechen / was betrübstu
+dich meine Seele / vnnd bist so vnruhig in mir: Harre
+<pb facs="#f0032" n="32"/>
+auff GOtt / denn ich werde
+jhm noch dancken / daß er meines Angesichts Hülffe vnd mein GOtt ist: Vnd sollen
+bestendig verharren biß ans ende / denn wer verharret biß ans ende / sol selig
+werden Matth. 24. Vnd sey getrew biß in den Todt / so wil ich dir die Kron des
+Lebens geben Apoc. 2.</p>
+</div>
+<div>
+<head>Vom Dritten.<lb/>
+</head>
+<p>FVrs Dritte vnd letzte ist noch vbrig / was es mit dem Kampff für ein end
+genommen / vnd was Jacob für nutz davon gehabt vnd bekommen. Der Kampff hat
+nicht jmmer gewehret / sondern nur biß zur Morgenröte / da hat er ein end
+gewonnen / vnnd im kempffen ist sie schon herfür gebrochen / ja je lenger der
+Kampff gewehret / je heller vnd liechter es worden. Darauff hat Jacob gesieget /
+vnd hat der Mann nicht jhn / sondern er den Mann vbermocht / vnd deßhalben einen
+sonderlichen Namen bekommen / da er biß anhero Jacob geheissen / wird er Israel
+genant / daß ist ein Fürst oder Kempffer GOttes / der mit GOtt ringet vnd
+angewinnet / wie der Mann / der Sohn GOttes selbst bekennet / du hast mit GOtt
+vnd mit Menschen gekempfft / vnnd bist obgelegen. Dieser Sieg ist nu auch nicht
+ohn Segen abgangen / denn der Mann
+<pb facs="#f0033" n="33"/>
+hat Jacob gesegnet / was es für ein Segen gewesen / setzt Moses
+nicht hinzu: Lutherus ist der meinung / es sey der Segen gewesen / damit die
+Väter sein gesegnet worden: In deinem Samen sollen gesegnet werden alle Völcker
+auff Erden. Aus dem Segen erkennet nu Jacob / wer der Mann sey / vnd gedenckt /
+ey du Himlischer Vater vnd HErr / ich habe gemeinet / es wehre ein Gespenst /
+oder Feind / nu erfahre ich aber / daß du der seyest / der meinen Vater Isaac /
+vnnd meinen Großvater Abraham gesegnet hast: Vnd darvber ist er von Hertzen froh
+worden: Wie er dann daher der Stette / da diß geschehen / einen sonderlichen
+nahmen gibt / vnd heisset sie Pniel / den / spricht er / ich habe GOtt von
+Angesicht gesehen / vnd meine Seele ist genesen: Pniel oder Pnuel heist GOttes
+Angesicht / denn weil jhm GOtt daselbst von Angesicht zu Angesicht erschienen /
+hat er der grossen Wolthat nicht wollen vergessen / vnd damit er sich derselben
+bey der Stette erinnerte / hat er jhr den Nahmen zugelegt. Das er aber sagt /
+meine Seele ist genesen / damit deutet er an / wie jhm vorher zu sinne gewesen /
+vnd wie jhm jtzt zu sinne sey / vorher sey seine Seele in tausent Nöhten gewesen
+/ vnnd habe Hellen Angst gelitten / jtzo aber sey sie getrost / wol zufrieden
+vnnd selig / als wenn sie im Himmel wehre / vnd Frewde der Seligkeit empfünde /
+so wol
+<pb facs="#f0034" n="34"/>
+sey jhr. So bald er
+auch für dieser Stette Pnuel fürvber kommen / ist jhm die Sonne auffgangen / daß
+ist jhm ein sonderlich Frewdenzeichen gewesen / denn es stehet nicht schlecht /
+die Sonne sey auff gangen / sondern sie sey jhm auff gangen / Es düncket jhm die
+Sonne am Himmel erfrewe sich selber drüber / vnd lache jhm zu / vnd wie er
+frölich / so sey die vnvernünfftige Creatur auch frölich / vnd müsse jhm zum
+besten auffgehen vnd dienen. Es wird aber hinzu gesetzt / er habe an seiner
+Hüfft gehincket / ob schon die schwere Anfechtung vnd der Kampff ein ende
+genommen / so ist gleichwol das liebe Creutz blieben / vnnd nach etzlicher
+meinung / wie zuvor erwehnet / hat er sich sein lebelang damit müssen schleppen
+/ aber doch hat ers gegen der grossen Gnade vnd Wolthat GOttes nichts
+geachtet.</p>
+<p>Bey diesem dritten vnd letzten Stücklein / wird vns ein mechtiger vnd gewaltiger
+Trost für gehalten / den man hohen vnnd schweren Anfechtungen vnd dem Kampff
+GOttes / darin Leib vnnd Seel leyden müssen / sol entgegen setzen: Wie Jacobs
+Kampff vnd Anfechtung nicht jmmer gewehret / sondern nur die Nacht biß an die
+Morgenröte: Also haben alle Anfechtungen vnd Creutz jhr Ziel / vnnd hören auff:
+Psal. 30. Den Abentlang wehret das weinen / aber des Morgens die Frewde / 2.
+Cor. 4.
+<pb facs="#f0035" n="35"/>
+Vnser Trübsal / der
+zeitlich vnd leicht ist: Johan. 16. Vber ein kleines werdet jhr mich nicht sehen
+/ vnnd aber vber ein kleines werdet jhr mich sehen. 1. Pet. 1. Die jhr jtzt eine
+kleine zeit trawrig seit in mancherley Anfechtung: Denn GOtt ist getrew / vnd
+lesset vns nicht versucht werden vber vnser Vermögen / sondern macht / daß die
+Versuchung so ein end gewinne / daß wirs können ertragen / schreibt Paulus 1.
+Cor. 10. Je lenger es auch mit dem Kampff gewehret / je mehr die Morgenröte
+heran gebrochen / ist je lenger je liechter worden / also je lenger die Frommen
+vnd Gottseligen in Creutz vnnd Anfechtungen sein / je liechter es jhnen wird /
+daß Liecht Göttliches Worts bricht je lenger je mehr her für / wird jhn desto
+besser bekant / sintemal Anfechtung auffs Wort lehret mercken Esai: 28. Das
+Liecht des Glaubens wird auch je lenger je grösser vnd stärcker / wie am Jacob
+vnnd am Cananeischen Weiblein geschehen / das Liecht des Trostes vnd Frewde
+gehet jhnen auff: Psal. 18. Du erleuchtest meine Leuchte / der HErr mein GOtt
+machet meine Finsterniß liecht: Psal. 97. Dem Gerechten muß das Liecht jmmer
+wieder auff gehen / vnd Frewde den frommen Hertzen: Psal. 112. Den Frommen gehet
+das Liecht auff im Finsterniß von dem Gnedigen / Barmhertzigen vnnd Gerechten.
+2. Pet. 1. Wir haben ein festes Pro-
+<pb facs="#f0036" n="36"/>
+phetisch Wort / vnd
+jhr thut wol / daß jhr drauff achtet / als auff ein Liecht / daß da scheinet in
+einem tunckeln Ort / biß der Tag anbreche / vnd der Morgenstern auff gehe in
+ewrem Hertzen. Wie Jacob gesieget / vnd den Nahmen Israel bekommen / also siegen
+alle Gleubigen vnd Frommen / vnd ein jeder Christ / hat billich den Nahmen vnnd
+Ruhm / daß er Israel genant werde: Wie dann die gantze Kirche vnd alle jhre
+Gliedmassen den Nahmen zum offtern führen Psal. 130. Israel hoffe auff den HErrn
+/ etc. ja wir siegen auch vber Sünd / Todt / Teuffel / Hell vnnd Verdamniß in
+vnnd durch Christum / 1. Cor 15. Todt wo ist dein Stachel? Helle / wo ist dein
+Sieg? Aber der Stachel des Todes ist die Sünde / die Krafft aber der Sünde ist
+das Gesetz: GOtt aber sey Danck / der vns den Sieg gegeben hat durch vnsern
+HErrn JEsum Christum. Wie Jacob gesegnet wird / so werden die Gottseligen
+gesegnet: Psal. 128. Der HErr wird dich segnen aus Zion. Vnnd kompt der Segen
+von diesem Mann dem HErrn Christo her / der ist der Same / in welchem gesegnet
+sollen werden alle Völcker auff Erden: Darvon auch Paulus schreibt Gal. 3.
+Christus hat vns erlöset von dem Fluch des Gesetzes / da er ward ein Fluch für
+vns (den es stehet geschrieben / verflucht sey jederman der am Holtz henget)
+auff daß der Se-
+<pb facs="#f0037" n="37"/>
+gen
+Abrahae vnter die Heyden keme in Christo JEsu / vnnd wir also den verheissten
+Geist empfingen durch den Glauben: Vnd am Jüngsten Tage wird der Segen noch das
+beste thun / da wird Christus sprechen zu denen zur rechten Matth. 25. Kommet
+her jhr gesegneten meines Vaters / etc. Wie Jacob GOtt den HErrn gesehen oder
+sein Angesicht / vnd daher die Frewde bekommen / so lest sich GOtt auch von den
+Frommen sehen / vnd erfrewet sie mit seinem Angesicht. Zwar verbirget er sich
+wol ein zeitlang / welches bringet grosse Trawrigkeit / wie man an David kan
+abnehmen / der so sehr drüber winselt vnd klaget / wenn GOtt sein Angesicht
+verborgen: Wie lang verbirgestu dein Andlitz Psal. 13. Da du dein Andlitz
+verbargest / erschrack ich Psal. 30. Psal. 80. HErr GOtt Zebaoth tröste vns /
+laß leuchten dein Andlitz / so genesen wir: Psal. 67. GOtt sey vns gnedig vnd
+segne vns / er laß seyn Andlitz leuchten / etc. Wenn dann GOtt so ein zeitlang
+sein Angesicht verborgen / kompt er zu letzt wieder herfür / vnnd lest es
+leuchten / nicht eben wie er in seinem Wesen ist / daß geschicht hier nicht /
+sondern erst im ewigen Leben / davon Exod. 33. Kein Mensch wird leben / der mich
+siehet: Johan. 1. Niemand hat GOtt je gesehen 1. Tim. 6. GOtt wohnet in einem
+Liecht / dazu niemand kom&#x0303;en kan / welchen kein Mensch gesehen hat
+<pb facs="#f0038" n="38"/>
+noch sehen kan: Sondern
+in seinem Wort lesset er sich oder sein Angesicht sehen / vnd gibt vns
+zuerkennen / wie er gegen vns gantz Väterlich affectioniret vnd gesinnet sey.
+Psal. 42. Wenn werde ich dahin kommen / daß ich GOttes Angesicht schawe? Da
+meinet er den Tempel / da GOttes Wort getrieben ward. 2. Cor. 3. Es spiegelt
+sich in vns die Klarheit GOttes mit auff gedecktem Angesicht / vnd wir werden
+verkläret in dasselbige Bilde von einer Klarheit zu der andern als vom Geist des
+HErrn. 1. Cor. 13. Wir sehen jtzt durch einen Spiegel in einem tunckeln Wort.
+Psal. 100. Jauchtzet dem HErrn alle Welt / dienet dem HErrn mit Frewden / kommet
+für sein Angesicht mit Frolocken. Solch Angesicht GOttes im Wort vnd Sacramenten
+erfrewet rechtschaffen: Da siehet vnnd schmecket man die Freundligkeit GOttes
+Psal. 34. Daher im 89. stehet / wol dem Volck das jauchtzen kan / HErr / sie
+werden im Liecht deines Antlitz wandlen / sie werden vber deinen Nahmen täglich
+frölich seyn / etc. Wie Jacobs Seele genesen / vnd gleich aus der Hellen
+errettet / vnd in den Himmel gesetzt: So muß es den frommen Seelen zuletzt
+wolgehen: Psal. 84. Mein Leib vnnd Seel frewen sich in dem lebendigen GOtt:
+Psal. 25. Seine Seele wird im gutem wohnen: Sonderlich nach absterbung des Leibs
+Sap. 3. Der Gerechten
+<pb facs="#f0039" n="39"/>
+Seelen sind in GOttes Hand / vnnd keine Qual rühret sie an / für den
+Vnverstendigen werden sie angesehen als stürben sie / vnd jhr Abscheid wird für
+ein Pein gerechnet / vnnd jhr Hinfahrt für ein Verderben / aber sie sind im
+Friede: 1. Sam. 25. Die Seele meines HERRN wird eingebunden sein in Bündlein der
+lebendigen / bey dem HErrn deinem GOtt / aber die Seele deiner Feinde wird
+geschleudert werden mit der Schleuder. Vnnd wann am Jüngsten Tage Leib vnnd Seel
+werden zusammen kommen / da werden wir GOtt von Angesicht zu Angesicht sehen /
+vnd werden jhn erkennen / wie wir erkant seyn / 1. Cor. 13. Da wird vnser
+nichtiger Leib verkläret / vnnd ehnlich werden dem verklärten Leibe Christi
+Phil. 3. Vnnd wird dieser zeit Leyden nicht werth seyn / der Herligkeit / die an
+vns wird offenbahret werden Röm. <hi rendition="#i">8</hi>. Vnd vnser Trübsal
+die hie zeitlich vnd leicht ist / wird schaffen eine ewige vnd vber alle maß
+wichtige Herligkeit 2. Cor. 4. etc.</p>
+<p>Dienet derwegen vns diß darzu / daß wir vber den Anfechtungen nicht verzagen /
+sondern getrost seyn / nicht den schweren Anfang vns schrecken lassen / sondern
+des gewünschten endes erwarten / da alles gut wird: Da GOtt die getödteten
+lebendig machet / vnd die er in die Helle geführet / wieder heraus führet 1.
+Sam. 2. Die Verletzte verbindet /
+<pb facs="#f0040" n="40"/>
+die zuschmissene heylet: Hiob: 5. Dessen sich die Gottselige Sara
+Tobiae 3. tröstet: Das weiß ich fürwar / wer GOtt dienet / der wird nach der
+Anfechtung getröstet / vnnd aus der Trübsall erlöset / vnd nach der Züchtigung
+findet er Gnade / denn du hast nicht lust an vnserm Verderben / sondern nach dem
+Vngewitter lessestu die Sonne wieder scheinen / vnd nach dem heulen vnd weinen
+vberschüttestu vns mit Frewden: David im 30. Psalm. Du hast meine Klage
+verwandelt in einen Reyhen / du hast meinen Sack außgezogen / vnnd mich mit
+Frewden gegürtet. Malach: 4. Euch die jhr meinen Nahmen fürchtet / sol auff
+gehen die Sonne der Gerechtigkeit vnnd Heil vnter desselben Flügeln. Heb. 12.
+Alle Züchtigung / wenn sie da ist / düncket sie vns nicht Frewde / sondern
+Trawrigkeit seyn / aber darnach wird sie geben eine friedsame Frucht der
+Gerechtigkeit denen / die dadurch geübt sind. Sonderlich aber sol vns
+auffrichten / das ewige Liecht des ewigen Lebens / darinnen wir vns mit ewiger
+Frewde frewen / vnnd allen Anfechtungen vnnd Creutz werden entsprungen seyn /
+darzu vns allen verhelffe GOtt Vater / Sohn vnd heiliger Geist hochgelobter GOtt
+in Ewigkeit. AMEN.</p>
+<pb facs="#f0041" n="41"/>
+<p>ALso haben wir jtzt zu seinem Ruhebettlein / den in GOtt verstorbenen Herrn
+Capellmeister begleitet / weicher in etzlichen dingen dem Jacob / der diesen
+Kampff außgestanden / kan verglichen werden. Jacob ist von Gottseligen Eltern
+vnd Vorfahren entsprossen / die GOtt sonderlich gedienet / vnd gleich Prediger
+gewesen: Also ist der Herr Capellmeister auch von solchen Eltern vnd Vorfahren
+kommen / denn sein Vater vnd Großvater Prediger gewesen / vnd GOtt vnd seiner
+Kirchen lange zeit gedienet / auch seiner Brüder vnd Anverwanten viel solchem
+Ampt wol fürgestanden / vnd zum theil noch auff den heutigen Tag wol fürstehen /
+wie er dann auch selber grossen Lust darzu gehabt / vnd es jhm offt gerewet /
+daß er sich nicht zum Predigampt begeben. Jacob ist auch sehr trew vnd fleissig
+in seinem Ampt vnd Beruff gewesen / des Tages ist er verschmacht für Hitze / vnd
+des Nachts für Frost / vnnd ist kein Schlaff in seine Augen kommen / wie Gen.
+31. bekant wird: So ist auch der Herr Capellmeister in seinem Ampt sehr fleissig
+gewesen / vnd hat sich keine Hitze / noch Kälte / noch Schlaff lassen abhalten /
+sondern darnach getrachtet / das er die Music möchte hoch bringen / vnd viel
+darinnen außrichten / wie auch das Werck den Meister selbst lobet: Daher er in
+sonderlichen Gnaden nicht allein hier zu Hoff ge-
+<pb facs="#f0042" n="42"/>
+wesen / sondern auch
+anderßwo bey Königen / Chur-Fürsten vnd Herren / wie einem jeden bewust ist.
+Jacob hat diesen harten Kampff vnd Anfechtung müssen vber sich gehen lassen /
+vnd das Creutz an seiner Hüfft / vnd sonsten viel vngemach für lieb nehmen: Der
+Herr Capellmeister hat auch offt hohe vnnd schwere Anfechtungen gehabt / wie er
+mannigmahl drüber geklaget vnd geweinet / daß es jhm daher keme / vnd er wol
+verdienet / denn er seine Jugent vbel zugebracht / vnd noch grosse feylen vnd
+Gebrechen an sich hette / wie er den&#x0303; traun ein sündiger Mensch /
+vnd kein Engel gewesen / jhm gleichwol seine Sünde von Hertzen gesund leyd
+lassen seyn. Zu denselben ist auch viel Creutzes vnd Vnglücks geschlagen / daß
+er ein wolgeplagter Mann gewesen.</p>
+<p>Jacob hat alles vberwunden durch festen Glauben / Gebet vnd Gedult / so hat auch
+der Herr Capellmeister jhm solche Geistliche Wehr vnd Waffen lassen befohlen
+seyn / vnd muß ich jhm das Zeugniß geben / wo in einem Hause alhier fleissig
+gebeten worden / so ists in warheit in seinem geschehen. Mit Jacob hats ein gut
+ende genommen / also auch mit dem Herrn Capellmeister / den&#x0303; nach
+dem jhn GOtt angegriffen mit Kranckheit / er sich mit GOtt versönet / das
+heilige Abendmahl empfangen / vnd sich dem HErrn JEsu Christo befohlen / hat jhn
+Gott
+<pb facs="#f0043" n="43"/>
+gnediglich abgefordert
+/ vnd erlöset von allem Vbel / vnd außgeholffen zu seinem Himmlischen Reich / da
+ist nu recht seine Seele genesen / den&#x0303; selig sind die Todten /
+die im HErrn sterben von nu an. Apoc. 14. Solches sollen nun die hinterlassene
+betrübte Witwwe / Kinder vnd Freunde jhm gern gönnen / vn&#x0303; GOtt
+für solchen seligen Abschied dancken. Wir alle sollen vns gegen solchen Kampff
+gefast machen / vnd den heiligen Geist vmb Hülff vnd Beystand anruffen / der muß
+das beste thun / vnnd täglich beten: du heilige Brunst süsser Trost / nu hilff
+vns frölich vnd getrost / in deinem Dienst bestendig bleiben / die Trübfall vns
+nicht abtreiben / O HErr durch dein Krafft vns bereit / vn&#x0303; stärck
+des Fleisches Blödigkeit / das wir hie Ritterlich ringen / durch Todt vnd Leben
+zu dir dringen. AMEN AMEN. <lb/>
+</p>
+<pb facs="#f0044"/>
+</div>
+<div>
+<head>BEATAE MEMORIAE Dni. Michaelis Praetorii, Excellentissimi deque Ecclesia
+meritissimi Musici, Dni. Fautoris &amp; Adfinis, sui ut integerrimi, ita
+desideratissimi.<lb/>
+</head>
+<l>OMne solum Patria est aliis: MihiPatria Goelum Est, erit, atque fuit; symbola
+Praetorii est. Est; quia jam gaudet Politeumate coelite, mu&#x0303;do
+Mortuus, Angelici sympatriota gregis. Semper erit; quando non temporis ambitus
+illic Ulla vel occiduam terminat hora diem: AEternanda illic, de quo sibi Patria
+nomen Assumit, nato dat melimela Pater; AEternos fratri similesque allucet
+honores Frater, justitiae phosphorus ille, suo; Quique laborantem docuit
+Paracletus in hisce Terris blandisonum consociare melos, Ipse triumfantem facit
+immortalia coelo Mille sonare modis jubila, mille choris. Sed fuit haec eadem
+quoque credita Patria, quando Hîc peregrinantis vita peracta fuit: Vita, cui
+vitam benè respondisse lacobi Verba Tukermannus non inhonora dedit.
+<pb facs="#f0045"/>
+Namque peregrinum sese Patriarcha fatetur, Cujus vita satis
+sit mala, sitque brevis: In mundo noster peregrinus &amp; hospes eodem Plurima
+dura aevo, sed breviore tulit: Ille Deumque hominemque uno congressus agone
+Vincit, &amp; adfecto poplite claudus abit, Claudus, at in Domino laetissimus,
+immò triumfans, Quod victi visu stet sibi certa salus: Hic Dominumque Deumque
+suum cognovit eundem, Quem precis in cunctis vicit agone malis, Per verbi
+speculum quasi, perque aenigmata novit, A facie ad faciem quem modò cernit
+ovans; Claudicet &amp; quamvis, homo quivis, coelica nulli Gaudia <foreign xml:lang="el"><gap reason="fm"/></foreign>; scire &amp; adire datur, Vera tamen nostri Pietas ita
+sphalmata texit Vni per Musas officiosa Deo Vt terrena triumfando, nil coelica
+praeter Gaudia curaret cordis &amp; oris honos: Ac velut Angelicis scalam
+Patriarcha videbat Illustrem gradibus colloquioque Dei; Sic nostro ad caelum
+verbis suffulta lehovae Sola erat in Christum scala vel ala Fides, Praestabatque
+gradus non intermissa laborum Coelitibus genio proximiore strues. Symbolon hoc
+voluit, sancti voluere labores, Publicitusque datum testificatur opus.
+<pb facs="#f0046"/>
+Nos, satis esto, piis manibus
+voluisse litare, Qui praecedentem subsequa turba sumus.</l>
+<p>In agro Brunovicensi, cùm Guelferbytum transiret, affundebat</p>
+<p>Tobias Heroldus Halberstadensis D. &amp; Ecclesiastes in Patria.<lb/>
+</p>
+<pb facs="#f0047"/>
+</div>
+<div>
+<head>PIIS MANIBVS S. Michael Praetorius CREVZBERGENSIS: Coenobii Ringelheimensis
+PRIOR: In Aulâ Serenissimorum Ducum Bunsvicensium ac Lunaeburgensium, quae
+VVolferbyti est, CHORI MVSICI MAGISTER: quin &amp; alibi Capellarum Regiarum,
+Electoralium, Ducalium DIRECTOR AC EPHORVS: Sacrae Musices ASSERTOR, DECVS,
+COLVMEN: Cùm jam ageret quadragesimum nonum aetatis annum, hoc est, septimum
+septenarium Climactericum: A. D. XV. FEBR. ANNO Xpl. M DCC XXI. Piam Vitam Piâ
+Morte Terminavit. HINC<lb/>
+</head>
+<l>TRiste sonant passim lugubri voce Camaenae, Et queritur tantum Phaebus obîsse
+virum. Scissa comas pictamque togam Symphonia plangit, Ac omnis nimiùm Musicus
+ordo dolet.</l>
+<pb facs="#f0048"/>
+<l>INTemplo, quod habes Vrbs Henricana novellum, Organicum modò jam nobile surgit
+Opus. Ars in eo, fulgensque nitor, numerusque tuborum, Quod stupeat civis, quod
+peregrinus, habent. Illius ad dextram MICHAEL PRAETORIVS altum Dormit ad
+extremum mortuus usque diem. Scilicet, emigrans vivis, sua condere tantus
+Musicus hoc ipso debuit ossa loco.</l>
+<p>Plenus affectu posthumo faciebat</p>
+<p>M. Fridericus Hildebrandus Blancoburgensis P. L. Rector Scholae
+VVolferbytanae.<lb/>
+</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Exeqviae Primogeniti Begängnüß Dem Holdseligen Knäblelin Andreas Cunerten</title>
+<author>
+<persName ref="http://d-nb.info/gnd/131357727">
+<surname>Hentschel</surname>
+<forename>Adam</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">20</measure>
+<measure type="tokens">4153</measure>
+<measure type="types">1649</measure>
+<measure type="characters">27819</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T10:13:02Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/508609</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/508609</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/508609</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/508609</idno>
+<idno type="DTADirName">508609</idno>
+<idno type="DTAID">200097</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200097-6</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Hentschel, Adam: Exequiae Primogeniti. Liegnitz, 1622.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Exeqviae Primogeniti Begängnüß Dem Holdseligen Knäblelin Andreas Cunerten</title>
+<author>
+<persName ref="http://d-nb.info/gnd/131357727">
+<surname>Hentschel</surname>
+<forename>Adam</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">20</measure>
+</extent>
+<publicationStmt>
+<publisher><name>s. e.</name></publisher>
+<pubPlace>Liegnitz</pubPlace>
+<date type="publication">1622</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 O 143/2 / 508609</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Schwabacher</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001"/>
+<titlePage type="main"> <docTitle> <titlePart type="main"> <hi rendition="#aq">Exeqviæ Primogeniti</hi><lb/>
+</titlePart> </docTitle> <docTitle> <titlePart type="sub"> <hi rendition="#b">Bega&#x0364;ngnu&#x0364;ß<lb/>
+Dem Hold&#x017F;eligen Kna&#x0364;belin<lb/>
+Andreas Cunerten:</hi><lb/>
+<hi rendition="#fr">Deß Ehrenfe&#x017F;ten vnd Wolbenambten Herrn</hi><lb/>
+<hi rendition="#b">Ca&#x017F;par Cunerts/</hi><lb/>
+</titlePart> </docTitle> <docTitle> <titlePart type="desc"> Fu&#x0364;rnehmen Bu&#x0364;rgers zum Jawer<lb/>
+Er&#x017F;tgebohrnen Hertzlieben<lb/>
+So&#x0364;hnlin:<lb/>
+<hi rendition="#fr">Welches An. 1619. am 14. Decemb. gebohren/<lb/>
+An. 1622. am 1. Junii ge&#x017F;torben/</hi><lb/>
+Vnd am nech&#x017F;t drauff folgenden 5. Junii/<lb/>
+war der 2. Sontag nach Trinitatis/<lb/>
+Chri&#x017F;tlich vnd Ehrlich be-<lb/>
+&#x017F;tatet worden.<lb/>
+</titlePart> </docTitle> <epigraph><cit><quote> <hi rendition="#aq"><hi rendition="#i">Heu! qvantæ exigvâ &#x017F;pes tumulantur humo.</hi></hi><lb/>
+</quote><bibl/></cit></epigraph> <byline> <hi rendition="#fr">Nachgehalten/ von</hi><lb/>
+<docAuthor> <hi rendition="#aq">M. <hi rendition="#k">Adamo Hentschelio</hi></hi><lb/>
+</docAuthor> <hi rendition="#b">PfarrErn zum Jawer.</hi><lb/>
+</byline> <milestone rendition="#hr" unit="section"/><lb/>
+<docImprint> <hi rendition="#b">Gedruckt zur </hi><pubPlace><hi rendition="#b">Liegnitz</hi></pubPlace>/<lb/>
+<hi rendition="#b">Jm Jahr</hi> <docDate>1622</docDate>.<lb/>
+</docImprint> <milestone rendition="#hr" unit="section"/><lb/>
+</titlePage> </front><body>
+<pb facs="#f0002"/>
+<div type="dedication" n="1"><p><hi rendition="#c"><hi rendition="#b">Dem Ehrenfe&#x017F;ten vnd Wolbenambten<lb/>
+Herren Ca&#x017F;par Cunerten/</hi><lb/>
+<hi rendition="#fr">Fu&#x0364;rnehmen Bu&#x0364;rgern zum Jawer/<lb/>
+Auff der gro&#x017F;&#x017F;en Kirchga&#x017F;&#x017F;e.</hi><lb/>
+So wol<lb/>
+&#x017F;einer Hertzlieben Ehefrawen<lb/>
+<hi rendition="#b">Der Erbaren Tugendreichen<lb/>
+Frawen<lb/>
+Barbara Vlrichin;</hi><lb/>
+Meinen beyder&#x017F;eits Vielgeliebten<lb/>
+H. Gevattern vnd F. Gevatterin/<lb/>
+auch/ in gebu&#x0364;hr/ vertrawten<lb/>
+Freunde vnd Freundin/<lb/>
+<hi rendition="#fr">Vbergiebet auff jhr begehren/<lb/>
+&#x017F;chreibet hiermit auch zu<lb/>
+folgende Tro&#x017F;tvermahnung.</hi><lb/>
+<hi rendition="#aq"><hi rendition="#g">M. <hi rendition="#k">Adam Hentschel.</hi></hi></hi></hi></p></div><lb/>
+<pb facs="#f0003"/>
+<div type="fsSermon" n="1"><div type="preface" n="2"><head/> <milestone rendition="#hr" unit="section"/><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">D</hi>Er Kun&#x017F;treiche vnd deßwegen<lb/>
+beru&#x0364;mte Mahler</hi> <hi rendition="#aq">Timanthes,</hi> <hi rendition="#fr">Jhr an-<lb/>
+da&#x0364;chtige meine geliebete/ ward erbe-<lb/>
+ten auff eine Taffel zuentwerffen vnd<lb/>
+abzumahlen die Traurige ge&#x017F;chicht/<lb/>
+wie die</hi> <hi rendition="#aq">Iphigenia,</hi> <hi rendition="#fr">des Ko&#x0364;niges</hi> <hi rendition="#aq">Agamemnonis</hi><lb/>
+<hi rendition="#fr">Tochter/ Heidni&#x017F;chem brauch nach ge&#x017F;chlachtet vnd<lb/>
+auffgeopffert worden &#x017F;ey; Hat demnach der Jung-<lb/>
+frawen</hi> <hi rendition="#aq">patruum</hi> <hi rendition="#fr">jhren Va&#x0364;tter vnd na&#x0364;ch&#x017F;ten Bluts-<lb/>
+freund</hi> <hi rendition="#aq">Uly&#x017F;&#x017F;em</hi> <hi rendition="#fr">abgebildet/ wie er in einem &#x017F;chwar-<lb/>
+tzen Trawermantel darbey &#x017F;tu&#x0364;nde/ den Kopff zur<lb/>
+Erden hienge vnd ein Tu&#x0364;chlin in &#x017F;einer Hand hette/<lb/>
+die thra&#x0364;nen darmitte abzuwi&#x017F;chen. Der Jungfrauen<lb/>
+Vater aber den</hi> <hi rendition="#aq">Agamemnonem</hi> <hi rendition="#fr">mahlete</hi> <hi rendition="#aq">Timan-<lb/>
+thes</hi> <hi rendition="#fr">abe/ wie er von ferne &#x017F;tu&#x0364;nde/ &#x017F;ein Ange&#x017F;icht in ei-<lb/>
+nen Lappen tuches einhu&#x0364;lle vnd einwickele: Hier-<lb/>
+mitte anzudeuten/ das keines Mahlers Kun&#x017F;t/ mit<lb/>
+Farb vnd Pin&#x017F;el abebilden ko&#x0364;nne/ das gro&#x017F;&#x017F;e Hertze-</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">Pl<supplied>i</supplied>n. l. 35.<lb/>
+c.</hi> 10.</hi></note><lb/>
+<hi rendition="#fr">leid der Eltern/ vber dem vnfahl jhrer Kinder.</hi></p><lb/>
+<p><hi rendition="#fr">Wer wolte &#x017F;ich jetzt auch vnter&#x017F;tehen eigentlich zube-<lb/>
+&#x017F;chreiben vnd genung&#x017F;am zuberichten/ wie anwe&#x017F;en-<lb/>
+des Vater- vnd Mutterhertz/ vber jres a&#x0364;ltern So&#x0364;hn<lb/>
+lins vnverhofftem fru&#x0364;hezeitigen Ab&#x017F;terben/ ge&#x017F;innet<lb/>
+&#x017F;ey? Aus jhren Augen fli&#x017F;&#x017F;en die Liebesthra&#x0364;nen vnd<lb/>
+ergi&#x017F;&#x017F;en &#x017F;ich mildiglich; Solte vnd ko&#x0364;nte man jhnen</hi><lb/>
+<fw place="bottom" type="sig">A ij</fw><fw place="bottom" type="catch"><hi rendition="#fr">ins</hi></fw><lb/>
+<pb facs="#f0004"/>
+<hi rendition="#fr">ins Hertze &#x017F;ehen/ mo&#x0364;chte er vor Ang&#x017F;t wol Blutt<lb/>
+weinen. Wir wollen vielmehr vns befleißigen/ Jhre<lb/>
+Thra&#x0364;nen ein wenig abzuwi&#x017F;chen vnd die fri&#x017F;chge-<lb/>
+&#x017F;chlagene Hertzens wunde/ mit dem Tro&#x017F;tpfla&#x017F;ter deß<lb/>
+Worts GOttes zuverbinden. Solch mein wolge-<lb/>
+meintes vorhaben/ damit es auch wolgerahte/ &#x017F;o<lb/>
+helfft mir beten ein gla&#x0364;ubiges Vater Vn&#x017F;er.</hi></p></div><lb/>
+<div type="fsBibleVerse" n="2"><head><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k #c">Textus.</hi></hi></hi></head><lb/>
+<cit><bibl><hi rendition="#aq #c">Job. 1. &#xA75F;.</hi> 21.</bibl><lb/>
+<quote><hi rendition="#b #c"><hi rendition="#in">D</hi>Er HERR hats gegeben/ der<lb/>
+HERR hats genommen/ der<lb/>
+Nahme deß HErren &#x017F;ey gelobet.</hi></quote></cit></div><lb/>
+<div type="fsMainPart" n="2"><p><hi rendition="#fr"><hi rendition="#in">J</hi>Hr alle&#x017F;ambt in CHri&#x017F;to Geliebte<lb/>
+theils auch im hertzen betru&#x0364;bte/ der Grichen</hi><lb/>
+<hi rendition="#aq">Hi&#x017F;toricus</hi> <hi rendition="#fr">oder Ge&#x017F;chicht&#x017F;chreiber</hi> <hi rendition="#aq">Herodotus</hi> <hi rendition="#fr">be-<lb/>
+zeuget in &#x017F;einem Fu&#x0364;nfften Buche</hi> <hi rendition="#aq">Terp&#x017F;ichore</hi> <hi rendition="#fr">ge-</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">c.</hi> 4.</hi></note><hi rendition="#fr">nandt/ Das aus den</hi> <hi rendition="#aq">Thraciern</hi> <hi rendition="#fr">die</hi> <hi rendition="#aq">Trau&#x017F;i</hi> <hi rendition="#fr">einen<lb/>
+&#x017F;olchen gebrauch gehabet/ das &#x017F;ie getrawret vnd<lb/>
+geweinet/ wenn jhnen ein Kind zur Welt gebohren<lb/>
+worden. Deutteten hiermit an/ das vielfaltige Elend<lb/>
+die&#x017F;er Welt/ darein der Men&#x017F;ch gebohren wu&#x0364;rde.</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Iob. c. 5.<lb/>
+v.</hi> 7.</hi></note><hi rendition="#fr">Jnma&#x017F;&#x017F;en hiervon auch Job redet; Der Men&#x017F;ch wird<lb/>
+zum Vnglu&#x0364;ck geboren/ wie die Vogel &#x017F;chweben em-<lb/>
+por zufliegen. Deßgleichen der alte beru&#x0364;hmbte Kir-</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">chenlehrer</hi></fw><lb/>
+<pb facs="#f0005"/>
+<hi rendition="#fr">chenlehrer</hi> <hi rendition="#aq">Augu&#x017F;tinus: Non à ri&#x017F;u &#x017F;ed à fletu</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">lib 21. de<lb/>
+Civit. Dei<lb/>
+c.</hi> 14.</hi></note><lb/>
+<hi rendition="#aq">ordimur hanc lucem, eoq&#x0300;; qvodammodo ne&#x017F;ci-<lb/>
+entes prophetamus, qvid malorum ingre&#x017F;&#x017F;i &#x017F;i-<lb/>
+mus.</hi> <hi rendition="#fr">Wie nun die&#x017F;elbigen Barbari&#x017F;chen Vo&#x0364;lcker die</hi><lb/>
+<hi rendition="#aq"><supplied>T</supplied>rau&#x017F;i</hi> <hi rendition="#fr">geweinet haben/ wenn ein Men&#x017F;ch gebohren<lb/>
+worden; Al&#x017F;o haben &#x017F;ie im gegentheil gelachet vnd<lb/>
+&#x017F;ich gefrewet/ wenn Jemand bey jhnen ge&#x017F;torben.<lb/>
+Jnnma&#x017F;&#x017F;en auch Salomon &#x017F;chreibet in &#x017F;einem Pre-<lb/>
+diger: Der Tag deß Todes i&#x017F;t be&#x017F;&#x017F;er denn der Tag</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">c. 7. v. 2.<lb/>
+v.</hi> 3.</hi></note><lb/>
+<hi rendition="#fr">der Geburt. Es i&#x017F;t be&#x017F;&#x017F;er ins Klaghauß gehen denn<lb/>
+ins Trinckhauß. Der Mann Gottes Job aber ver-<lb/>
+ha&#x0364;lt vnd erzeiget &#x017F;ich dißfalls gar anders. Als jhm<lb/>
+&#x017F;eine Zehen Kinder ge&#x017F;und zur Welt gebohren wer-<lb/>
+den/ i&#x017F;t er vber &#x017F;olchem Ehe&#x017F;egen fro&#x0364;lich/ verrichtet<lb/>
+&#x017F;ein Opfer vnd Gebete vor &#x017F;ich ta&#x0364;glich/ vnd befiehlet<lb/>
+&#x017F;ie zu gutter Ge&#x017F;undheit vnd langem Leben/ dem Al-<lb/>
+lerho&#x0364;ch&#x017F;ten/ der &#x017F;ie gegeben hatte/ trewlich. Da jhm<lb/>
+aber &#x017F;olche Kinder &#x017F;torben/ vnd durch den Todt ge-<lb/>
+nommen worden/ ward Job ho&#x0364;chlich betru&#x0364;bet/ zerreiß<lb/>
+&#x017F;ein Kleid (wie damahls in gro&#x017F;&#x017F;em Leide bra&#x0364;uch-<lb/>
+lich war) fiel auff die Erden/ betete an vnd tha&#x0364;t &#x017F;ehr<lb/>
+kla&#x0364;glich. Jnn welchem allen er nicht &#x017F;u&#x0364;ndigte noch</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">Iob. 1. v.</hi> 5.<lb/>
+20.<lb/>
+22.</hi></note><lb/>
+<hi rendition="#fr">etwas tho&#x0364;rliches that wieder GOtt. Von die&#x017F;em</hi><lb/>
+<hi rendition="#aq">Jobo</hi> <hi rendition="#fr">wollen wir zu die&#x017F;em mahl lehrnen/ wie wir<lb/>
+vnd al&#x017F;o auch die Heutigen Betru&#x0364;bten Eltern &#x017F;ich<lb/>
+gebu&#x0364;hrlich verhalten &#x017F;ollen/ Gott gebe oder nehme.</hi></p><lb/>
+<p><hi rendition="#fr">Wollen demnach aus Jobs abgele&#x017F;enem Spruche<lb/>
+miteinander erwegen vnd betrachten/ folgende Drey<lb/>
+Stu&#x0364;cke.</hi></p><lb/>
+<fw place="bottom" type="sig">A iij</fw><fw place="bottom" type="catch">Das</fw><lb/>
+<pb facs="#f0006"/>
+<lg type="poem"><l>Das Er&#x017F;te &#x017F;ol &#x017F;ein; <hi rendition="#aq">Jobi dome&#x017F;tica benedictio;</hi></l><lb/>
+<l>Jobs &#x017F;eine Haußfrewde vnd Glu&#x0364;ck&#x017F;eligkeit.</l><lb/>
+<l>Das Ander/ <hi rendition="#aq">Jobi dome&#x017F;tica afflictio,</hi> Jobs &#x017F;ein</l><lb/>
+<l>HausCreutz vnd Trawrigkeit.</l><lb/>
+<l>Vnd dann das Dritte oder Letzte/ <hi rendition="#aq">Jobi pro-</hi></l><lb/>
+<l><hi rendition="#aq">utrâq; gratiarum actio.</hi> Hiobs &#x017F;eine Ge-</l><lb/>
+<l>duld vnd Danckbarkeit.</l></lg><lb/>
+<p><hi rendition="#fr">Helffe GOtt vnd der Vater alles Tro&#x017F;tes/ das &#x017F;ol-<lb/>
+ches vns allen zur lehre vnd vnterricht/ den heutigen<lb/>
+Hochbetru&#x0364;bten Eltern aber zu kra&#x0364;fftigem Himmeli-<lb/>
+&#x017F;chen Tro&#x017F;te gereichen vnd gelangen mo&#x0364;ge/ Amen.</hi></p><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">B</hi>Elangend das Er&#x017F;te vorgenommene</hi><lb/>
+<hi rendition="#aq">Jobi dome&#x017F;ticam benedictionem,</hi><lb/>
+<hi rendition="#fr">Jobs &#x017F;eine Hausfrewde vnd Glu&#x0364;ck&#x017F;eligkeit; So war<lb/>
+Job ein vornehmer Mann vnd wie etliche wollen/<lb/>
+<supplied>e</supplied>in Ko&#x0364;nig der Jdumeër/ ein Reicher Mann an Gu&#x0364;t-</hi><lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">de bono pa-<lb/>
+tientiæ, to-<lb/>
+mo &#x017F;ecun-<lb/>
+do, pag. 319.<lb/>
+Editionis<lb/>
+Pamelia-<lb/>
+næ.</hi></hi></note><hi rendition="#fr">tern vnd Kindern; Er war</hi> <hi rendition="#aq">dives in Cen&#x017F;u domi-<lb/>
+nus &amp; in liberis pater ditior;</hi> <hi rendition="#fr">&#x017F;chreibet</hi> <hi rendition="#aq">Cyprianus</hi><lb/>
+<hi rendition="#fr">von jhm. An Haab vnd Gu&#x0364;ttern hatte er vnter an-<lb/>
+derm 7000 Schaffe; 3000 Cameël; 500 Joch<lb/>
+Kinder; 500 E&#x017F;el. An Kindern hatte er Sieben<lb/>
+So&#x0364;hne vnd Drey To&#x0364;chter. Welchen Reichen Hauß-<lb/>
+vnd Ehe&#x017F;egen Job vor eine &#x017F;onderliche Gabe vnd<lb/>
+Wolthat Gottes billich erkandte vnd &#x017F;prach: Der<lb/>
+HErr hats gegeben. Die&#x017F;emnach erkennet auch Jhr<lb/>
+Chri&#x017F;tlichen Eheleute/ das ewer Hauß: vnd Ehe&#x017F;e-<lb/>
+gen in gemein/ eine Gabe vnd Wolthat Gottes &#x017F;ey/<lb/>
+Der HErr hats gegeben/ &#x017F;pricht Job. Johannes</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">der</hi></fw><lb/>
+<pb facs="#f0007"/>
+<hi rendition="#fr">der Ta&#x0364;uffer &#x017F;agte zu &#x017F;einen Ju&#x0364;ngern; Ein Men&#x017F;ch<lb/>
+kan jhm &#x017F;elber nichts nehmen/ es werde jhm dann<lb/>
+gegeben vom Himmel; beym Evangeli&#x017F;ten</hi> <hi rendition="#aq">Johan-<lb/>
+ne.</hi> <hi rendition="#fr">Vnd S. Paulus; Was ha&#x017F;tu Men&#x017F;ch das du</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">Ioh 3. v. 27.<lb/>
+1. Cor. 4.<lb/>
+v.</hi> 7.</hi></note><lb/>
+<hi rendition="#fr">nicht empfangen ha&#x017F;t: So du es aber empfangen<lb/>
+ha&#x017F;t/ was ru&#x0364;hme&#x017F;t du dich denn? als der es nicht<lb/>
+empfangen hette. Vnd S.</hi> <hi rendition="#aq">Jacobus:</hi> <hi rendition="#fr">Alle gutte</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">c. 1. v.</hi> 17.</hi></note><lb/>
+<hi rendition="#fr">Gaben vnd alle volkommene Gaben/ kommen von<lb/>
+oben herab vom Vater deß Lichts. Gott giebt vns<lb/>
+dar reichlich allerley zugeni&#x017F;&#x017F;en/</hi> 1. <hi rendition="#aq">Thim. 6. v.</hi> 17.</p><lb/>
+<lg type="poem"><l><hi rendition="#b">Alles was wir haben</hi></l><lb/>
+<l><hi rendition="#b">Das &#x017F;ein Gottes Gaben.</hi></l></lg><lb/>
+<p><hi rendition="#fr">Die&#x017F;emnach O Men&#x017F;ch/ wann du dein vermo&#x0364;gen<lb/>
+an Seel vnd Leib/ an Haab vnd Gu&#x0364;ttern an&#x017F;iehe&#x017F;t/<lb/>
+es &#x017F;ey gleich viel oder wenig/ &#x017F;o gedencke allezeit/<lb/>
+Der HErr hats gegeben/ es i&#x017F;t vertrawet Gutt/ Du<lb/>
+ha&#x017F;ts nur verwaltungswei&#x017F;e jnnen; Derent wegen du<lb/>
+de&#x017F;&#x017F;en auch nicht nach deinem gutbedu&#x0364;ncken/ Son-<lb/>
+dern nach deines Ober&#x017F;ten Lehens Herrn &#x017F;einem wil-<lb/>
+len vnd wolgefallen &#x017F;olle&#x017F;t gebrauchen. Es fa&#x0364;hret<lb/>
+mancher Hausvater vnbe&#x017F;onnen heraus vnd &#x017F;pricht;<lb/>
+J&#x017F;ts doch das meine/ Jch habe es ererbet/ Jch habe<lb/>
+es erworben/ mag demnach auch darmitte vmbgehen<lb/>
+wie Jch wil. Aber nein/ mein Men&#x017F;ch/ es i&#x017F;t nicht<lb/>
+das deine/ Sondern der HErr hats gegeben. Es<lb/>
+ko&#x0364;mpt alles von Gott/ Glu&#x0364;ck vnd Vnglu&#x0364;ck/ Leben</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">Syr. 11. v.</hi> 14.</hi></note><lb/>
+<hi rendition="#fr">vnd Todt/ Armuth vnd Reichthumb. Es i&#x017F;t mein<lb/>
+was vnter allen Himmeln i&#x017F;t/ &#x017F;pricht GOTT beym</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">c. 41. v. 2.<lb/>
+v.</hi> 1.</hi></note><lb/>
+<hi rendition="#fr">Job. Vnd im 24. P&#x017F;alm: Die Erde i&#x017F;t deß HErren</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">vnd</hi></fw><lb/>
+<pb facs="#f0008"/>
+<hi rendition="#fr">vnd was darin&#x0303;en i&#x017F;t, der Erdbodem vnd was darauff</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">c. 2. v.</hi> 9.</hi></note><hi rendition="#fr">wohnet. Vnd beym Propheten Hagg</hi><hi rendition="#aq">æ</hi><hi rendition="#fr">o. Mein i&#x017F;t<lb/>
+beyde Silber vnd Gold. Wiltu nu GOttes Gnad<lb/>
+vnd Hulde nicht ver&#x017F;chu&#x0364;tten/ auch nicht &#x017F;chlechten/<lb/>
+&#x017F;ondern in verbleibung der be&#x017F;&#x017F;erung/ ewigen Zorn<lb/>
+auff dich laden/ &#x017F;o gebrauche der Gaben GOttes<lb/>
+recht. Thue davon gutts dem Na&#x0364;ch&#x017F;ten Men&#x017F;chen<lb/>
+vor deinem Ende/ vnd reiche dem Armen nach dei-</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Sir. 14. v.</hi> 13.</hi></note><hi rendition="#fr">nem vermo&#x0364;gen; Denn wenn du todt bi&#x017F;t/ &#x017F;o ha&#x017F;tu<lb/>
+ausgezehret/ Vnd hu&#x0364;tte dich das du dich an &#x017F;olchem<lb/>
+vertraweten Gutt nicht all zu gro&#x017F;&#x017F;er kargheit/ Oder<lb/>
+aber durch vnnu&#x0364;tzen vberfluß nicht vergreiffe&#x017F;t. Wie<lb/>
+nu insgemein allen Haus&#x017F;egen der HErr giebet/ Al&#x017F;o<lb/>
+auch den Ehe&#x017F;egen in&#x017F;onderheit. Der HErr hats<lb/>
+gegeben/ &#x017F;pricht Job/ vnd ver&#x017F;tehet darunter &#x017F;eine<lb/>
+Zehen Kinder. J&#x017F;t demnach Kinder im Ehe&#x017F;tands<lb/>
+zeugen nicht bloß ein Werck der Natur/ &#x017F;ondern der<lb/>
+HErr hats gegeben/ der machet Eheleute fruchtbar<lb/>
+durch &#x017F;einen Go&#x0364;ttlichen Seegen/ welchen er einmahl</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Gen. 1. v.</hi> 28.</hi></note><hi rendition="#fr">vber die Eheleute ge&#x017F;prochen hat. Seyd fruchtbar<lb/>
+vnd mehret euch/ vnd erfu&#x0364;llet die Erde. Das &#x017F;ein<lb/>
+eitel</hi> <hi rendition="#aq">verba realia,</hi> <hi rendition="#fr">wie &#x017F;ie</hi> <hi rendition="#aq">Lutherus</hi> <hi rendition="#fr">nennet. Kinder<lb/>
+&#x017F;ind eine Gabe deß HErren/ vnd Leibesfrucht i&#x017F;t ein</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">P&#x017F;. 127. v.</hi> 4.</hi></note><hi rendition="#fr">ge&#x017F;chencke/ &#x017F;pricht David. Vnd abermahl ru&#x0364;hmet<lb/>
+David vnter andern Wercken der Barmhertzigkeit<lb/>
+Gottes auch die&#x017F;es/ das er die vnfruchtbaren zu einer</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">P&#x017F;. 113. v.</hi> 9.</hi></note><hi rendition="#fr">fro&#x0364;lichen KinderMutter mache. Die&#x017F;e Lehre gilt<lb/>
+vns Eltern in&#x017F;onderheit al&#x017F;o vnd derge&#x017F;talt; Weil<lb/>
+Kinder der HErr giebt/ wie jetzt erwie&#x017F;en; Sollen<lb/>
+demnach Eltern zum fleißig&#x017F;ten drauff bedacht &#x017F;ein/</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">damit</hi></fw><lb/>
+<pb facs="#f0009"/>
+<hi rendition="#fr">damit jhre Kinder recht erzogen/ vnd wieder zuge-<lb/>
+fu&#x0364;hret werden mo&#x0364;gen dem HErrn der die Kinder ge-<lb/>
+geben hat. Sonderlich &#x017F;ollen Eltern jhren Kindern<lb/>
+mit guttem Exempel vorgehen; Sintemal es vmb<lb/>
+die Kinder ein zart ding i&#x017F;t/ ko&#x0364;nnen leichte deß bo&#x0364;&#x017F;en<lb/>
+gewonen/ dazu &#x017F;ie denn auch von Natur geneigt &#x017F;ein.</hi></p><lb/>
+<p><hi rendition="#fr">Wann nu Eltern bo&#x0364;&#x017F;e Exempel geben/ denen<lb/>
+folgen die Kinder gemeiniglich hernach; gedencken/<lb/>
+hats doch mein Vater/ meine Mutter gethan/ i&#x017F;ts<lb/>
+jhnen recht gewe&#x017F;en/ warumb &#x017F;olte mirs vnrecht &#x017F;ein?<lb/>
+Demnach Gott das Blutt der vbelgea&#x0364;rgerten vnd<lb/>
+verfu&#x0364;hreten Kinder/ am gro&#x017F;&#x017F;en Tage &#x017F;eines Gerichts<lb/>
+fordern wird von den Ha&#x0364;nden jhrer Eltern/ wie auch<lb/>
+von allen andern die &#x017F;ie vom gutten verleitet vnd ab-<lb/>
+gewie&#x017F;en haben von dem Heiligen Bunde/ Welchen<lb/>
+die Kinder durch jhre Paten mit GOtte/ vnd GOtt<lb/>
+mit jhnen im Sacrament der Heiligen Tauffe ge-<lb/>
+macht haben. Weil auch der HErr Kinder giebet/<lb/>
+Der HErr giebet Jederman Leben vnd Athem/ vnd</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">Act. 17.<lb/>
+v. 26. &amp;</hi> 28.</hi></note><lb/>
+<hi rendition="#fr">hat gemacht das von einem Blutt aller Men&#x017F;chen<lb/>
+Ge&#x017F;chlecht auff dem gantzen Erdbodem wohnen;<lb/>
+Jm HErren leben weben vnd &#x017F;ind wir/ &#x017F;pricht Pau-<lb/>
+lus in &#x017F;einer Predigt zu Athen gethan. Deß HErren<lb/>
+auff&#x017F;ehen bewahret vn&#x017F;ere Kinder in Mutterleibe.</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">Iob. 10. v.</hi> 12.</hi></note><lb/>
+<hi rendition="#fr">Der HERR zeucht die Kinder aus Mutterleibe;</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">P&#x017F;. 22. v.</hi> 10.</hi></note><lb/>
+<hi rendition="#fr">Derentwegen denn auch/ die&#x017F;er HErr gutten fug vnd<lb/>
+recht hat das &#x017F;eine wieder abzufordern/ wann vnd<lb/>
+wie er wil. Gleich wie Gott allein hat das</hi> <hi rendition="#aq">Jus do-<lb/>
+nationis</hi> <hi rendition="#fr">das Gebe Recht/ Al&#x017F;o hat er auch das</hi> <hi rendition="#aq">Jus<lb/>
+repetitionis</hi> <hi rendition="#fr">das Nehme Recht. GOTT la&#x0364;&#x017F;&#x017F;et die</hi><lb/>
+<fw place="bottom" type="sig"><hi rendition="#fr">B</hi></fw><fw place="bottom" type="catch"><hi rendition="#fr">Men&#x017F;chen</hi></fw><lb/>
+<pb facs="#f0010"/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">P&#x017F;. 90. v.</hi> 4.</hi></note><hi rendition="#fr">Men&#x017F;chen &#x017F;terben vnd &#x017F;pricht/ kompt wieder Men-<lb/>
+&#x017F;chen Kinder. Gott giebet Eltern Kinder vnter an-<lb/>
+derm auch/ das Eltern jhre Frewde an den Kindern<lb/>
+eine zeitlang haben &#x017F;ollen. Hirzwi&#x017F;chen aber begiebet<lb/>
+der HErr &#x017F;ich darumb nicht bald &#x017F;eines</hi> <hi rendition="#aq">Dominii,</hi><lb/>
+<hi rendition="#fr">Er verzeihet &#x017F;ich &#x017F;eines Eigenthumbs nicht balde<lb/>
+ga&#x0364;ntzlich; Sondern er beha&#x0364;lt jhme das Nehmerecht<lb/>
+allezeit vnd billich zuvorn. Auff welchen fall wir<lb/>
+auch vn&#x017F;ere Kinder jhme &#x017F;ollen geduldig vnd willig<lb/>
+folgen la&#x017F;&#x017F;en/ Sonderlich weil noch dazu was vom<lb/>
+Himmel fa&#x0364;llet/ niemanden &#x017F;chadet. Thun wirs nu &#x017F;o<lb/>
+i&#x017F;ts recht vnd gutt/ vnd hat GOtt einen be&#x017F;ondern<lb/>
+gefallen dran/ wenn wir vns vnter &#x017F;eine gewaltige</hi><lb/>
+<note place="left"><hi rendition="#i">1. <hi rendition="#aq">Pet. 5. v.</hi> 6.</hi></note><hi rendition="#fr">Hand demu&#x0364;ttigen/ wie Petrus redet. Thun wirs<lb/>
+aber nicht/ &#x017F;o machen wir nur vbel a&#x0364;rger; vnd wu&#x0364;rde<lb/>
+Gott vns als dann auch auffru&#x0364;cken vnd &#x017F;agen ko&#x0364;n-</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Matth. 20.<lb/>
+v.</hi> 15.</hi></note><hi rendition="#fr">nen: Habe ich nicht macht mit dem meinen zuthun/<lb/>
+was ich wil? Oder &#x017F;iehe&#x017F;tu darumb &#x017F;cheël/ das Jch<lb/>
+&#x017F;o gu&#x0364;ttig bin? Das Jch der deinen be&#x017F;tes &#x017F;uche?<lb/>
+Vnd tha&#x0364;te hierzwi&#x017F;chen Gott gleichwol was er ein-<lb/>
+mahl vber die vn&#x017F;ern be&#x017F;chlo&#x017F;&#x017F;en/ vnd wu&#x0364;rde &#x017F;einen<lb/>
+willen vn&#x017F;ers vnwillens halben nicht endern. Vnd<lb/>
+das i&#x017F;t al&#x017F;o das Er&#x017F;te vorgenommene/ Nehmlich</hi><lb/>
+<hi rendition="#aq">Jobi dome&#x017F;tica benedictio,</hi> <hi rendition="#fr">Jobs &#x017F;ein Haus: vnd<lb/>
+Ehe&#x017F;egen oder gro&#x017F;&#x017F;e Glu&#x0364;ck&#x017F;eligkeit.</hi></p><lb/>
+<p><hi rendition="#fr">Folget vors Ander/</hi> <hi rendition="#aq">Jobi dome&#x017F;tica af-<lb/>
+flictio,</hi> <hi rendition="#fr">Jobs &#x017F;ein Haus: vnd EheCreutz oder Traw-<lb/>
+rigkeit/ welches &#x017F;ich hauffenwei&#x017F;e bey jhme befindet/<lb/>
+Sonderlich hat er an einem Tage vier trawrige po-<lb/>
+&#x017F;ten nacheinander erfahren vnd anho&#x0364;ren mu&#x017F;&#x017F;en.</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">Die</hi></fw><lb/>
+<pb facs="#f0011"/>
+<hi rendition="#fr">Die er&#x017F;te war</hi> <hi rendition="#aq">Boum &amp; A&#x017F;inarum abactio;</hi> <hi rendition="#fr">Es<lb/>
+fielen die aus dem Reiche Arabia dem Job ins Land<lb/>
+trieben jhm &#x017F;ein Kind Viehe vnd E&#x017F;el von der Weide<lb/>
+hinweg/ &#x017F;chlugen auch &#x017F;ein Ge&#x017F;inde die Hu&#x0364;tter mit<lb/>
+der &#x017F;cha&#x0364;rffe des Schwerts/ das nur ein einiger davon<lb/>
+kam/ ders dem Job an&#x017F;agete. Da die&#x017F;er Bothe noch<lb/>
+nicht außgeredet hatts/ kam die andere trawrige<lb/>
+po&#x017F;t/ Nemlich</hi> <hi rendition="#aq">Ovium combu&#x017F;tio,</hi> <hi rendition="#fr">Das Feuer Got-<lb/>
+tes fiel vom Himmel/ vnd verbrandte dem Job &#x017F;eine<lb/>
+Schaffe &#x017F;ampt den SchaffHirten/ darvon abermal<lb/>
+nur ein einiger entran vnd darvon kam/ ders dem Job<lb/>
+ange&#x017F;aget. Welcher/ da er noch redet/ kam die dritte<lb/>
+traurige po&#x017F;t vnd zeitung/ Nemlich</hi> <hi rendition="#aq">Camelorum<lb/>
+direptio.</hi> <hi rendition="#fr">Die Chaldeer machten drey &#x017F;pitzen vberfie-<lb/>
+len Jobs Cameel/ nehmen &#x017F;ie weg vnd &#x017F;chlugen noch<lb/>
+darzu die Hu&#x0364;tter mit der &#x017F;cha&#x0364;rffe des Schwerts al&#x017F;o<lb/>
+das abermal nur ein einiger entran vnd davon kam/<lb/>
+ders dem Job an&#x017F;agete. Welcher da er noch redete/<lb/>
+kam die Vierde vnd zwar die allertrawrig&#x017F;te vnd<lb/>
+erba&#x0364;rmlich&#x017F;te Po&#x017F;t/</hi> <hi rendition="#aq">Omnium liberorum oppre&#x017F;-<lb/>
+&#x017F;io,</hi> <hi rendition="#fr">Das Jobs Zehen Kinder &#x017F;a&#x017F;&#x017F;en in jhres Er&#x017F;tge-<lb/>
+bornen oder Elte&#x017F;ten Bruders Hau&#x017F;e bey&#x017F;ammen/<lb/>
+a&#x017F;&#x017F;en vnd truncken in fro&#x0364;ligkeit; &#x017F;iehe/ da erreget<lb/>
+Sathan aus Gottes</hi> <hi rendition="#aq">permi &#x017F;s</hi> <hi rendition="#fr">vnd verha&#x0364;ngnu&#x0364;s/ einen<lb/>
+Sturmwind/ der kam aus der Wu&#x0364;&#x017F;ten daher geprau-<lb/>
+&#x017F;et/ fa&#x017F;&#x017F;ete die Vier Ecken deß Hau&#x017F;es/ warffs vber<lb/>
+einen hauffen/ vnd zerquet&#x017F;chet oder er&#x017F;chlug die Kin-<lb/>
+der alle Zehen zugleich vnd auff ein mahl.</hi> <hi rendition="#aq">Jactura<lb/>
+rei familiaris Jobo infligitur, numero&#x017F;æ &#x017F;obolis<lb/>
+Orbitas ei irrogatur; dives in Cen&#x017F;u dominus</hi><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq">B</hi> 2</fw><fw place="bottom" type="catch"><hi rendition="#aq">in</hi></fw><lb/>
+<pb facs="#f0012"/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Cyprianus<lb/>
+loco anté<lb/>
+allegato.</hi></hi></note><hi rendition="#aq">in liberis pater ditior, nec dominus repentè nec<lb/>
+pater e&#x017F;t.</hi> <hi rendition="#fr">O Frewde! O Glu&#x0364;ck&#x017F;eligkeit! wie &#x017F;chnel<lb/>
+vnd bald bi&#x017F;tu verkehret in eitel Trawrigkeit! Hie<lb/>
+lernen wir abermahl/ wie kurtz zuvorhin auch/ das<lb/>
+wir vber das vn&#x017F;ere nicht Herren/ &#x017F;ondern nur Hauß-<lb/>
+halter/ vnd al&#x017F;o Verwalter eines frembden Guttes<lb/>
+&#x017F;ein/ &#x017F;intemahl Gott vns von vn&#x017F;er Verwaltung vnd<lb/>
+Haußhaltung/ alle Stunden vnd Augenblick/ ab-<lb/>
+&#x017F;etzen kan. Bi&#x017F;tu jung/ fri&#x017F;ch vnd ge&#x017F;und/ O wie bald<lb/>
+vnd leichte kan ein geringes Feberlein dich an&#x017F;to&#x017F;&#x017F;en/<lb/>
+&#x017F;o wird deine &#x017F;cho&#x0364;ne verzehret wie von Motten.</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">P&#x017F;. 39. v.</hi> 12.</hi></note><hi rendition="#fr">Bi&#x017F;tu Reich vnd vermo&#x0364;gend; wie bald kan es ge-<lb/>
+&#x017F;chehen/ das einem durch Krieg/ durch Fewer/ durch<lb/>
+Wa&#x017F;&#x017F;er/ durch einen einigen Donner&#x017F;chlag/ all das<lb/>
+&#x017F;eine kan entzogen/ vn&#x0303; er zum Armen Manne gemacht<lb/>
+werden. Es i&#x017F;t dem HErrn gar leichte einen Reichen</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Sir. 11. v.</hi> 13.</hi></note><hi rendition="#fr">Arm zu machen. So &#x017F;eumet trawen der Tod auch</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Sir. 11. v.</hi> 12.</hi></note><hi rendition="#fr">nicht. Jm Sterben aber nehmen wir nichts mite/</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">P&#x017F;. 49. v.</hi> 18.</hi></note><hi rendition="#fr">vn&#x017F;ere Herrligkeit fa&#x0364;hret vns nicht nach. Wir mu&#x017F;&#x017F;en</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Sir. 11 v.</hi> 20.</hi></note><hi rendition="#fr">alles andern la&#x017F;&#x017F;en vnd &#x017F;terben. Derentwegen &#x017F;ey</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Rom. 11.<lb/>
+v.</hi> 21.</hi></note><hi rendition="#fr">nicht &#x017F;toltz/ &#x017F;ondern fu&#x0364;rchte dich/ denn es kan vor<lb/>
+Abends wol anders werden/ weder es am Morgen</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Sir. 18.<lb/>
+v.</hi> 28.</hi></note><hi rendition="#fr">war/ vnd &#x017F;olches alles ge&#x017F;chicht balde vor GOtt.<lb/>
+Sonderlich werden wir bey die&#x017F;em Andern vorge-<lb/>
+nommenen Lehr&#x017F;tu&#x0364;cke/ nehmlich bey Jobs &#x017F;einem<lb/>
+Hauß- oder EheCreutze vnd Trawrigkeit gelehret/<lb/>
+Daß das alte Deut&#x017F;che Sprichwort/ Ehe&#x017F;tand Weh-<lb/>
+&#x017F;tand(leider) gar zu ein wahres wort &#x017F;ey. Es meinen<lb/>
+zwar manchmahl newe vnerfahrne Eheleute/ das<lb/>
+gleich wie der Ehe&#x017F;tand mit pfeiffen/ mit tantzen/</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">angefangen</hi></fw><lb/>
+<pb facs="#f0013"/>
+<hi rendition="#fr">angefangen wird/ Al&#x017F;o werde auch forthin alles im<lb/>
+Ehe&#x017F;tande glat vnd eben ausgehen/ Sie wollen al-<lb/>
+lezeit treflich gutt Leben bey einander haben/ da<lb/>
+werde kein Creutz/ kein an&#x017F;to&#x0364;ßlin &#x017F;ein; aber &#x017F;ie ko&#x0364;nnen<lb/>
+jhr Ehebette kaum recht be&#x017F;chreiten das liebe Creutz<lb/>
+giebet alsbald dritten Mann/ vnd leget &#x017F;ich mit jh-<lb/>
+nen ins Brautbette. Jm Stande der Vn&#x017F;chuld war<lb/>
+der Ehe&#x017F;tand ein rechter Frewden&#x017F;tand. Frewde<lb/>
+hatten die er&#x017F;ten Eheleute vber &#x017F;ich/ an Gott jhrem<lb/>
+Scho&#x0364;pffer der &#x017F;ie ge&#x017F;chaffen/ Jhnen ein lebendigen<lb/>
+Athem in jhre Na&#x017F;en eingebla&#x017F;en/ vnd al&#x017F;o den Men-<lb/>
+&#x017F;chen zu einer lebendigen Seele gemacht hatte; hatte<lb/>
+jhnen auch gewalt gegeben zu her&#x017F;chen vber die Vo-</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">Gen.</hi> 1. &amp; 2.</hi></note><lb/>
+<hi rendition="#fr">gel vnter dem Himmel/ vber die Fi&#x017F;che im Meer/ vber<lb/>
+alles Vieh vnd Gewu&#x0364;rme das auff Erden kreucht;<lb/>
+Ja den gantzen Erdbodem &#x017F;olten &#x017F;ie zum Heyraths-<lb/>
+gutt jhnen vnterthan machen. Frewde hatten die</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">Gen. 2. v. 8.<lb/>
+&amp; 3. v.</hi> 6.</hi></note><lb/>
+<hi rendition="#fr">er&#x017F;ten Eheleute vmb vnd neben &#x017F;ich/ an dem Para-<lb/>
+deiß vnd &#x017F;cho&#x0364;nen Lu&#x017F;tgarten Eeden/ welchen Gott<lb/>
+&#x017F;elber gepflantzet hatte/ in welchem alles lieblich<lb/>
+anzu&#x017F;chawen vnd lu&#x017F;tig zu e&#x017F;&#x017F;en war. Frewde hatten<lb/>
+die er&#x017F;ten Eheleute in vnd an &#x017F;ich &#x017F;elb&#x017F;t/ in dem &#x017F;ie zu<lb/>
+GOttes Ebenbilde ge&#x017F;chaffen waren. La&#x017F;&#x017F;et vns<lb/>
+Men&#x017F;chen machen/ ein Bilde das vns gleich &#x017F;ey/</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">Gen. 1. v.</hi> 26.<lb/>
+27.</hi></note><lb/>
+<hi rendition="#fr">&#x017F;pricht Gott. GOtt &#x017F;chuff den Men&#x017F;chen jhme zum<lb/>
+Bilde/ zum Bilde Gottes &#x017F;chuff er jhn. GOtt hat<lb/>
+den Men&#x017F;chen ge&#x017F;chaffen zum Ewigen Leben/ vnd</hi><note place="right"><hi rendition="#i"><hi rendition="#aq">Sap. 2. v.</hi> 23.</hi></note><lb/>
+<hi rendition="#fr">hat jhn gemacht zum Bilde/ das er gleich &#x017F;ein &#x017F;ol/<lb/>
+wie er i&#x017F;t. Solch Ebenbild Gottes hat an den er&#x017F;ten<lb/>
+Eheleuten vor dem Su&#x0364;ndenfall/ mit gro&#x017F;&#x017F;er Herrlig-</hi><lb/>
+<fw place="bottom" type="sig"><hi rendition="#fr">B</hi> iij</fw><fw place="bottom" type="catch"><hi rendition="#fr">keit</hi></fw><lb/>
+<pb facs="#f0014"/>
+<hi rendition="#fr">keit geleuchtet/ nicht allein an deß Men&#x017F;chen &#x017F;einem<lb/>
+Leibe/ mit &#x017F;cho&#x0364;ner Ge&#x017F;talt/ mit ziehrlicher</hi> <hi rendition="#aq">propor-<lb/>
+tion,</hi> <hi rendition="#fr">mit gutter Ge&#x017F;undheit vnd aller volkommen-<lb/>
+heit; &#x017F;ondern auch an deß Men&#x017F;chen &#x017F;einer Seele/ die</hi><lb/>
+<note place="left"><hi rendition="#i"><hi rendition="#aq">Ephe&#x017F;. 4.<lb/>
+v.</hi> 24.</hi></note><hi rendition="#fr">nach GOtt ge&#x017F;chaffen war/ in recht&#x017F;chaffener Ge-<lb/>
+rechtigkeit vnd Herrligkeit. Die&#x017F;er Frewden&#x017F;tand<lb/>
+aber der Er&#x017F;ten Eheleute/ ward vmb der Paradiß<lb/>
+Su&#x0364;nde willen/ zum Trawer&#x017F;tande; alle die&#x017F;e Lu&#x017F;t<lb/>
+vnd Frewde/ haben Adam vnd Eva jhnen vnd allen<lb/>
+jhren Nachkommen/ in einer einigen Schantze ver-<lb/>
+&#x017F;pielet. Daher nun freylich keine Ehe ohne Wehe/</hi><lb/>
+<note place="left"><hi rendition="#aq"><hi rendition="#i">Plautus in<lb/>
+Ci&#x017F;tellar.</hi></hi></note><hi rendition="#fr">keine Frewd ohne Leid i&#x017F;t;</hi> <hi rendition="#aq">Amor &amp; melle &amp; felle<lb/>
+f&#x0153;cundi&#x017F;&#x017F;imus.</hi> <hi rendition="#fr">Daher nu i&#x017F;ts (leider) kommen/ das<lb/>
+auch die Allerheilig&#x017F;ten Eheleute viel Wehe in jhrer<lb/>
+Ehe haben erfahren vnd aus&#x017F;tehen mu&#x017F;&#x017F;en; Sonder-<lb/>
+lich wann Gott jhre hold&#x017F;elige liebe Kinderlin &#x017F;ter-<lb/>
+ben la&#x0364;&#x017F;&#x017F;et. Beym Propheten</hi> <hi rendition="#aq">Jona</hi> <hi rendition="#fr">am 4. oder letz-<lb/>
+ten Cap. le&#x017F;en wir/ Als Jonas der Stadt Ninive<lb/>
+auff Gottes befehl Bu&#x017F;&#x017F;e geprediget vnd ge&#x017F;prochen<lb/>
+hatte/ Es &#x017F;ind noch Viertzig Tage hin/ &#x017F;o wird Ni-<lb/>
+nive vntergehen/ &#x017F;ey er nach vollendeter &#x017F;olcher<lb/>
+Bußpredigt zur Stadt hinaus gegangen/ habe &#x017F;ich<lb/>
+gegen Morgenwerts der Stadt ge&#x017F;etzt/ von ferne/<lb/>
+zu &#x017F;ehen/ obs der Stadt auch al&#x017F;o ergehen wu&#x0364;rde/<lb/>
+wie GOtt durch jhn hatte drewen la&#x017F;&#x017F;en. Jn deme<lb/>
+Jonas alda &#x017F;itzet/ vnd auff den Außgang wartet/<lb/>
+&#x017F;ticht der Sonnen Hitze/ &#x017F;o in den&#x017F;elbigen Morgen-<lb/>
+la&#x0364;ndern groß war/ jhnen ha&#x0364;fftig/ vnd derma&#x017F;&#x017F;en auff<lb/>
+den Kopff/ das er gantz matt vnd krafftloß dru&#x0364;ber<lb/>
+ward. Was ge&#x017F;chicht? Gott ließ plo&#x0364;tzlich vnd wun-</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">derlich</hi></fw><lb/>
+<pb facs="#f0015"/>
+<hi rendition="#fr">derlich einen Ku&#x0364;rbiß vber Jonam daher wach&#x017F;en/<lb/>
+der mit &#x017F;einen breiten Bla&#x0364;ttern dem Jona &#x017F;chatten<lb/>
+genung wieder der Sonnen Hitze gab; de&#x017F;&#x017F;en &#x017F;ich<lb/>
+auch Jonas ho&#x0364;chlich erfrewete; Aber die Frewde<lb/>
+wehret nicht lange? Dann als Jonas vermeinete/<lb/>
+Schatten vnd Lu&#x017F;t er&#x017F;t recht vnd am be&#x017F;ten zu ha-<lb/>
+ben/ ver&#x017F;chaffete Gott einen Wurm/ der &#x017F;tach den<lb/>
+Ku&#x0364;rbiß/ das er verdorrete. Woru&#x0364;ber der Prophet<lb/>
+vngeduldig ward/ wu&#x0364;n&#x017F;chte lieber Tod zu &#x017F;ein denn<lb/>
+zu Leben. Gott aber lachete gleich des Jon</hi><hi rendition="#aq">æ</hi> <hi rendition="#fr">vnge-<lb/>
+duld vnd &#x017F;prach: Meine&#x017F;tu Jona das du billich<lb/>
+zu&#x0364;rne&#x017F;t vmb den Ku&#x0364;rbiß? Jonas antwortete dem<lb/>
+HErrn; Ja billich zu&#x0364;rne ich biß an den Tod. Vnd<lb/>
+der HErr &#x017F;prach: Dich jammert des Ku&#x0364;rbiß den du<lb/>
+doch nicht gezeuget ha&#x017F;t/ daran du nicht gearbeitet/<lb/>
+den du nicht erzogen ha&#x017F;t/ welcher in einer Nacht<lb/>
+ward vnd in einer Nacht wieder vertarb; &#x017F;olte denn<lb/>
+mich nicht jam&#x0303;ern/ Ninive der gro&#x017F;&#x017F;en Stad/ in wel-<lb/>
+cher mehr denn Hundert vnd Zwantzig Tau&#x017F;end<lb/>
+Men&#x017F;chen &#x017F;ind die nicht wi&#x017F;&#x017F;en vnter&#x017F;cheid was recht<lb/>
+oder linck i&#x017F;t.</hi></p><lb/>
+<p><hi rendition="#fr">Al&#x017F;o vnd gleicher ge&#x017F;talt/ jhr meine geliebete/ ge-<lb/>
+hets noch heute bey tage zu in allen Sta&#x0364;nden &#x017F;onder-<lb/>
+lich aber im Hauß&#x017F;tande/ da giebet Gott manchen<lb/>
+Eltern einen &#x017F;cho&#x0364;nen lu&#x017F;tigen Ku&#x0364;rbiß ein hold&#x017F;eliges<lb/>
+Kind Sohn oder Tochter/ daran die Eltern jhres<lb/>
+Hertzens freude vnd wonne &#x017F;ehen; Aber wenn Vater<lb/>
+vnd Mutter an &#x017F;olchen jhren Ehepfla&#x0364;ntzlin vn&#x0303; Oel-<lb/>
+zweiglin vermeinen jhre gro&#x0364;&#x017F;&#x017F;e&#x017F;te lu&#x017F;t zu haben le&#x017F;&#x017F;et<lb/>
+Gott den Todtenwurm vber &#x017F;ie kom&#x0303;en/ die&#x017F;elbte &#x017F;te-<lb/>
+chen/ al&#x017F;o das &#x017F;ie darvon verdorren/ &#x017F;terben/ ja in der</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">Erde vol-</hi></fw><lb/>
+<pb facs="#f0016"/>
+<hi rendition="#fr">lends gar von Wu&#x0364;rmen gefre&#x017F;&#x017F;en werden. Wenn nun<lb/>
+Kinder &#x017F;o leichte vnd &#x017F;o balde dahin Sterben/ das<lb/>
+thut Eltern das rechte gebrandte Hertzeleid an/ vnd<lb/>
+je edler die Natur der Eltern i&#x017F;t/ je gro&#x0364;&#x017F;&#x017F;er/ je inbru&#x0364;n-<lb/>
+&#x017F;tiger i&#x017F;t auch jhre</hi> <hi rendition="#aq">affection</hi> <hi rendition="#fr">vnd zuneigung gegen<lb/>
+jhre Kinder/ vnd</hi> <hi rendition="#aq">ê contrario</hi> <hi rendition="#fr">auch das Leid vber<lb/>
+dem vnfahl jhrer Kinder. O Job du hochbeku&#x0364;m-<lb/>
+mertes VaterHertz! wer wil dein Zehenfaches Kin-<lb/>
+derleid erme&#x017F;&#x017F;en vnd auß&#x017F;prechen? Offte lieffen El-<lb/>
+tern/ (&#x017F;o zu reden) durch ein Fewer/ wenn &#x017F;ie jhren Kin-<lb/>
+dern/ die &#x017F;ie auff dem SterbeBettlin &#x017F;ich a&#x0364;ng&#x017F;tigen<lb/>
+&#x017F;ehen/ rahten vnd helffen ko&#x0364;nten. O mein So&#x0364;hnlin<lb/>
+Andreas! Andreas mein So&#x0364;hnlin! wolte Gott wir<lb/>
+&#x017F;olten fu&#x0364;r dich Sterben! &#x017F;agen die heutigen Eltern</hi><lb/>
+<note place="left"><hi rendition="#i">2. <hi rendition="#aq">Sam. 18.<lb/>
+v.</hi> 13.</hi></note><hi rendition="#fr">mit dem Ko&#x0364;nige David. Jnma&#x017F;&#x017F;en &#x017F;ie denn de&#x017F;&#x017F;en<lb/>
+auch nicht zuverdencken; Denn Kinderleid bringet<lb/>
+Hertzeleid/ was da hertzet das &#x017F;chmertzet/ was liebet<lb/>
+das betru&#x0364;bet. Allein wil gleichwol gebu&#x0364;hren/ das<lb/>
+im trawren gebu&#x0364;hrliche ma&#x017F;&#x017F;e gehalten/ vnd nicht<lb/>
+vber&#x017F;chrieten werde. Damit aber &#x017F;olche ma&#x017F;&#x017F;e in<lb/>
+Trauren de&#x017F;to leichter ko&#x0364;nne gehalten werden; &#x017F;o la&#x017F;-<lb/>
+&#x017F;et vns zum dritten vnd letzten auch be&#x017F;ehen/</hi> <hi rendition="#aq">Jobi pa-<lb/>
+tientiam &amp; gratiarum actionem:</hi> <hi rendition="#fr">Jobs &#x017F;eine Ge-<lb/>
+duld vnd danckbarkeit. Er &#x017F;pricht vnter &#x017F;einem Cent-<lb/>
+ner&#x017F;chweren Creutze al&#x017F;o; Der HErr hats genom-<lb/>
+men/ der Nahme des HErren &#x017F;ey gelobet. Job wu-<lb/>
+&#x017F;te gar wol das die Araber &#x017F;ein Rind Viehe &#x017F;ambt<lb/>
+den E&#x017F;elin weggetrieben hatten; Job wu&#x017F;te gar wol<lb/>
+daß das Fewer vom Himmel &#x017F;eine Schafe &#x017F;ambt den<lb/>
+Schaff Hirten zu Pulver vnd A&#x017F;chen verbrand hat-</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">te; Job</hi></fw><lb/>
+<pb facs="#f0017"/>
+<hi rendition="#fr">te; Job wu&#x017F;te gar wol/ das die Cha&#x0364;ldeer &#x017F;eine Came-<lb/>
+el genommen/ vnd entfu&#x0364;hret hatten; Job wu&#x017F;te gar<lb/>
+wol/ das der Sathan erreget hatte den Sturmwind<lb/>
+dardurch das Hauß darinnen Jobs Kinder bey&#x017F;am-<lb/>
+men waren/ vber einen hauffen geworffen ward/ vnd<lb/>
+die Kinder alle Zehen ja&#x0364;m&#x0303;erlich er&#x017F;chlagen worden;<lb/>
+Es wu&#x017F;te aber Job auch gar wol vnd beyneben/ das<lb/>
+weder die Araber noch die Chaldeer/ ja der Teuffel<lb/>
+&#x017F;elb&#x017F;t nichts vberall vermocht hetten/ wenns Gott<lb/>
+nicht ver&#x017F;tattet vnd zugela&#x017F;&#x017F;en; <hi rendition="#g">GOTT</hi> hatts<lb/>
+auffs Sathans anbringen vber den Job</hi> <hi rendition="#aq">permitti-</hi><lb/>
+<hi rendition="#fr">ret vnd verhangen; Gott hatt auch</hi> <hi rendition="#aq">metas &#x017F;tatui</hi><hi rendition="#fr">ret/<lb/>
+ziel vnd maß ge&#x017F;tecket/ wie weit Sathan vnd Men-<lb/>
+&#x017F;chen &#x017F;ich am Job vergreiffen &#x017F;olten; Gott hats auch</hi><lb/>
+<hi rendition="#aq">ad &#x017F;alutares fines dirigi</hi><hi rendition="#fr">ret alles zu einem gutten<lb/>
+ende gerichtet vnd gebracht.</hi> <hi rendition="#aq">Diabolus expecta vit<lb/>
+imprecationem, &#x017F;ed audivit gratiarum actionem.</hi><lb/>
+<hi rendition="#fr">Derentwegen dann auch Job nicht &#x017F;pricht; der Teu-<lb/>
+fel hat mir dieß &#x017F;piel zugerichtet; Die Chaldeer vnd<lb/>
+Araber haben mir die&#x017F;en &#x017F;chaden gethan; Nein/ die<lb/>
+Ehre wil jhnen Job nicht geben/ Sondern &#x017F;iehet auf<lb/>
+Gott. Bricht demnach mit die&#x017F;en treflichen worten<lb/>
+heraus vnd &#x017F;aget: Der HErr hats genommen/ der<lb/>
+Nahme des HErren &#x017F;ey gelobet. O herrliche worte!<lb/>
+O denckwu&#x0364;rdige worte! O &#x017F;eltzame worte! Wenn<lb/>
+einem Men&#x017F;chen etwas vngerades wiederfehret vnd<lb/>
+er wil bloß gaffen auf die eu&#x017F;erlichen mittel/ dardurch<lb/>
+er &#x017F;eines erachtens in &#x017F;olch vnglu&#x0364;ck gerahten i&#x017F;t/ So<lb/>
+lange kan der Men&#x017F;ch &#x017F;ich nimmermehr recht&#x017F;chaffen<lb/>
+zur geduld &#x017F;chicken/ vnd &#x017F;ein Hertze zu frieden geben/</hi><lb/>
+<fw place="bottom" type="sig"><hi rendition="#fr">C</hi></fw><fw place="bottom" type="catch"><hi rendition="#fr">Er</hi></fw><lb/>
+<pb facs="#f0018"/>
+<hi rendition="#fr">Er bleibet vngeduldig/ vnd klaget entweder &#x017F;eine<lb/>
+&#x017F;elb&#x017F;t eigene vnvor&#x017F;ichtigkeit/ das er &#x017F;ein Kind nicht<lb/>
+genung&#x017F;am in acht genommen/ &#x017F;ondern verwarlo&#x017F;et<lb/>
+habe; Oder klaget vber andere Leute/ durch derer<lb/>
+&#x017F;chuld &#x017F;ein Kind am Leben verku&#x0364;rtzet worden &#x017F;ey/ &#xA75B;c.<lb/>
+Aber nein/ Gott muß es ver&#x017F;tatten vnd zula&#x017F;&#x017F;en/ &#x017F;on-<lb/>
+&#x017F;ten ge&#x017F;chehe es nicht. Wann wir al&#x017F;o in noht vnd<lb/>
+Tod &#x017F;tracks auff Gott &#x017F;ehen/ vnd beyneben gla&#x0364;uben/<lb/>
+Gott meine es mit den &#x017F;einen/ auch mitten vnter der<lb/>
+&#x017F;traffe nicht bo&#x0364;&#x017F;e/ Sondern Va&#x0364;terlich gutt; Derge-<lb/>
+&#x017F;talt kan die Geduld vnter dem Creutze ge&#x017F;ta&#x0364;rcket<lb/>
+vnd be&#x017F;ta&#x0364;ndiger Tro&#x017F;t in vn&#x017F;ern Hertzen ge&#x017F;chafft<lb/>
+werden. Auff die&#x017F;en HErrn &#x017F;ollen die heutigen be-<lb/>
+tru&#x0364;bten Eltern auch &#x017F;ehen vnd &#x017F;agen: Der HERR<lb/>
+hats gegeben der HErr hats genommen/ der Name<lb/>
+des HERrn &#x017F;ey gelobet. Denn ja/ der woltha&#x0364;tige<lb/>
+Gott Jhrem Hau&#x017F;e Frewde vnd glu&#x0364;ck&#x017F;eligkeit auch<lb/>
+wiederfahren la&#x017F;&#x017F;en/ Jn dem Er dem Ehrenfe&#x017F;ten/<lb/>
+Wolbenamten Herrn Ca&#x017F;par Cunerten/ Bu&#x0364;rgern auf<lb/>
+der gro&#x017F;&#x017F;en Kirchga&#x017F;&#x017F;en; vnd &#x017F;einer Ehefrawen/ Der<lb/>
+Ehrbaren/ Tugendtreichen Frawen Barbar</hi><hi rendition="#aq">æ</hi> <hi rendition="#fr">Vlri-<lb/>
+chin/ An. 1619. am 14. Decemb. die&#x017F;en er&#x017F;ten Sohn<lb/>
+gegeben/ denen &#x017F;ie bald nach der Geburt zum Sacra-<lb/>
+ment der H. Tauffe ge&#x017F;chickt/ da&#x017F;elb&#x017F;t er aus Wa&#x017F;&#x017F;er<lb/>
+vnd Gei&#x017F;t wiedergebohren vnd mit dem Namen An-<lb/>
+dreas ins Buch des Lebens einge&#x017F;chrieben worden.<lb/>
+Woru&#x0364;ber dan&#x0303; die Eltern &#x017F;ich mit dem Job ho&#x0364;chlich<lb/>
+erfrewet/ auch gehoffet/ jhr So&#x0364;hnlein wu&#x0364;rde ku&#x0364;nff-<lb/>
+tig vnd mit der zeit ein rechter Andreas/ wie mit dem<lb/>
+Namen/ al&#x017F;o auch in der that werden. Solche jhre</hi><lb/>
+<fw place="bottom" type="catch"><hi rendition="#fr">Ehefrewde</hi></fw><lb/>
+<pb facs="#f0019"/>
+<hi rendition="#fr">Ehefrewde aber vnd Glu&#x0364;ck&#x017F;eligkeit/ i&#x017F;t jhnen/ wie<lb/>
+dem Job/ zur Trawrigkeit worden. Dann/ in deme die<lb/>
+Eltern hoffen/ an &#x017F;olchem Er&#x017F;tgebornen/ jhre Au-<lb/>
+genlu&#x017F;t vnd Hertzensfrewde zu haben/ (Jnma&#x017F;&#x017F;en<lb/>
+dann Kinder</hi> <hi rendition="#aq">fantes,</hi> <hi rendition="#fr">in dem Alter am Hold&#x017F;elig&#x017F;ten<lb/>
+am zutha&#x0364;tig&#x017F;ten &#x017F;ein) Siehe/ &#x017F;o ko&#x0364;mbt der Todten-<lb/>
+wurm/ &#x017F;tichts/ das es verdorret/ &#x017F;ein Seelichen wird<lb/>
+durch ein &#x017F;eliges Todten&#x017F;chla&#x0364;flin von jhme genom-<lb/>
+men/ an der na&#x0364;ch&#x017F;ten Mitwoch halb zwey vmb Ve-<lb/>
+&#x017F;perzeit/ &#x017F;eines Alters zwey Jahr vnd 24. Wochen.</hi></p><lb/>
+<p><hi rendition="#fr">Wer wolte die Eltern verdencken/ Das &#x017F;ie hieru&#x0364;ber<lb/>
+mit dem Job ho&#x0364;chlich betru&#x0364;bet &#x017F;ein? Jedoch wer-<lb/>
+den &#x017F;ie als Chri&#x017F;ten &#x017F;ich auch mit dem Job tro&#x0364;&#x017F;ten<lb/>
+la&#x017F;&#x017F;en. Bedencket/ wer euch euer Kind genommen?<lb/>
+Eben der HErr/ ders euch gegeben hat; Wer wolte<lb/>
+aber dem HERren ein Kind ver&#x017F;agen? Spra&#x0364;cht<lb/>
+demnach/</hi> <hi rendition="#aq">Sit nomen Domini benedictum,</hi> <hi rendition="#fr">Der<lb/>
+Nahme des HErren &#x017F;ey gelobet. Bedencket weiter<lb/>
+durch wa&#x017F;erley mittel der HErr ewer Kind genom-<lb/>
+men habe? nicht auff &#x017F;chro&#x0364;ckliche wei&#x017F;e/ wie Jobs<lb/>
+Kinder ja&#x0364;mmerlich er&#x017F;chlagen vnd zerquet&#x017F;chet wor-<lb/>
+den; auch nicht wie die Kinder zu Bethlehem vom<lb/>
+Herode ge&#x017F;ebelt worden; Sondern ewer So&#x0364;hnli-<lb/>
+chen i&#x017F;t an einer Natu&#x0364;rlichen Kranckheit ge&#x017F;torben/<lb/>
+wie andre Men&#x017F;chenkinder eine zeitlang &#x017F;iechen oder<lb/>
+krancken vnd endlich ver&#x017F;chieden. Sprecht derent<lb/>
+wegen:</hi> <hi rendition="#aq">Sit nomen Domini benedictum,</hi> <hi rendition="#fr">Der<lb/>
+Nahme des HErren &#x017F;ey gelobet. Bedencket weiter<lb/>
+wie Gott dem Job &#x017F;einer Kinder verlu&#x017F;t reichlichen<lb/>
+er&#x017F;tattet/ vnd zehen andere gegeben hat; Hatte &#x017F;ie</hi><lb/>
+<fw place="bottom" type="sig"><hi rendition="#fr">C</hi> ij</fw><fw place="bottom" type="catch"><hi rendition="#fr">jhm</hi></fw><lb/>
+<pb facs="#f0020"/>
+<hi rendition="#fr">jhm auch doppelt wieder gegeben/ wie andere Haab<lb/>
+vnd Gutt/ Aber die vor des Vaters Augen er&#x017F;chla-<lb/>
+g<supplied>e</supplied>ne Kinder/ lebeten vor Gott: Al&#x017F;o kan Gott euch<lb/>
+b<supplied>e</supplied>tru&#x0364;bten Eltern/ in ewrem Ehe&#x017F;tande anderwerts<lb/>
+wol wieder &#x017F;egenen; Dann Ja GOtt i&#x017F;t noch heute<lb/>
+Reich/ Als er gewe&#x017F;en Ewigleich.</hi></p><lb/>
+<p><hi rendition="#fr">Jnma&#x017F;&#x017F;en auch/ der ver&#x017F;torbene ewer Sohn nicht<lb/>
+ge&#x017F;torben i&#x017F;t/ &#x017F;onder er &#x017F;chla&#x0364;fft dem Leibe nach &#x017F;ein<lb/>
+Seelichen lebet vor Gott/ da jhme ewig wol i&#x017F;t; Da-<lb/>
+hin auch jhr beku&#x0364;mmerte Eltern zu &#x017F;einer zeit kom-<lb/>
+men/ Ewer So&#x0364;hnlin mit frewden wieder&#x017F;ehen vnd<lb/>
+euch mit jhme erlu&#x017F;tigen werdet; nicht nur 2. Jahr<lb/>
+vnd 24. Wochen/ &#x017F;ondern in alle Ewigkeit. Sprecht<lb/>
+demnach:</hi> <hi rendition="#aq">Sit nomen Domini benedictum,</hi> <hi rendition="#fr">Der<lb/>
+Nahme des HERren &#x017F;ey gelobet. Ob auch &#x017F;olches<lb/>
+ewerm Flei&#x017F;che &#x017F;chwer eingehet/ ja ohne tra&#x0364;nen nicht<lb/>
+zugehet; &#x017F;o &#x017F;aget doch/ &#x017F;o gutt jhr ko&#x0364;nnet: Der HErr<lb/>
+<hi rendition="#c">hats gegeben/ der HErr hats genommen/<lb/>
+Der Nahme des HErren &#x017F;ey<lb/>
+gelobet/ Amen.</hi></hi></p><lb/>
+<figure/><lb/>
+</div></div> </body></text> </TEI>

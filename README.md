@@ -55,10 +55,10 @@ See [`transcription/LICENSE`](transcription/LICENSE) for terms (CC-BY 4.0).
 
 | Language | Source | Texts | Tokens |
 |---|---|---:|---:|
-| **Latin** | Corpus Corporum (UZH) + Perseus classical | 70 | 4,388,030 |
-| **German** | Deutsches Textarchiv (DTA) + Luther Bibel 1545 (Zeno.org) | 57 | 2,312,923 |
-| **Dutch** | Digitale Bibliotheek voor de Nederlandse Letteren (DBNL) | 12 | 1,704,699 |
-| **English** | EEBO-TCP | 10 | 511,725 |
+| **German** | Deutsches Textarchiv (DTA) + Luther Bibel 1545 (Zeno.org) | 559 | 14,148,299 |
+| **Latin** | Corpus Corporum (UZH) + Perseus classical | 71 | 4,349,322 |
+| **Dutch** | Digitale Bibliotheek voor de Nederlandse Letteren (DBNL) | 12 | 1,670,838 |
+| **English** | EEBO-TCP | 10 | 507,704 |
 | **Voynich** | own transcription | 1 | 33,669 |
 
 Additional smaller corpora are also available via `voynpy.corpora` —
