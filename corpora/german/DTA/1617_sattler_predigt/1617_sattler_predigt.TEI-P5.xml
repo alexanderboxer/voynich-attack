@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Eine Predigt/ gehalten bey der Begrebnus/ Des Weyland/ Hochwürdigen ... Herrn Julij Augusti/ Hertzogen zu Braunschweig vnd Lüneburg/ etc.</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116974788">
+<surname>Sattler</surname>
+<forename>Basilius</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/c-349-4f-helmst-9s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/c-349-4f-helmst-9s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">44</measure>
+<measure type="tokens">9262</measure>
+<measure type="types">2343</measure>
+<measure type="characters">57499</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:11Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/sattler_predigt_1617</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/sattler_predigt_1617</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/sattler_predigt_1617</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/sattler_predigt_1617</idno>
+<idno type="DTADirName">sattler_predigt_1617</idno>
+<idno type="DTAID">30276</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30276-9</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Sattler, Basilius: Eine Predigt/ gehalten bey der Begrebnus/ Des Weyland/ Hochwürdigen ... Herrn Julij Augusti/ Hertzogen zu Braunschweig vnd Lüneburg/ etc. Wolfenbüttel, 1617.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Eine Predigt/ gehalten bey der Begrebnus/ Des Weyland/ Hochwürdigen ... Herrn Julij Augusti/ Hertzogen zu Braunschweig vnd Lüneburg/ etc.</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116974788">
+<surname>Sattler</surname>
+<forename>Basilius</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Holwein</name></publisher>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1617</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main"><figure/><lb/>
+<docTitle><titlePart type="main">Eine Predigt/gehalten bey der<lb/>
+Begrebnus/<lb/>
+Des Weyland /<lb/>
+<hi rendition="#b">Hochwürdigen /</hi><lb/>
+Durchleuchtigen/ Hochgebornen<lb/>
+Fürsten vnd Herrn/ Herrn Julij Augu-<lb/>
+sti/Hertzogen zu Braunschweig vnd Lüneburg/etc. <lb/>
+Apten zu Michelnstein/
+Thumbprobsten des<lb/>
+Stiffts <hi rendition="#aq">S. Blasij </hi>zu Braun<lb/>
+schweig.<lb/>
+</titlePart></docTitle>
+<byline> Durch<lb/>
+<docAuthor>Basilium Sattler D.</docAuthor> Hoffprediger zu<lb/>
+Wolffenbüttel.<lb/>
+</byline>
+<figure/><lb/>
+<docImprint>Gedruckt zu <pubPlace>Wulffenbüttel</pubPlace> / <lb/>
+durch <publisher>Eliam Holwein</publisher> / Fürstl.<lb/>
+Braunsch.
+Buchdrucker vnd<lb/>
+Formschn. Im Jahr <docDate>1617</docDate>.</docImprint></titlePage>
+</front>
+<pb facs="#f0002"/>
+<body>
+<pb facs="#f0003"/>
+<div>
+<head>Lucae am 10.<lb/>
+</head>
+<p>JESVS wandte sich zu seinen Jüngern / vnd sprach zu ihnen in sonderheit: Seelig
+seind die Augen die da sehen / daß ihr sehet. Denn ich sage euch / viel
+Propheten vnd Könige wolten sehen / daß ihr sehet / vnnd habens nicht gesehen /
+vnnd hören / daß ihr höret / vnnd habens nicht gehöret.</p>
+</div>
+<div>
+<head>Außlegung.<lb/>
+</head>
+<p>GEliebte im HErrn Christo / es schreibet der Prediger Salomo am 7. Capittel / es
+ist besser in das Klaghauß gehen / denn in das Trinckcauß / es ist besser
+trawren / denn lachen. Solches klinget gar vngereumet / vnnd sertzam in den
+Ohren der Weltkinder. Die sind gar einer andern meinung / vnd lassen sich
+bedüncken / es sey viel besser lustig sein vnd zun Hochzeiten / Gastereyen vnd
+auff die Trinckstuben / alß mit der Leich gehen. Denn der Kirchhoff
+<pb facs="#f0004"/>
+vnd Grabstett sey ein melancholischer Ort / da Todten Bein
+liegen / vnd die Leute weinen vnd man gleich den Todt für sich sehe / da einem
+aller lust vnd frewde vergehet.</p>
+<p>Aber der Prediger Solomo bringet dessen wichtige vrsachen.</p>
+<p>Denn / in Jenem: spricht er / nemblich / im Klaghauß / ist das ende aller
+Menschen / vnd der Lebendige nimbts zu hertzen. Vn&#x0303; / durch
+trawren wird das hertz gebessert. Denn gleich wie ein Mensch der jmmer zu Gast
+vnd zur Geselschafft gehet / vnd im Sause lebet / sicher vnd ruchloß wird / daß
+er seines endes / ja GOttes vnd seiner Seeligkeit vergisset / lebet / stirbt vnd
+fehret vbel.</p>
+<p>Also wenn man mit der Leich gehet / wird man erinnert / daß man auch sterben muß
+/ daß nichts gewissers sey / alß der Todt / vnnd nichts vngewissers / alß die
+stunde des Todtes / darauff werde das Gerichte folgen / dazu müsse man sich
+schicken / da könne man nicht bestehen / da wird man trawrig von wegen der Sünde
+/ darumb thut man busse / vnd vorsühnet sich mit GOtt/etc. Das ist eine
+Göttliche trawrigkeit / wie es Paulus 2. Corint. 7. nennet / ein rew / der
+niemand gerewet / so lebet sichs wol / so stirbt es sich wol vnnd
+Seeliglich.</p>
+<p>Darumb bittet Moses Ps. 90. lehre vns bedencken / daß wir sterben müssen / auff
+das wir klug werden. Vnd David Psal. 39. HErr lehre mich doch /
+<pb facs="#f0005"/>
+daß ein ende mit mir haben wird /
+vnd mein leben ein Ziel hat / vnd ichdavon muß.</p>
+<p>Derwegen thun die recht vnd wol / die sich jetzund vnd sonsten gern bey den
+Begräbnissen finden lassen / es macht gleichwol einem Menschen allerley
+nachdencken / vnd vertreibt die fleischliche sicherheit.</p>
+<p>Damit wir aber solchen dingen / wie man sich seeliglich zum Tode schicken soll /
+etwas weiter vnd tieffer nachdencken / ist bey vns ein löblicher Brauch / daß
+man auch in solchen versamblungen davon auß Gottes Wort eine Predigt thu.</p>
+<p>Solchen löblichen Brauch / wollen wir dißmal auch folgen / vnnd weil einfrommes
+Hertz fürnemlich darauff gedencket / wen es stirbet / daß es seelig werden müge
+/ habe ich die verlesene Wort Christi für dißmal zuerklären für mich nehmen
+wollen / weil darin von der Seeligkeit gehandelt / vnd nachrichtung gegeben wird
+/ wie wir seelig werden / vnnd werden vns Geistliche vnnd Weltliche / hohes vnd
+nidriges Standes Persohnen fürgestellet / die die Seeligkeit erlangt haben / daß
+wir denselben folgen lernen.</p>
+<p>Dieweil nun an dieser Lehr / wie wir seclig werden / vns allen zum höchsten
+gelege&#x0303; / zweiffel ich nicht / fromme Hertzen werden mit fleiß
+vnd lust zuhören. Vnd wenn wir auch das für dißmahl lernen / so sind wir wol
+außgewesen.</p>
+<p>Wir wollen aber erstlich die verlesene Wort
+<pb facs="#f0006"/>
+Christi erklären / darnach
+anzeigen / was wir daraus lernen sollen. GOTt gebe vns allen darzu die gnade
+seines heiligen Geistes vmb JESV Christi witlen AMEN.</p>
+<p>Lucas schreibt / JESVs wandte sich zu seinen Jüngern / vnd sprach zu ihnen in
+sonderheit / Seelig sind die Augen / die dasehen / daß jhr sehet.</p>
+<p>Das wir diese Wort recht vnd gründlich verstehen / müssen wir erstlich bedencken
+/ wann vnnd zu wem sie Christus gered / vnd was jhm darzu Vrsach gegeben
+hab.</p>
+<p>Es hat sich dieses begeben / alß Christus vber die 12. Apostel noch 70. Jünger
+außgesand / die Leute zu lehren / vnd die Lehr mit Wunderzeichen zu bestetigen /
+Krancken zu heilen / vn&#x0303; Besessene zuerledigen / etc. Die 70.
+Jünger kommen mit frewden / thun relation vnnd bericht / wie es abgelauffen /
+nemblich gar wol / vnd das sie viel guts geschaffer haben.</p>
+<p>Da ist nun Christo lieb dazu / daß jhre Arbeit nicht vergeblich gewesen / sondern
+GOTT das gedeyen darzu gegeben / vnnd neben jhnen auch andere Seelig werden /
+dancket derwegen mit frewden darfür GOTT seinem himlischen Vater / weil ja die
+verschlagene Welt Kinder sein Wort nicht annehmen / vnd er sie also muß fahren
+lassen / daß gleich wol Gott die schlechteste einfältige Leute zum erkäntnis
+Christi gebracht hat.</p>
+<p>Darauff nun kehret er sich zu denn Jüngern /
+<pb facs="#f0007"/>
+vnnd damit sie diese grosse gnade
+GOTTES / die jhnen wieder fahren ist / erkennen / GOTT dafür dancken / dabey
+bestendig bleiben / vnnd gedüldig leiden / alles was jhnen darvber begegnet /
+redet er diese Wort / Seelig sind die Augen / die da sehen / daß ihr sehet. Alß
+wolt er sagen:</p>
+<p>Liebe Jünger / ob jhr wol vnnd andere die an mich gleuben / für der Welt vnd nach
+dem eusserlichen ansehen scheinet arme vnd elende Leute seyn / denn jhr seid
+andern an zeitlichen Gütern nicht gleich / die Welt helt auch nichts von euch /
+jhr habt auch der guten Tage nicht viel / sondern must noch wol Verfolgung
+leiden / so seid jhr doch vnnd andere gleubigen in der warheit die aller
+seligsten Leute / so jemals auff Erden gelebt haben / dieweil jhr mich alß den
+verheissenen Heylandt der Welt / vnd meine göttliche Herrligkeit sehet / vnd
+höret daß ich der ewige Sohn GOTtes mit euch rede.</p>
+<p>Das hat den trefflichen Leuten / die für euch gelebet / alß der hocherleuchten
+Propheten / denn mechtigen Königen gefehlet / den&#x0303; dieweil jhnen
+der Heylandt verheissen / vnnd sie sich sein getröstet / hetten sie auff Erden
+nichts liebers gewünschet / alß das sie den Tag erlebten / daß sie mich im
+Fleisch sehen vnnd hören müchten / welch ein frewde solt jhnen das gewesen seyn?
+Aber so gut ist es jhnen nicht
+<pb facs="#f0008"/>
+worden / sie haben sich an der blossen verheissung müssen gnügen lassen. Darvmb
+liebe Jünger / könnet jhr GOtt für die grosse Gnad vn&#x0303; Wolthat
+nimmermehr gnugsam dancken / erkennet es / dancket ja GOtt von hertzen dafür /
+bleibt bestendig dabey / vnnd leidet alles gedültig / was euch darvber begegnet
+/ jhr seid seelige Leute / es gehe euch sonst wie es wolle.</p>
+<p>Nun möchte einer gedencken vnd sagen / warumb man vns doch das Predige / daß die
+Apostel Christum gesehen / vnd deßwegen freylich seelige Leute gewesen / vnd das
+die Propheten vnd Gottselige Könige / nach diesem jhrem Seeligmacher so groß
+verlangen gehabt? Geliebte / es hats vns der Evangeliste Lucas / vnd allen denen
+/ die biß an den jüngsten Tag leben / auß eingeben des heiligen Geistes zur
+nachrichtung auffgeschrieben / vnd das es vns auch die Seeligkeit zuerlangen
+anleitung geben sol.</p>
+<p>Sollen derwegen für dißmahl viererley auß diesen Worten lernen vnd mercken.</p>
+<p>Erstlich / daß wir auch nach der Seeligkeit trachten sollen.</p>
+<p>Zum andern / wo wir die Seeligkeit sollen suchen / nemblich bey dem HErrn JEsu
+Christo.</p>
+<p>Zum dritten / durch was mittel GOTT vns zu Christo vnd der Seeligkeit bringe.</p>
+<p>Zum vierden / wie wir der Seeligkeit theilhafftig werden vnd geniesen.</p>
+<pb facs="#f0009"/>
+</div>
+<div>
+<head>Die erste Lehr.<lb/>
+</head>
+<p>ES gedencket Christus zweyerley Leut / die jhn erkant vnd all jhren Trost an jm
+gehabt. Erstlich sind die Apostel / die bey jhm stets gewesen / jhn vnd seine
+Wunderzeichen mit leibliche&#x0303; Augen gesehen / vnd seine Predigten
+mit lust gehöret haben. Darnach gedencket er der Propheten vnd frommen König /
+die zwar die zeit nicht erlebet / daß ehr in die Welt kommen ist / Aber sie
+haben auff jhn gehoffet / vnd ein grosses verlangen nach jhm gehabt.</p>
+<p>Da fraget es sich nun / warvmb sie so viel von Christo gehalten? Antwort / es ist
+den Aposteln nicht vmb Gelt vnnd Gut zu thun gewesen / denn Christi Reich ist
+nicht von dieser Welt / auch nicht vmb zeitliche Ehr vnd Gewalt. Denn er saget /
+die Weltlichen Könige Herrschen / jhr aber nicht also. So hatten sie auch keine
+gute Tage zuerwarten / Sondern sie solten seinen Kelch trincken vnd mit jhm
+leiden / wie er zu Johan: vnd Jacobo / Matth: 20. sagt. Eben die meinung hats
+auch mit dem Propheten gehabt / denen ist der Glaube in die Hand gethan / daß
+sie von Christo zeitliche Güter / Ehr vnd Wollust nicht zugewarten hetten:
+Sondern es ist jhnen auch alleine vmb die Seeligkeit zu thun. Den Königen
+gleicher gestalt ist es nirgend anderst vmb / alß vmb die Seeligkeit zu thun.
+Dann sie hatten ja Königliche Ehr vnd Güter /
+<pb facs="#f0010"/>
+vnd was jhr Hertz begehret / wie
+Salomo von sich beken&#x0303;et. Sie hielte&#x0303; es aber für
+eitel / vn&#x0303; gedachte&#x0303; auff die ewige Seeligkeit /
+daß sie die erlangen müchten. Das macht das sie nach Christo verlangt vnd sie
+daß ander dagegen nichts achten. Darin sollen wir nun alle / wir sein hohes oder
+niedriges Sta&#x0303;des / den Aposteln / from&#x0303;en Könige
+vnd Propheten folgen / vnd auch für allen dingen nach der Seeligkeit trachten.
+Diese Lehr ist hoch nötig / den&#x0303; das die es hinda&#x0303;
+gesetzet wird / darvber werden die meiste&#x0303; Leute verdampt. Den&#x0303; sie lassen jhnen andere / vn&#x0303; zwar geringe
+Weltliche sachen höher angelegen seyn / wie Christus Luc. 14. mit dem
+gleichnüsse vom grossen Abendmahl zuverstehen gibt. Den&#x0303; das
+Abendmahl ist nichts anders den&#x0303; die ewige Seeligkeit / die hie im
+glauben angehet. Aber da die Leute darzu geladen werden / bleiben sie ausse /
+vn&#x0303; gehen hin / einer kaufft einen Acker / der ander Ochsen /
+der dritte gedenckt auff Freyen vnd verseumen darvber die Seeligkeit.</p>
+<p>Also gehets noch heutiges Tages her / daß die Leute vber zeitlichen Sachen vnd
+Gütern jhre Seeligkeit hindansetzen.</p>
+<p>Denn etliche trachten nach Reichthumb vnnd zeitlichen Gütern / etliche nach
+grösser Ehr vn&#x0303; Gewalt / andere / daß sie hie allerley lust vnd
+gute Tage haben mögen. Darvber vergessen sie jhrer Seeligkeit: Aber die alle
+thun viel Närrischer / alß wenn einer ein Roß vmb eine Pfeiffen gibt / oder alß
+wen ein Kind für eine&#x0303; roten gülden einen roten Apfel nimbt.</p>
+<pb facs="#f0011"/>
+<p>Denn / wie offt aus dem Prediger Salomo erinnert wird / ist alles gantz eitel /
+daß ist / es ist mit allen zeitlichen Gütern / alß wenn einer meinete er finde
+eine schöne Nuß / vn&#x0303; wen&#x0303; ers anffmachte / were
+nichts darin. Das Auge sihet sich nicht satt / daß Ohr höret sich nicht satt.
+Eccles. 1. Von zeitlichen Gütern saget er 5. C. Wer Gelt lieb hat / der wird
+Gelt nim&#x0303;er satt / vnd wer Reichthumb lieb hat / der wird keinen
+nutzen davon haben. Den&#x0303; wo viel Güter sind / da sind viel die sie
+Essen / vnd was geneust seyn der sie hat / alß das ers mit Augen an siehet?</p>
+<p>Von denen die grosse Gewalt haben / spricht er Eccles. 1. Wer viel Lehrn muß /
+der muß viel leiden. hoc est, regere mundum setzt Lutherus dabey. Denn wer im
+Obrigkeit Ampt ist / der muß andere Leute lehren / was sie thun sollen / da kan
+mans den Leute&#x0303; nicht zu dancke machen. Von allerley weltlichen
+Lüsten / spricht Eccles. 2. Ich sprach in meinem Hertzen wolan ich wil wol leben
+vnd gute Tage haben. Aber siehe / daß war auch eitel / ich sprach zum Lache&#x0303; / du bist Toll / vnd zur Frewde / was machstu? Vnd hernach. Ich
+thete grosse Dinge. Ich bawete Häuser / pflantzte Weinberge vnd mache mir Gärten
+vnd Lustgarten / etc. Alles was meine Augen wünscheten / daß ließ ich jhnen vnd
+wehret meinem Hertzen keine Frewde / daß es frölich war von seiner Arbeit. Vnd
+das hielt ich für meinen theil von aller meiner Arbeit.</p>
+<p>Da ich aber ansahe alle meine Wercke die ich getha&#x0303;
+<pb facs="#f0012"/>
+hatte / vnd alle mühe / die ich
+gehabt hatte / sihe da war es eitel vnd jammer vnd nichts mehr vnter der
+Sonnen.</p>
+<p>Zum anderen / so ist es mit allen diesen sachen / mit zeitlichen Gütern / Ehr /
+Gewalt vnd weltlicher Lust gar vngewis / vnd vnbestendig werck. Hiob kompt auff
+einen Tag fast vmb alle seine Habe vnd Güter / Irus &amp; est subito, qui modò
+Craesus erat. Der reiche Craesus wird in eill zu einem armen Mann. Nebucadnezar
+frewet vnnd rümet sich / daß er so Gewaltig ist / vnd das er so eine herrliche
+Stadt Babel erbawet / bald felt eine stimme vom Himmel / dir Nebucadnezar wird
+gesagt / dein Königreich sol von dir genommen werden / etc. Da der reiche Mann
+sich frewet seiner Reichen ernde / saget GOtt / du Narr / diese Nacht wird deine
+Seele von dir genommen werden. Da der König Balthasar Dan. 6. Frist / seufft vnd
+lustig vnnd frölich ist mit seinen Weibern vnnd Kebßweibern / schreibt eine Hand
+an die Wand / deine Tage sind gezehlet / man hat dich in der Wage gewogen / vnnd
+du bist zu leicht befunden. In der Nacht wird er vmb gebracht. Das tregt sich
+noch täglich zu / darvmb können vnd sollen wir vns darauff nicht verlassen.</p>
+<p>Zum dritten / vnd wenn das schon nicht wehre / so muß man doch endlich alles
+verlassen / es ist alles vergänglich. Nacket bin ich von Mutter Leib gekommen
+sagt Hiob 1. Cap. vnnd Nacket werde ich dahin fahren / Psalm. 119. Ich habe
+alles dinges ein ende
+<pb facs="#f0013"/>
+gesehen /
+Esai. 40. Alles Fleisch ist wie Hew / vnd alle seine Güte wie des Graseß Blume.
+Das Hew verdorret / die Blume ist abgefallen. 1. Corinth. 7. Das wesen (Schema)
+dieser Welt vergehet. 1. Joh. 2. Die Welt vergehet mit ihren Lüsten. Da erfehret
+man mit der That / das es nichts ist. Es ist alß wenn einer nur in die Welt
+gegucket hette. Da klagen die Gottlosen / Sapient. 5. Was hilfft vns nun der
+Pracht? Was bringt vns nun der Reichthumb sampt dem Hochmut? Es ist alles dahin
+gefahren wie ein Schatte. Der Käyser Severus sagt / ich bin alles gewesen / vnd
+hilfft mich nichts. Der Käyser Adrianus sagt Animula vagula blandula, &amp;c. O
+mein liebes lustiges Seelichen / wo wiltu nun bleiben / du wirst dich nun nicht
+mehr lustig mache&#x0303; / alß du zu thun pflagest. Wollen wirs nicht
+gleuben / so wird vns endlich der glaube in die Hand gegeben.</p>
+<p>Zum vierden verderbt vns den gantzen handel die Sünde / so wir am Halse haben /
+darvmb stecken wir vnter GOTtes Zorn / wir achtens oder achtens nicht / daraus
+folget / daß wir nimmer von hertzen frölich sein können / sondern müssen vns
+jmmerdarfür GOttes Gericht vnd Straffe fürchten.</p>
+<p>Da hilfft kein Gelt vnd Gut / kein Gewalt oder Lust / Judas hatte frisch Gelt von
+den hohen Priestern bekommen / aber es tröstet jhn nicht. Da Alexandro Magno daß
+Gewissen auffwachte / weil er Clitum vmbgebracht / kan er sich nicht zu frieden
+geben / wie
+<pb facs="#f0014"/>
+Gewaltig er auch ist.
+Wie Daniel. 5. Daniel dem Balthasar das gewissen rühret / ver gehet ihm alle
+lust. Es ist eben alß wenn einer Kranck lege / vnnd man wolte jhm einen hauffen
+Rosenobel bringen / oder jhm ein statlich Ampt zu Hofe anbieten / oder wolte jhn
+mit einer lieblichen Musica oder anderer Kurtzweil erfrewen / der werde sagen /
+hinweg mit / wer gesundt were.</p>
+<p>Aber das Hertzleidt eines bösen gewissen ist erger den alle leibliche Kranckheit.
+Darumb sagt Salomo Prov. 14. Wenn das Hertz trawrig ist / so hilfft keine
+eusserliche Frewde.</p>
+<p>Darumb sollen wir alles zeitlich Gut / Gewalt / Ehr vnnd Wollust zurück setzen /
+vnnd für allen dingen darauff gedencken / daß dem schaden der Sünden abgeholffen
+werde / davon der ewige Todt kömpt vnd das böse gewist.</p>
+<p>Darumb sagt CHRJSTVS Matth. 6. Trachtet am ersten nach dem Reich GOTTES vnd nach
+seiner Gerechtigkeit / so wird euch das ander alles zufallen. Vnnd Matth. 16.
+was hilffe es den Menschen / wenn er die gantze Welt gewinne / vnnd litte
+schaden an seiner Seele? Das macht das die Könige vnd Propheten nach Christo so
+ein groß verlangen gehabt.</p>
+<p>Ach dz die hülffe aus Zion vber Israel keme vnd Gott sein gefangen Volck erlöset
+sagt David Psal. 14. vnnd 53. Das ist die Vhrsach / daß die Apostel
+<pb facs="#f0015"/>
+alles verlassen vnd Christo nach gefolget seyn. Derwegen wir
+sein wer wir wollen / hohes oder niedriges Standes / lasset vns den Königen /
+Propheten vnnd Aposteln folgen / nach der Seeligkeit trachten vnd bedencken /
+daß hiervon CHRistus Luc. am 10. sagt / eins ist noht / Maria hat das gute theil
+erwehlet / daß nimmermehr von jhr genommen wird. Wo wir aber die Seeligkeit
+suchen sollen / vnd von wem sie her rüre / darvon im folgenden Theil.</p>
+</div>
+<div>
+<head>Die ander Lehr.<lb/>
+</head>
+<p>WEnn nun ein Mensch so weit kompt / daß er jhm seine Seeligkeit lest mit ernst
+angelegen seyn / so fragt sichs weiter / wo vnd bey wem wir die Seeligkeit
+suchen vnd finden kön&#x0303;en. Dara&#x0303; ist nun abermahl zum
+höchsten gelegen / daß wir sie nicht am vnrechten Ort suchen / vnd also der
+Seeligkeit verfeilen.</p>
+<p>Die Papisten suchen sie bey jhren vnnd andern Heiligen / jren guten Wercken / sie
+meinen sie müssens verdienen / vnd wens nicht einlange&#x0303; wil / so
+müssen jhn anderer Heilige&#x0303; gute Werck zu staten kommen / wie ich
+einmahl selbst in einem Testament gelesen / ich begehre theilhafftig zu werden
+aller guten Wercke / die jemals geschehen sind / von allen GOttes Heiligen / in
+allen Heiligen Orden.</p>
+<pb facs="#f0016"/>
+<p>Vnnd zwar das wir die Seeligkeit verdienen müssen / ist der vernunfft ehnlich.
+Denn das Gesetz das da saget / wer die Gebot thut / der wird darinne leben / ist
+in vnfern Hertzen geschrieben.</p>
+<p>Darumb sagt der Schrifftgelerte Luc. 10. was sol ich thun / daß ich das ewige
+Leben ererbe. So haben auch die wercke der Geistlichen im Pabstthumb einen
+grossen schein vnd ansehen. Aber solche Lehr ist falsch / vnd GOTtes Worts
+schnur strackvzu wieder. Denn ob wol GOTT selber sagt / Deut. 30. Siehe / ich
+habe dir fürgelegt das Leben vnnd das Gut / den Todt vnnd das Böse / vnnd
+Christus sagt zu dem Schrifftgelerten / thu das so wirstu Leben / so zeigt doch
+GOttes Wort / daß wir solchen weg zur Seeligkeit nicht gehen können. Paulus Rom.
+8. Das dem Gesetze vnmüglich wahre / daß thete GOTT. Vnd Gal. 3. wenn ein Gesetz
+gegeben were / daß da Lebendig machte / so keme die Gerechtigkeit warhafftig aus
+dem Gesetze. Aber die Schrifft hat alles vnter die Sünde geschlossen.</p>
+<p>Darumb bekennen auch die grossen Heiligen / das sie Sünder sind / vnnd für GOtt
+nicht bestehen können. David im 32. Psalm sagt / dafür / nemblich vmb vergebung
+der Sünden / werden dich alle Heiligen bitten. Vnnd er selber sagt / 130. Psalm
+/ Sodu HErr wilt Sünde zurechnen / HErr wer wird bestehen. Vnd im 143. Psalm /
+gehe nicht ins Gerichte mit deinem Knecht / denn für dir wird kein Lebendiger
+<pb facs="#f0017"/>
+gerecht. Was nun solche Leut
+sind / die das Gesetze nicht halten / denen verheist das Gesetz nicht die
+Sceligkeit / sondern verflucht sie. Gal. 3. Verflucht sey ein jederman / der
+nicht bleibet in allem dem / daß im Buch das Gesetzes geschrieben stehet. So
+schleust GOTtes Wort außtrücklich die guten Werck aus / wenn es von der
+Seeligkeit handelt. Rom. 3. Sie sind alzumahl Sünder / vnd werden ohne verdienst
+Gerecht aus seiner Gnade. Rom. 6. Die gabe GOttes ist das ewige Leben. Vnd
+Ephes. 2. auß gnaden sind jhr Seelig worden nicht aus euch / GOTTes Gabe ist es
+/ nicht aus den Wercken auff das sich niemands rühme. Darumb Paulus sagt / was
+mir im Gesetze geben war / daß habe ich für schaden geachtet. Philip. 3. Dieweil
+wir nun bey vns die Seeligkeit nicht finden / vnd bey keinen Heiligen / wo
+finden wir sie denn? Hie wusten alle Menschen / ja alle Engel keinen raht. Denn
+die Seeligkeit war durch die Sünde verloren / vnnd waren durch GOttes Vrtheil /
+du solt des Todes sterben / die Menschen ins verdamnis gerahten. Aber der
+alweise GOtt hat raht funden / vnd aus grosser lieb gegen das menschliche
+Geschlecht seinen lieben Sohn zum mittel verordnet / daß er solte Mensch werden
+/ vnnd mit seinem gehorsam wieder gut machen / daß wir mit vnserm vngehorsam
+verderbet hatten / vnd weil der Stock vber vns gebrochen / solte er die Straffe
+auff sich nehmen / vnd für vns leiden vnd sterben.</p>
+<pb facs="#f0018"/>
+<p>Davon stehet Rom. 5. wie durch eines Menschen vngehorsam viel Sünder worden sind
+/ also werden durch eines Menschen gehorsam viel gerechte. Vnnd Esai. 53. der
+HERR warff all vnser Sünde auff jhn / die Straff ligt auff jhm / auff das wir
+friede haben / vnd durch seine Wunden sind wir geheilet. Vnd 1. Johan. 1. Das
+Blut JEsu Christi des Sohns GOttes / macht vns rein von aller Sünde.</p>
+<p>Hie bey vnserm HERrn JEsu Christo finden wir wiederumb die verlorne Seeligkeit /
+auff den weiset vns GOtt allenthalben in seinem Wort. Darumb spricht GOtt zu der
+Schlangen in bey sein der ersten Eltern / deß Weibes Samen wird dir den&#x0303; Kopff zertreten / vnd du wirst jhn in die Ferschen stechen. Da
+weiset er die ersten Eltern auff Christum / der sol sie wiederumb Seelig machen
+vnd für sie leiden.</p>
+<p>So weiset GOtt Abraham auff Christum / da er jhm die Verheissung thut / in deinem
+Samen sollen alle Völcker der Erden gesegnet werden.</p>
+<p>Darumb hat Gott Christum auff so mancherley weise im alten Testament vorgebildet.
+Es haben jhn bedeutet die Opffer / daß er sich für vns Auffopffern würde. Es hat
+jhn bedeutet das Osterlamb / wir haben auch ein Osterlamb / welches ist CHRJSTVS
+für vns Geopffert / schreibet Paulus 1 Corint. 5. Es hat jhn bedeutet die
+Ehrenschlange in der Wüsten / wie CHRJSTVS Joh. 3. zeuget. Es hat jhn bezeuget
+der Gnadenstuel. Rom. 3. GOTT
+<pb facs="#f0019"/>
+hat
+CHRJSTVM für gestellet zu einem Gnadenstuel. Es hat jhn bedeutet der
+Hohepriester / so des Jahrs einmahl in das aller Heiligste eingangen. Heb. 10.
+Es haben auch auff diesen Seeligmacher gewiesen alle Propheten / wie Petrus Act.
+10. sagt / von diesem JESV zeigen alle Propheten / daß in seinem namen alle /
+die an jhn gleuben / vergebung der Sünden empfahen sollen. Vnd Act. 15. Wir
+gleuben durch die gnade vnsers HErrn JEsu Christi Seelig zu werden / wie auch
+die Väter.</p>
+<p>Da CHRJSTVS kommen vnd Mensch worden ist / gibt jhm GOtt denn namen JEsus / daß
+ein Seeligmacher heist / vnd spricht zu Joseph / du solt seinen namen JEsus
+heissen. Denn er wird sein Volck Seelig machen von jhren Sünden.</p>
+<p>Wie nun der HERR JESus in sein Ampt trit / weiset Johannes der Teuffer mit
+Fingern auff jhn vnd sagt / sihe / daß ist GOTTES Lamb / daß der Welt Sünde
+tregt. CHRJSTVS sagt Matth. 18. Des Menschen Sohn ist kommen Seelig zu machen /
+vnd zu suchen was verloren ist. Vnnd Matth. 9. nennet er sich einen Artzt / die
+starcken bedürffen des Artztes nicht / sondern die Krancken. Darumb sagt er
+Matth. 11. Kompt her zu mir alle die jhr mühselig vnnd beladen sind / ich wil
+euch erquicken.</p>
+<p>Item Johan. 14. Ich bin der Weg die Warheit vnnd das Leben / niemand kömpt zum
+Vater denn durch mich.</p>
+<pb facs="#f0020"/>
+<p>Die Apostel gleichfals weisen auff JESVM CHristum Act. 6. Da der Kercker Meister
+fraget / liebe Herrn / was sol ich thun / daß ich Seelig werde / weiset jhn
+Paulus auff JESVM / gleub an den HErrn JEsum / so wirst du vnd dein Hauß Seelig.
+Das ist die vrsach / das Paulus 1. Cor. 2. schreibt / ich hielte mich nicht das
+ich etwas wuste vnter euch / ohn allein JESVM CHRJSTVM des Gecreutzigten.</p>
+<p>Dahin weiset hie CHristus auch / da er sagt zu seinen Jüngern / die an jhn
+gleubten / Seelig sind die Augen die da sehen das jhr sehet. Was ists? Es ist
+JESVS CHRJSTVS. Vnd da er sagt / viel Könige vnd Propheten wolten sehen das jhr
+sehet / bezeuget er / daß die auch auff jhn jhre Seeligkeit gesetzt haben.</p>
+<p>Dieses sol vns zur Lehr dienen / daß wir wissen / bey wem wir die Seeligkeit
+suchen sollen / nemblich nir gendt alß bey JESV Christo. Wie Petrus Act. 4. sagt
+/ Es ist in keinem andern Heil / ist auch kein ander name den Menschen gegeben
+worden / darin Seelig zu werden. Vnd das wir auch sehen / daß dieses der rechte
+vralte Glaub sey / Denn alle Ertzväter / gottselige Könige / Propheten / vnd
+alle die im alten Testament gehabt haben / die Seelig worden sind / vnd sey also
+kein newer Glaube / wie vns die Papisten fälschlich beschüldigen. Wir sollen es
+auch zum Trost gebrauchen / wen&#x0303; vnser Gewissen auffwacht / vnd
+wir
+<pb facs="#f0021"/>
+fühlen / wie vnselige Leute
+wir sind / wir nicht verzagen / sondern vns des trösten / daß GOTT raht
+geschaffet / vnd seinen liebsten Sohn zu vnserm Seeligmacher verordnet habe.
+Endlich sol es vns auch darzu dienen / daß wir vns hüten für dem Irrthumb der
+Papisten / die vns die Seeligkeit anderst wo suchen heissen / alß auch bey der
+Jungfrawen Maria vnnd andern Heiligen. Das ist ein newer Glaube / der dem Wort
+GOttes / so vns allein auff CHRistum weiset / stracks zuwieder ist. Wo wir aber
+CHRIstum vnd seine Wolthaten antreffen / davon im dritten Stück.</p>
+</div>
+<div>
+<head>Die dritte Lehr.<lb/>
+</head>
+<p>DIeweil wir nun wissen wer der sey / der vns Seelig macht / fragt es sich weiter
+/ wo wir an jhn kommen / vnd durch was mittel GOTT vns Christi vnd seiner
+Wolthaten theilhafftig machen wolle.</p>
+<p>Die Apostel haben auch das herrliche mittel gehabt / daß CHristus sich selber von
+jhnen hat sehen vnd hören lassen / daß hat freylich in jhnen denn glauben
+erwecket vnd gestercket. Wie Joh. 1. sagt. Wir sahe&#x0303; seine
+Herrligkeit / alß des eingebornen Sohns vom Vater.</p>
+<p>Dencket zu / welch eine Herrligkeit ist gewesen / daß sie gesehen / daß er
+geheilet alle Krancken / die jhm
+<pb facs="#f0022"/>
+für kommen / alle Besessene erlöset / ja auch etliche Todten aufferwecket / daß
+sie gehöret / daß er gewaltig Geprediget / vnd nicht wie die Schrifftgelerten
+vnnd Phariseer / Matth. 7. Daher Petrus sagt Joh. 6. HErr wo sollen wir hin
+gehen / du hasts Wort des ewigen Lebens / vnd wir gleuben vnd haben erkant dz du
+bist Christus der Sohn des lebendigen GOTtes. Nun müssen wir zwar solchen
+vortheil den Aposteln gönnen / daß Christus sie im Fleische sich sehen lassen /
+vnnd jhnen selber Geprediget das vns jetzt mangelt. Aber darumb wil vns GOtt die
+Seeligkeit nicht abschneiden. Denn er sagt vom HERRN JESV / Esa. 49. Ich habe
+dich auch zum Liecht der Heyden gesetzet / daß du mein Heil seist / biß an das
+ende der Erden.</p>
+<p>Wie vnd durch was mittel bringt vns denn jetzund GOtt zur Seeligkeit? Wo finden
+wir Christum vnd die Seeligkeit? Antwort. Dazu hat GOtt verordnet das Predig
+Ampt / sein Wort vnd die heiligen Sacramenta.</p>
+<p>Denn durch das Wort vnnd Sacramenta / wird vns Christus / den wir Leiblich nicht
+sehen / für die Augen gemahlet / wie Paulus. Gal. 3. redet / daß wir jhn
+erken&#x0303;en vnd an jhn gleuben. Darumb spricht Christus / wie er
+jetzt gen Himmel fahren wil / gehet hin in alle Welt vnd lehret alle Völcker /
+vnd Prediget das Evangelium aller Creatur / vnd Teuffet sie in dem namen des
+Vaters / vnd des Sohns / vnd des heilige&#x0303;
+<pb facs="#f0023"/>
+Geistes / wer gleubt vnd getaufft
+wird / der wird Seelig. Matth. 28. vnd Marc. 16. Darumb sagt Paulus Rom. 1. Ich
+scheme mich des Evangelij nicht. Denn es ist eine krafft GOttes Seelig zu machen
+alle die dran gleuben. Vnnd Rom 10. So kömpt nun der Glaube aus der Predigt /
+die Predigt durch das Wort GOTTES. Vnnd 1. Corinth. 1. Nach dem die Welt in
+jhrer Weißheit GOTT in seiner Weißheit nicht erkant / hat es GOTT wolgefallen
+durch die thörichte Predigt Seelig zu machen die da gleuben.</p>
+<p>Von der heiligen Tanffe schreibet Paulus Tit. 3. GOtt macht vns Seelig durch das
+Bad der Wiedergeburt / vnd der ernewerung des heiligen Geistes.</p>
+<p>Von dem heiligen Nachtmahl sagt Christus nemet hin vnd esset / daß ist mein Leib
+der für euch gegeben wird / trincket das ist mein Blut des newes Testaments /
+daß für euch vergossen wird zur vergebung der Sünden / da vns / wie vnser
+Catechismus sagt / vergebung der Sünden / Leben vnd Seeligkeit durch solche Wort
+gegeben wird. Denn wo vergebung der Sünden ist / da ist auch Leben vnd
+Seeligkeit.</p>
+<p>Das sehen wir Actor. 2. Da auff einen Tag drey tausent Seelen bekehret vnnd
+Seelig werden. Petrus Predigt jhnen / da durch rüret jhn GOtt das Hertz / daß
+sie Busse thun / vnd an Christum gleuben. Vnd saget zu jhnen / lasse sich ein
+jeglicher Teuffen zur vergebung der Sünden. Wie sie den auch bestendig bleiben
+in der Apostel Lehre / im Gebot vnd im Brod brechen.</p>
+<pb facs="#f0024"/>
+<p>Also kommen zur Seeligkeit der Kämmerer aus Morenland Act. 8. Dem Prediget
+Philippus von Christo vnnd Teuffet jhn / da ist er nun Seelig. Darumb rücket der
+heilige Geist Philippu&#x0303; hinweg / deßgleichen Cornelius Act. 10.
+höret Petrum Predigen vnd lest sich Teuffen / vnd wird Seelig.</p>
+<p>Dieses weret also biß an den lieben jüngsten Tag. Darumb sagt Christus wie er
+Matth. 28. daß Predigt Ambt verordnet / siehe ich bin bey euch alle Tage biß an
+der Welt ende.</p>
+<p>Vom heiligen Nachtmahl sagt Paulus / so offt jhr von diesem Brod esset / vnd vom
+Kelch des HErren trincket / sollet jhr seinen Todt verkündigen / biß das er
+komme.</p>
+<p>Die im alten Testament für Christi Geburt gelebt / sind auch also Seelig worden /
+daß GOtt jhnen sein Wort vnd die verheissnng von Christo gegeben / vnd hat jhn
+Christum mit den Opffern vnd allerley Ceremonien für gebildet. Wie wir gehöret
+das er selber den Ertzvätern von Christo Geprediget / vnd das von jhm alle
+Propheten gezeuget / damit diesen jhren Heyland vnd Seeligmacher erkenneten /
+vnnd an jhn gleubten.</p>
+<p>Dabey wir denn auch sehen / daß wir viel besser stehen / alß die im alten
+Testament so für Christi Geburt gelebt haben. Denn jhnen hatte Gott Christum
+alleine verheissen. Nun aber hat er jhn gesand / er ist kommen / vnd nicht mehr
+zu künfftig / er ist empfange&#x0303;
+<pb facs="#f0025"/>
+vom heiligen Geiste / geborn von
+der Jungfrawen Maria / er hat vns nun erlöset / er hat wie wir in vnserm glauben
+sagen / gelitten vnter Pontio Pilato / ist gecreutziget gestorben vnd begraben /
+nieder gefahren zu der Hellen / am dritten Tage aufferstanden von den Todten /
+auffgefahren gen Himmel / da sitzet er zur rechten Hand GOTTes. Da von die
+Propheten geweissaget. Es ja alles volbracht. Gott hat wie Rom. 1. stehet / daß
+Evangelium damals verheissen / nun wirds Geprediget.</p>
+<p>Das sol vns nun dazu dienen / daß wir wissen wo wir die Seeligkeit sollen suchen
+/ wenn wir derselben gewiß sein wollen / wir dürffen vns nicht bekümmern / wie
+etzliche hochtrabende Geister / ob GOtt vns erwelet / vnd was er von vns in
+feinem Raht beschlossen ehe der Welt Grundt geleget ist / Sondern er hat vns
+seinen willen in seinem Wort offenbahret. An sein Wort vnd Sacramenta sollen wir
+vns kühnlich halten / sprich nicht in deinem Hertzen / wer wil hinauff gen
+Himmel fahren / etc. Das Wort ist dir nahe nemblich in deinem Munde vnd in
+deinem Hertzen / Rom. 10. Das Wort berichtet / GOtt habe die Welt geliebet / vnd
+seinen Sohn gegeben / Joh. 3. Christus habe sich geben für alle zur Erlösung /
+1. Timoth. 2. GOtt habe nicht gefallen am Tode des Gottlosen / sondern das er
+sich bekehre vnd lebe. Esa. 33. Diese allgemeine verheissung wird in der
+heiligen Tauffe / im heiligen Nachtmahl / in der privat absolution einem
+<pb facs="#f0026"/>
+jeden zugeeignet. Daran sollen wir vns halten / wen&#x0303; wir schon vns bedüncken lassen / wir sein von GOTtes Augen
+verstossen / wie im 31. Psalm geschrieben stehet. Es sol vns auch diese Lehr
+eine Vermahnung seyn / daß wir die grosse Wolthat erkennen / daß vns GOtt sein
+heiliges Wort vnd der recht gebrauchen der heiligen Sacramenten gegeben hat /
+vnd GOtt von Hertzen dafür lob vnd danck sagen.</p>
+<p>Da sollen wir vns errinnern / wie elende Leute die Heyden gewesen / davon wir
+herkommen / die ohne Christo / ohne GOTT gewesen / wie Paulus redet / vnd also
+keine hoffnung gelebt. 12. Nun scheinet vns das helle Liecht des göttlichen
+Worts / daß wir Christum vnd seine Wolthaten erkennen / an jhn gleuben vnd durch
+jhn Seelig werden.</p>
+<p>Bedencket auch was für ein elender Zustandt für 100. Jahren im Pabstumb gewesen /
+da diese Lehr von Christo sehr verdunckelt gewesen / man hat wol von jhm
+Geprediget / aber die Leute darvber auff jhre Werck vnd die Heiligen gewiesen /
+daß sie da auch die Seeligkeit suchen sollen. Von solcher tieffen Finsternis hat
+vns GOtt erlöset.</p>
+<p>Weil auch die im alten Testament es so gut nicht gehabt als wir. Denn jhnen ist
+Christus nur verheissen / nun ist er kommen. Sie haben denn Schatten gehat / wir
+haben den Cörper selber. Sie haben gehoffet / er würde sie erlösen / wir wissen
+das er das werck vnser Erlösung für lengst vollendet hat / sollen
+<pb facs="#f0027"/>
+wir diese Gnade erkennen / vnnd GOTT dafür dancken.</p>
+<p>Erkennen wir diese grosse Gnade nicht / so wird am jüngsten Tag vnser Verdamnis
+desto grösser seyn. Denn der Knecht der des HERrr Willen weis / vnnd hat jhn
+nicht gethan / muß viel Streiche leiden Luc. 12.</p>
+</div>
+<div>
+<head>Die vierde Lehr.<lb/>
+</head>
+<p>ES ist aber nach nicht gnug / daß ein Patient einen bewerten Artzt wisse / vnnd
+was für medicamenta vnd Artzneyen / sind / die er gebrauche&#x0303; sol
+sondern er muß auch die Artzney im appliciren vnd zu sich nemen / wenn sie jhm
+helffen sol.</p>
+<p>Vnd in diesem Stücke stöst es sich gemeinglich mit dem Artz ists aller dings
+richtig / die Artzney ist auch gewiß vnd bewehret / aber es mangelt daran
+gemeiniglich / daß die Leute sie nicht zu sich nehmen oder sie nich bey sich
+behalden / wie machen wir es denn mit dieser Artzney / man pfleget sonst von
+weltlichen Contracten zusagen / es gehören zween zum Kauffe.</p>
+<p>Also gehören auch zween zu einem geschencke / wenn mans geniessen sol / einer ist
+der das geschencke aus gibt / der Ander muß es annemen. Darumb sagt man kan
+einem ohn seinen danck nichts geben.
+<pb facs="#f0028"/>
+Also verhelt es sich auch mit dieser gabe GOTTes. Darumb mercket ja fleissig
+drauff / wie wir solcher gabe theilhafftig werden vnd geniessen / vnnd wie wir
+sie empfahen.</p>
+<p>Davon berichtet nun GOttes Wort / daß das mittel / dadurch wir die Seeligkeit /
+die Christus erworben hat / vnd im Wort vnd Sacramenten anbeut / ergreiffen vnnd
+annehmen / sey der Glaube / daß wir nemblich nicht allein wissen vnd gleuben /
+daß CHristus wahrer GOtt vnd Mensch sey / der vns erlöset / vnd vns die
+Seeligkeit erworben habe / sondern das wir vns auch darauff fästiglich verlassen
+/ vnnd vns sein wieder Sünde / Todt / Teuffel vnd Helle trösten.</p>
+<p>Hie möchte einer bald für werffen / CHristus sagt nicht zum Glauben / sondern
+Seelig sind die sehen / daß jhr sehet. Geliebte / daß eusserliche ansehen
+Christi hats allein nicht gethan / sonst wehren die Hohenpriester / Pilatus vnd
+Herodes auch Seelig worden / sondern es ist noch ein ander sehen darbey / daß
+sie Christum auch mit den Augen jhres Hertzens vnnd im glauben angesehen / für
+jhren Heyland vnnd Seeligmacher erkant haben / dazu denn die Apostel wie gehöret
+/ viel geholffen hat / daß sie Christum vnd seine Wercke auch eusserlich
+angesehen / vnd sein Wort gehöret haben.</p>
+<p>Aber der Glaub der aus solchen sehen gefolget ist / hat das beste gethan / wie
+Petrus sagt / du bist Christus des lebendigen GOttes Sohn / vnd Tho-
+<pb facs="#f0029"/>
+mas sagt / mein HErr vnd mein GOtt. Das geistliche
+ansehen des Hertzens / das ist / der Glaube ist das mittel / dadurch die Apostel
+/ ja auch die im alten Testament die Seeligkeit erlangt haben / dadurch auch wir
+der Seeligkeit theilhafftig werden.</p>
+<p>Das bezeuget Christus Joh. 3. da er das sehen erkläret / wie Moses in der Wüsten
+eine Schlange erhöhet hat / also mus auch des Menschen Sohn erhöhet werden /
+auff das alle die an jhn gleuben / nicht verlohren werden / sondern das ewige
+leben haben. Da deutet er an / wie die so von Schlangen gebissen / vnnd die
+Ehrne Schlangen leiblich angesehen / gesund worden sind / also wenn wir Christus
+mit den Augen des Glaubens ansehen / werden wir von dem gifftigen Schlangen stcb
+der Sünden geheilet.</p>
+<p>Darumb sagt David im 2. Psalm: Küsset denn Sohn / vnd abermahl wol allen die auff
+jhn trawen. vnnd Habac. 2. der Gerechte wird seines Glaubens leben.</p>
+<p>Vnd wie Christus die Apostel außgesand / den&#x0303; Leuten zu Predigen
+vnd sie zu Teuffen zur Seeligkeit / spricht er / wer gleubet vnnd getaufft wird
+/ der wird Seelig / vnnd zum Kercker Meister Act. 16. spricht Paulus / glaub an
+den HErrn JEsum / so wirstu vnd dein Hauß Seelig.</p>
+<p>Vnd das vns allerdings kein schaden thu / daß wir CHRIstum eben leiblich nicht
+sehen / bezeuget CHRISTVS deutlich Joh. 17. Ich bitte Vater
+<pb facs="#f0030"/>
+nicht allein für sie die Apostel /
+sondern auch für die / so durch jhre Wort an mich gleuben. Vnnd Joh. 20. spricht
+er / dieweil du mich gesehen hast Thoma / so gleubstu / Seelig sind die nicht
+sehen vn&#x0303; doch gleuben.</p>
+<p>Hie sagen aber die Welt Kinder / wird sonst nichts erfordert als der glaube / da
+wollen wir wol zukommen. Am glauben sol mirs nicht mangeln / sagt jener. O liebe
+Christen / glauben ist so ein leicht ding nicht / alß jhnen die Leut einbilden.
+2. Thess. 3. Der Glaube ist nicht jedermans ding. Es ist so ein schwer ding /
+sagt D. Luther / alß Himmel vnd Erden schaffen. Das befinden auch from&#x0303;e Hertzen in der That / wenn sie in nöten vnd sonderlich in Todes
+nöten seyn / vnd das gewissen auff wachet / vnd man GOTTes Zorn vnd Straffe
+fühlet / daß ein Mensche da gleube GOtt wol jhm gnedig seyn / seine Sünde
+vergeben / jhn Seeligmachen / daß komme vns zum ander sawer an / GOtt müste es
+geben / Philipp. 1. Eins ist gegeben das jhr an Christum gleubet.</p>
+<p>Denn beim glauben mus erstlich wahre Buß seyn / daß ein Mensch seine Sünde
+erkenne / vnnd von Hertzen rew vnd leid darvber habe. Da hat er viel zu thun /
+daß ein Mensch erst so weit komme / vnd es müsse gleich wol sein.</p>
+<p>Denn wie ein gesund starcker Mensch / weder Artz noch Artzeney achtet: Also wenn
+ein Mensch sicher ist / vnd seine Sünde nicht fühlet / vnd nicht achtet / fraget
+er lauter nichts nach Christo vnnd seinen
+<pb facs="#f0031"/>
+Wolthaten / alß man an den
+Phariseern siehet / hetten sie jhre Sünde recht erkant vnd betrachtet / wurden
+sie jhn mit Frewden angenommen haben. Dagegen die Zöllner / alß Zachaees vnnd
+ander bußfertige als die Sündern. Luc. 7. Finden sich zu Christo vnd nemen jhn
+mit frewden an.</p>
+<p>Zum andern / gehöret zum Glauben / daß ein Mensch in solcher Sünden angst nicht
+verzage / sondern ein Hertz fasse / vnnd ob jhn wol sein Hertz verdampt / gleich
+wol weil Christus für jhn gnug getha&#x0303; / sich zu GOtt / wenn er jhn
+schon das leben nimbt / alles guten versiehe / daß er jhm gnedig seyn / alle
+Sünde vergeben / vnd jhn Seelig machen wolle.</p>
+<p>Das kömpt einem Menschen noch schwerer an / alß die Busse / darumb viel Leute
+verzagen in jhren Sünden / ob sie schon nicht laut davon ruffen. Cain ist
+erstlich trotzig vnd sagt / bin ich denn meines Bruders hüter / aber da das
+gewissen auffwachet / verzweifelt er vnd saget / meine Sünde ist grösser /
+den&#x0303; das sie mir möge vergeben werden. Ist nicht Judas
+freymütig / da jhn Christus warnet / vnnd sagt bin ichs Rabbi / aber hernach
+verzagt er vn&#x0303; erhengt sich selbst.</p>
+<p>Diese Lehr sol vns dienen wieder die Papisten / die für geben / wir müssen nicht
+allein durch den glauben / Sondern auch durch vnsere gute Werck / vns die
+Seeligkeit zu eigen. Aber wie gehöret / sagt Paulus außtrücklich nicht aus den
+wercken / Eph. 2.</p>
+<pb facs="#f0032"/>
+<p>Wir sehen auch hie was doch eigentlich die Vrsach sey / daß viel Leut der
+Seeligkeit / die jhn von Christus erworben vnd jhnen im Wort vnd Sacramenten
+anbeut / nicht geniessen. Etzliche geben es stracks auff die Gnadenwahl / daß
+sie GOtt vorbey gangen / eben als wenn einer der sich selbst vmbbringt / es auff
+GOttes versehung geben wolte. Nein so weit dürffen wirs nicht suchen / sondern
+die Leute schlagen die angebotene Seeligkeit aus durch vnglauben. Wie Christus
+Joha. 3. sagt / GOtt hat seinen Sohn nicht gesand / daß er die Welt richten sol
+/ sondern das die Welt durch jhn Seelig werde / wer an jhn gleubet der wird
+nicht gerichtet: Wer aber nicht gleubet der ist schon gerichtet: Denn er gleubet
+nicht an den namen des eingebornen Sohns GOTTes. Vnd Marc. 16. Wer gleubt vnnd
+getaufft wird der wird Seelig werden / wer aber nicht gleubet der wird verdambt
+werden.</p>
+<p>Da sind etliche die gehen in keine Kirche / wie sollen die glauben / da doch der
+Glaube aus der Predigt kompt? Etliche wen&#x0303; sie schon in der
+Kirchen sind / hören nicht fleissig zu / der böse Feind reist das Wort von jhren
+Hertzen. Luc. 8. Etlicher Leut Hertzen sind mit sorgen dernarung vnd wollüsten
+dieser Welt eingenommen / daß sie auff die Seeligkeit nicht gedencken? Etlichen
+schlage es aus dem Sinn / wenn jhnen GOtt schon das Hertz rüret / wie Agrippa
+selbst bekennet / es feil nicht viel / du vberretest mich / daß ich ein Christ
+würde. Vnd zu den Juden sagt Stephanus /
+<pb facs="#f0033"/>
+jhr wiederstrebet allezeit dem
+heiligen Geist wie ewere Väter / also auch jhr. Das ist eigentlich die vrsach
+der Verdambnis / darumb sollen wir Gott die schult nicht geben / daß die Leute
+verdambt werden / Sondern wie GOttes Wort thut / denn Menschen / die durch
+vnbestendigkeit vnd vnglauben die jhnen erworbene vnnd angebotene Seeligkeit aus
+schlagen / vnd sollen in vnsern Ohren vnd Hertzen klingen lassen / daß Esaiae
+54. stehet / wendet euch zu mir / so werdet jhr Seelig aller Welt ende. Vnd
+Zacharias 9. so kehret euch nun zur Vestung die jhr auff Hoffnung gefangen
+liget. Wie wir aber zum glauben kommen / höret ewre liebe zur andern zeit / GOtt
+muß jhn geben / wie jetzt gesagt / darumb sollen wir jhn darumb anruffen / Luc.
+11. sagt Christus / wie viel mehr wird mein himlischer Vater den heiligen Geist
+geben / denen die jhn bitten / So betet der Vater des besessenen ich glaube HErr
+/ aber kom&#x0303; zu hülff meinem Vnglauben. Es wil aber GOtt den
+glauben durchs Wort geben. Der glaube kompt aus der Predigt / sagt Paulus Rom.
+10. Darumb sollen wir GOttes Wort fleissig hören / denn da man das nicht thut /
+sondern wils ins Todbet sparen / so gehets dem Menschen wie den fünff thörichten
+Jungfrawe&#x0303; / die erst Oel in die Lampen kauffen wollen / da
+sie fort sollen vnd kom&#x0303;en darvber zu kurtz. Derowegen sollen wir
+dem 95. Psal. folgen / heute so jhr seine Stim&#x0303;e höret / so
+verstocket ewre Hertzen nicht. Dazu dienet auch das heilige Nachtmahl davon
+Christus sagt / daß thut
+<pb facs="#f0034"/>
+zu meinem
+gedechtnis / so wird der glaub in vns erwecket / gestercket vnd erhalten.</p>
+</div>
+<div>
+<head>Beschluß.<lb/>
+</head>
+<p>WIr haben für dißmahl zu seiner Ruh-Kammer gebracht / Denn Weylandt Hochwürdigen
+/ Durchleuchtigen / Hochgebornen Fürsten vnnd Herrn / Herrn Julium Augustum /
+Hertzogen zu Braunschweig vnd Lüneburg / Abten zu Michelnstein / vnnd Thumbprost
+des Stiffts S. Blasii zu Braunschweig / etc. Nun wil ich von S. F. G. Vralte&#x0303; hochlöblichen Geschlechte nicht sagen. Denn GOtt sichet die
+Person vnd also auch solches nicht an / Act. 10. So werden auch GOttes Kinder
+nicht aus dem Geblüte / noch von dem willen des Fleisches / nach von dem willen
+eines Man&#x0303;es / sondern von Gott geboren.</p>
+<p>Eins mus ich gleichwol erinnern von seiner F. G. Herrn Vater Hertzog Julio /
+hochlöblicher Gedächtnis / Gott zu lob vnd S. F. G. zu ruhm / daß dieselbe zu
+erst die Kirch reformiret / vnd eine Christliche Kirchen Ordnung angerichtet /
+hernach auch die Iulius Academiam fundirt, vnd Landt vnd Leuten vnd den
+Nachkommen sonderlich wol für gestanden / denn S. F. G. zu Geistlichen vnnd
+Weltlichen sachen / wie auch zur Haußhaltung selber mit fleiß gesehen / diese
+Heinrichstadt mit einem Wall vmbzogen / vn&#x0303; sich fast
+<pb facs="#f0035"/>
+aller ergetzung die sonst hohen Regiments Personen billich
+gegön&#x0303;et werden / gentzlich begeben.</p>
+<p>S. F. G. Hertzog Julii Augusti Person aber belangend / sind sie wie wir alle in
+Sünden empfangen vnd geboren / aber durch die heilige Tauffe wieder geborn / vnd
+dem lebendigen Weinstock vnserm HErrn JEsu Christo einverleibet. S. F. G.
+habe&#x0303; ein fürtrefflich in genium anfenglich gehabt / sind aber
+in dero Kranckheit also geschwechet / daß hernach einfalt mit vnter gelauffen /
+von welchen Leuten gleichwol GOtt mehr alß von denen helt / die verschlagen sind
+/ wie dan&#x0303; Christus für solche einfältige Leute seinem himlischen
+Vater dancket / sich zu jhnen wendet / vnnd sie Seelig preiset. Es haben aber S.
+F. G. die Häuptstück Christlicher Lehr / wie die im Catechismo begriffen sind
+gefasset / auß den zehen Geboten jhre Sünde erkant / Aus dem Christliche&#x0303; Glauben haben S. F. G. GOtt vnd seine fürnembste Wolthaten
+erkant / vnd in sonderheit das vns Christus wahrer GOTT vnd Mensch / durch sein
+bitter leiden vn&#x0303; sterben von Sünde / Todt / Teuffel erlöset. Denn
+worten Christi von der heiligen Tauffe vnd dem heiligen Nachtmal haben S. F. G.
+einfaltig gegleubet. Von solchen Leuten sage ich / helt vnser Herr Gott viel.
+Wie Christus Mat. 21. aus dem achten Psalm anzeugt / auß dem Munde der jungen
+Kinder vnd Seuglingen hastu ein lob zugerichtet. Vnd im 116. Psalm stehet / der
+HErr bewahret die einfältigen.</p>
+<pb facs="#f0036"/>
+<p>Was sonst S. F. G. leben belanget / werden alle die S. F. G. gekant bekennen
+müssen / daß sie nicht Ruchloß / sondern sehr Gottfürchtig gewesen.</p>
+<p>Es haben auch S. F. G. fleissig gebetet vnnd sonderlich das an sich gehabt / daß
+sie gern mit Psalmen vnd Geistlichen Liedern / GOtt beydes in vnnd ausserhalbs
+der Kirchen gelobet.</p>
+<p>Zum Kirchen gehen vnd GOttes Wort zu hören / haben S. F. G. sonderliche lust
+gehabt / vnd wo sie nicht wegen Leibes schwachheit verhindert keine Predigt
+verseumet.</p>
+<p>Die Prediger vnnd Diener göttliches Worts haben S. F. G. alß Väter geehret auch
+jhnen / welches sonst auch bey hohen Personen offt fehlet / nach GOttes Wort
+gefolget.</p>
+<p>Es haben S. F. G. zum Predigen solch eine lust gehabt / daß wenn GOtt jhnen die
+gaben verliehen / sie zu Predigen sich nicht geschemet hetten.</p>
+<p>Es haben S. F. G. Fraw Mutter / wie auch nach J. F. G. tödlichen abgang die
+jetzige Fürstliche Mittibe / imgleichen vnsern gnädigen Regierenden
+Landeßfürsten / ob S. F. G. schon elter gewesen / in gebürlichen Ehren
+gehalten.</p>
+<p>S. F. G. sind mitleidig gewesen / armen Leuten nach jhrer gelegenheit gerne
+gedienet / vnd sich nicht geschewet / alte Diener in jhrer Kra&#x0303;ckheit zu besuchen.</p>
+<p>Die zeit haben S. F. G. nicht mit Müssigga&#x0303;g / viel weniger mit
+Spielen / vnd Leichtfertigkeit zuge-
+<pb facs="#f0037"/>
+bracht / sondern weil jhm
+die Lust zum bawe&#x0303; gleich angebohren / bey den gebewden /
+sonderlich auch bey diesem Kirchen gebew sich frühe vnd spät finden lassen / vnd
+zugesehen / daß ein jeder das jenige / darzu er bestellet / fleissig verrichtete
+/ vnd das S. F. G. ja nicht ledig gesessen / haben sie etliche Bücher der
+heiligen Schrifft abgeschrieben / dar durch viel Sünde verblieben / die sonst
+aus dem Müssiggang folgen.</p>
+<p>Mit dem Truncke haben bißweilen S. F. G. zu viel gethan. Aber da haben offtmahls
+die vmb die Herrn sind schuld / daß sie zum Trunck anlaß geben / da sie billig
+davon abmahnen solten.</p>
+<p>Es haben aber S. F. G. sich einreden lassen / daß beste / wie gemeldet / ist an
+S. F. G. gewesen / daß sie mit den gottseligen Königen ein verlangen nach
+Christo gehabt / vnd nach der Seeligkeit getrachtet / gerne mit GOttes Wort
+vmbgangen / daß sie wol mit David sagen mögen / Ps. 27. Eins bit ich vom HErrn /
+daß hette ich gern / daß ich im Hause des HErrn bleiben möge mein lebenlang / zu
+schawen die schönen GOTtes dienst des HErrn.</p>
+<p>Wie nun S. F. G. leben / also ist auch das ende gewesen / ja es ist kurtz vor
+jhrem ende der Verstandt stärcker alß sonst niemals gewesen. In werender
+Kranckheit haben S. F. G. zweymal Christi Leib vnd Blut zu seinem gedechtnis
+empfangen. Kurtz zu vor ehe der Todt recht angetreten / haben S. F. G. jhnen den
+25. Psalm vorbeten lassen / vnnd mit sonderlichen
+<pb facs="#f0038"/>
+Affecten die Wort nachgesprochen /
+die Angst meines Hertzens ist groß / führe mich aus meinen Nöten.</p>
+<p>Vnd darauff gesagt / ach GOTT mach es nicht lang / verkürtze mir meine Pein.</p>
+<p>Darauff ist der Todt angetreten / vnd hat S. F. G. eben hart mit genommen / wie
+auch den Frommen geschicht / vnd vnserm HErr JEsu Christo selber
+wiederfahren.</p>
+<p>Wir lebendige aber sollen bey S. F. G. tödtliche&#x0303; Abgang zweyerley
+sonderlich bedencken. Erstlich das GOtt S. F. G. eben hart angegriffen /
+vnangesehen das sie gegen vns fromb gewesen / vnnd wol keinem Kind leid
+gethan.</p>
+<p>Da sollen wir nun nicht meinen / daß S. F. G. für vns andern ein Sünder gewesen /
+sondern es gilt vns andern / GOtt schlegt den Sack vnd meint denn Esel. Da
+sollen wir bedencken / daß Salomo Prov. 11. sagt / so der gerechte auff Erden
+leiden muß / wie viel mehr der Gottlose vnnd Sünder. Vnd 1. Pet. 4. Es ist zeit
+daß das Gerichte anfange vo&#x0303; Hause GOttes.</p>
+<p>So aber zu erst an vns / wz wils für ein ende werden / mit denen die dem
+Evangelio nicht gleuben / vnd so der Gerechte kaum erhalten wird / wo wil der
+Gottlose vnd Sünder erscheinen. Aber weil dar von in der vorigen Predigt auch
+gehandelt wil ich abbrechen.</p>
+<p>Das ander / dz bey dieses vnsers seeligen Herrn Tod wol zubedencke&#x0303;
+/ ist das / daß Gott in dieses Fürstliche Hauß abermal einen Riß getha&#x0303; / den&#x0303; dieses ist nu&#x0303;
+<pb facs="#f0039"/>
+in vier Jahren / da vns billig ein
+grawen vbergehen solte / der fünffte Herre / der begraben wird / daß dieser
+Fürstliche Vralte hochlöbliche Stamm nun mehr auff schwachen Beinen stehet /
+vn&#x0303; es sich schier anlest / alß wolte er gar außgehen / darfür
+ja der allmechtige barmhertzige GOtt gnediglich behuten wolle.</p>
+<p>Denn das man für wenden wolte / es wehre dieses albereit ein schwacher Herr
+gewesen / daß wil vns wenig helffen. Denn eben solche schwachheit ist auch von
+GOtt / vnd GOttes Straff. Vnd was wollen wir von den nechsten verstorbenen
+beyden Herrn sagen / deren der eine im sechsten / der ander im vierzehenden
+Jahre jhres Alters gestorben / vnd sonst Gesund vnd Starck gewesen?</p>
+<p>Darumb mögen wir wol mit ernst darauff gedencken / wie wir solchem grossen
+Vnglück mit wahrer Buß vor bawen / vnnd vnser sach / vnd in sonderheit auch das
+Regiment / also anstellen / daß nicht alles vber einen hauffen falle.</p>
+<p>Aber da meinen etliche Leute / daß gehöre auff die Cantzel gar nicht / daß man da
+sagen wolte / wie ma&#x0303; Regieren sol. Vnd ist das ein alte
+disputation die albereit fast für 2500. Jahren moviret vnd von GOtt entscheiden
+ist.</p>
+<p>Davon sagt David im 2. Ps. die Heyden toben / die Leute reden ver geblich / die
+König im Lande lehnen sich auff / vnd die Herrn Raht schlagen mit einander
+wieder den HErrn vn&#x0303; seinen Gesalbten vn&#x0303; sagen laß
+<pb facs="#f0040"/>
+vns zerreissen jhre Bande /
+daß ist anders nichts / alß das sie nicht gestendig sein wollen / daß CHristus
+durch seine Diener jhnen einreden solle. Aber der Psalm gibt einen harten
+bescheidt / Er wird eins mit jhnen reden in seinem Zorn vnd in seinem Grim wird
+er sie erschrecken. Zeigt also an Gott werde damit nicht zu frieden seyn /
+Sonder solche Leut die sich nicht einreden lassen / straffen wolle. Vn&#x0303; vermahnet sie / derwegen lasset euch nun weisen jhr Könige vnd
+lasset euch züchtigen jhr Richter auff Erden.</p>
+<p>Vnd das die Oberkeit im Regiment nach Gottes Wort sich richten sol / ist auch
+daraus ab zuneme&#x0303; / daß GOtt dem König durch den Priester Deut.
+17. das Gesetz Buch vberantworten lest / daß er darin lesen sein lebenlang. Wie
+denn David öffentlich zeuget Ps. 119. Dein Wort ist meiner Füssen Leuchte. Item
+deine zeugnis sind meine Rahtß Leut. Damit zeigt er an / daß er in seinem
+gantzen leben / vnnd also auch im Regiment sich nach Gottes Wort gerichtet. Vnd
+Assaph im 82. Psalm / wie auch andere Propheten / sonderlich Elias / Jeremias
+haben nach GOttes Wort den Königen vnd jhren Fürsten hart eingeredet. Derewegen
+die Prediger noch heutiges Tages / die Oberkeit jhres Ampts erinnern / aber
+weiter nicht gehen sollen / alß GOttes Wort gehet.</p>
+<p>Lieber was räht vns GOTtes Wort nun in diesem fall? Mit eim Wort / wir sollen
+fromb werden / wir sollen man aber sonderlich das Regiement anstellen das es gut
+werde?</p>
+<pb facs="#f0041"/>
+<p>Der allerweiseste König Salomo sagt davo&#x0303; / Prov. 25 Man thue
+Gottloß wesen vo&#x0303; Könige / so wird sein Stuel durch gerechtigkeit
+bestetiget. Vnd am 16. für dem Könige vnrecht thun ist ein Grewel. Den&#x0303; durch gerechtigkeit wird sein Stuel bestetiget. Da werden vns
+zwo Stützen oder zween Pfeiler gewiesen / darauff des Königes Stuel stehe&#x0303; muß / wen&#x0303; jhr nicht fallen sol. Der eine heist
+pietas, Gottseeligkeit / der ander justitia, die Gerechtigkeit / wie auch der
+Christliche Verß lautet.</p>
+<l>
+<hi rendition="#i">Iustitia &amp; pietas validae sunt principis arces.</hi>
+</l>
+<p>Die beyde Tugenden sollen nicht allein in dem König / sondern auch vmb jhn seyn /
+daß ist / er sol nicht allein selber Gottfürchtig seyn / sonder auch Gottseelige
+Leute vmb sich habe&#x0303; / vnd wie der 101. Ps. lehret / den&#x0303; Gottlosen / daß ist / der nach GOtt vn&#x0303; seinem
+Wort nicht fraget / nicht leiden. Der ander Pfeiler des Königliche&#x0303; Stuels ist justitia, die erfordert einen ernst / dz man straffe die
+Vbelthäter / alß Todtschläger / Ehebrecher vnd Freaeler / die andern Leuten an
+Leib / Ehr oder Gütern schaden thun / da sol man kein Gewalt / Ehr / Reichthu&#x0303;b / Freundschafft oder der gleichen ansehe&#x0303;.
+Danebe&#x0303; aber sol die Oberkeit gütig seyn / die vnschüldigen
+vnd from&#x0303;en verthedigen vn&#x0303; für allen dingen der
+armen Witwen / Wäisen vnd elenden Personen / die Gott der Obrigkeit insonderheit
+befielcht / sich annemen / dieselbige schützen / vertedigen vnd ja nicht zur
+vngebühr beschweren lassen / sondern einen jeden bey seinen rechten verthedigen
+/ vnd das jenige damit die Obrigkeit GOtt vnd Mensche&#x0303;
+verpflichtet ist / sol sie auch trewlich stet vn&#x0303; fest halten.
+Davon stehet Prov. 20. frombkeit vnd warheit bewahren den
+<pb facs="#f0042"/>
+König. Vnd durch fro&#x0303;bkeit wird des Königes Stuel bestetiget. Da setzt Salomo zween Trabante&#x0303; oder Wächter / die den König bewachen vnd bewahren / der ein
+heist fro&#x0303;bkeit oder gütigkeit / in seiner Sprach ists eine schön
+Wort / daß man nicht wol Teutschen kan / davon die Storcke&#x0303; den&#x0303; name&#x0303; habe&#x0303;. Der ander Trabant vn&#x0303; Wächter ist Warheit / das ist / daß man trew vnd glauben halte.
+Damit ist nun Machia Velluß nicht einig / sonder ehr vnd seines gleichen sagen /
+ma&#x0303; sol nur darnach aus seyn / daß ma&#x0303; seinen
+beutel vol Kriege / es geschehe mit recht oder vnrecht / ma&#x0303; sol
+auch dz man seine&#x0303; eigen nutzen schaffe weder traw nach glaube&#x0303; halte&#x0303; / etc. Vn&#x0303; dz hat nu&#x0303; bey gottlosen Weltkindern ein ziemliches ansehe&#x0303; /
+dadurch kön&#x0303;e man zu grosser auffna&#x0303; kom&#x0303;en. Den&#x0303; wo man allezeit wälle recht thun / so
+werde man nimmermehr Reich / etc. Aber eben dz heist die Pfeiler vmb hawen / dz
+des Königes Stuel fallen muß / dz heist die Wacht hinweg nemen / die den König
+bewachet. Wie Rehabeams junge Räht rate&#x0303; / er sol nicht fro&#x0303;b / sonder den Vnterthane&#x0303; hart mit seyn / stossen
+sie seine&#x0303; Stuel vmb / dz er nur 2. stäm&#x0303; behelt
+vn&#x0303; zehen Stäm&#x0303; verleurt. Aber seines Groß
+Vaters Davids Stuel bestehet / weil er recht vn&#x0303; gerechtigkeit
+verschaffet allem Volck / 2. Sam. 8. Vnd seine Vnterthane&#x0303; so lieb
+hat / dz er für sie sterben wil. 2. Sam. 24. der mag noch wol singen im 101.
+Psa. von gnad vnd recht wil ich singen / da er eben das wort Güte oder Fro&#x0303;bkeit in seiner Sprach brauchet. So schreibeit ma&#x0303;
+vo&#x0303; Hertzog Eberhart zu Wirtzberg / dz ers mit seinen
+Vnterthane&#x0303; also gemacht / dz er gesagt / er hette keine&#x0303; im Lande / er wolte jhm im wilden Walde in seinem Schoß
+schlaffen / Vnd jhm ein Scheermesser
+<pb facs="#f0043"/>
+in der Hand lassen. Es höret Ewre lieb auch sonst gleich wol / dz das Gut /
+so man mit vnrecht zusam&#x0303;en schlecht doch nicht gedeiet. Wie ein
+Vogel sich vber Eyger setzet / vn&#x0303; sie nicht aus brütet / also ist
+der vnrecht Gut samlet. Jer. 17. Ja es mus des Königes Stuel vber einen hauffen
+fallen / da man Gottloß ist / öffentlich Sünd vnd Laster vngestraffet lest /
+andern Gewalt vnd Vnrecht thut / nicht traw vnd glauben helt / vnd mit armen
+Leuten / Witwen / Wäisen vn&#x0303; dergleichen kein mitleiden hat /
+sondern mit jhne&#x0303; vnbarmhertziglich verfert. Davon stehet im 82.
+Ps. wie lang wolt jhr vnrecht Richten / vn&#x0303; die Person der
+Gottlosen für zihe&#x0303;? Schaffet recht den Armen vn&#x0303;
+Weisen / vnd helffet dem Ele&#x0303;den / vn&#x0303; Dürfftigen
+zum recht. Errettet der Geringen vnd Armen / vnd erlöset jhn auß der gottlosen
+Gewalt. Aber sie lassen jhnen nicht sagen / vnd achtens nicht / sie gehe&#x0303; immer hin im Finstern. Daru&#x0303;b müssen alle
+Grundfeste des Landes fallen. Sap. 6. vngerechtigkeit verwüstet alle La&#x0303;d / vn&#x0303; stöst vmb die Stüel der Gewaltigen. Syr.
+10. vmb Gewalt / Vnrecht vn&#x0303; Geitzes willen / ko&#x0303;pt
+ein Königreich von einem Volck auffs ander. Derowegen sollen wir vns für
+Gottlosem wesen vnd vngerechtigkeit hüten / vnd die beyde Wächter des
+Königlichen Stuels fro&#x0303;bkeit vn&#x0303; Warheit ja nicht
+abschaffen / sonst ka&#x0303; es nicht gut werde&#x0303; / wie vns
+den&#x0303; GOtt mit vnterschiedliche&#x0303; Zeiche&#x0303; gedrewet / die solle&#x0303; wir ja nicht in den wind
+schlage&#x0303; / wie die gottlose Egypter thaten / denen es endlich
+vbel bekom&#x0303;en ist. Sonst möchte&#x0303; wir endlich einmal
+an den Spruch Ezech. 33. gedencke&#x0303; da er sagt / wen&#x0303;
+aber kompt das kom&#x0303;en sol / sihe so werden sie erfahre&#x0303; / daß ein Prophet vnter jhnen gewest ist. Bekehren wir vns
+<pb facs="#f0044"/>
+aber / dazu wir alle vermahnet sein solle&#x0303; /
+wie ich auch hoffe vnd trawe / so sol es ob GOtt wil / kein noth haben. Wie Gott
+vnter andern auch sonderlich im 81. Ps. sich gar gnädig erbeut / wolte mein
+Volck mir gehorchen / vnnd Israel auff meinen wegen gehen / so wolte ich jhre
+Feinde bald dempffen / vnd meine Hand vber jhre wiederwertige wenden / vnd die
+den HErrn hassen / müssen an jhm feilen / jhre zeit aller wird ewiglich wehren /
+vnd jch werde sie mit dem besten Weitzen speisen vnd mit Honig aus dem Felsen
+settigen. Das gebe der allmechtige GOtt vmb seines geliebten Sohns vnsers HErrn
+JEsu Christi willen.</p>
+<p>Vnsern seeligen Herrn Hertzog Julium Augustum / belangent / zehlen wir S. F. G.
+billig vnter die Gottseelige Könige / die auff Christum gehoffet vnd im leben
+vnd sterben nach jhm ein verlangen gehabt / vnd vnter die Jünger Christi / die
+Christus / weil sie nicht verschlagen / wie die Welt Kinder / vnmündig nennet /
+aber gleich Seelig preiset / vnd von denen Apocal. 14. stehet / Seelig sind die
+Todten / die in dem HErrn sterben. Das verleihe vns auch GOtt Vater / Sohn vnd
+Heiliger Geist / Amen.</p>
+<p>ENDE.</p>
+</div>
+</body>
+</text>
+</TEI>

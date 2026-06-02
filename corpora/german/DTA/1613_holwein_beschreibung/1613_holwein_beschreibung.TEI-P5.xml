@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Beschreibung der Verordnung/ Wie es mit Weilandt des Hochwürdigen Durchleuchtigen Hochgebornen Fürsten vnd Herrn/ Herrn Heinrich Julij/ Postulirten Bischoffen des Stiffts Halberstadt/ vnd Hertzogen zu Braunschweigk vnd Lüneburgk/ etc. ... Christmilder Gedechtniß/ Fürstlichen Begrebniß/ den 4. Octobris/ Anno 1613. zu Wulffenbüttel gehalten worden</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124876153">
+<surname>Holwein</surname>
+<forename>Elias</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/258-5-theol-14s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/258-5-theol-14s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">24</measure>
+<measure type="tokens">3829</measure>
+<measure type="types">1253</measure>
+<measure type="characters">26864</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:30:34Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/holwein_beschreibung_1613</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/holwein_beschreibung_1613</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/holwein_beschreibung_1613</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/holwein_beschreibung_1613</idno>
+<idno type="DTADirName">holwein_beschreibung_1613</idno>
+<idno type="DTAID">30211</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30211-8</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Holwein, Elias: Beschreibung der Verordnung/ Wie es mit Weilandt des [...] Heinrich Julij [...] Christmilder Gedechtniß/ Fürstlichen Begrebniß [...] gehalten worden. Wolfenbüttel, 1613.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Beschreibung der Verordnung/ Wie es mit Weilandt des Hochwürdigen Durchleuchtigen Hochgebornen Fürsten vnd Herrn/ Herrn Heinrich Julij/ Postulirten Bischoffen des Stiffts Halberstadt/ vnd Hertzogen zu Braunschweigk vnd Lüneburgk/ etc. ... Christmilder Gedechtniß/ Fürstlichen Begrebniß/ den 4. Octobris/ Anno 1613. zu Wulffenbüttel gehalten worden</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124876153">
+<surname>Holwein</surname>
+<forename>Elias</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher/>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1613</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main"><docTitle><titlePart type="main"> Beschreibung der Verordnung /<lb/>
+<hi rendition="#b">Wie es mit Weilandt des Hoch-</hi>würdigen Durchleuchtigen Hochgebornen<lb/>
+Fürsten vnd
+Herrn/ Herrn Heinrich Julij/ Postulirten<lb/>
+Bischoffen des Stiffts Halberstadt/vnd Hertzogen zu Braunschweigt<lb/>
+vnd Lüneburgk/etc. Hochlöblicher vnd Christmil
+der Gedechtniß/<lb/>
+Fürstlichen Begrebniß / den 4. Octobris / Anno 1613.zu<lb/>
+Wulffenbüttel gehalten worden/vntertheuigst<lb/>
+verfertigt.<lb/>
+</titlePart></docTitle>
+<figure/><lb/>
+<titlePart type="sub"> So bin ich auch den gantzen Proceß des Weylandt<lb/>
+hochgemelten J. F. G. Begrebniß
+Persönlich in Holtz<lb/>
+außfürlichen zuschneiden vorhabens / welcher dann bey<lb/>
+mir
+Elias Holwein/ Formschneider zu Wulffenbüttel/<lb/>
+auff der F. Damvestung
+wonhafftig in der Löwenkulen/<lb/>
+auff die negst bevohrstehende Ostern oder
+Pfing-<lb/>
+sten zubekommen sein sol.</titlePart></titlePage>
+<pb facs="#f0002"/>
+<head>Bildniß Henrici Julij p. m.<lb/>
+</head>
+<figure/>
+</front>
+<pb facs="#f0003"/>
+<body><div>
+<p>ERstlich sol man auff bemelten Tag / Morgens vmb sechs Vhr / das leuten zugleich
+in der Schloß vnnd Heinrichstadt Kirchen / auch mit den newen auffgehangten
+Glocken anfangen / vnd nicht ehe / biß der Hoffprediger Basilius Satler / der
+heiligen Schrifft Doctor / in der Heinrichstedter Kirchen / dahin die Leiche
+gebracht werden sol / zum predigen auffgestiegen / auffgehöret / vnd nach
+gehaltener Leichpredigt vnd Gebet widerumb biß die Fürsten vnd Herrn / vnd
+andere Personen ins Schloß kommen / gleutet werden / etc.</p>
+</div>
+<div>
+<head>Ordnung an was Orten die Fürstliche vnd Gräffliche Personen / auch Chur vnd
+Fürstliche Gesandten / Praelaten / vom Adel / Rähte / Professorn vnd andere
+gemeine Diener zusammen kommen vnd auffwarten sollen. etc.<lb/>
+</head>
+<p>WAnn das leuten / wie gesetzt / angefangen / sollen die Fürstin / Gräfin /
+Frewlein vnd Adeliche Frawen in der Fürstl. Witwen Gemach / vnd auff dem Gange
+vor dem Frawenzimmer auffm Schloß zusammen kommen / Die Chur vnd Fürstl.
+Gesandten aber sollen jre Versamlung auff der Bergkstuben auffm Schlosse haben /
+etc.</p>
+<p>Die Grafen vnd Herrn / so die Fürstl. Leiche tragen helffen / sollen im
+Schloßplatz für der Kirchen auffwarten / er.</p>
+<p>Die zwölff vom Adel / so neben den Grafen vnd Herrn die Fürl. Leiche wechsels
+weiß tragen helffen / auch die andere zwölff vom Adel / so schwartze brennende
+Fackeln neben der Leiche her tragen / sollen in der Schloß Capel zusammen kommen
+/ er.</p>
+<pb facs="#f0004"/>
+<p>Die Fürstl. Cantzeley Rähte / so der Fürst. Leich folgen vorm Marstall / etc.</p>
+<p>Der Frömbden Fürsten vnd Herrn / Graffen / auch die Braunschweigischen /
+Wulffenbüttelschen vnd Calenbergischen / Theils Hoffjunckern vnd Landsassen / so
+nicht zu dienst bestellet / sampt den andern Br. vnd frömder H. Rähten vnd
+Dienern / so vor der Leich hergehen / sollen vff der Rennebahn hinter dem Schloß
+jhre Versamlung haben / etc.</p>
+<p>Die Rähte vnd <hi rendition="#i">Secretarien</hi>, auch andere Weiber sollen im
+Schloß auff dem vntersten Gange auffwarten / etc.</p>
+<p>Die <hi rendition="#i">Praelaten, Professorn, Superattendenten, Pastorn</hi>,
+Schulmeister / <hi rendition="#i">Stipendiaten</hi> vnd Schüler im Schloßplatz
+zusammen kommen / etc.</p>
+<p>Der Stedte Abgeordnete / auch <hi rendition="#i">Secretarien</hi>, Cammer /
+Renterey vnd Cantzeley Verwandte / Auch andere Hoffgesinde / sollen auch im
+Schloßplatz auffwarten.</p>
+<p>Der Hoffschenck / Heinrich von Veltheimb / Hilmer von Münchhausen / vnd Herr
+Christoff Dieterich Bock / sollen sich neben den Landsassen / vom Adel vnd
+Hoffjunckern / auch Pauckenschleger vnd Trommeter / so zu dienst bestellet / vnd
+Stäbe / Fackeln / Regalien / auch Fahnen vnd Pferde für der Fürstl. Leich
+hertragen vnd begleiten / vorm Marstal versamlen / vnd in der Ordnung vorm
+Mühlenthor durch auff die Rennebahn ziehen / vnd daselbst so lange / biß die
+Fürstl. Leiche vor die Schloß Capel herauß gesetzet / verharren / etc.</p>
+<p>Es sollen auch die Hauptleute der Vestung Ordnung machen / das die Bürger von der
+Damvestung / vnd aus
+<pb facs="#f0005"/>
+Heinrich Stad
+vnd Gotteslager / deßgleichen die von den stedten anhero geschickte / vn&#x0303; andere Soldaten / so wesentlich allhie sein / vom Schloß an biß
+vor der Heinrichstedter Kirchen vber / wenn die Fürstl. Leiche hinunter getragen
+wird / in jren schwartzen Rüstungen vnd verkehrten wehren so lange stehen
+bleiben / biß die Fürl. Graffen / Herrn / vom Adel / vnd andere Personen wider
+im Schloß sein / Im wider herauff ziehen aber die Wehren wieder auffgerichtet /
+wie denn auch die Wälle der Vestung gleichfals nach aller nothurfft mit Soldaten
+besetzet / vnd so lange die eussersten Thor verschlossen halten / etc.</p>
+<p>Die Schlüssel der Vestung sollen dem <hi rendition="#i">Commissario</hi> Sachsen
+/ Heinrichen von Grane dem Eltern / vnd Otto Plato von Helffersen / vertrawet
+vnd befohlen werden / etc.</p>
+<p>Der Trabanten Hauptman sol beneben den Trabanten früe vmb 6. Vhr im Schloß vor
+der Kirchthür / auff beyde&#x0303; seiten in der ordnung / auch mit
+niedergesenckten spitzen der Hellebarten auffwarten / vnnd folgendes in der <hi rendition="#i">proceßion</hi> zu beyden seiten der Fürl. Leich hergehen /
+Die Pragischen Trabanten aber sollen vorm Schloß die Brücke warten / vnd damit
+die Fürstl. Gräffliche / Adeliche / vnd andere Personen / so die Fürstl. Leiche
+zu jhrer Ruhstadt begleiten / vmb so viel bequemer gehen mügen / sol denselben
+Morgen eine Sandbahne vom Schloßthor an biß vor die Heinrichstedter Kirchen
+geschüttet werden.</p>
+<p>Folgendes vngefehr vmb 8. Vhr / sollen die anwesende Fürl. vnd der anwesenden
+Chur: vnd Fürsten Gesandten / sampt dem Fürstl. Frawenzimmer sich in die
+Schloßkir -
+<pb facs="#f0006"/>
+chen verfügen /
+Das Adeliche Frawenzimmer aber dafür auffwarten / vnnd sollen in der Kirchen
+nachfolgende Gesenge gesungen werden /</p>
+<l>Lumen ad revelationem gentium. Nunc dimittis servum tuum Domine. Media vita in
+morte sumus pueri sancte DEUS, &amp;c.</l>
+<p>Vnd von D. Basilio Satlern Hoffpredigern <hi rendition="#i">Versiculus</hi>, Herr
+nu lestu deinen Diener in friede fahren / darauff die <hi rendition="#i">Collecta</hi> vnd der Nahme des HERRN sey gebenedeyet.</p>
+<p>Vnd darnach mit dem Gesang / mit friedt vnd freudt ich fahr dahin / in Gottes
+willen / beschlossen werden / etc.</p>
+<p>Wann solches geschehen / sollen nachfolgende zwölff vom Adel die Fürstl. Leiche
+in der Kirchen auffheben / in den Schloßplatz tragen / vnd daselbst vor der
+Kirchen niedersetzen / etc.</p>
+</div>
+<div>
+<head>Nemblich.<lb/>
+</head>
+<l>1. Statius von Münch hausen.</l>
+<l>2. Hüntzel von Veltheimb der Elter.</l>
+<l>3. Otto Rabe von Landesbergk.</l>
+<l>4. Crafft von Bodenhausen.</l>
+<l>5. Julius von Marenholtz.</l>
+<l>6. Bartelt von Rautenbergk.</l>
+<pb facs="#f0007"/>
+<l>7. Sivert von Heimb.</l>
+<l>8. Barteldt Bock von Northoltzen.</l>
+<l>9. Hans vom Dahl der Elter.</l>
+<l>10. Wulff Brandt von Stockheimb.</l>
+<l>11. Jobst von Weyhen.</l>
+<l>12. Christoff Johan von der Asseburg / etc.</l>
+<p>So bald die Fürstl. Leiche in den Platz gesetzet / sol dieselbe durch die vnten
+benandten Grafen vnd Herrn auffgehoben / vnnd sollen nachfolgende Gesenge im
+hingehen gesungen werden.</p>
+<l><hi rendition="#i">Si bona suscepimus</hi>.</l>
+<p>Mitten wir im Leben sein.</p>
+<l><hi rendition="#i">Si credimus quod Iesus mortuus, &amp;c.</hi></l>
+<p>Erbarm dich meiner OHERRE Gott.</p>
+<l><hi rendition="#i">Ecce quomodo moritur Justus</hi>.</l>
+<p>Aus tieffer noth schrey ich zu dir.</p>
+<p>Vater vnser im Himmelreich.</p>
+<l><hi rendition="#i">Credo quod redemtor meus vivit, pueri</hi>. <hi rendition="#i">Lauda anima mea dominum</hi>.</l>
+<p>Nun folgen die Ordnung der <hi rendition="#i">Proceßion</hi>, darüber Georg von
+Pritzke / vnd Jasper von Alten <hi rendition="#i">Generales directores</hi> sein
+/ vnd schwartze Stäbe in den Henden tragen sollen / etc.</p>
+<p>Erstlich / zwölff vom Adel sollen drey vnd drey zusammen in einem Gliedt gehen /
+vnnd jeder einen schwartzen Stab mit dem Zeichen in den Henden tragen / etc.</p>
+<pb facs="#f0008"/>
+</div>
+<div>
+<head>Nemblich.<lb/>
+</head>
+<l>1. Heinrich von Rehden.</l>
+<l>2. Tiele Borchhart von Walm:</l>
+<l>3. Christoff Gebhart von Bordtfelt.</l>
+<l>4. Heinrich von Veltheimb zu Adderstet.</l>
+<l>5. Hans von Rehden Ernstens Sohn.</l>
+<l>6. Eberdt von Alten zur Wilckenburgk.</l>
+<l>7. Wolradt Prein.</l>
+<l>8. Heinrich Julius von Kniestedt.</l>
+<l>9. Christoff vom Dahl.</l>
+<l>10. Heinrich Philip Cappaun.</l>
+<l>11. Heinrich von Veltheimb zu Destedt.</l>
+<l>12. Jobst Andreas von Wallhausen.</l>
+<p>Vorgenandten zwölffen vom Adel / folget der Capelmeister <hi rendition="#i">Michaël Praetorius</hi> mit zweyen seiner Gesellen / mit dreyen langen
+schwartzen Creutzen / mit Thuch vberzogen / welches das mittelste das lengste
+sein muß / in schwartzen Trawerkleidern / Nach demselben folgen als dann 132.
+Par Schüler aus der Heinrich Stadt / je drey vnd drey in der Ordnung / nebenst
+vier Schuldiener.</p>
+<p>Darnach folgen vier vnd zwantzig <hi rendition="#i">Stipendiaten</hi> von
+Helmstedt / vnd andern Clöstern / welche alle / so wol die Schulgesellen vnd
+Schüler mit Binden vnd Trawerkleidern angethan sein müssen.</p>
+<p>Denselben folgen zwölff Pastors mit weissen Chor-Röcken angethan.</p>
+<pb facs="#f0009"/>
+<p>Diesen folgen alle <hi rendition="#i">generales</hi> vnd <hi rendition="#i">speciales Superintendentes</hi> in weissen Chorröcken / vnd wird dem
+Capelnmeister vnd seinen Gesellen / auch den andern <hi rendition="#i">Pastoribus</hi> vnd <hi rendition="#i">Superintendenten</hi> jedem einen
+Thal. Den Schulgesellen vnd <hi rendition="#i">Stipendiaten</hi> jedem einen
+Thal. Den Schülern ein Orts Thal. eines newen sonderlich dar zu gefertigten
+gepregs / vnd dann eim jeden armen Menschen ein halben Orts Thal. gegeben vnd
+außgetheilet werden.</p>
+<p>Darauff folget die gantze <hi rendition="#i">Vniversitet</hi> Helmstedt / in
+schwartzen trawr Kleidern.</p>
+<p>Darnach die abgesanten / die Räthe.</p>
+<p>Denselben müssen die <hi rendition="#i">Praelaten</hi> vnd Ebte / vnd Pröbste in
+jhrem schwartzen Habiet vnd trawr Binden folgen.</p>
+<p>Hierauff folgen die <hi rendition="#i">Canonici</hi> des Stiffts <hi rendition="#i">S. Cyriaci</hi> in Braunschweigk / etc.</p>
+<p>Darnach des Stiffts <hi rendition="#i">S. Blasij</hi> in Braunschweig / etc.</p>
+<p>Von anfang biß hie her soll der Ambt: vnd Kornschreiber / Jacob Brandes vnd
+Melchior Bengehalß mit schwartzen Stäben bey hergehen / vnd die Ordnung <hi rendition="#i">dirigirn, &amp;c.</hi></p>
+<p>Auff diese sollen folgen mit schwartzen langen Steben / mit dem Zeichen /
+etc.</p>
+</div>
+<div>
+<head>Alß.<lb/>
+</head>
+<l>1. Heinrich von Veltheimb Hoffschenck.</l>
+<l>2. Hilmer von Münchhausen.</l>
+<l>3. Herr Christoff Dieterich Bock / etc.</l>
+<p>Nach diesen drey vom Adel in eim Gliedt / mit langen
+<pb facs="#f0010"/>
+schwartzen brennenden Fackeln / daran
+das Braunschweigische Wapen / mit schwartzen Cartheken Binden / etc.</p>
+</div>
+<div>
+<head>Alß:<lb/>
+</head>
+<l>1. Wilhelm von Oppershausen.</l>
+<l>2. Güntzel von Bartemsleben der Elter.</l>
+<l>3. Otto von Rehden.</l>
+<p>Darauff alle Hoffjunckern / vnd Landtsassen / vnd die zu keinem Dienst
+bestellet.</p>
+<p>Nach denen aller Frembden Fürsten vnd Herrn / auch Chur: vnd Fürstinnen
+Diener.</p>
+<p>Item / Halberstedtische vnd Braunschweigische vom Adel.</p>
+<p>Nach diesen sollen folgen alle Cantzley / ausser halb der Cammer / vnd darzu
+gehörigen Räthen / <hi rendition="#i">Secretarien</hi> vnd frembde Diener / drey
+vnd drey in einem Gliedt.</p>
+<p>Darauff sollen folgen drey vom Adel / mit schwartzen langen Stäben / gleich den
+vorigen.</p>
+</div>
+<div>
+<head>Alß:<lb/>
+</head>
+<l>1. Burchardt von Saldern.</l>
+<l>2. Statz von Woberßnauw.</l>
+<l>3. Melchior von Steinbergk.</l>
+<p>Nach denen Zwölff vom Adel / mit brennenden Fackeln / daran das Braunschweigische
+Wapen / vnd Charteken Binden.</p>
+</div>
+<div>
+<head>Alß.<lb/>
+</head>
+<l>1. Err Gebhardt von Honrodt.</l>
+<pb facs="#f0011"/>
+<l>2. Philip von Veltheimb.</l>
+<l>3. Grathausen.</l>
+<l>4. Busso von Veltheimb.</l>
+<l>5. Joachim Friderich von Heimb.</l>
+<l>6. Hans von Veltheimb.</l>
+<l>7. Behrendt von Heiden.</l>
+<l>8. Statz von Münchhausen Sohn.</l>
+<l>9. Friderich von Bortfeldt zum Nienhagen.</l>
+<l>10. Hilmer von Münchhausen Sohn.</l>
+<l>11.12. Burchardt vnd Ernst von Steinberg.</l>
+<p>Darauff der Pauckenschleger mit der Paucke / welche mit schwartzem Tuch vberzogen
+/ vnd das Fürstl. Brauns. Wapen daran hangenden Fahnen.</p>
+<p>Darnach der ander Pauckenschleger / so die Paucken stöcke vberzogen / vmbgekehret
+kreutzweis tragen sol.</p>
+<p>Nach diesen Zwölff Trommeter / deren ein jeder eine Trommete / die Mundstücke
+aber derselben nach der Erden gekehrt / auch mit anhangenden schwartzen Fahnen /
+darauff gleichfalß das Fürstl. Braun. Wapen gemahlet.</p>
+<p>Denen folgen drey vom Adel / mit schwartzen langen Stäben.</p>
+</div>
+<div>
+<head>Alß.<lb/>
+</head>
+<l>1. Clamer von Mandelßloh / etc.</l>
+<l>2. Joachim von der Streidthorst.</l>
+<l>3. Tedel Friderich von Walm.</l>
+<pb facs="#f0012"/>
+<p>Darnach Neun vom Adel / mit schwartzen brennenden Fackeln / mit dem Braus. Wapen
+/ vnd Chartheken Binden.</p>
+</div>
+<div>
+<head>Alß.<lb/>
+</head>
+<l>1. Jochimb von Rehden /</l>
+<l>2. Lövin Hake.</l>
+<l>3. Sivert Schencke.</l>
+<l>4. Heinrich Albrecht von Gadenstedt.</l>
+<l>5. Ernst von Wrißbergk.</l>
+<l>6. Hironymus Hake.</l>
+<l>7. Jobst Knigge zu Leuessen.</l>
+<l>8. 9. Wilhelm vnd Wulffhardt Stöppeler.</l>
+<p>Denen sollen folgende Fahnen vnd Pferde nachgeführet werden.</p>
+<p>1. Die Rothe Blutfahne sol führen Lippoldt von Mandelßloh / deme soll das erste
+Pferdt / schwartz bekleidet biß auff die Erden auff beyden seiten / vnnd vor der
+Brust mit einem Bluthfarben Schilde / durch Herman Versen / Bischofflich
+Ossenbrüg: vnd Verdischen Cammer-Junckern / vnd Bruno Siegfriedt von
+Oppershausen Cemmerling / nachgeführet werden.</p>
+<p>2. Die ander Fahne mit dem Gräfflichen Regensteinischen Wapen / führet Busse von
+der Asseburgk.</p>
+<p>Deme soll das andere Pferdt / mit schwartzem Tuch biß auff die Erden bekleidet
+auff beiden seiten / vnd vor der Brust mit dem Gräfflichen Regensteinischen
+Wapen /
+<pb facs="#f0013"/>
+durch Heinrich Julium Edlen
+Herrn von Warbergk vnd Friederich Ganß nachgeführet werden.</p>
+<p>3. Die dritte Fahne mit dem Gräfflichen Honsteinischen Wapen / soll führen Hans
+Christoff von Windelt.</p>
+<p>Deme soll das dritte Pferdt auch schwartz bekleidet auff beiden seiten / vnd vor
+der Brust mit dem Gräfflichen Honsteinischen Wapen nach geführet werden / durch
+Hans von Westerhagen / vnd Philip von Bulschleben.</p>
+<p>4. Die vierdte Fahne / mit dem Gräfflichen Braunheusischen Wapen / führet Johan
+von Benigsen.</p>
+<p>Deme soll das vierdte Pferdt mit dem Gräfflichen Braunheusischen Wapen vor der
+Brust / vnd auff beiden seiten mit dem Gräfflichen Braunheusischen Wapen /
+nachgeführet werden / durch Hans Schencken vnd Joachim von Gustedt Sohn.</p>
+<p>5. Die fünffte Fahne / mit dem Gräfflichen Häyschen Wapen / soll führen Christoff
+von Dorstadt.</p>
+<p>Deme soll das fünffte Pferdt auch schwartz bekleidet auff beiden seiten / vnd vor
+der Brust mit dem Gräfflichen Häyschen Wapen nachgeführet werden / durch Ernst
+Schencken vnd Friederich von Wintzingeroda.</p>
+<p>6. Die sechste Fahne / mit der Herrschafft Homburgk Wapen / führet
+Sarchshausen.</p>
+<p>Deme sol das sechste Pferdt / auch schwartz bekleidet auff beiden seiten / vnd
+vor der Brust mit dem Hombürgischen Wapen nachgeführet werden / durch Christoff
+vnd Tiele Borchardt von Adelebssen.</p>
+<p>7. Die siebende Fahne / mit dem Gräfflichen Eber -
+<pb facs="#f0014"/>
+steinischen Wapen / führet
+Heinrich von Gittelde.</p>
+<p>Dem sol das siebende Pferdt auch schwartz bekleidet auff beiden seiten / vnd vor
+der Brust mit dem Gräfflichen / Ebersteinischen Wapen / nach geführet werden /
+durch Jürgen von Alten vnd Aßmus von Mandelsloh / etc.</p>
+<p>8. Die Achte Fahne / mit dem Fürstlichen Lünebürgischen Wapen / führet Hartwig
+von Garstenbüttel.</p>
+<p>Deme sol das achte Pferd / auch schwartz bekleidet auff beiden seiten / vnd vor
+der Brust mit dem Fürstlichen Lünebürgischen Wapen nachgeführet werden / durch
+Heinrich vnd Frantz Jacob von Kramme.</p>
+<p>9. Die neunde Fahne mit dem entzelen Fürstlichen Braunschweigischen Wapen führet
+Augustus von Heim.</p>
+<p>Deme soll das neundte Pferdt / auch schwartz bekleidet auff beiden seiten / vnd
+vor der Brust mit dem entzelen Fürstlichen Braunschweigischen Wapen nachgeführet
+werden / durch Julium von Heim / vnd Clawes Freytag.</p>
+<p>10. Die zehende Fahne mit dem volkommen Fürstlichen Braunschweigischen Wapen /
+sol führen Hans Christoff von Hartenbergk / etc.</p>
+<p>Deme sol das zehende Pferdt / auch schwartz bekleidet / auff beiden seiten / vnd
+vor der Brust mit dem gantzen Fürstlichen Braunschweigischen Wapen /
+nachgeführet werden / durch Heinrich Christoff von Weferlingk / vnd Burchardt
+von Veltheimb.</p>
+<p>Die weisse kenne Fahn / führet Baltzer von Honstedt /
+<pb facs="#f0015"/>
+deme sol folgen Alexander von Heim /
+in vollem Curiß / vnd geschmücktem Pferde / mit dem <hi rendition="#i">Busican</hi> in den Henden. Darauff sol der Stalmeister Georg Engelhart
+Löeneisen / vnd Lippelt von Neindorff Erbschencke / das Leib vnd Trawr Pferd mit
+schwartzem Tuch / vnd einem weissen Creutz darüber gehenckt / nachführen /
+etc.</p>
+<p>Folgents sol durch den Hoffmahrschalck / Heinrich Schencken das Fürstl. Schwert
+vberzogen / mit nieder gekerter spitzen / nachgetragen werden.</p>
+<p>Darnach das gantze Fürstliche Braunschweigische Wapen geschnitzet / mit Farben
+vnnd Golde staffieret / sol tragen / Curt von Veltheimb zu Aderstedt / vnd
+Heinrich Mauß.</p>
+<p>Darauff der Trawrhuet mit einer schwartzen Binden vberzogen / sol tragen Gebhardt
+von Marenholtz / deme sol folgen der Cantzler D. Werner König / so auff einem
+schwartzen sam. Küssen auff beiden seiten mit Tafft behenckt / die Fürstliche
+Braunschweigische Kirchen vnnd Hoffgerichts Ordnung / vnterschiedlich in
+schwartz sam. gebunden / sampt dem Fürstlichen grossen Insiegel dar zwischen
+geleget / treget / vnd auff der Kirchen Ordnung <hi rendition="#i">PIETAS</hi>,
+vnd auff der Hoffgerichts Ordnung <hi rendition="#i">JVSTICIA</hi>, mit Silbern
+Buchstaben gedrücket.</p>
+<p>Deme folgen drey vom Adel / Kriegs erfahrne / mit schwartzen langen Stäben.</p>
+</div>
+<div>
+<head>Alß.<lb/>
+</head>
+<l>1. Jobst von Adelepsen.</l>
+<pb facs="#f0016"/>
+<l>2. Ernst Wrampe.</l>
+<l>3. Arend von Woberßnauw.</l>
+<p>Darauff die Fürstl. Leiche / so von den geschriebenen Graffen / vnd Zwölff vom
+Adel / wechsels weise soll getragen werden.</p>
+</div>
+<div>
+<head>Alß:<lb/>
+</head>
+<l>1. Statius von Münchhausen.</l>
+<l>2. Guntzel von Veltheimb der Elter.</l>
+<l>3. Otto Rabe von Landesbergk / etc.</l>
+<l>4. Crafft von Bodenhausen.</l>
+<l>5. Julius von Marenholtz.</l>
+<l>6. Bartholt von Rauttenbergk. etc.</l>
+<l>7. Sivert von Heimb.</l>
+<l>8. Barthol Bock zu Northoltzen.</l>
+<l>9. Hans vom Dahl der Elter.</l>
+<l>10. Wulbrandt von Stöckheimb.</l>
+<l>11. Jobst von Weyen.</l>
+<l>12. Christoff Johan von der Asseburgk etc.</l>
+<p>Diese Zwölffe vom Adell sollen die Fürstliche Leiche in der Kirchen auffheben /
+vnd im Platz vor der Kirchen niedersetzen / vnd alß dann hinter Jobst von
+Adelebssen / Ernst Wrampen vnd Arendt von Woberßnauw in die Ordnung treten.</p>
+<p>Vnd sollen alß dann nachbeschriebene Zwölff Graffen /</p>
+<pb facs="#f0017"/>
+</div>
+<div>
+<head>Alß:<lb/>
+</head>
+<l>1. Graff Heinrich zu Stolbergk.</l>
+<l>2. Graff Joachim Friderich zu Mansfeldt.</l>
+<l>3. Graff Hans Georg von Manßfelt</l>
+<l>4. Graff Herman zur Lippe.</l>
+<l>5. Graff Georg Herman zu Holstein vnd Schaumburgk / etc.</l>
+<l>6. Wulff Gebhart / Edler Herr zu Warbergk.</l>
+<l>7. Graff Philip von Manßfeldt.</l>
+<l>Nachfolgende vom Adel.</l>
+<l>9. Jobst von Bergkefeldt.</l>
+<l>10. Hans Christoff von Barleben.</l>
+<l>11. Peter Lavesier.</l>
+<l>12. Herr Aschen von Campen.</l>
+<p>Was an Grafen mangelt / sol mit diesen gesetzten Junckern erfüllet werden.</p>
+<p>Die Fürst. Leiche widerumb im platz aufsheben / vnd biß vor das Thamthor tragen /
+vnd daselbst wider nieder setzen / An welchem orthe die vorgemelten zwölffe vom
+Adel die Fürstl. Leiche wider auffnemen / vnd dieselbe biß vor die
+Heinrichstädter Kirchen tragen / vnd daselbst nieder setzen sollen / inmittest
+aber die Herrn Graffen an jrer statt in die ordnung treten sollen.</p>
+<pb facs="#f0018"/>
+<p>Wolgemelte Graffen die Fürstliche Leiche widerumb auffnehmen / vnd dieselbe in
+die Heinrichstedter Kirchen biß auff den Chor tragen / vnd daselbst niedersetzen
+sollen.</p>
+<p>Vnd weil die Fürstliche Leiche etwas schwer / sollen die träger / derobehueff /
+Zwölff schwartze Stäbe mit Trawrbinden / vnd dem Fürstl. Braunschweigischen
+Wapen / oben mit eisen Gabeln vnd vnten mit Preckeln / darauff sie den Sarck mit
+der Fürstlichen Leiche ruhen lassen können / in der Hand tragen.</p>
+<p>Vber dem Fürstlichen Sarck ein schwartz englisch Tuch / vnd einem weissen seiden
+Adlaß Creutz / vnd darauff ein fein weiß Leinlachen / dar vber eine schwartze
+sammitten Decke / mit einem weissen silbern Stücke Creutz vnd vber dem Creutz
+das gantze Fürstliche Braunschweigische vnd alle darzu gehörigen Wapen.</p>
+<p>Das entzele Fürstliche Brauns. Wapen mit zweyen gelben Löwen zun Heubten.</p>
+<p>Das ander Fürstl. Lünebürgische Wapen mit dem blawen Löwen vnd rothen Hertzen zun
+Füssen.</p>
+<p>Das Ebersteinische / Hombürgische vnd Häysche Wapen der Fürstlichen Leich an der
+Rechten seiten.</p>
+<p>Das Braucheusische / Honsteinische vnd Regensteinische Wapen der Fürstlichen
+Leiche zur Lincken seiten.</p>
+<p>Auch oben mitten auff der Fürstl. Leiche / sol ein vergüldet Rappier gelegt vnd
+gehefftet werden.</p>
+<p>Neben der Fürstl. Leiche sollen Zwölff vom Adel mit schwartzen brennenden Fackeln
+/ daran das Fürstliche Braunschweigische Wapen gemalet vnd Trawr binden hengen
+sollen / hergehen /</p>
+<pb facs="#f0019"/>
+</div>
+<div>
+<head>Alß.<lb/>
+</head>
+<l>1. Bartoldt von Wülffen.</l>
+<l>2. Hans Ernst von Vßler.</l>
+<l>3. Adrian von Wyßbergk.</l>
+<l>4. Jasper Jobst von Schweicholdt.</l>
+<l>5. Curt von Schweicholdt.</l>
+<l>6. Ernst von Honrodt.</l>
+<l>7. Jordan von Barnstedt.</l>
+<l>8. Heinrich von Bülaw.</l>
+<l>9. Curt von Marenholtz.</l>
+<l>10. Schwerin.</l>
+<l>11. Herman Christoff von der Streithorst.</l>
+<l>12. Wilhelm von Alten.</l>
+<p>Vnd vmb die selben der Trabanten Haubtman / sambt 16. Trabanten / mit schwartzen
+vberzogenen vmbgekehrten Hellebarten.</p>
+<p>Vnd sollen von des Hoffschencken Gliedt an biß hieher <hi rendition="#i">Directores</hi> seyn /</p>
+<p>Err Wilhelm von Arnstedt.</p>
+<p>Hans von Knesebegk / vehrdischer Mahrschalck / vnd neben der <hi rendition="#i">Proceßion</hi> hergehen.</p>
+<p>Zu negst der Fürstlichen Leiche sollen gehen mit schwartzen langen Stäben.</p>
+</div>
+<div>
+<head>Alß.<lb/>
+</head>
+<l>1. Michael Victor von Wustrow.</l>
+<pb facs="#f0020"/>
+<l>2. Caspar von der Wenge.</l>
+<l>3. Hans Ernst von Heim.</l>
+<l>4. Rabe Arendt von der Horst.</l>
+<l>5. Virgilius Höfer.</l>
+<l>6. Fritz Ludewich von Heim.</l>
+<p>1. Darauff der Durchleuchtiger Hochgeborner Fürst vnd Herr / Herr Friederich
+Vlrich / Hertzog zu Brauns. vnd Lüneburgk / etc. Meinen gnedigsten Fürsten vnd
+Herrn / führen Königliche May: zu Dennenmarck Abgesandter / vnd Hertzog Philip
+Sigißmundt / Bischoff zu Osnabrügk vnd Verden / Hertzogen zu Braunschweigk vnd
+Lüneburgk / etc.</p>
+<p>2. Hertzogen Christian zu Br. vnd L. führen Ch. Brandenburgische / vnnd Hertzogen
+Augustus zu Sachsen Abgesandte.</p>
+<p>3. Hertzogen Rudolph zu Br. vnd L. etc. füren der erste Ch. Sächsischer / vnd
+erste Lüneburgischer Gesandte.</p>
+<p>4. Hertzogen Julius Augustus zu Br. vnd Lün. etc. Abt zum Michelstein / füren der
+C. Sächsischen Witwen Gesandte / vnd der Pommerschen Witwen Gesandte.</p>
+<p>Darauff aber andere frembde Fürsten vnd Herrn Abgesandte / etc.</p>
+<l>Abt zu Wehrden. Alle Cammerrähte. Land Rentmeister. Ober Bergverwalter. Cammer
+Secretarien. Drey Leib Medici in einem Gliedt.</l>
+<pb facs="#f0021"/>
+<p>Von der Fürst. Leichebiß hieher sollen <hi rendition="#i">Directores</hi> sein /
+vnd mit schwartzen Steben beyher gehen / als Dieterich vnd Curt von Leuthe.</p>
+<p>Denen sollen folgen mit schwartzen langen Steben / drey Hauptleute / Joachim von
+Veltheim / Heuptman auff Westerburgk / Christoff Mellin / General aller F.
+heuser / Christoff Wedtbergk / Heuptman vff Nohrlberg.</p>
+<p>1. Denn die Durchleuchtigste Hochgeborne Fürstin vnd Frawe / Fraw Elisabeth /
+geborne aus Königlichem Stam&#x0303; Dennemarck / vnd Hertzogin zu
+Braunsch weig vud Lüneb. etc. Meine gnedigste Fürstinvnd Fraw / wird durch
+Hertzogen Joachim Carlzu Br. vnd Lüneburgk / vnd Graff Ernst Casimier von Nassaw
+geführet.</p>
+<p>2. Frewlein Hedewig <hi rendition="#i">junior</hi> führet Hertzog Ernst Ludewig
+zu Sachsen / vnnd der Ertzbischöffliche Magdeburgische Gesandte.</p>
+<p>3. Frewlein Dorothea zu Br. vnd Lüneburgk / führet der ander Sächsischer vnnd
+Lüneburgischer Gesandte.</p>
+<p>4. Frewlein Dorothea Augusta / Hertzogin zu Br. vnd Lüneburg / Ebtistin zu
+Gandersheimb / führen Für. Anhaldische vnd Fürstl. Holsteinische Gesandte.</p>
+<p>5. Die Fürstin von Lüneburgk vnd Harburgk J. F. G. werden durch Ebtische
+Corveijsche Gesandten / vnd Graff Anthon. Günter zu Oldenburgk geführet.</p>
+<p>6. Frewlein Heidewig <hi rendition="#i">Senior</hi> durch Ebtissin zu
+Quedlinburgk / vnd daselbst Pröbstin Abgesandte.</p>
+<p>Von dem Fürstl. Frawenzimmer an biß hieher / sollen
+<pb facs="#f0022"/>
+Otto Schwetzin / vnd Friederich von
+Bortfeldt zu Sohr <hi rendition="#i">Directores</hi> sein / vnd mit schwartzen
+Stäben bey hergehen.</p>
+<p>Darauff der Fürstl. Witwen zu Braunschweigk vnd Lüneburgk / Meiner gnedigsten
+Fürstin vnd Frawen Hoffmeisterin vnd Frawen Zimmer.</p>
+<p>Ebtissin zu Gandersheimb Hoffmeisterin vnd Frawen-Zimmer.</p>
+<p>Der Hertzogin zu Lüneburgk / zur Haarburg Witwen Hoffmeisterin vnd Frawen
+Zimmer.</p>
+<p>Denen folgen des Stiffts Adeliche Weiber / sampt den Adelichen Jungfrawen / so
+die Adelichen Weiber mit sich bringen / vnd verschrieben sein.</p>
+<p>Nach denen der Fürstlichen Herrn Räthe / <hi rendition="#i">Secretarien</hi> vnd
+anderer vornehmer Diener vnd Bürger Weiber / vnd den&#x0303; dar negst
+der Churf. Fürstin vnd Gräffin / auch anderer Adelichen Weiber Cammer: Altfrawen
+vnd Mägde / drey vnd drey in einem Glied.</p>
+<p>Ferner sollen folgen des verstorbenen hochseligen Fürsten / Hertzogen
+Friederichen Vlrichen zu Brauns. vnd Lüneburgk / des Herrn Bischoffen zu
+Osenbrügk vnd Vehrden / auch der Jungen vnd anderer frömbden Herrn <hi rendition="#i">Secretarien</hi>, vber die oberwehnte <hi rendition="#i">Praeceptorn, Procuratorn</hi> Cantzeley verwanten / Bauwverwalter vnnd
+andere vorneme alte Hoffdiener / auch drey vnd drey in eim Glied.</p>
+<p>Darauff denn <hi rendition="#i">Illustrißimi</hi> Heinrich Julij hochseliger
+Gedechtnis / Hertzogen Friederich Vlrichen zu Brauns. vnd Lüneburgk / vnd
+Hertzogen Philippi Sigismundi / Bischoff zu Oßnabrügk vnd Vehrden / Reisige
+Marstals
+<pb facs="#f0023"/>
+Knechte / vnd andere J. J.
+J. Fürstl. F. F. G. G. G. Diener sampt frömbden Reisigen vnd dem algemeinen
+Hoffgesinde / auch drey vnd drey in einem Gliedt.</p>
+</div>
+<div>
+<head>Folget wie es in der Kirchen gehalten werden sol.<lb/>
+</head>
+<p>Wann die Fürstliche Leiche in die Heinrichstedter Kirchen gebracht / sol sie in
+den Chor gesetzet werden / die Regalia von den Trägern fein ordentlich auff die
+Leich / die Paucken aber vnnd Trommeten zun Füssen der Leich gelegt / vnd die
+die Fahnentragen mit den Fahnen vmb die Leiche / alß die Fahne mit dem gantzen
+volkommenen Fürstl. Brauns. Wapen / Die mit dem entzelen Fürstlichen Braunschw
+eigischen Wapen / vnd die weisse kenne Fahn zum Heubt.</p>
+<p>Die Fahne mit dem Braucheusischen / Honsteinischen vnd Regensteinischen Wapen zur
+Lincken.</p>
+<p>Die mit dem Ebersteinischen / Häyschen vnd Hombürgischen Wapen zur Rechten / Die
+mit dem Fürstlichen Lünebür gischen Wapen vnnd rothe Blutfahn zun Füssen der
+Fürstlichen Leich / Die mit den Fackeln aber alle ring vmb die Fahnen vnd Leich
+herumb stehen.</p>
+<p>Die Pferde so nach geführet werden sollen in der <hi rendition="#i">Proceßion</hi> mit durch die Kirchen geleitet / vnd alda bis nach
+geschehener Leichpredigt / durch darzu sonderlich bestalte Reisige Knechte auff
+dem Kirchhoff gehalten / vnd folgendes der Ordnung nach hinter den Herrn wider
+herauff in den Fürstlichen Mahrstal wiederumb geführet werden / etc.</p>
+<pb facs="#f0024"/>
+<p>Vn&#x0303; dieweil das trawer Pfert den Armen / dem gebrauch nach /
+gehöret / als wird vom hochgedachten Fürsten vnd Herrn / Herrn Friederich
+Vlrichen zu Br. vnd Lüneburgk / etc. den Kirchvättern dafür 100. Thaler bezalet
+/ vnd damit das Pfertredemiret worden.</p>
+<p>In der Kirchen für der Predigt sol man singen / Nun bitten wir den heiligen
+Geist.</p>
+<p>Folgendes der Hoffprediger D. Bastlius Satler die Leichpredigt darauff
+verrichten.</p>
+<p>Nach gehaltener Predigt sol man wider singen / Nu last vns den Leib begraben /
+vnd</p>
+</div>
+<div>
+<head>Jammoesta quiesce querela.<lb/>
+</head>
+<p>In mittelst sollen die jenigen / so die Regalia getragen / dieselbe von dem Sarck
+nehmen / vnd ordentlich vor der Leich her (welche wider von den Grafen wird
+auffgehaben / sampt den Fackeln vnd Fanen in die Färstliche Capeln) tragen / die
+Regalia auff den Altar daselbst gelegt / die Fahnen auffgehenckt / die Fackeln
+beseit gesetzt / vnd die Fürstl. Leiche / welche von den Tregern / den vom Adel
+/ oberwehnt verrichtet / in jre ruhe Kämmerlein gebracht / vnd also Christlich
+zur Erden bestattet werden.</p>
+<p>Wann solches geschehen / sollen die Fürstl. Personen / vnd andere so der Fürstl.
+Leich gefolget / in gebürlicher Ordenung wider herauff gehen / die Fürstl.
+Widtwe vnd Fürstl. Frawen Personen auff Wagen führen / dafür die Pferde auch so
+wol als die Fürst. Reisige Pferde mit schwartzem Tuch bekleidet / auffs Schloß
+widerumb ziehen.</p>
+<p>Vnd sollen vnter dem heraus ziehen aus der Kirchen die Gesenge / Gott der Vater
+wohn vns bey / etc. Vnd erhalt vns HErr bey deinem wort gesungen / vnd also
+damit dieser Actus beschlossen werden / etc.</p>
+<p>Vnd weil vor diesem eine Schartecke außgangen / welches diesem zu wieder / Als
+habe ich dieses menniglichen der Warheit zu stewer außgehen lassen sollen.</p>
+<p>ENDE.</p>
+</div>
+</body>
+</text>
+</TEI>

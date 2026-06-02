@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">HuldigungsPredigt. Gethan zu Braunschweig im Thumb</title>
+<title type="sub">Als Dem ... Herrn Friederich Ulrich/ Hertzogen zu Braunschweig und Lüneburg/ etc. ... S.F.G. Unterthanen in der Stadt Braunschweig gehuldiget unnd geschworen : Erstlich Gedruckt zu Wolffenbüttel/ durch Julium Adolphum von Söhne/ hinterlassene Wittibe/ Im Jahr/ 1616</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124599281">
+<surname>Tuckermann</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/gn-sbd-46-2s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/gn-sbd-46-2s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">39</measure>
+<measure type="tokens">11279</measure>
+<measure type="types">2931</measure>
+<measure type="characters">71227</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:29Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/tuckermann_huldigungspredigt_1616</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/tuckermann_huldigungspredigt_1616</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/tuckermann_huldigungspredigt_1616</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/tuckermann_huldigungspredigt_1616</idno>
+<idno type="DTADirName">tuckermann_huldigungspredigt_1616</idno>
+<idno type="DTAID">30293</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30293-3</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Tuckermann, Peter: HuldigungsPredigt. Gethan zu Braunschweig im Thumb. [s. l.], ca. 1616.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">HuldigungsPredigt. Gethan zu Braunschweig im Thumb</title>
+<title level="m" type="sub">Als Dem ... Herrn Friederich Ulrich/ Hertzogen zu Braunschweig und Lüneburg/ etc. ... S.F.G. Unterthanen in der Stadt Braunschweig gehuldiget unnd geschworen : Erstlich Gedruckt zu Wolffenbüttel/ durch Julium Adolphum von Söhne/ hinterlassene Wittibe/ Im Jahr/ 1616</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124599281">
+<surname>Tuckermann</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Söhne</name></publisher>
+<date type="publication">1616</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main"><figure/><lb/>
+<docTitle><titlePart type="main"><hi rendition="#b">Huldigungs Pre-</hi><lb/>
+digt.<lb/>
+Gethan zu Braunschweig im Thumb.<lb/>
+</titlePart></docTitle>
+<titlePart type="sub">Als<lb/>
+Dem Durchleuchtigen vnnd Hochgebohrnen <lb/>
+Fürsten vnd Herrn / Herrn<lb/>
+Friederich Vlrich / Hertzogen zu<lb/>
+Braunschweig vnd Lüneburg/etc. <lb/>
+Vnserm
+gnedigen Fürsten vnd Herrn/S. F. G. Vn-<lb/>
+terthanen in der Stadt Braunschweig
+gehuldiget<lb/>
+vnnd geschworen.<lb/>
+</titlePart>
+<byline> Durch<lb/>
+<docAuthor> M. Petrum Tuckerman</docAuthor> Hoffprediger.<lb/>
+</byline>
+<figure/><lb/>
+<docImprint>Erstlich Gedruckt zu <pubPlace>Wolffenbüttel</pubPlace>/durch <publisher>Ju-<lb/>
+lium Adolphum von Söhne</publisher>/
+hinterlassene Wit-<lb/>
+tibe / Im Jahr / <docDate>1616.</docDate></docImprint></titlePage></front>
+<pb facs="#f0002"/>
+<body>
+<pb facs="#f0003"/>
+<div>
+<head>Lucae am 11. Cap.<lb/>
+</head>
+<p>JESVS sprach zu jhnen: Ein jeglich Reich / so es mit jhm selbst vneins wird / das
+wird wüste / vnd ein Hauß fellet vber das ander.</p>
+<p>GOTT der HErr hat dem Menschlichen Geschlechte zu gut / fürnemlich drey Stände
+verordnet / den einen zur Bekehrung / den andern zur Regierung / den dritten zur
+Vermehrung. Der Standt der zur Bekehrung ist eingesetzt / ist der Geistliche /
+der sonsten der Lehrstandt genandt wird / denn die Lehr des Gesetzes vnnd
+Erangelij sampt dem gebrauch der H. vnd hochwürdigen Sacramenten drinnen
+getrieben wird / dadurch GOtt kräfftig ist vnnd sein wil zur Menschen bekehrung
+vnd seligkeit / wie wird Cor. 1. lesen: Dieweil die Welt durch jhre Weißheit
+GOtt ia seiner Weißheit nicht erkandte / gefiel es Gote wol durch thörige
+Predigt selig zu machen / die / so daran gleuben.</p>
+<p>Der Standt zur Regierung eingesetzt / ist der Weltliche / der sonsten der
+Wehrstandt genant wird / denn GOTT hat der Obrigkeit darinnen das Schwerdt in
+die Hand gegeben / das sie dem Bösen stewren vnnd wehren / vnnd das Gute
+schützen vnnd fortsetzen sol / Wie Rom. 13. bezeuget wird:
+<pb facs="#f0004"/>
+die Gewaltigen sind nicht den guten Wercken / sondern den Bösen zufürchten /
+wiltu dich aber nit fürchten für der Oberkeit / so thu guts / so wirstu Lob von
+derselben haben / denn sie ist Gottes Dienerin dir zu gut: Thustu aber Böses /
+so fürchte dich / denn sie tregt das Schwert nicht vmbsonst / sie ist Gottes
+Dienerin / eine Racherin zur straffe vber den der böses thut.</p>
+<p>Der Standt der zur Vermehrung eingesetzt / ist der Haußstand / der sonsten der
+Nehrstand genant wird / denn Gote wil daß das Menschliche Geschlecht dadurch
+vermehret vnnd ernehret sol werden: Von der vermehrung stehet Gen. 1. Gott
+schuff sie ein Mänlein vnd Fräwlein / vnd segnet sie vnd sprach zu jhnen / Seyd
+Fruchtbar vnd mehret euch / vnnd füllet die Erden / vnd macht sie euch
+vnterthan. Von der Ernehrung aber sagt David im 37. Psalm. Bleibe im Lande vnnd
+nehre dich redlich: Vnd im 128. Psalm. Du wirst dich nehren deiner Hände Arbeit.
+Für diese drey Stände haben wir billich Gott von Hertzen zu dancken / denn
+wehren sie nicht / so könten wir nicht bekehret / in frieden regieret / noch
+vermehret vnd ernehret werden.</p>
+<p>Nu schreibt der H. Apostel Paulus Rom. 12. Man sol sich in die Zeit schicken:
+Sollen wir dem Befehl nachsetzen / wie billig / so kan ein jeder bey sich selbst
+leicht abnemen / das sich gebühren wil für dißmahl eigentlich vom Regier oder
+Wehrstande zu reden / denn vnser allerseits von GOtt verordnete hohe Obrigkeit /
+vnd seiner Fürstlichen Gn. Vnterthanen jetzt zur Huidigung bey einander seyn /
+darbey die Obrigkeit jhres obliegenden Ampts / vnd die Vnterthanen jrer
+schüldigen pflicht nothwendig müssen erinnert werden.</p>
+<p>Im Alten Testament finden wir / wenn hohe Obrigkeit von Gott gleich zur Huldigung
+eingeführet / das alsdenn die Priester mit Posaunen geblasen / vnd das Volck
+oder Vntertha-
+<pb facs="#f0005"/>
+nen jhr Glück gewünschet vnd zugernffen haben:
+Vivat Rex, vivat Rex: Glück dem Könige / oder Gott laß den König lang leben /
+wie j. Reg. 1. vom Salomone auffgezeichnet. Der Vnterthanen Glück wünschung ist
+vnd sol sein noch auff den heutigen tag bey Huldigungen ein andechtiges Gebet
+für jhre liebe Obrigkeit / vnd daran werdens fromme Hertzen jtzo bey sich nicht
+mangeln lassen. Der Priester Posaunen blasen aber ist die Predigt / Esa. 58.
+Cap. Erhebe deine Stimme wie eine Posaunt: Vnnd Joel 2. Blaset die Posaunen zu
+Zion: Das wollen wir vns durch Gottes hülff lassen befohlen seyn.</p>
+<p>Zur Predigt aber wollen wir für vns nehmen das jetzt verlesene Sprüchlein /
+welches sich sehr wol darzu schicket / denn es bleset drinnen vnser HErr vnd
+Heyland JEsus Christus / den vns der Vater zuhören befohlen hat / Matth. 17. die
+Posaunen von Reichen dieser Welt / das ist / von Oberkeit vnnd Vnterthanen
+Stande / vnd lehret die / so in den Reichen sein vnd darzu gehören / wie sie es
+machen vnnd anschlagen sollen vnd können / das sie Reiche nicht verwüstet / noch
+ein Hauß vber das ander falle / wie leider eine zeit hero in vnserm Reich
+geschehen: Sondern das sie zunehmen vnd in wolstandt mögen sein vnd bleiben /
+als nemlich sie sollen sich für Vneinigkeit hüten / vnd dagegen der Einigkeit
+befleissigen. Weil nu hierauff vnsers Reichs vnnd Land vnnd Leute wolfart stehet
+/ als wird ein jeder mit lust vnd liebe zuhören / vnnd sich darnach richten. 1.
+Aber wollen wir reden von Reichen dieser Welt / vnd was von denselben zu halten.
+2. Von vneinigkeit dadurch sie verwüstet / vnd von Einigkeit dadurch sie gebawet
+werden vnd Floriren. 3. Von Mitlen / dadurch Vneinigkeit zuverhüten / vnd
+bestendige Einigkeit zu erhalten. Gott gebe vns hierzu den H. Geist vmb JEsus
+Christus willen. Amen.</p>
+<pb facs="#f0006"/>
+</div>
+<div>
+<head>Vom Ersten.<lb/>
+</head>
+<p>ANlangendt das Erste / so wird hie der Reiche gedacht: Ein jeglich Reich: Nun
+sein aber fürnemlich drey Reiche: Das erste ist ein Göttlich vnnd Himlisch Reich
+/ Davon Christus in diesem 11. Cap. Luc. sagt: So ich aber durch Gott es Finger
+die Teuffel außtreibe / so kömmet je das Reich Gottes zu euch. Vmb diß Reich
+ruff en wir GOtt an in der ander Bitte des Vater vnsers / zukomme dein Reich:
+Vnd ist dasselbige nit Essen vnd Trincken / sondern Gerechtigkeit / Friede vnd
+frewde im H. Geist / wer darrinnen Christo dienet / der ist Gott gefellig vnd
+den Menschen werth / Rom. 14. Nach dem Reich sollen wir fürnemlich vnd am ersten
+auß seyn / Wie Christus vermahnet Matth. 6. Trachtet am ersten nach dem Reich
+Gottes vnd nach seiner Gerechtigkeit / so wird euch solches alles zufallen.</p>
+<p>Das ander ist ein Teufflisch vnd Hellisch Reich / dessen Christus auch allhie
+fluchs nach verlesenem Sprüchlein gedencket: Ist denn der Sathanas auch mit jhm
+selbst vneins / wie wil sein Reich bestehen? In dem Reich sein wir alle von
+Natur gewesen / zun Ephes. 2. Wir haben weyland alle vnter dem Fürsten der Welt
+vnsern Wandel gehabt: Aber vmb Jesus Christus willen der darzu erschienen / das
+er die Wereke des Teuffels zustöre / Joh. 3. Hat vns Gott der Vater gnediglich
+davon erlöset / vnd in das Reich seines Sohns versetzt / welches wir billig mit
+ewigen danck erkennen / wie Paulus er fodert Col. 1. Dancket dem Vater / der vns
+tüchtig gemacht hat zu dem Erbtheil der heiligen im Licht / welcher vns errettet
+hat von der Obrigkeit der Finsterniß / vnd hat vns versetzet in das Reich seines
+lieben Sohns / an welchen wir haben die Erlösung durch sein Blut / nemlich die
+vergebung der Sünde.</p>
+<pb facs="#f0007"/>
+<p>Das dritte Reich ist ein Weltlich vnd Menschlich Reich / darauff eigentlich
+Christus JEsus in vnserm velesenen Text sihet / da er sagt: Ein jeglich Reich /
+so es mit jhm selbst vneins wird: Vnnd werden dadurch verstanden Käpserthümb /
+Königreiche / Fürstenthümb / Graff vn&#x0303; Herrschafften / vnd in fummader
+gantze Regentenstandt / vnd was dem anhengig.</p>
+<p>Was nu von diesen Reichen vnd derselben Vorstehern oder Oberkeit stande zu halten
+/ müssen wir wissen / vnd mit sonderlichen fleiß in acht nehmen: Denn der
+Teuffel der allen Ordnungen Gottes spinne feind ist / hat sich zu allen Zeiten
+bemühet / die Reiche vnd Obrigkeit stand / nicht allein in verachtung zusetzen /
+sondern gantz auff zuheben vnd abzuschaffen: Vnd zu dem behuff hat er alsbald
+durch böse Leute außgeruffen für Teufflisch / bald für Menschlich / bald für
+Fleischlich vnd Sündlich: Dadurch ers bey etlichen Potentaten dahin gebracht /
+das sie die Reiche vnd Obrigkeitstand verlassen / vn&#x0303; sich in Klöster
+begeben: Bey vielen Vnterthanen hat er das damit augerichtet / das sie die
+Vorsieher der Reiche oder Obrigkeit abgesetzet / ja gar getödter haben. Gottes
+Wort aber berichtet vns viel eines andern davon. Beym Propheten Daniel am 4.
+Cap. werden die Reiche zwar Menschen Reiche / vnd 1. Pet. 2. Der Oberkeitstandt
+Menschliche Ordnung genant / aber nicht der Meinung / das sie von Menschen
+solten her kommen vnd gestiffiet seyn / Sondern das sie auff Erden durch
+Menschen geführet werden: Sonsten aber haben sie jhren Anfang vnd Vrsprung von
+niemandt anders denn von Gott / der hat sie als der HErr aller Herrn vnd König
+aller Königen eingesetzt vnd verordnet / vnd werden die Reiche daher billich
+Gottes Reiche / vnd der Oberkeitstandt GOttesstand vnnd Ordnung geheissen / wie
+dasselbige in Schrifften der Propheten vnd Apostel gewaltigen grund hat.</p>
+<pb facs="#f0008"/>
+<p>In Sprichworten Salomonis am 8. Cap. stehet davon geschrieben: Durch mich
+regieren die Könige / vnd die Rathherren setzen das Recht / durch mich herrschen
+die Fürsten vnnd alle Regenten auff Erden. Hierinnen geschicht meldung der
+Könige / Fürsten / Ratherren vnd Regenten auff Erden / dadurch die Reiche
+besetzt vnd bestellet werden / vnd bekennet die ewige Weißheit Gottes. GOtt
+selber / das sie durch jhn die Reiche regieren / das Recht setzen vnd herrschen
+Im 4. Cap. Danielis fehret ein Wächter / das ist / ein heiliger Engel vom Himmel
+herab / vnd rufft vnter andern vberlaut: Der höchste hat gewalt vber der
+Menschen Königreiche / vnd gibt sie wem er wil / bezenget also der Engel GOttes
+/ das der allerhöchste HErr vnd Gott vber alle Reiche macht habe / vnd bestellet
+sie seines gefallens. Im Buch der Weißheit am 6. Cap. lesen wir auch merckliche
+Wort davon: Euch sagt der weise Man&#x0303; / oder vielmehr der H. Geist durch
+jhn / zu den Regenten vnnd Vorstehern der Reiche / Euch ist die Oberkeit gegeben
+vom HErrn / vnd die gewalt vom Höhesten: Ihr seyd seines Reichs Amptleute: Hier
+werden deutlich die Weltlichen Reiche Gottes Reiche genant / vnd die Regenten
+seine Amptleute. Syrach gedencks auch im 17. Cap. GOtt hat in allen Landen
+Herrschafften geordnet: Vnd sonderlich schreibt der H Apostel Paulus herrlich
+davon / Rom. 13. Es ist keine Oberkeit ohon Gott / wo aber Oberkeit ist / die
+ist von Gott verordnet / sie ist Gottes Dienerin. Es stehet hie Non nisi, das
+heist so viele als einig vn&#x0303; allein / wie dergleichen örter außweisen:
+Joh. 19. non nisi Caesarem, Wir haben keinen König / denn den Keyser / das ist /
+den Keyser allein: Vnd Gal. 2. non nisi per fidem, wir werden nicht Gerecht denn
+durch den Glauben / das ist durch den Glauben allein: Die meinung hats an diesem
+erwehneten orte auch / Non nisi à Deo, es ist keine Ober-
+<pb facs="#f0009"/>
+keit
+ohn von Gott / das ist / alle Oberkeit in Weltlichen Reichen ist allein von Gott
+/ vnd von niemandt anders.</p>
+<p>Dasselbige wird auch bestetiget durch viele Exempel: Mose / Josua / die Richter /
+Saul / David / Salomo / Nebucad Nezar / vn&#x0303; andere mehr / sein Oberkeit
+in weltlichen Reichen gewesen / sein aber nit von Menschen / sondern von Gott
+selbst darzu erwehlet vnd beruffen / wie bey einem jeden an seinem ort erinnert
+wird / vn&#x0303; Pau lus redet davon Act. 13. vnd gesiehet / das die so vor
+zeiten regieret haben alle von Gott darzu gesetzt seyn: GOtt / sagt er / gab
+jhnen Richter bey 300. vnd 50. Jahr lang / biß auff den Propheteu Samuel. Vnd
+von da an baten sie vmb einen König / vnd Gott gab jhnen Saul den Sohn Kiß /
+einen Mann auß dem Geschlecht Benjamin 40. Jahr lang / vnd da er denselben weg
+thet / richtet er auff vber sie David zum Könige von welchem er zeugete / Ich
+habe funden David den Sohn Jesse einen Mann nach meinem Hertzen / der sol thun
+alle meinen willen. Wie es nun Gott vor zeiten gemacht vnd gehalten / das er die
+Reiche mit Regenten bestellet / vnd besetzt hat / so thut ers noch auff den
+heutigen Tag / vnd wirds thun biß ans ende der Welt / da alle Reiche zumalmes
+vnd verstöret. Dan. 2. vnd alle Oberkeit wird auff gehoben werden / 1. Cor.
+15.</p>
+<p>Diß sollen jhnen beydes Vnterthanen vnd Oberkeiten zu nutz machen. Weil die
+Reiche vnd der Regentenstandt nicht von Menschen / sondern von Gott / so sollen
+Vnterthanen / wenn sie eine Reich oder Oberkeitstandes Person haben oder sehen /
+sich nit in Sinn ziehen / das sie eben so gut wie die vnd nicht mehr an
+derselben als an jhnen zu thun sey / vnnd sie drüber gering achten. Weit
+gefeilet: Ein Reichs oder Oberkeitstandes Person hat Gott für andern
+herfürgezogen / sie gleich / wie man sagt / auffs hohe Pferdt gehaben / zu
+seinem Gesalbeten vnnd so einen andern Mann durch den heiligen Geist drauß
+gemacht / 1. Sam. 10. Ja anoern zum jrrdischen vnd sichtbaren Gott gesetzet /
+Exod. 4. vnd
+<pb facs="#f0010"/>
+22. vnd Psal. 82. Derwegen sie vmb Gottes
+willen davon hoch vnd viel halten sollen.</p>
+<p>Ober keiten aber / weil sie Gottes Reichs Amptleute vnd Diener seyn / sollen sich
+jhres standes nicht vberheben vnd einbilden / sie mugen thun was sie wollen /
+sondern mit demuth vnnd danck Gottes güte erkennen / vnd sich mit Joseph
+erinnern / das sie vnter Gott jhrem rechten Lehnherrn seyn / Gen. 50. Das
+erfodert auch der Wechter der H. Engel Daniel. 4. Sie sollen erkennen / das der
+höhest macht habe vber der Menschen Königreiche vnnd gebe sie wem er wil: Vnd
+daneben sollen sie sich vber jhrem Standt ken gewissen machen / denn es ist
+Gottes Ordnung / was aber derselbe ordnet / daß ist alles löblich vnd herrlich /
+im 111. Ps. vnd sonderlich wenn Creutz vnd Widerwertigkeit fürfelt / wie sie
+denn die allergeplagste Leute auff Erden seyn / welches Gott selbsten vom
+Regenten Mose in seinem 4. Buch am 12. cap. bekennet / vnd jener seinen
+Schmeichler gezeiget / in dem er jhm vber Tafel vnter der lust vnd frewde an
+einem Faden ein zweyschneidig Schwerdt hat vbers häupt henge&#x0303; lassen vnd
+gesagt / dz ein solch bloß schwert trewer Oberkeit alle stunde vnd augenblick an
+der Gurgel stünde: Da sollen sie sich deß trösten vnd erfrewen / das jhr HERR
+vnd Gott / der sie vber seine Reiche gesetzt / wolle jhr schutz vnd schirm sey /
+wie Gott an allen Gottseligen Regenten je vnnd allewege bewiesen: Mosi / David /
+Josaphat / vnd andern mehr ist offt das blosse zweyschneidige Schwert an die
+Gurgel gesetzt / aber GOtt hats nit allein zurück gehalten / sondern jhre Feinde
+selbst dadurch zuletzt gefellet. Auff solche seine hülffe vertröstet er Josuam
+1. cap. Er wolle mit jm seyn / vnd jhn nicht verlassen / drümb solle er frew dig
+vnverzagt vnd getrost seyn: Vnd Haggei 2. spricht er zu Serubabel / zu der zeit
+wolle er jhn wie ein Pitschafft Ring halten den&#x0303; er habe jhn erwehlet.
+Vnd der 21. Psal. Davids ist dahin gerichtet / woran die Regenten in nöthen sich
+halten sollen. Derwegen sollen sie in solchem Göttlichen Ampt bleiben / es gehe
+auch drin-
+<pb facs="#f0011"/>
+nen zu / wie es wolle / vnd darauff trotzen / wie
+Syrach bessel! / 10. cap Mein Kind in wider wertigkeit sey getrost / vnd erotze
+auff dein Ampt / denn wer an seinem Ampt verzagt / wer wil dem helff en Wer wil
+den bey Ehren erhalten / der sein Ampt selbst vnehret ? Kürtzlich vom
+Ersten.</p>
+</div>
+<div>
+<head>Vom Andern.<lb/>
+</head>
+<p>FVrs ander / so haben wir nu hinweg das wörtlein Reich vnd dabey vernommen /
+woher die Reiche vnd Regenten oder Oberkeitstand komme: Oarauff wollen wir
+vnsern Seligmacher weiter hören: Der spricht also: Ein jeglich Reich / so es mit
+jhm selbst vneins wird / das wird wüste / vnnd ein Hauß fellet vber das ander.
+Anfenglich wird hierinnen Vneinigkeit gedacht. Die quillet vrsprünglich auß dem
+hertzen herfür / wie Matt. am 15. Cap. zulesen: Auß dem Hertzen kommen arge
+gedancken / Mord: Vnd heist der anfang der Vneinigkeit im Hertzen Haß / Neid /
+Abgunst vnd Mißtrawen / da einer dem andern einen heimlichen Grull zuwirfft /
+jhm sein Glück vnd Wolfahrt entweder nicht gönnet / oder sich einbildet / es
+werde so gut nicht mehr / wie vor hin / mit jm gemeinet. Auß deß Hertzens Neid /
+Haß / Abgunst vnd Mißtrawen entspreust verstellung der Geberden / das man
+einander schel oder gar nicht ansicht / Wie wir vom Laban lesen / Gen. 31. Das
+weil er auff Jacob haß / neid / Abgunst vnd Meßtxawen im Hertzen geworffen /
+sein Angesicht nicht mehr gegen im gewesen / wie gestern vnd ehegestern. Auff
+die verstellung der Geberden folge&#x0303; auß dem Munde hader / zanck vnd
+scheltwort / dz man an einander gereht / sich vnterein ander vbel außmacht /
+einer dem andern seine mengel vnd vn&#x0303;gebrechen auffrückt / vn&#x0303;
+einander noch wol dazu felschlich beleug / vnd böß gericht macht: wie Simei dem
+David / 2. Sam. 16. dem er lang einen heimlichen Neidt im Hertzen hatte
+nachgetragen / thut / in dem er jhn für einen Bluthund
+<pb facs="#f0012"/>
+vnd
+losen Mann außrufft. Entlich wird drauß Mord vnd Todtschlag / Krieg vnd
+Blutvergtessen / das einer dem andern nach Leib Leben vnd stehet / vnd man sich
+vnteremander erwürget vnd auffreibet / wie Cain mit seinem Bruder Abel
+gespielet: Das alles begreifft in sich das Wörtlein Vneins oder Vaeinigkeit.</p>
+<p>Darnach wird hinzu gesetzt mit jhm selbst. In se oder advessus seipsum: Ein
+jeglich Reich so es mit jhm selbst vneins wird: Damit wird eigentlich gesehen
+auff intestina dissidia die inwendige vnd inheimische Veinigkeit / nicht da ein
+Reich wider einander außländisch Reich / sondern ein Reichin vnd vnter sich
+selbst Vneins wird: Als wenn Obrigkeit vnd Vnterthanen in eine&#x0303; Reich
+oder Fürstenthumb wider einander seyn / oder die Landstände in zween hauffen
+reiten / vnd einer den andern nicht für gut helt / oder die Räthe vnd Hoffdiener
+in einander wachfen / oder eine Stadt der andern / ein Dorff dem andern
+auffsetzig wird / oder ein Nachbar mit dem andern sich nicht vertragen kan / vnd
+dergleichen / das ist Vneinigkeit des Reichs mit jhm selbst. Solche einheimische
+vnd einländische vneinigkeit ist viel schedlicher als außwendige vn&#x0303;
+außlendische / wie wan das an den Wunden des Leibes sihet / das die inwendigen
+grösser gefahr als die außwendigen haben / vnnd diese viel besser als jene
+können geheiset werden.</p>
+<p>Zu letzt wird angezeiget / was solche Vneinigkeit für schaden thut. Eins / so
+wird ein jeglich Reich dadurch wüste / denn es gehet dazu / wie Cicero
+schreibet: Pecora relinquuntur, agricultura deseritur, &amp; mercatorum
+navigatio conquiescit, das ist / Wo das Reich mit jhm selbst vneins wird / so
+wird das Vieh verlassen / der Ackerbaw bleibt liegen / vnnd die Schiffart oder
+Handel vnd wandel gehet zu rück / vnd wird nicht getrieben: Bey welchem zustand
+das Reich nicht lang floriren kan / sondern muß eine emöde drauß werden. Darnach
+fellet auch dardurch ein Hauß vber das ander / denn wenn man in Reichen nichts
+von Viehzucht / Ackerhaw vnd Kauffmanschafft oder Handtierung hat / so kan man
+<pb facs="#f0013"/>
+die Häuser nicht in Dach vnd Fach halten / vnd müssen
+sie drüber einfallen vnd verderben. Worzu kömpt / das einer dem andern sein Hauß
+vberm Kopff in Brandt steckt oder sonsten herunter reist / auff was mittel vnd
+wege es jmmer geschehen kan. Das heist: Ein jeglich Reich / das mit jhm selbst
+vneins wird / das wird wüste vnd ein Hauß fellet vber das ander.</p>
+<p>Hiebey lernen wir nu / was den Reichen dieser Welt / das ist / Keyserthumb /
+Königreichen / Fürstenthümen / Graff: vnd Herrschafften / vnd allen Policeyen
+vnd Regimenten den schaden thue / das sie nicht in dem Wolstand sein vnd bleiben
+/ darmnen sie wol sein vnd bleiben könten. Mit einem Worte die verfluchte
+vneinigkeit thuts / die ist der Reiche / Städte / Häufer vnd was darzu gehöret /
+Zerstörerin vnd Verwüsterin. Das hören wir hie auß dem Munde deß Sohns GOttes /
+von dem alle Reiche herkommen / vnd dem billig zutrawe&#x0303; vnd gleuben.
+Damit stimmet auch vberein der H. Apostel Paulus Gal. 5. So jhr euch
+vntereinander beisset vnnd fresset so sehet zu das jhr nicht vntereinander
+verzehret werdet: Bekennet damit / das die Leute durch Vaeinigkeit als durch die
+Schwinsucht oder Krebs vrrzehret / vnd an Haab vnnd Gütern / an Leib vnd Leben
+gleich außgesogen werden. Welches auch allerdings die Heyden wol verstanden /
+Daher Salustrus geschrieben: Concordiâ res parvae crescunt, discordiâ maxim&#x0119;
+dilabuntur, Durch Einigkeit wachsen Geringe: Aber durch Vneinigkeit nemen abe
+vnd fallen die grossen Dinge: Oder wie wir sonsten pflegen zu reden: Friede
+Nehret: Vnfried verzehret: Vnd jener Potentat hats in seinem Siechbette seinen
+Söhnen wollen einbilden / in dem er jhnen anfenglich ein gantz Bund / vnd
+darnach einen eintzelen Stecken in die Handt gegeben / vnnd die Erinnerung dabey
+gethan / Wie sie einen einzelnen Stecken leichtlich aber das gantze Bundt nicht
+können zerbrechen / so würden sie / wenn sie der Sachen eins blieben / kein noth
+haben / würden sie aber vneins werden vnd sich von einander reissen / würde es
+<pb facs="#f0014"/>
+vmb sie gethan seyn. Das hat die Erfahrung je vnd allweg
+gegeben: Zu Sauls zeiten ward das Reich mit jhm selbst vneins / In dem Saul dem
+David zuwider ward / ich meine es ist verwüstung vnd zerrüttung des Reichs
+darauß entstanden. Die Stadt Nobe ist drüber verwüstet / vnd mit der scherffe
+des Schwerdts geschlagen / vnd Saul anderer vngelegenheit zuverschweigen / hat
+weder Tag noch Nacht ruhe gehabt / biß er zuletzt mit Leib vnnd Seel drauff
+gangen / vnd Kind vnnd Kindeskind hats entgelten müssen. Zu Davids zeiten ist
+abermahl das Reich mit jhm selbst Vneins worden / in dem Absolon wider seinen
+Vater Auffruhr gestifftet / vnd Israel an sich gehangen: Was für verwüstung deß
+Reichs drauff gefolget / lesen wir im 2. Buch Samuelis nach der lenge: Der König
+hat drüber von Land vnnd Leuten müssen weichen / seine Kebßweiber sein jm
+öffentlich an der Sonnen mit grossem ergerniß geschendet / Ahitopffel hat sich
+drübei erhenckt / Absolon ist erstochen vnd in seinen Sünden gestorben / vnd
+Schwere vnd Walt haben viel Volcks gefressen / 2. Sam. 18. zu Rehabeams zeiten
+ist auch das Reich mit jhm selbst vnems worden / vnnd die vneinigkeit hat solche
+verwüstung des Reichs mit sich gebracht das von jhm Zehen Stämme abgefallen /
+vnnd er nur den einigen Stam Juda behalten / 1. Reg. 12. Nach dem todt Alexandri
+ist gleichermassen das Reich mit jhm selbst vneins worden / denn seine Fürsten
+die sich drein getheilet / haben sich nich können vertragen / vnd ist
+allenthalben in der gantzen Welt viel jammers worden / 1. Macc. 1. Das ich auch
+etwas davon auß Weltlichen Historien bringe / so finden wir in denselben / das
+in Egypten etliche 1000. vermawrete Städte gewesen / aber da das Reich
+miteivander vneins worden vber der erwehlung eines Königs / ist Nebucadne Zar
+vber sie kommen / hat das Reich verwüstet vnnd vnter sein Joch gebracht. Vmb das
+Römische Reich ists eine zeitlang wol gestanden / aber so bald es mit sich
+vneins worden / vnd Sylla vnd Marius / vnd Caesar vnd Pompejus auß Ehrgeitz vnd
+Hof-
+<pb facs="#f0015"/>
+fart sich getrennet: Hat sichs geendert / vnd ist
+verwüstung eingeführet / vnd viel Bürgerliches Bluts vergossen. Da Constantinus
+Magnus gestorben / vnd seine Söhne vber der theilung seiner Länder sich
+gezweiget / vnd das Reich mit jhm selbst vneins worden / ists verwüstet / vnd
+ein Hauß vbers ander gefallen / vnd haben jm Gothen vnd Wenden vnd andere
+Barbarische Völcker grossen schaden zugefügt.</p>
+<p>Dergleichen Exempel könten vielmehr angezogen werden / aber was bedürffen wir
+frembder / weil wir leider vnser eigen für vns haben: Der glaube ist vns etliche
+Jahr her so in die Hand kommen / als er einem Reich in die Hand mag kommen seyn.
+Was für vnglück vnd verwüstung in vnserm Reich durch Vn einigkeit fürgefallen /
+weiß niemand denn jederman / vnnd wir sehens noch zum theil für Augen /
+greiffens zun theil an Haab vnd Gütern / Weib vnd Kindern / Leib vnd Leben / vnd
+möchten mit der zeit wol sagen / wir gleuben nu fort nicht vmb jemands rede
+willen / Wir haben selber gehöret / gesehen vnd erkennet / das ein jeglich Reich
+/ so es mit jhm selbst vneins wird / wüste werde / vnd ein Hauß vber das ander
+falle.</p>
+<p>Wie nu die Vneinigkeit eine Verwüsterin der Reiche ist / so ist dagegen der liebe
+Friede vnd Einigkeit nechst Gott vnd seinem Segen eine Erhalterin denselben /
+das die Reiche dadurch floriren vnd gebessert werden / Im 34. Psalmen stehet:
+Wer ist der gut Leben begert / der gerne gute Tage hette? Der suche Friede vnd
+jage jhm nach: Kan man derwegen durch Fried vnd Einigkeit zum guten Leben vnd
+guten Tagen / die niemand außschlecht / kommen / Im 133. Psalm. Sihe wie fein
+vnd lieblich ists / daß Brüder eintrechtig beyeinander wohnen / wie der
+köstliche Balsam ist / der vom Häupt Aaron herab fleust in seinen gantzen Bart /
+der herab felt auff die Berge Sion / denn daselbst verheist der HErr Segen vnd
+Leben jmmer vnd ewiglich / Matth. 5. Selig sind die sanfftmütigen / denn sie
+werden das Erdreich besitze&#x0303; /
+<pb facs="#f0016"/>
+Vnd im 85. Psalm wird
+angezeiget / wo güte vnd trewe einander begegnen / vn&#x0303; Gerechtigkeit vnd
+Fried sich küssen / da thu der HErr den Leuten guts / vnd das Land geb sein
+Gewechs. So lesen wir 1. Reg. 4. das zu Salomonis zeiten gute Einigkeit gewesen
+/ vnd Salomo habe von allen seinen Vnterthanen Fried gehabt / da habe Juda vnnd
+Israel sicher gewohnet ein jeglicher vnter seinem Weinstock vnd Feigenbaum. Vnd
+1. Maccab. 14. wird bekant: Daß das Land Juda zu ruhe sey kommen / vnd sey guter
+Fried vn&#x0303; Einigkeit blieben / so lang Simon gelebt / Jederman habe in
+gutem Frieden sein Feld gebawet / vnd das Land sey Fruchtbar gewesen / vnd die
+Bäume haben wol getragen / vnd die Eltesten haben gesessen im Regiement
+vnverhindert / vnnd haben gute Ordnung gehalten / vnd die Bürger haben sich an
+jrer Nahrung sehr gebessert. Was auch für diesem beym Frieden vnd Einigkeit für
+ein wolstand im gantzen Land vnd in dieser Stadt gewesen / wissen sich die noch
+zu erinnern / welche der seligen zeit gedencken / vnd sie erlebet haben.</p>
+<p>Diß ander Stücklein sollen nu Oberkeit vnd Vnterthanen vnd wir alle miteinander
+darzu gebrauchen / das da diß Reich mehr als zu lange durch innerliche vnd
+einheimische vneinigkeit verwüstet / vnd manch Hauß vber dzander gefallen / wir
+vns für der verfluchten vneinigkeit hinfort als fürm Teuffel selbst hüten vnd
+für sehen / damit wir nit allein nicht vollens verwüstet / sondern auch nit
+drüber verdampt werden / den&#x0303; die solchs thun / werden dz Reich Gottes
+nicht erben / Gal. 5. Sondern dagegen nach Fried vnnd Einigkeit streben vnd
+trachten / vnnd bedencken / Was der Poet schreibt: Nulla salus bello, pacem te
+poscimus omnes: Am Krieg vnd Vneinigkeit ist kein Glück / Heil noch Segen /
+derwegen begeren wir alle / in Fried / Lieb vnd Einigkeit bey einander zuleben:
+Wie wir auch darzu von GOtt in seinem Wort fleissig vermanet werden / Marc. 9.
+sagt Christus: Hab Fried vntereinander: Rom. 12. Ists müglich / so viele an euch
+ist / So hadt mit
+<pb facs="#f0017"/>
+allen Menschen Fried / im 14. Cap. Lasset
+vns dem nach streben / das zum Friede dienet. Hab. 12. Jaget nach dem Friede
+gegen jeder man / vnd der Heiligung / ohn / welche niemand den HErrn sehen wird
+/ vnd sehet darauff / das nicht jemandt Gottes Gnads verseume: Das nicht etwa
+ein bitter Wurtzel auffwachse vnd Vnfriede antichte vnd viel durch dieselbe
+virunreiniget werden. Im 34 Psalm: Such Fried vnd jage jm nach. Wenn sich schon
+der Fried bißweilen verbirgt / sol man jhn nicht stecken lassen / vnd seiner
+nich achten sondern wir sollen jhn suchen / biß wir jhn finden: Vnd da er gleich
+zum Hirsch oder wirden Thler würde / vnd davon flöhe / sollen wir fleissige
+Jäger seyn / vnd vber Berg vnd Thal jhm nachsagen / biß wir jhn fangen. Richten
+wir vns nu hirnach / wie wir schüldig zuthun seyn / so wird vnser Reich nit
+allein an zeitlicher wolfahrt reichlich durch Gottes segen wider wachsen vnd
+zunemen / sondern es wird auch Gott des Friedes mit vns seyn / 2. Cor. 13. wir
+werden seine Kinder heissen / Matth. 5. vnd wird folgen Segen vnnd Leben jmmer
+vnd ewiglich / Psal. 133. Gnug vom Andern.</p>
+</div>
+<div>
+<head>Vom Dritten.<lb/>
+</head>
+<p>SEin noch vbrig Mittel / dadurch die leidige Vneinigkeit verhütet / vnd die liebe
+Einigkeit kan erhalten werde&#x0303;. Darran ist am meisten gelegen. Kürtzlich
+davon den vorschlag zuthun / so beruhen die Mittel darauff / das Oberkeit jhres
+obliegendenden Ampts durchauß fleissig abwarte / vnd Vnterthanen jhrer
+schüldigen Pflicht in allen trewlich nachsetzen. Müssen derwegen hiebey von der
+Oberkeit Ampt vnd der vnterthanen pflicht erinnerung thun.</p>
+<p>Betreffent der Oberkeit Ampt / so schribt Lutherus seliger gedechtniß gar
+herrlich davon im Büchlein von der Oberkeit / vnd setzt diese Wort: Ein Fürst
+oder Oberkeit sol sich in vier Ort theilen: Auffs erste zu Gott mit rechtem
+vertrawen vnd herrlichem
+<pb facs="#f0018"/>
+Gebet: Auffs ander / zu seinen
+Vnterthanen mit liebe vnd Christlichem Dienst: Auffs dritte gegen seine Rähte
+vnd Gewaltigen mit feiner vernunfft vnd vngefangenem verstande: Auffs vierdte
+gegen die Vbelthäter mit bescheidenem Ernst vnd Strenge: So gehet sein Stand
+außwendig vnd inwendig recht / der Gott vnnd den Leuten gefallen wird. In diesen
+sehr merckuchen Worten ist des rechte Ampt der Oberkeit / sonderlich hoher
+Häupter vnd Potentaten begriffen / vnd stimmen Lutheri Wort mit Gottes Wort
+vberein: Darumb wollen wir jhnen ein wenig weiter nachdencken.</p>
+<p>Der erste Ort / darein sich die Oberkeit oder ein Fürst theilen sol / ist zu
+Gott: Das er denselben fürchte vnd bußfertig sey / Ein Kindliches vertrawen vnd
+festen Glauben auff seine Gnad vnd Barmhertzigkeit vnd das verdienst Christi
+setze / den glaube&#x0303; mit einem Gottseligen Leben beweise / fleissig vnd
+Hertzlich bete / Denn Gottes dienst befördere / Kirchen vnd Schulen erhalte /
+vnnd es nirgents in denen stücken / die Gottes ehre / vnd seiner Vnterthanen
+Heil vnd Seligkeit angehen / an jhme lasse mangeln. Dahin sihet vnd gehet Gott /
+Deut. 17. In dem er befielet das der König das Gesetz Buch bey sich haben / vnd
+sein lebelang darinnen lesen sol / auff das er lerne fürchten den HErren seinen
+Gott / das er halte alle wort des Gesetzes vnd darnach thue: Dahin ist auch
+gerichtet der 2. Psalm. So last euch nu weisen jhr Könige / vnnd lasset euch
+züchtigen jhr Richter auff Erden. Dienet dem HErren mit furcht / vnd frewet euch
+mit zittern. Küsset den Sohn das er nicht zürne / vnd jhr vmbkommet auff dem
+Wege / denn sein Zorn wird bald anbrennen / aber wol allen die auff jhn trawen.
+Psalm 24. Machet die Thore weit / vnd die Thüre in der Welt hoch / das der König
+der Ehren einziehe. Psal. 148. Ihr Könige auff Erden vnd alle Leute / Fürsten
+vnd alle Richter alle Richter auff Erden sollen loben den Namen des HErren. Esa.
+49. Die Könige sollen der Kirchen Pfleger seyn / vnd jhre Fürsten jhre
+Seugammen. Die-
+<pb facs="#f0019"/>
+sem ist David mit fleiß nachkommen / seine
+Sünde ist jmmer für jhm gewesen / vnd da ers zweymahl versehen / eins mit
+Bathseba / darnach mit der Zehlung deß: Des Volcks / hat er von Hertzen Buß
+gethan / hat ein rechtes vertrawen zu Gott gehabt / fleissig gebeten / wie seine
+Psalmen außweisen / Vnd ist jhm auff Erden nichts liebers gewesen / das er
+dasselbe hat hören mögen / Vnnd GOtt seine dienste leisten / wie auß dem 27.
+Psalm abzunehmen: Eins bitte ich vom HErren / das hette ich gerne / das ich im
+Hause des HErren bleiben möge mein Lebelang / zu schawen die schönen GOttes
+dienst des HErren vnnd seinen Tempel zubesuchen / deßgleichen thut er im 42. 84.
+122. vnnd andern Psalmen mehr: Vnd so bald er recht zum Regiment kömpt / ist daß
+das er / das er die Lade Gottes holet / vnd mit aller macht für dem HErrn her
+tantzet / 2. Sam. 6. Sein Sohn Salomo ist in dem fall anfenglich in seine Fußst
+apffen getreten / verlest sich auff GOtt / Bittet Hertzlich vmb ein gehorsames
+Hertz / das er daß Volck recht richten möge / vnd verstehen was gut vnd böse ist
+/ 1. Reg. 3 Bawet den Tempel / tritt für den Altar der gantzen Gemeine Israel /
+breitet seine Hände auß gegen Himmel / tregt GOtt alle Noth für / vnd rufft jhn
+an / wenn sie es würden versehen vnnd Sündigen / Wolle er jhnen gnedig sein vmb
+des versprochenen Messiae vnnd Heylandes willen / 1. Reg. 8. Josaphat hats auch
+so gemacht: 2. Chron. 17. Sendet er Fürsten vnd Priester auß in die Städte Juda
+/ das Volck zulehren: Im 19. cap. bindet er seinen Rähten vnd Richtern die
+furcht deß HErren fest ein: Im 20. Cap. stehet er nicht allein selbst vnd betet
+hertzig / sondern vermanet auch alles Volck zum Gebet vnd Glauben vnd Vertrawen
+zu GOtt vnd spricht. Gleubet an den HErren ewren Gott / so werdet jhr sicher
+seyn vnd glaubet seinen Propheten / so werdet jr Glück haben. Darüber ist die
+Furcht des HErren vber alle Königreiche in den Landen / die vmb Juda hergelegen
+/ kommen / das sie nicht wider Josaphat haben dürffen streiten vnd in seinem
+Lande Fried vnnd
+<pb facs="#f0020"/>
+Einigkeit erhalten worden / 2. Chron. 17.
+Derwegen sol dieser erste ort zu Gott für allen dingen von Oberkeit vnd Fürsten
+mit warer Gottseligkeit wol verwahret werden / Matth. 6. Trachtet am ersten nach
+dem Reiche Gottes / vnd nach seiner Gerechtigkeit / So wird euch solches alles
+zufallen. Ps. 1)). Die Furcht des HErren ist der Weißheit anfang. Das ist eine
+feine Klugheit wer darnach thut / des Lob bleibet ewiglich. 1. Tim. 4. Die
+Gottseligkeit ist zu allen dingen nütze / vnd hat die Verheissung dieses vnd deß
+zukünfftigen Lebens. Luc. 10. Eins ist noth / Maria hat das beste Theil erwthlet
+/ das sol nicht von jhr genommen werden. Selig ist wer solches weiß / vnd
+darnach thut / Joh. 13.</p>
+<p>Der ander Ort / darin sich Oberkeit oder ein Fürst theilen sol / ist / zu seinen
+Vnterthanen mit Liebe vnd Christlichem Dienst: Dz ers hertzlich vnd trewlich mit
+jhnen meine / gnedig sich gegen sie erzeige / die frommen schütze / vnnd
+sonderlich Armen vnterdrückten / Witwen vnd Waysen helffe / Ps. 82. Schaffet
+recht den Armen / vnnd den Waysen vnd helffe dem Elenden vnnd Dürfftigen zum
+recht. Errettet den Geringen vnd Armen / vnd erlöset jhn aus der Gottlosen
+Gewalt. Rom. 13. Thu guts / so wirstu lob von der Oberkeit haben. 1. Pet. 2. Die
+Oberkeit ist zu lobe den frommen. Daher werden sie genant Heyland. Jud. 3. Nicht
+das sie jhren Vnterthanen solten das ewige Heil vnnd Seligkeit geben / denn das
+thut Christus allein / Act. 4. sondern das sie jhnen Heil an Leib vnd Leben /
+Haab vnd Gütern / Ehr vnd guten Namen verschaffen / vnd sie vertheidigen sollen.
+Deßgleichen Hirten / das / wie ein Hirte seiner Schafe pfleget vnd wartet / vnd
+jhnen wol die Wolle nimpt / aber das Fell nicht vber die Ohren zeucht / sie auch
+jhrer Vnterthane&#x0303; als arme Schafe pflegen vnd warten sollen: Wie jener
+von der Oberkeit gesagt: Boni pastoris est tondere pecus non deglubere, einem
+guten Hirten ists wol vergünnet die Wolle abzuschneiden / aber die Schafe nicht
+gantz vnd gar mit Wolle vnd Fell abzustreiffen / das thut kein guter Hirte /
+sondern ein Wolff: Auch werden sie ge-
+<pb facs="#f0021"/>
+nant Väter des
+Vaterlandes / Esa. 22. Gen. 41. Denn wie ein Väter Väterliche vorsorge tregt für
+seine Kinder / vnd jhnen wol fürstehet / so sollen sie Väterliche vorsorge haben
+für jhre Vnterthanen / vnd jhnen auch wol vorstehen. Item fruchtbare Bäume /
+Daniel 4. denn wie vnter desselben Schatten die Thier ruhen vnd Nahrung haben /
+so sollen vnter jhrem Schutz vnd Schirm die vnterthanen sich mit frieden nehren
+können. Diesem ist nachkommen der David / denn von jhm stehet geschrieben / 2
+Sam. 8. Er habe recht vnd gerechtigkeit verschaffet allem Volck: Ja er hat seine
+vnterthanen mehr vnd inbrünstiger geliebet / als sich vnnd sein Hauß selbst /
+denn da 2. Sam. 24. eine Pestilentz einfelt / tritt er für Gott vnd spricht: Ich
+habe gesündiger / ich habe die Messethat gethan / was haben diese Schafe gethan?
+Laß deine Hand wider mich / vnd meines Vaters Hause seyn. Dem Salomoni ists
+negst GOtt vnd seinem Dienst auch drumb zuthun / das er seinen lieben
+Vnterthanen wol möchte vorstehen / wie er denn Gott deßhalben so fleissig
+anrufft / 1. Reg. 3. vnd hat sichs allerdings nicht verdriessen lassen / zwey
+onzüchtige Weiber zuhören vnnd jhnen Recht zuverschaffen. Mose (weil ein
+sonderlicher fleiß darzu gehöret) sitzt von Morgen biß zu Abend / das Volck zu
+Richten / vnd thut jhm wehe drüber / Exod. 18. Sam. (Weils auch an Auffsicht
+nicht muß mangeln / denn oculus Domini, des HERREN Auge thuts jhm / vnnd ein
+König / der auff dem Stuel sitzet zurichten / Zustrewet alles Arge mit semen
+Augen / Proverb. 26.) siehet selbst allenthalben zu / vnd zeucht Jährlich vmb
+her gen Bethel / vnd Gilgal vnd Mißpa / damit niemand zu klagen als würde jhm
+nicht zu recht verholffen / 1. Sam. 7. Hiob: zeuget von sich / 29. Cap. Ich
+errette den Armen / der da schreyt / vnnd den Waysen der keinen Helffer hatte /
+Der Segen des der verderben solte / kam vber mich / vnd erfrewet das Hertz der
+Witwen / Gerechtigkeit war mein Kleid / das ich anzog wie einen Rock / vnd mein
+Recht war mein Fürstlicher Hut / Ich
+<pb facs="#f0022"/>
+wat des Blinden Auge /
+vnd des Lamen Füsse / vnd war ein Vater der Armen. Ich kan hie nicht vnterlassen
+etwas von / einem Würtenbergischen Fürsten anzuziehen vnd einzuführen. Es seyn
+auff eine zeit erliche Potentaten beyeinander gewesen / der eine hat sich dieses
+/ der ander eines andern berümet / als statliches Bergwercks fruchtbahrliches
+Ackers / köstliches Weinwachs vnd dergleichen. Da hat er geantwortet / er könte
+vnd wolte sich solcher dinge nit rühmen / sondern dieses könte er sich mit
+watheit rühmen / er hette solche trewe Vnterthanen / das er in eines jeden / er
+möchte auch sein wer er wolte / schoß ohn alle gefahr mit frieden wolte
+schlaffen das ist daher kommen / das er neben der Gottseligkeit sich zu
+seine&#x0303; Vnterthanen im gantzen Lande mit liebe vnd Christlichen dienst
+getheilet hat / daher jm seine Vnterthanen so gewogen sein gewesen / das die
+einfeltigen sollen gesagt haben / wenn Gott stürbe / sie wüsten keinen bessern
+wider zu wünschen als jren Herrn. Ach das stehet wol / vnd ist negst der Gottes
+furcht kein besser Ruhm. Derwegen Oberkeit oder Fürsten den andern ort mit liebe
+vnd Christlichem Dienstgegen jhre Vnterthanen bestellen sollen.</p>
+<p>Der dritte ort / darin sich Oberkeit oder ein Fürst theilen sol / ist gegen seine
+Rähte vnd Gewaltigen mit feiner Vernunfft vnd vngefangenem Verstandt. Was das
+sey vnd in sich begreiffe / Erkläret Lutherus S. in obgemelten Büchlein von der
+Weltlichen Oberkeit / vnd weil wirs jhm darinnen nicht können gleich thun / viel
+weniger / es besser machen / als wollen wir seine eigene Wort davon anhören. Das
+heist vnd ist sich theilen gegen seine Rähte vnd Gewaltigen mit feiner Vernunfft
+vnd vngefangenen Verstande / das an Fürst selbst achtung habe auff die grossen
+Hansen / auff seine Rähte / vnd halte sich gegen sie also / das er keinen
+verachte / auch keinen vertrawe / alles auff jhn zuverlassen / denn GOtt kan der
+beyder keins leiden. Er hat einmahl durch ein Esel geredt / darumb ist kein
+Mensch zuverachten / wie gering er ist. Widerumb hat er lassen den höchsten
+Engel vom Himmel fallen / darumb ist
+<pb facs="#f0023"/>
+auff keinen Menschen
+zuvertrawen / wie klug / heilig / oder groß er sey / sondern man sol ein
+jegliche&#x0303; hören vnd warten / durch welche&#x0303; Gott reden vnd wircken
+wolle. Denn das ist der gröste schade an Herrn Höfen / wo ein Fürst seinen Sinn
+gefangen gibt / den grossen Hansen vnd Schmeichlern / vnnd sein zusehen lest
+anstehen: Sintemal es nicht einen Menschen betrifft / wenn ein Fürst feilet vnd
+narret / sondern Land vnd Leute muß solches Narren tragen. Darumb sol ein Fürst
+also seinen Gewaltigen vertrawen / vnnd sie lassen schaffen / das er dennoch den
+Zaum in der Faust behalte / vnnd nicht sicher sey noch schlaffe / sondern zusehe
+/ vnnd das Land (wie Josaphat thet) bereite / vn&#x0303; allenthalben besehe /
+wie man Regiert vnd Richtet / so wird er selbst erfahren / wie man keinem
+Menschen gantz vertrawen solle: Denn du darffst nicht dencken / das dich ein
+ander dein vnd deines Landes so hart anneme als du / er sey denn vol Geists
+vn&#x0303; ein guter Christ / ein natur Mensch thuts nicht. Weil du den&#x0303;
+nicht weissest / ob er ein Christ sey oder wie lang ers bleibet / so kanstu dich
+auch nicht auff jn sicher verlassen? Vn&#x0303; hüte dich nur für denen am
+meisten / die da sagen: Ey gnediger Herr / vertrawet mir E. G. nicht mehr denn
+so viel? Wer wil E. G. dienen? Denn der ist gewißlich nit rein / vnd wil Herr im
+Lande seyn / vnd dich zum Maulaffen machen. Oder wo er ein rechtschaffen Christ
+vnnd from were / würde er gar gern haben / das du jhm nicht vertrawetest / vnd
+würde dich darumb loben vnd lieben / das du jhm so genaw darauff sehest / denn
+gleich wie er Göttlich handelt / so wil vnd kan er leiden / das sein thun für
+dir vnd jederman am tage liege / wie Christus spricht: Joh. 8. Wer guts thut /
+der kömpt ans Liecht / das seine Werck gesehen werden / denn sie sind in Gott
+geschehen. Jener aber wil die Augen blenden / vnd im Finstern handeln / wie
+Christus daselbst auch saget: Wer Vbel thut / der schewet das Liecht / das seine
+Werck nicht gestrafft werden. Darumb hüte dich für jm / vnd ob er darumb murret
+so sprich: Lieber / Ich thu dir nicht vnrecht / Gott wil nicht das ich
+<pb facs="#f0024"/>
+mir selber noch einen Menschen vertrawe / zürne mit jhm
+selbst darumb / das er solches haben wil / oder dich nicht mehr denn einen
+Menschen geschaffen hat / wiewol wenn du gleich ein Engel werest / weil doch
+Lueifer nicht zuvertrawen gewesen ist / wolt ich dir dennoch auch nit so gar
+vertrawen. Denn Gott sol man trawen allein. Dencke nur kein Fürst / das ers
+besser haben werde den&#x0303; David / der aller Fürsten Exempelist / der hatte
+einen solchen weisen Raht Ahitophel genant / das der Textsagt / er habe so viele
+golten / was er fürgab / Als wer Gott felbst gefragt hette. Noch fiel Er dahin /
+vnnd kam so tieff / das er David seinen eigen Herren verrahten / erwürgen vnd
+vertilgen wolt / vnd David dazumahl wol lernen muste / wie auff keinen Menschen
+zuvertrawen ist. Warumb meinstu / das GOtt solch grewlich Exempel habe lassen
+gesch ehen vnd schreiben? Denn nur die Fürsten vnnd Herren zu warnen für dem
+allerfehrlichsten Vnglück das sie haben mügen / Nemlich das sie memand vertrawen
+sollen. Denn es gar ein jämmerlich ding ist / wo an Herren Höfen Schmeichler
+regieren / oder der Fürste sich auff andere verlest vnd gefangen gibt / lest
+jederman machen wie ers macht. Der Christliche Zuhörer vnd sonderlich Fürsten
+vnnd Herren die es angehet / können weiter im Luthero davon lesen. Vnd wie sie
+sich gegen jhre Rähte vnd Gewaltigen mit feiner Vernunfft vnd vngefangenem
+Verstandt sollen theilen / So sollen sie sich insonderheit auch nach frommen
+vnnd Gottesfürchtigen Rähten vnd Gewaltigen vmbsehen / vnnd dieselben bey sich
+haben vnd behalten / Exod. 18. Sihe dich vmb vnter allem Volck nach redlichen
+Leuten die GOtt fürchten / warhafftig / vnd dem Geitz feind sind / Psal. 101.
+Ich hasse den Vbelthäter / vnd lasse jn nichtbey mir bleiben / ein verkehret
+Hertz muß von mir weichen / den Bösen leide ich nicht / der seinen Rechsten
+heimlich verläumbdet / den vertilge ich / ich mag des nit / der stoltze Geberde
+vnd hohen Muth hat. Meine Augen sehen noch den trewen im Lande / das sie bey mir
+wonen / vnd habe gerne fromme
+<pb facs="#f0025"/>
+Diener. Falsche Leute halte
+ich nicht in meinem Hause. Die Lügner gedeyen nicht bey mir. Wo sie solche Leute
+nicht haben / Da müssen siesich befürchten / das jnen begegne vnd widerfahre /
+was dem Rehab / 1. Reg. 12. dem Achas. 2. Chron. 22. vnd dem Joas / 2. Chr. 24.
+von jhren Jungen / Gottlosen vnd vngetrewen Rähten vnd gewaltigen begegnet vnd
+widerfahren ist / da der eine drüber vmb 10. Stämme seines Reichs / der ander
+vmb seine Seligkeit / der dritte vmb sein Leben kommen. Weil demnach nit allein
+des Landes / sondern auch der Fürsten vnd Herren zeitliche vnnd offt ewige
+Wolfart darauff stehet / das sie fromme vnd Gottselige Rähte vnd Gewaltigen
+haben / vnd sich gegen dieselben mit feiner vernunfft vnd vngefangenem Verstand
+theilen / als sollen sie diesen dritten Ort jhres Ampts auch wol verwahren vnnd
+nicht verseumen.</p>
+<p>Der vierde vnd letzte Ort / darin sich Oberkeit oder ein Fürst theilen sol / ist
+gegen die Vbelthäter mit bescheidenem Ernst vnnd Strenge: Das ist Oberkeit oder
+Fürsten vnd Herren sollen die Vbelthäter straffen / denn Gott sagt / Gen. 9. Wer
+Menschen Blut vergeust / das Blut sol auch durch Menschen / das ist / durch
+Oberkeit / vergossen werden / Deut. 19. Die Richter sollen den Bösen vom Volck
+wegehun / auff das die andern hören / sich fürchten vn&#x0303; nicht mehr solche
+böse stücke fürnemen zuthun / jhr Auge sol sein nicht schonen / Rom. 13. Die
+Gewaltigen sind den bösen wercken zu fürchten: Thustu böses / so fürchte dich /
+denn sie tregt dz schwert nicht vmbsonst / sie ist GOttes Dienerin / eine
+Rächerin vber den der böses thut. 1. Pet. 2. Zur Rach vber die Vbelthäter. So
+hat Moses die Vbelthäter gestrafft vnd steinigen lassen: Josua den Achan: Salomo
+den Simei vnd Joab.</p>
+<p>Vnd vom Josua stehet geschrieben: 2. Reg. 23. Er habe außgefeget alle Warsager /
+Zeichendeuter / Bilder vnd Götzen / vnd alle grewel die im Lande Juda vnd zu
+Jerusalem ersehen worden. Denen sollen noch auff den heutigen Tag Fürsten vnd
+die im O-
+<pb facs="#f0026"/>
+berkeitstand seyn / folgen: doch sol bey solchen
+ernst vnd strenge bescheidenheit / klugheit vnd fürsichtigkeitseyn / auff das
+sie ohn der andern verderben straffen / wie dasselbe David hat wissen in acht zu
+nemen bey seinem Häupzman Joab / der that zween böse Tück vnd erwürget
+Verrähterisch zween fromme Häupt männer / damit er zweymal den tadt (Lutherus
+ibidem) redlich verdienet hatte / noch tödtet er jhn nicht bey seinem leben /
+sondern befahl es seinem Sohn Salomon / ohn zweiffel darumb / das ers nicht
+köndte ohne grossen schaden vnd Rumor thun.</p>
+<p>Also muß auch Oberkeit die bösen Straffen / das sie nicht ein Leffel auff hebe
+vnd zutrete eine Schüssel / vnnd bring vmb eines scheddels willen Land vnd Leut
+in noth / vnd mache das Land voll Witwen vnnd Waysen: Sondern muß sich richten
+nach dem Sprichwort / qui nescit dissimulare, nescit im perare, wer nicht kan
+durch die Finger sehen / kan nicht regieren: Saul da er erstzum Regiment kam /
+vnd noch from war / wuste er durch die Finger zusehen / denn da er verachtet
+ward / vnd ohn auffruhr vnd verderben der Vnschüldigen die Verächter nicht
+straffen könte / thet er als hörete ers nicht / welches jhm zum Ruhm vnd Ehren
+angezogen wird / Sam. 10. So stillete der mächtige Helt Gideon mit guten Worten
+/ die Männer von Ephraim die sich hefftiglich mit jhm zanckten / vnd verhütete
+groß Vnglück / welchs manchen vnschüldigen getroffen würde haben / wenn er flugs
+mit dem Schwerdt drein geschlagen. Derwegen Oberkeit oder Fürsten vnd Herren an
+diesem ort jr Ampt mit fleiß haben in acht zu nemen / dz sie sich gegen die
+Vbelthäter mit bescheidenen ernst vnd strenge erzeigen.</p>
+<p>Wenn nu Oberkeit oder Fürsten erweneter moß jhrem Ampt nachsetzen / so ist kein
+zweiffel / es werde auff jhrer seiten an der lieben Einigkeit nicht mangeln /
+vnd solte ja Vneinigkeit entstehen vnd von andern erwecket werden / können sie
+ein frölich gut gewissen haben / das sie darzu keine vrsach gegehen. Machen sie
+es aber
+<pb facs="#f0027"/>
+nicht also / sondern handeln darwider / so wil sie
+GOtt eins mit Vneinigkeit / Empörung vnd Rebellion jrer Vnterthanen heimsuchen /
+wie die Exempel davon bekandt seyn. Salomo ward zulent abgöttisch / vnnd theilte
+sich nicht mehr in den ersten Ort zu GOtt mit rechtem Vertrawen vnd Hertzlichem
+Gebet / drüber erwecke jhm GOTT einen Widersacher nach dem andern: David
+theilete sich einmahl nicht in den andern Ort zu seinen Vnterthanen mit Liebe
+vnnd Christlichem Dienst / Sondern ließ vnschüldig auff die Fleischbanck auff
+opffern den trewen URIAM, da drawete jhm Gott / er wolle jhm Vneinigkeit vnd
+Schwert in sein Hauß schicken sein lebelang / 2. Sam. 12. Er hats im auch
+rechtsch affen gehalten. Rehabeam theilete sich nicht recht in den dritten ort /
+gegen feine Rähte vnd Gewaltigen mit feiner vernunfft vnd vngefangenem Verstande
+/ darüber verursachete er solche Vneinigkeit / das zehen Stämme von jhm abfielen
+/ 1. Reg. 12. Saul vnd der König Israel theileien sich nicht recht in den
+vierdten Ort gegen die Vbelthäter mit bescheidenen Ernst vnd Straffe / dadurch
+ve ursachten sie Vneinigkeit / vnd muste jhre Seele für der Vbelthäter Seele
+seyn / 1 Sam. 15. 1 Reg. 20. Darnach sols dabey nicht bleiben / sondern wenn
+Oberkeit oder Fürsten so nicht jr Ampt verrichten / vn&#x0303; sich in die vier
+örter gebürlicher weise theilen / so wil sie Gott ewig straffen Psal. 82. Sie
+lassen jhnen nicht sagen vnnd achtens nicht / sie gehen jmmer hin im Finstern /
+Darumb müsse alle grundfeste deß Landes fallen: Ich habe wolgesagt jhr seyd
+Götter / vnd allzumal Kinder des Höhesten: Aber jhr werdet sterben wie Menschen
+vnd wie ein Tyran zu grund gehen Vnd im Buch der Weißheit am 6. Euch ist die
+Oberkeit gegeben vom HErrn / vnd die Gewalt vom Höchsten: Welcher wird fragen /
+wie jhr handelt / vnd forschen was jhr ordnet / denn jhr seyd seines Reichs
+Amptleute: Aber jhr führet ewer Ampt nicht fein / vnnd haltet kein Recht / vnd
+thut nicht nach dem das der HErr geordnet hat. Er wird gar grewlich vnd kurtz
+vber euch kommen / vnd es
+<pb facs="#f0028"/>
+wird gar ein scharff gericht gehen
+vber die Oberherren. Dan&#x0303; den geringen widerferet gnade / aber die
+Gewaltigen werden gewaltiglich gestrafft werden. Derwegen sollen Oberkeit oder
+Fürsten jhnen jhr Ampt ein ernst sein lassen / vnd das ist / der Oberkeit Ampt /
+das auff der einen seiten zur erhaltung der Einigkeit gehöret.</p>
+<p>Der Vnterthanen pflicht aber / so auff der ander seiten zur erhaltung der
+Einigkeit erfodert wird / anlangent / stehet darinnen / das sie jrem Fürsten vnd
+Herrentrew vnd hold sein vnd bleiben jr lebelang. Darzu gehören nu fürnemlich 4.
+dinge Erstlich ehrerbietung / das Vnterthanen jre von Gott verordnete Oberkeit /
+Fürsten vnd Herrn gebürlicher weise ehren sollen. Davon beym Syr. am 10. cap:
+Die Gott fürchten / halten jre Oberkeit in allen ehren Rom 13. Furcht dem furcht
+gebüret / ehre dem ehre gebüret. Vnd 1. Pet. 2. Fürchtet Gott / ehretden König.
+Vnd das 4. Gebot gehet dahin: Ehre Vater vnd Mitter / auff das dirs wolgehe /
+vnd du lange lebest auff Erden. Ru wissens auch die Kinder vn&#x0303; lernens
+auß jrem Catechismo / das vnter Vater vnd Mutter zugleich Oberkeit Fürsten vnd
+Herren begriffen werden. Die scheidet Gott neben Vater vnd Mutter / vnd zeucht
+sie auß für alle andere Personen auff Erde&#x0303; / vnd setzt sie neben sich
+(Lutherus im grossen Catechismo im 4. Gebot) denn es viel ein höher ding ist
+ehren / denn lieben / als das nicht allein die liebe begreifft / sondern auch
+eine Zucht / Demuth vnd Schewe / als gegen einer Mayestet allda verborgen.
+Syrach befielt 3. Cap. den Kandern / sie sollen Vater vnd Mutter ehren mit That
+/ mit Worten vnd mit Gedult. Das sollen hie die Vnterthanen auff sich ziehen als
+Kinder jhrer Oberkeit vnd Vaters: Mit der that ehren heist / viel vnd hoch von
+der Oberkeit im Hertzen halten / vnd nicht allein für Augen / sondern auch
+hintern Rücken in der warheit sich ehrerbietig erzeigen: mit Worten ehren heist
+nicht hönisch / vnd verechtlich von Obrigkeit Fürsten vnd Herren reden / als
+nicht durch verachtung sagen: Der Hertzog von Braunschweig / ewer Herr / ewer
+Fürst / etc. sondern
+<pb facs="#f0029"/>
+vnser gnediger Fürst vnd Herr / mein
+gnediger Fürst vnnd Herr / denn man schweret Oberkeit nicht als einem Frembden /
+Sondern als seinem Herren / darumb sol man auch jhnen mit dem Munde die Ehre
+gönnen: Mit Gedult ehren / heist / wenn Oberkeit vnnd Fürsten vnnd Herren
+gebrechen vnd Schwachheiten an sich haben / wie sie eben so wol Menschen wie
+andere seyn / das Vnterthanen sich nicht damit belüstigen / sie außbreiten vnd
+außtragen / noch vngedültig drüber werden / sondern mit Sem vnd Japhets Mantel
+bedecken / entschüldigen / mitleiden haben / vnd alles zum besten kehren. So hat
+der heilige Mann Samuel den Gottlosen Saul geehret / denn da jhm Samuel
+fürgenommen von jhm zu ziehen / 1. Sam. 15. vnd Saul bath vnd sprach: Ehre mich
+doch jrtzt für den Eltesten meines Volcks / vnd für Israel / vnd kehre mit mir
+vmb: Da kehrete er mit jhm vmb vnd ehrete jhn. Das thet auch David / ob jhn wol
+Saul auffs allerhöchste verfolgete / So schalt er jhn doch nicht für einen
+Tyrannen vnd Bluthund / sondern ehrete jhn mit der That / mit Worten vnd mit
+Gedult / nandte jhn den Gesalbeten deß HERRen vnd seinen Vater vnd seinen HErren
+/ 1. Sam. 24. Das nam auch der fromme vnd Gottselige Mephiboseth in acht / 2.
+Sam. 19. ob jhm schon David seine Acker hatte vngebürlicher weise eingezogen vnd
+dem falschen Zibe gegeben / dennoch entzeucht er jhm seine ehre nicht / sondern
+sagt / mein Herr König ist wie ein Engel Gottes / vnd nante sich seinen Knecht.
+Vnd das mehr ist / so gibt der ewige Sohn Gottes vnser HErr vnd Heyland JEsus
+Christus der Oberkeit Königen vnd Fürsten jhren Ehrentitel vnd nennet sie bey
+jhren rechten Namen gnedige Herren / Luc. 22. Derwegen sollen wir vns in vnser
+hertz schemen / da wirs nicht thun / vnd sollen auch nicht gedencken / das wir
+des Segens des vierden Gebots werden theilhafftig werden: Wie 1. Samuel am 10.
+angedeutet wird / in dem / das die / so Saul jhre Oberkeit nicht geehret /
+sondern geschmehet vnd verachtet / lose Leute / vnd in seiner Sprach Filij
+Belial nicht allein vnnütze /
+<pb facs="#f0030"/>
+sondern auch Kinder des
+Teuffels / der 2. Cor. 6. Belial geheissen wird / genant werden: Vnd Gott
+bekennet / 1: Sam. 8. Da die Vnterthanen den Samuel jhre Oberkeit geunehret vnd
+verworffen haben / damit haben sie jhn den Allmechtigen ewigen Gott selber
+geunehret vnd verworffen. Derwegen alle Vnterthanen jnen die Ehre gegen jhre
+Oberkeit vnd Fürsten starck einbilden / vnd in acht nemen sollen.</p>
+<p>Zum 2. gehöret auff der Vnterthanen seiten zu erhaltung der Eimgkeit / vntert
+hänigkeit vnd gehorsam / das Vnterthanen / wie sie denn den Namen davon haben /
+jhrer von GOtt verordneten Oberkeit / Fürsten vnnd Herrn vnterthänig vnd
+gehorsam seyn: Davon schreibt Paulus zum Röm. 13. Jederman sey vnterthan der
+Oberkeit die gewalt vber jhn hat: Jederman sagt er / vnd wil niewand / weder die
+Geistlichen noch die Weltlichen außgeschlossen haben / wie denn jener alter
+Kirchenlehrer spricht: Si omnis anima subdita esse debet, quis vos ab
+universitate excepit? So eine jede Seele oder jeder Mensch vnterthänig seyn sol
+/ wer hat denn euch Geistlichen außgenommen? Vnd 1. Pet. 2. wirds wiederholet:
+Seyd vnterthan aller Menschlicher Ordnung vmb deß HERRn willen / es sey dem
+Könige als dem Obersten / oder den Häuptleuten / als seinen Gesanten von jhm. Zu
+solchem Gehorsam haben sich erboten die Vnterthanen / Josuae 1. cap. Solchen
+gehorsam haben auch die Vnterthanen Sauls jhrem Herrn Könige 1. Sam. 11.
+erzeiget / vnd sind auff seinen Befehl außgezogen als ein einiger Mann:
+Gleichmessige Vnterthanen hat David gehabt / 2. Sam. 7. vnd 19. cap. Zancken
+sich Israel vnd Juda vnterein ander / vnd wil der eine williger vnnd gehorsamer
+erfunden werden als der ander. Vnd billig ists auch / das Vntertha nen so
+vnterthänig vnnd gehorsam seyn / denn Oberkeit ist gleich Fuhrman / aber
+Vnterthanen gleich Wagen vnd Pferdt / nu müssen ja Pferde vnd Wagen sich nach
+dem Fuhrman richten / damit es nit heisse / non audit currus habenas, Oberkeit
+ist gleich schiff
+<pb facs="#f0031"/>
+vnd Stewrman / Vnterthanen aber gleich das
+Schiff: dz Schiff aber muß sich ja dem Schiff vnd Stewrman bequemen: Oberkeit
+ist Auge vnd Vnterthanen Ohr / Prov. 20. Das Auge höret vnd gehorchet nicht /
+sondern das Ohr / dem eignet vnd gebüret es: Oberkeit ist Hirte vnd Vater /
+Vnterthanen aber Schafe vnd Kinder: Schafe vnd Kinder müssen jres Hirten vnd
+Vaters stimme hören vnd folgen. Hie felt nu aber eine hochwichtige Frage für ob
+sich auch ein fall könne begeben vnd zutragen / das Vnterthanen mit recht auß
+solchem gehorsam mügen außwircken vnnd sich jhrer von Gott verordneten Oberkeit
+mit gewalt / Wehr vnd Waffen widersetzen / vnd sie entweder verjagen oder gar
+tödten? Damit ich mich in der Frage nicht verdechtig mache / Als wollen wir
+Lutherum / von welches Schrifften mehrestheils die grosse Städte viel halten /
+darinnen sie hoch zurümen vnd zu loben seyn / drüber hören. Der sagt im Büchlein
+/ ob anch die Kriegsleute im seligen stand seyn / außdrücklich nein darzu vnd
+spricht: Das er keinen fall noch zur zeit darvon erdencken könne / jhm auch
+keiner biß anhero fürkommen sey: Denn Oberkeit sey man gehorsam / Ehre vnd
+furcht schüldig / Rom 13. das sey kurtz vmb das Recht an jhm selbst / welches
+Gott selbst eingesetzet / vnnd von Menschen angenommen: Vnd es reime sich nicht
+gehorsam zu seyn / vnnd doch widerstreiten: Vnterthänig zu seyn / vnd den Herren
+nicht wollen leiden. Er begegnet auch an demselben ort etlichen einreden: Als
+Oberkeit oder Herr möchte Abgöttisch werden oder falsche Religion wollen
+einfüren? Darein sollen zwar Vnterthanen nit willigen noch sich darzu begeben /
+denn man muß GOTT mehr gehorchen als Menschen / Act. 5. Aber deßhalben kriegen
+sie kein Recht / sich mit Gewalt dem Herren zuwidersetzen / vnnd ihn zuverjagen
+oder zu tödten / Sondern sie sollen fleissig beten vnnd es GOtt befehlen / vnnd
+entweder weichen vnd ziehen an die örter da die reine Religion ist / Oder sollen
+wie die Mäcterer gethan ha-
+<pb facs="#f0032"/>
+beu / drüber leiden. Deßgleichen
+möchte ein Herr Tyrannisiren? Das gibt jhnen auch nicht ein einiges Recht zur
+Rebellion in die Hand / sondern sollen dem Exempel Davids folgen / Welcher so
+Tyrannisch vom Saul verfolget worden / als einer kan vnd mag verfolget werden /
+noch gleichwol hat er seine Handt an seinen Herrn König den Gesalbeten des
+HERRen nicht wollen legen / wiewol ers offt hette thun können / sondern hats
+Gott befohlen / vnd biß ans ende hinauß gelitten / biß Gott zu Hauß kommen. Es
+köndte aber ein Herr seinen Vnterthanen mit Eyden verpflicht seyn / wie man
+sagt: Das der König in Franckreich nach dem parlement seines Reichs regieren
+müsse: Vnd der König zu Dennemarck auch schweren müsse auff sonderliche
+Artickel: Vnd wider solche Pflicht vnd Eyde handlen? Das hilfft gleichwol den
+Vnterthanen im vngehorsam nicht vber / denn wer hat jhnen befohlen / sie darumb
+anzugreiffen / vnd solches anzurichten / vnd solches zu richten vnd rechen? Es
+müste ja hier zwischen eine andere Oberkeit kommen / der sie beyde verhörete /
+vnd den schüldigern vervrtheilete / sonsten werden die Vnterthanen dem Vrtheit
+Gottes nicht entlauffen / da er spricht: Die Rache ist mein: Item richtet nit /
+Matth. 7. Daher gibt er vnrecht den Griechen vnd Römern / die allerdings Kleinot
+vnd Geschenck mitgetheilet den Tyrannicidis / das ist denen / die Tyrannen
+erstochen vnd vmbgebracht habe&#x0303;. Er gibt vnrecht den auffrürischen Bawren
+/ welche die Religion haben fürgewant: Er gibt vnrecht den Schweitzern / die jre
+Oberherrn erschlagen vnnd sich frey gemacht: Er gibt vnrecht den Dehnen die
+jhren König Christiernum abgesetzet vnd verjaget: Er gibt vnrecht den Lübeckern
+vnd Seestädten / die den Dehnen darzu geholffen / vnd sie in jhrem Vngehorsam
+gestercket: Vnd berichtet / wie es werde ergehen / wenn die Sache für Gott werde
+kommen am Jüngsten Tage / so werde er sie nicht fragen / Ob der König vnrecht
+oder sie gerecht seyn / denn solches sey offenbarlich / sondern er werde fragen
+/ wer jhnen solche Rache vnnd Straffe
+<pb facs="#f0033"/>
+befohlen / ob er Gott
+/ oder der Keyser oder Oberkeit es gethan / so sollen sie Brieffe vnd siegel
+aufflegen vnd es beweisen. Können sie das thun / so werden sie wol stehen: wo
+nit / so werde sie Gott für Auffrührische Gottes Diebe außruffen vnd sagen / wie
+sie darzu kommen / das sie jm in sein Ampt gegriffen / vnd auß frevel sich der
+Göttlichen Rach vnterwunden haben / sie sein schüldig laesae Majestatis divinae,
+das ist / sie haben sich an Göttlicher Mayestet versündiget / denn es sein zwey
+ding / vnrecht seyn / vnd vnrecht straffen / Jus &amp; executio juris, justitia
+&amp; administratio Justitiae: Recht vnd Vnrecht haben sey jederman gemein /
+aber Recht vnd vnrecht geben vnd außtheile&#x0303; / das sey des der vber Recht
+vnd Vnrecht Herr ist / welcher ist Gott alleine / der es der Oberkeit an seine
+statt befielt: Darumb sol sich niemand vnterwinden / es sey denn gewiß das ers
+von Gott / oder von seiner Dienerin der Oberkeit befehl habe. Das aber die
+Lübecker vnd andere Städte sich wollen behelf fen mit diesem / das sie nit deß
+Könlas Vnterthanen / sondern als Feind mit Feind / vnd gleich mit gleichem
+gefahre&#x0303; / die Dehnen aber als vntert hanen haben wider jre Oberkeit ohn
+Gottes befehl gehandelt: So werde das nicht angehen / denn sie den Dehnen darzu
+gerahten vnd darzu geholffen / sich mit derselbigen frembden Sünde beladen / vnd
+in dem auff rührischen vn gehorsamb beyde Göttlicher vnnd Königlicher Mayestet
+vermischet vnd verwickelt vnd verknüpfft / zugeschweigen / das sie auch deß
+Keysers Gebot verachtet. Diß ist Lutheri meinung nach Gottes Wort. Ob er nun wol
+hernach den Juristen die vnterweilen widerstandt zuthun / zulassen sollen /
+etwas nachgegeben / so lassen wir doch dasselbige dahin gestelt seyn / vnd
+Disputiren vnd Fechten / wens gelüstet / vnd halten vns an das eingefürte klare
+wort Gottes: Rechet euch selbst nicht: Meinist die Rache: Wer sich der Oberkeit
+widersetzet / der widerstrebt Gottes Ordnung: Wer das Schwert nimmet /
+<pb facs="#f0034"/>
+der sol durchs Schwert vmbkommen / etc. Wie auch der außgang
+desselben Kriegs daßmahl gegeben hat. Derwegen wils den stich nicht halten / das
+man sagt / trew Herr / trew Knecht / helt der Herr so halten wir auch: Gesetzt
+ein Herr hielte nit / da er aber halten sol / so heist es dennoch die
+Vnterthanen sollen sich nicht selbst rechen / sondern Gottes ist die Rache /
+vnnd kan es denen nicht passtren die erkorne Herren haben / viel weniger wird
+vnd wil es da angehen / da geborne vnd Erbherren seyn. Wo nu solcher gehorsam
+vnd vnterthänigkeit bey den Vnterthanen nicht folget / da folget gewiß / wo
+nicht bald / doch zu seiner zeit / Gottes Rach vnd Straff: Rom. 13. Die aber
+widerstreben / werden vber sich ein Vrtheil empfahen. Dz Vrtheil haben vber sich
+empfangen Chore / Dathan vnd Abiram / Num. 16. Wie vns allen bekant ist.
+Derwegen alle vnterthanen sich desto williger mit jhrem gehorsam vnnd
+vnterthänigkeit gegen jhre von Gott verordnete Oberkeit werden einzustellen
+wissen.</p>
+<p>Zum dritten gehöret auff der Vnterthanen seiten zu erhaltung der Einigkeit /
+Schoß vnd Schatzung / das Vnterthanen jhrer Oberkeit / Fürsten vnd Herren Schoß
+vnd Schatzung geben. Das stehet Matth. 22. Cap. Da wird Christus gefragt / obs
+recht sey / das man dem Käyser Zinß gebe oder nit: Darauff fodert er die
+Zinsemüntze / vnd fragt sie / weß dz Bild vnd die Vberschrifft darauff sey / vnd
+nach dem sie Betchten / des Käysers / so spricht er drauff / so gebet dem Käyser
+was deß Käysers ist / vnd Gotte was Gotte ist. Deutet gnugsam damit an / Weil
+die Vnterthanen jhrer Obrigkeit Zinßmüntze vnd Gelt gebrauchen / so sollen sie
+jhnen auch das Ihrige geben / vnnd sich vber Zinß / Schoß vnnd Schatzung nicht
+beschweren. Vnd Paulus schreibt / Rom. 13. So gebt nu jederman / was jhr
+schüldig seyd / Schoß / dem der Schoß gebürt / Zoll / dem der Zoll gebürt. Es
+verdienet auch wol die
+<pb facs="#f0035"/>
+Oberkeit wol mit jhrer Mühe vnd
+Arbeit / so sie in der Regierung haben vnnd außstehen muß: Denn ein Oberkeit
+seyn / Ist kein müssiger Standt / sondern ein recht mühselig Ampt / wer jhm wil
+recht fürstehen / der wird nicht viel guter Tage haben: Wenn die Vnterthanen
+schlaffen / müssen sie offt wachen / vnd vor Sorgen schlaffloß liegen / wie im
+Buch Esther vom König Ahasuero bekandt wird. Daher jener König gesagt / wenn man
+wüste / was für mühe vnnd arbeit hinterm Scepter vnnd Kron steckte / es würde
+sich keiner darnach zur Erden bücken vnnd sie auffnemen. Nu ist aber ein
+Arbeiter seines Lohns wert: Wen demnach Oberkeit der Vnterthanen halben so viel
+mühe vnnd arbeit hat / billich ists / das sie auch dafür Schoß / Zinß /
+Schatzung zu lohn krigt. Vnd vber das / wie sol Oberkeit den Schutz können
+handhaben / wenn Vnterthanen nichts geben wollen? Sie werden im 47. Ps. Schilde
+auff Erden genant / darumb dz sie pro lege &amp; grege, fürgesetzt vnd jre Herde
+streiten / vnd Gut vnd Blut wagen vnd auffsetzen. Vnd weil sie das allein nit
+verrichten können / so gehören Leute darzu / die vnterhalten müssen werden.
+Darzu billich die Vnterthanen zulegen: Dahin sihet Paulus / Rom. 13. Derhalben
+müsset jhr auch Schoß geben denn sie sind Gottes Diener / die solchen Schutz
+sollen Handthaben. Mancher lest sich wol bedüncken / er wolte selbst starck gnug
+seyn / vnd sich schützen / aber wie lang würde es wehren? Kan man doch offt
+nicht sicher seyn / da Oberkeit Gericht / Räder / Galgen vnd Thürne hat / vnnd
+fleissig auffsicht / was solte vnd würde geschehen / wenn der keines were?
+Keiner würde eine stunde seines Leibs vnd Lebens / Haab vnd Güter / Weib vnnd
+Kinder können gesichert seyn / denn der Stärckste würde den andern / wie man
+sagt / in Sack steck en / vnd würde die gantze Welt zur Mördergruben werden. Daß
+nu aber das nicht geschicht / vnd man in frieden sein Leben vnd Gut kan behalten
+/ das habe&#x0303; wir nechst Gott der Oberkeit Schutz zu dancken.</p>
+<pb facs="#f0036"/>
+<p>Derwegen sollen Vnterthanen bedencken was man saget: Qui sentit commodum, sentiat
+etiam incommodum, wer worvon nutz hat / der muß auch den schaden dabey für lieb
+nehmen / vnd es ist ein guter Pfenning / der einem einen Thaler ersparen kan. So
+haben die Eltern Christi auch Schoß vnnd Schatzung gegeben / Luc. 2. jederman
+ging / das er sich schätze&#x0303; liesse / ein jeglicher in seiner Stadt. Da
+machte sich auch auff Joseph / auff das er sich schätzen liesse mit Maria seinem
+vertrawten Weibe. Vnd das mehr ist / Jesus Christus selbst hats gethan / ders
+doch nicht bedurfft hette / nur das er niemand ärgerte / vnd andern mit gutem
+Exempel vorginge: Matth. 17. Derwegen weil Christus der doch frey gewesen / Zins
+vnnd Schoß gegeben / so sollen vielmehr alle ander Vnterthanen jhrer Oberkeit /
+Fürsten Herren Schoß / Zinß vnd Schatzung geben / vnnd zwar willig vnd gern /
+denn einen frölichen Geber hat Gott lieb / 2. Cor. 9.</p>
+<p>Zuletzt gehöret auff der Vnterthanen seiten zur erhaltung der Einigkeit / Bitte /
+Gebet / Fürbit vnnd Dancksagung / das Vnterthanen für jhre Obrigkeie fleissig
+bitten vnd beten vnd Gott dancken: Denn so lesen wir / 1. Tim. 2. So ermahne ich
+nu sagt Paulus / das man für allen dingen zu erst thue / Bitte / Gebet / Fürbit
+vnd Danck sagung für alle Menschen / für die Könige vnd alle Oberkeit / auff das
+wir ein geruhlig vnd stilles Leben führen mögen in aller Gottseligkeit vnd
+Erbarkeit. Denn solches ist gut / darzu auch angeneme für GOtt vnserm Heyland.
+Jeremias befielt es auch seinen gefangenen Pfarrkindern / 29. Cap. Da sie für
+die Oberkeit bitten sollen / denn gehe es derselben wol / so gehe es jhnen auch
+wol. So lesen wir vom Jacob / das er den König Pharaonem gesegnet habe /
+darunter das gebet begriffen / Gen. 47. Es hat Abraham für den König Abimelech
+gebeten / vnd Gott hat sein Gebet erhöret / Gen. 20. Vnd dem König vnd seinem
+Hause Guts gethan.
+<pb facs="#f0037"/>
+Vnd das ist die glück wünschung im Alten
+Testament / wënn sie geruffen haben / vivat Rex, vivat Rex, Gott lasse den König
+lang leben. Wie auch Daniel dem Nebucatnezar wünschet vnd von Gott bittet langes
+leben. Vnd die alte Kirche hats täglich in acht genommen / in dem sie in der
+Litaney für der Oberkeit GOtt angeruffen / vnd jhr gebet zu Gott gethan: Die
+vierde Bitte begreiffts auch in sich / wie die Erklerung Lutheri außweiset. Vnd
+so sol man nicht allein bitten vnd beten für gute vnd fromme Oberkeit / sondern
+auch für böse / das Gott jhr das Hertz woll endern vnd sie from machen / wie
+denn das Gebet der Gerechten in den fall / wie auch in andern dingen / viel
+vermag / welches wir Gen. 32. finden / denn da zog Esau dem Jacob entgegen / vnd
+wolte jhn vbel empfahen / aber Jacob betete zu GOtt / durch das gebet ward Esaus
+Hertz gantz geendert / das er dem Jacob vmb den Halß fiel / vnd jhn küssete /
+vnd weinete / im 33. Cap. Man lieset auch eine Historiam von einer frommen
+Matron die alle tage für den Dionysium der doch ein Tyran gewesen / gebeten /
+vnd da sie andere die jm geflucht vnd den Todt gewünschet / drüber zu rede
+gesetzt / hat sie geantwortet / sie bete / das jhn Gott möchte bekehren / vnnd
+da das schon nicht geschehe / wünsche sie doch vnnd flehete zu Gott das er lange
+möchte leben / denn sie were alt worden / vnd hette etzliche Könige erlebt / es
+weren aber die letzten allzeit ärger als die ersten gewesen. Darumb wolle sie
+liber vmb vnnd für diesen bitten / als das sie nach jhm einen ärgern ableben
+solte. Derwegen wenn auch schon Vnterthanen Tyrannen hetten zur Oberkeit / were
+es dennoch besser beten als fluchen: Ja beten wird simpliciter geboten: Exo. 22.
+Du solt den Göttern / das ist der Oberkeit nicht fluchen. Vnd im Prediger Salom:
+am 10. Fluch dem König nicht in deinem Hertzen / denn die Vogel des Himmels
+führen die Stimme / vnd die Fittig haben sagens nach. Vnd wenn man fluchet der
+Oberkeit / o-
+<pb facs="#f0038"/>
+der sie auß dem Gebet außlest / so strafft Gott
+zu letzt / das eine&#x0303; der Fluch selbst bestehen muß vnd vnglück verhengt
+wird / das er sonsten wol abgewendet hette. Derwegen sollen für allen dingen die
+Vnterthanen des Gebets für jhre Obrigkeit nicht vergessen / sondern täglich zu
+Gott schreyen / vivat Rex, Gott lasse vnsern gnedigen Fürsten vnd Herren lang
+leben. Gib vnserm gnedigen Fürsten vnd aller Obrigkeit / Fried vnd gut Regiment
+/ das wir vnter jhnen / etc. Das ist auch also der Vnter thanen Pflicht.</p>
+<p>Hie solte man nu billich zum Beschluß die Application machen / ob auff beyden
+seiten zur Vneinigkeit vrsach gegeben oder nicht / vnd wer am tieffsten in der
+Schult stecke: Obrigkeit das sie sich jrgends in die vier örter gegen Gott mit
+rechten vertrawen vnd Hertzlichem Gebet / gegen Vnterthanen / mit liebe vnd
+Christlichem Dienst / gegen die Rähte vnd Gewaltigen mit feiner Vernunfft vnd
+vngefangenem Verstande / gegen die Vbelthäter mit bescheidenen Ernst vnd Straffe
+/ nicht recht getheilet: Oder Vnterthanen / das sie jhre Oberkeit nicht wie
+billich geehret / sondern vielmehr verachtet / nicht gehorsam / Sondern
+vngehorsam gewesen / vnnd mehr frembde als eigene Götter angeruffen vnnd
+angebetet / nicht Schoß vnd Schatzung willig gegeben / sondern sichs verwegert /
+nicht für die hohe Obrigkeit fleissig gebeten / Sondern vielmehr wider sie
+gebeten / oder gantz außgelassen / vnnd jhr noch wol darzu geflucht / etc. Aber
+weils / Gott lob vnd danck zur Einigkeit kommen / sols fern von mir seyn / die
+alte Wunden wider auff zu kratzen / vnd die Schmertzen zuerfrischen vn&#x0303;
+ernewern. Wil derwegen solche Application lassen anstehe&#x0303;: Doch einem
+jeden in sein Gewissen geschoben haben / wer sich schüldig befindet / das er
+Busse thu vnnd sich bessere / sonsten wird die Einigkeit / welches Gott
+gnediglich abwende keinen bestand können haben / vnd wird man an jenem tage für
+dem
+<pb facs="#f0039"/>
+gestrengen Gericht Gottes schwerlich zuverantworten
+haben. Nu der Gott der Liebe vnd des Friedens wolle bey derseits bey vns wohnen
+/ vnd durch seinen H. Geist Oberkeit vnd Vnterthanen Hertz regieren / das ein
+jeder sein Ampt vnd Pflicht trewlich in acht nehme / vnd wolle geben vnnd
+wircken durch seinen H. Geist / das Güte vnd Trewe / das ist / Oberkeit vnd
+Vnterthanen einander begegnen / vnnd Gerechtigkeit vnnd Friede sich küssen / vnd
+der HErr vns Guts thue / damit vnser Land sein Gewächs gebe / Vmb JEsu Christi
+vnsers HErren willen / AMEN.</p>
+<p>ENDE.</p>
+</div>
+</body>
+</text>
+</TEI>

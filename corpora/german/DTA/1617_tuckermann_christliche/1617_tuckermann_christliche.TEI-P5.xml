@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Eine Christliche Predigt/ Gethan den 26. Septembris/ als die Leich des Weyland ... Fürsten vnd Herrn/ Herrn Julij Augusti/ Hertzogen zu Braunschweig vnd Lüneburg/ etc. Apten zu Michelnstein/ Thumbprobsten des Stiffts S. Blasij zu Braunschweig/ Anhero gen Wulffenbüttel gebracht/ vnd in der Fürstlichen Schloßkirchen nieder gesetzt</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124599281">
+<surname>Tuckermann</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/t-837b-4f-helmst-9s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/t-837b-4f-helmst-9s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">38</measure>
+<measure type="tokens">8363</measure>
+<measure type="types">2269</measure>
+<measure type="characters">52562</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:30Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Distributed under the Creative Commons Attribution-ShareAlike 3.0 Generic (German) License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/tuckermann_predigt_1617</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/tuckermann_predigt_1617</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/tuckermann_predigt_1617</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/tuckermann_predigt_1617</idno>
+<idno type="DTADirName">tuckermann_predigt_1617</idno>
+<idno type="DTAID">30066</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30066-5</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Tuckermann, Peter: Eine Christliche Predigt/ Gethan den 26. Septembris/ als die Leich des Weyland ... Fürsten vnd Herrn/ Herrn Julij Augusti/ Hertzogen zu Braunschweig vnd Lüneburg/ etc. Apten zu Michelnstein/ Thumbprobsten des Stiffts S. Blasij zu Braunschweig/ Anhero gen Wulffenbüttel gebracht/ vnd in der Fürstlichen Schloßkirchen nieder gesetzt. Wolfenbüttel, 1617.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Eine Christliche Predigt/ Gethan den 26. Septembris/ als die Leich des Weyland ... Fürsten vnd Herrn/ Herrn Julij Augusti/ Hertzogen zu Braunschweig vnd Lüneburg/ etc. Apten zu Michelnstein/ Thumbprobsten des Stiffts S. Blasij zu Braunschweig/ Anhero gen Wulffenbüttel gebracht/ vnd in der Fürstlichen Schloßkirchen nieder gesetzt</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124599281">
+<surname>Tuckermann</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Holwein</name></publisher>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1617</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001"/>
+<titlePage type="main"><docTitle><titlePart type="main">Eine Chri&#x017F;tliche Predigt /</titlePart><lb/>
+<titlePart type="sub">Gethan den 26. Septembris /<lb/>
+als die Leich des Weyland<lb/>
+<hi rendition="#b"><hi rendition="#in">H</hi>ochwürdigen<lb/>
+Durchleuchtigen Hochgebornen</hi><lb/>
+Für&#x017F;ten vnd Herrn / Herrn Julij Augu-<lb/>
+&#x017F;ti/ Hertzogen zu Braun&#x017F;chweig vnd Lüneburg/etc.<lb/>
+Apten zu Micheln&#x017F;tein / Thumbprob&#x017F;ten des Stiffts S.<lb/>
+Bla&#x017F;ij zu Braun&#x017F;chweig / Anhero gen Wulffenbüttel ge-<lb/>
+bracht / vnd in der Für&#x017F;tlichen Schloß-<lb/>
+kirchen nieder ge&#x017F;etzt /</titlePart></docTitle><lb/>
+<byline>Durch<docAuthor><lb/>
+<hi rendition="#aq">M. PETRVM</hi> Tuckermann</docAuthor>/ Hof-<lb/>
+Prediger.</byline><lb/>
+<milestone rendition="#hr" unit="section"/><docImprint><hi rendition="#b"> Gedruckt zu</hi><pubPlace> <hi rendition="#b">Wulffenbüttel</hi></pubPlace> /<lb/>
+durch <publisher>Eliam Holwein</publisher> / Für&#x017F;tl.<lb/>
+Braun&#x017F;ch. Buchdrucker vnd<lb/>
+Form&#x017F;chn. Im Jahr <docDate>1617</docDate>.</docImprint></titlePage></front><body><div>
+<pb facs="#f0002"/>
+<pb facs="#f0003"/>
+<head>Esa. 56. Cap.</head><lb/>
+<p>DEr Gerechte kömmet vmb / vnd niemand ist / der es zu Hertzen neme / vnd heilige
+Leute werden auffgerafft / vnd niemand achtet darauff / denn die Gerechten
+werden weggerafft für dem Vnglück / vnd die richtig für sich gewandelt haben /
+kommen zum Friede / vnd ruhen in jhren Kammern.</p>
+<p>WIr lesen beym Esaia im fünften / neunden vnd zehenden Cap: fünffmahl diese Wort:
+Noch lesset sein Zorn nicht abe / seine Hand ist noch außgereckt. Damit wird
+angezeiget / daß zu Esaiae zeiten Gott der HErr daß Judische Volck hart habe mit
+genommen / vnd sie noch ferner hart mit nemen wolle / den beide auff vorher
+gehendes vu&#x0303; nachfolgendes Vnglück gesehen wirt. Vrsach wird hinzu
+gesetzt im 9. Cap: denn sie kehren sich nicht zu dem der sie schlecht / vnd
+fragen nichts nach dem HErrn
+<pb facs="#f0004"/>
+Zebaoth / sie sein gar Fühlos
+vnd Gottloß / vnd leben in Tag hinein als wen&#x0303; kein Gott im Himmel
+wehre / vnd daß Vnglück jhnen ohngefehr begegnete. dieses können wir gar wol
+auff vns ziehen / den&#x0303; zugeschweigen deß Kriegswesens / Kranckheit
+vn&#x0303; Tewrung / damit wir sein heimgesucht worden / so hat vber
+das Gott in seinem Zorn nun fünffmahl nach einander in&#x0303;erhalb vier
+Jahren seine Hand vber vns außgereckt / vnd den vralten hochlöblichen Stam&#x0303; Braunschweig angegriffen / vn&#x0303; erstlich Hertzog
+Heinrich Julium den Regirenden Herrn / zum andern Hertzog Heinrich Carln / zum
+dritten Hertzog Joachim Carln / zum vierden Hertzog Rudolphum / vnd jetzt zum
+fünfften Hertzog Julium Augustum Hochlöblicher Gedechtnuß hinweggenommen: wer
+hats verursacht? Wir alle damit / daß wir vns nicht zu dem gekehret / der vns
+geschlagen / vnd nichts gefragt nach dem HErrn Zebaoth. Derowegen werden wirs
+nicht anders machen / vnd dem HErrn vnsern Gott mit hertzlicher Bußfertigkeit /
+darzu ich einen jeden durch Gott vermahnet wil haben / begegnen / so befurchte
+ich / so wahr als Godt lebt / daß vbrige Füncklein werde vollens verleschen:
+dafür den Hochlöblichen Stam&#x0303; vnd Land vnd Leute der Barmhertzige
+getrewe Gott biß an den Jüngsten Tag gnediglich behüten vnd bewahren wolle / vmb
+Jesus Christus seines lieben Sohns vnsers Seeligmachers Willen. AMEN.</p>
+<pb facs="#f0005"/>
+<p>ANlangend aber de&#x0303; Hochwürdigen / Durchleuchtigen / vnd
+Hochgebornen Fürsten vnd Herrn Hertzog Julium Augustum / dessen Leichnam wir
+jetzt an diesen Ort begleitet / so hat zwar Gott der HErr bey S. F. G. sehr wol
+gethan // daß er sie auß diesem bösen vnd mühseligen Leben zum ewigen Frieden
+abgefodert / aber zu vermuten ist / daß ein Vnglück drauff folgen / vnd Gottes
+Zorn noch nicht abelassen / vnd seine Hand weiter außgestreckt werde bleiben /
+denn wenn solche gerechte vnd heilige Leute / die für sich richtig vnd einfeltig
+wie die Kinder gewandelt / vmbkom&#x0303;en vnd sterben / so pflegt
+gewißlich ein Vngewitter fürhanden zusein / für welchen sie weggerafft werden /
+wie solches außdrucklich in verlesenen Worten von Gott selbst durch den
+Propheten Esaiam bezeuget vnd bekrefftiget wird. Wollen derowegen solchem
+Vnglück zubegegnen / vnnd Gott in seine außgestreckte Hände vnd Arme zufallen /
+diesen Spruch vns zum besten kürtzlich vnd einfeltig zuerkleren für vns nemen /
+vnd in 3. Stücken abhandeln: Erstlich anhören eine schöne Beschreibung frommer
+Leute. Zum andern reden von jhrem Vnglück in dieser Welt / vnd wie solches von
+Welt Kindern geachtet werde / was aber Gott damit andeute vnd meine. Zum dritten
+wollen wihr besehen jhr Glück / daß sie nach jhrem Tod zu gewarten haben. Hierzu
+verleyhe vns Gott der Vater die Gnade seines heiligen Geistes vmb JEsu CHristi
+seines lieben Sohns willen AMEN.</p>
+<pb facs="#f0006"/>
+</div>
+<div>
+<head>Vom Ersten.</head><lb/>
+<p>FRommen vnd Gottsehligen Leuten werden in verlesenem Spruch drey schöne Namen vnd
+Ehretitel gegeben / denen wir in der furcht Gottes ein wenig müssen nachdencken.
+Anfenglich werden sie genant GERECHTEN. Diesen Ehren Titel hat von Natur kein
+Mensch / von Vater vnd Mutter geborn / denn so lesen wir im 14. Psalm: Es ist
+keiner der guts thut / oder gerecht sey / auch nicht einer. Vnd im 143. Psalm /
+Für dir ist kein lebendiger gerecht. Vnd Esai: 64. Cap. alle vnser Gerechtigkeit
+ist wie ein vnfletig Kleidt: vnd Rom: 3. da ist nicht der gerecht sey / auch
+nicht einer: Sonder fromme gottßfürchtige Leute führen diesen Ehrentitel / aus
+GOttes Gnaden von wegen des verdienstes JEsu Christi durch den Glauben / denn
+GOtt der Vater hat vns seinen Sohn mit seinem gehorsam vnd leiden vnd sterben
+zur Gerechtigkeit gemacht / dahin Paulus gehet / 1. Cor. 1. Christus ist vns
+gemacht von GOTT zur Gerechtigkeit: Vnd 2. Cor. 5. GOtt hat den / der von keiner
+Sündt wuste / für vns zur Sünde gemacht / auff das wir würden in jhm die
+Gerechtigkeit / die für GOtt gilt. Wer nun an Christum gleubet / dem wird
+desselben gehorsam vnd verdienst zur Gerechtigkeit zugerechnet: Röm. 10.
+Christus ist des Gesetzes ende / wer an den gleubet / der ist Gerecht. Auff die
+art wirt Abrabam für Gerecht gerühmet / Röm. 4. Abraham hat GOtt
+<pb facs="#f0007"/>
+gegleubet / vnd das ist jhm zur gerechtigkeit gerechnet.
+Deßgleichen wird auch Abel auff die weise für Gerecht gehalten / Heb. 11. durch
+den glauben hat Abel GOtt ein grösser Opffer gethan / denn Kain / durch welchen
+er zeugnis vberkom&#x0303;en hat / daß er Gerecht sey. Vnd auff den
+schlag werden alle warhaffte Christen Gerecht gena&#x0303;d / Hab: 2. der
+Gerechte wird seines glauben leben. Lernen wir derwegen bey diesem ersten
+Ehrentitel frommer vnd gottseliger Leute / daß wir nicht Gerecht werden für GOtt
+/ durch des gesetzes oder der wercke Gerechtigkeit / sondern allein durch die
+gerechtigkeit des Glaubens / zun Röm: 3. sie sind allzumahl Sünder / vnd mangeln
+des Ruhms / denn sie an Gott haben sollen / vn&#x0303; werden ohn
+verdienst gerecht auß seiner gnade durch die Erlösung / so durch Christum JEsum
+geschehen ist / welchen GOtt hat für gestelt zu eine&#x0303; Gnadenstuel
+/ durch den glauben in seinem Blut / damit er die Gerechtigkeit / die für jhm
+gilt / darbiete / in dem / daß er Sünde vergibt / etc. Zun Gal: 2. wir wissen /
+daß der Mensch durch des gesetzes werck nicht Gerecht wird / sondern durch den
+glauben an JEsum Christ / so gleuben wir auch an Christum JEsum / auff das wir
+Gerecht werden durch den glauben an Christum / vnd nicht durch des gesetzes
+werck / denn durch des gesetzes werck wird kein Fleisch gerecht. Vnd Eph: 2. auß
+gnaden seid jhr Selig worden durch den glauben / vn&#x0303; dasselbige
+nicht auß euch / Gottes gabe ist es / nicht auß de&#x0303; wercke&#x0303; / auff das sich nicht jema&#x0303;d rühme. durch diese
+gerechtigkeit können die gleubigen für Gott bestehen / vn&#x0303;
+<pb facs="#f0008"/>
+haben fried mit jhm / Röm: 5. Nu wir den sind gerecht worden
+durch den glauben / so haben wir fried mit GOtt durch vnsern HErrn JEsum Christ.
+Derselben sollen sie sich von hertzen wieder alle jhre Vngerechtigkeit vnd
+Verdamnis trösten / vnnd erfrewen / vnd mit Esaia aus dem 61. Cap. sagen: Ich
+frewe mich im HErrn / vnd meine Seele ist frölich in meinem GOtt / denn er hat
+mich angezogen mit Kleidern des Heils / vn&#x0303; mit dem Rock der
+gerechtigkeit bekleidet. Vnnd hierauß können wir gnugsam abnehmen / daß der
+grobe jrrthumb der Papisten / die zu gleich in wercken die Gerechtigkeit / die
+für GOtt gilt / suchen / als verdam&#x0303;lich vnd dem thewren Verdienst
+Christi verkleinerlich / zu verwerffen. Das ist der Erste Ehrentitel der
+<choice><sic>Frommmen</sic><corr>Frommen</corr></choice>.</p>
+<p>Der Ander ist / daß sie genandt werden / Heilige Leuthe. Dieses Ehrentitels kan
+sich auch mit warheit niemand von Natur rühmen / denn wir alle / wie wir von
+Vater vnnd Mutter gebohren werden / so wenig heilig vnd rein seyn / daß wir viel
+mehr vnheilig vnd vnrein erfunden werden: Da heist es mit vns allen / wie im 51.
+Psalm stehet / Sihe / ich bin auß Sündlichen Sahmen gezeuget / vnnd meine Mutter
+hat mich in Sünden empfangen: vnd Esaiae am 64. Wir seynd allesampt wie die
+Vnreinen. Vnd Hiob. 14. Capitel / Wer wil einen Reinen finden bey denen da
+keiner rein ist. Vnd im 15. Capitel / Was ist ein Mensch / daß der solt rein
+seyn / vnd daß er solt ge-
+<pb facs="#f0009"/>
+recht seyn / der vom Weibe
+gebohren ist / sihe / vnter seinen Heiligen ist keiner ohn tadel / vnd die
+Him&#x0303;el seynd nicht rein für jhm / wie viel mehr ein Mensch /
+der ein grewel vnd schnöde ist / der vnrecht seufft wie Wasser: sondern GOtt
+Vater / Sohn vnnd Heiligem Geist habens Fromme vnd Gottseelige Leuthe zu dancken
+/ daß sie sich dieses Ehrentitels gebrauchen / vnd Wort vnd Sacrament seyn das
+Mittel / dardurch jhnen die Heiligung / im Glauben zugeeignet wird. Von Gott dem
+Vater sagt Christus Johan: 17. Heiliger Vater / heilige sie in deiner Warheit /
+dein wort ist die Warheit. Von Christo spricht Paulus 1. Cor: 1. GOtt hat jhn
+vns gemacht zur Heiligung: Vnd Eph: 5. Christus hat seine gemeine geliebet / vnd
+hat sich selbst für sie gegeben / anff das er sie heiliget / vnd hat sie
+gereiniget durch das Wasserbad im Wort. Christus aber vnnd der heilige Geist
+werden zusammen gesetzt / 1. Cor: 6. jhr seid abgewaschen / jhr seid geheiliget
+/ jhr seid gerecht worden durch den nemen des HERRN JEsu / vnd durch den Geist
+vnsers GOTtes / denn Christus ist mit seinem verdienst der Heiligung / der
+heilige Geist aber macht vns derselben im Wort vnd Sacrament durch denn glauben
+Theilhafftig / Act: 15. GOtt reiniget oder heiliget jhre Hertzen durch den
+glauben. Lernen derwegen bey diesem andern Ehrentitel / woher eigentlich die
+rechte Heiligung / die für GOTT bestehet / komme / nemblich von GOTT selbst. Ist
+derwegen falsch vnd vnrecht der Calvini-
+<pb facs="#f0010"/>
+sten fürgebeu /
+daß die Kinder / die von heiligen Eltern geboren werden / die heiligung mit sich
+auß Mutter-Leibe bringen: Nein / die heiligen zeugen nicht Kinder nach dem Geist
+in heiligung / Sondern nach dem Fleisch in Sünden / Johan: 3. was vom Fleisch
+geboren wird / daß ist Fleisch: Vnd Fleisch vnd Blut können das Reich GOttes
+nicht ererben / 1. Cor: 15. Daher wir auch bekennen im 3. Artikel vnsers
+Christlichen glaubens: Ich gleube / daß ich nicht aus eigner vernunfft noch
+krafft an JEsum Christum meinen Herrn gleuben oder zu jhm kommen kan / sondern
+der heilige Geist hat mich durches Evangelium beruffen / mit seinen gaben
+Erleuchtet / Geheiliger / etc. Wo aber bey den heiligen oder geheiligten Leuten
+/ wie auch bey den gerechten / solche heiligung vnd gerechtigkeit des glaubens
+ist / da befleissigen sie sich auch durch den heiligen Geist der heiligkeit vnd
+gerechtigkeit / die Gott erfoddert vnd haben wil: Im 3. Buch Mosis am 19. vnd 1.
+Pet: 1. jhr solt heilig seyn / denn ich bin heilig / der ewer GOtt. Lucae am 1.
+daß wir erlöset auß der hand vnser Feinde im dienenten an furcht vnser Lebenlang
+/ in heiligkeit vnd gerechtigkeit / die jhm gefellig ist: Zun Röm: im 12. Cap.
+Ich ermane euch durch die barmhertzigkeit GOTTES / daß jhr ewre Leibe begebet
+zum Opffer / daß da lebendig / heilig vnd GOtt wolgefellig sey. 1. Thes: 4. daß
+ist der wille GOttes ewerer heiligung / daß jhr meidet die Hurerey / vnd ein
+jeglicher vnder euch wisse sein faß zubehalten in heili-
+<pb facs="#f0011"/>
+gung vn&#x0303; ehren / nicht in der lust seuge / wie die Heyden /
+die von Gott nichts wissen. Denn Gott hat vnß nicht beruffen zur vnreinigkeit /
+sondern zur heiligu&#x0303;g. Derwegen man beym heiligen vnd gerechten
+Wandel / damit man in heiligkeit vnd gerechtigkeit GOtt dienet / leichtlich von
+der rechten gerechtigkeit vnd heiligung des glaubens vrteilen kan vn&#x0303; Prüffen / welche die rechte gerechte vnd heiligen Leute seyn. In
+seiner Sprach klinge&#x0303; die wort / welches gar kurtzlich zuberühren
+/ also: Viri misericordiae: Män&#x0303;er oder Leute der Barmhertzigkeit
+/ denn das wir geheiliget werden von GOtt in Christo durch Wort vnd Sacrament /
+geschicht nicht auß vnserm verdie&#x0303;st / sondern auß lauter
+barmhertzigkeit Gottes / werde&#x0303; derwege&#x0303; die
+heilige&#x0303; oder geheiligte&#x0303; billich Leute der
+barmhertzigkeit Gottes geheissen / vnd solche heilige Leute / vnd Männer der
+barmhertzigkeit Gottes folgen zur dancksagu&#x0303;g jhre&#x0303;
+himlischen Vater / vn&#x0303; werde&#x0303; auch Män&#x0303;er oder Leute der barmhertzigkeit gege&#x0303; den neheste&#x0303; / daran Gott sonderlich lust hat / Oseae 6. vnd Mat: 9. ich habe
+wolgefalle&#x0303; an Barmhertzigkeit vn&#x0303; nicht am
+Opffer: Dar zu auch Christus vermanet Luc. 6. darumb seid barmhertzig / wie auch
+ewer Vater barmhertzig ist. Das ist der ander Ehrentitel frommer vnd grottselige
+Lente. Der dritte vnd letzte ist / daß sie genand werden richtige Wandeßleute /
+oder die richtig für sich gewandelt haben. Zum wandeln gehören Wege / derer sein
+fürnemblich zween / der eine ist Breit / vnnd jhr sindt viel die drauff
+<pb facs="#f0012"/>
+wandeln / der ander ist schmal / vnd wenig ist jhr / die jhn
+finden / sagt Christus Matth 7. Cap. Der breite Weg begreiffet in sich alle
+Holtz / jrre vnd abwege des Teuffels / vnd wird im 1. Psalm der weg der Sünder
+genant / denn die Sünder / daß ist / alle gottlose Leute werden drauff in
+stricken des Teuffels truncken von jhm gefangen geführet zu seinem willen / 2.
+Tim: 2. Ja von natur sein alle Menschen auff dem wege / Esaiae 53. Cap. Wir
+gingen alle in der jrre wie Schaffe / vnnd ein jeglicher sahe auff seinen Weg:
+Vnd Fleisch vnd Blut stehet jmmer der sinn / wenn man schon zu recht gebracht /
+nach dem Wege / im 95. Psalm: Es sind Leute derer Hertz jmmer den jrreweg wil /
+vnd die meine wege nicht lernen wollen. Der schmale weg aber begreifft in sich
+GOttes rechte Wege. Da nennet sich nu Christus selbst einen Weg / Johan: 14. Ich
+bin der Weg die Warheit vnd das Leben / niemand kömmet zum Vater / den durch
+mich. Es wird auch GOttes Wort GOttes Weg genant / im 25. Psalm / denn es zeiget
+vns den rechten Weg zum ewigen leben / vnd ist ein Liecht vnd Leuchte vnser
+Füsse im 119. Psalm: Wie wir auch singen / mein Füssen ist dein heiligs Wort /
+ein brennende Lucerne / ein Liecht das mir den Weg weist fort / . Ja es wird
+auch der gottseligkeit / vnnd eines jeden beruff der nahme weg gegeben / im 128.
+Psalm: wol dem der den HErrn fürchtet / vnd auff seinen Wegen gehet. Vnnd im 91.
+Psalm: Er hat seinen Engeln befohlen vber dir / daß
+<pb facs="#f0013"/>
+sie dich
+behüten auff alle deinen Wegen. Auff diesen Wegen GOttes sein nu die Frommen vnd
+Gottseligen / vnnd sein durch Christum drauff gebracht / von dem Holtz vnd
+Irreweg des Teuffels / 1. Pet: 2. Ihr waret wie die jrrende Schaffe / aber jhr
+seid nu bekehret zu dem Hirten vnd Bischoffe ewer Seelen. Vnnd diese Wege
+wandelen sie richtig für sich: Im Ebreischen heist es / gleich zu / recht gegen
+vber: Alß Ezech: 46. finden wir eben dasselbige Wörtlein / daß Volck im Landt /
+so für den HErrn kömmet auff die hohen Feste / vnd zum Thor gegen Mitternach
+hineingehet / anzubeten / daß sol durch das Thor gegen Mittag wieder
+heraußgehen: Die beyde Thor in dem Jerusalem / daß da beschrieben wird / daß
+Mitternächtische vnd Mittägische werden beschrieben / daß sie recht gegen
+einander vber sein sollen. Wer nu auff die hohen Feste zu dem Mitternächtischen
+eingangen / der hat zum Mittägischen recht zu mussen wieder hinauß gehen. So
+machens fromme vnd gottselige Leute in dem geistlichen Jerusalem / in der
+Kirchen / sie gehen zu dem Mitternächtischen Thor die heilige Tauffe oder Wort
+vnd Sacrament in der Kirche / vnd darauff gehen sie richtig im glauben nach dem
+Mittägischem Thor deß ewigen Lebens. Paulus braucht das Wörtlein <foreign xml:lang="el"><gap reason="fm"/></foreign> zun Philip: am 3. Cap. Ich vergesse / was dahinden ist /
+vnnd strecke mich zu dem / daß da Fornen ist / vnnd jage nach dem fürgesteckten
+Ziel. Summa / daß ichs kurtz fasse / die gerechten vnd
+<pb facs="#f0014"/>
+heiligen Leute machens nicht wie Lohts Weib / die hinder sich in die Welt sahe /
+vnnd jhr Hertz ans zeitliche hing / vnd drüber zur Saltzseule ward / Gen: 19.
+Sondern sie sehen für sich ins ewige Leben / vnnd sehnen sich nach jhrer
+Behausung / die vom Himmel ist / vnd sie verlangt / daß sie damit vberkleidet
+werden / 2. Cor: 5.</p>
+<p>Lernen derwegen bey diesem dritten Ehrentitel / weil wir in dieser Welt
+Wanderßleute / Pilgrim vnnd Frembdlinge sein / wie nicht allein hie vom Esaia /
+Sondern auch von Jacob Gen: 47. von David im 39. Psalm / vnd vom Petro 1. Cap.
+2. bekandt wird / wie wir vns dann in vnser Pilgrimschafft vnd Reise verhalten
+sollen / damit wir des ewigen Vaterlandes nicht feilen / daran vnß allen zum
+höchsten gelegen ist. Wir sollen nicht die krümme / Irre / Holtzwege des
+Teuffels vnd der Gottlosen Welt wandeln / wie wir dafür gewarnet werden / im 1.
+Psalm / wol dem / der nicht wandelt im Raht der GOttlosen / nach trit auff den
+weg der Sünder: Vnd in Sprichwörten Salomonis am 1. Mein Kind / wenn dich die
+bösen Buben locken / so folge nicht / wandele den Weg nicht mit jhnen / wehre
+deinen Fuß für jhrem Pfad Denn dieser des Teuffels vnd der gottlosen Weg
+vergehet / im 1. Psalm / auff dem wege ist eitel Vnfal vnnd Hertzenleid / Röm:
+3. vnd führet zum Verdamnis Matth: 7. Sondern wir sollen als Pilgrim vnd Bürger
+GOttes / im 39. Psalm / mit den gerechten vnd heiligen den
+<pb facs="#f0015"/>
+schmalen Weg GOTtes Richtig für vns wandeln / vnd weder zur rechten noch zur
+lincken Weichen / im 5. Buch Mosis am 5. Cap: Nicht hinder vns sehen / vnd die
+Welt lieb haben / noch was in der Welt ist: 1. Johan: 2. Sondern jmmer für vns /
+vnd vnsern Wandel mit GOTT im Himmel haben / zun Phil: 3. Cap. Vnser wandel ist
+im Himmel: Wie Henoch Gen: 5. ein göttlich leben fürete / oder wie in seiner
+Sprach stehet / mit GOTT wandelte. Vnd damit man auff dem Wege bestendig bleibe
+/ so ist ein fleissig gebet von nöten / daß man GOtt täglich anruffe / auß dem
+25. Psalm / HErr zeige mir deine Wege / vnnd lehre mich deine Steige: Vnd auß
+dem 143. Psalm / dein guter Geist führe mich auff ebener Bahn: Vnd trete man ab
+von dem Wege / sol man fluchs wie ein verjrretes Schäfflein schreien / auß dem
+119. Psalm / ich bin wie ein verjrret vnnd verloren Schaff / suche deinen
+Knecht: Bin ich getretten von der Bahn / laß mich O GOTT nicht fürbaß gahn /
+auff rechtem Weg mich leite / der dir gefall vnd ewig sey / mein gewissen / Leib
+vnd Seel dir frey / ewig stets sey bereitet. Dieser Weg ist nun GOTT lieb vnnd
+angenehm / der HERR kennet den Weg der Gerechten / im 1. Psalm: Vnd vnsere
+Seligkeit ist vns daran gelegen / denn er führet zum leben / Matth: 7. Derwegen
+wir wol richtig für vnß darauff Wandlen mögen / vnd vnsere sache fleissig in
+acht nemen. Daß ist der dritte vnd letzte Ehrentitel der Frommen vnd
+Gottseligen.</p>
+<pb facs="#f0016"/>
+<p>Hie gedenckt nun ein frommes Hertz / ach Gott / köntestu es doch so machen vnd
+anstellen / daß du diese selige Ehrentitel der außerwehlten / heiligen vnd
+vielgeliebten GOttes möchtest in der that vnnd warheit füren vnd davon bringen?
+Darzu kan ein jeder / Gott lob vnd danck kommen. Ich wils mit drey oder vier
+worten andeuten / vnd damit das erste Stück beschliessen / sonsten würde es zu
+lang werden. Laß dir deine Sünde von grund des Hertzen leid sein vnd thu Buß /
+gleube an JEsum Christum / der vns von GOtt gemacht ist zur Weißheit /
+Gerechtigkeit / Heiligung vnd Erlösung / vnd beweise den glauben mit einem
+gerechten / heiligen vnnd richtigen gottseligen Leben vnnd Wandel / so bistu ein
+gerechter / heiliger vnnd richtiger Wanderßman vnd anßerwehleter GOTtes / vnnd
+darffst / so wahr alß GOtt lebt / an der Seligkeit nicht zweiffelen. Gnug vom
+Ersten,</p>
+</div>
+<div>
+<head>Vom Andern.</head><lb/>
+<p>HIrauff folget das ander Stück / vom vnglück der Gerechten / heiligen / richtigen
+Wanderßleuten in dieser Welt / vnd wie solches die Welt Kinder achten / vnd was
+GOtt damit andeute vnd meine. Daß stück begreifft in sich 2. Vmbstende / die wir
+nach einander erwegen wollen. Erstlich stehet hie / der Gerechte kommet vmb /
+Perit / wird verloren. Diß sollen
+<pb facs="#f0017"/>
+vnd müssen wir nicht
+verstehen vom verdamlichen vmbkommen / alß wen&#x0303; die gerechten vnd
+heiligen verdampt würden: Das sey ferne / denn davon lesen wir viel anders /
+Johan: 3. Cap. Also hat GOTT die Welt geliebet / daß er seinen eingebornen Sohn
+gab / auff das alle / die an jhn gleuben / nicht verlohren werden oder vmbkommen
+/ Sondern das ewige leben haben. Vnnd Johan: 10. meine Schaffe hören meine
+Stimme / vnd ich kenne sie / vnd sie folgen wir / vnd ich gebe jhnen das ewige
+Leben / vnd sie werden nimmermehr vmbkommen / vnnd niemand wird sie mir auß
+meiner Handt reissen: Sondern daß vmbkommen ist zuverstehen von grossem Creutz
+vnnd Vnglück / dem die Frommen vnd Gottseligen in diesem leben gemeinlich für
+andern müssen vnterworffen seyn / wie im 34. Psalm bekandt wird: Der gerechte
+muß viel leiden. Da bleibts aber nicht bey / sondern es wird hinzugesetzt / sie
+werden auff vnd weggerafft / daß ist / GOtt lest sie offt eines schnellen vnd
+plötzlichen Todts sterben / reisset jhnen das leben ab / damit es noch wol
+lenger hette wehren können / vnd greifft sie in Todtes nöten hart an / lest sie
+ein schweres vnd für Menschen augen / schreckliches ende nemen / daß man an
+jhrer Seligkeit zweiffeln vnd sie verlornen möchte achten / wenn man menschlich
+oder nach der vernunfft davon vrteilen wolte / wie im Buch der Weißheit am 3.
+Cap. dahin gedeutet wird: Für den vnverstendigen wird der Gerechten abscheidt
+für ein Pein gerechnet / vnd jhr hinfart für ein verderben oder vntergang.</p>
+<pb facs="#f0018"/>
+<p>Diese erste Vmbstende gibt vns nützliche Erinnerungen: Anfenglich werden wir
+dabey erinnert / daß GOTT gerechte / heilige vnd richtige Wanderßleute / daß ist
+/ die Frömbsten vnnd Gottseligsten nicht auff ein weich Küssen setze in diesem
+leben / vnd jhnen / wie man sagt / rosen zulache / sondern er nimbt sie hart mit
+/ vnd lest sie grossem / vielem vnd schwerem Creutz vnterworffen seyn / in der
+Apostel geschicht am 14. Wir müssen durch viel trübsal in das reich GOTtes
+gehen. Das beklagt der gerechte Jacob im ersten Buch Mosis am 47. Cap. Die zeit
+meines lebens / sagt er / ist wenig vnd böß. Darvber winselt der heilige Assaph
+im 73. Psalm / ich bin geplagt täglich / spricht er / vnnd meine Straffe ist
+alle morgen da. Deßhalben seufftzet Hiob / der richtig für sich gewandelt hat /
+im 6. Cap. wenn man meinen jammer wäge / vnd mein leiden zusam&#x0303;en
+in eine Wage legte / so würde es schwerer seyn / denn Sand am Meer. Davon lesen
+wir auch merckliche wort zun Hebre: im 11. Cap. wie die Gerechten vnd Heiligen
+vmbkom&#x0303;en / vnd wie vbel es jhnen gangen: Etliche haben Spott
+vnd Geisseln erlitten / dazu bande vn&#x0303; gefengnis / sie sind
+Gesteinget / Zuhackt / Zustochen / durchs Schwert getödtet / sie sind
+vmbhergegangen in Peltzen vnd Ziegenfellen / mit mangel / mit trübsal / mit
+vngemach / der die Welt nicht werd war / vnd sind im elendt gegangen / in der
+Wüsten / auff den Bergen / in den klüfften vnd löchern der Erden. Derwegen soll
+man solch Creutz der frommen nicht für ein
+<pb facs="#f0019"/>
+Zornzeichen
+ansehen / sondern viel mehr für ein Gnadenzeichen / den&#x0303; welchen
+der HErr lieb hat / denn züchtiget er / er steupt einen jeglichen Sohn / denn er
+auff nimbt / zun Hebre: im 12. Cap. vnd GOtt hats also verordnet / es sol / kan
+vnd muß nicht anders seyn / zun Röm: im 8. Cap. welche GOtt zuvor versehen hat /
+die hat er euch verordnet / daß sie gleich sein sollen dem Ebenbild seines
+Sohns. Tobiae am 12. weil du Gott lieb warest / so musts so seyn / ohn
+anfechtung mustestu nicht bleiben / auff das du bewert würdest. Darumb sollen
+alle gerechte&#x0303; / heiligen vn&#x0303; richtige Wanderßleute
+sich nur darzu schicken vnd gefast machen / wie Syrach im 2. Cap. erfoddert /
+Mein Kind wiltu Gottes diener seyn / so schicke dich zur anfechtunge / etc.
+Den&#x0303; gleich wie das Golt durchs fewr / also werde&#x0303; die / so Gott gefalle&#x0303; / durchs Fewer der trübsal beweret.
+Darnach werden wir hirbey erinnert / wz von eine&#x0303; schnelle&#x0303; vn&#x0303; plötzlichen todt zuhalten / daß ne&#x0303;lich derselbe nicht allezeit böse sey. Zwar der gottlosen
+schneller todt ist allezeit böß / im 73. Ps. du setzest sie auffs schlipfferige
+/ vnd stürtzest sie zu boden. Wie werden sie so plötzlich zu nichte / sie gehen
+vnter vnd nemen ein ende mit schrecken. Im 49. Ps. sie sehen das Liecht nim&#x0303;ermehr / vn&#x0303; fahren davon wie ein Vieh: Wie der
+schneller Todt nachfolge&#x0303;der Gottlosen / des Pharaonis Exod: 14.
+des Nabals / 1. Samuel 25. deß geitzhalses L: 12. deß Herodis / in der Apst:
+geschicht im 12. C: vnd anderer mehr außweiset: Aber dagege&#x0303; ist
+der gerechte&#x0303; / heilige&#x0303; / vn&#x0303; die für
+sich richtig gewa&#x0303;delt habe&#x0303; / schneller vn&#x0303; plötzlicher todt nicht böß / sondern gut /
+<pb facs="#f0020"/>
+wie hie außdrücklich bezeuget wird / heilige Leut werden weggerafft / vnd
+sterben offt schnell vnnd plötzlich dahin / aber deßhalben werden sie nicht
+verdampt / sondern kommen zum frieden vnd werden selig / denn selig sind die
+Todten die im HERRn sterben (es geschehe schnell oder langsamb) in der
+Offenbahrnng Johannis im 14. Cap. Wie aus dem Exempel des frommen vnd
+gottseligen Jonathans / der heiligen vnd gottseliger Kinder Hiobs / vnd anderer
+gerechten Leute mehr / die schleunig drauff gangen / abzunemen ist. Derwegen sol
+man in plötzlichen fällen der Frommen hiran gedencken / vnd sich vber jhrem
+schnellen Todte keine böse noch schwermütige gedancken machen / vnnd auß jhrem
+vorher gehenden heiligen vnd gottseligen leben / dz sie gefüret haben /
+vrteile&#x0303; / wie Augustinus schreibt: malâ mors putanda non est,
+quam bona vita praecessit, der Todt ist nicht für böß zuachten / für dem ein gut
+vnd gottselig Leben fürhergangen. Deßhalben bitten wir auch nicht schlecht in
+der Litaney / daß vnß GOTT für einem schnellen / Sondern für einem bösen
+schnellen Todt wolle behüten. Darumb wende ein jeder fleiß an / daß er allezeit
+dem HErrn lebe / so wird er auch gewiß / wenn er schon plötzlich davon muß / dem
+HErrn sterben / wie zun Röm: am 14. geschrieben stehet: Vnser keiner lebt im
+selber / vnd vnser keiner stirbt im selber / leben wir / so leben wir dem HERrn
+/ sterben wir / so sterben wir dem HErrn / darumb wir leben oder sterben / so
+sind wir des HErrn.</p>
+<pb facs="#f0021"/>
+<p>Zu letzt werden wir auch hierbey erinnert / was am Todt der Gerechten vnd
+heiligen zuthun. Es gehet fürwar so schlecht nicht ab / wie mancher meinet /
+Sondern GOtt greifft jhnen rechtschaffen in Haut vnd Haar / in Marck vnd Bein /
+in Hertz vnd Geist / in Leib vnd Seel / darvber sich schwere gedancken erregen /
+vnd ein schwer ende offt darauff folget. Das alles wird angedeutet mit dem
+wörtlein Vmbkommen vnd Wegraffen. Das sehen wir an Hiob / da der denn Todt für
+augen sahe / zappelte er / Es kam jhn grawen vnd schrecken an / vnd war jhm zu
+sinn / alß wehre jhm GOtt in einen grawsamen verwandelt / im 30. Cap. Wir
+sehens an dem frommen vnd gottseligen Hißkia / da der in seiner Kranckheit vom
+Tvdte angesprochen ward / da gings hart her / er sprach / ich muß zur Hellen
+Pforten fahren / ich muß nicht mehr sehen den HErrn / Ja den HERRn im Land der
+Lebendigen: GOTT zubrach jhm / wie er ferner bekennet / alle seine gebeine / wie
+ein Lewe: Er warff sich von einer seiten zur andern / winselt wie ein Kranch vnd
+Schwalbe / vnd girret wie eine Taube / vmb Trost wahr jhm sehr bang / Esaiae im
+38. Cap. Wir sehens auch sonderlich an vnserm HERRN vnd Heyland JESV Christo /
+wie hart jhn sein himlischer Vater im hinwegraffen angegriffen / daß seine Seele
+betrübt worden biß in denn Todt / daß er gezittert vnd gezagt / daß er blutigen
+Schweiß geschwitzet / vnd in Todtes nöten geheulet vnd geklagt: Mein GOtt / mein
+GOtt /
+<pb facs="#f0022"/>
+warumb hastu mich verlassen / Matth: 27. So hart helt
+vnd gehet es gemeinlich zu bey den aller Frömbsten. Das einem offt / wenn mans
+sihet vnd höret / die Haar darüber zu berg stehen Aber das ist kein böß /
+sondern ein gut zeichen / denn da ereuget sich der rechte geistliche Kampff /
+vnd das ist das rechte Medium vnd Mittel / zu welchem es den gottlosen nicht
+kommet / denn die sterben endweder dahin in excessu, in verdamlicher
+verzweiffelung wie Saul / Judas vnd dergleichen: Oder sie sterbe&#x0303;
+in defectu, in tieffer sicherheit / fülen nichts von anfechtungen / erschrecken
+kaum ein augenblick für der Helle / Hiob im 21. Ca. alß wen&#x0303; sie
+mit dem Todt einen bund / vnd mit der Hellen einen verstand gemacht / Esaiae im
+28. Cap. wie der gottlose Agah der Amalehiter König / da jhn Samuel tödten / vnd
+in stücke zerhawen wolte / sich gar trotzig vnd frech darstellete / vnd in
+tieffster sickerheit sprach: Also muß man des Todtes bitterkeit vertreiben / 1.
+Sam: 15. derwegen man sich an der Gerechten vnd Heiligen schwerem ende nicht er
+gern noch stossen sol / sondern das sollen viel mehr vnsere Gedancken dabey seyn
+/ thut das GOtt am grünen Holtz vnd lest die so ein schwer ende nemen / was wil
+am dürren vnnd den Gottlosen werden? Luc: 23. vnd so das Gericht GOTTes an den
+Gottseligen zu erst (vnd so schwer) anfengt / was wils für ein ende werden mit
+denen / die dem Evangelio GOttes nicht gleuben? Vnd so der Gerechten kaum
+erhalten wird / wo wil der Gottlose vnnd Sünder er-
+<pb facs="#f0023"/>
+scheinen? 1. Pet. 4. Sollen derwegen solche Leute nicht für die grösten
+Sünder halten / wie wir pflegen zuthun / sondern vns durch solch schnell vnd
+schwer ende der gerechten vnd heiligen zur Buß auffmuntern lassen / wie Christus
+vermanet / Luc: 13. da verkündige&#x0303; jm etliche vo&#x0303;
+den Galileern / welcher Blut Pilatus mit jhre&#x0303; opffer vermischet
+hatte / drauff antwortet er jhne&#x0303; vn&#x0303; spricht:
+Meinet jhr / dz diese Galileer für alle&#x0303; Galileern Sünder gewesen
+sind / dieweil sie das erlitten haben? Ich sage euch / Nein / sondern so jhr
+euch nicht bessert / werdet jhr alle auch so vmbkom&#x0303;en. Oder
+meinet jhr / dz die achtzehen / auff welche der Thurn in Siloha fiel / vnd
+erschlug sie / sein schuldig gewesen für allen Menschen / die zu Jerusalem
+wonen. Ich sage euch / Nein / sondern so jhr euch nicht bessert / werdet jhr
+alle auch also vmbkommen. Das ist die erste Vmbstende.</p>
+<p>Die ander ist / wenn also die Gerechte&#x0303; vnd heiligen vmbkommen /
+vnd plötzlich hingerafft werden / wie solches von Welt Kindern geachtet werde /
+vnnd was GOtt damit andeute vnd meine. Die Welt Kinder betreffent / so wird von
+denselben alhie angezeiget / daß es niemandt vnder jhnen zu Hertzen nehme / noch
+darauff achte / oder wie in seiner Sprach stehet / niemand legt es auffs Hertz /
+vnd keiner von jhnen verstehets / daß ist / schlagens in den Wint / dencken dem
+ding nicht nach / lassen sich nach wol spöttischer Wort vernemen / vn&#x0303; frewe&#x0303; sich offt / daß sie solcher Leute sein loß
+worde&#x0303;: Gott aber anlangent / so ist derselbe viel anders
+<pb facs="#f0024"/>
+gesinnet / der helt die gerechten vnd heiligen lieb / hoch
+vnd werd / vnnd hat sie alß einen sonderlichen grossen schatz vnd gabe der Welt
+gegeben / weil sie es aber nicht erkennen / so entzeucht er sie jhnen wieder /
+vnnd in dem er sie hin wegrafft / so rafft er sie hinweg fürm Vnglück / damit er
+die Welt von wegen jhrer vndanckbarkeit vnd Sünden gedenckt zustraffen / vnd
+deutet an / da er biß anhero vmb der gerechten willen mit dem Vnglück zurück
+gehalten / so wolle er hinfort nach der gottseligen Todt seine rach vnd straffe
+vber die Gottlosen ergehen lassen / vnd jhrer nicht lenger schonen.</p>
+<p>Bey dieser anderer Vmbstende / haben wir auch denckwirdige Erinnerungen in acht
+zunehmen. Die eine ist / daß der gerechten vnd heiligen Todt vnd Abgang eine
+grosse straff GOTTes von wegen der vndanckbarkeit der Welt sey. Das kan man
+rohen vnnd gottlosen Leuten nicht weiß machen / die gleuben des Contrarium vnd
+Gegenspiel / daß gerechte vnd heilige Leute viel mehr ein Fluch vnnd Fegopffer
+aller Welt seyn / 1. Cor: 4. vnnd wenn die alle hinweg wehren / so würde aller
+Fluch hin seyn / vnd die Welt von allem Vnglück gefeget seyn / vnd alle Lande in
+ehren stehen. In der meinung war die gantze rotte Korah / Dathen vnd Abiram /
+Num: 16. wenn nur Moses müchte hin seyn / so solte es kein noth mehr haben / so
+wolten sie gleiches Fusses ins gelobte Landt gehen. Der meinung war auch der
+König Ahab / vnd ließ sich bedüncken / Elias verwirrete gantz Israel / vnd von
+jhm oder
+<pb facs="#f0025"/>
+seinenthalben kehme all vnglück ins Land / wehre der
+aus dem mittel gereumet / so wolte er mit Land vnnd Leuten Floriren / 1. Reg:
+18. der meinung waren auch die Leute zu Christi vnd Apostel zeiten / wenn die
+erst hin wehren / würde jhnen hinfort kein Nagel zu nahe stehen / sondern würden
+eitel glück haben. Vnnd die Warheit zubekennen / so sein noch heutiges tages
+viel ruchlose vnd sichere Leute / derselben meinung / wie es jhre reden offt
+geben / wenn Pfaffen / vnnd andere fromme / redliche vnnd trewe Leute erst auß
+dem wege wehren / so wolten sie sich für glückselig achten / daß würde eine
+grosse gnade vnnd wolthat GOTTES seyn: Aber sie jrren vnd feilen weit / denn
+wenn GOtt gerechte / heilige / fromme / trewe Leute gibt vnd erhelt / daß ist
+eine grosse Gnade / lest er sie aber sterben vnnd nimbt sie hinweg / so ists
+eine grosse straff / wie GOtt mit solcher straff dem vndanckbaren Jerusalem
+drewet / Esai: im 3. Cap. siehe der HERR HERR Zebaoth wird von Jerusalem vnnd
+Juda nehmen allerley vorraht / denn vorraht des Brots vnnd allen vorraht des
+Wassers / starcke vnd Kriegßleute / Richter / Propheten / Warsager vnd Eltesten
+/ Heuptleute vber Fünffzig / vnd ehrliche Leute / Rähte vnnd weise Werckleute /
+vnd kluge Redener. Vnd wil jhnen Jünglinge zu Fürsten geben / vnnd Kindische
+sollen vber sie Herschen / vnnd das Volck wird Schinderey treiben / einer vber
+den andern / vnd ein jeglicher vber seinen Nehesten / vnd der Junger wird stoltz
+sein wieder
+<pb facs="#f0026"/>
+den Alten / vnd ein böser Mann wieder den
+Ehrlichen. Derwegen wenn man gerechte / heilige / fromme / also auch trewe vnd
+rechtschaffene Leute hat / sol mans mit danck gegen GOtt erkennen / sie lieb vnd
+werd halten / vnd bey sich bleiben vnd wohnen lassen / Psal. 101. Damit GOtt
+nicht straffe / vnd sie hinweg nehme.</p>
+<p>Die ander Erinnerung ist / daß auff heiliger / gerechter vnd frommer Leute Todt
+vnd Abschied nichts gewissers zu vermuhten als Vnglück / denn werden sie für dem
+Vnglück weggerafft / so muß ja das Vnglück darauff folgen. So lang sie leben /
+wenden sie mit jhrem gebet vnd heiligem leben viel Vnglücks ab / vnnd schonet
+GOtt vmb jhrentwillen offt Königreich vnd eines gantzen Volcks / alß vmb zehen
+gerechter willen / hatt GOtt fünff Königreich mit der straff vbersehen wollen /
+Gen. 18. vnd vmb des gerechten Mosis willen schonete GOtt / deß Judischen Volcks
+/ welches er sonsten in seinem Zorn aufffressen vn&#x0303; vertilgen
+wolte / Exod. 32. Daher die gerechte&#x0303; / so lang sie leben / mit
+jhrem gebet ein Mawer wieder denn riß genant werden / im 106. Psalm. Wenn aber
+die Mawr dahinfelt / vnd die Gerechten sterben / so reist der riß weiter / vnd
+ist kein heilen mehr. Dessen haben wir ein Exempel am Samuel dem Gerechte&#x0303; / so lang der lebte / blieb manch Vnglück zurück / den&#x0303; er betete fleissig für das Volck vn&#x0303; lehrete sie
+den guten vnd richtigen Weg / 1. Sam. 12. Cap. aber so bald der gestorben vnd
+weggerafft wahr / ist dz Vnglück zu allen Thoren / Thüren vnd Fenstern
+<pb facs="#f0027"/>
+hineingeschlagen / vnd ist alles vber vnd vber gangen. Wir
+habens auch ein Exempel an dem Gerechten vnd Heiligen Jojada / so lang der lebte
+/ gings dem Könige Joas vnd seinen Vnderthanen wol / aber da der starb vnd
+weggerafft ward / wehret es nur ein Jahr / da zog das Heer der Syrer herauff /
+vnd verheereten vnd verderbten alles: 2. Chron. 24. So ists auch zugangen mit
+der Stadt Jerusalem / so lang Christus vnnd die Apostel noch drin&#x0303;e&#x0303; gewese&#x0303; / hats kein noht gehabt: aber da
+die nach viertzig Jahren draus gewesen / ist sie gee&#x0303;gstet an
+allen örten / belegert / geschleifft / vnd kein Stein anff de&#x0303;
+andern geblieben / L. 19. Diß solle&#x0303; wir nu darzugebrauchen / weil
+im vorige&#x0303; vn&#x0303; jtzige&#x0303; Jahr viel
+from&#x0303;e vn&#x0303; heiliger Leute hohes vn&#x0303; nidriges Sta&#x0303;des hinweggerafft sein worde&#x0303; / daß
+wir vns die gewisse rechnung mache&#x0303; / es müsse noch ein groß
+Vnglück dahinde&#x0303; seyn / GOtt gebe es sey auch was es wolle / vnnd
+sonderlich weil zu dieser hinwegraffung der from&#x0303;en noch andere
+zeichen vnd wunder mehr kommen seyn. Sollen derwegen solchs nicht mit den
+Spöttern verlachen / sondern drauff achten / vnd zu hertzen nemen / auffm
+Hertzen sols vns liegen / wir sollens drauff legen / vns bessern / dra&#x0303; kehren / buß thu&#x0303; / vn&#x0303; vns zu Gott
+schicke&#x0303; / nach Gottes vermahnu&#x0303;g beym
+Prophete&#x0303; Amos 4. C. weil ich dir de&#x0303; also
+thu&#x0303; wil / so schicke dich Israel / vn&#x0303; begegne
+GOtt. Thun wir dasselbe / so wird Gott mit dem Vnglück innehalten / vnnd wirds
+jhn gerewen / wie zu Ninive auff die hertzliche Buß des Königs
+<pb facs="#f0028"/>
+vnd aller seiner Vnterthanen geschehen: Welches auch GOTT selbst Jeremiae 18.
+verheisset / plötzlich rede ich wieder ein Volck vnnd Königreich / daß ichs
+außrotten / zerbrechen vnnd verderben wolle. Wo sichs aber bekehret von seiner
+Bößheit / da wieder ich rede / so sol mich auch rewen das Vnglück / daß ich jhm
+gedachte zu thun. Kehren wir vns aber nicht dran / vnd lassen weder mündliche
+der Prediger / nach augenscheinliche warnungen GOTTes bey vns gelten / so wird
+GOtt des Vnglücks siebenmahl mehr machen / wie im dritten Buch Mosis im 26. Cap.
+geschrieben stehet. Er wird vnfal / vnrath vnd vnglück vnder vns senden in allem
+/ daß wir für die hand nemen zu thun / biß wir vertilget werden vnd vntergehen
+vmb vnsers bösen Wesens willen / wie GOtt drewet im 5. Buch Mosis am 28. Cap. Ja
+es wird die hand des HErrn wieder vns sein zum Vnglück / wohin wir nur hinauß
+wollen / wie wir im Buch der Richter im 3. Cap. lesen. Derwegen bitte ich vmb
+GOttes willen / wer ein hertz hat / der lege diese fälle der Gottseligen drauff
+/ vnd laß es jhm kein schertz noch spott seyn / denn GOTT lest sich nicht
+spotten / zun Galat: am 6. Auch gnug vom Andern.</p>
+</div>
+<div>
+<head>Vom Dritten.</head><lb/>
+<p>NV ist noch vbrig das Dritte vnd letzte Stück / daß wollen wir auch kürtzlich
+mitnehmen: Das
+<pb facs="#f0029"/>
+beruhet darinnen / was der Gerechten /
+Heiligen vnd die richtig für sich Gewandelt haben / glück sey in vnnd nach dem
+Todte. Weil sie hie in diesem leben gemeinlich eitel Vnglück haben / so wil
+gleichwol GOTT nicht / daß das allezeit also bleiben sol / sondern es muß sich
+einmahl vmbkehren / denn GOTT wil nicht den Gerechten ewiglich in Vnruhe lassen.
+Da wendet sichs derwegen im Todt: Vnd wird hie ein zwiefaltig Glück namhafftig
+gemacht. Erstlich spricht der Prophet an GOttes stadt: Die Gerechten werden
+weggerafft für dem Vnglück. Das wort auff oder wegraffen stehet zweymahl in
+diesem Spruch / daß erstemahl wird eigentlich damit gesehen auff die schwerheit
+der Gottlosen Todt / davon im vorher gehenden stück bericht geschehen: Daß
+andermahl aber wird damit angedeutet das glück der gottseligen / daß sie im
+Todte erlangen / davon in diesem Stück zu handlen. Da rafft sie nu GOtt
+deßhalben weg / daß sie das zukünfftige grosse Vnglück nicht sehen noch
+außstehen dürffen. Im Ebreischen finden wir das wörtlein samlen oder zusammen
+binden / alß zum Exempel / wenn ein Ackerman in der Ernden vermercket / daß ein
+groß Vngewitter fürhanden / so samlet vnnd bindet er das beste in der eile
+zusammen / damit es ins schur / wie wir reden / vnd ins trocken bringe: Also
+wenn GOtt ein vngewitter oder vnglück vber die Menschen von wegen jhrer bößheit
+beschlossen hat / so samlet vnd bindet er auch gleich zusam&#x0303;en /
+die Gerechten vnd Gottselige&#x0303; /
+<pb facs="#f0030"/>
+er samlet vnd
+bindet sie ein in das bündlin der Lebendigen / damit sie des Vnglück nicht
+treffe / vnd sie es mit jhren augen nicht sehen / noch erleben dürffen: Im 1.
+Buch Samuel. 25. Cap. Die Seele meines Herrn wird eingebunde&#x0303; sein
+in Bündlin der Lebendige&#x0303; bey dem HErrn deinem GOtt. Wir finden
+auch das wörtlein raffen oder samle&#x0303; in seiner Sprach im 1 Buch
+Mosis im 6. Cap. Da befielt GOtt dem Noah / weil er eine Sindflut wolle kom&#x0303;en lassen / vn&#x0303; damit dz Erdreich vberschwem&#x0303;en / so sol er allerley Speise zu sich nemen vn&#x0303;
+sie in den Kasten für sich vn&#x0303; allerley Thier samlen: Solche
+Sindflut vom Wasser der Trübsal kom&#x0303;en noch heutiges tages offt
+vber Land vnd Leute / da samlet den&#x0303; GOtt vorher in seinen Kasten
+die Gerechten / damit sie nicht vberschwemmet werden. So hat Gott gesamlet vn&#x0303; fürm Vnglüch hinweggerafft Jerobeams from&#x0303;es
+Sönlein / 1 Reg. 14. dieser allein von Jerobea&#x0303; wird zu grabe
+kom&#x0303;en / darumb das etwas guts gefunden ist für dem HErrn dem
+GOtt Israel im Hause Jerobeam. Das hat auch GOtt dem from&#x0303;en Josia
+zugesagt / 2. Reg. 22. Ich wil dich zn deinen Vätern samleu / daß du mit
+friede&#x0303; in dein Grab versamlet werdest / vnd deine Augen nicht
+sehen alle das Vnglück / daß ich vber diese städte bringen wil. Dz ist nu ein
+gros glück der Gerechten vn&#x0303; heilige&#x0303; im Tode / dz
+sie für de&#x0303; Vnglück hinweggerafft werden / welches man inder
+Sindflut / vn&#x0303; in der zerstörung der Stadt Jerusalem hat erken&#x0303;en können / vn&#x0303; noch auff den heutigen tag offt in
+grossem
+<pb facs="#f0031"/>
+Vnglück erkennen kan / was für glückselige Leute die
+Todten seyn / die für dem Vnglück hinweggerafft seyn / vnd nichts davon wissen /
+für den Lebendigen / die es müssen außstehen / vnd an sich selbst vnd jhren
+Kindern vnnd Freunden erfahen. Derwegen wen heutiges tage der liebe GOtt die
+from&#x0303;en hinwegrafft / sollen sie jhm billig im Siegbette von
+hertzen dafür dancken / vn&#x0303; nichts mehr / wünscheu vnd begehren /
+den&#x0303; sie dadurch allem Vnglück auß dem wege kommen. Das ist
+ein Glück.</p>
+<p>Darnach spricht der Prophet Esaias an Gottes stadt / die Richtig für sich
+gewandelt haben kom&#x0303;en zum frieden / vn&#x0303; ruhen in
+jhren Kam&#x0303;ern. Hie in dieser Welt kön&#x0303;ens die
+From&#x0303;en vnd Gottseligen zum bestendigen fried vnd ruhe nicht
+bringen: Der Mensch muß hie jmmer im Streit seyn / vnnd seine tage sind wie
+eines Taglöners Hiob 7. Inwendig ist furcht vnnd außwendig Streit / 2. Cor. 7.
+Zu solchem Vnfrieden vnd Vnruhe hilfft das Fleisch / daß wir an vns haben / denn
+das ist immer wieder den Geist / Gal. 5. vnnd macht vns manche Vnruhe / wie
+Paulus drüber klagt / Rom: 7. Ich sehe ein ander Gesetz in meinen Gliedern / daß
+da wiederstreitet dem Gesetz in meinem Gemüte / vn&#x0303; nim&#x0303;et mich gefangen in der Sünden Gesetz / welches in meinen
+Gliedern ist / ich elender Me&#x0303;sch / wer wird mich erlösen von dem
+Leibe dieses Todts? Zu solchem Vnfrieden vnd Vnruhe hilfft auch die schnöde
+vn&#x0303; böse Welt / die die Gerechten hasset / verfolget vn&#x0303; jne&#x0303;
+<pb facs="#f0032"/>
+alles hertzleid anthut / wie Christus bekennet Johan: 16. in
+der Welt habt jhr angst. Vnd abermahl: warlich / warlich ich sage euch / jhr
+werdet weinen vnd heulen / aber die Welt wird sich frewen / jhr aber werdet
+trawrig seyn. Es hilfft auch zu dem vnfrieden vnd vnruhe der Teuffel / der den
+Gottlosen wehe thut / Apoc: 12. sie begeret zu sichten / wie man den Weitzen
+sichtet / Luc: 22. vnd vmb sie her gehet / wie ein brüllender Lewe / vnd sie
+sucht zuverschlingen / 1. Pet: 5. mit dem sie jmmer zukempffen haben / Eph: 6.
+daß also recht vom heiligen Hiob gesagt wird / 14. Cap. Der Mensch vom Weibe
+geborn ist vol vnruhe. Solches vnfriedens vnnd vnruhe kommen die Gottseligen ab
+im Todte / denn die Seele kompt alß bald zu GOtt in den Himmel in ewigen
+frieden: Im Buch der Weißheit im 3. Cap. der gerechten Seelen sind in GOttes
+Handt / vnd keine Quale rüret sie an / etc. vnnd sie sind im Friede. So kam
+Lazari Seele zum friede im Todt / denn sie ward von den Engeln GOTTES in
+Abrahams Schoß getragen / Luc: 16. So kam auch des bußfertigen Schechers Seele
+zum friede im Todt / wie jhm Christus zusaget / Luc: 23. heute wirstu bey mir im
+Paradiß seyn. Der Leib aber kömpt zur ruhe in seiner Kammer. Apocal: 14. sie
+ruhen von jhrer arbeit: Esai: 26. gehe hin mein Volck in eine Kammer / vnnd
+schleuß die Thür nach dir zu / verbirge dich ein klein Augenblick / biß der Zorn
+fürvber gehe. Das die Gräber der Gleubigen vnd Gottseligen ruhe vnd
+<pb facs="#f0033"/>
+Schlaffkammer genant werden / ist sehr tröstlich / vnd wird
+vns eins damit zuverstehen gegeben / daß der frommen Todt für GOtt kein Todt /
+sondern nur ein Schlaff sey / denn wie man in Schlaffkammern ruhet vnd schlefft
+/ so schlaffen die Gottseligen nach dem Leibe in den Gräbern: Wie GOtt zum David
+sagt 2. Samuel 7. Wenn nu deine zeit hin ist / daß du mit deinen Vätern
+schlaffen ligst. Matth. 9. spricht Christus gleichfals / daß Mägdlein ist nicht
+Todt / sondern es schläfft. Vnnd Johan. 11. Lazarus vnser guter freund Schlefft:
+Vnd Act. 7. Stephanus nach dem er das gesagt / entschlieff er / daher ists auch
+kommen / daß die Kirchhöffe / da die Christen begraben werden / <foreign xml:lang="el"><gap reason="fm"/></foreign>, dormitoria Schlaffhäuser genant werden. Derwegen weil der
+Todt ein Schlaff / die Kirchhöffe Schlaffhäusser / vnnd die Gräber schlaff vnnd
+ruhe kammern seyn / sollen wir vns für dem Todt vnd Grab nicht fürchten / auch
+wen&#x0303; vns die vnsern absterben vnd entschlaffen / vnnd nach den
+ruhe Kammern getragen werden / nicht betrüben / denn haben wirs doch von hertzen
+gerne / wenn wir vns den gantzen tag müde gearbeitet vnd abgemattet haben / daß
+wir des abens mögen zur ruhe kommen / so gönnen wir auch vnsern Kindern vnnd
+guten Freunden / die in Kranckheiten nicht schlaffen können / gern den schlaff:
+Wie solten vnd wolten wir den&#x0303; nicht damit zufrieden seyn / wenn
+wir oder die vnsern zur bestendigen ruhe vnnd schlaff im Tode zum grabe gebracht
+werden?
+<pb facs="#f0034"/>
+Darnach wird vns auch damit / daß der Christen Gräber
+schlaff vnd ruhe Kammern genant werden / zuverstehen gegeben / daß sie werden
+wieder aufferstehen / den&#x0303; wie man in schlaff vnd ruhe Kammern
+nicht liegen bleibt / sondern stehet des morgens wieder auff viel frischer vnd
+lustiger / alß man sich niedergelegt / also werden auch die Gerechten vnd
+Gottseligen in jhren schlaff vn&#x0303; ruhe Kam&#x0303;ern / in
+Gräbern nicht bleibe&#x0303; / sondern am jüngsten Tage wieder
+aufferstehen / Esai. 26. Cap. deine Todten werden Leben / vnd mit dem Leichnam
+aufferstehen. Wacht auff vnd rumet / die jhr liegt vnter der Erden / den&#x0303; dein Taw ist ein Taw des grünen Feldes / aber dz Landt der
+Todten wirstu stürtzen: Daniel. 12. Viele so vnter der Erden schlaffen liegen /
+werden auffwachen. Das wird eine heilige Aufferstehu&#x0303;g seyn /
+den&#x0303; hie wird es geseet verweßlich / vn&#x0303; wird
+aufferstehen vnverweßlich / es wird geseet in vnehre / vnnd wird aufferstehen in
+Herrligkeit / es wird geseet in schwachheit / vnd wird aufferstehen in Krafft /
+es wird geseet ein natürlicher Leib / vnnd wird aufferstehen ein geistlicher
+Leib / 1. Cor. 15. de&#x0303; verklerten leibe des Herrn Christi ehnlich
+Phil. 3. Da werde&#x0303; die Gerechten alles leides reichlich ergetzet
+werden / vnd beken&#x0303;en müssen / daß dieser zeit leiden nicht werth
+sey / der herrligkeit die alß dan&#x0303; an jhnen offenbaret wird Rom.
+8. Das ist nu der höchste vnd beste Trost / dessen man sich von gantze&#x0303; hertzen erfrewen sol in allem Vnglück / vnnd im Todt selber /
+wie Hiob thut 19. Cap. Ich weiß / daß mein
+<pb facs="#f0035"/>
+Erlöser lebt / vnd
+er wird mich hernach auß der Erden auffwecken / vnnd werde darnach mit dieser
+meiner Haut vmbgeben werden / vnd werde in meinem Fleisch Gott sehen / denselben
+werde ich mir sehen / vnd meine Augen werden jhn schawen / vnd kein frembder.
+Auff denn Trost weiset vns auch der heilige Apostel Paulus 1. Thes. 4. nicht
+allein in vnserm / sondern auch der vnserigen Todt / vnd wil / weil der Todt nur
+ein Schlaff vnnd wir gewisse hoffnung der aufferstehung haben / daß wir nicht
+wie die Heyden sollen trawrig seyn / sondern vns wol zu frieden geben / vnd vns
+mit den worten vntereinander Trösten. Wer den Trost recht fasset vnnd in sein
+Hertze schleust / der kan mit fried vnnd frewd mit dem alten Simeon abdrücken /
+vnd getrost dahinfaren. Auch gnug vom dritten.</p>
+<p>Was wir nu jetzt in diesen dreyen Puncten auß dem verlesenen Spruch angehöret
+haben / daß wollen wir gar kürtzlich / damit wir der rechten Leichpredigt / die
+am Sontage (wils GOtt) geschehen sol / nicht das jhre nemen / auff Weyland den
+Hochwürdigen / Durchleuchtigen vnd Hochgebornen Fürsten vnnd Herrn / Hertzog
+Julium Augustum / hochlöblicher gedechtnis / dessen Leichnam da für vns stehet /
+zihen vnd applicieren. Erstlich haben wir gehöret / daß fromme vnd gottselige
+Leute drey schöne Namen vnd Ehrentitel füren / denn sie werden gerechte /
+heilige vnd richtige Wanderßleute genant / wer wolte dieselben diesem in GOtt
+verstorbenen Herrn entziehen?</p>
+<pb facs="#f0036"/>
+<p>Denn ob wol S. F. G. nicht von natur gerecht / so haben sie doch an JEsum
+Christum gegleubet / vnd durch den glauben die rechte gerechtigkeit die für Gott
+gilt / erlangt / wie sie sich den&#x0303; auch der gerechtigkeit im Leben
+beflissen / vnnd aus bösem hertzen keinem Kind vnrecht noch leid gethau.
+Deßgleichen da S. F. G. in Sünden empfangen vnd geboren / seyn sie durch wort
+vnd Sacrament im namen JEsu Christi vnd durch den Geist GOTtes geheiliget / auch
+ein heiliges leben gefüret / vnd GOtt in heiligkeit vnd gerechtigkeit gedienet
+vnnd jhr faß in heiligung vnd ehren behalten / nicht in der Lustseuche / wie die
+Heyden / die von Gott nichts wissen. Also kan man auch S. F. G. mit warheit
+zeugnis geben / daß sie richtig für sich gewandelt auff dem wege GOttes / in
+einfeltigkeit vnd gottseliger lauterkeit / wie Paulus redet 2. Cor. 1. vnnd
+solche schlechte vnnd einfeltige hertzen gefallen GOTT im Christenthumb vnnd
+glaubens sachen am besten / ja für allen andern wol / vnd sein GOttes eygne
+Leute / darumb Christus sagt Matth: 11. Ich preise dich Vater vnd HErrn Himmels
+vnd der Erden / daß du solches den Weisen vnnd Klugen verborgen vnnd den
+Vnmündigen geoffenbaret / etc. vnd Matth. 18. warlich ich sage euch / es sey
+denn / daß jhr euch vmbkehret / vnd werdet wie die Kinder / so werdet jhr nicht
+in dz Himmelreich kommen. Sein also nach dem ersten Stück S. F. G. einer von den
+rechten außerweleten / heiligen vnd vielgeliebten GOttes für gewiß zuhalten.</p>
+<pb facs="#f0037"/>
+<p>Zum andern haben wir gehöret / daß die gerechten / heiligen vnd richtige
+Wanderßleute vmbkomme&#x0303; / vielem Creutz müssen vnterworffen seyn /
+auch auffgerafft werden / plötzlich offt dahin sterben / vnnd ein schwer ende
+nemen / welches die Welt Kinder nicht zu hertzen nemen / damit aber GOtt
+andeutet / daß groß Vnglück fürhanden / vnnd er die Leute straffen wolle. So ist
+auch S. F. G. vmbkommen / vnnd hat viel Kranckheit vnd ander Vnglück müssen für
+lieb neme&#x0303; / dadurch der liebe GOtt sie gezüchtiget / daß sie
+nicht sampt der gottlosen Welt verdampt würden: S. F. G. sein auch auffgerafft /
+vnd zeitig gestorben / da sie noch Alters halben lang leben können: Vnd wie
+berichtet wird / haben seine F. G. ein schwer ende genommen / wie auch S. F. G.
+Fraw Mutter sol gethan haben. Woran wir vns im geringsten nicht sollen oder
+dürffen ergern oder stossen / weil seiner F. G. Gottseligkeit vns wol bekant /
+sondern sollen viel mehr in vns schlagen / vnd gedencken / wie es vns Epicurern
+vnd Gottlosen dermal eins ergehen werde / vnd die gewisse rechnung machen /
+geschehe es hie nicht / so werde es dort ewig geschehen / wo wir nicht Busse
+thun / denn ist das geschehen am grünen Holtz / an dem frommen vnnd gottselichen
+Herrn vnd Hertzen / was wil am dürren werden? Wir aber die Welt Kinder solchs zu
+allen zeiten nicht geachtet noch zu hertzen genommen / so geschichts jtzo auch /
+aber ich besorge / nach dieser vnnd anderer from&#x0303;en Herren vnd
+Leute wegraffen / werde
+<pb facs="#f0038"/>
+das vnglück nicht außbleiben.
+Derwegen mag es vns wol auffm Hertzen liegen / gedancken machen / vnd eine
+vermahnung seyn / dem Vnglück mit bußfertigkeit bey zeiten zubegegnen vnd
+furzukommen.</p>
+<p>Zu letzt haben wir gehöret / daß die Gerechten / Heiligen vnd richtige
+Wanderßleute zweyerley Glück in vnd nach dem Todt haben / eins werden sie fürm
+Vnglück hinweggerafft: Darnach kommen sie zum frieden vnd ruhen in jhren Kammern
+/ darauß sie am jüngsten Tage nach dem Leibe werden zum ewigen Leben erwecket
+werden. Dieses zwiefachen Glücks sein auch S. F. G. allbereits theilhafftig
+worde&#x0303; / für allem Vnglück sein sie durch den zeitlichen Todt
+hinweggerafft / vnd dürffen S. F. G. alle das Vnglück mit jhren Augen nicht
+sehen / dessen wir vnser Sünde halben noch müssen gewertig seyn. Auch sein S. F.
+G. zum bestendigen frieden kommen / nach der Seelen in der rechten Hand GOttes /
+nach dem Leibe aber ruhen sie in jhrer Kammer / vnd werden an jenem grossen Tage
+die stimme des Menschen Sohns hören vnd herfür gehen zum ewigen Leben. Das gönne
+vnd gebe vns auch GOtt Vater / Sohn vnd heiliger Geist / die heilige
+dreyfaltigkeit / hochgelobt in ewigkeit / Amen.</p>
+<p>ENDE.</p>
+</div>
+</body>
+</text>
+</TEI>

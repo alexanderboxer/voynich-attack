@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Landtages Abschiede Der Löblichen Fürsten zu Braunschweig etc. mit Ihrer F. F. G. G. Landständen Wolffenbüttelschen vnd Calenbergischen Theils In Annis 1597 zu Saltzthalem/ 1601. zu Gandersheimb vnd 1619. zu Wolffenbüttel vffgerichtet</title>
+<author>
+<persName ref="http://d-nb.info/gnd/102017433">
+<surname>Braunschweig-Wolfenbüttel</surname>
+<forename>Friedrich Ulrich von</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/gn-sbd-44-1s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/gn-sbd-44-1s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">24</measure>
+<measure type="tokens">4997</measure>
+<measure type="types">1969</measure>
+<measure type="characters">37296</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:22:20Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/braunschweig_abschiede_1619</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/braunschweig_abschiede_1619</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/braunschweig_abschiede_1619</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/braunschweig_abschiede_1619</idno>
+<idno type="DTADirName">braunschweig_abschiede_1619</idno>
+<idno type="DTAID">30174</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30174-5</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Braunschweig-Wolfenbüttel, Friedrich Ulrich von: Landtages Abschiede Der Löblichen Fürsten zu Braunschweig [...]. Wolfenbüttel, 1619.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Landtages Abschiede Der Löblichen Fürsten zu Braunschweig etc. mit Ihrer F. F. G. G. Landständen Wolffenbüttelschen vnd Calenbergischen Theils In Annis 1597 zu Saltzthalem/ 1601. zu Gandersheimb vnd 1619. zu Wolffenbüttel vffgerichtet</title>
+<author>
+<persName ref="http://d-nb.info/gnd/102017433">
+<surname>Braunschweig-Wolfenbüttel</surname>
+<forename>Friedrich Ulrich von</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Elias Holwein</name></publisher>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1619</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<pb facs="#f0001"/>
+<front><titlePage type="main">
+<docTitle><titlePart type="main"><hi rendition="#b">Landtages Abschiede<lb/>
+</hi>
+Der Löblichen Fürsten zu Braunschweig<lb/>
+etc. mit Jhrer F. F. G. G. Landständen<lb/>
+Wolffenbüttelschen vnd Calenber-<lb/>
+gischen Theils<lb/>
+</titlePart></docTitle>
+<titlePart type="desc">Jn <hi rendition="#aq">Annis 1597.</hi> zu Saltzthalem / 1601. zu Gandersheimb vnd<lb/>
+1619. zu
+Wolffenbüttel vffgerichtet.<lb/>
+Mit angehengten offentlichen <hi rendition="#aq">Constitutionibus</hi>, wie es<lb/>
+in derselben Landen mit
+den Hülffen in Schuldsachen / vereusse-<lb/>
+rung Lehen: vnd anderer Güter / dem
+dritten Pfen-<lb/>
+nig vnd sonsten allenthalben gehalten<lb/>
+werden sol.<lb/>
+Menniglich vnd sonderlich den Vnterthanen / zur nachrichtung<lb/>
+vnd gutem / in
+offenbaren Druck außgangen.<lb/>
+</titlePart>
+<figure/><lb/>
+<docImprint>Gedruckt zu <pubPlace>Wolffenbüttel</pubPlace> Durch <publisher>Eliam Holwein</publisher> / Fürstl.<lb/>
+Br. Buchdrucker vnd
+Formschneider /<lb/>
+<docDate><hi rendition="#aq">Anno M. DC. XIX.</hi></docDate></docImprint>
+<pb facs="#f0002"/>
+<figure/>
+</titlePage>
+</front>
+<body>
+<pb facs="#f0003"/>
+<milestone rendition="#hr" unit="section"/>
+<div n="1"><p><hi rendition="#b"><hi rendition="#in">V</hi>on Gottes Gna-<lb/>
+den Wir Friderich Vlrich / Hertzog</hi><lb/>
+zu Braunschweig vnd Lüneburgk /
+etc. Bekennen hiemit offentlich / daß zufolge des zwischen vns vnd vnser
+gehorsamb vnd Getrewen Landschafft vnsers Fürstenthumbs Braunschweig
+Wulffenbüttelschen theils / in Anno 1614. den 12. Octobris / in vnser Stadt
+Alfeld auff gerichtet / vn&#x0303; publicirten Landtags Abschieds /
+gethaner gnädigen Versprechnüs / wir in gnaden angeordnet / daß die von vnserer
+Getrewen Landschafft Wulffenbütelschen theils / dazumahl vbergebene Gravamina /
+durch nachbenante deputirte, als nemlich vnsern Stadthalter / Cantzler / Vice
+Cantzler / Land Drosten / Kriegs Commissarien General / Geheimbte Cammer: auch
+Hoff: vnnd Consistorial Rähte / Ampt vnd Bergk Secretarien / Anthon von der
+Streidthorst auff Schliestedt / Eberharten von Weihe / Joachimb von der
+Streidthorst / Henning von Rheden / Friederichen von Vhder / <hi rendition="#aq">Ericum Clacium</hi> der
+Rechten Doctorn vnnd Bartolden Rittern: Vnd dann auff der Landtschafft seiten /
+Vnsern Apten vnsers Closters Ringelheimb / Ern <hi rendition="#aq">Renerum, Item</hi> Ern <hi rendition="#aq">Valentin</hi>
+Möllern
+<pb facs="#f0004"/>
+<hi rendition="#aq">Decanum</hi> vnsers Stiffts <hi rendition="#aq">S. Blasii</hi>
+in vnser Stadt Braunschweig / Statz von Münchausen / Hans von Olderßhausen /
+Adrian von Wrißbergk vnnd Tedel Burchardten von Wahnoden / Heinrich Ernsten /
+Rahtsfreundt der Stadt Helmstadt / vnnd Andreassen Kyhnen / <hi rendition="#aq">Syndicum</hi> der Stadt
+Alfeld / wie im gleichen Ludolff Garssen / als vorerwehuter Wolffenbüttelschen
+Landschafft bestalten Syndicum in verhöer vnnd <hi rendition="#aq">tractat</hi> ziehen / vnnd endlich
+nach befundener beschaffenheit / jedoch vorbehaltlich voriger Landtages
+Abschiede / welche nach wie vor in jhren vollen Würden vnd Krefften verbleiben
+sollen / heute dato verabscheiden lassen / Wie folget:</p>
+<p><hi rendition="#in">A</hi>Ls nemblich vnnd vors Erste / sollen alle drey Stende vnnd gemeine Vnterthanen
+dieses vnsers Fürstenthumbs bey rechter / wahrer / erkandter vnnd bekandter
+Religion der Augspurgischen vnverenderten Confession / in Anno der weiniger zahl
+30. vffm Reichstage zu Augspurg vbergeben: <hi rendition="#aq">Item Corpore Doctrinae Iulio</hi> vnd
+Kirchenordnung dieses Fürstenthumbs gemeß jnhalts dero dieserwegen außgegebenen
+Fürstlichen <hi rendition="#aq">Reversen</hi> vnd <hi rendition="#aq">Assecurationen, manutenirt,</hi> geschützt / vnd darvber in
+keinerley wege beschwert werden.</p>
+<p><hi rendition="#in">W</hi>Je dann auch vors Ander / keine frembde Lehr / wie die nahmen haben mag / als
+dieselbe in <hi rendition="#aq">Corpore Doctrinae Iulio</hi> vnd der Fürstlichen Kirchenordnung
+specificirt vnnd außgesetzt seyn / viel weniger aber die Vngleubige /
+Gotteslesterliche Juden / vermüge des Saltzdalmschen Abschieds Art. 24. noch
+je-
+<pb facs="#f0005"/>
+mands anders / so
+verdächtige Lehre spargiren, defendiren oder propagiren wolte / gelitten / vnnd
+damit man sich deßfals desto weniger vnheils vnd verwirrung in Religionssachen
+zubesorgen haben müge / nicht allein die <hi rendition="#aq">specialvisitationes</hi> der <hi rendition="#aq">Pastoren,</hi> vnnd
+Kirchen fleissig gehalten / die befundene mengel ins Fürstliche <hi rendition="#aq">Consistorium</hi>
+eingeschickt / daselbsten abgeschafft / vnd da nöhtig / die allgemeine visitatio
+angestellt / Sondern auch bey annehmung der Geist: vnnd Weltlichen Rähte /
+Secretarien / vnd anderer vornehmer Officirer allhie im Consistorio / bey Hoffe
+vnd auff dem Lande / wie auch vornemblich der <hi rendition="#aq">Professoren</hi> in der <hi rendition="#aq">Iulius
+Vniversitet</hi> zu Helmstadt in vffrichtender bestallung (gestalt die jenige
+<hi rendition="#aq">Professoren</hi> zu Helmstadt / welche allbereits in der <hi rendition="#aq">Iulius Vniversitet</hi> in
+bestallung seyn / sich dazu habilitirt machen sollen) in acht genommen / vnnd
+darauff die Aydespflicht abgelegt werden / daß sie vnnd ein jeder sich zu der vn
+verenderten Augspurgischen <hi rendition="#aq">Confession</hi> vnd <hi rendition="#aq">Corpore Doctrinae Iulio</hi> bekennen /
+darvber steiff vnd fest halten / vnd dagegen nichts einreissen lassen wollen /
+do aber all vorigem zuwider etwas einreissen vnd gespürt würde / daß darauff die
+<hi rendition="#aq">Pastoren</hi> vnd <hi rendition="#aq">Superintendenten</hi> gute achtung geben / vnd die befindung vnserm
+<hi rendition="#aq">Consistorio</hi> berichten sollen.</p>
+<p>Als auch vors Dritte / die Fürstl. <hi rendition="#aq">Iulius Vniversitet</hi> zu Helmstadt zu dieser
+Lande ewigem Rhum mit schweren kosten gestifftet vnd vnterhalten / vnd aber bey
+derselben allerhand grosser mangel befunden wird: So sol dieselbe mit zuziehung
+etzlicher aus den Landstenden / zu deren behueff dann die Landschafft allbereits
+gewisse Personen benennt / mit ernstem fleiß / sobald jmmer müglich / vnnd man
+darzu / wegen anderer heuffig ein: vnnd vorfallender sachen / gerahten kan /
+<hi rendition="#aq">visitirt,</hi> die mengel im profitiren vnnd lesen auch vbermessige <hi rendition="#aq">libertet</hi> der
+studirenden Jugend / sonderlich aber vn&#x0303; bevorab der <hi rendition="#aq">Stipendiaten</hi>
+/ so aus den Klöstern allererst dahin <hi rendition="#aq">promovirt,</hi> welches dann / wie auch daß
+denselben sonderbahre <hi rendition="#aq">Inspectores</hi> ge-
+<pb facs="#f0006"/>
+setzt / vnnd die <hi rendition="#aq">examina semestria</hi> mit denselben wieder angeordnet bey
+künfftiger anderwert anstellenden <hi rendition="#aq">visitation</hi> in sonderbahre vffacht genommen /
+<hi rendition="#aq">corrigirt</hi> vnnd abgeschaffet / dieselbe in bessern Stand gebracht / vnd vber
+denen hiebevorn gegebenen Visitations Abschieden der gebühr / vnnd besser / als
+bißhero geschehen / gehalten / auch dero behueff nach befindung noch ferner
+nützliche Ordnung bey zukünfftiger visitation vnd sonsten gemacht werden.</p>
+<p>Es sollen auch zum Vierdten / die Klöster in gutem Stande erhalten / dieselbe mit
+newen oneribus nicht belegt / in den Herrn Klöstern die Schulen mit guter
+Ordnung verbessert / vnnd die Knaben nicht nach Gunst vnd ohn vnterscheid /
+sondern nach anweisung der Fürstlichen Kirchenordnung vberal / vnnd die jenige
+eingenommen / zu welchen man gute Hoffnung hat: Auch die Jungfrawen Klöstern mit
+dürfftigen Adelichen / vnnd andern züchtigen Jungfrawen besetzt / gute disciplin
+darinn gehalten / vnd junge Mägdlein Adelichen vnd Bürgerlichen Stands / vmb ein
+liederliches Kostgeld vff gnedige verordnung vnterhalten / in Gottesfurcht
+erzogen / vnnd im nehen / lesen vnd schreiben vnterwiesen werden.</p>
+<p>Das Geistliche <hi rendition="#aq">Consistorium</hi> sol sich / vors Fünffte / vermüge vnd jnhalts der
+Kirchenordnung dieses Fürstenthumbs vnnd gemeiner Rechte / in den Schrancken
+Ecclesiasticae <hi rendition="#aq">Jurisdictionis</hi> verhalten / vnd dieselbe nicht vberschreiten /
+auch in vorfallenden sachen den Geistlichen zur vngebühr vor den Weltlichen
+nicht favorisirt / viel weniger denselben vbergeholffen / Sondern nach befindung
+mit gehörigem Ernst angesehen / auch in klaren vndisputirlichen Schuldsachen /
+vor den Superintendenten jedes orts / wider sie procediret, vnd nach befindung
+der Gerichtsherr daselbsten von den <hi rendition="#aq">Superintendenten</hi> vmb erlangung der <hi rendition="#aq">Execution
+requirirt</hi> vnnd angeruffen / Wie imgleichen bey den <hi rendition="#aq">Pastorn</hi> der mißbrauch mit
+holhippen / boldern schnarchen / verbannen vff: vnnd ausser der Cantzel (jedoch
+<pb facs="#f0007"/>
+vorbeheltlich des hochnothwendigen
+Straffampts) abgeschaffet / zu deme <hi rendition="#aq">Consistoria generalia</hi> alljährlich / vnnd so
+offt es die notturfft erfordert / angestellt vnnd gehalten / Die vbermessige
+zehrung vnnd vffgangk bey den Kirchen visitationen vnnd Rechnungen eingezogen /
+vnd jedes orts die Gerichtsherrn neben den <hi rendition="#aq">Superintendenten</hi> allein darzu gezogen
+/ vnd da die vom Adel / vnnd andere die Gerichte haben / oder coercition
+bestendiger vnnd rechtmessiger weise hergebracht die Beampte&#x0303;
+darzu nicht verstattet / Noch auch den Kirchvätern zugelassen werden / den
+<hi rendition="#aq">Pastoribus</hi> vnnd <hi rendition="#aq">Superintendenten,</hi> von den Kirchen Geldern / ohne vorwissen des
+<hi rendition="#aq">Consiorii</hi> / wie auch dero der Augspurgischen <hi rendition="#aq">Confession</hi> verwandten / vnd allhie
+in diesem Fürstenthumb Braunschweig gesessenen Patronen etwas vorzustrecken /
+viel weniger aber sie die Kirchväter etwas davon zu jhrem eignen gebrauch zu
+nehmen / vnd da dergleichen beschehen / jhnen hiemit vfferlegt seyn / solches
+zwischen dato vnnd bevorstehenden Ostern ein: vnd wieder herbey zubringen / vnnd
+an andere sichere örter vmb Zins / vff genugsame vnterpfendtliche versicherung
+auß zuthun.</p>
+<p>Damit auch zum Sechsten / die Liebe <hi rendition="#aq">Iustitz</hi> schleunig befürdert werde / als
+sollen die Gerichte jedes orts / mit Gelarten / vnnd der Rechte wolerfahrnen
+Personen besetzt / die sachen durch die Referenten vnnachlessig befordert / die
+vnnötige vnnd außflüchtige dilationes, wie auch vnnötige handlungen nicht
+verstattet / wie imgleichen in klaren / richtigen vnd vndisputirlichen
+schuldsachen / klagendem theile / vnvffheltlich verholffen / vnd darwieder vnnd
+vor beschehener bezahlung keine <hi rendition="#aq">Supplicationes, Appellationes, Inhibitiones,</hi>
+noch auch andere <hi rendition="#aq">Exceptiones,</hi> es were dann daß beklagter <hi rendition="#aq">Solutionem in
+Continenti</hi> beweisen könte / oder <hi rendition="#aq">liquidationem praetendirte, attendirt</hi> / die
+<hi rendition="#aq">Relationes</hi> in richtigen sachen / sonderlich da definitivè zuerkennen / durch die
+Rähte trewlich verrichtet / vnd also vnpartheiliche Justitz menniglichen
+administriret, zu welcher be-
+<pb facs="#f0008"/>
+hueff
+die Fürstliche Cantzley vnnd Hoffgerichts Ordnungen / mit zuziehung etzlicher
+aus der Landschafft / worzu der gnedige Landes-Fürst sich dann vor dißmahl aus
+Fürstlicher mildigkeit erboten hat / <hi rendition="#aq">revidirt</hi> vnnd <hi rendition="#aq">publicirt,</hi> auch die
+zweiffelhafftige fälle in gewisse <hi rendition="#aq">Constitutiones</hi> verfasset / die <hi rendition="#aq">Extrajudicial
+Decreta</hi> nicht <hi rendition="#aq">attendirt,</hi> wie dann an <hi rendition="#aq">Magistratum</hi> jedes orts / so schleunig keine
+<hi rendition="#aq">Inhibitiones in extrajudicial</hi> sachen / erkandt / sondern zu forderst vmb bericht
+geschrieben werden / auch zu dem ende daß in Jagt: Forst: vnnd Amptsachen: vnd
+daß darinnen / so weinig an Fürstl. Rahtstuben / als Hoffgerichte ins künfftig
+keine Processe erkandt / noch darin verfahren werden solte / von <hi rendition="#aq">R.
+Illustrissimo Henrico Iulio p. m.</hi> erkandtes Rescriptum nochmals / gestalt ohne
+daß allbereits beschehen / vffgehoben vnd cassirt seyn vnd bleiben / die Rähte /
+Assessores vnnd Secretarien in der Rahtstuben vnnd Hoffgerichte sich des
+advocirens / <hi rendition="#aq">consuli</hi>rens vnnd <hi rendition="#aq">solliciti</hi>rens / bey ernstem einsehen an dem orte /
+da sie vnd ein jeder in <hi rendition="#aq">specie in judicio</hi> mit sitzen / gentzlich enthalten
+sollen.</p>
+<p>Ob auch wol vors Siebende wegen der Sportul Gelder gute vnnd nützliche Ordnung in
+dem Saltzdahlemschen Abschiede gemacht / So wird doch in deme ein grosser mangel
+gespüret. Derowegen diesem vnrath / wegen des Sportull: Hülff vnd <hi rendition="#aq">Consens</hi> Geldes
+bey <hi rendition="#aq">revidi</hi>rung der Cantzley vnd Hoffgerichts Ordnung / so den negsten <hi rendition="#aq">publicirt</hi>
+werden sol / fernere gewisse maß gegeben / jmmittels aber es dißfals bey
+angeregtem Landtags Abschiede Art. 36. vnnd deme darauff vnter dato des 3. Junij
+Anno 1597. erfolgten Fürstl. Revers gelassen / vnd darvber besser / als bißhero
+beschehen / gehalten / vnd die Partheyen darwider nicht beschweret werden
+sollen.</p>
+<p>Vnnd nachdem zum Achten / eine zeithero hin vnnd wieder vffm Lande / bevorab
+vnter denen vom Adel / viel klagens fürgefallen / daß die Kinder jhrer Eltern
+Erbschafft / zu dem ende / sich dadurch
+<pb facs="#f0009"/>
+deren Schulde zuentbrechen / repudijren / vnnd die Altväterlichen Lehne allein
+behalten wolten / So hat man doch vor Christlich / Erbar vnd billich erachtet /
+daß ein jedweders Kind / welches seinem Vatern in den Lehnen / die rühren her wo
+sie wollen / succediren wil / Solche Lehne vnnd Erbe / sampt denen darauff
+haltenden Schulden / entweder zugleich annehmen / oder sich der gentzlich
+enthalten müsse.</p>
+<p>So ist auch vors Neundte die liebe Justitz dadurch nicht wenig auffgehalten / daß
+die erkandte vnd ergangene <hi rendition="#aq">mandata</hi> vnnd <hi rendition="#aq">Commissiones</hi> anbefohlener massen
+schleunig nicht expedyrt, sondern zu zeiten liegen geblieben / Derowegen sollen
+die jenigen / an welche dergleichen mandata vnd <hi rendition="#aq">Commissiones</hi> erkant vnnd
+abgangen seyn / dieselben auff anhalten der Parteyen vnd deroselben vnkosten
+vngeseumbt expedyren / vnnd die Referenten die Boten vnauffheltlich
+befürdern.</p>
+<p>Es auch der <hi rendition="#aq">concurrentz</hi> vnnd <hi rendition="#aq">praevention</hi> halber in dem Fürstlichen <hi rendition="#aq">Consistorio,</hi>
+Rahtstuben vnnd Hoffgericht / bey der <hi rendition="#aq">Anno</hi> 1596 den 18. <hi rendition="#aq">Septemb. publicirten
+Constitution</hi> vnnd darauff <hi rendition="#aq">Anno</hi> 1605. am 25. <hi rendition="#aq">Februarij</hi> erfolgetem <hi rendition="#aq">rescripto</hi>
+verbleiben / vnnd sobald die Partheyen jhre <hi rendition="#aq">Supplication</hi> vbergeben / die sache
+vor eingeführt / die <hi rendition="#aq">litispendentz</hi> vor <hi rendition="#aq">fundirt</hi> zuhalten seyn / vnd derowegen die
+<hi rendition="#aq">praeventio</hi> stat finden / vnnd ein gericht dem andern kein jnhalt oder
+verhinderung thun / gestalt denn auch vnser Cantzler / Vice Cantzler vnd
+Secretarien mit <hi rendition="#aq">Commissionibus,</hi> soviel müglich / verschonet / vnnd andere dazu
+<hi rendition="#aq">deputirt</hi> vnnd gebrauchet werden sollen.</p>
+<p>Zum Zehenden / als auch die löbliche Landschafft sich allerhand eingriffe halben
+in jhre <hi rendition="#aq">Iurisdiction</hi> vber die Beampte beklagt / so sol solches hiemit vnd in
+Krafft dieses ernstlich verboten / vnd den Beampten aufferlegt seyn / sich
+derogleichen eingreiffens
+<pb facs="#f0010"/>
+hinfüro
+gentzlich zuenthalten / vnd die von der Ritterschafft / vnd andere / so die
+Gerichte / vnd vermüge derselben die <hi rendition="#aq">coercition</hi> vnd zwang haben / bey solcher
+gerichtbarkeit vnbeeintrechtigt zulassen / vnd sich derer vor die Gerichtsherrn
+gehörigen klage nicht anzunemen / vnnd viel weniger die vnter denselben
+gesessene bey gelt oder Leibsstraffe / noch auch durch wiederrechtliche Pfandung
+/ Arresta / Gefengnüs / Einlager oder ausbot vor sich zuziehen / vn&#x0303; mit straff vnbefügter weise zubelegen. Es sollen auch der jenigen vom Adel
+Leute / so jhre eigne Gerichte haben / zu der Musterung / <hi rendition="#aq">Exercitio militari</hi> /
+huldigung / nicht durch die Amptsvögte / sondern entweder von der Regierung /
+oder sonderbaren verordneten Commissarien vffgefordert / auch das <hi rendition="#aq">Exercitium
+militare</hi> also angestellet werden / damit es die Vnterthanen ertragen / vnd man
+sich füglich nicht zubeschweren haben müge.</p>
+<p>Wie es dann imgleichen der Erben Zins güter halben dahin gerichtet / daß
+dieselben ohne vorwissen vnnd Consens der Erben Zins Herren nicht vereussert /
+verpfändet / oder zur außstewer verschrieben / jedoch aber auch die Guths Herren
+jhren Consens ohne erhebliche vrsache nicht verweigern / vnnd sonsten wegen der
+Meyergüter dahin gesehen werden sol / daß die vbermessigen / vnd zu verderb der
+Meyere gereichende Außstewer eingezogen / vnd die Ehestifftung mit wissen der
+Guthsherren vor den Gerichtsherren jedes orts vffgerichtet werden sollen.</p>
+<p>Wo auch vber Rechts verwerte zeit bey etzlichen Stifftern bestendig herbracht
+were / daß die <hi rendition="#aq">Domini directi</hi> an jhren Meyer: Voigt: oder Probstey gedingen oder
+Capitulen die Cognition in Erben Zins güter sachen hetten / so wirds dabey
+vnverrückt nicht vnbillich gelassen.</p>
+<pb facs="#f0011"/>
+<p>Zum Eilfften / sollen die Beampte den Vnterthanen in anbefügten sachen keinen
+beyfall geben / auch die jenigen / welche vor den Emptern etwas zusuchen vnnd
+zuklagen / in selbst eigener Person gutwillig vnnd vngeseumbt hören / vnnd einem
+jeden vnpartheyisch schleunig Recht bey ernstem einsehen wiederfahren
+lassen.</p>
+<p>Zum Zwölfften / sollen die Schatzungen in guter grober Müntz dem Land Rentmeister
+/ vnnd einem zugeordneten eingelieffert werden / vnnd dieselben dagegen schuldig
+seyn / bey entrichtung derselben den Leuten ein geringe Quittung mit wenig
+Worten / ohne einige erstattung zugeben / vnnd außtrücklich zusehen / was vor
+Schatzung entrichtet sey / wie man sich dann auch angelegen seyn lassen wil /
+daß eine allgemeine durchgehende hochnothwendige Müntzordnung gemacht / vnnd der
+Reichsthaler auff ein gewisses gesetzt werden müge.</p>
+<p>Es sollen auch zum Dreyzehenden / die Garde Brüder / Zigeuner / frembde Betler
+etc. nicht gelitten / noch denselben etwas gegeben / wie im gleichen denen / so
+vff den Brandt bitten / ehe nichts contribuirt werden / sie haben dann des Lands
+Fürsten / oder S. F. G. Regierung Concession / vnd darvber nottürfftigen schein
+vor zulegen. Sonsten aber werden jedere gemeine an jhrem orte / jhre Armen
+vnterhalten / vnd die starcken gesunden Betler zur Arbeit verweisen. Diß alles
+auch nochmahls vber voriges durch ein Fürstlich <hi rendition="#aq">Rescriptum publicirt</hi> angeordnet
+/ vnd darvber von den Land Drosten vnd Beampten / auch jedes orts Obrigkeit
+besser / als bißhero geschehen / gehalten werden.</p>
+<p>Fürs Vierzehende / werden die Vnterthanen zu den Berg Materialien / als Bley /
+Kupffer / Eysen vn&#x0303; dere&#x0303; kauffe vor andern /
+wo-
+<pb facs="#f0012"/>
+ferne sie / was frembde
+darvor entrichten / geben wollen / billig verstattet / vnd da gleich mit
+frembden Außländischen gewisser Contract getroffen wird / So wil man doch daran
+seyn / daß gleithwol die Vnterthanen die notturfft vmb das jenige / was die
+frembde darvor versprochen vnd geben / habhafft werden mügen.</p>
+<p>So ist man auch vors Funffzehende erbietens zubefürdern / daß die Vnterthanen das
+Bawholtz / Dielen vnd Latten vmb ein billigmessiges vor den Frembden bemechtigt
+seyn sollen / vnnd weil dißfals vber grossen mißbrauch geklagt wird / die
+versehung zuthun / daß mit zuziehung etzlicher vnnd zwar derer Landstende / so
+dem Hartze am negsten gesessen / eine <hi rendition="#aq">Inquisitio</hi> angeordnet: Sonsten auch die
+Saltzwasen zu rechter zeit gehawen / vnnd vor <hi rendition="#aq">Philippi lacobi</hi> ab vnnd ausgeführt
+/ vnnd die gehege geraumbt werden.</p>
+<p>Zum Sechzehenden / ist beschwerlich angezogen / wann Kloster / der vom Adel / vnd
+andere Holtzung / so zum Bergk: vnnd Saltzwercke von vndencklichen Jahren
+gebraucht worden / am Hartze vnd sonsten hawig / daß dennoch offtmals aus
+mißgunst die heye zu rechter zeit nicht geöffnet / sondern zum schaden der
+eigenthumbs Herrn verschoben werden / Wie auch / daß die Förster nicht alleine
+in gemeinen / sondern auch denen Holtzungen / so gewissen eigenthumbs Herren
+zustendig / zu jhrem eignen nutz ohne vorwissen der eigenthumbs Herrn jhres
+gefallens hawen / Auch andern vnd Frembden / zu nicht geringem abbruch der
+Holtzungen / das Holtz vnter allerhand gesuchtem Schein außweisen / sich auch
+vnternemen Mastungsgelder zuheben / vnnd die Mast zubetreiben / auch zu jhrer
+eignen behueff zukühren / zujagen / vnnd zuschiessen. Als aber ein solches an
+jhm vnrecht vnnd straffbar / so sol dasselbig in künfftig nicht gelitten /
+sondern mit gebürlichem Ernste gestrafft / vn&#x0303; dieser wegen
+erkündigung von den Landdrosten zugelegt werde&#x0303;.</p>
+<pb facs="#f0013"/>
+<p>Zum Siebenzehenden / ist auch in dem Saltzdahlemschen Abschiede <hi rendition="#aq">Artic. 1. in nne</hi>
+verabschiedet / wie es mit den Leuten / so andern mehr / als an die Fürstliche
+Heuser / zu dienen schuldig / zuhalten sey / dabey es dann auch sein verbleiben
+hat / Vnnd sollen dem zuwider die Dienstherrn / an habenden Diensten / von den
+Beampten nicht verhindert / vnd diese Leute zur vnzeit / vnd wann sie allbereit
+von andern zu Dienste vffgefodert / zur <hi rendition="#aq">aemulation</hi> vnd vnnötiger weise / vnd da
+es geendert werden kan / von den Beampten vnd Vögten nicht vffgeboten / auch
+wider das herkommen mit newen / vnzeitigen oder höhern vnnd schwerern Diensten
+vor andern Ampts Vnterthanen / nicht belegt vnnd beschweret werden.</p>
+<p>Mit der Burgkveste / sol es vors Achtzehende gehalten / vnd dieselbe geleistet
+werden / wie es an jedem orte hergebracht / aber zu anderer Arbeit / vnd viel
+weniger in Privat sachen / nicht mißbrauchet / auch es damit also angestellet
+werden / daß es den Leuten nicht zu schwer falle.</p>
+<p>Als auch die löbliche Landstende / sich zum Neunzehenden / wegen des Vestungs
+Gebewdes beschweret / mit anziehung / daß die bewilligten Jahre vorlengst
+abgelauffen / Als sol dieser Punct hiernegst in fernern Tractat gezogen / vnd es
+damit also gemacht werden / daß man sich dißfals nicht zubeschweren haben
+müge.</p>
+<p>Zum Zwantzigsten / sol es wegen des Freyen Mühlengangs bey dem Saltzdahlemschen
+Abschiede Art. 22. vngeendert gelassen / vnd darvber der gebür gehalten / auch
+dieserwegen vff einkommende klage die Notturfft vngesaumbt beschafft / vnnd
+angeordnet werden.</p>
+<pb facs="#f0014"/>
+<p>Die Wege vnnd Stege sollen zum Einvndzwantzigsten jnnhalts des Saltzdahlemschen
+Abschiedes Art 27. mehr / als bißhero geschehen / gebessert / vnd deßwegen von
+den Beampten vnd Gerichtsherrn vnnachlessig bestellung geschehen / auch die
+Land-Drosten die vffsicht haben / vnd beschaffen / daß die seumige mit ernst
+gestrafft werden.</p>
+<p>Fürs Zweyvndzwantzigste / hat es gleicher gestalt wegen des Bierbrawens vff dem
+Lande / bey dem Anno 1597. zu Saltzdahlem beym 30. Art. vnnd zu Seesen Anno
+1607. §. Dann auch zum Siebenden / Jm 7. Art vffgerichteten Landtages Abschieden
+seine gewisse masse / worbey es auch billich verbleibt / vnnd sol darüber
+gehalten / auch den Fürstlichen Beampten / Schreibern / Gogreffen / Förstern /
+Vögten / Krügern / Müllern vnnd Bawersleuten zu feilem Kauffe zu brawen nicht
+verstattet / vnnd dofern darwieder gehandelt / vnnd darvber geklaget / die
+gebühr mit abschaffung desselben vngesaumbt angeordnet werden / Darneben auch
+aller zwanck von einem oder andern ort bier zu holen / gentzlich abgeschafft vnd
+vffgehoben seyn vnd bleiben.</p>
+<p>Es sollen aber auch die Bürger in Städten dahin bedacht seyn / daß sie gut Bier
+brawen / vnnd dasselbe vmb billigmessigen werth nach dem Korn: vnd Hopffenkauff
+geben / auch die Vässer jhren rechten halt haben.</p>
+<p>Zum Dreyvndzwantzigsten / Ob auch wol die freyen Krüge sich zu der Accise nicht
+bekennen wollen / so soll doch in deme kein vnterscheid / sondern ein
+durchgehende gleichheit gehalten / vnd die Accise / sowol von den freyen / als
+vnfreyen entrichtet / auch des Kopenschillings halben bey den Emptern / da
+derselbe noch gegeben wird / erkündigung eingezogen / vnnd nach befindung auch
+diesem Punct seine Masse gegeben werden.</p>
+<pb facs="#f0015"/>
+<p>Dieweil auch zum Vier vnd zwantzigsten das ausroden eine zeithero zu abbruch der
+Holtzung vnd schmelerung gemeiner Weide / fast gemein worden / als sol solches
+an orten / da andere des Holtzes vnnd Weide halben interessiret / keines weges
+zugegeben / auch wegen des vervbten vbermessigen außrhodens / erkündigung
+eingezogen / vnnd gehörige maß gegeben werden / Gleichwol aber den Fürstlichen
+Emptern in deroselben sonderbahren verbesserung / da andere nicht interessiret /
+zuschläge zumachen / vnnd auszurhoden vnbenommen seyn.</p>
+<p>Der Wasenfuhr halben / zu beforderung des Saltzwercks zu Saltzliebenhalle / sol
+es vors Fünffvnd zwantzigste / gleich wie mit der Kohlenfuhr zu den Bergwercken
+/ besag des 4 Art. Saltzdahlemschen Abschieds gehalten / vnd nach gelegenheit
+vnd weite deß weges die belohnung beschehen vnd gereicht werden.</p>
+<p>Die Küchen Termin sollen zum Sechsvndzwantzigsten / zu erleichterung der
+Vnterthanen / so viel müglich / eingezogen / von andern zu Privatnutzen / nit
+mißbraucht / auch nach dem gewöhnlichen anschlage / richtig bezahlt / vn&#x0303; der befundene mißbrauch ernstlich gestrafft / auch dieserwegen
+nachfrage angestellt werden.</p>
+<p>Zum Siebenvndzwantzigsten / sollen auch die Beampten sich des seens mit den Armen
+Vnterthanen / wie auch des Kornkauffs in den Emptern aus erheblichen vrsachen
+enthalten / auch jhr Viehe / als Vohlen / Schweine / Kelber vnnd anders den
+Vnterthanen in die Fütterung nicht vffdringen / oder ernsten einsehens vnd
+bestraffung gewertig seyn.</p>
+<p>Fürs 28 hat es auch wegen der vnzimblichen Pfandungen in dem Saltzdahlemschen
+Abschiede eine gewisse decision. Als aber klage einkommen / daß deme zuwider
+gehandelt / vnnd zu zeiten gantze hauffen Schaffe vnnd ander Viehe geschlachtet
+/
+<pb facs="#f0016"/>
+vnd verparthiret werden / so sol
+solcher mißbrauch hinfüro nicht gelitten / sondern noch Pfandung mit
+zugelassener masse vorgenommen / vnd die vbertrettung nach gelegenheit der
+vbermäß vnaußbleiblich gestraffet werden / gleichwol aber in erlaubten vnd
+zugelassenen fällen / sich keiner einiger Resistentz oder widersetzligkeit
+gebrauchen / sondern das Pfand willig bey ernster straff folgen lassen / wie
+dann auch / wann eine rechtmessige billige Pfandung beschehen / die Beampte sich
+nicht vntermassen sollen / die Pfandung oder Gebot loß zumachen / es seye denn
+der schade vorher besichtiget vnd bezahlet / Auch die Schäffer sich des hütens
+vff der Wiesen in zugeschlagenen zeiten enthalten / vnd die zuschlege keines
+weges vffreissen / oder ernster bestraffung gewertig seyn.</p>
+<p>Nachdem sich auch zum Neun vnd zwantzigsten in Wardierung der Meyer: vnd Kothöffe
+allerhand vnrichtigkeit befunden / derowegen dieselbe billig abzuschaffen / Vnnd
+sollen zwar die Wardierungen / jedoch ohne grossen vffgang / durch
+vnterschiedliche auß dreyen Gerichten genommene schürtzen / wie hergebracht /
+auch vermittelst Eydes vorgenom&#x0303;en werde&#x0303;. Do sich
+aber bey vorgangener wardierung wegen vberflüssigen anschlags kein Meyer zu dem
+Wardierten Hoffe finden würden / Als sol den eigenthum&#x0303;s oder
+Guthsherrn bevor: vnd freygelassen seyn / eine gewisse Summen Geldes / jedoch
+nach billigem Werth / vor die meliorationes zu bieten / im fall dann der Meyer
+damit nicht einig oder friedlich seyn wolte oder könte / alsdann der Hoff ein
+Jahrlang wegen solcher melioration einem jeden zu feilem kauffe vnnd erhandlung
+außstehen vnd zu gute gehalten / nicht desto weniger aber / vnnd inmittelst
+solcher Jahrsfrist der Hoff von dem Meyer in gutem stande vnd besserung behalten
+/ auch alle Pflicht an Diensten / Zinsen / Schatzungen vnd andern geleistet /
+vnd zu dem ende genugsame Cautio bestellt / Wofern sich aber jnnerhalb solcher
+Jahrsfrist
+<pb facs="#f0017"/>
+kein Keuffer angeben vnnd
+zutretten wurde / vff solchen Event die angeschlagene besserung dem Gutsherrn
+vmb angebotene billigmessige Summen abgetretten / vnd eingereumbt werden.</p>
+<p>Sonsten auch die vbermasse im Hopffenlegen nicht verstattet / vnd bey der
+Wardirung / sonderlich da die vielen Hopffenkuhlen zu affectirtem gewin / vnnd
+dem Gutsherrn zum nachtheil in newligkeit gelegt / etwas geringer angeschlagen /
+auch die Wardirte vnd auffkommene Gelder nicht in Emptern behalten / noch nach
+Gunst außgetheilet / Sondern den etwa befundenen Creditorn / oder wem dieselben
+sonsten gebühren / nach eines jeden Priorität in der Müntz vnd Sorten / wie
+dieselbe erlegt / zugeeignet / dabey auch die Gutsherrn in gute acht genommen /
+vnnd wegen etwa nachstehenden Zinsen andern vorgezogen werden.</p>
+<p>Es haben sich auch vors 30. die löbliche Landstende vnd sonderlich die von der
+Ritterschafft in dem beschwert befunden / daß von Adelichen Erbschafften / da
+dieselbe ausserhalb Landes verfellet / der dritte Pfennig jnnebehalten vnnd
+gezogenwerden wolle / solche beschwerung aber abzuschaffen / sol von dergleichen
+Adelichen Erbschafften der dritte Pfenning an den orten / da es nicht
+gebreuchlich vnd herbracht ist / nicht genommen werden / jedoch aber / vnnd
+wofern an dem orte wohin die Erbschafft ausgefolget wird / der dritte Pfenning
+jnnebehalten wurde / als hat man sich solches Rechtens auch in diesem fall per
+retorsionem zugebrauchen.</p>
+<p>Wie dann auch vors 31. noch fernere beschwerung in dem einkommen / daß der
+Saltzdahlemsche Landtags Abschied mit haltung der nothwendigen Landgerichten
+auch nicht in acht genommen werde. Derowegen bey den Landdrosten vnnd Beampten
+die vnnachlessige versehung geschehen sol / damit solcher Abschied in gehörigem
+Respect vnd vffacht: auch die Landgerichte zu rechter
+<pb facs="#f0018"/>
+zeit gehalten / auch zeitig genug vnnd
+zum weinigsten 14. Tage vorher ausgekündet / vnnd die Vnterthanen nicht
+vbereylet / auch vff die Exceß / nach beschaffenheit derselben / von dem Landman
+erkandt / vnd es bey deme was der Landman also nach billigen dingen erkandt /
+gelassen werden müge.</p>
+<p>So haben auch vors Zweyvnddreissigste die Landstende angehalten / daß eine
+gewißheit gemacht werden müge / was eigentlich vor Criminal: vnd was der Civil:
+vnnd in die Vntergerichte gehörige sachen vnd felle / zuhalten / vnd weiln dis
+eine nothwendige erinnerung ist / vnnd zuverhütung allerhand Confusion vnnd
+anderer Jnconventien dienet / als sol dasselbe bey revidirung der Cantzley vnnd
+Vntergerichts Ordnung / in gute acht genommen / vnd vnterscheid darinnen gemacht
+werden.</p>
+<p>Es sol auch vors Dreyvnddreissigste / jnhalt des Saltzdahlemschen Abschieds /
+niemand an dem jagen / so weit vnnd ferne er befuegt / in einigerley wege / es
+sey durch die gesetzte Häge / Pfäle oder sonsten / beeintrechtigt werden /
+Darentgegen aber keiner sich des jagens / hetzens / kührens / kreitzens /
+stellens / schliessens / vnbefuegter weise / vnd zu vnrechter zeit / wider die
+Fr. Jagt vnnd Forst Ordnung bey wilkührlicher ernster straff / vnternehmen vnd
+anmassen.</p>
+<p>Ferner vnd vors Viervnddreissigste / ist es den Vnterthanen vnd sonderlich den
+Klöstern vnnd Bawersleuten nicht weinig beschwerlich / daß man dem Gesinde an
+statt des Lohns etliche Morgen Korns geben muß / worbey allerhand vntrew vnd
+ander vnraht verspüret wird / Derowegen solches nicht verstattet / sondern dem
+Gesinde ein gewiß Geldlohn vermacht / vnnd diesem Post wegen des Gesindes
+hernegst mit zuziehung der benachbar-
+<pb facs="#f0019"/>
+ten Chur: vnd Fürsten fernere maß gegeben / auch sonsten dißfals / wie
+imgleichen wegen der vbermessigen vnkosten / so vff Kleidung / Schmuck /
+Hochzeite / Kindtauffen vnnd andern Gastereyen verwendet wird / die notturfft
+beyder bevorstehender Policey Ordnung in acht genommen werden sol.</p>
+<p>Zum Fünffvnddreissigsten / sol wegen der Ellen / Gewichte / auch soviel Wein /
+Bier / Oel vnnd anders betrifft / Maß / eine durchgehende gleickheit gehalten /
+vnnd dieserwegen anordnung gemacht: Die Kornmaß aber / auß allerhand vrsachen
+noch zur zeit auß: vnnd zu der Landstende fernerm bedencken gesetzt seyn /
+Jmmittelst aber die Obrigkeit jedes orts gute vffacht haben / daß keine falsche
+Masse gelitten / vnnd die jenige / so in deme betretten / nach der scherffe
+bestrafft / Gestalt dann auch dero behueff wegen der Masse / Gewicht vnnd Ellen
+jährlichs eine Visitatio angestellet / vnnd die vngeeichte Maß nicht gelitten
+werden sol.</p>
+<p>Es ist auch zum Sechsvnddreissigsten zumahl billich / daß die Landkinder nach
+jhren Qualitäten / vor frembden / zu hohen vnnd niedrigen Emptern / befürdert /
+derowegen solches in gute vffacht genommen / vnnd dieselben jhrer
+geschickligkeit nach / frembden vorgezogen / Gleichwol aber dabey dahin gesehen
+werden sol / damit nicht nahe verwandte im Regiment / vnd einer Rahtstuben
+concurriren vnd einen anhang machen.</p>
+<p>Dem Salpeter Sieder sol zwar vors 37. zu graben in Ställen vnnd Schewren / auch
+Häusern / verstattet / vnnd
+<pb facs="#f0020"/>
+in deme
+nicht behindert / gleichwol aber darvber der eigenthumbs Herr / von demselben
+vorher begrüsset werden Welcher jhme auch das graben ohn erhebliche vrsach nicht
+abschlagen / doch aber der Salpeter gräber schuldig seyn / was er gegraben /
+wieder gleich zumachen.</p>
+<p>Da auch / zum 38. der löblichen Landschafft notturfft hinfüro erfordern thete /
+daß sie die darunter gesessene Stende in zugelassenen fällen in berahtschlagung
+des Lands notturfft / vermöge hergebrachter alter Freyheit / zusammen bescheiden
+müsten / So sol solches zugelassen / vnd vor keine verbotene conventicula vnd
+conspirationes gehalten werden.</p>
+<p>Vnd weil nun / zum 39. nicht genug ist / gute Ordnung zu machen / sondern auch
+die notturfft erfordert / daß darvber steiff vnd vest gehalten werden muß:</p>
+<p>Als sol dem Fürstlichen Consistorio / Rahtstuben vnnd Hoffgerichte / auch den
+Landdrosten / Beampten vnnd Gerichtsherrn / wie imgleichen Bürgermeistern vnnd
+Rähten vnd Städten / auch ins gemein allen Vnterthanen mit ernst vnnd bey jhrer
+verwandtnüs eingebunden vnd vfferlegt seyn / sich nach dieser verordnung
+zuachten / vnd darvber steiff vnd vest zuhalten / auch nicht zu verstatten / daß
+darwieder gehandelt werde / Wordurch dann also alle vnnd jede Puncte vnnd
+gebrechen zwischen vns Hertzogen Friedrichen Vlrichen zu Braunschweig etc. vnnd
+offtmehr genandter vnser gehorsam: vnnd getrewen Wolffenbüttelschen Landschafft
+/ mit beyderseits gutem wissen vnnd willen / nach vorgangener gepflogener
+gütlicher vnterhandlung von beyderseits Deputirten Nieder gesetzten veraccordirt
+/ vffgehoben vnd verabschiedet / getrewlich sonder gefehrde. Dessen zu vrkund
+seind dieser Abschiede Vier gleichs lauts / als einer zu vnserer: Der ander zu
+der Prelaten: Der dritte zu dero von der Ritterschafft: Vnnd der
+<pb facs="#f0021"/>
+vierdte zu der Städte behueff gefertigt
+/ vnnd jedes Original von vns / dann wegen der Prelaten von den Abten
+Riddagshausen / Marienthal vnd Ringelheimb: wegen dero von der Ritterschafft dem
+Compter zu Suplingburgk / Ern Philip Friedrichen von Wiedensehe / Hansen von
+Oldershausen / Adrian von Wrißberg / Thedel Burcharten von Walmoden / vnnd
+Ernsten von Honrodt: Vnd wegen der Städte Helmstedt vnnd Alfeld versiegelt vnd
+vnterschrieben worden / Geschehen vnnd publicirt Wolffenbüttel / am 27. Januarij
+/ Anno 1619.</p>
+<figure/></div>
+<pb facs="#f0022"/>
+<div n="1"><p><hi rendition="#b"><hi rendition="#in">V</hi>On GOTtes Gnaden Wir</hi><lb/>
+Friderich Vlrich / Hertzog zu Braunschweig vnd Lüneburg
+etc. Fügen vnsern Praelaten / Freyherrn / Landdrosten / Großvogten / Beschlosten
+/ denen von der Ritterschafft / Haupt: Ober: vnd Amptleuten / auch Schulteissen
+/ Richtern / Bürgermeistern vnd Rähten in Städten / vnnd ingemein allen vnnd
+jeden vnsern Vnterthanen vnnd Verwandten / negst entbietung vnsers gnedigen
+Willens vnnd Gunst hiemit zu wissen / Dieweil alle Erbare Hertzen / zuforderst
+Christliche Menschen erkennen vnnd bekennen müssen / daß die Versamblung des
+Menschlichen Geschlechts / vnnd erhaltung des gemeinen besten / vnd fortsetzung
+der Privathandelung / wie die Namen haben / auff Trewe / Glaubea / Brieffe /
+Bürgen / vnnd Siegelebestehen / vnnd wann darvon abgewichen / oder die in
+weitleufftig Gezenck gezogen / Erbar: vnd Nutzbarkeit von einander getrennet /
+daß alsdann alle gute Ordnung zerrüttet / vnnd vnwiederbringlicher verderblicher
+schade erwecket / vnnd leider zumahl jetziger zeit mit grossem Schimpff vnd
+Nachtheil befunden wird / dz auch die Vornembste zu jhrer vnd der jhrigen
+verkleinerung vnd böser nachrede / daraus weiter Vnglück / auch wol Mord vnd
+Todt entstehet / dem zugeleben / welches sie einmahl gut geheissen / vnd genehm
+gehalten / vnd mit Eydlicher verbindung klaren deutlichen Worten / angebornen /
+oder angenomenen Petschafften bestercket / sich schendlich verweigern / vnd sich
+auff vnsterbliche Proceß verlassen / vnnd dem allen soviel müglich entgegen
+zubawen / Als ordnen / setzen vnd wollen wir / weil vnsere getrewe Ritter: vnnd
+Landschafft deßwegen selbst angehalten / daß wie auch in andern Chur: vnnd
+Fürstenthumben gebreuchlich vnd löblich gehalten wird / da einer wer der auch
+sey / seinen gegebenen / mit Hand vnd Siegel bestetigten Verschreibungen /
+Contracten vnd Händeln / die keine verbotene vnd
+<pb facs="#f0023"/>
+vnehrliche zusage in sich begreiffen /
+nicht nachkömpt / sondern denselben mit erdachten griffen / durch habende
+bößhaffte Advocaten / vnd vortelhaffte Beheiffe wieder leuffet / sich auff
+ordentlich Recht vnd Erkentnüs beruffet / derselbe darmit nicht gehöret / noch
+zum Proceß verstattet / Die Advocaten auch / so guthertzige Leute darzu führen /
+oder denen anlaß geben / nicht allein mit wilkürlicher straffe belegt / sondern
+wieder den schüldigen jnhalts gegebener Siegel vnd Brieffe / vnvorzüglich vnnd
+alsbald verholffen / vnnd keine wiederrede einwenden / oder Exception darwieder
+zugelassen oder angenommen werden solle / Wann aber einer zur notdurfft in
+Continenti vnd auff vnverwendtem Fuß darthun vnd erweisen wolte / daß Siegeln
+vnd Brieffen allbereit genug gethan / die erfüllet die zahlung geleistet / vnnd
+das debitum illiquidum wehre / damit wird er billig gehört / Do aber die
+bezahlung wircklich ergangen / alsdann vnd nicht ehe / sol den beklagten frey
+vnd bevor stehen / auch vnbenommen seyn / den Kläger wegen erlittener vnnd vnnd
+vollstreckter hülff wiederumb nach anleitung der Rechte ordentlich vorzunehmen /
+Gleich aber wie wir Fürstlich gemeinet vber auffgerichtete Siegel vnd Brieff
+vest vnnd steiff zuhalten / Als wollen wir auch vber Juden vnd andere
+vngebürliche nicht zugelassene Zinse nicht helffen / sondern hiermit nochmals
+ernstlich geboten haben / daß ein jeder in vnsern Landen sich der wucherlichen
+Contract / vnd Partiten enthalten / seine eigene Seligkeit / Stand / Nahmen vnnd
+herkommen in acht nehmen / zuvorderst GOTtes Zorn verhüten sol / Demnach
+Constituiren / setzen vnnd wollen wir / daß vber den Verschreibungen / darinnen
+ein höhers als sechs von Hundert vorschrieben / kein Consens oder verwilligung
+gegeben / noch verholffen / sondern wider solche vergessene Wucherer / vermüge
+der gemeinen Rechte / vnd Reichs Abschiede verfahren werden solle / Nachdem sich
+auch bißweilen zutregt / daß Leute verhanden / die jhres Nahmens / Ehr / Standes
+vnd herkommen vergessen / vnd mehr auffnehmen vnd horgen / als jhr vermügen
+auß-
+<pb facs="#f0024"/>
+tregt / vnd also
+Gleubiger vnnd Bürgen vorsetzlich betriegen / vnd ins vorderb führen / vnnd dem
+ergerlichen vornehmen entgegen zu bawen / vnd dahin zusehen / daß Ehr vnd
+Redligkeit / Trewe vnnd Glaube erhalten / vnd auff die liebe Posteritet vnnd
+nachkommen gebracht werde / Als wollen wir gegen solche vergessene Leute / nicht
+allein mit schleuniger Hülff / biß auffs euserste / sondern auch dann mit
+wilkührlicher straffe also verfahren / daß andere davon ein abschew tragen
+werden / Darnach sich ein jeder achten / vnnd ernste Straff abwenden vnnd meiden
+wird / Vrkündlich haben wir dis offenes Edict mit eigenen Händen vnterschrieben
+/ vnnd vnsern Fürstlichen Secret versiegeln lassen / Geschehen vnd gegeben auff
+vnser Vestung Calenberg / am dritten Monats Tage Novembris / Anno ein Tausend
+Sechshundert vnd Siebenzehen.</p>
+</div>
+</body>
+</text>
+</TEI>

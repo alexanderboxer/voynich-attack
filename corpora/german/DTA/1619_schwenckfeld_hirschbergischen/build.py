@@ -1,0 +1,57 @@
+"""Build the sentence-level CSV for Schwenckfeld, Hirschbergischen Warmen Bades/ in Schlesien vnter  (1619)."""
+
+import re
+from pathlib import Path
+
+from voynpy.corpus_build.dta import download_xml
+from voynpy.corpus_build.schema import write_csv
+from voynpy.corpus_build.tei_p5 import parse_tei
+
+HERE = Path(__file__).parent
+DOC_ID = "schwenckfeld_hirschberischen_1619"
+STEM = "1619_schwenckfeld_hirschbergischen"
+XML_PATH = HERE / f"{STEM}.TEI-P5.xml"
+CSV_PATH = HERE / f"{STEM}.csv"
+
+# Per-text override: this German + Latin polyglot pharmacy text has 237
+# <item> rows (recipe ingredients) and 460 <head> rows (plant/material names,
+# disease names, recipe intros) that are all content, not TOC. Promote
+# both to body. EXCEPT for genuine section dividers ("Erster/Ander/Dritter/
+# Vierder Theil") and the title page — those stay as head.
+_PRESERVE_AS_HEAD = re.compile(
+    r"\b(capit|kapit|cap\.|cap\b|teil\b|theil\b|buch\b)", re.I)
+
+
+def main() -> None:
+    if not XML_PATH.exists():
+        print(f"downloading {DOC_ID} from DTA...")
+        download_xml(DOC_ID, XML_PATH)
+    rows = parse_tei(str(XML_PATH), DOC_ID)
+    # Reset the title page (parser auto-promoted long head → body).
+    for r in rows:
+        if r.para_id == 0 and r.sent_id == 0:
+            r.block_type = 'head'
+            break
+    # Promote items + heads to body, except section dividers and title page.
+    for r in rows:
+        if r.block_type == 'item':
+            r.block_type = 'body'
+        elif r.block_type == 'head':
+            t = r.textstring_simple
+            if r.para_id == 0 and r.sent_id == 0:
+                continue  # title page
+            if _PRESERVE_AS_HEAD.search(t):
+                continue  # "Erster Theil" etc.
+            r.block_type = 'body'
+    write_csv(rows, str(CSV_PATH))
+    paras = {r.para_id for r in rows}
+    by_block: dict[str, int] = {}
+    for r in rows:
+        by_block[r.block_type] = by_block.get(r.block_type, 0) + 1
+    print(f"wrote {len(rows)} rows -> {CSV_PATH}")
+    print(f"  paragraphs: {len(paras)}")
+    print(f"  rows by block_type: {by_block}")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Ein Christliche Predigt/ Gethan zu Wolffenbüttel den 8. Septembris/ Als die Leich des ... Fürsten und Herrn/ Herrn Heinrich Iulii, Postulirten Bischoffen zu Halberstadt/ und Hertzogen zu Braunschweig und Lüneburg ... anhero gebracht/ und in der F. Schloß-Kirchen niedergesetzt</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124599281">
+<surname>Tuckermann</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/37-2-rhet-2s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/37-2-rhet-2s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">40</measure>
+<measure type="tokens">8983</measure>
+<measure type="types">2359</measure>
+<measure type="characters">55406</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:30Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Distributed under the Creative Commons Attribution-ShareAlike 3.0 Generic (German) License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/tuckermann_predigt_1613</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/tuckermann_predigt_1613</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/tuckermann_predigt_1613</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/tuckermann_predigt_1613</idno>
+<idno type="DTADirName">tuckermann_predigt_1613</idno>
+<idno type="DTAID">30075</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30075-5</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Tuckermann, Peter: Ein Christliche Predigt/ Gethan zu Wolffenbüttel den 8. Septembris/ Als die Leich des ... Fürsten und Herrn/ Herrn Heinrich Iulii, Postulirten Bischoffen zu Halberstadt/ und Hertzogen zu Braunschweig und Lüneburg ... anhero gebracht/ und in der F. Schloß-Kirchen niedergesetzt. Wolfenbüttel, 1613.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Ein Christliche Predigt/ Gethan zu Wolffenbüttel den 8. Septembris/ Als die Leich des ... Fürsten und Herrn/ Herrn Heinrich Iulii, Postulirten Bischoffen zu Halberstadt/ und Hertzogen zu Braunschweig und Lüneburg ... anhero gebracht/ und in der F. Schloß-Kirchen niedergesetzt</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124599281">
+<surname>Tuckermann</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher/>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1613</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main"><docTitle><titlePart type="main">Ein Chri&#x017F;tliche Predigt /</titlePart><lb/>
+<titlePart type="sub">Gethan zu Wolffenbüttel den 8. <hi rendition="#aq">Septembris,</hi><lb/>
+Als die Leich des Weilandt<lb/>
+<hi rendition="#b"><hi rendition="#in">H</hi>ochwürdigen /<lb/>
+Durchleuchtigen / Hochgebornen</hi><lb/>
+Für&#x017F;ten vnd Her&#xA75B;n/Her&#xA75B;n <hi rendition="#aq"><hi rendition="#g">HEINRICH<lb/>
+IVLII,</hi></hi> Po&#x017F;tulirten Bi&#x017F;choffen zu Hal-<lb/>
+berstadt / vnd Hertzogen zu Braun&#x017F;chweig vnd Lü-<lb/>
+neburg / &#xA75B;c. vn&#x017F;ers aller&#x017F;eits gewe&#x017F;enen G. F.<lb/>
+vnd Herrn anhero gebracht / vnd in der<lb/>
+F. Schloß Kirchen nieder-<lb/>
+ge&#x017F;etzt.</titlePart></docTitle><byline>Durch <docAuthor>M. Petrum Tuckerman</docAuthor> / Hoff-<lb/>
+Caplan da&#x017F;elb&#x017F;t.</byline><lb/>
+<milestone rendition="#hr" unit="section"/> <docImprint><pubPlace>Heinrich&#x017F;tadt</pubPlace><lb/>
+Durch <publisher>Julium Adolphum von Söhne</publisher> /<lb/>
+<hi rendition="#aq"><hi rendition="#g">ANNO </hi></hi><docDate><hi rendition="#aq">M. DC. XIII.</hi></docDate></docImprint></titlePage></front><body><div>
+<pb facs="#f0002"/>
+<pb facs="#f0003"/>
+<head>Psal: 39.</head><lb/>
+</div>
+<div>
+<head>ICh bin beyde dein Pilgrim / vnd dein Bürger / wie alle meine Väter.</head><lb/>
+<p>WIr haben langzeit Hertzlich gewünscht vnd gebeten / das wir einmahl vnsern
+gnädigen lieben Landeßfürsten vnd Herrn müchte&#x0303; auß frembden
+Landen wieder zu Hauß kriegen: Da haben wir nun S. F. G. Den Verstandt aber vnd
+die meinung hats gleichwol mit vnserm Wunsch vnd Gebet im geringsten nicht
+gehabt / den&#x0303; wir haben gewünscht vnd gebeten / S. F. G. möchten
+lebendig ankom&#x0303;en / vnd S. G. hertzliebe Gemahlin / Junge Herrn
+vnd Frewlein / vnd Landt vnd Leut mit seiner ankunfft höchlich erfrewen / so
+werden sie vns jetzo Tod zugeführet / vnd ist trawrigkeit vnd betrübniß / wo man
+sich hinkehret vnd wendet. Das mag wol heissen: Homo proponit, sed Deus
+disponit. Der Mensch setzt jm etwas für / aber Gott versetzt es / vnd macht es
+anders / Den&#x0303; wir haben vns den Herrn in vnsere Gedancken vnd
+Hertzen jm&#x0303;er lebendig mit frewden fürgesetzt vnd eingebildet / so
+kömpt Gott / kehret es vmb / vnd setzt vns
+<pb facs="#f0004"/>
+denselben in der
+that Todt für / mit Schmertzen vnd Weinen. Vnd wen&#x0303; mans recht
+bedenckt / wem solte es nicht schmertzen? Wer wolte nicht drüber Weinen? Den&#x0303; die hochlöbliche Landeßfürstin hat dran gehabt jhr Heupt /
+den&#x0303; der Man&#x0303; ist des Weibes Heupt / schreibt
+Paulus zun Ephes. 5. das hat sie verlohren / vnd ist in den betrübten Witwen
+Standt gerahten: Junge Herrn vnd Frewlein haben dran gehabt jhren Herrn Vater /
+dessen sind sie beraubet / vnnd zu Einsamen Waisen worden: Landt vnd Leut haben
+dran gehabt jhren jrrdischen Gott / den&#x0303; Oberkeiten werden im 82.
+Psalm Götter geheissen / den haben sie zugesetzt. Vnd das sonderlich zubeklagen
+/ wenn ja S. F. G. hetten sterben sollen / wie den&#x0303; kein Mensch
+lebt / der nicht den Todt solt sehen / im 89. Psalm / so were es noch etlicher
+massen hingangen / so sie in seiner hertzlieben Gemahlin armen gestorben /
+welches nicht geschehen / vnnd so Junge Herrn vnd Frewlein (die jhren lieben
+Herren Vater zum theil in etlichen Jahren / zum theil gar nicht gesehen) im
+letzten vmbs Bette hergestanden / vnd Väterliche Vermahnung vnd Segen / wie
+Salomo Davids Sohn / im ersten Buch der Könige am 2. angehöret vnd empfangen /
+welches verblieben / vnnd so Landt vnd Leut auffgewartet / welches jhnen nicht
+hat wiederfahren können. Was sol ich viel sagen? Es ist gar ein jämmerlicher
+vnnd sehr beweglicher Fall. Weren wir nu Heyden / die von Gott nichts wissen /
+vnd keine Hoffnung haben / so möchten wir drüber
+<pb facs="#f0005"/>
+vngedultig
+werden vnd murren. Aber wir sind Christen / darumb sollen wir vns billig drein
+schicken / vnnd mit Gott zu frieden seyn / den&#x0303; wir wissen ja /
+das nicht ein Sperling an die Erden falle ohn den Himlischen Vater / vnd alle
+vnsere Haer auff vnserm Heupt gezelet seyn / Matth. 10. Wir wissen auch / das
+GOtt die Menschen lasse sterben / vnd spreche / Kommet wieder Menschen Kinder /
+im 90. Psalm: Ja / das daß beste vnd fürnembste ist / so wissen wir / das daß
+sterben / welches im Herrn geschicht / in der offenbarung Johannis am 14. kein
+Schade / sondern Gewin&#x0303; sey / zun Phil: 1: Denn da wir hie Pilgrim
+vnd Walfarthsbrüder seyn / so lang wir leben / so kommen wir durch den Todt aus
+der Pilgramschafft vnd Walfarth ins rechte Vaterlandt / vnd seyn bey dem HErrn
+allezeit / 1. Thes. 4. Damit hat sich auffgerichtet vnd getröstet der Hertzog
+des Israelitischen Volcks David / vnd wir sollens auch thun. Vnnd weil vns der
+Trost in verlesenem Sprüchlein aus dem 39. Psalm wird fürgehalten / vnd sich
+auff diesem Fall / da vnser gewesener gnädiger Fürst vnnd Herr aus der Walfarth
+als ein Pilgrim wird zu Hauß gebracht / wol schicket / Als wollen wir dasselbige
+im Nahmen Gottes kürtzlich zu erklären für vns nehmen / vnd erstlich bedencken /
+das David zu Gott sagt / Er sey sein Pilgrim. Zum andern / das er spricht / Er
+sey sein Bürger.</p>
+<p>Gott gebe vns darzu seinen heiligen Geist / vmb JEsu Christi willen / Amen.</p>
+<pb facs="#f0006"/>
+</div>
+<div>
+<head>Vom Ersten.</head><lb/>
+<p>DAs erste Stücklein stehet in seiner Sprach in dreyen wörtern. Das erste Wort ist
+Pilgrim. Das hat Lutherus seliger gedechtnuß im 2. Buch Mosis am 20. Cap.
+gegeben Frembdlinger / vnd im 119. Psalm / Gast / vnd haben so die drey Nahmen
+Pilgrim / Frembdlinger vnd Gast / einen verstandt vnd meinung / wie es sich auch
+in der That nicht anders verhelt / denn ein Pilgrim ist ein solche Person / die
+an dem Ort / da sie ist / frembd vnd gleich ein Gast ist. Vnd wil nu David damit
+zuverstehen geben / ob er wol hie auff Erden zu Jerusalem seinen stattlichen
+Sitz habe / so gehöre er gleichwol da nicht zu Hauß / sondern sein Vaterland sey
+an einem andern Ort / Jerusalem aber vnd seine Königliche Burg / ja das gantze
+Landt habe er Gastweise innen / vnnd werde einmahl als ein Pilgrim vnnd
+Frembdlinger müssen auffbrechen / davon ziehen / alles hintersich lassen vnd
+sterben / vnd alßdan werde er erst zu Hauß kommen / dahin er gehöre.</p>
+<p>Das ander Wörtlein ist / Ich bin dein Pilgrim. Das wird offt im Ebreischen
+außgelassen / aber hie hats David ohn allen zweiffel aus erheblicher Vrsach
+hinzusetzen wollen / nemblich sich selbst damit zuerinnern / auff seine eigne
+Person zu sehen / den&#x0303; es pflegt gemeinlich so herzugehen / das
+wen&#x0303; etwas gesagt wird / das vns nicht mit ist / wirs auff
+andere Leute ziehen /
+<pb facs="#f0007"/>
+vnd vnser drüber vergessen / aber das
+thut er nicht / sondern nennet sich so wol als alle seine Väter / vnnd schleust
+sich selbst mit in die Zall der Pilgrim / Frembdlinger vnd Gäste. Er mag auch
+wol hohen Potentaten / die sich offt für andern bedüncken lassen / sie werden
+nimmermehr darnieder liggen / wie david selbst / da es jhm wolgangen / die
+gedancken seyn kommen / im 30. Psalm / haben wollen einen Wanck geben / das sie
+in sich sollen schlahen / vnd gedencken / habe er / der Gewaltige König vnd Mann
+nach dem Hertzen des HErrn / sich für einen Pilgrim müssen außgeben vnd halten /
+so haben sie sich viel weniger außzuwerffen / vnd mögen deßwegen jhr leben vnd
+all jhr thun desto besser darnach anstellen.</p>
+<p>Das dritte vnd letzte Wörtlein ist: Mit oder bey dir. Lutherus hats verdeutschet
+dein / Ich bin dein Pilgrim. Das ist auch sehr mercklich / vnnd kan verstanden
+werden auff dreyerley arth vnd weise: Eins / das David so ein Pilgrim mit oder
+bey Gott gewesen / das er jmmer mit vnd bey Gott seine Gedancken gehabt / vnd es
+mit jhm gehalten / wie es Christus so gebraucht hat Luc: am 11. Wer nicht mit
+mir ist / der ist wieder mich: So ist David nicht wieder Gott in seiner
+Wallfarth gewesen / sondern mit jm / den&#x0303; Hertz / Sin&#x0303; / Gedancken vnnd Muth / jhm jmmer nach Gott gestanden / wie den&#x0303; ein ander Weltlicher Pilgrim / auch jmmer mit den Gedancken bey vnd mit den
+seinen zu Hauß ist.</p>
+<pb facs="#f0008"/>
+<p>Darnach kans verstanden werden / das David so ein Pilgrim mit oder bey Gott oder
+Gottes Pilgrim gewesen / das jhm Gott in seiner Wallfarth allezeit mit seiner
+Gnad bey gestanden / sich seiner als seines eignen Frembdlings angenommen / vnnd
+mit Trost / Hülff vnd Raht jhn nicht verlassen habe / wie er im 23. Psalm sagt /
+Ob ich schon Wander (nemblich als ein Pilgrim) im finstern Thal / fürchte ich
+kein Vnglück / den&#x0303; du bist mit oder bey mir / dein Stecken vnd
+Stab trösten mich. Endtlich kans verstanden werden / das Gott mit dem David ein
+Pilgrim gewesen / denn wen&#x0303; vnser zween seyn / vnnd ich sage / ich
+bin mit dir frembdt vnd ein Gast / so versteht sichs / das wir beyde frembdt vnd
+Gäste seyn: Nu spricht aber David / Ich bin o Gott ein Pilgrim mit dir / so seyn
+sie beyde Pilgrim zusamen. Vnd das ist nicht vnrecht / den&#x0303; was
+die Gleubigen seyn / das ist Gott mit jhnen / werden sie verfolget / so wird
+Gott mit jhnen verfolget / in der Apostel Geschicht am 9. Saul / Saul was
+verfolgstu mich? Seyn sie Arm / so ist Gott gleich Arm mit jhnen / seyn sie
+Gäste / so ist Gott ein Gast mit jhnen / seyn sie Hungerig / Dürstig / Nacket
+oder Gefangen / so ist Gott mit jhnen Hungerig / Dürstig / Nacket vnd Gefangen /
+Wie Christus Matth. 25. dasselbe am jüngsten Tage bekennen wird. Das ist der
+dreyer Wörter verstandt im ersten theil.</p>
+<p>Hieraus lernen wir nu / geliebte im HErrn / was wirfür Leute in dieser Welt seyn
+/ vnd wo für wir vn-
+<pb facs="#f0009"/>
+ser leben ansehen vnnd halten
+sollen: Wir seyn Pilgrim / frembdlinge vnd Gäste / vnd vnser leben ist eine
+Pilgrimfart / Wallfart vnd Gasthauß. Das ist lang vor dem David der fromme Jacob
+nicht in abreden gewesen / den&#x0303; da er von Pharaone vmb sein alter
+gefragt worden / im ersten Buch Mosis am 47. hat er geantwortet: Die zeit meiner
+Wallfarth ist hundert vnd dreissig Jahr / wenig vnd böß ist die zeit meines
+lebens / vnd langet nicht an die zeit meiner Väter in jhrer Wallfarth. Vnnd zun
+Hebreern am 11. Cap. werden die Heiligen aus dem alten Testament angezogen / vnd
+wird gesagt / diese alle haben bekandt / das sie Gäste vnd Frembdlinge auff
+Erden find. Vnnd in der ander Epistel an die Cor. am 5. Cap. lesen wir auch
+davon: Dieweil wir im Leibe wohnen / so wallen wir. Vnnd 1. Petr. am 2. Ich
+ermahne euch als die Frembdlingen vnd Pilgrim. Damit stimmen auch vberein die
+alten Kirchenlehrer: Cyprianus schreibt / Vnusquisque cum nascitur, hospitio
+hujus mundi suscipitur, ein jeglicher wenn er geboren wird / wird von oder ins
+Gasthauß oder Herberge dieser Welt auffgenommen. Vnd Ambrosius / Non incolae,
+sed accolae sumus terrae hujus, Wir seyn nicht Einwohner / sondern beywohner
+dieser Erden. Vnd Augustinus / Haec vita est tabernaculum peregrinantium, diß
+leben ist eine Hütten der Pilger. Ja den Heyden hats allerdings die erfahrung
+gelehret / daher sie diß leben ein Gasthoff oder Wirthshauß genandt haben / als
+Cicero sagt /
+<pb facs="#f0010"/>
+Ex vita ista discedo, tanquam ex hospitio, non
+tanquam ex domo: Commorandi enim Natura diversorium nobis non habitandi dedit.
+Ich schreite aus diesem leben / als aus einer Herberge / nicht als aus einem
+Hause / denn die Natur hat vns hie einen Gasthoff gegeben / etwas darinnen
+zuuerharren / nicht aber gar zubewohnen.</p>
+<p>Das wir aber Pilgrim / Frembdlinge vnd Gäste seyn / vnd vnser Leben ein
+Pilgrimschafft / Wallfarth vnd Gasthauß / das hat vnter andern drey erhebliche
+Vrsachen / die wol werth seyn / das man jhnen nachdencket / vnd sie recht
+anlegt. Die erste Vrsach ist / Wie ein Pilgrim vnd frembdling nicht bey den
+seinen im rechten Hause vnd Lande ist: Also seyn wir auch nicht bey den vnsern
+im rechten Hause vnd Lande. Dahin siehet Paulus in der 2. Epist. an die Cor. im
+5. Cap. Dieweil wir im Leibe wohnen / so wallen wir dem HErrn. Im Griechischen
+wirds baß außgetruckt / <foreign xml:lang="el"><gap reason="fm"/></foreign>, Wir seyn ausser dem Hause vom
+HErrn. Damit wird gnugsam angedeutet / das vnsere Pilgrimschafft vnd Wallfarth
+vrsprüngklich daherkomme / das wir nicht im rechten Hause seyn. Nu hat Gott zwar
+hie auff Erden sein Hauß / die Kirch / 1. Timoth. 3. Darinnen er als Haußherr
+oder Haußwirth sein Fewr vnd Herd hat / Esai. am 31. In welchem wir von Natur
+mit Gott nicht seyn / wie zun Ephes. am 2. bekand wird. Aber das Hauß Gottes
+wird eigendlich an obgemeltem Ort nicht gemeinet / Dann Paulus der ein Glied der
+Kirchen vnd drinnen
+<pb facs="#f0011"/>
+war / redet von sich selbst mit / er sey
+ohn das nicht mit Gott im rechten Hause / vnd derwegen ein Pilgrim. Was er aber
+für ein Hauß verstehe / ist leichtlich abzunemen aus nachfolgenden worten / da
+er spricht / wir haben lust <foreign xml:lang="el"><gap reason="fm"/></foreign> daheimen im Hause zu seyn
+bey dem HErrn. Woraus offenbar / das er den Himmel vnd das ewige leben meine /
+den&#x0303; das ist das rechte Hauß Gottes / laut Christi bekennuß /
+Johan. am 14. In meines Vaters Hause sind viel Wonungen. In dem Hause / wens
+recht zuginge / solten wir billig mit vnd bey Gott seyn / aber daran mangelt es
+vns. Dessen haben wir ein fein Bild im ersten Buch Mosis am 3. Da lesen wir /
+das Gott vnsere erste Eltern nach seinem Ebenbilde in rechtschaffener
+gerechtigkeit vnd heiligkeit habe erschaffen / vnd ins Paradiß gesetzt / das sie
+dasselbige als sein Hauß bawen vnd bewonen solten / aus welchem sie würden
+einnen freyen gang gehat haben / so sie nicht gefallen weren / zum Himlischen
+ewigen Hause Gottes: Aber in dem sie gesündiget vnd von Gott gewichen / hat sie
+Gott außgetrieben / vnd für den Garten Eden den Cherubim mit einem blossen
+hawenden Schwerd gelegt / zu bewaren den Weg zum Baum des Lebens / vnd mit dem
+zugeschlossenen Irrdischen Paradiß / ist auch gleich das Himlische zugeschlossen
+worden / das kein Mensch von sich selbst gen Himmelfahren / vnd in das rechte
+Hauß Gottes durch seine kreffte vnd vermügen kommen kan / wie Christus Joh. am
+3. bezeuget.</p>
+<pb facs="#f0012"/>
+<p>Diese Vrsach sollen wir vns darzu zu nütz machen / das wir vns vnsers Falls vnd
+Sünden dabey erinnern / denn wie Mißhändler aus jhrem Hause vnd Lande von wegen
+jhrer bösen thaten verwiesen vnnd verfestet werden / so sind wir auch als
+Mißhändler von wegen vnser Vbelthat aus dem rechten Hause vnd Lande von Gott
+verwiesen vnd verfestet / vnnd weren werd / das wir in ewigkeit verwiesen vnd
+verfestet blieben: Wie aber jene / in dem sie aus jhrem Hause vnd Vaterlande so
+Wallen vnd Wundern gehen / sich offt hintern Ohren kratzen / vnd jnen leid
+lassen seyn / das sie sich in solch vnglück gestürtzt / vnd mittel vnd wege
+suchen / das es mit jhnen widerumb zum andern standt kommen möge / wie wir ein
+schön Exempel am verlornen Sohn haben / der auch seines vngehorsams vnd Sünde
+halben war ins elend geraten Luc. am 15. aber wieder in sich schlug vnd sprach /
+wie viel Taglöner hat mein Vater / die Brod die fülle haben / vnd ich verderbe
+im Hunger? Ich wil mich auffmachen vnd zu meinem Vater gehen / vnd zu jhm sagen:
+Vater ich habe gesündiget in den Him&#x0303;el vnd für dir / vnd bin fort
+nicht mehr werth / das ich dein Sohn heisse / mache mich als einen deiner
+Taglöner / vnd machte sich auff vnd kam zu seinem Vater: So sollen wirs vns
+ebener massen lassen leyd seyn / vnser Hertzen drüber zureissen Joel 2. vnd
+mittel vnd wege suchen / das es mit vns anders vnd besser müge werden / damit
+wenn wir ja hier ausser dem Hause Gottes so lang
+<pb facs="#f0013"/>
+müssen vnd
+sollen Pilgrim seyn vnd Wallen / so lang wir im Leibe wohnen / wir gleichwol mit
+Gott ins rechte Hauß wieder kommen mögen / wen&#x0303; vnd so bald
+einmahl das Wallen ausser dem Leibe angehen wird / in der 2. Epistel an die Cor.
+im 5. Cap. Das ist die erste Vrsach.</p>
+<p>Die ander ist / Wie ein Pilgrim vnd Frembdlinger muß mancher pfützen die augen
+außtretten / vnd offt in einen sauren Apfel beissen / vnd sich bald von Mördern
+vnd Reubern anrennen lassen / bald hitze vnd kälte / Regen vnd Wind / hunger vnd
+durst außstehen / vnd viel ander vngemach vnd vngelegenheit vorlieb nehmen: Also
+gehet es vns auch / das wir deßhalben rechte Pilgrim vnd frembdlinge seyn. Es
+rennet vns Gott wol selbst an in vnser Wallfarth / vnd stellet sich als wen&#x0303; er vnser Feindt were / da ers doch im Hertzen gleichwol gut mit
+vns meinet. Wie dem Gottseligen Jacob wiederfahren ist / im ersten Buch Mosis am
+32. Ein Mann / wird gesagt / welcher sich hernach selbst Gott nennet / Rang /
+oder wie in seiner sprach stehet / Steubet mit jhm / den&#x0303; es nicht
+ein geringer / sondern ein hefftiger kampff gewesen / das sich ein grosser staub
+hette mügen erheben / vnd vmb sie dicke vnd finster werden / oder das sie sich
+im Staube mit einander gleich getum&#x0303;elt / vnd bald dieser / bald
+jener oben vnd vnten gelegen. Hiob klagt auch drüber / im 30. Cap. Gott sey jm
+verwandelt in einen grausamen.</p>
+<pb facs="#f0014"/>
+<p>Der Teuffel aber der Ertzmöder vnd Lügner / lests sich sonderlich in vnser
+Wallfarth sawr werden / vns zuverschlingen / Luc. am 22. Der Sathanas hat ewer
+begeret / das er euch möchte sichten wie den Weitzen. Vnd 1. Petr. 5. Ewer
+Wiedersacher der Teuffel gehet vmbher wie ein brüllender Löwe / vnnd suchet
+welchen er verschlinge. Darzu schlegt in vnser Wallfarth heuffig zu / der Welt
+Haß vnd Verfolgung / vnd wir das gantze leben mit allerley Vnglück / Trübsal /
+Jam&#x0303;er vnd Noth / als mit einer Sündtfluth vberschwemmet / wie
+in Gottes Wort außführlich auffgezeichnet ist. Jac. sagt Gen. 47. Wenig vnd böß
+sey die zeit seines lebens. Assaph im 73. Ps. Ich bin geplaget täglich / vnd
+meine straffe ist alle morgen da. Mose im 90. Psal. Wen&#x0303; vnser
+leben köstlich gewesen ist / so ists mühe vnd arbeit gewesen. Hiob am 5. Der
+Mensch wird zu Vnglück geboren / wie die Vogel schweben empor zu fliegen. Vn&#x0303; 7. Cap. Muß nicht der Mensch jmmer im streit seyn auff Erden /
+vnd seine tage sind wie eines Tagelöners? Syrach am 40. Es ist ein elend
+jämmerlich Ding vmb aller Menschen leben / von Mutterleibe an / biß sie in die
+Erden begraben werden / die vnser aller Mutter ist. 2. Tim. 3. Alle die
+Gottselig leben wollen in Christo JEsu / müssen verfolgung leyden. Daher wird
+diß leben vnsere Wallfarth genant im 84. Psalm / ein Jammer oder Thränenthal /
+den&#x0303; wie vor zeiten die Eltern jhre Kinder im Thal Benhinnom /
+Jerem. am 7. Durchs Fewr ha-
+<pb facs="#f0015"/>
+ben gehen lassen / darüber
+das Thal voll Jammers / Thränen / Winseln vnd Wehklagen der armen Kinder worden:
+Also lest Gott seine Kinder in dieser Welt vnd Pilgramschafft durchs Fewr der
+trübsal gehen / beym Syr. am 2. Vnd speiset sie mit Thränenbrot / vnd träncket
+sie mit grossem maß voll Thränen / im 80. Psal. Das die Welt von Thränen /
+Winseln vnd Wehklagen der Kinder Gottes gantz voll ist. Das hat bedacht
+Augustinus / vnnd derwegen geschrieben / Quid est diu vivere, nisi diu torqueri?
+Lang leben ist nicht anders als lang gequelet werden. Das hat bedacht der wilde
+Man&#x0303; / der vom König Mida gefangen worden / vnd sol deßhalben
+gesagt haben: Optimum esse non nasci, aut natum quàm citissimè mori, Das beste
+sey nicht geboren werden / oder bald nach der geburt sterbe&#x0303;. Das
+hat auch bedacht Heraclitus / davon man meldet / das er darumb jm&#x0303;er geweinet / weil er gesehen / das die Welt so voll jam&#x0303;ers vnd
+vnglücks were.</p>
+<p>Diese Vrsach sol vns darzu dienen / das wenn Creutz vnd Noth in vnser Wallfarth
+vns zu handen kömpt / wie es sich täglich findet / wir vns nicht allzusehr
+drüber zu suchen machen / vngedültig werden / vn&#x0303; murren / wie
+vnsere arth ist / sondern gedencken / weil vnser leben ein Pilgrimschafft vnd
+Wallfarth / so könne auch vnser zustand vnd gelegenheit hie nicht besser seyn /
+als anderer Pilger vnd Wallfarthsbrüder ist / vnd deßwegen vnsere Seele in
+gedult fassen / wie Christus vermant Luc. 21. Fasset ewer Seelen mit gedult.
+<pb facs="#f0016"/>
+Vnd Paul. Rom. 12. Seyd gedültig in allem Trübsal: Den&#x0303; es ist ein köstlich ding gedültig seyn / vnnd auff die hülffe
+des HErrn hoffen / in klagliedern Jer: am 3. Cap. So bringet auch Gedult
+Erfahrung / Erfahrung bringt Hoffnung / vnd Hoffnung lest nicht zu Schanden
+werden / Rom. 5. Vnd die Gedult sol in vns vermehren / das vor vns die grossen
+Heiligen in jhrer Pilgramschafft härter sind mitgenommen als wir / denn etliche
+haben Spott vnd Geisseln erlitten / darzu Bande vnd Gefengniß / etliche sind
+gesteiniget / zuhackt / zustochen / vnd durchs Schwerdt getödtet / etliche sind
+vmbher gegangen in Peltzen vnd Ziegenfellen / mit mangel / mit trübsal / mit
+vngemach / vnd sind im Elend gegangen / in den Wüsten / auff den Bergen / in den
+klüfften vnd löchern der Erden / zun Hebr. am 11. Die Gedult sol auch in vns
+vermehren / das vns alles jam&#x0303;er vnd elend in vnser Wallfarth zum
+besten gereicht / den&#x0303; denen / die Gott lieben / dienen alle ding
+zum besten / zun Röm. am 8. Zum Gebet / den&#x0303; wen&#x0303;
+trübsal da ist / so sucht man Gott / vnd wen&#x0303; er sie züchtiget /
+so rufen sie engstiglich / Esa. 26. Zur auffmerckung / den&#x0303;
+anfechtung lernt auffs Wort mercken / Esa. 28. vnd Psal. 119. Ehe ich
+gedemütiget ward / jrret ich / nu aber halte ich dein Wort: Es ist mir lieb /
+das du mich gedemütiget hast / das ich deine rechte lerne. Zur züchtigung / das
+man nicht verloren werde / wenn wir gerichtet werden / so werden wir vom HErren
+gezüchtiget / das wir nicht sampt der
+<pb facs="#f0017"/>
+Gottlosen Welt verdampt
+werden / 1. Cor. 13. Wie wir auch singen / Darumb schickt Gott die trübsal her /
+das vnser Fleisch gezüchtiget werd / zur ewigen frewd erhalten. Insonderheit sol
+auch die gedult in vns vermehren / das vns Gott in allem jam&#x0303;er
+vnd elendt vnserer Wallfarth nicht verlest / sondern bey vns ist / vnd hilfft
+vnser schwachheit / den&#x0303; wir sind nicht vnsere / sondern seine
+Pilger / Ich bin dein Pilgrim / sagt David: So war Gott mit Abraham als mit
+seinem Pilgrim / in seiner Wallfarth / da es jhm vbel ging / vnd war sein Schilt
+vnd sein sehr grosser Lohn / Gen. 15. Mit Jacob / im selben Buch am 32. Ich bin
+mit dir / vnnd wil dich behüten / wo du hinzeuchst: Mit Mose / in seinem andern
+Buch am 3. Cap. Ich wil mit dir seyn. Vnnd ist eben so wol mit vns / Esa. 43.
+Ich habe dich erlöset / Ich habe dich bey deinem Nahmen geruffen / du bist mein.
+Den&#x0303; so du durchs Wasser gehest / wil ich bey dir seyn / das
+dich die Ströme nicht erseuffen: Vnd so du ins Fewr gehest / soltu nicht brennen
+/ vnd die Flamme sol dich nicht anzünden / denn ich bin der HErr dein Gott. Vnd
+im 91. Psal. Ich bin bey jhm in der Noth / ich wil jhn heraus reissen vnnd zu
+ehren machen / Ich wil jhn settigen mit langem leben / vnd wil jhm zeigen mein
+Heyl. Derwegen sollen wir vns alles jam&#x0303;er vnd elend / das vns in
+vnser Pilgrimschafft wiederfehret / so wenig verdriessen vnnd zuwieder seyn
+lassen / das wirs vielmehr für den heylsamen Kelch Gottes halten / vnd es mit
+Danck erkennen / wie David im 116. Ps. Das ist die ander Vrsach.</p>
+<pb facs="#f0018"/>
+<p>Die dritte vnd letzte ist / wie ein Pilgrim vnd Frembdlinger in frembden Landen
+keine bleibende stätte hat / sondern davon muß / so haben wir als Pilgrim vnd
+Frembdlinge in dieser Welt auch keine bleibende stätt / sondern müssen davon vnd
+sterben: Zun Hebr. am 13. Wir haben hie keine bleibende stätt / sondern die
+zukünfftige suchen wir. Im ersten Buch Mosis am 3. Du bist Erden / vnd solt zur
+Erden werden. Josu. am 23. Siehe ich gehe Heute dahin / wie alle Welt. Im 89.
+Psal. Wo ist jemandt der da lebet / vnd den Tod nicht sehe? Syrach am 14. Alles
+Fleisch verschleist wie ein Kleid / denn es ist der alte Bund / du must sterben.
+Rom. 5. Der Todt ist zu allen Menschen hindurch gedrungen. Vnd Hebr. 9. Den
+Menschen ist gesetzt einmahl zu sterben / dawieder hilfft keine fröm&#x0303;igkeit / sonst were der from&#x0303;e Hiob nicht gestorben
+/ dawieder hilfft keine Weißheit noch Reichthumb / sonst were der Weise vnd
+Reiche König Salomo nicht gestorben / dawider hilfft keine schönheit / sonst
+were der schöne Absolon nicht gestorben / darwider hilfft keine stärcke noch
+macht / sonsten were der starcke vnd mächtige Simson nicht gestorben. Davon
+pflegt man zu singen / Dem Reichen hilfft doch nicht sein Gut / dem Jungen nicht
+sein stoltzer Muth / er mus aus diesem Meyen / wenn einer het die gantze Welt /
+Silber vnd Golt vnd alles Gelt / doch muß er an den Reyen. Dem Gelerten hilfft
+doch nicht sein kunst / der Weltlich Pracht ist gar vmbsonst / wir müs-
+<pb facs="#f0019"/>
+sen alle sterben. Vnd das wirs ja gleuben / das wir
+als Pilgrim keine bleibende stätt haben / so wird vnser leben gar vnbestendigen
+vnd fast nichtigen dingen verglichen / einem Winde / der da hinfähret vnd nicht
+wieder kömpt / im 78. Psalm. Einer Wolcken vnd Nebel / im Buch der Weißheit am
+2. Einem Schatten / im 1. Buch der Chron. am 33. Einem Leuffer / Schiff vnnd
+Adeler / beym Hiob am 9. Einem Dampff / Jacob. 4. Einem Strom / Schlaff vnd
+Geschwetz / im 90. Psal. Einer Blumen vnd Graß / Esai. am 40. Vnser Leib aber
+selbst wird deßhalben eine Hütten oder Zelt genandt / in der 2. Epist. zun Cor.
+am 5. Cap. Vnser jrrdisch Hauß dieser Hütten wird zubrochen. Vnd dasselbige in
+frischer gedechtnuß jm&#x0303;er zubehalten / so haben die heiligen Väter
+in Hütten gewohnet / vnd sind mit den Gottseligen gedancken vmbgangen / wie sie
+jhre Hütten abbrechen würden / so würde auch Gott die Hütten jhres Leibes
+abbrechen / vnnd einmahl ein ende damit machen.</p>
+<p>In der Pilgrimschafft ist nu zwar einem jeden Pilgrim seines lebens Ziel von Gott
+gesetzt / wie im Hiob am 14. bekandt wird / der Mensch hat seine bestimpte zeit
+/ die zahl seiner Monden stehen bey dir / du hast ein Ziel gesetzt / das wird er
+nicht vbergehen. Vnd beym Syrach am 17. Cap. GOtt hat den Menschen geschaffen
+aus der Erden / vnnd macht jhn wieder zur Erden / vnd bestimpt jhnen die zeit
+jres lebens: Vnd am 37. Cap. Ein jeglicher hat eine bestimpte zeit zu
+<pb facs="#f0020"/>
+leben: Aber keiner kan wissen / wie lang er zum Ziel / ehe
+ers erreiche / zeit habe / im Prediger Sal.: am 9. Cap. Der Mensch weiß seine
+Zeit nicht / sondern wie die Fisch gefangen werden mit den schädtlichen Hamen /
+vnd wie die Vogel mit einem Strick gefangen werden / so werden auch die Menschen
+beruckt zur bösen zeit / wenn sie plötzlich vber sie felt.</p>
+<p>Diese Vrsach sollen wir darzu gebrauchen / das wir nicht so verpicht vnd
+verstürtzt seyn auff diß leben / vnd was drinnen ist / als auff Gelt vnd Gut /
+Ehre vnd Herrligkeit / Wollust vnd Frewde / den&#x0303; wie wir hie keine
+bleibende stätt haben / so können wir derer dinge auch nicht allezeit vnd ewig
+geniessen / sie folgen vns auch nicht nach im Todte / wie im 49. Psalm
+geschrieben stehet / die es aber drauff setzen / vnd jhr Hertz dran hangen / die
+vergessen drüber jhrer seligkeit / vnd fallen in Versuchung vnd Stricke / vnd
+viel Thörichter vnd schädtlicher Lüste / welche versencken die Menschen ins
+Verderb vnd Verdamniß 1. Tim. 6. Wie die exempel der ersten Welt / des
+Geitzhalses Luc. 12. Vnd des reichen Mans Luc. 16. vnnd andere mehr außweisen:
+Sondern wie kluge Pilgrim vorsichtiglich wandeln / vnd was jhnen an jhrer Reyse
+hinderlich ist / meyden / also auch wir / in der 1. Petr. am 2. Cap. Ich ermane
+euch als die Pilgrim vnd Fremdlinge / enthaltet euch von fleischlichen Lüsten /
+welche wieder die Seele streiten / vnd führet einen guten Wandel vnter den
+Heyden / auff das die / so von euch Affterreden / als von V-
+<pb facs="#f0021"/>
+belthätern / ewer gute Werck sehen / vnd Gott preisen / wens nun an
+den Tag kommen wird / 2. Cor. 5. Wir fleissigen vns / wir sind daheimb oder
+wallen / das wir Gott wolgefallen. Daneben sollen wir vns auch an dem / was vns
+Gott gibt / genügen lassen / wie Pilgrim am geringen sich genügen lassen vnnd zu
+frieden seyn / wie auch die Heiligen gethan haben / zun Hebr: am 11. Sie haben
+sich genügen lassen vnd bekand / das sie Gäste vnd frembdlinge auff Erden seyn.
+Es ist ein grosser gewin / wer Gottselig ist / vnnd lest jhm genügen / den&#x0303; wir haben nichts in die Welt bracht / darumb offenbar ist / wir
+werden auch nichts hinaus bringen / wen&#x0303; wir aber Narung vnd
+Kleider haben / so last vns genügen / sagt Paulus 1. Tim. 6. Für allen dingen
+aber / weil die zeit vngewiß / wen&#x0303; wir einmahl als Pilgrim aus
+diesem leben müssen auffbrechen / so sollen wir allezeit darzu gefast vnd bereit
+seyn in warer bußfertigkeit / das wir nicht mit den fünff thörichten Jungfrawen
+/ Matth. 25. zu kurtz drüber kommen / Luc. am 12. Lasset ewer Lenden vmbgürtet
+seyn / vnd ewre Lichter brennen etc. Amos 21. Hütet euch / das ewre Hertzen
+nicht beschweret werden mit Fressen vnd Sauffen / vnd mit Sorgen der Narung /
+vnd komme dieser Tag schnell vber euch / den&#x0303; wie ein Fallstrick
+wird er kom&#x0303;en / vber alle die auff Erden wohnen. So seyd nun
+wacker vnd betet / das jhr wirdig werden müget / zu entfliehen diesem allen /
+das geschehen sol / vnnd zu stehen für des Menschen Sohn. Matth. 24. Wachet /
+<pb facs="#f0022"/>
+den&#x0303; jhr wisset nicht welche Stunde ewer
+HErr kom&#x0303;en wird. In der offenbarung Johan. am 16. Siehe ich
+kom&#x0303;e als ein Dieb / Selig ist der da wachet / vnnd helt seine
+kleider / das er nicht bloß wandele / vnd man nicht seine Schande sehe. Weil vns
+aber der Teuffel dasselbige jm&#x0303;er aus dem Sin&#x0303; wil
+schlagen / das wir hie Pilgrim seyn / vnd keine bleibende stätt haben / vnnd
+davon müssen / so sollen wir täglich Gott bitten vnnd ersuchen / er wolle es vns
+in vnsere Hertzen rufen / vnnd vns lehren / wie des Davids Gebet gewesen im 39.
+Ps. HErr lehre mich doch / das ein ende mit mir haben muß / vnd mein leben ein
+ziel hat / vnd ich davon muß: Vnd Mose im 90. Psalm: Lere vns bedencken / das
+wir sterben müssen / auff das wir klug werden. Wers so macht vnd anschlegt / der
+wird gewißlich seine Pilgrimschafft / Jammer / Trübsal vnnd Elend / bringen zum
+guten seligen end / vnd wol außgewesen seyn. So viel vom Ersten Theil.</p>
+</div>
+<div>
+<head>Vom Andern.</head><lb/>
+<p>DAs Ander Stücklein wollen wir auch nach gelegenheit der zeit mit nehmen. Im
+Ebreischen hat David nur ein einiges Wörtlein / welches Lutherus Bürger
+verdolmetsch hat. Das kömpt von einem Wörtlein / das so viel als wohnen vnd
+bleiben heist: Im 15. Psalmen / Wer wird bleiben auff deinem heiligen Berge? Im
+2. Ps. wirds von Gott
+<pb facs="#f0023"/>
+selbst gebraucht: Gott wohnet im Hmmel.
+Vnd wil damit David so viel sagen / ob er schon hie in dieser Welt dieses lebens
+halben ein Pilgrim sey / so wisse er doch gewiß / das er dort in jenner Welt des
+ewigen lebens halben ein Bürger sey / vnd werde bey Gott ewig wohnen vnd bleiben
+/ vnd so hoch jhn seine Wallfarth im Fleisch betrübe / so hoch erfrewe jhn
+wiederumb im Geist das Bürgerrecht des ewigen lebens.</p>
+<p>Hie wird vns nu / geliebte im HErrn / gewiesen / das nicht allein ein
+vergengliche stätt vnd diß zeitliche leben sey / sondern es müsse auch seyn eine
+vnvergengliche stätt vnd ewiges leben / den&#x0303; solte nur allein
+diese vergengliche stätt vnd zeitlich leben seyn / so hette David sich auch
+allein für einen Pilgrim müssen erken&#x0303;en / den&#x0303;
+dieses lebens halben sind wir nicht mehr als Pilgrim: In dem er sich aber
+zugleich für einen Bürger außgibt / vnd zwar für einen bleibenden Bürger vnd
+Einwohner / so muß ein andere stätt vnnd ewiges leben seyn / darinnen er das
+Bürgerrecht oder Bürgerschafft gehabt / das kan nicht triegen / wie wenig es
+triegen kan / das ein Wanderßman / der ein Pilgrim vnd Bürger ist / nicht
+anderßwo ein Vaterlandt sol haben / darinnen er Bürger ist / vnd zu Hauß
+gehöret.</p>
+<p>Nu lassen sich aber viel Leute bedüncken / das habe keinen streit / vnnd sey
+niemandt der die bleibende stätt vnd ewiges leben in zweiffel ziehe / darumb man
+dasselbige nicht beweisen / noch viel Wort davon machen dürffe. Sehr gut vnd zu
+wünschen were es / das
+<pb facs="#f0024"/>
+es sich also verhielte / aber wie zu
+jederzeit Leute gefunden werden / die es für ein Gedicht halten / vnd nicht
+gegleubet / als die rohe Leute im Buch der Weißheit am 2. Festus in der Apostel
+geschicht am 26. Die Saduceer Matth. 22. Hymeneus vnd Philetus in der 2. Epist.
+an Tim. am 2. Cap. Pabst Paulus Tertius / der kurtz für seinem Todt gesagt / Nu
+werde ich zwey dinge erfahren / die ich nicht gegleubet / ob ein GOtt sey / vnd
+ein ewiges leben: Also findet man der Epicurer noch auff den Heutigen Tag hin
+vnd wieder / die es nicht für war halten / wie Petrus davon geweissaget in
+seiner 2. Epistel am 3. Cap. In den letzten tagen werden spötter kommen / die
+nach jhren eygnen lüsten wandeln werden / vnd sagen: Wo ist die Verheissung
+seiner Zukunfft / den&#x0303; nach dem die Väter entschlaffen sind /
+bleibet es alles wie es von anfang der Creaturen gewesen ist: Ja das mehr ist /
+es stutzen bißweilen wol hierinnen die frommen / denn machts jhnen gedancken /
+ob ein GOtt sey / wenn sie sehen / das es so wunderlich in der Welt zu gehet /
+wie solte es jhnen keine gedancken machen / ob ein ewiges leben sey? Darumb ist
+beweißthumb darvon hoch von nöhten: Die heilige Schrifft aber gedencket der
+jmmerwerenden stätt vnd des ewigen lebens mit außtrücklichen worten zun Hebr. am
+13. Die zukünfftige stätt suchen wir / beym Propheten Daniel am 12. Viele so
+vnter der Erden liggen / werden auffwachen / etliche zum ewigen leben / Matth.
+25. Sie werden gehen in das
+<pb facs="#f0025"/>
+ewige Leben. Vnd Joh. 10. Meine
+Schafe hören meine Stim&#x0303;e / vnd ich kenne sie / vnd sie folgen mir
+/ vnd ich gebe jhnen das ewige leben. Das sind nicht vergebliche Menschen Wort /
+sondern warhafftige Gottes Wort / darauff man sich darff verlassen. Gott hat
+auch die vnvergengliche stätt vnd ewiges leben damit war gemacht / das er Enoch
+lebendig drein genommen / im 1. Buch Mosis am 5. Vnnd Eliam dahin im Wetter mit
+fewrigen Rossen vnd Wagen geholet / im 2. Buch der Könige am 2. Vnd Christum gen
+Himmel ins ewige leben nach verrichtem Werck der erlösung Menschliches
+Geschlechts hat fahren lassen / Marc. 16. Darzu kommen die Gesichte vnnd
+Erscheinungen / darin&#x0303;en der bleibende stätt vnd ewiges leben /
+Esaiae / Ezechieli / Danieli vnd andern gezeiget / wie auch den dreyen Aposteln
+/ die Christus mit sich auff den Berge genom&#x0303;en in seiner
+Verklerung / aus der klarheit vnd herrligkeit des ewigen leben Moses vnd Elias
+erschienen seyn / vnnd mit jhnen geredt haben / Matth. 17. Vnd Johannes hat in
+der offenbarung am 21. Cap. das ewige Leben / die heilige Stadt / das newe
+Jerusalem von Gott aus dem Him&#x0303;el herab sehen fahren / als eine
+geschmückte Braut jhrem Man&#x0303;. Vnd Paulus ist in die bleibende
+Stadt ins ewige Leben / das Himlische Paradiß entzückt worden / hat
+vnaußsprechliche Wort gehöret / die kein Mensch sagen kan / vnd ist wiederkommen
+/ vnd hats vns verkündiget / wie in der 2. Epistel an die Cor. im 12. zu lesen.
+Zugeschweigen des
+<pb facs="#f0026"/>
+zeugniß der Märterer / welche / so keine
+vnvergengliche stätt vnd ewiges leben were / würden verkürtzt seyn / vnd würde
+jhnen jhre Hoffnung zu schanden seyn worden / die doch nicht lest zu schanden
+werden / zun Röm. am 5. Cap. Vnnd zugeschweigen der gütigkeit vnnd
+Barmhertzigkeit Gottes / die aus Gnaden alles gute / auch einen trunck kaltes
+Wassers in Christi Namen gegeben / nicht wil vnbelonet lassen / Matth. am 10.
+welches hie offt verbleibet / aber dort erst recht geschehen wird. Derwegen an
+der bleibenden stätt vnd ewigen leben im geringsten kein Mensch zu zweiffeln
+hat.</p>
+<p>In derselbigen Stadt vnd ewigen leben seyn wir nu rechte Bürger. Das meinet David
+/ wen&#x0303; er sagt / er sey Gottes Bürger. Paul. bekennet es auch zun
+Phil. am 3. Cap. Vnser Wandel <foreign xml:lang="el"><gap reason="fm"/></foreign>, vnser Bürgerrecht oder
+Bürgerschafft ist im Himmel / von dannen wir auch warten des Heylandes JEsu
+Christi des HErrn / welcher vnsern nichtigen Leib verkleren wird / das er
+ehnlich werde seinem verklerten Leibe / nach der wirckunge / da er mit kan auch
+alle ding jhm vnterthänig machen. Vnd Ephes. 2. schreibt er / So seyd jhr nu
+nicht mehr Gäste vnd frembdlinge / sondern Bürger mit den heiligen vnd Gottes
+Haußgenossen. Zu derselben Bürgerschafft aber haben wir vns selbst nicht
+wiedrumb verholffen / sondern allein vnser HErr vnd Heyland JEsus Christus / der
+ist deßhalben vom Himel kommen / wie das Nicenische Symbolum meldet / Propter
+nos homines &amp; propter nostram salutem, de-
+<pb facs="#f0027"/>
+scendit de coelis, &amp; incarnatus: Ist ein Pilgrim worden / das er
+vns zu reichen Bürgern müchte machen / In der 2. Epist. an die Cor. im 8. Cap.
+Ihr wisset die Gnade vnsers HErrn JEsu Christi / das / ob er wol Reich ist /
+ward er doch arm vmb ewrent willen / auff das jhr durch seine Armut Reich
+würdet: Dahero singt die Kirche: Er ist auff Erden kommen Arm / das er vnser
+sich erbarm / vnd in dem Him&#x0303;el mache Reich / vnd seinen lieben
+Engeln gleich: Vnnd hat die Bürgerschafft für vns sehr thewr gewonnen / nicht
+mit Silber vnd rotem Eolt / sondern mit seinem thewren Blut / vnd mit seinem
+bitter Leyden vnd Sterben / in der 1. Petr. am 1. Wisset / das jhr nicht mit
+vergenglichem Silber oder Golt erlöset seyd / sondern mit dem thewren Blut
+Christi / als eines vnbefleckten Lambs. Vnnd zur vorgewisserung / damit man an
+dem Bür / gerrecht nicht zu zweiffeln / so ist er hienauff gefarenvnd hat nicht
+als ein Erbe für sich / sondern als ein Erlöser vnd Seligmacher für vns
+possession em apprehen dirt, vnnd es eingenommen / beym Propheten Micha am 2.
+Cap. Es wird ein Durchbrecher für jhnen herauff fahren / sie werden Durchbrechen
+/ vnnd zum Thor auß vnd einziehen / vnd jhr König wird für jhnen hergehen / vnd
+der HErr fornen an. Johannis am 12. Wenn ich erhöhet werde von der Erden / so
+wil ich sie alle zu mir ziehen. Im 14. Cap. In meines Vaters Hause sind viel
+Wohnungen / wens nicht so were / so wolte ich zu euch sagen / ich gehe hin /
+euch die stätte
+<pb facs="#f0028"/>
+zu bereiten / vnd ob ich hinginge euch die
+stätte zu bereiten / wil ich doch wiederkommen / vnnd euch zu mir nehmen / auff
+das jhr seyd wo ich bin. Im 20. Capit. Ich fahre auff zu meinem Vater vnd zu
+ewrem Vater / zu meinem Gott vnd zu ewrem Gott. Diß Bürgerrecht gehet schon
+alhie in der Kirchen an / den&#x0303; albereit vnsere Nahmen geschrieben
+werden in das Buch Gottes / hie ist Christus der Weg darzu / Johan. 14. hie
+haben wir auch den Wagen darzu / das Predigampt / Ezech: 1. Daher Paulus sagt
+zun Ephes. am 2. Cap. In Israel / das ist in der Kirche / sey Bürgerschafft /
+vnnd am selbigen ort stehet vorher / Da wir todt waren in Sünden / hat vns Gott
+sampt Christo lebendig gemacht / vnd hat vns sampt jhm aufferwecket / vnnd sampt
+jhm in das Himlische wesen gesetzt. Aber im Himmel ists vns recht beygelegt /
+vnnd wird vns behalten biß an den jüngsten Tag / da wirs alßdan recht in der
+That einnemen vnd besitzen werden / vnd wird sich da alles recht endern vnd
+wandeln / den&#x0303; da wir hie als Pilgrim nicht mit Gott im rechten
+Hause seyn gewesen / so werden wir alßdan mit jhm in das rechte Hauß ins ewige
+leben kommen / vnnd jhn von Angesicht zu Angesicht anschawen / in der 1. zun
+Cor. am 13. Wir sehen jetzt durch einen Spiegel in einem tunckeln Wort / den&#x0303; aber von Angesicht zu Angesicht / jetzt erkenne ichs stückweise
+/ den&#x0303; aber werde ich erkennen / gleich wie ich erkennet bin. In
+der 1. zun Thessal. am 4. Wir werden bey dem HErrn seyn alle-
+<pb facs="#f0029"/>
+zeit. Da wir hie als Pilgrim groß Creutz / Trübsal vnd Vngemach
+außgebadet / so werden wir alßdan alles leydes reichlich ergetzet werden / im
+126. Psalm / Die mit Thränen seen / werden mit frewden erndten. Sie gehen hin
+vnnd Weinen / vnnd tragen edlen Samen / vnd kom&#x0303;en mit frewden vnd
+bringen jhre Garben. Zun Röm. am 8. Ich halte es dafür / das dieser zeit leyden
+nicht werth sey / der Herrligkeit / die an vns sol offenbaret werden. In der 2.
+zun Cor. am 4. Vnser Trübsal die zeitlich vnd leicht ist / schaffet eine ewige
+vnd vber alle maß wichtige Herrligkeit. In der offenbarung Johannis am 7. Sie
+wird nicht mehr Hungern noch Dürsten / es wird auch nicht auff sie fallen die
+Sonne / oder jrgend eine Hitze / den&#x0303; das Lamb mitten im Stuel
+wird sie weyden vnd leyten zu den lebendigen Wasserbrunnen / vnd Gott wird
+abwischen alle Thränen von jhren Augen. Da wir hie als Pilgrim keine bleibende
+stätt gehabt / so werden wir alßdan eine gewisse / feste / bleibende vnd ewige
+stätt haben: zun Hebr. am 11. Abraham wartet auff eine stätt die einen Grund hat
+/ welcher Bawmeister vnd Schöpffer Gott ist. Vnnd 2. Cor. 5. Wir wissen / so
+vnser jrrdisch Hauß dieser Hütten zubrochen wird / das wir einen Baw haben von
+Gott erbawet / ein Hauß nicht mit Händen gemacht / das ewig ist im Himmel.</p>
+<p>Das ander stücklein sollen wir nu recht zu vnserm besten anwenden / anfenglich
+darzu / weil wir im Himel Bürger seyn / das wir auch Himlisch / als Bürgern
+<pb facs="#f0030"/>
+des Himmels gebüret / Wandeln. Das wirs aber in dem Wandel
+recht treffen / so sollen wir auff vnsere Mitknechte / Brüder vnd Mitbürger die
+liebe H. Engel sehen: Die wandlen also / das sie sich in allen dingen nach
+Gottes willen vnd befehl richten / im 103. Psalm. Nach dem willen vnd befehl
+Gottes / in seinem Wort geoffenbart / sollen wir vns auch in allen dingen
+richten. Denn wir lesen Matth. am 7. Cap. Es werden nicht alle die zu mir sagen
+/ HErr HErr / ins Him&#x0303;elreich kommen / sondern die den willen thun
+meines Vaters im Him&#x0303;el. Der wille aber Gottes an vns ist / das
+wir Busse thun / vnd an Christum gleuben / in der 2. Epist. Petr. am 3. Gott wil
+nicht / das jemand verloren werde / sondern das sich jederman zur Busse kehre.
+Vnnd Joh. 6. Das ist der wille des der mich gesand hat / das wer den Sohn siehet
+vnd gleubet an jhn / der habe das ewige leben: Die Engel vnsere Mitbürger
+wandlen auch also / das sie Gott jmmer loben vnd preisen / Esa. am 6. Wir sollen
+auch allezeit Gott loben vnd preisen / vnd wen&#x0303; wir dessen keine
+Vrsach mehr hetten / so were es mehr als gnug an der einigen / das er vns in
+vnnd durch Christum das Bürgerrecht wieder geschencket hat: Darumb sollen wirs
+machen / wie vns Paulus Ephes. am 5. vermahnet: Werdet voll Geistes / vnd redet
+vnterander von Psalmen vnd Lobgesengen vnd geistlichen Liedern / Singet vnd
+Spielet dem HErrn in ewren Hertzen / vnd saget Danck allezeit für alles / Gott
+vnd dem Vater in dem Namen vnsers HErrn
+<pb facs="#f0031"/>
+JEsu Christi: Die
+Engel vnsere Mitbürger Wandlen auch also: Das sie in Heiligkeit vnd
+Gerechtigkeit Gott dienen: So sollen wir auch Gott in Heiligkeit vnd
+Gerechtigkeit als Him&#x0303;elsbürger dienen / Luc. am 1. Das wir
+erlöset aus der Handt vnser Feinde / jhm dieneten ohne furcht vnser lebelang /
+in Heiligkeit vnd Gerechtigkeit die jhm gefellig ist: zun Ephes. am 4. Leget ab
+nach dem vorigen Wandel / den alten Menschen / der durch lüste in jrrthumb sich
+verderbet / ernewert euch aber im Geist ewers gemühts / vnd ziehet den newen
+Menschen an / der nach Gott geschaffen ist / in rechtschaffener Gerechtigkeit
+vnd Heiliigkeit: Ja die Engel vnsere Mitbürger wandlen also / ob sie wol auff
+die Menschen auff Erden warten / das sie den&#x0303;och allezeit sehen
+das Angesicht des Vaters im Himmel / Matth. 18. vnd jmmer jhre Augen / das ich
+so rede / jhnen nach Gott vnd den Him&#x0303;el stehen: In dem sollen wir
+jhnen auch folgen / das / ob wir wol hie auff Erden seyn vnd seyn müssen / so
+lang es Gott gefelt / gleichwol jmmer nach Gott vnd den Him&#x0303;el
+vnsere Augen vnd Hertzen stehen: Im 123. Psalm / Ich hebe meine Augen auff zu
+dir / der du im Himmel sitzest. Siehe / wie die Augen der Knechte auff die Hände
+jhrer Herrn sehen / wie die Augen der Magt / auff die Hände jhrer Frawen: Also
+sehen vnsere Augen auff den HErrn vnsern Gott etc. zun Colloss. am 3. Seydt jhr
+mit Christo aufferstanden / so suchet was droben ist / da Christus ist / sitzend
+zur rechten Gottes / trachtet nach
+<pb facs="#f0032"/>
+dem was droben ist / nicht
+nach dem das auff Erden ist. In diesen vnd dergleichen dingen beruhet ein
+Himlischer Wandel / darumb wir als Himmelßbürger damit zu jederzeit sollen
+zuthun haben vnd vmbgehen.</p>
+<p>Darnach sollen wirs auch darzu anwenden / das wir vns desselbigen Himlischen
+Bürgerrechts oder Bürgerschafft zu jederzeit von Hertzen trösten vnd erfrewen /
+wie den&#x0303; daher reicher trost vnd frewde kömpt / den&#x0303;
+es kan das Creutz so schweer nicht seyn / noch der Todt so herb vnd bitter /
+wenn man an das Bürgerrecht in warem Glauben gedenck / man muß dadurch erquicket
+werden. Sehet an die Heyden / was hats gemacht / das sie auch in geringem
+Vnglück so vngedültig / zaghafftig vnnd kleinmütig seyn gewesen? Was hats
+gemacht / das sie mit zittern / zagen / weinen vnd wehklagen / ja wol mit
+brüllen sind von hinnen gefahren / wie Virgilius vom Heyden seyn Buch
+beschleust: Vitaque cum gemitu fugit indignata sub umbras? Das hats gemacht /
+das sie von dem Bürgerrecht des Himmels nicht gewust / darumb sie weder sich
+selbst haben trösten können / noch von andern getröstet werden. Wiederumb hats
+gemacht / das die sieben Söhne sampt jhrer Mutter im 1. Buch der Maccabeer am 7.
+grosse Quaal vnd Pein getrost vnd frölich außgestanden? Der Apostel Paulus mit
+lust vnd frewden seiner Auffopfferung vnd Schlachtung erwartet? Ignatius
+großmütig sich den Thieren hat vorwerffen / Vnd Laurentius vnerschrocken sich
+hat braten lassen? Vnd
+<pb facs="#f0033"/>
+andere Märterer mehr mit singen vnd
+Beten in den Todt seyn gangen? Es hats gemacht / das sie der Bürgerschafft des
+ewigen Lebens seyn gewiß gewesen / vnd nicht gezweiffelt / sie kemen nu recht
+aus der Pilgrimschafft zu Hauß / vnd würdens ewig wol haben / wie an obgedachtem
+ort im Buch der Maccabeer zu vernehmen.</p>
+<p>Derwegen sollen wir in allen anliegen jm&#x0303;er das Bürgerrecht für vns
+nehmen / mit rechtem waren Glauben vns an JEsum Christum / der es erworben /
+fast halten / zu seinem Tryumphs Wagen vns finden vnd anfassen / vnd alle
+Trawrigkeit vnnd Hertzeleidt damit vberwinden: Ja die frewde von wegen des
+Bürgerrechts im Himmel / sol alle frewde vber andere dinge auff Erden
+vbertreffen / wie vns Luc. am 10. zuverstehen wird gegeben: Da kommen die
+Siebentzig Jünger / die Christus hatte außgesandt / vnd seyn von Hertzen frölich
+/ das jhnen auch die Teuffel in seinem Nahmen seyn Vnterthan gewesen: Aber
+Christus spricht zu jhnen / darin frewet euch nicht / das euch die Geister
+Vnterthan sind. Frewet euch aber / das ewer Nahmen im Himmel geschrieben sind.
+Darüber sollen wir vns auch allezeit frewen / das ist Gott angenehm vnd
+gefellig.</p>
+<p>Zu letzt / sollen wirs gleichsfals darzu anlegen / weil wir allererst am jüngsten
+Tage im Himmel zur rechten possession vnnd besitz des Himlischen Bürgerrechts
+werden kommen / das wir den&#x0303; mit Hertzlichem
+<pb facs="#f0034"/>
+verlangen des tages abwarten / vnd vns darnach sehnen. Luc. 21. Wen&#x0303; dieses anfehet zu geschehen / so sehet auff / vnd hebt ewer Heupter auff /
+darumb das sich ewer Erlösung nahet. 2. Cor. 5. Wir sehnen vns nach vnser
+behausung / die vom Himmel ist / vnnd vns verlangt / das wir damit vberkleidet
+werden: Wir haben lust ausser dem Leibe zu wallen / vnd daheimen zu seyn bey dem
+HErrn. Haben doch die Kinder Israel / da sie im Babylonischen gefengnuß gewesen
+/ ein Hertzlich verlangen nach jhrem Vaterlande gehabt / vnnd Tag vnd nacht
+darnach geseufftzet vnd sich gesehnet / so sollen wir ja vielmehr aus diesem
+Gefengnuß des sündtlichen vnd elenden lebens / ein Hertzlich verlangen nach dem
+Tage haben / daran wir wieder ins rechte Vaterlandt werden kommen / vnd ewiglich
+die rechte freyen seyn: Verlangt doch gleichfals einen andern Wanderßman nach
+den seinen / wen&#x0303; er aus ist: Wie solte vns nicht vielmehr nach
+dem vnsern verlangen / nach vnserm Himlischen Vater / vnd allen guten freunden /
+die für vns hingefahren seyn? Ja wartet doch das engstiglich harren der
+Creaturen auff die offenbarung der Kinder Gottes / vnd sehnet / vnd engstet sich
+jm&#x0303;erdar / zun Röm. am 8. So ists ja billiger / das vnser die
+wir die Kinder Gottes selbst seyn / engstigliche harren auff vnsere offenbarung
+warte / vnnd wir vns mit jhnen sehnen vnd engsten jmmerdar. Vnnd so offt vns vom
+jüngsten Tag vnd Christi zukunfft geprediget wird / das er bald kommen werde /
+sollen wir mit Jo-
+<pb facs="#f0035"/>
+hanne aus der offenbarung am 22.
+beten / Amen / Ja kom&#x0303; HErr JEsu. Mit solchem verlangen vnd sehnen
+bezeugen wir / das vns an der Bürgerschafft des ewigen lebens gelegen / vnnd
+hoch drumb zuthun sey. Darumb wirs nicht sollen vnterlassen. So viel auch vom
+andern Stück. Haben so nach gelegenheit der zeit zweyerley vernommen / Erstlich
+das wir Gottes Pilgrim seyn / vnd worzu vns dasselbige diene. Zum Andern das wir
+auch Gottes Bürger seyn / vnnd worzu wir dasselbige sollen anlegen. Gott im
+Himmel gebe / dar wir vns darnach richten.</p>
+<p>HIerauff solte nu billig ein außführlicher bericht geschehen / von vnsers
+gewesenen Gnädigen Fürsten vnd Herrn Leben vnnd Sterben / wie Gottes Wort selbst
+gedencket der Regenten / vnd wie sie gelebet haben / vnd gestorben seyn / nicht
+mit stillschweigen für bey gehet. Weil aber dasselbige eigendtlich gehöret in
+die rechte Leichpredigt / die gelibts Gott den 4. Octobr. wird gethan werden /
+als wollen wir nicht weitleufftig drinnen seyn / damit derselben das jhre nicht
+genommen werde: Sondern anfenglich eine geringe vergleichung zwischen David dem
+Hertzog vber Israel / 2. Samuel. 5. der diesen Spruch durch eingeben des H.
+Geists gered / Vnd zwischen dem Hertzog zu Braunschweig vnd Lüneburg / vnsern
+gewesenen Gnädigen Fürsten vnd Herren anstellen / vnd darauff besehen / wie
+dieser Text auff S. F. G. zu ziehen.</p>
+<pb facs="#f0036"/>
+<p>David betreffent / so ist der ein armer Sünder gewesen (den&#x0303; weil
+wir in Sünden empfangen vnd geboren werden / so fangen wir da billig an) vnd hat
+nicht allein die Erbsünde an sich gehabt / sondern auch würckliche Sünde /
+den&#x0303; andere feyle vnd mängel für beyzugehen / so hat er sich
+vom Zorn vnd Rachgierigkeit vbereylen lassen / 1. Sam. 25. Hats mit der Bathseba
+vnd Vria gröblich versehen / 2. Sam. 11. Vnd ist zu leichtgleubig gewesen / da
+der Verleumbder Ziba den Mephiboseth zur vngebür angegeben / in demselben Buch
+am 16. Cap. So ist auch vnser gewesener Gnädiger Fürst vnd Herr ein armer Sünder
+gewesen / nicht allein nach der Erbsünden / sondern auch nach den Würcklichen /
+vnd was wollen oder können wirs verhelen? Grosse Potentaten haben neben jhren
+grossen Tugenden / auch gemeinlich grosse mängel vnd gebrechen an sich.
+Wiederumb aber hat auch David viel guts geschaffet vnd außgerichtet. Er hat
+durch Gott den rechten ware&#x0303; Gottesdienst in seinem Lande erhalten
+vnd fortgesetzt: Das hat vnser gewesener Gnädiger Fürst vnd Herr hochlöblicher
+gedechtnuß auch gethan / den&#x0303; nu in die 24. Jahr vnter S. F. G.
+Schutz das heilige Göttliche Wort rein vnd lauter gepredigt / vnd die
+hochwürdige Sacramenta nach der einsetzung Christi verreicht vnd außgespendet
+worden: Haben auch S. F. G. zu Praag mechtig darzu geholffen / vnd von dannen
+hieher an die Regierung geschrieben / das in Religion vnd Kirchen sachen nichts
+sol geendert
+<pb facs="#f0037"/>
+werden / darauff sie ein fleißiges wachends Auge
+haben sollen. Dafür wir dem Allmechtigen vnd Barmhertzigen Gott nicht gnugsam
+dancken können / denn das ist der höchste Schatz den wir hie auff Erden können
+haben / dadurch vns zur seligkeit verholffen wird. David ist auch nach dem
+frieden außgewesen / das seine Vnterthanen möchten in Ruhe sitzen / vnnd hat
+einem jeden Recht vnd Gerechtigkeit geschaffet / 2. Sa. 8. Gott lob vnd danck /
+wir haben vnter vnsers Gnädigen Fürsten vnnd Herrn Schutz auch zimblich Recht
+vnd frieden gehat / vnd ob wol etliche Jahr her Vnruhe mit vntergelauffen / vnd
+dasselbige von Verächtern der Herrschafften / wie sie Petrus nennet / 2. Cap. 2.
+S. F. G. zugemessen worden / so hat sichs doch viel anders befunden / das
+nemblich schuldig dran seyn gewesen vnd noch auff den heutigen tag schuldig dran
+seyn / S. F. G. halstarrige / vngehorsame vndrebellische Vnterthanen / wie sie
+auch deßhalben rechtmessiger weise in die Acht erkläret / welches vnter andern
+ein gnugsamb zeugniß ist S. F. G. Vnschuldt. David ist gleichfals ein rechter
+Gnädiger vnd Wolthätiger Herr gewesen: Wer denselben Ruhm vnserm gewesenen
+Gnädigen Fürsten vnd Herrn wolte entzihen / der thete der warheit selbst vnrecht
+/ S. F. G. haben nicht wol Nein sagen können / welches viele / die es wol am
+wenigsten verdient / wol gewust / vnd vber die maß / jhre oculos wie man sagt /
+mit genom&#x0303;en. Vnd in Sum&#x0303;a / wer sich bey S. F. G.
+nicht geschemet / der hat sich genehret vnd
+<pb facs="#f0038"/>
+wol versorget /
+wie der augenschein bey etlichen außweiset. Mit was Gewissen aber es von jhnen
+geschehn / lasse ich sie verantworten / vnd wie es den jhrigen gedeyen werde /
+weil sie mehr jren / als jres Herren Nutz / wieder jhr Pflicht vnd Eydt gesuchet
+/ wird die zeit geben. David ist ein rechter kluger vnd hochverstendiger Herr
+gewesen: Wer wil das nicht sagen vnd bekennen von vnserm gewesenen gnädigen
+Fürsten vnd Herrn? Man hat sich vber S. F. G. hohen Verstandt vnd fürtreffliche
+Gaben des Gemüths / nicht gnugsam verwundern können / wie S. F. G. nicht allein
+hochgelarte Leute / sondern auch hohe Potentaten vnd Herrn zu jederzeit haben
+zeugniß müssen geben. Solte ich weiter in der vergleichung fort fahren / würde
+ich noch viel zu erzehlen haben / wil aber geliebter kürtz halben / vnd weil es
+hernachmals nicht wird verschwiegen werden / abbrechen. So nun gantz Israel
+vrsach gehabt / vmb David jhren Herrn Leyt zu tragen / da er mit Todt abgangen /
+so haben wir traun vrsach Leydt zu tragen vmb vnsern gewesenen Gnädigen Fürsten
+vnd Herrn / vnnd lassen vns S. F. G. tödtlichen abgang billig zu Hertzen gehen.
+Der Vater des Vaterlandes ist gestorben / billig beweinen wirs als Kinder / Der
+Hirte ist geschlagen / billig beklagen wirs als Schäfflein / Der grosse Baum des
+Landes ist gefallen / billig betrawren wirs / als die Narung / Schatten vnd Ruhe
+drunter gehabt haben. Das ist die vergleichung der beyden Potentaten.</p>
+<pb facs="#f0039"/>
+<p>Den erklerten Text aber anlangent / so kan derselblge sehr wol auff S. F. G.
+gezogen werden / den&#x0303; wie wir alle Pilgrim auff Erden seyn /
+darum&#x0303; das wir nit mit Gott im rechte&#x0303; Hause
+seyn / vielvnglücks müssen leyde&#x0303; / vnd hier kein bleibende stätt
+haben: Also hat vnser gewesener G. F. vnd Herr / in die zahl der Pilgrim / derer
+vrsachen halben auch gehöret / den&#x0303; S. F. G. hier nicht mit Gott
+im rechten Hause gewesen / sondern haben dem HErrn gewallet: Haben auch so viel
+Vnglücks müssen für lieb nehmen / das sie fast keinen guten Tag darbey gehabt /
+wie jedermen&#x0303;iglich / der vmb S. F. G. gewesen / bekandt ist: Vnd
+was haben S. F. G. nu etliche Jahr durch vnd durch mit seiner Erb: vnd Landstadt
+/ die S. F. G. vorlengst auch im Recht zu erkand / außgebadet? Wo bleibt aber
+das andere vnd vbrige? Darzu ist kom&#x0303;en / das S. F. G. hie kein
+bleibende stätt gehabt / vnd allerdings nicht im Vaterland / sondern zu Praag an
+frembden örten als ein rechter Pilgrim im 49. Jahr seines alters den Geist
+auffgeben vnnd verschieden. Wie wir aber Bürger seyn im Him&#x0303;el in
+der jm&#x0303;erwerenden Stadt Gottes / vnd das Bürgerrecht nach der
+Seelen / so bald wir im HErrn sterben / einnehmen: So zweiffeln wir nicht / S.
+F. G. Seele habe schon das Bürgerrecht im Him&#x0303;el eingenommen /
+den&#x0303; S. F. G. am Sonnabent / den 17. Julij / da sie den
+Dinstag drauff gestorben / sich (wie wir berichtet werden) von Hertzen zu Gott
+bekeret / ein recht Christlich vnd Gottselig bekendniß gethan / das H.
+hochwürdige
+<pb facs="#f0040"/>
+Abendmahl empfangen / vnd sich dem HErrn JEsu /
+der das Bürgerrecht erworben / befohlen. Vnd das gehöret zur seligen hinfarth.</p>
+<p>Der Allmechtige Gott verleihe S. F. G. Cörper an jenem grossen Tage eine fröliche
+Aufferstehung: Tröste daneben S. F. G. hinterlassene Witwe in jhrem
+hochbetrübten Witwenstande / vnd die Herrn vnnd Frewlein dieses hochlöblichen
+Hauses als Waisen / sämptlich vnd sonderlich / vnnd wie er allezeit ein Richter
+der Witwen vnd Waisen ist / so wölle ers hier auch jetzo seyn / so wirds kein
+Noth haben. Wolle auch vnsern gnädigen angehenden Regierenden Landeßfürsten vnd
+Herrn mit dem H. Geist regieren / vnnd ein Gottseliges vnd gehorsames Hertz
+geben / das S. F. G. bey dem einmahl erkanten vnd bekanten Wort Gottes vnd
+rechtem gebrauch der Hochwürdigen Sacramenten bleiben / vnd sich von bösen
+Leuten nicht einnehmen lassen: Das auch daneben S. F. G. sein Volck recht
+richten / vnd verstehen mögen / was gut vnd böse ist / wie Salomo bittet / 1.
+Reg. 3. Beschere S. F. G. darzu Leute / die Redtlich / Gottfürchtig / Warhafftig
+/ vnnd dem Geitz feindt seyn / wie sie Jethro beschreibet / Exod. 18. Das wil
+hochnötig seyn: Gebe im gantzen Lande / auch da sie bißanhero noch nicht gewesen
+/ getrewe vnnd willige Vnterthanen: Erhalte S. F. G. bey langwiriger gesundtheit
+vnd bestendigen gutem Regiement / auff das wir vnter S. F. G. Schutz vnd Schirm
+ein stilles vnd geruglich leben führen mögen in aller Gottseligkeit vnd
+Erbarkeit / vmb JEsu Christi / vnsers Erlösers vnd Seligmachers willen / AMEN.</p>
+</div>
+</body>
+</text>
+</TEI>

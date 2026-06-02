@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Eine Predigt in das 11. Capittel Johannis</title>
+<title type="sub">Gethan bey der Begrebnis/ Der ... Frawen/ Catharinen/ gebornen von Veltheim/ Des ... Arndt von Knistet ... Ehelichen Haußfrawen ; so den 17. Septembris ... verschieden</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116974788">
+<surname>Sattler</surname>
+<forename>Basilius</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/s-64a-4f-helmst-27s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/s-64a-4f-helmst-27s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">40</measure>
+<measure type="tokens">7060</measure>
+<measure type="types">1845</measure>
+<measure type="characters">42967</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:11Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Distributed under the Creative Commons Attribution-ShareAlike 3.0 Generic (German) License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/sattler_predigt_1608</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/sattler_predigt_1608</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/sattler_predigt_1608</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/sattler_predigt_1608</idno>
+<idno type="DTADirName">sattler_predigt_1608</idno>
+<idno type="DTAID">30065</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30065-1</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Sattler, Basilius: Eine Predigt in das 11. Capittel Johannis. Gethan bey der Begrebnis/ Der ... Frawen/ Catharinen/ gebornen von Veltheim/ Des ... Arndt von Knistet ... Ehelichen Haußfrawen ; so den 17. Septembris ... verschieden. Wolfenbüttel, 1608.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Eine Predigt in das 11. Capittel Johannis</title>
+<title level="m" type="sub">Gethan bey der Begrebnis/ Der ... Frawen/ Catharinen/ gebornen von Veltheim/ Des ... Arndt von Knistet ... Ehelichen Haußfrawen ; so den 17. Septembris ... verschieden</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116974788">
+<surname>Sattler</surname>
+<forename>Basilius</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher/>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1608</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001"/>
+<titlePage type="main"><docTitle><titlePart type="main">Eine Predigt in das 11. Capittel<lb/>
+Johannis.</titlePart><lb/>
+<titlePart type="sub">Gethan bey der Begrebnis/<lb/>
+<hi rendition="#b"><hi rendition="#fr">D</hi>er <hi rendition="#fr">E</hi>dlen vnd <hi rendition="#fr">V</hi>iel-</hi><lb/>
+tugent&#x017F;amen Frawen/ Catharinen/ ge-<lb/>
+bornen von Veltheim/ Des Edlen Ge&#x017F;trengen vnd<lb/>
+Ehrnve&#x017F;ten Arndt von Kni&#x017F;ter/ Fr. Br. Großvogts<lb/>
+zu Wolffenbüttel Ehelichen Haußfrawen/ &#x017F;o den 17.<lb/>
+<hi rendition="#aq">Septembris</hi>. Morgens zwi&#x017F;chen ein vnd zwey Vhren<lb/>
+ver&#x017F;chieden/ vnd folgenden Freytag den 23. de&#x017F;&#x017F;el-<lb/>
+ben zur Erden be&#x017F;tettigt worden/</titlePart></docTitle><lb/>
+<byline><hi rendition="#fr">Durch</hi><lb/>
+<docAuthor>Ba&#x017F;ilium Satler</docAuthor> D. Hoffpredi-<lb/>
+gern da&#x017F;elb&#x017F;t.</byline><lb/>
+<docImprint>Gedruckt zu <pubPlace>Wolffenbüttel</pubPlace>/ durch <publisher>Julium Adolphum<lb/>
+von Söhne</publisher>/ Jm Jahr <docDate>1608</docDate>.</docImprint></titlePage></front><body><div>
+<pb facs="#f0002"/>
+<pb facs="#f0003"/>
+</div>
+<div>
+<head>So schreibet der Apostel vnd Euangelist Johannes am eilfften Capittel.</head><lb/>
+<p>ES lag aber einer kranck / mit Namen Lazarus von Bethania / in dem Flecken Maria
+/ vnd jhrer Schwester Martha. Maria aber war die den HERREN gesalbet hatte mit
+Salben / vnd seine Füsse getrucknet mit jhrem Haar / derselbigen Bruder Lazarus
+lag kranck. Da sandten seine Schwestern zu jhm / vnnd liessen jhm sagen / HERR /
+siehe / den du lieb hast / der liegt kranck / da Jesus das höret / sprach er /
+die Kranckheit ist nicht zum Tode / sondern zur Ehre Gottes / das der Sohne
+Gottes dadurch geehret werde.</p>
+<p>Jesus aber hatte Martham lieb / vnd
+<pb facs="#f0004"/>
+jhre Schwester / vnd Lazarum. Als er nu höret / das er kranck war / bleib er
+zween Tag an dem Ort / da er war. Darnach spricht er zu seinen Jüngern / lasset
+vns wieder in Judaea ziehen. Seine Jünger sprachen zu jhm / Meister / Jenesmahl
+wolten die Juden dich steinigen / vnd du wilt wieder dahin ziehen? Jesus
+antwortet / seynd nicht des Tages zwölff Stunden? Wer des Tags wandelt / der
+stösset sich nicht / denn er siehet das Liecht dieser Welt. Wer aber des Nachts
+wandelt / der stösset sich / denn es ist kein Liecht in jhm.</p>
+<p>Solches sagt er / vnd darnach spricht er zu jnen / Lazarus vnser Freund schlefft
+/ aber ich gehe hin / das ich jhn auffwecke. Da sprachen seine Jünger / HERR /
+schlefft er / so wirds besser mit jhm. Jesus aber sagt von seinem Tode / sie
+meineten
+<pb facs="#f0005"/>
+aber / er redet vom
+Leiblichen Schlaff. Da sagts jhnen Jesus frey heraus / Lazarus ist gestorben /
+vnd ich bin fro vmb ewren willen / das ich nicht da gewesen bin / auff das jhr
+gleubet / aber lasset vns zu jhm ziehen. Da sprach Thomas / der genennet ist
+Zwilling / zu den Jüngern / Lasset vns mitziehen / das wir mit jhm sterben.</p>
+<p>Da kam Jesus / vnd fandt jhn / das er schon vier Tage im Grabe gelegen war.
+Bethania aber war nahe bey Jerusalem / bey fünffzehen Feldtweges. Vnd viel Juden
+waren zu Martha vnd Maria kommen sie zu trösten vber jhren Bruder.</p>
+<p>Als Martha nun höret / das Jesus kompt / gehet sie jhm entgegen / Maria aber
+bleibt daheime sitzen. Da sprach Martha zu Jesu / HERR werestu hie gewe-
+<pb facs="#f0006"/>
+sen / mein Bruder were
+nicht gestorben. Aber ich weis auch noch / das / was du bittest von Gott / das
+wird dir Gott geben. Jesus spricht zu jhr / dein Bruder sol aufferstehen. Martha
+spricht zu jhm / ich weis wol das er aufferstehen wird in der Aufferstehung am
+Jüngsten Tage. Jesus spricht zu jhr / ich bin die Aufferstehung vnd das Leben /
+wer an mich gleubet / der wird leben / ob er gleich stürbe. Vnd wer da lebt /
+vnd gleubet an mich / der wird nimmermehr sterben. Gleubestu das? Sie spricht zu
+jhm / HERR / ja ich gleube / das du bist Christus der Sohn Gottes / der in die
+Welt kommen ist.</p>
+<p>Vnd da sie das gesagt hatte / gieng sie hin / vnnd rieff jhrer Schwester Maria
+heimlich / vnd sprach / der Meister ist da / vnd ruffet dir. Dieselbige als sie
+das höret / stund sie eilend auff / vnd kam zu jm /
+<pb facs="#f0007"/>
+denn Jesus war noch nicht in den
+Flecken kommen / sondern war noch an dem Ort / da jm Martha war entgegen kommen.
+Die Juden die bey jhr im Hause waren / vnd trösten sie / da sie sahen Mariam /
+das sie eylend auffstund / vnd hinaus gieng / folgeten sie jr nach / vnd
+sprachen / Sie gehet hin zum Grabe / das sie daselbst weine. Als nun Maria kam
+da Jesus war / vnd sahe jhn / fiel sie zu seinen Füssen / vnd sprach zu jhm /
+HERR / werestu hie gewesen / mein Bruder were nicht gestorben. Als Jesus sie
+sahe weinen / vnd die Juden weinen auch / die mit jhr kamen / ergrimmet er im
+Geist / vnd betrübet sich selbst / vnd sprach / wo habt jhr jhn hingelegt? Sie
+sprachen zu jhm / HERR / kom vnd siehe es / vnd Jesus giengen die Augen vber /
+da sprachen die Juden / siehe / wie hat er jn so lieb gehabt /
+<pb facs="#f0008"/>
+etliche aber vnter jhnen sprachen
+/ kunte der dem Blinden die Augen auffgethan hat / nicht verschaffen / das auch
+dieser nicht stürbe?</p>
+<p>Jesus aber ergrimmet abermahl in jhm selbs / vnd kam zum Grabe. Es war aber eine
+Klufft / vnd ein Stein darauff gelegt. Jesus sprach / hebet den Stein abe.
+Spricht zu jhm Martha / die Schwester des Verstorbenen / HERR / er stincket
+schon / denn er ist vier Tage gelegen. Jesus spricht zu jhr / hab ich dir nicht
+gesagt / so du gleuben würdest / du soltest die Herrligkeit Gottes sehen? Da
+huben sie den Stein ab / da der Verstorben lag.</p>
+<p>Jesus hub aber seine Augen empor / vnd sprach / Vater ich dancke dir / das du
+mich erhöret hast / doch ich weis / das du mich allezeit hörest / sondern vmb
+des Volcks willen / das vmbher stehet / sage
+<pb facs="#f0009"/>
+ichs / das sie gleuben du habest
+mich gesandt. Da er das gesagt hatte / rieff er mit lauter Stim / Lazare kom
+heraus / vnd der Verstorbene kam heraus / gebunden mit Grabtüchern an Füssen vnd
+Henden / vnd sein Angesicht verhüllet mit einem Schweißtuch. Jesus spricht zu
+jnen / löset jhn auff / vnd lasset jhn gehen.</p>
+</div>
+<div>
+<head>Predigt.</head><lb/>
+<p>GEliebte im HERREN / das Jes. 56. Capittel stehet / der Gerecht kompt vmb / vnd
+niemandt ist der es zu Hertzen nehme. Vnd Heilige Leut werden auffgerafft / vnnd
+niemandt achtet darauff / das mögen wir jetziger Zeit auch wol sagen vnd
+behertzigen.</p>
+<p>Denn anderer Leut zu geschweigen / die ein Zeitlang hie darauff gegangen sind /
+darunter etliche fromme Hertzen mit gewesen / hat Gott in wenig Wochen allhie
+zwo Frawen vom Adel / die vorher
+<pb facs="#f0010"/>
+nicht sonderlich schwach gewesen / vnd Altershalben noch lang leben können / vnd
+wie menniglich bewust / von vns billig vnter die Heiligen / das ist / vnter die
+Gleubigen mitgezehlet werden / damit es bey vns desto ein grösser Ansehen haben
+möchte / aus diesem Leben abgefordert.</p>
+<p>Nicht fern von hier / hat Gott gleicher gestalt / einen Man vom Adel aus diesem
+Leben weggenommen / welcher vnter den aller Vornembsten von der Ritterschafft
+mit gewesen.</p>
+<p>Dieses alles ist Gottes Straff / dieweil solche Leut / als der Man gewesen / mit
+Raht vnd That dem Vaterlandt dienen können / darumb wenn Gott straffen wil /
+nimbt er solche Leut hinweg / die man noch wol brauchen könte / wie Jes. 3. zu
+lesen / oder auch andere die mit jhrem Gebet sich zur Mawren machen / vnd wider
+den Riß stehen gegen Gott für das Land / wie Ez. 22. redet. So ists auch ein
+böse Anzeig / wenn fromme Leut abgehen / wie Jes. 56. sagt / sie werden
+weggerafft für dem Vnglück / vnd kommen zum Fried / vnd ruhen in jhren Kammern.
+Das mögen wir bey dieser abermaligen Zusammenkunfft vnd Begrebnis wol in acht
+nehmen.</p>
+<p>Vnd wenn das alles schon nicht were / sollen wir vns doch bey den Brgrebnussen
+erinnern / das wir alle sterben müssen / vnd der Todte zum Lebendi-
+<pb facs="#f0011"/>
+gen spricht / Gestern war
+es an mir / Heut ist es an dir. Vnd weil die gedachte Personen kein hohes Alter
+erreicht / sollen wir vns nicht einbilden / das wir noch lang zuleben haben. Vnd
+das diese Personen auch von fürnehmen Geschlecht gewesen / darbey sehen wir /
+das die Höhesten in der Welt dem Tode / vnd anderm Vnglück eben so wol / als
+ander Leut vnterworffen sind / wie im 82. Psalmen stehet: Ich hab wol gesagt /
+jhr seyd Götter / vnd allzumahl Kinder des Allerhöchsten / aber jhr werdet
+sterben wie Menschen. Vnd Syrach am 40. Es ist ein elend jämmerlich Ding / vmb
+aller Menschen Leben / von Mutter Leib an / biß sie in die Erden begraben werden
+/ die vnser aller Mutter ist / da ist jmmer Sorg / Hoffnung / Furcht / vnd zu
+letzt der Todt / so wol bey dem der in hohen Ehren sitzt / als bey dem
+geringsten auff Erden. So wol bey dem / der Seiden vnnd Kron treget / als bey
+dem / der einen groben Kittel an hat.</p>
+<p>Darumb sollen wir alle vns zum Todt schicken / vnd mit Mose beten im 90. Psalm:
+Lehre vns bedencken das wir sterben müssen / auff das wir klug werden.</p>
+<p>Das ich nun frommen Hertzen darzu Vrsach gebe / hab ich diese Histori vom Lazaro
+für mich nemen wollen / dieweil er auch / wie alle Vmbstendt
+<pb facs="#f0012"/>
+geben / kein gemeiner sondern ein
+fürnehmer wolbehaltener Man gewesen ist.</p>
+<p>Wir sollen diese Histori wol mercken / dieweil dergleichen wol in der gantzen
+Heiligen Schrifft nicht zu finden ist / da Christus sein getrewes Hertze also
+außschüttet / vnd sein Göttlich Macht so herrlich sehen lest.</p>
+<p>Weil es aber nicht müglich / solche Histori in so kurtzer Zeit nach allen
+Vmbstenden nottürfftig zu handlen / wollen wir diese 4. Pünctlein heraus
+ziehen.</p>
+<p>Erstlich / wie Lazarus gelebet / vnd sich gehalten.</p>
+<p>Zum andern / wie er Kranck gelegen.</p>
+<p>Zum Dritten / wie er gestorben.</p>
+<p>Zum Vierden / wie er durch Christum von den Todten aufferwecket worden.</p>
+<p>Gott gebe vns dazu die Gnade seines Heiligen Geistes Amen.</p>
+</div>
+<div>
+<head>Der Erste Theil.</head><lb/>
+<p>ES ist dieses nicht der arme Lazarus / davon Luc. am 16. Christus redet / sondern
+ein ander / Es stehet aber sonsten in der Evangelischen Histori von diesem
+Lazaro / sonderlich nicht viel / als das er zu Bethania gewo-
+<pb facs="#f0013"/>
+net / welches vngefehrlich
+ein halb Meil von Jerusalem gelegen / vnd habe zwo Schwestern gehabt / die auch
+Christum gehört / an ihn gegleubet / ihn geliebet / vnd jm viel Ehr vnd Guts
+erzeiget. Ein Wort aber das etzliche mahl wiederholet werd gibt vns feine
+Nachrichtung von seinem gantzen Leben. Da der Evangeliste Johannes vnd Lazari
+Schwestern sagen / Jesus hab jhn lieb gehabt / vnd Christus selber nennet jhn
+seinen Freund / daraus wir leichtlich abnehmen können / wie er gelebt / denn /
+wen Christus lieb habe / stehet Matth. 12. Mar. 3. vnd Luc. 8. Da etzliche zu
+Christo sagen: Deine Mutter vnd deine Brüder siehen draussen / vnd wollen dich
+sehen / antwort er / vnd reckt die Handt aus vber seine Jünger / vnd spricht:
+Siche / das ist mein Mutter / vnd meine Brüder seynd / die Gottes Wort hören
+vnnd thun / vnd Johan. 14. Wer mich liebet / der wird mein Wort halten / vnd
+mein Vater wird jhn lieben / vnd wir werden zu jhm kommen / vnd Wonung bey jhm
+machen / vnd Johan 15. Ihr seyd mein Freund so jhr thut was ich euch gebiete /
+Ist also Lazarus kein Feind oder Verechter Christi vnd seines Worts gewesen /
+sondern hat jhn gehöret / an jhn gegleubet / vnd sein Leben nach Christi Wort
+angestellet / das ist / er ist From vnd Gottfürchtig / vnnd ein guter Christ
+gewesen.</p>
+<pb facs="#f0014"/>
+<p>Da sollen wir nun von Lazaro / wie auch von seinen Schwestern die eben also
+gelebt wie er / ein Muster nehmen eines Gottseligen Lebens / vnd also zusehen /
+das wir auch leben wie Lazarus / das wir den Nahmen vnd Ehrentitul mit der That
+führen / das wir Christi Freund seyn / vnd er vns lieb habe.</p>
+<p>Das ist der höheste Ruhm vnd Titul den wir in dieser Welt füren können / vnd
+darnach wir trachten sollen.</p>
+<p>Es ist auch ein Ruhm / das man Schön / Gewaltig / Reich / Gelert / oder sonsten
+in grossem Ansehen ist / welches denn alles Lazaro vnd seinen Schwestern nicht
+gemangelt hat. Aber das alles wil es nicht außmachen / sondern das ist jhr
+höchste Ehr / das sie Freund des ewigen Sohn Gottes gewesen / vnd er sie
+geliebet hat.</p>
+<p>Darnach sollen wir auch trachten / das erlangen wir / wie Christus saget / Wenn
+wir seine Jünger vnd rechte Christen seyn / das ist / wie ers selber er kleret /
+wenn wir sein Wort hören vnd thun.</p>
+<p>Also sollen wir die Predig Göttliches Worts hören / aus dem Gesetz vnsere Sünd
+erkennen / Rewe vnd Leyd darüber haben / vnnd dem Evangelio von vnserm H E R R N
+Jesu Christo gleuben / vns seiner trösten vnd vns bessern / in vnserm gantzen
+Leben meyden / was er vns verbotten / vnd thun was er in
+<pb facs="#f0015"/>
+seinem Wort befohlen hat / vnd
+sonderlich vns vnter einander / dabey man Christi Jünger erkennet / lieben.</p>
+<p>Diese Tugend / daher die andern alle fliessen / heisset Gottesfurcht oder
+Gottseligkeit.</p>
+<p>Vnd ist nun dieselbe bey den Gottlosen Weltkindern verachtet / die verachten
+Gottselige Leut / vnd halten sie nirgend für / aber in Goetes Wort wird sie hoch
+gerühmet / vnnd werden wir darzu fleißig vermahnet / Hiob / David / Salomo vnd
+Syrach sagen: Die Furcht des HErren / ist der Weißheit anfang.</p>
+<p>Es verheist auch Gott den Gottseligen allerley zeitlichen vnd ewigen Segen /
+Psal. 112. Wol dem der den HErrn fürchtet / der grosse Lust hatzu seinen
+Geboten. Des Same wird gewaltig seyn auff Erden das Geschlecht der Frommen sol
+gesegnet seyn. Reichthumb vnd die Fülle wird in jhrem Hause seyn / vnd jhre
+Gerechtigkeit bleibet ewig.</p>
+<p>Salomo Proverb. 3. redet also von der waren Gottseligkeit / wol dem Menschen /
+der Weißheit findet / vnnd dem Menschen der Verstandt bekompt. Denn es ist
+besser vmb sie handtieren / weder vmb Silber / vnd jhr Einkommen ist besser denn
+Goldt. Sie ist edler denn Perlen / vnd alles was du wün-
+<pb facs="#f0016"/>
+schen magst / ist jhr
+nicht zu gleichen. Langes Leben ist zu jhrer Rechten Handt / zu jrer Lincken ist
+Reichthumb vnd Ehre.</p>
+<p>Christus sagt darvon Matth. 6. Trachtet am ersten nach dem Reich Gottes / vnd
+nach seiner Gerechtigkeit / so wird euch das ander alles zufallen / Vnnd Johan.
+14. Wer mich liebet / der wird mein Wort halten / vnnd mein Vater wird jhn
+lieben / vnd wir werden zu jhm kommen / vnd Wohnung bey jm machen.</p>
+<p>Vnd Paulus in der 1. Tim. 4. Die Gottseligkeit ist zu allen Dingen nütz / vnnd
+hat die Verheissung dieses vnd des zukünfftigen Lebens.</p>
+<p>Joseph fürchtet Gott / darumb wird er reichlich gesegnet an Gütern / das er
+seinen Vater vnd gantzes Hauß versorgen kan / vnd ist der negst nach dem König /
+wird hundert vnd zehen Jahr alt / vnnd siehet Kindes Kinder in das dritte
+Glied.</p>
+<p>Daniel / dieweil er auch in Babylonischer Gefengnis Gott fürchtet / wird von Gott
+mit hoher Weißheit begabet / kombt hoch / vnd hat einen ewigen Nahmen bey Gott
+vnd dem Menschen.</p>
+<p>Ein solcher frommer Mensch ist auch Lazarus / vnd seine Schwester / sie hören
+Christi Wort / gleuben an jhn / vnd thun jhm guts / des geniessen sie hie vnd
+dort.</p>
+<pb facs="#f0017"/>
+<p>Diesen frommen Leuten sollen wir in vnserm Leben nachfolgen / vnd vns nicht jrren
+vnd für den Kopff stossen lassen / das es auch den Gottlosen wol / vnd offtmahls
+besser gehet als den Frommen. Denn wir sollen gedencken / Gott thue es zwar /
+das er sie zur Busse beruffe / aber wenn sie sich nicht bessern / so sey kein
+Bestandt dabey / sondern sie werden endtlich gestraffet.</p>
+<p>Darumb sagt Hiob 18. vnd Salom. Pro. 13. Die Leuchte oder das Liecht der
+Gottlosen werde erleschen / das ist / jhr Glück wird sich wenden / vnd werde
+endtlich jhnen / wie wir sagen / das Liecht außgehen. Vnd im 37. Psalmen sagt
+David: Die Gottlosen werden vmbkommen / vnd die Feind des HErren / wenn sie
+gleich sind wie ein köstlich Awe / werden sie doch zergehen wie der Rauch
+zergehet.</p>
+<p>Vnd im 78. Psalmen / Aber du setzest sie auffs schlüpfferig / vnd stossest sie zu
+Bodem / wie werden sie so plötzlich zu nicht / Sie gehen vnter / vnd nemen ein
+Ende mit schrecken / wie ein Traum / wenn einer erwachet / machstu jhr Bildt in
+der Stadt verschmecht.</p>
+<p>Es hat ja der Reiche Man ein Zeitlang alles gnug vnd vollauff / aber dieweil er
+gottlos ist / nimbts zu letzt ein schrecklich Ende mit jhm.</p>
+<p>Darumb sollen wir vns das / das es den Gott-
+<pb facs="#f0018"/>
+losen wol / den Frommen
+aber ein Zeitlang vbel gehet / nicht irre machen lassen / sondern einen weg als
+den andern Gottfürchtig seyn vnd bleiben / das wird Gott zu seiner Zeit hie vnd
+dort reichlich belohnen.</p>
+</div>
+<div>
+<head>Der Ander Theil.</head><lb/>
+<p>WIe gehets nun diesem frommen Lazaro vnd seinen Schwestern / die also Christum
+zum Freunde haben / vnd von jhm geliebt werden?</p>
+<p>Es gehet jhnen eben seltzam vnd vbel. Denn da einer wol gemeynet / wenn Gott alle
+andere Menschen mit Creutz heimgesucht hette / würde er jhrer geschonet haben /
+vnd sie vorbey gangen seyn / weiset es sich mit jhnen viel anders aus. Es mahlet
+Gott den Lazarum gleich aus / vnnd greifft jhn also an / als wenn er der
+allerergest vnd bösest Mensch were / er wird kranck / kan mcht mehr fortkommen /
+muß sich legen / vnd wie es pflegt herzugehen / fület er grosse Schmertzen / da
+denn auch die Innerliche vnd Geistliche Anfechtungen nicht außvleiben.</p>
+<p>Das man nun also ancket vnd krancket / ist ein gros Vnglück / vnd eines von den
+fürnehmen Leyden /
+<pb facs="#f0019"/>
+wie wir an
+Hiob sehen / das er entlich darüber etwas vngedüldig wird / deßgleichen am König
+Hißkia / der / wie jhn Gott hernieder legt / gar ein jämmerliche Klag füret /
+Jes. 38.</p>
+<p>Vnd trifft dis Vnglück nicht allein Lazarum / sondern es gehet auch vber seine
+Schwestern beyde / die sonst grossen Trost an jhm als einer Mans Person vnd jrem
+lieben Bruder hatten / die werden / wie man wol gedencken kan / hierüber hoch
+betrübet / vnd hilfft sie dißfals nichts / wie sich es ansehen lesset / das
+Christus jhr guter Freund ist / vnd sie lieb hat.</p>
+<p>Wie halten sie sich aber? Sie greiffen nicht zu verbottenen Mitteln / wie viel
+Leut thun / ja sie verlassen sich auch auff gute Mittel nicht / die sonst Gott
+erleubt hat / als auff die Ertzt vnd Artzney / sondern weil sie mit Christo
+wolstehen / schicken sie zu jhm / vnd klagen jhm jhr Noth / vnd lassen jhm sagen
+/ den du lieb hast der ligt kranck.</p>
+<p>Aber Christus / ob ers wol zuvor weiß / vnd jhn lieb hat / hilfft er jhm doch
+nicht alsbald / sondern hat wol ein Mitleyden / aber er bleibt auß / bis er es
+vber sich nimpt / vnd stirbt.</p>
+<p>Doch ist tröstlich das er sagt: Die Kranckheit ist nicht zum Tode / sondern das
+der Sohn Gottes geehret werde. 2. Das es jhm also zu Hertzen gehet / das er
+zween Tag sich inhelt / an einem Ort bleibet /
+<pb facs="#f0020"/>
+vnd nicht auß der stett gehet. 3.
+Das er auch entlich fortzeugt / jhm zu helffen / wie es denn auch 4. zu letzt
+ein gut End nimbt / wie wir hören werden / das Lazarus erwecket / Gottes Sohn
+recht erkandt vnd geehret / Lazarus seine Schwestern vnd andere fromme Hertzen
+im Glauben an Christum gestercket / vnd hoch erfrewet seyn.</p>
+<p>Diese Kranckkeit nun kompt vns zumahl seltzam für / vnd dieweil Gott den Lazarum
+vnd seine Schwestern lieb hat / verwundert vns / das er sie also betrüben mag /
+vnd sie so hart mitnimbt.</p>
+<p>Denn im ersten Theil haben wir gehöret / das die Gottfürchtigen jhrer
+Gottseligkeit hie vnd dort geniessen sollen / vnd das Gott jhr Freund seyn
+wolle. Ist nun das Liebe vnd Freundtschafft / das er Lazarum vnnd seine
+Schwestern also betrübet? Der freundschafft möchte einer lieber entberen /
+etc.</p>
+<p>Nicht also lieben Christen / damit wil vns Christus lehre&#x0303; / das /
+ob er wol die Gottseligen hertzlich lieb habe / so wolle er sie doch des
+Creutzes in diesem Leben nicht vberheben / sondern vielmehr jm vorbehalte&#x0303; haben / das er die Seinen mit Creutz belegen wölle / wie er denn
+von vns gehabt haben wil / das wir durchaus jhn / als vnsern Vater in den
+Zeitlichen Gütern rahten / vnd vnser Bestes bedencken lassen / was vns diene
+oder nicht diene.</p>
+<pb facs="#f0021"/>
+<p>Darumb gibt er offt in Zeitlichen Gütern nicht / was wir von jhm begehren / er
+menget das Creutz jmmer mit vnter / er bleibt offt / wenn wir schon jhn anruffen
+/ lang aus / ja er lest die Seinen / wie hie geschicht / wol gar darauff
+gehen.</p>
+<p>Darumb wie Christus Marc. 10. denen / die vmb seines Nahmens willen jhre Güter
+verlassen / verheist / das sie es hie hundertfeltig empfangen sollen / setzet er
+diese Wort dazu / mit Verfolgungen.</p>
+<p>Vnd die Episteln zum Heb. 12. ziehet aus Prouerb. 3. diese Wort an: Mein Sohn
+achte nicht gering die Züchtigung des HErren / vnd verzage nicht wenn du von jhm
+gestrafft wirst / denn welchen der HERR lieb hat / den züchtiget er / er steupet
+aber einen jeden Sohn den er auffnimpt.</p>
+<p>Es braucht der Apostel ein Gleichnus von einem Vater / der seinen Sohn zwar lieb
+hat / aber nicht desto weiniger denselbigen steupet vnd züchtiget / derwegen der
+weise Man sagt: Wer seiner Ruten schonet / der hasset seinen Sohn. Also spricht
+er / halt es Gott mit seinen Sönen vnd lieben Kindern auch.</p>
+<p>Denn es hat auch mit vns die Gelegenheit / wie mit den Kindern. Wenn vns Gott
+vnsern Willen liesse / so fielen wir in Sicherheit vnnd allerley Sünde / vnd
+würden endtlich dem bösen Feind zu
+<pb facs="#f0022"/>
+Theil / oder wie Paulus redet / mit der Welt verdampt. Darumb behelt jhm Gott
+das Creutz vor / wie Christus frey zuvor sagt: Wer da wil mein Jünger seyn / der
+verleugne sich selber / vnnd neme sein Creutz auff sich / vnd folge mir nach.
+Vnd die Epistel zum Heb: 12. sagt: Alle Kinder Gottes sind der Züchtigung
+theilhafftig worden. Item / Seyd jhr ohn Züchtigung / so seyd jhr Bastardt /
+vnnd nicht Kinder.</p>
+<p>Darumb wollen wir auch Gottes Kinder seyn / so sollen wir vns nicht daraus
+werffen / sondern gutwillig in das Creutz ergeben.</p>
+<p>Es weiset aber vns diese Histori zugleich herrlichen Trost / denn wir wol mercken
+/ vnd im Creutz vns zu nütz machen sollen. Als erstlich / das ob vns Gott wol
+mit dem Creutz heimsuche / habe er vns doch einen weg als den andern Lieb / vnd
+thue er nicht wie ander Freund von den Weltkindern / die so lang Freund sind /
+als es einem wolgehet / aber wenns einem Vbel gehet / so hat die Freundtschafft
+ein ende. Das thut Christus nicht / sondern bleibt in der Liebe bestendig / vnd
+ob wir wol arme Sünder sind / wil er vns darumb nicht obergeben / sondern
+vergibt vns die Sünd Väterlich.</p>
+<p>Des haben wir ein tröstlich Exempel an Ephraim / Jer. 31. Da er gleich schnüpffet
+/ als ein Kind das
+<pb facs="#f0023"/>
+gesteupet ist
+/ vnd Buß thut / da tröstet jhn Gott / vnd spricht: Ist nicht Ephraim mein
+tewrer Sohn / vnd mein trawtes Kind. Darumb bricht mir mein Hertz gegen jhm /
+das ich mich seiner erbarmen muß / etc. Es gehet Gott wie einer Mutter / die
+schier mit dem Kind weinet. Christus helt Lazarum für seinen Freund auch / da er
+kranck / ja Todt ist.</p>
+<p>Zum Andern ist auch tröstlich / das Christus mit vns ein Mitleyden hat / vnd es
+nicht hinschlecht / das es vns vbelgehet / vnd wir jhn anruffen. Das Verlangen
+der Ellenden hörestu HErr / sagt der 10. Psalm: Ihr Hertz ist gewiß / das deine
+Ohrren darauff mercken. Da er von Lazari seines Freundts Kranckheit berichtet
+wird / bleibt er zween Tag an einem Ort / Lazarus liegt jhm im Sinne / da denckt
+er auff / ob er schon alsbald nicht hilfft.</p>
+<p>Zum Dritten / lest er es dabey nicht / sondern macht sich endtlich auff den weg /
+vnd wie wir hernach hören werden / <choice><sic>hilffr</sic><corr>hilfft</corr></choice> er / wie er im 91. Psalmen verheist:
+Er begeret mein / so wil ich jhn auffhelffen / erkennet meinen Namen / so wil
+ich jhn schützen / er rufft mich an / so wil ich jhn erhören / Ich bin bey jhm
+in der Noth / ich wil jhn heraus reissen.</p>
+<p>Zum Vierden / lehret vns auch diese Histori / vnd gibt vns den Trost / das vns
+das Creutz / das vns Gott zuschickt / nicht schedlich sey / sondern zum
+<pb facs="#f0024"/>
+besten dienen müsse. Wie denn
+Paulus Rom. 8. schreibet: Denen die Gott lieben / mus alles zum besten dienen.
+Denn wie die kunstreiche Medici vnd Apoteker aus dem Fleisch der schwartzen
+gifftige&#x0303; Schlangen die köstliche Artzney wieder Gifft den
+Teriak bereiten / also liesse Gott das böse nicht zu / wenn er nicht was guts
+daraus bringen könte.</p>
+<p>Das erkennet David Pfal. 18. Wenn du mich demütigest / machstu mich groß / Vnd im
+119. Psalmen / Es ist mir lieb / das du mich gedemütiget hast / auff das ich
+lernete deine Rechte.</p>
+<p>Vnd das ist / das Christus sagt: Die Kranckheit ist nicht zum Todt / sondern das
+der Sohn Gottes dadurch geehret werde.</p>
+<p>Wie denn eben diese Kranckheit vnd der Todt Lazari / jhm vnd seinen Schwestern zu
+allem guten gereichet ist. Das sol vns nun zur Gedult vnd Trost dienen / weil
+wir wissen / das einem Man gut ist / das er das Creutz tregt in seiner Jugend /
+Thren. 3. Das wir / wenn vns ein Vnglück vberfalle / vnser Seel mit Gedult
+fassen / vnsern Mund in den staub stecken / vnd der Hoffnung / das ist / der
+Hülff erwarten.</p>
+<p>Es lehren vns aber auch mit jhrem Exempel Lazari Schwestern / wie wir vns
+Christlich in solch Creutz vnd in der Kranckheit schicken sollen.</p>
+<pb facs="#f0025"/>
+<p>Dieses ist gar ein nötige Lehre / denn wir müssen bekennen / wenn vns also das
+Creutz vnvermutlich ins Haus kompt / das wir alsdann betretten sind / vnd nicht
+viel wissen / wo wir zugreiffen sollen.</p>
+<p>Vnd zwar so versehen es da viel Lcute. Etliche verlassen stracks Gott / vnd
+suchen Hülff wie die Papisten bey den Heiligen. Ja das noch erger vnd gar
+schrecklich ist / suchen etliche Raht bey dem Teuffel / ob etwa jhnen oder den
+jhrigen die guden Holden zugewiesen. So lest der König Ahasia 1. Reg. den
+Baalsebub fragen / ob er des Lagers wieder auffkommen werde.</p>
+<p>Etliche machen es so grob nicht / aber sie versehen es gleichwol darin / das sie
+nicht allein ordentliche vnd von Gott erleubte Mittel gebrauchen / welches nicht
+zu straffen / sondern auch sich darauff verlassen / als der König Assa 2.
+Paralip. 16. Da er an Füssen kranck war / den HErrn nicht suchte / sondern die
+Ertzte. Welches auch ein schwere Sünd ist wieder das erste Gebot. Darumb denn
+Gott den Assa gestraffet / das er an der Kranckheit gestorben ist.</p>
+<p>Derwegen sollen wir zwar die Mittel gebrauchen / die Gott verordnet hat / als der
+Prophet Jesaia den König Hißkia ein Pflaster von Feigen auff seinen Schaden
+legen heist / aber man sol sich darauff nicht verlassen. Wie schlecht man es
+denn an? Wie
+<pb facs="#f0026"/>
+Lazari Schwestern
+für allen dingen zu Christo geschickt / also sollen wir auch jhm vnsere Noth
+klagen. Denn ob er schon gen Himmel gefahren / so wil er doch halten / das er
+Matth. 18. zugesagt: Wo jhr zwen oder drey eines werden / warumb sie bitten /
+das sol jhnen wiederfahren. Denn wo jhr zween oder drey versamlet seyd in meinem
+Nahmen / da bin ich mitten vnter jhnen. Wenn wir also durch ein Vater vnser zu
+jhm schicken / wil er vns erhören. Ruff mich an in der Noth / so wil ich dich
+erretten / Vnd Jacob 5. Ist jemand kranck / der ruffe zu sich die Eltesten in
+der Gemeinen / vnnd las sie vber sich beten / vnd laß sich salben mit Oel in dem
+Namen des HErren / vnd das Gebet des Glaubens wird den Krancken helffen.</p>
+<p>Also ersucht David den HErrn vmb das krancke Kind / das jhm Bethsaba geboren
+hatte.</p>
+<p>Vnd Hißkia / da er Jes. 38. Todt kranck war / keret sich zur Wand / vnd betet zum
+HErrn.</p>
+<p>Da auch Gott nicht also bald hilfft / vnd es so bald nicht gut wird / sollen wir
+nicht ablassen zu bitten / sondern anhalten / Matth. 7. Betet / so werdet jhr
+empfahen / suchet so werdet jhr finden / klopffet an / so wird euch auffgethan.
+Wie David im 130. Psalmen thut. Ich habe des HErren / vnnd mein Seel harret:
+Wenn auch es Gott schon nicht macht / wie wir es gern haben wolten / sollen wir
+gleichwol mit
+<pb facs="#f0027"/>
+jhm zu frieden
+seyn. Denn er besser weis wie es seyn sol. Wie David sich wol zu frieden gibt /
+ob jhm schon Gott seinen Iungen Sohn nicht gesundt werden / sondern sterben ist.
+Also werden Schwestern darumb nicht Christ Vnfreund / ob er schon jhrem Bruder
+nicht bald hilfft / wie sie gebeten / sondern halten an / vnd stellen es jhm
+allerdings heim.</p>
+<p>Das heist nun sich recht vnd Christlich in die Kranckheit schicken / welches wir
+nicht allein hören / sondern auch im Nothfall vns zu nutz machen sollen.</p>
+</div>
+<div>
+<head>Der Dritte Theil.</head><lb/>
+<p>ES bleibt aber dabey nicht / das Lazarus kranck wird / sondern weil es sich mit
+Christi Ankunfft etliche Tag verzeucht / gehet er darüber hin / vnd stirbt.</p>
+<p>Das ist nun ein kurtz Wort / das er stirbt / vnd ist bald gesagt / aber es
+begeeifft viel in sich. Denn erstlich hat er / wie andere Menschen / viel vnd
+grosse Schmertzen am Leib / so ist jhm / wie allen Menschen das Leben zumahlen
+lieb / vnd thut jhm weh / das ers verlassen sol / wie denn jhm ohn zweiffel auch
+sehr zu Hertzen gangen / das er also von
+<pb facs="#f0028"/>
+seinen lieben Schwestern scheiden
+solle. Die Geistliche Anfechtungen / weil er ein Mensch gewesen / vnd noch
+Fleisch vnd Blut gehabt / seynd auch nicht außgeblies er sich seiner Sünd
+erinnert / damit er wie alle Menschen sein Lehenzugebracht / denn er kein Engel
+gewesen / derwegen er sich entsetzt für Gottes Zorn / denn jhm sein Gewissen
+gesagt / das Gott der Sünden Feindt sey / vnnd sie zeitlich vnnd ewig straffen
+wölle / wie er denn allbereit an sich etlicher massen gefület. Diese Anfechtung
+nemen jn hart mit. wiewol er im wahren Glauben an Christum entlich solche
+Anfechtung vberwunden hat. Entlich da es vmb vnd vmb kommen / haben sich Leib
+vnnd Seel geschieden / vnd ist jhm der Athem außgeblieben / da er dann
+angefangen zu riechen / der wegen er auch ins Grab gelegt / vn&#x0303;
+darin vier Tag gelegen / also / das er / wie alle Menschen gestuncken / vnnd
+angefangen zu verwesen / vnnd so abschewlich worden / das auch Martha nicht
+haben wil / das man das Grab eröfnen sol.</p>
+<p>Das ist nun noch etwas seltzamer / als das vorige / das Lazarus stirbt eben so
+wol / als wenn er Gottlos gewesen were.</p>
+<p>So offt wir nun von Leuten hören / die gestorben sind / oder sehen das Leut
+sterben / sollen wir vns vnsers Endes erinnern / das wir auch sterben müssen.
+<pb facs="#f0029"/>
+Wie man gleich ein Sprichwort
+sagt / es ist nichts gewisser als der Todt / vnnd nichts gewisser als die Stund
+des Todts.</p>
+<p>Denn das hat Gott vber alle Menschen beschlossen / Gen. 3. Im Schweis deines
+Angesichts soltu dein Brot essen / bis das du wider zur Erden davon du genommen
+bist. Denn du bist Erden / vnd solt wieder zur Erden werden. Daher Syrach am 14.
+sagt: Es ist der alte Bund / du must sterben. Heb. 9. Es ist den Menschen
+gesetzt einmahl zu sterben / vnnd denn das Gericht. Derwegen weil du ein Mensch
+bist / mustu dich des gewis versehen. Wenn wir das also bedechten / vnd was der
+Todt in sich hette / würden wir vns anders dazu schicken. Vnd nicht so ruchlos
+vnd sicher in den Tag hinein leben. Syrach 7. Was du thust / so bedenck das Ende
+/ so wirstu nimmermehr Vbels thun. Dieweil wir aber so blind vnnd verstockt /
+sollen wir mit David bitten : Ach H E R R lehre mich doch / das ein End mit mir
+haben wird / vnd mein Leben ein Ziel hat / vnd ich davon mus.</p>
+<p>Insonderheit aber sol vns hie auch ein Nachdencken machen / das nicht allein die
+Gottlosen sterben / sondern auch Christi Freund / die er lieb hat / vnd denen er
+die Sünd vergeben hat / vnd werden die mit
+<pb facs="#f0030"/>
+dem Todt ja so wenig als die
+andern verschonet. Das bezeuget Gottes Wort vnd die Erfahrung.</p>
+<p>Die Ertzväter / Adam / Seth / Enos / etc. Abraham / Isaac / Jacob sind gestorben.
+David der König vnd Prophet sagt: Ich gehe hin den Weg aller Welt. Die Propheten
+vnd Apostel sind gestorben / vnd ist keiner vberblieben. Wie kompt doch das /
+das Gott auch seine liebe Kinder / ehe sie in den Himmel kommen also mitnimpt /
+vnd mit jhnen nicht vber siehet?</p>
+<p>Er wil vnter andern vns damit lehren / wie gar tieff die Sünd bey vns
+eingewurtzelt sey / das wir derselben nicht gentzlich quit vnd loß werden können
+/ es muß noch der Todt dazu kommen / das wir die Sünd vnd die Verweßlicheit so
+aus der Sünden herkompt / ablegen / vnd muß gleich der Todt vns vmbschmeltzen /
+vnd müssen wir verwesen / vnd zu Staub vnd Aschen werden.</p>
+<p>Davon schreibt Paulus 1. Corint. 15. Fleisch vnd Blut kan das Reich Gottes nicht
+besitzen / auch wird das Verweßliche nicht anziehen das Vnverweßliche / das ist
+/ Wir Menschen wie wir jetzt sind / können nicht in den Himmel kommen / vnd 2.
+Cor. 5. zeiget Paulus an: Wir sehnen vns nach vnser Wonung im Himmel / vnd
+wolten gern nicht vberkleidet werden / auff das das Sterbliche würde
+verschlungen von dem Leben. Aber es gehet vns nicht an.
+<pb facs="#f0031"/>
+Darumb sollen wir die Sünd nicht
+so für einen schlechten Mangel ansehen / der leicht zuvertreiben sey / sondern
+für ein böse Kranckheit vnd Geistlichen Auffsatz halten / der den gantzen
+Menschen an Seel vnd Leib durchfressen vnd eingenommen / das Gott dazu kommen
+mus / vnd vns zum andern Leben / vnd endtlich auch durch den Todt nach seinem
+gerechten Gericht hinrichten vnd verwandlen mus.</p>
+<p>Wir sollen auch das nicht also schlecht bey vns hingehen lassen / das der Todt so
+ein bitter Kraut vnd schrecklich Straff Gottes ist / der mit einem Menschen
+nicht spielet / sondern jhn vberauß hart vnnd schrecklich mitnimpt.</p>
+<p>Denn da siehet man / wie sich ein Mensch quelen mus / wenn er stirbt / welche
+viel vnd schwere Anfechtung er habe / wie er so grosse Schmertzen muß außstehen
+/ was für ein Kampff es sey / wenn man mit dem Todt ringet / darüber einem der
+kalte Angstschweiß außbricht / vnd auch die Vmbstehenden sich entsetzen / bis es
+endtlich so weit kompt / das man es vber sich nimpt / vnnd wenn ein Mensch
+verschieden ist / wird der Leib zumahlen vbel zugericht / verleuret seine Farb
+vnd Schöne / vnnd rencht so starck / das man jhn nicht lenger leiden kan / /
+sondern vber die seiten bringen / vnd begraben mus.</p>
+<p>Wenn ein Mensch ins Grab kompt / so wird
+<pb facs="#f0032"/>
+er je lenger je abschewlicher /
+er stincket / faulet / verweset / vnd wie Syrach 10. sagt / fressen jn die
+Schlangen vnd die Würm / vnd wird also zur Erden / davon er genommen ist. Das
+behertziget Abraham / da er sich Gen. 18. Staub vnd Aschen nennet.</p>
+<p>Wo kompt doch solcher Vnraht her / das die edle Creatur Gottes der Mensch also zu
+nichten / vnd fast noch abschewlicher wird als ein ander Aß? Antwort / da wil
+vns Gott den Grewel vnser Sünden für die Augen stellen / das er ernstlich
+darüber zürne / weil allen Menschen / vnd also auch seinen lieben Kindern / die
+er zu Gnaden angenommen hat / solches mus vbergehen.</p>
+<p>Davon sagt Moses im 90. Psalmen / Das macht dein Zorn / das wir also vergehen /
+vnd dein Grim / das wir so plötzlich dahin fahren. Denn vnser Missethat
+stellestu für dich / vnser vnerkandte Sünde ins Liecht für deinem Angesicht /
+etc. Wer gleubet aber / das du so sehr zürnest? Soll also der Todt eines
+Menschen eine Bußpredigt seyn / das wir den grewlichen Erbschaden vnser Sünd
+erkennen / vnd beweinen / vnd in der Gnadenzeit vns mit Gott versünen
+lassen.</p>
+<pb facs="#f0033"/>
+</div>
+<div>
+<head>Der Vierdte Theil.</head><lb/>
+<p>ES stehet für den Augen der Menschen gar vbel vmb Lazarum / vnd ist es mit jhm
+gar ein betrübter Zustandt. Aber für Gottes Augen vnd bey vnseren lieben HERRN
+Christo hat es mit jhm noch ein gute Gelegenheit. Das siehet man erstlich dabey
+/ das er den verstorbenen Lazarum noch / seinen Freund heist / hat jhn also noch
+nicht gar vbergeben. So sagt er auch von seinem Todt tröstlich / er schlafft nur
+/ ob er schon weis / das er warhafftig gestorben ist. Er lest sich auch so viel
+vernehmen / das er jhn als aus dem Schlaff erwecken wolle.</p>
+<p>Er lest es aber bey den Worten nicht bewenden / sondern die That sol folgen. Er
+gehet zum Grab / schewet keinen stanck vnnd vngemach / er wil seinen Freund
+wider lebendig haben / rufft derwegen mit lauter Stimme / Lazare / kom heraus /
+vnd ist solch sein allmechtiges Wort so krefftig / das von stunde&#x0303;
+an dem Lazaro aller Stanck / Faulnis vnd Verwesung vergehet / die Seel kompt
+wieder / er wird in einem Augenblick wider lebendig / rein frisch vnnd gesund.
+Vnd weil er als ein Todter bewunden war / befihlt Christus / das man jhn los
+machen sol.</p>
+<pb facs="#f0034"/>
+<p>Dieses klinget nun aus der massen tröstlich / vnd lert vns hie Christus mit
+Worten vnd mit der That / das wir im Tode nicht bleiben sollen / sondern er
+könne vnd wölle vns von den Toten aufferwecken.</p>
+<p>Davon haben alle Heyden nichts gewust. Ja was solten sie wissen / es ist diese
+Lehre vnser Vernunfft stracks zu wieder. Derwegen sie sie ausgelachet haben.</p>
+<p>Wie Christus Matth. 9. sagt / das Medlein ist nicht Todt / sondern er schlefft /
+verlachen sie jhn.</p>
+<p>Matth. 22. fragen die Saduceer gar spöttisch den HErrn Christum / welcher vnter
+7. Brüdern die nach dem Gesetz eine Frawen nacheinander / vnd mit derselben
+keine Kinder gehabt / die Frawen in der Aufferstehung behalten werde.</p>
+<p>Vnd Festus Act. 26. als er von der Aufferstehung der Todten Paulum predigen höret
+/ rufft mit lauter Stim / Paule du rasest / die grosse Kunst macht dich
+rasend.</p>
+<p>Der Spötter findet man noch heutiges Tags / die die Lehr von der Aufferstehung
+verlachen. Denn es stost vns alle zu sehr für den Kopff / das der Tode einen
+Menschen so vbel zurichtet / vnd schier gar zu nichten machet.</p>
+<p>Es gibt vns aber Christus feine Nachrichtung / wie wir der Vernunfft begegnen /
+vnd den Irthumb /
+<pb facs="#f0035"/>
+das die Todten
+nicht aufferstehen / benemen sollen / Matth. 22. vnd Marci 12. Da er zu den
+Saduceern sagt: Ihr irret darumb / das jhr nichts wisset von der Schrifft / noch
+von der Krafft Gottes.</p>
+<p>Da weiset vns Christus zwostützen / darauff wir die Lehr von der Aufferstehung
+gründen sollen.</p>
+<p>Die ist die Schrifft / die GOTTES vnfeilbgres Wort ist / das er mit Wunder
+zeichen bestetiget / wunderbarlich erhalten / davon auch noch fromme Hertzen
+Trost vnnd Krafft empfinden.</p>
+<p>In der Schrifft nun hat vns Gott seinen Willen offenbahret / insonderheit aber
+auch das / das er die Todten aufferwecken wölle.</p>
+<p>Denn es hat Gott Christum verheissen / das er vns erlösen sol / vnd solche Zusage
+stets durch die Propheten widerholet. Aus solchen Verheissungen folget gewis die
+Aufferstehung der Todten. Sonst hette vns Christus nicht vollkömlich
+erlöset.</p>
+<p>Also haben im grundt alle Verheissungen von Christo vnd seinen Wolthaten / das
+auff sich / das die Todten erstehen sollen.</p>
+<p>Als wenn Gott Gen. 3. verheist / des Weibs Same sol der Schlangen den Kopff
+zertretten / wenn die Gleubigen nicht wieder aufferstehen solten / were der
+Schlangen der Kopff nicht recht zertreten.</p>
+<p>Im 110. Psalmen sagt Gott zu seinem Sohn:
+<pb facs="#f0036"/>
+Setze dich zu meiner Rechten /
+bis ich dein Feind zum Schemel deiner Füsse lege. Das zeucht Paulus 1. Cor. 15.
+auff die Aufferstehung der Todten / vnnd sagt: Der letzte Feind der auffgehoben
+wird / sey der Todt.</p>
+<p>Summa / alle Weissagung von Christo vnd seinen Wolthaten / als Jes 53. Daniel. 9.
+etc. bringen auch das mit / das die Gleubigen dermahlen eins / nemblich / am
+Jüngsten Tag werden wiederumb von den Todten aufferstehen.</p>
+<p>Aber dabey hat es Gott nicht bewenden lassen / sondern er hat die Aufferstehung
+der Todten noch dazu mit hellen deutlichen Wortea verheissen.</p>
+<p>Als Jes. 25. zeigt der Prophet an / wie Lazarus von seinen Schweißtüchern vnd
+Grabtüchern los gemacht ist / also werde Christus am Jüngsten Tag mit allen
+Todten halten. Er wird / spricht er / auff diesem Berg das Hüllen weg thun /
+damit alle Völcker verhüllet sind / vnnd die Decke / damit alle Heyden zugedeckt
+seynd. Jes. 26. Deine Todten werden leben / vnnd mit dem Leichnam aufferstehen /
+wachet auff vnnd rühmet / die jhr vnter der Erden schlaffen ligt. Denn dein Taw
+ist ein Taw des grünen Feldes. Os. 13. Ich wil sie aus der Hellen erlösen / vnd
+vom Todt erretten. Im newen Testament ist die Lehr noch deutlicher erkleret.
+Christus sagt
+<pb facs="#f0037"/>
+Johannis 6. das ist
+der Wille / des der mich gesandt hat / das wer den Sohn siehet / vnd gleubet an
+jhn / der habe das ewige Leben / vnd ich wil jhn am Jüngsten Tag
+aufferwerken.</p>
+<p>1. Thess. 4. So wir gleuben / das Christus gestorben / vnd aufferstanden ist /
+also wird Gott diese durch Christum entschlaffen / mit jhm füren.</p>
+<p>Der ander Grund vnser Aufferstehung / darauff wir vns verlassen solle&#x0303; / ist die vnendtliche Krafft vnd Allmacht Gottes / davon stehet
+Gen. 17. Ich bin der Allmechtige Gott. Gen. 18. Solte dem HERren etwas vnmüglich
+seyn? Num. 11. Ist denn die Hand des HErrn verkürtzet / Psal. 33. So er spricht
+so geschichts / so er gebeut / so stehets da.</p>
+<p>Solche seine Göttliche Allmacht hat Gott vielfeltig bewiesen / vnd bewetsets noch
+teglich.</p>
+<p>Er hat aus nichts alles erschaffen / vnd er helts.</p>
+<p>Er hat dem Todten Erdenklos einen lebendigen Athem vnd Seel eingeblasen. Er
+stellet vns dessen Exempel für an dem Feld / da den Winter alles erstirbt / vnd
+den Sommer wieder herfür bricht / grünet vnd blühet. Das Weitzenkörnlein
+erstirbt / vnd verfaulet in der Erden / vnd kompt wieder herfür. Ein
+schlaffender Mensch / welches Gleichnis Christus hie felber braucht siehet /
+höret vnd fület ein zeitlang nichts / vnd liegt schier da / als wenn er Todt
+were /
+<pb facs="#f0038"/>
+vnnd erwacht gleichwol
+wiederumb. Solche Allmacht beweiset Gott durch den Propheten Ezechiel am 37. vnd
+Christus hat Jairi Tochter auffm Bet / den Jüngling auff Weg nach dem Begrebnus
+/ den Lazarum aus dem Grab erweckt.</p>
+<p>Diese Lehre sollen wir fürnemblich zum Trost gebrauchen / wenn wir den Todt für
+vns sehen vnnd erschrecken / das wir gedencken / er müsse vns wieder heraus
+geben.</p>
+<p>Wie sich Hiob 19. tröstet / Ich weis das mein Erlöser lebt / der wird mich
+hernach aus der Erden aufferwecken / vn&#x0303; werde mit dieser meiner
+Haut vmbgeben werden / vnd Paulus 2. Cor. 5. Wir wissen aber / so vnser jrdisch
+Hauß dieser Hütten zerbrochen wird / das wir einen Baw haben von Gott erbawet /
+ein Haus nicht mit Henden gemacht / das ewig ist im Himmel.</p>
+<p>Also sollen wir auch vns trösten der Aufferstehung der Todten / wenn Gott die
+Vnsern hinweg nimpt / vnd der abschewlichen Verwesung / die fröliche
+Aufferstehung entgegen setzen / die Gott zugesagt hatt vnd schaffen wil.</p>
+<p>Wir wollen euch / sagt Paulns 1. Thes. 4. nicht verhalten von denen die da
+schlaffen / auff das jhr nig trawrich seyd / wie die andern / die keine Hoffnun
+/ haben.</p>
+<pb facs="#f0039"/>
+<p>Denn obwol es mit Lazaro ein sonders ist / so wird doch vnser Aufferstehung nicht
+schlimmer / sondern besser seyn. Er ist zu diesem mühseligen Leben erweckt /
+vnnd hat wieder sterben müssen / wir werden nicht wieder sterben / sondern zum
+ewigen Leben aufferstehen.</p>
+</div>
+<div>
+<head>Beschlus.</head><lb/>
+<p>WIr haben für dißmahl aber zu jrer Ruhestett gebracht eine Frawen vom Adel.</p>
+<p>Nun kompt es jetzt leyder auff / das man die Leut in den Leichpredigten rühmet
+fast auff den schlag / wie die Heyden gethan haben.</p>
+<p>Aber es taucht nicht / vnd ist ein Mißbrauch des Göttlichen Worts vnnd
+Predigampts / das man also den Leuten schmeichelt. Wir sollen vns für Gott nicht
+rühmen / sondern demütigen. Gnug ists / wenn man von dern / die in Christo
+entschlafen / Gottseligem Leben vnd Christlichem Abscheid / andern zur Nachfolge
+die Warheit zeuget.</p>
+<p>Derwegen wollen wir von dieser verstorbenen Frawen alten fürnehmen Geschlecht
+nicht sagen / denn das hilfft im Christenthumb nirgend zu / denn die Kinder
+Gottes werden nicht von den Geblüt / noch von dem Willen des Fleisches / noch
+von dem Willen des Mans / sondern aus Gott geborn.</p>
+<p>Aber dafür haben wir Gott zu dancken / das die Eltern diese Person haben zur
+Tauff geschickt / da sie Gott zu einem Kind auffgenommen / vnd das sie sie zu
+Gottes Wort gehalten / vnd in warem Erkendnus Christi erzogen haben. Darumb ist
+er-
+<pb facs="#f0040"/>
+folgt / das sie
+ein Freundin Christi worden ist / dieweil sie sein Wort fleissig gehöret / vnd
+an jhn gegleubt hat.</p>
+<p>Solchen jhren Glauben hat sie bewiesen mit einem Christlichen Wandel / sie hat
+jhren lieben Juncker nicht allein geliebet / sondern auch geehret / jhr
+Stiffkinder als wenn es jhre Leibliche Kinder gewesen / wol erzogen / den Armen
+mit einem guten Wort auch mit der That gedienet.</p>
+<p>Sie ist aber / wie Christi Freund Lazarus kranck worden / ob sie nun wol Artzney
+gebraucht / so hat sie doch für allen dingen durch das Gebet zu Christo
+geschickt / aber es gantz Gott heimgestellet / vnd mehr begert abzuscheiden /
+vnd bey Christo zu seyn / als lenger hie zu leben. Derwegen sie fast vnwillig
+darüber worden / wenn man gebeten / das sie lenger leben möchte.</p>
+<p>Also hat sie in der Warheit das schrecken des Todts vberwunden / vnd ob sie schon
+gestorben / wird sie doch wie Lazarus wieder aufferstehen zum ewigen Leben. Dazu
+vns allen auch mit Gnaden verhelffe / Gott Vater / Sohn vnd Heiliger Geist /
+Amen.</p>
+<p>ENDE.</p>
+</div>
+</body>
+</text>
+</TEI>

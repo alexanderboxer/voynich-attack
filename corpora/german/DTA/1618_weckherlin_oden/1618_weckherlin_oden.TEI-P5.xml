@@ -1,0 +1,3211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">   <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Oden vnd Gesäng</title>
+<title type="volume" n="1">Das Erste Buch</title>
+<author>
+<persName ref="http://d-nb.info/gnd/118629840">
+<surname>Weckherlin</surname>
+<forename>Georg Rodolf</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">138</measure>
+<measure type="tokens">13042</measure>
+<measure type="types">3898</measure>
+<measure type="characters">85898</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-02-28T15:19:14Z</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+<p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/weckherlin_oden01_1618</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/weckherlin_oden01_1618</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/weckherlin_oden01_1618</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/weckherlin_oden01_1618</idno>
+<idno type="DTADirName">weckherlin_oden01_1618</idno>
+<idno type="DTAID">20628</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-20628-9</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="MM">Weckherlin, Georg Rodolf: Oden vnd Gesäng. Bd. 1. Stuttgart, 1618.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Oden vnd Gesäng</title>
+<title level="m" type="volume" n="1">Das Erste Buch</title>
+<author>
+<persName ref="http://d-nb.info/gnd/118629840">
+<surname>Weckherlin</surname>
+<forename>Georg Rodolf</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">125 S., [1] Bl. : Kupfert.</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Rösslin</name></publisher>
+<pubPlace>Stuttgart</pubPlace>
+<date type="publication">1618</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Staatsbibliothek zu Berlin &#x2013; Preußischer Kulturbesitz</repository>
+<idno>
+<idno type="shelfmark">SBB-PK, Yh 8781-1/2</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>Dieses Werk wurde gemäß den <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref>
+im Double-Keying-Verfahren von Nicht-Muttersprachlern erfasst und in XML/TEI P5 nach
+<ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref> kodiert.</p>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Belletristik</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Lyrik</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Lyrik</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">core</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">china</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001"/>
+<pb facs="#f0002"/>
+<pb facs="#f0003"/>
+<pb facs="#f0004"/>
+<pb n="[1]" facs="#f0005"/>
+<titlePage type="main"> <figure/> <docTitle> <titlePart type="main"> ODEN<lb/>
+und<lb/>
+GESÄNGE<lb/>
+</titlePart> </docTitle> <byline> durch<lb/>
+<docAuthor> Georg Rodolf<lb/>
+Weckherlin.<lb/>
+</docAuthor> </byline> <milestone unit="section" rendition="#hr"/><lb/>
+</titlePage>
+<pb n="[2]" facs="#f0006"/>
+<pb n="[3]" facs="#f0007"/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div><head><hi rendition="#b">Das Er&#x017F;te<lb/>
+Buch<lb/>
+Oden vnd Ge-<lb/>
+&#x017F;a&#x0364;ng.</hi></head><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<pb n="4.[4]" facs="#f0008"/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<lg type="poem"><head><hi rendition="#b">An mein Buch.</hi></head><lb/>
+<lg n="1"><l><hi rendition="#in">M</hi>Olan/ Bu&#x0364;chlein/ du mu&#x017F;t es wagen/</l><lb/>
+<l>Zeuch hinauß mit getro&#x017F;tem muht:</l><lb/>
+<l>Weil vn&#x017F;er gewi&#x017F;&#x017F;en gantz gut/</l><lb/>
+<l>So gilt es gleich was man wirt &#x017F;agen.</l></lg><lb/>
+<lg n="2"><l>Deemu&#x0364;htig-ku&#x0364;&#x017F;&#x017F;end zu begru&#x0364;e&#x017F;&#x017F;en</l><lb/>
+<l>Einer ma&#x0364;chtigen Go&#x0364;ttin hand/</l><lb/>
+<l>Soll Dich Mißgun&#x017F;t vnd Vnver&#x017F;tand</l><lb/>
+<l>Weder verhindern noch verdrie&#x017F;&#x017F;en.</l></lg><lb/>
+<lg n="3"><l>Gefallen &#x017F;olt du gar nicht allen/</l><lb/>
+<l>Vihlen gefallen i&#x017F;t zuvihl:</l><lb/>
+<l>Ha&#x017F;t al&#x017F;o dein gewi&#x017F;&#x017F;es &#x017F;pihl/</l><lb/>
+<l>Das du wenigen wir&#x017F;t gefallen.</l></lg><lb/>
+<lg n="4"><l>Di&#x017F;er (wie wenig jhrer &#x017F;eyen)</l><lb/>
+<l>Seind gar gnug/ weil Sie gut vnd fromb;</l><lb/>
+<l>Vnd Sie/ bey denen du willkomb/</l><lb/>
+<l>Werden dich &#x017F;chon vor vnfall freyhen.</l></lg><lb/>
+<lg n="5"><l>Wan du nu/ &#x017F;o wol aufgenommen/</l><lb/>
+<l>Auch vor andern ka&#x0364;me&#x017F;t herfu&#x0364;r/</l><lb/>
+<l>So wollen fro&#x0364;lich bald nach dir</l><lb/>
+<l>Mehr &#x017F;cho&#x0364;nere ge&#x017F;chwi&#x017F;trigt kommen.</l></lg></lg> </div><lb/>
+<fw type="catch" place="bottom">An die</fw><lb/>
+<pb n="5.[5]" facs="#f0009"/>
+<div><salute><hi rendition="#c">An die<lb/>
+<hi rendition="#b">Durchleuchtig-<lb/>
+&#x017F;te vnd Hochgeborne Fu&#x0364;r-</hi><lb/>
+&#x017F;tin vnd Fraw/ Fraw<lb/>
+<hi rendition="#aq"><hi rendition="#g">ELISABETH</hi></hi><lb/>
+Pfaltzgra&#x0364;fin bey Rhein/ Churfu&#x0364;r-<lb/>
+&#x017F;tin/ Hertzogin in Bayern/ &#xA75B;c. Gra&#x0364;fin zu Vel-<lb/>
+dentz vnd Spanheim/ &#xA75B;c. Geborne Ko&#x0364;-<lb/>
+nigliche Prince&#x017F;&#x017F;in auß Groß--<lb/>
+Britannien/ &#xA75B;c.<lb/>
+<hi rendition="#b">Meine gna&#x0364;dig&#x017F;te Fu&#x0364;r&#x017F;tin vnd<lb/>
+Fraw/ &#xA75B;c.</hi></hi></salute><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<lg type="poem"><lg n="1"><l><hi rendition="#in">D</hi>Emnach ich mich newlich bedacht/</l><lb/>
+<l>Welcher Mu&#x017F;en es wolt gebu&#x0364;hren/<lb/>
+<fw type="sig" place="bottom">A iij</fw><fw type="catch" place="bottom">(Vn-</fw><lb/>
+<pb n="6.[6]" facs="#f0010"/>
+(Vnder denen/ die ich hoch-acht)</l><lb/>
+<l>Euch di&#x017F;es Buch zu pr<hi rendition="#aq">æ</hi>&#x017F;entieren:</l></lg><lb/>
+<lg n="2"><l>Da kam ein jede bald zu Mir/</l><lb/>
+<l>Hoffend &#x017F;olche ehr zu erlangen;</l><lb/>
+<l>Allein zwo kamen nicht herfu&#x0364;r/</l><lb/>
+<l>Welche doch &#x017F;un&#x017F;t vor andern prangen.</l></lg><lb/>
+<lg n="3"><l>Die Ro&#x0364;mi&#x017F;che ver&#x017F;agt die ehr/</l><lb/>
+<l>Weil Jhr Euch nicht vor Rom auch naiget</l><lb/>
+<l>Vnd die Spanni&#x017F;che het vilmehr</l><lb/>
+<l>Solche Ewerm Brudern erzaiget.</l></lg><lb/>
+<lg n="4"><l>Aber die andre all-zumahl</l><lb/>
+<l>Wolten &#x017F;ich in &#x017F;olches ampt dringen;</l><lb/>
+<l>Fiengen auch an vmb di&#x017F;e wahl</l><lb/>
+<l>Jhr an&#x017F;prach al&#x017F;o fu&#x0364;r-zu-bringen.</l></lg></lg> </div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">Mu</hi></fw><lb/>
+<pb n="7.[7]" facs="#f0011"/>
+<div n="1"><head><hi rendition="#aq">Mu&#x017F;a Latina.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#k"><hi rendition="#in">Q</hi>Væ</hi> &#x017F;plendens vagor &amp; culta nitoreper</hi></l><lb/>
+<l><hi rendition="#aq">Orbem, quæ ambro&#x017F;ium ore ab ro&#x017F;eo jubar</hi></l><lb/>
+<l><hi rendition="#aq">Fundo, &amp; nomine quos clara juvant beo,</hi></l><lb/>
+<l><hi rendition="#aq">Me munus decet hoc: Cedite vos, &#x017F;acro</hi></l><lb/>
+<l><hi rendition="#aq">Vos quarum ip&#x017F;a rigo pectoranectare.</hi></l></lg></div><lb/>
+<div n="1"><head><hi rendition="#aq">The English Mu&#x017F;e.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">N</hi><hi rendition="#i">Ot &#x017F;o, faire Mu&#x017F;e: But shee by right,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Who first this Godde&#x017F;&#x017F;e taught to &#x017F;peake,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Will novv best plea&#x017F;e her ears and &#x017F;ight.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Thus my tongue shall prove your tongue</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#et">vveake,</hi></hi></hi></l><lb/>
+<l><hi rendition="#i"><hi rendition="#aq">By her &#x017F;vveet-flovving grace and might.</hi></hi></l></lg></div><lb/>
+<div n="1"><head><hi rendition="#aq">La Mu&#x017F;e Françoi&#x017F;e.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">T</hi>Out beau, Belles. Car veu la grace</hi></l><lb/>
+<l><hi rendition="#aq">De mon langage doux &amp; net,</hi></l><lb/>
+<l><hi rendition="#aq">Il vous faut (quitant vo&#x017F;tre audace)</hi></l><lb/>
+<l><hi rendition="#aq">Medeferer l&#x2019;honneur de fait,</hi></l><lb/>
+<l><hi rendition="#aq">Que &#x017F;eule toutes je &#x017F;urpa&#x017F;&#x017F;e.</hi></l></lg></div><lb/>
+<div n="1"><head><hi rendition="#b">Die Teut&#x017F;che Mu&#x017F;a.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Jgen lob (&#x017F;agt man) i&#x017F;t vmb&#x017F;un&#x017F;t/</l><lb/>
+<l>Sun&#x017F;t wolt ich mich &#x017F;elbs bald gnug</l><lb/>
+<l><hi rendition="#et">prei&#x017F;en:</hi></l><lb/>
+<fw type="sig" place="bottom">A iiij</fw><fw type="catch" place="bottom">Doch</fw><lb/>
+<pb n="8.[8]" facs="#f0012"/>
+<l>Doch ho&#x0364;ret mir nu zu mit gun&#x017F;t/</l><lb/>
+<l>Vnd meine Zung &#x017F;oll Euch bewei&#x017F;en/</l><lb/>
+<l>Das Sie weder ohn lehr noch kun&#x017F;t.</l></lg></div><lb/>
+<div n="1"><head><hi rendition="#aq">Mu&#x017F;a Latina.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">M</hi>V&#x017F;arum genus audax! Ego quid diu hîc</hi></l><lb/>
+<l><hi rendition="#aq">Contendam? Genitæ &#x017F;ic Iove Maximo</hi></l><lb/>
+<l><hi rendition="#aq">Certabant, &amp; Apollo quoque. Non ea</hi></l><lb/>
+<l><hi rendition="#aq">Quæ nô&#x017F;tis fuerant cuncta mei GenI,</hi></l><lb/>
+<l><hi rendition="#aq">Germana, Angla &#x017F;oror, Gallica, dicite?</hi></l></lg></div><lb/>
+<div n="1"><head><hi rendition="#aq">The English Mu&#x017F;e.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">T</hi><hi rendition="#i">Hus to none of vs doe&#x017F;t thou vvrong,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">T&#x2019;is not thine ovvne all thou doe&#x017F;t knovv:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Her to &#x017F;alute allone my tong</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Is fittest, and fittest to shovv</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Wits and skills threa&#x017F;ure in her &#x017F;ong.</hi></hi></l></lg></div><lb/>
+<div n="1"><head><hi rendition="#aq">La Mu&#x017F;e Françoi&#x017F;e.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">C</hi>Ontentez vous; Ce&#x017F;te Dee&#x017F;&#x017F;e,</hi></l><lb/>
+<l><hi rendition="#aq">Dontle corps, le c&#x0153;ur, &amp; l&#x2019;e&#x017F;prit</hi></l><lb/>
+<l><hi rendition="#aq">N&#x2019;e&#x017F;t que beauté, grace, &amp; &#x017F;age&#x017F;&#x017F;e,</hi></l><lb/>
+<l><hi rendition="#aq">Sur toutes autres me cherit,</hi></l><lb/>
+<l><hi rendition="#aq">Et &#x017F;e delecte en ma riche&#x017F;&#x017F;e.</hi></l></lg></div><lb/>
+<fw type="catch" place="bottom">Die</fw><lb/>
+<pb n="9.[9]" facs="#f0013"/>
+<div n="1"><head><hi rendition="#b">Die Teut&#x017F;che Mu&#x017F;a.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">S</hi>Agt was jhr wolt/ Es kan nicht &#x017F;ein/</l><lb/>
+<l>Vnd &#x017F;olt es Euch zumahl verd&#xA75B;ie&#x017F;&#x017F;en.</l><lb/>
+<l>Jch bin jetz Jhr/ vnd Sie i&#x017F;t mein/</l><lb/>
+<l>Will Sie auch fu&#x0364;r Euch all begru&#x0364;e&#x017F;&#x017F;en</l><lb/>
+<l>Mit einem Lied wahr/ hell vnd rein.</l></lg></div><lb/>
+<div n="1"><head><hi rendition="#aq">Mu&#x017F;a Latina.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">C</hi>Vi Pallasq&#x0301;ue, Venusq&#x0301;ue, &amp; Charites, <hi rendition="#k">Dea,</hi></hi></l><lb/>
+<l><hi rendition="#aq">Ceduntingenio, ac ore, decoreq&#x0301;ue,</hi></l><lb/>
+<l><hi rendition="#aq">Da c&#x0153;le&#x017F;tis <hi rendition="#g"><hi rendition="#k">Elisa</hi></hi> O veniam mihi,</hi></l><lb/>
+<l><hi rendition="#aq">Si, Germana &#x017F;uo Mu&#x017F;a quid ore te</hi></l><lb/>
+<l><hi rendition="#aq">Compellans &#x017F;apiat, nô&#x017F;&#x017F;e animo expeto.</hi></l></lg></div><lb/>
+<div n="1"><head><hi rendition="#aq">The English Mu&#x017F;e.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">O</hi> <hi rendition="#i">De are&#x017F;t Dread, that doe excell</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">In wits, vertues, and beauties threa&#x017F;ure,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">My humble hart you knovv full vvell:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Then bee it to you no di&#x017F;plea&#x017F;ure</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">If I let &#x017F;peake vvith vvhom you dvvell.</hi></hi></l></lg></div><lb/>
+<div n="1"><head><hi rendition="#aq">La Mu&#x017F;e Françoi&#x017F;e.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">T</hi>Oy donc, dont le chant ne peut plaire</hi></l><lb/>
+<l><hi rendition="#aq">A tes nourri&#x017F;&#x017F;ens me&#x017F;mement,</hi></l><lb/>
+<l><hi rendition="#aq">Chante; Pour moy, je ne veux faire</hi></l><lb/>
+<fw type="sig" place="bottom"><hi rendition="#aq">A</hi> 5</fw><fw type="catch" place="bottom"><hi rendition="#aq">Vne</hi></fw><lb/>
+<pb n="10.[10]" facs="#f0014"/>
+<l><hi rendition="#aq">Vne querelle d&#x2019; Allemand:</hi></l><lb/>
+<l><hi rendition="#aq">Pour t&#x2019;entendre Je me puis taire.</hi></l></lg></div><lb/>
+<div n="1"><head><hi rendition="#b">Die Teut&#x017F;che Mu&#x017F;a.</hi></head><lb/>
+<lg n="10"><l><hi rendition="#in">S</hi>Chwe&#x017F;tern/ es i&#x017F;t auch nicht &#x017F;o lang/</l><lb/>
+<l>Das jhr &#x017F;o ko&#x0364;&#x017F;tlich &#x017F;eit gezieret/</l><lb/>
+<l xml:id="v01" next="#v02">Schlecht gnug war auch Ewer an-</l><lb/>
+<l>Doch i&#x017F;t es gnug gedi&#x017F;putieret/</l><l xml:id="v02" prev="#v01"> <hi rendition="#et">(fang:</hi></l><lb/>
+<l>Seit &#x017F;till/ ich fang an mein ge&#x017F;ang.</l></lg><lb/>
+<lg n="11"><l><hi rendition="#fr"><hi rendition="#in">J</hi>Hr keu&#x017F;che Nymfen di&#x017F;er welt/</hi></l><lb/>
+<l>An leib vnd &#x017F;ehl &#x017F;o &#x017F;cho&#x0364;n-ge&#x017F;taltet/</l><lb/>
+<l>Das jhr die Ehr mehr dan das gelt/</l><lb/>
+<l>Die Zucht mehr dan alles gold haltet;</l><lb/>
+<l>O all jhr Mu&#x017F;en/ deren bru&#x017F;t</l><lb/>
+<l>Nur an der warheit jhren lu&#x017F;t;</l><lb/>
+<l>Deren mund (&#x017F;u&#x0364;&#x017F;&#x017F;er dan die ro&#x017F;en)</l><lb/>
+<l>Kan erklingen der Go&#x0364;tter ehr/</l><lb/>
+<l>Aber gar nicht mit fal&#x017F;cher lehr</l><lb/>
+<l>Einem Vnwu&#x0364;rdigen liebko&#x017F;en.</l></lg><lb/>
+<lg n="12"><l>Kommet her/ O lo&#x0364;bliche &#x017F;char/<lb/>
+(Was Euch auch fu&#x0364;r &#x017F;prachen gefallen)</l><lb/>
+<l>La&#x017F;&#x017F;et Ewre &#x017F;tim &#x017F;u&#x0364;ß vnd klar</l><lb/>
+<l>Durch den gantzen Vmbkraiß er&#x017F;challen:</l><lb/>
+<l>Singet mir nach/ die ich ja nicht</l><lb/>
+<l>Nur ein einiges wort erdicht/<lb/>
+<fw type="catch" place="bottom">Sin-</fw><lb/>
+<pb n="11.[11]" facs="#f0015"/>
+Singet mir nach was jhr &#x017F;elbs &#x017F;ehet/</l><lb/>
+<l>Das (namlich) aller Scho&#x0364;nheit blum/</l><lb/>
+<l>Vnd di&#x017F;er welt u&#x0364;briger ruhm</l><lb/>
+<l>Allein auff <hi rendition="#fr">Eli&#x017F;a</hi> be&#x017F;tehet.</l></lg><lb/>
+<lg n="13"><l><hi rendition="#fr">Eli&#x017F;a</hi> die Albions &#x017F;chatz</l><lb/>
+<l>Vnd wunder er&#x017F;tlich war geboren/</l><lb/>
+<l>Hernach durch des himmels ge&#x017F;atz</l><lb/>
+<l>Fu&#x0364;r des Teut&#x017F;chlands kleinoth erkoren:<lb/>
+<hi rendition="#fr">Eli&#x017F;a/</hi> deren augen kraft</l><lb/>
+<l>So Lieb-reich vnd &#x017F;o Tugenthaft</l><lb/>
+<l>Wir &#x017F;elbs oft mit verwundrung &#x017F;ehen/</l><lb/>
+<l>Das an des &#x017F;cho&#x0364;n&#x017F;ten tags anfang</l><lb/>
+<l>Die Sonn &#x017F;elbs nicht kan von Aufgang</l><lb/>
+<l>Klar/ wie Sie auß dem We&#x017F;t/ aufgehen.</l></lg><lb/>
+<lg n="14"><l>Mit &#x017F;ovil &#x017F;u&#x0364;&#x017F;&#x017F;er lieblichkeit</l><lb/>
+<l>Kan &#x017F;ich Cypris &#x017F;elbs nicht be&#x017F;cho&#x0364;nen/</l><lb/>
+<l>Solt Sie auch jhr hold&#x017F;eeligkeit</l><lb/>
+<l>Von allen Gratien entlo&#x0364;hnen:</l><lb/>
+<l>Der Monat-regierende &#x017F;chein</l><lb/>
+<l>J&#x017F;t weit nicht &#x017F;o gla&#x0364;ntzend vnd rein:</l><lb/>
+<l>So mag &#x017F;ich Aurora lang zieren/</l><lb/>
+<l>Wan Sie gern die &#x017F;cho&#x0364;n&#x017F;te &#x017F;ein wolt/</l><lb/>
+<l>Vnd Cephalus Richter &#x017F;ein &#x017F;olt/</l><lb/>
+<l>Wu&#x0364;rd Sie (&#x017F;chamroht) die &#x017F;ach verlieren.</l></lg><lb/>
+<fw type="catch" place="bottom">Jhr</fw><lb/>
+<pb n="12.[12]" facs="#f0016"/>
+<lg n="15"><l>Jhr Groß-ko&#x0364;nigliches ge&#x017F;chlecht</l><lb/>
+<l>Durch die reiche Scepter vnd Cronen/</l><lb/>
+<l>So es tra&#x0364;gt mit Verdien&#x017F;t vnd Recht/</l><lb/>
+<l>Macht jhr die Maye&#x017F;tet bey wohnen;</l><lb/>
+<l>Laßt aber den hochmuht gar nicht</l><lb/>
+<l>Jn jhr gemu&#x0364;ht noch ange&#x017F;icht:</l><lb/>
+<l>Sondern jhre &#x017F;tirn (die erzaiget</l><lb/>
+<l>Das Sie von allen fehlen frey)</l><lb/>
+<l>Sihet kein hertz/ das nicht (getrew)</l><lb/>
+<l>Mit forcht vnd ehr &#x017F;ich vor jhr naiget.</l></lg><lb/>
+<lg n="16"><l>Jch gedenck noch wol/ da der &#x017F;chein</l><lb/>
+<l>Di&#x017F;es ge&#x017F;tirns fu&#x0364;r Vns zu leuchten</l><lb/>
+<l>Engelland verließ/ wie die pein</l><lb/>
+<l>Thet jhrer Nymfen augen feuchten:</l><lb/>
+<l>Vnd wie Neptunus &#x017F;elbs den brand</l><lb/>
+<l>Jhrer &#x017F;u&#x0364;&#x017F;&#x017F;en Scho&#x0364;nheit empfand/</l><lb/>
+<l>Da Er &#x017F;ein ge&#x017F;icht zu er go&#x0364;tzen</l><lb/>
+<l>Ab di&#x017F;er bu&#x0364;rd &#x017F;o &#x017F;cho&#x0364;n vnd zart<lb/>
+(Verhindrend jhre u&#x0364;berfahrt)</l><lb/>
+<l>Sie macht die Ancker oftmahls no&#x0364;tzen.</l></lg><lb/>
+<lg n="17"><l>Wie gern het &#x017F;ein entzu&#x0364;ndter muht<lb/>
+(Nach &#x017F;einem wun&#x017F;ch &#x017F;eelig zuleben)</l><lb/>
+<l>Sein gantzes Reich/ vnd all &#x017F;ein gut</l><lb/>
+<l>Vmb di&#x017F;e Go&#x0364;ttin aufgegeben?<lb/>
+<fw type="catch" place="bottom">Wie</fw><lb/>
+<pb n="13.[13]" facs="#f0017"/>
+Wie vilmahls/ wie &#x017F;tarck/ wie ge&#x017F;chwind</l><lb/>
+<l>Macht Er die vnru&#x0364;hwig&#x017F;te wind</l><lb/>
+<l>Wider jhr vorhaben ent&#x017F;tehen/</l><lb/>
+<l>Biß endlich Gottes &#x017F;tarcke hand<lb/>
+(Nach &#x017F;einer zu&#x017F;ag) das Teut&#x017F;chland</l><lb/>
+<l>Zu erquicken jhr fort half gehen?</l></lg><lb/>
+<lg n="1"><l>Jch waiß noch/ vnd will ewiglich</l><lb/>
+<l>Gedencken/ betrachten/ vnd &#x017F;egnen</l><lb/>
+<l>Die &#x017F;tund/ da di&#x017F;e Go&#x0364;ttin &#x017F;ich</l><lb/>
+<l>Ernidrigte Vns zubego&#x0364;gnen:</l><lb/>
+<l>Die &#x017F;tund/ darin &#x017F;ich jhr anblick/<lb/>
+(Erfu&#x0364;llet mit tro&#x017F;t/ hail/ vnd glück)</l><lb/>
+<l>Auß vn&#x017F;erm mund trawren vnd klagen/</l><lb/>
+<l>Auß vn&#x017F;ern hertzen den vnlu&#x017F;t/</l><lb/>
+<l>Vnd das &#x017F;eufzen auß vn&#x017F;rer bru&#x017F;t</l><lb/>
+<l>Wu&#x0364;rdigte ga&#x0364;ntzlich zu verjagen.</l></lg><lb/>
+<lg n="2"><l>Sidher hat di&#x017F;er Sonnen glantz</l><lb/>
+<l>Vns mit &#x017F;tehtem Fru&#x0364;ling erfrewet/</l><lb/>
+<l>Des Lands berg/ feld vnd ga&#x0364;rten gantz</l><lb/>
+<l>Mit frucht vnd blumen u&#x0364;ber&#x017F;tro&#x0364;wet:</l><lb/>
+<l>Sidher hat Vns weder verdruß</l><lb/>
+<l>Sturmwind/ gewitter/ fin&#x017F;ternuß/</l><lb/>
+<l>Noch winter zuvil u&#x0364;berfallen:</l><lb/>
+<l>Das Wir al&#x017F;o (O das mein mund<lb/>
+<fw type="catch" place="bottom">Sol-</fw><lb/>
+<pb n="14.[14]" facs="#f0018"/>
+Solches ru&#x0364;hm zu &#x017F;eeliger &#x017F;tund<hi rendition="#i">!</hi>)</l><lb/>
+<l>Nichts haben das vns kan mißfallen.</l></lg><lb/>
+<lg n="3"><l>Sidher hat auch jhre Scho&#x0364;nheit<lb/>
+(Scho&#x0364;nheit vnd Frombkeit gleich vermehret)</l><lb/>
+<l>Vns/ ja die gantze Chri&#x017F;tenheit/</l><lb/>
+<l>De&#x017F;&#x017F;en &#x017F;o wir wu&#x0364;n&#x017F;chten gewehret:</l><lb/>
+<l>Jn dem nach Gottes gu&#x0364;tigkeit</l><lb/>
+<l>Auß jhrer &#x017F;eiten fruchtbarkeit/</l><lb/>
+<l>Vnd auß des gro&#x0364;&#x017F;ten Printzens &#x017F;amen/<lb/>
+(De&#x017F;&#x017F;en Weißheit/ Manheit vnd fleiß</l><lb/>
+<l>Verdient u&#x0364;bermen&#x017F;chlichen preiß)</l><lb/>
+<l>Scho&#x0364;ne So&#x0364;hn jhren vr&#x017F;prung namen.</l></lg><lb/>
+<lg n="4"><l>Di&#x017F;e So&#x0364;hn/ nach der Go&#x0364;tter art</l><lb/>
+<l>Werden in kurtzer zeit auf&#x017F;chie&#x017F;&#x017F;en/</l><lb/>
+<l>Vnd in dem Sie noch jung vnd zart</l><lb/>
+<l>Wirt die kirch jhrer vil genu&#x0364;e&#x017F;&#x017F;en:</l><lb/>
+<l>Weil Sie ver&#x017F;ta&#x0364;ndig vnd manhaft</l><lb/>
+<l>Durch jhrer fau&#x017F;t ma&#x0364;chtige kraft</l><lb/>
+<l>Die feind Gottes werden vernichten;</l><lb/>
+<l>Wa ander&#x017F;t &#x017F;elbs nicht &#x017F;olche that</l><lb/>
+<l>Der welcher Sie gezeuget hat<lb/>
+(Jhnen vorkommend) will ver&#xA75B;ichten.</l></lg><lb/>
+<lg n="5"><l>Jedoch nein. Dan es ja nicht gut</l><lb/>
+<l>Das Er Vns wider &#x017F;olt verla&#x017F;&#x017F;en/<lb/>
+<fw type="catch" place="bottom">Vnd</fw><lb/>
+<pb n="15.[15]" facs="#f0019"/>
+Vnd folgend &#x017F;einem helden-muht</l><lb/>
+<l>Die wafen noch einmahl erfa&#x017F;&#x017F;en.</l><lb/>
+<l>Sein hertz vnd macht &#x017F;eind bekant gnug:</l><lb/>
+<l>Darumb es be&#x017F;&#x017F;er/ das Er klug</l><lb/>
+<l>Vnd ru&#x0364;hwig woll &#x017F;ein Land bewahren</l><lb/>
+<l>Reich/ vernu&#x0364;get/ fro&#x0364;lich vnd &#x017F;till.</l><lb/>
+<l>Doch/ wan Er ja mehr Palmen will/</l><lb/>
+<l>So &#x017F;uch Er &#x017F;ie in Ewren haaren.</l></lg><lb/>
+<lg n="6"><l>Aber was mach ich nu vil wort/</l><lb/>
+<l>O Go&#x0364;ttin/ deren edles leben<lb/>
+(Vn&#x017F;ers lebens einiger hort)</l><lb/>
+<l>Vns kan alle ver&#x017F;ichrung geben?</l><lb/>
+<l>Deren augen glantz gantz Lieb-reich</l><lb/>
+<l>Regierct Jhn vnd Vns zugleich;</l><lb/>
+<l>Vnd deren wandel ein exempel/</l><lb/>
+<l>Vnd &#x017F;piegel aller Tugent i&#x017F;t/</l><lb/>
+<l>Das jhr ohn heucheley vnd li&#x017F;t</l><lb/>
+<l>Verdienet der Gedechtnus tempel.</l></lg><lb/>
+<lg n="7"><l>Wan dan/ O aller Nymfen Roß/<lb/>
+(Mit Euch &#x017F;elbs allein zu vergleichen)</l><lb/>
+<l>Ewer verdien&#x017F;t vnd Ehr &#x017F;o groß/</l><lb/>
+<l>Das &#x017F;ie die welt allein bereichen:</l><lb/>
+<l>Vnd wan es vnlaugbar vnd kund/</l><lb/>
+<l>Das Wir beedes mit hertz vnd mund</l><lb/>
+<l>Euch (vnd zwar billich) Go&#x0364;ttin nennen;<lb/>
+<fw type="catch" place="bottom">Auch</fw><lb/>
+<pb n="16.[16]" facs="#f0020"/>
+Auch auf vn&#x017F;ers hertzens altar/</l><lb/>
+<l>Nach vn&#x017F;rer gelu&#x0364;bd pur vnd klar</l><lb/>
+<l>Euch ein Lob vnd Lieb-opfer brennen:</l></lg><lb/>
+<lg n="8"><l>So darf mein nidriges gemu&#x0364;ht</l><lb/>
+<l>Sein vertrawen &#x017F;ovil erho&#x0364;hen/</l><lb/>
+<l>Es werd auch Ewre gnad vnd gu&#x0364;ht</l><lb/>
+<l>Di&#x017F;e &#x017F;chlechte gaab nicht ver&#x017F;chma&#x0364;hen:</l><lb/>
+<l>Sondern (folgend den Go&#x0364;ttern nach</l><lb/>
+<l>Welche das hertz/ vnd nicht die &#x017F;prach/</l><lb/>
+<l>Noch die gaab der men&#x017F;chen betrachten)</l><lb/>
+<l>Jhr werdet das lied &#x017F;o ich &#x017F;ing/</l><lb/>
+<l>Vnd das ge&#x017F;chenck &#x017F;o ich Euch bring/</l><lb/>
+<l>Als lieblich vnd her&#xA75B;lich hoch-achten.</l></lg><lb/>
+<lg n="9"><l>Dan vnlieblich kan es nicht &#x017F;ein/</l><lb/>
+<l>Weil Ewre Scho&#x0364;nheit &#x017F;olches ehret;</l><lb/>
+<l>So wirt &#x017F;einer her&#xA75B;lichkeit &#x017F;chein</l><lb/>
+<l>Durch Ewre her&#xA75B;lichkeit vermehret:</l><lb/>
+<l>Vnd Ewer nam/ lob/ ruhm vnd preiß/</l><lb/>
+<l>Von Ewrer aignen Tugent fleiß</l><lb/>
+<l>Jn der Ewigkeit buch gegraben/</l><lb/>
+<l>Werden hiemit wol mein ge&#x017F;ang/</l><lb/>
+<l>Mein buch vnd mich durch hohen &#x017F;chwang</l><lb/>
+<l>Mit der Vn&#x017F;terblichkeit begaben.</l></lg><lb/>
+<closer><salute><hi rendition="#et">Georg-Rodolf Weckherlin.</hi></salute></closer></div></front><body><lb/>
+<fw type="catch" place="bottom">Das</fw><lb/>
+<pb n="17" facs="#f0021"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">Die er&#x017F;te Ode.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Zu glu&#x0364;ck&#x017F;eeliger heim-<lb/>
+fu&#x0364;hrung<lb/>
+<hi rendition="#k">De</hi>r Durch-<lb/>
+leuchtig&#x017F;ten Churfu&#x0364;r&#x017F;tin/ &#xA75B;c.<lb/>
+Gebo&#xA75B;nen P&#xA75B;ince&#x017F;&#x017F;in auß En-<lb/>
+gelland/ &#xA75B;c.</hi></head><lb/>
+<div n="3"><head><hi rendition="#b">Die er&#x017F;te Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Ls der Rhein fu&#x0364;r gewiß ver&#x017F;tanden</l><lb/>
+<l>Daß einer Go&#x0364;ttin treflichkeit</l><lb/>
+<l>Seines Fu&#x0364;r&#x017F;ten hertzens freyheit</l><lb/>
+<l>Gefa&#x0364;ncklich hielt in jhren banden:</l><lb/>
+<l>Hat Er/ ligend ab &#x017F;olcher lieb</l><lb/>
+<l>Jn &#x017F;einem gewo&#x0364;lbe verdro&#x017F;&#x017F;en/</l><lb/>
+<l>Ein &#x017F;olchen zeherfluß vergo&#x017F;&#x017F;en/</l><lb/>
+<l>Daß &#x017F;eine her&#xA75B;&#x017F;chafft davon tru&#x0364;b.</l><lb/>
+<l>Er fu&#x0364;hret Amors li&#x017F;t zu hertzen;</l><lb/>
+<fw type="sig" place="bottom">B</fw><fw type="catch" place="bottom">Sar-</fw><lb/>
+<pb n="18" facs="#f0022"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Sarpedons vnd Leanders &#x017F;chmertzen/</l><lb/>
+<l>Ja deß Peleiden vnglu&#x0364;ck</l><lb/>
+<l>Verblaichen jhn all augenblick;</l><lb/>
+<l>Jn dem ein plo&#x0364;tzliches getu&#x0364;mmel</l><lb/>
+<l>Welches Er vnver&#x017F;ehens ho&#x0364;rt/</l><lb/>
+<l>Fu&#x0364;llet den abgrund vnd die himmel/</l><lb/>
+<l>Vnd &#x017F;eine &#x017F;ehl noch mehr betho&#x0364;rt.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 1. Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">E</hi>R &#x017F;to&#x017F;t/ vnwi&#x017F;&#x017F;end was ge&#x017F;chehen/</l><lb/>
+<l>Sein mo&#x017F;echtes haubt auß dem fluß/</l><lb/>
+<l>Vnd weil er forcht einen verdruß/</l><lb/>
+<l>Will Er/ was &#x017F;olches &#x017F;ey/ bald &#x017F;ehen:</l><lb/>
+<l>Seine horn vnd gebu&#x0364;ntzte haar</l><lb/>
+<l>Vil hoch&#x017F;pringende ba&#x0364;ch außgie&#x017F;&#x017F;en/</l><lb/>
+<l>Vor &#x017F;einer na&#x017F;en vnd bart flie&#x017F;&#x017F;en</l><lb/>
+<l>Vil wa&#x017F;&#x017F;erzapffen lang vnd klar:</l><lb/>
+<l>Er &#x017F;ihet nu zu &#x017F;einen &#x017F;eitten</l><lb/>
+<l>Ein ho&#x0364;r gleich&#x017F;am berait zu&#x017F;treitten:</l><lb/>
+<l>Er ho&#x0364;ret der Trometen klang/</l><lb/>
+<l>Der kuglen fliegendes ge&#x017F;ang/</l><lb/>
+<l>Vnd verwundert &#x017F;ich ab dem wunder</l><lb/>
+<l>Wie ein ei&#x017F;iner hagel kompt</l><lb/>
+<l>Mit &#x017F;o &#x017F;tarcker kraft macht vnd dunder/</l><lb/>
+<l>Warumb widrumb die Trum nu brompt.</l></lg></div><lb/>
+<fw type="catch" place="bottom">D<supplied>er</supplied></fw><lb/>
+<pb n="19" facs="#f0023"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<div n="3"><head><hi rendition="#b">Der 1. Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi> Och ließ Er &#x017F;eine forcht fallen/</l><lb/>
+<l>Da Er manche Nymfelein</l><lb/>
+<l>Mit den Oreadelein</l><lb/>
+<l>Ho&#x0364;rte jhre &#x017F;tim er&#x017F;challen.</l><lb/>
+<l>Die Najaden gleicher weiß</l><lb/>
+<l>(Welche mit ku&#x0364;n&#x017F;tlichem fleiß</l><lb/>
+<l>Jhre krau&#x017F;e haar be&#x017F;cho&#x0364;net/</l><lb/>
+<l>Vnd mit kleinoten gekro&#x0364;net)</l><lb/>
+<l>Schwomen in hertzlichem wohn</l><lb/>
+<l>Mit dem Neckar/ &#x017F;o &#x017F;ie fu&#x0364;hrte/</l><lb/>
+<l>Vnd den auch ein gru&#x0364;ne Cron</l><lb/>
+<l>Vnd ein ko&#x0364;&#x017F;tliches klaid zierte/</l><lb/>
+<l>Welcher mit klarem ge&#x017F;icht</l><lb/>
+<l>Seinen freund al&#x017F;o be&#x017F;pricht:</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 2. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>ie/ gro&#x017F;&#x017F;er freund/ Was will dz&#x017F;agt</l><lb/>
+<l>Das du allein in di&#x017F;er fraid</l><lb/>
+<l>Runtzle&#x017F;t dein ange&#x017F;icht mit laid/</l><lb/>
+<l>Als ob du ein vr&#x017F;ach zuklagen?</l><lb/>
+<l>Oder mag es wol mu&#x0364;glich &#x017F;ein/</l><lb/>
+<l>Das dein geho&#x0364;r noch nicht vernommen/</l><lb/>
+<l>Wie di&#x017F;e &#x017F;tund alher &#x017F;oll kommen</l><lb/>
+<fw type="sig" place="bottom">B ij</fw><fw type="catch" place="bottom">Der</fw><lb/>
+<pb n="20" facs="#f0024"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Der augen lu&#x017F;t/ der &#x017F;ehlen &#x017F;chein?</l><lb/>
+<l>Es i&#x017F;t ein Fu&#x0364;r&#x017F;tin au&#x017F;&#x017F;erkoren/</l><lb/>
+<l>Von ko&#x0364;niglichem blut geboren/</l><lb/>
+<l>Die gro&#x0364;&#x017F;te Zier auß Engelland/</l><lb/>
+<l>Nu aber die er&#x017F;t in Teut&#x017F;chland.</l><lb/>
+<l>Der Po&#x0364;felpfleget Sie zu nennen</l><lb/>
+<l>Die Churfu&#x0364;r&#x017F;tin Eli&#x017F;abeth/</l><lb/>
+<l>Die aber &#x017F;o &#x017F;ie be&#x017F;&#x017F;er kennen</l><lb/>
+<l>Der Scho&#x0364;n/ vnd Keu&#x017F;chheit Maye&#x017F;teth.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 2. Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#k"><hi rendition="#in">S</hi>Je</hi> i&#x017F;t allein/ nicht zuvergleichen/</l><lb/>
+<l>Ein einige volkommenheit:</l><lb/>
+<l>Der Sonnen gewalt vnd klarheit</l><lb/>
+<l>Muß jhrer augen klarheit weichen:</l><lb/>
+<l>Vnd wan jhr engli&#x017F;che ge&#x017F;talt</l><lb/>
+<l>Die Go&#x0364;tter vnd men&#x017F;chen ver&#x017F;ehret;</l><lb/>
+<l>Als dan jhre Tugent verzehret</l><lb/>
+<l>Der bo&#x0364;&#x017F;en gedancken gewalt.</l><lb/>
+<l>Kurtz/ ob wol jhren Leib zu&#x017F;ehen</l><lb/>
+<l>Cypris &#x017F;elbs jhr nach mu&#x0364;&#x017F;te gehen/</l><lb/>
+<l>J&#x017F;t Sie doch Pallas in der &#x017F;tirn/</l><lb/>
+<l>Kommend auß eines Ko&#x0364;nigs hirn/</l><lb/>
+<l>Welcher auff di&#x017F;er gantzen erden</l><lb/>
+<l>An ver&#x017F;tand vnd gerechtigkeit</l><lb/>
+<fw type="catch" place="bottom">Muß</fw><lb/>
+<pb n="21" facs="#f0025"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Muß billich der er&#x017F;t gezo&#x0364;hlt werden/</l><lb/>
+<l>Der wahre Ph<hi rendition="#aq">æ</hi>nix di&#x017F;er zeit.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Der 2. Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi>Je Go&#x0364;tter zu vn&#x017F;erm frommen</l><lb/>
+<l>Wolten das jhr zarte &#x017F;choß/</l><lb/>
+<l>Verachtend Amors ge&#x017F;choß/</l><lb/>
+<l>Von Hymen wurd eingenommen/</l><lb/>
+<l>Damit &#x017F;ie in di&#x017F;em land</l><lb/>
+<l>Jhre wunder macht bekant.</l><lb/>
+<l>Wan vns dan die Go&#x0364;tter lieben/</l><lb/>
+<l>Solle man &#x017F;ich nicht enttru&#x0364;ben</l><lb/>
+<l>Zu einer &#x017F;olchen ankunft?</l><lb/>
+<l>So laß vns zu jhren fu&#x0364;&#x017F;&#x017F;en</l><lb/>
+<l>Nu werfen in einer zunft/</l><lb/>
+<l>Vnd &#x017F;ie demu&#x0364;htig begru&#x0364;&#x017F;&#x017F;en</l><lb/>
+<l>Mit dem &#x017F;u&#x0364;&#x017F;&#x017F;en mu&#x017F;ic klang/</l><lb/>
+<l>Vnd einem frewden ge&#x017F;ang.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 3. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi>Vrch di&#x017F;e wort war bald entgru&#x0364;ndet</l><lb/>
+<l>Des Rheins ang&#x017F;t/ &#x017F;o allein erdicht/</l><lb/>
+<l>Das Er mit klarem ange&#x017F;icht</l><lb/>
+<l>Sich bald bey der ge&#x017F;ell&#x017F;chafft findet/</l><lb/>
+<fw type="sig" place="bottom">B iij</fw><fw type="catch" place="bottom">Jn</fw><lb/>
+<pb n="22" facs="#f0026"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Jn einem Tyri&#x017F;chen talar</l><lb/>
+<l>Von gold vnd kleinoten vmbhangen/</l><lb/>
+<l>Seine Landsfu&#x0364;r&#x017F;tin zuempfangen</l><lb/>
+<l>Mit &#x017F;einer gru&#x0364;n-blawlechten&#x017F;char/</l><lb/>
+<l>Darauß etliche &#x017F;ich zufrayen</l><lb/>
+<l>Singen vnd dantzen einen rayen;</l><lb/>
+<l>Andre mit fri&#x017F;chen blu&#x0364;melein</l><lb/>
+<l>Myrten/ gilgen vnd ro&#x0364;&#x017F;elein</l><lb/>
+<l>Volver&#x017F;etzte &#x017F;tra&#x0364;uß vnd kra&#x0364;ntz binden/</l><lb/>
+<l>Vnd brennen zu mahl von begihr</l><lb/>
+<l>Sich bey di&#x017F;em einzug zufinden</l><lb/>
+<l>Vnd zu frolocken nach gebihr.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 3. Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">H</hi>Jezwi&#x017F;chen gienge mit verlangen</l><lb/>
+<l>Die gantze Churfu&#x0364;r&#x017F;tliche &#x017F;tat/</l><lb/>
+<l>Da der Neckar den anfluß hat</l><lb/>
+<l>Jhr liebe Fu&#x0364;r&#x017F;tin zuempfangen;</l><lb/>
+<l>Welche mit gro&#x017F;&#x017F;em pomp vnd pracht</l><lb/>
+<l>Vnder vilen Fra&#x0364;wlin gefahren</l><lb/>
+<l>Leuchtet/ wie in Nymphi&#x017F;chen &#x017F;charen</l><lb/>
+<l>Diana in der hellen macht:</l><lb/>
+<l>Von perlen vnd edelge&#x017F;teinen</l><lb/>
+<l>Jhr haubt vnd jhre klaider &#x017F;cheinen/</l><lb/>
+<l>Doch gla&#x0364;ntzet jhre &#x017F;cho&#x0364;nheit mehr/</l><lb/>
+<fw type="catch" place="bottom">Vn<supplied>d</supplied></fw><lb/>
+<pb n="23" facs="#f0027"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Vnd i&#x017F;t &#x017F;ie &#x017F;elbs jhr gro&#x0364;&#x017F;te ehr.</l><lb/>
+<l>Gleich wie auch jhr liebliche Jugent</l><lb/>
+<l>Schimmert in einem guldin &#x017F;tuck:</l><lb/>
+<l>Al&#x017F;o Ehr/ Gotsforcht/ Zucht vnd Tugent</l><lb/>
+<l>Seind jhrer &#x017F;ehlen wahrer &#x017F;chmuck.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Der 3. Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">V</hi>Mb &#x017F;ie &#x017F;eind jhre jungfrawen/</l><lb/>
+<l>Welcher &#x017F;cho&#x0364;n vn&#x0303; ho&#x0364;fllichkeit</l><lb/>
+<l>Nimmet hinweg die freyheit</l><lb/>
+<l>Denen/ welche &#x017F;ie an&#x017F;chawen.</l><lb/>
+<l>Mo&#x0364;niglich o&#x0364;fnet &#x017F;ein wohn/</l><lb/>
+<l>Durch zungen vnd &#x017F;aiten thon/</l><lb/>
+<l>Die lu&#x0364;ft vmb vnd vmb er&#x017F;challen</l><lb/>
+<l>Ab dem gmeinen wolgefallen/</l><lb/>
+<l>Al&#x017F;o das die Sehlen bald</l><lb/>
+<l>Durch die augen oder ohren/</l><lb/>
+<l>Jn der &#x017F;tim oder ge&#x017F;talt</l><lb/>
+<l>Su&#x0364;ßwilliglich &#x017F;ich verlohren.</l><lb/>
+<l>Der Rhein mit dem Neckar fro</l><lb/>
+<l>Be&#x017F;prach Sie damahls al&#x017F;o?</l></lg></div><lb/>
+<fw type="sig" place="bottom">B iiij</fw><fw type="catch" place="bottom">D<supplied>ie</supplied></fw><lb/>
+<pb n="24" facs="#f0028"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<div n="3"><head><hi rendition="#b">Die 4. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">G</hi>Leich wie/ wan der winter &#x017F;ich endet/</l><lb/>
+<l>Apollons fruchtbares ge&#x017F;icht</l><lb/>
+<l>Der erden hartes hertz zubricht</l><lb/>
+<l>Alsbald er &#x017F;ich gegen jhr wendet/</l><lb/>
+<l>Vnd durch &#x017F;einen glantz allgemein</l><lb/>
+<l>Zumahl von vn&#x017F;ern &#x017F;ehl vnd tagen</l><lb/>
+<l>Pfleget die dunckelheit zu jagen</l><lb/>
+<l>Mit dem doppelt wu&#x0364;rckenden &#x017F;chein:</l><lb/>
+<l>Al&#x017F;o/ Go&#x0364;ttin/ in dem wir &#x017F;ehen</l><lb/>
+<l>Alhie deine Sonnen aufgehen/</l><lb/>
+<l>Empfindet vn&#x017F;er &#x017F;chwache bru&#x017F;t</l><lb/>
+<l>Eines fru&#x0364;lings tro&#x017F;t-reichen lu&#x017F;t;</l><lb/>
+<l>Vnd wir/ &#x017F;o gna&#x0364;diglich gewehret</l><lb/>
+<l>Deiner gegenwertigen gun&#x017F;t/</l><lb/>
+<l>Sehen vn&#x017F;ere ka&#x0364;lt verkehret</l><lb/>
+<l>Jn ein klar angenehme brun&#x017F;t.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 4. Antl&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>Jewol deine tugent vnd ehren</l><lb/>
+<l>Vmb&#x017F;chwebend in aller leut mund/</l><lb/>
+<l>Vns zwunge&#x0303; dich von hertzeng&#xA75B;und</l><lb/>
+<l>Vor vn&#x017F;er Fu&#x0364;r&#x017F;tin zubegehren:</l><lb/>
+<l>Wan dir auch vn&#x017F;er Fu&#x0364;r&#x017F;t vnd Her&#xA75B;/</l><lb/>
+<fw type="catch" place="bottom">Glu&#x0364;ck-</fw><lb/>
+<pb n="25" facs="#f0029"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Glu&#x0364;ck&#x017F;eelig fu&#x0364;rohin zuleben/</l><lb/>
+<l>Sein hertz fu&#x0364;r ein opfer gegeben/</l><lb/>
+<l>Da &#x017F;ein leib noch von dir gar fer&#xA75B;:</l><lb/>
+<l>Ko&#x0364;nden Wir doch jetz er&#x017F;t ver&#x017F;tehen/</l><lb/>
+<l>Das was an dir die augen &#x017F;ehen</l><lb/>
+<l>Ein men&#x017F;chliche zung nimmermehr</l><lb/>
+<l>Außzu&#x017F;prechen ge&#x017F;chickt gnug wer:</l><lb/>
+<l>Vnd jetz er&#x017F;t werden wir recht innen/</l><lb/>
+<l>Wie durch &#x017F;eines hertzens verlu&#x017F;t</l><lb/>
+<l>Er vnd Wir vilfa&#x0364;ltig gewinnen</l><lb/>
+<l>Mit deiner kunft/ glu&#x0364;ck/ hail vnd lu&#x017F;t.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Der 4. Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi>An wie kont er immer finden</l><lb/>
+<l>Einer &#x017F;cho&#x0364;nheit gleichen brand<supplied>?</supplied></l><lb/>
+<l>Vnd was anders &#x017F;ehlen band</l><lb/>
+<l>Kont jhn wol &#x017F;o hart verbinden?</l><lb/>
+<l>Sein aug lüfert allezeit</l><lb/>
+<l>Seine &#x017F;ehl deiner &#x017F;cho&#x0364;nheit;</l><lb/>
+<l>Wa er&#x017F;ein ge&#x017F;icht hinkehret/</l><lb/>
+<l>Wirt dadurch &#x017F;ein lieb vermehret:</l><lb/>
+<l>Dan alle &#x017F;cho&#x0364;nheiten &#x017F;un&#x017F;t/</l><lb/>
+<l>Welche &#x017F;ich je vor Euch naigen</l><lb/>
+<l>Her&#xA75B;lich von Natur vnd kun&#x017F;t/</l><lb/>
+<l>Thun nichts dan jhm nur anzaigen/</l><lb/>
+<fw type="sig" place="bottom">B v</fw><fw type="catch" place="bottom">Wie-</fw><lb/>
+<pb n="26" facs="#f0030"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Wievil dich der himmeln macht</l><lb/>
+<l>Treflicher dan Sie gemacht.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 5. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi>Erwegen will es &#x017F;ich gebu&#x0364;hren/</l><lb/>
+<l>Fu&#x0364;r&#x017F;tin gleicher &#x017F;cho&#x0364;n vnd from&#x0303;keit/</l><lb/>
+<l>Deines Vaterlands &#x017F;u&#x0364;&#x017F;&#x017F;igkeit</l><lb/>
+<l>Nicht zuvil zu gemu&#x0364;ht zufu&#x0364;hren:</l><lb/>
+<l>Sondern nu bey deinem gemahl</l><lb/>
+<l>(De&#x017F;&#x017F;en hertz groß zu allen &#x017F;tunden</l><lb/>
+<l>Nicht konte werden u&#x0364;berwunden</l><lb/>
+<l>Dan durch deiner Zierden anzahl)</l><lb/>
+<l>Dein gemu&#x0364;ht nit mehr zubekra&#x0364;ncken/</l><lb/>
+<l>Noch deiner Eltern zugedencken:</l><lb/>
+<l>Wan&#x017F;chon dein volkomner anfang</l><lb/>
+<l>Kam von zwifach gecro&#x0364;ntem rang</l><lb/>
+<l>Solcher Ko&#x0364;nig vnd Potentaten/</l><lb/>
+<l>Welche &#x017F;treitbar/ gerecht vnd milt</l><lb/>
+<l>Mit frids vnd kriegs lo&#x0364;blichen thaten</l><lb/>
+<l>Des Vmbkrai&#x017F;es vier eck erfu&#x0364;lt.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die letzte Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">H</hi>Jngegen will auß &#x017F;ondern gnaden</l><lb/>
+<l>Der himmel der erden zugut/</l><lb/>
+<fw type="catch" place="bottom">Auß</fw><lb/>
+<pb n="27" facs="#f0031"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Auß di&#x017F;es Fu&#x0364;r&#x017F;ten hohem blut</l><lb/>
+<l>Dich mit &#x017F;u&#x0364;&#x017F;&#x017F;en fru&#x0364;chten beladen:</l><lb/>
+<l>Jn dem auß deinem edlen leib</l><lb/>
+<l>Ent&#x017F;pringen &#x017F;ollen gro&#x017F;&#x017F;e Printzen</l><lb/>
+<l>Deren tugent mancher Provintzen</l><lb/>
+<l>Erlo&#x0364;&#x017F;ung vnd be&#x017F;chu&#x0364;tzung pleib:</l><lb/>
+<l>Der groß adler &#x017F;ich zu er go&#x0364;tzen</l><lb/>
+<l>Wu&#x0364;rt &#x017F;ich gern auf jhren &#x017F;chilt &#x017F;etzen.</l><lb/>
+<l>Alsdan &#x017F;oll jhr gerechter Zorn</l><lb/>
+<l>Des Monds zway&#x017F;pitzig &#x017F;toltzes horn/</l><lb/>
+<l>Wie auch den getriplierten Cronen</l><lb/>
+<l>Jn beedem C<hi rendition="#aq">æ</hi>&#x017F;ari&#x017F;chem &#x017F;itz</l><lb/>
+<l>Zu des Ho&#x0364;ch&#x017F;ten ehr nicht ver&#x017F;chonen</l><lb/>
+<l>Mit jhrer wo&#x0364;hr vnd lantzen &#x017F;pitz.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Der letzte Epod.</hi></head><lb/>
+<lg n="1"><l><hi rendition="#in">O</hi> Mit wievil Lorbo&#x0364;rcra&#x0364;ntzen</l><lb/>
+<l>Wirt jhr haubt gecro&#x0364;net &#x017F;ein<hi rendition="#i">!</hi></l><lb/>
+<l>Wie wirt jhrer Sigen &#x017F;chein</l><lb/>
+<l>Die gantze welt u&#x0364;bergla&#x0364;ntzen<hi rendition="#i">!</hi></l><lb/>
+<l>Wolan/ Fu&#x0364;r&#x017F;tin fromb vnd zart<supplied>/</supplied></l><lb/>
+<l>Seelig &#x017F;ey nu dein einfahrt:</l><lb/>
+<l>Seelig Wir Dich zubegru&#x0364;&#x017F;&#x017F;en/</l><lb/>
+<l>Seelig alle zugenu&#x0364;e&#x017F;&#x017F;en</l><lb/>
+<l>Einer &#x017F;o &#x017F;eeligen Eh/<lb/>
+<fw type="catch" place="bottom">Auß</fw><lb/>
+<pb n="28" facs="#f0032"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Außderen Fu&#x0364;r&#x017F;tlichen zu&#x0364;chten</l><lb/>
+<l>Man das Land bedecket &#x017F;eh</l><lb/>
+<l>Stehts mit angenemen fru&#x0364;chten<hi rendition="#i">!</hi></l></lg><lb/>
+<lg n="2"><l>Hie be&#x017F;chloß der Rhein den mund/</l><lb/>
+<l>Vnd &#x017F;anck fro&#x0364;lich in den grund.</l></lg></div></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">Die ander Ode.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">An den Regie-<lb/>
+renden Hertzogen zu Wir-</hi><lb/>
+temberg/ &#xA75B;c. H. Johan-<lb/>
+Friderichen/ &#xA75B;c.</head><lb/>
+<div n="3"><head><hi rendition="#b">Die 1. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">G</hi>Leich wie ein Patron/ welcher lang</l><lb/>
+<l>Sein &#x017F;chif nach nohturft wol ver&#x017F;ehe&#x0303;/</l><lb/>
+<l>Pfleget in des hafens außgang</l><lb/>
+<l>Erwartend guten wind zu&#x017F;tehen/</l><lb/>
+<l>Damit Er mit behertzter hand</l><lb/>
+<l>Mo&#x0364;ge &#x017F;eine &#x017F;egel aufziehen/</l><lb/>
+<l>Vnd der armut ba&#x0364;lder entfliehen</l><lb/>
+<fw type="catch" place="bottom">Durch</fw><lb/>
+<pb n="29" facs="#f0033"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Durch des winds glu&#x0364;cklichem bei&#x017F;tand:</l><lb/>
+<l>Al&#x017F;o will Jch mich nicht bewo&#x0364;gen/</l><lb/>
+<l>O mein Printz/ meine zuver&#x017F;icht/</l><lb/>
+<l>Biß jhr meiner Mu&#x017F;en vermo&#x0364;gen</l><lb/>
+<l>Mit verhilflichem ange&#x017F;icht</l><lb/>
+<l>Werdet eine &#x017F;eglung auflo&#x0364;gen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Lsdan/ wan ewer gnadenblick</l><lb/>
+<l>Wu&#x0364;rdiget Jh&#xA75B;e fahrt zurichten/</l><lb/>
+<l>Soll weder &#x017F;turmwind/ noch vnglu&#x0364;ck</l><lb/>
+<l>Durch die flut Jhre raiß vernichten:</l><lb/>
+<l>Die zwilling-klippen/ vnd das &#x017F;and/</l><lb/>
+<l>Vnd die Charybdi&#x017F;che gefahren</l><lb/>
+<l>Ko&#x0364;nden jhr zu euch durch zufahren</l><lb/>
+<l>Erzaigen keinen wider&#x017F;tand:</l><lb/>
+<l>Sondern &#x017F;ie &#x017F;oll khu&#x0364;n Euch zu eh&#xA75B;en</l><lb/>
+<l>Durch Ewerer Tugenden mo&#x0364;hr</l><lb/>
+<l>Mich forchtloß die &#x017F;egel zu kehren/</l><lb/>
+<l>Ja durch der gro&#x0364;&#x017F;ten feinden ho&#x0364;r</l><lb/>
+<l>Sicherlich zu pa&#x017F;&#x017F;ieren lehren.</l></lg></div><lb/>
+<fw type="catch" place="bottom">Epod.</fw><lb/>
+<pb n="30" facs="#f0034"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<div n="3"><head><hi rendition="#b">Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>L&#x017F;o kan der Fu&#x0364;r&#x017F;ten gun&#x017F;t/</l><lb/>
+<l>Wan &#x017F;ie die Ph<hi rendition="#aq">æ</hi>bi&#x017F;che &#x017F;aitten</l><lb/>
+<l>Vergu&#x0364;ldet/ mit &#x017F;u&#x0364;&#x017F;&#x017F;er kun&#x017F;t</l><lb/>
+<l>Jhr ewiges lob auß&#x017F;praitten:</l><lb/>
+<l>Vnd der Donderende Got/</l><lb/>
+<l>Zu wider&#x017F;tehen dem Tod/</l><lb/>
+<l>Gab das gold den Potentaten/</l><lb/>
+<l>Damit &#x017F;ie den Go&#x0364;ttern gleich</l><lb/>
+<l>Durch &#x017F;einer To&#x0364;chtern wolthaten</l><lb/>
+<l>Nicht ka&#x0364;men in Plutons reich</l><lb/>
+<l>Wie &#x017F;on&#x017F;t gemeine &#x017F;oldaten.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 2. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi>Je ma&#x0364;chtige &#x017F;treitten vmb&#x017F;un&#x017F;t/</l><lb/>
+<l>Vmb&#x017F;un&#x017F;t die helden triumfieren/</l><lb/>
+<l>Wan jhre namen als ein dun&#x017F;t</l><lb/>
+<l>Jn kurtzen jahren &#x017F;ich verlieren.</l><lb/>
+<l>Es i&#x017F;t nicht gnug &#x017F;eine khu&#x0364;nheit</l><lb/>
+<l>Seiner flu&#x0364;chtigen feinden rucken</l><lb/>
+<l>Mit &#x017F;charpfen ey&#x017F;en aufzutrucken</l><lb/>
+<l>Zu &#x017F;eines lobs vn&#x017F;terblichkeit:</l><lb/>
+<l>Noch der tugent ga&#x0364;ntzlich ergeben</l><lb/>
+<l>(Wie O gro&#x017F;&#x017F;er Printz ewer pracht)</l><lb/>
+<fw type="catch" place="bottom">Der</fw><lb/>
+<pb n="31" facs="#f0035"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Der Verge&#x017F;&#x017F;ung zu wider&#x017F;treben;</l><lb/>
+<l>Sondern es i&#x017F;t der Mu&#x017F;en macht</l><lb/>
+<l>Euch vnzuga&#x0364;nglich zubeleben.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Vch kan das thewre&#x017F;te metall/</l><lb/>
+<l>Vnd der marber&#x017F;tein außgehawen/</l><lb/>
+<l>Ohn den dreymahl ged&#xA75B;eyten &#x017F;chall</l><lb/>
+<l>Nicht &#x017F;ehr lang &#x017F;eine &#x017F;tiffter &#x017F;chawen.</l><lb/>
+<l>Die reich Pergami&#x017F;che palla&#x0364;&#x017F;t/</l><lb/>
+<l>Vnd die mauren &#x017F;o vil vermehret/</l><lb/>
+<l>Seind nu &#x017F;o gar zu nichts verkehret/</l><lb/>
+<l>Das niemand wai&#x017F;t wa &#x017F;ie gewe&#x017F;t:</l><lb/>
+<l>Jhre Ritter weren betrogen</l><lb/>
+<l>Vmb jhre bekante manheit/</l><lb/>
+<l>Wa der Poet mit &#x017F;u&#x0364;&#x017F;&#x017F;em bogen</l><lb/>
+<l>Durch u&#x0364;bermen&#x017F;chliche arbeit</l><lb/>
+<l>Sie nicht der Parckenhand entzogen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi>As derhalb kein vndergang</l><lb/>
+<l>Ewer lob vnd ehr bedecken/</l><lb/>
+<l>Sondern mit wach&#x017F;ende&#x0303; &#x017F;chwa&#x0364;g</l><lb/>
+<l>Sie &#x017F;ich &#x017F;tehts mo&#x0364;gen auß&#x017F;tro&#x0364;cken/</l><lb/>
+<fw type="catch" place="bottom">J&#x017F;t</fw><lb/>
+<pb n="32" facs="#f0036"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>J&#x017F;t nicht des Golds &#x017F;chwacher &#x017F;chein/</l><lb/>
+<l>Vnd der zeit-fo&#x0364;rchtende &#x017F;tein</l><lb/>
+<l>Jn der wolcken weg zu&#x017F;etzen;</l><lb/>
+<l>Sondern ewer aug vnd hand</l><lb/>
+<l>Soll die Poeten er go&#x0364;tzen/</l><lb/>
+<l>Das &#x017F;ie ewer macht vnd &#x017F;tand</l><lb/>
+<l>Auf die Vn&#x017F;terblichkeit etzen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 3. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#k"><hi rendition="#in">J</hi>Ch</hi> nu das &#x017F;chlecht/ das ich vermag/</l><lb/>
+<l>Erwo&#x0364;hlend euch ob andern allen/</l><lb/>
+<l>Mein her&#xA75B;/ mein hail/ Euch jetz antrag</l><lb/>
+<l>Vnd hof/ es &#x017F;oll Euch nicht mißfallen.</l><lb/>
+<l>Vil wolten mit gleichem ge&#x017F;ang</l><lb/>
+<l>Jhr entlehnete kun&#x017F;t erzaigen/</l><lb/>
+<l>Aber jhr &#x017F;toltz vnd lieder naigen/</l><lb/>
+<l>Ja &#x017F;terben in jhrem aufgang;</l><lb/>
+<l>Jhre dick frembde wort er&#x017F;ticken</l><lb/>
+<l>Alsbald &#x017F;ie der erfahrnen prob</l><lb/>
+<l>(So &#x017F;ie ney der ha&#x017F;&#x017F;en) erblicken/</l><lb/>
+<l>Vnd jhr finger i&#x017F;t vil zu grob</l><lb/>
+<l>Die Dori&#x017F;che harpf recht zu zwicken.</l></lg></div><lb/>
+<fw type="catch" place="bottom">Anti-</fw><lb/>
+<pb n="33" facs="#f0037"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<div n="3"><head><hi rendition="#b">Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>Je aber &#x017F;olche rey merey</l><lb/>
+<l>Vnd &#x017F;olche La&#x0364;&#x017F;terer nicht wehren/</l><lb/>
+<l>Al&#x017F;o die hohe Poe&#x017F;ey</l><lb/>
+<l>Kan &#x017F;tehts gru&#x0364;n nimmer mehr verja&#x0364;hren.</l><lb/>
+<l>O das mich Ewer gnadenglantz</l><lb/>
+<l>Wolte fruchtbarlich u&#x0364;ber&#x017F;cheinen/</l><lb/>
+<l>Vnd mich zuflechten wehrt vermeinen</l><lb/>
+<l>Ewerer haaren Lorbo&#x0364;rcrantz<hi rendition="#i">!</hi></l><lb/>
+<l>So wolt Jch muhtig zu ergru&#x0364;nden</l><lb/>
+<l>Der Mu&#x017F;en weißheit/ Euch zu preiß</l><lb/>
+<l>Lauffend jhren berg u&#x0364;berwu&#x0364;nden/</l><lb/>
+<l>Vnd mit vnnachthunlichem fleiß</l><lb/>
+<l>Meiner nachvolger aug verblinden.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">S</hi>O wo&#x0364;llet nu gna&#x0364;diglich</l><lb/>
+<l>Mich vo&#x0303; fo&#xA75B;cht vn&#x0303; &#x017F;orge&#x0303; freihe&#x0303;/</l><lb/>
+<l>Vnd dan auch freygebiglich</l><lb/>
+<l>Ehr vnd gu&#x0364;ter mir verleyhen/</l><lb/>
+<l>Dan die tugent vnd das gut</l><lb/>
+<l>Zu&#x017F;amen gro&#x0364;&#x017F;&#x017F;en den muht:</l><lb/>
+<l>Alsdan da&#x0364;mpfend mein begehren</l><lb/>
+<l>Mit reich vnd fu&#x0364;r&#x017F;tlicher hand/</l><lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">Soll</fw><lb/>
+<pb n="34" facs="#f0038"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Soll ewer nam vnd ruhm wehren</l><lb/>
+<l>Alslang man in dem Teut&#x017F;chland</l><lb/>
+<l>Wirt das Volck teut&#x017F;ch reden ho&#x0364;ren.</l></lg></div></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">Die 3. Ode.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Von hochermel-<lb/>
+ter &#x017F;einer F. Gn.</hi></head><lb/>
+<lg n="1"><l><hi rendition="#in">S</hi>Jh ich nicht einen Got daher komme&#x0303;/<lb/>
+<hi rendition="#et">De&#x017F;&#x017F;en hand</hi></l><lb/>
+<l>Ma&#x0364;chtig in jh&#xA75B;en &#x017F;chutz hat genomme&#x0303;<lb/>
+<hi rendition="#et">Di&#x017F;es Land?</hi></l><lb/>
+<l>Ja/ es i&#x017F;t der wafen &#x017F;tarcker Got/</l><lb/>
+<l>Der machet vn&#x017F;ern feind zu &#x017F;pot.</l></lg><lb/>
+<lg n="2"><l>Aber Mars kan &#x017F;o freundlich nicht &#x017F;ehen;<lb/>
+<hi rendition="#et">Sein geho&#x0364;r</hi></l><lb/>
+<l>Achtet auch nicht der ellenden flehen<lb/>
+<hi rendition="#et">Noch begehr:</hi></l><lb/>
+<l>Vnd &#x017F;ein haubt fa&#x017F;&#x017F;et nicht &#x017F;ovil kun&#x017F;t/</l><lb/>
+<l>Noch &#x017F;ein hertz &#x017F;ovil gnad vnd gun&#x017F;t.</l></lg><lb/>
+<fw type="catch" place="bottom">So</fw><lb/>
+<pb n="35" facs="#f0039"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg n="3"><l>So kan Er wol Hermes genant werden/<lb/>
+<hi rendition="#et">Dan es kund/</hi></l><lb/>
+<l>Das die Zier &#x017F;einer &#x017F;u&#x0364;&#x017F;&#x017F;en geberden/<lb/>
+<hi rendition="#et">Vnd &#x017F;ein mund/</hi></l><lb/>
+<l>Reich an gnad/ reich an wolredenheit</l><lb/>
+<l>Seind voll lo&#x0364;blicher lieblichkeit.</l></lg><lb/>
+<lg n="4"><l>Aber/ wie kan Mercurius haben<lb/>
+<hi rendition="#et">So vil macht/</hi></l><lb/>
+<l>Maye&#x017F;tet/ her&#xA75B;lichkeit/ reiche gaben<lb/>
+<hi rendition="#et">Kraft vnd pracht?</hi></l><lb/>
+<l>Freylich nein/ Hermes i&#x017F;t nicht &#x017F;o klar/</l><lb/>
+<l>Vnd hat auch nicht &#x017F;o &#x017F;cho&#x0364;ne haar.</l></lg><lb/>
+<lg n="5"><l>So muß man jhm des Gots namen geben/<lb/>
+<hi rendition="#et">Der allein</hi></l><lb/>
+<l>Kan fruchtreich alle ge&#x017F;cho&#x0364;pf beleben<lb/>
+<hi rendition="#et">Mit dem &#x017F;chein.</hi></l><lb/>
+<l>Doch i&#x017F;t auch zu manlich &#x017F;ein ge&#x017F;icht/</l><lb/>
+<l>Darumb i&#x017F;t Er Apollo nicht.</l></lg><lb/>
+<lg n="6"><l>Nun &#x017F;ih ich das &#x017F;ein glantz mich verfu&#x0364;hret/<lb/>
+<hi rendition="#et">Dan Jch merck/</hi></l><lb/>
+<l>Das es mein gro&#x017F;&#x017F;er Printz &#x017F;o regieret<lb/>
+<hi rendition="#et">Wirtemberg:</hi></l><lb/>
+<l>De&#x017F;&#x017F;en fau&#x017F;t/ mund/ &#x017F;tirn zaiget Vns an</l><lb/>
+<l>Was Mars/ Hermes vnd Ph<hi rendition="#aq">æ</hi>bus kan.</l></lg></div></div><lb/>
+<fw type="sig" place="bottom">C ij</fw><fw type="catch" place="bottom">Die</fw><lb/>
+<pb n="36" facs="#f0040"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">Die 4. Ode.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Vber die heim fu&#x0364;hrung<lb/>
+&#xA75B;c. Frawen Bar-<lb/>
+bara/ Marggra&#x0364;fin zu Ba-</hi><lb/>
+den/ Geborner Hertzogin zu<lb/>
+Wu&#x0364;rtemberg/ &#xA75B;c.</head><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi>A Marggraf Friderich</l><lb/>
+<l>Kont billich triumfieren/</l><lb/>
+<l>Weil man jhm pra&#x0364;chtiglich</l><lb/>
+<l>Sein gemahl heim wolt fu&#x0364;hren;</l><lb/>
+<l>Offenbahrten mit &#x017F;u&#x0364;&#x017F;&#x017F;em klang</l><lb/>
+<l>Die Nymfen bald jhr wolgefallen/</l><lb/>
+<l>Vnd machten von di&#x017F;em ge&#x017F;ang</l><lb/>
+<l>Berg/ thal/ feld vnd wa&#x0364;ld widerhallen.</l></lg><lb/>
+<div n="3"><head><hi rendition="#b">Die Bademi&#x017F;che Nymfen.</hi></head><lb/>
+<lg n="1"><l>Ph<hi rendition="#aq">æ</hi>bus mag nah vnd fern</l><lb/>
+<l>Sich in der welt vmb&#x017F;ehen/<lb/>
+<fw type="catch" place="bottom">So</fw><lb/>
+<pb n="37" facs="#f0041"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>So wirt Er Vns doch gern</l><lb/>
+<l>Mit der wahrheit ge&#x017F;tehen/</l><lb/>
+<l>Das gleich wie einen gru&#x0364;nen wald</l><lb/>
+<l>Ein &#x017F;cho&#x0364;ner Cedarbaum kan ehren;</l><lb/>
+<l>Al&#x017F;o andrer her&#xA75B;en ge&#x017F;talt</l><lb/>
+<l>Vn&#x017F;ers Fu&#x0364;r&#x017F;ten ge&#x017F;talt vermehren.</l></lg><lb/>
+<lg n="2"><l>Gleich wie Achilles &#x017F;ich</l><lb/>
+<l>Von anfang &#x017F;einer Jugent/</l><lb/>
+<l>Fru&#x0364;h vnd &#x017F;paht muhtiglich</l><lb/>
+<l>Befli&#x017F;&#x017F;e aller tugent:</l><lb/>
+<l>Al&#x017F;o ließ vn&#x017F;er junge Printz</l><lb/>
+<l>Sich in &#x017F;eins alters fru&#x0364;ling lehren/</l><lb/>
+<l>Das Er das glu&#x0364;ck &#x017F;einer Provintz</l><lb/>
+<l>Kan fridlich vnd fro&#x0364;lich vermehren.</l></lg><lb/>
+<lg n="3"><l>Sein Fu&#x0364;r&#x017F;tliches gemu&#x0364;ht<lb/>
+(Darinnen Gotsforcht blu&#x0364;het)</l><lb/>
+<l>Fruchtbar an gnad vnd gu&#x0364;t</l><lb/>
+<l>Allen mu&#x0364;&#x017F;&#x017F;iggang fliehet;</l><lb/>
+<l>Hat Er lu&#x017F;t in einem Turnier</l><lb/>
+<l>Sich mit dem harni&#x017F;ch zube&#x017F;chweren/</l><lb/>
+<l>Kan Er alsbald mit gro&#x017F;&#x017F;er Zier</l><lb/>
+<l>Sein lob vnd lieb in Vns vermehren.</l></lg><lb/>
+<fw type="sig" place="bottom">C iij</fw><fw type="catch" place="bottom">Sein</fw><lb/>
+<pb n="38" facs="#f0042"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg n="4"><l>Sein hertz &#x017F;o khu&#x0364;n vnd groß/</l><lb/>
+<l>Vnd der frombkeit ergeben/</l><lb/>
+<l>Ver&#x017F;ichert Vns forchtloß</l><lb/>
+<l>Jn &#x017F;einem &#x017F;chutz zuleben.</l><lb/>
+<l>O wie fro muß die Fu&#x0364;r&#x017F;tin &#x017F;ein/</l><lb/>
+<l>Deren augen &#x017F;ein hertz ver&#x017F;ehren<hi rendition="#i">!</hi></l><lb/>
+<l>Vnd die durch jhren &#x017F;u&#x0364;&#x017F;&#x017F;en &#x017F;chein</l><lb/>
+<l>Jhr/ &#x017F;ein/ vnd vn&#x017F;er frewd vermehren<hi rendition="#i">!</hi></l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die Wirtembergi&#x017F;che Nymfen.</hi></head><lb/>
+<lg n="5"><l>O wie groß i&#x017F;t der lu&#x017F;t</l><lb/>
+<l>Welchen Er nu empfindet<hi rendition="#i">!</hi></l><lb/>
+<l>Weil ein &#x017F;o &#x017F;cho&#x0364;ne bru&#x017F;t</l><lb/>
+<l>Die lieb in jhm anzindet.</l><lb/>
+<l>Dan der Scho&#x0364;nheit Go&#x0364;ttin kan nicht</l><lb/>
+<l>Sovil &#x017F;cho&#x0364;nheit fu&#x0364;r augen bringen/</l><lb/>
+<l>Als di&#x017F;er Fu&#x0364;r&#x017F;tin ange&#x017F;icht/</l><lb/>
+<l>Deren preiß alle Nymfen &#x017F;ingen.</l></lg><lb/>
+<lg n="6"><l>Jn jhrem krau&#x017F;en haar</l><lb/>
+<l>Die Sehlen &#x017F;ich verfliegen;</l><lb/>
+<l>Jhre blick &#x017F;charpf vnd klar</l><lb/>
+<l>Das hertz lieblich betriegen;</l><lb/>
+<l>Jhre augen/ als ein ge&#x017F;tirn/</l><lb/>
+<l>Mit ehr die an&#x017F;chawer durchtringen;<lb/>
+<fw type="catch" place="bottom">Zucht</fw><lb/>
+<pb n="39" facs="#f0043"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Zucht lo&#x017F;ieret auff jhrer &#x017F;tirn/</l><lb/>
+<l>Deren preiß alle Nymfen &#x017F;ingen.</l></lg><lb/>
+<lg n="7"><l>Jhre Lippen &#x017F;o &#x017F;cho&#x0364;n</l><lb/>
+<l>Seind rubin anzu&#x017F;ehen/</l><lb/>
+<l>Darunder jhre Za&#x0364;n</l><lb/>
+<l>Wie gute perlen &#x017F;tehen;</l><lb/>
+<l>Doch o&#x0364;fnet &#x017F;ich jhr mund allein</l><lb/>
+<l>Ver&#x017F;ta&#x0364;ndige wort fu&#x0364;r zubringen;</l><lb/>
+<l>Vnd jhr leib i&#x017F;t &#x017F;o zart vnd rein</l><lb/>
+<l>Das &#x017F;ein lob alle Nymfen &#x017F;ingen.</l></lg><lb/>
+<lg n="8"><l>Nu will Vns di&#x017F;e blum</l><lb/>
+<l>Ewer Fu&#x0364;r&#x017F;t hinweg fu&#x0364;hren/</l><lb/>
+<l>Das wir al&#x017F;o den ruhm</l><lb/>
+<l>Vn&#x017F;rer Nymfen verlieren:</l><lb/>
+<l>Jhre heimfahrt (Vns &#x017F;awr/ Euch &#x017F;u&#x0364;ß)</l><lb/>
+<l>Wird vns mehr laid/ dan euch frewd b&#xA75B;ingen/</l><lb/>
+<l>Wa Sie nicht &#x017F;chwe&#x017F;tern nach Jhr ließ/</l><lb/>
+<l>Deren preiß alle Nymfen &#x017F;ingen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Alle Nymfen zu&#x017F;amen.</hi></head><lb/>
+<lg n="9"><l>Das Go&#x0364;tliche ge&#x017F;atz/</l><lb/>
+<l>So Vns lehret recht leben/<lb/>
+<fw type="sig" place="bottom">C iiij</fw><fw type="catch" place="bottom">Hat</fw><lb/>
+<pb n="40" facs="#f0044"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Hat auß des himmels &#x017F;chatz</l><lb/>
+<l>Vns di&#x017F;es pahr gegeben/</l><lb/>
+<l>Deren augen/ der Sonnen gleich/</l><lb/>
+<l>Die erden mit blumen verehren/</l><lb/>
+<l>Vnd machen Vns &#x017F;o frewdenreich/</l><lb/>
+<l>Das Wir billich jhr lob vermehren.</l></lg><lb/>
+<lg n="10"><l>Di&#x017F;er Go&#x0364;ttin ankunft</l><lb/>
+<l>Die Zu&#x017F;eher erquicket/</l><lb/>
+<l>Di&#x017F;es Printzen vernunft</l><lb/>
+<l>Vnd muth alles beglu&#x0364;cket:</l><lb/>
+<l>Deßwegen Wir in &#x017F;icherheit</l><lb/>
+<l>Fro&#x0364;lich mo&#x0364;gen dantzen vnd &#x017F;pringen/</l><lb/>
+<l>Vnd Gott loben/ de&#x017F;&#x017F;en weißheit</l><lb/>
+<l>Vnd gu&#x0364;te alle Vo&#x0364;lcker &#x017F;ingen.</l></lg><lb/>
+<lg n="11"><l>O Fu&#x0364;r&#x017F;tin/ deren &#x017F;ich/</l><lb/>
+<l>Ein &#x017F;olcher Fu&#x0364;r&#x017F;t verbunden;</l><lb/>
+<l>O Fu&#x0364;r&#x017F;t/ der du gern dich</l><lb/>
+<l>Jhr gabe&#x017F;t u&#x0364;berwunden/</l><lb/>
+<l>O das ewer lu&#x017F;t/ kurtzweil/ wohn/</l><lb/>
+<l>Vnd liebe mo&#x0364;g ewiglich wehren<hi rendition="#i">!</hi></l><lb/>
+<l>O das auf das nech&#x017F;t Jahr ein Sohn</l><lb/>
+<l>Mo&#x0364;g die gemeine frewd vermehren<hi rendition="#i">!</hi></l></lg><lb/>
+<fw type="catch" place="bottom">O Got</fw><lb/>
+<pb n="41" facs="#f0045"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg n="12"><l>O Got gib deine gnad/</l><lb/>
+<l>Das Sie kinds-kinder &#x017F;ehen/</l><lb/>
+<l>Die in deines worts pfad</l><lb/>
+<l>Mit jhren eltern gehen;</l><lb/>
+<l>Gib/ das &#x017F;ie fromb/ gerecht/ &#x017F;igreich/</l><lb/>
+<l>Dein vnd jhre feind mo&#x0364;gen zwingen/</l><lb/>
+<l>Auf das alle Zungen zugleich</l><lb/>
+<l>Dein lob/ vnd Jhre thaten &#x017F;ingen<hi rendition="#i">!</hi></l></lg></div></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">Die fu&#x0364;nfte Ode.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Von &#xA75B;c. HEr&#xA75B;en<lb/>
+Moritzen Printzen zu Vra-<lb/>
+nien/ Grafen von Na&#x017F;&#x017F;aw/ &#xA75B;c.</hi></head><lb/>
+<lg n="13"><l><hi rendition="#in">M</hi>O&#xA75B;itz/ dein Nam/ ruhm/ p&#xA75B;eiß vn&#x0303; eh&#xA75B;/</l><lb/>
+<l>Darab deine Feind noch verblaiche&#x0303;/</l><lb/>
+<l>Ko&#x0364;nden durch aigne kraft numehr</l><lb/>
+<l>Eine &#x017F;olche ho&#x0364;hin er&#xA75B;aichen:</l><lb/>
+<l>Das wer mit &#x017F;einer federn &#x017F;pitz</l><lb/>
+<l>Vermeinet &#x017F;ie recht zuberu&#x0364;hren/</l><lb/>
+<l>Der&#x017F;elbig wird &#x017F;elbs bald probieren/<lb/>
+<fw type="sig" place="bottom">C v</fw><fw type="catch" place="bottom">Das</fw><lb/>
+<pb n="42" facs="#f0046"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Das Er ohn &#x017F;cham oder ohn witz:</l><lb/>
+<l>Vnd Er wer wehrt/ &#x017F;ein vnver&#x017F;tand/</l><lb/>
+<l>Der &#x017F;o hoher Ding nicht ver&#x017F;chonet/</l><lb/>
+<l>Wurd gar nicht mit danck barer hand/</l><lb/>
+<l>Sondern mit &#x017F;charpfer &#x017F;traf belohnet.</l></lg><lb/>
+<lg n="14"><l>Darumb/ wi&#x017F;&#x017F;end wievil zu&#x017F;chwach</l><lb/>
+<l>Meine &#x017F;tim i&#x017F;t dein lob zu&#x017F;ingen/</l><lb/>
+<l>Begehr ich nicht mit gro&#x017F;&#x017F;er &#x017F;chmach</l><lb/>
+<l>Wie der zu&#x017F;toltze fro&#x017F;ch zu&#x017F;p&#xA75B;ingen:</l><lb/>
+<l>Dan ja ein &#x017F;olche fau&#x017F;t allein/</l><lb/>
+<l>So die Mu&#x017F;en &#x017F;o wol gelehret/</l><lb/>
+<l>Als Pallas deine fau&#x017F;t bewehret/</l><lb/>
+<l>Kan dich zu ru&#x0364;hmen wu&#x0364;rdig &#x017F;ein.</l><lb/>
+<l>So i&#x017F;t es auch allein billich</l><lb/>
+<l>Apelli/ vnd &#x017F;un&#x017F;t keinem andern</l><lb/>
+<l>Zu contrafehen aigentlich</l><lb/>
+<l>Einen &#x017F;o wahren Alexandern.</l></lg><lb/>
+<lg n="15"><l>Vnd wan ich &#x017F;chon mit ho&#x0364;ch&#x017F;tem fleiß/</l><lb/>
+<l>Dich erhub nach meinem verlangen/</l><lb/>
+<l>Kan dein vnvermehrlicher preiß/</l><lb/>
+<l>Wol davon fernern glantz empfangen?</l><lb/>
+<l>Sah man auch wol zu einer &#x017F;tund</l><lb/>
+<l>Von einer zu flie&#x017F;&#x017F;enden quellen</l><lb/>
+<l>Sich vermehren die flut der wellen<lb/>
+<fw type="catch" place="bottom">Jn</fw><lb/>
+<pb n="43" facs="#f0047"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Jn des brau&#x017F;enden Mo&#x0364;hrs abgrund?</l><lb/>
+<l>Nein/ Printz/ dein Nam leuchtet &#x017F;o &#x017F;ehr/</l><lb/>
+<l>Das welcher ein Ort wolt ergru&#x0364;nden/</l><lb/>
+<l>Da dein lob noch vnbekant wer/</l><lb/>
+<l>Der mu&#x0364;&#x017F;t noch ein newe Welt finden.</l></lg><lb/>
+<lg n="16"><l>Jedoch wie in einem abriß/</l><lb/>
+<l>Darin Himel vnd erd zu&#x017F;ehen/</l><lb/>
+<l>Oftmahls eines pu&#x0364;nctlins außwiß</l><lb/>
+<l>Ein gantzes land gibt zuver&#x017F;tehen:</l><lb/>
+<l>Al&#x017F;o ich hie nu &#x017F;chlecht abmahl/<lb/>
+(Setzend deinen hochwehrten Namen/</l><lb/>
+<l>Vnd deine thaten eng zu&#x017F;amen)</l><lb/>
+<l>Deiner Tugenten gro&#x017F;&#x017F;e zahl/</l><lb/>
+<l>Damit des himmels gu&#x0364;tigkeit</l><lb/>
+<l>Dich &#x017F;o freygebiglich beglu&#x0364;cket/</l><lb/>
+<l>Das dein Nam die Vn&#x017F;terbligkeit</l><lb/>
+<l>Der Hi&#x017F;torien allein &#x017F;chmu&#x0364;cket.</l></lg><lb/>
+<lg n="17"><l>Dan alles was des men&#x017F;chen Sin</l><lb/>
+<l>Fu&#x0364;r einen Fu&#x0364;r&#x017F;ten kan begehren/</l><lb/>
+<l>De&#x017F;&#x017F;en kan&#x017F;t du jhn mit gewin</l><lb/>
+<l>Vnd u&#x0364;berfluß gar bald gewehren.</l><lb/>
+<l>Begehrt er Gotsfo&#xA75B;cht/ Ma&#x0364;&#x017F;&#x017F;igkeit/</l><lb/>
+<l>Fu&#x0364;r&#x017F;ichtigkeit wol zu regieren/</l><lb/>
+<l>Dapferkeit &#x017F;tehts zu triumfieren/<lb/>
+<fw type="catch" place="bottom">Gu&#x0364;te/</fw><lb/>
+<pb n="44" facs="#f0048"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Gu&#x0364;te/ Demuht/ Gerechtigkeit/</l><lb/>
+<l>Ver&#x017F;tand voll tieffer kun&#x017F;t vnd lehr/</l><lb/>
+<l>Muht vnd &#x017F;ta&#x0364;rck alles außzu&#x017F;tehen/</l><lb/>
+<l>Ja/ was andern zu wu&#x0364;n&#x017F;chen wer/</l><lb/>
+<l>Das wu&#x0364;rt Er reichlich in dir &#x017F;ehen.</l></lg><lb/>
+<lg n="18"><l>Das Glu&#x0364;ck &#x017F;elbs hat &#x017F;ich mit be&#x017F;tand</l><lb/>
+<l>Deiner Tugent al&#x017F;o ergeben/</l><lb/>
+<l>Das nichts kan deiner &#x017F;tarcken hand</l><lb/>
+<l>Vnd &#x017F;ta&#x0364;rckerm hertzen wider&#x017F;treben:</l><lb/>
+<l>Nichts kan deinem lauf/ wan du wilt/</l><lb/>
+<l>Eine verhinderung vervr&#x017F;achen/</l><lb/>
+<l>Vnmu&#x0364;glich kan&#x017F;t du mu&#x0364;glich machen/</l><lb/>
+<l>Du bi&#x017F;t der deinen &#x017F;chwert vnd &#x017F;chilt/</l><lb/>
+<l>Welcher/ wan noht/ ang&#x017F;t vn&#x0303; gefahr</l><lb/>
+<l>Vber &#x017F;ie anfangen zu regnen/</l><lb/>
+<l>Bedo&#x0364;cket al&#x017F;o jhre &#x017F;char/</l><lb/>
+<l>Das Sie dem Feind &#x017F;icher bego&#x0364;gnen.</l></lg><lb/>
+<lg n="19"><l>Welches alten Helden ku&#x0364;nheit</l><lb/>
+<l>Hat jemahls &#x017F;olche Sig gewonnen?</l><lb/>
+<l>Vnd wer i&#x017F;t &#x017F;eines Feinds boßheit</l><lb/>
+<l>Auch fridenszeit &#x017F;o oft entronnen?</l><lb/>
+<l>Welcher C<hi rendition="#aq">æ</hi>&#x017F;ar hat &#x017F;eine macht</l><lb/>
+<l>Mit &#x017F;o tief geetzten buch&#x017F;taben<lb/>
+<fw type="catch" place="bottom">Auf</fw><lb/>
+<pb n="45" facs="#f0049"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Auf &#x017F;einer Feind Ko&#x0364;pf eingegraben</l><lb/>
+<l>Als du gethan in mancher &#x017F;chlacht?</l><lb/>
+<l>Da dan dein &#x017F;chwert/ von blut &#x017F;tehts warm/</l><lb/>
+<l>Verku&#x0364;ndigte aller welt augen/</l><lb/>
+<l>Wie fein ein &#x017F;tarck geu&#x0364;bter arm/</l><lb/>
+<l>Vnd gutes Recht zu&#x017F;amen taugen.</l></lg><lb/>
+<lg n="20"><l>Zu Sommer vnd zu Winters zeit</l><lb/>
+<l>Die flu&#x0364;ß/ berg/ feld vnd Mo&#x0364;hr zu zwingen/</l><lb/>
+<l>Machen daß die &#x017F;charm&#x016F;tzel/ &#x017F;treit/</l><lb/>
+<l>Bela&#x0364;grungen vnd &#x017F;tu&#x0364;rm gelingen:</l><lb/>
+<l>Zumahl als haupt vnd als Soldat</l><lb/>
+<l>Wol befehlen/ vnd wol ver&#xA75B;ichten;</l><lb/>
+<l>Des Feinds begird vnd werck vernichten</l><lb/>
+<l>Mit wei&#x017F;&#x017F;em raht/ vnd &#x017F;chneller that:</l><lb/>
+<l>Des feinds vorhaben/ li&#x017F;t/ betrug/</l><lb/>
+<l>Vnd raht &#x017F;o wol als Er &#x017F;elbs wi&#x017F;&#x017F;en/</l><lb/>
+<l>Jn anraitzung/ angrif/ aufzug/</l><lb/>
+<l>So ver&#x017F;ta&#x0364;ndig &#x017F;ein als gefli&#x017F;&#x017F;en:</l></lg><lb/>
+<lg n="21"><l>Einen Soldaten/ der &#x017F;ein blut</l><lb/>
+<l>Zufrech verlieren will/ erhalten;</l><lb/>
+<l>Der Jungen vnerfahrnen muht</l><lb/>
+<l>Jn gefahr nicht la&#x017F;&#x017F;en erkalten:</l><lb/>
+<l>Verachten weder klein noch groß/</l><lb/>
+<l>Eines jeden natur erkennen/<lb/>
+<fw type="catch" place="bottom">Einen</fw><lb/>
+<pb n="46" facs="#f0050"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Einen jeden mit namen nennen/</l><lb/>
+<l>Vnd behertzen den der hertzloß;</l><lb/>
+<l>Das &#x017F;eind &#x017F;achen die dir allein</l><lb/>
+<l>Alle zu voll&#x017F;tro&#x0364;cken gebu&#x0364;hren/</l><lb/>
+<l>Ja/ di&#x017F;e kun&#x017F;t/ die einig dein/</l><lb/>
+<l>Kont in andern noch niemand &#x017F;pu&#x0364;hren.</l></lg><lb/>
+<lg n="22"><l>Gleich wie ein &#x017F;turm/ oder Windsbraut</l><lb/>
+<l>Ein &#x017F;chif mit vnge&#x017F;tu&#x0364;m zu&#x017F;chmei&#x017F;&#x017F;et/</l><lb/>
+<l>Mit &#x017F;traichen &#x017F;toltz/ &#x017F;chnell/ &#x017F;treng/ &#x017F;tarck/ laut/</l><lb/>
+<l>Ma&#x017F;t/ &#x017F;egel/ vnd &#x017F;ailer zurei&#x017F;&#x017F;et:</l><lb/>
+<l>Oder gleich wie ein &#x017F;tarcker fluß/</l><lb/>
+<l>Darein &#x017F;ich die wolcken außgie&#x017F;&#x017F;en/</l><lb/>
+<l>Vnd die abgehende &#x017F;chnee flie&#x017F;&#x017F;en</l><lb/>
+<l>Mit &#x017F;chnell vnd rau&#x017F;chendem außguß/</l><lb/>
+<l>Vnd &#x017F;einem laut brau&#x017F;enden Zorn</l><lb/>
+<l>Ein gru&#x0364;nes fruchtfeld bald entehret/</l><lb/>
+<l>Des ackermans hofnung vnd korn/</l><lb/>
+<l>Ba&#x0364;um/ hecken/ vnd &#x017F;tauden zu&#x017F;to&#x0364;ret:</l></lg><lb/>
+<lg n="23"><l>Al&#x017F;o/ vnd &#x017F;chro&#x0364;cklicher hat dich</l><lb/>
+<l>Der &#x017F;toltze feind oft wargenommen/</l><lb/>
+<l>Das er be&#x017F;&#x017F;ere fu&#x0364;ß fu&#x0364;r Sich/</l><lb/>
+<l>Dan ha&#x0364;nde wider Dich bekommen:</l><lb/>
+<l>Wie der dunder war deine &#x017F;tim/</l><lb/>
+<l>Wie plitz deineblick anzu&#x017F;chawen/<lb/>
+<fw type="catch" place="bottom">Der</fw><lb/>
+<pb n="47" facs="#f0051"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Der &#x017F;tral kan nicht &#x017F;o tief durchhawen</l><lb/>
+<l>Als deiner &#x017F;traichen &#x017F;chwerer grim:</l><lb/>
+<l>So das deines &#x017F;chwerts wetterlaich</l><lb/>
+<l>Einen blut-regen mit &#x017F;ich brachten/</l><lb/>
+<l>Vnd deine Dunder-gleiche &#x017F;traich</l><lb/>
+<l>Ein zu&#x017F;chma&#x0364;ttertes ellend machten.</l></lg><lb/>
+<lg n="24"><l>Vor Dir/ vnd hinder Dir der Tod</l><lb/>
+<l>Mit toben/ wu&#x0364;hten/ &#x017F;chro&#x0364;cken/ &#x017F;chreyhen/</l><lb/>
+<l>Mit forcht/ grauß/ grim/ grewel vnd noht</l><lb/>
+<l>Bracht den khu&#x0364;ne&#x017F;ten ein ab&#x017F;chewen:</l><lb/>
+<l>Ge&#x017F;paltne ko&#x0364;pf/ &#x017F;chenckel/ ha&#x0364;nd/ wo&#x0364;hr/</l><lb/>
+<l>Helm/ &#x017F;chilt/ &#x017F;pieß/ fahnen/ pfeil vnd bogen</l><lb/>
+<l>Mit kuglen in dem rauch vmbflogen/</l><lb/>
+<l>Das blut machte gleich&#x017F;am ein Mo&#x0364;hr/</l><lb/>
+<l>Alda freind vnd feind/ her&#xA75B; vnd knecht/</l><lb/>
+<l>Pferd vnd man/ all auf einem hauffen/</l><lb/>
+<l>Blutdur&#x017F;tig/ bo&#x0364;ß/ from/ hoch vnd &#x017F;chlecht/</l><lb/>
+<l>Mu&#x017F;ten &#x017F;ich &#x017F;at (zwar vngern) &#x017F;auffen.</l></lg><lb/>
+<lg n="25"><l>Da &#x017F;ah man Macht/ Sto&#x0364;rcke/ Khu&#x0364;nheit</l><lb/>
+<l>Dich belaiten zu beeden &#x017F;eitten/</l><lb/>
+<l>Ja Glu&#x0364;ck vnd Sig deiner manheit</l><lb/>
+<l>Nach folgen/ vnd dir helfen &#x017F;treittent</l><lb/>
+<l>Da &#x017F;ah man den luft &#x017F;chwartz vnd dick</l><lb/>
+<l>Voll bech/ pulver vnd kuglen brennen/<lb/>
+<fw type="catch" place="bottom">Vnd</fw><lb/>
+<pb n="48" facs="#f0052"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Vnd dein ge&#x017F;chwader &#x017F;igreich rennen</l><lb/>
+<l>Vber die Feind mit &#x017F;tehtem glu&#x0364;ck;</l><lb/>
+<l>Al&#x017F;o das du in mancher &#x017F;chlacht/</l><lb/>
+<l>Strafend die/ &#x017F;o vns vmb&#x017F;un&#x017F;t ha&#x017F;&#x017F;en/</l><lb/>
+<l>Die ho&#x0364;ll durch Sie volckreich gemacht/</l><lb/>
+<l>Vnd jhr feld gantz eino&#x0364;d verla&#x017F;&#x017F;en.</l></lg><lb/>
+<lg n="26"><l>O wievil widerwa&#x0364;rtigkeit</l><lb/>
+<l>Wu&#x0364;rden wol vil La&#x0364;nder erfahren/</l><lb/>
+<l>Wa nicht Got deine Dapferkeit</l><lb/>
+<l>Bewahrte &#x017F;olche zubewahren<hi rendition="#i">!</hi></l><lb/>
+<l>Der Griechen fruchtbarer ver&#x017F;tand</l><lb/>
+<l>Hat nicht mehr wunderwerck erdichtet/</l><lb/>
+<l>Dan du in der wahrheit ver&#xA75B;ichtet</l><lb/>
+<l>So wol mit dem haupt als der hand.</l><lb/>
+<l>Aber zufer&#xA75B; i&#x017F;t di&#x017F;es Zihl/</l><lb/>
+<l>Vnd meine &#x017F;chwachheit zuverme&#x017F;&#x017F;en:</l><lb/>
+<l>Deine thaten/ deren &#x017F;o vil/</l><lb/>
+<l>Kan man nicht zo&#x0364;hlen noch verge&#x017F;&#x017F;en.</l></lg><lb/>
+<lg n="27"><l>Jch ge&#x017F;chweig deines leibs vnd muhts/</l><lb/>
+<l>Welche von keiner mu&#x0364;h mu&#x0364;d werden;</l><lb/>
+<l>Des Vr&#x017F;prungs deines Helden-bluts/</l><lb/>
+<l>Deiner &#x017F;o lo&#x0364;blichen geberden/</l><lb/>
+<l>Jch ge&#x017F;chweig deiner gnad vnd gu&#x0364;t/</l><lb/>
+<l>So die gehor&#x017F;ame erquicket/<lb/>
+<fw type="catch" place="bottom">Wie</fw><lb/>
+<pb n="49" facs="#f0053"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Wie dein billicher zorn entglu&#x0364;cket</l><lb/>
+<l>Des auffgeblaßnen Feinds gemu&#x0364;ht;</l><lb/>
+<l>Jch ge&#x017F;chweig de&#x017F;&#x017F;en/ das dein mund</l><lb/>
+<l>Vilerlay &#x017F;prachen wol erfahren/</l><lb/>
+<l>Deiner reden/ die kurtz vnd rund</l><lb/>
+<l>Deiner &#x017F;ehlen &#x017F;cha&#x0364;tz offenbaren.</l></lg><lb/>
+<lg n="28"><l>Jch ge&#x017F;chweig deiner freundlichkeit/</l><lb/>
+<l>Davon ich (ruhmhaft) gutes wi&#x017F;&#x017F;en/</l><lb/>
+<l>Weil ich hat die glu&#x0364;ck&#x017F;eeligkeit</l><lb/>
+<l>Dein &#x017F;tehts-&#x017F;igreiche hand zu kü&#x017F;&#x017F;en:</l><lb/>
+<l>Dan es gewiß/ das meine jahr</l><lb/>
+<l>Sich ehe dan mein lied wu&#x0364;rden enden/</l><lb/>
+<l>Wan ich mit gnug&#x017F;amen Vmb&#x017F;ta&#x0364;nden</l><lb/>
+<l>Wolt dein Lob &#x017F;ingen gantz vnd gar:</l><lb/>
+<l>Weil Dir ja kein Held (das &#x017F;ey gnug)</l><lb/>
+<l>Der vor Dir in der Cronic &#x017F;tehet/</l><lb/>
+<l>Wie immer gerecht/ khu&#x0364;n vnd klug/</l><lb/>
+<l>Tugent vnd thaten halb vorgehet.</l></lg><lb/>
+<lg n="29"><l>Wolan Printz/ Held/ Mars/ der Welt Zier/</l><lb/>
+<l>O das dich je nichts mo&#x0364;g betru&#x0364;ben<hi rendition="#i">!</hi></l><lb/>
+<l>Leb/ &#x017F;treit/ &#x017F;ig fort/ vnd triumfier/</l><lb/>
+<l>Das dich himmel vnd erden lieben<hi rendition="#i">!</hi></l><lb/>
+<l>Leb/ &#x017F;treit/ &#x017F;ig vnd triumfier fort/</l><lb/>
+<l>Vnd dan gib deiner thaten fru&#x0364;chten<lb/>
+<fw type="sig" place="bottom">D</fw><fw type="catch" place="bottom">Dem/</fw><lb/>
+<pb n="50" facs="#f0054"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Dem/ welcher &#x017F;ie Dir hilft ver&#xA75B;ichten/</l><lb/>
+<l>Bewahrend (wie Du thu&#x017F;t) &#x017F;ein wort;</l><lb/>
+<l>Damit Er/ welcher in dem &#x017F;treit</l><lb/>
+<l>Dein fau&#x017F;t zu &#x017F;igen thut regieren/</l><lb/>
+<l>Mo&#x0364;g gefa&#x0364;lliglich fridens zeit</l><lb/>
+<l>Vnder &#x017F;einem Volck triumfieren.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">Die 6. Ode.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">An Her&#xA75B;n Craf-<lb/>
+ten Grafen von Ho-<lb/>
+henloe.</hi></head><lb/>
+<lg n="30"><l><hi rendition="#in">J</hi>Ch empfind nu in meiner bru&#x017F;t</l><lb/>
+<l>Sich eine begird anzuzinden/</l><lb/>
+<l>Die mich treibet mit gro&#x017F;&#x017F;em lu&#x017F;t</l><lb/>
+<l>Ein newes ge&#x017F;ang zuerfinden.</l><lb/>
+<l>Neyd/ Vnerfahrenheit/ Mißgun&#x017F;t</l><lb/>
+<l>Mo&#x0364;gen auß&#x017F;peyen was &#x017F;ie wo&#x0364;llen/</l><lb/>
+<l>Haben doch meine &#x017F;tim zu&#x017F;to&#x0364;llen</l><lb/>
+<l>Sie weder gnug gewalt/ noch kun&#x017F;t:</l><lb/>
+<l>Deren Tugenten gro&#x017F;&#x017F;e ehr/<lb/>
+<fw type="catch" place="bottom">Da-</fw><lb/>
+<pb n="51" facs="#f0055"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Davon meine &#x017F;aiten erklingen/</l><lb/>
+<l>Erleuchtet mein gemu&#x0364;ht &#x017F;o &#x017F;ehr/</l><lb/>
+<l>Das ich kan muhtiglich fort &#x017F;ingen.</l></lg><lb/>
+<lg n="31"><l>Ob wol niemand &#x017F;o toll vnd grob/</l><lb/>
+<l>Der nicht wolt deinen namen prei&#x017F;en/</l><lb/>
+<l>Kan doch niemand dein hohes lob/</l><lb/>
+<l>O Hohenloe recht gnug außwei&#x017F;en:</l><lb/>
+<l>Darumb ich/ durch Apollons glantz</l><lb/>
+<l>Vnd durch der Mu&#x017F;en gnad belaitet/</l><lb/>
+<l>Hab mit jhnen fu&#x0364;r Dich beraitet</l><lb/>
+<l>Einen wu&#x0364;rdigen Lorbo&#x0364;r-crantz/</l><lb/>
+<l>Welcher mit nicht geringerm &#x017F;chein</l><lb/>
+<l>Mo&#x0364;g vnverwa&#x0364;lcklich dein haupt kro&#x0364;nen/</l><lb/>
+<l>Dan deine &#x017F;ehl vnd leib allein</l><lb/>
+<l>Die la&#x017F;terhafte welt be&#x017F;cho&#x0364;nen.</l></lg><lb/>
+<lg n="32"><l>Wan deine thaten vnd weißheit</l><lb/>
+<l>Zu deinem ruhm nicht gnug&#x017F;am weren/</l><lb/>
+<l>Wolt ich deines ge&#x017F;chlechts hochheit</l><lb/>
+<l>Vermelden/ dein lob zuvermehren:</l><lb/>
+<l>Aber gleich wie ein Circul rund</l><lb/>
+<l>Vnd volkommen wirt vmb gewendet/</l><lb/>
+<l>Das Er endloß in &#x017F;ich &#x017F;elbs endet/</l><lb/>
+<l>Al&#x017F;o wirt auch ein lob recht kund.</l><lb/>
+<l>Dan warlich der Vora&#x0364;lter preiß<lb/>
+<fw type="sig" place="bottom">D ij</fw><fw type="catch" place="bottom">Jhre</fw><lb/>
+<pb n="52" facs="#f0056"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Jhre nach ko&#x0364;mling nicht vil zieret/</l><lb/>
+<l>Wa nicht die Tugent gleicher weiß</l><lb/>
+<l>Sie in jhre fuß&#x017F;tapfen fu&#x0364;hret.</l></lg><lb/>
+<lg n="33"><l>Zwar bedarf es &#x017F;ich auch gar nicht</l><lb/>
+<l>Deintwegen zu pindari&#x017F;ieren/</l><lb/>
+<l>Vnd auß einem alten gedicht</l><lb/>
+<l>Ein newes lob zu di&#x017F;tillieren:</l><lb/>
+<l>Dein aigner verdien&#x017F;t/ &#x017F;o &#x017F;chon lang</l><lb/>
+<l>Die Go&#x0364;tter vnd men&#x017F;chen erquicket/</l><lb/>
+<l>Hat die neun &#x017F;chwe&#x017F;tern &#x017F;elbs beglu&#x0364;cket</l><lb/>
+<l>Mit einem wahren lob ge&#x017F;ang;</l><lb/>
+<l>Jn dem deiner Tugenten macht</l><lb/>
+<l>Vnd anzahl jhr ge&#x017F;icht ergo&#x0364;tzet/</l><lb/>
+<l>Recht wie das Firmament zu nacht</l><lb/>
+<l>Leuchtet mit &#x017F;ternen u&#x0364;ber &#x017F;etzet.</l></lg><lb/>
+<lg n="34"><l>Achilles war hoch von &#x017F;tatur/</l><lb/>
+<l>Jn aller kurtzweil wol geu&#x0364;bet/</l><lb/>
+<l>Scho&#x0364;n/ lu&#x017F;tig/ freundlich von Natur/</l><lb/>
+<l>Vnd von frawen billich geliebet:</l><lb/>
+<l>Aber wu&#x0364;rde man noch wol heut</l><lb/>
+<l>Einiges wi&#x017F;&#x017F;en von jhm tragen/</l><lb/>
+<l>Wa Er &#x017F;ich nicht hertzhaft zu wagen</l><lb/>
+<l>Selbs geworfen het in den &#x017F;treit?</l><lb/>
+<l>Gar nicht. Sein leib vnd lob zugleich<lb/>
+<fw type="catch" place="bottom">Het-</fw><lb/>
+<pb n="53" facs="#f0057"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Hetten mu&#x0364;&#x017F;&#x017F;en durch tod verblaichen/</l><lb/>
+<l>Wa Er &#x017F;ie nicht khu&#x0364;n vnd &#x017F;igreich</l><lb/>
+<l>Aufgezaichnet mit rohten zaichen.</l></lg><lb/>
+<lg n="35"><l>Mit &#x017F;olcher farb hat deine hand</l><lb/>
+<l>Den aller&#x017F;treitbar&#x017F;ten Soldaten</l><lb/>
+<l>Jn Vngern vnd in Niderland</l><lb/>
+<l>Fu&#x0364;rgemahlet vil gro&#x017F;&#x017F;e thaten.</l><lb/>
+<l>Wie oft hat deine Dapferkeit</l><lb/>
+<l>Vbermen&#x017F;chliche werck ver&#xA75B;ichtet/</l><lb/>
+<l>Vnd deines feinds hoch muht vernichte<supplied>t</supplied></l><lb/>
+<l>Durch &#x017F;ein verdiente Dien&#x017F;tbarkeit?</l><lb/>
+<l>Wievil &#x017F;ehlen hat deine wo&#x0364;hr</l><lb/>
+<l>Auß den &#x017F;toltzen co&#x0364;rpern getriben/</l><lb/>
+<l>Das das feld von der feinden ho&#x0364;r</l><lb/>
+<l>Einer &#x017F;chedel&#x017F;tat gleich gebliben?</l></lg><lb/>
+<lg n="36"><l>Seind nicht die Thonaw vnd der Rhein</l><lb/>
+<l>Oft roht worden von deinen &#x017F;tichen?</l><lb/>
+<l>Seind nicht ab deiner wafen &#x017F;chein</l><lb/>
+<l>Die dapfer&#x017F;te feind oft verblichen?</l><lb/>
+<l>Aber/ es i&#x017F;t gar nicht mein will/<lb/>
+(Wie es dan auch nicht mein vermo&#x0364;gen)</l><lb/>
+<l>Deine thaten hie außzulo&#x0364;gen/</l><lb/>
+<l>Darumb halt ich nu jetzund &#x017F;till:</l><lb/>
+<l>Weil auch tau&#x017F;&#x017F;ent Tugenten mehr<lb/>
+<fw type="sig" place="bottom">D iij</fw><fw type="catch" place="bottom">Dich</fw><lb/>
+<pb n="54" facs="#f0058"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Dich mit ver&#x017F;tand vnd wol&#x017F;tand zieren/</l><lb/>
+<l>Vnd billich jhr go&#x0364;tliche ehr</l><lb/>
+<l>Auf meinen &#x017F;aitten zu beru&#x0364;hren.</l></lg><lb/>
+<lg n="37"><l>Du bi&#x017F;t milt/ fu&#x0364;r &#x017F;ichtig/ vnd weiß/</l><lb/>
+<l>An dir i&#x017F;t kein mangel zu mercken;</l><lb/>
+<l>Ja/ du bi&#x017F;t vn&#x017F;ers alters preiß/</l><lb/>
+<l>Taugenlich zu worten vnd wercken:</l><lb/>
+<l>Tugent i&#x017F;t deine aigen&#x017F;chaft/</l><lb/>
+<l>Du bi&#x017F;t vmb&#x017F;un&#x017F;t nicht Craft genennet;</l><lb/>
+<l>Sta&#x0364;rck dich fu&#x0364;r jhre kraft erkennet/</l><lb/>
+<l>Dapferkeit i&#x017F;t ohn dich ohn kraft:</l><lb/>
+<l>Mars wohnet in deinem gemu&#x0364;ht/</l><lb/>
+<l>Ho&#x0364;flichkeit in deinen geberden/</l><lb/>
+<l>Amor erfu&#x0364;llet dich mit gu&#x0364;t/</l><lb/>
+<l>Das dir alle men&#x017F;chen hold werden.</l></lg><lb/>
+<lg n="38"><l>Darumb hat dich Gots gu&#x0364;tigkeit</l><lb/>
+<l>Mit der &#x017F;cho&#x0364;nen Fu&#x0364;r&#x017F;tin begabet/</l><lb/>
+<l>Das du durch jhre &#x017F;u&#x0364;&#x017F;&#x017F;igkeit</l><lb/>
+<l>Werde&#x017F;t den Go&#x0364;ttern gleich erlabet;</l><lb/>
+<l>Das du in &#x017F;tehter lieb vnd ruh</l><lb/>
+<l>Mo&#x0364;ge&#x017F;t dein leben wol verbringen/</l><lb/>
+<l>Vnd das der welt auß Euch ent&#x017F;p&#xA75B;ingen</l><lb/>
+<l>Junge helden/ welche wie du/</l><lb/>
+<l>Durch die kraft jhrer ko&#x0364;pf vnd ha&#x0364;nd<lb/>
+<fw type="catch" place="bottom">Allen</fw><lb/>
+<pb n="55" facs="#f0059"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Allen wider&#x017F;tand u&#x0364;berwinden/</l><lb/>
+<l>Das ewers lobs vnd namens end</l><lb/>
+<l>Vor der welt end nicht zuerfinden.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">Die 7. Ode.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Von E&#x017F;aia vom<lb/>
+Mars/ H. von Mont-<lb/>
+martin.</hi></head><lb/>
+<div n="3"><head><hi rendition="#b">Die er&#x017F;te Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>An jhr/ go&#x0364;tliche Liebelein/</l><lb/>
+<l>Mir gantz gna&#x0364;diglich zuge&#x017F;aget/</l><lb/>
+<l>Da ich bey ewerm bru&#x0364;nnelein</l><lb/>
+<l>Euch zu begru&#x0364;&#x017F;&#x017F;en mich gewaget/</l><lb/>
+<l>Durch meiner Oden &#x017F;u&#x0364;&#x017F;&#x017F;igkeit</l><lb/>
+<l>Jener thorheit kundbar zumachen/</l><lb/>
+<l>Welche auß aigen&#x017F;innigkeit</l><lb/>
+<l>Die Teut&#x017F;che Poe&#x017F;y verlachen:</l><lb/>
+<l>So machet nu/ O &#x017F;u&#x0364;&#x017F;&#x017F;e &#x017F;char</l><lb/>
+<l>Jetzmahls ewere Zu&#x017F;ag wahr;</l><lb/>
+<fw type="sig" place="bottom">D iiij</fw><fw type="catch" place="bottom">Vnd</fw><lb/>
+<pb n="56" facs="#f0060"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Vnd helfet mir meine wort &#x017F;etzen/</l><lb/>
+<l>Das &#x017F;ie die Go&#x0364;tter &#x017F;elbs ergo&#x0364;tzen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">M</hi>Ontmartin/ der halb-go&#x0364;tter zier/</l><lb/>
+<l>Vn&#x0303; vo&#x0303; de&#x0303; Mu&#x017F;en &#x017F;elbs ge&#x017F;chmu&#x0364;cket/</l><lb/>
+<l>Das lob/ &#x017F;o ich von dir formier</l><lb/>
+<l>J&#x017F;t nicht auß fremb dem &#x017F;chmuck ge&#x017F;tu&#x0364;cket:</l><lb/>
+<l>Jch nem dazu auch nicht das lob</l><lb/>
+<l>Deines Vatters &#x017F;o hochgepri&#x017F;en/</l><lb/>
+<l>Welcher/ Mar&#x017F;chalck/ mit khu&#x0364;ner prob</l><lb/>
+<l>Seinem ko&#x0364;nig vil dien&#x017F;t erwi&#x017F;en:</l><lb/>
+<l>Jn dir find ich ein a&#x0364;rnd reich gnug/</l><lb/>
+<l>Davon ich dan mit gutem fug</l><lb/>
+<l>Zu&#x017F;amen &#x017F;amle di&#x017F;e fru&#x0364;chten/</l><lb/>
+<l>Dir di&#x017F;es opfer zuzurichten.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Ber einer Nym&#x017F;en hand</l><lb/>
+<l>Kan ehe/ einen krantz zubinden/</l><lb/>
+<l>Die &#x017F;cho&#x0364;n&#x017F;te blumen außfinden</l><lb/>
+<l>Jn dem vollen blumenland/</l><lb/>
+<l>Dan ich/ der ich (gantz verfu&#x0364;hret</l><lb/>
+<l>Von deiner Tugenten glantz/</l><lb/>
+<fw type="catch" place="bottom">Wel-</fw><lb/>
+<pb n="57" facs="#f0061"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Welcher/ wie der &#x017F;ternen dantz</l><lb/>
+<l>Den himmel/ deine &#x017F;ehl ziehret)</l><lb/>
+<l>Zweifelhaftig nicht kan wo&#x0364;hlen/</l><lb/>
+<l>Was ich er&#x017F;tlich &#x017F;oll erzo&#x0364;hlen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 2. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">S</hi>Eitenmahl wan die Maye&#x017F;tehe</l><lb/>
+<l>Der graviteti&#x017F;chen geberden/</l><lb/>
+<l>Welche auf deiner &#x017F;tirnen &#x017F;teht/</l><lb/>
+<l>Von mir &#x017F;olte ge&#x017F;ungen werden;</l><lb/>
+<l>Dein angeborne freundligkeit/</l><lb/>
+<l>Damit du jederman gewogen/</l><lb/>
+<l>Erzaiget jhre wu&#x0364;rdigkeit/</l><lb/>
+<l>Auf das &#x017F;ie werd herfu&#x0364;r gezogen.</l><lb/>
+<l>Vnd wan ich zu&#x017F;ingen berait</l><lb/>
+<l>Dein flie&#x017F;&#x017F;ende wolredenheit/</l><lb/>
+<l>Will mich alßbald dein wol&#x017F;tand zwingen/</l><lb/>
+<l>Seine zierlichkeit vorzu&#x017F;ingen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">L</hi>Ob ich dein wi&#x017F;&#x017F;enheit vnd lehr/</l><lb/>
+<l>Was du ge&#x017F;ehen vnd er fahren;</l><lb/>
+<l>Spricht dein ver&#x017F;tand/ das &#x017F;eine ehr</l><lb/>
+<l>Vnd treflichkeit hie nicht zu&#x017F;pahren:</l><lb/>
+<fw type="sig" place="bottom">D v</fw><fw type="catch" place="bottom">Wan</fw><lb/>
+<pb n="58" facs="#f0062"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Wan ich den glu&#x0364;cklichen fortgang</l><lb/>
+<l>Deiner werck begehr zuerklingen/</l><lb/>
+<l>Will deine weißheit/ mein ge&#x017F;ang</l><lb/>
+<l>Soll &#x017F;ie des Glu&#x0364;cks vr&#x017F;ach fu&#x0364;rbringen/</l><lb/>
+<l>Welche erwegend aigentlich</l><lb/>
+<l>All Ort vnd Zeit belaitet dich/</l><lb/>
+<l>Vnd das Glu&#x0364;ck/ &#x017F;olches zuregieren/</l><lb/>
+<l>Pfleget in dem haupt zu bo&#x017F;ieren.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi>Arf dan deiner Hochheit grund</l><lb/>
+<l>Zuberu&#x0364;hren ich mich wagen;</l><lb/>
+<l>Fo&#x0364;rcht ich/ das ich anzuklagen</l><lb/>
+<l>Durch deiner Zu&#x0364;chtigkeit mund/</l><lb/>
+<l>Welche vngezwungen ehret/</l><lb/>
+<l>Vnd gern dienet jedem &#x017F;tand/</l><lb/>
+<l>Al&#x017F;o den wahren ver&#x017F;tand</l><lb/>
+<l>Der her&#xA75B;en hochheit vnslehret/</l><lb/>
+<l>Das auch mehr durch gun&#x017F;t da&#x0303; prange&#x0303;/</l><lb/>
+<l>Der men&#x017F;chen lieb zu erlangen.</l></lg></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#b">Die</hi></fw><lb/>
+<pb n="59" facs="#f0063"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<div n="3"><head><hi rendition="#b">Die 3. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">F</hi>Ang ich dan an ein lobge&#x017F;ang</l><lb/>
+<l>Von deinem blut auf meinen &#x017F;aiten/</l><lb/>
+<l>Will die Tugent/ das ich anfang</l><lb/>
+<l>An jhr dein lob recht außzu&#x017F;praiten;</l><lb/>
+<l>Als welche allein ohn betrug</l><lb/>
+<l>Die &#x017F;terbliche mit gotheit zieret/</l><lb/>
+<l>Vnd &#x017F;ie mit &#x017F;chnell-geradem flug</l><lb/>
+<l>Jn der Go&#x0364;tter gemein&#x017F;chaft fu&#x0364;hret.</l><lb/>
+<l>Hercules durch jhren bey&#x017F;tand</l><lb/>
+<l>Ero&#x0364;fnete &#x017F;ein Vatterland;</l><lb/>
+<l>Die zwilling auf dem Mo&#x0364;hrgeehret</l><lb/>
+<l>Haben durch &#x017F;ie die &#x017F;tern gemehret.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi>J&#x017F;e hat dich in jhren &#x017F;chutz</l><lb/>
+<l>Genommen alsbald du geboren/</l><lb/>
+<l>Du deßgleichen der welt zu nutz</l><lb/>
+<l>Sie fu&#x0364;r deinen glaitsman erkoren:</l><lb/>
+<l>Di&#x017F;e hat zu meyden die aaß</l><lb/>
+<l>Des kurtzen wollu&#x017F;ts dich beraittet/</l><lb/>
+<l>Vnd rai&#x017F;end auf der engen &#x017F;traß</l><lb/>
+<l>Durch mehr &#x017F;ta&#x0364;t vnd la&#x0364;nder belaittet/</l><lb/>
+<l>Dan der Griech an weißheit &#x017F;ehr groß</l><lb/>
+<fw type="catch" place="bottom">(Von</fw><lb/>
+<pb n="60" facs="#f0064"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>(Von de&#x017F;&#x017F;en zung der honig floß/</l><lb/>
+<l>Wie die &#x017F;chnee fru&#x0364;lingszeit zugehen</l><lb/>
+<l>Von dem gebu&#x0364;rg) jemahls ge&#x017F;ehen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Lda nu bald nach vnd nach</l><lb/>
+<l>Was der &#x017F;ubtil G&#xA75B;iech gedichtet/</l><lb/>
+<l>Der &#x017F;u&#x0364;ß-&#x017F;chwer ro&#x0364;mer berichtet</l><lb/>
+<l>Die reich Engla&#x0364;ndi&#x017F;che &#x017F;prach/</l><lb/>
+<l>Was die Hochteut&#x017F;che außlegen/</l><lb/>
+<l>Der To&#x017F;caner lieblichkeit/</l><lb/>
+<l>Der Flandern ge&#x017F;chwindigkeit/</l><lb/>
+<l>Was auch die Spanier wa&#x0364;gen/</l><lb/>
+<l>Vnd was vns je zugela&#x017F;&#x017F;en</l><lb/>
+<l>Deine Jugent wol erfa&#x017F;&#x017F;en.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 4. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Ndere ku&#x0364;n&#x017F;ten gleicherweiß/</l><lb/>
+<l>Welche den adel edel machen/</l><lb/>
+<l>Seind &#x017F;o einig mit deinem fließ/</l><lb/>
+<l>Das du ru&#x0364;hmlich in allen &#x017F;achen:</l><lb/>
+<l>Ph<hi rendition="#aq">æ</hi>bus/ dem du an gai&#x017F;t vnd haar</l><lb/>
+<l>Gleich &#x017F;ihe&#x017F;t/ hat dir u&#x0364;ber geben</l><lb/>
+<l>Die Ca&#x017F;tali&#x017F;ch geneünte &#x017F;char/</l><lb/>
+<fw type="catch" place="bottom">Jhr</fw><lb/>
+<pb n="61" facs="#f0065"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Jhr ge&#x017F;ang wider zu beleben;</l><lb/>
+<l>Vnd du mach&#x017F;t das ich vnderfang/</l><lb/>
+<l>Der Er&#x017F;t mit vngezwungnem klang</l><lb/>
+<l>Die Go&#x0364;tter auf Dori&#x017F;chen &#x017F;aiten</l><lb/>
+<l>Teut&#x017F;ch-lieblich &#x017F;pilend auß zubraiten.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">V</hi>Nd wa laß ich die Dapferkeit/</l><lb/>
+<l>Dadurch du Mars nit nur vo&#x0303; &#x017F;tam&#x0303;e&#x0303;/</l><lb/>
+<l>So&#x0303;dern an &#x017F;ta&#x0364;rck/ muht/ munderkeit</l><lb/>
+<l>Ein wahrer Mars an that vnd namen?</l><lb/>
+<l>Wie oft hat dein &#x017F;chro&#x0364;ckliches &#x017F;chwert</l><lb/>
+<l>Mit Martiali&#x017F;chen buch&#x017F;taben</l><lb/>
+<l>Deinen namen &#x017F;o klar vnd wert</l><lb/>
+<l>Auf Jberi&#x017F;che ha&#x0364;ut gegraben?</l><lb/>
+<l>Al&#x017F;o das die Cimbri&#x017F;che Cron</l><lb/>
+<l>Wolt &#x017F;ich (zu deiner Tugent lohn/</l><lb/>
+<l>Vnd jhrem preiß) vmb&#x017F;un&#x017F;t bemu&#x0364;hen/</l><lb/>
+<l>Dich deinem Ko&#x0364;nig zu entziehen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Ber/ zarte Liebelein/</l><lb/>
+<l>Wie geh ich mich zu verlieren?</l><lb/>
+<l>Kan ich di&#x017F;es lied volfu&#x0364;hren/</l><lb/>
+<fw type="catch" place="bottom">Scho&#x0364;n-</fw><lb/>
+<pb n="62" facs="#f0066"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Scho&#x0364;n-a&#x0364;ugige Nymfelein?</l><lb/>
+<l>Ach<hi rendition="#i">!</hi> vergo&#x0364;nnet mir zu weichen</l><lb/>
+<l>Seiner Tugent bu&#x0364;rd &#x017F;o &#x017F;chwer/</l><lb/>
+<l>Das das glu&#x0364;ck &#x017F;ich nimmermehr</l><lb/>
+<l>Jhrem verdien&#x017F;t kan vergleichen/</l><lb/>
+<l>Vnd la&#x017F;&#x017F;et mich nu vmb wenden/</l><lb/>
+<l>Mein lied hip&#x017F;chlich zu vollenden.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 5. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">V</hi>Jl tau&#x017F;ent tugenten in dir</l><l xml:id="v04" prev="#v03"> <hi rendition="#et">(ben/</hi></l><lb/>
+<l xml:id="v03" next="#v04">Sih ich haufenweiß vm&#x0303; mich &#x017F;chwe-</l><lb/>
+<l>Das ich nicht kannach der gebihr</l><lb/>
+<l>Einer jeden jhre &#x017F;to&#x0364;ll geben.</l><lb/>
+<l>Al&#x017F;o mein Mu&#x017F;a ir&#xA75B;end vmb</l><lb/>
+<l>Wie in dem Creten&#x017F;i&#x017F;chen garten/</l><lb/>
+<l>Findet weder anfang noch trumb</l><lb/>
+<l>Auf deiner tugenten ir&#xA75B;farten.</l><lb/>
+<l>Was fahr ich dan noch weiters fort/</l><lb/>
+<l>Das ich mich nicht mach in den port/</l><lb/>
+<l>Weil es &#x017F;ich ja nicht will gebu&#x0364;hren/</l><lb/>
+<l>Der Go&#x0364;tter ehr zu profanieren?</l></lg></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#b">An-</hi></fw><lb/>
+<pb n="63" facs="#f0067"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<div n="3"><head><hi rendition="#b">Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi>Arumb be&#x017F;chließ ich meinen mund</l><lb/>
+<l>Vnd will dir mein hertz u&#x0364;bergeben;</l><lb/>
+<l>Sih/ du wir&#x017F;t es erfinden rund/</l><lb/>
+<l>Auch der Tugent allein nach&#x017F;treben/</l><lb/>
+<l>Biß einmahl mit vil ho&#x0364;herm klang</l><lb/>
+<l>Jn deiner Lorbo&#x0364;rcra&#x0364;ntzen &#x017F;chatten</l><lb/>
+<l>Die Go&#x0364;tter ein newes ge&#x017F;ang</l><lb/>
+<l>Von dir zu&#x017F;ingen mir ge&#x017F;tatten;</l><lb/>
+<l>Wan mir namlich einmahl das Glu&#x0364;ck</l><lb/>
+<l>Gibt einen freindlichern anblick/</l><lb/>
+<l>Vnd von mir all vnruh vnd plagen/</l><lb/>
+<l>So die armut gibt/ wirdt verjagen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>Olan &#x017F;o fahr Odelein/</l><lb/>
+<l>Zu dem/ von de&#x0303; du er&#x017F;challen/</l><lb/>
+<l>Sag jhm weil es &#x017F;ein gefallen</l><lb/>
+<l>Mir &#x017F;o gar freundlich zu&#x017F;ein/</l><lb/>
+<l>Das ich leichtlich do&#x0364;rf ohn grawen</l><lb/>
+<l>(Zwar frembd/ jung/ vnd wenig klug)</l><lb/>
+<l>Zu den himmeln meinen flug</l><lb/>
+<l>Seiner gun&#x017F;t flu&#x0364;geln vertrawen/</l><lb/>
+<l>Flu&#x0364;gel/ deren glantz belebet</l><lb/>
+<l>Vnder beeden himmeln &#x017F;chwebet.</l></lg></div></div></div><lb/>
+<fw type="catch" place="bottom">Die</fw><lb/>
+<pb n="64" facs="#f0068"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">Die 8. Ode.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">An Benjamin<lb/>
+Buwinckhau&#x017F;en von<lb/>
+Walmerode/ &#xA75B;c.</hi></head><lb/>
+<div n="3"><head><hi rendition="#b">Die 1. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>Ach auf/ meine &#x017F;ehl/ es i&#x017F;t zeit/</l><lb/>
+<l>Deine &#x017F;chuld der welt zu bezeugen;</l><lb/>
+<l>Es i&#x017F;t eine &#x017F;chand &#x017F;till zu&#x017F;chweigen/</l><lb/>
+<l>Wan die nohtdurft die red gebeut.</l><lb/>
+<l>O Buwinck hau&#x017F;en/ de&#x017F;&#x017F;en gun&#x017F;t</l><lb/>
+<l>Kan mich nach wun&#x017F;ch von &#x017F;orgen freyhen/</l><lb/>
+<l>Verachte nicht die newe kun&#x017F;t/</l><lb/>
+<l>So mir dir neun &#x017F;chwe&#x017F;tern verleihen;</l><lb/>
+<l>Sondern ho&#x0364;r mit wie &#x017F;u&#x0364;&#x017F;&#x017F;em klang</l><lb/>
+<l>Meiner niemahls beru&#x0364;h&#xA75B;ten &#x017F;aiten</l><lb/>
+<l>Jch dein lob in meinem ge&#x017F;ang</l><lb/>
+<l>Will durch die weite welt auß&#x017F;praiten.</l></lg></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#b">Anti-</hi></fw><lb/>
+<pb n="65" facs="#f0069"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<div n="3"><head><hi rendition="#b">Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">O</hi>Bwol der &#x017F;u&#x0364;ß-&#x017F;pihlende Got </l><l xml:id="v06" prev="#v05"><hi rendition="#et">(laubet</hi></l><lb/>
+<l xml:id="v05" next="#v06">Die zweig &#x017F;tehtsgru&#x0364;n vnd fri&#x017F;ch-be-</l><lb/>
+<l>Allen abzubrechen erlaubet</l><lb/>
+<l>Welche nichts fragen nach dem Tod:</l><lb/>
+<l>Kan doch eines jeden ver&#x017F;tand</l><lb/>
+<l>Nicht das &#x017F;tehts-wehrende trumb finden/</l><lb/>
+<l>Damit Er mo&#x0364;g mit wehrter Hand</l><lb/>
+<l>Den vnver wa&#x0364;lcklichen crantz binden;</l><lb/>
+<l>Sondern &#x017F;ehr klein i&#x017F;t die anzahl/</l><lb/>
+<l>(Darunder Jch verhoff zubleiben)</l><lb/>
+<l>Welche in der Ewigkeit &#x017F;ahl</l><lb/>
+<l>Ko&#x0364;nden einen namen auf&#x017F;chreiben.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi>Einen namen nu &#x017F;o groß/</l><lb/>
+<l>Vnd dein lob &#x017F;o hoch erhaben/</l><lb/>
+<l>Will Jch mit einem ge&#x017F;choß</l><lb/>
+<l>Tief in die gedechtnus graben:</l><lb/>
+<l>Vnd wan ja der Mu&#x017F;en kun&#x017F;t</l><lb/>
+<l>Nicht gar eytel vnd vmb&#x017F;un&#x017F;t/</l><lb/>
+<l>Soll nicht weniger auf erden/</l><lb/>
+<l>Dein preiß/ deine ehr vnd zier/</l><lb/>
+<l>Dan ich begehr das von dir</l><lb/>
+<l>Meine Vers/ geliebet werden.</l></lg></div><lb/>
+<fw type="sig" place="bottom">E</fw><fw type="catch" place="bottom">Die</fw><lb/>
+<pb n="66" facs="#f0070"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<div n="3"><head><hi rendition="#b">Die 2. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">G</hi>Leich wie ein Kaufman/ de&#x017F;&#x017F;en Sin</l><lb/>
+<l>Nach anders nichts dan reichthumb</l><lb/>
+<l><hi rendition="#et">trachtet/</hi></l><lb/>
+<l>Das er alle arbeit verachtet/</l><lb/>
+<l>Halb verblindet durch den gewin/</l><lb/>
+<l>Wan er nach vil mu&#x0364;h vnd gefahr</l><lb/>
+<l>Kan das erwu&#x0364;n&#x017F;chte ge&#x017F;tad gru&#x0364;&#x017F;&#x017F;en/</l><lb/>
+<l>Vnd numehr mit ko&#x0364;&#x017F;tlicher wahr</l><lb/>
+<l>Seinen geitzigen hunger bu&#x0364;&#x017F;&#x017F;en/</l><lb/>
+<l>Da in der kleinoten vnzahl</l><lb/>
+<l>Sein aug vnd gemu&#x0364;ht &#x017F;ich bewo&#x0364;gen/</l><lb/>
+<l>Das Er nicht wai&#x017F;t/ arm in der wahl/</l><lb/>
+<l>Was zu nemen/ was weg zulo&#x0364;gen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>L&#x017F;o wan meine &#x017F;chuldigkeit</l><lb/>
+<l>Meinen gei&#x017F;ttreibet zuerdichten/</l><lb/>
+<l>Was dir fu&#x0364;r ein werck aufzurichten/</l><lb/>
+<l>Welches der Jahren fra&#x0364;&#x017F;&#x017F;igkeit</l><lb/>
+<l>Mit dem reichen &#x017F;chmuck der warheit</l><lb/>
+<l>Mo&#x0364;g vnvera&#x0364;ltlich wider&#x017F;tehen</l><lb/>
+<l>Macht deiner Tugenten klarheit</l><lb/>
+<l>Mit wunder mein ge&#x017F;icht vergehen;</l><lb/>
+<fw type="catch" place="bottom">Vnd</fw><lb/>
+<pb n="67" facs="#f0071"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Vnd jemehr ich bedencke mich</l><lb/>
+<l>Welches lob er&#x017F;tlich anzuwenden/</l><lb/>
+<l>Je weniger/ forcht&#x017F;am/ waiß ich/</l><lb/>
+<l>Wa anzufangen vnd zu enden.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>An es ein vortheil &#x017F;oll &#x017F;ein/</l><lb/>
+<l>Der welt &#x017F;einen alten &#x017F;tamen</l><lb/>
+<l>Zuerzo&#x0364;hlen/ de&#x017F;&#x017F;en &#x017F;chein</l><lb/>
+<l>Scho&#x0364;ner machet vn&#x017F;ern namen:</l><lb/>
+<l>Wer zweiflet/ das nicht mit recht</l><lb/>
+<l>Dein fu&#x0364;rtrefliches ge&#x017F;chlecht</l><lb/>
+<l>Seinen Vr&#x017F;prung zu bewei&#x017F;en/</l><lb/>
+<l>Sich ab dem edlen geblu&#x0364;t/</l><lb/>
+<l>Wei&#x017F;en vnd &#x017F;tarcken gemu&#x0364;ht</l><lb/>
+<l>Deiner Anher&#xA75B;en kan prei&#x017F;en?</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 3. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Ber &#x017F;einer tugenden prob</l><lb/>
+<l>Auß &#x017F;einer Va&#x0364;tter grab zuziehen/</l><lb/>
+<l>Muß &#x017F;ich allein jener bemu&#x0364;hen/</l><lb/>
+<l>Jn de&#x017F;&#x017F;en &#x017F;ehl kein aigenlob.</l><lb/>
+<l>Nicht du/ der du gantz danckbarlich</l><lb/>
+<l>Alle gaben von Got empfangen/</l><lb/>
+<fw type="catch" place="bottom">Wel<supplied>-</supplied></fw><lb/>
+<pb n="68" facs="#f0072"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Welche die Tugent wu&#x0364;rdiglich</l><lb/>
+<l>Kan immer von dem Glück erlangen;</l><lb/>
+<l>Nicht du/ der da niemand den lohn</l><lb/>
+<l>Seines verdien&#x017F;ts wolte&#x017F;t verneinen/</l><lb/>
+<l>Begehre&#x017F;t/ klar gnug/ wie der Mohn</l><lb/>
+<l>Mit entlo&#x0364;hnetem glantz zu&#x017F;cheinen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>An die mißgun&#x017F;t/ das arge thier/</l><lb/>
+<l>Welches jedermans ehr verlo&#x0364;tzet/</l><lb/>
+<l>Sein blaiches ge&#x017F;icht auf dich &#x017F;etzet/</l><lb/>
+<l>Vnd dich erfindet &#x017F;o voll zier/</l><lb/>
+<l>Muß es mit zitterender &#x017F;ehl</l><lb/>
+<l>Wider &#x017F;einen willen ge&#x017F;tehen/</l><lb/>
+<l>Das es &#x017F;o pur von allem fehl</l><lb/>
+<l>Keinen andern als dich ge&#x017F;ehen:</l><lb/>
+<l>Ja/ &#x017F;ein giftig vnd weitter rach</l><lb/>
+<l>Wirt &#x017F;chier mit ge&#x017F;a&#x0364;uberter zungen/</l><lb/>
+<l>Vnd mit vngewohnlicher &#x017F;prach</l><lb/>
+<l>Deinleben zu loben gezwungen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">J</hi>N welches ru&#x0364;hmliche land</l><lb/>
+<l>Kan &#x017F;ich ein man wol vergehen/</l><lb/>
+<fw type="catch" place="bottom">Alda</fw><lb/>
+<pb n="69" facs="#f0073"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Alda Er deinen wol&#x017F;tand</l><lb/>
+<l>Vnd namen nicht mo&#x0364;g ver&#x017F;tehen?</l><lb/>
+<l>Taub i&#x017F;t der/ de&#x017F;&#x017F;en geho&#x0364;r</l><lb/>
+<l>Die weit-vmb fliegende mehr</l><lb/>
+<l>Deiner Weißheit nicht vernommen;</l><lb/>
+<l>Vnd wer da will ho&#x0364;flichkeit/</l><lb/>
+<l>Freundlichkeit vnd zierlichkeit</l><lb/>
+<l>Sehen/ der muß zu dir kommen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Die 4. Strophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>Je oft hat dich dein Vatterland/</l><lb/>
+<l>Wan du von meine&#x0303; gro&#x017F;&#x017F;en P&#xA75B;intzen</l><lb/>
+<l>Jn vil fer&#xA75B;-ligende Provintzen</l><lb/>
+<l>Wu&#x0364;rdiglich ware&#x017F;t außge&#x017F;ant/</l><lb/>
+<l>Zumahl voll trawrigkeit vnd fraid</l><lb/>
+<l>Mit hail vnd glu&#x0364;ckwu&#x0364;n&#x017F;chung geehret?</l><lb/>
+<l>Wi&#x017F;&#x017F;end wie dein abwe&#x017F;en &#x017F;ein laid/</l><lb/>
+<l>Vnd auch &#x017F;einen nutzen vermehret:</l><lb/>
+<l>Dieweil deine wolredenheit</l><lb/>
+<l>Kan an dich lieblich ohn bemu&#x0364;hen</l><lb/>
+<l>Der gro&#x0364;&#x017F;ten Monarchen hochheit/</l><lb/>
+<l>Vnd die Sehl durch die ohren ziehen.</l></lg></div><lb/>
+<fw type="sig" place="bottom">E iij</fw><fw type="catch" place="bottom"><hi rendition="#b">Die</hi></fw><lb/>
+<pb n="70" facs="#f0074"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<div n="3"><head><hi rendition="#b">Die 4. Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>Je der &#x017F;tarcke Theti&#x017F;che &#x017F;ohn</l><lb/>
+<l>Allerhand Ritter&#x017F;pihl geliebet/</l><lb/>
+<l>Vnd &#x017F;ich ta&#x0364;glich darin geu&#x0364;bet/</l><lb/>
+<l>Trachtend &#x017F;tehts nach der ehren-cron:</l><lb/>
+<l>Als wolge&#x017F;chickt zu rechter zeit</l><lb/>
+<l>Zu dantzen/ ringen/ vnd turnieren/</l><lb/>
+<l>Als vnver gleichlich in dem &#x017F;treit</l><lb/>
+<l>Vber den feind zu triumfieren:</l><lb/>
+<l>Al&#x017F;o hat deiner wafen glantz</l><lb/>
+<l>Jn &#x017F;chimpf den &#x017F;ig oft weggefu&#x0364;hret/</l><lb/>
+<l>Vnd den &#x017F;chwai&#x017F;&#x017F;igen Lorbo&#x0364;r-crantz</l><lb/>
+<l>Jn ern&#x017F;t mit deinem haupt gezieret.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Ber der zeit flucht &#x017F;o &#x017F;chnell</l><lb/>
+<l>Solt mir ehe dan die red fehlen<supplied>;</supplied></l><lb/>
+<l>So i&#x017F;t auch dein Nam &#x017F;o hell</l><lb/>
+<l>Das jhn gar nichts kan verha&#x0364;len:</l><lb/>
+<l>Vnd der worten u&#x0364;berfluß</l><lb/>
+<l>J&#x017F;t gemeinglich voll verdruß.</l><lb/>
+<l>Darumb will ich nu be&#x017F;chlie&#x017F;&#x017F;en/</l><lb/>
+<l>Damit nicht was ich gern wolt/</l><lb/>
+<l>Das dir wolgefallen &#x017F;olt/</l><lb/>
+<l>Dich villeicht mo&#x0364;chte verdrie&#x017F;&#x017F;en.</l></lg></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#b">Die</hi></fw><lb/>
+<pb n="71" facs="#f0075"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<div n="3"><head><hi rendition="#b">Die 5. vnd letzte Strofe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">D</hi>Er Zweck/ welchen ich mir fu&#x0364;rnem/</l><lb/>
+<l>Darnach begihriglich zuzihlen/</l><lb/>
+<l>J&#x017F;t allein/ das ich wu&#x0364;n&#x017F;ch zu fihlen/</l><lb/>
+<l>Das dir di&#x017F;e gab angenem.</l><lb/>
+<l>O du/ vnder dem &#x017F;ich mein glück</l><lb/>
+<l>Vor keinem an&#x017F;toß darf befahren/</l><lb/>
+<l>Laß mir mit einem frewden-blick</l><lb/>
+<l>Deiner gun&#x017F;t zaichen widerfahren:</l><lb/>
+<l>Vnd wan di&#x017F;es &#x017F;o ich dir bring</l><lb/>
+<l>Dein verlangen nicht &#x017F;olt erfu&#x0364;llen/</l><lb/>
+<l>Gedenck/ das keine gaab gering/</l><lb/>
+<l>Wan Sie ge&#x017F;chicht mit reichem willen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Anti&#x017F;trophe.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>L&#x017F;o wolle der Go&#x0364;tter gnad</l><lb/>
+<l>Dir &#x017F;tehts newe gu&#x0364;ter beraiten/</l><lb/>
+<l>Vnd deinen gang fro&#x0364;lich belaiten</l><lb/>
+<l>Ohn &#x017F;trauchlung durch der Tugent pfad<supplied>:</supplied></l><lb/>
+<l>Al&#x017F;o &#x017F;oll dein Nam/ lob vnd ehr</l><lb/>
+<l>Vontag zu tag lieblicher blu&#x0364;hen;</l><lb/>
+<l>Al&#x017F;o &#x017F;oll das glu&#x0364;ck mehr vnd mehr/</l><lb/>
+<l>Dem neyd zu trutz/ dich herfu&#x0364;r ziehen:</l><lb/>
+<l>Vnd al&#x017F;o ab deß Vnglu&#x0364;cksli&#x017F;t/</l><lb/>
+<l>Damit die Hohe oft ge&#x017F;chlagen/</l><lb/>
+<fw type="sig" place="bottom">E iiij</fw><fw type="catch" place="bottom">Hab</fw><lb/>
+<pb n="72" facs="#f0076"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Hab &#x017F;ich dein hauß zu keiner fri&#x017F;t</l><lb/>
+<l>Weder zu fo&#x0364;rchten/ noch zuklagen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">Epod.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">V</hi>Nd wan die glu&#x0364;ck&#x017F;eeligkeit</l><lb/>
+<l>Dich auch &#x017F;o hoch &#x017F;olt erho&#x0364;he&#x0303;/</l><lb/>
+<l>Das man dich in her&#xA75B;lichkeit</l><lb/>
+<l>Vnverbe&#x017F;&#x017F;erlich kont &#x017F;ehen:</l><lb/>
+<l>So &#x017F;ag ich doch di&#x017F;es frey/</l><lb/>
+<l>Wie groß deine wolfahrt &#x017F;ey/</l><lb/>
+<l>Das Sie meinem wun&#x017F;ch muß weiche&#x0303;;</l><lb/>
+<l>Vnd das dein ruhm/ preiß vnd ehr</l><lb/>
+<l>(Wie hoch immer) nimmermehr</l><lb/>
+<l>Deinem verdien&#x017F;t zuver gleichen.</l></lg></div></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<fw type="catch" place="bottom"><hi rendition="#b">Die</hi></fw><lb/>
+<pb n="73" facs="#f0077"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">Die 9. Ode.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">An Georg-E-<lb/>
+berhard Horneck von Wein-<lb/>
+heim/ Obri&#x017F;ten/ &#xA75B;c.</hi></head><lb/>
+<lg n="1"><l><hi rendition="#in">E</hi>S i&#x017F;t vnrecht/ eine per&#x017F;on/</l><lb/>
+<l>Deren thaten jhr lob erwei&#x017F;en/</l><lb/>
+<l>Vnd die &#x017F;chon tra&#x0364;gt der Siger-eron/</l><lb/>
+<l>Jhrem verdien&#x017F;t nach nicht zuprei&#x017F;en.</l><lb/>
+<l>Warumb dan/ Horneck/ der du dir</l><lb/>
+<l>Meine Versla&#x017F;t gantz wol gefallen/</l><lb/>
+<l>Laß ich nach &#x017F;chuldiger gebu&#x0364;hr</l><lb/>
+<l>Von dir nicht mein ge&#x017F;ang er&#x017F;challen?</l><lb/>
+<l>Wa&#x0364;r mein Vnd anckbare tra&#x0364;gheit</l><lb/>
+<l>Nicht billich von dir anzuklagen/</l><lb/>
+<l>Wa ich nicht &#x017F;olt mit der warheit</l><lb/>
+<l>Deines lobs vnd namens klarheit</l><lb/>
+<l>Vor der welt zu&#x017F;ingen mich wagen?</l></lg><lb/>
+<lg n="2"><l>Die neun Go&#x0364;ttinin/ deren lehr<lb/>
+<fw type="sig" place="bottom">E v</fw><fw type="catch" place="bottom">Zie<supplied>-</supplied></fw><lb/>
+<pb n="74" facs="#f0078"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Zieret jhre diener mit cra&#x0364;ntzen/</l><lb/>
+<l>Rein zu erhalten jhre Ehr/</l><lb/>
+<l>Ko&#x0364;nden nicht wie Dien&#x017F;tma&#x0364;gd fuchs-<lb/>
+<hi rendition="#et">&#x017F;chwa&#x0364;ntzen:</hi></l><lb/>
+<l>Doch &#x017F;eind Sie auch &#x017F;o gar &#x017F;toltz nicht/</l><lb/>
+<l>Wie jetz mehrerthails Jungfrawen/</l><lb/>
+<l>Die mit gefa&#x0364;l&#x017F;chtem ange&#x017F;icht/</l><lb/>
+<l>Mit &#x017F;awr vnd erhabnen augbrawen/</l><lb/>
+<l>Mit einem eyßkalten anblick/</l><lb/>
+<l>Mit &#x017F;chimpflichem lachen vnd gaffen/</l><lb/>
+<l>Einen/ welcher (in jhrem &#x017F;trick)</l><lb/>
+<l>Sie ehret als &#x017F;ein be&#x017F;tes glück/</l><lb/>
+<l>Sie liebet vnd lobet/ ab&#x017F;chaffen.</l></lg><lb/>
+<lg n="3"><l>Die Tugent/ als die be&#x017F;te frucht/</l><lb/>
+<l>So in jhrer &#x017F;chul zuerfa&#x017F;&#x017F;en/</l><lb/>
+<l>Macht Sie mit aller la&#x017F;ter flucht</l><lb/>
+<l>Die Vndanckbarkeit gar &#x017F;ehr ha&#x017F;&#x017F;en;</l><lb/>
+<l>Vnd ein Lehr&#x2014;reiches lob ge&#x017F;ang/</l><lb/>
+<l>Ab de&#x017F;&#x017F;en er quickendem klang</l><lb/>
+<l>Der Go&#x0364;tter hertz &#x017F;ich &#x017F;elbs ergo&#x0364;tzet/</l><lb/>
+<l>Dancket denen/ welche mit gun&#x017F;t</l><lb/>
+<l>Jhnen die Poeten verbinden/</l><lb/>
+<l>Vnd lobet Sie mit &#x017F;olcher kun&#x017F;t/</l><lb/>
+<l>Das &#x017F;ich die Zeit bemu&#x0364;ht vmb-&#x017F;un&#x017F;t</l><lb/>
+<l>Jhr &#x017F;tehtes lob zu u&#x0364;berwinden.</l></lg><lb/>
+<fw type="catch" place="bottom">Nu</fw><lb/>
+<pb n="75" facs="#f0079"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg n="4"><l>Nu ver&#x017F;prich ich dir/ vnd gelob/<lb/>
+(Will dir es auch ferners &#x017F;teif halten)</l><lb/>
+<l>Daß deiner Tugent ruhm vnd lob</l><lb/>
+<l>Soll weder &#x017F;terben noch veralten:</l><lb/>
+<l>Dan ich will Sie &#x017F;o tief vnd klar</l><lb/>
+<l>Auf der Ewigkeit tafel etzen/</l><lb/>
+<l>Das auch das all-fre&#x017F;&#x017F;ende Jahr</l><lb/>
+<l>Sie niemahls wirt ko&#x0364;nden verlo&#x0364;tzen:</l><lb/>
+<l>Jch will mit &#x017F;o getrewem mund<lb/>
+(Wan ja die Mu&#x017F;en nicht betriegen)</l><lb/>
+<l>Machen dei<supplied>n </supplied>ehr der welt &#x017F;o kund/</l><lb/>
+<l>Das &#x017F;ie &#x017F;ich dar ab alle &#x017F;tund</l><lb/>
+<l>Soll/ wie du dich ab mir/ vernu&#x0364;egen.</l></lg><lb/>
+<lg n="5"><l>Gleich wie man in der fu&#x0364;n&#x017F;tern nacht</l><lb/>
+<l>Das Firmament voll &#x017F;tern kan &#x017F;ehen;</l><lb/>
+<l>Al&#x017F;o aller Tugenten pracht</l><lb/>
+<l>Sihet man nur auf dir be&#x017F;tehen.</l><lb/>
+<l>Du bi&#x017F;t recht den Halb-go&#x0364;ttern gleich</l><lb/>
+<l>So die Alten &#x017F;o hoch geehret;</l><lb/>
+<l>Amor vnd Mars haben jhr reich</l><lb/>
+<l>Durch dein ge&#x017F;icht vnd muht vermehret:</l><lb/>
+<l>Fo&#x0364;rtigkeit/ Ho&#x0364;flichkeit/ Wol&#x017F;tand</l><lb/>
+<l>Haben dein gantz edle &#x017F;ehl innen/</l><lb/>
+<l>Daß duleichtlicht in allemland<lb/>
+<fw type="catch" place="bottom">Mit</fw><lb/>
+<pb n="76" facs="#f0080"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Mit lieb oder macht deiner Hand</l><lb/>
+<l>Der men&#x017F;chen hertzen kan&#x017F;t gewinnen.</l></lg><lb/>
+<lg n="6"><l>Das ge&#x017F;tirn/ &#x017F;o durch &#x017F;eine raiß</l><lb/>
+<l>Ta&#x0364;glich der gantzen welt muß zinden/</l><lb/>
+<l>Sicht zwar alles in dem Vmbkraiß/</l><lb/>
+<l>Kan aber dir niemand gleich finden.</l><lb/>
+<l>Dein glaub/ trew/ vnd be&#x017F;ta&#x0364;ndigkeit</l><lb/>
+<l>Seind an purheit nicht zuvergleichen;</l><lb/>
+<l>So darf auch deine Dapferkeit</l><lb/>
+<l>Keines Helden dapferkeit weichen:</l><lb/>
+<l>Vnd deines fru&#x0364;lings &#x017F;u&#x0364;&#x017F;&#x017F;e blu&#x017F;t</l><lb/>
+<l>Reuchet &#x017F;chon &#x017F;o lieblich auf erden/</l><lb/>
+<l>Das das Teut&#x017F;chland in &#x017F;einer bru&#x017F;t</l><lb/>
+<l>Spricht mit wunder vnd ho&#x0364;ch&#x017F;tem lu&#x017F;t</l><lb/>
+<l>Das dein Herb&#x017F;t gar fruchtreich mu&#x0364;ß wer-<lb/>
+<hi rendition="#et">den.</hi></l></lg><lb/>
+<lg n="7"><l>Doch/ wievil fru&#x0364;chten hat es &#x017F;chon</l><lb/>
+<l>Von deiner dapfern fau&#x017F;t empfangen?</l><lb/>
+<l>Sicht man nicht einen baum mit wohn</l><lb/>
+<l>Zumahl voll blu&#x017F;t vnd fru&#x0364;chten hangen?</l><lb/>
+<l>Al&#x017F;o bi&#x017F;t du. Dir i&#x017F;t nicht gnug</l><lb/>
+<l>Deines Churfu&#x0364;r&#x017F;ten hof zuzieren/</l><lb/>
+<l>Vnd erfahren/ beredt/ vnd klug</l><lb/>
+<l>Jn vilen &#x017F;prachen zu &#x017F;tudieren<lb/>
+<fw type="catch" place="bottom">Son-</fw><lb/>
+<pb n="77" facs="#f0081"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Sondern du zeuch&#x017F;t hertzhaft hinauß/</l><lb/>
+<l>Vnd wilt in dem la&#x0364;ger einkehren</l><lb/>
+<l>Vil lieber dan in einem hauß/</l><lb/>
+<l>Da du dan deine feind mit grauß</l><lb/>
+<l>Was du erlernt pflege&#x017F;t zu lehren.</l></lg><lb/>
+<lg n="8"><l>Ein &#x017F;chlechtes vnd verzagtes hertz&#x201E;</l><lb/>
+<l>Fo&#x0364;rchtet &#x017F;ich allzeit vor gefahren/&#x201E;</l><lb/>
+<l>Vnd &#x017F;eine forcht/ die &#x017F;elbs ein &#x017F;chmertz/&#x201E;</l><lb/>
+<l>Kan es &#x017F;icher gnug nie bewahren;&#x201E;</l><lb/>
+<l>Ja/ i&#x017F;t es nicht ein gro&#x017F;&#x017F;e &#x017F;chmach/&#x201E;</l><lb/>
+<l>Das die/ &#x017F;o nur zu&#x017F;terben leben/&#x201E;</l><lb/>
+<l>So faul von lieb/ von muth &#x017F;o &#x017F;chwach/&#x201E;</l><lb/>
+<l>Sich nicht do&#x0364;rfen dem krieg ergeben?&#x201E;</l><lb/>
+<l>Ellend i&#x017F;t der/ der durch kleinmuht&#x201E;</l><lb/>
+<l>Muß lang kranck auf &#x017F;einem beth zagen;&#x201E;</l><lb/>
+<l>Seelig i&#x017F;t der/ welcher &#x017F;ein blut/&#x201E;</l><lb/>
+<l>Seine ruh/ &#x017F;ein leben vnd gut&#x201E;</l><lb/>
+<l>Fu&#x0364;r Gottes ehr in wind darf &#x017F;chlagen.&#x201E;</l></lg><lb/>
+<lg n="9"><l>Al&#x017F;o thu&#x017F;t du. Jtalia</l><lb/>
+<l>Wirt ein &#x017F;olches all zeit bezeugen;</l><lb/>
+<l>Niderland/ Teut&#x017F;chland/ J&#x017F;tria</l><lb/>
+<l>Ko&#x0364;nden &#x017F;olches auch nicht ver&#x017F;chweigen.</l><lb/>
+<l>Aber/ Wan ich mit ho&#x0364;herm thon</l><lb/>
+<l>Einmahl &#x017F;ing von dem Potentaten/<lb/>
+<fw type="catch" place="bottom">Der</fw><lb/>
+<pb n="78" facs="#f0082"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Der bekant wie der khu&#x0364;n Ja&#x017F;on<lb/>
+(Doch getrewer) durch &#x017F;eine thaten;</l><lb/>
+<l>Alß dan &#x017F;oll dein vnd deren preiß/</l><lb/>
+<l>Die jhm dienen/ la&#x0364;uter er&#x017F;challen;</l><lb/>
+<l>Hiezwi&#x017F;chen laß nach deiner weiß/</l><lb/>
+<l>Horneck/ dir di&#x017F;en &#x017F;chlechten fleiß/</l><lb/>
+<l>Den mein hertz reich macht/ nicht miß fal-<lb/>
+<hi rendition="#et">len.</hi></l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">Die 10. Ode.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Kennzaichen ei-<lb/>
+nes Glu&#x0364;ck&#x017F;eeligen Le-<lb/>
+bens.<lb/>
+An Alexandern vom Rue&#x017F;t/ &#xA75B;c.</hi></head><lb/>
+<lg n="10"><l><hi rendition="#in">W</hi>Je glu&#x0364;ck&#x017F;eelig i&#x017F;t de&#x017F;&#x017F;en leben/</l><lb/>
+<l>Dem keines andern will gebeut;</l><lb/>
+<l>Der ohn neyd/ mi&#x017F;tgun&#x017F;t oder &#x017F;treit</l><lb/>
+<l>Sicht andrer glu&#x0364;ck fu&#x0364;r u&#x0364;ber &#x017F;chweben.</l></lg><lb/>
+<fw type="catch" place="bottom">Der</fw><lb/>
+<pb n="79" facs="#f0083"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg n="11"><l>Der &#x017F;elbs &#x017F;eine begird regieret/</l><lb/>
+<l>De&#x017F;&#x017F;en frumb vnd redlicher muth</l><lb/>
+<l>J&#x017F;t &#x017F;ein be&#x017F;te ru&#x0364;&#x017F;tung vnd hut;</l><lb/>
+<l>De&#x017F;&#x017F;en gewi&#x017F;&#x017F;en kriumfieret.</l></lg><lb/>
+<lg n="12"><l>Welcher keines ge&#x017F;chrays begehret/</l><lb/>
+<l>Dem die Warheit die gro&#x0364;&#x017F;te kun&#x017F;t;</l><lb/>
+<l>Den des Fu&#x0364;r&#x017F;ten noch Po&#x0364;fels gun&#x017F;t/</l><lb/>
+<l>Weder hofnung noch forcht betho&#x0364;ret.</l></lg><lb/>
+<lg n="13"><l>Der die Fuchs&#x017F;chwa&#x0364;ntzer fort laßt gehen/</l><lb/>
+<l>Vnd nicht &#x017F;pei&#x017F;et von &#x017F;einem gut;</l><lb/>
+<l>Vnd de&#x017F;&#x017F;en fall oder armut</l><lb/>
+<l>Kan &#x017F;eine ha&#x0364;&#x017F;&#x017F;er nicht erho&#x0364;hen.</l></lg><lb/>
+<lg n="14"><l>Der &#x017F;elbs nicht wai&#x017F;t/ wie u&#x0364;bel &#x017F;chmu&#x0364;rtzet</l><lb/>
+<l>Des bo&#x0364;&#x017F;en lob/ des frommen fluch;</l><lb/>
+<l>Dem ein guter freund oder buch</l><lb/>
+<l>Seine &#x017F;chadlo&#x017F;e zeit verku&#x0364;rtzet.</l></lg><lb/>
+<lg n="15"><l>De&#x017F;&#x017F;en gemu&#x0364;ht &#x017F;ich vor nichts &#x017F;cheyhet/</l><lb/>
+<l>Als allzeit ber ait fu&#x0364;r den Tod;</l><lb/>
+<l>Der ern&#x017F;tlich fru&#x0364;h vnd &#x017F;paht zu Got</l><lb/>
+<l>Mehr vmb gnad/ dan vmb gu&#x0364;ter &#x017F;chreyhet.</l></lg><lb/>
+<fw type="catch" place="bottom">Der</fw><lb/>
+<pb n="80" facs="#f0084"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg n="16"><l>Der men&#x017F;ch be&#x017F;orgt &#x017F;ich keines falles/</l><lb/>
+<l>Sondern i&#x017F;t gantz frey/ reich vnd groß/</l><lb/>
+<l>Sein &#x017F;elbs Her&#xA75B;/ ob Er wol Land-loß/</l><lb/>
+<l>Vnd habend nichts hat Er doch alles.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">Die 11. Ode.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Von des Tods<lb/>
+gewißheit vnd der Tu-<lb/>
+gent.<lb/>
+An Hanß Hartman von</hi><lb/>
+Botzheim/ &#xA75B;c.</head><lb/>
+<lg n="17"><l><hi rendition="#in">M</hi>An findet nichts vollkommen in der<lb/>
+<hi rendition="#et">welt/</hi></l><lb/>
+<l>Wir men&#x017F;chen &#x017F;eind mit &#x017F;orgen/<lb/>
+<hi rendition="#et">pein/ vnd plagen/</hi></l><lb/>
+<l>All ort vnd zeit/ in &#x017F;ta&#x0364;tten/ auf dem feld/</l><lb/>
+<l>Von himmel/ luft/ mo&#x0364;hr vnd vns &#x017F;elbs ge-<lb/>
+<hi rendition="#et">&#x017F;chlagen:</hi></l></lg><lb/>
+<fw type="catch" place="bottom">Ja</fw><lb/>
+<pb n="81" facs="#f0085"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg n="18"><l>Ja auch der Go&#x0364;tter macht</l><lb/>
+<l>Hat jhr wohnung vollkommen/</l><lb/>
+<l>Vnd &#x017F;eelig nicht gemacht.</l><lb/>
+<l>Wer hat nicht wargenommen/</l><lb/>
+<l>Wie Sonn vnd Mohn gemein</l><lb/>
+<l>Verfu&#x0364;n&#x017F;tern jhren &#x017F;chein?</l><lb/>
+<l>Vnd wie deß himmel zeichen</l><lb/>
+<l>Oft mangelhaft verblaichen?</l></lg><lb/>
+<lg n="19"><l>Mit wievil ang&#x017F;t/ gefahren/ mu&#x0364;h vnd noht</l><lb/>
+<l>Seind ohn ablaß Wir men&#x017F;chen vm&#x0303;gegeben?</l><lb/>
+<l>Di&#x017F;e mit li&#x017F;t u&#x0364;ber gibt man dem Tod/</l><lb/>
+<l>Jener hertzhaft verkrieget &#x017F;elbs &#x017F;ein leben;</l><lb/>
+<l>Di&#x017F;er auß vil verdruß/</l><lb/>
+<l>Vnd <supplied>tr</supplied>awren will verderben;</l><lb/>
+<l>Jener erba&#x0364;rmdlich muß</l><lb/>
+<l>Jn der gefencknus &#x017F;terben;</l><lb/>
+<l>Etlich du&#x0364;r&#x017F;tig nach gut/</l><lb/>
+<l>Fliehen vor der armut/</l><lb/>
+<l>Vnd jhren geitz ver&#x017F;incken/</l><lb/>
+<l>Wan Sie im Mo&#x0364;hr ertrincken.</l></lg><lb/>
+<lg n="20"><l>Di&#x017F;e mit gift/ wa&#x017F;&#x017F;er/ &#x017F;chwert oder &#x017F;trick</l><lb/>
+<l>Vber &#x017F;ich &#x017F;elbs &#x017F;chro&#x0364;cklich ein vrthail &#x017F;p&#xA75B;eche&#x0303;/</l><lb/>
+<l>Vnd ro&#x0364;ttend &#x017F;ich von zu &#x017F;chwerem vnglück/</l><lb/>
+<l>Zweiflen Sie nicht &#x017F;ich wider &#x017F;ich zurechen:<lb/>
+<fw type="sig" place="bottom">F</fw><fw type="catch" place="bottom">Jene</fw><lb/>
+<pb n="82" facs="#f0086"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Jene kommend mit zwang</l><lb/>
+<l>Jn di&#x017F;es lebens leyden/</l><lb/>
+<l>Finden gleich den Außgang/</l><lb/>
+<l>Vnd andre mu&#x0364;h vermeyden;</l><lb/>
+<l>Oder &#x017F;ich in ihr grab</l><lb/>
+<l>Ehe &#x017F;ie einige gaab</l><lb/>
+<l>Des tags (&#x017F;eelig) genie&#x017F;&#x017F;en/</l><lb/>
+<l>Jn muterleib be&#x017F;chlie&#x017F;&#x017F;en.</l></lg><lb/>
+<lg n="21"><l>Der Tod gewiß klopfet mit einem bein</l><lb/>
+<l>An gro&#x017F;&#x017F;er Her&#xA75B;n wolcken-tragende &#x017F;chlo&#x0364;&#x017F;&#x017F;er/</l><lb/>
+<l>Vnd armer leut ligende hüttelein/</l><lb/>
+<l>Vnd i&#x017F;t fu&#x0364;r beed weder bo&#x0364;&#x017F;er noch be&#x017F;&#x017F;er</l><lb/>
+<l>Den leib ein Tod allein</l><lb/>
+<l>Mit vnhailbaren plagen/</l><lb/>
+<l>Vnentflielicher pein/</l><lb/>
+<l>Vnd vndien&#x017F;tlichen klagen</l><lb/>
+<l>Eng&#x017F;tiget tag vnd nacht;</l><lb/>
+<l>Vnd die &#x017F;ehl wirt gebracht</l><lb/>
+<l>Vor Minos/ der kein flehen</l><lb/>
+<l>Pfleget mehr anzu&#x017F;ehen.</l></lg><lb/>
+<lg n="22"><l>Der weg i&#x017F;t brait in das fu&#x0364;n&#x017F;tere hauß/</l><lb/>
+<l>Offen die thu&#x0364;r/ das man &#x017F;tets hinein gehet;</l><lb/>
+<l>Aber widerumb zu entrinnen darauß/</l><lb/>
+<l>Hierauf das werck/ hier auf die mu&#x0364;h be&#x017F;tehet.<lb/>
+<fw type="catch" place="bottom">Der</fw><lb/>
+<pb n="83" facs="#f0087"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Der Tugent weg i&#x017F;t &#x017F;chmal/</l><lb/>
+<l>Mit dornen wol ver&#x017F;chlo&#x017F;&#x017F;en/</l><lb/>
+<l>Vnd gering die anzahl</l><lb/>
+<l>Deren die vnverdro&#x017F;&#x017F;en/</l><lb/>
+<l>Vnd durch der Go&#x0364;tter gun&#x017F;t/</l><lb/>
+<l>Vnd der Tugent inbrun&#x017F;t</l><lb/>
+<l>Von dem po&#x0364;fel entzogen</l><lb/>
+<l>Zu dem ge&#x017F;tirn geflogen.</l></lg><lb/>
+<lg n="23"><l>Der/ de&#x017F;&#x017F;en hertz mit Tugent armiert i&#x017F;t/</l><lb/>
+<l>Gleich wie/ Botzheim/ dein edles hertz zu&#x017F;ehen/</l><lb/>
+<l xml:id="v07" next="#v08">Der kan deß Glu&#x0364;cks zorn/ wanckelmuht vnd</l><lb/>
+<l>Vo&#x0364;&#x017F;t wie ein fo&#x0364;lß/ vnzaghaft wider&#x017F;tehe&#x0303;;</l><l xml:id="v08" prev="#v07"><hi rendition="#et">(li&#x017F;t/</hi></l><lb/>
+<l>Er i&#x017F;t allzeit forchtloß/</l><lb/>
+<l>Vor dem &#x017F;trahl vnverblichen/</l><lb/>
+<l>Weißheit macht &#x017F;ein hertz groß/</l><lb/>
+<l>Stehts &#x017F;igreich/ vnverglichen;</l><lb/>
+<l>Er/ der fu&#x0364;r &#x017F;einen lohn</l><lb/>
+<l>Sucht der Seeligkeit cron/</l><lb/>
+<l>Nichts Jr&#xA75B;di&#x017F;chem nach&#x017F;trebet/</l><lb/>
+<l>Vnd &#x017F;ich &#x017F;elbs u&#x0364;berlebet.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<fw type="sig" place="bottom">F ij</fw><fw type="catch" place="bottom"><hi rendition="#b">Klag</hi></fw><lb/>
+<pb n="84" facs="#f0088"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">Die 12. Ode.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Klag u&#x0364;ber die<lb/>
+Lieb.</hi></head><lb/>
+<lg n="24"><l><hi rendition="#in">M</hi>Ein junges hertz durch vnd durch<lb/>
+<hi rendition="#et">wund/</hi></l><lb/>
+<l>Ohn hofnung aller hilf vn&#x0303; gnaden/</l><lb/>
+<l>Wartet des Tods zu aller &#x017F;tund/</l><lb/>
+<l>Mit mehr pein dan jahren beladen.</l></lg><lb/>
+<lg n="25"><l>Doch die/ deren mit &#x017F;olcher noht</l><lb/>
+<l>Ein opfer ich nu muß verbrennen/</l><lb/>
+<l>Ob Sie &#x017F;chon &#x017F;ihet meinen tod/</l><lb/>
+<l>Will &#x017F;ie doch mein laid nicht erkennen.</l></lg><lb/>
+<lg n="26"><l>Sondern gleich wie ein fo&#x0364;lß dem Mo&#x0364;hr/</l><lb/>
+<l>Wider&#x017F;tehet &#x017F;ie meinem &#x017F;chreyhen/</l><lb/>
+<l>Vnd &#x017F;po&#x0364;&#xA75B;ret jhr miltes geho&#x0364;r/</l><lb/>
+<l>Auß forcht &#x017F;ich jhres zorns zu reyhen.</l></lg><lb/>
+<fw type="catch" place="bottom">Ohar-</fw><lb/>
+<pb n="85" facs="#f0089"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg n="27"><l>Oharte Vngerechtigkeit/</l><lb/>
+<l>Damit die himmel mich be&#x017F;chwehren<hi rendition="#i">!</hi></l><lb/>
+<l>Muß ich die/ deren grewlichkeit</l><lb/>
+<l>Mich to&#x0364;dtet/ anrufen vnd ehren?</l></lg><lb/>
+<lg n="28"><l>Wolan dan/ armes hertz/ halt &#x017F;till/</l><lb/>
+<l>Wer kan den Go&#x0364;ttern wider&#x017F;tehen?&#x201E;</l><lb/>
+<l>Sie ziehen den/ welcher nicht will/&#x201E;</l><lb/>
+<l>Vnd laitten den/ der gern will gehen.&#x201E;</l></lg><lb/>
+<lg n="29"><l>Meines tods vr&#x017F;ach i&#x017F;t mein lob/</l><lb/>
+<l>Gro&#x0364;&#x017F;&#x017F;ern ruhm kan ich nicht erwerben;</l><lb/>
+<l>Vnd das end i&#x017F;t des mai&#x017F;ters prob/&#x201E;</l><lb/>
+<l>Darumb will ich mit frewden &#x017F;terben.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">13.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Vber einen<lb/>
+Krantz.</hi></head><lb/>
+<lg n="30"><l><hi rendition="#in">D</hi>J&#x017F;e Ro&#x017F;en in deinem Krantz</l><lb/>
+<l>Seind roht/ wie deiner leftzen glantz/<lb/>
+<fw type="sig" place="bottom">F iij</fw><fw type="catch" place="bottom">Die</fw><lb/>
+<pb n="86" facs="#f0090"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Die fri&#x017F;che gilgen &#x017F;ich vergleichen</l><lb/>
+<l>Deiner zarten vnd glatten hand/</l><lb/>
+<l>Vnd dasleuchtend gu&#x0364;ldine band</l><lb/>
+<l>Muß deinem krauß-gelben haar weichen.</l></lg><lb/>
+<lg n="31"><l>Wa nu/ hertzlieb/ dir witz gnug wer/</l><lb/>
+<l>Zu ver&#x017F;tehen di&#x017F;es wercks lehr/</l><lb/>
+<l>Lie&#x017F;&#x017F;e&#x017F;t du die zeit nicht hingehen</l><lb/>
+<l>Auß zu junger vnacht&#x017F;ambkeit/</l><lb/>
+<l>Sondern mit mehr fu&#x0364;r&#x017F;ichtigkeit</l><lb/>
+<l>Wu&#x0364;rde&#x017F;t du den nachthail vor&#x017F;ehen.</l></lg><lb/>
+<lg n="32"><l>Ein tag i&#x017F;t der Ro&#x017F;en abgang/</l><lb/>
+<l>Die Gilgen blu&#x0364;hen auch nicht lang/</l><lb/>
+<l>Vnd deine blum ohn widerkehren</l><lb/>
+<l>Veraltet/ vnd verwa&#x0364;lcket &#x017F;ich/</l><lb/>
+<l>Wie dan auch di&#x017F;er goldfad dich</l><lb/>
+<l>Soll dein bru&#x0364;chiges leben lehren.</l></lg><lb/>
+<lg n="33"><l>Warumb bi&#x017F;t du dan &#x017F;o feindlich/</l><lb/>
+<l>Warumb red&#x017F;t du &#x017F;o vnfreundlich/</l><lb/>
+<l>Warumb thu&#x017F;t du mich &#x017F;tehts betru&#x0364;ben?</l><lb/>
+<l>Erbarm&#x017F;t du dich nicht u&#x0364;ber mich/</l><lb/>
+<l>So erbarm dich doch u&#x0364;ber Dich/</l><lb/>
+<l>Vnd laß vns nu einander lieben.</l></lg></div></div><lb/>
+<fw type="catch" place="bottom">Scho&#x0364;n-</fw><lb/>
+<pb n="87" facs="#f0091"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">14.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Scho&#x0364;nheit nicht<lb/>
+wehrhaft.</hi></head><lb/>
+<lg n="34"><l><hi rendition="#in">L</hi>Aßt vns in den garten gehen/</l><lb/>
+<l>Scho&#x0364;nes lieb/ damit wir &#x017F;ehen/</l><lb/>
+<l>Ob der blumen ehr/ die Roß/</l><lb/>
+<l>So Euch ewre farb gezaiget/</l><lb/>
+<l>Da Sie heut der Taw auf&#x017F;chloß/</l><lb/>
+<l>Jhren pracht noch nicht abnaiget.</l></lg><lb/>
+<lg n="35"><l>Sih doch/ von wie wenig &#x017F;tunden</l><lb/>
+<l>Jhr fri&#x017F;cher &#x017F;chmuck u&#x0364;berwunden/</l><lb/>
+<l>Wie zu grund ligt all jhr ruhm<hi rendition="#i">!</hi></l><lb/>
+<l>Natur/ wie &#x017F;olt man dich ehren/</l><lb/>
+<l>Da du doch ein &#x017F;olche bluhm</l><lb/>
+<l>Kaum einen tag la&#x017F;&#x017F;e&#x017F;t wehren?</l></lg><lb/>
+<lg n="36"><l>Was i&#x017F;t es dan das jhr fliehet/</l><lb/>
+<l>Jn dem ewer alter blu&#x0364;het</l><lb/>
+<l>Von meiner lieb &#x017F;u&#x0364;&#x017F;&#x017F;igkeit?<lb/>
+<fw type="sig" place="bottom">F iiij</fw><fw type="catch" place="bottom">Genu&#x0364;e&#x017F;-</fw><lb/>
+<pb n="88" facs="#f0092"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Genu&#x0364;e&#x017F;&#x017F;et nu ewrer Jahren/</l><lb/>
+<l>Die zeit würt ewre &#x017F;cho&#x0364;nheit</l><lb/>
+<l>Nicht mehr dan di&#x017F;e blum &#x017F;pahren.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">15.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Amorbetrogen.</hi></head><lb/>
+<lg n="37"><l><hi rendition="#in">C</hi>Vp<supplied>i</supplied>do einmahl &#x017F;ehr verdro&#x017F;&#x017F;en/</l><lb/>
+<l>Das Er hat &#x017F;ovil pfeil vmb&#x017F;un&#x017F;t</l><lb/>
+<l>Auf meine Myrta loß-ge&#x017F;cho&#x017F;&#x017F;en/</l><lb/>
+<l>Welche verachtet &#x017F;eine kun&#x017F;t/</l><lb/>
+<l>Erwo&#x0364;hlet jhre zarte &#x017F;choß</l><lb/>
+<l>Zu wunden ein &#x017F;charpfes ge&#x017F;choß.</l></lg><lb/>
+<lg n="38"><l>Al&#x017F;o flog Er bald in den garten/</l><lb/>
+<l>Da Er die&#x017F;elb zu &#x017F;ein gedacht/</l><lb/>
+<l>Vnd nemend-wahr von fern der zarten/</l><lb/>
+<l>Die Jhn in di&#x017F;e welt gebracht/</l><lb/>
+<l>Wolan/ &#x017F;prach Er/ Myrta dein blut</l><lb/>
+<l>Soll jetzt bü&#x017F;&#x017F;en deinen hoch muht.</l></lg><lb/>
+<fw type="catch" place="bottom">Er</fw><lb/>
+<pb n="89" facs="#f0093"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg n="39"><l>Er &#x017F;pannet (vnweiß) &#x017F;einen bogen/</l><lb/>
+<l>Zihlet nach dem hertzen ohn gnad/</l><lb/>
+<l>Vnd &#x017F;choß jhn plo&#x0364;tzlich loß (betrogen)</l><lb/>
+<l>Jn &#x017F;einer muter bru&#x017F;t gerad;</l><lb/>
+<l>Al&#x017F;o das ein grewlicher &#x017F;chmertz</l><lb/>
+<l>Vergifftet jhr go&#x0364;tliches hertz.</l></lg><lb/>
+<lg n="40"><l>Ach weh<hi rendition="#i">!</hi> was mag&#x017F;t du wol gedencken/</l><lb/>
+<l>Sprach Sie/ du vndanckbarer knab/</l><lb/>
+<l>Wie kan&#x017F;t du &#x017F;o to&#x0364;dlich bekra&#x0364;ncken</l><lb/>
+<l>Die/ welche dir das leben gab?</l><lb/>
+<l>Vnd &#x017F;pare&#x017F;t gleichwol deine macht</l><lb/>
+<l>Gegen deren die dich verlacht?</l></lg><lb/>
+<lg n="41"><l>Solches das kind &#x017F;o &#x017F;ehr er&#x017F;chro&#x0364;ckte/</l><lb/>
+<l>Das es bald &#x017F;eine wa&#x0364;ngelein</l><lb/>
+<l>Mit hai&#x017F;&#x017F;en zehern u&#x0364;berdo&#x0364;ckte/</l><lb/>
+<l>Vnd &#x017F;chryh/ Ach<hi rendition="#i">!</hi> liebes mu&#x0364;terlein/</l><lb/>
+<l>Ach<hi rendition="#i">!</hi> verzeihet mir/ ich nam Euch</l><lb/>
+<l>Fu&#x0364;r Myrta/ deren Jhr gar gleich.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<fw type="sig" place="bottom">F v</fw><fw type="catch" place="bottom"><hi rendition="#b">Die</hi></fw><lb/>
+<pb n="90" facs="#f0094"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">16.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Be&#x017F;ta&#x0364;htigung<lb/>
+der Lieb.</hi></head><lb/>
+<lg n="42"><l><hi rendition="#in">D</hi>As jhr von vilen &#x017F;eit geehret/</l><lb/>
+<l>Das jhr von vilen werd begehret/</l><lb/>
+<l>Mag wol wahr &#x017F;ein:</l><lb/>
+<l>Das aber jhr andere &#x017F;ehlen</l><lb/>
+<l>So &#x017F;ehr als die meine ko&#x0364;nt quehlen/</l><lb/>
+<l>Hat keinen &#x017F;chein.</l></lg><lb/>
+<lg n="43"><l>Das vil &#x017F;cho&#x0364;nheiten hie auf erden</l><lb/>
+<l>Gelobet vnd verwundert werden/</l><lb/>
+<l>Mag wol wahr &#x017F;ein:</l><lb/>
+<l>Das aber auch eine auß allen</l><lb/>
+<l>Den Go&#x0364;ttern mo&#x0364;g/ wie jhr/ gefallen/</l><lb/>
+<l>Hat keinen &#x017F;chein.</l></lg><lb/>
+<lg n="44"><l>Das ein jeder/ &#x017F;o euch er&#x017F;ehen/</l><lb/>
+<l>Ewern dien&#x017F;t wolte vnder gehen/</l><lb/>
+<l>Mag wol wahr &#x017F;ein:<lb/>
+<fw type="catch" place="bottom">Das</fw><lb/>
+<pb n="91" facs="#f0095"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Das jhr aber mo&#x0364;cht einen finden/</l><lb/>
+<l>Den jhr &#x017F;o hart als mich ko&#x0364;nt binden/</l><lb/>
+<l>Hat keinen &#x017F;chein.</l></lg><lb/>
+<lg n="45"><l>Das durch ewere &#x017F;u&#x0364;&#x017F;&#x017F;e &#x017F;itten</l><lb/>
+<l>Jch nicht allein vil mu&#x0364;h erlitten/</l><lb/>
+<l>Mag wol wahr &#x017F;ein:</l><lb/>
+<l>Das aber darumb andre hertzen</l><lb/>
+<l>Leiden dem meinen gleiche &#x017F;chmertzen/</l><lb/>
+<l>Hat keinen &#x017F;chein.</l></lg><lb/>
+<lg n="46"><l>Das endlich &#x017F;olche pein zufliehen</l><lb/>
+<l>Meine vernunft &#x017F;ich woll bemu&#x0364;hen/</l><lb/>
+<l>Mag wol wahr &#x017F;ein:</l><lb/>
+<l>Das aber von &#x017F;o &#x017F;cho&#x0364;nen ha&#x0364;nden</l><lb/>
+<l>Jch mich zu andrer dien&#x017F;t woll wenden/</l><lb/>
+<l>Hat keinen &#x017F;chein.</l></lg><lb/>
+<lg n="47"><l>Das der Tod allein meine klagen/</l><lb/>
+<l>Vnd ewern hochmuht werd vertragen/</l><lb/>
+<l>Mag wol wahr &#x017F;ein:</l><lb/>
+<l>Das aber durch ewer belaiden</l><lb/>
+<l>Mein hertz ko&#x0364;nde von Euch ab&#x017F;chaiden/</l><lb/>
+<l>Hat keinen &#x017F;chein.</l></lg></div></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#b">Stum-</hi></fw><lb/>
+<pb n="92" facs="#f0096"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">17.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Stummered<lb/>
+der Lieb.</hi></head><lb/>
+<lg n="48"><l><hi rendition="#in">W</hi>An zureden vnd &#x017F;till-zu-&#x017F;chweigen</l><lb/>
+<l>Zumahl verhindert vn&#x017F;er glück/</l><lb/>
+<l>So laß vns vn&#x017F;er hertz bezeugen</l><lb/>
+<l>Durch &#x017F;ich be&#x017F;pra chende anblick/</l><lb/>
+<l>Amor/ welchen wir allzeit ehren/</l><lb/>
+<l>Wirt vns &#x017F;olche &#x017F;tumme &#x017F;prach lehren.</l></lg><lb/>
+<lg n="49"><l>Laß die anblick hin vnd herfliegen/</l><lb/>
+<l>Getrewe botten deiner gun&#x017F;t/</l><lb/>
+<l>Der Neyder torheit zu betriegen/</l><lb/>
+<l>Toll vnd do&#x0364;lpi&#x017F;ch zu di&#x017F;er kun&#x017F;t;</l><lb/>
+<l>Dan Amor/ welchen &#x017F;ie nicht ehren/</l><lb/>
+<l>Wirt &#x017F;ie die &#x017F;tumme &#x017F;prach nicht lehren.</l></lg><lb/>
+<lg n="50"><l>Wan aber di&#x017F;er blicken fahrt</l><lb/>
+<l>Auch irgends jemand &#x017F;olt verdrie&#x017F;&#x017F;en/</l><lb/>
+<l>So laß vns/ nach der Engeln art/</l><lb/>
+<l>Vns mit den gedancken begru&#x0364;&#x017F;&#x017F;en:<lb/>
+<fw type="catch" place="bottom">Amor/</fw><lb/>
+<pb n="93" facs="#f0097"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Amor/ welchen wir allzeit ehren/</l><lb/>
+<l>Wirt vns &#x017F;olche &#x017F;tumme &#x017F;prach leh&#xA75B;en.</l></lg><lb/>
+<lg n="51"><l>Al&#x017F;o durch die li&#x017F;tige kun&#x017F;t</l><lb/>
+<l>Wollen wir die &#x017F;chwetzer betru&#x0364;egen/</l><lb/>
+<l>Vnd lachend ab jhrer vngun&#x017F;t/</l><lb/>
+<l>Vn&#x017F;re hertzen nach lu&#x017F;t vernu&#x0364;egen;</l><lb/>
+<l>Weil Sie to&#xA75B;recht Amorn nicht ehren/</l><lb/>
+<l>Wirt Er &#x017F;ie di&#x017F;e &#x017F;prach niche lehren.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">18.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Anacreonti&#x017F;ch.<lb/>
+Es i&#x017F;t vnglu&#x0364;ck zu<lb/>
+buhlen vnd nicht zu<lb/>
+buhlen.</hi></head><lb/>
+<lg n="52"><l><hi rendition="#in">D</hi>Er &#x017F;o buhlet ley det vil plag/</l><lb/>
+<l>Der nicht buhlet findet all tag</l><lb/>
+<l>Auch mu&#x0364;h gnug &#x017F;ein hertz zu verd&#xA75B;ie&#x017F;&#x017F;en:</l><lb/>
+<l>Aber der hat mehr pein vnd rew/<lb/>
+<fw type="catch" place="bottom">Wel-</fw><lb/>
+<pb n="94" facs="#f0098"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Welcher nach langer lieb vnd trew</l><lb/>
+<l>Kan &#x017F;einer dien&#x017F;ten nicht genu&#x0364;e&#x017F;&#x017F;en.</l></lg><lb/>
+<lg n="53"><l>Weißheit/ Adel/ Tugent vnd Zucht</l><lb/>
+<l>Bringen zu der Lieb keine frucht/</l><lb/>
+<l>Den ku&#x0364;n&#x017F;ten die leut nichts nachfragen;</l><lb/>
+<l>Die Jungfrawen jetziger zeit/</l><lb/>
+<l>Mehrer thails fail/ erho&#x0364;ben weit</l><lb/>
+<l>Die/ &#x017F;o am mehr&#x017F;ten gelt zutragen.</l></lg><lb/>
+<lg n="54"><l>O das der ja&#x0364;merlich verderb/</l><lb/>
+<l>Vnd ewig &#x017F;terb vnd wider&#x017F;terb/<lb/>
+<gap reason="lost"/>lcher das gold er&#x017F;tlich erfunden<hi rendition="#i">!</hi><lb/>
+<supplied>D</supplied>ardurch &#x017F;ich die nech&#x017F;te blutsfreund/<lb/>
+<gap reason="lost"/> dan natu&#x0364;rliche Tods-feind/</l><lb/>
+<l>Ha&#x017F;&#x017F;en/ durch den geitz u&#x0364;berwunden.</l></lg><lb/>
+<lg n="55"><l>Dannenher kommet alle noht/</l><lb/>
+<l>Verdruß/ neyd/ zwitracht/ krieg vnd Tod/</l><lb/>
+<l>Trawren/ ang&#x017F;t/ &#x017F;orgen vnd mißtrawen.</l><lb/>
+<l>Darumb jhr ge&#x017F;ellen &#x017F;eit weiß/</l><lb/>
+<l>Euch zu hu&#x0364;ten mit allem fleiß</l><lb/>
+<l>Vor allen geitzigen Jungfrawen.</l></lg></div></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#b">Vnbe-</hi></fw><lb/>
+<pb n="95" facs="#f0099"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">19.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Vnbe&#x017F;ta&#x0303;db&#xA75B;ingt<lb/>
+Vnbe&#x017F;tand.</hi></head><lb/>
+<lg n="56"><l><hi rendition="#in">S</hi>Je/ welche ich &#x017F;o lang geehret/</l><lb/>
+<l>Weil ich jhr lieb &#x017F;tandhaft gedacht/</l><lb/>
+<l>Hat durch jhr vntrew jhren pracht/</l><lb/>
+<l>Meine hofnung vnd frewd zu&#x017F;to&#x0364;ret.</l><lb/>
+<l>Aber glu&#x0364;ck&#x017F;eelig i&#x017F;t die pein/&#x201E;</l><lb/>
+<l>Die die buhler lehret weiß &#x017F;ein.&#x201E;</l></lg><lb/>
+<lg n="57"><l>Sie/ die jhre angen zufeuchten</l><lb/>
+<l>Meinetwegen allein oft &#x017F;chwur/</l><lb/>
+<l>La&#x017F;&#x017F;et &#x017F;ie/ wie ein andre hur/</l><lb/>
+<l>Mo&#x0364;niglich zu erdappen leuchten:</l><lb/>
+<l>Darumb haß ich nu jhren &#x017F;chein/</l><lb/>
+<l>Dan &#x017F;cho&#x0364;n i&#x017F;t nicht was zu gemein.&#x201E;</l></lg><lb/>
+<lg n="58"><l>Wie oft hat &#x017F;ie fa&#x0364;l&#x017F;chlich ge&#x017F;chworen/</l><lb/>
+<l>Das jhr hertz von betrug gantz frey;<lb/>
+<fw type="catch" place="bottom">Aber</fw><lb/>
+<pb n="96" facs="#f0100"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Aber jhre wort/ lieb vnd trew</l><lb/>
+<l>Seind zu mahl in dem wind verlohren;</l><lb/>
+<l>Vnd jetzund mein &#x017F;chlechter verdruß<lb/>
+(Jhr gro&#x017F;&#x017F;e &#x017F;chand) i&#x017F;t meine buß.</l></lg><lb/>
+<lg n="59"><l>Di&#x017F;er verdruß kan nicht lang wehren/</l><lb/>
+<l>Weil jhr to&#xA75B;rechter wanckelmuht</l><lb/>
+<l>Folget nach u&#x0364;bergebnem gut/</l><lb/>
+<l>Vnd nach dem verlu&#x017F;t jhrer ehren.<lb/>
+&#x201E;Zu&#x017F;paht/ vnd vmb&#x017F;un&#x017F;t i&#x017F;t die flucht/<lb/>
+&#x201E;Wan man behaftet mit der &#x017F;ucht.</l></lg><lb/>
+<lg n="60"><l>Jch kan zwar/ vnd will nicht verneinen/</l><lb/>
+<l>Das jhr fu&#x0364;rtrefliche &#x017F;cho&#x0364;nheit</l><lb/>
+<l>Gewan meines hertzens freyheit/</l><lb/>
+<l>Mit liebko&#x017F;en/ klagen vnd weinen:</l><lb/>
+<l>Nu aber &#x017F;chaidet meine Rew</l><lb/>
+<l>Meine lieb von jhrer vntrew.</l></lg><lb/>
+<lg n="61"><l>Jch war jhr hertz/ jhr tro&#x017F;t vnd leben/</l><lb/>
+<l>Sie war die Go&#x0364;ttin meiner Bru&#x017F;t;</l><lb/>
+<l>Jetz hab ich bey jhr keinen lu&#x017F;t/</l><lb/>
+<l>Will auch jhr keine frewd mehr geben.</l><lb/>
+<l>Jhr vnbe&#x017F;tand vnd mein ver&#x017F;tand</l><lb/>
+<l>Lo&#x0364;&#x017F;chen auß Amors &#x017F;u&#x0364;&#x017F;&#x017F;en brand.</l></lg><lb/>
+<fw type="catch" place="bottom">Vnd</fw><lb/>
+<pb n="97" facs="#f0101"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg n="62"><l>Vnd ob &#x017F;ie &#x017F;chon wolt wider &#x017F;chwo&#x0364;ren/</l><lb/>
+<l>Als ob jhr mein verdruß &#x017F;ehr laid/</l><lb/>
+<l>So &#x017F;oll mich doch kein newer ayd<lb/>
+(Wie hoch vnd &#x017F;u&#x0364;ß Er auch) betho&#x0364;ren.</l><lb/>
+<l>Ein leichtfo&#x0364;rtig doppelter fehl&#x201E;</l><lb/>
+<l>J&#x017F;t zu &#x017F;cha&#x0364;dlich fu&#x0364;r leib vnd &#x017F;ehl.&#x201E;</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">20.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Klag u&#x0364;ber die<lb/>
+antwort/<lb/>
+Jch waiß nicht.</hi></head><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker> <lg n="63"><l><hi rendition="#in">A</hi>Ch<hi rendition="#i">!</hi> &#x017F;oll dan mein ewiges flehen</l><lb/>
+<l>Keinen andern bericht/</l><lb/>
+<l>Dan die to&#x0364;dtende wort ver&#x017F;tehen</l><lb/>
+<l>Jch waiß nicht?</l><lb/>
+<l>Ach<hi rendition="#i">!</hi> &#x017F;oll ich (mein ho&#x0364;ch&#x017F;tes begehren)</l><lb/>
+<l>Nach meiner wahren lieb vnd klag/</l><lb/>
+<l>Nach &#x017F;olcher zweifelfreyen plag</l><lb/>
+<l>Allzeit zweifelhafte wort ho&#x0364;ren?</l><lb/>
+<fw type="sig" place="bottom">G</fw><fw type="catch" place="bottom">Wol-</fw><lb/>
+<pb n="98" facs="#f0102"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Wollet jhr dan zu hart mich zwingen/</l><lb/>
+<l>Mit &#x017F;euftzen vnerdicht</l><lb/>
+<l>Meinen tag vor nacht zu volbringen?</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">A.</hi></speaker><lg><l> Jch waiß nicht.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Wi&#x017F;&#x017F;et/ mein gai&#x017F;t kan &#x017F;ich bemu&#x0364;hen/</l><lb/>
+<l>O mein einige aufenthalt/</l><lb/>
+<l>Wol durch meiner &#x017F;eufzen gewalt</l><lb/>
+<l>Den leib vnd nicht die lieb zufliehen.</l></lg><lb/>
+<lg n="65"><l>Wie lang &#x017F;ollen die zehern flie&#x017F;&#x017F;en</l><lb/>
+<l>Vber mein ange&#x017F;icht</l><lb/>
+<l>Eh ich eines tro&#x017F;ts zugenie&#x017F;&#x017F;en?</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">A.</hi></speaker><lg><l> Jch waiß nicht.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Wi&#x017F;&#x017F;et/ O himeli&#x017F;che zaichen/</l><lb/>
+<l>Scho&#x0364;ne augen/ daß mein verdruß/</l><lb/>
+<l>Will durch &#x017F;tehtigen zeherfluß</l><lb/>
+<l>Euch oder den Tod &#x017F;elbs erwaichen.</l></lg><lb/>
+<lg n="66"><l>Glaubet jhr villeicht das mein bitten</l><lb/>
+<l>Sey allein ein gedicht</l><lb/>
+<l>Nach anderer Liebhaber &#x017F;itten?</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">A.</hi></speaker><lg><l> Jch waiß nicht.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Wi&#x017F;&#x017F;et/ wie niemand kan erwo&#x0364;hlen</l><lb/>
+<l>Ein lo&#x0364;blichere Dien&#x017F;tbarkeit/</l><lb/>
+<l>Das auch niemand jhre rawheit</l><lb/>
+<l>Dan wer &#x017F;ie leydet kan er zo&#x0364;hlen.</l></lg><lb/>
+<fw type="catch" place="bottom">Wo&#x0364;l-</fw><lb/>
+<pb n="99" facs="#f0103"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg n="67"><l>Wo&#x0364;llet jhr &#x017F;eufzen/ zehern/ klagen/</l><lb/>
+<l>Vnd mein getrewe pflicht<lb/>
+(Vnerbitlich) in den Wind &#x017F;chlagen?</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">A.</hi></speaker><lg><l> Jch waiß nicht.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Wi&#x017F;&#x017F;et/ das zehern/ &#x017F;eufzen/ flehen</l><lb/>
+<l>Ko&#x0364;nden &#x017F;ich vera&#x0364;ndern in rew:</l><lb/>
+<l>Aber die wahre lieb vnd trew</l><lb/>
+<l>Ko&#x0364;nden ewiglich nicht vergehen.</l></lg><lb/>
+<lg n="68"><l>Wie zweiflet dan/ O &#x017F;u&#x0364;&#x017F;&#x017F;es leben/</l><lb/>
+<l>Ewer wei&#x017F;es gericht</l><lb/>
+<l>Mir mit tro&#x017F;t-worten gnad zu geben?</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">A.</hi></speaker><lg><l> Jch waiß nicht.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Jch waiß/ Ewere wort voll frewden/</l><lb/>
+<l>Jn einem mund &#x017F;o &#x017F;u&#x0364;ß vnd rein</l><lb/>
+<l>Ku&#x0364;ßreiche Jnwohner zu&#x017F;ein/</l><lb/>
+<l>Wollen darauß mit nichten &#x017F;chaiden.</l></lg></sp></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">21.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Von der vorige&#x0303;<lb/>
+antwort/<lb/>
+Waiß Jch nicht.</hi></head><lb/>
+<fw type="sig" place="bottom">G ij</fw><fw type="catch" place="bottom">Wie</fw><lb/>
+<pb n="100" facs="#f0104"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg n="69"><l><hi rendition="#in">W</hi>Je lang ich mich hab zubeklagen/</l><lb/>
+<l>Vnd wie lang ich hilfloß zu zagen</l><lb/>
+<l>Waiß ich nicht:</l><lb/>
+<l>Das aber ich in meinem hertzen</l><lb/>
+<l>Meine von Euch kommende &#x017F;chmertzen</l><lb/>
+<l>Ho&#x0364;chlich liebe/ i&#x017F;t kein gedicht.</l></lg><lb/>
+<lg n="70"><l>Was jhr/ mich allzeit zubekra&#x0364;ncken/</l><lb/>
+<l>Mit &#x017F;till&#x017F;chweigen mo&#x0364;get gedencken/</l><lb/>
+<l>Waiß ich nicht:</l><lb/>
+<l>Das aber wie ich Euch erkoren/</l><lb/>
+<l>Al&#x017F;o ich auch allein geboren</l><lb/>
+<l>Euch zu lieben/ i&#x017F;t kein gedicht.</l></lg><lb/>
+<lg n="71"><l>Warumb meine Liebe zu no&#x0364;hren/</l><lb/>
+<l>Jhr meiner pein nicht wollet wo&#x0364;hren</l><lb/>
+<l>Waiß ich nicht:</l><lb/>
+<l>Das aber gar kein &#x017F;chmertz zufinden/</l><lb/>
+<l>Der meine liebe mo&#x0364;g entgru&#x0364;nden/</l><lb/>
+<l>Vnd ver&#xA75B;ingern/ i&#x017F;t kein gedicht.</l></lg><lb/>
+<lg n="72"><l>Ob Euch andere &#x017F;ehr zu lieben</l><lb/>
+<l>Sich mit warhaffter ang&#x017F;t betru&#x0364;ben/</l><lb/>
+<l>Waiß ich nicht:</l><lb/>
+<l>Das ich aber hab keinen gleichen/</l><lb/>
+<l>Vnd mir alle Liebhaber weichen</l><lb/>
+<l>An trew vnd lieb/ i&#x017F;t kein gedicht.</l></lg><lb/>
+<fw type="catch" place="bottom">Wie/</fw><lb/>
+<pb n="101" facs="#f0105"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg n="73"><l>Wie/ einiger tro&#x017F;t meiner &#x017F;ehlen/</l><lb/>
+<l>Jhr mich &#x017F;o tro&#x017F;t-loß mo&#x0364;get qua&#x0364;hlen</l><lb/>
+<l>Waiß ich nicht:</l><lb/>
+<l>Das &#x017F;ich aber &#x017F;tehts/ Euch zu ehren/</l><lb/>
+<l>Mein &#x017F;chmertz vnd lieb zugleich vermehren/</l><lb/>
+<l>Gelob ich Euch/ i&#x017F;t kein gedicht.</l></lg><lb/>
+<lg n="74"><l>Wan jhr wollet mein laid zuenden</l><lb/>
+<l>Ewer hertz vnd lieb zu mir wenden/</l><lb/>
+<l>Waiß ich nicht:</l><lb/>
+<l>Das ich aber durch lieb muß &#x017F;terben/</l><lb/>
+<l>Wan ich die&#x017F;elb nicht kan erwerben/</l><lb/>
+<l>Gelob ich Euch i&#x017F;t kein gedicht.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">22.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Horatiani&#x017F;ch.<lb/>
+Ge&#x017F;pra&#x0364;chs weiß.</hi></head><lb/>
+<div n="3"><head><hi rendition="#b">&#x03A6;.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">A</hi>Lß lang mir dein Hertz war kund/</l><lb/>
+<l>Das &#x017F;ein &#x017F;u&#x0364;&#x017F;&#x017F;er Ro&#x017F;en-mund</l><lb/>
+<fw type="sig" place="bottom">G iij</fw><fw type="catch" place="bottom">Nie-</fw><lb/>
+<pb n="102" facs="#f0106"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Niemand dan mich wolt erlaben;</l><lb/>
+<l>War ich &#x017F;o &#x017F;eelig vnd reich/</l><lb/>
+<l>Das ich Ko&#x0364;nig in Franckreich</l><lb/>
+<l>Zu&#x017F;ein nicht gewu&#x0364;n&#x017F;cht wolt haben.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#aq">S.</hi></head><lb/>
+<lg type="poem"><l>Als lang ich dir &#x017F;o lieb war/</l><lb/>
+<l>Das meine gelb-krau&#x017F;e haar</l><lb/>
+<l>Dich allein hielten gefangen;</l><lb/>
+<l>Kont mich meinen &#x017F;u&#x0364;&#x017F;&#x017F;en &#x017F;tand</l><lb/>
+<l>Nicht mit der Cron Engelland</l><lb/>
+<l>Zuvertau&#x017F;chen je verlangen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">&#x03A6;.</hi></head><lb/>
+<lg type="poem"><l>All mein glu&#x0364;ck war/ das ich &#x017F;ah/</l><lb/>
+<l>Wie dir nichts be&#x017F;&#x017F;ers ge&#x017F;chah/</l><lb/>
+<l>Dan dich hertzlich vmb zufangen;</l><lb/>
+<l>Vnd das kein liebers halßband</l><lb/>
+<l>Dan meine arm mit wol&#x017F;tand</l><lb/>
+<l>Vmb deinen halß konte hangen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#aq">S.</hi></head><lb/>
+<lg type="poem"><l>All mein glu&#x0364;ck war/ das ich wußt/</l><lb/>
+<l>Das dein hertz in keiner bru&#x017F;t/</l><lb/>
+<l>Dan in der meinen lo&#x017F;ieret;</l><lb/>
+<l>Biß ich jetz (gleich wol &#x017F;paht) &#x017F;pu&#x0364;hr/</l><lb/>
+<l>Daß die &#x017F;chwartze Phillis mir</l><lb/>
+<l>Solches li&#x017F;tiglich entfu&#x0364;hret.</l></lg></div><lb/>
+<fw type="catch" place="bottom">Wie</fw><lb/>
+<pb n="103" facs="#f0107"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<div n="3"><head><hi rendition="#b">&#x03A6;.</hi></head><lb/>
+<lg type="poem"><l>Wiewol es zwar nicht gar ohn/</l><lb/>
+<l>Das die Phillis nicht wie rohn/</l><lb/>
+<l>Vnd an &#x017F;cho&#x0364;nheit dir mag weichen;</l><lb/>
+<l>Bi&#x017F;t du doch an freundlichkeit/</l><lb/>
+<l>Vnd &#x017F;u&#x0364;&#x017F;&#x017F;er hold&#x017F;eeligkeit</l><lb/>
+<l>Jhr villeicht nicht zuvergleichen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#aq">S.</hi></head><lb/>
+<lg type="poem"><l>Ob es wol nicht ohn mag &#x017F;ein/</l><lb/>
+<l>Das &#x017F;ich Ladon nicht &#x017F;o fein/</l><lb/>
+<l>Vnd wacker als du kan &#x017F;to&#x0364;llen;</l><lb/>
+<l>J&#x017F;idoch &#x017F;eine &#x017F;it&#x017F;amkeit/</l><lb/>
+<l>Wie deine ge&#x017F;chwindigkeit/</l><lb/>
+<l>Villeicht nicht &#x017F;o bald zufa&#x0364;llen.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">&#x03A6;.</hi></head><lb/>
+<lg type="poem"><l>Obwol a<supplied>u</supplied>ch die Phillis nicht</l><lb/>
+<l>Mich <supplied>lo</supplied>bet in mein ge&#x017F;icht/</l><lb/>
+<l>Brenn<supplied> i</supplied>ch doch vmb &#x017F;ie zu werben;</l><lb/>
+<l>V<supplied>nd</supplied> wan ich ho&#x0364;r jhr ge&#x017F;ang/</l><lb/>
+<l>Wu&#x0364;n&#x017F;<supplied>ch</supplied> ich/ damit &#x017F;ie leb lang/</l><lb/>
+<l>Das ich<supplied> o</supplied>ft fu&#x0364;r &#x017F;ie mo&#x0364;g &#x017F;terben.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#aq">S.</hi></head><lb/>
+<lg type="poem"><l>Obwol auch<supplied> d</supplied>er Ladon nicht</l><lb/>
+<l>Durch poe<supplied>t</supplied>i&#x017F;ches gedicht</l><lb/>
+<fw type="sig" place="bottom">G iiij</fw><fw type="catch" place="bottom">Mein</fw><lb/>
+<pb n="104" facs="#f0108"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Mein lob/ wie du/ kan beleben;</l><lb/>
+<l>Sitzt Er doch &#x017F;o wol zu pferd/</l><lb/>
+<l>Daß fu&#x0364;r jhn/ &#x017F;o lieb vnd wehrt/</l><lb/>
+<l>Jch mich in den tod wolt geben.</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#b">&#x03A6;.</hi></head><lb/>
+<lg type="poem"><l>Wie? wan ich ohn heucheley</l><lb/>
+<l>Mich wider ergib/ getrew</l><lb/>
+<l>Jn deinem dien&#x017F;t mich zu u&#x0364;ben/</l><lb/>
+<l>Vnd keine mehr dan dich preiß;</l><lb/>
+<l>Wilt du mich nicht gleicherweiß</l><lb/>
+<l>Wider/ vnd jhn nicht mehr lieben?</l></lg></div><lb/>
+<div n="3"><head><hi rendition="#aq">S.</hi></head><lb/>
+<lg type="poem"><l>Wiewol Er &#x017F;o hip&#x017F;ch vnd groß/</l><lb/>
+<l>Wiewol du &#x017F;o gedult-loß/</l><lb/>
+<l>Das dich alle ding verdrie&#x017F;&#x017F;en:</l><lb/>
+<l>Jedoch/ wa dir ern&#x017F;t mit mir/</l><lb/>
+<l>Wu&#x0364;n&#x017F;ch ich mehr nicht dan mit dir</l><lb/>
+<l>Mein leben gantz zube&#x017F;chlie&#x017F;&#x017F;en.</l></lg></div></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<fw type="catch" place="bottom"><hi rendition="#b">Sei-</hi></fw><lb/>
+<pb n="105" facs="#f0109"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">23.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Seiner Lieb-<lb/>
+&#x017F;ten lob.</hi></head><lb/>
+<lg><l><hi rendition="#in">V</hi>Jl &#x017F;cho&#x0364;ner dan der Sonnen-glantz/</l><lb/>
+<l>Vil &#x017F;u&#x0364;&#x017F;&#x017F;er dan ein blumen-crantz</l><lb/>
+<l>J&#x017F;t meine Myrta anzu&#x017F;chawen;</l><lb/>
+<l>Sie i&#x017F;t ein tag aller klarheit/</l><lb/>
+<l>Sie i&#x017F;t der ruhm aller &#x017F;cho&#x0364;nheit/</l><lb/>
+<l>Vnder den lieblich&#x017F;ten Jungfrawen.</l></lg><lb/>
+<lg><l>Jhre augen &#x017F;eind Amors brand/</l><lb/>
+<l>Jhre &#x017F;itten &#x017F;eind voll wol&#x017F;tand/</l><lb/>
+<l>So i&#x017F;t jhr leben nichts dan Tugent/</l><lb/>
+<l>Vnd wie an jhrem leib kein fehl/</l><lb/>
+<l>So i&#x017F;t voll ehren jhre &#x017F;ehl/</l><lb/>
+<l>Vnd Sie i&#x017F;t ein wunder der Jugent.</l></lg><lb/>
+<lg><l>Al&#x017F;o di&#x017F;e Sonn/ di&#x017F;e blum/</l><lb/>
+<l>Di&#x017F;er tag/ di&#x017F;er &#x017F;cho&#x0364;nheit ruhm/</l><lb/>
+<l>Di&#x017F;e augen/ di&#x017F;e geberden/<lb/>
+<fw type="sig" place="bottom">G v</fw><fw type="catch" place="bottom">Di&#x017F;e</fw><lb/>
+<pb n="106" facs="#f0110"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Di&#x017F;e Tugent vnd di&#x017F;e Ehr</l><lb/>
+<l>Machen das ich Sie lieb &#x017F;o &#x017F;ehr/</l><lb/>
+<l>Das jhr lieb mein leben auff Erden.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">24.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Mu&#x017F;icali&#x017F;che<lb/>
+Lieb.</hi></head><lb/>
+<lg><l><hi rendition="#in">M</hi>Einen gai&#x017F;t/ muht/ &#x017F;ehl vnd hertz/</l><lb/>
+<l>Amor mit klag/ forcht vnd &#x017F;chmertz</l><lb/>
+<l>Recht <hi rendition="#fr">componieret;</hi></l><lb/>
+<l>Jnlaid a&#x0364;ndert &#x017F;ich mein &#x017F;chertz/</l><lb/>
+<l>Ang&#x017F;t mit mir <hi rendition="#fr">accordieret.</hi></l></lg><lb/>
+<lg><l>Marter i&#x017F;t mein Mu&#x017F;ic-klang/</l><lb/>
+<l>Ach vnd weh i&#x017F;t mein ge&#x017F;ang/</l><lb/>
+<l>Gantz ohn <hi rendition="#fr">pau&#x017F;ieren/</hi></l><lb/>
+<l>Dan allein das mich oft lang</l><lb/>
+<l>Amor macht <hi rendition="#fr">&#x017F;u&#x017F;pirieren.</hi></l></lg><lb/>
+<lg><l>Lieblich kan es zwar nicht &#x017F;ein</l><lb/>
+<fw type="catch" place="bottom">Einig</fw><lb/>
+<pb n="107" facs="#f0111"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Einig &#x017F;ingend &#x017F;tehts von pein</l><lb/>
+<l>Nicht zu <hi rendition="#fr">mutieren;</hi></l><lb/>
+<l>Aber weil ich &#x017F;ing allein</l><lb/>
+<l>Muß ich wol <hi rendition="#fr">colorieren.</hi></l></lg><lb/>
+<lg><l>Ach hertzlieb thu doch mit mir<lb/>
+(Greiffend den thon nach gebu&#x0364;hr)</l><lb/>
+<l>Nu <hi rendition="#fr">moderieren;</hi></l><lb/>
+<l>Vnd alsdan will ich mit dir</l><lb/>
+<l>Schon tief gnug <hi rendition="#fr">intonieren.</hi></l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">25.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Von lieben ha&#x0364;n-<lb/>
+den.</hi></head><lb/>
+<lg><l><hi rendition="#in">A</hi>Ch gib mir di&#x017F;e zarte hand/</l><lb/>
+<l>Damit ich &#x017F;ie doch gnug mo&#x0364;g ku&#x0364;&#x017F;&#x017F;en/</l><lb/>
+<l>Di&#x017F;e hand/ meiner hofnung pfand/</l><lb/>
+<l>So mich auß verzweiflung geri&#x017F;&#x017F;en;</l><lb/>
+<l>Darumb gib mir &#x017F;ie her/</l><lb/>
+<l>Das ich Sie ku&#x0364;ß mit ehr.</l></lg><lb/>
+<fw type="catch" place="bottom">Wie</fw><lb/>
+<pb n="108" facs="#f0112"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg><l>Wie<hi rendition="#i">!</hi> ku&#x0364;&#x017F;&#x017F;en di&#x017F;e hand &#x017F;o frech/</l><lb/>
+<l>So mir mein hertz do&#x0364;rfte außrei&#x017F;&#x017F;en?</l><lb/>
+<l>Nein. Es i&#x017F;t zeit das ich mich rech/</l><lb/>
+<l>Darumb will ich &#x017F;ie vilmehr bei&#x017F;&#x017F;en/</l><lb/>
+<l>Damit jhrer vntrew/</l><lb/>
+<l>Vnd boßheit Sie &#x017F;ich rew.</l></lg><lb/>
+<lg><l>Aber/ was nutzet doch mein zorn</l><lb/>
+<l>Wider &#x017F;o &#x017F;u&#x0364;&#x017F;&#x017F;e gilg vnd ro&#x017F;en/</l><lb/>
+<l>Die allein/ &#x017F;tehts fri&#x017F;ch vnd ohn dorn/</l><lb/>
+<l>Ko&#x0364;nden meinem hertzen liebko&#x017F;en?</l><lb/>
+<l>Darumb gib mir &#x017F;ie her/</l><lb/>
+<l>Das ich Sie ku&#x0364;ß mit ehr.</l></lg><lb/>
+<lg><l>Ohand/ warumb ku&#x0364;ß ich dich lang/</l><lb/>
+<l>Da ich mehr vr&#x017F;ach dich zu ha&#x017F;&#x017F;en/</l><lb/>
+<l>Vnd zudrucken mit gleichem zwang/</l><lb/>
+<l>Als du mein armes hertz erfa&#x017F;&#x017F;en<hi rendition="#i">!</hi></l><lb/>
+<l>Damit deiner Vntrew/</l><lb/>
+<l>Vnd boßheit dich auch rew.</l></lg><lb/>
+<lg><l>Scho&#x0364;ne hand/ meiner augen waid/</l><lb/>
+<l>Laß dich meinen zorn nicht betru&#x0364;ben/</l><lb/>
+<l>Ob du mir &#x017F;chon vil thu&#x017F;t zulaid/</l><lb/>
+<l>Muß ich doch deine thaten lieben;</l><lb/>
+<l>Darumb &#x017F;o kom nu her/</l><lb/>
+<l>Das ich dich ku&#x0364;ß mit ehr.</l></lg><lb/>
+<fw type="catch" place="bottom">Je</fw><lb/>
+<pb n="109" facs="#f0113"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg><l>Je mehr ich ku&#x0364;ß/ je mehr dein &#x017F;chnee</l><lb/>
+<l>Mein hertz wunderbarlich anzündet/</l><lb/>
+<l>Darumb ich billich nu ab&#x017F;teh/</l><lb/>
+<l>Eh mich dein &#x017F;chein ga&#x0364;ntzlich verblindet/</l><lb/>
+<l>Das nicht deiner Vntrew</l><lb/>
+<l>Zu &#x017F;paht vns beede rew.</l></lg><lb/>
+<lg><l>O das ich (vn&#x017F;erm verdien&#x017F;t nach)</l><lb/>
+<l>Di&#x017F;er hand lieblichen muhtwillen/</l><lb/>
+<l>Vnd meines hertzens &#x017F;u&#x0364;&#x017F;&#x017F;e rach</l><lb/>
+<l>Mo&#x0364;g vnablo&#x0364;ßlich ku&#x0364;&#x017F;&#x017F;end &#x017F;tillen<hi rendition="#i">!</hi></l><lb/>
+<l>Vnd Sie wahre rew lehr/</l><lb/>
+<l>Ku&#x0364;&#x017F;&#x017F;end Sie mehr vnd mehr<hi rendition="#i">!</hi></l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">26.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Abwe&#x017F;enheit.</hi></head><lb/>
+<lg><l><hi rendition="#in">E</hi>Ben gleich wie die Erd</l><lb/>
+<l>Wu&#x0364;rt mit fin&#x017F;ternus u&#x0364;ber&#x017F;praitet/</l><lb/>
+<l>Wan Ph<hi rendition="#aq">æ</hi>bus &#x017F;eine pferd</l><lb/>
+<l>Hat in den Nidergang belaitet:</l><lb/>
+<l>Al&#x017F;o i&#x017F;t mein ge&#x017F;icht verblichen</l><lb/>
+<l>Dieweil Myrta mein Liebelein/<lb/>
+<fw type="catch" place="bottom">Vnd</fw><lb/>
+<pb n="110" facs="#f0114"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Vnd meines hertzens diebelein</l><lb/>
+<l>Von Mir hinweg gewichen.</l></lg><lb/>
+<lg><l>Gleich wie/ wan &#x017F;ich die Son</l><lb/>
+<l>Abends in jhr We&#x017F;thauß ver&#x017F;to&#x0364;cket/</l><lb/>
+<l>Mit den &#x017F;ternen der Mohn</l><lb/>
+<l>Das klare Firmament bedo&#x0364;cket:</l><lb/>
+<l>Al&#x017F;o bin ich mit laid vmbfa&#x017F;&#x017F;en/</l><lb/>
+<l>Sydher Myrta mein Nymfelein/</l><lb/>
+<l>Mein tro&#x0364;&#x017F;telein/ mein &#x017F;chimpfelein</l><lb/>
+<l>Mich hinder jhr gela&#x017F;&#x017F;en.</l></lg><lb/>
+<lg><l>Gleich wie Apollons pracht</l><lb/>
+<l>Mit dem lieblich-fro&#x0364;lichen morgen</l><lb/>
+<l>Hinweg-treibet die nacht/</l><lb/>
+<l>Vnd zumahl die na&#x0364;chtliche &#x017F;orgen:</l><lb/>
+<l>Al&#x017F;o wirt mein &#x017F;chme&#xA75B;tz weggenommen/</l><lb/>
+<l>Alßbald Myrta mein hertzelein/</l><lb/>
+<l>Mein wohnelein/ mein &#x017F;chertzelein</l><lb/>
+<l>Wirt wider zu Mir kommen.</l></lg><lb/>
+<lg><l>Gleich wie der Sonnen kraft</l><lb/>
+<l>Alle ding auf Erden ergo&#x0364;tzet/</l><lb/>
+<l>Vnd die gewa&#x0364;chs mit &#x017F;aft/</l><lb/>
+<l>Vnd das feld mit blumen be&#x017F;etzet:</l><lb/>
+<l>Al&#x017F;o &#x017F;oll ich mehr lu&#x017F;ts genu&#x0364;e&#x017F;&#x017F;en/</l><lb/>
+<l>Wan mich Myrta mein &#x017F;cha&#x0364;tzelein/<lb/>
+<fw type="catch" place="bottom">Mein</fw><lb/>
+<pb n="111" facs="#f0115"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Mein hertz-ku&#x0364;tzlendes &#x017F;chma&#x0364;tzelein/</l><lb/>
+<l>Wu&#x0364;rt mit ku&#x0364;&#x017F;&#x017F;en begru&#x0364;&#x017F;&#x017F;en.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">27.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Der Lieb vnza&#x0364;h-<lb/>
+liche Zahl.</hi></head><lb/>
+<lg><l><hi rendition="#in">N</hi>Ach dem die Nymf auß Albion<lb/>
+(der From&#x0303;keit vnd der Tugent Cron)</l><lb/>
+<l>Jhrer diener verdien&#x017F;t erwegen:</l><lb/>
+<l>Zog Sie jhren Landshu&#x0364;rten vor</l><lb/>
+<l>Den frembdling/ welcher Filodor</l><lb/>
+<l>Genant i&#x017F;t/ &#x017F;einer tugent wegen.</l></lg><lb/>
+<lg><l>Fieng demnach an (fu&#x0364;r &#x017F;eine pein</l><lb/>
+<l>Vnd pure trew danckbar zu&#x017F;ein)</l><lb/>
+<l>Jhm mit gleicher lieb zubego&#x0364;gnen;</l><lb/>
+<l>Das Er &#x017F;einen entfreyten &#x017F;tand/</l><lb/>
+<l>Vnd Amors Tyranni&#x017F;chen brand</l><lb/>
+<l>Vnd &#x017F;tralen nu anfieng zu&#x017F;egnen.</l></lg><lb/>
+<lg><l>Al&#x017F;o jhr beeder &#x017F;chertz vnd &#x017F;chmertz</l><lb/>
+<fw type="catch" place="bottom">Wurd</fw><lb/>
+<pb n="112" facs="#f0116"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Wurd gleich/ gleich wurd jhr will vnd hertz/</l><lb/>
+<l>Zu laid vilen jhren Landts-leuten;</l><lb/>
+<l>Sie lieben einander &#x017F;o &#x017F;ehr/</l><lb/>
+<l>Das all jhr &#x017F;org i&#x017F;t/ welches mehr</l><lb/>
+<l>Das ander lieben kan/ zu&#x017F;treiten.</l></lg><lb/>
+<lg><l>Nu einmahl an deß Mo&#x0364;hrs ge&#x017F;tad</l><lb/>
+<l>Sprach Er zu jhr/ O deren gnad</l><lb/>
+<l>Vnd lieb mich ewiglich verbinden/</l><lb/>
+<l>Fu&#x0364;r dich hab ich mehr quahl vnd mu&#x0364;h/</l><lb/>
+<l>Dan man kan ko&#x0364;rnlein &#x017F;ands alhie/</l><lb/>
+<l>Oder tropfen in dem Mo&#x0364;hr finden.</l></lg><lb/>
+<lg><l>Myrta gab jhm hier auf antwort/</l><lb/>
+<l>Su&#x0364;&#x017F;&#x017F;e &#x017F;ehl meiner &#x017F;ehlen hort/</l><lb/>
+<l>Jch trag zu dir in meinem hertzen</l><lb/>
+<l>Mehr lieb dan minuten ein Jahr/</l><lb/>
+<l>Mehr dan &#x017F;tern hat der himmel klar</l><lb/>
+<l>Leid ich fu&#x0364;r dich heimliche &#x017F;chmertzen.</l></lg><lb/>
+<lg><l>Alßdan der hu&#x0364;rt mit gro&#x017F;&#x017F;em lu&#x017F;t</l><lb/>
+<l>Zog di&#x017F;e wort auß &#x017F;einer bru&#x017F;t/</l><lb/>
+<l>Sovil &#x017F;u&#x0364;&#x017F;&#x017F;igkeit laß Vns fu&#x0364;hlen/</l><lb/>
+<l>Wievil blumen zieren das feld;</l><lb/>
+<l>Vnd wievil laub tragen die wa&#x0364;ld/</l><lb/>
+<l>So vil laß vns &#x017F;chertzen vnd &#x017F;pihlen.</l></lg><lb/>
+<fw type="catch" place="bottom">Dar-</fw><lb/>
+<pb n="113" facs="#f0117"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg><l>Darauf mit &#x017F;u&#x0364;ß-&#x017F;chmollendem mund</l><lb/>
+<l>Sprach Sie zu jhm von hertzengrund;</l><lb/>
+<l>So laß vns einmu&#x0364;htiglich lieben/</l><lb/>
+<l>Vnd laß vns nu fu&#x0364;r tau&#x017F;&#x017F;ent pein/</l><lb/>
+<l>Das die frewd dem laid gleich mo&#x0364;g &#x017F;ein/</l><lb/>
+<l>Mit tau&#x017F;&#x017F;ent kü&#x017F;&#x017F;en auch entru&#x0364;eben.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">28.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Liebliches Ge-<lb/>
+&#x017F;pra&#x0364;ch von der Liebe.<lb/>
+Myrta vnd Filodor.</hi></head><lb/>
+<sp><speaker><hi rendition="#aq">M.</hi></speaker> <lg><l><hi rendition="#in">F</hi>Jlodor/ &#x017F;ag mir doch frey/</l><lb/>
+<l>Lieb&#x017F;t du mich mit wahrer trew?</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Ja Myrta/ ich lieb dich &#x017F;ehr/</l><lb/>
+<l>Vnd ich lieb dich mehr vnd mehr.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">M.</hi></speaker><lg><l> Sag mir/ wie &#x017F;ehr lieb&#x017F;t du mich?</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Jch lieb dich wie eben dich:</l><lb/>
+<l>Jch lieb dich mein &#x017F;cha&#x0364;tzelein/</l><lb/>
+<l>Wie dich &#x017F;elbs mein hertzelein.</l></lg></sp><lb/>
+<fw type="sig" place="bottom">H</fw><fw type="catch" place="bottom"><hi rendition="#aq">M.</hi> Du</fw><lb/>
+<pb n="114" facs="#f0118"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<sp><speaker><hi rendition="#aq">M</hi></speaker> <lg><l>Du vernu&#x0364;ge &#x017F;tmich nicht recht;</l><lb/>
+<l>Antwort mir fein rund vnd &#x017F;chlecht.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Die warheit allein ich &#x017F;ag/</l><lb/>
+<l>Auf dein zweifello&#x017F;e frag.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">M.</hi></speaker><lg><l> So &#x017F;ag mir wie lieb&#x017F;t du mich?</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Jch lieb dich/ wie eben dich/</l><lb/>
+<l>Jch lieb dich mein blu&#x0364;melein/</l><lb/>
+<l>Wie dich &#x017F;elbs mein ro&#x0364;&#x017F;elein.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">M.</hi></speaker> <lg><l>Warumb antworte&#x017F;t du nicht/</l><lb/>
+<l>Jch lieb dich wie mein ge&#x017F;icht?</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Kan mir mein ge&#x017F;icht lieb &#x017F;ein/</l><lb/>
+<l>So ein vr&#x017F;ach meiner pein?</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">M.</hi></speaker><lg><l> Lieber/ wie dan lieb&#x017F;t du mich?</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Jch lieb dich eben wie dich/</l><lb/>
+<l>Jch lieb dich mein Nymfelein</l><lb/>
+<l>Wie dich &#x017F;elbs mein Engelein.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">M.</hi></speaker> <lg><l>Lieber/ kein ge&#x017F;po&#x0364;t mehr treib/</l><lb/>
+<l>Sag wie deine &#x017F;ehl vnd leib.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Mein armer lieb durch lieb tod/</l><lb/>
+<l>Hat kein &#x017F;ehl dan ang&#x017F;t vnd noht.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">M.</hi></speaker><lg><l> So &#x017F;ag &#x017F;un&#x017F;t/ wie lieb&#x017F;t du mich?</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Jch lieb dich eben wie dich/</l><lb/>
+<l>Jch lieb dich mein Sehlelein/</l><lb/>
+<l>Wie dich &#x017F;elbs mein tro&#x0364;&#x017F;telein.</l></lg></sp><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">M.</hi> Sag</fw><lb/>
+<pb n="115" facs="#f0119"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<sp><speaker><hi rendition="#aq">M.</hi></speaker> <lg><l>Sag nicht mehr eben wie dich/</l><lb/>
+<l>Sonder ich lieb dich wie mich.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Jch haß mich in meinem &#x017F;in/</l><lb/>
+<l>Weil ich dir nicht recht lieb bin.</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">M.</hi></speaker><lg><l> So &#x017F;ag doch wie lieb&#x017F;t du mich?</l></lg></sp><lb/>
+<sp><speaker><hi rendition="#aq">F.</hi></speaker><lg><l> Jch lieb dich/ wie eben dich/</l><lb/>
+<l>Jch lieb dich mein liebelein/</l><lb/>
+<l>Wie dich &#x017F;elbs mein lebelein.</l></lg></sp></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">29.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Anacreonti&#x017F;ch.<lb/>
+Fro&#x0364;lich zu leben.</hi></head><lb/>
+<lg><l><hi rendition="#in">W</hi>An ich mit guter ge&#x017F;el&#x017F;chaft</l><lb/>
+<l>Vnder vollen gla&#x0364;&#x017F;ern ge&#x017F;e&#x017F;&#x017F;en/</l><lb/>
+<l>Macht mich der &#x017F;u&#x0364;&#x017F;&#x017F;e Reben&#x017F;aft</l><lb/>
+<l>Alles laids vnd vnmuhts verge&#x017F;&#x017F;en:</l><lb/>
+<l>Jch will &#x017F;tehts &#x017F;pringen an den dantz</l><lb/>
+<l>Gecro&#x0364;net mit dem Ebhew-crantz.</l></lg><lb/>
+<fw type="sig" place="bottom">H ij</fw><fw type="catch" place="bottom">Mein</fw><lb/>
+<pb n="116" facs="#f0120"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg><l>Mein hirn erhitzet durch ein glaß</l><lb/>
+<l>Vermeinet mehr reichthumb zu haben/</l><lb/>
+<l>Dan Mydas vnd Cr<hi rendition="#aq">æ</hi>&#x017F;us be&#x017F;aß:</l><lb/>
+<l>Gro&#x017F;&#x017F;er Her&#xA75B;en gun&#x017F;t vnd gaben/</l><lb/>
+<l>Dien&#x017F;t/ a&#x0364;mpter/ glu&#x0364;ck vnd her&#xA75B;lichkeit</l><lb/>
+<l>Trit ich zu grund als eytelkeit.</l></lg><lb/>
+<lg><l>Wolan/ bring her ein volle Fla&#x017F;ch/</l><lb/>
+<l>Die &#x017F;org auß meinem kopf zujagen/</l><lb/>
+<l>Vnd das ich lung vnd leber wa&#x017F;ch/</l><lb/>
+<l>Was hilft es &#x017F;ich &#x017F;elbs vil zuplagen?</l><lb/>
+<l>Es i&#x017F;t be&#x017F;&#x017F;er zu beth voll wein/</l><lb/>
+<l>Dan Tod in die bahr gelegt &#x017F;ein.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">30.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Vernu&#x0364;eget vnd<lb/>
+fro&#x0364;lich.</hi></head><lb/>
+<lg><l><hi rendition="#in">H</hi>O<hi rendition="#i">!</hi> laß vns gut ge&#x017F;chir&#xA75B; machen/</l><lb/>
+<l>Weil wir die gelegenheit/</l><lb/>
+<l>Laß vns &#x017F;ingen/ &#x017F;pringen/ lachen/<lb/>
+<fw type="catch" place="bottom">Ohn</fw><lb/>
+<pb n="117" facs="#f0121"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Ohn fu&#x0364;r&#x017F;org vnd trawrigkeit;</l><lb/>
+<l>Laß vns &#x017F;org vnd mu&#x0364;h betriegen/</l><lb/>
+<l>So vns vn&#x017F;er frewd bekriegen.</l></lg><lb/>
+<lg><l>Laß vns erfri&#x017F;chend purgieren</l><lb/>
+<l>Alle da&#x0364;mpf/ &#x017F;o vn&#x017F;er hirn</l><lb/>
+<l>Mit geitz vnd ehr geitz be&#x017F;chmieren/</l><lb/>
+<l>Vnd mit ru&#x0364;ntzlen vn&#x017F;er &#x017F;tirn/</l><lb/>
+<l>Vnd die vns den kopf zurei&#x017F;&#x017F;en/</l><lb/>
+<l>Vnd das haar vor der zeit wei&#x017F;&#x017F;en.</l></lg><lb/>
+<lg><l>Laß vns vnverdru&#x0364;ßlich leben</l><lb/>
+<l>Recht auf gut Philo&#x017F;ophi&#x017F;ch/</l><lb/>
+<l>Vn&#x017F;ere &#x017F;ehl nicht einweben</l><lb/>
+<l>Melancoli&#x017F;ch wie Stockfi&#x017F;ch/</l><lb/>
+<l>Sondern fliehen vnd vermeiden/</l><lb/>
+<l>So vil mu&#x0364;glich/ alles leiden.</l></lg><lb/>
+<lg><l>Ein gemu&#x0364;ht/ das nach gut trachtet&#x201E;</l><lb/>
+<l>Verleu&#x0364;ret ruh/ wohn/ vnd witz;&#x201E;</l><lb/>
+<l>Charon/ der alles guts achtet&#x201E;</l><lb/>
+<l>Als einer &#x017F;pinadlen &#x017F;pitz/&#x201E;</l><lb/>
+<l>La&#x017F;&#x017F;et &#x017F;ich weder die bawren&#x201E;</l><lb/>
+<l>Noch gro&#x017F;&#x017F;e her&#xA75B;en betawren.&#x201E;</l></lg><lb/>
+<lg><l>Darumb laß vns nu verge&#x017F;&#x017F;en</l><lb/>
+<fw type="sig" place="bottom">H iij</fw><fw type="catch" place="bottom">Aller</fw><lb/>
+<pb n="118" facs="#f0122"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<l>Aller &#x017F;org/ ang&#x017F;t vnd gedichts/</l><lb/>
+<l>Fro&#x0364;lich an dem ti&#x017F;ch ge&#x017F;e&#x017F;&#x017F;en/</l><lb/>
+<l>Vernu&#x0364;eget mit vn&#x017F;erm nichts;</l><lb/>
+<l>Den &#x017F;chedel wir nur zubrechen/</l><lb/>
+<l>Wan wir gelt zu&#x017F;amen rechen.</l></lg><lb/>
+<lg><l>Wan mein Mu&#x017F;a mich gewehret/</l><lb/>
+<l>Wan ich will der Poe&#x017F;y/</l><lb/>
+<l>J&#x017F;t das &#x017F;o mein hertz begehret</l><lb/>
+<l>Ohn andere Fanta&#x017F;y.<lb/>
+&#x201E;Ein frey wolvernu&#x0364;gtes leben<lb/>
+&#x201E;J&#x017F;t nicht vmb ein Land zugeben.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">31.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Von der Tu-<lb/>
+gent/ vnd mancher lay Jr-<lb/>
+tumben der men&#x017F;chen.</hi></head><lb/>
+<lg><l><hi rendition="#in">N</hi>Ein/ Es i&#x017F;t nicht der Tugent &#x017F;chein/</l><lb/>
+<l>So vns die wahre frewd kan geben/</l><lb/>
+<l>Sondern die Tugent &#x017F;elbs allein</l><lb/>
+<l>Kan vns machen glu&#x0364;ck&#x017F;eelig leben;<lb/>
+<fw type="catch" place="bottom">Die</fw><lb/>
+<pb n="119" facs="#f0123"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Die Tugent &#x017F;elbs hat das vermo&#x0364;gen</l><lb/>
+<l>Alle mu&#x0364;h von vns ab zulo&#x0364;gen.</l></lg><lb/>
+<lg><l>Die Tugent macht den men&#x017F;chen reich/</l><lb/>
+<l>Das jhn die armut nie be&#x017F;chwehret;</l><lb/>
+<l>Glu&#x0364;ck vnd Vnglu&#x0364;ck gilt jhm gantz gleich/</l><lb/>
+<l>Der hagel &#x017F;ein feld nicht entehret;</l><lb/>
+<l>Gott jhn mit &#x017F;olchem gut belohnet/</l><lb/>
+<l>Welches allzeit in jhm &#x017F;elbs wohnet.</l></lg><lb/>
+<lg><l>Die Tugent gibt adel vnd ehr/</l><lb/>
+<l>Wer &#x017F;ie hat der i&#x017F;t wolgeboren/</l><lb/>
+<l>Ob Er wol weder Fu&#x0364;r&#x017F;t noch Her&#xA75B;/</l><lb/>
+<l>J&#x017F;t Er doch von Got außerkohren:</l><lb/>
+<l>Dan Er u&#x0364;ber &#x017F;ein hertz regieret/</l><lb/>
+<l>Vnd u&#x0364;ber die welt triumfieret.</l></lg><lb/>
+<lg><l>Obwol der Natur freye hand</l><lb/>
+<l>Seine glider nicht wolge&#x017F;taltet/</l><lb/>
+<l>Wu&#x0364;rt der behar&#xA75B;liche wol&#x017F;tand</l><lb/>
+<l>Seiner &#x017F;ehlen doch nie veraltet:</l><lb/>
+<l>Soll man nu wegen guter lehren</l><lb/>
+<l>Den hut oder das haupt mehr ehren?</l></lg><lb/>
+<lg><l>Leibsge&#x017F;undheit i&#x017F;t eine gaab/</l><lb/>
+<l>Damit vns die Natur erlabet;<lb/>
+<fw type="sig" place="bottom">H iiij</fw><fw type="catch" place="bottom">Aber</fw><lb/>
+<pb n="120" facs="#f0124"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Aber be&#x017F;&#x017F;er i&#x017F;t de&#x017F;&#x017F;en haab/</l><lb/>
+<l>Der mit ge&#x017F;under Sehl begabet/</l><lb/>
+<l>Welche kein zufall kan er&#x017F;chro&#x0364;cken/</l><lb/>
+<l>Bekra&#x0364;ncken/ &#x017F;chwa&#x0364;chen noch beflo&#x0364;cken.</l></lg><lb/>
+<lg><l>Was hilft es/ das in meinem hirn</l><lb/>
+<l>Der Zenon vnd Platon &#x017F;elbs &#x017F;tecket;</l><lb/>
+<l>Das witzig &#x017F;cheinet meine &#x017F;tirn/</l><lb/>
+<l>Vnd mein mund &#x017F;tehts von Weißheit gecket:</l><lb/>
+<l>Wan in der Einfa&#x0364;ltigen &#x017F;ehlen</l><lb/>
+<l>Sich die Tugent pflegt zuverha&#x0364;len?</l></lg><lb/>
+<lg><l>Was hilft es das ich geb bericht</l><lb/>
+<l>Von allem/ was jemahls gewe&#x017F;en;</l><lb/>
+<l>Das ich die kun&#x017F;t-reiche gedicht</l><lb/>
+<l>Aller Poeten wol gele&#x017F;en:</l><lb/>
+<l>Wan Sie durch jhr liebliches liegen<lb/>
+(Mein zeit verku&#x0364;rtzend) mich betriegen?</l></lg><lb/>
+<lg><l>Was hilft es/ das Gema&#x0364;hld/ Ge&#x017F;ang/</l><lb/>
+<l>Die Zahl vnd Maaß wol zuver&#x017F;tehen;</l><lb/>
+<l>Der Sternen lauf/ der Welt fortgang/</l><lb/>
+<l>Vnd alle La&#x0364;nder zube&#x017F;ehen:</l><lb/>
+<l>Wan in &#x017F;ich &#x017F;elbs mein hertz (verblindet)</l><lb/>
+<l>Kein zihl/ maaß/ zahl/ noch regul findet?</l></lg><lb/>
+<fw type="catch" place="bottom">Was</fw><lb/>
+<pb n="121" facs="#f0125"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg><l>Was hilft es/ andern Raht/ Artzney/</l><lb/>
+<l>Oder mein Reden zuverkauffen;</l><lb/>
+<l>Jn frembde Land vmb &#x017F;petzerey/</l><lb/>
+<l>Oder khu&#x0364;n dem Krieg zu-zulauffen:</l><l xml:id="v10" prev="#v09"><hi rendition="#et">(get/</hi></l><lb/>
+<l xml:id="v09" next="#v10">Wan mich kranckheit vnd zanck &#x017F;elbs pla-</l><lb/>
+<l>Vnd mir der Tod allzeit nachjaget?</l></lg><lb/>
+<lg><l>Was hilft es mich/ blind/ taub/ vnd &#x017F;tum</l><lb/>
+<l>An gro&#x017F;&#x017F;er Her&#xA75B;en ho&#x0364;f zu wohnen/</l><lb/>
+<l>Vnd durch Ge&#x017F;undheit vnd Willkum</l><lb/>
+<l>Weder gai&#x017F;ts noch leibs zu ver&#x017F;chonen/</l><lb/>
+<l>Erlangend nichts mit mu&#x0364;h vnd &#x017F;orgen/</l><lb/>
+<l>Dan villeicht einen <hi rendition="#fr">guten morgen?</hi></l></lg><lb/>
+<lg><l>J&#x017F;t es nicht fein/ eh man guts thut</l><lb/>
+<l>Sich bitten vnd &#x017F;chmieren zula&#x017F;&#x017F;en/</l><lb/>
+<l>Mit krum-auf genagletem hut</l><lb/>
+<l>Sich braiter machen dan dan die ga&#x017F;&#x017F;en;</l><lb/>
+<l>Vnd mit &#x017F;awr-erhabnen augbrawen</l><lb/>
+<l>Den der be&#x017F;&#x017F;er i&#x017F;t &#x017F;chlim an&#x017F;chawen?</l></lg><lb/>
+<lg><l>J&#x017F;t es nicht ein feine mißgun&#x017F;t/</l><lb/>
+<l>Das die/ &#x017F;o &#x017F;un&#x017F;t die ku&#x0364;n&#x017F;ten fliehen/</l><lb/>
+<l>Hochge&#x017F;tigen durch des gelts kun&#x017F;t</l><lb/>
+<l>Die laitter nach jhnen aufziehen/<lb/>
+<fw type="sig" place="bottom">H v</fw><fw type="catch" place="bottom">Damit</fw><lb/>
+<pb n="122" facs="#f0126"/>
+<fw type="header" place="top"><hi rendition="#b">Das Er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Damit die/ deren werck bezeugen</l><lb/>
+<l>Jhre verdien&#x017F;t/ nicht hin-nach &#x017F;teigen?</l></lg><lb/>
+<lg><l>J&#x017F;t es nicht artlich/ andre leut</l><lb/>
+<l>Wollen der Seeligkeit berauben/</l><lb/>
+<l>Vnd doch &#x017F;elbs nicht wi&#x017F;&#x017F;en den &#x017F;treit/</l><lb/>
+<l>Noch was/ wie vnd warumb zu glauben?</l><lb/>
+<l>Artlich i&#x017F;t es/ andre zu &#x017F;chma&#x0364;hen</l><lb/>
+<l>Vnd &#x017F;eine aigne fehl nicht &#x017F;ehen.</l></lg><lb/>
+<lg><l>Es i&#x017F;t gar ho&#x0364;flich/ &#x017F;eine &#x017F;prach</l><lb/>
+<l>Mit frembden worten zu parlieren/</l><lb/>
+<l>Vnd &#x017F;ie mit eines andern &#x017F;chmach/</l><lb/>
+<l>Mit fluchen vnd bo&#x017F;&#x017F;en zuzieren;</l><lb/>
+<l>Von &#x017F;pihlen/ &#x017F;chlimmen/ &#x017F;techen/ &#x017F;chlagen/</l><lb/>
+<l>Huren/ hetzen/ baitzen zu&#x017F;agen.</l></lg><lb/>
+<lg><l>Lieblich i&#x017F;t es/ das arme leut</l><lb/>
+<l>Sich vor dir naigen zu der erden:</l><lb/>
+<l>Statlich i&#x017F;t es/ in kurtzer zeit</l><lb/>
+<l>Bey &#x017F;einem dien&#x017F;t gar reich zu werden/</l><lb/>
+<l>Vnd doch noch dolle wort außgie&#x017F;&#x017F;en/</l><lb/>
+<l>Wie man dabey mu&#x0364;ß vil einbu&#x0364;e&#x017F;&#x017F;en.</l></lg><lb/>
+<lg><l>Es i&#x017F;t fein/ das ein frembdling &#x017F;ich</l><lb/>
+<l>Kan in ein gutes hauß einni&#x017F;ten/<lb/>
+<fw type="catch" place="bottom">Vnd</fw><lb/>
+<pb n="123" facs="#f0127"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Vnd mit dem fuchs&#x017F;chwantz li&#x017F;tiglich</l><lb/>
+<l>Wol auß butzet andrer leut ku&#x0364;&#x017F;ten;</l><lb/>
+<l>Vnd dan/ als ein &#x017F;ubtiler &#x017F;po&#x0364;tter/</l><lb/>
+<l>Ru&#x0364;hmet die Go&#x0364;tter &#x017F;eine vo&#x0364;tter.</l></lg><lb/>
+<lg><l>Es i&#x017F;t her&#xA75B;lich/ ein reiches weib<lb/>
+(Wie Sie &#x017F;un&#x017F;t &#x017F;ein mag) zu erdappen;</l><lb/>
+<l>Vnd dann bey jhr in &#x017F;tehtem keib</l><lb/>
+<l>Leben vnder der Nar&#xA75B;en-kappen:</l><lb/>
+<l>Oder ein jungfraw-Baß zufreyhen/</l><lb/>
+<l>Damit die Her&#xA75B;en gu&#x0364;n&#x017F;tig &#x017F;eyen.</l></lg><lb/>
+<lg><l>Es i&#x017F;t ku&#x0364;n&#x017F;tlich/ wan einer kan</l><lb/>
+<l>Vil guts zu nichts verdi&#x017F;tillieren:</l><lb/>
+<l>Es i&#x017F;t treflich/ mit jederman</l><lb/>
+<l>Von jedem ding zu di&#x017F;putieren:</l><lb/>
+<l>Sich in gutem glu&#x0364;ck zu erfrewen/</l><lb/>
+<l>Vnd &#x017F;ich &#x017F;elbs weiß zu&#x017F;ein be&#x017F;chrayhen.</l></lg><lb/>
+<lg><l>Nein. Der bemu&#x0364;het &#x017F;ich vmb &#x017F;un&#x017F;t</l><lb/>
+<l>Ein wahres vernu&#x0364;gen zufinden/<lb/>
+(Er &#x017F;ey gleich wie Er wo&#x0364;ll voll kun&#x017F;t)</l><lb/>
+<l>Der &#x017F;ich &#x017F;elbs nicht kan u&#x0364;berwinden;</l><lb/>
+<l>Vnd der &#x017F;ein frewd vnd &#x017F;ein vernu&#x0364;gen</l><lb/>
+<l>Au&#x017F;&#x017F;erhalb Sich &#x017F;elbs will erkriegen.</l></lg><lb/>
+<fw type="catch" place="bottom">Dan</fw><lb/>
+<pb n="124" facs="#f0128"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw><lb/>
+<lg><l>Dan es ja nicht der Tugent &#x017F;chein/</l><lb/>
+<l>So vns die wahre frewd kan geben;</l><lb/>
+<l>Sonder die Tugent &#x017F;elbs allein</l><lb/>
+<l>Kan Vns machen glu&#x0364;ck&#x017F;eelig leben:</l><lb/>
+<l>Sie &#x017F;elbs/ die Sich einig verbindet</l><lb/>
+<l>Mit der Gotsforcht/ &#x017F;tehts u&#x0364;berwindet.</l></lg></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">32.</hi></head><lb/>
+<div n="2"><head><hi rendition="#b">Anacreonti&#x017F;ch.<lb/>
+Reichthumb vermag nichts<lb/>
+wider den Tod.</hi></head><lb/>
+<lg><l><hi rendition="#in">W</hi>An Vns ja das gold vnd gelt</l><lb/>
+<l>Jn der welt</l><lb/>
+<l>Vor des Tods gewalt kont fri&#x017F;ten:</l><lb/>
+<l>So &#x017F;olt man begihriglich</l><lb/>
+<l>Vnd billich</l><lb/>
+<l>Scha&#x0364;tz ein&#x017F;amlen in die ku&#x0364;&#x017F;ten.</l></lg><lb/>
+<lg><l>Damit in dem fall der noht</l><lb/>
+<l>Man den Tod</l><lb/>
+<l>Vmb das leben mo&#x0364;cht be&#x017F;techen/<lb/>
+<fw type="catch" place="bottom">Das</fw><lb/>
+<pb n="125" facs="#f0129"/>
+<fw type="header" place="top"><hi rendition="#b">Das er&#x017F;te Buch.</hi></fw></l><lb/>
+<l>Das Er nach empfangner Sum</l><lb/>
+<l>Vn&#x017F;er Trum</l><lb/>
+<l>Nicht mehr mo&#x0364;rdri&#x017F;ch do&#x0364;rft abbrechen.</l></lg><lb/>
+<lg><l>Weil aber des lebens lauf</l><lb/>
+<l>Garkein kauf/</l><lb/>
+<l>Kein ge&#x017F;chenck/ noch gold kan &#x017F;to&#x0364;llen;</l><lb/>
+<l>Was hilft es mit gro&#x017F;&#x017F;er mu&#x0364;h</l><lb/>
+<l>Stehts alhie</l><lb/>
+<l>Vil guts ein&#x017F;amlen zu wo&#x0364;llen.</l></lg><lb/>
+<lg><l>Be&#x017F;&#x017F;er i&#x017F;t es der Weißheit/</l><lb/>
+<l>Vnd Warheit</l><lb/>
+<l>Sich gefli&#x017F;&#x017F;en zu ergeben/</l><lb/>
+<l>So vns eh kan dan das gelt</l><lb/>
+<l>Jn der welt</l><lb/>
+<l>Nach dem Tod wider beleben.</l></lg><lb/>
+<p><hi rendition="#c"><hi rendition="#fr">Ende deß er&#x017F;ten Buchs.</hi></hi></p></div></div><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<pb n="[126]" facs="#f0130"/>
+</body><back><milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"><head><hi rendition="#b">Etliche fa&#x0364;hl &#x017F;o u&#x0364;ber&#x017F;ehen<lb/>
+worden.</hi></head><lb/>
+<list><item>Jn dem 18. blat der 15. Lini/ fu&#x0364;r vor li&#x017F;e Von. 22. lin. 21<lb/>
+fu&#x0364;r macht li&#x017F;e nacht. 58. li&#x017F;e den 8. vers al&#x017F;o/ Pfleget<lb/>
+in dein Haupt zu lo&#x017F;ieren. 74. den 5. vers li&#x017F;e: Wie<lb/>
+jetz mehrerthails die Jungfrawen. Eben in dem&#x017F;elbi-<lb/>
+gen blat nach dem 17. vers/ vnd ein lehr-reiches lob-<lb/>
+ge&#x017F;ang/ J&#x017F;t di&#x017F;er gantze außgela&#x017F;&#x017F;en 2 Mit mu&#x0364;h vnd<lb/>
+zier recht außge&#x017F;etzet. 77. vers 12. li&#x017F;e leib fu&#x0364;r lieb.<lb/>
+93. vers 8. li&#x017F;e nicht.</item></list><lb/>
+<p><hi rendition="#c">Was u&#x0364;brig were/ wu&#x0364;rt der le&#x017F;er &#x017F;elbs wi&#x017F;&#x017F;en<lb/>
+zu corrigieren.</hi></p><lb/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<pb n="[127]" facs="#f0131"/>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div type="imprint"><p rendition="#c"><hi rendition="#fr">Stutgardt/<lb/>
+<figure/> <milestone unit="section" rendition="#hr"/><lb/>
+Getruckt bey Johan-Weyrich<lb/>
+Ro&#x0364;ßlin/ Jm Jahr 1618.</hi></p></div><lb/>
+<pb n="[128]" facs="#f0132"/>
+</div>
+<pb n="[129]" facs="#f0133"/>
+<pb n="[130]" facs="#f0134"/>
+<pb n="[131]" facs="#f0135"/>
+<pb n="[132]" facs="#f0136"/>
+<pb n="[133]" facs="#f0137"/>
+<pb n="[134]" facs="#f0138"/>
+</back> </text> </TEI>
