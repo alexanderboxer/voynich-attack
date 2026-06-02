@@ -679,12 +679,20 @@ def parse_tei(xml_path: str, doc_id: str) -> list[Row]:
     if front is not None:
         rows.extend(_walk(front, doc_id, counter, state))
     rows.extend(_walk(body, doc_id, counter, state))
-    # If a document has no body rows but has item rows (e.g. a ledger or
-    # list-only text where every entry is an <item>), the items are the
-    # running content — relabel them as body so the default body-only
-    # loader picks them up.
-    block_types = {r.block_type for r in rows}
-    if "body" not in block_types and "item" in block_types:
+    # If <item> content dominates <body> content by char volume, the items
+    # ARE the running text — not TOC noise. Examples: a recipe book where
+    # every recipe is wrapped in <item> (Rumpolt 1581 Kochbuch: 756k chars
+    # of recipes in <item> vs 128k in <body>); a ledger or list-only text
+    # where every entry is an <item>. Relabel them as body so the default
+    # body-only loader picks them up.
+    #
+    # The threshold (item_chars > body_chars) is conservative: when item
+    # is a small minority (legitimate TOC / running headers), no promotion
+    # fires. Verified on the 1580-1599 DTA tranche: only Rumpolt triggered;
+    # every other text was left untouched.
+    body_chars = sum(len(r.textstring_simple) for r in rows if r.block_type == "body")
+    item_chars = sum(len(r.textstring_simple) for r in rows if r.block_type == "item")
+    if item_chars > body_chars:
         for r in rows:
             if r.block_type == "item":
                 r.block_type = "body"

@@ -772,11 +772,8 @@ def _load_magirus1580():
 
 @_register('rumpolt1581')
 def _load_rumpolt1581():
-    # Cookbook: 86% of content is in `item` rows (recipes). Default body-only
-    # filter would drop ~750k chars of recipe text — exactly the genre we want.
     path = _root / 'corpora/german/DTA/1581_rumpolt_new/1581_rumpolt_new.csv'
-    return reftext.from_corpus_build_csv(
-        path, language='german', block_types=('body', 'item'))
+    return reftext.from_corpus_build_csv(path, language='german')
 
 @_register('sattler1582')
 def _load_sattler1582():
