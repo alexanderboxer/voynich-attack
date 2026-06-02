@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Ein Christliche Leichpredigt Gethan zu Wolffenbüttel Bey der Begrebnus Weiland des Edlen ... Carl Capaunen von Zwickaw, Heuptmans zu Brunßrode, den 29. Nouembris, Anno 89., Wolfenbüttel 1590</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116974788">
+<surname>Sattler</surname>
+<forename>Basilius</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/db-799/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/db-799/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">26</measure>
+<measure type="tokens">6874</measure>
+<measure type="types">1791</measure>
+<measure type="characters">42561</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:08Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/sattler_leichpredigt_1590</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/sattler_leichpredigt_1590</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/sattler_leichpredigt_1590</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/sattler_leichpredigt_1590</idno>
+<idno type="DTADirName">sattler_leichpredigt_1590</idno>
+<idno type="DTAID">30263</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30263-0</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Sattler, Basilius: Ein Christliche Leichpredigt Gethan zu Wolffenbüttel Bey der Begrebnus Weiland des Edlen ... Carl Capaunen von Zwickaw, Heuptmans zu Brunßrode. Wolfenbüttel, 1590.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Ein Christliche Leichpredigt Gethan zu Wolffenbüttel Bey der Begrebnus Weiland des Edlen ... Carl Capaunen von Zwickaw, Heuptmans zu Brunßrode, den 29. Nouembris, Anno 89., Wolfenbüttel 1590</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116974788">
+<surname>Sattler</surname>
+<forename>Basilius</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Horn</name></publisher>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1590</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<pb facs="#f0002"/>
+<pb facs="#f0003"/>
+<titlePage type="main"><docTitle><titlePart type="main"> Ein Christliche Leichpredigt<lb/>
+Gethan zu Wolffenbüttel<lb/>
+<hi rendition="#b">Bey der Begrebnus</hi><lb/>
+Weiland
+des Edlen / Ehrnuesten vnd Er-<lb/>
+barn Carl Capaunen von Zwickaw/Heupt-<lb/>
+mans zu
+Brunßrode/ den 29.<lb/>
+Nouembris/ Anno 89.<lb/>
+</titlePart></docTitle>
+<byline>Durch<lb/>
+<docAuthor>Basilium Satler</docAuthor> D. Fürstlichen Braun-<lb/>
+schweigischen Hoffprediger zu
+Wolffenbüttel.<lb/>
+</byline><figure/><lb/>
+<docImprint> <pubPlace>Juliusfriedenstedt</pubPlace><lb/>
+Gedruckt durch <publisher>Conrad Horn</publisher>. <docDate>1590</docDate>.<lb/>
+</docImprint></titlePage>
+<pb facs="#f0004"/>
+</front>
+<body>
+<pb facs="#f0005"/>
+<div>
+<head>Psalm. 90. Lehre vns bedencken / das wir sterben müssen / auff das wir klug
+werden.<lb/>
+</head>
+</div>
+<div>
+<head>Außlegung.<lb/>
+</head>
+<p>GEliebte im HERRN / Es schreibet der Prediger Salomon am 7. Cap. Es ist besser in
+das Klaghaus gehen / denn in das Trinck haus / in jenem ist das ende aller
+Menschen. Damit er anzeiget / wir sollen nicht thun / wie die Weltkinder / die
+nicht gern mit denen zuschaffen haben / so trawren / gehen auch nicht gern mit
+der Leich / sondern schlagen die gedancken vom Todt aus dem sinn / vnd finden
+sich lieber an die ende vnd örter / da man isset vnd trincket / vnd frölich ist
+/ als da man trawret / Todten begrebt / oder vom Tod vnd dergleichen sachen
+redet: Sondern wir sollen gern an solchen örtern vns finden lassen.</p>
+<p>Vnd bringet der weise Man die wichtige vrsach / das da sonst ein Mensch offtmals
+beym Trumck vnd eusserlichen frewden / Gottes vnd seines Worts / wie auch seiner
+eignen Seligkeit vergisst / im Klaghaus man des endes aller Menschen / vnd also
+auch seines eigenen Sterbstündleins erinnert werde / es zu hertzen neme / vnd
+sich dazu schicke vnd bereite.</p>
+<p>Darumb haben E. LL. wolgethan / das sie dieser Leich eines alten fürnhemen
+Hoffdieners mit grosser anzal gefolgt sein / damit sie nicht allein jhren
+Glauben von der Aufferstehung des Fleisches bezeugen / vnd die liebe gege&#x0303; gemelter Person vom Adel in leistung dieses letzten diensts /
+desgleiche&#x0303; jr Christlich mitleiden gegen der hinderlassenen
+Widwen vnd Kndern beweisen / son-
+<pb facs="#f0006"/>
+dern
+auch dabey jhres Sterbstündleins erinnert werden / vnd dazu sich schicken
+lernen.</p>
+<p>Das aber diese Begrebnis nicht ein vergeblich ledig Spectakel vnd Schawspiel sey
+/ sondern einen nach druck haben / vnd ware besserung bey vns wircken möge /
+habe ich diesen Spruch dißmal zuerkleren für mich genommen / vnd E. LL. verlesen
+wöllen / vnd zweiffele nicht / die weil er von solchen sachen berichtet / die
+vns allen zuwissen vnd zubetrachten zu vnser ewigen Seligkeit nütz vnd nötig
+sein / ja rechte Geistliche klugheit vns lehret / dazu auch kurtz ist / vnd
+leichtlich gefasset werden kan / jhr werdet mit fleis darauff achtung geben.</p>
+<p>Damit wir nun diesen Spruch eigentlich vnd gründtlich verstehen / wöllen wir
+erstlich mit gar wenig Wort berichten / was Mosen dazu verursachet habe / vnd
+was die eigentliche meinung dieses Spruchs sey. Es hat Moses nicht allein andern
+Leuten das Gesetz geprediget / sondern auch wie sichs gebüret / jm selber /
+daher dann kömpt / das er in diesem Psalmen mit fleis betrachtet / behertziget
+vnd beschreibet den elenden zustandt aller Menschen / das jhr leben vngewiß /
+kurtz vnd bös ist / vnd sie entlich sterben müssen / vnd das von wegen der
+Sünden / darüber GOtt so hefftig zürnet / vber sie dieser Fluch gehet /
+sonderiich aber bedencket vnd beklaget er / das die Menschen ob sie wol
+allenthalben mit jammer vnd noth vmbgeben sein / solches gleichwol nicht achten
+/ jha er / Moses / erkennet auch / das er eben der Sündliche&#x0303; art
+/ vn&#x0303; zu Fleischlicher sicherheit geneigt ist. Das nun solcher
+bösen vnd schedlichen vnart bey jhm vnd andern gewehret werde / wendt er sich in
+diesen Worten durch das Gebet zu GOtt dem Allmechtigen / bittet / GOtt wölle jhm
+vnd dem Volck diese sicherheit vertreiben / vnd spricht: Lehre vns bedencken /
+das wir sterben müssen etc. Das ist: Allmechtiger / Ewiger Gott / gib du doch /
+das wir nicht sicher vnd verstockt sein / wie der grösseste
+<pb facs="#f0007"/>
+hauffe thut / sondern vnsern jammer vnd elend
+/ darin wir stecken / wol betrachten / vnd zu Hertzen nehmen / das du von der
+Sünden wegen so hefftig vber vns zürnest / vns das leben also versaltzest /
+verkürtzest / vnd endlich abschneidest / damit wir nicht wie das Vihe dahin
+fahren / das vns hernach solches ewig gereuwe / vnd schaden bringe / Sondern das
+wir vns als die klugen fürsehen / bey dir zu gnaden kommen / vnd also zu vnserm
+Sterbstündlein vns recht vnd wol bereiten / vnd gefasset sein.</p>
+<p>Wir wöllen aber / damit E. LL. die Lehre / so dieser Spruch in sich begreiffet /
+desto besser fassen / vnd jhnen einbilden mögen / diese Vier Puncten mit
+einander erwegen.</p>
+<p>Erstlich / das ein Mensch an sein ende / vnd das er sterben müsse gedencken
+sol.</p>
+<p>Zum Andern / was da heisse recht bedencken / das man sterben müsse.</p>
+<p>Zum Dritten / worumb einer an sein ende solle gedencken / was es jhm nutze.</p>
+<p>Zum Vierden / wie ein Mensch dazu kommen könne / das er stets in seinem leben
+solches seines endes sich erinnere.</p>
+<p>Von diesen Vier Puncten wöllen wir einen kurtzen bericht thun / GOtt gebe vns
+allerseits dazu die gnad des heiligen Geistes / das solches auch bey vns nutz
+schaffe zu vnser Seelen Seligkeit / Amen.</p>
+</div>
+<div>
+<head>Der Erste Punct.<lb/>
+</head>
+<p>In dem Moses betet / Lehre vns bedencken / das wir sterben müssen / auff das wir
+klug werden / gibt er vns die Lehre an die Hand / das wir stets sollen bedencken
+/ das vnser leben kurtz vnd vngewiß sey / vnd wir nichts gewissers haben / als
+das wir einmal dauon müssen / vnd das wir nicht wissen / wie nahe vns vnser ende
+sey / sondern müssen vns desselbigen alle tage / jha alle
+<pb facs="#f0008"/>
+Stund vnd augenblick vermuhten vnd
+versehen.</p>
+<p>Die Weltkinder dencken nicht daran / sondern setzen den Todt aus den augen / vnd
+entschlagen sich der gedancken mit fleis / sagen / es sey noch zeit gnug daran
+zugedencken / wenn mans keinen vmbgang haben kan / das man sich aber vorher vnd
+zwar alle zeit mit solchen gedancken schleppen vnd bekümmern sol / stehe nicht
+zu rathen / sonst würde ein Mensch nimmermehr recht frölich. Vnd begeben sich
+auch etliche darumb auff das Sauffen / vnd andere zeitliche Wollust / das sie
+des Todes vergessen. Es hilfft auch der Teuffel redlich darzu / denn es jhm
+hernach grossen vorteil bringt / wenn die Leute auff den Todt nicht gedacht
+haben / vnd also damit vnuersehens vberfallen werden / so sie sich dazu nicht
+geschicket / vnd sterben also gemeinlich vbel. Aus dieser sicherheit erfolget /
+das man wie die erfahrung zeuget / Gottes vnd seines Worts nicht achtet / das
+man sich auff zeitliche ehr / wollust vnd güter gantz vnd gar begibt / vnd
+sonsten in Sünden ohn allen schew fortfehret. Denn da bilden jhnen die Leute
+gleich ein / sie wöllen gar nicht sterben / oder aber sie sein des gewiß vnd
+versichert / das sie noch etliche viel Jar zu leben haben.</p>
+<p>Wir aber sollen vns für solcher sicherheit hüten / vnd bedencken / das wir
+sterben müssen. Das wil GOtt von vns haben. Darumb prediget er vns in seinem
+Wort vom Tod / welches er nicht würde thun / wenn wir nicht solten an den Tod
+gedencken. Denn das ists / das er baldt zu Adam / vnd vnter seiner Person zu
+allen Menschen sagt / Gen. 3. Du bist Erden / vnd solt zur Erden werden. Ja
+Syrach schreibet ausdrücklich / Cap. 7. Was du thust / so bedencke das ende / so
+wirstu nimmemehr vbel thun. Es richtet auch vnser lieber HErr Jesus Christus
+selber stets seine Predigten dahin / vnd erinnert die Leute jhres
+Sterbstündleins / das sie daran gedencken / vnd dazu sich schicken sollen. Als
+Matth 25. da er predigt von den Fünff klugen vnd
+<pb facs="#f0009"/>
+Fünff Thörichten Jungfrawen / vnd vermanet vns / wir sollen stets im Glauben
+wacker sein / vnd vnsere Lampen brennen / vnd durch gute Werck leuchten lassen /
+vnd also auff jhn warten / wenn er zu vns kömpt entweder durch den Tod / oder
+durch das Jüngste Gericht / vnd Luc. 12. spricht er gleichsfals / Lasset ewre
+Lenden vmbgürtet sein / vnd ewre Liechter brennen / vnd seid gleich den Menschen
+/ die auff jhre Herrn warten. Eben dahin gehet auch das Gleichnis vom
+vngerechten Haushalter. Denn da lehret Christus / wie der vngerechte Haushalter
+/ als ein kluger Weltman sich darauff geschicket / das er zubleiben wüste /
+nicht allein weil er beim Ampt were / sondern auch wenn er abgesetzt würde. Also
+sollen wir auch nicht allein darauff gedencken / wo wir hie bleiben wöllen /
+sondern auch wenn wir aller Güter dieser Welt entsetzt werden / vnd nu sterben /
+wie wir in die Himlischen Hütten auffgenommen werden mögen.</p>
+<p>Wenn wir auch sehen / als billig / wie die rechtgleubigen / der Historien in
+GOttes Wort verzeichnet sein / sich dißfals gehalten haben / so befinden wir /
+das sie jhren Todt vnd Sterbstündlein nicht aus den augen gesetzt / noch aus dem
+sinn geschlagen / sondern sich stets daran erinnert haben. Daher auch kommen ist
+/ das weil sie hierin jhre schwacheit gefühlet / sie Gott gebeten haben / er
+wölle jhnen die gnad geben / das sie den Tod nicht aus den Augen setzen /
+sondern stets vnd ohn vnterlas daran gedencken.</p>
+<p>Es heisset darumb der heilige Abraham sich Staub vnd Aschen / Gen. 18. Weil er
+sich stets erinnert / das er nicht in dem Stande / darin er ist / ewig bleiben /
+sondern dermalen eins sterben werde. Darumb heisset der Ertzvater Jacob sein
+leben ein Walfart / dieweil er sich erinnert / er gehöre in dieser Welt nicht zu
+haus / vnd habe da kein bleibende stedt / sondern er reise forth / bis bas er
+das ende erreiche / vnd ins ewige Vaterland komme.</p>
+<pb facs="#f0010"/>
+<p>Der Königliche Prophet Dauid spricht eben also / Ersey ein Pilger vnd frembdling
+/ Psalm. 39. er werde seinem Sönlein / so jhm gestorben war / dermalen eins
+folgen / 2. Saw. 12. Er gehe hin den weg alles Fleisches / 1. Reg. 2. Vnd da er
+im 39. Psalm der Weltkinder grosse sicherheit beklaget / bittet er gar fleissig
+/ GOtt wölle jhn lehren / das es ein ende mit jhm nemen werde / vnd sein leben
+ein Ziel habe / vnd er dauon müsse. Paulus setzt in vielen seinen Episteln / das
+er vnd alle Gleubigen warten auff die Zukunfft vnsers HErrn Jesu Christi.</p>
+<p>Das es aber einen anfenglich etwas betrübet / wenn er an den Todt gedenckt / sol
+vns dauon nicht abschrecken / das wir an vnser ende nicht gedencken wolten. Denn
+es ist vns gut / das vns die Fleischliche Sicherheit vertrieben werde / vnd ist
+das / wie Paulus 2. Corinth. 7. bezeuget / ein Göttliche Trawrigkeit / die da
+wircket ein Rew / der niemand gerewet. Zu dem sol es auch bey der Trawrigkeit
+nicht bleiben / sondern der Mensch sol durch die Lere des Euangelij von Christo
+vnd seinen Wolthaten / sintemal er / der HErr Christus / dem Todt sein macht
+genommen hat / wiederumb getröstet vnd erfrewet werden.</p>
+<p>Derowegen / liebe Christen / wir sein wer wir wöllen / lasset vns stets vnd ohne
+vnterlas / wir stehen auff / oder gehen zu Bette / wir essen oder trincken /
+oder haben für vns was wir wöllen / gedencken / wir müssen gewißlich sterben /
+vnd wissen nicht / wenn wir von Gott aus diesem leben abgefordert werden.</p>
+</div>
+<div>
+<head>Der Ander Teil.<lb/>
+</head>
+<p>Wie sol denn ein Mensch seine Tag zelen (wies in seiner Sprach klinget) oder was
+heisset hie eigentlich bedencken / das man sterben müsse? Es heisset nicht
+allein einen fliegenden gedancken vom Todt haben / Wie auch die Gottlosen des
+Tods vnterweilen gedencken / aber jhnen ist gar dünn dabey / sie sehen
+<pb facs="#f0011"/>
+den Todt nicht recht an / wie er an sich
+selber ist / sondern bilden jhnen ein / das sey es alles / das Leib vnd Seel
+sich mit schmertzen von einander scheiden / daher sie verechtlich dauon reden /
+es sey vmb ein bös Stündlein / vnd wie die ruchlosen Landsknechte sagen / vmb
+ein Kappen vol Fleisch zuthun. Solcher verechter des Todes ist der König Agag 1.
+Sam. 15. der den Todt für sich sihet / aber helt sich hart / vnd verbeisset die
+eusserlichen schmertzen vnd sagt / Also mus man des Todts bitterkeit verachten.
+Aber er gedencket nicht weiter / was der Todt mehr auff sich habe. Dergleichen
+lesen wir von den sichern verechtern Gottes vnd seines Worts / Jesai. 22. 1.
+Corinth. 15. Lasset vns essen / lasset vns trincken / denn morgen sind wir
+Todt.</p>
+<p>Das ist nicht die heilsame vnd selige betrachtung des Todes / dauon hie Moses
+redet / vnd die er von Gott bittet. Sondern das hat es auff sich / das Moses
+saget / Lehre vns bedencken / das wir sterben müssen / Das erstlich ein Mensch
+wisse vnd bedencke / das er dem Todt nicht entgehen könne / vnd wie das am
+gewissesten ist / also sey nichts vngewissers / als die Stund des Todes / also
+das er bedencke des Morgens / er wisse nicht / ob er den Abend ableben werde /
+vnd des Abends / er wisse nicht / ob er den Morgen ableben werde. Vnd das einer
+nicht allein ansehe vnd bedencke die eusserlichen schmertzen / damit Leib vnd
+Seel sich scheiden / Sondern das er auch bedencke / wo der Todt vnd schmertzen
+des Todes herkommen / nemlich / das es nicht ohn gefchr geschehe / sondern Gott
+lasse die Menschen sterben / vnd zürne also vber die Menschliche Natur von wegen
+der Sünden / die einem Menschen angeboren ist / vnd die er selbs thut / Ja es
+hören mit dem Tod die schmertzen nicht auff / sondern es müsse der mensch auch
+vnter dem Zorn Gottes nach dem Todt vnd Jüngsten Gericht ewig liggen bleiben /
+vnd ewige straff leiden / wo jhm nicht gerhaten vnd geholffen werde / heisset
+also den Todt recht bedencken / jhn ansehen / als Gottes straff / das man
+darunter sehe vnd
+<pb facs="#f0012"/>
+behertzige / den ewigen
+vnendlichen Zorn Gottes / so jetzt vber die Sünde ergehet / vnd künfftiglich in
+ewigkeit ergehen sol.</p>
+<p>Also sihet Moses in diesem 90. Psalmen den Todt an / Er erzelet nicht allein /
+wie kurtz vnd vngewiß das leben sey / vnd das wir plötzlich dauon müssen /
+Sondern das betrübet jhn auch / vnd sicht jhn mit vnd zwar zum hefftigsten an /
+das Gott aus gerechtem Zorn wieder die Sünde / solches den Menschen zuschicke /
+wie er spricht / Das macht dein Zorn / das wir so vergehen / vnd dein grimm /
+das wir so plötzlich dauon müssen / Denn vnser missethat stellestu für dich /
+vnser vnerkandte Sünde ins Liecht für deinem Angesicht. Darumb ist sein gantze
+bitte in diesem Psalmen fürnemlich dahin gerichtet / das GOtt gnade einwenden /
+vnd seinen gefasten Zorn fallen lassen wölle. Also malet den Todt auch S. Paulus
+1. Corinth. 15. da er spricht / Des Todes stachel oder spitzen sey die Sünde /
+der sticht einen Menschen recht ins Hertz / vnd schmertzet jhm. Das ist das
+allerschrecklichste am Todt / das jhn Gott von wegen der Sünden den menschen
+auffleget / vnd also damit beweiset / das er der Sünden zuwieder vnd spinnen
+feind sey. Wie denn auch vnderweilen die Gottlosen im Tode die Sünde mehr
+ansicht / denn alle andere schmertzen.</p>
+<p>Hiebey aber sol es nicht bleiben / sondern es sol ein fromes Hertz / wenn es an
+den Tod gedenckt / auch betrachten / wie Gott aus grosser gnad vnd
+barmhertzigkeit raht gefunden / vnd dem Menschen hülff verschaffet wieder den
+Todt / nemlich / seinen Eingebornen Sohn lassen Mensch werden vnd sterben / auff
+das er durch den Todt die macht nehme dem / der des Todes gewalt hatte. Wie
+dauon vnter andern stehet Jesai. 25. Er wird den Todt verschlingen ewiglich. Vnd
+Ose. 13. Todt ich wil dein giffe sein (spricht Christus) Hell ich wil dein
+Pestilentz sein.</p>
+<p>Mit diesen gedancken sol ein Mensch sich wiederumb auffrichten vnd trösten wieder
+den schrecklichen anblick des Todes / also / das er nicht in zweiffel gerahte
+wegen seiner Sünden mit
+<pb facs="#f0013"/>
+den vngleubigen / die
+da sagen / Ich fahre vn&#x0303; weis nicht wohin / oder gar verzage /
+Sondern das er gleube / Gott wölle jhm vmb Christi willen / der für vns das
+Gesetze erfüllet / vnd die Sünde gebüsset hat / gnedig sein / seine Sünde /
+dauon der Todt her kömpt / vergeben / ja jn zu seinem Kind annemen / vn&#x0303; von de&#x0303; Tod wieder aufferwecken zum Ewigen leben /
+auch aus gnaden alle mühe vnd arbeit belohnen. Wie denn solches allen Gleubigen
+im alten vnd neuwen Testament bekant gewesen / derowegen sie durch den
+verheissenen Messiam / in Kindlicher zuuersicht vnd vertrawen Gott vmb Vergebung
+der Sünden embsiglich angeruffen / vnd das er sie vom Todt erlösen / vnd jhnen
+nach diesem das Ewige leben geben würde / gegleubet haben / Daher sie denn für
+de&#x0303; Tod nicht mehr sich entsetzet / sondern mit der
+verheissung der gnaden sich getröstet haben / vnd sein also willig vnd frölich
+gewesen / das sie haben sterben sollen.</p>
+<p>Dah er / aus solchem vertrawen zu Gott / kömpts / das die Schrifft von den
+Ertzuätern sagt / sie sein des lebens satt gewesen / im frieden zu jhren Vätern
+gefahren. Daher kömpts / das Moses / als jhn Gott Deuteronom. 32. anzeiget / er
+solle auff dem Berg Nebo sterben / sich zum Todte willig einstellet / Deu. 34.
+Daher kömpts / das Simeon saget / HERR / nun lessestu deinen Diener im Friede
+fahren. Denn er bringt selbs die vrsach / Meine Augen haben deinen Heiland
+gesehen. Daher kömpts / das die Propheten / Apostel vnd Merterer etc. die
+verfolgung vnd den Todt nicht geachtet haben.</p>
+<p>Also sollen wir auch den Todt nicht allein ansehen / wie er an vnd für sich
+selber ist / sondern daneben vns erinnern / wie Christus vns zu gut den Todt
+angegriffen / vnd vberwunden habe / das er also nun den Gleubigen nicht mehr ein
+rechter Tod / sondern ein Schlaff sey. Wenn man also an den Todt gedencket / so
+wird das schrecken des Todes gelindert / ja gar vertrieben.</p>
+<pb facs="#f0014"/>
+<p>Zum Dritten ist bey solcher betrachtung des Todes auch ein vorsatz das leben
+zubessern / das ein Mensch GOtt für augen hat / vnd sich jm gehorsam zu sein
+befleissiget / dem Nechsten gern dienet / seine gaben / die jhm Gott verliehen /
+wol anleget / vnd in seinem Ampt vnd Beruff getrew vnd fleissig ist.</p>
+<p>Denn gleich wie ein sicherer Mensch / der an den Tod nicht gedencket / sondern
+jhn aus den augen setzet / weder nach GOtt / noch Gottes Zorn oder gnad etwas
+fraget / auch GOtt vnd seinem Nechsten nichts zu willen weis / sondern in den
+tag hinein lebet / vnd nur darauff sihet / das er seinen vorteil schaffe /
+zeitliche Ehr / Güter vnd Wollust erlange. Also wer den Todt recht betrachtet /
+vnd bedencket / das er dessen alle Stund vnd augenblick müsse gewertig sein / /
+vnd wie der Bawm einmal falle / so bleibe er liggen / vnd werde auff den Todt
+Ewiges Leben oder Verdamniß folgen / der sihet sich jmmerdar für / das er ja
+Gott nicht erzürne / vnd zu nahe sey / sondern jhm gehörche vnd diene / auff das
+/ wenn jhn der Todt vberfellt / er nicht als ein vngetrewer Knecht in Sünden
+betretten / vnd ewig gestraffet / sondern im Stand guter Werck erfunden werde /
+vnd des ewigen rhum vnd frewd habe. Wie denn Christus Matth. 25. bezeuget / das
+er am Jüngsten tag aus gnaden die guten Werck rhümen vnd belohnen werde.</p>
+<p>Das ists das Syrach 7. sagt / Bedenck das ende / so wirstu nimmermehr vbels thun.
+Also vermanet Christus aus diesem grund / das wir mit vnsern Gütern dem Nechsten
+guts thun Luc. 16. Machet euch Freund / spricht er / mit dem vngerechten Mammon
+(Dadurch verstehet er die zeitliche Güter) auff das wenn jhr nun darbet / sie
+euch auffnemen in die Ewige Hütten. Dahin sihet er auch in dem Gleichnis von
+einem Menschen / der vber land zoge / vnd seinen Knechten seine Güter austhete /
+vnd dem einem fünff / dem andern zwen / dem dritten einen Centner gab / vnd
+darnach wiederkam / vnd von jhnen Rechenschafft for-
+<pb facs="#f0015"/>
+dert / wie ein jeder das seine
+angelegt. Auch gehöret hieher das Gleichnis vom fleissigen vnd getrewen Knecht /
+der dem Gesinde zu rechter zeit jhr gebühr gibt / vnd der Herr kömpt / vnd
+findet jhn also thun / vnd jhn vber alle seine Güter setzt / Luc. 12.</p>
+<p>Werden also aus dieser Lehre scharffe Vermanung genommen / dadurch die Leute in
+allen Stenden jhres Ampts erinnert werden / Als das ein Prediger sein Ampt mit
+lehren / trösten / vermahnen vnd straffen trewlich verrichte / sol jhn die
+betrachtung des Todes vermanen / dieweil dermalen eins der Ertzhirt kommen wird
+(welches im Todt angehet) die vnuerwelckliche Kron der Ehren zugeben / denen /
+die die Gemein GOttes wol geweidet haben. Das ein Oberkeit wol regiere / die
+bösen ohne ansehen der Person straffe / die vnschüldigen aber / sonderlich auch
+Widwen vnd Waysen schütze vnd vertheidige / wird sie eben aus diesem grund
+vermanet / Psalm. 82. Ich habe gesaget / jhr seid wol Götter / vnd allzumal
+Kinder des Allerhöhesten / Aber jhr werdet sterben wie Menschen. Desgleichen im
+Hausstand vnd sonsten muntert es einen Menschen auff / wenn er gedencket / das
+er seines endes alle Stunde gewertig sein müsse / da klingen in seinen Ohren die
+Wort des Sohns Gottes / Apoc. 2. Sey getrew bis an den Tod / so wil ich dir die
+Kron des lebens geben. Item / S. Paulus Ephes. 6. Was ein jeglicher guts thun
+wird / das wird er von dem HERRN empfangen / er sey ein Knecht oder ein
+Freyer.</p>
+<p>Dieses alles nun / wie man den Todt recht vnd seliglich betrachten sol / müssen
+wir nicht allein hören vnd wissen / sondern auch ins Werck richten. Vnd sol ein
+jeder sich selbs prüfen / ob er es auch bishero auch in acht gehabt / seine
+Sünde / darumb vns Gott den Todt auffgelegt / bereuwet. Item / ob er sich
+Christi vnd seiner Wolthaten von Hertzen getröstet / ob er auch jhm vorgesetzt
+sich zubessern / vnd da er befindt das es nicht geschehen ist / vnd er also
+nicht recht bedacht / das er sterben müste / wie wir
+<pb facs="#f0016"/>
+denn mehres theils befinden werden / sol ers
+forthin endern / vnd sich bessern.</p>
+</div>
+<div>
+<head>Der Dritte Theil.<lb/>
+</head>
+<p>Worumb sollen wir denn die Zal vnserer Tag mercken / das ist / bedencken / / das
+wir nicht werden ewig hie bleiben / sondern müssen sterben / vnd das nichts
+vngewissers sey denn die Stund des Todes / also das wir vns des Todes alle
+augenblick versehen müssen? Das lehret Moses mit den Worten / da er sagt / auff
+das wir klug werden. Damit er anzeiget / daß das ein weiser kluger Mensch sey /
+der recht vnd mit ernst bedenckt / das er sterben müsse / vnd sich dazu schicket
+vnd gefast machet.</p>
+<p>Denn das ist rechte klugheit / wenn ein Mensch nicht wie das vnuernünfftige Viehe
+in den Tag hinein lebet / vnd allein darauff sihet / das er der gegenwertigen
+Güter dieser Welt geniesse / vnd damit seinen Leib versorge / Sondern vber das
+gedencket / das er die Seel / als das fürnemste stück des Menschen auch mit
+ewigen Himlischen Gütern wol versorge / vnd also sein sach dermassen anstelle /
+das es jhn hernacher nicht gereuwe / vnd er sich hinder den Ohren kratze / wie
+man sagt / jha die Hende vber den Kopff zusammen schlage / sondern das er auch
+künfftiglich vnd in ewigkeit ohne gefahr vnd sorgen sey.</p>
+<p>Nun ist Klugheit vnd Weisheit fast das aller höchste Gut vnter allen zeitlichen
+Gütern / dagegen Geld / Gut / Ehr vnd Wollust dieses lebens gar gering / jha für
+nichts zuachten ist: Derowegen die vernünfftige Heiden es dafür gehalten / man
+soll viel mehr nach weisheit vnd klugheit / als nach andern Gütern / streben /
+Wie sie denn eins theils weisheit zuerlangen alle andere Güter / Ehr vnd Wollust
+/ darumb sich der meiste hauffe so sehr bemühet / hindan gesetzt vnd verachtet
+haben / Aber es hat jhnen gefeilet an Gottes Wort / Darumb sie der rechten
+weisheit vnd Klugheit gefeilet haben. Derowegen die allerklügesten Leute /
+<pb facs="#f0017"/>
+die sich vmb die Weis heit für andern
+bekümmert / auch derhalben gerhümet sein wöllen / zuletzt bekennen müssen / das
+sie vnweislich vnd vnfürsichtig gelebet / wie an Socrake / Cicerone / Catone /
+vnd vielen andern zusehen. Wir aber in der Christlichen Kirchen haben die rechte
+Weisheit. Denn GOttes Wort vns nachweiset / wie wir vns zum Tod seliglich
+schicken sollen / das wir vns in ewigkeit keines schadens vnd gefahr zubesorgen
+haben / nemlich / wir sollen / mit einem Wort zusagen / GOtt fürchten / Das ist
+/ wie im andern Theil angezeiget wird / die Sünde / als des Todes vrsach /
+erkennen / vnd vns lassen leid sein / vns aber trösten der hülff / die vns GOtt
+in seinem lieben Sohn Christo Jesu zugesaget hat / vnd in solchem Kindtlichem
+vertrawen ein newes leben anfangen.</p>
+<p>Wer nun also gesinnet ist / das ist ein kluger Mensch / der hat seine sachen auff
+das trucken gebracht / dem kans nicht feilen / er weis das er einen gnedigen
+GOtt hat / vnd derowegen jm kein schad widerfaren kan / Er ist des HErrn er lebe
+oder sterbe / er wird nimmer mehr vmbkommen / niemand kan jhn aus des HERRN Hand
+reissen / vnd wenn er schon stirbt / wird jhn doch Gott wieder am Jüngsten tag
+auffwecken / jhm das ewige leben geben / jha auch sein leiden / mühe vnd arbeit
+/ vnd was er guts gethan aus gnaden reichlich belohnen.</p>
+<p>Darumb nennet Gottes Wort die rechte Gottsfurcht vnd Gottseligkeit / weisheit /
+klugheit vnd verstandt in den Psalmen / als Psal. 49. vnd sonderlich in den
+Sprüchen Salomonis / dieweil ein Mensch der also Gott fürchtet / auff allen
+zufall / der jm begegnen kan / ja auff den Tod / vnd darauff folgendes Jüngstes
+Gericht wol gefast vnd verwaret ist.</p>
+<p>Ein solcher kluger Mensch ist Dauid / denn dieweil er Gott fürchtet / seine Sünde
+erkennet / dafür sorget / bey Gott jnniglich vmb gnad ansucht / sich der
+gnedigen zusag vom Messia (wie sein Testament ausweiset) tröstet / ist er des
+gewiß / das Gott jm vnd
+<pb facs="#f0018"/>
+allen gleubigen / auch
+wenn sie schon Todt sein / jre Gebeine verware / vnd das auch jr Tod werd
+gehalten sey für dem HERrn: Darumb spricht er im 23. Psalm: Ob ich schon wandert
+im finstern Thal / oder schatten des Todes / fürchte ich doch kein vnglück /
+denn du bist bey mir.</p>
+<p>Sölche klugheit ist auch bey Paulo / der sich zu dem Tod also gefast macht / das
+er begeret abzuscheiden / vn&#x0303; bey Christo zusein. Denn weil er
+seine Sünde erkennet / vnd an Christum gleubet / auch in seinem beruff getrew
+ist / weis er / das jn weder Tod noch leben / weder gegenwertiges noch
+zukünfftiges etc. von der liebe Gottes scheiden kan / Roman. 8. Sondern jhm die
+Kron der Gerechtigkeit beygelegt ist / 2. Timoth. 4.</p>
+<p>Also sollen wir auch vns zum Todt schicken / so haben wir die rechte Himlische
+Weisheit erlanget.</p>
+<p>Die Weltkinder lassen sich gar klug gedüncken / dieweil sie sonst in Weltlichen
+sachen so viel renck wissen vnd gebrauchen / zeitliche ehr vnd güter zuerlangen
+/ vnd nicht allein sich selbs auff viel Jar / sondern auch jhre Kinder wol
+zuuersorgen. Aber im grund sind sie rechte Thoren vnd grosse Narren. Denn sie
+versorgen allein den armen Madensack den Leib / die Seele aber / welche das
+fürnembste Stück am Menschen ist / verseumen sie gantz vnd gar / setzen sie
+nicht allein in gefahr / sondern auch ins verderben / nehmen also Geld oder
+einen Trunck / oder sonst vergengliche ehr vnd wollust für das ewig leben. Das
+ist ein grosse Thorheit / eben als wenn einer an seinem Leibe allein die Hende
+oder Finger verteidigen wolte / vnd liesse jhm den Kopff abschlagen. Sie samlen
+zeitliche vnd vergengliche Güter / dauon Salomon in seinem Prediger recht vnd
+wol saget / Es ist alles eitel / vnd verseumen die rechten Himlischen Güter /
+deren Leib vnd Seel ewig zugeniessen / vnd sich zu erfrewen haben. Darumb wenn
+sie sterben sollen / so bleiben sie stecken in Sünden / vnter Gottes Zorn vnd
+dem ewigen verdamnis / da sehen sie auch erst /
+<pb facs="#f0019"/>
+was sie gethan haben / da rewet sies / da erkennen sie selber jhre Thorheit /
+vnd beweinen sie / wie Sap. 5. stehet / Wir haben / sprechen sie / eitel
+vnrechte schedliche wege gegangen. Was hilfft vns nun der pracht / was bringt
+vns nun der Reichthumb sampt dem hochmuth? Darumb Dauid recht von jhnen sagt
+Psal. 49. Dis jr thun ist eitel Thorheit / Vnd Christus sagt Matth. 16. Was
+hilffts den Menschen / wenn er die gantze Welt gewünne / vnd lidte einen schaden
+an seiner Seelen / oder / was kan der Mensch geben / das er seine Seel
+erlöse?</p>
+<p>Diese Thorheit ist grösser denn mit worten kan ausgesprochen werden. Es ist ein
+viel zu gering gleichnis / wenn einer ein roth Epfflein / ich sage nicht für
+einen rothen Gülden / sondern für einen Gülden Berg nehme. Denn was ist Gold vnd
+aller Welt Gut gegen den ewigen Gütern? Summa der aller albersten leute thorheit
+auff der Welt ist nichts gegen dieser Thorheit zurechnen / das ein Mensch so
+vnuorsichtig ist / Vnd seine Seele vnd Seligkeit so gantz vnd gar vergist / vnd
+hindan setzt.</p>
+<p>Der Thoren werden vns zur warnung sehr viel / nicht allein in andern Historien /
+sondern auch in GOttes Wort fürgehalten / die zwar für der Welt so alber nicht /
+sondern eben klug vnd verschlagen gewesen / Aber in dem fall haben sie sich
+schendlich versehen / Vnd was jhnen künfftiglich begegnen würde / vnd wie sie
+dem fürbawen möchten / so vbel bedacht / jha sie haben sich selber mit jhrer
+listigkeit gefangen vnd gestürtzt / nach den Worten des heiligen Hiobs / Gott
+fangt die klugen in jhrer schalckheit. Ein solcher Thor ist Dauids vngetrewer
+Raht Achitophel gewesen / der so weis gehalten worden ist / das wenn er etwas
+gerahten / es nicht anders geachtet ist / als wenn ein Engel vom Himmel den Raht
+gegeben hette / Aber es gehen jm nicht allein sein Practiken nicht an / sondern
+wird auch für der Welt zuschanden / vnd fürdert sich selber zum ewigen
+verdamnis.</p>
+<p>Eben solche vnuorsichtige thörichte Leute sein gewesen / Na-
+<pb facs="#f0020"/>
+bal / 1. Sam. 25. der Gott vnd seinem
+Nechsten nichts zu willen gewust / sondern in den tag hinein gelebt hat /
+geschlemmet vn&#x0303; gesoffen / vnd also in seinen Sünden gestorben
+ist. Baltasar Dan. 5. der bald darauff als er sich voll gesoffen getödtet
+worden. Vnd Christus helt vns für ein Exempel von einem Reichen Man / Lu. 12.
+des Feld wol getragen / der auch als ein Weltmensch den anschlag gemacht / Ich
+wil meine Scheunen abbrechen / vnd grösser bawen / vnd wil darinsamlen alles /
+was mir gewachsen ist / vnd meine güter / vnd wil sagen zu meiner Seelen: Liebe
+Seel / du hast einen grossen vorrath auff viel Jar / habe nun ruhe / iß / trinck
+/ vnd haben einen guten muth. Aber GOtt sprach zu jhm: Du Narr / diese Nacht
+wird man deine Stele von dir fordern / vnd wes wirds sein / das du bereitet
+hast? Also mag der reiche schlemmer Luc. 16. sonst wol ein Weltweiser Man
+gewesen sein / Aber in dem ist er ein grosser Thor gewesen / das er an sein ende
+so gar nicht gedacht / daher es kommen / das er Mosen vnd die Propheten nichts
+geachtet hat.</p>
+<p>Dergleichen tregt sich noch teglich zu / vnd kommen sonderlich vns Predigern
+deren viel zuhanden / die in jhrem leben sich haben gedüncken lassen / sie haben
+jhre sache gar weislich vnd wol angeschlagen / in dem sie alles von zeitlichen
+Gütern nach sich gerissen / was los werden wöllen / Item gefressen / gesoffen /
+gespielet / vnzucht getrieben / aber denn / wenn sie Gott angreifft / vnd
+hernieder legt / bekennen vnd beklagen sie selbs jhre Thorheit / Ach wer es
+recht bedacht hette / Ach wie hab ich mich so vbel für gesehen / Ach solt ich
+nun wieder von newem anfahen zu leben / so wolt ich mich besser fürsehen / vnd
+viel anderst erzeigen. Vnd zwar so ists gut / wenns mit einem Menschen noch in
+diesem leben so weit kömpt / wo er nicht verzweiffelt / wie etliche thun.</p>
+<p>Ob auch schon jrer viel jre Thorheit nicht erkennen / sondern in jrer sicherheit
+dahin sterben / so werden sies doch dorth in der that mit jrem
+vnwiderbringlichen schaden erfahren / das sie grosse Thoren gewesen sein.</p>
+<pb facs="#f0021"/>
+<p>Das wir nun für der grossen Thorheit vns hüten / recht klug sein / vns wol
+fürsehen / vnd also wandeln vnd leben / das es vns nimmermehr schaden thue noch
+gerewe / sondern das wir vns des ewig erfrewen / sollen wir an vnser Ende
+gedencken.</p>
+</div>
+<div>
+<head>Der Vierde Theil.<lb/>
+</head>
+<p>Wie kömpt aber ein Mensch dazu / das er solches bedencke / vnd behertzige / vnd
+in seinem gantzen leben stets sein Ende für augen habe / vnd sich dazu schicke.
+Denn es werden ohn zweiffel doch etliche vnter vns sein / die jetzt gedencken
+werden / es were ja gut vnd billig / das wir an vnser ende gedencken / vnd zwar
+das wir also es behertzigen / das wir vns stets dazu schicken / vnd gefast
+machen / wer es thun köndte / wie komme ich denn dazu / das ich solches in allem
+meinem thun bedencke / vnd behertzige / vnd also mich zu GOtt bekere / vnd alle
+augenblick darauff warte vnd bereit sey / wenn mich Gott abfordere? es wird
+sonst zumalen viel vnd offt vergessen. Antwort. Es stehet in vnsern krefften vnd
+vermögen nicht / denn wir durch die Sünde dermassen verderbt sein / wie auch die
+erfahrung zeuget / das wir vns einbilden / es habe dißfals kein noth mit vns.
+Denn wir also vnser leben anstellen / als wenn wir gar nicht sterben würden /
+oder als wenn wir auff etliche viel Jar / das wir die noch gewiß leben würden
+versichert weren. Da hilfft auch nichts / vnd erweicht vns nicht / das wir für
+augen sehen / wie man einen nach dem andern hinaus zu Grabe tregt / vnd der
+Todte gleich vns die Lose thut / vnd wie Syrach redet / zu vns spricht / Gestern
+war es an mir / heute ists an dir / Ja das noch mehr ist / wenn vns schon Gott
+selbs angreiffet mit Leibes schwacheit / vnd wir kaum Athem holen konnen / noch
+dencken wir nicht recht an den Todt / schicken vns nicht dazu / sondern hoffen
+noch jmmer auff besserung / vnd das wir dauon kommen wöllen.</p>
+<p>Von solcher Thorheit vnd bösen vnart vnd verderbung stehet im 14. vnd 53. Psal.
+Die Thoren sprechen in jren Hertzen / es
+<pb facs="#f0022"/>
+ist
+kein GOtt / der HErr schawet vom Himmel auff der Menschen Kinder / das er sehe /
+ob er jemand klug sey / vnd nach Gott frage. Aber sie sind alle abgewichen / vnd
+allesampt vntüchtig / da ist keiner der guts thue / auch nicht einer. Vnd Ezech.
+11. vnd 36. zeuget / wir haben Steinerne Hertzen. Es solte billig einen Menschen
+bewegen / wenn Gott nicht allein jm predigen lest von seinem Todt / sondern auch
+teglich etliche hinweg nimpt / vnd jm selbs Kranckheiten / die des Todes
+Vorboten sein / zuschicket. Aber wir achtens nicht / seins gewonet / vnd wie man
+sagt / durchgangen / wie ein alt Haus des rauchs / das wir vns daran nicht
+keren. Eben wie Pharao so verstockt ist / das ob jm schon so viel vnglücks auff
+einander begegnet / dazu sein erstgebarner Sohn getödtet ist / er es gleichwol
+nicht achtet / vnd an den Todt nicht gedencket / bis jhm im rothen Meer das
+Wasser vber dem Kopff zusammen schlecht. Das sehen wir an den Kindern Israel /
+da schon auff einen tag Core / Dathan vnd Abiran / vnd jhre Rott von der Erden
+lebendig verschlungen waren / versamlet sich doch bald den folgenden Tag die
+gantze Gemein / vnd murret wieder Mosen vnd Aaron / Num. 16. Ich meine ja das
+heist den Todt aus den augen setzen.</p>
+<p>Ebe&#x0303; der arth sein wir auch / das also dißfals an vns nicht nichts
+zuthun ist / darumb hie Moses klaget: Wer gleubet aber das du so sehr zürnest /
+vnd wer fürchtet sich sür solchem deinem grimm?</p>
+<p>Sollen wir aber an vnsern Todt gedencken / vnd denselbigen behertzigen / vnd vns
+dazu schicken / vnd gefast machen / so mus es GOtt geben / vnd in vns wircken.
+Darumb Jerem. 31. betet / HERR bekere mich / so werde ich bekeret. Vnd Gott
+spricht Ezech. 11. er wölle ausschneiden das Steinerne Hertz / vnd wölle ein
+Fleischern Hertz geben. Darumb da Moses in diesem Psalmen vber die sicherheit
+vnd verstockung des Menschlichen Hertzen geklaget / wendet er sich durchs Gebet
+zu Gott vnd spricht (HErr) lehre (du) vns bedencken / das wir sterben müssen.
+Vnd Dauid
+<pb facs="#f0023"/>
+folget hierin Mose nach / da er im
+39. Psalm sagt / HERR lehre mich doch / das es ein end mit mir haben wird.
+Darumb wir dieses auch durch ein hertzlichs Gebet bey Gott suchen sollen.</p>
+<p>Es ist aber mit dem Gebet allein nicht ausgericht / sondern es sein gewisse
+mittel / dadurch GOtt vns solches lehret / vnd zuerkennen gibt / die müssen wir
+nicht verseumen.</p>
+<p>Das fürnembste mittel ist Gottes Wort / darinn GOtt vns für halten lest vnsere
+Sünde / vnd seinen Zorn / vnd den Tod / der aus der Sünden folget / vnd wie er
+nach dem Tod auch ewig die Sünde straffen wölle / vnd vermahnet vns / das wir
+vns mit Gott versönen lassen / vnd also leben / das wirs auch nach diesem leben
+/ wenn wir gestorben sein / vnd wiederumb von den Todten aufferweck et werden /
+geniessen mögen.</p>
+<p>Damit wir nun nicht so sicher vnd rüchlos sein vnd bleiben / sondern vnterrichtet
+vnd geleret / auch erweichet werden / das wir gleuben / das wir sterben müssen /
+so sollen wir in die Kirch gehen / vnd Gottes Wort fleissig hören / das ist
+Gottes werck stat. Vnd Gottes Wort ist das Messer / dadurch er vnsere Steinerne
+Hertzen ausschneidet. Denn gleich wie sonsten einer der was guts lernen wil /
+sich in die Schul vnd Lehr begeben mus: Also müssen wir diese Schule des
+heiligen Geistes nicht herseumen / sondern fleissig besuchen. Dadurch wil Gott
+krefstig sein / vnd vns leren / das wir sterben müssen.</p>
+<p>Dieweil aber offtmals die blosse Wort bey vns nicht hafften / so braucht auch
+Gott vnterweilen die Ruthe / steupet andere / vnd nimpt sie vns von der seiten
+hinweg / das er vns also einbilde / das wir sterben müssen. Iha das die Predigt
+desto mehr nachdruck bey vns habe / belegt vns selber GOtt mit viel vnd
+mancherley Creutz / welches als des Todes Vorboten sein. Dadurch wird mancher zu
+recht gebracht / der sonst gar nicht bedenckt / das er sterben müsse / vnd sich
+gar nicht schicket / das er der Sünden / die des Todes Stachel ist / quit werde.
+So kömpt der grewliche gro-
+<pb facs="#f0024"/>
+sse Sünder
+Manasses in seiner schweren Gefengnis zu recht / da fühlet er seine Sünde / die
+des Todes stachel ist / bittet Gott vmb verzethung / wird mit jhm versünet / vnd
+ist also zum Tod bereit. Fast eben also kömptder Schecher zu recht / der hat
+sein lebenlang nicht gut thun wöllen / vnd also wenig / ja gar nicht gedacht /
+das er sterben müste. Darumb lest jn Gott anlauffen / das er gefenglich
+eingezogen / vnd ans Creutz geschlagen werden mus / da fühlet er den Todt / vnd
+sonderlich des Todes stachel / die Sünde / vnd nimpt es zu Hertzen / da trachtet
+er darnach / das er mit Gott möge versönet werden. HErr gedenck mein / spricht
+er / wenn du in dein Reich kömpst / vnd das er je seliglich im Stand guter Werck
+sterbe / fangt er albereit an sein leben zubessern / vnd dem andern Schecher
+zupredigen / das er sich auch bessere.</p>
+<p>Wer nun also Gottes Wort mit fleis höret / dazu auch das Creutz mit gedult auff
+sich nimpt / sich recht darein schicket / vnd betet von Hertzen / das jhn GOtt
+lehre bedencken / das er sterben müsse / den wil GOtt erhören / vnd durch sein
+Wort vnd das Creutz so weit bringen / das er sich zum Todt bereitet / vnd ob er
+schon bißweilen / wie auch die klugen Jungfrawen ein wenig einschlummert / sich
+aber gleichwol ermuntert / wil jhn GOtt nicht verwerffen / Matth. 25.</p>
+</div>
+<div>
+<head>Beschluß.<lb/>
+</head>
+<p>Wir haben nun auch ein Person zur Erden bestatet / einen Man vom Adel / so
+weiland vnserm gnedigen Fürsten vn&#x0303; Herrn vber die 30. Jar
+auffrichtig / redlich / vnd trewlich gedienet hat. Nun wöllen wir von seinem
+fürnemen Geschlecht vnd herkommen / Item / wie seine Eltern vnd verwandten in
+Böheim Königen vnd Keysern mit rhum gedienet / nichts sagen. Denn solches hieher
+nicht gehöret. Sondern allein das berichten / was andern zur besserung durch
+Gottes gnad dienlich sein mag. Denn wir zur Begrebnis eigentlich nicht kommen /
+der Leute Laudes zulesen / sondern das wir lebeudigen aus Gottes Wort
+vnterrichtet vnd gebessert werden.</p>
+<pb facs="#f0025"/>
+<p>Es ist dieser vom Adel ein Sünder gewesen / wie wir all sein / vnd hat zwar / wie
+ein jeder vnter vns / auch seine sonderliche feil vn&#x0303; mengel
+gehabt. Darunter das mit gewesen / das er sich wie leider diese zeit fast
+gebreuchlich ist / vnterweilen mit dem Trunck vbernommen hat / dadurch
+vielleicht wol köndte kommen sein / das er etwas ehe gestorben / vnd so lang
+nicht gelebt / als er sonst natürlicher weise leben können / vnd hat also nicht
+allwege recht bedacht / das er sterben müste.</p>
+<p>Es hat aber Gott jm nicht allein mit Worten lassen predigen / das er sterben
+müste / sondern auch jn mit Creutz / vn&#x0303; entlich mit Kranck heit
+belegt / welches dann bey jm auch gewircket hat / sintemal er sich fleissig zu
+GOttes Wort gehalten / Wie er denn sonsten / vnd zwar newlich juner halben
+Monats frist zu Hause zum hochwirdigen Sacrament sich gefunden.</p>
+<p>In dieser Kranckheit aber hat er insonderheit recht wol bedacht / das er sterben
+müste. Denn er seine Sünde erkant vnd bekant / vnd zwar mit solcher demut / als
+ich fast die zeit meines lebens jemand gehöret. Denn er sich nicht schlecht
+vnter die Sünder / sondern auch vnter die allergröste vnd fürnembste Sünder für
+Gott gerechnet. Er hat auch seinen Glauben vnd vertrawen zu Gott durch Christum
+bekant / vnd wenn jhm ein Trostspruch fürgesagt / denselbigen gewust / vnd dem
+Prediger gleich aus dem Munde genommen / vnd gesagt / Ach GOtt du hast mir
+zugesaget / du wöllest mir helffen / das wirstu thun / das weis ich etc. Item
+HErr Jesu Christ war Mensch vnd Gott / in deine Hende befehl ich meinen Geist /
+du hast mich erlöset du getrewer GOtt. Dabey ist er bis an sein ende
+verharret.</p>
+<p>Er hat auch zugesaget sein leben / wenn jhn Gott fristete zubessern / vnd
+sonderlich des Truncks sich zuentschlahen / vn&#x0303; wenn jn schon
+fürneme Leute / oder seine besten Freund nötige&#x0303; würden / wolte er
+doch / was er jetzt GOtt zusagte / mehr in acht haben / es möcht ihm darüber
+gehen / wie der liebe Gott wolte.</p>
+<pb facs="#f0026"/>
+<p>Er hat auch andere seines gleichen zur besserung in solchem seinem Todbett
+vermanet. Vnd das heisset recht bedencke&#x0303; / das man sterben müsse
+/ vud recht klug sein / Darumb wir billig es dafür halte&#x0303; sollen /
+das er sein Seel er halten / vn&#x0303; das ewig leben erlangt.</p>
+<p>Vnd wil ich nun Amptshalben seines gleichen / vnd sönderlich vnser Hoffgesind
+vermanet haben / sie wöllen gedencken / das jnen Gott jetzt durch sein Wort vnd
+diese Leich / so hie für Augen stehet / predige / das sie sterben müssen / das
+wollen sie wol in acht haben / vnd abstehen von dem ruchlosen leben / da sie
+GOtt vnd sein Wort schier gar nicht achte&#x0303; / sondern gleich nur
+zur kurtzweil brauchen / vnd schier ein jeder thut was er selber wil / des
+Fressens vnd Sauffens hin vnd wieder in allen winckeln ist kein ende / Auff die
+/ so darein reden wil man nichts geben / Vnzucht wird mit der zeit schier
+vnuerholen getrieben etc. Da man sich nu nicht bessern wird / so wird vns Gott
+straffen mit dem vntergang. Diese Person ist nicht für allen ein Sünder gewesen
+/ sondern da wir nicht werden Busse thun / werden wir alle vmbkommen / ob schon
+Gott noch dem vnfruchtbaren Feigenbaum zeit gegeben / vnd damit gedult hat /
+Luc. 13. Vnd hat vns Gott hie ein Exempel angestellet / vnd ohne zweiffel gegen
+diesen Martini diesen vom Adel darumb anhero gleich citirt / das vns sein
+Exempel ein Bußpredigt were.</p>
+<p>Bekeren wir vns / so hat vns Gott eben an diesem Man ein Exempel der gnaden
+gestellet / vnd mit einem lebendigen Exempel bewiesen / das er denen / die sich
+bekeren / wenn sie auch schon grosse Sünder sein / gnade erzeigen wölle.</p>
+<p>GOtt gebe gnad / das wirs vns ein warnung sein lassen / Er lehre vns / vnd gebe
+vns ins Hertze / das wir sterben müssen / auff das wir klug werden / vnd es
+nicht also anschlagen / das es vns ewig gerewe / sandern dis leben seliglich
+zubeschliessen bereit sein.</p>
+<p>Gott lasse jm auch diese Adeliche Widwe vnd Kinder in gnade&#x0303;
+befolen sein / vmb seines lieben Sons vnsers HErrn Jesu Christi willen /
+Amen.</p>
+</div>
+</body>
+</text>
+</TEI>

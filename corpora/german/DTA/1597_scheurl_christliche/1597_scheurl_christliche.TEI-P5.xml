@@ -1,0 +1,1635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Christliche Leichpredigt Bey der Begrebnuß/ des Edlen/ Gestrengen vnd Ehrnvesten Jungkern/ Sigmund Juliussen Mynsingern von Frundeck/ des Fürstenthumbs Braunschweig ErbCammerern/ etc</title>
+<title type="sub">so auff ... den 16. Octobr. ... zu Grossen Alßleben ... entschlaffen</title>
+<author>
+<persName ref="http://d-nb.info/gnd/128568208">
+<surname>Scheurl</surname>
+<forename>Lorenz</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/lpr-stolb-16837/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/lpr-stolb-16837/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">94</measure>
+<measure type="tokens">18511</measure>
+<measure type="types">6717</measure>
+<measure type="characters">120929</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:13Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/scheurl_leichpredigt_1597</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/scheurl_leichpredigt_1597</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/scheurl_leichpredigt_1597</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/scheurl_leichpredigt_1597</idno>
+<idno type="DTADirName">scheurl_leichpredigt_1597</idno>
+<idno type="DTAID">30282</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30282-5</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Scheurl, Lorenz: Christliche Leichpredigt Bey der Begrebnuß/ des Edlen/ Gestrengen vnd Ehrnvesten Jungkern/ Sigmund Juliussen Mynsingern von Frundeck/ [...]. Magdeburg, 1597.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Christliche Leichpredigt Bey der Begrebnuß/ des Edlen/ Gestrengen vnd Ehrnvesten Jungkern/ Sigmund Juliussen Mynsingern von Frundeck/ des Fürstenthumbs Braunschweig ErbCammerern/ etc</title>
+<title level="m" type="sub">so auff ... den 16. Octobr. ... zu Grossen Alßleben ... entschlaffen</title>
+<author>
+<persName ref="http://d-nb.info/gnd/128568208">
+<surname>Scheurl</surname>
+<forename>Lorenz</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Roß</name></publisher>
+<pubPlace>Magdeburg</pubPlace>
+<date type="publication">1597</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001" n="1"/>
+<titlePage type="main"> <docTitle><titlePart type="main">Christliche Leichpredigt <lb/>
+<hi rendition="#b">B<hi rendition="#red">Ey der Begreb</hi></hi><lb/>
+<hi rendition="#red">nuß/des Edlen/Gestrengen vnd <lb/>
+</hi>
+Ehrnvesten
+Jungkern / Sigmund Juliussen Myn-<lb/>
+singern von Frundeck / des Fürstenthumbs Braun-<lb/>
+schweig Erb
+Cammerern / etc so auff S. Galli tag /<lb/>
+den 16. Octobr. vor Mittag vmb 2. vhr / zu Grossen<lb/>
+Alßleben seliglich im HErrn entschlaffen / vnd fol-<lb/>
+gends den 20. dieses / auff <hi rendition="#aq">Simonis</hi> vnd
+<hi rendition="#aq">Iudae</hi><lb/>
+in der Pfarrkirchen zu Helmstedt Christ-<lb/>
+lich vnd ehrlich zur Erden bestat-<lb/>
+tet
+worden.<lb/>
+</titlePart></docTitle>
+<byline>
+Gethan durch<lb/>
+<docAuthor><hi rendition="#red">Laurentium Scheurlin </hi></docAuthor><hi rendition="#red">/ der Heiligen</hi><lb/>
+Schrifft Professorn / Pastorn vnd
+General Su-<lb/>
+perintendenten / bey der löblichen Julius Vni-<lb/>
+uersitet daselbsten.<lb/>
+</byline>
+<figure/><lb/>
+<docImprint><hi rendition="#red">Gedruckt zu</hi> <pubPlace><hi rendition="#red">Magdeburgk</hi></pubPlace><hi rendition="#red"> bey</hi><publisher><hi rendition="#red"> Wil-</hi><lb/>
+helm Roß</publisher> / Im Jahr<lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docDate><hi rendition="#aq #i">M. D. XCVII.</hi></docDate></docImprint>
+</titlePage>
+<pb facs="#f0002"/>
+</front><body>
+<pb facs="#f0003" n="2"/>
+<div>
+<p>GEliebte im HERRN Christo. Es hat der Allmechtige ewige GOtt / nach seinem Göttlichen
+Raht / willen vnd wolgefallen / aus diesem Jammerthal in den Himlischen Frewdensaal /
+durch den zeitlichen Todt abgefordert / den Edlen / gestrengen vnd Ehrnvesten Jungkern /
+Sigmund Juliussen Mynsingern von Frundeck / Erb Cammerern des löblichen Fürstenthums
+Braunschweig etc. so wir aus Christlicher liebe / biß hieher an diß ort / zum Grab vnd
+Schlaffkemmerlein das Geleyt gegeben / vnd also die letzte ehre vnd dienst erzeiget vnd
+bewiesen haben.</p>
+<p>Nun wil es sich aber nicht gebüren / daß wir also widerumb von einander scheiden solten /
+ohne Gottes Wort vnd Trost der Heiligen Schrifft. Dann was S. Paulus an die Colosser am 3.
+Capittel geschrieben / das ist allen Christen<note place="right">Coloss. 3.</note> gesagt
+Wann vnd so offt wir zusammen kommen / das wir GOttes Wort sollen reichlich vnter vns
+wohnen lassen. Wollen demnach Gott dem Allmechtigen zu lob vnd preiß / diesem verstorbenen
+Edlen Jungkern zur letze vnd seliger gedechtnus / vns allen aber zu Trost vnd besserunge /
+aus Gottes Wort einen kurtzen Spruch zu erkleren / fürnemen / vnd zu fruchtbarlicher
+betrachtung desselben / Gott den Himlischen Vater vmb die Gnad vnd beystand seines
+Heiligen Geistes anruffen vnd beten / wie Christus Jesus selbst gelehret hat / das
+heilige<note place="right">Matth. 6</note> Vater vnser.</p>
+<pb facs="#f0004"/>
+</div>
+<div>
+<head> Also lesen wir im Euangelio S. Johannis am 1. Capittel.<lb/>
+</head>
+<p>DEs andern tages / siehet Johannes Jesum zu sich kommen vnd spricht: Sihe / das ist
+Gottes Lamb / welches der Welt Sünde tregt.</p>
+</div>
+<div>
+<head> Auslegung dieses Spruchs.<lb/>
+</head>
+<note place="left">Tit. 2.</note>
+<p>ES schreibet der heilige Apostel Paulus zum Tito am 2. Capit. Es sey erschienen die
+heilsame gnade GOttes allen Menschen / vnd hernacher im 3. Capit. nennet
+<pb facs="#f0005" n="3"/>
+ers die Freundligkeit vnd Leutseligkeit GOttes / das<note place="right">Tit.
+3.</note> Gott die Welt also geliebet / daß er seinen eingebornen<note place="right">Johan. 3.</note> Sohn gab / auff das alle / die an jn gleuben / nicht verloren werden /
+sondern das ewige leben haben.</p>
+<p>Ob nun wol der HErr Christus in Göttlicher gestalt<note place="right">Phil. 2.</note> war
+/ das ist / GOttes ewiger vnd Allmechtiger Sohn / der sich in vnser arm Fleisch vnd Blut
+verkleidet<note place="right">Johan. 1.</note> / das ist / ein wahrer Natürlicher Mensch
+worden / vnd damit bezeuget / daß er der versprochene Messias vnd Heyland der Welt sey /
+der auff die Welt kommen /<note place="right">Matth.</note> sein Volck von Sünden erlösen
+/ vnd selig machen sollen / auch billich von der Welt / dafür solte auff vnd angenomen
+sein worden. So bezeuget doch die Schrifft / daß er sey gewest / der aller verachtest vnd
+vnwerdest /<note place="right">Esa. 53.</note> voller schmertzen vnd kranckheit / wie der
+Prophet Esaias sagt: Wir sahen jhn / aber da war keine gestalt / die vns gefallen hette /
+Er war so veracht / daß man das Angesicht vor jm verbarg. Vnd Joh. am 1. Er kam<note place="right">Johan. 1.</note> in sein Eigenthumb / vnd die seinen namen jn nit
+auff.</p>
+<p>Damit wir vns nu an seiner armen geringen vnd verachten gestalt nit ergerten / vnd also
+den rechte&#x0303; waren Messiam verlieren möchten / da hat GOtt etliche Vorbotte&#x0303;
+verordnet / die des HErrn Christi Vorleuffer were&#x0303; / vnd bezeugten / daß er
+warhafftig der verheissene Messias sey / der in die Welt habe kommen sollen</p>
+<p>Wie dann GOTT von der seligen Geburt vnd Menschwerdunge Jesu Christi / nicht allein lang
+/ vnd
+<pb facs="#f0006"/>
+vor der that durch die heiligen Patriarchen vnd Propheten
+predigen lassen / sondern gleich zur stund seiner Geburt / sendet er die heiligen Engel
+vom Himmel / die den Hirten auff dem Felde / dieselbe verkündigen solten <note place="left">Luc. 2.</note>/ wie wir lesen Luc. 2. Fürchtet euch nicht / siehe / ich
+verkündige euch grosse frewde / die allem Volck widerfaren wird. Denn euch ist heute der
+Heyland geboren / welcher ist Christus der HErr in der Stad Dauid.</p>
+<note place="left">Luc. 2.</note>
+<p>So haben von jme gezeuget der alte Simeon / vnd die Prophetin Hanna / als CHristus in dem
+Tempel dem Herrn war praesentiret vnd dargestellet / wie sonderlich Simeon dauon sein
+bekentnuß thut / HERR / Nun lessestu deinen Diener im friede fahren / wie du gesaget hast.
+Denn meine Augen haben deinen Heyland gesehen / welchen du bereitet hast für allen
+Völckern / Ein Liecht zu erleuchten die Heyden / vnd zum preiß deines Volcks Israel. Das
+alles ist geschehen nach der that / als Christus schon kommen / vnd auff diese Welt / von
+der reinen Jungfrawen Maria ein warer Mensch geborn worden. Hernacher aber / als Christus
+der HErr in sein Ampt eingetreten / da findet <note place="left">Nath. 11.</note>sich
+Johannes der Teuffer / der aller höchste vnd grösseste Prophet / so jemals von Weibern
+geborn / vnd von dem die andern Propheten geweissaget / wie er des HErrn Christi Vorgenger
+sein / vnd jme den weg <note place="left">Es. 40.</note>bereiten sol. Es ist / spricht
+Esaias / eine stimm. eines Predigers in der Wüsten / bereitet dem HErrn den
+<pb facs="#f0007" n="4"/>
+weg / macht auff dem Gefilde eine ebene Bahn vnserm Gott / alle
+Thal sollen erhöhet werden / vnd alle Berge vnd Hügel sollen genidriget werden / vnd was
+vngleich ist / sol eben / vnd was höckericht ist / sol schlecht werden / vnd Malach. am 3.
+Siehe / ich wil meinen Engel<note place="right">Malach. 3</note> senden / der für mir her
+den Weg bereiten sol / vnd baldt wird kommen zu seinem Tempel der HErr / den jhr suchet /
+vnd der Engel des Bundes / des jr begeret. Siehe er kompt / spricht der HErr Zebaoth /
+etc. vnd widerumb im 4. Cap. Siehe ich wil euch senden den<note place="right">Mal.
+4.</note> Propheten Elia / ehe denn da komme der grosse vnnd schreckliche tag des HErrn.
+Das solches alles von Johanne dem Teuffer zuuerstehen sey / leget vns Christus selbst aus
+/ Matth. am 11. Alle Propheten vnd das Gesetz haben geweissaget biß auff Johannem / vnd so
+jhrs wolt annemen / Er ist Elias / der da sol zukünfftig sein.</p>
+<p>Was nun dieser hohe vnd grosse Prophet dem HErrn Christo für zeugnus geben / beydes
+seiner Person vnd Ampts halber / die werden vns Johan. 1. ordentlich<note place="right">Johan. 1.</note> beschrieben / darunter diß nicht das geringste / das S. Johannes mit
+fingern auff Christum gewiesen vnd gesagt: Siehe / das ist Gottes Lamb / welches der Welt
+Sünde tregt. Das seindt gleichwol wenig wort / aber vber die massen Lehrreich vnd
+tröstlich / daraus wir zu studiren / was vnserlie-
+<pb facs="#f0008"/>
+ber HErr vnd Heyland
+Jesus Christus / für gewaltige schetze / gaben vnd gutthaten mit sich / zu vns auff diese
+Welt gebracht habe / nemlich / daß wir in Christo Ihesu / einig vnd allein haben
+verzeyhunge vnd vergebunge der Sünden / GOttes huld vnd gnad / die Gerechtigkeit / die für
+GOtt gilt / das leben vnd die ewige Seligkeit. Wer das hat / der hat Gott vnd genug / wie
+<note place="left">Rom. 8.</note>S. Paulus sagt: Ist GOtt für vns / wer mag wider vns
+sein / welcher auch seines einigen Sohns nicht hat verschonet sondern hat jn für vns alle
+dahin gegeben / wie solt er vns mit jhme nicht alles schencken? Wer wil die
+außerwelte&#x0303; Gottes beschüldigen? Gott ist hie / der da gerecht machet. Wer wil
+verdam&#x0303;en? Christus ist hie der da gestorben ist / ja vil mehr / der auch
+aufferwecket ist / welcher ist zur rechten GOttes vnd vertrit vns. Dargegen / wer Christum
+nicht hat / dem ist vnmüglich / selig zu werden / sondern mus ewig verdam&#x0303;t vnd
+verlohren sein / sintemal S. Petrus saget: Es ist <note place="left">Actor. 4.</note>in
+keinem andern Heyl / ist auch kein ander Name den Menschen gegeben / darinnen wir sollen
+selig werden.</p>
+<p>Dieweil ich nu glaub wirdig berichtet / daß dieser verstorbene Edle Jungker / auch
+sonderlichen diesen außbündigen tröstlichen Spruch geführet / vnd sich in seinen Todes
+nöhten damit getröstet / darauff auch abgerucket / vnd gantz seliglich in wahrer Erkantnuß
+Jesu Christi abgeschieden / vnd verstorben / so habe ich jhn eben auch vmb dieser vrsachen
+willen / Ewer Lieb
+<pb facs="#f0009" n="5"/>
+in dieser Predigt fürhalten vnnd auslegen
+wollen. Den wir vmb bessersverstandes willen / in diese nachfolgende zwey stücklein
+abtheilen wollen.</p>
+<p>Erstlich / Warumb der HERR Christus werde das Lamb Gottes genant.</p>
+<p>Zum andern / Was dieses Lämblein für eine grosse Last / vnd schwere Bürde getragen.</p>
+<p>Damit wir in vnserm heiligen Christlichen glauben / in aller anfechtunge / nicht allein
+gestercket vnnd getröstet werden / sondern auch vnsere hertzen vnd gemüter zur schüldigen
+danckbarkeit / gegen dieser grossen gnaden Gottes erheben vnd auffmuntern mögen. GOtt vom
+Himmel / der gebe vns hierzu ferner die gnad vnd krafft seines Heiligen Geistes / vmb
+seines geliebten Sohns / vnsers HErrn Ihesu Christi willen / Amen.</p>
+</div>
+<div>
+<head>
+<hi rendition="#i">I.</hi>
+<lb/>
+</head>
+<p>BElangend nun das erste stücklein / könte sich einer verwundern vnd fragen / wie es komme
+/ das Johannes der Teuffer nennet den HErrn Christum das Lamb Gottes / hette er jhn nicht
+eben so wol den Messiam vnd gesalbten des HErrn oder den Heyland vnd Seligmacher der Welt
+nennen können? Hie sol Ewer Lieb wissen / daß diß nicht ohne sonderliche wichtige vrsachen
+geschehen sey / sondern propter Allegoriam, da etwas gleichwol anderst mit Worten
+ausgesprochen wird / im verstand aber eine andere Meinunge / vnnd besondere deutunge hat /
+welches
+<pb facs="#f0010"/>
+auch nicht baldt ein jeder verstehen wird / wo er nicht ein
+jedes Wort insonderheit auff die Goldwage legen / vnnd mit besonderm fleiß bedencken vnd
+<note place="left">ECCE.</note>betrachten wird. Denn erstlich das er sagt / Siehe /
+wissen die Gelerten / daß in Griechische Sprache kein Aduerbium stehet / <foreign xml:lang="el"><gap reason="fm"/></foreign> , Ecce, welche red vns erst ein wort erkleren / vnd sein bedeutnus müste
+volkom&#x0303;ener mache&#x0303; / sondern ein verbum Imperatiui modi, <foreign xml:lang="el"><gap reason="fm"/></foreign> , Vide. Das ist ein solches wort / das vns nit allein bedeutet / sondern
+auch gebeut / et was zu thun / vnd mit hohem besondern fleiß / eine wichtige sache / wol
+in acht zu nemen / wie baldt hernacher in diesem Capittel der Apostel Philippus / als er
+von dem HErrn CHristo zum Apostolat vnd Predigampt beruffen / zu Nathanael saget / Wir
+haben den funden / von welchem Moses im Gesetze vnd die Propheten geschrieben haben / etc.
+komme vnd siehe es / welches Wort nicht anderst in der Heiligen Schrifft gebraucht wird /
+als wann sie vns ein ding gleichsam mit fingern zeiget / so wir mit besonderm fleiß
+anschawen vnd betrachten sollen / <note place="left">Marc. 13.</note>Gleich wie die Jünger
+zu dem HErrn Christo sagen / da sie jhme von fernen das vberaus köstliche vnd schöne
+Gebeude des Tempels zu Jerusalem zeigen / Meister / siehe / welche stein / vnd welch ein
+Baw ist das. <note place="left">Marc. 16.</note>Also lesen wir Marci 16. das sich auch der
+Engel des HErren dieses wörtleins in dem verstande gebraucht hat / da er den dreyen
+Weibern / die zum Grabe Christi
+<pb facs="#f0011" n="6"/>
+kommen / vnd seinen Leichnam
+salben wollen / verkündiget die fröliche aufferstehung des HErrn / Ihr suchet Jesum von
+Nazareth den gecreutzigte&#x0303; / er ist aufferstanden<note place="right">Joh.
+19.</note> / vnd ist nicht hie. Siehe da die stete / da sie jn hinlegten / also da
+Pilatus des HErrn Christi were gern loß gewesen / gedenckt er jn also zuzurichten / daß er
+auch einem stein / wil geschweigen / den Jüden erbarmen sol / Er ward jemmerlich
+gegeisselt / Man setzet jhm eine krone von dornen auff sein Haupt / daß jhm das Blut vber
+seinen gantzen Leib ableuffet / da führet er jhn zu den Jüden heraus / vnd saget / Sehet /
+welch ein Mensch ist das / der so jemmerlich zugerichtet / gemartert vnd geschlagen / das
+er euch freylich erbarmen solte. Eben also gebraucht auch Johannes der Teuffer dieses
+worts / Siehe / dann er wil / daß man eben auff diesen Man sol ein groß auffsehen haben /
+Gleich wie wir zu reden pflegen / wann vns etwas wunderlichs vnd vnuerhofftes fürkompt /
+sehet etc. Also / sage ich / wil vns S. Johannes auff die Person CHristi weisen / vnd
+denselben von allen Menschen gleichsam absondern vnd vnterscheiden / dann diesen sol man
+einig vnd allein anschawen / der sey es auch / der in die Welt habe kommen / vnd sein
+Volck von aller Sünde erlösen / vnd selig machen sollen.</p>
+<p>Vnd hie haben wir zu bedencken / wie so fein artig vnd ordentlich die Predigten Johannis
+von Christo auff einander gehen. Erstlich so hat er geredt von sei-
+<pb facs="#f0012"/>
+ner<note place="right">1.</note> Person / Dieser ists / von deme ich gesagt habe /
+nach mir kompt ein Mann / welcher vor mir gewesen ist / dann er war ehe denn ich / das er
+saget / der ists / der nach mir kompt / damit weiset er vns auff die Menschliche Natur
+Christi / das er ein wahrer Mensch sey. Dann Christus ist ein halb Jahr lenger vnd
+langsamer geboren vnnd in das Predigampt auffgetreten / als Johannes / das Christus aber
+auch warer GOtt sey / das stehet in diesen Worten / da Johannes sagt / <note place="left">Johan. 1.</note>welcher vor mir gewesen ist. Dann Christus ist der eingeborne Sohn
+Gottes / der in der Schoß des Vaters <note place="left">Mich. 5.</note>ist / welches
+ausgang von anfang vnd von ewigkeit <note place="left">2.</note>her gewesen ist. Darnach
+so hat Johannes auch geprediget von dem Ampt des HErrn Christi / der hat es vns
+verkündiget / Niemand spricht er / hat Gott je gesehen / der eingeborne Sohn / der in des
+Vaters schoß ist / der hat es vns verkündiget. Item von seiner fülle haben wir alle
+genommen / Gnad vmb Gnad. Denn das Gesetze ist durch Mosen gegeben / die Gnade vnd Warheit
+ist durch Ihesum Christum worden. Item / Er wird mit dem Heiligen Geist teuffen / als wolt
+er sagen / CHristus allein vergibt die Sünde / aus lauter gnade / vnd ernewert vnsere
+hertzen durch seinen Geist / machet vns zu Kindern Gottes / vnd Erben des ewigen
+lebens.</p>
+<note place="left">3.</note>
+<p>Das hatte biß hero Johannes der Teuffer von dem HErrn Christo geprediget. Wie aber vnd
+auff
+<pb facs="#f0013" n="7"/>
+was weis vnnd wege / oder durch welches mittel der HErr
+Messias vns solche güter werde erlangen vnd zu wegen bringen / dauon hat er biß hero nicht
+so eigentlich geredet / derowegen so thut ers jetzunder mit diesen herrlichen worten:
+Siehe / das ist Gottes Lamb / Welches der Welt Sünde tregt. Damit er vns anzeigen wollen.
+Sollen wir in Himmel kommen / so müsse es allein der HErr CHristus thun / der vns aus
+gnaden die sünde vergeben / gerecht vnd ewig selig machen wil. Das ist nun eins / so wir
+vns bey dem ersten Wörtlein / Siehe / zu erinnern haben.</p>
+<p>Darnach müssen wir auch auslegen das Wörtlein Lamb / vnd die vrsachen bedencken / warumb
+der<note place="right">AGNVS.</note> HErr CHristus also genennet werde / deren vns
+fürnemlich dreyerlei in Gottes Wort werden fürgehalten. Dann erstlich / ob man wol im
+alten Testament /<note place="right">1.</note> von allerley Thieren vnd Gevögel hat
+opffern können / als von Tauben vnd Turteltauben / von Ochsen / Rindern / die rote Kühe /
+Wider / Böcke vnd Ziegen / Schaff vnd Lemmer: so ist doch kein gethier vnter allen Opffern
+/ das man so fein vnd eigentlich / mit seiner art vnd eigenschafft könte auff den HErrn
+Christum verziehen vnnd auslegen / als eben die Opffer von einem Lamb. Denn gleich wie es
+vmb ein Lamb ist ein<note place="right">1.</note> mild / gütig / freundlich vnd
+sanfftmütig Thierlein / es
+<pb facs="#f0014"/>
+stosset nicht vmb sich wie ein Ochß / es
+schlegt nicht wie ein Pferd / es beisset nicht wie ein hund / also ist CHristus ein
+freundlicher / gütiger / holdseliger vnd demütiger <note place="left">Psal. 45.</note>HErr
+/ wie Dauid saget: Du bist der schönest vnter der Menschen kinder / holdselig sein deine
+Lippen / er hat ein sanfftmütiges vnd demütiges hertz / wie er <note place="left">Math.
+11.</note>selbs sagt: Ich bin sanfftmütig vnd von hertzen demütig / wie dann sonderlich
+von seiner demut der Heilige <note place="left">Philip. 2.</note>Apostel Paulus schreibet:
+Ein jeglicher sey gesinnet / wie Jesus Christus auch war / welcher / ob er wol in
+Göttlicher gestalt war / hielt ers nicht für einen raub / GOtt gleich sein / sondern
+eussert sich selbst / vnd nam Knechts gestalt an / ward gleich wie ein ander mensch / vnd
+an geberden als ein Mensch erfunden / ernidriget sich selbst / vnd ward gehorsam / biß zum
+tode / ja zum <note place="left">2.</note>tode am Creutze etc. Darnach wie es vmb ein Lamb
+ist ein reines vnd saubers Thierlein / es stincket nicht / wie ein Bock: Also ist vns die
+Vnschuld vnd heiligkeit Christi damit bezeichnet worden: Der ists / der nie kein Wasser
+betrübet / vnnd ein reines Hertz hat / wie die <note place="left">Esai. 53.</note>Schrifft
+zeuget / das er niemand vnrecht gethan hat / noch betrug in seinem Munde gewest ist.
+Dessen sich der HErr CHristus auch mit warheit rühmen mögen: <note place="left">Johan.
+8.</note>Welcher vnter euch kan mich einer Sünde zeihen? Vnd so ich euch die Warheit
+sage / warumb gleubet jhr mir nicht? Daher wird er genent von S. Petro <note place="left">1. Pet 1.</note>/ das vnschuldige vnd vnbefleckte Lämlein Gottes.
+<pb facs="#f0015" n="8"/>
+Wisset / spricht er / daß jhr nicht mit vergenglichem silber oder gold erlöset
+seid von ewrem eitelem Wandel / nach Väterlicher weise / sondern mit dem tewren Blut
+Christi / als eines vnschüldigen vnd vnbefleckten Lammes. Zu deme / so ist es vmb ein Lamb
+ein stilles vnd<note place="right">3.</note> gedültiges Thierlein / es pflegt nicht zu
+schreyen / wie andere thier / wenn es zur schlachtbanck gefüret wird / es rechet sich auch
+nicht selbst / sondern lesset mit jhme rmbgehen / wie man wil / vnnd ist gedültig: also
+hat auch vnser lieber HErr Ihesus Christus gantz willig vnd gedültig / Todt vnd Marter für
+vns gelitten / wie Esaias redet: Da er gestrafft vnnd gemartert war /<note place="right">Esal. 53.</note> that er seinen Mund nicht auff / wie ein Lamb das zur Schlachtbanck
+geführet wird / vnd wie ein Schaff / das erstummet für seinem Scherer / vnd seinen Mund
+nicht auffthut. Vnd S. Petrus: Christus hat für vns<note place="right">1. Pet. 2.</note>
+gelitten / vn&#x0303; vns ein fürbilde gelassen / daß jr solt nachfolgen seinen
+Fußstapffen / welcher keine Sünde gethan hat / ist auch kein betrug in seine&#x0303; munde
+erfunden / welcher nit wider schalt / da er gescholten ward / Nicht drewet / da er leidet
+/ er stellet es aber dem heim / der da recht richtet. Endlich / so wissen wir alle / daß
+es vmb<note place="right">4.</note> ein Lamb ist ein nutzbares Thierlein / dann alles was
+an jhme ist / kan man rahtsamlich gebt auchen /: Das Blut so thewer / hat seinen nutz: die
+Wollen braucht man zur kleidung: den Leib zur speise / zum guten essen vnd köstlichem
+Gebratens / aus den Därmen machet
+<pb facs="#f0016"/>
+man Seyten / die man braucht zur
+Music vnnd allerhand lieblichen Seitenspiel / die einen Menschen ergetzen vnd frölich
+machen. Einen solchen nutz vnd krafft habe&#x0303; wir auch von dem HErrn Christo. Durch
+<note place="left">Esa. 53.</note>seine Wunden seind wir geheilet. Das Blut Ihesu <note place="left">1. Joh. 1.</note>Christi / des Sohns Gottes / machet vns rein von aller
+sünden / das er vmb vnsert willen reichlich vergossen hat / vnd das zu dreyen
+vnterschiedlichen malen / wie die Alten sehr fein geredet haben. Erstlich tröpffleins
+<note place="left">Luc. 2.</note>weise / in seiner Beschneidunge / vnd am Oelberg /
+<note place="left">Luc. 22.</note>da er blutigen schweiß geschwitzet / Darnach rennen
+<note place="left">Joh. 19.</note>weiß in seiner Passion / da er mit Dornen wird
+gekrönet / gegeisselt / daß jhme das Blut vber den gantzen Leib rennet / vnd dann auch
+Bach vnd stramweiß an der Schedelstet / da man jhme hende vnd füsse durchgraben / seine
+seiten mit einem Speer geöffnet / darauß <note place="left">Joh. 19.</note>vnterschiedlich
+Wasser vnnd Blut / wie zwey starcke Brunnen röhren daher gesprungen sein / wie dann die
+Schrifft redet / das Blut vnd Wasser daraus geflossen sey.</p>
+<p>Also bekleidet vns der HErr Christus mit seiner <note place="left">Esa.
+61.</note>vnschuld / wie Esaias sagt: Er hat vns angezogen mit kleidern des Heyls / vnd
+mit dem Rock der Gerechtigkeit gekleidet. Daß gleicher weiß / wie ein Mensch mit seinem
+kleide bedecken kan ein abschewliche Kranckheit seines Leibs / daß der schaden nicht bald
+gesehen wird: Also werden wir bedecket mit dem mantel der vnschuld
+<pb facs="#f0017" n="9"/>
+des HErrn Christi / vmb dessen willen GOtt vnsere Sünde nicht mehr ansehen wil /
+sondern aus gnaden / vmb Christi willen verzeyhen / sintemal er vns von Gott gemacht ist
+zur weisheit / vnd zur Gerechtigkeit /<note place="right">1 Cor. 1.</note> vnd zur
+heiligung vnd zur erlösunge. Von dem kleide sagt auch Paulus: Ihr seid alle Gottes kinder
+durch<note place="right">Gal. 3.</note> den Glauben an Ihesu Christo. Dann wie viel ewer
+getaufft sein / die haben Christum angezogen. Zu deme / so gibt vns auch der HErr CHristus
+sein Fleisch vnd Blut zu essen vnd zu trincken / vnd wird vns zu einer köstlichen speise
+vnd tranck / dadurch wir zu dem ewigen leben erhalten werden. Welche speise vns nicht
+allein in der Predigt des heiligen Euangelions auffgetragen vnd fürgesetzt wird / dauon S.
+Paulus sagt / Ich scheme mich des Euangelions von Christo nicht /<note place="right">Rom.
+1.</note> denn es ist eine krafft Gottes / die da selig machet alle die daran gleuben /
+die Jüden fürnemlich vnd auch die Griechen: Sondern auch in dem heiligen vnd hochwirdigen
+Abendmal / darinnen vns der HErr Christus seinen wahren Leib vnd Blut zu einem pfand hat
+eingesetzt / daß wir nicht zweiffeln / sondern für gewiß wissen sollen / daß wir durch
+jhnen haben erlanget vergebunge der sünden / vnd das ewige leben. Endlich / so haben wir
+auch an vnserm lieben HErrn Ihesu Christo / lauter freude vnd wonne: durch jhnen können
+wir jauchtzen vnd frölich sein / auch mitten im tode vn&#x0303; sterben. Denn wir wissen /
+daß CHristus ist vnser leben /<note place="right">Phil. 1.</note>
+<pb facs="#f0018"/>
+vnnd sterben vnser gewinn. Sonsten findet man in der Welt kein
+seitenspiel / das den Todt könte vertreiben: Aber vnser HErr Christus kans / der schaffet
+vnd machet / daß wir vns des Todes halber nicht entsetzen / ob er wol sonst grausam vnd
+bitter ist / das wir jhme doch mit rechten warem Glauben vnter augen sehen / vnd mit
+freudigkeit denselben antreten / als die wir nu aus Gottes wort gelernet haben / daß vns
+der Todt so gar nicht schedlich / sondern viel mehr nützlich vnd beförderlich sein muß /
+wie Christus saget daß er vns die <note place="left">Joh. 5.</note>Thür auffthue zu dem
+ewigen leben. Dessen sich dann zu allen zeiten die fromen getröstet / sonderlich Job am
+<note place="left">Job. 19.</note>19. Cap. Ich weiß daß mein Erlöser lebet / vnd er wird
+mich hernach aus der Erden auffer wecken / vnd werde darnach mit dieser meiner Haut
+vmbgeben werden / vnd werde in meinem Fleisch GOtt sehen / denselben werde ich mir sehen /
+vnd meine augen werden jn schawen / vnd kein frembder. Dessen hat sich auch der alte <note place="left">Luc. 2.</note>Simeon getröstet / daß er mit freuden das Nunc dimittis,
+singet / vnd gerne sterben wil: Nun HErr lessestu deinen Diener im frieden fahren / wie du
+gesagt hast / dann meine augen haben deinen Heilandt gesehen / welchen du bereitet hast
+für allen Völckern / ein Liecht zu erleuchten die Heyden / vnd zum preiß deines Volcks
+Israel. Dessen hat sich auch der heilige Paulus <note place="left">Phil.
+1.</note>getröstet / da er spricht: Ich habe lust abzuscheiden / vnd bey Christo zu sein.
+Vnd in der Apostel Get
+<pb facs="#f0019" n="10"/>
+schicht am 7. Capit. lesen wir von dem
+heiligen Ertzmerterer Stephano / das er aus krafft dieses Trosts / da er den Himmel offen
+gesehen / vnd des Menschen Sohn zur rechten Gottes stehen / nur entschlaffen sey.</p>
+<p>Das ist nun eine vrsach / warumb der HErr Christus werde ein Lamb genennet / vmb der
+vergleichung willen mit dem Lamb. Das ist nun wol nicht vnrecht / noch wider die Schrifft
+geredet. Es ist aber zum andern<note place="right">II.</note> gantz vnd gar kein zweifel /
+sondern gewiß vnd offenbar / das S. Johannes sihet auff das Leuitische Priesterthumb / da
+man teglichs viel geopffert / welches alles war ein vorbild oder bedeutunge des künfftigen
+verföhnopffers / das vnser HErr IHesus selbst am stammen des Heiligen Creutzes an seinem
+Leibe werde verrichten / welches vns sonderlich ist durch das Osterlamb fürgebildet worden
+/ dauon wir lesen im andern Buch Mose am 12 Capitel / Daß Gott seinem<note place="right">Exod. 12.</note> Volcke den Jüden in Aegypten befohlen / sie solten alle Jahr Ostern
+halten / der gestalt / daß sie nemen ein Lamb / da kein feel an ist / ein Mänlein / das
+solten sie nemen von den andern Lämmern aus der Herde / vnd schlachten / mit seinem Blut
+solten sie beyde pfosten an der thür / vnd die oberste schwelle bestreiche&#x0303; / das
+fleisch solt man braten / vnd mit vngesewrtem Brodt / darzu mit besondern Ceremonien essen
+/ welches alles war ein Memoriale, oder gedechtnis der grossen Gnade Gottes / da er sein
+volck durch eine mechtige hand aus
+<pb facs="#f0020"/>
+Aegypten geführet / vnd durch den
+Engel des Verderbers alle erste geburt erwürget / der Jüden aber geschonet / so jhre
+heuser mit des Lam&#x0303;s Blut bestrichen. Diß alles ist ein Vorbild gewesen des HErrn
+Christi / der ist das rechte Osterlamb / dauon Paulus sagt 1. Cor. 5. <note place="left">1. Cor. 5.</note>Wir haben auch ein Osterlamb / das ist Christus / für vns geopffert /
+Welche Wort er sonder zweiffel aus <note place="left">Esa. 53.</note>dem Propheten Esaia
+genommen hat / da er auch ein Lamb genennet wird / das zur Schlachtbanck geführet <note place="left">I.</note>ist. Denn gleicher weise / wie der Jüden Osterlamb hat ohne feil
+vnd mangel sein sollen: also ist Christus der HErr ohne sünde vnd tadel / nicht allein so
+viel belanget seine heilige Göttliche Natur / da er ist die Vnschuld vnd Gerechtigkeit
+selbs: sondern auch was betrifft seine Menschliche Natur / da hat er auch keine Sünde nie
+gethan / wie droben gesagt / ist auch kein betrug <note place="left">Psal. 45.</note>in
+seinem Munde erfunden. Er ist ohne mackel / weil er der schönest vnter allen Menschen
+kindern. Er ist ein Mänlein / wie er in der Apostel Geschicht genennet <note place="left">Act. 2.</note>wird / Ein Man von GOtt vnter dem Volck / mit thaten / mit wunder vnd
+zeichen beweiset: mechtig vnd <note place="left">Mich. 2.</note>starck / als der
+Durchbrecher / der als ein König seinem Volck fürgehet vnd einführet in das ewige leben:
+Er ist auch genommen mitten aus der Herde / das ist aus dem Volcke Israel / denn er war
+ein geborner Jude / vnd eben der Prophet / dauon Moses geweissaget: Einen <note place="left">Deut. 18.</note>Propheten / wie mich / wird der HErr dein GOtt
+<pb facs="#f0021" n="11"/>
+dir erwecken / aus dir vnnd aus deinen Brüdern / dem soltu
+gehorchen.</p>
+<p>Darnach / wie man das Osterlämlein hat sollen<note place="right">II.</note> schlachten /
+vnd mit seinem Blut die thür pfosten besprengen / also hat auch der HErr Christus / nach
+dem aus bedachtem raht vnd fürsehunge GOttes er ergeben war / sollen getödtet werden vnd
+sterben / vnd sein Blut vergiessen für die Sünde der gantzen Welt / daß wir also durch jne
+das rechte leben bekom&#x0303;en möchten.</p>
+<p>Zu deme so hat das Osterlämlein müssen gebraten<note place="right">III.</note> werden.
+Also ist Christus am stammen des Creutzes in grosser hitz des zorns Gottes / vnd heisser
+liebe gegen vns gebraten worden / wie wir in dem gewönlichen Osterlied singen: Hie ist das
+rechte Osterlamb / dauon Gott hat gebote&#x0303; / das ist an des Creutzes stam / in
+heisser lieb gebraten / des Blut zeichnet vnser Thür / das helt der Glaub dem Tode für /
+der würger kan vns nicht rüren. Vnd ist jme freylich so heiß worden / daß er auch der
+Hellen flammen empfunden.</p>
+<p>Endlich so hat man auch das Osterlämlein müssen<note place="right">IV.</note> essen. Das
+legt der HErr Christus von sich selbst aus / Johan. 6. Mein Fleisch ist die rechte Speise
+/ vnd<note place="right">Johan 6.</note> mein Blut ist der rechte Tranck wer mein Fleisch
+jsset vn&#x0303; mein Blut trincket / der bleibt in mir vnd ich in jme. Das geschiehet nun
+nicht allein Spiritualiter, oder Geistlicher weiß / wie die Caluinisten lehren /
+wen&#x0303; wir vns durch einen rechten waren Glauben / den HErrn
+<pb facs="#f0022"/>
+Christum eigen machen: sondern auch Sacramentaliter seu oraliter, das ist im heiligen
+hochwirdigen Abendmal / darinnen vns der HErr Christus warhafftig vnd gegenwertig mit Brod
+vnd Wein / seinen Leib vnd Blut schencket vnd darreichet / vnnd vergewisset vns damit /
+das wir haben verzeihunge der Sünden / vnd das ewige leben.</p>
+<p>Wie wir nun sonsten vmb zweyerley vrsachen willen eusserliche vnd leibliche speiß zu vns
+nemen. Erstlich / daß wir den hunger stillen / vnd bey guter gesundheit den Leib erhalten
+mögen. Darnach auch vmb wollusts willen / sonderlich wenn die Speise köstlich / gut vnd
+vns angenem ist: Also kan vns allein vnser HErr Ihesus Christus den hunger vnd durst
+vnserer Seelen stillen vnd leschen Wann vns die Sünde anficht / daß wir aus Gottes Wort
+wissen vnd vns trösten mögen / wie das alle vnsere sünde in dem Blut Jesu Christi erseufft
+vnd bezalet seind / ja daß sie Gott in <note place="left">Mich. 7.</note>das Meer
+geworffen / da es am tieffesten ist / vnd wolle derselben nimmermehr gedencken.</p>
+<p>So kan auch gewißlich einem frommen Hertzen nicht mehr freud vnd wollust widerfahren /
+als wenn es aus Gottes Wort höret / das Christus saget: Sey getrost mein Sohn / dir sind
+deine Sünde vergeben. Item / daß er vnser Mitler vnd Fürsprecher sey / bey <note place="left">Rom. 8.</note>dem Vater / wie S. Paulus saget: Wer wil die auserwelten
+Gottes beschüldigen? Gott ist hie / der da ge-
+<pb facs="#f0023" n="12"/>
+recht machet / wer
+wil verdammen? CHristus ist hie / der gestorben ist / ja viel mehr / der auch aufferwecket
+ist / welcher ist zur rechten Gottes vnd vertrit vns. Was ist tröstlichers / als das
+Christus saget / Er sey in<note place="right">Joh. 14.</note> vns vnd wir in jme / vnd
+sollen ewiglich leben. Item er wol stets bey vnd vmb vns sein / vns in keiner not
+verlassen<note place="right">Matth. vlt.</note> / sondern herausser reissen / vnd zu
+ehren bringen /<note place="right">Psal. 91.</note> daß er vns sein heil möge zeigen / vnd
+mit langem leben setigen / das ist / vns geben das ewige leben / wie dann Christus selbst
+den trost führet / Joh. 14. Ewer Hertze<note place="right">Joh. 14.</note> erschrecke
+nicht / gleubet an Gott vnd gleubet an mich / In meines Vaters Hause seind viel Wohnungen
+/ wanns nicht so were / so wolte ich zu euch sagen / ich gehe hin / euch die stete
+zubereiten / vnd ob ich hingieng / euch die stete zubereiten / wil ich doch wider kommen /
+vnd euch zu mir nemen / auff daß jr seid da ich bin / vnd abermals Joh. 10. Meine Schaffe
+hören meine stimme<note place="right">Joh. 10.</note> / vnd ich kenne sie / vnd sie folgen
+mir / vnd ich gebe jhnen das ewige leben / vnnd sie werden nimmermehr vmbkommen / vnnd
+niemandts wird sie aus meiner hand reissen. Dann das ist die verheissunge / die er
+vns<note place="right">1. Joh. 2.</note> verheissen hat das ewige leben.</p>
+<p>Wann nun jetzunder jhrer etliche bey einander an einem Tische sitzen solten / welche alle
+vmb jhrer Mißhandlung willen solten sterben / vnd hingerichtet werden / vnd aber / es keme
+der Landesfürst selber zu jhnen vnd sagete / Wolan / wem ich den Becher werde in die
+<pb facs="#f0024"/>
+hand geben / der sol auffstehen / vnd frey vnd ledig ausgehen? Mit was
+frewden / meinet jhr / daß ein solcher gefangener den Becher nemen würde? Also waren wir
+alle vmb der Sünden willen vnter Gottes zorn / verdampt vnd verurtheilet zum ewigen Tode /
+Da kömpt nun vnser lieber HErr IHesus Christus / der <note place="left">Dan.
+12.</note>rechte grosse Fürst / zeiget vnd beut vns da den bittern Kelch / so er am
+Oelberg für vns ausgetruncken / vnd <note place="left">Joh. 8.</note>sagt: Wer mein Wort
+helt / vnnd gleubt an mich / der wird den Tod nicht sehen ewiglich / das ist / seine Sünde
+sollen jhme zur verdamnis nicht zugerechnet werden / die seind jhme vmb Christi willen
+verziehen / vnd <note place="left">Joh. 5.</note>durch den Tod sol er hindurch dringen zum
+ewigen leben. Eben das war vns auch im alten Testament fürgebildet durch das Iuge
+Sacrificium, da man alle tag muste zwey Lämmer schlachten / vnd dieselbe morgens vnd
+abends dem HErrn auffopffern / zur anzeigunge / daß Ihesus Christus sein werde / das
+rechte Lämlein Gottes / der sich für die Sünde der gantzen Welt / am stammen des heiligen
+Creutzes werde schlachten <note place="left">Esa. 50.</note>vnd auffopffern lassen / wie
+Esaias sagt: Ich hielte meinen Rücken dar / denen die mich schlugen / vnd meine Wangen /
+denen / die mich reufften / mein angesicht verbarg ich nicht für schmach vnd speichel /
+vnd Jeremias <note place="left">Jere. 11.</note>am 11. spricht: Ich bins / den sie als ein
+Schaff zur schlachtbanck geführet / ich wuste nicht / daß sie wider mich gerahtschlaget
+hetten / vnd gesagt / Lasset vns den
+<pb facs="#f0025" n="13"/>
+Baum mit seinen früchten
+verderben / vnd jn aus dem Land der lebendigen ausrotten / daß seines Namens nimmermehr
+gedacht werde / vnd das ist nun die ander vrsach / darumb S. Johannes den HErrn Christum
+einem Lamb vergleichet hat.</p>
+<p>Zum dritten / so wird er auch sonder zweiffel auff<note place="right">III.</note> das 53.
+Capitel Esaiae gesehen haben. Da mit gantz hellen vnd klaren worten der HERR Christus /
+ein Lamb genennet wird / das zur schlachtbanck wird geführet<note place="right">Esal.
+53.</note> / vnd darbeneben hinzu setzet / eben was hie S. Johannes hat / daß Gott der
+Vater alle vnsere sünde auff jn geworffe&#x0303; hab / daß er dieselbe für vns am Creutze
+tragen solte / wie denn die wort des Propheten lauten: Fürwar / Er trug vnsere Kranckheit
+/ vnd lud auff sich vnser schmertzen / wir aber hielten jhn für den / der geplagt / vnd
+von GOtt geschlagen vnd gemartert were / aber er ist vmb vnser Missethat willen verwundet
+/ vnnd vmb vnser Sünde willen zurschlagen die Straff liegt auff jhme / auff daß wir friede
+hetten / vnd durch seine Wunden seind wir geheilet. Vnd bald hernacher: Da er gestrafft
+vnd gemartert ward / thet er seinen Mund nicht auff / wie ein Lamb / das zur Schlachtbanck
+geführet wird / vnd wie ein Schaff / das erstummet für seinem Scherer / vnd seinen mund
+nicht auffthut. Er setzet auch gleich drauff die Krafft des leidens Christi / wenn er sein
+leben zum Schuldopffer gegeben hat / so wird er Samen haben / vnd in
+<pb facs="#f0026"/>
+die lenge leben vnd des HErrn fürnemen / das ist / sein will vnd werck / das er im sinn
+hat / nemlich / die Erlösunge der Menschen / wird durch seine Hand fortgehen / darumb das
+sein Seel gearbeitet hat / wird er seine lust sehen vnd die fülle haben / vnnd durch sein
+erkentniß wird er mein Knecht / der Gerechte viel gerecht machen / dann er tregt jhre
+Sünde / welches alles von dem HErrn Christo mus ausgelegt werden / als dann der heilige
+Geist diß gantze Capittel durch den Apostel Philippum hat ausgelegt / dem Kemmerer der
+Königin <note place="left">Act. 8.</note>Candaces aus Moren Land durch welche Predig er
+jhnen auch bekehret das er sich Teuffen lassen / vnd zu einem Christen worden. Eben also
+legt es aus S. <note place="left">1. Pet. 2.</note>Petrus: Der HErr Christus selbst habe
+vnsere sünde Geopffert an seinem Leib / auff dem Holtz / auff das wir der Sünden
+abgestorben / der Gerechtigkeit lebten. Noch herrlicher legts vns aus die Epistel an die
+<note place="left">Hebr. 10.</note>Hebreer: Das Gesetz hat den schatte&#x0303; von den
+zukünfftigen Gütern / nicht das wesen der Güter selbst. Dann es ist vnmüglich / durch
+Ochsen vnd Bocks Blut sünde wegnemen / darumb / da der HErr Christus in die <note place="left">Psal. 40.</note>Welt kompt / spricht er aus dem 40. Psalm: Opffer vnd Gaben
+hastu nicht gewolt / den Leib aberhastu mir zubereitet / da sprach ich / siehe / ich komme
+/ hie bin ich / Im Buch (in der Bibel) stehet fürnemlich von mir geschrieben / das ich
+thun sol Gott deinen willen. Ecce volui, id est, facio libenter hie bin ich vnd wil das
+<pb facs="#f0027" n="14"/>
+Opffer für der Welt Sünde gern verbringen vnd sterben / wie
+der HErr in seinem letzten Abendmahl zu seinen Jüngern sagt: Mich hat Hertzlich
+verlanget<note place="right">Luc. 22.</note> / diß Osterlamb mit euch zu essen / Wie
+dann der HErr Christus selbs seinen Feinden entgege&#x0303; gangen / vnd ob er jnen wol
+hett entrinnen können / so lest er sich doch willig fangen vnd binden / vnd vollbringet
+also an seinem eigenen Leib / das versühn Opffer für die Sünde der Welt / dadurch wir alle
+geheiliget sind einmahl / durch das Opffer des Leibes Ihesu Christi.</p>
+<p>Das seind nun die drey vrsachen / darumb Johannes der Teuffer / den Messiam ein Lamb
+nennet / als wolt er sagen: Man hat bißher viel geprediget durch wort vnd Zeichen / von
+dem Leiden vnd sterben Christi / der ist nun kom&#x0303;en / vnd mitten vnter euch
+getreten / Sihe / das ist das rechte Lamb GOttes / durch die im alten Testament bedeutet /
+der ist nun verhanden / der tregt die Sünde der Welt / vnd ist in keinem<note place="right">Acto. 4.</note> andern Heyl / ist auch kein ander Nam den Menschen gegeben
+/ darinnen wir sollen selig werden.</p>
+<p>Endlich / so haben wir bey diesem ersten stücklein auch das dritte Wörtlein zu bedencken
+/ das Christus nicht allein schlecht wird genennet das Lamb / sondern mit einem zusatz /
+Sihe / das ist Gottes Lamb /<note place="right">DEI.</note> damit denn S. Johannes diß
+Lemblein absondern vnd vnterscheiden wollen / von denen / dauon wir erst
+<pb facs="#f0028"/>
+nach der lenge geredet / vnd aus den vnuernünfftigen Thieren zu den Opffern genommen
+seind. Die haben nun sünde nicht können hinweg nemen / sondern allein auff Christum
+gewiesen / dessen Opffer ein genugsame bezalunge ist für aller Welt Sünde. Dann darzu hat
+GOtt der Vater diß Lemblein verordnet / vnd seinen Sohn zum Opffer dahin gegeben / darauff
+er gelegt hat alle vnsere Sünde / zwar nicht nur mit blossen <note place="left">Ceuit.
+16.</note>worten / wie der Hohepriester im alten Testament mit aufflegung seiner hende /
+alle missethat der Kinder Israel / vnd alle vbertrettunge jhrer Sünden / dem Bock hat
+aufflegen sollen / verfluchen vnnd in die Wüsten lauffen lassen / da weder er / noch der
+Bock etwas gelitten / sondern / es ist GOtt ernst gewesen / der aller Welt Sünde seinem
+Sohn auffgelegt / daß er dieselbe tragen / das ist / für sie leiden vnd sterben / büssen
+vnd bezahlen solte / mit dem herben vnd bittern Tode des Creutzes. Darumb gefelt auch GOtt
+dieses Lambs Opffer so wol / es ist jme lieb vnd angenem / denn es ist Gottes Lamb / vnd
+stirbet also für vnsere sünde / nicht ein pur lauter schlechter Mensch / sondern GOttes
+Sohn leidet für vns in angenommenen Fleisch / wie S. Petrus saget. Derwegen auch die
+Gelerten dafür halten / daß eben darumb der Articulus <foreign xml:lang="el"><gap reason="fm"/></foreign> . Ecce
+Agnus ille Dei, in der Griechischen Sprach zu finden sey / welchen der Syrus hat hernacher
+gesetzt / Ecce Agnus Dei ille. Siehe Gottes Lamb ist das / das der Welt sünde tregt.</p>
+<pb facs="#f0029" n="15"/>
+<p>Lieber möcht einer fragen / Warumb muste eben Gottes Sohn für der Welt sünde leiden vnd
+sterben / oder / warumb muste eben Gottes Lamb ein opffer für der Welt sünde werden /
+hette es nicht durch einen andern heiligen Menschen oder Engel können verrichtet werden?
+Nein / lieben Freunde / dann weil die hohe Göttliche Mayestet im Himmel war von dem
+Menschen beleidiget worden / muste widerumb ein andere hohe Person im Himmel / gleicher
+Mayestet vom Himel kommen / vnd Mensch werden / auff daß er könte leiden / vnd ein Mitler
+sein zwischen Gott dem Vater / vnd dem Menschlichen Geschlecht. Dann mit GOtt handeln /
+ist nicht eines schlechten menschen thun / sintemal auch die Engel den zorn Gottes nicht
+erdulden können. Darnach weil nicht allein für etliche vnd geringe Sünde solte ein Opffer
+geschehen / sondern auch für alle zugleich / vnd also für die aller grösten sünden / könte
+solches nicht volbracht werden / durch eine geringe Person / sondern es muste herhalten
+vnd bezahlen die höheste Person vnter allen Menschen / auff daß solcher hohen Person
+leiden vnd sterben were eine genugsame bezalunge vnd ein wirdiger abtrag für aller Welt
+sünde. Zu deme / so hette ein blosser Mensch den zorn Gottes gegen vnd wider die Sünde
+nicht dulden vnd tragen können / er hette darob müssen verzagen / darumb es ein solcher
+Mensch sein muste / der zugleich auch Gottes ewiger vnd allmechtiger Sohn were / so
+<pb facs="#f0030"/>
+bleibet nun ewig wahr / was Paulus sagt: Es ist ein <note place="left">.
+Tim. 2.</note>Gott vnd ein Mitler zwischen GOtt vnd den Menschen / Der Mensch Christus /
+der sich selbs gegeben hat für alle zur erlösunge / etc. Dessen leiden vnd sterben
+vberwegt alle vnsere Sünde / wie groß / mechtig / vielfaltig vnd grewlich auch dieselbigen
+seind. Das <note place="left">Hebr. 9.</note>zeiget vns auch die Epistel an die Hebreer
+an: Denn <note place="left">Num. 19.</note>so der Ochsen vnnd Böcke Blut / vnd die Aschen
+von der roten Kuhe besprenget / heiliget die vnreinen zu der Leiblichen reinigkeit / wie
+viel mehr wird das Blut Christi / der sich selbst ohne allen wandel durch den heiligen
+Geist Gott geopffert hat / vnser Gewissen reinigen von den todten wercken / zu dienen dem
+lebendigen Gott. Welches dan&#x0303; in der warheit ein groß werck ist / daß Christus nit
+allein für vnsere sünde leidet vnd stirbet / sondern auch daß er gantz gedultig vnd mit
+aller freudigkeit diß opffer hat verrichtet. Wer ist vnter vns / der vmb eines seiner
+gute&#x0303; freund willen jme selbst ließ ein arm oder eine hand abhawen? keiner thut
+das. Solte es einer leiden vmb seines Feindes willen / du würdest jhme wünschen / das er
+keinen Kopff darzu hette? Das thut aber der HErr Christus / vnd preiset <note place="left">Rom. 5.</note>damit seine liebe gegen vns / daß er für vns gestorben ist / da wir noch
+Sünder vnd seine Feinde waren. Wie jemmerlich ist er gemartert vn&#x0303; geplaget worden
+/ daß es auch einem Heyden erbarmet / der saget: Ecce Homo, vnd es Dauid zuuor im Geist
+gesehen / da er in
+<pb facs="#f0031" n="16"/>
+der person Christi also saget: Sie haben
+meine Hende<note place="right">Psal. 22.</note> vnd füsse durchgraben / ich möchte alle
+meine gebein zelen / ich bin außgeschütt wie ein wasser / alle meine Gebeine haben sich
+zertrennet / Mein hertz ist in meinem Leibe wie zerschmoltzen Wachs / meine Krefften seind
+vertrucknet / wie eine scherbe / vnd meine zunge klebt an meinem Gaumen etc.</p>
+</div>
+<div>
+<head>
+<hi rendition="#i">II.</hi>
+<lb/>
+</head>
+<p>Zum andern / Was hat denn diß Lämblein gethan / vnd ausgericht / da es in die Welt
+kommen?</p>
+<p>SAnct Johannes sagt / es habe getragen Sihe / das ist Gottes Lamb / welchs der welt sünde
+tregt. Sonsten darff ein Lamb nicht tragen / noch viel weniger wird es in einen wagen
+gespannet / daß es solte ziehen. Aber dieses Lam&#x0303; Gottes / der HErr Christus hat
+eine grosse schwere last getrage&#x0303; / nemlich der welt sünde. Diese Wort müssen wir
+auch nicht so vberhin hören / sondern so wol als die vorgehende&#x0303; mit besonderm
+fleiß er wegen vnd betrachten. Vnd erstlich / das hie stehet vom tragen. Welches da tregt
+/<note place="right">TOLLENS.</note>
+<foreign xml:lang="el"><gap reason="fm"/></foreign> , wissen die Gelerten wol / daß dieses wörtkein in der H.
+Schrifft fürnemlich in zweyerley verstand gebraucht wird. Erstlich / quando aliquid ex vno
+loco transfertur in aliu&#x0303;, das ist / wen&#x0303; man etwas von eine&#x0303; ort
+nim&#x0303;t / vnd bringets an einen andern / wie wir lesen von der Bundeslade&#x0303; /
+dz sie aus Silo sol abgeholet / vn&#x0303;
+<pb facs="#f0032"/>
+<note place="left">1. Sam. 4. v. 3.</note>zu dem Volck GOttes in jhr Lager gebracht werden
+/ damit sie Sieg möchten haben / wider jhre Feinde / die Philister. So lesen wir vom
+Obadia / des Königs <note place="left">1. Reg. 18. v. 12.</note>Ahas Heuptman / das er
+sagt zum Propheten Elia / wenn er hingienge vnd dem König anzeigen thete / das Elias
+verhanden were / so würde jhn hie zwischen der Geist des HErrn wegnemen / weiß nicht wohin
+/ darüber er wol dürffte erwürget werden / wenn Ahas keme / vnd fünde jhn nicht.</p>
+<note place="left">II.</note>
+<p>Darnach gebraucht die heilige Schrifft diß Wort auch in dem verstand / quando onus
+aliquod portatur, wenn man eine&#x0303; etwas aufflegt / das er tragen sol.</p>
+<p>In der meinunge stehet es von den dienern Salomonis <note place="left">1. Reg. 5. v.
+15.</note>/ daß er siebentzig tausend Man gehabt hab / <note place="left">2. Paral. 2.
+v. 18.</note><foreign xml:lang="el"><gap reason="fm"/></foreign> , portantes onera. Die last getragen zum Gebew des
+Tempels zu Jerusalem. So stehet es im <note place="left">Exod. 25. v. 14.</note>andern
+Buch Mose am 25. Cap. Da Gott dem Mosi befahle / wie man stangen sol machen / vnd mit Gold
+vberziehen / damit zu tragen die Lade des Bundes / <foreign xml:lang="el"><gap reason="fm"/></foreign> , vt portetur
+in eis. Also stehet es auch <note place="left">1. Sam. 14. v. 1.</note>von des Jonathans
+Waffentreger: Et dicit Ionathan ferenti arma eius, <foreign xml:lang="el"><gap reason="fm"/></foreign> . Also redet
+die Schrifft von dem Schildtreger Goliath / <note place="left">1. Sam. 17. v.
+7.</note>Gerens arma eius antecedebat eum, <foreign xml:lang="el"><gap reason="fm"/></foreign> . Wann wir nun den
+rechten Brunnen besichtigen wollen / daraus dieser Wörter verstand geschöpffet worden /
+werden sie sich finde&#x0303; in der heiligen Sprach /
+<pb facs="#f0033" n="17"/>
+so auch
+zwey solche wörter hat. NASA, das heist / tollere, auferre, transferre, hinnemen / oder
+dannen thun. Darnach Sabal, heist eigentlich tragen / welches beydes die Griechen mit dem
+wort <foreign xml:lang="el"><gap reason="fm"/></foreign> gegeben haben. Dieweil aber der Prophet Esaias im 53. Capit.
+diß Wort in beyderley verstand gebraucht hat de Messia portante &amp; auferente peccata
+nostra, das ist / daß Christus vnsere Sünde von vns hinweg genommen / vnnd an seinem Leib
+getragen habe: Als wird es sich finden / daß in den Worten Johannis eine besondere
+Emphasis vnd krafft stecken muß / da er saget: CHristus sey GOttes Lamb / das der Welt
+Sünde trage. Denn erstlich so nimpt er die sünde hinweg von vns /<note place="right">I.
+Esai. 53. v. 6.</note> vnd nimpts auff sich vnd tregts / wie Esaias sagt: Der HErr warff
+vnser aller Sünde auff jhn / darauß offenbar / daß der HErr Christus für sich keine Sünde
+an jhme gehabt / sondern daß er mit frembden sünden behafftet vnd beladen gewesen /
+nemlich / mit vnsern sünden / die er von vns genommen vnd auff sich gelegt hat. Darnach so
+nimpt der HErr Christus die Sünde<note place="right">II.</note> von vns / vnd ladets auff
+sich / die weil er selbs / wie Petrus sagt / vnsere Sünde geopffert hat an seinem Leibe /
+auff dem Holtze / daß nun vns die Sünde nicht mehr vmb des heiligen verdiensts Christi
+willen / wird zu der verdamnis zugerechnet. Zum dritten / so thut<note place="right">III.
+Esa. 38.</note> der HErr Christus durch seine versöhnunge / die sünde so ferne von vns /
+daß er sie alle hinter seinem Rü-
+<pb facs="#f0034"/>
+cken hat / ja / damit GOtt der Vater
+derselbigen nicht <note place="left">Mich. 7. IV.</note>mehr gedencke / so wirfft er sie
+ins Meer / da es am aller tieffesten ist. Endlich / so hebt der HErr Christus auch an /
+hie auff Erden in vns durch die gnade vnd krafft des heiligen Geistes / die sünde zu
+tödten / wird es aber vollenden am Jüngsten tag / wenn wir aufferstehen ohne Sünde / vnd
+eingehen werden zu dem ewigen Leben. Also herrlich nun seind diese Wort in der heiligen
+Schrifft erkleret / wie sichs auch der Prophet Nathan gebraucht hat / da er den König
+Dauid wegen seiner begangenen Sünde absoluiret. Ich habe / <note place="left">2. Sam.
+12</note>spricht Dauid / gesündiget wider den HERRN. Da <note place="left">Dominus
+<foreign xml:lang="el"><gap reason="fm"/></foreign> transtulit peccatum tuum.</note>sprach Nathan zu jhme. So hat
+auch der HErr deine sünde weggenommen. Du wirst nit sterben. Vnd Dauid selbst hernacher /
+als er gesehen daß der Engel des HErrn vmb seiner Sünde willen / darumb daß er das <note place="left">2. Sam. 24 v. 10.</note>Volck gezehlet / mit grausamer Pestilentz gestrafft
+/ saget: HErr / siehe / ich habe schwerlich gesündiget / daß ich das gethan habe / vnd nun
+HErr / nimme wegk die Misset hat deines Knechts / dann ich habe sehr thörlich gethan. Ob
+nun wol das für sich selbs ein besondere gnade GOttes ist / daß Christus die Sünde von vns
+weggenommen vnd getragen hat: so wird sie doch viel herrlicher vnnd scheinbarlicher / wann
+wir bedencken / was es vmb die Sünde für ein grosse vnd schwere Last sey. Den Gottlosen
+zwar / scheinet es vmb die Sünde ein leicht ding sein / deren sie baldt köndten vergessen:
+<pb facs="#f0035" n="18"/>
+wann wir aber bedencken / was an der sünden hanget / da wird
+es sich finden / daß es gewißlich vmb die sünde ein solche schwere last sey / die den
+Menschen sencket vnd bringet in das ewige verderben. Dann erstlich so<note place="right">1. Deut. 4.</note> hanget an der sünden der zorn Gottes / ein brennend vnd verzehrend
+fewer / vnd eben vmb der sünden willen zürnet Gott mit vns / wie Esaias sagt: Ewer
+Vntugend<note place="right">Esa. 59.</note> scheiden euch vnd ewren GOtt von einander /
+vnd ewre sünde verbergen das angesicht von euch / daß jhr nicht gehöret werdet. Wo nun die
+Sünde einmal auffwachet / vnd das Gewissen lebendig wird / da wird einem Menschen angst
+vnd bang / die gantze Welt ist jhme zu enge / daß er nicht weiß / wo aus oder ein: wie Job
+schreyet: Die Hand GOttes habe jhn gerüret / man sol sich seiner erbarmen. So ists dem
+König Dauid gange&#x0303; / Deine hand / spricht er / war tag vnd nacht<note place="right">Psal. 32.</note> schwer auff mir / daß mein safft vertrockete / wie es im Sommer dürr
+wird. Vnd abermals: Meine Sünde<note place="right">Psal. 38.</note> gehen vber mein Haupt
+/ wie eine schwere last seind sie mir zu schwer worden. Deine pfeil stecken in mir / vnd
+deine Hand trucket mich / etc. Wann einen Gottes gewalt getroffen hat / so pflegen wir zu
+sagen / die Hand Gottes habe jhn gerürt. Da liegt der Mensch wie ein stock vnd block / ohn
+allen verstand vnd bewegunge. Eben so bald ists mit dem Menschen anders worden / wenn jhn
+die Sünde thut anklagen / die können wir keines wegs leugnen / noch viel weniger vns
+vnserer
+<pb facs="#f0036"/>
+guten werck rühmen / vnd müssen mit Paulo sagen: <note place="left">Rom. 3.</note>Wir seind allzumal sünder / vnd mangeln des ruhms / <note place="left">2.</note>den wir an Gott haben sollen. Es hanget auch an der sünden /
+schand vnd spott / wie jhr wisset / daß vnsere erste <note place="left">Gen.
+3.</note>Eltern gleich nach dem fall für Gott geflogen sein / als vor deme sie sich
+schemen müssen / vnd jhn nicht mehr ansehen / noch mit jhme reden dürffen. Diese schmach
+ist auch vff vns geerbet / daß wir alle mit dem <note place="left">Dan. 9.</note>Propheten
+Daniel sagen müssen / Wir haben gesündiget / vnrecht gethan / seind Gottloß gewesen vnd
+abtrünnig worden / wir seind von deinen Geboten vnd Rechten gewichen / etc. Du HErr bist
+gerecht / wir aber müssen vns schemen / vnd mit dem König Dauid: <note place="left">Psal.
+106.</note>Wir haben gesündiget sampt vnsern Vetern / wir haben mißhandelt vnd seind
+Gottloß gewesen. Darauff <note place="left">3.</note>dann gehöret die straffe der Sünden /
+allerley kranckheit vnd schmertzen: wie GOtt dem Weib gedrawet <note place="left">Gen.
+3.</note>hat / daß er jhr viel schmertzen schaffen wolle etc. Vnd dem Man / daß der
+gantze Erdboden vmb seinet willen verflucht ist / vnd muß es jhm eben sawer genug lassen
+werden. Der Fluch gehet auch vber alle vnsere Kinder vnd Nachkömling / wie man siehet /
+daß wir mit schmertzen werde&#x0303; geboren / mit schmertzen vnd bekümmernis werden wir
+aufferzogen / wir führen ein elendes leben biß in die gruben / biß wir mit schmertzen
+wider <note place="left">4. Rom. 6.</note>absterben / wie dann der Tod selbs der sünden
+sold ist / vnd zwar nicht alleine der zeitliche / sondern auch
+<pb facs="#f0037" n="19"/>
+der ewige Todt / wie Moses redet / Verflucht sey / wer<note place="right">Deut. 27</note>
+nicht alle Wort dieses Gesetzes erfüllet. In summa / es hangen an der sünden alle Teuffel
+/ die vns an Leib vnd Seel begeren zuuerderben. Denn wie ein Hencker / einen gefangenen
+mit stricken bindet / vnd führet wie er wil: Also ist die Sünde nichts anders / als des
+Teuffels band vnd strick / damit er die Leute zeucht in abgrund der Hellen / wie solches
+an dem Gottlosen Cain / dem verrähter Juda / am Saul / vnd Achitophel zu sehen / die auch
+mit einer solchen schweren sünden last getrucket worden / daß sie endlich verzweifelt /
+sich selbst jemmerlich erwürget haben / vnd also mit Leib vnd Seel dem Teuffel seind
+zugefahren. Diese schwere Last nun hat der Christus auff sich genommen vnnd getragen / wie
+wir im Geistlichen Lied singen: O Lamb Gottes vnschüldig / am stammen des Creutzes
+geschlachtet / allezeit gefunden gedültig / wiewol du warest verachtet / alle Sünde hastu
+getragen / sonst müsten wir verzagen / Erbarm dich vnser O Jesu. Das ist eins / dessen wir
+vns bey dem Wörtlein / Tragen / zu erinnern.</p>
+<p>Darnach / so haben wir auch zu mercken das wörtlein / Sünd. Sanct Johannes redet nicht in
+plurali<note place="right">PECCA TVM.</note> numero, Tollens peccata, sondern in
+singulari, Tollens peccatum, Er tregt die Sünde. Was ists denn für eine sünde? Tregt der
+HErr Christus allein die Erbsünde / wie etliche lehren / daß er allein für die-
+<pb facs="#f0038"/>
+selbige gestorben: Die andere sünde aber / so man nennet Actualia, die
+wir selbs gethan haben / müssen wir selber büssen / vnd dafür gnug thun? Nein / liebe
+freunde / das ist eine falsche lehre / vnd gereichet dem reichen vnd volkommenen verdienst
+Christi zur schmach vnd vnehr / sondern er verstehet ins gemein / alle Sünden / sie haben
+einen Namen wie sie wollen / vnd seyen so groß / als sie immer sein können vnnd mögen /
+die hat diß Lämblein GOttes getragen / wie Thomas selbs die Meinunge Theophili erkleret /
+alles was Sünd heist / aller Sünd vnd Vntugend Last vnd beschwernis / Wust vnd Vnflat /
+desgleichen die Straffe der Sünden / vnd derselben sold vnd woluerdiente straff / als da
+ist GOttes zorn / der Fluch des Gesetzes / der Todt selbst / vnd was dem anhanget / wie
+dann kein straffe der Sünden kan erdacht werden / die der HErr Christus nicht getragen
+hette. Wir haben droben gehört / daß die Sünde verdiene spott vnd schand / Christus muß
+vmb vnsert willen verspottet / geschendet vn&#x0303; geschmehet werden / die Sünde
+verdienet / daß man einen menschen gefangen neme vnd binde: Der HErr Christus muß vmb
+vnsert willen / als ein Vbelthäter gefangen vnd gebunden werden / Die sünde verdienet / dz
+man einen vbelthäter ausfüret / vnd an leib vn&#x0303; leben lesset straffen: Der HErr
+Christus muß aus der stadt Jerusalem gestossen / vnd an Rabenstein gefüret werden. Der
+sünden sold ist der Todt / den muß auch Chri-
+<pb facs="#f0039" n="20"/>
+stus leiden / vnd
+nicht allein eines schmertzlichen / sondern auch schmelichen todes sterben / dauon im
+Gesetz geschrieben stehet: Verflucht sey der am Holtz hanget. Die letzte straffe der
+Sünden ist die helle vnd das verdamniß / dahin muß auch der HErr Christus fahren / wie wir
+in vnserm Christlichen glauben bekennen / daß er auch für vns ein duck in die Helle gethan
+habe / damit er dem Teuffel sein Reich zerstörte / vnd vns widerumb machte einen zugang zu
+Gottes reich / vnd zu dem ewigen leben. In summa / wie Matth. 3. geschrieben<note place="right">Math. 3.</note> steht / so hat der HErr Christus alle gerechtigkeit des
+Gesetzes erfüllet. Also hat nun der HErr Christus allein die sünde gebüsset vnd bezalet /
+vnd vns das ewige leben verdienet. Darumb sollen wir an Jesum Christum gleuben / so helt
+vns Gott aus lauter gnade&#x0303; / von wegen Jesu Christi dafur / als wan&#x0303; wir nie
+keine sünde gethan / vnd alle Gebot Gottes volkommenlich erfüllet hetten. Das hat auch S.
+Johannes der Teuffer wol gesehen / darumb er hinzu gesetzet / das dritte Wörtlein / Welt.
+Tollens peccatum MVNDI,<note place="right">MVNDI.</note> Das der Welt Sünde tregt. Das
+leget vns aus der Heilige Apostel vnd Euangelist Johannes: Meine Kindtlein / solches
+schreibe ich euch / auff daß<note place="right">1. Joh 2.</note> jhr nicht sündiget / Vnnd
+ob jemandt sündiget / so haben wir einen Fürsprecher bey dem Vater / IHesum CHrist / der
+Gerecht ist / vnnd derselbige ist die Versöhnung für vnsere Sünde / nicht allein aber für
+<pb facs="#f0040"/>
+die vnsere / sondern auch für der gantzen Welt. Daraus folget / daß
+alle die / so von anbegin der Welt her seind selig worden / nicht durch die Opffer Mose /
+noch jhre eigne Wercke / sondern allein durch den Glauben an diß Lämleins blut / das ist /
+an Ihesum Christum / sein selig worden.</p>
+<p>Es wil auch Johannes diß Wörtlein / das Christus tregt der Welt Sünd / entgegen setzen
+den opffern des Leuitischen Priesterthumbs / welches allein seind gewest Versöhnopffer für
+die Sünde des Jüdischen Volcks: Aber dieses Lam&#x0303; / Christus Jesus / tregt aller
+Welt sünde / vnd hat sich dieses Trosts niemand selbst zu berauben / so fern allein der
+Mensch / durch einen rechten Glauben jhme solche gnade Gottes appliciret vnd eigen
+machet.</p>
+<p>Noch eins haben wir bey diesen Worten zu bedencken / nemlich / die schönen gedancken des
+heiligen vnd <note place="left">Chrysostomus.</note>alten Lehrers Chrysostomi: Der
+schreibet vber diesen Spruch also: S. Johannes habe nicht gesagt in praesenti, <foreign xml:lang="el"><gap reason="fm"/></foreign> , Qui tollit, Er tregts. Auch nicht in praeterito, Tulit, Er hats
+getragen / noch in futuro, Tollet, Er wirds tragen: sondern brauche ein Participium
+praesentis temporis, <foreign xml:lang="el"><gap reason="fm"/></foreign> , Tollens, Einer der tregt / damit er vns
+einen Continuum actum, das ist / eine ewige jmmerwerende handlunge zuuerstehen gebe / vnd
+daß diß eigentlich hie auff Erden das Ampt des HErrn Christi sey / Die Sünde tragen vnd
+hin-
+<pb facs="#f0041" n="21"/>
+wegnemen / wie es die Epistel an die Hebreer außleget /
+daß der HErr Christus allen denen / die jhme gehorsam<note place="right">Hebr. 5.</note>
+seind / sey ein vrsach worden zur ewigen seligkeit. Vnd darumb / daß er ewig bleibe / hat
+er ein vnuergenglich<note place="right">Hebr. 7.</note> Priesterthumb / dahero er auch
+selig machen kan jmmerdar / die durch jn zu Gottkommen / vnd lebet jmmerdar vnd bittet für
+sie. Vnnd das geschiehet fürnemlich auff dreyerley weise. Erstlich / so bleibet die<note place="right">1.</note> krafft / die macht vnd das vermögen der versöhnunge Christi / so
+einmal am Creutz geschehen / jmmerdar vnd<note place="right">Hebr. 10.</note> für vnd für
+/ wie zu den Hebr. am 10. geschrieben stehet / das offtmals die Priester einerley Opffer
+gethan / welche nimmermehr die Sünde konten abnemen / Christus aber hab ein Opffer für die
+sünde geopffert / das ewiglich gilt / sitzt nun zur rechten GOttes / vnd wartet hinfurt /
+biß daß seine Feinde zum Schemel seiner<note place="right">Psal. 110.</note> füsse gelegt
+werden Dann mit einem Opffer hat er in ewigkeit vollendet / die geheiliget werden / ja das
+Opffer gilt von anfang der Welt her / wie in der Offenbarung Johannis stehet / Agnus
+occisus ab origine<note place="right">Apoc. 13.</note> mundi, Daß diß Lamb von anbegin der
+Welt erwürget sey. Darnach / wann vnd so offt wir nut Gott<note place="right">2.</note>
+versöhnet werden / so mus diß Lamb vnsere Sünde tragen / zwar nicht / daß Christus auff
+ein newes für vnsere Sünden sterben vnd gecreutziget werden mus: sondern daß er vns durch
+die gnade vnd krafft des H. Geistes im Wort vnnd Sacrament solche gnade lasse
+<pb facs="#f0042"/>
+anbieten vnd vns zueignen / daß / ob wol in vnserm <note place="left">Rom. 7.</note>Fleisch wohnet nichts guts / so können wir dennoch bestehen für Gottes
+Gericht / vnd geniessen der Fürbitte Christi / vmb dessen willen vnsere Sünde bedecket vnd
+vns nicht zugeeignet werden / wie Dauid Psal. 32. redet: <note place="left">Psal.
+32.</note>Wol dem / dem die Vbertretung vergeben seind / dem die Sunde bedecket ist /
+Wol dem Menschen / dem der HErr die Missethat nicht zurechnet.</p>
+<p>Endlich so tregt der HErr CHristus auch vnsere Sünde / Mortificatione &amp;
+sanctificatione, das wir derselben von tag zu tag je lenger je mehr absterben / vnd vns in
+rechtschaffener Heiligkeit vnd Gerechtigkeit / dem lieben Gott zu dienen ergeben / welcher
+newer gehorsam hie allein seinen anfang vnd wachsthumb oder zunemen hat / dort aber im
+ewigen leben sol vollendet werden. Das seind nun feine gedancken vber <note place="left">ERASMVS.</note>diesen Spruch: Andere Lehrer haben jhn auch tieff erwogen / weil S.
+Johannes fürnemlich rede von der versöhnunge / da CHristus an seinem eigenen Leib / <note place="left">1. Pet. 2.</note>vnsere Sünde am holtz getragen vnd bezahlet / haben sie
+die sache vmb bessers verstandes willen / durch eine bekante Gleichniß erkleren wollen /
+als wenn man saget: Helleborum purgat. Dieses Kraut oder Wurtzel purgiret vnd reiniget des
+Menschen Leib / so werde dadurch nicht ein Actus oder Handlung verstanden / als ob dieses
+Kreutlein nur einmal zu einer zeit diese purgirende krafft habe: sondern es sey seine
+eigentliche
+<pb facs="#f0043" n="22"/>
+natürliche krafft vnd wirckung / so von Natur
+demselben eingepflantzet worden: Eben also seyen auch diese Wort zuuerstehen / daß
+Christus sey das Lamb Gottes / welches da tregt die Sünde der Welt. Gleich aber wie keine
+Artzney / als heilsam sie auch ist / dem Krancken helffen vnd zur gesundheit dienen kan /
+wo er sich derselben nicht wolte gebrauchen / vnd zu sich nemen: Also ist vnd bleibet wol
+die krafft des Leidens vnd sterbens Christi jmmerdar / die Sünde hinweg zu nemen vnd zu
+tragen / es nutzet vnd dienet aber allein den jenigen / die solche heilsame vnd Geistliche
+Artzney der Seelen / mit rechtem warem Glauben annemen / wie Johannis 1. geschrieben
+stehet: Wie viel jhn aber auffnamen / denen gab er macht GOttes Kinder zu<note place="right">Joh. 1.</note> werden.</p>
+<p>Nun ist noch vberig / daß wir sagen / was der HErr Christus für ein Reff gehabt / darin
+er der Welt sünde getragen? Das erste ist gewesen seine Krippen / da hat der HErr Christus
+angefangen zu tragen / daß weil es vmb die Sünde ein elend bettelhafftig ding ist / so hat
+er auch in höchster armut vnd elend auff diese welt wollen geboren werden / wie wir in dem
+Weihenacht Liede singen: Er ist auff Erden kommen arm / daß er vnser sich erbarm / vnd vns
+im Himmel machet reich / vnnd seinen lieben Engeln gleich. Darnach so ist sein gantzes
+Leben nichts anders gewest / dann ein stetiges leiden / biß zum tode des Creutzes / daß
+jhme so schwer
+<pb facs="#f0044"/>
+worden / daß er darunter versincken mögen. Gleich wie
+es einem gehet / der in grosser Sonne&#x0303; hitz wandeln vnd darzu schwer tragen sol /
+dem gehet der Schweiß aus es dürstet jn / daß jme die zunge am Gaumen klebet / vnd meinet
+/ er müsse erliege&#x0303;: Also klaget der HErr <note place="left">Psal.
+22.</note>Christus / daß er wie ein Wasser sey ausgeschütt. Alle seine Gebeine haben sich
+zertrent / sein Hertz im Leibe sey wie zerschmoltzen Wachs / alle seine Krefften seyen
+vertrocknet etc. Das alles er vmb vnsern willen leiden wollen / vnsere Sünde damit zu
+büssen vnd zu bezalen / vnnd vns widerumb bey GOtt dem Vater zu gnaden zu bringen / daß
+wir nun mit dem Heiligen Paulo sagen mögen: Ich bin gewiß / daß weder Todt noch Leben /
+weder Engel noch Fürstenthumb / noch gewalt / weder gegenwertiges noch zukünfftiges /
+weder hohes noch tieffes / noch keine andere Creatur / mag vns scheiden von der liebe
+Gottes / die in Christo Jesu ist vnserm HErrn.</p>
+<p>Ob nun wol deme also / wie bißhero nach der lenge erzelet so findet man doch leider viel
+Leute / welche den HErrn Christum dieser ehre berauben / vnd jhn nicht allein wollen
+lassen den Sünden treger sein / sondern wollen mit helffen tragen / Wie das sonderlich
+geschicht im Papsthumb / da man die Leute nicht einig vnd allein weiset auff den Verdienst
+Christi / sondern auch auff jhre eigne Wercke / damit sie jhre Sünde büssen vnd bey GOtt
+aussöhnen mögen. Das ist eine
+<pb facs="#f0045" n="23"/>
+schmelerunge des reichen
+verdiensis Christi / der allein hat die Kelter getreten / vnd S. Paulus zu den Ephes.<note place="right">Esa. 63.</note> 2. sagt: Aus gnaden seid jhr selig worden durch den<note place="right">Eph. 2.</note> Glauben / vnd dasselbige nicht aus euch / Gottes gabe ist
+es / nicht aus den Wercken / auff daß sich nicht jemandes rühme. Sonderlich aber wird
+erschreckliche Abgötterey vn&#x0303; Aberglauben mit de&#x0303; Agnus Dei, so im Papsthumb
+wird aus Wachs zubereitet / deme sie auch zugelegt / daß es eben die Krafft vnd wirckunge
+habe / die das rechte lebendige Lamb GOttes hat / wie die nach folgende Verß solches
+bezeugen / vnd lauter zu erkennen geben / die der Papst Vrbanus Quintus mit dreyen Agnus
+Dei an den Griechischen Keyser nach Constantinopel geschicket:</p>
+<l>
+<hi rendition="#i">Balsamus &amp; munda cora cum Chrismatis vnda</hi>
+<note place="right">Hi versus extant in I. 1. Ceremoniaru&#x0303; Curiae Romanae. Tit. 7.
+in fine.</note>
+<hi rendition="#i">Conficiunt Agnum, quod munus do tibi magnum Fonte velut natum, per mystica sanctificatum Fulgura desursum depellit, omne malignum Peccatum frangit, vt Christi sanguis &amp; angit Praegnans seruatur, simul &amp; partus liberatur Munera fert dignis, virtutem destruet ignis Portatus mundè, de fluctibus eripit vndae.</hi>
+</l>
+</div>
+<div>
+<head> Diese Verß mögen also in Teutsche Keymen gebracht werden:<lb/>
+</head>
+<l>Der Balsam vnd das Wachs so rein Der Chrisam vnd der Tauffestein Darauß wird das Agnus
+gemacht
+<pb facs="#f0046"/>
+Für eine grosse gabe / dir jetzt gebracht Das heiliget / wie
+die Tauff das Kind Vnd vertreibt die Blixen geschwind / Darzu verjagt es alles Gespänst
+Vnd bricht der Sünden grosse angst Nicht anders / als Christi Blut Mit seiner krafft
+wircken thut Die Feinde bringt es in die noht / Vnd hilfft den schwangern aus dem tod Die
+wirdig sind / die thut es ehrn Vnd wird des fewers macht zustörn So es wird getragen schön
+Die Wellen dich nicht vbergehn.</l>
+<p>Solche grewliche Abgötterey / falsche vnd verdamliche Lehre / wider die Heilige Schrifft
+/ wird also im Pastumb getrieben / daß sie nicht leugnen können / wie solches nicht allein
+jre eigne Scribenten / sondern auch jr tegliche Practic vnd Kirchenordnung oder Ceremonien
+bezeugen.</p>
+<p>Darnach wollen auch die jenigen den HERRN Christum der sünden last nicht lassen tragen /
+die endlich in jhren sünden verzweiffeln / wie wir am Cain sehen: <note place="left">Gen.
+4.</note>Meine Sünde / sagt er / ist grösser / denn daß sie mir vergeben werden möge.
+Mentiris Cain, sagt Augustinus / Du leugest Cain / wann einer aller Welt sünde begangen /
+so ist doch Gottes gnade vnd Barmhertzigkeit grösser / der allen bußfertigen vnd
+gleubi-
+<pb facs="#f0047" n="24"/>
+gen Sündern dieselbe vmb CHristi willen wil widerfaren
+lassen / wie Esaias sagt / Waschet / reiniget euch /<note place="right">Esat. 1.</note>
+thut ewer böses wesen von meinen Augen / etc. Wenn ewre Sünde gleich blutrot ist / sol sie
+doch schneeweiß werden.</p>
+<p>Lieber / möcht einer fragen / was ist dann die vrsach / daß jhr so viel verdampt werden /
+vnd nicht jederman der Sünden loß wird / ob sie wol der HErr Christus getragen hat? Daran
+ist Christus nicht schüldig. Er ist drumb hie / daß er der gantzen Welt Sünde trage /
+sondern die Leut selbs seind daran schüldig / die wollen die Sünde nicht von sich werffen
+/ begeren derer nicht loß zu sein / fahren jm&#x0303;er fort in jhrem Gottlosen leben /
+vnd dencken wol nimmermehr an die buß vn&#x0303; besserunge shres lebens / vnd verblendet
+sie der leidige Teuffel / daß sie die schwere Last jhrer sünde nicht fülen / wann sie dann
+zum schweresten worden / so lesset er sie fallen / daß endlich der Mensch beginnet
+zuuerzagen vnd zuuerz weiffeln / wie es nun eine grosse thorheit an einem Menschen were /
+wenn einer eine gantz schwere Last trüge / darunter er müste versincken / ein ander keme /
+vnd wolte die Last von jhme nemen / er aber wolte dieselbige nicht von sich werffen /
+sondern ehe darüber zu grund gehen / also thörlich handeln auch die Gottlosen / Christus
+ist hie / wil die Sünde gerne hinweg nemen / sie wollen aber / die Last nicht von sich
+werffen. Gedencket nur was Christus von einer Sünde sagt /
+<pb facs="#f0048"/>
+vom
+Ergerniß: Wer der geringsten einen / die an mich gleuben / ergert / dem were besser / sagt
+CHristus / daß ein Mülstein an seinen Halß gehangen würde / vnd erseufft würde im Meer /
+da es am tieffsten ist. Der wegen so lasset vns bey zeiten busse wircken / wie die
+Nimuiter gethan haben / von denen Christus sagt / daß sie <note place="left">Jon. 3. Math.
+2. Psal. 95.</note>nach der Predigt Jonae Buß gethan haben / vnd vns der heilige Geist
+vermahnet: Heute so jhr hören werdet seine stimme / so verstockt ewre Hertzen nicht.
+Lasset <note place="left">Hebr. 3.</note>vns aber in sünden nit verzagen / sondern vns
+trösten des heiligen verdiensts Jesu Christi / vnd von Hertzen festiglich gleuben / daß er
+alle vnsere Sünde am Creutz getragen / gebüsset vnd bezalet habe. Das ist / wie S. Paulus
+redet / daß er sey dahin gegeben vmb vnserer <note place="left">Rom. 4.</note>Sünde willen
+/ vnd von wegen vnserer Gerechtigkeit wider umb von den Todten aufferstanden. Lasset vns
+auch dem lieben Gott dafür von hertzen danckbar sein / vnd gedencken / wir wollen hinfür
+der der sünden müssig gehen / vnd ein Christlich ehrlich leben führen / wie <note place="left">Matth. 5.</note>vns CHristus vermanet: Lasset ewer Liecht leuchten fur den
+Leuten / daß sie ewre gute Wercke sehen / vnd ewren Vater im Himmel preisen. Folget nach
+dem HErrn Christo / wie von den frommen geschrieben stehet: <note place="left">Apoc.
+14.</note>Sequuntur Agnum, quocunque ierit. Sie folgen dem Lamb nach / wo es hingehet.
+Wie nun CHristus der HErr tregt die Sünde der Welt / also sollen wir auch vnter einander
+der sünden last trage&#x0303; helffen.
+<pb facs="#f0049" n="25"/>
+Zwar nicht der meinunge
+/ daß wir die Sünde könten oder wolten damit büssen / denn das hat allem der HErr Christus
+gethan / sondern daß wir vns nach der Lehre Pauli verhalten: Lieben Brüder / so ein Mensch
+etwa von einem feel vbereilet wird / so helfft jhme wider zu rechte / mit sanfftmütigem
+Geist. Ihr die jhr Geistlich seid / vnd siehe auff dich selbs / daß du nit auch versuchet
+werdest / Einer trage des andern last / so werdet jhr das Gesetz CHristi erfüllen. Dadurch
+er verstehet alle mengel vnd feele / daß wir einander etwas zu gut halten / aus
+Christlicher brüderlicher liebe / wie vns S. Petrus vermanet: Für allen dingen habt
+vntereinander<note place="right">1. Pet. 4.</note> eine brünstige Liebe. Dann die Liebe
+decket auch der Sünden menge. Das ist / wer seinen Nehesten liebet / der lesset sich nicht
+erzürnen / sondern vertreget alles / wie viel an jme gesündiget wird / das heisset der
+Sünden menge decken / wie Paulus redet. Die Liebe vertreget alles. Darnach lasset vns auch
+die art<note place="right">1. Cor. 13.</note> eines Lambs an vns nemen / das kennet seinen
+Hirten / Joh. 10. Ich kenne meine Schäfflein / vnd bin bekant den meinen / das ist / sie
+kenne&#x0303; mich / daß wir den HErrn CHristum dafür halten / der er ist / für vnsern
+König vnd Hohenpriester / der vns schützet vnd schirmet / wider die Sünde / Tod / Teuffel
+vnd Helle. Der vns verbittet vnd vertrit vor Gott dem Vater / vnd sich selbst für vns ohn
+allen wandel am heiligen Creutz hat auffgeopffert / auff daß wir der Sünden abgestorben /
+hin-
+<pb facs="#f0050"/>
+förder GOtt leben / wir haben gehört / daß ein Lamb sey ein
+gedültiges Thierlein: Also sollen wir auch die tugenden an vns nemen / daß wir nicht
+allein in allerley Creutz vnd wider wertigkeit dem lieben Gott stille halten / vnd mit
+gedult der besserunge erwarten / sondern auch vntereinander gedult haben / wie vns S.
+<note place="left">Rom. 12.</note>Paulus vermanet: Vergeltet nicht böses mit bösem /
+fleissiget euch der Erbarkeit gegen jederman / ist es müglich / so viel an euch ist / so
+haltet mit allen Menschen friede / Rechet euch nicht selber / meine liebsten / <note place="left">Deut. 23.</note>sondern gebet raum dem zorn (Gottes.) Denn es stehet <note place="left">Prou. 21.</note>geschrieben: Die Rach ist mein / ich wil vergelten /
+spricht der HErr. Endlich / wie ein Lamb ist ein nützlich Thierlein / daß dem Menschen mit
+allem so an jme ist / dienen kan / Also sollen billich wir Christen einander allen dienst
+vnd freundtschafft erzeigen / einander zuspringen / rahten vnd helffen / nach vnserm
+eussersten können vnd vermöge&#x0303; / nach der vermanung Christi / die Johan. 15.
+geschrieben stehet: Ein new Gebot gebe ich euch / daß jhr euch vntereinander liebet /
+darbey wird man erkennen / daß jhr meine Jünger / das ist / rechtschaffene Christen
+seid.</p>
+<note place="left">NB.</note>
+<p>Das sey nun also kürtzlich vnnd einfeltig / so viel müglich gewest / geredet von der
+außlegunge vnd erklerunge dieses herrlichen schönen vnnd tröstlichen Spruchs / welchen ich
+/ wie im anfang der predigt vermeldet / darumb zu erkleren fürgenommen / weil sich
+<pb facs="#f0051" n="26"/>
+desselben dieser Edle / nunmehr verstorbene / aber selige Jungker
+beydes in seinem leben vnd sterben von Hertzen angenommen vnd getröstet.</p>
+<p>Was nun sein Person vnd herkommen belangen thut / wann es billich für eine besondere gabe
+GOttes zu achten / so ein altes ehrliches vnnd Adeliches Geschlecht erhalten wird / wil
+ich gleich dauon den anfang machen. Klar vnd offenbar ist es aus den Historien / daß schon
+vor 300. vnd mehr Jaren / die Mynsinger jhrer getrewen / redlichen vnnd tapffern diensten
+halben bey Keyser / Königen / Fürsten / Herrn / vnd vornemen Reichstedten in grosser
+authoritet vnd ansehen gewest sein Denn als die Schweitzer jhr <foreign xml:lang="el"><gap reason="fm"/></foreign>
+vnd eigen Regiment auffgerichtet / vnd durch lang wirige Kriege / allenthalben der Adel
+entweder gar ausgerottet / oder aber aus dem Lande vertrieben worden: hat das Vnglück auch
+die Mynsinger getroffen / die domals das Schweitzerland verlassen / vnd in Schwaben / in
+das Land Wirtenberg kommen / darinnen noch am Necker das Castell Frundeck / jhr domals
+Adelicher sitz / thut liegen. So lieset man von Johan Mynsingern / der vngefehrlich für
+zwey hundert jahren gelebt / daß er der löblichen freyen Reichstadt Vlm / meinem
+vielgeliebten Vaterland / mit diensten verwandt gewest / vnnd von Eberhardo Barbato, dem
+ersten Hertzogen zu Wirtemberg außgebeten worden / daß er mit jhme ins gelobte Land zum
+Heiligen Grabe ge-
+<pb facs="#f0052"/>
+zogen / wie er denn hernach zum andernmal mit Keyser
+Friderichen dem dritten / diese Reise widerumb sol volbracht haben.</p>
+<p>Dessen Sohn hernacher / Josephus genant / Keyser Carln des fünfften / vnd seines bruders
+Ferdinandi fürnemer Raht gewest ist / im Land zu Wirtemberg / als Hertzog Vlrich
+funfftzehen Jahr daraus vertrieben worden.</p>
+<p>Was Joachim Mynsingern (so allhie in dieser Kirchen sein begrebniß vor augen) für ein
+hochbegabter Man gewest / das ist vns allen wol bekant / daß er dieses löblichen Hauses
+Braunschweig getrewer Cantzler viel Jahr gewest / vnnd sich nicht allein vmb die löbliche
+hohe Schul allhie / so er im Namen vnnd von wegen Keyserlicher Mayestat hat helffen
+introducirn vnd einführe&#x0303; / sondern auch vmb das gantze Land wol verdienet hat. Vnd
+wenn er sonsten nichts mehr ausgerichtet / so were doch diß sonderlich lobens wert / daß
+er dem hochlöblichen Fürsten Hertzog Julio zu Braunschweig etc. nun hochseliger gedechtnis
+/ darzu geholffen hat / daß das löbliche Hoffgericht dieser Landen auffgerichtet vnd
+angestellet worden / da die liebe Iustitia gepflantzet vnd fortgesetzet / vnd also
+gleiches Recht menniglichen ohn alles ansehen der Person widerfehret. Des Cantzlers
+seligen drey Brüder seind auch tapffere Kriegsleute gewest / die sich in Niderlanden / als
+Hieronymus / vnd in Franckreich / als Wer-
+<pb facs="#f0053" n="27"/>
+nerus / gebrauchen
+lassen: Josephus aber der Stadt Nörnberg Heuptman gewest / daraus zu ersehen / daß dieser
+Edle Jungker / eines alten ehrlichen geschlechtes vnd herkom&#x0303;ens / nicht allein
+Vater: sondern auch Mutter halb / so eine von Oldershausen / eines vhralten Adelichen
+Geschlechts / in diesem löblichen Fürstenthumb Braunschweig.</p>
+<p>Nun helffen aber frembde Tugenden niemands: Wer jhme einen guten Namen wil machen / der
+muß es durch eigene Tugende zu wege bringen. Daß nun solches dieser vnser verstorbene edle
+Jungker / auch für seine Person gethan habe / daß mus jhme menniglich zeugniß geben / die
+jhn gekennet haben / vnnd mit jhme seind vmbgangen. Dann weil jhn GOtt mit einem
+trefflichen guten Ingenio begabet / hat er auch dasselb wol angelegt vnd gebraucht / vnnd
+was die studia betrifft / nicht alleine seine linguas wol vnd gründlich gestudiret / daß
+er ein guter Poet gewest / vnd ein schönes Carmen geschrieben (wie er jme dann das leben
+Christi auß der gantzen Euangelischen Historia, Carmine zu beschreiben fürgenommen / auch
+solches werck schier hat zum ende gebracht / vnd in solchen piis meditationibus, damit er
+teglich vmbgangen / gestorben) sondern auch in Iure so viel gestudiret / daß er wol einen
+Doctorem hette geben können. Dann er in allen deliberationibus vnd Rechtsachen / was er
+nur angefangen vnnd fürgenommen / dermassen also
+<pb facs="#f0054"/>
+geschickt gewesen /
+daß sich jederman vber seinem verstand hat verwundert. Er ist ein solcher Musicus gewest /
+daß einer wol sage&#x0303; möchte / Ipsum non factum, sed natum esse Musicum, da er beydes
+im singen vnd Instrumenten excellens. Nicht baldt solte ein Musicalisch Instrument zu
+finden sein / das er nicht gewust künstlich vnd vernünfftig zu gebrauchen. Zu dem figural
+hatte er eine solche lust / daß er nicht allein auff hohen Festen / sondern auch auff
+andern Sontagen sich selbst offtmals zum Chor verfügte / vnd halff also öffentlich den
+Gesang mit kunstreichen Instrumenten verwalten vnnd verrichten / zu förderst damit den
+lieben Gott zu loben / vnd den figural Gesang damit zu zieren. Sonsten war auch er seiner
+Faust ein Held / mit reiten / ringen / springen / fechten / vnd was dergleichen mehr
+Adeliche vbunge sein / darinnen er nicht bald seines gleichen gefunden: vnd halte
+gewißlich dafür / daß in Kriegssachen kein befehl / den er nicht hette mit ehren bedienen
+können Darbeneben aber war er demütig / der sich seiner herrlichen gaben nichts vberhebete
+/ vnd keinen Menschen verachtet / sie waren jhme alle gleich gut / wer jhn ansprach / dem
+begegnete er mit bescheidener vernünfftiger Antwort / Vnd war sonderlich gantz mild vnd
+freygebig gegen den armen / zu allen zeiten. Darauß abzunemen / daß in diesem jungen
+Edelman ein recht Heroicum ingenium vnd ein recht Adelich Hertz vnnd Gemüt gewesen / das
+allein nach ehr vnd tugend gestrebet.</p>
+<pb facs="#f0055" n="28"/>
+<p>Was denn sonsten sein leben belangen thut / vnd sonderlich / wie er sich gegen GOtt
+verhalten / dessen hat er von seinem Seelsorger ein herrlich Zeugniß / daß er sich als
+eine rechte Christliche Obrigkeit verhalten / nicht allein gegen seine Vnterthanen / die
+er wol vnd weißlich regiret / sondern auch gegen Gottes heiligem Ministerio vnd
+Predigampt. Vnd weil er selbst gelehret war / hat er nicht allein einen rechten verstand
+gehabt des Worts GOttes / sondern auch von den Controuersiis vernünfftig vnnd Gottselig
+wissen zu reden vnd zu disputirn / also / daß er der warheit von Hertzen zugethan / vnd
+aller Schwermereyen spinnen feind gewest / keine Predig hat er bald verseumet / dieselbe
+gerne besucht / vnnd gantz eyferig angehöret / wie dann auch mit besonderer Reuerentz vnd
+andacht die Heiligen Sacrament gebraucht / gern vnd fleissig gebetet / beydes wann er zu
+Gottes Tisch gangen / wie dann noch kurtz vor seiner Kranckheit von jhm geschehen / oder
+bey der Heiligen Tauffe zu Gevatter gestanden.</p>
+<p>Er hat auch viel von seinem eigenen gut zur ehre Gottes vnd zum Baw der Kirchen geben /
+wie er denn noch dieses Jahr / ein statlichs zu auffrichtung der Schulen zu grossen
+Alßleben verordnet / der lieben Jugend zum besten / daß auch dieselbe in aller Zucht vnd
+Erbarkeit möge Christlich vnnd wol aufferzogen
+<pb facs="#f0056"/>
+werden. Vnd noch vor
+zweyen Monaten / hat er / mit sampt seinem Bruder Jungker Heinrichen ein Model
+hergeschickt / von einem vberauß künstlichen schönen Predigstuel / der wol auff die
+funffhundert Thaler kosten wird / damit sie diese vnsere Kirchen begaben wollen.</p>
+<p>Wie hertzlich er auch seinen einigen Bruder geliebet / vnnd wie hinwiderumb derselbe sich
+mit jhme mehr denn Brüderlich vertragen / dessen geben jhme alle bekante zeugnis / daß wir
+wol den 133. Psalm auff <note place="left">Psal. 133.</note>jhn ziehen mögen: Siehe / wie
+fein vnnd lieblich ists / daß Brüder eintrechtig bey einander wohnen.</p>
+<p>Ob er nun wol Dinstags den 5. Octobr. mit geschwinder vnnd vnuorsehender Kranckheit
+befallen / welches zwar Fleisch vnd Blut / vnd sonderlich Jungen vnd reichen Leuten wehe
+thut: So hat er sich doch alsbaldt dem Willen GOttes mit aller gedult gentzlich
+vnterworffen / demselben alle seine Sünde gebeichtet vnd geklaget / vnd vmb Christi willen
+Gnade gebeten / sich auch in seiner gautzen werenden Kranckheit einig vnd allein seines
+Erlösers vnnd Seligmachers Ihesu Christi getröstet / sich selbs mit gleubigem inbrünstigen
+Gebet in seine fünff Wunden gewickelt / vnd festiglich geglaubt / wie Ihesus CHristus das
+Lamb GOttes der gantzen Welt Sünde getragen: Also habe er auch seine Sünde getragen / vnd
+mit seinem thewren Blut bezahlet.</p>
+<pb facs="#f0057" n="29"/>
+<p>Endlich / als er den 16. Octobris vmb 2. vhr vor Mittage nicht mehr reden können / vnd
+aber der Diener Göttlichs Worts jhme nochmals den Gesang vorgehalten / O Lamb GOttes
+vnschüldig / am stamme des Creutzes geschlachtet etc wolt er an sein mützlein greiffen /
+da er höret den Namen Ihesu nennen / aber die Hand war jhm zu schwer / der Todt range mit
+jhme / vnd ist gleich darauff außgangen / als ein Liechtlein. Hat also in rechter vnd
+wahrer erkentnis Ihesu Christi ein recht Christliches vnd seliges ende genommen Vnd ist
+kein zweiffel / er lebe allbereit vor Gott der Seelen nach / so die liebe Engelein in
+Abrahams Schoß getragen: Dem Leibe haben wir auch seine letzte Ehr angethan vnd in seine
+darzu sonderliche gewelbte statliche Begrebniß setzen lassen / da sol er ruhen biß an den
+Jüngsten tag / da IHesus Christus kommen / vnnd jhn auch widerumb von den Todten zum
+ewigen leben aufferwecken wird. Wir sollen vns aber zu frieden geben / vnd nicht weinen /
+wie die Heyden<note place="right">1. Thess. 4.</note> / die keine Hoffnung haben / sondern
+gedencken an den schönen Spruch / der im Buch der Weißheit geschrieben stehet: Der
+Gerechte / ob er gleich zu zeitlich<note place="right">Sap. 4.</note> stirbet / so ist er
+doch in der ruhe. Denn das Alter ist ehrlich / nicht das lange lebet oder viel Jahr hat.
+Klugheit vnter den Menschen ist das rechte grawe Haar / vnd ein vnbefleckt leben / ist das
+rechte Alter. Denn er gefelt Gott wol / vnd ist jhm lieb / vnd wird weggeno-
+<pb facs="#f0058"/>
+men aus dem Leben vnter den Sündern / vnd wird hingerut daß die boßheit
+seinen verstand nicht verkere / noch salsche Lehre seine Seel betriege. Dann die bösen
+Erempel verführen vnd verderben eim das gut / vnd die reitzende Lust verkeret vnschüldige
+Hertzen. Er ist bald volkommen worden / vnd hat viel Jahr erfüllet / denn seine Seel
+gefellet GOtt. Darumb eilet er mit jhm aus dem bösen leben.</p>
+<p>Gott von Himmel / lehre vns solches erkennen / vnnd beschere vns auch zu seiner zeit ein
+seliges ende / vmb seines geliebten Sohns / vnsers HErrn Ihesu Christi willen / welchem
+sampt dem Heiligen Geist / sey lob vnd ehr / von nun an biß in Ewigkeit / Amen.</p>
+<pb facs="#f0059" n="30"/>
+</div>
+<div>
+<head> I. ECLOGA <hi rendition="#i">LVGVBRIS:</hi> IN IMMATVRAM ET LVCTVOSISSIMAM MORTEM
+NOBILIS, ET VERE OMNIBVS VIRTVTIBVS PRAEDITI Iuuenis SIGISMVNDI IVLII MYNSINgeri à
+Frundeck &amp;c. fratris sui longè dilectissimi.<lb/>
+</head>
+</div>
+<div>
+<head> LYCIDAS, VENATOR.<lb/>
+</head>
+<l>H<hi rendition="#i">Aec vluosa Bodae gemuit per pascua tristis Venator Lycidas, dum mortem fratris amati Defleuit miserè, nec ei solatia restant. O vos Naiades nymphae vos carmina flentis Dicite, vos gemitus crebrasque referte querellas: Nam totiens miserum voluit per gramina corpus, Et lachrymis maduëre genae, lacera vndique vestis Permaduit, spretae sunt abiectaeque cicutae. Distractique canes, flerunt tristesque moloßi: Collachrymant fontes, miserans Boda gurgite in imo Ter gemit, &amp; tristis per saxa remurmurat Echo.</hi></l>
+<pb facs="#f0060"/>
+<l>
+<hi rendition="#i">Lycid: Quis mihi, quis te te rapuit dulcißime frater? Frater curarum quondam requiesque laborum, Nunc dolor, aeternusque aegro sub pectore luctus. Sic me morte tua tristem fractumque relinquis? Siccine te volucri mors abstulit impia curru? Non secat ante diem immaturas messor aristas, Intempestiuas nec carpit vinitor vuas, Ante diem fera sed rupit tua stamina Clotho. Pangite lugubres mecum vaga flumina planct us.</hi>
+</l>
+<l>
+<hi rendition="#i">Quem coluit Pallas, Mars, Delius &amp; Themis, eheu Parcarum inuidia iacet, ô crudelia fata, Crudeles Parcae, debebat vosne mouere. Aetas, forma, genus, mores, constantia, virtus? Vah viuunt ventres, Centauri, Sarnadopali. Quique suos possunt tantum vexare clientes, Qui lucem in tenebras vertunt, qui cuncta procaci Conuellunt lingua, qui sancta oracla rident. Sedtua, te, frater nec mira scientia rerum Iuuit, nec pietas misero tibi profuit insons: Viuere, qui Pyleos annos solesque perennes Dignus eras, lumenque tuae praetendere genti. Pangite lugubres mecum vaga flumina planctus.</hi>
+</l>
+<l>
+<hi rendition="#i">O dolor &amp; lachrymae. Vidi ah tua funera frater, Non te nunc plebis posthac astante caterua, Victorem aspiciam volucri certare sagitta, Aut cantu, aut celeri socios superare caballo. Non tua frondentes mulcebit tibia syluas, Rara nec intonsi resonabunt carmina montes, Heu viuos inter latices, &amp; amoena vireta, Non mecum posthac lustrabis rura moloßis
+<pb facs="#f0061" n="31"/>
+Mane, nec vmbrosos cinges indagine saltus, Nos etenim à tencris concordes viximus annis Mens eademque fuit nobis eademque voluntas: Te defuncto igitur cur heu mihi vita relicta est? Pangite lugubres mecum vaga flumina planctus.</hi>
+</l>
+<l>
+<hi rendition="#i">Ah ego si pro te possem deponere vitam Perque vias tristes migrare ad sydera celi. Testes celicoli, testis mihi magnus Apollo, Non me Parca ferox, non me nex vnguibus atris Nec dirae Eumenides terrerent. Sponte lubensque Sed tetra immitis gustarem pocula mortis. Pangite lugubres mecum vaga flumina planctus.</hi>
+</l>
+<l>
+<hi rendition="#i">Felix, ô nimium lucus, dum frater amatus Te coluit, saliëre canes, saliëre moloßi, Luxuriastis oues, distentaeque vbera lacte Cum maribus laetae paßim saliëre capellae. O fortunati, queîs preßit terga caballi Sole recens orto, paßim vaga turba volucrum Cantabant, gryllique leues ranaeque loquaces. Et Boda miratus totiens stillantia rore Ora manu mulcens, virides è gurgite crines Arrexit, nymphaeque acres stupuere caballos. Pangitc lugubres mecum vaga flumina planctus.</hi>
+</l>
+<l>
+<hi rendition="#i">Nunc nemus infelix lugent per compita fagi, Lugent procerae duris in montibus Orni, Flent tiliae laeues, &amp; culmine fraxinus alto, Flent corilae fragiles, curuataque glandibus Ilex, Collachrymant salices moesto plangore, caballi Vix trahitisque pedes per rura arentia lassos,
+<pb facs="#f0062"/>
+Nil vobis sapit, at macerauit corpora luctus: Et pecus infelix deserta in valle pererrat. Pangite lugubres mecum vaga flumina planctus.</hi>
+</l>
+<l>
+<hi rendition="#i">Quis nunc ô sonipes, quis nunc tibi frena miselle Inijciet? stabulo gemis, ah tua pabula temnis. Defunctumque doles dominum. Quis moestule iam nunc Quis sub consuetis grex te custodiet vmbris Latrata? iacet ecce Lacon vlulansque Lycissa Fluminibusque madent lachrymarum flebile visu. Flet domus Ahlslebiana, dolent iuuenesque senesque. Flent Dryades florumque Deae, flent Naiades vdae. Flent ranae, gryllique leues, flet turba voluerum, Flet Boda dilecta fugiens à coniuge, mecum Ingeminant amnes: Vidi ah tua funera frater. Pangite lugubres mecum vaga flumina planctus.</hi>
+</l>
+<l>
+<hi rendition="#i">Quo nunc sunt litui? quo tympana, plectra, tubaeque Quo dilecta Chelys? quo fistula dulcis, &amp; Oda? Quo studium Phoebi doctum? quo carmen &amp; ardor Musarum, Suadaeque decus? Vah omnia sordent. Plectra iacent sine honore, lyrae sine honore sepultae, Et Chelys &amp; cantus, litui doctaeque sorores. Quo tumulo frater recubas tecum iacet omnis, Et sonus &amp; cantus, sonat hîc lachrymabilis, eheu Vndique, flebilibus sunt omnia plena querelis: Omnia sunt macies, sunt omnia squallidus horror, Sunt tenebrae, &amp; tristis laethi pallentis imago. Pangite lugubres mecum vaga flumina planctus.</hi>
+</l>
+<l>
+<hi rendition="#i">Heu quisnam mentem misero tunc abstulit, heu quis Auertit sensus mihi, cùm dulcißime frater
+<pb facs="#f0063" n="32"/>
+Instaret tibi summa dies? ne saeua viderem Quam tibi Parca vicem, quam sydera dira pararent. Signa dabant equidem sortis mihi fata futurae: Nam celum obscuris torpebat nubibus, &amp; cùm Ahlslebiam peterem, tenebris fuit obruta turris Totaque Bonkenbecka domus, nec sustulit amnis Rorantes crines: verum caput abdidit vlua, Ingemuëre vlulae, dedit omnia tristia cornix: Quis tamen, ah tantos ex his instare dolores Tamque immaturam potuisset cernere mortem? Pangite lugubres mecum vaga flumina planctus.</hi>
+</l>
+<l>
+<hi rendition="#i">O ego te Bybli (quae fons ob fratris amorem Iam fluis) ipse sequi quîrem, ô ego soluar in amnem Ex lachrymis, totiens quas tristi pectore fundo, Sic quondam fidus veniens venator ad vndam, Fletibus ah chari fratris pia fata dolebit, Et tristem augebit lachrymis manantibus amnem. Pangite lugubres mecum vaga flumina planctus.</hi>
+</l>
+<l>
+<hi rendition="#i">Tempore quo magni coniunx pulcherrima vatis Euridice, in talum serpentis dente recepto, Occidit, &amp; furuas Erebi descendit ad vndas, Et miser Ismarius vehementi impulsus amore Ad manes abijt, pulsisque ad carmina plectris Euridices petijt properata retexere fata: Sic generum Cereris querulo modulamine mouit. Vt (licet haud toto crudelior orbe Tyrannus) Redderet Euridicen vati: ô si Musa dedisset Mî quoque Threiciam cytharam quae flectere rupes, Quae posset duras deducere montibus Ornos, Per stygias sedes, per lurida regna silentum
+<pb facs="#f0064"/>
+Elysios peterem campos, sedesque beatas, Nec cythara aut fletu regem mulcere supremum (Cuius habet nullum larga indulgentia finem) Cessarem, viuus donec mihi frater adesset. Pangite lugubres mecum vaga flumina planctus.</hi>
+</l>
+<l>
+<hi rendition="#i">Quid loquor infelix? Nulla reuocabilis arte Est vita, haud nostras audit Libitina querellas, Cùm semel immitis rupit sua stamina Parca. Haud potuit functum fletu reuocare maritum Halcyone, Syringa suam non corniger heros, Nec lachrymis charum mater Berecynthia natum Cùm semel ad manes iuit, fraterque vicißim Ad nos non veniet, sed nos veniemus ad illum. Pangite lugubrcs mecum vaga flumina planctus.</hi>
+</l>
+<l>
+<hi rendition="#i">Quis tamen has iustas posset retinere querellas? Quis precor indomitos potis est cohibere dolores? Fleuimus &amp; gemitus luctantia verba repreßit, Fleuimus &amp; lachrymis maduerunt gramina nostris, Attamen, heu, nunquam cessat dolor, at mihi vocem Opprimit angor atrox, quatit &amp; singultibus imum Pectus, anhelantemque animam, non plura referre Ah queo, iam moriar ripa hac, dabit vlua sepulchrum. Naiades nymphae vos haec mea fata dolete Effusis lachrymis, tumulum conspergite iunco, Canna vale, cecini totiens qua Phyllidis ignes. Vosque susurrantes lymphae, viridesque recessus, Natiuaeque vmbrae, quondam mea cura, Valete.</hi>
+</l>
+<l>
+<hi rendition="#i">Salueto aeternum frater mihi chare, valeto Aeternum in celis (vbi trinum numen &amp; vnum
+<pb facs="#f0065" n="33"/>
+Inter tot sanctos cantores dulcisonanti Concelebras Cythara) Dum sanguis in oßibus vllu His erit, atque oculis celi conuexa tuebor, Non tuus è nostro labetur pectore vultus, Nec desiderium. Salue aeternumque valeto, Germane ô dilecte mihi; lux flosque tuorum, Flosque equitum, donat moesto hoc te carmine frater Vnicus ille tuus, salue aeternumque valeto.</hi>
+</l>
+<l>
+<hi rendition="#i">Talia dum cecinit Venator, tibia flentis Decidit ex manibus, gemitumque ter exhalabat, Sponte dolens domini questus, ter candida Nais Aspiciens miserum lachrymas sibi pollice siccat. Quin salices ripis gemuëre, canesque fideles Nunc exhausta ferè lambebant membra iacentis. Interea per prata senex spatiatus Amyntas Aggreditur iuuenem suspiria moesta trahentem, Semianimemque dolens; verbis conatur amicis Flectere, sed vulnus nihil insanabile curat. Illum desertos nox intempesta per agros, Illum exorta dies inter querceta videbat Insomnem, gemitusque imo sub corde prementem: Si DEVS, ah, tantos vellet lenire dolores.</hi>
+</l>
+<p>Heinrich Albrecht Mynsinger von Frundeck / luctu &amp; moerore plenus inter lachrymas
+&amp; singultus faciebat.</p>
+<pb facs="#f0066"/>
+</div>
+<div>
+<head> II. ELEGIA.<lb/>
+</head>
+<l>S<hi rendition="#i">Cilicet vt Dominus syluae possessor opacae Aedificaturus splendida tecta domus. Vmbrosa arboribus scrutatur lustra, paratus, Lignaque ad inceptos colligit apta lares. Fraxinus eligitur, quercusque probatur, &amp; ornus, Comparat his firmas ad noua tecta trabes. Ligna sed, aedificans quorum non percipit vsum Colligit, ignito datque cremenda foco. Haud secus altitonans nemorum qui plurima lustra Praesidet, humanum scilicet omne genus. Singula perlustrat crescentiaque aspicit, inde Scindit, ad aetheream quae videt apta domum, Colligit &amp; ramos, arbusta, &amp; inutile lignum, In Phegetontaeas praecipitatque lacus. Hic, vbi Mynsigerum crescentem vidit, &amp; ille Aedibus in nostris trabs bona, dixit, erit, Non huic Aonides, Themis, huic non augur Apollo Profuit, aut Charites. Omnia morte cadunt. Certamen subijt durum, vitamque peregit, Tumba tegit corpus, spiritus astra petit. Ascitusque choris celestibus aurea tecta Miratur, summo perfruiturque bono. Iam caecis iactata vadis videt omnia mundi, Nec statui reddi quo fuit ante cupit. Nil etenim prodest, superest breue tempuseundi: Caeàua, mortales, nil nisi sylua sumus.
+<pb facs="#f0067" n="34"/>
+Aeternum salue, aeternum Sigmunde valeto, Et tua perpetuis florcat vrna rosis. Tempore quo iunctim nos Iulia fouit alumnos Quam mihi frat erno foedere iunctus eras? Tu studij consors mihi, tu collega fuisti, Nunc leuis ingesto clauderis vmbra solo. At licet ereptus, tamen hîc tua fama manebit, Vrna tegit corpus, tranat ad astra decus.</hi></l>
+<p>Ludolff von Gittelde / cognato ceu fratri suo amantissimo faciebat.</p>
+</div>
+<div>
+<head> III. EPIGRAMMA.<lb/>
+</head>
+<l>Q<hi rendition="#i">Vem coluit Phoebus, Mauors, Astraea, Minerua, Ausa est laethali tollere Parca manu. O dirum facinus: debebat tene mouere Dira, aetas, mores, forma venusta, genus? Nam si virtutem spectes, castisque politum Ingenium studijs, iudiciumque sagax: Talis erat, dices, Sigmundus Mynsiger, olim Eximium poterat qui decus esse suis. Sed quid? Id haud mirum est: abiectis parcere Parcae Semper, at egregium dissoluisse solet.</hi></l>
+<p>Ludolff von Marnholtz / auunculo suo charissimo tristitia plenus faciebat.</p>
+<pb facs="#f0068"/>
+</div>
+<div>
+<head>
+<hi rendition="#i">THRENI</hi> PIIS MANIBVS, VERO GENERIS SPLENDORE, ERVDITIONE, SYNCERA
+PIETATE, VIRTVTVM, LAVDATISsimorumqueue exercitiorum equestrium ornamentis cultissimi
+&amp; nobilissimi iuuenis.<lb/>
+</head>
+</div>
+<div>
+<head>
+<hi rendition="#i">SIGISMVNDI IVLII MYNSINGERI AFRONDECK.</hi>
+<lb/>
+</head>
+</div>
+<div>
+<head> DVCATVS BRVNSVICENSIS CAmerarij, hypothecarij in grossen Ahlßleben / &amp;
+haereditarij in Bönekenbeck / etc.<lb/>
+</head>
+</div>
+<div>
+<head>
+<hi rendition="#i">MAGNI ILLIVS ET PER EVROPAM CELEBERRIMI, CLARISSImi, &amp; consultißimi
+viri IOACHIMI filij:</hi>
+<lb/>
+</head>
+</div>
+<div>
+<head> Ab amicis conscripti.<lb/>
+</head>
+<pb facs="#f0069" n="35"/>
+</div>
+<div>
+<head> I. <hi rendition="#i">VICERECTOR FRANCISCVS PARCOVIVS MED. D. ET SENAtus Acad. IV L.
+S. S.</hi><lb/>
+</head>
+<p>VERISSIME à Sanctissimo vate &amp; Ecclesiae veteris duce dictum esse, vitam hominis
+cogitatu propè ocyus citatis alis aufugere, vt transitus noster celerrimus sit, saepiùs
+experimur, dum cotidie videmus aetatem florentissimam non tam absumi curis &amp;
+laboribùs, quàm propria inconstantia fragilitatequeue labi. Nec verò dum vita vel primùm
+vel tantùm labefactatur aut deficit, quando praesidijs extrin secus adsumptis destituitur,
+vt in ipsa potius causa interitus quaerenda sit, quàm aliunde adducenda. Non paucos videas
+in ipso vitae exordio, multos in crescente, plurimos in corroborata aetate exstingui,
+paucissimos ad canitiem sic peruenire vt defatigari molestijs; non refici bonis videantur,
+eaqueue pars optima vitae iudicetur, quae sine sensu vitae transacta sit. Ex Philosophis
+multi vitam potius mortem, nihilqueue optandum magis homini, quàm vt hinc, fine etiam
+certâ alterius spe emigrare quam citissimè queat, putarunt. Verum enimuerò si rem paulò
+attentius consideres, causasqueue instabilitatis huius meditëre, ipsa te infirmitas ad
+firmitatis considerationem perduxerit. Principium ortus nostri horribiliter peccatis
+atrocissimis defaedatum est, adeò vt Filij irae nascamur, nec in prolem à parentibus
+quicquam vitae propagari absque venenatissima peccati labe possit. Vitam sic ortam ira Dei
+saeuissima excipit, atque in limine statim primoqueue ortu morti, quae eius est destructio
+adiudicat. Hinc vt intima quaeque &amp; vita ipsa in <foreign xml:lang="el"><gap reason="fm"/></foreign> , malitia,
+deprauatione gignuntur, sanitatisqueue nihil obtinent, ita interiori instabilitate
+laboramus, vt nil firmum in quoquam nostrum sit, nil fixum, caduca omnia, &amp; quibusuis
+folijs leuiora. Atqui commune hoc malum tanta vi in omnes redundat, vt, si vita sibi
+<pb facs="#f0070"/>
+soli relinquatur, ne quidem ad momentum consisteret, statimqueue
+opprimeretur flammis irae diuinae absumta. quî enim fragilis haec natura contra irae
+furorem sese tueretur? aut qua ratione sedaret, vt vel semel respirandi facultatem
+nancisceretur? Neque vllus contra mortis senten tiam exceptioni locus foret, dum peccati
+confessio conscientiae perpetuò, in ipso etiam primo hominis ortu, inscripta sit.
+Consistit interim aliquandiu vit, &amp; bonis fruitur, etiam in summis non tantum
+infirmitatibus, sed quoque in extremis malis. Vnde ille apud Senecam, Hanc mihi, vel acutá
+si sedeam cruce, sustine, inquit, Vita dum superest, bene est. Misericordia afflictissimae
+vitae succurrens inde intelligitur, quae iustitiae seueritatem mitiget, quae bona malis
+admisceat, quae ipsam calamitatem quodammodo reficiat &amp; labenti spem faciat subsidij.
+Subsidium porrò si quaeras, quoad firmitatem vitae desideratam vtaris, totum Redemptionis
+negocium coelitus &amp; Reparationis aperitur. Is qui peccatum, mali istius caussam,
+auferat, qui iram in sese sustineat, à nobis auertat, qui vitam hanc mortalem &amp;
+caducam in immortalem &amp; perpetuam transmutet, ostenditur: infirmitatis verò mala nobis
+perferenda esse docemur, vt perfectionis autori perfectionem nobis quaerenti &amp; paranti
+similiores reddamur. Hac ratione dum mortalem hanc vitam viuimus, infirmitatem flu
+xibilitatemqueue vitae contuentes, iustitiam iramqueue Dei, Misericordiam simul &amp;
+gratiam meditamur, ipsâqueue infirmitatis contemplatione &amp; sensu de inuicta firmitate
+admonemur, vt non malè vita Christiani hominis, meditatio irae &amp; benignitatis diuinae
+dicatur. Atqui haec caussa etiam aliqua sit, cur sancto consilio Deus ex hac vita saepius
+euocet, quibus ad diuturniorem nil quicquam deesse per Naturam poterat, vt qui defunctorum
+mortes lugent in Meditationem hanc ducantur. Euidenti ssimum consilij huius sanctiss.
+exemplum à Domino hisce diebus ob oculos nobis positum est. Vixit &amp; hîc &amp; alibi in
+Academijs per aliquot annos iuuenis Nobilitate generis &amp; litterarum scientia clarus,
+SIGISMVNDVS IVLIVS Mynsinger à Frundeck Ioachimi Mynsingeri, viri Magnifici, Nobilissimi,
+Iurisconsulti celeberrimi, ducatus Brunsuicensis Camerarij haereditarij, &amp; quondam
+Cancellarij digniss. p. m. filius
+<pb facs="#f0071" n="36"/>
+tanto Patre minimè indignus.
+Huic cùm ingenium ad omnes omnium generum disciplinas, &amp; indolem ad quaeuis quarumuis
+virtutum exercitia dedisset, aliaqueue necessaria subsidia tribuisset, nihil priùs fuit,
+quàm vt optimarum litterarum studijs, virtutumqueue disciplina animum, exercitijs verò
+honestis nobiliumqueue ordini maximè congruis corpus expoliret, sesequeue totum vniuersae
+vitae, Reiqueue publicae rectè administrandae praepararet. Nec vero diuina benedictio
+conantem destituit, tantum enim in multis simul consequutus ante virilem aetatem vnus
+fuit, quantum rarò multi in vno sperandum sibi esse autumant. In studijs humanio ribus
+illos fecerat progressus, vt non modò viam sibi ad superiores doctrinas muniuisset, sed
+etiam politicae doctrinae cognitionem eam comparauerat, vt non ineptus ad deliberationes
+fuisset. In reliquis verae nobilitatis exercitijs ita laborauerat, vt siue domi siue foris
+agendum fuisset vel singula munia suo ordine non indigna per se obire potuisset. Nullum
+Militis deprehendas in castris officium, quod prompta manu, siid occasio postulasset, non
+praestitisset. In his verò omnibus, vti ingenio erat miti &amp; eleganti, sic se gerebat
+submissè, nemini molestus, nulli infestus, omnibus facilis, amicis fidus, à simulata
+beneuolentia alienissimus, candidus &amp; apertus. nec donis, bonisue elatus, neque
+abiecta humiliaqueue cogitabat. Hisce alijsqueue similibus virtutum ornamentis syncerum
+pietatis studium sedulò adiunxerat, imò fundamentum ac basin substruxerat. Quemadmodum
+enim puer in doctrina Christiana fuerat enutritus. sic in eade&#x0303; adoleuerat, nec
+vnquam totum sese alijs studijs dabat, magna&#x0303; laborum partem sacris praesertim
+ligata oratione tractandis, impendebat. Et quod singulare nobilitatis ornamentum sit,
+Ministerium atque Ministros maximi faciebat. Tam copiosam virtutum ac pietatis segetem
+fructusqueue cum cognati, Amici, Ecclesia, Resp. iam exspectarent, ecce sanctissimo Dei
+consilio ex hac vita euocatus in coeleste sanctorum transfertur consortium, vt quibus
+breui ornamento, subsidioqueue fore sperabatur, moerorem incutiat, atque illustre exemplum
+mortalitatis fragilitatisqueue humanae sit, quae non ex defectu aliquo exteriori
+dependeat, sed pro sanctissimo Dei consilio in ipsa natura haereat. Huic hodie hora 12.
+funus fiet, in quo quid no-
+<pb facs="#f0072"/>
+strum ordinem deceat, cùm quisque per se
+facilè videat, pluribus indicandum non putamus. Hortamur nostros, &amp; quibus par est
+mandamus, vt praestò sint, dolorem suum testentur, fragilitatis humanae seipsos admoneant,
+vitae infracta firmitas vbi quaerenda sit, cogitent, virtutes demortui piè aemulentur,
+&amp; sic extremum hoc humanitatis officium promptè &amp; decenter exequantur. P. P.
+Helmst. 1596. 28. Octobr.</p>
+</div>
+<div>
+<head> II.<lb/>
+</head>
+<l>I<hi rendition="#i">Ngenio felix patrique simillima proles Iulius à Frondeck hoc tumulatur humo, Mynsigerûm veterum claro de sanguine venit, Maxima spes generis praesidijquesui. Sed veluti violas laedit violentior Eurus, Et rosa quae pulchrè est visa virere iacet. Sic dum magna suae promittit gaudia genti, Inijcit huic auidas Parca seuera manus. Sed valeant Parcae: Christo duce tendit ad astra, AChristo Medico qui petit aeger opem.</hi></l>
+<p>Basilius Satler D. vnd F. Braunschwigischer Hoffprediger zu Wolffenbüttel.</p>
+</div>
+<div>
+<head> III.<lb/>
+</head>
+<l>D<hi rendition="#i">A mihi, magne, tuos quibus vtebare canores, MYNSIGER, Austriacos cum primâ ab origine reges Excitos tumulis, desueta reuisere mundi
+<pb facs="#f0073" n="37"/>
+Lumina, &amp; augusto faceres lucere theatro: Pene puer, tantisque habitus nondum vtilis ausis. Da vates, age, diue lyram: iam noster Apollo, Laudc tumens quondam, maiorque furentibus vmbris Inuidiae, deiectus habet, frustraque reposcit Quas melior iactabat opes. sic fracta dolore Spectantûm commune nefas, &amp; publica damna, Diriguëre olim magnorum pectora vatum. Fas miht sit generique tuo, famaeque tuorum, Vt solenne prius, libare, quod audiat Albis, Quod Viader, Varnusque sonans &amp; spumeus Ister. Nec sum animi dubius nostris dicenda Camoenis Maiori commissa tubae, secretaque vatum Concilia Elysiis eadem deflere sub antris. Non tamen officium patiar, moremque requiri Quo me fama beat, supremaque munera pendam Mynsingere tibi, magni patris aemula proles, Gentis honos: quem crudeli mors aspera rictu Hausit, &amp; exanimem patriis superaddidit vrnis. Si minus oblitae vestigia consequor artis Da veniam, placeatque tibi sincera voluntas, Haud ipsi cessura rei. sed carminis orsus Vnde noui? generis primordia auita, togatae Militiae titulos, &amp; continuata trophaea Cognoscenda dedi, neque fors maioribus vsus, Aut atauum ceris si cui laus vera paratur. Hoc referam, quod te grauida de matre cadentem Excepit fouitque sinu Iouis aurea proles Calliope, cunisque vigil aßistere visa est. Magnum omen, magnum indicium virtutis &amp; artis, Mox quoque Pasithea blandarum prima sororum Incepit firmare gradum titubantis, &amp; aptâ
+<pb facs="#f0074"/>
+Deseruire manu puero: tum plurima fronti Purpura, &amp; Idalijs increscere gratia membris Visa fuit, patriusque lepos manare per ora. Vix tria compleras vitae quinquennia, &amp; orta est Lis noua Parnasso. totum te Phoebus &amp; omnis Musarum veneranda cohors poscebat, inerti Vt procul à curâ confortia munia secum Exigeres, dulcique satur fruere quiete. At, Themis, &amp; legum custos Astraea sacrarum, Esse suum voluit, patrique in gloria Phoebi Ocia, &amp; exili steriles in puluere curas, Haud nimium nocuisse refert, quin vicerit omnes Saecula quos iuris genuerunt nostra monarchas. At tu supra aeui captum, moremque iuuentae Par oneri gemino, Themidi Musisque litabas: Non minus his inhians animo, quàm deditus illi. Vidimus in cathedra te stantem, &amp; praeside vultum, Ore graui pugnare viris, euoluere legum Intortos apices, &amp; plausum auferre theatri. Vidimus &amp; nostrae cùm se dedit impetus arti Eloquij vernantis opes, auditaque Romae Verba, Maroneis non inferiora cicutis, Ipse quibus fata Heroum laudesque canebas. Audijt haec eadem pater Albis, &amp; audijt vdi Ripa Salae, quique vndosi liquidum Occaris amnem Potat, &amp; Hercyniaes quisquis stupet accola rupes. O quoties puro te sub Ioue plectra mouentem Obstupuëre Deae, quoties decus oris honestum Vßit Hamadryadas occulto &amp; Naiadas igni. Inuidit vbi saepè Colax, tibi saepè Menalcas Semifer, &amp; luscus Corydon: quos vidimus ipsi. Furtiuum rudibus tabulis inscribere carmen.
+<pb facs="#f0075" n="38"/>
+Et plausus captare leues, tu celfior irâ Inuidiae, famaeque potens hos furfure pastos Arcadas, atque hyrtis ructantes allia buccis Arte repreßisti. ah quantum est secernere fumos Ignibus, &amp; castum lacui praeponere fontem, Hoc opus, hic labor est. pauci, quos innuba castos Melpomene in lucos diuaeque sacraria Mantus Deduxit, nouere modum normamque loquendi Quem melior Romanus amat. promulside Graiâ Tu madidus Latiâque nihil vulgare sonabas. Ergo erit vt viuas, positoque cadauere fama Euolet ex tumulo coelique in parte residat: Vnde omnes spectet populos, spectandaque regnet Aeternùm plaude, ô iuuenis, quod defuit annis Illa dabit iactura leuis pensabitur amplo. At tu stirpis honos, &amp; spes suprema tuorum, Siue reluctantes exoras carmina Musas, Aeternum facturus opus de funere fratris, Seu calido lauis imbre genas, &amp; torpida lecto Immemor oblitusque tui das membra: dolori Pone modum, mecumque animo communia pensa Fata vicesque nouas. viden vt Mauortia Thrace Hesperias angustet opes? iacet Illyris ora Pressa iugo: tacet Adriaci vicinia Ponti Pannonijque lares. vtinam non Norica tellus Ardeat, atque eadem tangant incendia Boios. Nunquam maiori fuit in discrimine nostrum Imperium: quodcunque latus nos cingit, apertas Aut inimicitias, aut pacem praebet iniquam. Et nos viuendi teneat malesana cupido? Felices quos bora vocat suprema, viriles Ante annos: dum nulla thori consortia: nullus
+<pb facs="#f0076"/>
+Prolis amor tardat: dum mens liberrima gaudet Seruitio exsolui, &amp; patrio succedere coelo. Parce animae frater cognatae: non ego luctus Castigabo tuos: nimium indulgere dolori Crimen habet: pietas quod postulat integra factum est: Vlterius tentare nefas. agat ocia coelo Mens pia, &amp; in Christi gremio secura quiescat. Parua mora est, patrioque simul iungemur Olympo. Interea terris viuet, nec desinet vnquam Fama viri laudes per totas spargere gentes.</hi></l>
+<p>Henricus Meibomius, Poêta Caesarius, Acad. Iuliae Professor, f.</p>
+</div>
+<div>
+<head> IV.<lb/>
+</head>
+<l>I<hi rendition="#i">Nclita decrêrat Ioachimi facta parentis Sigmundus variâ Mynsiger arte sequi: Tanto nimirum dignus Patre Filius: inde A primo didicit limine nosse Deum. Posthaec virtuti totum se dediàit vni, Vt genus, vt nomen, vt tueretur opes. Martis &amp; Artis amans, in vtrumque paratus, honestâ Spe plenus, laudum nobile carpsit iter. Vsque adeo sed cuncta sequi vestigia Patris Accinctum, ipsius traxit ad ora Patris Dux vitae, veterem ad complexum, atque oscula nota: O felix, qui sic cepit, &amp; implet iter.</hi></l>
+<p>Sal. Frencelius, Professor Helmst.</p>
+<pb facs="#f0077" n="39"/>
+</div>
+<div>
+<head> V.<lb/>
+</head>
+<l>M<hi rendition="#i">Ynsigeri natus, Patris aequaturus honores Hei mihi quàm propero funere raptus obit. Quid vita est hominis? quid mundi gloria? fumus Aut si quid fumo vanius esse potest. Nascimur in luctu, &amp; medio discrimine mortis: Quod sequitur curas, &amp; mala tempus habet, Cum tuti à morbis recteque valere videmur, Mors ruit, &amp; morbos saeuior ante venit. Mynsigero corpus vegetum, &amp; fortißima membrae Ingenij dederat, donaque summa Deus. Omnia momento mors inuida sustulit vnc, Corruit, &amp; terrâ clauditur ille decor. Discite ab exemplo iuuenes, quam proxima nobis Vltima lux, celeri quam ruat ista gradu. Ponite securos animos: assuescite mortem Nosse: vt certa illa est, non ita certa dies. Qui sese ad lethum bene praeparat: omnia recte Expedit, &amp; vitam munere mortis habet.</hi></l>
+<p>M. Caspar Pfafradius, SS. Theologiae Professor publicus in Acad. Iulia.</p>
+</div>
+<div>
+<head> VI.<lb/>
+</head>
+<l>H<hi rendition="#i">Ei mihi qualis eras, IVLI dum vita manebat, Et vires aderant, hei mihi qualis eras. O decus, ô pietas, ô virtus rara genusque, O quantum quanto de genitore caput.
+<pb facs="#f0078"/>
+Ad thalamum mallem tibi carmina pangere:  O non ad thalamum scribo, sed ad tumulum. Quam lux vita breuis, quam mors est inuida, quam non Virtuti didicit parcere, sed vitijs. Fallor? an eripuit citò te mors liuida nobis Vita sit vt coelis longior ante Deum? Nempe pij placida defuncti morte quiescunt, Ac instar somno terra cubile datur: Ne videant seris post euentura diebus Damna, quibus mundus concutiendus erat. Nunc quoque quis dubitet tristem impendere ruinam Quam Mars, quam pestis situe datura fames: Et metus in promptu est, nec vanae est fama, quod armis Saeuiat &amp; ferro nos quoque Turca petat. Quin etiam nostri vix inter viscera regni Omnia tuta silent, sed mera bella crepant. Et si mens superest, quem non tot signa mouebunt? Quae mala terrigenis plurima adesse docent. Tu verò Iuli, vitam pietate regebas, Et tibi Religio maxima cura fuit. Quin vbi per curas fuerant reliquosque labores Ocia, de Christo carmina sacra dabas. Vtilis ille labor quo nunc abit? Ipsanc Christi. Carmine non per te vita legenda fuit? Cumque animum studijs coluisses omnibus: vnum Quod deerat, populos visere mentis erat. Vt posses varios hominum cognoscere mores, Iamque per Italiam mox patuisset iter, Meque tibi fidum comitem Pylademque volebas, Sed tibi nunc melior visitur Italia. Sed nunc sancte cinis molli requiesce sub vrna, Longa satis breuis haec cùm bona vita fuit.
+<pb facs="#f0079" n="40"/>
+Non sunt digna tuis fateor mea carmina factis, Haec tamen haec noster soribere iußit amor. At tu cum tristi, lacrymas, HENRICE, parente Siste parum: placeat quod placuit Domino, Desine tandem animum miseris affligere curis, Nec fratrem modò, sed te quoque frater ama, In te Mynsigerûm domus inclinata recumbit, Tu viduae matris spes eris vna tuae. Non HENRICE precor, precor ô non abijce mentem Ne casu maior sit grauiore dolor. Ex te Mynsigerûm proles numerosa resurget, O radix vireat stemmatis alma tui: Fraternus, fateor, curas exasperat ardor At nunc tristitiam pelle, manebit amor. Misimus Heroem sed non amisimus istum Viuit, &amp; aeternum gaudet adesse Deo. Et licet in cineres corpus redigatur &amp; vmbras Non tamen in nihilum corpus abibit iners. Tempus erit superas, quando rediuiuus in auras Surget &amp; in prisco corpore sanguis erit.</hi></l>
+<p>M. Gotfridus Sluterus Vesaliensis.</p>
+</div>
+<div>
+<head> VII.<lb/>
+</head>
+<l>G<hi rendition="#i">Loria quid mundi, quid opes, quid gaudia prosunt? Nil prosunt, coeli sed remorantur iter. Terra vale, melius selegi, portus &amp; aura, Sunt tua rex superûm vulnera Christe mihi,
+<pb facs="#f0080"/>
+Hîc placidè viuo, luctum, vitaeque dolorem Deposui, coelo, pace, salute, fruor, Ergò tuas mater procul hinc sepone querelas, In DOMINO, felix, qui cadit, ille cadit.</hi></l>
+<p>M. Paulus Ritzemannus, magistratui suo dilectissimo debitae obseruantiae, gratitudinis,
+memoriae &amp; honoris ergò offerebat.</p>
+</div>
+<div>
+<head> VIII.<lb/>
+</head>
+<l>F<hi rendition="#i">Lebilis Ottonijs Satrapa admiraris ab aruis, Cur veniat paßis, inclyte Musa comis, Nec redimita gerat. viridanti tempora lauro Vestis at alternos contegat atra pedes, Scilicet hic habitus lachrymisque doloribus aptus Cultus &amp; angusti pectoris esse solet. Musa mihi irrigui fontes solaminis aegro Pande mei vt riuuli carminis amne fluant. Nam duse te fretus metricis accingter armis Passus, &amp; haec longa sunt renouata mora. Moesta dies aderat cum tu iustißime Chiron, Lumine quaterno syderis ortus eras, Et Lachesis truculenta genas nos dura fatigans Casibus, angustos non sinit ire dies. Vtque alios sileam defunctos munere vitae, Quos tulit immiti Parca seuera manu. Ille decus Phoebi, Musavum curaque Iulus Sigmundi à Frundeck, magna Mysinger obit. Eheu quam te tritum Mecoenas inclyte luctum Ad nos Ahlslebia, haec nuncia fama tulit.
+<pb facs="#f0081" n="41"/>
+Quae referebat vti generosa stirpe relata Inter semideos gloria Mynsigerûm. Nec praeter meritum vates heroius, ingens Auctus honore nouo, claret in arce <foreign xml:lang="el"><gap reason="fm"/></foreign>
+ Rarus cnim ingenij fundebat diuite vena, Dia Redemtoris nobilis acta sui. Tantus, &amp; haec viridi praestans haud segniter aeu Orsus erat vires exeruisse suas. Ingenuus patrium nitidis referebat ocellis, Instar id in vultu menteque vatis erat. Et ceu forma nitens patrios induxerat artus, Sic virtute parem spes fore magna fuit. Aemulus vt patrias laudes nomenque decusque <foreign xml:lang="el"><gap reason="fm"/></foreign> coleret iura probata fide, Foelix consilijs monitisque &amp; rebus agendis, Floreret vestrae firma columna domus. Quae nunc vana iacent, cultos ceustrata per agros Vi tempestatum cùm sata spreta iacent. Blandus odoratis ceu flos procumbit in hortis, Aspera quem duro frigore laesit hyems. Nec quoque Pieridum decus &amp; spes sera Nepotum Interijt Lachesis dum furibunda ruit. In caput eximium dum saeuit &amp; aggerat iras, Vsque adeò vt vitae stamina falce metat. Heu mihi quàm saeuos parit haec truculenta dolores Bestia dum botrum hunc diripit atque terit. Botrus enim viridis radicrum examine tinctus, Phoebe parum vlterius crescere iure queat. Germinae tam preciosa suis cultoribus ingens Solamen miseris coetibus esse solent. Verum Parca suis stimulata furoribus aequae Lance rapit iuuenes enecat atque senes.
+<pb facs="#f0082"/>
+Atque hac lege sibi ius vindic at omnibus vna Sorte, quod accelerat fata suprema <foreign xml:lang="el"><gap reason="fm"/></foreign> . Lex fera sed vera est sociorum, pollice certo Quae sua pensa trahunt: mitis at illa Dei. Limitibus certis vitae qui tempora signat Terrigenis, quae non transsilijsse licet. Et ne foeda cohors reproborum in gente maligna, Virtutum decus &amp; pectoris omne terant. Maximus ille hominum feruator &amp; arbiter ingens Accelerat sanctis vltima fata suis. Atque ita nil prosunt reor eiulatus &amp; angor Fratrius egeritur penè dolendo dolor. Des igitur fratrio Mecoenas inclyte amori Sin minus apta tibi nostra medela venit. Et reuocare tuum coneris pectus anhelum, Moerore à nimio qui nocuisse solet. Insita cordatis natura potentibus haec est, Sanguinis vt nequeant non meminisse sui. Accidit aduersi quicquam vel in aere vel in agro, Damna dolenda quidem damna ferenda tamen. At cui obtigerit fraterno in pectore vulnus, Ossa penetrando cordis ad ima subit. Haec tamen ingenuûm, pietas quibus inclyta cordi, Integra quosque fides mutuus ardor agit. Nemo igitur iustum queat inculpare dòlorem, Quem ciet innocua cum pietate fides. Nam silice e dura nostri non viscera cordis, Finxit at è molli carnea carne Deus. Haec animo reputans, atque ima mente reuoluens, Aerumnas animi metior inde tui. Inclyte, nam tua vis generosa &amp; feruida magni Pectoris Ascraeis non simulata latet.
+<pb facs="#f0083" n="42"/>
+Sic luget Isacides mendax cum fama Iosephum, Spargeret à rabidis interijsse feris, Angitur &amp; lachrymas fundit Iesseius heros, Cum sobolis sensit fata propinqua suae. Attamen vt planctus luctusque in funere Nati Desiit, obsequio Numinis inde sui. Sic heros vt iusta datur tibi causa dolendi, Sic etiam iustum debet habere modum. Pelle graues igitur lachrymas suspende querelas, Arbitrio fas est subdere cuncta Dei. Qui vitam lepidum germano &amp; pectore fratrem Obtulit ad placitum bunc in sua regna locat. Nec decet humanis rimari mentibus illa, Quî duce diuini Numinis eueniant. Optimus est rerum consultor &amp; arbiter ille, Qui sapit expediat quid noceatue pijs. Proderit &amp; seros vitam producit in annos, Proderit &amp; iuuenes ad caua busta rapit. Quique suus statuente Deo stat terminus aeui, Nemo potest hominum vincere nemo potest. Hic neque spectant sexus, nec gesta, nec aetas, Qui metam attigerit cursibus aeger obit. Nec perit vt nostrûm penitus nihil inde supersit, Grex veluti statuit sus Epicure tuus, Viuidus est animae vigor &amp; coelestis origo, Excessuque suo sidera clara petit. Massa nocens carnis lethi sub iura vocatur, Et quia fimus erat limus inanis erit. Sic veterem luimus noxam tristemque ruinam, Atque rei proprio crimine turba sumus. At mox tempus erit, coeli cum clangor ab alto Ingruet &amp; mundi vasta theatra ruent.
+<pb facs="#f0084"/>
+Vasta theatra ruent mundique polique soluta In fluidum liquidi corporis igne rogum. Christus vbi residens in Maiestate verenda, Supplicium ex merito donaque iusta feret. Tum quoque nostra cauis excita cadauera tumbis Protulcrint viuum glorificata decus. Et quae tarda prius volucres rapientur in auras Claraque Phoebei luminis instar erunt. Tum sine fine dies &amp; gloria summa sequetur Et laeti aeternum stabimus ante Deum. Coniunctisque animis vot isque feremus ouantes Diuis mellifluo iubila mille sono. Iunctus erit frater fratri, coniunxque marito Defuncto vt grati carminae laeta canant. Grandior hic aeuo diuûm celebrabit honcres, Laudibus eximijs, celsaque facta <foreign xml:lang="el"><gap reason="fm"/></foreign> . Qui fuerit varijs morbis vitaeque periclis Crebrius emersus, munere Christe tuo. Hic Cruciger virides palmas oleique racemos, Praeferet augusto laeta trophea duci. Haec augusta dies votis optanda serenis Omnibus est cordi qu<foreign xml:lang="el"><gap reason="fm"/></foreign> s sua parta
+salus.</hi></l>
+<p>
+<foreign xml:lang="el"><gap reason="fm"/></foreign>
+</p>
+<p>Canon <foreign xml:lang="el"><gap reason="fm"/></foreign> : <hi rendition="#i">CVM dux Israbel coleret <foreign xml:lang="el"><gap reason="fm"/></foreign> sacra Nobilis &amp; vates hic sua busta subit.</hi></p>
+<p>Aliud <foreign xml:lang="el"><gap reason="fm"/></foreign> annum, mensem &amp; diem mortis IVLII liquido
+repraesentans:</p>
+<p>
+<hi rendition="#i">SCorpIVs aLterna Vt VICe habebat spICVLa PhoebI, IVLIVs eXCeßIt
+Mynsyger orbe Deo.</hi>
+</p>
+<p>Ioachimus Decimator, Pfarherr der gemeine zu grossen Otterßleben vnd Bönnekenbeck.</p>
+<pb facs="#f0085" n="43"/>
+</div>
+<div>
+<head> IX.<lb/>
+</head>
+<l>S<hi rendition="#i">Ylua per Autumnum pulchros amittit honores Frondis, &amp; enatum florida terra decus. Quin homines eade&#x0303; crebrò sub te&#x0303;pora languent, Aëris incerta temperieque cadunt. Hoc probat, eximia clari virtute parentis Nobilis, exemplo Mynsiger ipse suo. Qui puer ante diem florentibus occidit annis, Occidit, ab saeuae tristia fata necis! Sic rosa manè viget, sic lilia candida fulgent, Arida quae primo vespere facta iacent. At cum postremae ver illud amabile lucis Ex letho vitae corpora nostra dabit: Tunc, velut Edenij coelestis flosculus horti, Iunior è molli Iulius ibit bumo. Non secus, atque iterum fundit noua gramina tellus, Induit &amp; vernas arbor opaca comas. Interea, iuuenis, tua molliter ossa quiescant, Et Nymphae violas in tua busta serant.</hi></l>
+</div>
+<div>
+<head> DISTICHON, Continens annum, mensem &amp; diem obitus:<lb/>
+</head>
+</div>
+<div>
+<head>
+<hi rendition="#i">LVX OCtobrIs erat CrIstatae SaCra VoLVCrI, QVa raptVs Letho MYns Iger
+Iste fV It.</hi>
+<lb/>
+</head>
+<pb facs="#f0086"/>
+<l>IM Herbest verleuret der Wald Sein grünes Laub / vnd schön gestalt / Deßgleichen die Erd
+jhre zier / Was drauß gewachsen ist herfür. Ja der Mensche nach altem brauch Vmb die zeit
+offtmals kranck wird auch / Felt nieder vnd plötzlich vergeht / Weil kein bestendig Lufft
+nicht weht. Dasselbig der Mynsinger wehrt / Allhie mit seinm Exempel lehrt / Welcher
+geadelt zu der frist / Durch seines Vaters tugend ist. Der hat in seinen jungen Jahrn Sehr
+frü müssen von hinnen fahrn / Ach / was machst du grausamer Tod Viel Jammer / Leid vnd
+grosse noht. Also ein Lilg / vnd Rößlein zart / Des morgens blüht nach bester art / Das
+doch zur ersten abend stund Verdorret / vnd geht bald zu grund. Aber wenn der liebliche
+Mey / Des letzten tages kömmet frey / Der vnsern Leibern dort jhr Lebn Einst nach dem Todt
+sol wider gebn. Da wird ein junger Julius Auß der Erd wachsen ohn verdruß.
+<pb facs="#f0087" n="44"/>
+Vnd ein Himlisches Blümelein Des Paradises GOttes sein. Gleich
+wie im Früling thut außspriessn Das Erdreich / vnd new Graß auffgiessn / Oder wie mancher
+Baum so breit Schön bletter anzeucht anderweit. Mitler weil rhu du Edler Held / Fein
+sanffte biß ans end der Welt / Daß die Jungfrawen dir / O Knab / Violen strewen auff dein
+Grab.</l>
+<p>Iohannes Scrader Pastor in Neindorff &amp; Beekendorff.</p>
+</div>
+<div>
+<head> X.<lb/>
+</head>
+<l>H<hi rendition="#i">Ic nos valle tenebrosa turbam exulem egentem Antiquae ciuis patriaeque &amp; lucidus aulae Indiges aethereae nunc Mynsingere relinquis, Mynsingere nitens patriae virtutis imago Fulgida Musarum fax, auree Nobilium flos. Qualis eras dum vita tibi? quàm nunc fugiens hinc Exuuias tenues tristißima pignora linquis. Sic verno flos rore satur per amoena vireta, Fulgidus exoriente die stat; vespere tristis Occidit exustus violento Solis ab aestu.
+<pb facs="#f0088"/>
+Heu genus infelix! mox vitales vbi in auras Nascimur, occidimus. vitaeque in limine vitam Linquimus aufugientem. Et tu te mox tegis vmbra Vix visus, neque maturus nobisque tuisque, Ipse tibi licet ô rarum sibi qui satis ipsi est! Nam tibi dum faciles Superi, dum fata sinebant, Semper recto animo virtutem ambire serenam Nil diae praeferre sacro sapientiae amori, Cura fuit, falsae lucis fallentibus vmbris, Excußis animo sperata inquirere regna, Dotibus aeternis caeli florentia regna. An te sanctus amor superûmque immensa cupido Impulit huc? Ergo fugientem è turbine mortis Sede beatorum locat indulgentia caeli. Ter felicem animam! felicia pectora caelo Debita sidereis iurè adsciscenda maniplis. Nos hîc dira premunt trucis (heu) contagia lethi Caeca intemperies, falsae ludibria lucis Carcere captiuos caeco: Tu liber iniquis Compedibus tenebrisque habitas in luce serena. Mirandorum operum causas, aditisque profundis, Abdita vbi alterius penetras mysteria secli Luminis aeterni radiis perfusus; Abrahae In gremio, Triados sanctae circum oscula pendes Ebrius immenso diuini flumine amoris. O quot laetitiae ingentis tibi basia! At horum
+<pb facs="#f0089" n="45"/>
+Ad nos imbelles tenuis vix labitur aura. Non humana capit mens haec non ambitus orbis. At desiderium saltem suspiria feruens, Vocem inconditam moueat. Nam certa quietem Hanc iurat nostram esse Fides. Spe regna tenemus Laetior ingressus quae Sigismunde triumphas. Quis coeli procerum fulgentis in ordine sorti Inuideat planctu saeuo? quid pectora moesti Tundimus? ora rigat geminus salientis aquae fons? Munere concessus Diuûm repetitus ab ijsdem est. Gratemur patriae ciui. Nos defleat ille Aut potius vanum se quisque. Nouam induit ille Vitam morte piâ. Vita haec certißima mors est. Pulla tamen vestis nos impedit, vltimus index Quo te prosequimur feruentis amoris Iuli, Et nos qua frueris placidam sperare quietem. Tumba habet exuuias donec lux vltima finem Afferat indomitae morti, vitamque reducat. Vos sanctae exuuiae, quondam fulgentia magni Templa Dei, mentisque piae, requiescite: vosque Interea sancti Manes SALVETE, VALETE.</hi></l>
+<p>
+<hi rendition="#i">Fecit</hi>
+</p>
+<p>M. Henningus Tegetmejer.</p>
+<pb facs="#f0090"/>
+</div>
+<div>
+<head> XI.<lb/>
+</head>
+<l>P<hi rendition="#i">Erfusè sanctis ora liquoribus, Et docte claris MYNSIGER artibus, Quo vadis? Ah ne morte moestum Desere, cùm genitrice fratrem. Adeste Musae: visum aliter Deo est. Lugendus aegro Carmine IVLIVS. Quantum ille pernox labra curâ Fontibus Aönijs rigauit? Linguas &amp; Artes firmiter imbibit, Sacrasque leges, Iuraque calluit, Et Christiana nempe feruens Religione pios fouebat. O laude patris filius inclytus, Sed laude gaudens de propria magis, Virtutis haeres quam bonorum Maluit esse libens paternae. Virtute constat Nobilitas: genus Aut sors benigna fronte iocans diu Dat gloriosa laude paucos Funera viuere post in annos. Sed Fama longo tempore permanet Quam clara virtus factaque conferunt,
+<pb facs="#f0091" n="46"/>
+Quid corpus ergo si putrescit, Non moritur decus atque virtus? En vita Christi, quae tibi carmine Iam scripta IVLI nunc quoque contigit, Qui vixit hic tellure tecum Vult modò viuere teque secum. Firmanda mens est: Quin abit, haud obit Tam forte pectus, tam studijs pius Hic sanguis: In coelis beatus Parte sui meliore viuit.</hi></l>
+<p>M. Antonius Notholdus Hagensis.</p>
+</div>
+<div>
+<head> XII.<lb/>
+</head>
+<l>V<hi rendition="#i">Ssit agros nouies feruenti Sirius aestu, Nonaque difficilis frigore currit byems: Ex quo, iustitiae lumen venerabile, canum Mynsigerum terris abstulit atra dies. Iuliaci norunt proceres, Phoebeaque pubes Flebilibus luctum testificata modis. Illius exequijs tunc contigit omne, sepultis Reddere quod pietas officiosa iubet. Spes erat in natis, lenitaque tristis ab illo Tempore paulatim sollicitudo fuit.
+<pb facs="#f0092"/>
+O vanas hominum spes, &amp; solatia! mortis In medio vitae vere rapina sumus. Altera Frundeccae gentis sperata columna, Aspice, crudeli funere rapta iacet. Plangite Iuliades, nigramque resumite pallam, Lamentis habitus conuenit iste nouis. Quam fuerit vestris operosus miles in armis Hic iuuenis, Clio te memorare velim. Nam duce te versus teretes cantare poëta Norat, &amp; in faciles cogere verba pedes. Norat &amp; arguto strepitu, blandoque sonore Te duce Threïciae plectra mouere lyrae. Isinarium quali vatem dulcedine tigres, Saxaque cum fluuijs detinuisse ferunt. Obtuleris iuueni vix organa musica, quae non Artifici posset sollicitare manu. Seruijt &amp; Themidi florentibus impiger annis, Magnifici voluens inclyta scripta patris. ARDEA testis erit, cuius sub Marte feracis Indolis in lucem pignora saepe dedit. Quis furor ingenio tot diuûm dotibus aucto Obscuras Lachesin contemerare manus? Polluit (ah) semper sacra, cultoresque sacrorum Eripit, abiecto plus satis aequa gregi. Thespiades seruate fidem, memorabile nomen Obtineat vestra vester alumnus ope.
+<pb facs="#f0093" n="47"/>
+Este pio faciles cineri, conspergite bustum, Termite frondenti molliculisque rosis. Addere si lubet &amp; titulum, nomenque sepulti, Aut hoc, aut simili sculpite saxa typo: Ossa sub hoc posuit qui marmore, Mynsiger; Orpheus Nobilis, &amp; vates ingeniosus erat. Quale fuit genitor, natus potuisset auito Esse decus generi, ni cita fata vetent.</hi></l>
+</div>
+<div>
+<head>
+<hi rendition="#i">EIVSDEM</hi> Ode Tricolos Tetrastrophos, DE EIVSDEM OBITV, ET VLTIMO
+STVDIO.<lb/>
+</head>
+<l>V<hi rendition="#i">Itam polito carmine Mynsiger Christi recensens, à patre coelitum Ex orbe pleno lacrymarum Ad superam reuocatur aulam. O finis aeui suauis! ô exitus Iucundus! optet quem meritò sibi Quicunque coeli gaudet arce, AEtherijsque bonis potiri. Est vita solus Christus &amp; arbiter Vitae beatae; vita nec vspiam Hanc praeter est quaerenda vitam, Aut homini reputanda felix.
+<pb facs="#f0094"/>
+Hanc Christiana dum cithara canit Vitam, perennis laeticiae memor, Mundi senescentis caducas Spernit opes, fragilemque vitam. Sic ergo vitam, quae potius labor Est &amp; malorum flebilis Ilias, Permutat, intrans gloriosae Gaudia laeticiamque vitae. Nam victa durae mortis acerbitas Si morte Christi est, mors minimè pijs Censenda mors est, sed parata Semita principiumque vitae. Eja supernum Christe polum citò Disrumpe, coelo labere fulgido, Haereditatis fac tuae nos Participes, patrijque regni.</hi></l>
+<p>Henningus Ludouici Mindensis, Acad. Iusiae Studiosus, faciebat.</p>
+</div>
+</body>
+</text>
+</TEI>

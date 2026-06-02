@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Auslegung der Histori von der Erklerung Christi/ Matth. 17. gepredigt zu Helmstadt/ den 27. Sontag nach Trinitatis/ Anno 1581</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116974788">
+<surname>Sattler</surname>
+<forename>Basilius</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/231-53-theol-2s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/231-53-theol-2s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">56</measure>
+<measure type="tokens">13587</measure>
+<measure type="types">3413</measure>
+<measure type="characters">85891</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:06Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/sattler_auslegung_1582</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/sattler_auslegung_1582</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/sattler_auslegung_1582</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/sattler_auslegung_1582</idno>
+<idno type="DTADirName">sattler_auslegung_1582</idno>
+<idno type="DTAID">30259</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30259-2</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Sattler, Basilius: Auslegung der Histori von der Erklerung Christi. Helmstedt, 1582.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Auslegung der Histori von der Erklerung Christi/ Matth. 17. gepredigt zu Helmstadt/ den 27. Sontag nach Trinitatis/ Anno 1581</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116974788">
+<surname>Sattler</surname>
+<forename>Basilius</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Lucius</name></publisher>
+<pubPlace>Helmstedt</pubPlace>
+<date type="publication">1582</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Auslegung der Histori</hi><lb/>
+von der Erklerung Christi/ Matth. 17. ge-<lb/>
+predigt zu Helmstadt / den 27. Sontag <lb/>
+nach Trinitatis / Anno 1581.<lb/>
+</titlePart></docTitle>
+<byline>Durch <docAuthor>M. Basilium Satler</docAuthor> Pfar-<lb/>
+herrn daselbst.<lb/>
+</byline>
+<milestone rendition="#hr" unit="section"/><lb/>
+<epigraph><bibl>Matth. 16.</bibl><lb/>
+<quote>Was hülffs den Menschen / so er die gantze Welt gewünne / vnd neme<lb/>
+doch schaden an seiner Seel? oder was kan der Mensch geben / darmit er<lb/>
+seine Seel wieder löse? Dann es wird je geschehen / das des Menschen<lb/>
+Son kome in der Herrligkeit seines Vaters / mit seinen Engeln / vnd als <lb/>
+denn wird er vergelten einem jeglichen nach seinen wercken.<lb/>
+</quote></epigraph>
+<docImprint><pubPlace>Helmstadt</pubPlace> <lb/>
+Durch <publisher>Jacobum Lucium</publisher>.<lb/>
+<docDate>1582</docDate>.</docImprint><lb/>
+</titlePage></front>
+<pb facs="#f0002"/>
+<pb facs="#f0003"/>
+<body>
+<div><head>Dem Ehrwirdigen vn&#x0303; andechtigen / Herrn Johann Lorbern / Abten des Closters Riddageshausen / meinem günstigen Herrn vnd Gefattern.<lb/>
+</head>
+</div><div><head>Gnad / Fried vnd Trost von GOTT dem Vater / vnd vnserm HERRN Jesu Christo / Amen.<lb/>
+</head>
+<p>ERwirdiger vnd Grosachtbar günstiger Herr vnd Gefatter / Es sind diesen 2. Martij zwei Jar / das Gott der Allmechtige / nach seinem Veterlichen willen / Ewer Ehrw. vielgeliebte Haussfrawen seliger gedechtnis / aus diesem elenden Jamerthal / zu sich / in sein ewig Reich abgefordert hat.</p>
+<p>Nun kome ich in glaubwirdige erfarung / das ewer Ehrw. vber solchem tödtlichen abgang gemelter jrer Hausfrawen seligen / dermassen betrübet sein / das sie auch noch jetzundt sich nicht recht vnd alterding erholet / vnd zu frieden gegeben haben. Wann aber wie Syrach 38. schreibet / von trawren der Todt kompt / vnd des Hertzen trawrigkeit die krefften schwechet / vnd also solch langwiriges trawren / Ewer Ehrw. vnd den jhren / hochschedlich sein möchte / Als hah ich nicht vnterlassen
+<pb facs="#f0004"/>
+können / Ewer Ehrw. mit dieser kurtzen vnd einfeltigen Trostschrifft zubesuchen. Denn ob mir wol nicht vnbewust / das Ewr Ehrw. Gottes Wort / welchs ein vnerschöpfflicher Brunn ist / alles trosts wol bekandt: Jedoch hab ich erwogen / das einen Menschen viel leichter ankompt / andere als sich selber zu trösten / wie denn dissfals recht gesagt wird: facilè cum valemus consilia aegrotis damus, wie es auch viel krefftiger vnd anmütiger ist / wenn einer trost von einem andern hören mag / als da er sich selber trösten sol / Daher Paulus spricht 1. Thes. 4. So tröstet euch nun vndereinander mit diesen worten. Derwegen ich diese kurtze schrifft Ewer Ehrw. zufertigen wollen / vnd verhoffe gentzlich / Ewer Ehrw. werden jr diesen meinen geringen dienst gefallen lassen.</p>
+<p>Vnd anfenglich bitte Ewer Ehrw. ich gantz freundlich / die wollen jre gedancken ein kleine weil von jrem Creutz vnd Vnfal abwenden / vnd dagegen betrachten den grossen herlichen reichen trost / so Gottes wort Ewer Ehrw. in dem fal fürstellet / daruon ich nur etlichs ein wenig berüren wil.</p>
+<p>DEnn Erstlich ist Ewren Ehrw. aus Gottes wort wol bewust vnd bekandt / das vns Christen dieses vnd ander vnglück nicht ohn gefehr / sonder aus Gottes gnedigem willen vnd schickung zukompt. Denn er hat alle Haar auff vnserm Heupt gezelet Matth. 10. Er hat dem Menschen ein ziel gesetzt / das er nicht vbergehen kan / die zeit vnser Monat steht bey jm / Hiob 14. Er lest die Menschen sterben / vnd spricht / kompt wieder Menschen Kinder / Psal. 90. vnser zeit stehet in seinen henden / Psal. 31.</p>
+<pb facs="#f0005"/>
+<p>DIeweil es denn Gottes gnediger vnd guter wil ist / wenn die vns lieb sein / aus diesem Leben abgefordert werden / als gebüret vns nicht darwieder zu murren / oder wieder Gott vns auff zulehnen / sonder viel mehr vns vnter Gottes gewaltige Hand zu demütigen 1. Pet. 5. vnder vnser Seel mit geduldt zufassen / Luc. 12. Also thut jm der heilige Hiob / da er auff eine zeit seine Güter vnd alle seine Kinder verleuret / Der HERR / spricht er / hats gegeben / Der HERR hats genomen / der Name des HERRN sey gelobet. Also wölle Ewer Ehrw. gedencken / Gott sey der / so Christliche Eheleut zusammen füget / vnd der sie auch wiederumb / wenn es jm wolgefelt / von einander scheidet / Gott hab Ewer Ehrw. jre geliebte Catharinam seligen gegeben / Der hab sie auch wiederumb nach seinem gnedigen willen vnd wolgefallen zu sich genommen.</p>
+<p>WEnn nun Ewer Ehrw. solchs erkennet / findet sich bald dieser krefftiger Trost / weil Ewer Ehrw. Gott den Allmechtigen durch den Glauben an Christum für jren lieben Vater erkennen vnd anruffen / das ers auch in diesem / wiewol schwerem Creutz / nicht böss mit derselben meine / ob schon das Fleisch anders nicht vrteilt vnd gedencket / als das Gott mit denen / die er also heimsucht vnd angreifft zürne.</p>
+<p>DEnn also schreibt Paulus Rom. 8. Wir wissen / das denen / die Gott lieben alle dieng zum besten dienen. Es thut ja dem Abraham wehe / das er seine Saram verlieren sol / Gen. 23. Dem Jacob desgleichen / das jm sein hertzliebe Rahel in Kindes nöten bleibet / Gen. 35.
+<pb facs="#f0006"/>
+Dieweil aber der frome Gott sich zuuor gegen jnen so gar gnedig erkleret / vnd zu dem Abraham gesagt / Gen. 15. Ich bin dein Schild / vnd dein sehr grosser lohn / zum Jacob aber Gen. 31. zeuch wider in dein Vaterlandt / vnd zu deiner freundschafft / Ich wil mit dir sein / So ist kein zweiffel / Gott würde solches diesen seinen lieben Kindern / für die er so veterlich sorget / nicht haben zukomen lassen / wo er nicht gewust / nach seiner Göttlichen Weissheit / jnen solchs zum besten zuwenden / wie dann sonder zweiffel / sie sich dessen auch erinnert vnd getröstet haben.</p>
+<p>WEnn der böse feind / vnd die arge böse Welt vnser macht hetten / mit vns jrs gefallens zugebaren / oder wenn Gott sich vnser nicht anneme / vnd liess alles durch einander gehn wie es gienge / so betrübten wir vns billich sehr / in diesem vnd anderm dergleichen vnglück. Nun aber Gott vnser lieber Vater / dieses vnd alles anders in der gantzen Welt in Henden hat / regieret / vnd darin vnser bestes sucht / so geben wir vns billich zu frieden / vnd sagen / mit Dauid Psal. 119. Es ist mir lieb das du mich gedemütiget hast / auff das ich lernete deine recht. Vnd mit Paulo Rom. 5. Wier rhümen vns auch der trübsal / dieweil wir wissen / das trübsal bringt gedult / gedult bringt erfarung / erfarung bringt hoffnung / hoffnung aber lest nicht zu schanden werden. Denn die liebe Gottes ist außgegossen in vnser Hertz durch den heiligen Geist / welchen er vns gegeben hat.</p>
+<p>Da wir nun dieses alles im fürfallenden Creutz auff vns ziehen / werden wir den gedancken vnsers fleisches
+<pb facs="#f0007"/>
+im geringsten nicht raum geben / die alles leiden / so vns Menschen zu handen kompt / dahin deuten / als wenn es Zeichen des zorns vnd der vngnad Gottes weren / sonder das Creutz als ein sonderlich Zeichen der gnaden Gottes / dadurch wir dem Ebenbild seins lieben Sons gleich werden / mit gedult tragen.</p>
+<p>WIr wissen auch Gott lob vnd danck / aus dem heiligen wort Gottes / das wenn wir also vnser Seel mit gedult fassen / vnserm lieben Gott in der stille aus halten / wir jme dem Himlischen Vater / einen sonderlichen angenemen dienst thun. Wie Hieremias Thren. 3. spricht / Es ist ein köstlich ding einem Man / das er das Joch in seiner Jugent trage / das ein Verlassener gedultig sey / wenn jn etwas vberfelt / vnd seinen Mund in den Staub stecke vnd der hoffnung erwarte. Vnd sind eben dieses die köstliche werck / so sonderlich in Gottes Wort an den grossen Heiligen / Abraham / Isaac / Jacob / Joseph / Hiob / Dauid vnd andern gerhümet werden.</p>
+<p>ES prangen sonst vnsere Widersacher die Papisten gewaltig / mit jren vermeinten Gottsdiensten vnd wercken / so sie sonderlich in den Clöstern in jren Orden thun / vnd halten sie aus dermassen hoch. Aber in der warheit / ist eben das / das man Gott also im Creutz vnd leiden gedultig aushelt / viel ein herrlicher vnd köstlicher werck denn jene sind / ja ein recht geistlich werck. Wie denn auch solches werck / nemlich im Creutz gedültig sein / einen Menschen viel herter vnd saurer ankompt / als die gleissende werck der vermeinten geistlichen. Denn das ist nicht schwer / zu Chor gehen / gewisse tag kein Fleisch
+<pb facs="#f0008"/>
+essen / gewisse Kleider tragen / vnd wie sie reden / willich arm / aber recht zu reden / reich / den Menschen gehorsam / dagegen aber Gott vngehorsam sein / sich der Welt entschlagen / oder eigentlich zu sagen / in die Welt sich begeben / Diese vnd dergleichen werck sind gar leicht / vnd nicht spiritualia geistliche / sonder carnalia fleischliche werck / die von fleisch vnd Blut erdacht sein / auch von fleisch vnd Blut wol können gehalten werden. Das werck aber / Gott in wiederwertigkeit mit gedult stil halten / das kompt nicht her von fleisch vnd blut / sonder vom heiligen Geist / vnd heist Gott im Geist gedienet.</p>
+<p>DErwegen wir Gott in diesem vnd anderm Creutz diesen gefelligen dienst / willig vnd gern leisten sollen.</p>
+<p>BElangend Ewer Ehrw. liebe Kinder so noch vnerzogen / vnd jrer lieben Mutter / noch wol / wie wir vns gedüncken lassen / bedürffen / sol Ewer Ehrw. nicht zweiffeln / Gott werde auch dieselbigen im lassen beuholen sein / vnd gnediglich versorgen. Denn Dauid im 112 Psal. spricht / Wol dem der den HERren fürchtet. Der lust hat zu seinen Geboten / sein Sam wird mechtig sein auff Erden / das Geschlecht der fromen wird gesegenet sein. Wie auch dem Abraham Gen. 17. Gott verheist / Ich bin dein Gott / vnd deines Samens nach dir. Solchs wird erfüllet Gen. 25. Da von Isaac stehet / vnd nach dem todt Abraham segnet Gott seinen Son Isaac.</p>
+<p>DEs wolle sich Ewer Ehrw. auch trösten / In betrachtung / das gemelte Ewer Ehrw. Kinder nicht allein dem HERrn Christo in der heiligen Tauff einuerleibet sein / sonder auch in der Zucht vnd Vermanung zum
+<pb facs="#f0009"/>
+HERRN erzogen / vnd durch ein einbrünstig Gebet / Gott dem Himlischen Vater so trewlich vnd fleissig befohlen werden.</p>
+<p>WAs offtgemelte Ewer Ehrw. liebe Hausfrauwen selig betrifft / hat es darmit die gelegenheit / das sie gewislich / wenn es jr schon frey stünde / nicht begerte wieder in diese Welt zukomen.</p>
+<p>DEnn was es mit der Gleubigen Todt für eine gelegenheit hab / bezeuget hin vnd wider Gottes Wort. Im 116. Psalm stehet. Der Todt seiner heiligen ist werd gehalten für dem HERREN. Vnd Christus Joh. am 5. spricht / Warlich warlich ich sage euch / Wer mein wort höret / vnd gleubet dem der mich gesand hat / der hat das ewige Leben / vnd kompt nicht ins gericht / sonder ist vom Todt zum Leben hindurch gedrungen. Vnd Apoc. 14. Selig sind die Todten / die in dem HERREN sterben von nun an / ja der Geist spricht das sie ruhen von jrer arbeit / denn jre werck folgen jnen nach. Das ist doch ja ein seliger zustand aller deren / so im Glauben an Christum aus dieser welt abgescheiden sind.</p>
+<p>Das wir nu&#x0303; solchs auch von ewer Ehrw. Hausfrauwen selig halte&#x0303; / vnd vns des trösten / haben wir gnugsame vrsach / Denn das ich von jrem gantzen leben nicht sage / als das sie Gott vnd sein Wort lieb vnd wert gehalten / Ewer Ehrw. als jren lieben Herrn vnd Ehegemahel geliebet vnd geehret / jre Kinder in der zucht vnd vermanung zum HERRN erzogen / dem Negsten vnd sonderlich Armen leuten / gern vnd miltiglich die Hand geboten / so wissen Ewer Ehrw. vnd haben es neben jrem Pfarherrn zu Honlage / Herrn Johanne Zytandro
+<pb facs="#f0010"/>
+selbst angehört / wie gantz Christlich sie aus diesem Jamerthal abgescheiden. Dann sie da / wie mich Herr Johan selber verstendiget / jren Glauben richtig bekennet / vnd Zeichen rechtschaffner warer Buss vnd Glaubens von sich gegeben / in der kranckheit vnd sonsten auch offtmals das heilige Abendmal Christi / das ist / sein waren Leib vnd Blut / zu sterckung jres Glaubens empfangen / Gott vleissig vnd verstendlich angeruffen / jm in jrem schmertzen gedültig ausgehalten / jren Kindern vnd sonderlich der Eltesten Tochter / Agnesen Lorberns / so nun für den andern zu jrem verstand gekomen / viel schöner lehr vnd warnung gegeben / vnd bis an den todt getrew vnd bestendig geblieben. Welches dann gewisse Merckzeichen vnd Zeugnis sind eines rechtschaffnen vnuerfelschten Glaubens / derwegen wir auff jre Person / gemelte schöne Trostsprüch von ewiger Seligkeit / deren die seliglich sterben / billich ziehen / vnd vns jres jetzigen zustandts wegen nicht bekümmern / sonder viel mehr von hertzen frewen sollen.</p>
+<p>DIeweil nun dieses / nemlich das wir wissen / das Gott den Todten / oder vielmehr denen / die durch Christum entschlaffen / ein ewiges Leben geben wird / wenn vns Gott die vnsern nimpt / auch wenn wir selber viel leiden / vnd entlich sterben müssen / vnser bester vnd fürnembster trost ist / Als hab Ewer Ehrw. ich diese Predigt / welche ich am 27. Sontag nach Trinitatis dieses verschienenen 1581. Jahrs allhier zu Helmstet gethan / zuschicken wöllen / verhoffende / es werde dieselbe Ewer Ehrw. in jrem schweren Creutz / durch Gottes gnad / trost vnd erquickung geben / auch andern betrübten Her-
+<pb facs="#f0011"/>
+tzen / in diesen lesten zeiten / da den Leuten auff Erden bange ist / vnd zagen / ja eins theils verschmachten für furcht / durch Gottes gnedigen Segen nicht vndienstlich sein.</p> <p>DEr Himlische Vater / der ein Gott alles trosts ist / wölle vns diese lehr vom ewigen Leben in vnser Hertz schreiben / damit wir in diesem kurtzen leben die gantze Welt / mit allen jren lüsten / herligkeit vnd gütern hindan setzen / auch alles was vns Gott zu leiden darüber zuschickt / mit gedult tragen vnd vberwinden / vnd entlich alles das dauon hie ein wenig gehandelt wird / mit der that volkomlich erfahren / vnd das ewig geniessen / durch vnsern HERrn vnd Heiland Jesum Christum / dem Ewer Ehrw. ich hiemit sampt allen den jren / in seinen Veterlichen Schutz vnd Segen befehlen thue / Datum Helmstadt den 2. Martij.</p>
+<p>Anno 1582.</p>
+<p>E. Ehrw.</p>
+<p>Dienstwilliger lieber Geuatter.</p>
+<p>W. Basilius Satler.</p>
+<pb facs="#f0012"/>
+</div><div><head><hi rendition="#i">EPICEDION IN OBITVM PIAE ET HONESTAE MATRONAE, CATHARINAE, VXORIS REVERENDI &amp; tum pietate tum etiam virtute Clariss. viri, IOANNIS LORBEREN Abbatis coenobij Riddageshausensis dignissimi, Scriptum à</hi> M. HENRICO MEIBOMIO Lemgouiensi.<lb/>
+</head>
+<l><hi rendition="#i">QVam malè respondet precibus fortuna profusis
+Fallit &amp; à votis est aliena meis.
+Carmina munifico meditabar laeta patrono
+Materiam querulis praebet at illa modis.
+Et iubet argutas ad tristia flectere cordas
+Tristius &amp; resonas sollicitare fides
+Quid moror? est iustis pia mens accommoda iussis,
+At Mecoenati paret honesta suo.
+Ille meas aliquo dignatus honore Camoenas,
+Calcar ad incoeptas addidit acre vias.
+Decolor ingratos infamia taxat, &amp; isto
+Crimine nil peius sub Ioue mundus habet.
+Ne sit in his igitur, ceu non fuit hactenus, omni
+Excubat in laudes tempore Musa tuas.
+<pb facs="#f0013"/>
+Quam vellem censu virtus cumulata recenti,
+Atque tuis nascens moribus aptus honos,
+Materias nostris praeberent mille Camoenis,
+Pollice laudatum continuante melos.
+Nunchabet, &amp; tardos mens induit aegra dolores,
+Carminibus tristeis exhibitura sonos.</hi></l>
+<l><hi rendition="#i">Iam tua Cygnaeas mutantur tempora plumas,
+Et faciles vultus ruga senilis arat.
+Iam vigor, &amp; fesso cedunt de corpore vireis,
+Deterior lapso iam metuenda dies.
+Si costa tibi forsan opus fuit hactenus, vxor
+Si thalamis vnquam defuit apta tuis.
+Praesens tempus eget fida consorte, molestae
+Quae leuet aetatis taedia mille tibi.
+Alloquio curas quae mitiget vna senileis,
+Vulnera quae laesi cordis iniqua premat.
+Haec tibi contigerat virtute decora nitenti,
+Quae poterat summas aequi parare nurus.
+Quae decus &amp; solamen erat Catharina mariti,
+Atque laboriferae fida columna domus.
+At dolor! immiti fatorum lege perempta,
+Abstulit abscessu gaudia quaequesuo.
+Ergo iuuat moesto curas ostendere luctu
+Fine queri modico pagina sacra iubet.
+<pb facs="#f0014"/>
+Flebilis argutis indulge Musa querelis,
+Singultu tristeis anteeunte sonos.
+Si pietas secura mali, formidinis expers,
+Vinceret auspicijs fata seuera suis.
+Prudens simplicitas, simplex prudentia, mortis
+Instabileis possent si cohibere vices.
+Non extincta fores, quae nunc CATHARINA dolenti
+Tristia quae tentat reddis adempta viro.
+Singula sunt alijs, in te coniuncta latebant
+Simplicitas, pietas, prouida cura, fides.
+In tenui iactura leuis, maiore carendum
+Cum fuerit, iusti causa doloris adest.</hi></l>
+<l><hi rendition="#i">Flebilis argutis indulge Musa querelis,
+Singultu tristeis anteeunte sonos.
+Monstra quot, &amp; ventres quot inertia corpora tellus
+Sustinet, annorum quae mora longa beat.
+Pars melior rapitur, primaque virente iuuenta,
+Intempestiua falce resecta cadit.
+Scilicet hoc homini cum paruis conuenit herbis,
+Floret iners longum marcet odora cito.
+At rosa colligitur, sterileis vrtica per agros
+Spargitur, &amp; duro calce terenda iacet.
+Longior exacuit poenam mora, turpibus ausi
+Qui vitam factis dedecorare suam.
+In requiem citius redeunt meliora secuti,
+Ne scelus infecti proximitate patrent.
+<pb facs="#f0015"/>
+Terequies CATHARINA manet, mundique ruinae
+Subductam coeli blandior atra fouet.</hi></l>
+<l><hi rendition="#i">Flebilis argutis indulge Musa querelis,
+Singultu tristeis anteeunte sonos.
+Spernimus ignari praesentia, rapta dolemus,
+Tum demum fuerint quae bona scire datur.
+Vt raptis caruisse piget, memorasse decebit,
+Conscia virtutis fama superstes erit.
+Non illa potior, nec amantior altera recti,
+Et quae plus superum iussa timeret erat.
+Sacra frequentabat festis delubra diebus,
+Quaelibet attento pectore dicta notans.
+Pone sequebantur tenera cum prole ministrae,
+Non minus in cultu feruida turba pio.
+Venit hic è templo priuatas vsus in aedes,
+Quique fuit sermo de pietate fuit.</hi></l>
+<l><hi rendition="#i">Flebilis argutis indulge Musa querelis,
+Singultu tristeis anteeunte sonos.
+Conspicuis titulis, &amp; honoris aucta benignis,
+Nuptaque laudato consociata viro:
+Non inflata nouos concepit pectore fastus,
+Nec stultae cupiens ambitionis erat.
+Cauta suos ortus repetens, humileisque parentes,
+Non in oblatas lumina flexit opes.
+<pb facs="#f0016"/>
+Grata fatebatur superos ditare, Deumque
+E rili tenues posse leuare loco.
+Iugiter haec memori residens sententia corde,
+Causa verecundae simplicitatis erat.</hi></l>
+<l><hi rendition="#i">Flebilis argutis indulge Musa querelis
+Singultu moestos anteeunte sonos.
+Quinetiam largis inopes prouentibus auxit,
+Ardentem factis testificata fidem.
+Visa mihi, non dicta loquor, non hora, nec vllus,
+Munere disperso transijt absque dies.
+Siue dolorifero prostrata puerpera lecto,
+Informi me dicara voce rogaret opem.
+Siue mifer telis fortunae fixus iniquis,
+Auxiliatrici visus egere manu.
+Nox tenebrosa piam non est remorata, nec vnquam
+Ingratis frustra dona tributa viris.
+Flebilis argutis indulge Musa querelis,
+Singultu tristeis anteeunte sonos.
+At quibus officijs carum venerata maritum,
+Coniugis impleuit munia sancta piae.
+Et decet, &amp; merito praesul venerande fateris,
+Quique tuae quondam pars fuit vna domus.
+Adfuit hinc vestris benedictio coelica taedis,
+Psalmographi lepida commemorata cheli
+Debita cinxerunt iucundam pignora mensam
+Brachia ceu flexu pandit oliua vago.
+<pb facs="#f0017"/>
+Haec tamen vt decuit monitis formabat amicis
+A teneris rectas gnauiter ire vias.
+Et cum materno pietatis semina lacte
+Paullatim castis mentibus inseruit.
+Omnia quid memorem superis pergrata, marito
+Dedita, vicinis cara placensque fuit.
+Quae sic acta fuit prudenter vita peracta
+Dicitur &amp; fructu non caruisse suo.</hi></l>
+<l><hi rendition="#i">Flebilis argutas inhibeto Musa querelas
+Est virtus lachrymis imposuisse modum.
+Impius in fletu maneat, solatia vitae
+Alterius, Christo qui benè credit, habet.
+Obruit iniustos obliuio pigra, tenaces
+Iustitiae memori fama decore beat.
+Puriter in magno tua scripta volumine vitae,
+Nomina coelesti sunt CATHARINA manu.
+Nos quoque virtutis testes speciosa loquemur
+Concessit clemens quae tibi dona DEVS.
+Donec perfecto fugitiui temporis orbe,
+Vltimus adueniat post data fata dies.
+Totus &amp; inducto census discrimine mundus,
+In loca vel coeli vel phlegetontis eat.
+Tum te coelesti pastor sociabit ouili,
+Pro grege famosam passus amante necem.
+<pb facs="#f0018"/>
+Illic aeterno rediuiua frueris honore,
+Largiter insuetis exsatiata bonis.
+Interea gelido requiescant ossa sepulcro,
+Terraque sit cinerinon onerosa. VALE.</hi></l>
+</div><div><head><hi rendition="#i">EPIT AP HIV M.</hi><lb/>
+</head>
+<l><hi rendition="#i">Hîc ego quae iaceo venerandi praesulis vxor
+Succubui mortis legibus ante diem.
+Quae poterunt homini contingere, coelitus auctor
+Contulit omnipotens dona benigna mihi.
+At memor interitus vitaeque ruentis vbique
+In tenui constans simplicitate fui.
+Pignora dilecto peperi foecunda marito
+Tot quot habet iustos hebdomas vna dies.
+Pauperibus larga concessi munera dextra
+Auxiliatricem sensit egenus opem.
+Quam fuerim iucunda meis operosa sepulcri
+Cura grauis luctus longa querela docent.
+Si iuuat aeternis mutare fugacia, noster
+Abscessus nulla parte pigendus erit.</hi><lb/>
+</l>
+<pb facs="#f0019"/>
+</div><div><head>Am 27. Sontag nach Trinitatis / Euangelium Matth. 17.<lb/>
+</head>
+<p>VND nach Sechs tagen / nam Jesus zu sich Petrum / Jacobum vnd Johannem seinen Bruder / vnd führt sie beseits auff einen hohen Berg / vnd ward verkleret für jnen. Vnd sein Angesicht leuchtet wie die Sonne / vnd seine Kleider würden weiß als ein Licht. Vnd siehe / da erschienen jnen Moses vnd Elias / die redten mit jm. Petrus aber antwortet / vnd sprach zu Jesu / HERR / hie ist gut sein / Wiltu / so wöllen wir drey Hütten machen: Dir eine / Moisi eine / vnd Elias eine. Da er also redete / siehe / da vberschattet sie eine liechte Wolcken. Vnd siehe / eine Stimme aus der Wolcken sprach / Disz ist mein lieber Son / an dem ich wolgefallen habe / den solt jr hören. Da das die Jünger hörten / fielen sie auff jr Angesichte / vnd erschracken sehr. Jesus aber trat zu jnen / rühret sie an vnd sprach. Stehet auff / vnd fürchtet euch nicht / da sie aber jre Augen auffhuben / sahen sie niemand denn Jesum alleine. Vnd da sie vom Berg herab giengen / gebot jnen Jesus vnd sprach / Ir solt diß Gesichte niemand sagen / biß des Menschen Son von den Todten aufferstanden ist.</p>
+<pb facs="#f0020"/>
+</div><div><head>Außlegung.<lb/>
+</head>
+<p>GEliebte im HERRN Christo / Wir haben bißher etliche Sontag nach einander gehandelt / die lehr vom todt / vom ende der Welt / von der aufferstehung der Todten / vnd von dem Jüngsten Gericht / wie denn die Sontags Euangelien / vns darzu vrsach vnd anleitung gegeben haben.</p>
+<p>Das heutig Euangelium aber ist dahin gerichtet / das die Lehr vom ewigen Leben / dessen ein Stück / vnd gleich einen Schmack Christus seinen Jüngern in seiner Verklerung auff dem Berg hat gezeigt vnd fühlen lassen / erkleret werde.</p>
+<p>Es wird aber solche lehr vom ewigen Leben / jetzund vnd sonsten in der gemein Gottes / billig vleissig getrieben vnd zum offtermal widerholet. Denn es ist ein Heuptartickel vnsers Christlichen Glaubens / in der Ordnung zwar der allerletzte / Aber sonsten in der warheit der aller tröstlichste vnd frölichste / vnd das end vnsers Glaubens / dahin fürnemlich auch die andern Artickel alle gerichtet sein / Wie Paulus 1. Cor. 15. bezeuget / hoffen wir allein in diesem leben auff Christum / so sind wir die elendesten vnter allen Menschen. Als wolt er sagen / Das ist vnser höchster trost / das wir dermalen eins wieder auffstehen werden / zu einem andern vnd ewigen Leben. Nun ist aber diese lehr / so wol als die andern Artickel des Glaubens / vns von natur gantz vnbekand / vnd gehöret vnter die Stücke / von welchen Paulus 1. Cor. 2. schreibet / der natürlich Mensch vernimpt nicht was des Geists Gottes ist / es ist jm ein thorheit.</p>
+<p>Derwegen müssen wir grund dieser lehr aus Gottes wort haben.</p>
+<p>Es hats ja kein Aug gesehen / kein Ohr gehöret / vnd ist in keines menschen Hertz komen / was Gott bereitet hat / denen die jn lieben / Jes. 64. Gleichwol weil Gott etwas dauon souiel
+<pb facs="#f0021"/>
+vns zuwissen von nöten / in seinem Wort gezeiget / so sollen wir darnach trachten / das wir das jenige wissen / das er vns aus lauter güte geoffenbaret vnd entdecket hat.</p>
+<p>Es sind aber viel vrsachen / darumb wir eben diese Histori von der Erklerung Christi / darin vnter andern diese lehr vns auch fürgehalten wird / mit vleiß mercken sollen. Denn ob wol sonsten viel Zeichen vnd wunderlicher Geschichten sich auff Erden zugetragen / sonderlich bey der gemein Gottes / die auch in Gottes wort auffgezeichnet sein / Jedoch hat sich dergleichen nie begeben / vn&#x0303; ist weder im Alten noch im Newen Testament sonsten zufinden / das jemals auff Erden ein Mensch were verkleret worden / vnd etwas von solcher herrligkeit gesehen / vnd einen solchen Schmack des Ewigen Lebens gefühlet vnd empfunden hette.</p>
+<p>Es ist auch diese Histori / als die wol zumercken / von dreyen Euangelisten / Matth. 17. Marc. 9. vnd Luc. 9. beschrieben. Es siehet auch ohn zweiffel dahin Johannes in seinem Euangelio / da er von Christo schreibet / Wir sahen seine herrligkeit / als die herrligkeit des Eingebornen Sons vom Vater / Joh. 1. Denn ob wol solchs auff alle herliche thaten Christi / billig kan vnd sol gezogen werden / aus welchen man seine Göttliche herrligkeit gespüret hat / so gehet doch vnter solchen offenbarungen der herrligkeit Christi solche Histori billig für. Also Petrus der Apostel 2. Pet. 1. zeucht diese Histori an / als einen sonderlichen starcken grund seines Glaubens an Christum.</p>
+<p>Wir haben spricht er / nicht klugen Fabeln nachgefolget / da wir euch kund gethan haben / die krafft vnd Zukunfft vnsers HERRN Jesu Christi / sonder wir haben seine herrligkeit selber gesehen / da er empfieng von Gott dem Vater Ehr vnd Preiß / durch eine Stimm die zu jm geschach von der grossen herrligkeit dermassen / Diß ist mein lieber Son / an dem
+<pb facs="#f0022"/>
+ich wolgefallen hab / vnd diese Stim haben wir gehöret vom Himel bracht / da wir mit jm waren auff dem heiligen Berge.</p>
+<p>Vber das ist diese Histori vol schöner lehr / vnd werden fast die fürnembsten Artickel vnser Christlichen Lehr dadurch bestetiget / wie wir von etlichen etwas reden wollen. Darumb ein jeder Christ diese Histori mit vleiß mercken / betrachten / vnd nimmer aus seinem Hertzen komen lassen sol.</p>
+<p>Wir wöllen aber kürtzlich diese drey Stück handlen. Erstlich die Histori selber / wie sich Christus für seinen Jüngern verkleret / vnd was da der Himlisch Vater für eine Predigt gethan habe.</p>
+<p>Zum Andern wöllen wir daraus erinneren / das nach diesem leben ein ander leben sey / vnd wie es damit geschaffen.</p>
+<p>Zum Dritten wöllen wir auch anzeigen / welches die rechte Lehr sey / durch welche man das ewig Leben erlanget. Gott gebe hierzu sein gnad / Amen.</p>
+</div><div><head>Der Erste Theil.<lb/>
+</head>
+<p>DIe Histori von der Verklerung Christi gründlich zuuerstehen / ist sehr nütz vnd nötig / das wir zuuor bedencken / was Christo darzu vrsach gegeben hab. Solchs geben die wort / so für dieser Histori am end des 16. Capitels stehen. Denn da wird angezeigt / das Christus seinen Jüngern verkündiget sein Leiden / vnd denn auch / das sie in dieser Welt nichts bessers würden zugewarten haben / als eben das / so jm begegnen würde.</p>
+<p>Cr tröstet sie aber darmit / das er am ende dieser Welt mit grosser herrligkeit wieder komen / vnd sie all jres Leydts reichlich ergetze&#x0303; werde / ja er spricht / es sind etlich die da stehe&#x0303; / die den todt schmecken werden / biß sie das Reich Gottes sehen / Luc. 9. oder wie Mattheus hie redet / biß sie des Menschen Son komen sehen in seinem Reich.</p>
+<pb facs="#f0023"/>
+<p>Vnd zeugen die Euangelisten alle / das Sechs tage nach solchen worten sich diese Geschicht begeben habe. Denn ob schon Lucas acht tag setzt / stimpt er doch mit Mattheo vnd Marco vberein. Denn er rechnet auch den ersten tag / daran Christus solche Wort geredt / vnd den letzten daran sich Christus verkleret / darzu / die andern Euangelisten rechnen allein die Sechs tage / so darzwischen gewesen sind.</p>
+<p>Also hangen nun diese Histori vnd die Trostpredigt Christi aneinander / das also Christus den Trost / den er seinen Jüngern zuuor mit worten gegeben / nun mit der that selber zeigen / vnd etwas von der herrligkeit des Reichs Gottes / vnd ewigen Lebens / darauff er sie vertröstet / jnen für die Augen stellen wil / darmit sie jr gantzes leben durch / des eingedenck sind / dardurch in jrem Glauben gestercket / vnd in allen fürfallenden nöten getröstet werden / ja auch jren Zuhörern solches fürhalten / vnd es auff die nachkomen bringen.</p>
+<p>Darnach wird gemeldet / wen Christus bey sich gehabt / nemlich nicht einen gantzen hauffen Volcks / auch nicht alle seine Jünger vnd Apostel / sondern nur drey von denselbigen / das gleichwol etliche als Zeugen solches ansehen. Denn in zweyer oder dreyer Zeugen Münde / bestehet allerley sache. Deut. 17. Die drey Apostel sind Simon / den Christus genennet Petrus / Jacobus vnd Johannes / die er genennet Donnerskinder / Mar. 3. welche er pflegte zunemen / wenn er etwas sonderlichs fürhatte / Als bey der erweckung der Tochter Jairi des Obersten der Schulen / Mar. 9. Vnd da er mit dem Todt gerungen / vnd den blutigen Schweiß geschwitzet / Luc. 22. das sie als die es beydes in Augenschein genomen / nicht allein von seiner tieffen ernidrigung / sonder auch gleichsfals von seiner Göttlichen Maiestet vnd herrligkeit zeugen könten.</p>
+<pb facs="#f0024"/>
+<p>Ferner wird beschrieben der Ort darauff sich Christus verkleret / nemlich das es gewesen ein sehr hoher Berg / die Gelerten halten es dafür / es sey der Berg Thabor / Petrus nennets den heiligen Berg / 2. Pet. 1.</p>
+<p>Lucas am 9. meldet / das Christus gebetet / ohn zweiffel hat er seinen Himlischen Vater angeruffen / das er jn verklerete / damit wenn er hernach stürbe / vnd die Aposteln auch vielem Creutz vnterworffen weren / sie sich nicht allzusehr ergerten noch verzagten / sonder an diese Offenbarung seiner herrligkeit gedechten / vnd derhalben mit festem Glauben sich an jn hielten / auch in allem jrem leiden / sich der künfftigen herrligkeit des ewigen Lebens trösteten.</p>
+<p>Solch Gebet Christi wird erhöret / denn in dem er betet / wird er verkleret / also das er nun ein ander Gestalt vnd ansehen hat denn zuuor / an seinem Angesicht vnd an seinem Leib. Sein Angesicht zwar / das glentzet eben wie die Sonne / so jr stralen von sich gibt / der Leib aber vnd seine Kleider sind so weiß als der Schnee / ja wie das Licht / das kein Maler oder Ferber auff Erden also malen oder ferben kan / also das sie auch einen hellen glantz von sich geben / dergleichen man sonst niemals an einigem Menschen gesehen hat / in Summa es scheinet nun Christi Leib nicht als ein jrrdischer / sonder als ein Himlischer Leib.</p>
+<p>Neben Christo erscheinen noch zween Menner / nemlich Moses / der in Egyptenland grosse Zeichen gethan / der die Kinder Israel aus Egypten gefüret / das Gesetz von Gott empfangen / mit dem Gott von Angesicht zu angesicht geredet / wie ein Man mit seinem Freunde / desgleichen in Israel nach jm nicht auffgestanden ist / den Gott selbst begraben hat / Deut. 34.</p>
+<p>Der ander ist Elias der berhümbte Prophet / der mit seinem Gebet den Himel vierdhalb Jahr zu / vnd darnach wider
+<pb facs="#f0025"/>
+auffgeschlossen / 1. Reg. 17. Jacob. 5. einen Todten erwecket / vnd endlich nicht gestorben wie andere Menschen / sonder in einem fewrigen Wagen gen Himel gefahren / 2. Reg. 2.</p>
+<p>Diese beyde nun erscheinen auch nicht mehr in so schlechter vnd geringer gestalt / die sie zuuor auff Erden gehabt / sonder sie haben sich auch sehr verwandelt / nicht daß es erger mit jnen worden / sonder jre Leib sind mit Himlischer klarheit vnd herrligkeit gezieret.</p>
+<p>Diese drey hochberhümbte Personen nun / sind in dieser jrer zusamen kunfft nicht stumm / Sonder halten mit einander ein freundtlich lieblich gesprech. Vnd zwar so reden sie / Moses vnd Elias mit Christo von seinem außgang / so er nemen würde zu Jerusalem / wie er da von seinem vndanckbaren Volck / viel leiden vnd sterben / vnd von Todten <choice><sic>anfferstehen</sic><corr>aufferstehen</corr></choice> / vnd also das Menschliche geschlecht erlösen würde / wie denn alle Christen von höhern vnd frölichern sachen nicht reden können.</p>
+<p>Dieses alles sehen vnd hören die Apostel mit an / vnd wird jnen in dem so wol zusinnen / werde&#x0303; auch so frölich / daß sie schier nicht wissen wie jnen geschicht / oder wo sie sind / so gar verstürtzt sind sie als vol schlaffs / vnd wissen nicht was sie darzu sagen sollen / allein so wol ist jnen / daß Petrus spricht / HERR hie ist gut sein / etc. Als wolt er sagen / nun ist mir doch all mein Lebenlang so wol nicht gewessen als jetzund / wolte ich mich doch wol aller welt Gut vnd herrligkeit gantz verzeihen vnd begeben / vnd mir nicht mehr wünschen noch begeren / denn daß ich hie ewig leben möchte / vnd wenn es dir also gefiel HERR Christe / so wolten wir Dir / Mosi vnd Eliae jedem eine Hütten bauwen hie zubleiben / wir Apostel wolten vns doch wol behelffen. Denn ob schon die Apostel diese beyde Menner / Mosen vnd Eliam jr Lebenlang nicht gesehen / so kennen sie sie doch in dieser herligkeit / die ein schmack ist des ewigen Lebens.</p>
+<pb facs="#f0026"/>
+<p>Es ist aber diese Frewde vnd herrligkeit so groß / daß sie Petrus nicht begreiffen / noch mit worten außreden kan / allein daß er fühlet vnd empfindet / daß jm wol ist / also daß er mit seinen Gesellen nicht wider nach Hauß begeret.</p>
+<p>Endlich vber dieses alles / tregt sich noch ein groß Wunder zu / Denn es vberschattet sie ein liechte Wolcke / die ein zeichen ist der gegenwart Gottes / darauß lest sich der Himlische Vater mit kurtzen / aber gantz gnedigen vnd holdseligen Worten vernemen / welche wir denn mit vleiß hören vnd erwegen sollen.</p>
+<p>Denn wir ja sonst also gesinnet / daß wir gern gelerte vnd beredte Leut hören möchten / sonderlich aber / wenn wir jemand auß dem Himel / als einen Engel vom Himel hören solten / das würde vns zumalen angenem sein. Hie aber redet vnd prediget nicht ein gelerter beredter Mensch / ja auch kein Engel oder Ertzengel / sonder der Allmechtige Gott selber / der Engel vnd Menschen geschaffen / vnd jnen die Sprach gegeben hat.</p>
+<p>Vnd ist diese Predigt dahin gerichtet / daß ste anzeigt / warumb sich Christus also verkleret hab / vnd welches der fürnembste gebrauch sey dieser Histori. Wie denn auch Petrus sonderlich diese Predigt Gottes widerholet 2. Pet. 1. vnd anzeigt / das Christus da empfangen hab / Ehr vnd Preiß / durch die Stimm so zu jm aus der Wolcken geschehen ist. Vnd sollen wir anch darumb diese Predigt dester vleissiger betrachten / dieweil sie zuuor der Himlisch Vater auch einmal gethan bey der Tauffe Christi / vnd sie nun zum andermal widerholet.</p>
+<p>Es prediget aber der Himlische Vater von seinem lieben Son / dem HERRN Jesu Christo / vnd zeiget an / wofür jn die Menschen halten sollen. Denn Er war sonst an allen Geberden erfunden wie ein Mensch / vnd allem Elende wie ein ander Mensch vnterworffen / vnd scheinet also gar nichts mehr
+<pb facs="#f0027"/>
+sein / denn ein ander Mensch / Ja Er war / was das Elend vnd Jamer belangt / noch mehr geplaget denn andere Menschen / damit nun die leute sich daran nicht ergerten / sonder gleichwol jn dafür hielten / dafür Er zuhalten ist / nemlich für den Son Gottes vnd Heiland der Welt / so thut der Himlische Vater von jm diese Predigt.</p>
+<p>DIß ist mein lieber Son / an dem ich wolgefallen hab / den solt jr hören. Das ist dieser Jesus von Nazareth / Marien Son / Der für euch Aposteln jtzt / wie jr selber sehet / verkleret ist / auch Mosen vnd Eliam / so in verklerten Leibern neben jm erschienen / in klarheit weit vbertrifft / der sich sonst / schlecht vnter den Menschen helt / auch armer vnd elender scheinet als andere Menschen sein / Der ist gleichwol weit weit ein andere vnd fürtrefflichere / auch höhere Person / denn alle andere Menschen / so jemals in der Welt gelebet haben / noch leben / oder künfftig leben werden. Denn er ist mein / des waren lebendigen vn&#x0303; Allmechtigen Gottes Son. Vnd zwar so ist er nicht also mein Son / wie die Engel vnd Menschen / die ich an kindes stat auffneme / Sonder er ist mein warer / natürlicher / wesentlicher vnd ewiger Son / den Ich von ewigkeit her / geboren / der da ist Mein Ebenbildt / vnd der glantz meiner herrligkeit / also daß Ich vnd Er eins sind / den Ich hertzlich liebe / als freilich kein Vater seinen Son liebet / oder auch lieben kan.</p>
+<p>Vnd ob Ich schon in diesem stand seiner ernidrigung / weil er darumb da ist / daß er an der Menschen stat / deim Gesetz gnug thue vnd die Sünde büsse / mich etwas frembd gegen jm stelle / ja auch meinen gerechten Zorn vber jn außgiessen werde / Jedoch so bin Ich mit jm gar wol zufrieden / vnd hab an diesem Mitler nicht allein ein genügen / sonder auch mein
+<pb facs="#f0028"/>
+lust vnd frewd / vnd ein sonderliches hertzliches wolgefallen / vnd neme jn also für eweren / der Menschen Bürgen vn&#x0303; Mitler an / ja Ich hab jn euch zu gut darzu verordnet / das solt jr euch zu mir versehen.</p>
+<p>Dieweil er nun aber / wie jr höret / der Man ist / so sollet jr jn auch dafür erkennen vnd halten / Ihn als meinen eingebornen Son / der da in meiner Schoß ist / hören / euch auff sein Wort getrost verlassen / vnd nach demselbigen euch verhalten. Denn wer jn nicht hören / vnd sich an seine Wort nicht keren wird / von dem wil ich es fordern / er sey wer er wölle / Deut. 18.</p>
+<p>Vber dieser stimm Gottes nun erschrecken die Apostel dermassen / sintemal sie noch Sünd am Halß haben / daß sie für furcht vnd schrecken zur Erden fallen. Denn wir arme sündhafftige Menschen / können in dieser Welt / vnd in diesem sündlichen Fleisch / die gegenwertigkeit des heiligen gerechten Gottes nicht vertragen / ja wir müssen vergehen / wie an den Kindern Israel / Exod. 20. vnd hie auch an den Aposteln zusehen.</p>
+<p>Da nun die Aposteln also gleich in ein Onmacht fallen / tritt der Mitler Christus hinzu / rühret sie an / tröstet vnd erquicket sie. Als sie aber wider auffstehen vnd sich vmbsehen / da ist es alles hinweg / Jesus stehet allein da / Moses vnd Elias sind nicht mehr verhanden / es hat auch die frewd vnd herrligkeit ein ende. Denn die Menschen können diese frewde nicht ewig besitzen / sonder müssen zuuor sterben / oder aber wie Enoch / Elias / vnd die der Jüngste tag ergreifft / verwandelt werden. Denn diß verweßlich kan nicht anziehen das vnuerweßlich / vnd diß sterblich kan die vnsterbligkeit nicht anziehen 1. Cor. 15. Es hat aber Christus nur ein weinig vnd als einen schmack von der ewigen frewd / herrligkeit vnd Seligkeit seine Jünger dißmal wollen fühlen vnd sehen lassen / daß sie hernach jr Lebenlang daran gedechten / auch daruon bey jren Zuhörern zeugeten.</p>
+<pb facs="#f0029"/>
+<p>Nach dem nun Christus widerumb vom Berg herab gehet / verbeut er seinen Jüngern / das sie es nicht als bald nachsagen vnd außbreiten. Denn sie selbst verstunden noch nicht / was es mit dem Reich Christi für eine gelegenheit hette / meinten es were nicht ein Geistlich / sonder ein leiblich Reich / viel weniger wüsten es andere / ob schon etliche gleubten / daß er der versprochene Messias vnd Heiland were / wie daraus leichtlich abzunemen / daß da er mit fünff Brot vnd zween Fischen Joh. 6. 5000. Man speiset / das Volck kompt / vnd wil in haschen / vnd zu einem König machen. Damit nun verhütet werd allerley vnrath vnd empörung / so aus dieser falschen meinung entstehen könte / wenn sie höreten / das Christus also were verkleret worden / so wil Christus nicht haben / helt es auch für vnzeitig / das solches für seiner Aufferstehung ausgebreitet werde.</p>
+</div><div><head>Der Ander Theil.<lb/>
+</head>
+<p>Das sey also kürtzlich von der Histori gesagt / Nun müsse&#x0303; wir auch erwegen / was Gott vns damit hab lehren wöllen / worumb dieses alles geschehen / geredt vnd auffgezeichnet sey / vnd vns noch jetzund fürgehalten werde. Denn dieweil die geringste Wort vnd werck Christi vns zur lehr / trost vnd besserung dienen / so ist kein zweiffel / denn daß diese herrliche vnd fürneme Geschicht / sonderlich reiche lehr / trost vnd erinnerung vns geben werde / Darumb sie denn Christus nach seinem Todt heissen außbreiten.</p>
+<p>ZWar wenn wir alle lehr / so daraus können genomen werden / handlen wolten / würde es sich außweisen / das fast alle fürnembste Heuptartickel vnser gantzen Christlichen lehr /
+<pb facs="#f0030"/>
+darin berhüret vnd bestetiget werden. Wir wöllen aber / weil solches dißmal nicht geschehen kan / allein von zweyen den fürnembsten kurtze erinnerung thun.</p>
+<p>Die Heuptlehr / so aus dieser Histori genomen werden sol / dahin Gott fürnemlich gesehen / vnd darumb es dem HERRN Christo zuthun gewesen / ist diese / Daß ausser vnd nach diesem kurtzen vnd müheseligen Leben / ein anderewig vnd selig Leben zugewarten sey / darin die fromen jres Leids ergetzet / die Belohnung der Gottseligkeit / die jnen Gott auß gnaden geben wird / empfangen / sich ewig frewen / vnd selig sein werden. Wie wir in vnserm Christlichen Glauben sagen / Ich gleub ein ewiges Leben. Solcher Artickel wird hie gar gewaltig durch die verklerung Christi bestetiget.</p>
+<p>Die Menschliche vernunfft / weis von diesem Artickel so wol als von dem andern nichts. Wie wir denn bey den Heyden / Platone / Cicerone vnd andern Weisen vnd Gelerten leuten / in jren Schrifften nicht ein Wort dauon finden / daß die Menschen mit jrem Leib wider aufferstehen / verkleret werden / vnd ewig leben werden. Von vnsterbligkeit der Seelen haben sie wol bißweilen feine gedancken gehabt / der sie doch vngewiß gewesen / vnd ist solches alles zur zeit des vnglücks bald verschwunden / Aber daß am Jüngsten tag der Leib würde von den Todten erwecket / vnd Leib vnd Seel zusamen komen / vnd ewig leben / das ist jnen vnbekand gewesen. Vnd geben auch der Weltkinder leichtfertige reden / wie gar nichts die vernunfft von diesem Artickel halte. Denn sie sagen vnuerholen / es sey nie keiner wider komen / der vom andern Leben bescheid gesagt hette. Item hetten sie hie genug / so wolten sie Gott wol den Himel lassen.</p>
+<p>Was man aber vom ewigen Leben / wie auch vom ewigen verdamniß saget / das meinen sie / geschehe alles / daß man die
+<pb facs="#f0031"/>
+einfeltigen in der zucht vnd furcht behalte. Derwegen sie sich für dem ewigen Todt vnd verdamniß nicht entsetzen / auch auff das ewige Leben im geringsten nicht sehen noch gedencken / sonder leben also dahin / als wenn mit diesem Leben alles ein ende neme / vnd darnach kein ander leben mehr zugewarten were.</p>
+<p>Gottes Wort aber lehret vnd bezeuget / daß ausser vnd nach diesem leben ein anders sey / vnd wie die Vngleubigen in der künfftigen Welt ewig gequelet vnd gemartert werden / als wir denn für acht tagen gehöret / daß sie werden in die ewige pein gehen / Matth. 25. Also werden die Gleubigen vnd Gottseligen sich ewig frewen vnd frölich sein / wie denn daselbst Christus spricht / die Gerechten aber werden gehen in das ewige Leben.</p>
+<p>Aber von dem ewigen verdamniß wird sonst gehandelt / Jetzund wöllen wir allein von dem ewigen leben bericht thun.</p>
+<p>Damit wir nun in solchem Artickel vnsers Glaubens wol gegründet werden / müssen wir dessen zeugnis aus Gottes wort einführen / vnd damit nicht jemand in die gedancken gerathe / Daß / wie etliche Irrgeister fürgeben / nichts daruon im Alten Testament stehe / wöllen wir erstlich dauon etliche Sprüche des Alten Testaments erwegen.</p>
+<p>Denn ob es wol nicht ohne / das dieser wie auch andere Artickel vnsers Christlichen Glaubens / im Alten Testament nicht so gar deutlich / hell vnd klar / als im Newen Testament erkleret ist / So ist er gleichwol darin wol gegründet / auch den Heiligen Ertzuätern / Propheten / Königen vnd andern fromen Hertzen allen so wol bekand gewesen / daß sie sich dessen fürnemblich getröstet haben. Denn die tägliche erfahrung sie gelehret / daß Gottes herrliche verheissung die Er den fromen gethan / nicht eben auff dieses / sonder auff ein ander leben gienge / vnd daselbst erst würden recht erfüllet werden.</p>
+<pb facs="#f0032"/>
+<p>Im ersten Buch Mose am 4. spricht Gott zu dem Cain / Istes nicht also / wenn du fromb bist / so bistu Gott angenem / Bistu aber nicht fromb / so ruhet die Sünde für der thür. Dieses ist ein allgemeiner Spruch vnd Regel / darin Gott anzeiget vnd bezeuget / Er wölle das gut vnd Gottseligkeit belohnen / das böse aber vnd Gottlose Wesen straffen. Wie den eben in diesem verstand vnd meinung Abraham zu Gott spricht / Gen. 18. Das sey fern von dir / das du das thust / vnd tödest den Gerechten mit den Gottlosen / daß der Gerecht sey wie der Gottlose / das sey fern von dir / der du aller Welt Richter bist / du würst nicht so richten.</p>
+<p>Nun zeugen die Historien / vnd haben es die Heiligen mit der that erfahren / daß solches an dem aller grösten hauffen nicht ist erfüllet worden / Denn es den Gottlosen nicht allein so wol / sonder auch besser gangen als den fromen. Als Abel hat Gott gefallen / wie Gott damit augenscheinlich bezeuget / da Er jn vnd sein Opffer mit gnaden angesehen vnd angenomen hat. Nun lest es sich ansehen / als sey er nicht angenem / denn er wird von seinem Bruder erschlagen. Hergegen aber bawet der Gottlose Cain die erste stat / der in Gottes Wort gedacht wird / vnd nennet sie nach seinem Son Hanoch / Gen. 4.</p>
+<p>Daraus haben Adam / Eua vnd andere fromen Hertzen wol verstanden / daß ausser diesem noch ein ander Leben sey / sonst wer auch die erste verheissung / des Weibes same wird der Schlangen den Kopff zutretten / vergeblich gewesen. Vnd das weiset sich fein aus / da Gott hernach zum Cain spricht / deines Bruders blut schreiet zu mir von der Erden / da denn Gott abermal auffs new bezeuget / Abel sey im angenem / vnd Cains Sünde wölle er straffen.</p>
+<p>Aber ein herrlich Zeugnis des ewigen Lebens hat Gott der welt für der Sündfluß fürgestellet an dem heiligen Henoch /
+<pb facs="#f0033"/>
+Gen. 5. Da Mose schreibet / dieweil er ein Göttlich leben führet / nam jn Gott hinweg / vnd ward nicht mehr gesehen.</p>
+<p>Daraus beides die Fromen vnd die Gottlosen abnemen könten / daß ausser diesem leben Gott ein anders hab / da er die fromen lassen wölle.</p>
+<p>Ich wil jetzund nichts sagen vom Sabbath / der nicht vmb dieses vergenglichen zeitlichen Lebens / noch vmb des Bauchs vnd der narung willen / Sonder darumb geordnet / das die Menschen mit dem Wort Gottes vmbgehen / Gott recht erkennen / an jn gleuben / jn anruffen vnd jm dienen / vnd nach diesem leben das ewige Leben besitzen vnd ererben. Wie er denn auch ein Fürbild der ewigen ruhe vnd Seligkeit ist / Heb. 4.</p>
+<p>Summa aus diesem allem vnd der täglichen erfahrung / da sonsten die Gleubigen gesehen / daß es den Gottlosen wol / den fromen aber vbel gangen / vnd gleichwol Gott offt exempel seins zorns gestellet / den Gottfürchtigen aber beygestanden / haben sie leichtlich abgenomen / daß der warhafftige gütige vnd gerechte Gott dermalen eins die fromen alles jres leids ergetzen / vnd die Gottlosen / als ein gerechter Richter straffen würde.</p>
+<p>Daher von den Ertzuätern die Epistel zun Heb. 11. spricht. Diese alle sind gestorben im glauben / vn&#x0303; haben die verheissung nicht empfangen / sonder sie von fern gesehen / vnd sich der getröstet vnd wol benügen lassen / vnd bekand / daß sie Gest vnd frembdling auff Erden sind. Denn die solches sagen / geben zuuerstehen / daß sie ein Vaterland suchen. Vnd zwar wo sie das gemeinet hetten / von welchem sie waren außgezogen / hatten sie ja zeit widerumb zu keren / nun aber begeren sie eins bessern nemlich eins Himlischen.</p>
+<p>Nach der Sündfluth zur zeit der Propheten / da es im volck Gottes sehr vbel stünde / die fromen waren vntergedruckt / der
+<pb facs="#f0034"/>
+Gottlosen vnd Abgöttischen war eine grosse menge / also daß Elias meinet er wer allein vber geblieben / prediget vnd zeuget Gott abermal öffentlich / den fromen Hertzen zu trost / daß ein ander vnd ewiges leben sey / in dem er den Propheten Eliam lebendig aus dieser Welt zu sich hinweg nimpt. Wie denn 2. Reg. 2. geschrieben stehet / daß ein fewriger Wagen / mit fewrigen Rossen komen / vnd jn vnd Elisa den Propheten die auff Erden bey einander stünden / von einander gescheiden hab / vnd sey also Elia im Wetter gen Himel gefahren.</p>
+<p>Gleichsfals zeugen auch vom ewigen Leben die andern Propheten. Als Dauid im 16. Psalm. Du thust mir kund den Weg zum leben / für dir ist freud die fülle / vnd lieblich wesen zu deiner Rechten ewiglich. Im 17. Psalm. Die Leute dieser Welt haben jr theil in jrem leben / Du füllest jnen den Bauch mit deinem Schatz / sie haben Kinder die fülle / vnd lassen jr vbriges jren jungen. Ich aber wil schawen dein Antlitz in gerechtigkeit. Ich wil satt werden / wenn ich erwache nach deinem Bild. Das ist auch die vrsach / daß im 16. Psalm stehet / Der todt seiner Heiligen ist werd gehalten für dem HERRN. Jesaias am 26. schreibet nicht allein von der Aufferstehung der Todten / sonder auch vom ewigen Leben / mit diesen worten. Deine Todten werden leben / vnd mit dem Leichnam aufferstehen / wacht auff vnd rhümet die jr lieget vnter der Erden. Dergleichen zeugnis stehen auch in den dreyen letzten Capitteln. Daniel am 12. schreibet / viel so vnter der Erden schlaffen liegen / werden auffwachen / etliche zum ewigen Leben / etliche zur ewigen schmach vnd schande. Ja wenn man es recht bedencket / so weissagen vnd predigen alle Propheten so offt vom ewigen leben / so offt sie vom ewigen vnd glückseligen Reich Christi weissagen / Denn in dieser Welt die Christen ein wenig vnd kaum einen schmack daruon fühlen.</p>
+<pb facs="#f0035"/>
+<p>Solches haben die Propheten vnd andere Heiligen auch damit bezeuget / daß sie vmb Gottes vnd seines Worts willen jr gantzes leben durch / viel noth vnd gefahr außgestanden / endlich auch sich jemmerlich hinrichten vnd tödten lassen. Also haben sie verfolget die Propheten die für euch gewesen sind / spricht Christus. Vn&#x0303; <hi rendition="#i">Act. 7.</hi> welchen Prophete&#x0303; haben ewer Veter nicht verfolget / vnd sie getödtet / die verkündigeten die zukunfft dieses Gerechten? Danielis 3. lassen sich die drey Menner in feurigen Ofen werffen / vmb des waren Gottesdiensts willen. 2. Machab. 6. Wil Eleazar nicht allein kein Schweine fleisch essen / weil es Gott den Jüden verboten / sonder er wil sich auch nicht stellen als esse er es / vnd lest sich darüber / da er 90. Jahr alt war / tödten. Im folgenden Cap. lassen sich die sieben Brüder mit jrer Mutter vber dem Gesetz Gottes grewlich marteren vnd tödten. Diese alle hetten das nicht gelitten / sich auch nicht so freiwillig vnd freudig in den Todt gegeben / wenn sie nicht gewiß gegleubt hetten / daß nach diesem ein ander Leben were / sonst müsten sie jrer Sinne beraubet gewesen sein.</p>
+<p>Im Newen Testament sind der zeugnis viel / vnd weil die so hell vnd klar / daß sie ein jeder verstehet / wöllen wir der etlich nur berhüren. Matth. 5. spricht Christus zu seinen Aposteln / Seid frölich vnd getrost / es wird euch im Himel wol belohnet werden. Joh. 3. spricht Christus / Also hat Gott die Welt geliebet / daß er seinen eingebornen Son gab / auff das alle die an jn gleuben / nicht verloren werden / sonder das ewige Leben haben. Joh. 10. Meine Schaff hören meine stimme / vnd ich kenne sie / vnd sie folgen mir / vnd ich gebe jnen das ewige Leben. Paulus spricht 1. Cor. 15. Hoffen wir allein in diesem leben auff Gott / so sind wir die elendesten vnter allen Menschen. Vnd 1. Thes. 4. spricht er / Wir werden bey dem HERRN sein allzeit. Vnd haben eben mit jrem leiden
+<pb facs="#f0036"/>
+vnd sterben / vber dem bekentniß des Namens Christi / die Apostel vnd andere Marterer vnd Heiligen im Newen Testament bezeugen / daß sie ein ander vnd ewig Leben gleuben.</p>
+<p>Sonderlich sehen wir solches in dieser Histort / denn hie erscheinen zween Menner / Moses vnd Elias / die doch viel hundert Jar in dieser Welt nicht gewesen sind / noch stehen sie da neben Christo lebendig / vnd reden mit jhm. Diese schickt Gott darumb aus dem ewigen Leben in diese Welt / auff daß wir gewiß sein / daß ein ander vnd ewig leben sey.</p>
+<p>Wie denn hie Christus die Apostel einen schmack des ewigen lebens mit der that fühlen lesset. Solches haben die Apostel bezeuget / haben darüber allerley gelitten / vnd sind darauff gestorben.</p>
+<p>Dieweil denn diese lehr so gewaltig im Newen vnd Alten Testament gegründet / vnd hie auch den Aposteln gezeiget vnd geoffenbaret / vnd mit dem leiden vnd todt so vieler / ja aller Heiligen bestetiget ist / so sollen wir auch daran im geringsten nicht zweifflen / sonder es für gewiß halten / ob wir es schon nicht sehen / so sey doch ausser vnd nach diesem leben ein ander leben.</p>
+<p>Ferner vnd darneben wird vns auch etlicher massen hie gewiesen vnd angezeigt / was es mit den Menschen für eine gelegenheit vnd zustand im ewigen leben haben werde / Nemlich daß es nicht ein solch elend müheselige leben sein werde / wie dieses leben in dieser Welt ist / sonder es werde ein gantz fröliches vnd seliges leben sein.</p>
+<p>Dieses leben in dieser Welt ist vergencklich / vnd weret eine kleine zeit / vnd muß der Mensch nicht allein darin viel mühe vnd arbeid haben / sonder grosse schmertzen vnd hertzleid leiden vnd außstehen. Wie der heilige Ertzuater Jacob im 1. Buch Mose 47. spricht / Wenig vnd böß ist die zeit meines lebens. Vnd Psal. 90. steht. Vnser leben weret siebentzig Jar / wenn
+<pb facs="#f0037"/>
+es hoch kompt / so sind es achtzig Jar / vnd wenn es köstlich gewesen ist / so ist es mühe vnd arbeit gewesen. Hiob am 7. spricht / Muß nicht der Mensch im streit auff Erden / vnd seine tag sind wie eines Taglöhners. Denn die Sünd hanget vns an / vnd ligen vns die zeitlichen straffen Gottes auff dem Halß / biß wir das sündlich fleisch gantz hinlegen. Im schweiß deines Angesichtes soltu dein Brod essen / biß daß du wider zur Erden wirst / dauon du genomen bist / spricht Gott im ersten Buch Mose am driten. Das ist doch gar ein jämerlich leben / vnd sonderlich bey den fromen / daß billich Paulus 1. Cor. 15. schreibet / Ich sterbe täglich.</p>
+<p>Im ewigen leben aber werden wir der Sünden vnd allerley straffen der Sünden gentzlich quit vnd loß sein / also daß wie vns hie vbel ist / also wird vns dort recht wol sein / hie sind wir in vnruhe / dort werden wir zur ruhe komen / hie stehen wir in steter furcht / dort werden wir sicher sein / hie ängsten wir vns vnd sind trawrig / dort werden wir getrost vnd frölich sein.</p>
+<p>Darumb nennet Petrus Act. 3. den Jüngsten tag <hi rendition="#i">diem restitutionis omnium,</hi> den tag an welchem alles sol widerbracht werden. Dieweil daran alles was durch die Sünd verloren / reichlich herwider sol gebracht vnd erstattet werden / Vnd sonderlich wird das Ebenbild Gottes / darin der Mensch erschaffen / vns wider gegeben werden / daß in vns leuchten wird Himlische weißheit, gerechtigkeit / frewd vnd Seligkeit.</p>
+<p>Daruon stehet im 16. Psalm / Für dir ist frewd die fülle / vnd lieblich wesen zu deiner Rechten. Jes. 25. Er wird den todt verschlingen ewiglich / vnd der HERR wird die thränen von allen Angesichten abwischen / vnd wird auffheben die schmach seines volcks jn allen Landen / 1. Pet. 1. Wenn nun offenbar
+<pb facs="#f0038"/>
+wird Jesus Christus / so werdet jr euch frcwen / mit vnaußsprechlicher vnd herrlicher freuden. Apoc. 7. Sie wird nicht mehr hungern noch dürsten / es wird auch nicht auff sie fallen die Sonne oder jrgent eine hitze. Denn das Lamb mitten im Stuel wird sie weiden / vnd leiten zu den lebendigen Wasserbrunnen / vnd Gott wird abwaschen alle threnen von jren Augen. Vnd am 21. Ich Johannes sahe die heilige Stadt / das newe Jerusalem / von Gott aus dem Himel herab fahren / zubereitet als ein geschmückte Braut jrem Mann. Vnd höret eine grosse Stimme / von dem Stuel / die sprach / Siehe da eine Hütten Gottes bey den Menschen / vnd er wird bey jnen wohnen / vnd sie werden sein volck sein / vnd er selber Gott mit jnen wird jr Gott sein. Vnd Gott wird abwischen alle threnen von jren Augen / vnd der Todt wird nicht mehr sein / noch leid / noch geschrey / noch schmertzen wird mehr sein. Denn das erste ist vergangen. Vnd der auff dem Stuel saß / sprach siehe ich mach es alles newe.</p>
+<p>Nicht allein aber wird die Sünde vnd straff der Sünden weg genomen / vnd in vns Gottes Ebenbild erstattet werden / Sonder vber das / wird auch das solche freud vermehren / daß vnser Leib wird verkleret werden mit Himlischer klarheit / also daß es viel ein andere vnd bessere gelegenheit / denn jetzund damit haben wird. Wie Paulus Phil. 3. schreibet / er wird vnsern nichtigen Leib verkleren / daß er ehnlich werde seinem verklerten Leib. Vnd Joh. 1. Cap. 3. Wir sind nun Gottes kinder / vnd ist noch nicht erschienen was wir sein werden / wir wissen aber / wenn es erscheinen wird / daß wir jm gleich sein wer den. Solches erkleret S. Paul. 1. Cor. 15. Mit dem gleichniß von einem Weitzen korn / das viel herrlicher herfür kompt als es zuuor war / vnd spricht hernacher / Es wird geseet verweßlich / vnd wird aufferstehen vnuerweßlich / das ist der Leib wird nicht mehr vergehen / veralten / sterben / oder zur Er -
+<pb facs="#f0039"/>
+den werden / sonder stets in einem stand vnd in <hi rendition="#i">flore</hi> bleiben. Es wird geseet in vnehr / vn&#x0303; wird aufferstehn in herrligkeit / das ist / die schand der Sünden / vnd die der Sunde nachfolget / wird dem Leib nicht mehr anhangen / werden vns weder für Gott noch den Menschen schemen dörffen / sonder ehrlich / herrlich vnd schön sein / also daß Gott vnd alles fleisch an vns ein gefallen haben wird. Es wird geseet in schwacheit / das ist / viel vnglück / schmertzen vnd gebrechen / hangen jetzt dem Menschen an / viel dinges mangelt jm / Deren schwacheit allen sol jm abgeholffen / vnd er mit grosser krafft begabet werden Es wird geseet ein natürlicher leib / das ist / der natürlich ding bedarff vnd gebrauche / als essen / trincken / fewer / liecht / wasser / lufft / da freyet man / da lest man sich frewen / da schlefft man / da wachet man / dort aber werden wir Geistliche Leiber haben / die das alles nicht dürffen / vnd wie Christus Matth. 22. zeuget / wir werden den Engeln gleich sein.</p>
+<p>Die rechte Heuptursach solcher vnserer volkomenen freude vnd Seligkeit wird sein / daß wir Gott nicht mehr im dunckeln Wort erkennen / sonder von Angesicht zu Angesicht anschawen werden: Vnd werden nicht allein wissen wer er sey / Sonder auch mit der that fühlen / wie veterlich er gegen vns gesinnet sey / vnd in anschawung vnd geniessung solcher seiner veterlichen Göttlichen güte vnd herrligkeit selig sein. Wie Christus Joh. 17. spricht / Das ist das ewige Leben / daß sie dich Vater vnd den du gesand hast / Jesum Christum erkennen / 1. Cor. 13. Wir sehen jetzt durch einen Spiegel in einem tunckeln Wort / denn aber von angesicht zu angesicht. Vnd 1. Joh. 3. Wir werde&#x0303; jn sehen wie er ist. Paulus erkleret es noch deutlicher 1. Cor. 15. Gott wird alles in allen sein / an Gott werde&#x0303; wir gnug vn&#x0303; alles haben / vnd ausser Gott keiner andern güter bedüffen. Vber das wird hie angezeiget / daß wir auch nicht werden bey einander sein als die vnbekandten vnd frembden / sonder wir werden auch in solcher herrligkeit einander kennen / vnd werden nicht allein
+<pb facs="#f0040"/>
+die kennen / die wir zuuor gekand / sonder auch die / die wir vnser lebenlang mit augen nie gesehen haben / vnd werden darzu mit vnd vntereinander selige kundschafft / freundschafft vnd gespräch haben. Welches alles viel ein lustiger vnd frölicher <hi rendition="#i">conuersation</hi> wird sein / als in diesem leben.</p>
+<p>Aus diesem allem nun wird ein grosse vnaussprechliche frewde folgen / die kein Mensch begreiffen kan / die kein Auge gesehen / kein Ohr gehöret / vnd in keines Menschen hertz gestiegen ist / Jes. 64.</p>
+<p>Etlicher massen fühlen etwas von dieser frewd vnd Seligkeit rechte ware Christen / in dieser Welt / wenn sie sich zu Gott bekeren / vnd erstlich zwar bekandt vnd gefühlet jre Sünde vnd den schweren zorn Gottes / vnd aber sich mit der frölichen stimme des Euangelij trösten / Sey getrost mein Son / dir sind deine Sünde vergeben: Also hat Gott die Welt geliebet / daß er seinen eingebornen Son gab / auff daß alle die an jn gleuben nicht verloren werden / sonder das ewige leben haben. Item 1. Tim. 1. Das ist je gewißlich war / vnd ein tewres werdes Wort / daß Christus Jesus komen ist in die Welt / die Sünders selig zumachen / erinnern sich da jrer empfangenen Tauff / da Gott mit jnen einen Bund gemacht / empfangen zu Christi gedechtnis / sein Leib vnd Blut in seinem heiligen Abendmal / da werden sag ich / frome Hertzen dermassen vnd also erfrewet / daß sie dafür die gantze Welt nicht achten / ja auch wenn sie sterben / den Todt nicht schmecken.</p>
+<p>Das alles nun / was bißher vom ewigen Leben gesagt ist / wird vns in dieser schönen Histori fürgebildet.</p>
+<p>Denn hie vernemen wir aus Petri worten / daß jm da alle furcht / trawren vnd leid vergangen / vnd daß jm aus dermassen wol ist / er vergisset der gantzen Welt / vnd aller herrligkeit /
+<pb facs="#f0041"/>
+darzu er zuuor so wol als die andern Apostel einen grossen lust gehabt / vnd sich sonst mit jnen vmb die zeitliche ehr gezancket / das alles ist hie bey jm gantz vergessen.</p>
+<p>Der Menschen leib belangende / daß die viel anders denn zuuor vnd herrlicher sein werden / siehet man an Christo / an Mose vnd Elia / Denn obwol dißfals zwischen Mosis / Eliae vnd Christi leib ein grosser vnterscheid ist / Jedoch erscheinen sie auch in herrligkeit / vnd haben nun ein vnuerweßlichen / gewaltigen / herrlichen / geistlichen / Himlischen Leib.</p>
+<p>Also sehen hie die Apostel Christi herrligkeit / die erfrewet sie also / ja es ist zugegen die heilige Dreyfaltigkeit / wiewol sie dieselbige noch nicht / wie sie an jrem Wesen ist / sehen vnd anschawen / sonder allein an der Wolcken vnd gnedigen stimme des Himlischen Vaters erkennen.</p>
+<p>Endlich kennen die Apostel / wie man aus Petri Worten siehet / nicht allein Christum in der herrligkeit / sonder auch Mosen vnd Eliam / die sie zuuor die tag jres lebens nie gesehen / begeren stete gemeinschafft vnd kundschafft mit jnen zu haben.</p>
+<p>Diese lehr nun sol vns erstlich darzu dienen / daß wir in vnserm Glauben gestercket werden / vnd gewiß sein / daß nach diesem ein ander leben zugewarten / vnd daß wir auch souiel bescheid dauon wissen / souiel vns Gott in seinem heiligen Wort geoffenbaret hat.</p>
+<p>Zum andern sol es vns zu einem sondern trost dienen / daß wir hie hören / es werde nicht allein dieses Leben vnd Elend ein ende nemen / sonder es werde auch mit vns besser werden / vnd ein ander vnd seliges leben angehen. Darumb sollen wir billich alles was vns Gott zuschicket / gedültig leiden / es sey verfolgung / kranckheit / armut / hertzleid / oder wie es namen haben mag / vnd allezeit vns des trösten / es werde einmal anders vnd gut werden / Gott werde vns alles leides ergetzen. Da
+<pb facs="#f0042"/>
+sollen wir stets für augen haben / daß Paulus Rom 8. Wir wissen daß dieser zeit leiden der herrligkeit nicht werd ist / die an vns sol offenbaret werden. Vnd 2. Cor. 4. Vnser trübsal die zeitlich vnd leicht ist / schaffet ein ewige vnd vber alle maß wichtige herrligkeit / vns die wir nicht sehen auff das sichtbare / sonder auff daß vnsichtbare. Denn was sichtbar ist / das ist zeitlich / was aber vnsichtbar ist / das ist ewig.</p>
+<p>Ein Kauffman / der sich auff das vngestümme Meer gibt / tröstet sich / daß er stadliche Wahr bekomen vnd groß gut erwerben wölle / darüber waget er sein Leib vnd leben. Also ein Kriegsman thut eben das / vmb eines losen Solds willen / vnd daß er Ehr einlege: Nun ist das alles gantz vngewiß / vnd fehlet jnen beyder seits wol / so bald als es jnen geret / vnd gelinget. Worumb wöllen wir nicht bey dem erkentniß Chisti leiden / da wir doch gewiß sein / daß es vns nicht fehlen kan / da wir wissen / daß wir nicht auffs vngewiß lauffen / da wir nicht in die Lufft streichen.</p>
+<p>Also haben sich dieses Artickels getröstet alle Heiligen im Alten vnd Newen Testament / in allen jren nöten vnd gefahr / sonderlich im Todt. Darumb spricht Jacob / wie er nun schier in todtes nöten ligt / als er sein Testament machet / HERR ich hoffe auff dein heil / nun hette er vergeblich auff den Heiland Christum sein vertrawen gesetzet / wenn er nicht nach diesem ein ander vnd ewiges Leben gegleubet hette. Also tröstet sich Hiob in seinen grossen nöten / Ich weiß daß mein Erlöser lebet / etc. vnd hernach / Ich werde in meinem fleisch Gott sehen / denselben werde ich mir sehen / vnd meine Augen werden jn schawen.</p>
+<p>Also tröstet sich nun Paulus / wie er weiß daß er bald sterben sol 2. Tim. 4. Ich werde schon geopffert / vnd die zeit meines abscheidens ist verhanden / hinfurt ist mir beygeleget die Kron der gerechtigkeit / welche mir der HErr an jenem tage der gerechte Richter geben wird. Vnd 1. Pet. 1. Tröstet Pe -
+<pb facs="#f0043"/>
+trus seine Zuhörer in jrem leiden / vnd spricht / Ihr werdet durch den Glauben bewaret zur Seligkeit / welche bereitet ist / daß sie offenbar werde zu der letzten zeit / in welcher jr euch freuen werdet / die jr jetzt eine kleine zeit / wo es sein sol traurig sind.</p>
+<p>Zum driten sol vns dieses auch zur vermanung dienen / daß wir nicht hingehen wie das Viehe / vnd allein auff dieses jrdisch Leben sehen vnd gedencken / sonder nach dem ewigen Leben vnd Seligkeit für allen dingen trachten / solches mit bußfertigem Christlichem leben beweisen / wie denn Christi / Mosis / der Propheten vnd Apostel predigten dahin gerichtet sein / daß wir vnsere Sünde erkennen / an Christum gleuben / vnd mit guten Wercken den Glauben bezeugen / vnd nicht vmb zeitlicher wollust / güter vnd ehr willen vnbußfertig in Sünden fortfahren / vnd vns selber des ewigen Lebens verlüstig machen / wie leider der grosse hauff der Menschen thut / Sonder vnser gantzes Leben dahin richten / daß wir die ewige Güter / Freud vnd herrligkeit erlangen / Wie Christus Matth. 6. vermanet / samlet euch Schetz im Himel / da sie weder Motten noch Rost fressen / vnd da die Diebe nicht nach graben vnd stelen.</p>
+<p>Aber hilff Gott wie wenig bedenckens / vnd stellen auch die / so für gute Christen gehalten sein wöllen / jr Leben also an / als wolten sie ewig hie bleiben / vnd vertieffen sich in den Gütern vnd wollüsten dieser Welt also / daß sie darüber die ewigen zusetzen vnd verlieren. Das stehet zumalen vbel / vnd ist ein gros versehen / ja viel erger als wenn die Kinder einen roten Apffel für einen roten Gülden nemen vnd erwehlen / oder / als da Esau sein Erstgeburt für ein roth muß verkauffte.</p>
+<p>Denn dieses ist die gute Perlin / da einer alles verkauffen solte was er hat / vnd dieselbigen kauffen / Darumb hat hie auch Christus etwas von solcher herrligkeit gezeiget / auff das er den Menschen darnach ein verlangen machte.</p>
+<pb facs="#f0044"/>
+</div><div><head>Der Dritte Theil.<lb/>
+</head>
+<p>DIe Ander fürnembste Lehr die in dieser Histori zumercken / ist diese / Welches die rechte seligmachende Lehr / dadurch man zur ewigen freud vnd Seligkeit kome / vnd welche Leute derselbigen geniessen sollen.</p>
+<p>Etliche Leute meinen / es werde ein jeder bey seinem Glauben oder Gottesdienst selig / er sey auch welcher Religion er wölle / vnd solt einer auch ein Heid sein / der nichts gründlichs von Gott oder seinem Willen wüste. Die sind vnrecht daran. Denn wenn dem also were / was were es nötig / daß Gott hie vnd sonsten seinen willen von Himel offenbarete. Es zeuget aber diese Histori / daß Gott ein gewissen Weg zur Seligkeit gewiesen habe / vnd das allein die allhie in dieser herrligkeit erschienen sein / die solchen geoffenbarten willen Gottes erkant haben / vnd demselbigen gefolget sein. Denn hie kein blinder vnd vngleubiger Heid / sonder die / so das rechte ware erkentnis gehabt / Nemlich Moses / Elias / Petrus / Jacobus vnd Johannes sind bey der verklerung Christi erschienen vnd diese freud gefühlet.</p>
+</div><div><head>Welche haben denn das rechte erkentnis Gottes / vnd rechten Glauben / dadurch man das ewige Leben erlanget?<lb/>
+</head>
+<p>Mit einem Wort. Die so sich zum Christlichen Glauben bekennen / vnd den HERRN Jesum für Gottes Son vnd jren Heiland halten vnd erkennen. Denn der Himlische Vater weiset hie auff Jesum Marien Son vnd spricht / den solt jr hören. Jesus aber leret vns / Er sey der Son Gottes / vnd Mittler des Menschlichen geschlechtes. Denn zu seinen Jüngern spricht er / Ich bin der Weg / die Warhelt vnd das Le -
+<pb facs="#f0045"/>
+ben / niemand kömpt zum Vater denn durch mich. Vnd wie er für Gericht gefraget wird / von den Hohenpriestern / Ich beschwere dich bey dem lebendigen Gott / daß du vns sagest / ob du seiest Christus der Son Gottes? Antwortet er du sagests.</p>
+<p>Eben das leret auch der Himlische Vater mit diesen Worten. Diß ist mein lieber Son / an dem ich wolgefallen hab / da er denn Christum <hi rendition="#i">solenniter</hi> in seiner lehr vnd Ampt bestetiget vnd <hi rendition="#i">confirmiret</hi>.</p>
+<p>Dasselbige ist auch die lehr Mosis gewesen / der hie neben Christo erscheinet. Denn ob er wol lange zeit / vnd viel hundert Jar für Christi geburt gelebet / so hat er doch von Christo geprediget / nicht allein da er beschrieben / wie jn Gott den Ertzuetern verheissen / Sonder auch / da er Deut. 18. außdrücklich von sich auff Christum gewiesen vnd gesprochen / Einen Propheten / wie mich wird der HErr dein Gott dir erwecken aus dir / vnd aus deinen Brüdern / dem solt jr gehorchen. Vnd brauchet hie der Himlische Vater eben dieselbige Wort / daß er vns gleich mit Fingern auff Mosen weise / vnd bezeuge das sey der grosse Prophet / von welchem Moses geweissaget hat. Derwegen auch Joh. 5. Christus sonderlich sich auff Mosen beruffet vnd spricht / Wenn jr Mose gleubtet / so gleubtet jr auch mir / denn er hat von mir geschrieben.</p>
+<p>Desgleichen hat ohne zweiffel Elias auch von Christo geprediget. Denn ob wol nicht außdrücklich solches von jm auffgeschrieben ist / doch weil die andern Propheten von Christo vnd seinem Reich vnd Wolthaten geweissaget / Vnd Petrus Act. 10. leret / daß von Jesu alle Propheten zeugen / wie er auch Act. 3. spricht / Alle Propheten von Samuel an / vnd hernach wie viel jr geredet / haben von diesen tagen verkündiget / so ist kein zweiffel / daß auch Elias gar herrlich von Christo vnd
+<pb facs="#f0046"/>
+seinem Reich geweissaget habe / denn das ist eins von fürnembsten Heuptstücken der Christlichen Lere / die so wol im Alten als im Newen Testament / vnd so wol von den Propheten / als von den Aposteln getrieben wird.</p>
+<p>Vnd daß hie von Elia gesaget wird / das sol auff alle andere Propheten gezogen werden / an welcher aller stat hie sonder zweiffel Elias erscheinet. Die Apostel alle / der bey dieser Erklerung Christi drey sind / haben fürnemblich von Christo geprediget / wie sie denn dazu von Christo erwehlet worden / als er Luc. 24. spricht / Ihr aber seit des alles zeugen. Vnd Act. 1. Ihr werdet meine Zeugen sein / zu Jerusalem vnd in gantz Judea vnd Samaria / vnd biß an das ende der Erden. Vnd Paulus bekennet 1. Cor. 2. Ich hielte mich nicht dafür / daß ich etwas wüste vnter euch / ohn allein Jesum Christum den gecreutzigten.</p>
+<p>Wer nun der Lere Mosis / der Propheten vnd Aposteln nicht gleubet / vnd von dem HERRN Jesu nichts weiß / oder denselbigen nicht helt oder erkennet für Gottes So n / der Welt Heiland / vnd also es nicht helt mit dem Christlichen Glauben / als da sind die Heiden / die jetzige Jüden / Türcken vnd dergleichen / der fehlet des Weges zum ewigen Leben.</p>
+<p>Daher Luc. 16. in der Histori Christi von dem Reichen Man vnd armen Lazaro / da der reich Man wolte / daß Lazarus zu seinen Bruderen von den Todten gienge / vnd jnen bezeugete / daß sie nicht auch kemen an den Ort der qual / jm von Abraham geantwortet wird / Sie haben Mosen vnd die Propheten / laß sie die hören. Vnd Eph. 2. schreibet Paulus / Ihr seid erbawet auff den grund der Apostel vnd Propheten / da Jesus Christus der Eckstein ist. Die haben alle wie gemeldet von Jesu Christo gezeuget.</p>
+<pb facs="#f0047"/>
+<p>Vber das ist auch die Lere mit grossen Wunderzeichen bestetiget / dergleichen sonst niemals in der Welt geschehen sind. Moses hat mit seinem Stabe in das rothe Meer geschlagen / da ist es von einander getheilet / vnd auff beiden seiten fest gestanden wie ein Maur. Daß ich der anderen Zeichen / die in Egypten vorher gangen sind / geschweige / dadurch denn der Gott Israel in der gantzen Welt berhümbt worden ist.</p>
+<p>Elias vnd die andern Propheten / haben viel vnd grosse Zeichen gethan. Vnd daß ich von Elia allein etwas berhüre / so hat er den Himel mit seinem Gebete auff vnd zugeschlossen / vnd ist nicht gestorben wie andere Menschen / sonder lebendig in einem feurigen Wagen in einem Wetter gen Himel gefahren / wie oben gemeldet.</p>
+<p>Christus aber vnd die Aposteln haben noch mehr vnd grössere Zeichen gethan. Wie Matth. 11. stehet / die Blinden sehen / die Lamen gehen / die Aussetzigen werden rein / vnd die Tauben hören / die Todten stehen auff / vnd den Armen wird das Euangelium geprediget. Vnd am 10. stehet. Er rieff seine zwölff Jünger zu sich / vnd gabe jnen macht vber die vnsauberen Geister / daß sie dieselbigen außtrieben / vnd heileten allerley Seuche vnd allerley Kranckheiten.</p>
+<p>Vnd Mar 16. Die Zeichen die da folgen werden / denen die da gleuben / sind die: In meinem Namen werden sie Teuffel außtreiben / mit newen Zungen reden / Schlangen vertreiben / vnd so sie etwas tödtliches trincken / wird es jnen nicht schaden / auff die Krancken werden sie die Hand legen / so wird es besser mit jnen werden. Solches ist erfüllet / vnd dadurch die Christliche Lere vnd Religion / die sonst Fleisch vnd Blut gar entgegen / in der gantzen Welt / wider alles toben der Weisen vnd Gewaltigen in der Welt außgebreitet worden.</p>
+<pb facs="#f0048"/>
+<p>Es befinden auch die Christen mit der that in jrem Hertzen / die Krafft der Christlichen Lere / so in Mosis / der Propheten vnd Apostel Schrifften begriffen vnd verfasset ist. Wie denn Christus Joh. 8. sich darauff beruffet / Warlich warlich / Ich sage euch / Wer mein Wort helt / der wird den Todt nicht schmecken ewiglich. Vnd Luc. 24. sprechen die beide Jünger / welche mit Christo nach Emahus giengen / Brante nicht vnser Hertz in vns / da er mit vns redet auff dem Wege / als er vns die Schrifft eröffnet? Wie wir denn so im Predig ampt sein / vnd andere solches an fromen Leuten / in jren Todes noten augenscheinlich sehen vnd erfahren.</p>
+<p>Endlich bezeuget solches die schwere Straffe der abgesagten Feinde des Christlichen namens. Denn was die Heiden belanget / ist jr Religion vnd Abgötterey bey allen Völckern vnd Sprachen / gantz durch das Euangelium gefallen vnd vertilget / Wie Jesaias 2. geweissaget hat. Zu der zeit wird jederman wegwerffen seine Silberne vnd Güldene Götzen (die er jm hatte machen lassen anzubeten) in die löcher der Maulwerffe vnd der Fledermeuse.</p>
+<p>Wie greifflich vnd augenscheinlich ist das gantze Jüdische volck gestraffet worden / als E. L. zu andern zeiten höret / daß der Heidenische Keyser selber gemercket vnd bekand / GOTT müsse das Volck sonderlich straffen / vnd liget das gantze Jüdenthumb noch in der Aschen biß auff den heutigen tag. Was ist denn die vrsach? Da können wir nichts anders finden / als daß sie Christum vnd den Christlichen Glauben ohn auffhören verfolget haben. Wie Christus Matth. 23. bezeuget / Jerusalem Jerusalem / die du tödtest die Propheten / vnd steinigest die zu dir gesand werden / wie offt hab ich deine Kinder versamlen wöllen / wie eine Henne versamlet jre Kücklein vnter jre Flugel / vnd jr habet nicht gewöllet. Siehe / ewer Hauß sol euch wüste gelassen werden.</p>
+<pb facs="#f0049"/>
+<p>Ich will jetzt da nicht von sagen / daß im Alten vnd newen Testament / von den Propheten vnd Aposteln etliche hundert / ja tausent Jar zuuor / zukünfftige ding verkündiget worden / die alle hernach erfüllet sind / vnd noch erfüllet werden.</p>
+<p>Derwegen wir denn bey der Christlichen Lere vnd Glauben bleiben / vnd vns daruon nichts abführen lassen sollen.</p>
+<p>Saget einer / Es sind aber die / so sich zu dem Christlichen Glauben bekennen / in souiel Secten vnd Rotten zertheilet / vnd verdampt einer den andern / mit welchem sol ich es halten? Es ist wol jetzund newlich vnter dem Namen <hi rendition="#i">Concordia</hi> ein Buch außgangen / zu welchem wir vns bekennen / dem wird aber von zweyen mechtigen hauffen widersprochen / die sich auch des Christlichen Glaubens rhümen. Die Papisten lestern es auff einer seiten / die so man Caluinisten nennet / fechten es auff der ander seiten an.</p>
+<p>Aber Geliebte / Da weiset vns gar fein diese Predigt des Himlischen Vaters zurecht / denn der spricht / Diß ist mein lieber Son / an dem Ich wolgefallen habe / den solt jr hören. Wer Christi Wort hat / dem soltu vnd kanstu sicher folgen / wie er spricht / Meine Schaffe hören meine stimme. Dieweil denn gemeltes bekentnis dem Wort Christi durch aus gemeß / sollen wir billich dabey bleiben.</p>
+<p>Denn wir dürffen nicht sehen auff den eusserliche&#x0303; rhum vn&#x0303; schein / daß die Papisten sagen / sie sind die Kirche / so wenig als sich Jeremias 7. Cap. daran keret / da sie zu seiner zeit sagen / <hi rendition="#i">templum Domini, templum Domini, templum Domini,</hi> der Tempel des HERRN / der Tempel des HERRN / der Tempel des HERRN. Vnd hilfft sie die <hi rendition="#i">successio ordinaria</hi> so wenig / so wenig sie zur zeit Christi Hannas vnd Caiphas geholffen hat.</p>
+<pb facs="#f0050"/>
+<p>Die Todten darff man auch nicht fragen / wie im Bapsthumb geschehen / daraus die Seelmessen vnd andere Abgötterey entstanden. Denn Jes. 8. spricht / Sol man die Todten für die Lebendigen fragen? Ja nach dem Wort vnd Zeugnis. Da es der reich Man begeret / spricht Abraham / Luc. 16. Sie haben Mosen vnd die Propheten / laß sie dieselbigen hören.</p>
+<p>Eben so wenig darff man auff die Engel im Himel warten. Denn Paulus Gal. 1. spricht / Wenn auch ein Engel von Himel ein ander Euangelium predigte / denn ich geprediget hab / der sey verflucht.</p>
+<p>Das wil es auch nicht außmachen / daß man sich auff die <hi rendition="#i">Patres</hi> vnd <hi rendition="#i">Concilia</hi> allein legen vnd beruffen wil / oder seinem gutdüncken folgen. Denn eben dieser vrsachen halben werden die Jüden gestraffet / Jerem. 9. Darumb daß sie mein Gesetz verlassen / das ich jnen furgegeben habe / vnd gehorchen meiner Rede nicht / leben auch nicht darnach / sonder folgen jres Hertzen gedüncken vnd Baalim / wie sie jre Veter geleret haben. Darumb spricht der HERR Zebaoth / der Gott Israel also / Ich wil diß Volck mit Wermut speisen / vnd mit Gallen trencken. So können auch andere <hi rendition="#i">Concilia</hi> so wol als das zu Jerusalem gehalten ist / jrren.</p>
+<p>Dieweil denn der Papisten Lere auff solchen losen baufelligen Grund / wie Gott lob zu erweisen / vnd nicht auff Gottes Wort gegründet ist / sonder von dem selbigen vmgestossen wird / sollen wir vns das nicht anfechten lassen / daß sie gemelt vnser Bekentnis lestern. Denn hie haben wir das Wort des Himlischen Vaters / Den solt jr hören / wie denn auch hie Mosis / der Propheten vnd Apostel Schrifften <hi rendition="#i">canonisirt</hi> werden.</p>
+<p>Was die Caluinisten anlanget / die man auch / weil sie die
+<pb facs="#f0051"/>
+Lere von den Sacramenten verfelschen / Sacramentirer nennet / kan vns in der Lere von der heiligen Tauffe vn&#x0303; Abendmal / vnd auch von der Person Christi / der leichtlich entscheiden / von dem hie der Himlische Vater saget / Den solt jr hören.</p>
+<p>Denn von der heiligen Tauffe zeuget Christus deutlich / Joh. 3. Es sey denn / daß jemand wider geboren werde / durch das Wasser vnd den heiligen Geist / so kan er das Reich Gottes nicht sehen / denn was vom fleisch geboren ist / das ist fleisch. Da mögen sich vnsere Widersacher ringen vnd winden wie sie können / so gibt dieser Spruch / daß die Kinder der ersten Geburt / nach anders nichts sein / denn Kinder des Zorns: Vnd daß sie durch die Tauffe new geboren werden / vnd daß die heilige Tauffe zur Seligkeit von nöten sey. Doch hat es ein andere meinung mit dem nothfall.</p>
+<p>Vom heiligen Abendmal Christi / mögen wir gleichsfals / ja wir sollen fragen den eingebornen lieben Son des Himlischen Vaters / von dem der Vater saget / Den solt jr hören. Wenn wir nun den fragen / was die Güter sein die er vns / nicht in der andern Welt / oder oben im Himel / sonder hie auff Erden mittheilet / so bericht er vns / daß / das wir da empfangen / essen vnd trincken / sein Leib vnd Blut sey / so für vns gegeben vnd vergossen / zur vergebung der Sünden.</p>
+<p>Das ist vnser meinung / Es rede sie nun einer mit diesen Worten aus oder mit andern / als daß wir nun von der zeit des widergeoffenbarten Euangelij her / vber 50. Jar in vnserm Catechismo gesaget. Das Sacrament des Altars / ist der ware Leib vnd Blut vnsers HERRN JESV Christi / vnter dem Brod vnd Wein / vns Christen / zu essen vnd zutrincken / von CHRISTO selbs eingesetzet / da ist nichts angelegen. Wie denn dergleichen reden bey den alten Lerern vn&#x0303;
+<pb facs="#f0052"/>
+Vetern gemein sind. Denn daß zweyerley im Sacrament sey / welches hie auff Erden gehalten wird / Nemlich Brod vnd Wein / vnd denn der Leib vnd Blut Christi / vnd daß die beide stück vereiniget sind / das geben die Wort Christi / wie sie von den dreyen Euangelisten vnd Paulo beschrieben sind.</p>
+<p>Dargegen leren vnsere Widersacher / Brod vnd Wein sind allein Zeichen des Leibs vnd Bluts Christi / der abwesend im Himel sey / er werde aber durch Brod vnd Wein bedeutet / vnd allein durch den Glauben empfangen.</p>
+<p>Daraus vrteile ein jeder Christ / welches theils meinung den Worten Christi gemeß sey / ob Christus sein Leib gegenwertig / oder seines abwesenden Leibs Zeichen verheisse / vnd ob Christi Wort geben / daß wir sein Leib vnd Blut allein durch den Glauben empfangen oder nicht. Da wird er bekennen müssen / daß die Wort der Einsetzung des Abendmals Christi / der Sacramentirer meinung entgegen / vnser meinung aber durchaus gleichstimmig vnd gemeß sein. Wie denn wir mehr nicht begeren / als daß solche Wort anders nicht / denn wie sie lauten mögen verstanden werden. Darzu verursachet vnd treibet vns der ernstlich befelch des Himlischen Vaters / Den solt jr hören. Der saget nirgent es sey allein seines Leibs Zeichen / vnd das allein durch den Glauben / sein Leib vnd Blut empfangen werde.</p>
+<p>Mit vnser meinung / Weil wir sie aus Christi Worten genomen / dürffen wir vnerschrocken für Gottes Gericht komen.</p>
+<p>Mit jrer meinung / Weil sie den Worten des Testaments Christi stracks zu wider / können wir nicht bestehen.</p>
+<p>Denn daß sie fürgeben / es könne nicht geschehen / es sey auch Christi meinung nicht gewesen / daß er vns auff Erden
+<pb facs="#f0053"/>
+sein Leib vnd Blut mittheilen wolte / es sey also den eigenschafften der Menschen natur entgegen / daß der Leib Christi nicht könte ein warer Leib sein / Er könte nicht im Himel sein / wenn er vns also sein Leib vnd Blut auff Erden also zu essen vnd zu trincken gebe / das ist zwar der vernunfft gar ehnlich / aber das hat der nicht gesagt / den der Vater von Himel zuhören befohlen hat / stehet auch weder in Mosis noch der Propheten oder Apostel Schrifften.</p>
+<p>Sie sagen wol es sey ein sonderliche weise zu reden von allen Sacramenten / das ist / heisse souiel / als bedeutet / Aber aus Gottes Wort können sie solche allgemeine Regel in ewigkeit nicht beweisen. Nun muß fürwar ein Mensch / der für Gottes Gericht vnerschrocken erscheinen wil / Gottes helles vnd klares Wort haben.</p>
+<p>Daher der hochgelerte Man / Herr Philippus Melanthon / Anno 30. an Fridericum Myconium / gantz Christlich geschrieben / Ich finde kein vrsach die gnugsam sey / darumb wir von dieser meinung (die die Wort des Abendmals Christi nach dem Buchstaben geben) abweichen solten. Es kan wol geschehen / daß einem sichern Hertzen / eine andere meinung mehr beliebe / die der vernunfft ehnlicher ist / sonderlich wenn dieselbige mit gelerten vernünfftigen <hi rendition="#i">argumentis</hi> vnd beweisungen gezieret vnd geschmücket wird. Was wil aber in der anfechtung geschehen / wenn das Gewissen fragen wird / Was man für vrsach gehabt / von der gewohnlichen meinung der Kirchen abzuweichen? Da werden diese Wort / Das ist mein Leib / eitel Donnerschleg sein / Was wil dawider ein erschrocken Hertz auff bringen / Mit was Schrifften vnd Wort Gottes wil es sich verwaren / vnd beweisen daß man solche Wort anders denn sie lauten verstehen müsse / etc. Das heist doch diese Wort des Himlischen Vaters / Den solt jr hören / in diesem Artickel recht erwegen.</p>
+<pb facs="#f0054"/>
+<p>Von der Person Christi / ist das fürnemblich der streit / Ob der Menscheit Christi / Göttliche Maiestet vnd Herrligkeit / mit der that vnd warheit mit getheilet sey. Vnsere Widersacher wöllen es keines weges nachgeben.</p>
+<p>Man frage aber dauon den / vom dem der Vater hie saget / Den solt jr hören / der wird vns recht berichten. Der spricht / Alles ist mir vbergeben von meinem Vater / Matt. 11. Item / Mir ist gegeben aller gewalt / im Himel vnd auff Erden / Matth. 28. Item / Der Vater richtet niemand / sonder hat alles Gericht dem Son vbergeben / darumb daß er des Menschen Son ist / Joh. 5. Item mein Fleisch ist die ware Speise / Wer mein Fleisch isset / vnd trincket mein Blut / der wird ewiglich leben.</p>
+<p>Sind diß alles nicht Göttliche eigenschafften / vnd sind die nicht Christo nach seiner Menscheit in der Warheit mit getheilet? Warumb braucht die Schrifft solche art zu reden / dadurch die Menschliche Natur Christi bedeutet wird? Wie denn auch <hi rendition="#i">in Synodo Ephesina</hi> geschlossen ist / daß das Fleisch Christi lebendig mache / welches ein Göttliche krafft vnd werck ist. Vnd was ist das anders / daß wir in vnserm Christlichen Glauben sagen / Er sitzet zur rechten Gottes / welches traun von der Menschlichen natur zuuerstehen vnd geredt ist / wie denn auch hie die Herrligkeit Christi gesehen wird / als des eingebornen Sons vom Vater. Aber dauon dißmal genug.</p>
+<p>Dieweil wir nun in diesen vnd anderen Artickeln vnser Lere / festen vnd gewissen Grund haben / Nemlich das helle vnd klare Wort / dessen / den der Vater von Himel zuhören befohlen hat / so sollen wir dabey fest wider alles das / daß dawider die vernunfft auffbringen mag / verharren. Denn Christus ist die Warheit / aber alle Menschen sind Lügner / bey seinem
+<pb facs="#f0055"/>
+Wort können wir hie auff Erden ein gut Gewissen haben / damit können wir auch am Jüngsten Gericht bestehen / vnd sagen / Himlischer Vater / du hast vns auff diesen deinen lieben Son gewiesen / Der hat mich also geleret / dem hab ich Gehör vnd Glauben gegeben / Darumb weis ich / daß du bist mit meinem Glauben vnd Bekentnis zufrieden.</p>
+<p>Das sey auch gesaget von der Lere / die wir beides aus der Histori der verklerung Christi / vnd aus der Predigt des Himlischen Vaters nemen sollen.</p>
+<p>ALso hat E. L. diese Predigt gehöret drey Stück / Erstlich die Histori / wie Christus sich für seinen dreyen Jüngern verkleret hab / vnd neben jm Moses vnd Elias lebendig in klarheit erschienen sind / vnd was da sie vnd die Apostel mit Christo geredet / Auch wie der Himlische Vater aus der Wolcken von seinem Son dem HERRN Jesu Christo gezeuget / daß es sein lieber Son / an dem er ein wolgefallen hab / den sollen wir hören.</p>
+<p>Zum Andern / Daraus wir haben gelernet / daß nach vnd ausser diesem noch ein ander vnd ewig Leben sey / daß es mit den Gleubigen wird anders vnd besser werden / Denn sie werden von der Sünd vnd allerley straffe der Sünden frey sein / sie werden verklerte Leiber haben / vnd Gott von Angesicht zu Angesicht anschawen / mit jm vnd allen Anßerwelten selige vnd ewige gemeinschafft haben / welches wir den zu vnser Lere / Trost vnd Vermanung gebrauchen sollen.</p>
+<p>Zum Dritten haben wir gehöret / Welche Leute sich des ewigen Lebens zu erfrewen haben / Nemlich die den Schrifften des Alten vnd Newen Testaments / darin wir auff JEsum Christum gewiesen werden / Glauben geben / vnd in allen fürfallenden Religions streiten / bey dem Wort des Sons Gottes bleiben.</p>
+<pb facs="#f0056"/>
+<p>Der Ewige Son Gottes JESVS Christus / wölle vns durch seinen heiligen Geist dabey gnediglich biß an vnser ende erhalten / Damit wir am Jüngsten Tage auch verkleret werden / vnd nicht allein mit Mose / Elia vnd allen Außerwelten / Sonder auch mit GOtt dem Vater / Son vnd Heiligen Geist / selige gemeinschafft haben / Ihn / den einigen waren Gott / ewiglich loben vnd preisen mögen / Amen.</p>
+<p>Helmstadt Durch Jacobum Lucium. Anno 1582.</p>
+</div>
+</body>
+</text>
+</TEI>
