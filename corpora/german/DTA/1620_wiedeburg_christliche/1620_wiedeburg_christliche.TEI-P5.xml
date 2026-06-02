@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Eine Christliche Leichpredigt/ Gehalten bey der Begräbnüß/ Des Weyland ... Herrn Johannis Bodemeiers/ Propsten der Kirchen S. Bonifacii in Hamelen/ vnd F. B. geheimen Cammer-Secretarii</title>
+<title type="sub">Den 28. Aprilis Anno 1620</title>
+<author>
+<persName ref="http://d-nb.info/gnd/153730277">
+<surname>Wiedeburg</surname>
+<forename>Heinrich</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/c-349-4f-helmst-10s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/c-349-4f-helmst-10s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">52</measure>
+<measure type="tokens">13136</measure>
+<measure type="types">3483</measure>
+<measure type="characters">84922</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:37Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/wiedeburg_leichpredigt_1620</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/wiedeburg_leichpredigt_1620</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/wiedeburg_leichpredigt_1620</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/wiedeburg_leichpredigt_1620</idno>
+<idno type="DTADirName">wiedeburg_leichpredigt_1620</idno>
+<idno type="DTAID">30302</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30302-3</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Wiedeburg, Heinrich: Eine Christliche Leichpredigt/ Gehalten bey der Begräbnüß/ Des Weyland ... Herrn Johannis Bodemeiers/ [...]. Wolfenbüttel, 1620.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Eine Christliche Leichpredigt/ Gehalten bey der Begräbnüß/ Des Weyland ... Herrn Johannis Bodemeiers/ Propsten der Kirchen S. Bonifacii in Hamelen/ vnd F. B. geheimen Cammer-Secretarii</title>
+<title level="m" type="sub">Den 28. Aprilis Anno 1620</title>
+<author>
+<persName ref="http://d-nb.info/gnd/153730277">
+<surname>Wiedeburg</surname>
+<forename>Heinrich</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Holwein</name></publisher>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1620</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main"><figure/><lb/>
+<docTitle><titlePart type="main"> Eine Christliche Leichpredigt/<lb/>
+Gehalten bey der Begräbnüß/<lb/>
+Des Weyland /
+Ehrwürdigen / Ehrn-<lb/>
+vesten / Achtbarn vnd Wolge-<lb/>
+larten Herrn <lb/>
+<hi rendition="#b"> Johannis Bode-</hi><lb/>
+meiers/<lb/>
+Propsten der Kirchen S. Bonifacii<lb/>
+in Hamelen/vnd F. B. geheimen
+Cammer-<lb/>
+Secretarii / Den 28. Aprilis <lb/>
+Anno 1620.<lb/>
+</titlePart></docTitle>
+<byline> Durch<lb/>
+<docAuthor><hi rendition="#aq">Henricum VVideburgium, Th. D.</hi></docAuthor> vnd <hi rendition="#aq">General<lb/>
+Superintendent</hi> zu
+Wolffenbüttel.</byline><lb/>
+<epigraph><bibl>Augustinus sup. Psalmo 38.</bibl><lb/>
+<quote>  <hi rendition=" #aq #i">Transimus à Veteribus ad nova, ipse transitus agitur, cum
+corrum-<lb/>
+puntur exteriora, &amp; innovantur interiora, donec etiam post hoc
+ipsum,<lb/>
+quod corrumpitur, exterius reddat debitum naturae, veniat in mortem,<lb/>
+renovetur &amp; hoc in resurrectione, tunc fient revera omnia nova reliqua,<lb/>
+quae nunc sunt in spe &amp; fide.</hi></quote></epigraph>
+<docImprint>
+<pubPlace>Wolffenbüttel</pubPlace>/<lb/>
+Gedruckt durch <publisher>Eliam Holwein</publisher>/ F: B: Buchd: daselbst.<lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+Im Jahr / <docDate><hi rendition="#aq">1620</hi></docDate>.</docImprint></titlePage></front>
+<pb facs="#f0002"/>
+<body>
+<pb facs="#f0003"/>
+<div>
+<head>Den Ehrnvesten vnd Wolgelarten Herrn Henrico Iulio vnd Iohanni VVernero
+Bodenmeiers LL. Studiosissimis.<lb/>
+</head>
+</div>
+<div>
+<head>Vnd Den Ehrbaren vnd Vieltugentreichen Frawen ELISABETHAE, Des Ehrnvesten /
+Achtbarn vnd Wolgelarten Herrn Erasmi Helders / Erbgesessen zu Sündhausen /
+ehelichen Haußfrawen.<lb/>
+</head>
+</div>
+<div>
+<head>Frawen Hedewieg Elisabeth / Des auch Ehrnvesten / Achtbarn vnd Wolgel: Henrici
+Müllcri, F: B: Cammer-Secrerarii zu Schöningen ehelichen Haußfrawen.<lb/>
+</head>
+</div>
+<div>
+<head>Jungfrawen Clarae Mariae, Des Weyland / Ehrwürdigen / Ehrnvesten vnd
+Wolgelarten Iohannis Bodenmeiers / Praepositi der Kirchen S. Bonifacii in
+Hamelen vnd F: B: Cammer-Secretarii S. hinderlassenen lieben Söhnen vnd
+Töchtern.<lb/>
+</head>
+</div>
+<div>
+<head>Meinen günstigen in Ehren Freunden vnd Freundinnen / Wünsche ich Frewd vnd
+Trost / von GOtt dem Vater aller Gnaden / durch JEsum Christum im H. Geist /
+Amen<lb/>
+</head>
+<pb facs="#f0004"/>
+<p>EHrn veste / Achtbare vnd Wolgelarte großgünstige Herrn vnnd Freunde / wie auch
+Ehrbare vnd Vieltugentreiche Frawen vnd Jungfrawe / Es hat vorzeiten das
+Concilium Toletanum geschlossen / die Bischöffe sollen allen Christen verbieten
+/ jhre Todten zubeweinen. Vnd da etlichen das Exempel des HErrn Christi / Joh.
+c. 11. Da er Lazari Todt hertzlich beweinete / vorgehalten ist / haben sie
+vngereimet geantwortet / der HErr habe nicht geweinet / das Lazarus gestorben /
+sondern dz er wieder vom Todt erstanden sey. Aber das ist ja wieder die Exempel
+der H. Alten / welche vns der Weise Syrach heisset ansehen. Es ist wieder die
+Vermanung desselben Syrachs c. 38. Mein Kind / spricht er / wenn einer stirbt /
+so beweine jhn / vnd klage jhn / als sey dir groß Leid geschehen / vnd verhülle
+seinen
+<pb facs="#f0005"/>
+Leib gebürlicher weise /
+vnd bestete jhnen ehrlich zum Grabe. Du solt bitterlich weinen vnd hertzlich
+betrübet sein vnd Leide tragen / darnach er gewest ist. Vn&#x0303;
+erfordert auch ja solches vnser Christenthumb zum wenigsten deßhalben / daß der
+Todt / all Jam&#x0303;er vnd Noht zu den Menschen durch die Sünde
+durchgedrungen ist / Röm. c. 5. HErr das macht dein Zorn / sagt Moses Ps. 90.
+Daß wir also vergehen / vnd dein Grim&#x0303; daß wir so plötzlich davon
+müssen. Es erfordert auch solches die Natur selbsten / vnd natürliche Affection
+gegen die vnseren / die sich nicht sollen dämpffen lassen / so wir nicht / für
+Stoische Blöcke vnd Steine / ja auch Vnchristen wollen gehalten seyn. Dennoch
+muß in dem trawren die Christliche maß gehalten seyn / wir müssen nicht trawren
+wie die Heyden / die nicht Hoffnung habe&#x0303; / 1. Thes. 4. Sondern
+<pb facs="#f0006"/>
+wie die H. Kinder GOttes /
+daß wir mit der Hoffnung des ewigen Lebens / vnd dem seligen Abwechsel / denen
+vnsere liebesten Freunde im sterben erlanget haben / vnd den&#x0303; auch
+der frölichen wieder Zusammenkunfft in dem Himmelreich / vnsere trawrigkeit
+stillen / vnd die Wasserquelle vnser Augen verstopffen. Welches auch vnter
+andern nicht die geringste Vrsach / das bey bestadtung der abgestorbenen
+Christliche Leichsermonen vn&#x0303; tröstliche Predigten gehalten werden
+/ darinnen die momenta consolationum den vberlebenden fürgetragen werden. Weil
+nun deßhalben auch E. E. vnd Achtb. wie auch Vielt. G. vo&#x0303; meiner
+wenigen Person / begehret nicht allein bey der Christlichen vnnd Volckreichen
+Leichbegengn üß deroselben Weyland lieben vnd vielgeehrten Vaters ein solche
+Leichpredige zu thun / sondern auch zu mehrem Trost
+<pb facs="#f0007"/>
+hernach zu Papier zu fassen /
+habe solchem Christlichem begehren tragendes Amptes halben ich billig / so viel
+mir GOtt Gnade verleihen / raum vnd statt geben müssen. Stehe demnach auch in
+der gewissen Zuversicht / dieselben werden neben den anderen Anverwandten vn&#x0303; Freunden jhnen solche Verfassung belieben lassen / vnd in gutem
+auff: vnd annemen. Vnser lieber HErr vnd Heyland JEsus Christus wolle E. E. vnnd
+Achtb. wie auch Vielt. G. vnd alle betrübte Hertzen mit dem Trost des H. Geistes
+erfüllen / regieren vnd bewahren auff dem Wege des Friedes zu der ewigen
+Seligkeit. Geben zu Wolffenbüttel in der Heinrichstadt / den 3. Julij / Anno
+1620.</p>
+<p>E. E. vnd Achtb. wie auch Vielt. G.</p>
+<p>Dienstwill.</p>
+<p>Henricus VVideburgius D. Prediger vnd General. Sup. daselbst.</p>
+<pb facs="#f0008"/>
+</div>
+<div>
+<head>Cum Iesu Christo.<lb/>
+</head>
+</div>
+<div>
+<head>
+<foreign xml:lang="el"><gap reason="fm"/></foreign>
+<lb/>
+</head>
+</div>
+<div>
+<head>TEXTVS.<lb/>
+</head>
+</div>
+<div>
+<head>Iohan. XI. V. 25.<lb/>
+</head>
+<p>JESVS spricht zu Martha: Ich bin die Aufferstehung vnnd das Leben / wer an mich
+gleubet / der wird Leben / ob er gleich Stürbe: Vnd wer da Lebet / vnd glaubet
+an mich der wird nimmermehr Sterben.</p>
+</div>
+<div>
+<head>Erklärung.<lb/>
+</head>
+<p>GEliebte vnd andechtige Freunde in Christo JESV / es bekennet die Him&#x0303;lische Gesponß vnd Braut die Christliche Kirche / von jre&#x0303; trewen vnd werthen Breutgam vnd trawten Immanuel JESu Christo:
+Seine Lippen sind wie Rosen / die mit fliessenden Myrrehn trieffen / seine Hände
+sind wie güldene Ringe voller Türchysen. Ein solcher ist mein Freundt / Mein
+<pb facs="#f0009"/>
+Freundt ist ein solcher / Ihr Tochter von Jerusalem / Cant.
+5. v. 14.</p>
+<p>In welchen anmütigen verblümeten Worten fürnemlich zweyerley von dem HErrn
+Christo gerümet werden: Eins ist / daß seine Hände sein wie eitel güldene Ringe
+voller Türckosen oder anderer herrlichen Edelgesteine / das ist / das seine
+Hände sind voller Göttlichen Wunderwercke / davon Johannes meldet in seinem
+Evangelio cap. 20. Viele andere Zeichen thete JESus / die nicht geschrieben sind
+in diesem Buch / diese aber sind geschrieben / daß jhr gleubet / JESus sey
+Christ der Sohn GOttes / vnd daß jhr durch den Glauben das Leben habt in seinem
+Namen. Vnd cap. 21. Es sind auch viele andere dinge die JEsus gethan hat /
+welche so sie solten eins nach dem anderen geschrieben werden / achte ich / die
+Welt würde die Bücher nicht begreiffen / die zu schreiben weren. Denn Petrus
+meldet auch von jhm / daß er vmbher gezogen durch das gantze Jüdische Land / vnd
+habe wolgethan vnd gesundt gemachet / alle die vom Teuffel vberweltiget waren /
+denn GOtt war mit jhm / Act. 10.</p>
+<p>Diese Wunderwerck werden nicht Vnrecht verglichen köstlichen Goldt vnd güldenen
+Ringen / die von Türckosen vnd Edelgesteinem gläntzen. Denn so wol Goldt als
+Edelsteine diese Natur vnd Eigenschafft an jhnen haben / daß sie das Hertze vnd
+natürliche Kräffte stercken / vnd Gifft davon außtreiben / vnd sonderliche
+Türckose jhrer Tugendt nach für allerley gefärliche Vnfälle den jungen Kinderen
+wol an den Halß gehenget werden. Eben solch eine Natur vnd solche Eigenschafften
+haben auch die güldene vnd Türckosene Wunderwerck vnsers HErrn Christi / wenn
+ein Mensch wil schwach im Glauben werden / vnd sein Hertz beginnet Noht zu
+leiden von Anfechtungen / ob auch sein Heylandt vnd Nohthelffer in allerley Noht
+vnd Todt rahten vnd helffen künne / da stercken sie das Hertz / erhalten den
+Glaube&#x0303; /
+<pb facs="#f0010"/>
+vnd
+sein dienlich wieder die gefehrliche vnfäll der Kleinmütigkeit vnd
+Verzweiffelung / wenn man sie zum Dengmahl in den Halß henget / ja wie ein
+köstlichen Edelstein in das Hertze fasset: Denn eben darvmb sind sie
+auffgeschrieben / daß wir gleuben / er sey Christ der Sohn GOttes / vnd durch
+den Glauben das ewige Leben haben in seinem Namen. Joh. 20. Vnd Christus selber
+führet vnd weiset vns drauff: Glaubet mir / daß ich in dem Vater / vnd der Vater
+in mir ist: Wo nicht / so gleubet mir doch vmb der Wercke willen.</p>
+<p>Zum Anderen / wird gerümet seine grosse Holdseligkeit in der Lehre vnd in den
+Worten: Seine Lippen sind wie Rosen / die mit fliessenden Myrrhen trieffen. Das
+ist / Seine Predige / seine Lehre vnd Worte sind holdselig süsse vnd lieblich /
+wie die süssen wolriechenden Rosen / doch so mit den Myrrehn des lieben Creutzes
+Temperirt vnd vermischet / daß die Honigsüsse vnd Rosenliebliche Predige des H.
+Evangelii vns nicht sicher mache vnd in der Vnbußfertigkeit stercke: Denn gleich
+wie die Rosen die Natur vnd Tugendt haben / da sie mit jhrem schönen Geruch die
+Spiritus animales oder das Gehirn vnd Gemüht erfrischen vnd auffmunteren / die
+Spiritus Vitales oder das Hertze stercken / mit jhrem wunderlieblichen Safft vnd
+Wasser das Angesicht schön vnd frölich vnd die Augen klar machen / vnd
+sonderlich wieder eusserliche vnd jnnerliche Hitze heilsamlich gebraucht werden:
+Also ist auch in Warheit kein besser Remedium wieder die eusserliche Hitze
+mancherley Creutzes vnd Trübsals / wieder jnnerliche Hitze des bösen beissenden
+vnd nagenden Gewissens / denn die schöne Rose des Göttlichen Wortes / nach
+außsag des Königlichen Propheten Davids Psal. 119. HErr wenn dein Wort nicht
+were mein Trost gewesen / so were ich vergangen in meinem Elende / vnd des
+Königes Hißkiae Esa. 38. HErr davon lebet man / vnd die Krafft meineß Geistes /
+die stehet gantz vnd
+<pb facs="#f0011"/>
+gar in
+deinem Worte. Es ist auch kein besser Confortativ. in der Welt zufinden / die
+außgemattete Hertzen wieder zuerquicken / die Augen des Glaubens zu
+Clarificiren, das gantze Angesicht / das aus schrecken vnd forcht verfallen vnd
+trawrig worden / zuerfrölichen / denn eben die liebliche Rose des H. Evangelii.
+Denn so sagt davon David / Ps. 19. Das Gesetze des HErrn ist ohn Wandel / vnd
+erquicket die Seele / das Zeugnis des HErrn ist gewisse / vnd machet die Albern
+weise / die befehl des HErrn sind richtig vnd erfrewen das Hertz. Die Gebot des
+HErrn sind lauter vnd erleuchten die Augen / vnd in Summa / wil Paulus sagen /
+Röm. cap. 1. Das Evangelium ist ein Krafft GOTTes selig zu machen / die daran
+gleuben.</p>
+<p>Einen solchen güldenen Ring mit einem Edlen Türckoß / vnd solche liebliche Rosen
+finden wir auch in dem elfften Capittel Johannis / dar aus die verlesene Wort
+genommen sind. Denn Erstlich / findet sich da ein statlicher Türckoß / ein
+Göttlich Wunderwerck der Hände Christi: So bald er spricht zu dem Verstorbenen /
+vnd nun mehr in den fünfften Tag im Grab gelegenen vnd stinckenden Lazaro /
+Lazare kom heraus / so bald kompt er heraus / ohngeachtet / daß er gebunde&#x0303; war mit Grabtüchern an Händen vnd Füssen / vnd sein Angesicht
+verhüllet mit einem Schweißtuch. Welches Wunderwerck Chrysologus serm. <hi rendition="#i">63.</hi> recht nennet Signorum signum, &amp; Virtutum
+virtutem, ein Zeichen aller Zeichen / eine Krafft aller Kräffte. Euthymius
+Miraculum duplum, ein gedoppelt Wunderwerck. Basilius homil. 4. de gratias
+actione: Miraculum in miraculo, ein Wunderwerck in dem Wunderwerck / denn zu
+dreyen vnterschiedenen mahlen hat der HErr Christus Todten aufferwecket: Des
+Jairi Töchterlein erweckete er im Hause / ehe denn sie vom Todtbette
+heraußgetragen ward. Den Jüngling zu Naim erweckete er / da er jetzo in den
+Staub des Todtes solte geleget werden. Aber Lazarum erwecket er / da er schon
+vier Tag im Grab gelegen vnnd
+<pb facs="#f0012"/>
+stinckend worden war / ja er muste auff sein Allmechtiges Wort auß dem Grab
+herfürsteigen / da er doch in Grabtüchern an Händen vnd Füssen eingewickelt vnd
+gebunden war. Dieser Wunder-Türckoß muste auch seine Krafft haben / nicht allein
+an den Fingern des HERRN Christi scheinen vnd gläntzen als ein radius divinae
+Majestatis, alß ein glantz seiner Göttlichen Allmacht vnd Majestet / Sondern
+auch seine stralen in die Hertzen vieler Jüden hinein werffen / vnd von dem
+Vnfall des Vnglaubens auffhelffen: Denn viel der Jüden / die zu Mariam kommen
+waren / vnd sahen was JEsus thete / die glaubten an jhn.</p>
+<p>Zum Andern / findet sich auch die wunderliebliche süsse Rose / der trieffende
+Honigseim vnd Lebens Safft von den Lippen des HERRN Christi in dem herrlichen
+vorabgelesenen Sprüchlein: Ich bin die Aufferstehung vnd das Leben / wer an mich
+gleubet / der wird Leben / ob er gleich stürbe. Vnd wer da lebet vnd gleubet an
+mich / der wird nimmermehr sterben.</p>
+<p>Vnd dazu hats nicht allein vnser werhter vnd lieber in Christo seliglich
+verstorbener Mit Bruder bey guter zeit vnd gesundtheit Erwehlet / vnd zu mehrem
+gedechtnis in seine auffgebawete Ruhestete vnd Begräbnis schreiben vnd mahlen
+lassen / sondern er hats jhm auch lassen durch den Finger GOttes / das ist /
+Durch den H. Geist dermassen tieff in sein Hertz eingraben / daß er sich damit
+wieder alle Noht vnd endlich auch wieder den zeitlichen vnd ewigen Todt
+erquicket vnd getröstet hat.</p>
+<p>Derowegen so haben wirs auch nicht vnbillig bey dieser Volckreichen Versamlung zu
+vnser Leichmateri erwehlet / wollens auch durch GOttes hülff vnd beystandt
+Erklären in nachfolgenden dreyen Stücken.</p>
+<p>1. Wie sich Christus nenne die Aufferstehung / vnd was wir davon haben / Nemlich
+/ wir sollen auch Aufferstehen vnd Leben / ob wir gleich Sterben.</p>
+<pb facs="#f0013"/>
+<p>2. Wie sich Christus nenne das Leben / vnd was wir davon haben / Nemlich / daß
+wir sollen leben / vnd nimmermehr sterben.</p>
+<p>3. Welcher gestalt wir denn solcher grossen Güter vnd Wolthaten theilhafftig
+werden / Nemlich durch den seligmachenden Glauben.</p>
+<p>Der Vater aller Gnaden vnd Barmhertzigkeit / wolle vns hie zuverleihen die Gnad
+vnd Krafft seines heiligen Geistes / vmb JESu Christi seines eingebornen Sohns
+vnsers Heylandes vnd Seligmachers willen / Amen / Amen.</p>
+</div>
+<div>
+<head>Erster Theil:<lb/>
+</head>
+<p>ZV diesem lieblichen vnd köstlichen Rosen Spruch / hatte dem HERrn Christo die
+sorgfeltige vnd betrübte Martha vrsach geben. Denn als er gen Bethanien kam /
+seinen guten Freundt den Lazarum von den Todten zuerwecken / da gehet jhm die
+Martha hinaus für den Flecken entgegen / Vnnd spricht zu jhm: HErr werestu hie
+gewesen / mein Bruder were nicht gestorben. Vnd wil so viel sagen: Ach HErr /
+werestu noch bey seinem Leben kommen / hettestu jhnen mit einem Wort künnen
+gesundt machen / aber nunmehr ists so weit kommen / daß er da ligt in der Erden
+/ vnd ist ein Speise der Würme vnd Schlangen worden. Doch erinnert sie sich bald
+/ daß Christus auch vorher hatte Todten aufferwecket / alß Luc. cap. 7. vnd
+Matth. cap. 9. vnd spricht dem nach ferner: Doch weis ich auch noch / das / was
+du bittest von GOtt / das wird dir GOtt geben. Das war ein sehr vnvollkommene
+Bekäntnüs von Christo / in deme sie jhm das kaum zu trawet / daß er aus eigener
+Macht Todten aufferwecke / Sondern er müste auch darvmb / wie andere heilige
+Leute / bitten: Dennoch so lesset jhm der gnädiger vnd gütiger
+<pb facs="#f0014"/>
+HErr die Einfalt gefallen / vnd
+wil das glimmende Dächtlein nicht vollens außleschen / sondern erhalten vnd mehr
+anzünden. Spricht demnach: Dein Bruder sol aufferstehen. Weil aber Christus
+nicht außtrücket / wenn vnd wie balde solches geschehen solle / viel weniger /
+daß er jhn zur stunde aufferwecken wolle / so stehet sie in den gedancken /
+Christus deute auff die allgemeine aufferstehung die am jüngsten Tage erfolgen
+wird / vnd spricht: Ich weiß wol / daß er aufferstehe&#x0303; wird in der
+aufferstehung am jüngsten Tage. Welches dann eine herrliche bestendige Bekentnis
+/ das dennoch der hohe Artikel vnsers Glaubens von der aufferstehung des
+Fleisches vnter dem Volck GOttes erhalten sey Denen bekennet sie hie mit
+starckem Glauben vnd vollen Hertze&#x0303; vnd saget: Sie wisse es / ich
+weis daß er aufferstehen wird in der aufferstehung am jüngsten Tage. Aber daß er
+vor dem Tage werde wieder aufferstehen / darinnen streiten bey jhr der Glaube
+vnd Vnglaube. Damit aber der Herr Christus solcher Schwachheit auffhelffe / so
+gibt er jhr einen außbündigen bericht von seiner Person vnd Wolthaten / vnd
+spricht: Ich bin die Aufferstehung vnd das Leben / wer an mich gleubet / der
+wird leben / ob er gleich stürbe / vnd wer da lebet vnd gleubt an mich / der
+wird nim&#x0303;ermehr sterben.</p>
+<p>Da nennet sich Christus erstlich die Aufferstehung. Anderßwo in der heiligen
+Schrifft verheisset er seinen Jüngern / daß er am dritten Tage wieder vmb von
+den Todten wolte aufferstehen / als Matth. cap. 16. stehet geschrieben: Von der
+zeit an / fieng JEsus an / vnd zeiget seinen Jüngern / wie er muste hingehen gen
+Jerusalem / vnd viel leiden von den Eltesten vnd Hohenpriestern vnd
+Schrifftgelerten / vnd getödtet werden / vnd am dritten Tage aufferstehen / vnd
+cap. 17. spricht er: Es ist zukünfftig / daß des
+<pb facs="#f0015"/>
+Menschen Sohn vberäntwortet werde
+in der Menschen Hände / vnd sie werden jhn Tödten / vnd am dritten Tage wird er
+Aufferstehen Deßgleichen auch zu finden ist / cap. 20. 26. 27. Marc. 8. 9.
+etc.</p>
+<p>Anderßwo in der heiligen Schrifft verheisset er / daß er mit seinem Allmechtigen
+Wort die Todten wolle aufferwecken: Denn es kompt die stunde / Spricht er / in
+welcher alle die in Gräbern sind / werden die Stimme des Sohns GOTTes hören /
+vnd werden herfürgehen / die da gutes gethan haben zu der aufferstehung des
+Lebens / die aber vbels gethan haben / zur aufferstehung des Gerichts. Joh. cap.
+5. Aber hie an diesem ort da gehet er viel höher vnd weiter: Denn er spricht mit
+einer sonderbahren Emphasi oder Nachtruck / Er sey die Aufferstehung selbst. Der
+keiner anderen oder frembden Macht vnd Krafft bedürfftig sey / weder selber von
+den Todten auffzustehen / oder andere von den Todten auffzuwecken / sondern er
+sey die Allmechtige Krafft Gottes lebendig zu machen selber / hab Leben vnd Todt
+in seinen Händen / daß er Lebendig mache vnd aus den Banden des Todtes herauß
+reisse / welche / wenn vnd wie er wil.</p>
+<p>Ist demnach dieser ein solch fürtrefflicher vnd Göttlicher Name / daß er keinem
+Menschen kan oder sol beygemessen werden / ob schon im alten vnd newen
+Testamente Menschen gefunden werden / die zum theil Todten aufferwecket / zum
+theil von den Todten Aufferstanden / Sondern diesen Gnadenreichen Ehren vnd
+Amptstitul / führet mit recht allein vnser trawter Immanuel JEsus Christus / vnd
+dasselbe / 1. ratione sui seinenthalber. 1. Ratio nostri vnserenthalber.</p>
+<p>Seiner Person halber wird er genennet die Aufferstehung / Dieweil es vnmüglich
+war / daß er solte vom Toote gehalten werden / wie Petrus saget / act. 4. vers.
+24. Sintemahl sein Fleisch war nicht ein Sündliches / wie vnsers / Sonder ein
+heiliges Fleisch / Daß die Verwesung nicht sehen künte /
+<pb facs="#f0016"/>
+Sondern am dritten Tage hat er
+sich selbst aus den Banden des Todtes wieder loß gewircket / vnd ist als ein
+Triumphator vnd Siegßfürste vber Todt vnd Teuffel aus dem Grab wieder
+herfürgangen.</p>
+<p>Es sagt zwar die Schrifft auch / daß jhn sein Him&#x0303;lischer Vater
+habe von den Todten aufferwecket / Inmassen Paulus setzet Röm: cap. 6. Christus
+sey aufferwecket von den Todten durch die Herrligkeit des Vaters / vnd Petrus
+act. 2. GOtt habe jhn aufferwecket / vnd auffgelöset die schmertzen des Todtes /
+vnd act. 10. GOtt habe jhn aufferwecket am dritten Tage / vnd habe jhn lassen
+Offenbar werden nicht allem Volck / sondern jhnen den Aufferwehlten zeugen von
+GOtt. Dennoch mus man eins gegen das ander nicht setzen / viel weniger das eine
+setzen vnd das ander dagegen außschliessen vnd verneinen. Denn beydes findet
+sich in dem Wort der Warheit. 1. Daß er aus eigener Macht auffgestanden / vnd
+nicht solcher gestalt / wie Lazarus / der Jüngling zu Naim vnd alle andere die
+nach der Aufferstehung des HERrn Christi aus den Gräbern sein herfürgangen / vnd
+mit jhm gen Himmel gefahren: Denn so spricht er selber Johannis cap. 2. Brecht
+diesen Tempel (meines Leibes) ab / vnd am dritten Tage / wil ich jhn wider
+auffrichten / noch klärer spricht er Joh. cap. 10. Niemand nimpt mein Leben von
+mir / Sondern ich lasse es von mir selber. Ich habe es Macht zu lassen / vnd
+habe es Macht wieder zu nemen. Welche Wort fast gehen auff die Propheceiung des
+Königlichen Propheten Davids / da er im dritten Psalm die Worte Messiae
+einfüret: Ich liege vnd schlaffe vnd erwache. Denn da lautet der Hebreische Text
+also / daß der Messias aus eigenem willen vnd eigener Macht sterbe vnd
+einschlaffe / da andere müssen von GOtt auffgelöset werden / auch sich selbst
+von dem Todtes schlaffe auffwecke. Solches nun zeuget GOttes Wort / nicht allein
+anzudeuten / daß Christus eines Göttlichen Wesens / einer Göttlichen Krafft vnd
+Allmacht sey mit seinem Him&#x0303;lischen
+<pb facs="#f0017"/>
+Vater / weil jhm mit dem Vater
+einerley Göttliche Wercke zugeschrieben werden / davon auch sonsten Christus
+lehret / Joha. cap. 5. Was der Vater thut / das thut auch der Sohn. Denn wie der
+Vater die Todten aufferwecket vnd wieder lebendig machet / Also auch der Sohn
+machet lebendig / welche er wil. Item / wie der Vater das Leben hat in jhm
+selber / also hat er dem Sohn gegeben / das Leben zu haben in jhm selber.
+Sondern auch vnsere blöde Hertzen vnd Gewissen zu vberzeugen / daß vnser Heyland
+vnd Seligmacher JESus Christus warhafftig die Sünde getilget / den Todt
+verschlungen / den Teuffel vberwunden / vnd die Helle zerstöret habe. Denn
+sollen wir vns seines Leidens vnd Sterbens getrösten / so muß solches mit
+rechten vertrawen gefasset seyn. Damit nun vnser Glaube dazu Ja vnd Amen sage /
+siehe so sagt der H. Geist in dem festen Prophetischen vnd Apostolischen Wort
+nicht allein daß er aufferstanden / denn das wird auch von anderen gesaget / mit
+deren Sterben vnd Aufferstehen vns wenig gedienet / Sondern daß er sich selber
+Aufferwecket / vnd wie ein Siegsfürst aus dem Grab herdurch gebrochen sey / Wie
+S. Paulus klärlich meldet / Col. 2. Christus hat außgezogen die Fürstenthumb vnd
+Gewaltigen / vnd sie schaw getragen öffentlich / vnd einen Triumph aus jhnen
+gemacht / durch sich selbst. Durch sich selbst / spricht er / habe er seine
+Feinde vberwunden / geplündert vnd geraubet. Teuffel vnnd Todt meineten sie
+hetten einen Menschen für / wie andere heilige Menschen GOttes / die alle haben
+sterben müssen.</p>
+<p>Aber es ist jhnen an Christo recht gangen / wie einem grossen Fische / der nach
+einem kleine&#x0303; Würmlein (damit der herab gelassener scharffer Angel
+vberzogen ist) mit auffgesperretem Maul schnappet / vnd vermeinets aller ding
+zuverschlingen / bleibet aber mit seinem Halse am Angel behengen / vnd würget
+sich selbst: Also sehen die obberürte Feinde der Hellische Leviathan vnnd
+vermaledeite Mordschlange / der Todt vnd die Helle den Herrn
+<pb facs="#f0018"/>
+Christum an / als ein armes
+elendes Würmlein (wie er selber sagt: Psalm 22. Ich bin ein Wurm vnd kein
+Mensch) hüten sich aber nicht für der Gottheit vnd dem Leben / welches
+leibhafftig in jhm wohnet / vnd meinen jhnen demnach zuverschlingen / vnd
+ewiglich zu fressen / aber sie fressen jhren Gifft vnd Todt an dem Fürsten des
+Lebens / vnd HErrn der Herrligkeit / daß ein jeglicher frommer Christe / der
+sich mit rechtem vertrawen an diesen vnsern Siegs Fürsten helt / jhrer Lachen
+vnd Spotten kan / mit dem heiligen Apostel Paulo: Todt wo ist dein Stachel /
+Hell / wo ist dein Sieg? 1. Cor. 15.</p>
+<p>Es findet sich auch fürs Ander / in den vorangezogenen Sprüchen / daß der Him&#x0303;lischer Vater seinen lieben Sohn habe von de&#x0303;
+Todte&#x0303; aufferwecket / nicht allein nochmahls die <foreign xml:lang="el"><gap reason="fm"/></foreign> die Einigkeit des Wesens anzuzeigen / sondern am
+allermeisten <foreign xml:lang="el"><gap reason="fm"/></foreign> sufficientis persolutionem, die genugsame
+Rantion vn&#x0303; Lösegeldt / welches der Sohn GOttes für die Sünde des
+gantzen Menschlichen Geschlechts seinem Vater erlegt hat / das nun alle vnsere
+Schuld cassiret vnd abgelegt / vnd die Handtschrifft / so wieder vns war / aus
+dem Mittel gethan sey. Denn sonsten vnser HErr JEsus / der sich als ein
+selbstschüldiger Bürge an vnsere statt der Gerechtigkeit GOttes dargestellet /
+aus dem Schuldtthurm vnd Banden des Todtes nicht hätte wieder loß kommen können.
+Denn ehe / denn die Bezahlung geschehen / sprach der HErr / Zachar. cap. 13.
+Schwert mache dich auff vber meinen Hirten / vnd vber den Mann der mir der
+nehest ist. Er zu schlegt jhn mit Kranckheit / Esa. 53. vnd legt jhn in den
+Staub des Todtes / Ps. 22. vnd zwar das alles vmb vnser Sünde willen. Denn vmb
+vnser Missethat willen ist er verwundet / vn&#x0303; vmb vnser Sünde
+willen zerschlagen. Esa. 53. Damit nun demnach der gantzen Welt kund vnd
+offenbar werden möchte / daß GOtt der Him&#x0303;lischer Vater mit dem
+Lösegelt seines lieben Sohns contentiret
+<pb facs="#f0019"/>
+vnd zu frieden gestellet sey /
+vnd sich nun mit seinen Gnadenaugen zu dem armen Menschlichen Geschlechte wieder
+zu wenden wolle / siehe so schleust er gleichsam selber den Schuldthurm auff /
+er gibt nicht zu / dz sein Heiliger verwese / Ps. 16. sondern er ziehet jhn
+heraus aus der grawsamen Gruben vnd aus dem Schlam / vnd stellet seine Füsse
+auff einen Fels / daß er gewisten treten kan / Ps. 30. Er hat jhn aus der Angst
+genom&#x0303;en / wer wil seines Lebens lenge außreden / Esa. 53. Ja
+er krönet jhn mit Schmuck vnd Ehren / vn&#x0303; setzet jhn vber alle
+seiner Hände Werck zu rechten seiner Göttlichen Krafft / vnd gibt jhm alle Macht
+vnd Gewalt im Him&#x0303;el vnd auff Erden. Sehet geliebte / also hat der
+Geist der Warheit in seinem H. Wort nicht vmbsonst diese abwechselung der reden
+gebrauchen wollen / daß er bald GOtt dem Vater / bald GOtt dem Sohn selbsten
+seine aufferstehung hat zu geschrieben / sondern hat damit zu allen seiten
+vnsere blöde vnd zaghaffte Hertzen wieder mannigerley ansechtung rüsten vnd
+verwarn wollen. Denn da künnen wir augenscheinlich sehen / vnd hand greifflich
+fühlen / das in vnserem angenom&#x0303;enen Fleisch vnd Blut durch den
+Todt des Sohns GOttes dem Teuffel die Macht des Todtes genom&#x0303;en /
+Heb. c. 2. vnd daß wir also durch den Glauben an Christum Sieger vnd Herrn des
+Teuffels vnd des Todtes worden sind / denn GOtt sey danck / der vns den Sieg
+gibt durch vnsern HErrn JESum Christ. 1. Cor. 15. Alles was von GOtt geboren ist
+vber windet die Welt / vnd vnser Glaub ist der Sieg der die Welt vberwunden hat.
+1 Joh. c. 5. da haben wir gleichsam Siegel vn&#x0303; Brieffe / dz durch
+dz Blut des Sohns GOttes der fewrbren&#x0303;ende Zorn des gerechten
+GOTTES gestillet / Gerechtigkeit / Heil vnd Seligkeit wieder gebracht sey. Denn
+so wir GOTT versünet sind / durch den Todt seines Sohns / da wir noch Feinde
+wahren / viel mehr werden wir selig werden durch sein Leben / so wir nun
+versünet sind? Röm. cap. 5. vnnd cap. 8. führet er diese fürtreffliche Wort: Wer
+wil die außerwehlten Gottes beschüldigen?
+<pb facs="#f0020"/>
+GOtt ist hie der Gerecht macht
+Wer wil verdammen? Christus ist hie der gestorben ist / ja viel mehr / der auch
+aufferwecket ist / welcher ist zur Rechten GOTTES / vnd vertrit vns. Wer wil vns
+scheiden von der Liebe GOttes? Ich bin gewis / das weder Todt noch Leben / weder
+Engel noch Fürstenthumb / noch Gewalt / weder gegenwertiges noch zukünfftiges /
+weder hohes noch tieffes / noch keine andere Creaturen mag vns scheiden von der
+Liebe GOttes / die in Christo JEsu ist vnserem HErrn.</p>
+<p>Zum Anderen / Gibt er jhm auch diesen Gnaden vnnd Ehrentitul vnserenthalber: Denn
+nicht jhm allein mit seiner Aufferstehung ist gedienet gewesen / sondern am
+allermeisten vns armen Erd: vnd Sünden Würmlein: Denn ists doch alles vnser /
+was CHRISTVS ist / hat vnd thut. Vns ist er geboren / vns ist er gegeben. Vns zu
+gute hat er gelitten / vns zu gute ist er gestorben / so wird er auch ja
+freylich vns zu gute von den Todten Aufferstanden seyn. Vnd gleich wie er vns
+von GOtt gemacht ist zur Weißheit vnd Gerechtigkeit / zur Heyligung vnd zur
+Erlösung / also ist er auch vnser Aufferstehung / der mit seiner Aufferstehung
+die Thüren vnser Gräber eröffnet / daß vns der Würger in seinen Banden nicht
+ewiglich behalten kan / sondern vns an dem jüngsten Tage mit seinem grossen
+Schaden / wieder herfür geben muß / wenn er alle vnser Gebrechligkeit / vnd
+sündliche Zuneigung an dem Elenden Madensack gantz vnd gar außgezogen vnd
+abgezehret hat.</p>
+<p>Das deme also vnd nicht anders bezeuget er selber / wenn er beym Propheten Osea
+cap. 13. sagt: Ich wil sie erlösen aus der Helle / vnd vom Todt erretten. Todt
+ich wil dir eine Gifft seyn / Helle ich wil dir eine Pestilentz seyn.</p>
+<p>Was künte er von vnser Aufferstehung / durch seine Aufferstehung klärer sagen?
+Wovon wir errettet werden / in dessen Händen vnd Gewalt müssen wir ja nicht
+bleiben? Was verschlungen wird (wie Paulus bey diesem Spruch saget / 1. Cor. 15.
+<pb facs="#f0021"/>
+Der Todt ist verschlungen in
+dem Sieg) das mus auffhören / was vergifftet wird / das mus sterben vnd
+verderben. Weils denn nun im angezogen Sprüchlein GOttes Fürsatz ist / daß er
+den Todt verschlingen vnd jhme eine Tödtliche Gifft werden wil / so mus ja der
+Todt auffhören vnd sterben / vnd denn auch wieder lebendig werden / alles / was
+vorhin lebendig gewesen ist / sonst künte der Todt nicht verschlungen vnd
+gestorben seyn / wenn er noch etwas vnter seiner Gewalt behalten würde. Das sol
+aber nicht seyn / Sondern ich wil sie vom Todt erretten / spricht der HERR
+Israels GOtt / vnd zwar nach dem willen seines Him&#x0303;lischen Vaters
+/ wie er lehret / Johan. cap 6. Das ist der wille des Vaters / der mich gesandt
+hat / daß ich nichts verlieren von allem / daß er mir gegeben hat / Sondern daß
+ichs aufferwecke am jüngsten Tage. Das ist aber der wille / des / der mich
+gesandt hat / daß / werden Sohn siehet / vnd gleubet an jhn / habe das ewige
+Leben / vnd ich werde jhn aufferwecken am jüngsten Tage.</p>
+<p>So knüpffet auch der heiliger Geist in seinem Götlichen Worte die Aufferstehung
+Christi / vnd die vnsere so hart an einander / daß / wer die eine verneinet /
+die andere keinerley weise gleuben kan / vnd wer die eine / als Christi
+Aufferstehung gleubet / die andere keinerley weise verneinen kan. Denn so sagt
+der heiliger Apostel Paulus: 2. Cor. 4. Wir wissen / daß der / so den HERRN
+JESVM aufferwecket hat / wird vns auch aufferwecken durch JESVM.</p>
+<p>Vnd noch viel höher führet ers 1. Thess. cap. 4. So wir gleuben / das JEsus
+gestorben vnd Aufferstanden ist / also wird GOtt auch die da entschlaffen sind
+durch JEsum / mit jhm führen. Da menget er nicht allein vnsere Aufferstehung mit
+der Aufferstehung Christi / knüpffets an einander vnd machet ein ding draus /
+wie Lutherus vber diese Wortredet / Tom. 2. Ienen. Germ. p. 516. b. Sondern er
+henget auch daran vnser Himmelfahrt / daß wir mit jhm sollen geführet werden /
+vnd bey jhm in
+<pb facs="#f0022"/>
+seinem Ehren Reich
+ewig seyn / vnd aller Güter die er hat / alß seine Brüder vnd Mit Erben
+theilhafftig sein vnd bleiben ewiglich. Vnd eben das thut auch der heiliger
+Apostel Petrus in seiner Ersten Epistel cap. 1. Gelobet sey GOTT vnd der Vater
+vnsers HErrn JESV Christi / der vns nach seiner grossen Barmhertzigkeit wieder
+geboren hat / zu einer lebendigen Heffnung / durch die Aufferstehung JESV
+Christi von den Todten zu einem vnvergänglichem vnd vnbeflecktem / vnd
+vnverwelcktem Erbe / das behalten wird im Himmel / euch die jhr aus GOttes Macht
+durch den Glauben bewahret werdet zur Seligkeit / welche zubereitet ist / daß
+sie offenbar werde zu der letzten zeit / Sehet da bindet er vnsere lebendige
+Hoffnung an die Aufferstehung JESV Christi / wie denn auch die gantze Seligkeit
+mit allen stücken / das keines ohn das ander sein kan.</p>
+<p>Die weil dieses aber der Natur ein seltzame Consequentz vnd Folgerey ist / aus
+Christi Aufferstehung die vnsere / ja auch vnsere Seligkeit herführen vnnd
+schliessen wollen / fürnemlich wenn man daneben in tieffe Betrachtung ziehet /
+das Christus ist Heilig / vnschüldig / vnbefleckt vn von den Sündern abgesondert
+/ Heb. 7. Wir aber allzusammen Sünder / Rom. 6. Das Christi Menschheit dem Sohn
+GOttes Persönlich vnd vnaufflößlich Vereiniget / vnd also die Verwesung nicht
+sehen künte. Wir aber durch die Sünde von GOtt gescheiden seyn / vnd müssen die
+Verwesung sehen vnd der Würne Speise seyn / Siehe / so hat vns der heiliger
+Geist hiervber geben wollen / nicht allein den hellen vnd klaren Buchstab / der
+doch in diesem Geheimnis gnug vnd vbergenug ist / sondern auch herrliche vnnd
+vnwiedertreibliche Vrsachen / Fürnemlich durch den heiligen Apostel Paulum / 1.
+Cor. 15.</p>
+<p>Erstlich nennet er den HERRn Christum <foreign xml:lang="el"><gap reason="fm"/></foreign> den Erstling deren
+die da Schlaffen / vnd zwar das nicht dar-
+<pb facs="#f0023"/>
+vmb / alß wenn er am
+allerersten gestorben oder aufferstanden were / dann er ja selbst Todten
+aufferwecket / ehe dann er gestorben / ja ehe denn er im Fleisch erschienen /
+sind schon etliche Todten lebendig worden / Sondern es wird damit gesehen auff
+die Erstling im alten Testamente / Wann man da die Erstling der Erndte des
+anderen Tages nach dem Sabbath / das ist / des anderen Oster Tages bey den Jüden
+eingebracht hatte / so war gute Hoffnung / daß die andere Früchte vnd volle
+Erndte auch hernach folgen würde. Also sagt nun Paulus sey Christus auch der
+Erstling worden / da er am anderen Tage der Jüdischen Ostern Aufferstanden / vnd
+habe zu wegen bracht / daß wir am jüngsten Tage auch hernach folgen vnd mit
+vnseren Leibern als die volle Erndte folgen sollen / Inmassen das Ende der Welt
+der Erndte verglichen wird / Matth. 13. Wie auch im alten Testamente die ersten
+Früchte die andern allzumahl Heiligten / also das man sie ohn einiges bedencken
+/ oder vermutung einiger Vnreinigkeit gebrauchen müchte / also ist auch Christus
+der Erstling worden vnser Aufferstehung / daß wir mit den Gottlosen Epicurern
+dafür nicht erschrecken dürffen / sondern festiglich gleuben mügen / sterben wir
+mit / so werden wir auch mit leben / dulden wir mit / so werden wir auch mit
+Herrschen / 2. Tim. <hi rendition="#i">2.</hi></p>
+<p>Zum Andern spricht er / durch einen Menschen komme der Todt / vnd durch einen
+Menschen die Aufferstehung: Denn gleich wie sie in Adam alle sterben / also
+werden sie in Christo alle Lebendig gemacht werden. Vnd siehet hiemit auff
+Christi sein heilwärthes Erlösers vnd Seligmachers Ampt. Denn weil er darvmb
+Mensch worden vnd in die Welt kommen / daß er wiederbringe / was durch die Sünde
+in Adam verloren ist / so kans ja nicht anders seyn / wie wir von Adam durch die
+natürliche Fleischliche Geburt haben / die Sünden vnd der Sünden Sold / das ist
+/ den Todt / so haben wir in Christo / durch die Geistliche Wiedergeburt die
+Gerechtigkeit / vnd die furcht der Gerech-
+<pb facs="#f0024"/>
+tigkeit / das ist / das
+ewige Leben: Inmassen auch Paulus lehret / Rom. cap. 5. So vmb des einigen Sünde
+willen der Todt geherrschet hat / durch den einen / viel mehr werden die / so da
+empfahen die fülle der Gnade / vnnd der Gaben zur Gerechtigkeit / herrschen im
+leben durch einen JESum Christ. Wie durch eines Sünde die Verdamnis vber alle
+Menschen kommen ist / Also ist auch durch eines Gerechtigkeit die Rechtfertigung
+des Lebens vber alle Menschen kommen.</p>
+<p>Zum Dritten / Sagt er / das auch die Todten Christum angehören / vnd demnach
+gewißlich Aufferstehen werden. Denn die da Christum angehören werden in GOttes
+Wort also beschrieben / daß sie den Geist Christi haben / Rom. 8. vers. 9. Daß
+sie sein seine Gliedmassen / vnd er jhr Häupt Ephes. 5. vers. 30. vnnd zwar
+nicht allein nach der Seele / sondern auch nach dem Leibe / wie Paulus sagt: 1.
+Cor. 6. vers. 15. Wisset jhr nicht / daß ewere Leibe Christi Glieder sind? Vnd
+hierauff siehet er auch wann er schreibet / Rom. 8. vers. 11. So der Geist des /
+der JEsum von den Todten Aufferwecket hat / in euch wohnet / so wird auch
+derselbige / der Christum von den Todten aufferwecket hat / ewere sterbliche
+Leibe lebendig machen / vmb des willen / daß sein Geist in euch wohnet.</p>
+<p>Sintemahl es ja ein vngeheweres monstrum sein würde / das an einem lebendigen
+Häupt ein Todter Leichnam hangen solte / Nein / viel mehr mus der Leib von dem
+Häupt sein regung vnd bewegung haben.</p>
+<p>Weil Christus das Häupt der Christenheit (schreibet Lutherus Tom. 6. pag. 79. b.)
+durch welchen sie lebet vnd alles hat / aus dem Grabe erstanden ist / vnnd
+dadurch ein mechtiger HErr worden aller dinge / auch des Todtes vnd der Helle /
+So müssen auch wir / alß seine Glieder / durch seine Aufferstehung troffen vnd
+angerührt werden / vnd eben des theilhafftig werden / daß er damit außgerichtet
+hat / als vmb vnsernt willen geschehen / davon auch
+<pb facs="#f0025"/>
+der alte Kirchvater Tertullianus
+(lib. de resurrect. carnis. cap. 15.) sehr Gottselige Gedancken vnd Worte
+führet: Christus sequester Dei atque hominum appellatus ex utriusque partis
+deposito commisso sibi carnis quoque depositum servat in semet. ipso arrabonem
+totius summae. Quemadmodum enim nobis arrabonem Spiritus reliquit, ita &amp; à
+nobis arrabonem carnis accepit, &amp; vexit in coelu&#x0303; pignus
+totius summae illuc quandoque redigendae. Securae estote caro &amp; sanguis,
+usurpastis &amp; coelum &amp; regnum Dei in Christo, das ist / vnser HErr
+Christus / der da ist ein Mitler vnd Vnterhändeler zwischen GOtt vnd vns
+zugleich warer GOtt vnd Mensch / vnd hat also gleichsam seine beylage von GOTT
+vnd Menschen / behelt auch die beylage vnsers Fleisches zum Vnterpfand der
+gantzen Summa / daß wir auch hinnach sollen / da vnser beylage des Fleisches in
+Christo ist. Denn gleicher massen / wie er vns gibt das Pfand vnseres Erbes /
+nemlich den heiligen Geist / so hat er von vns auch ein Pfand / nemlich vnser
+Fleisch / vnd hat dasselbe gen Himmel geführet / zur verwisserung / das auch die
+gantze Summa / das ist vnser Fleisch / dahin sol gebracht werden. Derowegen
+frewet euch Fleisch vnd Blut / jhr habt schon den Himmel vnd das Reich GOttes
+jnnen in Christo JEsu.</p>
+<p>Zum Vierten / Führet er vns auff das ewige Königreiche des HErrn Christi /
+welches er dem Vater vberantworten wird / wenn er auffheben wird alle
+Herrschafft / alle Obrigkeit vnd Gewalt. Denn dieses mus man nicht auff
+Photinianisch verstehen / als wenn Christi Geistliche Regierung vnd Reich werde
+ein Ende haben / Sondern daß die art zu regiren durch die Predige des Worts vnd
+außtheilung der hochwirdigen Sacramente auffhören / vnd die gleubigen
+außerwehlten Kinder GOttes von Gnadenreich ins Ehrenreich / vom Glauben zum
+schawen kommen werden. Ist deme aber also / so werden wir die Vnderthanen vnd
+Diener Christi nicht ewiglich im Todt bleiben / Sondern als
+<pb facs="#f0026"/>
+dann / wenn er das Reich seinem
+Vater vberantworten wird / gewißlich von den Todten aufferstehen. Vnser leben
+ist verborgen in Christo / wenn aber Christus vnser leben sich offenbahren wird
+/ denn werden wir auch offenbar werden mit jhm in der Herrligkeit / Col. cap. 3.
+vers. 4.</p>
+<p>Zum Fünfften / Weiset er vns auff den Sieg / welchen er wieder Todt vnd Teuffel
+erhalten hat / vnd künne nunmehr nicht anders seyn / alle seine Feinde müsse er
+vnter seine Füsse legen. Der letzte Feind aber der auffgehaben werde sey der
+Todt. Der muste demnach auch gantz vnd gar auffgehaben vnd vnter seine Füsse
+gelegt werden. Es hat der HErr Christus den Todt vberwunden vnd verschlungen im
+Sieg. Er ist jhm ein Gifft vnd Pestilentz worden / aber das ist in diesem Leben
+noch nicht allerdings für Augen offenbahr / weil auch die / welche an CHRIstum
+gleuben / dem zeitlichen Todte noch müssen herhalten. Darvmb / wil Paulus sagen
+/ wird er sie ja endlich aus dem rachen des Todtes heraußreissen / vnd aus dem
+Staube des Todtes wieder auffrichten müssen / das für Engel vnd Menschen
+offenbahr werde / daß er alle seine Feinde vberwunden vnd vnter seine Füsse
+gelegt habe.</p>
+<p>Sehet mit diesen mechtigen Vrsachen hat der heiliger Apostel Paulus Christum vnd
+vns / Christi vnd vnsere Aufferstehung / wie mit starcken Demantinen
+Kettenglieder zusammen verknüpffet / daß sie nicht können zertrennet werden /
+sondern vnbeweglich an einander hengen / das Christi Aufferstehung vns gelte /
+vnd auch wir in dem Resurrexit stehen vnd gefasset sind / vnd vmb oder durch
+dasselbe auch Aufferstehen vnd mit jhm ewiglich leben müssen / das schon vnser
+Aufferstehen vnd Leben in Christo angangen ist / vnd so gewis / als were es
+schon gar geschehen / ohne das es noch verborgen vnd nicht offerbahr ist / wie
+der S. Herr Lutherus redet. Tom. 6. Ienen. pag. 79. b. davon auch Maximus
+Taurinens. Episcop. in scrm. de resur, diese liebliche
+<pb facs="#f0027"/>
+Worte setzet: Laetemur quod
+Christus surrexit, imo quod nos jam in ipso. Etsi enim adhuc resolutio
+corpusculi maneat, cepimus tamen in Christo aeternâ jam vitâ vivere, unde
+quamvis fragilitatem nostram acceleret immaturae mortis occasio, in salvatore
+tamen didicimus prius resurgere, quam perire. In salvatore enim omnes
+resurreximus, omnes reviximus, omnes ad coelestia transmigravimus: Est enim in
+illo homine Christo uniuscujusque modûm carnis &amp; sanguinis portio: Ubi caro
+mea regnat, ibi nec regnare credo, ubi sanguis meus dominatur, ibi gloriosum nec
+esse cognosco, das ist / lasset vns von Hertzen drob frolocken / daß der HErr
+Christus Aufferstanden ist / ja wir in jhm. Denn ob zwar vnsere Leiber noch
+müssen die Verwesung sehen / so haben wir doch schon in Christo den anfang des
+ewigen Lebens. Vnd derowegen ob wol viellerley art vnd gelegenheit zum Todte sey
+/ so wissen wir doch / daß wir ehe in Christo Lebendig gemacht vnd Aufferstanden
+/ denn wir gestorben. Denn in solchem vnserm Heyland seyn wir alle wieder
+Aufferstanden / alle wieder Lebendig worden / alle in das Him&#x0303;lische Wesen versetzt worden. Denn in dem Menschen Christo haben wir ein
+jeglicher seines Fleisches vnd Blutes theil. Wo nun mein Fleisch regiret / da
+gleube ich / daß ich auch regire / wo mein Blut herrschet / da weis ich / daß
+ich auch herrlich geworden bin. Darvmb singen wir auch bey vnseren Christlichen
+Leichbegengnissen:</p>
+<l>Weil du vom Todt erstanden bist / Werde ich im Grab nicht bleiben / Mein höchster
+Trost dein Auffart ist / Todtes forcht kan sie vertreiben. Denn wo du bist / da
+komm ich hin / Da ich stets bey dir leb vnd bin Darvmb fahr ich hin mit
+Frewden.</l>
+<pb facs="#f0028"/>
+<p>Wie wir vns nun auch dieses zu Nutz vnd Trost anwenden sollen / das lehret vns
+der HERR selber / wenn er saget: Wer an mich gleubet / der wird lebe&#x0303; / ob er gleich stürbe / vnd wil so viel sagen: Es müssen zwar
+auch meine gleubige Freunde vnd Brüder sterben / wie ander Menschen / denn das
+ist der alte Bundt / Mensche / du must sterben / Syr. cap 14. Es ist gesetzet
+allen Menschen einmahl zusterben / vnnd hernach das Gerichte. Heb. cap. 9. Das
+ist der Weg alles Fleisches / 1. Reg. 22. Aber dennoch sterben sie also / daß
+sie dennoch leben: Denn die Seele ist Vnsterblich / vnd wenn sie von dem Leibe
+zertrennet wird / vnd hat sich mit festem Glauben an mich den Hertzog des Lebens
+gehalten / so kömmet sie ins Paradeis / Luc. 23. In Abrahae Schoß / Luc. cap 16.
+In GOttes Hand / da sie keine Quale mehr anrüret / Sap. 3. vnd niemand wieder
+hinweg reissen kan / Johan 10. Sondern wird reich getröstet / Luc. cap. 16 vnd
+siehet GOTT von Angesicht zu Angesicht wie er ist / 1. Cor. 13. 1. Johan. cap.
+3. Der Leib mus zwar dahin gelegt werden in die Finstere Erden / nicht aber /
+daß er darin bleibe / sondern alle Gebrechligkeit vnd Sterbligkeit ablege /
+sanffte Ruhe vnd Schlaffe in GOTTES Namen / biß an den frölichen Morgen des
+jüngsten Tages.</p>
+<p>Hie haben wir nun den schönen lieblichen Hertzerquickenden Rosensafft wieder alle
+bitterkeit des Todtes. Wenn der weise Heyde Cicero mit seiner Vernunnfft hat
+angesehen / daß der Mensche die aller edleste Creatur GOttes auff Erden durch
+den Todt hingerissen vnd so jämmerlich zugerichtet wird / das Gesichte vergehet
+/ die Ohren werden verstopffet / die Zunge erlähmet / die Glieder erstarren vnd
+erkalten / die Seele wird aus der lieben Herderge außgetrieben / der Leib wird
+schwer vnd kalt / die Verwesung rumoret also im Leib / das man mit jhm vnter die
+Erden eilet / Im Grabe wird daß Fleisch von Schlangen vnd Würmen biß auffs
+Gerippe verzehret / dasselbe wird auch endlich zu Pulver vnd Aschen / vnd hat
+dagegen alle seine Griechische vnd Lateinische
+<pb facs="#f0029"/>
+Bücher da Heyden nachgeschlagen /
+auch seine allerbeste Spitzfindigkeit / vnd eloquentz herfürgesucht / so muß er
+doch sagen vnd bekennen: Nihil in venio in quo acquiescam. Ich finde doch das
+geringste nicht / daran sich meine Seele erholen vnd zufrieden geben kan.</p>
+<p>Aber die gleubige Christ Kinder GOttes haben alhie den köstlichen Rosensafft /
+der von den holdseligen Lippen des HErrn Christi trieffet: Ich bin die
+Aufferstehung / wer an mich gleubet / der wird leben / ob er gleich stürbe.</p>
+<p>Wie das alhie vnser HERR JESus Christus der warhafftige Zeuge mit offenen Munde
+lehret / so sollen wirs auch fassen mit offenem Hertzen / vnd diese Wort / da
+CGRIstus sagt: Ich bin die Aufferstehung / so groß machen / ja grösser als
+Him&#x0303;el vn&#x0303; Erden / ja vns gar drein stecken /
+vnd dieser Worte leben: Denn da künnen wir durch den Todt hin durch sehen in die
+Aufferstehung vnd eitel Gedancken vnnd Bild des Lebens mitten im Todt ergreiffen
+/ wie auch der Herr Lutherus redet / To. c. 6. p. 80. 2. Denn mus die Seele in
+dem Todt die liebe Herberge des Leibes verlassen / darinnen sie doch viel
+Vnfriedes vnd Streitens gehabt hat / so ist sie doch vnverloren / sondern kömmet
+zum Friede vnd wieder zu deme / der sie gegeben hat / vnd besitzet also vnd
+empfindets in der That vnd Warheit / was das newe Leben sey / daß jhr alhie in
+Christo ist verborgen geblieben. Muß denn der Leib da in der Finstern Erden der
+Schlangen vnnd Würmen Speise seyn / zu Staub vnnd Aschen werden / siehe so wird
+er da doch nicht ewig bleiben / eben so wenig als der Leichnam des HErren
+Christi / an deme schon das fürnemeste theil vnser Aufferstehung erfüllet ist /
+Er wird auch da nichts verlieren vnd hinter sich lassen / eben so wenig Christus
+da verloren vnd hinter jhm gelassen / Sondern wie er der vnser Aufferstehung ist
+/ in Grabe die infirmitates humanas die Menschliche Schwachheiten / so er
+<pb facs="#f0030"/>
+gutwillig vnsernt halber ohn Sünde an sich genommen /
+abgelegt hat / vnd mit einem newen clarificirten Leibe ist wieder herfürgangen /
+also werden wir da ablegen die Sünde / vnd alles Vngemach / das durch die Sünde
+vns durch gedrungen hat / vnd aufferstehen mit newen clarificirten Leibern / die
+da ähnlich sein dem verklärten Leibe JESV CHRISTI / wie Paulus lehret / Phil.
+cap. 3.</p>
+<p>Da müssen vnser Leiber ablegen jhre grosse Schande vnd Vnehre / das man sie so
+lange wir leben / alhie mit dem Sünden deckel der Kleider bedecken müssen / vnd
+wenn wir sterben für grewlichem Stancke vnter die Erde verscharren / so tieff
+als jmmer müglich / so ehrlich vnd köstlich aber wieder herfür kommen / das sich
+alle Creatur darvber verwunderen / alle Engel sie preisen vnd anlachen / vnd
+GOtt selbsten seine Lust vnd Wonne daran sehen wird.</p>
+<p>Da muß jhnen der Todt vollendt Abzehren die grosse Schwachheit / die sie hie an
+jhnen tragen so hauffen weiß / das man alle Gebrechligkeiten vnd Kranck heiten
+nicht zehlen kan / ja man von einem einigen kaum sagen kan / das habe er gethan
+/ sondern das habe er gelitten. Aber so werden wir in grosser Krafft wieder
+aufferstehen / daß er an Sterck vnd Krafft ähnlich vnd gleich sey den starcken
+Helden GOTTES. Auch dahinden lassen jhre grosse Nottürfftigkeit / daß sie ohn
+natürliches essen vnd trincken / vnd was mehr darzu gehöret / nicht bleiben vnnd
+leben künnen. Denn es wird geseet ein natürlicher Leib / es sol aber
+aufferstehen ein Geistlicher Leib / der dieses natürliches Lebens nicht sol
+Leben / vnd wieder Futter noch Decke / noch ander leibliche Notturfft bedürffen
+/ sondern vor GOTT wieder Geistlich gespeiset vnd erhalten werden. Vnd von
+diesem Leben / daß er Geistlich in GOTT hat vnd lebet / wird er so Sat vnd Selig
+seyn / daß er nimmermehr an essen vnd trincken noch ein ander Leben gedencken
+wird.</p>
+<pb facs="#f0031"/>
+<p>Wer also den Todt eines gleubigen Christen ansiehet / vnd einwickelt in die
+Aufferstehung / daß er nicht mehr wissen vnd sehen wil / denn was hie Christus
+saget.</p>
+<p>Ich bin die Aufferstehung / wer an mich gleubet / der wird Leben / ob er gleich
+stürbe / der siehet in / Todt kein Todt sondern Leben / kein verlust sondern
+Gewin / kein Qual / Angst vnd Wehe / sondern Friede / Ruhe vnd Seligkeit / vnd
+entsetzet sich demnach für jhm nicht / sondern frewet sich sein nicht anders als
+eines frölichen Him&#x0303;lischen Geburts Tages / vnd dencket jmmer bey
+sich selbst: Siehe gleich wie ein lebendiges Kind in Mutterleibe durch seine
+Geburt von der Mutter (ob es schon die alte Haut vnd enge Herberge verlassen vnd
+vber geben muß) dennoch an seinem leben nicht abnimbt / Sondern vielmehr wuchert
+vnnd zunimbt / das es in diese grosse Welt kompt / vnd das Liecht anschawet:
+Also werde ich wol im Todte diesen bawfelligen Cörper mit allem Vngemach ablegen
+vnd vbergeben / daß er von Würmen vnd Schlangen gefressen werde: Aber doch mus
+solches weder meinem Leibe noch meiner Seele an dem rechten Him&#x0303;lischen Leben nicht hinderlich / Sondern zuträglich seyn / ja ein Wucher des
+ewigen Lebens der Herrligkeit vnd Seligkeit / dadurch meine Seele alßbald aus
+der engen Herberge dieser Welt dringet / als durch eine newe Geburt in den
+Himmel vnd schawet alda im follen Liecht / was sie hie im tunckelen Worte
+glauben müssen / Mein Leib aber aller Vnehre / Gebrechligkeit / sündlichen Lüste
+vnd Begierde gäntzlich abkompt / vnd im Fried vnd Ruhe / wie in einem süssen
+Schlaff der Aufferstehung / ja Claristeirung mit frewden erwartet.</p>
+<pb facs="#f0032"/>
+</div>
+<div>
+<head>Ander Theil.<lb/>
+</head>
+<p>ZVm Andern nennet er sich auch das Leben: Ich bin die Aufferstehung vnd das Leben
+Johan. cap. 1. stehet geschrieben / das in jhm das Leben sey / vnd Joh. cap. 5.
+spricht er: Wie der Vater hat das Leben in jhm selber / also hat er dem Sohn
+gegeben / das Leben zuhaben in jhm selber. Act. 3. wird er genennet der Fürst
+des Lebens / Joh. cap 6, das Brodt des Lebens / vnd Apocal. 22. der Bäum des
+Lebens: Solches alles fasset hie der HErr Christus in ein Wort zu sammen vnd
+spricht: Er sey das Leben selber. Vnd zwar nicht allein wieder vmb / wie wir
+zuvor angedeutet / respectu sui seinenthalber / daß er ein ewiger lebendiger
+GOtt ist mit dem Vater vnd H. Geiste von ewigkeit zu ewigkeit / sondern am
+allermeisten respectu nostri vnserenthalber / dieweil er vns dz Leben gibt vnd
+mittheilet. Welches aber doch mit gute&#x0303; vnterscheid mus
+auffgenommen vnd verstanden werden. Den&#x0303; gleicher weise / wie der
+Sohn GOttes Christus JESus hat dreyerley Reich / Nemlich / Regnum potentiae ein
+Reich Göttlicher allregierender Allmacht / Regnum gratiae ein Reich seiner
+Gnaden / Regnum gloriae ein Reich der Ehren vnd Herrligkeit / also haben wir von
+jhm auch dreyerley Leben / dazu er vns auch im anfang allesampt erschaffen
+hat.</p>
+<p>Denn in dem Reich seiner Allmacht / theilet er vns Menschen mit Vitam naturae,
+das natürliche Leben / daß wir vns können regen vnd bewegen / stehen vnd gehen /
+vnnd die eusserliche Welthändel verrichten ein jeglicher in seinem Beruff vnd an
+seinem Ort. Das alles rüret von seiner Allmacht her / denn in jhm leben / wehben
+/ vnnd sind wir Act. cap. 17. In jhm bestehet alles / Col. cap 1. Weil aber diß
+Leben Frommen vnd Gottlosen / Gleudigen vnd Vngleubigen Gemein / so wird dieses
+auch alhie eigent-
+<pb facs="#f0033"/>
+lich nicht
+verstanden / Sintemahl Christus eigentlich auff den Glauben siehet / vnd also
+auff das Leben / das aus dem Glauben herrüret.</p>
+<p>Das gibt er / der HErr Christus vns nun in dem Gnadenreich der heiligen
+Christlichen Kirchen / vnd ist ein recht geistliches Leben / welches da nicht
+stehet in der natürlichen vereinigung Leibs vnd der Seelen / sondern in der
+geistlichen vereinigung mit dem wesentlichen Leben JESu Christo / denen wir
+anziehen in der heiligen Tauffe / Gal. 3. der zu vns einziehet durch sein Wort
+vnd Sacramente / von newen gebieret / vnd also ein newes Leben gibt / davon
+Paulus sagt: Gal. 2. Christus lebet in mir: Denn was ich jetzt lebe im Fleisch /
+das lebe ich im Glauben des Sohns GOTtes. Das natürliche Leben bringet nach dem
+Fall nichts anders mit sich denn eitel Blindheit vnd Finsternis in den
+Geheimnissen der Seligkeit / eitel Wiederwillen in dem Gehorsam / eitel Lüste
+vnd Begirde / ja Feindschafft wieder GOtt: Das newe Gnadenleben aber erleuchtet
+vnsere Hertzen / daß wir die Vernunfft gefangen nemen / vnter den Gehorsam
+Christi vnd den Geheimnissen des Glaubens vnzweiffelhafften beyfal geben / das
+gibt newen Gehorsam / daß wir der Sünde absterben / vnd GOtt leben in Christo
+JEsu vnserm HErrn / vnd nicht lassen die Sünde Herrschen in vnsern sterblichen
+Leibern / jhr Gehorsam zu leisten in jhren Lüsten / sondern GOtt vnsere Glieder
+ergeben zu Waffen der Gerechtigkeit / wie Paulus schreibet / Rom: cap. 6.</p>
+<p>Wer auch in diesem Gnadenleben sein natürliches Leben endet vnd beschleust / der
+gelanget dann zum dritten Ehrenleben in regno gloriae, da für GOtt im Himmel ist
+Frewde die fülle / vnd lieblich wesen zu seiner Rechten ewiglich / wie David
+meldet / Psal. 16. denn so spricht Christus selber: Joh. cap. 5 Warlich /
+warlich ich sage euch / wer mein Wort höret vnd gleubet deme / der mich gesandt
+hat / der hat das ewige Leben / vnd kömpt nicht in das
+<pb facs="#f0034"/>
+Gerichte / sondern ist zum Leben
+durch den Todt hindurch gedrungen / vnd Johan. cap 10 Meine Schaffe hören meine
+Stimme / vnd ich kenne sie / vnd gebe jhnen das ewige Leben. Johannes schreibet
+auch in seiner 1. Epist. cap. 5. GOtt hat das ewige Leben gegeben / vnd solch
+Leben ist in seinem Sohn / wer den Sohn hat / der hat das Leben / wir sind in
+dem warhafftigen in seinem Sohn JESV Christo. Dieser ist der warhafftiger GOtt
+vnd das ewige Leben.</p>
+<p>Das fasset ein gleubiger Christen Mensch / vnd zweiffelt nicht daß er schon
+albereit selig vnd im Himmelreich lebe / doch durch den Glauben vnd nicht im
+schawen: Saget dennoch in vnfeilbahrem vertrawen / sein Wandel sey schon im
+Himmel Geistlich / ob er schon leiblich in der Welt sein raum vnd ort hat / ja
+das Reich GOTTes sey in jhm durch die vereinigung mit Christo / nemlich
+Gerechtigkeit / Friede vnd Frewde in dem heiligen Geist / ja GOtt selbst mit
+seiner Göttlichen vnaußsprechlichen breyte / lange / tieffe vnd höhe / nur
+allein / das ers noch zur zeit nicht gnugsam fassen / ergreiffen vnd erdencken
+kan. Welches auch Christus selber alhie lehret / wenn er saget.</p>
+<p>Ich bin das Leben / wer da lebet vnd gleubet an mich / der wird nimmermehr
+Sterben / das ist / wer durch wahren Glauben des Geistlichen Gnadenlebens ist
+theilhafftig worden / vnd darin verharret biß an sein Ende / der wird durch den
+Todt von mir / der ich sein Leben bin / nicht zertrennet / vnd kan also nicht
+Sterben / sondern wird Leben / ja aller erst zu dem rechten Leben gelangen /
+dagegen diß Leben ein trawenwerck ja ein eiteler Todt vnd stetiges Sterben zu
+achten ist.</p>
+<p>Dieses sollen wir nun Erstlich gebrauchen zur vermahnung: Denn dem natürlichen
+Menschen ist das natürliche Leben von Hertzen lieb vnd angenem / vnd erschüttert
+dafür / wenn er dran gedencket / daß dermahl eins durch den Todt / Leib vnd
+Seele müs-
+<pb facs="#f0035"/>
+sen gescheiden
+werden. So sol derowegen ja billig dem Geistlichen Menschen das Geistliche
+Gnadenleben / daß wir von Christi einwohnung in vnseren Hertzen empfahen / so
+viel lieber vnd wehrter seyn / so viel höher vnnd besser dieses / denn jennes
+ist / Inmassen denn das natürliche Leben ohn das Geistliche Verdampt / ja der
+Todt selbsten ist. Er sol ja auch billig dafür erzittern / wenn er bedencket /
+wie so leichtlich es geschehen / daß die Geistliche vereinigung mit Christo
+durch regierende Sünde zertrennet / vnd demnach so wol das Him&#x0303;lische Ehrenleben / alß das Geistliche Gnadenleben wiedervmb verlohren werde.
+Denn ausser Christo ist ja kein Heil / sonder eitel Verdamnis / kein Leben /
+sonder eitel Todt / vnd entfrembdung von dem Leben das aus GOtt ist. Wie
+derowegen der natürlicher Mensch sich mit allem Fleiß zu hüten weis / daß er
+nicht selber mit gifftigem Essen vnd Trincken / oder dergleichen jhm Vngemach
+mache vnd sein Leben verkürtze / so sol viel mehr der Geistlicher Mensch sich
+hüten vnd vorsehen / daß er nicht mit gifftiger verführischer Lehre / mit bösen
+ergerlichen Exempeln / wie auch nicht mit sicherem vnbußfertigen Leben / auß der
+Gnade falle vnd Christum verliere / sondern wie er an dem natürlichen Leben
+jmmerdar wächset vnd zunim&#x0303;et / biß er ein vollkommener Mensch
+wird / also sol er auch in Christo allzeit wachsen vnd völliger werden / biß er
+endlich des Glaubens Ende davon bringe / das ist der Seelen Seligkeit. Wie der
+natürlicher Mensch kein fleiß vnd vnkosten sparet / daß er seinen Leib mit
+gesunder vnd bequemlicher Speise vnd Nahrung / wie auch gebührenden exercitiis
+corporis bey guter gesundtheit biß ans Ende erhalten müge / so sol vielmehr der
+Geistlicher Mensche dahin allezeit trachten vnd sich befleissigen / daß er sich
+jmmer halte an das Him&#x0303;lische lebendigmachende Manna vnd
+Himmelbrodt göttliches Wortes / seinen Glauben / da durch Christus in seinem
+Hertzen wohnet / stehts vbe / vnd sich befleisse des rechten exercitii des
+Glaubens / als der wahren Demuht vnter GOttes gewaltiger
+<pb facs="#f0036"/>
+Handt / mit rechtschaffener Rewe
+vnd Busse / des hertzlichen vertrawens auff Christum / der frölichen Hoffnung /
+der vngefärbten Liebe / des newen Gehorsams / der Christlichen Ritterschafft vnd
+vnableßlichen Gedult / damit er also seinen Beruff vnd Wahl fest macht / vnd jhm
+da gereicht werde reichlich der eingang zu dem ewigen Reich vnsers HErrn vnd
+Heylandes JESV Christi / 2. Pet. cap. 1. Wo sich das nicht befindet / da ist
+auch kein Geistliches Leben / gleichermassen wie da kein natürlich Leben
+gegleubet wird / da man des natürlichen Lebens Regung vnd Bewegung nicht siehet.
+Denn Christus saget / Johan. cap. 15. wer in mir bleibet / vnd ich in jhm / der
+bringet furcht. Wer nicht in mir bleibet der wird weggeworffen / wie eine Rebe
+vnd verdorret / vnd man samlet sie / vnd wirfft sie ins Fewer / vnd sie mus
+brennen. Ist der Baum gut vnd hat ein gesundes gutes Leben / so kans nicht
+anders seyn / er lesset sich an seinem guten Früchten erkennen / wie David
+meldet: Psal. 92. Der Gerechte wird grünen wie ein Palmbaum / er wird wachsen
+wie ein Cedern auff dem Libanon / die gepflantzet sind im Hause des HErrn /
+werden in den Vorhöffen vnsers GOttes grünen. Ist nun Christi Leben in vns / so
+sein wir rechte gute Bäume gepflantzet im Hause des HErrn / vnd müssen wir
+täglich in guten Wercken wachsen / der alte Adam sterben / der newe aber der
+nach GOtt erschaffen ist / in rechtschaffener Gerechtigkeit vnd Heyligkeit
+zunemen: So wir im Geiste leben / sagt Paulus Gal. 6. so last vns auch im Geist
+wandelen. Die frucht aber des Geistes ist liebe / Frewde / Friede / Gedult /
+Freundligkeit / Gütigkeit / Glaube / Sanfftmuht / Keuschheit / etc Gal c. 5.
+Derowegen alles was ein solcher Mensche thut / der in Christo lebet / vnd
+Christus in jhm / es sey mit Worten oder mit Wercken / das mus er thun in dem
+Namen des HErrn JEsu / vnd dancken GOtt vnd dem Vater durch jhn / Col. 3.</p>
+<p>Fürs Ander / sollen wirs gebrauchen zum Trost / wieder das grawsame schreckbilde
+des Todtes: Denn für dem Todt
+<pb facs="#f0037"/>
+erzitteren nicht allein die Gottlosen vnd Vngleubigen / sondern auch wol die
+Gleubigen vnd Frommen / alß die jhr Fleisch vnd Blut sampt allerley
+Schwathheiten noch am Halse / ja im Hertzen tragen / daneben der leidige Teuffel
+auch nicht feyret / sondern da er zuvoren bey guter Gesundtheit damit vmbgangen
+/ daß er alle sterbens gedancken verhinderte vnd sicher machete befleissiget er
+sich in den letzten Zügen die betrachtung des Todtes tieff einzubilden / dafür
+kein rast noch ruhe zu lassen / wickelt zu seinem besten mit ein des Gesetzes
+Fluch / die menge der Sünden / den Zorn GOttes / das Bildt der Hellen vnd ewigen
+Verdamnis / damit also die trawrige Seele vngern von dem Leibe abscheide /
+lieber auff Erdenbleibe / den Todt fliehe vnd hasse / vnd demnach wieder GOtt
+murren vnd vngehorsam werden müge. Damit jhm nun solch sein fürnemen / alß denn
+an vns nicht gelingen müge / müssen wir weder an vns noch an den vnseren den
+Todt nicht ansehen / wie vns denselben vnsere Blödigkeit einbildet / vnd der
+hellische Lügengeist mit seinen gifftigen eingeben / mit so erschrecklichen
+Farben der Sünden / des Zorns GOttes / des Fluchs des Gerichtes vnd ewigen
+Verdamnis fürmahlet / sondern wie jhn der Mund der Warheit JEsus Christus an den
+gleubigen Kindern GOttes beschrieben vnd abgebildet hat. Der zeucht jhm hie die
+scheüßliche vnd erschreckliche Larve ab / vnd wil jhn nicht mehr ein Todt oder
+Sterden / sondern vielmehr ein Leben nen&#x0303;en: Wer da lebet vnd
+gleubet an mich / der wird nimmermehr Sterben.</p>
+<p>Denn ein gleubiger Mensch lebet nicht allein eines natürlichen Lebens durch die
+vereinigung Leibes vnd der Seele / Sondern auch eines anderen Him&#x0303;lischen Geistlichen Lebens in Christo / ja Christus selbst in jhm ist ein
+solch Geistlich Him&#x0303;lisch Leben. Dieses Lebe&#x0303; aber
+ist ein ewiges Leben / ein solch Leben daß den Tod verschlungen hat. Lebet er
+dann schon ein natürliches Leben /
+<pb facs="#f0038"/>
+dar vber der Todt noch herrschet / so lebet er doch darzu ein Him&#x0303;lich Leben / daß dem Todt nicht vnterworffen ist. Ob derowegen
+schon in dem zeitlichen Todt Leib vnd Seel zertrennet werden / vnd also das
+natürliche Leben dahin fellet / so ist er doch dessen gewis / daß das rechte
+Leben / das da ist ohn Sünde / ohn Fluch / ohn Todt / ohn Gericht vnd Verdamnis
+/ nimmermehr fallen könne / sondern alß dann erst recht angehe / wenn das
+natürliche Leben mit seinen anklebenden Schwachheiten mus Auffhören / vnd der
+Leib zum vollen wachßthumb wie ein Weitzenkörnlein in den Paradeis GOttes geseet
+werden. Welche mit solchen gedancken vmbgehen / die können jhr Häupt sanfft
+nieder legen / vnd mit dem Alten Simeone in Fried vnd Frewd dahin fahren / mit
+Paulo jhr Sterben für ein Gewinn achten. Denn an Christo / mit deme sie durch
+den Glauben ein Geist werden / vnd in deme sie / wie Propffreißlein in den Baum
+des Lebens gepflantzet seyn / haben sie ein solches Leben / welches sich aus dem
+Todt / aus der Sünde / Fluch vnd Zorn GOTTes / aus dem Gericht vnd Verdamnis auß
+gewircket hat / vnd mangelt nichts dran / den&#x0303; nur das mit dem
+natürlichen Leben alle Schwachheiten vnd Vnvollkommenheiten ein ende nemen / vnd
+mit Christo am lieben jünsten Tag die Vollkommenheit des Him&#x0303;lischen Lebens offenbahr werde.</p>
+</div>
+<div>
+<head>Dritter Theil.<lb/>
+</head>
+<p>NOch vbrig ist die Frage / was es denn für Leute seyn / die solchen heiligen
+Trost zu fassen haben / was für mittel vnd Instrument zu gebrauchen / damit man
+solchen Gnadenschatz ergreiffe / vnd sage nicht allein / CHRIstus sey die
+Aufferstehung vnd das Leben / sondern sey auch vnser / Mein vnd Dein
+Aufferstehung vnd Leben? Da wird nun hie nicht gedacht der Vorbitteder Heiligen
+/ auch nicht eigener Wercke vnd Satisfa-
+<pb facs="#f0039"/>
+ction, Vigilien vnd
+Seelmessen / sondern allein des Glaubens Wer an mich gleubet der wird Leben / ob
+er gleich stürbe / vnd wer da lebet / vnd gleubt an mich / der sol nimmermehr
+sterben.</p>
+<p>Denn das ist der ewige Rahtschluß GOttes von diesem Himlischen Leben / in seinem
+heiligen Evangelio geoffenbahret / das vmb vnser Blödigkeit willen / (die wir
+GOttes vnendliche Majestät / vnd blosses Wesen nicht ertragen können) sich vnser
+leben der HErr JEsus Christus in das Wort von Propheten vnd Aposteln verfasset /
+verhüllen / vnd mit allen seinen Wolthaten zu eigen anbieten solle / nicht mehr
+erfoddernt / denn das wir solchem Wort trawen vnd mit fester Zuversicht vns
+daran halten. Vnd wo das geschicht / da solle vnser Glauben fassen vnnd
+ergreissen nich allein das Wort / sondern den HErrn JESum Christum selbst / an
+deme wir alles vnd mehr Leben vnd Seligkeit haben / denn wir in Adam verlohren
+haben. Das ist nun eine vnermeßliche Gnade vnd Wolthat des Vaters im Himmel:
+Denn wenn Christus schon were das leben / wir aber sein nicht theilhafftig
+werden müchten / were vns damit nichts geholffen. Nun aber können wir sein nicht
+theilhafftig werden / nach seinem blossen Wesen viel weniger als ein säugendes
+Kind eines starcken hitzigen Brante. weins. Demnach so lesset er sich aus Gnaden
+zu vns herunter / vnd thut wie eine Mutter / wenn sie jhrem Kindelein zu seinem
+nutz starcke Speise beybringen wil / so jsset sie dieselbe zuvor vnd lesset sie
+zu Milch werden / vnd reichet darnach die Milch aus jhren Brüsten dem Kind zu
+Saugen: Also thut auch das Wort des Lebens / der eingeborner Sohn GOttes / nach
+deme wir jhn nach seinem blossen Wesen als ein verzehrendes Fewer / in vnsern
+sündlichen Leiben vnd Seelen nicht ertragen könten / da wird das Wort Fleisch
+vnd wohnet vnter vns: Zu dem / weil er nun sitzt in der Herligkeit des Vaters /
+vnd wir auch viel zu Schwach solche
+<pb facs="#f0040"/>
+seine vnermeßliche Herrligkeit anzuschäwen / Siehe / da verhüllet vnd
+bewolcket er sich mit dem eusserlichen Wort / daß er in seinem Namen predigen
+lesset / das also / wenn wir solches zu Ohren vnd Hertzen nemen / vnd was
+geprediget vns im Glauben anmassen / nicht allein das Wort empfahen / sondern
+den HErrn JEsum Christum selbst / daß er wird vnser Leben vnd Aufferstehung
+wieder den Todt / vnser Weiß heit wieder die Geistliche Thorheit vnsere
+Gerechtigkeit wieder die Sünde vnd Vngerechtigkeit / vnser Heiligung wieder die
+verderbung aller jnnerlich: vnd eusserlichen Kräffte. Vnser Erlösung wieder die
+Helle vnd Verdamnis.</p>
+<p>Der Glaube aber ist nicht jrgend ein betrieglicher Wahn oder fliegender Gedancke
+/ den man von einem dinge eingenommen / auch nicht eine blosse wissenschafft
+began gener Geschichten / Sondern eine behertzete anmassung vnd vertrawentliche
+ergreiffung des Verdienstes Christi wieder alle Feinde vnd Verfolger vnser
+Seligkeit / das man nicht allein wisse vnd deme Beyfall gebe / daß Christus sey
+das Leben vnd die Aufferstehung / vnd in summa ein Heylandt vnd Seligmacher /
+sondern ein jeder da sage mit hertzlichen vertrawen / Christus ist mein Leben /
+mein Aufferstehung / mein Heylandt vnd Seligmacher / wie Paulus sagt. Christus
+ist mein Leben / sterben ist mein Gewinn / Phil. 1. Die Jungfraw Maria / Mein
+Geist frewet sich GOttes meines Heylandes / Luc. cap. 1. Paulus Gal. 2. Was ich
+jetzt lebe im Fleisch / das lebe ich in dem Glauben des Sohns GOttes / der mich
+geliebet hat / vnd sich selbs für mich dargegeben.</p>
+<p>Woher aber können wir dessen gewis seyn / daß wir vns selber nicht betriegen?
+Denn im Bapstumb wil man einen solchen Special Glauben / daß ein jeder vor sich
+selbst jhme den HErrn Christum vnd seine Gutthaten zu eigenen / vnd sich /
+dannenher des Lebens vnd Gerechtigkeit gewis vertrösten wolle / nicht passiren
+lassen / sondern man nennet jhn ein Vermessenheit / vnd leitet die Christen
+dahin / daß sie an dem leben der Gnade GOTTes
+<pb facs="#f0041"/>
+zweiffeln sollen. Die Calvinisten
+machens auch nicht vmb ein Haarbreit besser mit jhrer particularitet, da sie
+schwermen / Christus sey nicht ins gemein aller Menschen Heyland vnd Seligmacher
+/ sondern allein etzlicher wenige / welche jhrem vorgeben nach der ewige GOtt
+aus einem blossen / schlechten / geheimen vnwandelbahren Raht ohne einige
+betrachtung des Glaubens an den HErrn Christum / zum ewigen Leben versehen vnd
+erwehlet habe. Dero meinung nach ists vnmüglich / daß ein einiger Mensch mit
+festem vnd vnwandelbahrem vertrawen sage / Christus ist mein Leben / Christus
+ist meine Aufferstehung / mein Heyland vnd Seligmacher / welches doch so hoch
+nohtwendig / das es das beste stücke am Glauben / ja ohn ein solches vertrawen
+der glaube nicht mehr ein rechter Glaube ist. Daß sie aber vorwenden / ein jeder
+außerwehlter Mensche könne aus dem lebendigen Glauben vnd empfindung der
+Göttlichen Gnade gewiß seyn / daß er erwehlet sey / ist eine lauter nichtigkeit
+/ vnd kan in solcher hoher Sache mit nichten den stich halten. Denn der Glaube
+mus sich stewren auff GOttes Wort vnd Verheissung Wo demnach GOTTes Wort vnd
+Verheissung mangelen / da muß auch der Glaube mangelen / alß der nicht ist aus
+Menschlicher empfindung / sondern aus dem Gehör des Wortes GOttes / Röm: cap.
+10. v. 17. Wann nun der Calvinischen Schwermerischen Lehre nach Christus nicht
+für alle / sondern etliche gestorben ist / vnd Evangelische Verheissung nicht
+universal vnd gemein seyn / sondern nur etlichen wenigen angehen nach dem
+blossen geheimen vnwandelbahren Raht GOttes. So verlieren ja die Verheissung
+jhre Krafft vnd Nachtruck / vnd bleibt in Vngewißheit / welche dieselbe wenige
+seien / vor welche Christus gestorben / vnd denen die Verheissung ein Krafft
+GOttes selig machen sein sollen. Vnd wenn hie auch die Calviniste&#x0303;
+alle jhre Kunst vn&#x0303; Spitzfindigkeit / dran strecken eine&#x0303; einigen Menschen seiner Seligkeit gewis zu vberführen / so wirds
+jhnen doch vnmüglich fallen / so lange sie jhre gotteslesterige Mei-
+<pb facs="#f0042"/>
+nung de absoluta
+particularitate nicht fallen lassen. Sintemahl auch in der Natur vnd natürlichen
+dingen / wie die gelärten wissen / aus meris particularibus nichts mag gefölgert
+vnd geschlossen werden. Betreffendt auch die inwendige Empfindung der Göttlichen
+Gnade / so bezeugen die Exempel vnnd Erfahrung / daß solche empfindung in
+schweren Anfechtung sich mannigmahl verlohren hat. Wie David saget / Psal. 31.
+Ich sprach in meinem Zagen: Ich bin von deinem Angesicht vtrstossen. Darvmb
+sollen wir vns hie hüten / nicht allein für der Sicherheit / sondern auch für
+dem Bäptischen Zweiffel / so wol als den Calvinischen verleitungen / vnd vns
+halten an den ohnbeweglichen grund der Seligkeit / da JEsus Christus selber der
+Eckstein ist / damit wir mit frewdigem Hertzen ohn allen zweiffel auch mitten in
+Noht vnd Todt sagen mügen mit Paulo / Christus ist mein Leben Den&#x0303;
+da findet sich mit Sonnenstralen hell vnd klar geschrieben. 1. Das GOttes
+ernster will vnd wolgefalle sey / daß allen Menschen geholffen werde / vnd zur
+erkentnis der Warheit kommen / 1. Tim. 2. Wolle nicht das jemandt verlohren
+werde / sondern sich jederman zur Busse bekehre / 2. Pet 3. Auch die / so in
+jhren Sünden sterben vnd verderben / Ezech. 18. vnd 33. Vnd deßhalben seinen
+Sohn der Welt / das ist / allen Menschen gegeben / auff daß alle die an jhn
+gleuben nicht verlohren werden / sonder das ewige Leben haben / Johan. 3. 2. Daß
+derselbige eingeborne Sohn GOttes nicht nur vor etliche / sondern vor alle
+Menschen / namhafftig auch für die / so verlohren werden / gelitten habe vnd
+gestorben sey. Denn des Menschen Sohn ist kommen selig zu machen das verlohren
+ist / stehet geschrieben Matth. cap. 19. hat für alle den Todt geschmecket /
+Heb. 2. nicht allein für die / so durch wahre Busse sich zu GOtt bekehren /
+sondern auch die / welche verleugnen den HErren / der sie erkaufft hat / vnd
+vber sich führen ein schnel Verdamnis / 2. Pet. 2. 3. Das auch der heilige vnd
+ernste Wille GOttes sey / daß diese genugthuung vnd verdienst JEsu Christi
+<pb facs="#f0043"/>
+durch die predigt des heiligen Evängelii vnd Sacramenta in
+alle&#x0303; Welt verkündiget / vnd allen vnd jeden Menschen
+angebotten werden solle / laut des befehls Matth. cap. 28. Gehet hin in alle
+Welt / vnd lehret alle Heyden / vnd täuffet sie in dem namen des Vaters / vnd
+des Sohns / vnd des heiligen Geistes. 4. Daß alle / die durchs Evangelium in
+Krafft des heiligen Geistes / der durch das Predigampt krefftiglich wircket / an
+Christum gleuben / vnd biß an das ende beharren / sollen selig seyn / die aber
+nicht gleuben / verdampt werden / Marc cap. 16. Joh. 3.</p>
+<p>Wo nun dieser Grund recht gelegt / vnd die Göttliche Ordenung wol in acht
+genommen wird / da können wir gewißlich finden / wie ein gleubiges Hertz mit
+gutem festen Bestande sagen könne: Christus ist meine Aufferstehung / Christus
+ist mein Leben. Nicht allein daß es sich einschliesse in die gemeine
+Verheissung: Den&#x0303; / da GOtt wil / daß alle Menschen sollen selig
+werden / da wil er auch ja daß ich sol selig werden. Da GOtt hat allen Menschen
+seinen Sohn gegeben / da hat er jhn ja auch mir gegeben. Da JESus Christus für
+alle Menschen gestorben / da ist er auch ja für mich gestorben / vnd hat für
+meine Sünde genug gethan. Da GOttes ernster wille / daß alle&#x0303;
+Menschen solche Gnade vnd Wolthaten durchs Predigampt auffgetragen / vnd zu
+eigen gegeben werde / da ist auch sein ernster wille / daß es mir also
+auffgetragen vnd zu eigen gegeben werde. Sondern es fasset auch die Ordnung an
+einander / vnd gehet von dem letzten biß zu dem ersten / vnd schleust
+ohnwiedertreiblich / wo sich das eine finde / da musse sich auch ja das ander
+finden / vnd spricht: Welche GOtt zu dem Reich seines Sohns durchs Evangelium
+vnd heiligen Sacrament berüffet / für dieselbe ist Christus gestorben / deren
+Heyland vnd Seligmacher / deren Aufferstehung vnd Leben ist er auch / vnd wil
+GOTT ernstlich / daß sie an Christum sollen Gleuben vnd Selig werden.</p>
+<p>Nun lesset mir auch ja GOtt sein Wort predigen / vnd
+<pb facs="#f0044"/>
+also zu der Hochzeit seines
+lieben Sohns beruffen / ja er hat mit denselben in der heiligen Tauffe angezogen
+/ vnd durch jhn mit mir einen Gnadenbund des guten Gewissens auffgerichtet /
+welchen er so offtmahls mit mir ernewert vnd bestetiget / durch den Him&#x0303;lischen Löseschlüssel / wenn er durch den Mund seines Dieners in
+mein Ohren vnd Hertz zu spricht: Sey getrost / mein Sohn / mein Tochter / dir
+sind alle deine Sünde vergeben / Item durch das hochwürdige Abendmahl / da er
+vermittels Brods vnd Weins / eben mit dem Leib vnd Blut seines Sohns speiset
+vnnd tre&#x0303;cket / welches ist vor vnsere Sünde dahin gegeben vn&#x0303; vergossen / vnd also das wahre Lösegelt vnd Bezahlung vor aller
+Welt Sünde geworden. Derowegen bin ich so gewis / daß ehe Himmel vnd Erden
+vergehen solte / ehe denn dis Wort GOttes falsch / Daß auch Christus für mir
+gestorben sey mein Heyland vnd Seligmacher / mein Leben vnd Aufferstehung / vnd
+daß GOTTes ernster wille / daß ich jhn also in wahrem Glauben ansehen vnd
+erkennen / vnd in festem vertrawen mich an jhn halten / vnd ewiglich Gerecht vnd
+Selig werden sol.</p>
+<p>Sehet meine Geliebten / wo man sich also einfeltig bindet an GOttes Wort / vnd
+seinen geoffenbarten willen / das gibt Gewißheit / das klinget vnd dringet /
+hafftet vnd safftet in das Hertz hinein / daß die Pforten der Hellen einem
+gleubigen Menschen vnbeweglich müssen stehen lassen die tröstliche Worte:
+Christus ist mein Leben / Sterben ist mein Gewin&#x0303;. Vnd ein solcher
+Mensch ist Selig / vnd des rechten Lebens theilhafftig worden / daß vber jhn der
+andere Todt nicht herrschen kan / sondern wenn er schon stirbt / mus er doch
+leben / vnd das leben / so in Christo verborgen ist / recht offenbahr
+werden.</p>
+<p>Weil das nun im Glauben mus angehen / vnd biß zum seligen anschawen hinaus
+geführet werden / so müssen wir vns demnach auch stetigs halten / an das
+gepredigte Wort vnnd heilige Sacramenta / deßgleichen an das ernstliche gebet /
+GOtt für Au-
+<pb facs="#f0045"/>
+gen haben / den
+Geist GOttes vns regieren vnd leiten lassen / dem Nehesten dienen im allen guten
+/ vnd vns gentzlich ergeben in den Gehorsam Christi / in sein Schutz vnd
+Bewahrung nebenst fleissigen anruffung vmb vergebung aller vnser Sünde / damit
+wir also im Glauben mügen bestendig bleiben / vnd mit Paulo sagen: 2. Tim. 4.
+Ich habe einen guten Kampff gekämpffet / ich habe den Lauff vollendet / ich habe
+Glauben gehalten: Hinfort ist mir beygelegt die Kron der Gerechtigkeit / welche
+mir der HErr an jenem Tage / der Gerechte Richter geben wird. Nicht mir aber
+allein / sondern allen / die seine Erscheinung lieb haben. Zu solcher ewigen
+Ehrenkrone wolle vns verhelffen in bestendigkeit des Glaubens / GOtt Vater /
+Sohn vnd heiliger Geist / die hochgelobte Dreyfaltigkeit von Ewigkeit zu
+Ewigkeit / AMEN.</p>
+</div>
+<div>
+<head>Personalia.<lb/>
+</head>
+<p>WAS nun anlanget den Weyland Ehrwürdigen / Ehrnvesten / Achtbahrn vnd Wol.
+gelarten Herrn Iohannem Bodenmeiern / so weis E. L. wol / daß der gebrauch nicht
+ist / von der verstorbenen Ankommen / Wesen vnnd Wandel viele Wort zu mache&#x0303; / oder jhre laudes zu decantiren, denn es hilfft auch nicht zur
+Seligkeit / daran ists wol zum meisten gelegen / daß Wir vnd die Gefreundten
+fürnemlich sehen / wie sie Seliglich gestorben / vnd wir jhnen im Friede vnd
+Frewde hernach folgen mügen. Ein wenig gleichwol davon zu berühren: Nach deme er
+von fürnemen Elteren / jedoch in Sünden empfangen vnd geboren / vnd von
+denselben durch die heilige Tauffe dem Herrn Christo / nicht allein wieder zu
+getragen / sondern auch zu aller gottseligkeit vnd zu&#x0303;
+Stu-
+<pb facs="#f0046"/>
+diren fleissig
+angehalten / vnd er sich selber dazu beflissen / hat er sich endlich vor 40.
+Jahren in den heiligen Ehestand nach GOttes gnedigen schickung begeben / vnd als
+ein Mann / der den HErren fürchtet / vnd auff seinen Wegen gehet / darinnen auch
+GOttes reichen Segen gespüret / als trew vnd liebe / gehorsam vnd friede / dafür
+er auch dem lieben GOtt allewege von Hertzen gedancket hat.</p>
+<p>Bey solchem Haußsegen aber / hat sich dennoch auch mercken lassen / die
+Väterliche vnd nützliche Zuchtruhte (denn welchen GOtt lieb hat / den züchtiget
+er auch / vnd hat wolgefallen an jhm / wie an einem Sohn) vnd das nicht allen an
+jhm vnd seinem Leibe / sondern fürnemlich an seinen lieben Kindern / deren er
+etzliche forhin senden vnd verlassen müssen / ja an seinen lieben
+Bundsgesellinnen / deren zween mit jhrem zeitlichen Hintrit jhn zum zweyten mahl
+in den schmertzlichen vnd betrübten Witwerstandt gesetzet haben. Vn&#x0303; ob jhm das wol sehr harte grieffe an sein Hertze gewesen / so hat er doch
+solche Väterliche Ruhten recht gebraucht / zu dem gemeinten Ziel / als zur Buß /
+vnd den Glauben Gedult vnd Hoffnung zu beweisen / des Zeitlichen zuvergessen /
+vnd allein auff GOtt das vertrawen zu setzen.</p>
+<p>Sein Amptswesen vnd Wandel betreffendt / so hat jhne GOtt alß einen Arbeitsamen
+vnnd fleissigen Menschen bald angespannet / vnd in den Christlichen löblichen
+Regentenstandt verordnet / darinnen er auch fürnehme Empter bedienet / vnd zwar
+eine lange geraume zeit in die 45. Jahr / vier vnterschiedenen hochlöblichen
+Fürsten vnnd Herrn / dieses hochlöblichen Hauses Braunschweig.</p>
+<p>Vnd allezeit so wol in seinem hohen Alter / als in seiner Jugend mit solchem
+getrewen fleiß vnd vnverdrossenheit / daß ich mich auff aller öffentliches
+Zeugnis wol beruffen mag. Sintemahl es sich in der That bewiesen / wie all sein
+Sinn vnd Gedancken / all sein Mühe vnd Fleiß dahin sein einzieg gerichtet
+gewe-
+<pb facs="#f0047"/>
+sen / daß die
+liebe Iustitia neben seines gnedigen Fürsten vnd Herren / wie auch des gantzen
+Landts besten vnd auffnemen möchte erhalten vn&#x0303; befördert werden
+Weil aber Gerechtigkeit vnd Warheit nicht jedermans Freund / hat er auch nach
+ist bey allen / wie der alte Gebrauch / gleichen Danck verdienen können.</p>
+<p>Irgendt für anderthalb Jahr / ist er in Ansehen seines Alters / vieler grossen
+Mühe zu erheben / seiner Dienste / jedoch ga&#x0303;tz gnediglich
+dimittirt vnd erlassen worden / welche dimission als ein Arbeitsamer Mensch /
+der auch zu keinem ding verdrossen worden war / er jhm zwar anfangs tieff zu
+Hertzen gezogen / aber so hat er sich doch endlich darinnen gantz vnterthänig
+vnd williglich mit gebührender Dancksagung begeben / vnd gesagt / Weil er nun in
+Weltlichen Sachen hette außgearbettet / so wolte er sich desto neher vnd fester
+an GOTt halten / der würde jhn nicht dimittiren noch erlassen / deme wolte er
+nun desto fleissiger vnd ruhiger die nen / biß er jhn endlich gar aus dem
+Angstkarren außspannen würde. Dahin er auch seit derselben zeit seiner dimission
+ein hertzliches verlangen getragen / vnnd mit seinen Kinderen fast jmmer vom
+Todt vnd Sterben geredt hat / auch nicht ruhen können / biß sein Ruhkammer alhie
+auff dem Gottes Acker verfertiget vnd fein Zierlich zugerichtet würde.</p>
+<p>Wie das nun ist ein anzeig eines recht Christlichen Hertzens / wie auch des
+eiffers / denn er allewegen in fleissiger anhörung göttliches Worts vnd Gebrauch
+des hochwürdigen Abendmahls hat sehen lassen / so hat er auch dasselbe für wenig
+Tagen erlanget. Denn da schicket jhm GOtt der HErr zu grosse Schmertzen vnd
+Wehetagen seines Leibes vom Calculo oder Stein / durch welcher stetiges anhalten
+er nicht allein dermassen außgemattet / sondern auch andere symtomata dazu
+kommen / daß er leichtlich gemercket / daß das Ziel seines Lebens nun für dem
+Fuß were / da hat er das mit gehorsamen Gemüt verstanden / sich dem lieben GOtt
+gantz ergeben / der wol / es mit jhm machen nach
+<pb facs="#f0048"/>
+seinem Väterlichen Willen. Vnd
+damit ja sein Glaube nicht erschrecken müchte für des Todtes Noht / hat er mit
+begierlichem Hertzen / vnd mit sonderlichen devotion zwey Tag für seinem Ende
+sich speisen vnd trencken lassen mit dem Leib vnd Blut Christi / vnd sich dessen
+auch hertzlich getröstet / nicht zweiffelendt / daß nunmehr das Geistliche Band
+des Glaubens zwischen jhm vnd Christo dermassen befestiget / daß sie der Todt
+vnd keine Schmertzen trennen solte. Denn ob er wol mit grossen Schmertzen des
+Todtes vnd Stündeleins erwarten müssen / so er doch das gethan mit grosser
+Gedult sich auch der Evangelischen Trostsprüch von Hertzen erfrewet vnd
+fürnemlich auch mit schwerer Zungen etzliche mahl repetirt vnd wiederholet die
+herrliche Wort Assaph / Psal 73. HERR / wenn ich nur dich habe / so frage ich
+nicht nach Himmel vnd Erden / wenn mir auch Leib vnnd Seel verschmachtet / so
+bistu doch allzeit meines Hertzens Trost vnd mein Theil. Auch gerne in seinem
+Hertzen zu etzlich mahl mir nachgebetet den Christlichen Kirchengesang / HErr
+JESV Christ war Mensch vnd GOtt / etc. Vnd noch jrgend eine halbe stunde für dem
+Ende von mir begert / jhm vor zubeten: Nun bitten wir den heilig en Geist / vmb
+den rechten Glauben aller meist / daß er vns behüte an vnserm Ende / wenn wir
+heimfahren aus diesem Elende / Kyrieletson. Vnd so bald solches zum Ende
+gesprochen / hat er nachmahls seines HErrn JEsu begierlich erwartet / jhme seine
+tewererarnte Seele zu geträwen Händen befohlen: Darauff jhm ein vngewöhnlicher
+gelinder Schlaff ankommen / darinnen er absque metu &amp; motu ohn alle
+Schmertzen vnd Bewegung fein sanfft vnd seliglich geblieben vnd eingeschlaffen
+ist / da er das 71. Jahr seines Lebens erreichet hat. Da ist nun an jhm er
+füllet worden / was Christus sagt: Ich bin die Aufferstehung vnd das Leben / wer
+an mich gleubet / der wird Leben ob er gleich Stürbe. Wer da lebet vnd an mich
+gleubet / der wird nimmermehr Sterben. Das siehet vnd empfindet er nun für Augen
+<pb facs="#f0049"/>
+nach seiner Seelen / vnd
+erwartet mit frölichem Muht die Aufferstehung vnd herrlichmachung seines Leibs
+an dem jüngsten Tage: Das sollen wir vnd alle betrübte Anverwanten jhm von
+Hertzen gün&#x0303;en / vnd Gott bitten / er wolle die betrübte Hertzen
+trösten vnd erquicken mit seinem heiligen Frewden Geist / vnd vns allen in
+bestendigem Glauben erhalten / vnd zu rechter zeit aus dieser bösen Wallfahrt zu
+sich heim holen / in das rechte Vaterland / daß wir jhn anschawen von Angesicht
+zu Angesicht / vmb JEsu Christi seines eingebornen Sohns willen / Amen.</p>
+</div>
+<div>
+<head>PIIS MANIBVS Clarissimi &amp; Doctissimi Viri, Dn. IOANNIS BODEMEIER, <hi rendition="#i">Beatae Memoriae,</hi> Serenissimorum Ducum Brunsvic. &amp;
+Lünaeburgensium Camerae-Secretarii quondam fidelissimi, <hi rendition="#i">Qui
+in Domino placidè exspiravit</hi> a. d. 20. April. Anno M. DC. XX.<lb/>
+</head>
+<l>QVem juris studium, quem sapientiae Cura &amp; nobilium fecerat artium Indefessus
+amor, valdè operosaque Musarum otia nobilem; Qui gratus Deo erat, gaudiaque
+angelis, In quo Christus erat vita, doletis hunc
+<pb facs="#f0050"/>
+Extinctum lacrymis, nec minuunt
+morae, aut Multi tristitiam dies? Ast felix obitus, quem sapientiae Laus ornat,
+quoniam robore stat suo Virtus, Peliaca ut quercus, &amp; aequoris Saxum
+Carpathii manet. Mors felix magis est, quam pietas fidesque Absorbet. Quoniam
+robore stat Dei Isthaec vita piis propria, &amp; ut Deus Noster perpetuùm
+manet.</l>
+<p>HENRICUS VVIDEBURGIUS Th. D.</p>
+<p><foreign xml:lang="el"><gap reason="fm"/></foreign>.</p>
+</div>
+<div>
+<head>EPOS FVNEBRE.<lb/>
+</head>
+<l>SI licet &amp; fas est, desideriosa recessu Pectoris ex imo suspiria ducere &amp;
+udos Exstillare oculis, moerore ciente, liquores, Emerito cùm Parca seni sua
+stamina rumpit: MUSA, fac officium: posito velamine picto, Atratâ cingare togâ,
+vultuque severo Conspiciare: novos hodiè modulabere questus, Aularum satur ac
+aevi sua lumina letho Clausit IO ANNIS BODMEIER, quando supremum Addere septenis
+decies jam caeperat annum. Illum MUNDA, ferax hominum, prudentia coelo Quos sua
+&amp; Eloquium tollit, generosaque Virtus, Nascentem tulit. At puerum Juvenemque
+Camaenae Exceptum gremio, &amp; lymphâ Permessidos undae Lotum, Deliacis enutri
+vere sub umbris,
+<pb facs="#f0051"/>
+Doneceum GRAPHICE tandem traduxit in Aulas
+Brunsviacas, jussitque Ducum secreta tueri. Hîc jam dexteritas, doctrina,
+fidesque probata Illius enituit: nam sive negotia certa Oretenus cautis essent
+referenda Synedris, Sive foret calamo res expedienda perito, BODMEIERIADES
+linguâ calamoque valebat. Quatuor hinc DUCIBUS, Dominos Brunonia tellus Ordine
+quos habuit, fidus carusque minister Extitit, illorumque suâ virtute favorem
+Insignem meruit: quid enim non vivida posset Virtus? Saepè quidem Sors intenta
+vit in illum Tela sua, evasit salvus tamen ille perîclum. Hunc tantum mors saeva
+virum jugulavit, eumque Sub saxo gelidi damnavit frigore busti. Vos Nati,
+Nataeque Patrem, Generique doletis Ereptum Socerum, nec abest pia caussa
+dolendi. Amisistis enim, si fas ita dicere, vestrae Praesidium columenque domus:
+de vertice veftro Sublatum decus est: vobis qui sanguinis autor, Triste vale
+mundo dixit, claususque sepulchro est. AEqua tamen minuet gemino solamine luctum
+Temperies, &amp; quòd fuerit non praecoce raptus Interi tu, ceu mala solent,
+quae vermis adedit; Et quòd ad extremi vergens jam temporis horam Commendârit
+amica animae spiracula Christo. Christo qui moriens cedit, licet omnia regna
+Deserat in terris; aurum licet omne relinquat, Extulit è nigris unquam quod
+avara cavernis Fossio, pulvîsclum perdit, totosque beatus Assequitur montes
+coeli super axe salutis.</l>
+<pb facs="#f0052"/>
+</div>
+<div>
+<head>AENIGMA.<lb/>
+</head>
+<l>Est M. quod egregios dat &amp; dedit viros, Sed eos M. aufert alterum.</l>
+<p>M. Fridericus Hildebrandus, P.L. Rector Scholae VVolferbytanae.<lb/>
+</p>
+</div>
+</body>
+</text>
+</TEI>

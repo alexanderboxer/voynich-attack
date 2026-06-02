@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Leichpredigt Vber das Trostsprüchlein S. Pauli zun Philip. am 3. Cap. Vnser Wandel ist im Himmel/ etc. Bey Christlicher Leichbestattung der Erbaren vnd Ehrentugendsamen Frawen Gertrauden</title>
+<author>
+<persName ref="http://d-nb.info/gnd/11546364X">
+<surname>Hoepner</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">27</measure>
+<measure type="tokens">3989</measure>
+<measure type="types">1413</measure>
+<measure type="characters">26417</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T10:13:12Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/510783</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/510783</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/510783</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/510783</idno>
+<idno type="DTADirName">510783</idno>
+<idno type="DTAID">200172</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200172-9</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Hoepner, Johann: Leichpredigt Vber das Trostsprüchlein S. Pauli. Leipzig, 1632.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Leichpredigt Vber das Trostsprüchlein S. Pauli zun Philip. am 3. Cap. Vnser Wandel ist im Himmel/ etc. Bey Christlicher Leichbestattung der Erbaren vnd Ehrentugendsamen Frawen Gertrauden</title>
+<author>
+<persName ref="http://d-nb.info/gnd/11546364X">
+<surname>Hoepner</surname>
+<forename>Johann</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">27</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Gregorius Ritzsch</name></publisher>
+<pubPlace>Leipzig</pubPlace>
+<date type="publication">1632</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 O 787/14 / 510783</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b"><hi rendition="#fr">Leichpredigt</hi></hi></titlePart><lb/>
+<titlePart type="sub">Vber das Tro&#x017F;t&#x017F;pru&#x0364;chlein <cit><bibl>S. Pauli zun Philip.<lb/>
+am 3. Cap.</bibl><lb/>
+<quote><hi rendition="#b">Vn&#x017F;er Wandel i&#x017F;t im Himmel/ &#xA75B;c.</hi></quote></cit></titlePart><lb/>
+<titlePart type="desc">Bey Chri&#x017F;tlicher Leichbe&#x017F;tattung der Erbaren<lb/>
+vnd Ehrentugend&#x017F;amen Frawen<lb/>
+<hi rendition="#b"><hi rendition="#fr">Gertrauden/</hi><lb/>
+Deß Ehrenve&#x017F;ten vnd Wolgeachten</hi><lb/>
+Herrn Johann Pab&#x017F;ts/ Bu&#x0364;rgern vnd Ju-<lb/>
+bilirern allhier/ gewe&#x017F;enen Ehelichen<lb/>
+Haußfrawen.<lb/>
+<hi rendition="#fr">Welche den 29. Octob. in Chri&#x017F;to Je&#x017F;u &#x017F;e-</hi><lb/>
+lig ent&#x017F;chlaffen/ vnd den folgenden 31. <hi rendition="#aq">hujus</hi> mit<lb/>
+Chri&#x017F;tlichen Ceremonien i&#x017F;t zur Erden be-<lb/>
+&#x017F;tattet worden.</titlePart></docTitle><lb/>
+<byline><hi rendition="#b">Gehalten durch</hi><lb/>
+<docAuthor><hi rendition="#aq">JOHANNEM HÖPNERUM</hi></docAuthor> <hi rendition="#aq">SS. Th.<lb/>
+D. Prof. Publ. &amp; ad D. Nicolai Pa&#x017F;torem.</hi></byline><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace><hi rendition="#b">Leipzig</hi></pubPlace>/<lb/>
+<hi rendition="#b">Gedrucke bey </hi><publisher><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Gregorio</hi></hi></hi><hi rendition="#b"> Ritz&#x017F;chen</hi></publisher><lb/>
+<hi rendition="#b">Im Jahr </hi><docDate><hi rendition="#b">1632</hi></docDate><hi rendition="#b">.</hi></docImprint></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<pb facs="#f0003" n="[3]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="1"><head/>  <salute><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">In Nomine Jesu.</hi></hi></hi></hi></salute><lb/>
+<div type="fsBibleVerse" n="2"><head>Spru&#x0364;chlein S. Pauli zun Philippern<lb/>
+am 3. Capitel.</head><lb/>
+<cit><quote><hi rendition="#fr"><hi rendition="#in">V</hi>N&#x017F;er Wandel i&#x017F;t im Him-<lb/>
+mel/ von dannen wir<lb/>
+auch warten deß Heylan-<lb/>
+des <hi rendition="#g">JESV</hi> CHri&#x017F;ti des<lb/>
+HERRN/ welcher vn&#x017F;ern<lb/>
+nichtigen Leib verkla&#x0364;ren wird/ daß er<lb/>
+a&#x0364;hnlich werde feinem verkla&#x0364;rten Lei-<lb/>
+be/ nach der Wu&#x0364;rckung/ da er mit kan<lb/>
+auch alle Ding jhm vntertha&#x0364;nig ma-<lb/>
+chen.</hi></quote></cit></div><lb/>
+<div type="fsExordium" n="2"><head><hi rendition="#aq">Exordium.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">G</hi>Eliebte vnnd Anda&#x0364;chtige in CHri&#x017F;to dem</hi><lb/>
+<hi rendition="#k">HErrn/</hi> was wir ta&#x0364;glich beten in der 7.<lb/>
+Bitte des H. Vater Vn&#x017F;ers/ <hi rendition="#k">HErr/</hi> erlo&#x0364;&#x017F;e<lb/>
+vns von dem Vbel/ das wird vns von GOtt ge-<lb/>
+wa&#x0364;hret durch ein &#x017F;anfftes &#x017F;eliges Simeons-<lb/>
+<fw place="bottom" type="sig">A ij</fw><fw place="bottom" type="catch">Stu&#x0364;nd-</fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<fw place="top" type="header"><hi rendition="#b">Vn&#x017F;er Wandel i&#x017F;t im Himmel/</hi></fw><lb/>
+Stu&#x0364;ndlein/ vnd welchem &#x017F;olche Erlo&#x0364;&#x017F;ung in<lb/>
+Gnaden wiederfehret/ den&#x017F;elbigen hat man fu&#x0364;r<lb/>
+glu&#x0364;ck&#x017F;elig zu&#x017F;chetzen/ zu aller Zeit/ &#x017F;onderlich<lb/>
+aber zu der Zeit/ wenn GOtt &#x017F;eine Kinder mit<lb/>
+Landplagen angreiffet vnd heim&#x017F;uchet/ wie wir<lb/>
+jetzt alle 3. Landplagen/ Krieg/ Pe&#x017F;tilentz vnd<lb/>
+Thewrung gleich&#x017F;am fu&#x0364;hlen. Wol allen nu/<lb/>
+die &#x017F;ich zu einem &#x017F;eligen Ab&#x017F;chied gefa&#x017F;t vnd be-<lb/>
+reit halten/ Sie thun einen &#x017F;eligen Wech&#x017F;el/<lb/>
+wenn &#x017F;ie <hi rendition="#g">GOTT</hi> abfordert/ &#x017F;ie kommen auß<lb/>
+der Vnruhe zur &#x017F;toltzen Ruhe/ &#x017F;ie kommen auß<lb/>
+dem Jammerthal in den Himli&#x017F;chen Frewden-<lb/>
+Saal/ &#x017F;ie werden vollko&#x0364;m&#x0303;lich von allem Vbel<lb/>
+erlo&#x0364;&#x017F;et/ vnd thun einen &#x017F;eligen Wech&#x017F;el/ de&#x017F;&#x017F;en<lb/>
+&#x017F;ie &#x017F;ich in Ewigkeit zu erfrewen haben. Solches<lb/>
+i&#x017F;t auch vn&#x017F;erer im HErrn Chri&#x017F;to &#x017F;eliglich Ver-<lb/>
+&#x017F;torbenen Mit&#x017F;chwe&#x017F;ter nach Gottes gna&#x0364;digen<lb/>
+Willen wiederfahren/ denn nachdem &#x017F;ie vom<lb/>
+gro&#x017F;&#x017F;en Er&#x017F;chreckniß gantz lagerhafftig worden/<lb/>
+hat &#x017F;ie &#x017F;ich zu einer &#x017F;eligen Hinfart Chri&#x017F;tlicher<lb/>
+wei&#x017F;e bereitet/ vnd &#x017F;ich jhres Wandels oder<lb/>
+Bu&#x0364;rgerRechts im Himmel inniglich getro&#x0364;&#x017F;tet/<lb/>
+vnd weil &#x017F;ie jhr &#x017F;elb&#x017F;t das abgele&#x017F;ene Spru&#x0364;chlein<lb/>
+zum Leichen Text erkoren hat/ wolle&#x0303; wir da&#x017F;&#x017F;elbe<lb/>
+in folgende&#x0303; 2. Pu&#x0364;nctlein zu die&#x017F;em mal erkla&#x0364;ren.</p><lb/>
+<fw place="bottom" type="catch">Er&#x017F;t-</fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+<fw place="top" type="header"><hi rendition="#b">Da kein Krieg mehr noch Getu&#x0364;mmel.</hi></fw><lb/>
+<div n="3"><head/><p>Er&#x017F;tlich wollen wir ho&#x0364;ren/ wie S. Paulus<lb/>
+vns den Chri&#x017F;tlichen Wandel be&#x017F;chreibe.</p><lb/>
+<p>Fu&#x0364;rs 2. wollen wir anzeigen/ was wir von<lb/>
+der Belohnung &#x017F;olches himli&#x017F;chen Wandels zu-<lb/>
+gewarten. Von die&#x017F;en beyden Puncten/ vnd<lb/>
+was wir darauß fu&#x0364;r Lehren/ Tro&#x017F;t vnd Erinne-<lb/>
+rung zu behalten haben/ &#x017F;ol auff dißmal kurtzer<lb/>
+vnd einfa&#x0364;ltiger Bericht gethan werden.</p><lb/>
+<p>Hierzu wolle vns GOtt der <hi rendition="#k">Herr</hi> &#x017F;eines<lb/>
+Heiligen Gei&#x017F;tes Gnade mildiglich verleihen/<lb/>
+vmb Chri&#x017F;ti Je&#x017F;u willen/ Amen.</p></div></div><lb/>
+<div n="2"><head/>  <div n="3"><head><hi rendition="#aq">De I.</hi></head><lb/>
+<p><hi rendition="#in">S</hi>Anct Paulus be&#x017F;chreibet den Chri&#x017F;tlichen<lb/>
+Wandel in den vorhergehenden Worten<lb/>
+<hi rendition="#aq">negativè,</hi> was er nicht &#x017F;ey/ nemlich nicht<lb/>
+ein jrrdi&#x017F;cher Wandel/ wie die Weltkinder nur<lb/>
+dem Geitz vnd vnreinen Lu&#x0364;&#x017F;ten ergeben &#x017F;eyn/<lb/>
+welchen der Bauch jhr GOtt i&#x017F;t/ aber es nimbt<lb/>
+ein bo&#x0364;&#x017F;e Ende mit jhnen/ denn jhre Ehre wird<lb/>
+zu Schanden/ vnd &#x017F;ie mu&#x0364;&#x017F;&#x017F;en ins Verdamniß<lb/>
+fahren.</p><lb/>
+<p>Einen &#x017F;olchen jrrdi&#x017F;chen Wandel fu&#x0364;hren die<lb/>
+Chri&#x017F;ten nicht/ &#x017F;ondern einen himli&#x017F;chen Wan-<lb/>
+del/ welchen S. Paulus al&#x017F;o be&#x017F;chreibet: Vn&#x017F;er<lb/>
+Wandel i&#x017F;t im Himmel. Das Griechi&#x017F;che Wo&#x0364;rt-<lb/>
+<fw place="bottom" type="sig">A iij</fw><fw place="bottom" type="catch">lein</fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+<fw place="top" type="header"><hi rendition="#b">Vn&#x017F;er Wandel i&#x017F;t im Himmel/</hi></fw><lb/>
+lein &#x03D6;&#x03BF;&#x03BB;&#x03AF;&#x03C4;&#x03B5;&#x03C5;&#x03BC;&#x03B1; hei&#x017F;t eigentlich ein Bu&#x0364;rgerrecht/<lb/>
+daß einer mit Geld an &#x017F;ich gebracht hat/ oder ge-<lb/>
+ho&#x0364;ret jhm von Rechts wegen/ wenn er von einem<lb/>
+&#x017F;olchen Vater gezeuget i&#x017F;t/ der Bu&#x0364;rger i&#x017F;t gewe-<lb/>
+&#x017F;en/ vnd i&#x017F;t ein Gleichniß von dem StadtRegi-<lb/>
+ment genommen/ damit S. Paulus lehren wil/<lb/>
+daß die Chri&#x017F;ten auch ein StadtRecht haben/<lb/>
+oder ein Vaterland/ darinnen &#x017F;ie eine bleibende<lb/>
+Sta&#x0364;dte finden/ nicht allhier in der Welt/ &#x017F;ondern<lb/>
+in dem Himmel/ darinnen GOTT wohnet/ vnd<lb/>
+&#x017F;ich frey auffgedecket zuerkennen giebet den H.<lb/>
+Engeln vnd den Au&#x017F;&#x017F;erwehlten Kindern GOt-<lb/>
+tes. Das i&#x017F;t das himli&#x017F;che Jeru&#x017F;alem/ die Stadt<lb/>
+<note place="left"><hi rendition="#aq">Heb.</hi> 12.</note>des lebendigen GOTTES/ Heb. 12. Ein Land<lb/>
+<note place="left"><hi rendition="#aq">P&#x017F;alm.</hi> 27.</note>der Lebendigen P&#x017F;. 27. Das Hauß des himli&#x017F;chen<lb/>
+<note place="left"><hi rendition="#aq">Ioh.</hi> 14,</note>Vaters/ Joh. am 14.</p><lb/>
+<p>Daß wir nu jetzt in &#x017F;olchem Himmel nicht<lb/>
+&#x017F;eyn/ das i&#x017F;t vn&#x017F;er Su&#x0364;nden Schuld. Aber Chri-<lb/>
+&#x017F;tus der Sohn GOttes hat vn&#x017F;ere Su&#x0364;nde mit<lb/>
+&#x017F;einem eigenen Blut vertilget/ vnnd vns das Le-<lb/>
+ben erworben/ er hat vns die ver&#x017F;chlo&#x017F;&#x017F;ene Hun-<lb/>
+melspfort ero&#x0364;ffnet/ daß wir durch den Glauben<lb/>
+an &#x017F;einem Namen die ewige Seligkeit erlangen<lb/>
+&#x017F;ollen. Solch himmli&#x017F;ches Stadtrecht wird vns<lb/>
+durch die H. Tauffe mitgetheilet/ dadurch vn-<lb/>
+<fw place="bottom" type="catch">&#x017F;ere</fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+<fw place="top" type="header"><hi rendition="#b">Da kein Krieg mehr noch Getu&#x0364;mmel.</hi></fw><lb/>
+&#x017F;ere Namen in das Stadtbuch des lebendigen<lb/>
+GOttes ge&#x017F;chrieben werden/ vnd wenn wir das<lb/>
+H. Evangelium ho&#x0364;ren/ vnd mit Glauben anneh-<lb/>
+men: Wenn wir das H. hochwu&#x0364;rdige Abendmal<lb/>
+wu&#x0364;rdiglich gebrauchen/ &#x017F;o werden wir in &#x017F;olchem<lb/>
+Glauben vnd Hoffnung ge&#x017F;tercket/ daß wir &#x017F;ind<lb/>
+Bu&#x0364;rger vnd Haußgeno&#x017F;&#x017F;en Gottes.</p><lb/>
+<p>Wie nun die Bu&#x0364;rger in einer Stadt einerley<lb/>
+Privilegien/ Nahrung/ Schutzes vnd Freyheit<lb/>
+genie&#x017F;&#x017F;en: Al&#x017F;o haben auch die Bu&#x0364;rger GOttes<lb/>
+einerley Privilegien vnd Freyheiten zugenie&#x017F;&#x017F;en/<lb/>
+welche &#x017F;ie allhier im Glauben vnd in der Hoff-<lb/>
+nung be&#x017F;itzen/ dort aber werden &#x017F;ie die&#x017F;elbigen in<lb/>
+ewigen Friede vnd Frewde genie&#x017F;&#x017F;en. Gleichwie<lb/>
+auch die Bu&#x0364;rger &#x017F;ich richten nach den <hi rendition="#aq">Statuten,</hi><lb/>
+Ordnungen vnd Gewonheiten gemeiner Stadt:<lb/>
+Al&#x017F;o haben auch die Bu&#x0364;rger Gottes jhre <hi rendition="#aq">Statuta,</hi><note place="right"><hi rendition="#aq">E&#x017F;a.</hi> 8.</note><lb/>
+nemlich das Ge&#x017F;etz vnd Zeugnis E&#x017F;a. am 8. Dar-<lb/>
+nach &#x017F;ollen &#x017F;ie &#x017F;ich richten im Glauben vnd im Le-<lb/>
+ben. Denn wir haben ein fe&#x017F;tes propheti&#x017F;ches<note place="right">2. <hi rendition="#aq">Pet.</hi> 1.</note><lb/>
+Wort/ &#x017F;pricht S. Petrus 2. Petr. am 1. vnd jhr<lb/>
+thut wol/ daß jhr darauff achtet/ als auff ein<lb/>
+Liecht/ daß da &#x017F;cheinet in einem dunckeln Ort/<lb/>
+biß der Tag anbreche/ vnd der Morgen&#x017F;tern auff-<lb/>
+gehe in ewrem Hertzen.</p><lb/>
+<fw place="bottom" type="catch">Dar-</fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+<fw place="top" type="header"><hi rendition="#b">Vn&#x017F;er Wandel i&#x017F;t im Himmel/</hi></fw><lb/>
+<p>Darnach be&#x017F;chreibet S. Paulus den Wan-<lb/>
+del der Chri&#x017F;ten durch die Hoffnung/ dadurch<lb/>
+wir warten des Heilandes Je&#x017F;u Chri&#x017F;ti des<lb/>
+<note place="left"><hi rendition="#aq">Rom.</hi> 8.</note>HErrn/ davon er auch &#x017F;chreibet zun Ro&#x0364;m. am 8.<lb/>
+Wir &#x017F;ind wol &#x017F;elig/ doch in der Hoffnung/ die<lb/>
+Hoffnung aber/ die man &#x017F;iehet/ i&#x017F;t nicht Hoff-<lb/>
+nung. Denn wie mag man des hoffen/ das man<lb/>
+&#x017F;iehet? So wir aber des hoffen/ daß wir nicht<lb/>
+&#x017F;ehen/ &#x017F;o warten wir &#x017F;ein durch Gedult. Vnd S.<lb/>
+<note place="left">1. <hi rendition="#aq">Joh.</hi> 3</note>Johan. &#x017F;chreibet in &#x017F;einer <hi rendition="#i">1.</hi> am 3. Wir &#x017F;ind nu<lb/>
+Kinder Gottes/ vnd i&#x017F;t noch nicht er&#x017F;chiene&#x0303;/ was<lb/>
+wir &#x017F;eyn werden. Wir wi&#x017F;&#x017F;en aber/ wann es er-<lb/>
+&#x017F;cheinen wird/ daß wir jhm gleich &#x017F;eyn werden/<lb/>
+denn wir werden jhn &#x017F;ehen/ wie er i&#x017F;t. Denn<lb/>
+weil wir durch das Wort vnd Sacramenten/<lb/>
+vnd durch den Glauben das StadtRecht im<lb/>
+Himmel erlanget haben/ &#x017F;o warten wir auch auff<lb/>
+die herrliche Freyheit der Kinder Gottes/ vnd<lb/>
+vns verlanget nach der herrlichen Zukunfft vn-<lb/>
+&#x017F;ers Heilandes/ dadurch er vns aus dem Kercker<lb/>
+die&#x017F;er Welt wird erlo&#x0364;&#x017F;en/ vnd wird vns ver&#x017F;etzen<lb/>
+in das ewige Vaterland/ in die Stadt des Le-<lb/>
+bendigen Gottes. Hierzu gebrauchet d<supplied>er</supplied> <hi rendition="#k">Herr</hi><lb/>
+Chri&#x017F;tus zweyerley Mittel/ 1. einen &#x017F;eligen Ab-<lb/>
+&#x017F;chied auß die&#x017F;er Welt/ fu&#x0364;rs 2. den lieben Ju&#x0364;ng-<lb/>
+<fw place="bottom" type="catch">&#x017F;ten</fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+<fw type="header" place="top"><hi rendition="#b">Da kein Krieg mehr noch Getu&#x0364;mmel.</hi></fw><lb/>
+&#x017F;ten Tag. Auff die&#x017F;e beyde mu&#x0364;&#x017F;&#x017F;en die Chri&#x017F;ten<lb/>
+ta&#x0364;glich/ ja &#x017F;tu&#x0364;ndlich/ warten/ &#x017F;ie &#x017F;ind keinen Au-<lb/>
+genblick &#x017F;icher dafu&#x0364;r/ denn des Men&#x017F;chen Sohn<lb/>
+wird kommen zu der Stunde/ da wir nicht mey-<lb/>
+ne&#x0303;. Der Todt wandert auch herumb/ vnd klopffet<lb/>
+&#x017F;tarck bey vns an/ bey jungen vnd alten/ bey<lb/>
+reichen vnd armen. J&#x017F;t demnach das gantze<lb/>
+Chri&#x017F;tenthumb nichts anders/ als eine flei&#x017F;&#x017F;ige<lb/>
+Bereit&#x017F;chafft zu einem &#x017F;eligen Sterbe&#x017F;tu&#x0364;nd-<lb/>
+lein/ vnd ein &#x017F;tetiges Wachen vnd Warten auff<lb/>
+die Zukunfft vn&#x017F;ers HErrn vnd Heilandes Je&#x017F;u<lb/>
+Chri&#x017F;ti/ welcher verordnet i&#x017F;t von GOtt ein<lb/>
+Richter der Lebendigen vnd der Todten. Der<lb/>
+hat vns zuge&#x017F;agt/ entweder durch ein &#x017F;elig Si-<lb/>
+meons&#x017F;tu&#x0364;ndlein/ oder durch &#x017F;eine herrliche Zu-<lb/>
+kunfft/ vns vollko&#x0364;mlich von die&#x017F;er Welt zu erlo&#x0364;-<lb/>
+&#x017F;en/ vnd vns in das rechte Vaterland oder in das<lb/>
+himli&#x017F;che Jeru&#x017F;alem zuver&#x017F;etzen/ da Frewde vnd<lb/>
+lieblich We&#x017F;en i&#x017F;t zur Rechten Gottes jmmer<lb/>
+vnd ewiglich/ im 16. P&#x017F;alm: da wir &#x017F;einer gro&#x017F;&#x017F;en<note place="right"><hi rendition="#aq">P&#x017F;.</hi> 16.</note><lb/>
+Herrligkeit genie&#x017F;&#x017F;en &#x017F;ollen/ wie er &#x017F;pricht Joh.<lb/>
+am <hi rendition="#i">17.</hi> Vater/ ich wil/ daß/ wo ich bin/ auch die<note place="right"><hi rendition="#aq">Joh.</hi> 17.</note><lb/>
+bey mir &#x017F;eyn/ die du mir gegeben ha&#x017F;t/ daß &#x017F;ie<lb/>
+meine Herrligkeit &#x017F;ehen/ die du mir gegeben ha&#x017F;t.<lb/>
+Vnd zum Colo&#x017F;&#x017F;. am 3. &#x017F;chreibet S. Paulus:<note place="right"><hi rendition="#aq">Colo&#x017F;s.</hi> 3.</note><lb/>
+<fw type="sig" place="bottom">B</fw><fw type="catch" place="bottom">Vn-</fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+<fw place="top" type="header"><hi rendition="#b">Vn&#x017F;er Wandel i&#x017F;t im Himmel/</hi></fw><lb/>
+Vn&#x017F;er Leben i&#x017F;t verborgen mit Chri&#x017F;to in Gott;<lb/>
+wenn aber Chri&#x017F;tus vn&#x017F;er Leben &#x017F;ich offenbah-<lb/>
+ren wird/ denn werden auch wir offenbahr<lb/>
+werden mit jhm in der Herrligkeit.</p></div><lb/>
+<div n="3"><head><hi rendition="#aq"><hi rendition="#g">USUS.</hi></hi></head><lb/>
+<p><hi rendition="#in">D</hi>Araus haben wir nu zu lernen/ 1. daß der<lb/>
+Chri&#x017F;ten Wandel nicht flei&#x017F;chlich noch jr-<lb/>
+di&#x017F;ch &#x017F;ey/ &#x017F;ondern es i&#x017F;t ein himli&#x017F;cher<lb/>
+Wandel/ wegen des himli&#x017F;chen Beruffs zum<lb/>
+Reich Gottes/ wegen der himli&#x017F;chen Gu&#x0364;tter/<lb/>
+die &#x017F;ie zu hoffen haben/ wegen des Glaubens an<lb/>
+den himli&#x017F;chen Ko&#x0364;nig Chri&#x017F;tum Je&#x017F;um/ vnd we-<lb/>
+gen des himli&#x017F;chen Wandels/ welchen &#x017F;ie fu&#x0364;h-<lb/>
+ren/ in dem &#x017F;ie der Su&#x0364;nden ab&#x017F;terben/ wider<lb/>
+den Teuffel/ Welt/ vnd Flei&#x017F;ch &#x017F;treiten/ vnd be-<lb/>
+halten die Hoffnung fe&#x017F;t bis ans Ende: Denn<lb/>
+&#x017F;ie haben jhr <hi rendition="#aq">datum</hi> nicht auff jhr zeitliches Leben<lb/>
+ge&#x017F;etzet/ &#x017F;ondern alle jhre Hoffnung &#x017F;tehet allein<lb/>
+zu GOtt/ den&#x017F;elbigen beten &#x017F;ie an im Gei&#x017F;t/ vnd<lb/>
+in der Warheit/ vnd ob &#x017F;ie gleich in der Welt<lb/>
+&#x017F;ind/ &#x017F;o &#x017F;ind &#x017F;ie doch nicht von der Welt/ &#x017F;ondern<lb/>
+&#x017F;ie halten &#x017F;ich mit fe&#x017F;tem Glauben an jhr Ha&#x0364;upt-<lb/>
+Gut/ welches i&#x017F;t Chri&#x017F;tus.</p><lb/>
+<p>Fu&#x0364;rs 2. lernen wir/ daß Chri&#x017F;ten Frembd-<lb/>
+<fw place="bottom" type="catch">linge</fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<fw type="header" place="top"><hi rendition="#b">Da kein Krieg mehr noch Getu&#x0364;mmel.</hi></fw><lb/>
+linge &#x017F;ind in der Welt/ wie David bekennet im<lb/>
+1. Chron am 30. Wir &#x017F;ind Frembdlinge vnd Ga&#x0364;-<note place="right">1. <hi rendition="#aq">Chr.</hi> 30</note><lb/>
+&#x017F;te fu&#x0364;r dir/ wie vn&#x017F;ere Va&#x0364;ter alle. Zum Heb. am<note place="right"><hi rendition="#aq">Heb.</hi> 13.</note><lb/>
+13. &#x017F;tehet ge&#x017F;chrieben: Wir haben hie keine blei-<lb/>
+bende Sta&#x0364;dte/ &#x017F;ondern die zuku&#x0364;nfftige &#x017F;uchen<lb/>
+wir. Derwegen halten &#x017F;ich auch die Chri&#x017F;ten vn-<lb/>
+befleckt in der Welt/ nach der Vermahnung Jo-<lb/>
+hannis/ in der <hi rendition="#i">1.</hi> Joh. 2. habet nicht lieb die Welt/<note place="right">1. <hi rendition="#aq">Joh.</hi> 2.</note><lb/>
+noch was in der Welt i&#x017F;t: So jemand die Welt<lb/>
+lieb hat/ in dem i&#x017F;t nicht die Liebe des Vaters:<lb/>
+Denn alles/ was in der Welt i&#x017F;t (nemlich des<lb/>
+Flei&#x017F;ches Lu&#x017F;t/ vnd der Augen Lu&#x017F;t/ vnd hofferti-<lb/>
+ges Leben) i&#x017F;t nicht vom Vater/ &#x017F;ondern von der<lb/>
+Welt: Vnd die Welt vergehet mit jhrer Lu&#x017F;t/<lb/>
+wer aber den Willen Gottes thut/ der bleibet in<lb/>
+Ewigkeit.</p><lb/>
+<p>Das &#x017F;ol vns nu reitzen zur Gedult in aller-<lb/>
+ley Creutz vnd Leiden. Jn der Welt habt jhr<lb/>
+Ang&#x017F;t/ &#x017F;pricht Chri&#x017F;tus Joh. am 16. Aber &#x017F;eyd ge-<note place="right"><hi rendition="#aq">Joh.</hi> 16.</note><lb/>
+tro&#x017F;t/ ich habe die Welt vberwunden. Die Welt<lb/>
+kan nichts anders/ als die frommen Chri&#x017F;ten<lb/>
+ha&#x017F;&#x017F;en/ wie der HErr Chri&#x017F;tus bezeuget Joh. <hi rendition="#i">1</hi>5.<note place="right"><hi rendition="#aq">Joh.</hi> 15.</note><lb/>
+Weret jhr von der Welt/ &#x017F;o hette die Welt das<lb/>
+jhre lieb/ dieweil jhr aber nicht von der Welt<lb/>
+&#x017F;eyd/ &#x017F;ondern ich habe euch von der Welt erweh-<lb/>
+<fw type="sig" place="bottom">B ij</fw><fw type="catch" place="bottom">let/</fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+<fw place="top" type="header"><hi rendition="#b">Vn&#x017F;er Wandel i&#x017F;t im Himmel/</hi></fw><lb/>
+let/ darumb ha&#x017F;&#x017F;et euch die Welt. Solche<lb/>
+Feind&#x017F;chafft vnd Verfolgung &#x017F;ollen wir nu mit<lb/>
+Gedult ver&#x017F;chmertzen/ vnd vns damit tro&#x0364;&#x017F;ten/<lb/>
+daß es nicht ewig wa&#x0364;hren wird. Es i&#x017F;t hie nur<lb/>
+eine Wander&#x017F;chafft/ in dem ewigen Vaterland<lb/>
+wird es vns reichlich hereingebracht werden/<lb/>
+was wir in die&#x017F;er Welt erlitten haben: Das<lb/>
+Bla&#x0364;tlein wird &#x017F;ich wenden/ die Weltkinder wer-<lb/>
+den ewige Pein leiden/ hergegen werden die Ge-<lb/>
+rechten ewiglich getro&#x0364;&#x017F;tet werden.</p><lb/>
+<p>So &#x017F;ollen wir auch vermahnet &#x017F;eyn zur Be-<lb/>
+reitwilligkeit zum &#x017F;terben/ wir &#x017F;ollen nicht<lb/>
+welt&#x017F;chmeckende Hertzen haben/ wir haben nichts<lb/>
+eigenes in der Welt/ wir du&#x0364;rffen vns keiner Lie-<lb/>
+be noch Trewe zu der Welt ver&#x017F;ehen/ wer wolte<lb/>
+wu&#x0364;nd&#x017F;chen la&#x0364;nger in der vngetrewen Welt zu<lb/>
+verbleiben<supplied>?</supplied> Derhalben &#x017F;ollen wir mit fro&#x0364;lichem<lb/>
+Hertzen aus die&#x017F;er Welt wandern/ wenn es dem<lb/>
+himli&#x017F;chen Vater gefellet/ weil wir wi&#x017F;&#x017F;en/ daß<lb/>
+wir einen &#x017F;eligen Wech&#x017F;el/ vnd fu&#x0364;r diß zeitliche<lb/>
+das ewige Leben <hi rendition="#aq">lucriren</hi> vnd gewinnen.</p></div><lb/>
+<div n="3"><head><hi rendition="#aq">De II.</hi></head><lb/>
+<p><hi rendition="#in">B</hi>Elangende fu&#x0364;rs 2. die Belohnung &#x017F;olches<lb/>
+himli&#x017F;chen Wandels/ &#x017F;o i&#x017F;t die&#x017F;elbige zwey-<lb/>
+erley: Die 1. i&#x017F;t die Er&#x017F;cheinung Chri&#x017F;ti.<lb/>
+<fw place="bottom" type="catch">Die</fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+<fw type="header" place="top"><hi rendition="#b">Da kein Krieg mehr noch Getu&#x0364;mmel.</hi></fw><lb/>
+Die 2. i&#x017F;t die Verkla&#x0364;rung vn&#x017F;erer Leiber. Von<lb/>
+der Er&#x017F;cheinung Chri&#x017F;ti berichtet S. Paulus al-<lb/>
+&#x017F;o: Von dannen wir auch warten deß Heilandes<lb/>
+Je&#x017F;u Chri&#x017F;ti des HErrn. Mit dem Wo&#x0364;rtlein<lb/>
+von dannen ziehlet Paulus auff den <hi rendition="#aq">terminum<lb/>
+â qvo,</hi> von wannen Chri&#x017F;tus kommen wird/<lb/>
+nemlich vom Himmel/ darein er i&#x017F;t in der Auf-<lb/>
+farth gefahren/ von dannen wird er kommen in<lb/>
+den Wolcken des Himmels mit gro&#x017F;&#x017F;er Krafft<lb/>
+vnd Herrligkeit/ als denn wird er er&#x017F;cheinen &#x017F;ei-<lb/>
+nen Gla&#x0364;ubigen nicht als ein ge&#x017F;trenger Richter/<lb/>
+&#x017F;ondern als ein Vergelter/ vnd als ein gna&#x0364;diger<lb/>
+Heiland: Als denn wird er den himli&#x017F;chen Wan-<lb/>
+del &#x017F;einer Gla&#x0364;ubigen mit ewiger Herrligkeit ver-<lb/>
+gelten.</p><lb/>
+<p>Die 2. Belohnung i&#x017F;t nu die Verkla&#x0364;rung<lb/>
+vn&#x017F;erer Leiber/ davon &#x017F;chreibet S. Paulus al&#x017F;o:<lb/>
+Welcher vn&#x017F;ere nichtige Leiber verkla&#x0364;ren wird/<lb/>
+daß &#x017F;ie a&#x0364;hnlich werden &#x017F;einem verkla&#x0364;rten Leibe.<lb/>
+Vn&#x017F;ere Leiber werden allhier genennet <hi rendition="#aq">corpora<lb/>
+humilitatis,</hi> niedrige/ ge&#x017F;chma&#x0364;chte vnd nichtige<lb/>
+Leiber/ darumb/ daß &#x017F;ie durch die Su&#x0364;nde vervn-<lb/>
+reiniget/ der Eitelkeit/ allerley Kranckheit vnd<lb/>
+Gebrechligkeit/ vnd endlich dem Tode vnd Ver-<lb/>
+weßligkeit vnterworffen &#x017F;eyn. Die&#x017F;e nichtige<lb/>
+<fw type="sig" place="bottom">B iij</fw><fw type="catch" place="bottom">Lei-</fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+<fw place="top" type="header"><hi rendition="#b">Vn&#x017F;er Wandel i&#x017F;t im Himmel/</hi></fw><lb/>
+Leiber wird nu der HErr Chri&#x017F;tus verkla&#x0364;ren/<lb/>
+das i&#x017F;t/ er wird &#x017F;ie erlo&#x0364;&#x017F;en von der Su&#x0364;nde vnd<lb/>
+Sterbligkeit/ vnd wird &#x017F;ie mit Vn&#x017F;terbligkeit<lb/>
+bekleiden/ welches S. Paulus weiter erkla&#x0364;ret/<lb/>
+durch das Exempel des <hi rendition="#aq">clarificir</hi>ten Leibes Chri-<lb/>
+&#x017F;ti/ welches &#x017F;ich auß die&#x017F;em Grund vnwider-<lb/>
+treiblich &#x017F;chlie&#x017F;&#x017F;en le&#x017F;t/ weil Chri&#x017F;tus vn&#x017F;er<lb/>
+Ha&#x0364;upt i&#x017F;t/ vnd wir &#x017F;ind &#x017F;eine Gliedma&#x017F;&#x017F;en/ vnd<lb/>
+&#x017F;ind jhm in der H. Tauffe <hi rendition="#aq">incorporiret</hi> vnd ein-<lb/>
+verleibet. Gleich wie nun Chri&#x017F;tus mit &#x017F;einem<lb/>
+<hi rendition="#aq">clarificir</hi>ten Leibe aus dem Grabe herfu&#x0364;rgegan-<lb/>
+gen i&#x017F;t/ al&#x017F;o wird er auch vn&#x017F;ere &#x017F;terbliche Leiber<lb/>
+verkla&#x0364;ren/ daß &#x017F;ie &#x017F;einem <hi rendition="#aq">clarificir</hi>ten Leibe &#x017F;ollen<lb/>
+a&#x0364;hnlich werden. Wie wir auch in die&#x017F;em Leben<lb/>
+die Mahlzeichen des HErrn Je&#x017F;u in vn&#x017F;erm Lei-<lb/>
+den vnd Sterben an vns tragen: Al&#x017F;o werden<lb/>
+wir auch in der Verkla&#x0364;rung &#x017F;einem Leibe a&#x0364;hnlich<lb/>
+werden. Er i&#x017F;t mit &#x017F;einem <hi rendition="#aq">clarificir</hi>ten Leibe<lb/>
+durch das wolverwahrte Grab hindurch gegan-<lb/>
+gen/ vnd i&#x017F;t weder Stein noch Siegel ver&#x017F;eh-<lb/>
+ret worden: Er hat einen vn&#x017F;ichtbaren Leib ge-<lb/>
+habt/ welcher von niemand hat ko&#x0364;nnen ge&#x017F;ehen<lb/>
+werden/ als allein von denen/ welchen er &#x017F;ich<lb/>
+<hi rendition="#aq">per &#x0153;conomiam,</hi> durch freywillige Ver&#x017F;chaf-<lb/>
+fung/ hat wollen &#x017F;ichtbar dar&#x017F;tellen. Er hat einen<lb/>
+<fw place="bottom" type="catch">vn&#x017F;terb-</fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+<fw type="header" place="top"><hi rendition="#b">Da kein Krieg mehr noch Getu&#x0364;mmel.</hi></fw><lb/>
+vn&#x017F;terblichen Leib mit aus dem Grabe ge-<lb/>
+bracht/ wie S. Paulus &#x017F;chreibet zum Ro&#x0364;m. am<note place="right"><hi rendition="#aq">Rom.</hi> 6.</note><lb/>
+6. Chri&#x017F;tus von den Todten erwecket/ &#x017F;tirbet<lb/>
+hinfort nimmer/ der Todt wird hinfort vber jhn<lb/>
+nicht herr&#x017F;chen: Al&#x017F;o werden auch wir mit vn-<lb/>
+&#x017F;terblichen Leibern aus vn&#x017F;ern Gra&#x0364;bern wieder-<lb/>
+umb herfu&#x0364;r gehen/ nach dem Zeugniß Pauli 1.<lb/>
+Cor 15. Es wird ge&#x017F;a&#x0364;et verweßlich/ vnd wird<note place="right">1. <hi rendition="#aq">Cor</hi> 3</note><lb/>
+auffer&#x017F;tehen vnverweßlich.</p><lb/>
+<p>Endlich zeiget vns S. Paulus an die <hi rendition="#aq">cau-<lb/>
+&#x017F;am efficientem,</hi> die wirckende Vr&#x017F;ache &#x017F;olcher<lb/>
+gro&#x017F;&#x017F;en vnd vbernatu&#x0364;rlichen Verwandlung.<lb/>
+Solche Vr&#x017F;ache i&#x017F;t <hi rendition="#aq">Omnipotentia Chri&#x017F;ti,</hi> die<lb/>
+Allmacht Chri&#x017F;ti/ die wird aus &#x017F;olcher Clarifici-<lb/>
+rung vn&#x017F;erer Leiber augen&#x017F;cheinlich dargethan<lb/>
+werden/ wie die Wort vn&#x017F;ers Spru&#x0364;chleins lau-<lb/>
+ten/ nach der Wirckung/ da er mit kan/ auch al-<lb/>
+le Dinge jhm vntertha&#x0364;nig machen. Jn die&#x017F;en<lb/>
+Worten fu&#x0364;hret vns S. Paulus zu Gemu&#x0364;the die<lb/>
+Werck der Allmacht Chri&#x017F;ti/ welche herfu&#x0364;r<lb/>
+leuchtet aus den dreyen Hauptartickeln vn&#x017F;ers<lb/>
+Chri&#x017F;tlichen Glaubens/ aus dem Werck der<lb/>
+Scho&#x0364;pffung/ aus dem Werck der Erlo&#x0364;&#x017F;ung/ vnd<lb/>
+aus dem Werck der Heiligung/ welches lauter<lb/>
+go&#x0364;ttliche Werck &#x017F;eyn/ die da zeigen von der wah-<lb/>
+<fw type="catch" place="bottom">ren</fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+<fw type="header" place="top"><hi rendition="#b">Vn&#x017F;er Wandel i&#x017F;t im Himmel/</hi></fw><lb/>
+ren Gottheit Chri&#x017F;ti/ vnd von &#x017F;einer Allmacht.<lb/>
+Denn alle Dinge &#x017F;ind durch jhn gemacht/ vnd<lb/>
+<note place="left"><hi rendition="#aq">Joh 1.<lb/>
+Ho&#x017F;.</hi> 13.</note>ohne Jhm i&#x017F;t nichts gemacht/ was gemacht<lb/>
+i&#x017F;t/ Joh. am <hi rendition="#i">1.</hi> Ho&#x017F;. am 13. &#x017F;pricht er: Jch wil &#x017F;ie<lb/>
+vom Tode erretten/ Jch wil &#x017F;ie aus der Ho&#x0364;lle er-<lb/>
+lo&#x0364;&#x017F;en. So i&#x017F;t er auch das Liecht/ welches alle<lb/>
+Men&#x017F;chen erleuchtet/ die in die&#x017F;e Welt kommen/<lb/>
+<note place="left"><hi rendition="#aq">Joh.</hi> 1.</note>Joh. 1. Solche Erleuchtung i&#x017F;t auch ein go&#x0364;ttli-<lb/>
+ches Werck/ wie David bekennet im <hi rendition="#i">1</hi>18. P&#x017F;alm.<lb/>
+Der HErr i&#x017F;t GOtt/ der vns erleuchtet. Solche<lb/>
+&#x017F;eine Allmacht wird auch herrlich herfu&#x0364;rleuchten<lb/>
+auff den lieben ju&#x0364;ng&#x017F;ten Tag/ wenn er den Todt<lb/>
+ver&#x017F;chlingen wird in dem Sieg/ da wird Er das<lb/>
+verweßliche verwandeln in das vnverweßliche/<lb/>
+auß vn&#x017F;ern nichtigen Leibern wird er machen<lb/>
+verkla&#x0364;rte Leiber/ vnd wird &#x017F;ie mit Vn&#x017F;terbligkeit<lb/>
+vnd ewiger Clarheit bekleiden. Denn kan er jhm<lb/>
+alle Dinge vntertha&#x0364;nig machen/ &#x017F;o kan er jhm<lb/>
+auch die Nichtigkeit vnd Eitelkeit vn&#x017F;erer Leiber<lb/>
+vnterwu&#x0364;rffig machen/ vnd die&#x017F;elbe mit Engli-<lb/>
+&#x017F;chen vnd Gei&#x017F;tlichen <hi rendition="#aq">qualiteten</hi> vnd Eigen-<lb/>
+&#x017F;chafften &#x017F;chmu&#x0364;cken vnd zieren.</p><lb/>
+<p>Die&#x017F;es &#x017F;ol vns nu dienen zu Sterckung vn-<lb/>
+&#x017F;ers Glaubens/ auff daß wir vns der fal&#x017F;chen<lb/>
+Einbildung vn&#x017F;erer blinden Vernunfft erweh-<lb/>
+<fw type="catch" place="bottom">ren/</fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+<fw type="header" place="top"><hi rendition="#b">Da kein Krieg mehr noch Getu&#x0364;mmel.</hi></fw><lb/>
+ren/ welche den Artickel von der Auffer&#x017F;tehung<lb/>
+vn&#x017F;erer Leiber verleugnet/ darumb/ daß &#x017F;ie es<lb/>
+nicht begreiffen kan/ wie ein Leib/ der zu Staub<lb/>
+vnd A&#x017F;chen worden i&#x017F;t/ wiederumb lebendig<lb/>
+werden ko&#x0364;nne. Solches i&#x017F;t zwar der Natur vn-<lb/>
+mu&#x0364;glich/ &#x017F;olte es aber darumb auch dem HErrn<lb/>
+Chri&#x017F;to vnmu&#x0364;glich &#x017F;eyn? Ja er wird &#x017F;eine all-<lb/>
+ma&#x0364;chtige Krafft an vn&#x017F;ern Leibern bewei&#x017F;en/<lb/>
+daß er &#x017F;ie mit &#x017F;einer lebendigmachenden Stim-<lb/>
+me aus dem Staub der Erden aufferwecken<lb/>
+wird.</p></div><lb/>
+<div n="3"><head><hi rendition="#aq"><hi rendition="#g">USUS.</hi></hi></head><lb/>
+<p><hi rendition="#in">W</hi>Jr haben allhier zu lernen/ was die Su&#x0364;n-<lb/>
+de fu&#x0364;r ein Gifft vnd Grewel &#x017F;ey/ wie die<lb/>
+Su&#x0364;nde nicht allein die Seele des Eben-<lb/>
+bildes Gottes beraubet/ vnd jhr die Larve des<lb/>
+Teuffels angehencket hat/ &#x017F;ondern wie auch die<lb/>
+Su&#x0364;nde vn&#x017F;ere&#x0303; Leibern das Kleid der Vn&#x017F;terblig-<lb/>
+keit außgezogen/ vnd die&#x017F;elbe zu nichtigen vnd<lb/>
+&#x017F;terblichen Leibern gemachet hat/ daß der Todt<lb/>
+von Kindesbeinen an vns naget mit allerley<lb/>
+Schwachheiten vnd Kranckheiten/ biß daß wir<lb/>
+die Schuld der Natur bezahlen mu&#x0364;&#x017F;&#x017F;en.</p><lb/>
+<p>Fu&#x0364;rs 2. haben wir auch zu vn&#x017F;erm Tro&#x017F;t zu<lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">behal-</fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+<fw place="top" type="header"><hi rendition="#b">Vn&#x017F;er Wandel i&#x017F;t im Himmel/</hi></fw><lb/>
+behalten/ daß der ewige Heiland darumb in die<lb/>
+Welt kommen &#x017F;ey/ daß er &#x017F;olchen Su&#x0364;nden&#x017F;cha-<lb/>
+den wiederumb heile/ zu dem Ende i&#x017F;t er vmb vn-<lb/>
+&#x017F;erer Su&#x0364;nde willen dahin gegeben/ vnd vmb vn-<lb/>
+&#x017F;erer Gerechtigkeit willen wiederumb aufferwe-<lb/>
+<note place="left"><hi rendition="#aq">Rom.</hi> 4</note>cket/ zum Ro&#x0364;m. am 4. auff das alle/ die an jhn<lb/>
+gleuben/ das ewige Leben haben &#x017F;ollen/ welche<lb/>
+er auch am Ju&#x0364;ng&#x017F;ten Tage zum Leben wird auff-<lb/>
+<note place="left"><hi rendition="#aq">Joh.</hi> 6.</note>erwecken nach &#x017F;einer Verhei&#x017F;chung Joh. am 6.<lb/>
+Das i&#x017F;t der Wille des Vaters/ daß wer den<lb/>
+Sohn &#x017F;iehet/ vnd gleubet an jhn/ habe das ewi-<lb/>
+ge Leben/ vnd ich werde jhn aufferwecken am<lb/>
+Ju&#x0364;ng&#x017F;ten Tage. Da wird er vns fu&#x0364;r vn&#x017F;ere<lb/>
+nichtige Leiber durch &#x017F;eine allma&#x0364;chtige Wir-<lb/>
+ckung <hi rendition="#aq">clarificir</hi>te Leiber geben. Solches wird<lb/>
+ge&#x017F;chehen auff den Tag &#x017F;einer Herrligkeit/ wenn<lb/>
+er kommen wird zu richten die Lebendigen vnd<lb/>
+die Todten.</p><lb/>
+<p>Zum 3. an &#x017F;olcher Auffer&#x017F;tehung der Tod-<lb/>
+ten/ vnd an der letzten Zukunfft des HErrn &#x017F;ol-<lb/>
+len wir nicht zweiffeln/ &#x017F;ondern vns vielmehr<lb/>
+Gott&#x017F;eliglich darzu bereiten/ durch wahren<lb/>
+Glauben vnd durch einen vn&#x017F;tra&#x0364;fflichen Wan-<lb/>
+del/ wie auch durch ein anda&#x0364;chtiges Gebet/ auff<lb/>
+daß wir wu&#x0364;rdig werden allem Vnglu&#x0364;ck zu entflie-<lb/>
+<fw place="bottom" type="catch">hen/</fw><lb/>
+<pb facs="#f0019" n="[19]"/>
+<fw type="header" place="top"><hi rendition="#b">Da kein Krieg mehr noch Getu&#x0364;mmel.</hi></fw><lb/>
+hen/ vnd zu &#x017F;tehen fu&#x0364;r des Men&#x017F;chen Sohn/ &#x017F;o<lb/>
+werden wir auch des Glaubens Ende der See-<lb/>
+len Seligkeit darvon bringen.</p><lb/>
+<p>Das helffe vns allen mit Gnaden GOtt<lb/>
+Vater/ Sohn/ vnd Heiliger Gei&#x017F;t/ der einige<lb/>
+wahre GOtt/ hochgelobet in Ewigkeit/ Amen.</p></div></div><lb/>
+<div type="fsPersonalia" n="2"><head><hi rendition="#b">Bericht.</hi></head><lb/>
+<p><hi rendition="#in">J</hi>N &#x017F;olcher Bereit&#x017F;chafft hat &#x017F;ich auch<lb/>
+gehalten vn&#x017F;ere im <hi rendition="#k">Herrn</hi> Chri&#x017F;to<lb/>
+&#x017F;eliglich ver&#x017F;torbene Mit&#x017F;chwe&#x017F;ter/ &#x017F;ie<lb/>
+hat jhr <hi rendition="#aq">datum</hi> nicht auff das zeitliche vnd<lb/>
+mu&#x0364;h&#x017F;elige Leben ge&#x017F;etzet/ &#x017F;ondern &#x017F;ich jeder-<lb/>
+zeit jhres Bu&#x0364;rgerrechts im Himmel getro&#x0364;-<lb/>
+&#x017F;tet/ vnd hat in &#x017F;olchem Glauben vnd Hoff-<lb/>
+nung jhr Leben &#x017F;eliglich be&#x017F;chlo&#x017F;&#x017F;en. Ihre<lb/>
+Ankunfft/ Wandel vnd Ende belangende/<lb/>
+J&#x017F;t E. Chri&#x017F;tl. Liebe zu vermelden/ daß &#x017F;ie<lb/>
+allhier von Chri&#x017F;tlichen vnd ehrlichen El-<lb/>
+tern i&#x017F;t gebohren worden <hi rendition="#aq">Anno</hi> 1581. den<lb/>
+1. <hi rendition="#aq">Maij.</hi> Denn jhr Vater i&#x017F;t gewe&#x017F;en/ der<lb/>
+Erbare Herr Hanß Seelmann gewe&#x017F;ener<lb/>
+<fw type="sig" place="bottom">C ij</fw><fw type="catch" place="bottom">Bu&#x0364;r-</fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+<fw type="header" place="top"><hi rendition="#b">Vn&#x017F;er Wandel i&#x017F;t im Himmel/</hi></fw><lb/>
+Bu&#x0364;rger vnd Jubilirer allhier. Jhre Mut-<lb/>
+ter &#x017F;eliger i&#x017F;t von Leißnigk bu&#x0364;rtig gewe&#x017F;en/<lb/>
+mit Namen Chri&#x017F;tina Clau&#x017F;in/ Ober&#x017F;tadt-<lb/>
+&#x017F;chreibers allhier &#x017F;eligen Schwe&#x017F;ter. Von<lb/>
+die&#x017F;en jhren Eltern i&#x017F;t &#x017F;ie in aller Gott&#x017F;elig-<lb/>
+keit aufferzogen worden/ biß daß &#x017F;ie das 17.<lb/>
+Jahr jhres Alters erreichet/ da &#x017F;ie denn mit<lb/>
+Ein willigung jhrer Eltern mit jhrem jetzo<lb/>
+hinterla&#x017F;&#x017F;enen betru&#x0364;bten Witber <hi rendition="#aq">Anno</hi><lb/>
+1598. den 30. <hi rendition="#aq">Octob.</hi> in der Kirch zu S. Tho-<lb/>
+mas i&#x017F;t getrawet worden/ mit welchem &#x017F;ie<lb/>
+einen Chri&#x017F;tlichen vnd friedlichen Ehe-<lb/>
+&#x017F;tand 34. Jahr weniger 2. Tage gefu&#x0364;hret<lb/>
+hat/ vnd durch Gottes Segen 13. Kinder<lb/>
+mit jhme gezeuget/ als 9. So&#x0364;hne/ derer<lb/>
+noch 7. am Leben/ davon aber einer bald der<lb/>
+Mutter gefolget; vnd 4. To&#x0364;chter/ davon nur<lb/>
+noch eine mit Namen Ro&#x017F;ina beym Leben.</p><lb/>
+<p>Ihr Chri&#x017F;tenthumb belangend/ i&#x017F;t &#x017F;ie<lb/>
+eine flei&#x017F;&#x017F;ige Zuho&#x0364;rerin des Worts Gottes<lb/>
+gewe&#x017F;en/ vnd hat mit Willen keine Predigt<lb/>
+<fw type="catch" place="bottom">ver&#x017F;eu-</fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+<fw type="header" place="top"><hi rendition="#b">Da kein Krieg mehr noch Getu&#x0364;mmel.</hi></fw><lb/>
+ver&#x017F;umet/ was &#x017F;ie auch aus den Predigten<lb/>
+gemercket/ daheime in der Bibel nachge-<lb/>
+&#x017F;chlagen/ jhr Betbuch &#x017F;tets zur Hand ge-<lb/>
+habt/ vnd hat jhr Bibli&#x017F;che Tro&#x017F;t&#x017F;pru&#x0364;che<lb/>
+mit jhrer eigener Hand in ein &#x017F;onderlich<lb/>
+Bu&#x0364;chlein eingetragen vnd auffgezeichnet/<lb/>
+inma&#x017F;&#x017F;en &#x017F;ie &#x017F;onderlich die&#x017F;es Spru&#x0364;chlein<lb/>
+S. Pauli an die Philip. am 3. jhr zum Lei-<lb/>
+chenText erkohren. Jhrem Hau&#x017F;e hat &#x017F;ie<lb/>
+wol fu&#x0364;rge&#x017F;tanden/ jhre Kinder in Gottes-<lb/>
+furcht aufferzogen/ der Hoffarth i&#x017F;t &#x017F;ie feind<lb/>
+gewe&#x017F;en/ &#x017F;ich auch mit jhrem Nech&#x017F;ten vnd<lb/>
+Nachtbarn &#x017F;chiedlich vnd vertra&#x0364;glich be-<lb/>
+gangen.</p><lb/>
+<p>Jhre Kranckheit betreffende/ i&#x017F;t &#x017F;ie von<lb/>
+gro&#x017F;&#x017F;en Schrecken lagerhafftig worden:<lb/>
+alß den 21. <hi rendition="#aq">Octob.</hi> Sontags zu Nacht vmb<lb/>
+12. Vhr vom Feind eine Fewerkugel in jhr<lb/>
+vnd Herrn Nachtbars Hauß geworffen<lb/>
+worden/ welche die Wand zwi&#x017F;chen dem<lb/>
+Boden gantz zer&#x017F;chmettert/ vnd in &#x017F;olchen<lb/>
+<fw type="sig" place="bottom">C iij</fw><fw type="catch" place="bottom">Kra-</fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+<fw place="top" type="header"><hi rendition="#b">Vn&#x017F;er Wandel i&#x017F;t im Himmel/</hi></fw><lb/>
+Krachen vnd Fallen das gantze Hauß voll<lb/>
+Dampffs/ Stanckes vnd Rauchs worden/<lb/>
+daß man nicht anders vermeynet/ als &#x017F;tu&#x0364;n-<lb/>
+de alles im Fewer/ vnd wolte in Hauffen<lb/>
+fallen/ daru&#x0364;ber &#x017F;ie &#x017F;o hefftig er&#x017F;chrocken/<lb/>
+daß &#x017F;ie gezittert vnd gebebet/ vnd hat &#x017F;ich<lb/>
+mit jhrer Tochter biß an den Morgen aus<lb/>
+dem Hau&#x017F;e gewendet/ vnd &#x017F;ich alsbald des<lb/>
+Morgens geklaget/ vnd am Donner&#x017F;tage<lb/>
+&#x017F;ich zu Bette geleget/ vnd ob wol durch<lb/>
+Rath des Herrn <hi rendition="#aq">Medici</hi> aller mu&#x0364;glicher<lb/>
+Fleiß angewendet/ vnd nichts ge&#x017F;paret wor-<lb/>
+den/ hat man doch wenig Be&#x017F;&#x017F;erung ver-<lb/>
+&#x017F;pu&#x0364;ret/ daher &#x017F;ie auch am ver&#x017F;chienen Sonn-<lb/>
+abend &#x017F;ich mit GOtt ver&#x017F;o&#x0364;hnet/ vnd den<lb/>
+Tro&#x017F;t der H. <hi rendition="#aq">ab&#x017F;olution</hi> vnd das hoch wu&#x0364;r-<lb/>
+dige Abendmal zur Ver&#x017F;icherung jhrer Se-<lb/>
+ligkeit gebrauchet/ vnd <hi rendition="#g">GOTT</hi> hertzlich<lb/>
+vmb eine gna&#x0364;dige Aufflo&#x0364;&#x017F;ung jhres Leibes<lb/>
+gebeten/ welche jhr Gebet der Allerho&#x0364;ch&#x017F;te<lb/>
+mit Gnaden erho&#x0364;ret/ vnd &#x017F;ie den 29. <hi rendition="#aq">Octob.</hi><lb/>
+<fw place="bottom" type="catch">fru&#x0364;he</fw><lb/>
+<pb facs="#f0023" n="[23]"/>
+<fw place="top" type="header"><hi rendition="#b">Da kein Krieg mehr noch Getu&#x0364;mmel.</hi></fw><lb/>
+fru&#x0364;he ein Viertheil nach 4. Vhren von die-<lb/>
+&#x017F;er Welt abgefordert hat/ nach dem &#x017F;ie jhres<lb/>
+Alters zwey vnd funffzig&#x017F;t halb Jahr we-<lb/>
+niger 3. Tage erreichet.</p><lb/>
+<div n="3"><head/>  <p><hi rendition="#g">GOTT</hi> der Allma&#x0364;chtige/ der nun-<lb/>
+mehr jhre Seele in der Hand hat/ verleihe<lb/>
+dem Leibe eine &#x017F;anffte Ruhe/ vnd am ju&#x0364;ng-<lb/>
+<hi rendition="#c">&#x017F;ten Tage eine fro&#x0364;liche Auffer&#x017F;tehung<lb/>
+zum ewigen Leben/ vmb Chri-<lb/>
+&#x017F;ti willen/ Amen.</hi></p></div></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="catch">Ruhe</fw><lb/>
+<pb facs="#f0024" n="[24]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="1"><head/>  <div type="fsEpicedia" n="2"><head><hi rendition="#b">Ruhe der Selig Ver&#x017F;torbenen.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>Je hoch &#x017F;ich &#x017F;ehnen thut der/ &#x017F;o die vielen Felder/</l><lb/>
+<l>Die rauhen Berg vnd Thal/ die vngeba&#x0364;hnten</l><lb/>
+<l><hi rendition="#c">Wa&#x0364;lder</hi></l><lb/>
+<l><hi rendition="#et">Durchrey&#x017F;et/ &#x017F;ucht/ vnd find manch fernes Land</hi></l><lb/>
+<l><hi rendition="#c">vnd Stadt/</hi></l><lb/>
+<l><hi rendition="#et">Nur daß er vberkomm was man &#x017F;o gerne hat.</hi></l><lb/>
+<l>Wie ho&#x0364;chlich jhn verlangt/ daß er bald mo&#x0364;g bekommen</l><lb/>
+<l>Das &#x017F;einer Rey&#x017F;e Ziel/ &#x017F;o er jhm vorgenommen/</l><lb/>
+<l><hi rendition="#et">Wie &#x017F;ehr er &#x017F;ich erfrewt/ wenn nahent er &#x017F;ieht an</hi></l><lb/>
+<l><hi rendition="#et">Das/ da von &#x017F;einer La&#x017F;t vnd Sorg er ruhen kan.</hi></l><lb/>
+<l>Der Vogel &#x017F;u&#x0364;&#x017F;&#x017F;en Thon/ das bunte Wie&#x017F;en-Lachen/</l><lb/>
+<l>Das liebliche Gera&#x0364;u&#x017F;ch der Ba&#x0364;che/ &#x017F;o &#x017F;on&#x017F;t machen/</l><lb/>
+<l><hi rendition="#et">Jhm etwas leichter thet die &#x017F;chwere Rey&#x017F;e-Zeit/</hi></l><lb/>
+<l><hi rendition="#et">Das achtet er nicht mehr/ hier find er andre Frewd.</hi></l><lb/>
+<l>Sitzt da/ vnd &#x017F;chawt mit zu/ wie die &#x017F;o &#x017F;chnellen</l><lb/>
+<l><hi rendition="#c">Bru&#x0364;der/</hi></l><lb/>
+<l>Die Winde/ zancken &#x017F;ich/ wie &#x017F;ie &#x017F;o gar zuwider</l><lb/>
+<l><hi rendition="#et">Einander in der Lufft rumb jagen/ deß der Hirt/</hi></l><lb/>
+<l><hi rendition="#et">Der auff dem Feld muß &#x017F;eyn/ wol anders inne&#x0303; wird.</hi></l><lb/>
+<l>Siht nicht mehr/ wann die Sonn vnd ob &#x017F;ie werd auff-</l><lb/>
+<l><hi rendition="#c">gehen:</hi></l><lb/>
+<l>Sagt vielmehr andern her/ was auff der Reis ge&#x017F;che-</l><lb/>
+<l><hi rendition="#c">hen/</hi></l><lb/>
+<fw type="catch" place="bottom">Wie</fw><lb/>
+<pb facs="#f0025" n="[25]"/>
+<l><hi rendition="#et">Wie aus der Ra&#x0364;uber Hand er kaum entronnen &#x017F;ey/</hi></l><lb/>
+<l><hi rendition="#et">Wird lu&#x017F;tig/ i&#x017F;t nunmehr der tru&#x0364;ben Sorgen frey.</hi></l><lb/>
+<l>Noch i&#x017F;t es &#x017F;chlechte Frewd: Es thut nicht lange wa&#x0364;ren/</l><lb/>
+<l>Denn ko&#x0364;mpt ein andre Zeit/ dann muß er wieder-</l><lb/>
+<l><hi rendition="#c">kehren/</hi></l><lb/>
+<l><hi rendition="#et">Da er vor kommen her/ muß wieder auff das Land/</hi></l><lb/>
+<l><hi rendition="#et">Weiß nicht/ was Vnlu&#x017F;t jhm werd &#x017F;to&#x017F;&#x017F;en mehr zu</hi></l><lb/>
+<l><hi rendition="#c">Handt.</hi></l><lb/>
+<l>Wer einmal &#x017F;elig fehrt/ wer eins die &#x017F;chmalen Stege/</l><lb/>
+<l>Die Nebel fin&#x017F;tre Ga&#x0364;ng/ die &#x017F;chlimgeba&#x0364;hnten Wege</l><lb/>
+<l><hi rendition="#et">Der &#x017F;chno&#x0364;den Eitelkeit durchwandert/ vnd dahin</hi></l><lb/>
+<l><hi rendition="#et">Gelanget/ da die Ruh/ die rechte Ruh wohnt inn/</hi></l><lb/>
+<l><hi rendition="#fr">Da vn&#x017F;er Wandel i&#x017F;t/</hi> da vn&#x017F;re Va&#x0364;ter wohnen/</l><lb/>
+<l>Da die &#x017F;o &#x017F;toltze Ruh der Mu&#x0364;digkeit thut lohnen/</l><lb/>
+<l><hi rendition="#et">Der &#x017F;atten Mu&#x0364;digkeit/ &#x017F;o die&#x017F;es Lebens-Lauff</hi></l><lb/>
+<l><hi rendition="#et">Verwu&#x0364;nd&#x017F;chet offtmals hat/ vnd vns gehalten auff/</hi></l><lb/>
+<l>Der kan recht lu&#x017F;tig &#x017F;eyn/ kan rechter Frewd &#x017F;ich ru&#x0364;h-</l><lb/>
+<l><hi rendition="#c">men/</hi></l><lb/>
+<l>Schawt ohne Schmertzen an die manche Wund vnd</l><lb/>
+<l><hi rendition="#c">Striemen/</hi></l><lb/>
+<l><hi rendition="#et">So auff dem Weg der Welt der oder jener Mann/</hi></l><lb/>
+<l><hi rendition="#et">Dem er &#x017F;tets war verha&#x017F;&#x017F;t/ nur jrgend angethan/</hi></l><lb/>
+<l>Lacht &#x017F;einer Feinde nur/ &#x017F;ieht wie der Krieger &#x017F;chla&#x0364;get</l><lb/>
+<l>Jm Feld/ wie die&#x017F;er den/ der jenenda erleget/</l><lb/>
+<l><hi rendition="#et">Wie &#x017F;ich der bleiche Mond fa&#x017F;t fu&#x0364;rchtet/ vnd ver&#x017F;teckt</hi></l><lb/>
+<l><hi rendition="#et">Fu&#x0364;r der Carthaunen Knall/ er doch bleibt vner-</hi></l><lb/>
+<l><hi rendition="#c">&#x017F;chreckt:</hi></l><lb/>
+<fw place="bottom" type="sig">D</fw><fw place="bottom" type="catch">Bald</fw><lb/>
+<pb facs="#f0026" n="[26]"/>
+<l>Bald &#x017F;timmt er an den Thon/ der GOtt allein ge-</l><lb/>
+<l><hi rendition="#c">bu&#x0364;hret/</hi></l><lb/>
+<l>Den nicht &#x017F;terbliche&#x0303; Thon: bald wird er rumb gefu&#x0364;hret</l><lb/>
+<l><hi rendition="#et">Vom keu&#x017F;chen Gei&#x017F;ter-Chor/ be&#x017F;ieht die Herrligkeit/</hi></l><lb/>
+<l><hi rendition="#et">Die &#x017F;o der gro&#x017F;&#x017F;e Printz der Welt leng&#x017F;t hat bereit/</hi></l><lb/>
+<l>Die Himmels-Herrligkeit/ der du nun auch gewa&#x0364;ret/</l><lb/>
+<l><hi rendition="#fr">Du nicht mehr matte Seel:</hi> Dir/ dir jetzt wie-</l><lb/>
+<l><hi rendition="#c">derfehret</hi></l><lb/>
+<l><hi rendition="#et">Die Frewd/ die jmmer Frewd. Dru&#x0364;mb klagen wir</hi></l><lb/>
+<l><hi rendition="#c">dich nicht;</hi></l><lb/>
+<l><hi rendition="#fr">Denn wol/ vnd ewig wol/ dem es al&#x017F;o ge-</hi></l><lb/>
+<l><hi rendition="#fr"><hi rendition="#c">&#x017F;chicht.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Michael</hi> Stempel <hi rendition="#aq">Annæberg<lb/>
+St. Lip&#x017F;.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#fr"><hi rendition="#in">E</hi>In Chri&#x017F;ten Men&#x017F;ch/ wenns in der Welt</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Nu &#x017F;att &#x017F;ich hat gelebet/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Ihms eitle Thun nicht mehr gefellt/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Zu Chri&#x017F;to &#x017F;ich erhebet/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Begehrt zu jhm im Himmel nauff/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Die Seele wird gewa&#x0364;hret/</hi></hi></l><lb/>
+<l><hi rendition="#fr">So bald &#x017F;ie wird gelo&#x0364;&#x017F;et auff/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Zu Chri&#x017F;to &#x017F;ie hinfa&#x0364;hret.</hi></hi></l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#fr">In</hi></fw><lb/>
+<pb facs="#f0027" n="[27]"/>
+<l><hi rendition="#fr">Jn &#x017F;eine Hand/ da keine Qual/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Sondern i&#x017F;t lauter Wonne/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Befindet &#x017F;ich Fraw Gertraut wol/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Sie leuchtet wie die Sonne/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Jhr Leib wird nu im Ka&#x0364;mmerlein</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Ein klein wenig nur &#x017F;chlaffen/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Biß Chri&#x017F;tus jhn wird wecken fein/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Verkla&#x0364;rungs-weis new &#x017F;chaffen.</hi></hi></l><lb/>
+<l><hi rendition="#fr">Deß tro&#x0364;&#x017F;tet euch/ Herr Witber/ nu/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Jhr nachgebliebnen Kinder/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Ewr Mutter &#x017F;chla&#x0364;fft/ gu&#x0364;nt jhr die Ruh/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Jhr werdet &#x017F;ie nicht minder</hi></hi></l><lb/>
+<l><hi rendition="#fr">Dort treffen an/ kommen zu jhr/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Nur daß in die&#x017F;em Wallen</hi></hi></l><lb/>
+<l><hi rendition="#fr">Ein jeds ein Chri&#x017F;tlich Leben fu&#x0364;hr/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Auff daß wir GOtt gefallen</hi></hi></l><lb/>
+<l><hi rendition="#fr">Vnd dermal eins all kommen hin/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Zu die&#x017F;en Himmels Ehren/</hi></hi></l><lb/>
+<l><hi rendition="#fr">Da kein Verlu&#x017F;t/ nur eitel Gwinn/</hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#fr">Wol denen/ dies begehren.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et">Gregorius Ritz&#x017F;ch<lb/>
+Buchdrucker.</hi></salute></closer></div></div><lb/>
+</body></text>  </TEI>

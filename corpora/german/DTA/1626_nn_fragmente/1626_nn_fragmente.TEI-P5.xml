@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">   <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">[Fragmente der Berliner Wochenzeitung von 1626 aus dem Besitz der Preußischen Staatsbibliothek]</title>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<persName>
+<forename>Sylvia</forename>
+<surname>König</surname>
+</persName>
+<persName>
+<forename>Matthias</forename>
+<surname>Schulz</surname>
+</persName>
+<persName>
+<forename>Thomas</forename>
+<surname>Gloning</surname>
+</persName>
+<resp>
+<note type="remarkResponsibility">Bereitstellung der Texttranskription nach XML/TEI gemäß DTA-Basisformat.</note>
+<date type="importDTA">2011-11-20T12:00:00Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">8</measure>
+<measure type="tokens">2559</measure>
+<measure type="types">953</measure>
+<measure type="characters">15397</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:32Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+<p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Generic (German) License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/unknown_berlinerzeitung_1626</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/unknown_berlinerzeitung_1626</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/unknown_berlinerzeitung_1626</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/unknown_berlinerzeitung_1626</idno>
+<idno type="DTADirName">unknown_berlinerzeitung_1626</idno>
+<idno type="DTAID">30003</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30003-4</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="J">Fragmente der Berliner Wochenzeitung von 1626 aus dem Besitz der Preußischen Staatsbibliothek. Mit einem Nachwort von E. Consentius. Berlin, 1928.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">[Fragmente der Berliner Wochenzeitung von 1626 aus dem Besitz der Preußischen Staatsbibliothek]</title>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Verlag der Haude &amp; Spenerschen Buchhandlung</name></publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">1626</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<ul>
+<li>Langes s wurde als rundes s transkribiert.</li>
+<li>Auflösungen des hochgestellten e über Vokalen.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Zeitung</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">dtae</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><body>
+<pb facs="#f0001"/>
+<div> <head> <hi rendition="#b">N&#x014D;: 16.</hi> </head> <lb/>
+<div> <head> <hi rendition="#b">Auß Erffurt/ vom 20. <hi rendition="#aq">Martij</hi>, <hi rendition="#aq">Anno</hi> 1626.</hi> </head><lb/>
+<p><hi rendition="#in">D</hi>Jeser orthen wirbt man noch starck/ der Hertzog von Hollstein <lb/>
+hat seinen Musterplatz zu Schmalkalden/ Hertzog Frantz<lb/>
+Allbrecht von Sassen/ so biß <hi rendition="#aq">dato</hi> sich mit 2500. Mann in<lb/>
+Hessen befunden/ ist im anzuge/ sich dieser orthen einzuquartiren. </p>
+<p>Es <hi rendition="#aq">continuirt</hi>, das theils Dänisch Volck Oßnabrück erö-<lb/>
+bert/ vnd 7. Geistliche <hi rendition="#aq">Prælaten</hi> gefangen. So <hi rendition="#aq">continuirt</hi> auch/<lb/>
+das 14. Regiment Frantzosen bey Metz vnd dero orthen nach der<lb/>
+Pfaltz passiren werden. </p>  </div>
+<div> <head> <hi rendition="#b">Auß Antorff/ vom 21. <hi rendition="#aq">Martij</hi>.</hi> </head><lb/>
+<p>Man hat <hi rendition="#aq">Aviso</hi>, das die Roscheller die Friedens Puncten vn-<lb/>
+terschrieben/ vnd sol der Hertzog von <hi rendition="#aq">Angelosme</hi> vom König in<lb/>
+Franckreich befehl bekommen/ mit dem Volck/ so im <choice> <sic>Stafft</sic><corr>Stifft</corr> </choice> Metz<lb/>
+ligt/ vnd etlichen Regimenten Schweitzern/ ehist nach der Pfaltz zu-<lb/>
+rücken. Es ist viel Geldt in diesen Landen auß Spania angelanget/<lb/>
+noch 50. Schiff zu zurüsten/ vnd die See Armada zuverstercken. </p>  </div>
+<div> <head> <hi rendition="#b">Auß Nürnberg/ vom 24. <hi rendition="#aq">Martij</hi>.</hi> </head><lb/>
+<p>Obwol allhie für Chur Mäyntz schon gantz einfuriert/ so be-<lb/>
+sorgt man doch es möchte solcher Tag nicht fort gehen. Die Bi-<lb/>
+schöffe lassen starck werben/ es hat ein seltzam ansehen. </p>  </div>
+<div> <head> <hi rendition="#b">Auß Wulffenbüttel/ vom 26. <hi rendition="#aq">Martij</hi>.</hi> </head><lb/>
+<p>Der König in Dennemarck lest allhier grosse Kriegsbereit-<lb/>
+schafften von Geschütz vnd andern in eyl verfertigen/ seind auch diese<lb/>
+Tage 6000. Mann auß Holland ankommen/ sol jtzo 36. tausent zu<lb/>
+Fuß/ vnnd 6. tausent Pferd ohne die Manßfeldische <hi rendition="#i"><hi rendition="#aq">Armada</hi></hi> starck<lb/>
+sein/ vnd erwartet noch 20. tausent Mann. <space dim="horizontal"/> Der Tilly hat <choice><abbr>S.</abbr><expan>Sankt</expan></choice><lb/>
+Andreasbergk sambt andern örtern in Grubenhager lande abbren-<lb/>
+nen lassen/ vnd werden so wol die Lüneburgischen als Braunschwei-<lb/>
+gische Lande in die Asche gelegt. <fw place="bottom" type="sig">Q</fw><lb/>
+<fw place="bottom" type="catch">Auß</fw><lb/>
+</p>
+<pb facs="#f0002"/>
+</div> <div> <head> <hi rendition="#b">Auß Westphalen/ vom 26. <hi rendition="#aq">Martij</hi>.</hi> </head><lb/>
+<p>Der König in Dennemarck hat durch seinen Feld Marschalck<lb/>
+Hertzogen von Weymar/ sich deß Stiffts Oßnabrück bemächtiget/<lb/>
+Vnd ist dessen Eltester Printz zum <hi rendition="#i"><hi rendition="#aq">Coadjutorn</hi></hi> selbiges Stiffts er-<lb/>
+nennet/ doch dofern selbiger Bischoff Herr Graf von Wartenberg/<lb/>
+sich nicht zu rechter zeit einstellen wird/ sol er gar zum Bischoff vnd<lb/>
+<hi rendition="#i"> <hi rendition="#aq">Administrator installiret</hi></hi> werden. </p>
+<p>Die Stadt Wiedenburg ist den 16. diß früe/ vom Hertzog<lb/>
+von Weymar vberrascht/ darüber die Nonnen Klöster der Geist-<lb/>
+lichen/ vnd etliche Bürgershäuser geplündert. Die Staaden wen-<lb/>
+den sich nachter Lipstadt. </p>
+<p>Der Tilly ligt noch im Lande zu Braunschweig/ hat den Ob-<lb/>
+risten Erbitte mit seinem Regiment disseits der Weser/ ins Stifft<lb/>
+vnd Stadt Münden geschickt. </p>
+<p>Der Obriste Lindlohe ist ins Stifft Paderborn abgefertiget<lb/>
+worden/ ligt mit 2. Regiment Pferde/ vnd 14. Company zu Fuß/<lb/>
+in der Stadt Brackel/ den Dänischen einfall zu verhüten. </p>
+<p>Das Stifft Münster hat sich abkaufft/ vnd dem Hertzog 80.<lb/>
+tausent Reichsthaler geben/ Hierauff ist der Hertzog von Weymar<lb/>
+auff Rehde gezogen/ so ein Paß nach dem Stifft <choice> <sic>Paderbon</sic><corr>Paderborn</corr> </choice>/ Man<lb/>
+vermuhtet/ werde auch <choice> <sic>Vock</sic> <corr>Volck</corr> </choice> dahin geleget werden/ zu verhütung<lb/>
+deß Passes. </p>
+<p>Den Thumbprobst vnd Dechant von Oßnabrück/ also auch<lb/>
+2. Patres vnnd einen Geistlichen/ hat der Hertzog gefänglich hin-<lb/>
+weg geführet. </p>
+<p>Ein Spanischer Capitän Witman/ ist mit einer starcken Par-<lb/>
+tey auß der Lippa/ ins Stifft Münster gezogen/ aber von den Baw-<lb/>
+renalle erschlagen/ vnd seynd der Bawren auch 30. blieben. </p>  </div>
+<div> <head> <hi rendition="#b">Auß Eyßleben/ vom 28. <hi rendition="#aq">Martij</hi>.</hi> </head><lb/>
+<p>Die Soldaten seyn alle auß der Graffschafft Manßfeldt hin-<lb/>
+weg/haben aber ihre Pagaschi hinterlassen/ ist zu besorgen/ sie wer-<lb/>
+den bald wiederkommen/ man sagt/ sie haben einen Anschlag auff <lb/>
+<fw place="bottom" type="catch">Goßlar</fw><lb/>
+<pb facs="#f0003"/>
+Goßlar vnd Göttingen. Wir haben allhier vnd im gantzen Manß-<lb/>
+feldischen Lande/ <hi rendition="#i"><hi rendition="#aq">defensioner</hi></hi> etlich 100. Mann/ welche grossen Muth-<lb/>
+willen verüben/ haben newlich eines vornehmen Obristen Pagaschi<lb/>
+Wagen geplündert/ deßwegen denn von einem Erbarn Rath allhier<lb/>
+starck <hi rendition="#i"><hi rendition="#aq">inquiriret</hi></hi> wird/ Vnnd hat der Häuptman etliche von den <hi rendition="#i"><hi rendition="#aq">de-<lb/>
+fensionern</hi></hi> in die Eisen schlagen lassen/ vnd gesagt/ sie solten leyden/<lb/>
+was das Kriegsrecht sprechen wird. </p>  </div> <div> <head> <hi rendition="#b">Auß Rohm/ vom 28. <hi rendition="#aq">Martij</hi>.</hi> </head><lb/>
+<p>Von Neapoli hat man/ das allda etliche Genuesische Galeen<lb/>
+ankommen/ das Volck nach <hi rendition="#i"><hi rendition="#aq">Genua</hi></hi> ein zu laden/ solle auch das Volck<lb/>
+so auff die Galeen nach Spania verordnet/ ehist abfahren. </p>
+<p>Zu <hi rendition="#i"><hi rendition="#aq">Florentz</hi></hi> ist selbiger groß Hertzog in namen Ertz Hertzog <lb/>
+Leopold die Witwen vnd Hertzogin von <hi rendition="#i"><hi rendition="#aq">Vrbino</hi></hi> durch den Bäbstischen <lb/>
+<hi rendition="#i"><hi rendition="#aq">nuncium</hi></hi> vermählet/ die solle von <hi rendition="#i"><hi rendition="#aq">Don</hi></hi> die <hi rendition="#i"><hi rendition="#aq">Medici</hi></hi> hin auß nach Inß-<lb/>
+bruck begleitet werden. </p>  </div>
+<div> <head> <hi rendition="#b">Auß Erffurt/ vom 2. <hi rendition="#aq">Aprilis</hi>.</hi> </head><lb/>
+<p>Deß Hertzogen von Hollstein geworben Volck/ weil in Schmal-<lb/>
+kalden auch Proviant mangelt/ sol in der Graffschafft Schwartz-<lb/>
+burgQuartier machen/ das Lauenburgische Regiment hatt auff<lb/>
+hiesiger orten Land jhr Quartier gericht/ Der General Tilly ligt<lb/>
+noch jenseits Göttingen/ vnd Nordheim/ vnnd werden viel Braun-<lb/>
+schweigische Dörffer von den Wallensteinischen verbrand/ wiede<lb/>
+rumb werden die Eyßfeldischen Dörffer auch von den Braun-<lb/>
+schweigischen geplündert. </p>  </div>
+<div> <head> <hi rendition="#b">Auß einem vertrawlichen Schreiben/ vom 3. <hi rendition="#aq">Apr</hi>: </hi> </head><lb/>
+<p>Verschienen 31. <hi rendition="#aq">Martij</hi> zu Mittage vmb 1. Vhr/ alß ich in <lb/>
+Zerbst kommen/ ist mir der Herr <hi rendition="#aq">Administrator</hi> deß Ertzstiffts mit 600.<lb/>
+Pferden begegnet/ vnd nach der Schantze vor Dessow marchirt/ eine<lb/>
+stunde hernach ist der General von Manßfeldt in Person auff einem<lb/>
+Wagen mit 6. Schimmeln/ neben noch andern Wagen vnd in 30.<lb/>
+Reisigen/ an der Stadt vorüber marchiret/ deme sind 2. Regiment <lb/>
+zu Fuß/ in vollem Gewehr/ vnd fliegenden Fändlein gefolget/ Noch-<lb/>
+<fw place="bottom" type="sig">Qii</fw> <fw place="bottom" type="catch">mahln</fw><lb/>
+<pb facs="#f0004"/>
+mahln 124. Wagen/ darauff deß von Manßfelds Bagagi nebenst <lb/>
+allerley Munition/ Hierauff sind wieder 2. Regiment zu Fuß gefol-<lb/>
+get/ Nach diesem kamen 4. Carthaunen/ da vor jeder 22. Pferde gin-<lb/>
+gen/ nachmalß 20. groß vnd klein Geschütz/ mit 6. vnd 7. Pferden/<lb/>
+vnd dann 3. Mörser/ hierauff marchirten abermahls 2. Regiment zu<lb/>
+Fuß/ nebest etlich 100. Pagasi Wagen/ vnd also von den Stücken <lb/>
+an/ durch die Stadt/ die Nacht vber. Darauff zog der Obriste Car<lb/>
+pizon/ nebenst dem Fürsten von Sassen/ mit 4. tausent Mann/ so<lb/>
+seithero in Zerbst gelegen hernacher/ liegen jtzo vmb die Schantz vor<lb/>
+Dessow quartirt/ 12. tausendt zu Fuß/ vnnd 4000. Pferdt/ ein solch<lb/>
+statliches Volck/ darob sich zu verwundern/ wer es siehet der hat seine<lb/>
+lust daran/ führen solche Gewehr/ dergleichen diesen Landen niemalß <lb/>
+gesehen worden. </p>
+<p>Gestern alß den 2. <hi rendition="#aq">Aprilis</hi> ist die Schantze mit 4. Carthaunen <lb/>
+von 2. seithen beschossen worden/ dabey ich gewesen/ biß zu Mittage/<lb/>
+nachmals wieder nach Wittenberg geritten. Der Manßfelder ließ<lb/>
+jhnen durch einen Trommelschläger in die Schantz sagen/ so sie sich<lb/>
+auffgeben/ wolte er jhnen Quartier ertheilen/ wo nicht/ solte kein Ge-<lb/>
+bein davon kommen/ Darauff gaben sie zur antwort/ sie begehrten<lb/>
+kein Quartier nicht/ hetten so viel Kraut vnd Loth/ wolten verhoffent-<lb/>
+lich diesen Tag alle die Pagasi zu sich hinein vber die Brücken haben. </p>
+<p>Darauff befohlen worden/ man solte sie mit Granaten besu-<lb/>
+chen/ so auch geschehen/ welche grossen schaden gethan/ allein sie ha-<lb/>
+ben sich mit Mußqueten vnd Falckenetlein auß der Schantz geweh-<lb/>
+ret/ aber wenig Schaden gethan. Die Manßfeldische haben so nahe <lb/>
+an die <choice> <sic>Santze</sic> <corr>Schantze</corr> </choice> eine Batterien gebracht/ das man mit einem Stein in<lb/>
+die Schantze werffen kan/ bey welcher Schantzung in 20. Mann<lb/>
+Manßfeldisch Volck verlohren worden. </p>
+<p>Heute diese <choice> <sic>Nach</sic> <corr>Nacht</corr> </choice> ißt Coßwick gantz außgeplündert worden/<lb/>
+Roßlow ist verschienen Sonnabend von den Wallensteinischen auch<lb/>
+in brand gestecket worden/ daselbst in 50. Häuser nieder gebrand selbiges<lb/>
+Schlos ist stehen blieben/ aber gantz außgeplündert/ Ragetz ist <lb/>
+gantz nieder geschossen vnd verbrand ausser den Thurm/ darin 150. <lb/>
+Mann nebenst einem Catholischen Pfaffen/ so fest gewesen sind/<lb/>
+mehrentheils mit Holtzäxten erschlagen worden/ wie auch der Pfaff/<lb/>
+<fw place="bottom" type="catch"><choice><sic>welche</sic><corr>welcher</corr></choice></fw><lb/>
+<pb facs="#f0005"/>
+welcher die Knechte alle fest gemacht hat/ vor diesem ort ist der <choice><abbr>Obr.</abbr><expan>Obrist</expan></choice><lb/>
+Mey geschossen. </p>
+<p>Der Obriste Fuchs hat Wollmerstät verlassen müssen/ auß <lb/>
+vrsachen das die Wallensteinischen starck gegen jhm kommen/ hat <lb/>
+sich wiederumb vber die Elbe <hi rendition="#aq">reterirt</hi>. </p>
+<p>Bey Sandow lign noch vber 3. tausent Mann/ warten auff<lb/>
+Gewehr/ gehört dem von Manßfeld. </p>  </div>
+<div> <head> <hi rendition="#b">Auß Zerbst/ vom 4. <hi rendition="#aq">Aprilis</hi>.</hi> </head><lb/>
+<p>Der General von Manßfeldt ist vergangenen Montag Nacht/ <lb/>
+von der <choice> <sic>Dessowische</sic> <corr>Dessowischen</corr> </choice> Schantze wieder abgezogen/ welches ein gros-<lb/>
+ses schrecken in hiesiger Stadt gegeben/ auß vrsachen/ weil der Wall-<lb/>
+steinerden Obristen Fuchs von Wollmerstädt abgetrieben/ vnd jhn <lb/>
+also bedrenget/ das er vmb <hi rendition="#aq">succurs</hi>, den General von Manßfeld an-<lb/>
+geruffen/ Der Wallsteiner aber hat sich seithero nach der Dessowi-<lb/>
+schen Brück hinwieder begeben/ Also das der Herr General den an-<lb/>
+dern Tag/ in eigener Person in Zerbst angelanget/ mit der gantzen Ca-<lb/>
+vallerey/ Ja es ist die Stadt so voll gewesen/ das nicht zuschreiben/ <lb/>
+vnd wol vber 12000. Mann. </p>
+<p>Ragöetz hat der Wallsteiner wieder/ ist aber verbrandt vnd zer-<lb/>
+schleifft. <fw place="bottom" type="sig">Consentius, Berliner Zeitungen. 2</fw> </p>  </div> <div> <head> <hi rendition="#b">Auß Wien/ vom 4. <hi rendition="#aq">Aprilis</hi>.</hi> </head><lb/>
+<p>Vor 8. tagen ist Herr Georg von Querstenberg/ Käys. May.<lb/>
+HoffKriegsrath/ von hier zu Chur Sachsen/ vnd ferner zu den 2.<lb/>
+Käys. Generalen abgereiset/ wie verlaut/ etliche Streitigkeiten allda<lb/>
+zuvergleichen. </p>
+<p>Den 2. diß ist Graff <hi rendition="#aq">Don Balthasar de Meradas</hi>, alß General<lb/>
+Feldt Marschalck/ von hier erstlich auff seine Herrschafft Frawenberg/<lb/>
+vnd ferner zu Käys. Wallsteinischen Armada abgereist/ deme Herr <lb/>
+Obrister Lobel/ alß General Wachtmeister vber bemeldte <hi rendition="#aq">Cavalle-<lb/>
+ria</hi> (denn der Graff <hi rendition="#aq">Vratislaw</hi> vber die <hi rendition="#aq">Infanteria</hi> General Wacht-<lb/>
+meister ist) bald nach den Oesterlichen Feyertagen folgen wird. </p>
+<p>Vorgestern ist der Cardinal Dietrichstein/ sampt etlichen Mäh-<lb/>
+<fw place="bottom" type="sig">Qiij</fw> <fw place="bottom" type="catch">rischen</fw>
+<pb facs="#f0006"/>
+rischen Land Officirern allhier ankommen/ vnd stracks bey jhrer Käy. <lb/>
+May. Audientz gehabt. </p>
+<p>Auß Schlesien schreibt man/ das selbiges Land allbereit 2000.<lb/>
+Pferde/ vnd 3000. zu Fuß/ ausser deß Auffbots Volck beysammen<lb/>
+haben/ vnd auff die vornembsten Pässe geleget werden. </p>
+<p>Deß Peter Galls 500. Vngarn vnnd <choice><orig>Crabaten</orig><reg>Kroaten</reg></choice>/ so meisten-<lb/>
+theils Speerreuter sein/ <hi rendition="#aq">marsiren</hi> allbereit durch Mähren vnd Böh-<lb/>
+men/ dem Reiche zu/ dergleichen noch 1000. deß Graffen von Serin<lb/>
+folgen werden. </p>
+<p>Es befinden sich sonst der zeit vnterschiedliche Obersten/ auch<lb/>
+der eltiste Herr von Sassen/ Lawenburg/ vnd der Fürst von Hohen-<lb/>
+zollern/ allhier/ von deren anbringen aber ist nichts eigentlichs zuver-<lb/>
+nehmen. </p>
+<p>Ob man zwar außgeben/ Jhre Käys. May. werden sich nach <lb/>
+den <hi rendition="#aq">Ferijs</hi> nach Prag/ vnd von dar nach Nürnberg erheben/ so hat<lb/>
+man doch jetzo/ das sie sich nach Nielaßburg in Mähren begeben wer-<lb/>
+de/ vnd allda etliche Wochen auff der Reygerbeisse zu zubringen/vor-<lb/>
+habens sey/ Die Käyserin aber werde sich <hi rendition="#aq">interim</hi> ins warme Badt <lb/>
+begeben. </p>
+<p>Der Landtag in Polen hat sich geendet/ vnd sollen vnter an-<lb/>
+dern <hi rendition="#i"><hi rendition="#aq">gravaminibus</hi></hi> die <hi rendition="#i"><hi rendition="#aq">Proceres regni</hi></hi>, zum Beschluß insonderheit<lb/>
+nachgesetzte 2. Puncten mit grossen eyver begehret haben. </p>
+<p>1. Wollen sie sich zu der von Jhrer Mayst. vorgeschlagenen <hi rendition="#i"><hi rendition="#aq">suc-<lb/>
+cession</hi></hi>, dero Jungen Printzen von der andern ehe keines weges ver-<lb/>
+stehen/ Sondern verbleiben auff jhrer ersten <hi rendition="#i"><hi rendition="#aq">Resolution</hi></hi>, das sie  den<lb/>
+Eltern Printzen <hi rendition="#i"><hi rendition="#aq">Uradislaum</hi></hi>, zum künfftigen <hi rendition="#i"><hi rendition="#aq">successore</hi></hi> haben wollen. </p>
+<p>2. Begehren sie die außschaffung der Jesuiter/ weil dieselbe zu<lb/>
+deß Königreichs grossen schaden/ vber jhr öffters erinnern im Lande<lb/>
+geduldet werden/ <choice><sic>denn</sic><corr>dann</corr></choice> sie fast den dritten theil des Königreichs an<lb/>
+sich gezogen hetten/ Haben auch mit entblösten Sebeln sich zusam-<lb/>
+men  verschworen/ alle vor einen Mann zu stehen/ vnd diese <hi rendition="#i"><hi rendition="#aq">resolution</hi></hi> <lb/>
+zu <hi rendition="#i"><hi rendition="#aq">manuteniren</hi></hi>. </p>  </div> <div> <head> <hi rendition="#b">Auß dem Friedländischen Veldtläger/<lb/>
+vom 4. <hi rendition="#i"><hi rendition="#aq">Aprilis</hi></hi>.</hi> </head>  <p>Am 29. <hi rendition="#aq">Martij</hi> ist der Hertzog von Friedlandt von Schladen <fw place="bottom" type="catch">für</fw> <lb/>
+<pb facs="#f0007"/>
+für Harenburg gerückt/ vnd allda in Schlachtordnung gehalten/ weil<lb/>
+aber niemandt kommen/ sich mit jhm zuschlagen/ ist er für die Hessische<lb/>
+Schantz/ so etwa 2. Meil von Harenburg auff disseit gelegen/ ge-<lb/>
+zogen/ allda sein Volck 4. Bawren erschossen/ vnd einen gefangen mit-<lb/>
+genommen. Forters nach Scheningen kommen/ allda die Besatzung<lb/>
+außgefallen/ vnd 4. <choice><orig>Crabaten</orig><reg>Kroaten</reg></choice> erschossen/ dagegen die Friedländischen<lb/>
+einen Reuter gefangen/ vnd alß 2. Bawren nahe dabey gepflüget/<lb/>
+haben die Wallsteinische solche erschossen/ vnd die Pferde mit-<lb/>
+genommen/ vnd weiter an ein Hauß/ eine halbe Meil von Schöningen li-<lb/>
+gend/ gelanget/ darauff 160. Mußquetirer gewesen/ welche es <choice> <sic>aßbald</sic> <corr>alßbald</corr> </choice><lb/>
+vbergeben/ vnd kein einigen Schuß erlitten/ die sein mit Ober vnd vn-<lb/>
+tergewehr abgezogen/ vnd hat es der Hertzog von Friedlandt mit ei-<lb/>
+ner Fahnen Volck besetzt. </p>
+<p>Am 30. <hi rendition="#aq">Martij</hi> seind sie vor Vmmendorff kommen/ vnd solches<lb/>
+vmb den Mittag eingenommen/ darauff 300. Mußquetirer/ neben ei-<lb/>
+nem gar jungen Capitäin gewesen/ welche sich/ vngeachtet das daß <lb/>
+Hauß veste/ vnd mit aller notturfft genug versehen/ dahero sich zum<lb/>
+wenigsten ein Wochen oder 3. halten können/ gantz gutwillig ergeben/<lb/>
+die haben jhr Fähnlein/ Roß vnd Gewehr alles darauff gelassen/ vnd<lb/>
+allein mit dem Seitengewehr abgezogen/ Diß Hauß ist nachmals<lb/>
+auch mit einem Fähnlein Friedländischen beleget worden. </p>
+<p>Am 31. <hi rendition="#aq">Martij</hi> ist der von Friedlandt nach NewAlßleben gezo-<lb/>
+gen/ vnd allda ein par stunde in Battaglia gehalten/ vnd dann nach<lb/>
+Wollmerstädt marchirt/ allda mit dem Obristen Fuchsen in 3. Stun-<lb/>
+den lang/ von 6. biß 9. Vhr nach Mittag Scharmutziret/ allda in<lb/>
+24. Wallsteinische Cürisser erschossen worden/ Von deß Fuchsen<lb/>
+Volck aber hat man nicht vernommen/ das einer geblieben. Densel-<lb/>
+ben Abend hat der Obriste Fuchs zurück zu weichen angefangen. </p>
+<p>Am 1. <hi rendition="#aq">Aprilis</hi> sein die Friedländischen dem Obristen Fuchsen <lb/>
+gefolget/ biß nach Buck an der Elbe/ eine halbe Meil von Tanger-<lb/>
+münde ligend/ vnd allda die Nacht vber geblieben. Man sagt/ das<lb/>
+der Hertzog von Friedlandt/ mit Graff Schlicken/ vnd noch einem <lb/>
+Obristen/ gar nahe an Tangermünde hinan gewesen. Vnd weil sie <lb/>
+gesehen/ das der Obriste Fuchs vber die Elbe gesetzt/ hat sich der Her-<lb/>
+<fw place="bottom" type="catch">tzog von</fw>
+<pb facs="#f0008"/>
+tzog von Friedlandt am 2. <hi rendition="#aq">Aprilis</hi> zurück nach Tangern begeben/<lb/>
+welches die Cossacken schon deß Freytags halb abgebrandt gehabt/<lb/>
+vnd ist das ander theil am 2. Aprill vollend in die Aschen gelegt.</p> <p>Montags den 3. <hi rendition="#aq">Aprilis</hi>, ist auch Ragetz/ vnnd noch etliche <lb/>
+Dörffer daselbst herumb außgeplündert vnd abgebrandt/ auch etliche<lb/>
+Bawren erschossen vnd auffgehenckt worden. </p>
+<p>Desselben Montags ist der Hertzog von Friedland nach Woll-<lb/>
+merstädt zurück kommen/ vnd nach Mittags bey Magdeburg vorbey<lb/>
+gezogen/ gegen dem Anhaltischen Land. Das Vieh haben sie aller or-<lb/>
+then mitgenommen/ vnd was sie nicht mitnehmen können/ todt ge-<lb/>
+schossen vnd ligen lassen. </p>
+<p>Die Magdeburger haben in 300. stück Viehe den Friedländi-<lb/>
+schen wieder hinweg genommen/ vnd in die Stadt gebracht. </p>  </div>
+<div> <head> <hi rendition="#b">Auß Zerbst/ vom 5. <hi rendition="#aq">Aprilis</hi>.</hi> </head><lb/>
+<p>Der Herr <hi rendition="#i"><hi rendition="#aq">General</hi></hi> von Manßfeld jst vergangenen Sontages <lb/>
+<hi rendition="#i"><hi rendition="#aq">Palmarum</hi></hi> vor der Elbeschantz gelegen/ vnd angefangen zubeschies-<lb/>
+sen/ hette solche auch des folgenden Montags wol einbekommen/<lb/>
+wo ferne Herr General Fuchs vmb <hi rendition="#i"><hi rendition="#aq">succurs</hi></hi> nicht eylends geschrie-<lb/>
+ben/ darumb sie sich mit der gantzen <hi rendition="#i"><hi rendition="#aq">Armee</hi></hi> wieder ab- vnnd zurück<lb/>
+begeben müssen/ so bald aber seine <choice><abbr>Fürstl. Gn.</abbr><expan>Fürstliche Gnaden</expan></choice> andere Post zukom-<lb/>
+men das Herr General Fuchs nunmehr Volck gnug bekommen/<lb/>
+seynd seine <choice><abbr>Fürstl. Gn.</abbr><expan>Fürstliche Gnaden</expan></choice> gestern mit der <hi rendition="#aq">Armee</hi> wieder angelangt/<lb/>
+vnnd werden diese Nacht wiederumb vor die Brücken ziehen vnnd<lb/>
+schärffern ernst mit Fewerwerffen vornehmen/ vermeinen bald da-<lb/>
+mit fertig zu sein. </p>  </div>
+<div> <head> <hi rendition="#b">Auß Praga/ vom 8. <hi rendition="#aq">Aprilis</hi>.</hi> </head><lb/>
+<p>Die Religions <hi rendition="#aq">reformation continuirt</hi> allhier eyverig/ wie-<lb/>
+wol die meiste Evangelische Bürgerschafft noch zur zeit bey jhrer er-<lb/>
+sten  <hi rendition="#aq">resolution</hi> verbleiben/ ist aber zu besorgen/ das man sie bald nach<lb/>
+den <hi rendition="#aq">Ferijs</hi> mit mehrerm ernst anstrengen werde/ vnd vngeacht man <lb/>
+den Evangelischen Bürgern auff der KleinSeithen die Narung ge-<lb/>
+sperret/ das Bürgerrecht genommen/ vnd noch mit Soldaten be-<lb/>
+schweret/ thut man nicht minders die aufferlegte <hi rendition="#aq">Contribution</hi> <lb/>
+von jhnen erfordern.</p>  </div>  </div>  <gap/> </body> </text> </TEI>

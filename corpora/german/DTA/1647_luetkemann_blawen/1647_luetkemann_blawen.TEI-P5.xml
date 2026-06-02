@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Von dem blawen Dunst der Welt ... : Ein Leich-Sermon bey der Leichbegängniß ... Conradi Fincken ...</title>
+<author>
+<persName ref="http://d-nb.info/gnd/122305418">
+<surname>Lütkemann</surname>
+<forename>Joachim</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/317-19-theol-8s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/317-19-theol-8s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">40</measure>
+<measure type="tokens">8782</measure>
+<measure type="types">2356</measure>
+<measure type="characters">55901</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:31:04Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/luetkemann_dunst_1647</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/luetkemann_dunst_1647</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/luetkemann_dunst_1647</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/luetkemann_dunst_1647</idno>
+<idno type="DTADirName">luetkemann_dunst_1647</idno>
+<idno type="DTAID">30228</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30228-5</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Lütkemann, Joachim: Von dem blawen Dunst der Welt ... : Ein Leich-Sermon bey der Leichbegängniß ... Conradi Fincken ... Rostock, 1647.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Von dem blawen Dunst der Welt ... : Ein Leich-Sermon bey der Leichbegängniß ... Conradi Fincken ...</title>
+<author>
+<persName ref="http://d-nb.info/gnd/122305418">
+<surname>Lütkemann</surname>
+<forename>Joachim</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Keil</name></publisher>
+<pubPlace>Rostock</pubPlace>
+<date type="publication">1647</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<pb facs="#f0001"/>
+<front>
+<titlePage type="main">
+<docTitle>
+<titlePart type="main">Von dem blawen Dunst der Welt/<lb/>
+Wie denselben zu verhüten/ Gott
+zuweilen<lb/>
+ein liebes Kind frühzeitig aus diesem Leben<lb/>
+hinweg nimpt/<lb/>
+Ein
+Leich-Sermon<lb/>
+Bey der Leichbegängniß eines Gottseeligen<lb/>
+vnd gelehrten
+Jünglings<lb/>
+<hi rendition="#b">
+<hi rendition="#aq">Conradi</hi> Fincken /</hi><lb/>
+von Tundern in Holstein/<lb/>
+<hi rendition="#aq"> Ph. &amp; SS. Th. St.</hi><lb/>
+</titlePart>
+</docTitle>
+<byline> Am 2. Tag <hi rendition="#aq">Novembris</hi>, des <hi rendition="#aq">1647</hi>.<lb/>
+Jahrs/zu Rostock in der Thumbkirchen<lb/>
+zu S. Jacob gehalten<lb/>
+von<lb/>
+<docAuthor><hi rendition="#aq">Joachimo Lütkeman</hi></docAuthor>, Der heili-<lb/>
+gen
+Schrifft <hi rendition="#aq">Doctore</hi>, Predigern zu S.<lb/>
+Jacob/vnd bey der
+Vnwersität <hi rendition="#aq #i">Prof.</hi><lb/>
+</byline>
+<milestone rendition="#hr" unit="section"/>
+<lb/>
+<docImprint><supplied>Bey Nicolaus Keyl der Vnivers. Buchdr.</supplied></docImprint>
+</titlePage>
+</front>
+<pb facs="#f0002"/>
+<body>
+<div>
+<head>Der viel Ehr vnd Tugendreichen Frawen Margaretae Mcyers / Des Weyland Ehrnvesten vnd
+Achtbarn Herrn Johann Fincken / Vornehmen Handelsmann zu Tundern in Holstein /
+Hinterlassenen Wittwen / Als des jetzt verstorbenen Jünglings Conradi Fincken /
+Hochbetrübten Mutter / Wündschet Gottes reiche Gnade / Beständigkeit im rechten Glauben /
+an Christum Jesum / vnd kräfftigen Trost des heiligen Geistes<lb/>
+</head>
+<p>Joachimus Lütkeman, D.</p>
+<pb facs="#f0003"/>
+<p>VIel Ehr vnd Tugendreiche Frawe / in Christo werthe Freundin: Man pfleget sonsten in
+Leich Predigten gerne zu reden vom Himmel / seeligen Todt / vnd glücklichen Zustand deren
+/ die in Christo entschlaffen seyn / vnd davon höret man auch allermeist bey
+Leichbegängnissen gerne predigen: So befindet sichs doch / daß bey dem süssen einbilden
+des himlischen Zustandes / die Christen gantz Irrdisch bleiben / vnd häuffig mit vollem
+Lauff eilen zum breiten Wege / der zum Verdamniß führet. Es werden nicht alle die zu mir
+sagen /<note place="right"><hi rendition="#i">Matth. 7. 21.</hi></note> HErr / HErr / ins
+Himmelreich kommen: Spricht vnser Erlöser Christus: Das kömpt her von dem Betrug des
+weltlichen Wesens / daß den Schein eines guten Christenthumbs mit sich führet. Daher
+lassen jhnen fromme Seelsorger angelegen seyn / auch bey Leichbegängnissen nicht allein zu
+predigen von der Süssigkeit des himlischen Standes / sondern
+<pb facs="#f0004"/>
+auch von
+rechter Bereitung zu solchem himlischen Stande / vnd von allem was einem Christen daran
+kan hinderlich seyn.</p>
+<p>Also / nachdem dieselbe / welchen Ewre Tugend vnd Christliche Vorsorge Ihren nun in
+Christo entschlaffnen Sohn anvertrawet / von mir begehret den Spruch von den frühzeitigen
+Todt der Frommen aus dem 4 Cap. des Büchleins der Weißheit zum Leich-Text vorznnehmen; Hat
+mir beliebet allein / die Liebe Gottes zu erwegen / die er zu weilen an jungen Leuten übet
+/ wenn er mit jhnen eilet aus diesem Leben / damit die Boßheit jhren Sinn nicht verrücke;
+vnd also auch von den blawen Dunst des weltlichen Lebens / vns annoch Lebenden zur
+Christlichen Warnung; Vnd habe solche geistliche Betrachtung auff begehren zum
+öffentlichen Druck heraus gegeben.</p>
+<p>Ob nun zwar ewer trawriges Hertz vielleicht lieber gesehen / daß es möchte hören oder
+lesen geistlichen Trost in jhrem jetzigen Leyd / zweiffel ich doch nicht / sie werde sich
+auch gefallen lassen / daß bey Christlicher Leichbegängniß jhres in Christo entschlaffnen
+sehr lieben Sohns / von solcher Materia geprediget ist / die den anwesenden
+<pb facs="#f0005"/>
+hat können nützlich vnd erbawlich seyn / alldieweil bey der studirende
+jungen Jugend allermeist grosse Sorge zutragen / daß sie nicht durch das betriegliche
+Weltwesen eingenommen vnd verführet werde. Vnd ohn daß ich nicht zweiffel / es werde ewre
+Christliche Tugend auch an jhren Orthe solche Leute vmb sich haben / die jhr tröstlich
+werden zusprechen / halte ich dafür / daß uicht ein geringer Trost sey / wen&#x0303; wir
+dessen gewiß seyn / daß die vnserige der Gefahr des verführischen vnd verdamlichen
+Weltwesens entgangen seyn. Denn ja besser nimmer seyn geboren / denn ewig seyn verloren /
+einmahl seelig sterben / vnd das Himmelreich ererben / ist aller Heiligen Wundsch vnd
+Begierd. Der gütiger Gott / wolle ewer betrübtes Hertz mit Gnad vnd Trost erquicken / vnd
+sie mit den jhrigen für fernern Vnfall kräfftiglich bewahren.</p>
+<pb facs="#f0006"/>
+</div>
+<div>
+<head>I. N. I. C. A. Vom blawen Dunst der Welt. Wiedenselben zuverhüten / Gottzuweilen ein
+liebes Kind frühzeitig aus diesem Leben hinweg nimpt.<lb/>
+</head>
+<head>Aus dem 4. Cap. des Büchleins der Weißheit / vers. 7. biß zum 15.<lb/>
+</head>
+<p>DEr Gerechte / ob er gleich zu zeitlich stirbt / ist er doch in der Ruhe.</p>
+<p>(Denn das Alter ist ehrlich / nicht das lange lebt oder viel Jahr hat / Klugheit vnter
+den Menschen ist das rechte grawe Haar / vnd ein vnbefleckt Leben / ist das rechte Alter)
+Denn er gefält Gott wol / vnd ist jhm lieb / Vnd wird weggeuom -
+<pb facs="#f0007"/>
+men aus
+dem Lebe&#x0303; vnter den Sündern / vnd wird hingerückt / daß die Boßheit seinen Verstand
+nicht verkehre / noch falsche Lehre seine Seele betriege. Denn die bösen Exempel verführen
+vnd verderben einem das Gute / vnd die reitzende Lust verkehret vnschüldige Hertzen. Er
+ist bald vollkommen worden / vnd hat viel Jahr erfüllet / Denn seine Seele gefält Gott /
+darumb eilet er mit jhm ans dem bösen Lebeu.</p>
+<p>GEliebte in Christo / Es ist<note place="right"><hi rendition="#i">Exordium à compas
+sione Christi.</hi></note> vnser geliebter Heyland Christus Jesus ein Hoherpriester
+vnd Fürbitter im Himmel / der in der Epistel an die Hebreer am 4. Cap. also beschrieben
+wird: Wir haben<note place="right"><hi rendition="#i">Ebr. 4, 15.</hi></note> nicht einen
+Hohenpriester /
+<pb facs="#f0008"/>
+der nicht kundte Mitleyden haben mit vnser Schwachheit
+/ sondern der versucht ist allenthalben / gleich wie wir / doch ohne Sünde. In solchen
+Worten wird der thewrer Heyland allen Leydtragenden Sündern lieb vnd werth gemacht / damit
+/ daß er nicht ist ein gestrenger vngestümer HErr / sondern holdselig / der Mitleyden
+haben kan mit vnser Schwachheit / Welches denn zu verstehen ist / nicht allein von den
+sündlichen Gebrechen / damit wir in diesem Leben vns schleppen müssen / sondern auch von
+allerley Noth vnd Hertzenleid / als in welchen er selbst recht wol geüber ist.</p>
+<p>In den Tagen seines Fleisches hat er betrübte vnd geängstete Hertzen nimmermehr von sich
+gestossen / sondern allezeit Mitleyden mit jhnen getragen. Er trug <note place="left"><hi rendition="#i">Joh. 11. Luc. 7, 12.</hi></note>nicht allein Mitleyden mit den
+Schwestern des todten Lazari / seiner lieben vnnd vertrawten Freundinnen; sondern auch mit
+der Wittwen zu Nain / mit welcher er vielleicht vorhin keine Kundschafft gehabt; da man
+derselben einigen Sohn hinaus zum Grabe trägt; <note place="left"><hi rendition="#i">c. 8,
+52.</hi></note>Es jammerte jhn derselben / vnd sprach zu jhr: Weine nicht. Also auch /
+da Jairus mit seinen Gefreundten sein verstorbenes Töchterlein betrawrete / sprach er:
+<note place="left"><hi rendition="#i">Matth. 14, 14. Marc. 8, 2.</hi></note>Weinet nicht
+/ sie ist nicht gestorben / sondern sie schläfft. Da viel Volcks / theils daß sie jhn
+hörten / theils daß sie von jhm geheilet würden / sich bey jhm auffhielte / vnd hatte
+nichts zu essen / jammerte jhn desselben. <note place="left"><hi rendition="#i">Luc. 19,
+41</hi></note>Ja auch da er bedenckt den künfftigen Zorn / der kommen solte über die
+Jüden seine Feinde / weinet er über sie.
+<pb facs="#f0009"/>
+Solch mitleydendes Hertz hat
+der trewe Heyland nicht abgeleget / nachdem er sich gesetzet hat zur Rechten Gattes;
+sondern wir haben an jhn einen solchen Hohenpriester vnd Versühner / der mit vnser
+Schwachheit Mitleyden haben kan.</p>
+<p>Das rühret her erstlich aus einer Liebe / denn die<note place="right"><hi rendition="#i">Ej<supplied>us</supplied> causae.</hi></note> eyfrige Liebe kan ohne Bewegniß nicht zusehen / daß den
+Geltebten Leyd wiederfahre. Beym Propheten Jeremia am 31. Cap. redet Gott seine betrübte
+Gemeine also an: Ich habe dich je vnd je geliebet / darumb<note place="right"><hi rendition="#i">Jer. 31, <supplied>3</supplied>.</hi></note> hab ich dich zu mir gezogen aus lauter Güte /
+Wolan / ich wil dich wiederumb bawen / daß du solt gebawet heissen. Diß gilt auch einer
+jeglichen betrübten Seelen / die kan hie erkennen den Vrsprung / beydes / daß Gott vns zu
+sich ziehet / vnd sich auch vnser in Nöthen annimpt / nemblich die Liebe: Ich habe dich je
+vnd je geliebet. Aus hertzlicher Liebe thut er vns gutes / Aus hertzlicher Liebe tröstet
+er vns in Trübsal / vnd hilfft vns. Ich wil dich bawen / daß du solt gebawet heissen; Ich
+wil dich wieder trösten / du Trostlose / daß es sol heissen / du seyst getröstet. Wenn der
+gütige<note place="right"><hi rendition="#i">Jer. 31, 20.</hi></note> Gott am selbigen
+Ort anzeigen wil / warumb er sich über Ephraim also sehr erbarme / daß jhn sein Hertz
+breche über den Jammer Ephraims / gibt er diese Vrsach: Ist nicht Ephraim mein thewrer
+Sohn / vnd mein trawtes Kind? Darumb bricht mir mein Hertz gegen jhm / daß ich mich sein
+erbar -
+<pb facs="#f0010"/>
+men muß / spricht der HErr. Also beym Propheten <note place="left"><hi rendition="#i">Esa. 49, 15.</hi></note>Esaia am 49. Cap. Wenn er wil
+anzeigen / warumb er Zions nicht vergessen kan in jhrem Vnglück; redet er also: Kan auch
+ein Weib jhres Kindleins vergessen / daß sie sich nicht erbarme über den Sohn jhres Leibes
+/ vnd ob sie desselben vergesse / so wil ich doch dein nicht vergessen. Wie es nun
+vnmüglich / daß eine&#x0303; Vater nicht solte zu Hertzen gehen der kläglicher Jammer
+seines Kindes / also kan GOttes mildreiches Hertz nicht zulassen / daß er solte ansehen
+das Hertzleid seiner Kinder / vnd nicht mitleyden haben. Allermeist / dieweil das
+väterliche Hertz in Gott gegen vns viel brünstiger ist / denn in jrrdischen Menschen.</p>
+<p>Eine andere Vrsach wird angezeiget in vorangezogen Sprüchlein aus dem 4. Cap. an die
+Ebreer; in dem von Christo gesagt wird? Er ist versucht allenthalben gleich wie wir / doch
+ohne Sünde. Vnd in folgenden Capitel derselbigeu Epistel wird von jhm gesaget: <note place="left"><hi rendition="#i">Ebr. 5, 8.</hi></note>Wiewol er Gottes Sohn war / hat er
+doch in dem / daß er leid / gehorsam gelernet. Er hat in seinen Leyden müssen empfinden /
+wie schwer es menschlichen Hertzen sey / sich allerley Angst vnd Noth in höchster Gedult
+zu vnterwerffen / vnd nach Gottes Willen alles Vnglück über sich ergehen lassen. Daher
+fieng er an zu zittern vnd zu zagen / vnd kämpffte mit den Todt / vnd betet: Vater ists
+müglich / so nim&#x0303; diesen Kelch von mir. In dem allen ist er ohne Sünde befunden /
+als der seinen Willen abgesaget / bereit alles zu leiden / was Gott der
+<pb facs="#f0011"/>
+Vater über jhn verhängen würde. Weil er nun selbst Hertzen Angst geschmeckt / kan er
+desto mehr Mitleyden tragen mit angsthafftigen betrübten Hertzen.</p>
+<p>Nun möcht man aber sagen: Er schickt vns ja selbst<note place="right"><hi rendition="#i">Occupatio.</hi></note> die Trübsal zu. Ist auch wol ein Vnglück in der Stadt / daß
+der HErr nicht thue? Wahr ists / durch seine schickung oder zulassung geschicht alles /
+doch sollen wir vns Gott nicht einbilden als einen harten Klotz / dem keine Noth zu
+Hertzen gehet / er sihet vnser Noth / hat mitleiden vnd ist bereit zu trösten vnd zu
+helffen. In dem fall ist vnser Gott gleich einem trewen Vater / der sein Kind steupet /
+vnd jammert jhn doch das ängstliche Flehen seines Kindes / Vnser Wollfart er forderts /
+wenn wir Christen seyn / daß Gott vns Trübsal zuschicke / solte er aber damit sein
+barmhertziges Hertz ablegen? daß sey ferne. Den&#x0303; ob ein Weib jhres Kindes vergiesse
+/ daß sie sich nicht erbarme über den Sohn jhres Leibes / so wil ich doch dein nicht
+vergessen / spricht der HErr.</p>
+<p>In betrachtung des mitleydenden Hertzen Christi<note place="right"><hi rendition="#i">Consectarium primnm do cet, licitu&#x0303; esse, aliquando lugere.</hi></note> vnd
+vnsers Gottes / erkennen wir / daß zu viel gefodert haben die Heydnischen Philosophi,
+Stoici genandt / wenn sie begehret / daß man weder durch Glück noch Vnglück sich sol
+bewegen lassen / sondern alles gleich tragen vnd annehmen / ohne alle Bewegniß des
+Gemüthes. Traget Christus im Himmel mitleyden mit der betrübten Seelen / wie solte ein
+Christ nicht mitley den mit dem andern tragen? vnd wie solt eine fromme Seele über einen
+kläglichen Fall nicht betrübet werden? Wer wil den verdencken / der hochbetrübten Mutter
+des verstorbenen
+<pb facs="#f0012"/>
+Jünglings / den wir jetzt zu seinem Ruhbettlein
+begleitet; so dieselbe trawret vnd klaget über den frühzeitigen Abtritt jhres Eltesten
+Sohns / welchen sie selbst über 40. Meilen vorm viertel Jahr anhero gebracht / aus
+Mütterlicher Trew vnd Vorsorge / vnd jhn Christlichen Hertzen anbefohlen? Wie solte sie
+ohn bestürtzung zuhören / wenn jhr die Botschafft wird zu Hause gebracht werden? Ewer Sohn
+ist gestorben? Allermeist / da die Wunden wegen jhres lieben Ehemanns vnd jüngsten Sohns /
+die sie in kurtzer frist verlohren / noch nicht gar werden geheilet seyn. Da der Ertzvater
+Jacob die Botschafft bekam: Wir haben einen bundten Rock im Blute gefunden / sihe <note place="left"><hi rendition="#i">Gen. 37, 32.</hi></note>ob es deines Sohns Josephs Rock
+sey oder nicht; da zureiß er seine Kleider / vnd leget einen Sack vmb seine Lenden / vnd
+trug Leyd vmb seinen Sohn lange Zeit / ob zwar alle seine Söhne vnd Töchter aufftraten /
+jhn zu trösten / wolte er sich doch nicht trösten lassen / sondern sprach: Ich werde mit
+Leyd hinunter fahren in die Gruben / zu meinem Sohn. Da er nachmahls seinen andern Sohn
+Benjamin solte in Egypten schicken / wegerte er sich sehr / vnd bekandte seine Schwachheit
+<note place="left"><hi rendition="#i"><gap unit="chars" quantity="1" reason="illegible"/>. 48, 38.</hi></note>/ vnd sprach: Mein Sohn
+sol nicht hinab ziehen / denn sein Bruder ist todt / vnd er ist allein überblieben / wenn
+jhm ein Vnfall auff dem Wege begegnete / würdet jhr meine grawe Haar mit Hertzeleid in die
+Gruben bringen. So wenig es diesen Altvater zu verdencken / daß er sich hertzlich
+bekümmert über den vermeynten Verlust seiner Kinder / so we -
+<pb facs="#f0013"/>
+nig ists
+dieser hochbetrübten Mutter zu verdencken / so sie Leyd traget über den tödtlichen Abtritt
+der Ihrigen; Christliche Hertzen tragen in solchen Fällen hertzlich Mitleyden vnter
+einander.</p>
+<p>Es ist aber auch tröstlich bekümmerten Hertzen / daß<note place="right"><hi rendition="#i">Alterum consectarium consolatur lugentes.</hi></note> derselbe
+Mitleyden mit vns trägt der alles in seinen Händen hat / wie es noch einem Trost gibt /
+wenn auff Erden ein Mensch mit den andern Mitleyden hat / ob schon einer dem andern nicht
+viel helffen kan / so ists viel tröstlicher / daß wir wissen / Christus im Himmel hab
+Mitleyden mit vns. Darumb getrost / all jhr betrübte Seelen / es wird noch alles werden
+gut / besser den jhrs hoffen thut. Wenn der Geist Gottes in offt erwenten Spruch das
+mitleydendes Hertz vnsers Hohenpriesters vns fürgehalten / als daß selbsten in mangerley
+Hertzenangst versucht ist / setzet er stracks darauff diese Vermahnung: Darumb lasset vns
+hinzu tretten / mit Frewdigkeit zu dem Gnadenstuel / auff daß wir Barmhertzigkeit empfahen
+/ vnd Gnade finden / auff die Zeit / wenn vns Hülff noth seyn wird. Nur zu deinen lieben
+HErrn Christo / du betrübte Seele / klag jhm deine Noth / er wird dich nicht Trostloß
+lassen. Wie der HERR tröstlich zugeredet dem Jairo vnnd seinen Befreundten / die das
+verstorbene Mägdlein beweineten: Weinet nicht / sie ist nicht gestorben / sie schläfft;
+Also tröstet er noch in seinem Wort alle fromme Eltern die vmb den tödtlichen Abtritt
+jhrer Kinder hertzlich betrübet seyn. Weine nicht / dein Kind ist nicht gestorben / es
+lebet. Welches denn gewiß vnd warhafftig also wird
+<pb facs="#f0014"/>
+befunden werden in
+der Aufferstehung der Gerchten. Das gibt einen newen Trost denselben / die den Todesfall
+der Ihrigen betrawren. Vnsere Todten sind nicht tod; sie scynd in der Ruhe / es gehet
+jhnen wol / sie seynd lebendig vnd selig in Christo Doch müssen wir hie gewiß seyn / daß
+vnsere Todten in Christo gelebet vnnd entschaffen seyn. Denn so gewisse Merckzeichen da
+seynd / die bezcugen / daß der Mensch nicht in Christo gelebet / was kan da für Trost
+seyn? Da findet sich abermahl ein newer Trost / welcher denen angehet die junger Leute
+zeitigen Todt betrawren; denn weil böse Exempel vnd die Gewonheit der Welt einem leicht
+vom rechten seeligen Leben in Christo kön&#x0303;en abziehen / ist das freylich auch ein
+Trost / daß junge Leute / an denen wir gewisse Merckzeichen finden / daß sie in Christo
+Jesu gelebet vnd entschaffen seyn / der Welt betrieglichen Verführung entgangen seyn / wie
+den&#x0303; das Büchlein der Weißheit in vorgenom&#x0303;en Spruch / dieses Stück als
+einen sonderbahren Trost anziehet: Der Gerechte ist Gott lieb / vnd wird weggenommen aus
+dem Leben vnter den Sündern / vnnd wird hingerückt / daß die Boßheit seinen Verstand nicht
+verkehre / denn die bösen Exempel verführen vnd verderben eim das gute / vnd die reitzende
+Lust verkehret vnschuldige Hertzen. Es steckt im selbigen Sprüchlein zwar noch mehr Trost
+/ als das junge Leute / die in Christo seelig abgeschieden / alt genung geworden / dieweil
+sie die rechte Weißheit erlanget / Christlich zu leben / vnd seeliglich zu sterben; daß
+sie bald vollkom&#x0303;en geworde&#x0303; seyn durch einen selige&#x0303; Todt / viel
+voll -
+<pb facs="#f0015"/>
+kommener als wen&#x0303; sie hie viel Jahr erreichet / vnd
+endlich daß sie in der Ruhe vnnd Seligkett seyn; So hat mir doch gefallen / nachdem mir
+dieser Spruch zum Leich-Text an die Hand gegeben / allein von dem blawen<note place="right"><hi rendition="#i">Thema.</hi></note> Dnnst der Welt zu reden / wie Gott
+zuweilen junge Leute aus Liebe dahin neme / auch darum&#x0303; / daß die Boßheit jhren
+Verstand nicht verkehre / vnd das gute verderbe; damit nicht allein die Betrübten hie
+Trost finden / sondern auch wir allesampt / die wir noch im leben seyn / für den Betrug
+der Welt gewarnet werden. GOtt gebe Gnade / daß solche Betrachtung beydes tröstlich vnnd
+aufferbawlich seyn möge / durch die Krafft des heiligen Gejstes / in Christo Jesu /
+Amen.</p>
+<p>WEnn das Büchlein der Weißheit von den Frommen vnd Gerechten / die zeitlich sterben /
+also redet:<note place="right"><hi rendition="#i">Summa.</hi></note> Er gefält Gott wol /
+vnd ist jhm lieb / vnd wird weggenommen aus dem Leben / vnter den Sündern / vnd wird
+hingerückt / daß die Boßheit seinen Verstand nicht verkehre / noch falsche Lehre seine
+Seele betriege / denn die bösen Exempel verführen vnd verderben eim das gute / vnd die
+reitzende Lust verkehret vnschuldige Hertzen; Damit wil es kürtzlich so viel sagen; die
+sündliche Gewonheit der Welt kan ein frommes Hertz leichtlich verführen / vnd jhm einen
+blawen Dunst in die Augen schlagen. Das sihet Gott / der alles zuvor weis / was künfftig
+geschehen kan / darumb eilet er zuweilen mit einer lieben Seele aus diesem verführischen
+Leben.</p>
+<pb facs="#f0016"/>
+<note place="left"><hi rendition="#i">Membrum thematis primum</hi></note>
+<p>Hie ist zu erst der blawe Dunst des sündlichen Wesens zu besehen / dadurch wir nichts
+anders verstehen / denn die grewliche Verführung vnd schändliche&#x0303; Betrug des
+Weltwesens / vnter einen guten vnd angenehmen <note place="left"><hi rendition="#i">De vit
+ae mundi ob nubilae.</hi></note>Schein. Denn gleich wie ein blawes Glaß die Augen
+betrieget / wenn man dadurch sihet / vnd macht das nichts in seiner eigentlichen Farbe
+gesehen wird / sondern alles in einen blawcn Schein / so verkleidet sich auch das
+Weltwesen in einen blawen Nebel / vnd stellet sich da vnter den Schein eines herrligen
+vn&#x0303; angenehmen Wesens / vnd damit betrieget vnd verführet es vnschuldige Hertzen /
+vnd verkehret das gute.</p>
+<note place="left"><hi rendition="#i">1. An fit.</hi></note>
+<p>Daß ein solcher blawer Dunst stecke in der sündlichen Gewonheit der Welt / bezeuget nicht
+allein hie das Büchlein der Weißheit / in dem es mit klaren Worten saget: Die bösen
+Exempel verführn / vnd verderben eim das Gute / die Boßheit verkehret den Verstand / vnd
+schläget den Vnschuldigen einen blawen Dunst in die Augen; Sondern es wird auch
+fürgebildet in der Babylonischen Hure / die mit Gold vnd <note place="left"><hi rendition="#i">Apoc. 17, 2. 4.</hi></note>Edelsteinen bekleidet ist / vnd hat in der
+Hand einen gülden Becher / voll Weins aber mit Gifft vermischet / damit macht sie truncken
+alle die auff Erden wohnen. Wenn <note place="left"><hi rendition="#i">Psal. 10,
+3.</hi></note>David im 10. Psalm vom Gottlosen Wesen der bösen Welt saget: Der Gottlose
+rühmet sich seines Muthwillens; bekennet er damit / daß das gottlose Wesen den Schein
+einer Herrligkeit mit sich führe / denn wie wolt sich der Gottlose seines Muthwillens
+rühmen / wenn bey seinen Muthwillen kein blawer Dunst wäre /
+<pb facs="#f0017"/>
+vnd ein
+Ruhm / der bey der Welt viel gilt? Was kan warhafftiger gesaget werden von den Leuten /
+die der göttlichen Rechten feilen / als das David sagt im 119. Psalm.<note place="right"><hi rendition="#i">Ps. 119. 118.</hi></note> Ihr Triegerey ist eitel Lügen. Daher der
+Apostel Paulus zum Ephesern am 4. Den alten Menschen / welchen<note place="right"><hi rendition="#i">Eph. 4, 22.</hi></note> die Welt Menschen nicht wollen ablegen / also
+beschreibet: Der durch Lüste in Irrthumb sich verderbet / oder: Der sich verderbet durch
+die betriegliche Lüste. Ein Welt Mensch verderbet sich selbst für Gott / daß er nichts
+gilt / in dem er laufft / wie jhn seine fleischliche Bewegung treiben / nach Weltweise vnd
+Gewonheit / vnd das geschicht in einem Irrthumb / in dem solche Weise vnd Gewonheit für
+köstlich gehalten wird. Das bezeugen auch die Exempel / die man leider täglich für Augen
+sihet / daß man die leidige Welt wol vergleichen kan der listigen Huren Thamar / welche
+jhren eigen Schwieger-Vater den tapffern Mann Juda dahin<note place="right"><hi rendition="#i">Gen. 38, 13</hi></note> gebracht / daß er sie beschlieffe; eutweder daß
+sie gesuchet von heiligen Geschlecht Kinder zu bekommen; oder Rache zu üben gegen Juda /
+der jhr nach seiner Verheissung seinen dritten Sohn nicht wolte zur Ehe geben. Vnd solch
+jhr Vorhaben hat sie erlanget durch frembde angenommene Hurengestalt. Sitzet nicht die
+Welt wie eine wol außgeputzte Hure auff allen Wegen / vnnd reitzet vnd locket alle die
+fürüber gehen / auch den heiligen Samen? Es würde jhr aber viel tausendmahl mißlingen / so
+sie würde erkandt werden.</p>
+<p>Wenn wir nun wissen / daß warhafftig Triegerey<note place="right"><hi rendition="#i">2.
+Unde sit.</hi></note> stecke in dem Weltwesen / sollen wir fürs ander bedencken /
+<pb facs="#f0018"/>
+woher der blawe Dunst komme / vnd wer der Meister sey in dieser
+Triegerey. Es ist aber leicht zuerachten / daß es der sey / der in heiliger Schrifft vns
+beschrieben wird / <note place="left"><hi rendition="#i">Eph. 6, 12.</hi></note>als ein
+Fürst vnd Herr der Welt / der in der Finsterniß <note place="left"><hi rendition="#i">Apoc. 12, 9.</hi></note>dieser Welt herrschet / vnd die gantze Welt verführet. Davon
+ist insonderheit zu mercken / was geschrieben stehet <note place="left"><hi rendition="#i">2. Cor. 4, 4</hi></note>iu der 2. an die Corinther am 4. Daß der Gott dieser Welt /
+die Sinne der Vngläubigen verblende / daß sie nicht sehen das helle Liecht des herrlichen
+Evangelij Christi. Darumb / O Menschen Kinder; wenn jhr höret wie ewer Leben in Gottes
+Wort verklaget vnd gestraffet wird / vnd jhr empfindet gleichwol noch allerhand
+Entschuldigung in ewrem Sinn / die euch wehren / daß jhr dem Worte Gottes keine Folge
+leistet; so gedencket nicht anders / als daß der lebendiger Teuffel euch in ewrem Kopffe
+sitze / vnnd bemahle euch das Gehirn mit trieglichen Farben / vnd beraube euch damit allen
+Sinn vnd alles Nachdencken / daß der heiliger Wille Gottes in seinen herrlichen Evangelio
+euch verdeckt bleibe. Der Sathanas ist der Meister gewesen / welchen <note place="left"><hi rendition="#i">Gen. 3, 1. 13.</hi></note>der Eva einen blawen Dunst für die Augen
+gemahlet / in dem sie von der verbottenen Frucht aß / wie sie den bekennen müste / da sie
+von Gott gefraget ward; Warumb hastu das gethan? denn sie antwortet: Die Schlange betrog
+mich also / daß ich aß. Also ist noch heute / der alle Welt durch einen blawen Dunst
+betrieget / eben diese Schlange / der alte Drache / der da heisset Teuffel vnd Sathanas;
+das werdet jhr auch beken -
+<pb facs="#f0019"/>
+nen müssen zu seiner Zeit / Ihr Welt Kinder;
+denn haltet nur gewiß dafür / daß einmahl Gott in ewrem Gewissen die Frage anstellen wird:
+Warumb hastu das gethan / da werdet jhr bekennen müssen: O die Schlange hat mich
+betrogen.</p>
+<p>Es ist aber nutz fürs dritte zu <choice><sic>bedenckeu</sic><corr>bedencken</corr></choice> / wie der<note place="right"><hi rendition="#i">3. Quomodeßat.</hi></note> Sathan mit seiner Färberey vmbgehe / vnd was für Farben er
+vermischt / biß er einen blawen Dunst zu wege bringet. In dem wir mit solchen Gedancken
+vmbgehen / ist mein Vorhaben nicht / alle Rencke vnd List zu erzehlen / die der Verführer
+gebraucht / auch heilige Leute in eine grobe Sünde zu stürtzen; sondern nur / wie er mit
+Weltkindern vmbgehe / indem er sie ans Weltwesen verbindet / vnd lässet sie doch bey
+solchen Gedancken / als seyn sie gute Christen / vnd können auch seelig werden. Dazu
+gebraucht der Sathan mancherley Farben / denn es bestehet der Betrug nicht darin allein /
+daß man Sünde nicht für Sünde hält / sondern wenn schon das Gewissen überzeuget ist / es
+gehe auff Vnwege / weis doch der Sathan dem Weltwesen eine solche Gestalt zu geben / daß
+die Welt Menschen davon nicht mögen ablassen.</p>
+<p>Etliche Hauptfarben zu nennen / nimbt dieser Künstler zu erst zur Hand eine goldgelbe
+Farbe / vnd reichet den Menschen Kindern einen gülden Apffel zu / macht jhnen die Welt
+lieb / als wäre es lauter Gold / da es doch nur Koth vnd Dreck ist. Die Welt bestehet in
+der Augen Lust / Fleisches Lust / vnd hoffärtigem Wesen / damit nun der Sathan den
+Menschen zu solchen Weltwesen ziehe / ist seine erste Sorge / wie das Menschliche Hertz
+die
+<pb facs="#f0020"/>
+Welt recht lieb gewinne / dazu es auch selbst von Natur geneiget
+ist. Er wendet vnser Augen auff Reichthumb / daß wir betrachten / wie Gold vnd Geld nicht
+allein liebliche Schätze seyn / sondern auch wie es in der Welt viel kan vnd vermag. Er
+wendet vnsere Augen zum Wolleben der Welt / wie es ein lustig Ding sey / Pancketiren /
+Lachen / Spielen / vnd in allerhand Vppigkeit leben. Er wendet vnsere Augen auff Ehr /
+Ruhm vnd Hoheit in der Welt / vnd daß es vns wol gefalle das Menschen viel von vns reden
+vnd halten / vnnd vor allen bildet er vns hart ein / was reputation für ein köstlich Ding
+sey / damit macht er vns denn gantz weltlich / daß vnser Hertz den weltlichen Dingen
+anhange. Was ists aber / daß wir so sehr lieben / daß wir auch Gottes vnd des Himmels
+darüber <note place="left"><hi rendition="#i">1. Tim. 6, 17. Ps. 49,
+18.</hi></note>vergessen? Ist der weltlicher Reichthumb nicht ein gantz vngewisser
+Reichthumb? Vnd ob einer Reich wird / wird er doch in seinen sterben nichts mit nehmen.
+Nacket ist er gebohren / nacket muß er dahin fahren; vnd als denn / <note place="left"><hi rendition="#i">Ezech. 7, 19.</hi></note>wehe dem der nicht reich ist in Gott / denn
+jhr Silber vnd Gold wird sie nicht erretten am Tage des Zorns / jhre Seelen werden sie
+davon nicht sättigen / noch jhren Bauch davon füllen / noch ists jhnen gewest ein Ergerniß
+zu jhrer Missethat / wie der Prophet Ezech. redet im 7. cap. Also / was hat man von aller
+weltlichen Lust vnd Vppigkeit? An manchen wird wahr / was Hiob sagt: Sie jauchtzen mit
+Paucke&#x0303; vn&#x0303; Harffen / vn&#x0303; sind frölich mit Pfeiffen / sie
+werde&#x0303; alt bey guten Tagen / vn&#x0303; erschrecken kaum ein Au -
+<pb facs="#f0021"/>
+genblick für der Helle. Wen&#x0303; man denn ein gantz Jahr<note place="right"><hi rendition="#i">Job. 21, 12. 13.</hi></note> in weltlichen Wolleben zugebracht /
+vn&#x0303; folget nur ein Tag darauff / der den Leib kräncket mit grossen Schmertzen /
+washilfft das lange Wolleben? Der Teuffel bietet dir hier an die üppige leichtfertige
+Frewd vnd Lust / mit aller Behegligkeit / du aber denckest nicht / daß sie einmahl wil mit
+ewiger Pein bezahlet seyn. Ists nicht ein Wort der Warheit<note place="right"><hi rendition="#i">Luc. 6, 25</hi></note> / wenn Christus saget: Weh euch die jhr voll
+seyd / denn euch wird hungern / Weh euch die jhr hie lachet / denn jhr werdet weinen vnd
+heulen. Was ist den weltlichen Lust vnd Vppigkeit? Eitelkeit vnd Falschheit. Also was ist
+reputation, Ansehn vnd Ruhm bey der Welt? Ists mehr als eitle Gedancken vnverständiger
+Menschen / oder so es viel ist / ein Wind auff der Menschen Zungen? Es nutzet oder schadet
+dem Menschen nicht mehr als er jhm selbst einbildet. Was ists denn zurechnen gegen dem /
+daß ein Christ bey Gott werth vnd in ehren ist? O Eitelkeit! Ja nicht allein Eitelkeit vnd
+Nichtigkeit / sondern schändlicher Betrug. Denn wie kan ein Mensch schändlicher betrogen
+werden / als wenn er all sein Thun nach reputation vnd grossem Ansehen richtet / vnd doch
+nichts weniger als solches erlanget? Da einer dich rühmet / kans seyn / daß wol zwantzig
+dich verachten / vnd verlachen.</p>
+<p>Hiervon köndte viel gesaget werden / es ist aber für dißmahl gnug / wenn im einem vnd
+andern Stücke gezeiget wird / wie in Summa alles Weltwesen lauter Eitelkeit sey / da es
+doch als lauter Gold von dem Fürsten der Welt bemahlet wird. Nach dem eusserlichen Anschen
+<pb facs="#f0022"/>
+ists herrlich vnd schön / wil mans aber beym Liecht besehen / so
+ists eine taube Nuß / wil mans greiffe&#x0303; so ists ein Schatte / wil mans wegen so
+ists ein Rauch. Die es hie nicht wollen erkennen / müssens zu seiner Zeit bekennen vnd
+sagen / wie das Büchlein der Weißheit jhnen vorsinget: <note place="left"><hi rendition="#i">Sap. 5, 8.</hi></note>Was bringet vns nun der Pracht? was bringet vns
+nun der Reichthumb / sampt dem Hochmuth? Es ist alles dahin gefahren wie ein Schatte / vnd
+wie ein Geschrey das fürüber fähret. Also verspricht <note place="left"><hi rendition="#i">Gen. 29, 25</hi></note>der Sathan eine schöne Rahel / vnd führet vns zu eine viele
+vngesialtere Creatur / als Lea war / vnd das erkennet man nicht ehe / als wenns liecht
+wird.</p>
+<p>Das ist das erste Kunststück des Sathans / daß er die eitele Welt mit einem gülden Rock
+überziehet / damit erlanget er nicht allein / daß das Hertz weltlich werde / vnd der Welt
+anhange / vnnd die Liebe zu Gott sampt aller geistlichen Begierde vnd Andacht verliere;
+sondern er leget auch einen guten Grund zur völligen Verblendung. Denn wer die Welt lieb
+gewonnen / dem ist auch lieb / was das Weltwesen befodert; vnd hingegen ist jhm
+verdrießlich / was das Weltwesen verhindert / es möge Gott dazu sagen was er wolle. Darumb
+muß der güldener Glantz der Welt / das Aaß seyn / daß der Sathan an sein Garn hanget / die
+elende Menschen zu sich zu ziehen.</p>
+<p>Die andere Farbe des betrieglichem Mahlers ist schneeweiß. Denn da die Sünde blutroth ist
+/ weis er sie bald schneeweiß zu machen / vnd verschaffet das Laster für Tugend gehalten
+wird. Zum Exempel / wer geitzig ist / wil den Namen nicht haben daß er geitzig ist /
+sondern
+<pb facs="#f0023"/>
+bildet sich ein er sey sparrsam. Wenn denn ein solcher hundert
+Predigen vom Geitz anhöret / bleibt er bey diesen Gedancken / das gehe jhn nicht an / er
+sey nicht geitzig. Also ist mancher dessen Lust ist Völlerey vnd lustiges Leben / vnd wil
+sich nicht bereden lassen / daß er lebe in einer verdampten Völlerey; sondern er wil noch
+gelobet seyn als ein lieber geselliger Mensch / der ein lustiges Gemüth hat. Vnd das
+wollustige Leben muß jhm nichts auders denn eine Erfrischung vnd Erquickung des Gemüthes
+heissen. Viel die wol köndten Ruhe haben / verfolgen jhren Nechsten mit Rechten vnd
+Fechten / vud muß doch nicht heissen / daß sie rachgierig seyn / sondern daß sie jhren
+ehrlichen Nahmen verthedigen. Vnd ist fast keine Sünde die von Klüglingen in der Welt
+nicht solte entschüldiget vnd beschöniget werden / wenn schon Pilatus Christum creutzigen
+lässet / waschet er dennoch die Hände / vnd spricht: Ich habe keine Schuld.</p>
+<p>Wer sich aber ja die Sünde nicht wil gantz weiß brennen lassen / bemühet sich der
+Betrieger sie grawe zu färben / das ist denn seine dritte Farbe / damit die Sünde nicht
+gar zu schwartz außsehe. Das ist / er verkleinert das sündliche Wesen / daß es gering
+scheine; vnd solches allermeist durch Gewonheit vnd Vrtheil der Welt. Was die gemeine
+Gewonheit thun kan / ist offenbar. Wenn man nicht leugnen kan das balgen vnd todschlagen
+Sünbe sey / dennoch / wo es ein gemein Ding ist / macht die Gewonheit / daß es für eine
+geringe Sünde geachtet wird / als ein ander Gebrechen der vnserm Fleisch anklebet. Ob
+schon Hurerey vnd Ehbruch offenbarlich grobe Sünde
+<pb facs="#f0024"/>
+seyn / dadurch der
+Geist Gottes betrübt vnd außgetrieben wird / dennoch / wo solche Vnreinigkeit gemein ist /
+wirds für eine geringe anklebende Seuche gehalten / die Gott gerne duldet. Also ist
+Trunckenheit an jhm selbst vnd in der Warheit eine grobe fleischliche Sünde / dennoch weil
+sie bey vns gar gemein / wird sie durch tägliche Gewonheit geringschätzig gemachet.
+Gleiche Krafft hat auch das gemeine Vrtheil der Welt / was von dem grössesten Hauffen für
+herrlich gerühmet wird / das muß auch herrlich seyn vnd heissen. Wenn denn vorhin ein
+Mensch also verblendet ist / das an jhm wahr wird / was die Schrifft saget: Sie haben
+lieber die Ehre bey den Leuten / als die Ehre bey Gott; so kan nichts anders folgen / wo
+die Leute ein Ding hoch achten / so muß er Hoheit darin suchen. Ists denn wider Gottes
+Wort; so muß es heissen / das ist wol wahr / es kan aber alles so genaw nicht in acht
+genommen werden / vnser HErr Gott muß noch viel an vns dulden / die Zeit kan ja andere
+weise nicht leiden / man muß sich in die Zeit schicken / reputation kan ich nicht fallen
+lassen. Hier gehets denn manchem wie dem Propheten von Juda / welcher von Gott ins
+Königreich <note place="left"><hi rendition="#i">1. Reg. 13.</hi></note>Israel gesand ward
+/ zu predigen wider den abgöttischen Altar zu Bethel / mit dem Befehl / er solte stracks
+wieder vmbkehren / vnd am selbigen Ort kein Brodt essen / vnd kein Wasser trincken. Denn
+da er wieder weg gieng / nach dem Wort des HErrn / machte sich auff ein alter Prophet /
+vnnd eilete jhm nach / vnd sprach zu jhm: Komm mit mir heim vnd jß Brodt. Er sprach: Ich
+kan nicht / denn es ist mir verboten. Aber der alte Prophet
+<pb facs="#f0025"/>
+sprach
+betrieglich zu jhm: Ich bin auch ein Prophet wie du / vnd ein Engel hat mit mir geredt
+durch des HErrn Wort / vnd gesaget; Führe jhn wieder mit dir heim / daß er Brodt esse /
+vnd Wasser trincke / dadurch wird der gute Praphet von Juda betrogen / vnd hernach zur
+straffe vom Löwen erwürget. Also weiß mancher Gottes Willen / vnd gehet auff guten Wege;
+es trifft jhn aber ein Welt Christ an / vnd spricht: Du wilst zu heilig seyn / ich bin
+auch ein Christ / gedencke auch seelig zu werden / eben so wol als du / aber so kan ich
+mich der Welt Weise nicht entschlagen. Spricht der Vnschuldiger: Gott hats verboten / man
+sol so nicht leben. So antwortet ein Welt-Christ: Es ist wol wahr / die Priester schelten
+darauff / aber wer kans halten? Es seynd viel vnter Priestern die es selbsten nicht
+halten. Durch solche vnd dergleichen Gedancken / wird mancher auff Vnwege gebracht.</p>
+<p>Hier auff folget die vierdte Farbe / die ist schwartz / damit fahrt er über das rechte
+Christenthumb / vn&#x0303; machts den weltlichen Hertzen schwer vnd ver drießlich. Da wird
+denn der heiligen Wandel bey den Weltkindern veracht vnd verlacht / vnd Christi vnd seiner
+heiligen Meynung wird grossen ansehnlichen Herrn gar disreputirlich / eben als wenn vnser
+HErr Christus nicht gewust / worin rechte Ehre bestehe. Weils aber gemeiniglich die
+fürnembsten seyn / denen der heiligen Wandel so schwartz gemahlet wird / redet Paulus in
+der ersten an die Corinther am 1. also von jhnen: Nicht viel Weisen nach dem Fleisch
+/<note place="right"><hi rendition="#i">1. Cor.</hi> 1. <hi rendition="#i">26. 27.
+28.</hi></note> nicht viel Gewaltige / nicht oiel Edle sind beruffeu / sondern was
+thöricht ist für der Welt / das
+<pb facs="#f0026"/>
+hat Gott erwehlet / daß er die Weisen
+zu schanden mache; vnd was schwach ist für der Welt / das hat Gott erwehlet / daß er zu
+schanden mache was starck ist; vnd das niedlich für der Welt / vnd das verachte hat Gott
+erwehlet / vnd das da nichts ist / daß er zu nicht mache / was etwas ist. Vnd dieselbe
+Edle / Gewaltige vnd Weise / denen Gottseeligkeit hie so thöricht vorkompt / werden
+einmahl bekennen müssen / es sey jhnen der heiligen Wandel gar zu schwartz für gemahlet /
+wie den das Büchlein der Weißheit von den Verdampten zeuget / daß sie einmahl jhre
+Thorheit bekennen / vnd von dem Gerechten also reden <note place="left"><hi rendition="#i">Sap. 5, 4.</hi></note>werden: Wir Narren hielten sein Leben für vnsinnig / vnd sein
+End für schändlich Daher ermahnet die Schrifft bey zeit solche Weltweise Leute / in der
+ersten an die Corinther am 3. Niemand betriege sich <note place="left"><hi rendition="#i">1. Cor. 3, 18</hi></note>selbst / welcher sich vnter euch düncket weise seyn / der
+werde ein Narr in dieser Welt / daß er möge weise seyn / denn dieser Welt Weißheit ist
+Thorheit bey Gott. Ist so viel gesaget: Ihr grosse Herren wollet ja weise seyn / vnd alles
+besser wissen als vnser HErr Gott. Denn was Gott von euch fodert / ist euch lauter
+Thorheit; ich wil euch aber / lieben Herren / nicht verhelen / daß der Fürst dieser Welt
+mit einen blawen Dunst ewre Augen beschmitzen / daß jhr für Thorheit achtet / was Gott mit
+seinen Befehl geheiliget hat. Darumb gebe ich euch den Rath / weil ja für der Welt Gottes
+heiliger Wandel muß Thorheit seyn / werdet Thoren in der Welt /
+<pb facs="#f0027"/>
+vnd
+lasset fahren die eingebildete närrische reputation, so werdet jhr recht weise werden;
+geschicht solches nicht / so sage ich euch / jhr seyd Thoren vnd bleibet Thoren. Welcher
+sich vnter euch düncket weise seyn / der werde ein Narr in dieser Welt / daß er möge weise
+seyn.</p>
+<p>Letzlich über alle vorige Triegerey greifft der Ertzbösewicht zur rothen Farbe / vnd
+tröstet die Weltkinder mit dem Blute Christi / damit jhr Gewissen nicht verunruhiget
+werde. Da bläset er jhnen solche Gedancken ein: Wenn GOtt alles so genaw mit dem Menschen
+nehmen wolte / hätte Christus nicht für vns sterben dürffen. Gott ist gnädig vnd
+barmhertzig / vnd vergibt alle Sünde gern durch Christum. Gerade als hätte Gottes Sohn
+sein thewres Blut dar umb für vns vergossen / daß wir mitten in Sünden Lauff köndten guten
+Muth vnnd Fried mit Gott haben. Es hat ja das Blut Jesu Christi des Sohns<note place="right"><hi rendition="#i">1. Job. 1, 7.</hi></note> Gottes diese Krafft / daß es
+vns reinige von allen vnsern Sünden / aber solch Evangelium gehöret nur für bußfertige
+Hertzen / die zerbrochene vnd zerschlagene Gemüter haben. Wenn aber die Weltkinder / denen
+jhr weltliches Leben nie leid geworden / die auch nie ernstlich vorgenommen / dasselbe
+abzulegen; wenn dieselbe / sage ich mit Christi Blut sich trösten / das gehöret gewiß vnd
+warhafftig zu dem blawen Dunst des Sathans.</p>
+<p>Dieses seyn die vornembsten Farben / dadurch der<note place="right">4. <hi rendition="#i">Quo fine fiat.</hi></note> Verführer sich bemühet einen blawen Dunst den
+Vnvorsichtigen für die Augen za mahlen / was aber der Sathan damit suche / ist leicht zu
+erachten. Er wil vns von
+<pb facs="#f0028"/>
+Gott abziehen / vnnd vnter seiner Gewalt
+bringen / das trawt er nicht zu erlangen / so er auffrichtig mit vns handelt vnd
+offenbarlich alles in seiner eigentlichen Farbe sehen lässet. Solt man das sündliche
+Weltwesen recht erkennen / nach Gottes Vrtheil / wie es sür Gott gilt / würde mancher zu
+rücke bleiben. Darumb braucht der Sathan den blawen Dunst / damit er vns vnvorsichtig vnd
+vnvermerckt in sein Netz bringe. Wenn er nun die Seelen von Gott zu sich gerissen / ist
+der Jammer der darauff folget nicht außzusprechen / denn in dem ein solcher Welt ergebener
+Mensch noch meynet er sey ein Christ / vnnd wolle auch seelig werden / verlieret er Gott /
+Gottes Gunst vnd Gnade; er verlieret die Gaben des heiligen Gtistes / die jhm in der
+Wiedergeburt gegeben / Glauben / Liebe vnd Andacht / denn die Welt Lüste vnnd Sorgen seynd
+Dornbüsch / darunter der heilige Same ersticket. Er verlieret Gottes Schutz vnd das Gleit
+der heiligen Engel / die Gemeinschafft der Heiligen. Er verlieret die Kindschafft Gottes /
+Titel / Recht vnd sein gantz Erbtheil zum Himmelreich. Er verlieret den Frieden GOttes /
+den Trost des heiligen Geistes / damit die Gemüther der Heiligen erfrischet / vnd in
+Trübsal gestärcket werden. Dagegen schreibt er seinen Namen ins Buch des Verderbens / wird
+ein Erbe des hellischen Fewers / fält in den ewigen Fluch. Vn&#x0303; kürtzlich davon zu
+reden / wie kan grösser Jammer seyn / als Christum verlieren / vnd sich dessen abgesagten
+Feinde den hellischen Drachen vntergeben? das heisst ja redlich betrogen. Das sucht der
+Widerwertiger mit seinem blawen Dunst / vnd wil nicht zugeben /
+<pb facs="#f0029"/>
+daß
+ein Welt ergebner Mensch / diesen Verlust / Schaden vnd Jammer mercke.</p>
+<p>Das ist etwas von dem blawen Dunst des verkehrten Weltwesens gesagt / wiewol nicht nach
+Würden / doch zu so viel genung / daß ein Christ wisse vnd erkenne / daß warhafftig in den
+gemeinen vngöttlichen Weltleben ein betrieglicher blawer Dunst stecke / dessen Meister der
+Sathan ist / als ein Fürst der Welt / der in der Finsterniß herrschet; der auff
+mannigfaltige weise das Weltwesen verkleidet / daß es von Weltkindern nicht recht erkandt
+vnd betrachtet werde / damit sie vnvermercket aus Gottes Gnad vnd Gunst / in
+vnaußsprechlichen Seelen Jammer fallen vnd verderben.</p>
+<p>Darauff wird an jhn selbst offenbar / das andere<note place="right"><hi rendition="#i">Membrum alterum considerat obnubila lionem mnndi, ut causam praematu rae
+mortu.</hi></note> Stücke vnserer vorgenommenen Betrachtung / Nemblich / wie Gott
+zuweilen einer vnschuldigen Seelen aus Liebe / durch einen frühzeitigen Toat dahin nimpt /
+damit sie durch den blawen Dunst der Welt nicht betrogen werde / denn so redet die
+Weißheit von den Gerechten: Er gefält Gott wol / vnd ist jhn lieb / vnd wird weggenommen
+aus dem Leben vnter den Sündern / vnd wird hingerücket / daß die Boßheit seinen Verstand
+nicht verkehre / noch falsche Lehre seine Seele betriege. Welches überein kompt mit dem
+das Esaias saget: Die Gerechten werden weggeraffet<note place="right"><hi rendition="#i">Esa 57, 1.</hi></note> für dem Vnglück; den vnter dem aller grössesten Vnglück die
+verführische Boßheit der Welt zu zehlen ist.</p>
+<p>Wenn nun Gott zuvor sihet / daß eine vnschuldige Seele / in gedachte Verführung gerathen
+würde / vnd
+<pb facs="#f0030"/>
+verhinderts durch einen seeligen Todt / solte das nicht
+für eine Liebe gehalten werden? Wer bedenckt den grewlichen Jammer / Verlust vnd Schaden /
+der auff das leidige Weltleben folget / wird wol sehen / was für Gnade sey / wenn Gott
+einen dafür durch den zeitlichen Todt behütet. Solte dem verräther Juda übel geschehen
+seyn / wenn er in seiner Kindheit vnter andern vnschuldigen Kindern / vom Tyrannen Herode
+getödtet wäre? Vnd solten eben denselben vnschuldigen Kindlein / vom Herode getödtet /
+nicht viel besser geschehen seyn / als andern die bey Leben geblieben / vnd hernacher den
+Fürsten des Lebens getödtet haben? Wolte man fragen / warumb Gott denn so viel Menschen zu
+den Jahren kom&#x0303;en lasse / darinnen die Boßheit jhren Verstand verkehret / vnd das
+gute verderbet / sintemahl er viele / solches Vnglück zu verhüten / zeitlich dahin nimpt /
+so ist zu bedencken / daß Gottes Wege vnd Gerichte von vns wollen vngeurtheilt seyn. Da
+Gott wolte seine Macht sehen lassen / verstockte er dem grossem König Pharao das Hertz /
+vnd stund jhm doch frey zu solchem Spiel eine andere Person zu nehmen. Im Wercke der
+Seeligkeit übet Gott manche Gnade an einen / die einem andern nicht vergönnet ist. Da muß
+man sagen: Wer hat des HErrn Sinn erkandt? Gott weiß zum besten / wie er seine Kirche
+regieren vnd führen sol.</p>
+<p>Das seynd die beyden Stücke der vorgenommenen Betrachtung / da wir erstlich beschen den
+blawen Dunst der Welt / vnd wie es damit zugehe; hernach zum andern die Liebe Gottes / der
+vmb solcher Seelen Gefahr willen zuweilen eine vnschuldige Seele aus diesen Leben zeitlich
+hinweg nimpt.</p>
+<pb facs="#f0031"/>
+<p>Das ist geprediget erstlich zu Trost derselben Betrübten<note place="right"><hi rendition="#i">Usus</hi> 1. <hi rendition="#i">Cousolatorius.</hi></note> / die über
+den frühezeitigen Todt der jhrigen Leyd tragen. Ob zwar was künfftiglich geschiht oder
+geschehen köndte / allein Gott bekandt ist / dennoch wenn Gott von diesen bösen Leben
+eilet mit einem Kinde / welches ein Vater oder Mutter mit eiffrigen Gebete der Gnaden
+Gottes fürgetragen / was sollen wir den gedencken? was künfftig hätte geschehen können /
+sage ich / das weiß Gott. Eins aber ist gewiß / daß das eiffrige Gebet gottseeliger Eltern
+/ allermeist bey der heiligen Tauff jhrer Kinder / nicht vner höret bleibt / da sie bitten
+/ daß Gott jhr Kind nicht allein in seine Gnade nehme / sondern auch beständig biß ans
+Ende in feiner Gnade erhalte / vnd nicht fallen lasse in Vnglauben vnd sündlichen Wesen /
+sondern durch seine Gnade kräfftiglich behüte für dem ewigen Verderben. Solches Gebet / so
+es aus eiffrigen Hertzen kompt / solts wol vnerhöret bleiben? Es hätte nun künfftig
+kom&#x0303;en mögen was da wolle / gutes oder böses / so seynd doch gottseelige Eltern
+jhrer Erhörung gewiß / vnd haben erlanget was sie gebeten haben; nemblich / daß Gott die
+jhrigen für Verführung vnd verdamlichen Leben behüte. Darumb sollen Christliche Eltern /
+wenn jhre Kinder durch den zeitlichen Todt von diesen bösen Leben gefodert werden / also
+gedencken: Sihe / ich habe diese Seele von Hertzen grund meinem Gott befohlen / allermeist
+daß sie der Erlösung Jesu Christi ewiglich geniesen / vnd für ewigen Verderben behütet
+werde: Ich habe gebeten / das geschehe / was zu Gottes Ehren / vnd meines Kindes
+Seeligkeit das beste ist. Nun so zweiffle ich nicht / es ist meinem Kinde seeliger gewesen
+/ sterben als leben. Hätte es
+<pb facs="#f0032"/>
+mir Gott bey Leben gelassen / wolte ich
+gehoffet haben / Gott würde es dennoch wissen für gottlosen Wesen / vnd ewiger Verdamniß
+zu behüten: Nun aber Gott mit jhm aus den bösen Leben geeilet / bin ich gewiß / daß mein
+Kind aller Gefahr vnd Verführung des Bößwichts entgangen ist. Was zu der Seeligkeit meines
+Kindes ist das beste gewesen / das hat mein Gott zum besten gewust.</p>
+<p>Die Heyden haben sich vnternander damit getröstet / wenn jhnen zeitlich Kinder seynd
+abgestorbon / daß sie vielen Vnglück entgangen / da doch noch ist vngewiß gewesen / ob ein
+Kind Glücke oder Vnglücke erleben würde. Wo das nun etwas gilt / so frage ich; ob auch wol
+könne ein grösser Vnglücke seyn / als wenn die weltliche Boßheit den heiligen Verstand
+verkehret / vnd das gute verderbet? Kans denn helffen / bey bekümmerte Eltern / wenn sie
+gedencken; dein Kind / wenn es gelebet hätte / hätte kön nen fallen in Schmach vnd
+Verachtung / in Schmertzen vnd Trübsal; nun bin ich gleichwol gewiß / daß es allen Leyd
+entgangen ist; kan das helffen / sage ich / so hilfft das viel mehr / so ich gedencke;
+wenn mein Kind hätte länger gelebet / hätte es können gerathen ins falsche betriegliche
+Weltwesen / vnd darinnen verlieren Christum vnd seine Sceligkeit; Nun weiß ich gewiß / die
+betriegliche Boßheit der Welt wird mein Kind nicht verführen noch verderben. Darauff
+können Christliche Eltern sich weiter trösten / vnd sagen; Mein Kind ist schon an den Orth
+/ dahin ich gedencke; es wird nicht wieder zu mir kommen / sondern ich werde zu jhm
+kommen.</p>
+<note place="left"><hi rendition="#i">2. Hortatotorius.</hi></note>
+<p>Fürs ander werden hie gewarnet alle / die Gott noch beym Leben erhalten hat / daß sie
+sich hüten für böse Exem -
+<pb facs="#f0033"/>
+pel vnd Gewonheit / damit die Boßheit durch
+falschen Schein jhre Sinne nicht verkchre / vn&#x0303; daß arge geschwetz jhre Seele nicht
+verführe. Denn wir wissen / wie vnser Seelen Feind der Sathanas / vns mit aller List vnd
+Betriegerey zusetzet / also behende / daß viel tausend vnter den Christlichen Namen die
+Seligkeit hoffen / die doch warhafftig in dem fleischliche verdampte&#x0303; Weltwesen
+ersoffen seyn. Daher denn Christus es zuvor gesaget / daß viel nicht werden ins Reich
+Gottes kommen / die zu jhm sagen: HErr / HErr. Ach lieben Christen sehet ja zu / daß jhr
+nicht vnter denselben begriffen seyd.</p>
+<p>Der grösseste Hauff in der Christenheit gehet leider dahin ohn alles nachsinnen / vnd wie
+der HErr klaget durch Esaiam am 44. cap. Sie gedencken nicht;<note place="right"><hi rendition="#i">Esa. 44, 20</hi></note> ist das auch Triegerey / das meine Rechte Hand
+treibet? Es bleibet wol dabey / was die Schrifft saget; So jemand die Welt lieb hat / in
+dem ist nicht die<note place="right"><hi rendition="#i">1. Job. 2, 13. Rom 8, 9.
+13.</hi></note> Liebe des Vaters Wer den Geist Christi nicht hat / der ist nicht sein.
+Wo jhr nach dem Fleisch lebet / so werdet jhr sterben müssen / Wo jhr aber durch den Geist
+des Fleisches Geschäffte tödtet / so werdet jhr leben. Das wollen weltliche Hertzen nicht
+verstehen. Aber gedencket ihr Weltkinder / das einmahl ein Gericht kommen wird / da Gott
+wird genawe Rechnung mit euch zu legen / nicht nach dem Weltlichen einbilden der Menschen
+/ sondern nach dem Wort der Warheit. Ihr wollet jetzo wegen ewers Lebens keine Rechnung zu
+legen / vnd verkehret alles in fleischliche Frewd vnd
+<pb facs="#f0034"/>
+Wollust / vnd
+werdet nicht einmahl hertzlich betrübet / darumb wird euch der HErr richten / vnd den
+blawen Dunst von ewren Augen wegnehmen / daß jhr ewre Thorheit sehet: da werdet jhr
+bekennen; O Teuffel / wie hastu mich betrogen: Aber danck habt / warumb habt jhr auff ewer
+Leben keine achtung gehabt / vnd keine Rechnung mit euch <note place="left"><hi rendition="#i">1. Cor. 11, 31.</hi></note>zugeleget. Würdet jhr euch selbst richten /
+so würdet jhr nicht vom HErrn gerichtet.</p>
+<p>Wer nun klug ist der hütet sich für Sicherheit / daß er durch den Teuffel vnd die Welt
+nicht betrogen werde. Nehmet zu Hertzen die vielfältige vnd trewhertzige Vermahnungen
+<note place="left"><hi rendition="#i">Herbr. 3. 13. 14.</hi></note>des heiligen Geistes.
+Zum Hebreern am 3. Ermahnet euch selbst / alle Tage / so lange es heute heisset / daß
+nicht jemand vnter euch verstocket werde durch Betrug der Sünde / denn wir sind Christus
+theilhafftig geworden / so wir anders das angefange&#x0303; Wesen biß ans Ende feste
+behalte&#x0303;. In dem Christen auff jhren Wandel nicht gute acht haben / sondern lassen
+jhnen vom Sathan einen blawen Dunst in die Augen schlagen / daß sie sich nicht recht
+prüfen / so verlieret sich nicht allein das gute angefangene Wesen in Christo / sondern
+sie können gar leicht verstockt werden. Darumb sehet wol zu / daß jhr nicht abtretet von
+dem lebendigen Gott / vnd ermahnet euch alle Tage / so lange es heut heisset / daß nicht
+jemand verstockt werde / durch Betrug der Sünde. Zun <note place="left"><hi rendition="#i">Eph. 5, 6.</hi></note>Ephesern am 5. stehet geschrieben: Lasset euch niemand
+verführen mit vergeblichen Worten. Die
+<pb facs="#f0035"/>
+Weltkinder treibeu jhren Spott
+mit der Gottesfurcht / reden hönisch davon / aber lasset euch nicht verführen mit
+vergeblichen Worten. Gedencket das durch solches betriegliches einbilden der Zorn Gottes
+komme über die Kinder des Vnglaubens. Durch den Apostel Jacobum im 1. Cap. werden wir also
+ermahnet; Seyd Thäter<note place="right"><hi rendition="#i">Jac.</hi> 1, <hi rendition="#i">22.</hi></note> des Worts / vnd nicht Hörer allein / damit jhr euch
+selbst betrieget. Ist so viel gesaget: Ihr lieben Christen / wo jhr Gottes Wort nur oben
+hin anhöret / vnd nicht darnach trachtet / daß es ins Leben verwandelt werde / so
+betrieget jhr euch selbst. Betrieget euch doch nicht selbst / vnd macht daraus kein
+Schertz / was Gott redet. Durch den Apostel Petrum im 2. cap. der ersten Epistel ermahnet
+vns der Geist Gottes mit solchen worte&#x0303;:<note place="right">1. <hi rendition="#i">Petr. 2,</hi> 1. <hi rendition="#i">2.</hi></note> Leget von euch ab alle Boßheit /
+vnd allen Betrug / vnd alle Heucheley / vnd seyd begierig nach der vernünfftigen lautern
+Milch / als die jetzt geborne Kindlein / auff daß jhr durch dieselbige zunehmet. Das
+weltliche Vrtheil ist Betrug / vnd macht böse Christen vnd Heuchler. Das Wort Gottes aber
+ist eine lautere vnverfälschte Milch / damit die newgeborne Seele ernchret wird vnd
+zunimbt. Darumb kehret euch nicht zu dem betrieglichen Wort der Welt / sondern zu den
+vnbetrieglichen Wort Gottes; Seyd jhr schon betrogen / wolan / so leget ab alle Boßheit /
+Betrug vnd Heucheley / vnd er quicket euch wieder durch die vernünfftige lautere Milch des
+Worts Gottes.</p>
+<p>Ich zweiffle nicht / wenn ein Artzt vns ermahnete
+<pb facs="#f0036"/>
+von dieser oder
+jenen Speise vns zu enthalten / es sey Gifft / so würden wir folgen; kämen zehen / vnd
+sagten; enthalte dich dieser Speise / es ist Gifft / würden wir noch mehr gläuben vnd vns
+enthalten. Nun aber zeuget Gott die höchste Warheit / nicht durch einen Legaten / sondern
+durch viele: Es ist Betriegerey mit dem Weltwesen / es steckt Todt vnd Verderben drin /
+hütet euch. Wollen wir den noch nicht gläuben?</p>
+<p>Was sollen wir denn thun / daß wir für den Betrug der Welt sicher seyn? Es ist kein
+besser Rath / als daß wir offt bey vns ein examen anstellen / vnd vns nach Gottes Wort
+prüfen / ohne Heucheley. Dadurch wird des Sathans vnd der Welt Betrug offenbar werden.
+Drumb ists auch gut / täglich eine Zeit zur geistlichen Andacht bestimmen / denn
+geistliche Betrachtungen ernehren nicht allein die Begierde vnd den Eyffer zur
+Gottesfurcht / sondern durch Erkäntniß göttliches Wolgefallens / bekommen wir Gelegenheit
+vns selbst zu prüfen / ob wir auff rechten Wege seyn.</p>
+<p>Wol dem der sich allwege fürchtet / spricht der <note place="left"><hi rendition="#i">Prov. 28. 14.</hi></note>weise König Salomon im 28. Capitel seiner Sprichwörtern /
+vnd verstehet solches von dem / der in seinen Christenthumb sorgfältig wandelt / vnd auff
+sein Thun vnd Leben achtung hat / ob er auch den alten Menschen mit seinen Lüsten außziehe
+vnd ereutzige. Wol eine&#x0303; solchen Menschen / er ist ein seeliger Mensch / vn&#x0303;
+ist wider die Betriegligkeit der weltlichen Lüsten / vn&#x0303; weltlichen Brüderschafften
+<note place="left"><hi rendition="#i">vors. 5.</hi></note>wol verwahret. Böse Leute
+mercken nicht auffs Recht / spricht auch der weise König am selbigen Orth /
+<pb facs="#f0037"/>
+Die aber nach dem HErrn fragen / mercken auff alles. Ist nun jemand der
+nach dem HErrn fraget / vnd darumb bekümmert ist / wie er möge bleiben in rechter Furcht
+des HErrn / der mercke wol auff all sein Thun vnd Leben / vnd prüfe sich stetiglich nach
+Gottes Wort.</p>
+<p>Wir schliessen mit David aus dem 119. Psalm: Ich habe den Weg der Warheit erwehlet /
+Ach<note place="right"><hi rendition="#i">Ps. 119, 30. vers. 29. vers 37.
+38.</hi></note> HErr / wende von mir den falschen Weg / vnd gönne mir dein Gesetz. Wende
+meine Augen ab / daß sie nicht sehen nach vnnützer Lehre / sondern erquicke mich auff
+deinem Wege / laß deinem Knecht deine Gebot fleissiglich für dein Wort halten / daß ich
+dich fürchte / Amen.</p>
+<p>DIe Christliche Gewonheit erfodert nun auch von<note place="right"><hi rendition="#i">Commendatio defuncti.</hi></note> vns / etwas zu gedencken vom Christlichen Leben vnd
+Wandel des seeligen Jünglinges CONRADI FINCKII; Es kan aber nur wenig davon gesagt werden
+/ denn wir haben an jhm gehabt eine Blume die bald abgefallen. Er ist entsprossen von
+Christlichen Eltern zu Tundern in Holstein / denn sein Vater ist gewesen Johan Fincke /
+aus Westphalen von Minden bürtig / aber weiland wonhafftiger Bürger vnd vornehmer
+Handelsmann zu Tundern; dessen Vater hat geheissen Ernst Fincke. Die Mutter des
+verstorbenen Jünglings ist die viel Ehr vnd Tugendsame Frawe Margareta Meyers / geboren zu
+Tonningen in Eyderstede; derselben Vater hat geheissen Cordt Meyer. Von die -
+<pb facs="#f0038"/>
+sen Christlichen Eltern ist er nicht allein durch die heilige Tauffe
+Christo zugeführet / sondern auch mit aller Sorgfältigkeit aufferzogen / vnd zur
+Gottseeligkeit angewiesen. Vnd weil sie bey diesem jhren Sohn eine Zuneigung zum studirn
+gespüret / haben sie sich bemühet wolgeschickte vnd fleissige Praeceptores bey jhn zu
+halten / durch deren vnterweisung er so weit gekommen / daß er endlich anhero nach Rostock
+auff hiesige Vniversität gebracht worden! dahin jhn Seine liebe Mutter bey 40. Meilen
+selbsten begleitet / aus Mütterlicher Sorgfältigkeit / vnd jhren Sohn Christlichen Hertzen
+anvertrawet / insonderheit meinem hochgeehrten sehr werthen Herrn Collegen, Magistro
+Casparo Mauritio Logices Professori Publico, als welcher jhn in sein Hauß / vnd an seinen
+Tisch genommen. Nach derselben Zeugniß / hat dieser seeliger Mensch die zu Hauß
+angefangene studia hie rühmlich fortzusetzen angefangen / also / daß er denen die mit jhn
+vmbgangen / eine gute Hoffnung gemacht eines tüchtigen Mannes / der Gott vnd der Gemeine
+Gottes kündte nützlich seyn. So wird auch an jhm gelobet Ehrbarkeit vnd Gottseeligkeit /
+wie er denn seine studia täglich mit Gott s Wort sol angefangen vnd geschlossen haben.</p>
+<p>Es hat aber diese Blume in vnsern Rosengarten nicht lange wolle blühen. Er ist balde
+vollkommen worden. Denn nachdem er ein viertel Jahr hie gewesen / ist er mit einer
+hitzigen Kranckheit befallen / da denn zwar an guter Auffsicht / wie auch an fleissiger
+Sorge des Medici kein Mangel gewesen / dennoch hat die Kranckheit überhand genommen / also
+/ daß er den negst verwichenen
+<pb facs="#f0039"/>
+Donnerstag / den 28. Octobris, am Tage
+Simonis Judae, zwischen ein vnd zwey Vhr Nachmittage sanfft vnd seelig in Christo
+eingeschlaffen / nachdem er den Tag zuvor durch das Sacrament des Leibes vnd Blutes Jesu
+Christi vnsers HErrn / sich der Gnade Gottes versichert / vnnd in der Hoffnung des ewigen
+Lebens gestärcket hatte.</p>
+<p>Ist also der Lauff dieses Jünglings sehr kurtz gewesen / alldieweil er im Jahre 1631. im
+Monat Martio, an diese sichtbare Welt gebohren / vnnd etwan siebenzehende halb Jahre
+darinnen gewohnet. Nun ist kein zweiffel / es werde dieser zeitlicher Abtritt / das
+liebreiche Mutter Hertze schmertzlich verwunden. Denn es hat diese hochbetrübte Fraw in
+kurtzer. frist verlohren jhren Ehemann vnd jüngsten Sohn. Nun muß sie auch hören wie sie
+jhres eltesten Sohns sol auff dieser Welt beraubet seyn / an welchen sie gehoffet einen
+trewen Diener in dem Wort Christi zu erleben. So sie darumb trawret / ists jhr nicht zu
+verdencken; es wird nicht ein Stücke vom Rock / sondern ein Stücke vom Hertzen hinweg
+gerissen / wenn fromme vnd liebe Kinder dahin fahren.</p>
+<p>Sie wird aber als eine Christliche Seele bedencken / daß es Gott sey / der jhren Sohn hat
+abgefodert / der weiß zum besten / wir er die Seeligkeit dieser Seelen hat befodern
+sollen. Denn Vnfall ist er entgangen / für Verführung darff das Mütterliche Hertz sich
+nicht mehr besorgen. Er gefält Gott wol / vnd ist jhm lieb / vnd ist weggenommen aus dem
+Leben vnter den Sündern / vnd ist hingerückt / daß die Boßheit seinen Verstand nicht
+<pb facs="#f0040"/>
+verkehre / noch falsche Rede seine Seele betriege. Seine Seele gefält
+Gott / darumb hat er mit jhm geeilet aus dem bösen Leben. Nun ist er in der Ruhe / vnd ist
+vollkommen worden.</p>
+<p>Der gütiger Gott bewahre die Gebeine seines heiligen / vnd laß dieselbige grünen in der
+Aufferstehung der Gerechten; Er tröste die Betrübten / vnd gebe vns allen Weißheit / das
+Ende zu betrachten / daß wir sterben müssen / vnd erscheinen für dem Richterstuel Jesu
+Christi; auff daß wir fürsichtig wandeln / vnd die Boßheit vnsere Sinne nicht verblende.
+GOtt helffe in Gnaden / Amen.</p>
+<p>S. D. G.<lb/>
+</p>
+</div>
+</body>
+</text>
+</TEI>

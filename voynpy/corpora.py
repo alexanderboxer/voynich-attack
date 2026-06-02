@@ -2164,6 +2164,1119 @@ def _load_wiedeburg1619():
     return reftext.from_corpus_build_csv(path, language='german')
 
 
+# --- DTA tranche 1580-1599 (PR ##; 71 texts) ---
+
+@_register('dilger1620')
+def _load_dilger1620():
+    path = _root / 'corpora/german/DTA/1620_dilger_ehrwuerdigen/1620_dilger_ehrwuerdigen.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('erhard1620')
+def _load_erhard1620():
+    path = _root / 'corpora/german/DTA/1620_erhard_christliche/1620_erhard_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('herfardt1620')
+def _load_herfardt1620():
+    path = _root / 'corpora/german/DTA/1620_herfardt_moerentium/1620_herfardt_moerentium.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hoffmann1620')
+def _load_hoffmann1620():
+    path = _root / 'corpora/german/DTA/1620_hoffmann_syntheo/1620_hoffmann_syntheo.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('kirsten1620')
+def _load_kirsten1620():
+    path = _root / 'corpora/german/DTA/1620_kirsten_angustiae/1620_kirsten_angustiae.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('leyser1620')
+def _load_leyser1620():
+    path = _root / 'corpora/german/DTA/1620_leyser_leichpredigt/1620_leyser_leichpredigt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('neomenius1620')
+def _load_neomenius1620():
+    path = _root / 'corpora/german/DTA/1620_neomenius_kriegs/1620_neomenius_kriegs.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('wiedeburg1620')
+def _load_wiedeburg1620():
+    path = _root / 'corpora/german/DTA/1620_wiedeburg_christliche/1620_wiedeburg_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('ferdinand1621')
+def _load_ferdinand1621():
+    path = _root / 'corpora/german/DTA/1621_ferdinand_ii_copia/1621_ferdinand_ii_copia.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('heinitz1621')
+def _load_heinitz1621():
+    path = _root / 'corpora/german/DTA/1621_heinitz_confessionis/1621_heinitz_confessionis.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hentschel1621')
+def _load_hentschel1621():
+    path = _root / 'corpora/german/DTA/1621_hentschel_troestlicher/1621_hentschel_troestlicher.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('marquardt1621')
+def _load_marquardt1621():
+    path = _root / 'corpora/german/DTA/1621_marquardt_aqua/1621_marquardt_aqua.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('nerger1621')
+def _load_nerger1621():
+    path = _root / 'corpora/german/DTA/1621_nerger_christliche/1621_nerger_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('raussendorff1621')
+def _load_raussendorff1621():
+    path = _root / 'corpora/german/DTA/1621_raussendorff_desiderabile/1621_raussendorff_desiderabile.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('sachs1621')
+def _load_sachs1621():
+    path = _root / 'corpora/german/DTA/1621_sachs_delineatio/1621_sachs_delineatio.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('schellbach1621')
+def _load_schellbach1621():
+    path = _root / 'corpora/german/DTA/1621_schellbach_threnus/1621_schellbach_threnus.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('schmuck1621')
+def _load_schmuck1621():
+    path = _root / 'corpora/german/DTA/1621_schmuck_leichpredigt/1621_schmuck_leichpredigt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('schroeter1621')
+def _load_schroeter1621():
+    path = _root / 'corpora/german/DTA/1621_schroeter_threnos/1621_schroeter_threnos.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('tuckermann1621')
+def _load_tuckermann1621():
+    path = _root / 'corpora/german/DTA/1621_tuckermann_leichpredigt/1621_tuckermann_leichpredigt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('friese1622')
+def _load_friese1622():
+    path = _root / 'corpora/german/DTA/1622_friese_christliche/1622_friese_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('heinitz1622')
+def _load_heinitz1622():
+    path = _root / 'corpora/german/DTA/1622_heinitz_voluntate/1622_heinitz_voluntate.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hentschel1622')
+def _load_hentschel1622():
+    path = _root / 'corpora/german/DTA/1622_hentschel_exeqviae/1622_hentschel_exeqviae.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('magirus1622')
+def _load_magirus1622():
+    path = _root / 'corpora/german/DTA/1622_magirus_leichpredigt/1622_magirus_leichpredigt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('neomenius1622')
+def _load_neomenius1622():
+    path = _root / 'corpora/german/DTA/1622_neomenius_exilii/1622_neomenius_exilii.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('tilesius1622')
+def _load_tilesius1622():
+    path = _root / 'corpora/german/DTA/1622_tilesius_christliche/1622_tilesius_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('tuckermann1622')
+def _load_tuckermann1622():
+    path = _root / 'corpora/german/DTA/1622_tuckermann_predigt/1622_tuckermann_predigt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('bakius1623')
+def _load_bakius1623():
+    path = _root / 'corpora/german/DTA/1623_bakius_arcanum/1623_bakius_arcanum.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('guenther1623')
+def _load_guenther1623():
+    path = _root / 'corpora/german/DTA/1623_guenther_christliche/1623_guenther_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('heinitz1623')
+def _load_heinitz1623():
+    path = _root / 'corpora/german/DTA/1623_heinitz_analysai/1623_heinitz_analysai.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hentschel1623')
+def _load_hentschel1623():
+    path = _root / 'corpora/german/DTA/1623_hentschel_trostpredigt/1623_hentschel_trostpredigt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('huber1623')
+def _load_huber1623():
+    path = _root / 'corpora/german/DTA/1623_huber_christliche/1623_huber_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('huber_triumphus1623')
+def _load_huber_triumphus1623():
+    path = _root / 'corpora/german/DTA/1623_huber_triumphus/1623_huber_triumphus.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('n1623')
+def _load_n1623():
+    path = _root / 'corpora/german/DTA/1623_n_n_threni/1623_n_n_threni.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('silber1623')
+def _load_silber1623():
+    path = _root / 'corpora/german/DTA/1623_silber_nia/1623_silber_nia.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('baudissen1624')
+def _load_baudissen1624():
+    path = _root / 'corpora/german/DTA/1624_baudissen_abdanckung/1624_baudissen_abdanckung.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('calixtus1624')
+def _load_calixtus1624():
+    path = _root / 'corpora/german/DTA/1624_calixtus_beatus/1624_calixtus_beatus.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hentschel1624')
+def _load_hentschel1624():
+    path = _root / 'corpora/german/DTA/1624_hentschel_threnologia/1624_hentschel_threnologia.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('kirsten1624')
+def _load_kirsten1624():
+    path = _root / 'corpora/german/DTA/1624_kirsten_lebens/1624_kirsten_lebens.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('la1624')
+def _load_la1624():
+    path = _root / 'corpora/german/DTA/1624_la_primaudaye_christliche/1624_la_primaudaye_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('millichius1624')
+def _load_millichius1624():
+    path = _root / 'corpora/german/DTA/1624_millichius_christliche/1624_millichius_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('opitz1624')
+def _load_opitz1624():
+    path = _root / 'corpora/german/DTA/1624_opitz_buch/1624_opitz_buch.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('opitz_teutsche1624')
+def _load_opitz_teutsche1624():
+    path = _root / 'corpora/german/DTA/1624_opitz_teutsche/1624_opitz_teutsche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('reichard1624')
+def _load_reichard1624():
+    path = _root / 'corpora/german/DTA/1624_reichard_parentalia/1624_reichard_parentalia.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('scheffrich1624')
+def _load_scheffrich1624():
+    path = _root / 'corpora/german/DTA/1624_scheffrich_christi/1624_scheffrich_christi.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('wiedeburg1624')
+def _load_wiedeburg1624():
+    path = _root / 'corpora/german/DTA/1624_wiedeburg_christliche/1624_wiedeburg_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('zimmermann1624')
+def _load_zimmermann1624():
+    path = _root / 'corpora/german/DTA/1624_zimmermann_calix/1624_zimmermann_calix.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('harer1625')
+def _load_harer1625():
+    path = _root / 'corpora/german/DTA/1625_harer_eigentliche/1625_harer_eigentliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hyller1625')
+def _load_hyller1625():
+    path = _root / 'corpora/german/DTA/1625_hyller_exequiae/1625_hyller_exequiae.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('sattler1625')
+def _load_sattler1625():
+    path = _root / 'corpora/german/DTA/1625_sattler_medulla/1625_sattler_medulla.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('seidemannus1625')
+def _load_seidemannus1625():
+    path = _root / 'corpora/german/DTA/1625_seidemannus_christliche/1625_seidemannus_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('barclay1626')
+def _load_barclay1626():
+    path = _root / 'corpora/german/DTA/1626_barclay_johann/1626_barclay_johann.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('feyerabend1626')
+def _load_feyerabend1626():
+    path = _root / 'corpora/german/DTA/1626_feyerabend_salutiferum/1626_feyerabend_salutiferum.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('gedik1626')
+def _load_gedik1626():
+    path = _root / 'corpora/german/DTA/1626_gedik_meditatio/1626_gedik_meditatio.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('mauritius1626')
+def _load_mauritius1626():
+    path = _root / 'corpora/german/DTA/1626_mauritius_adelicher/1626_mauritius_adelicher.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('neomenius1626')
+def _load_neomenius1626():
+    path = _root / 'corpora/german/DTA/1626_neomenius_geistliche/1626_neomenius_geistliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('nn1626')
+def _load_nn1626():
+    path = _root / 'corpora/german/DTA/1626_nn_fragmente/1626_nn_fragmente.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('nn_zwo1626')
+def _load_nn_zwo1626():
+    path = _root / 'corpora/german/DTA/1626_nn_zwo/1626_nn_zwo.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('scheffrich1626')
+def _load_scheffrich1626():
+    path = _root / 'corpora/german/DTA/1626_scheffrich_piorum/1626_scheffrich_piorum.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('calvi1627')
+def _load_calvi1627():
+    path = _root / 'corpora/german/DTA/1627_calvi_beutelschneider/1627_calvi_beutelschneider.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('calvi_beutelschneider1627')
+def _load_calvi_beutelschneider1627():
+    path = _root / 'corpora/german/DTA/1627_calvi_beutelschneider_2/1627_calvi_beutelschneider_2.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('corfinius1627')
+def _load_corfinius1627():
+    path = _root / 'corpora/german/DTA/1627_corfinius_christliche/1627_corfinius_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('friese1627')
+def _load_friese1627():
+    path = _root / 'corpora/german/DTA/1627_friese_mnema/1627_friese_mnema.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('tralles1627')
+def _load_tralles1627():
+    path = _root / 'corpora/german/DTA/1627_tralles_fiducia/1627_tralles_fiducia.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('winziger1627')
+def _load_winziger1627():
+    path = _root / 'corpora/german/DTA/1627_winziger_piorum/1627_winziger_piorum.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('albinus1628')
+def _load_albinus1628():
+    path = _root / 'corpora/german/DTA/1628_albinus_trost/1628_albinus_trost.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('anhalt1628')
+def _load_anhalt1628():
+    path = _root / 'corpora/german/DTA/1628_anhalt_koethen_kurtzer/1628_anhalt_koethen_kurtzer.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('heinnitz1628')
+def _load_heinnitz1628():
+    path = _root / 'corpora/german/DTA/1628_heinnitz_mortis/1628_heinnitz_mortis.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('n1628')
+def _load_n1628():
+    path = _root / 'corpora/german/DTA/1628_n_n_statt/1628_n_n_statt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('silber1628')
+def _load_silber1628():
+    path = _root / 'corpora/german/DTA/1628_silber_threnodia/1628_silber_threnodia.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('stephanus1628')
+def _load_stephanus1628():
+    path = _root / 'corpora/german/DTA/1628_stephanus_jucundissimum/1628_stephanus_jucundissimum.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dilger1629')
+def _load_dilger1629():
+    path = _root / 'corpora/german/DTA/1629_dilger_christliche/1629_dilger_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hoepner1629')
+def _load_hoepner1629():
+    path = _root / 'corpora/german/DTA/1629_hoepner_leichpredigt/1629_hoepner_leichpredigt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('kentz1629')
+def _load_kentz1629():
+    path = _root / 'corpora/german/DTA/1629_kentz_gueldener/1629_kentz_gueldener.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('heinitz1630')
+def _load_heinitz1630():
+    path = _root / 'corpora/german/DTA/1630_heinitz_servus/1630_heinitz_servus.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('heusler1630')
+def _load_heusler1630():
+    path = _root / 'corpora/german/DTA/1630_heusler_leych/1630_heusler_leych.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hoepner1630')
+def _load_hoepner1630():
+    path = _root / 'corpora/german/DTA/1630_hoepner_leichpredigt/1630_hoepner_leichpredigt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('kutschenreuter1630')
+def _load_kutschenreuter1630():
+    path = _root / 'corpora/german/DTA/1630_kutschenreuter_christliche/1630_kutschenreuter_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('marci1630')
+def _load_marci1630():
+    path = _root / 'corpora/german/DTA/1630_marci_dess/1630_marci_dess.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('n1630')
+def _load_n1630():
+    path = _root / 'corpora/german/DTA/1630_n_n_carmina/1630_n_n_carmina.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('opitz1630')
+def _load_opitz1630():
+    path = _root / 'corpora/german/DTA/1630_opitz_schaefferey/1630_opitz_schaefferey.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('wollenberg1630')
+def _load_wollenberg1630():
+    path = _root / 'corpora/german/DTA/1630_wollenberg_amuletum/1630_wollenberg_amuletum.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('arnhold1631')
+def _load_arnhold1631():
+    path = _root / 'corpora/german/DTA/1631_arnhold_triplicatus/1631_arnhold_triplicatus.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('crueger1631')
+def _load_crueger1631():
+    path = _root / 'corpora/german/DTA/1631_crueger_cupedi/1631_crueger_cupedi.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('ederus1631')
+def _load_ederus1631():
+    path = _root / 'corpora/german/DTA/1631_ederus_jesus/1631_ederus_jesus.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('gottfried1631')
+def _load_gottfried1631():
+    path = _root / 'corpora/german/DTA/1631_gottfried_newe/1631_gottfried_newe.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hoepner1631')
+def _load_hoepner1631():
+    path = _root / 'corpora/german/DTA/1631_hoepner_leichpredigt/1631_hoepner_leichpredigt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('mochinger1631')
+def _load_mochinger1631():
+    path = _root / 'corpora/german/DTA/1631_mochinger_diis/1631_mochinger_diis.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('mochinger_histori1631')
+def _load_mochinger_histori1631():
+    path = _root / 'corpora/german/DTA/1631_mochinger_histori/1631_mochinger_histori.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('thebesius1631')
+def _load_thebesius1631():
+    path = _root / 'corpora/german/DTA/1631_thebesius_sterbender/1631_thebesius_sterbender.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('wild1631')
+def _load_wild1631():
+    path = _root / 'corpora/german/DTA/1631_wild_rosa/1631_wild_rosa.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('coerber1632')
+def _load_coerber1632():
+    path = _root / 'corpora/german/DTA/1632_coerber_respice/1632_coerber_respice.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hoepner1632')
+def _load_hoepner1632():
+    path = _root / 'corpora/german/DTA/1632_hoepner_christliche/1632_hoepner_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hoepner_leichpredigt1632')
+def _load_hoepner_leichpredigt1632():
+    path = _root / 'corpora/german/DTA/1632_hoepner_leichpredigt/1632_hoepner_leichpredigt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hoepner_leichpredigt21632')
+def _load_hoepner_leichpredigt21632():
+    path = _root / 'corpora/german/DTA/1632_hoepner_leichpredigt_2/1632_hoepner_leichpredigt_2.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('nerger1632')
+def _load_nerger1632():
+    path = _root / 'corpora/german/DTA/1632_nerger_justa/1632_nerger_justa.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('nn1632')
+def _load_nn1632():
+    path = _root / 'corpora/german/DTA/1632_nn_jahrgedaechtnis/1632_nn_jahrgedaechtnis.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('schreck1632')
+def _load_schreck1632():
+    path = _root / 'corpora/german/DTA/1632_schreck_trost/1632_schreck_trost.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('schickard1633')
+def _load_schickard1633():
+    path = _root / 'corpora/german/DTA/1633_schickard_grundtlicher/1633_schickard_grundtlicher.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('zwinger1633')
+def _load_zwinger1633():
+    path = _root / 'corpora/german/DTA/1633_zwinger_christliche/1633_zwinger_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('eder1634')
+def _load_eder1634():
+    path = _root / 'corpora/german/DTA/1634_eder_theoria/1634_eder_theoria.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('guentherus1634')
+def _load_guentherus1634():
+    path = _root / 'corpora/german/DTA/1634_guentherus_koenig/1634_guentherus_koenig.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('meyfart1634')
+def _load_meyfart1634():
+    path = _root / 'corpora/german/DTA/1634_meyfart_teutsche/1634_meyfart_teutsche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('abelin1635')
+def _load_abelin1635():
+    path = _root / 'corpora/german/DTA/1635_abelin_theatrum/1635_abelin_theatrum.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hoy1635')
+def _load_hoy1635():
+    path = _root / 'corpora/german/DTA/1635_hoy_vermahnung/1635_hoy_vermahnung.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('lazarus1635')
+def _load_lazarus1635():
+    path = _root / 'corpora/german/DTA/1635_lazarus_christliche/1635_lazarus_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('rolle1635')
+def _load_rolle1635():
+    path = _root / 'corpora/german/DTA/1635_rolle_parentatio/1635_rolle_parentatio.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('seiler1635')
+def _load_seiler1635():
+    path = _root / 'corpora/german/DTA/1635_seiler_annulus/1635_seiler_annulus.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('seiler_praefixo1635')
+def _load_seiler_praefixo1635():
+    path = _root / 'corpora/german/DTA/1635_seiler_praefixo/1635_seiler_praefixo.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('adolph1636')
+def _load_adolph1636():
+    path = _root / 'corpora/german/DTA/1636_adolph_mors/1636_adolph_mors.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hoepner1636')
+def _load_hoepner1636():
+    path = _root / 'corpora/german/DTA/1636_hoepner_leichpredigt/1636_hoepner_leichpredigt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('scheffrich1636')
+def _load_scheffrich1636():
+    path = _root / 'corpora/german/DTA/1636_scheffrich_terra/1636_scheffrich_terra.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('schwenter1636')
+def _load_schwenter1636():
+    path = _root / 'corpora/german/DTA/1636_schwenter_deliciae/1636_schwenter_deliciae.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hoepner1637')
+def _load_hoepner1637():
+    path = _root / 'corpora/german/DTA/1637_hoepner_leich/1637_hoepner_leich.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('schwendendoerffer1637')
+def _load_schwendendoerffer1637():
+    path = _root / 'corpora/german/DTA/1637_schwendendoerffer_andaechtige/1637_schwendendoerffer_andaechtige.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('seidel1637')
+def _load_seidel1637():
+    path = _root / 'corpora/german/DTA/1637_seidel_hyiothesia/1637_seidel_hyiothesia.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('seidel_ministrorum1637')
+def _load_seidel_ministrorum1637():
+    path = _root / 'corpora/german/DTA/1637_seidel_ministrorum/1637_seidel_ministrorum.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('albinus1638')
+def _load_albinus1638():
+    path = _root / 'corpora/german/DTA/1638_albinus_mosaicum/1638_albinus_mosaicum.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('fabritius1638')
+def _load_fabritius1638():
+    path = _root / 'corpora/german/DTA/1638_fabritius_medicina/1638_fabritius_medicina.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('n1638')
+def _load_n1638():
+    path = _root / 'corpora/german/DTA/1638_n_n_mus/1638_n_n_mus.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('n_n1638')
+def _load_n_n1638():
+    path = _root / 'corpora/german/DTA/1638_n_n_mus_2/1638_n_n_mus_2.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('seidel1638')
+def _load_seidel1638():
+    path = _root / 'corpora/german/DTA/1638_seidel_rediviva/1638_seidel_rediviva.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('thebesius1638')
+def _load_thebesius1638():
+    path = _root / 'corpora/german/DTA/1638_thebesius_gleubiger/1638_thebesius_gleubiger.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('micraelius1639')
+def _load_micraelius1639():
+    path = _root / 'corpora/german/DTA/1639_micraelius_ander/1639_micraelius_ander.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('micraelius_ander1639')
+def _load_micraelius_ander1639():
+    path = _root / 'corpora/german/DTA/1639_micraelius_ander_2/1639_micraelius_ander_2.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('micraelius_drittes1639')
+def _load_micraelius_drittes1639():
+    path = _root / 'corpora/german/DTA/1639_micraelius_drittes/1639_micraelius_drittes.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('micraelius_erstes1639')
+def _load_micraelius_erstes1639():
+    path = _root / 'corpora/german/DTA/1639_micraelius_erstes/1639_micraelius_erstes.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('micraelius_fuenfftes1639')
+def _load_micraelius_fuenfftes1639():
+    path = _root / 'corpora/german/DTA/1639_micraelius_fuenfftes/1639_micraelius_fuenfftes.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('micraelius_sechstes1639')
+def _load_micraelius_sechstes1639():
+    path = _root / 'corpora/german/DTA/1639_micraelius_sechstes/1639_micraelius_sechstes.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('micraelius_vierdte1639')
+def _load_micraelius_vierdte1639():
+    path = _root / 'corpora/german/DTA/1639_micraelius_vierdte/1639_micraelius_vierdte.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('seidel1639')
+def _load_seidel1639():
+    path = _root / 'corpora/german/DTA/1639_seidel_seqvun/1639_seidel_seqvun.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('seidel_terra1639')
+def _load_seidel_terra1639():
+    path = _root / 'corpora/german/DTA/1639_seidel_terra/1639_seidel_terra.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('thebesius1639')
+def _load_thebesius1639():
+    path = _root / 'corpora/german/DTA/1639_thebesius_liebhaber/1639_thebesius_liebhaber.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('eder1640')
+def _load_eder1640():
+    path = _root / 'corpora/german/DTA/1640_eder_judith/1640_eder_judith.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('felgenhauer1640')
+def _load_felgenhauer1640():
+    path = _root / 'corpora/german/DTA/1640_felgenhauer_buechlein/1640_felgenhauer_buechlein.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('n1640')
+def _load_n1640():
+    path = _root / 'corpora/german/DTA/1640_n_n_jubilaeum/1640_n_n_jubilaeum.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('zesen1640')
+def _load_zesen1640():
+    path = _root / 'corpora/german/DTA/1640_zesen_deuetscher/1640_zesen_deuetscher.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('adolph1641')
+def _load_adolph1641():
+    path = _root / 'corpora/german/DTA/1641_adolph_daktulion/1641_adolph_daktulion.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('czepko1641')
+def _load_czepko1641():
+    path = _root / 'corpora/german/DTA/1641_czepko_triumph/1641_czepko_triumph.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('weckherlin1641')
+def _load_weckherlin1641():
+    path = _root / 'corpora/german/DTA/1641_weckherlin_gaistliche/1641_weckherlin_gaistliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('zesen1641')
+def _load_zesen1641():
+    path = _root / 'corpora/german/DTA/1641_zesen_philippi/1641_zesen_philippi.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('fleming1642')
+def _load_fleming1642():
+    path = _root / 'corpora/german/DTA/1642_fleming_teuetsche/1642_fleming_teuetsche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hubrig1642')
+def _load_hubrig1642():
+    path = _root / 'corpora/german/DTA/1642_hubrig_pii/1642_hubrig_pii.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('reideburg1642')
+def _load_reideburg1642():
+    path = _root / 'corpora/german/DTA/1642_reideburg_kurtze/1642_reideburg_kurtze.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('seidel1642')
+def _load_seidel1642():
+    path = _root / 'corpora/german/DTA/1642_seidel_superattendentium/1642_seidel_superattendentium.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach1643')
+def _load_dach1643():
+    path = _root / 'corpora/german/DTA/1643_dach_einfaeltiges/1643_dach_einfaeltiges.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_gedaechtnis1643')
+def _load_dach_gedaechtnis1643():
+    path = _root / 'corpora/german/DTA/1643_dach_gedaechtnis/1643_dach_gedaechtnis.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('furttenbach1643')
+def _load_furttenbach1643():
+    path = _root / 'corpora/german/DTA/1643_furttenbach_buechsenmeisterey/1643_furttenbach_buechsenmeisterey.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('lange1643')
+def _load_lange1643():
+    path = _root / 'corpora/german/DTA/1643_lange_status/1643_lange_status.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('n1643')
+def _load_n1643():
+    path = _root / 'corpora/german/DTA/1643_n_ethica/1643_n_ethica.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach1644')
+def _load_dach1644():
+    path = _root / 'corpora/german/DTA/1644_dach_klag/1644_dach_klag.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('holfeld1644')
+def _load_holfeld1644():
+    path = _root / 'corpora/german/DTA/1644_holfeld_abschied/1644_holfeld_abschied.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('lerchenfeld1644')
+def _load_lerchenfeld1644():
+    path = _root / 'corpora/german/DTA/1644_lerchenfeld_wegweiser/1644_lerchenfeld_wegweiser.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('luetkemann1644')
+def _load_luetkemann1644():
+    path = _root / 'corpora/german/DTA/1644_luetkemann_leben/1644_luetkemann_leben.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('zimmermann1644')
+def _load_zimmermann1644():
+    path = _root / 'corpora/german/DTA/1644_zimmermann_christliche/1644_zimmermann_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach1645')
+def _load_dach1645():
+    path = _root / 'corpora/german/DTA/1645_dach_klag/1645_dach_klag.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hayn1645')
+def _load_hayn1645():
+    path = _root / 'corpora/german/DTA/1645_hayn_officina/1645_hayn_officina.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('holfeld1645')
+def _load_holfeld1645():
+    path = _root / 'corpora/german/DTA/1645_holfeld_heilige/1645_holfeld_heilige.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('klaj1645')
+def _load_klaj1645():
+    path = _root / 'corpora/german/DTA/1645_klaj_lobrede/1645_klaj_lobrede.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('kuhn1645')
+def _load_kuhn1645():
+    path = _root / 'corpora/german/DTA/1645_kuhn_kraefftiger/1645_kuhn_kraefftiger.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('luetkemann1645')
+def _load_luetkemann1645():
+    path = _root / 'corpora/german/DTA/1645_luetkemann_muehseligen/1645_luetkemann_muehseligen.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('zesen1645')
+def _load_zesen1645():
+    path = _root / 'corpora/german/DTA/1645_zesen_adriatische/1645_zesen_adriatische.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach1646')
+def _load_dach1646():
+    path = _root / 'corpora/german/DTA/1646_dach_christliches/1646_dach_christliches.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_klag1646')
+def _load_dach_klag1646():
+    path = _root / 'corpora/german/DTA/1646_dach_klag/1646_dach_klag.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_klag21646')
+def _load_dach_klag21646():
+    path = _root / 'corpora/german/DTA/1646_dach_klag_2/1646_dach_klag_2.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_leich1646')
+def _load_dach_leich1646():
+    path = _root / 'corpora/german/DTA/1646_dach_leich/1646_dach_leich.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_trawer1646')
+def _load_dach_trawer1646():
+    path = _root / 'corpora/german/DTA/1646_dach_trawer/1646_dach_trawer.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('glauber1646')
+def _load_glauber1646():
+    path = _root / 'corpora/german/DTA/1646_glauber_furni/1646_glauber_furni.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach1647')
+def _load_dach1647():
+    path = _root / 'corpora/german/DTA/1647_dach_klag/1647_dach_klag.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_klag1647')
+def _load_dach_klag1647():
+    path = _root / 'corpora/german/DTA/1647_dach_klag_2/1647_dach_klag_2.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_letzter1647')
+def _load_dach_letzter1647():
+    path = _root / 'corpora/german/DTA/1647_dach_letzter/1647_dach_letzter.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_trost1647')
+def _load_dach_trost1647():
+    path = _root / 'corpora/german/DTA/1647_dach_trost/1647_dach_trost.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('glauber1647')
+def _load_glauber1647():
+    path = _root / 'corpora/german/DTA/1647_glauber_furni/1647_glauber_furni.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('letsch1647')
+def _load_letsch1647():
+    path = _root / 'corpora/german/DTA/1647_letsch_stephan/1647_letsch_stephan.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('luetkemann1647')
+def _load_luetkemann1647():
+    path = _root / 'corpora/german/DTA/1647_luetkemann_blawen/1647_luetkemann_blawen.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('olearius1647')
+def _load_olearius1647():
+    path = _root / 'corpora/german/DTA/1647_olearius_offt/1647_olearius_offt.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('rist1647')
+def _load_rist1647():
+    path = _root / 'corpora/german/DTA/1647_rist_friede/1647_rist_friede.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('schlegel1647')
+def _load_schlegel1647():
+    path = _root / 'corpora/german/DTA/1647_schlegel_glueckseliger/1647_schlegel_glueckseliger.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('spee1647')
+def _load_spee1647():
+    path = _root / 'corpora/german/DTA/1647_spee_gewissens/1647_spee_gewissens.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('weber1647')
+def _load_weber1647():
+    path = _root / 'corpora/german/DTA/1647_weber_christliche/1647_weber_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('cundisius1648')
+def _load_cundisius1648():
+    path = _root / 'corpora/german/DTA/1648_cundisius_fabrica/1648_cundisius_fabrica.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach1648')
+def _load_dach1648():
+    path = _root / 'corpora/german/DTA/1648_dach_christliche/1648_dach_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_klag1648')
+def _load_dach_klag1648():
+    path = _root / 'corpora/german/DTA/1648_dach_klag/1648_dach_klag.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_klag21648')
+def _load_dach_klag21648():
+    path = _root / 'corpora/german/DTA/1648_dach_klag_2/1648_dach_klag_2.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_traurigkeit1648')
+def _load_dach_traurigkeit1648():
+    path = _root / 'corpora/german/DTA/1648_dach_traurigkeit/1648_dach_traurigkeit.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_trostliedchen1648')
+def _load_dach_trostliedchen1648():
+    path = _root / 'corpora/german/DTA/1648_dach_trostliedchen/1648_dach_trostliedchen.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('glauber1648')
+def _load_glauber1648():
+    path = _root / 'corpora/german/DTA/1648_glauber_furni/1648_glauber_furni.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('glauber_furni1648')
+def _load_glauber_furni1648():
+    path = _root / 'corpora/german/DTA/1648_glauber_furni_2/1648_glauber_furni_2.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('harsdoerffer1648')
+def _load_harsdoerffer1648():
+    path = _root / 'corpora/german/DTA/1648_harsdoerffer_poetischer/1648_harsdoerffer_poetischer.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('mergo1648')
+def _load_mergo1648():
+    path = _root / 'corpora/german/DTA/1648_mergo_christliche/1648_mergo_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('miguel1648')
+def _load_miguel1648():
+    path = _root / 'corpora/german/DTA/1648_miguel_de_don/1648_miguel_de_don.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('n1648')
+def _load_n1648():
+    path = _root / 'corpora/german/DTA/1648_n_n_friedens/1648_n_n_friedens.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('royer1648')
+def _load_royer1648():
+    path = _root / 'corpora/german/DTA/1648_royer_beschreibung/1648_royer_beschreibung.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('caselius1649')
+def _load_caselius1649():
+    path = _root / 'corpora/german/DTA/1649_caselius_christliche/1649_caselius_christliche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach1649')
+def _load_dach1649():
+    path = _root / 'corpora/german/DTA/1649_dach_christlicher/1649_dach_christlicher.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_christliches1649')
+def _load_dach_christliches1649():
+    path = _root / 'corpora/german/DTA/1649_dach_christliches/1649_dach_christliches.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_christliches21649')
+def _load_dach_christliches21649():
+    path = _root / 'corpora/german/DTA/1649_dach_christliches_2/1649_dach_christliches_2.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_christliches31649')
+def _load_dach_christliches31649():
+    path = _root / 'corpora/german/DTA/1649_dach_christliches_3/1649_dach_christliches_3.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_klag1649')
+def _load_dach_klag1649():
+    path = _root / 'corpora/german/DTA/1649_dach_klag/1649_dach_klag.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_letzte1649')
+def _load_dach_letzte1649():
+    path = _root / 'corpora/german/DTA/1649_dach_letzte/1649_dach_letzte.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_letztes1649')
+def _load_dach_letztes1649():
+    path = _root / 'corpora/german/DTA/1649_dach_letztes/1649_dach_letztes.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_letztes21649')
+def _load_dach_letztes21649():
+    path = _root / 'corpora/german/DTA/1649_dach_letztes_2/1649_dach_letztes_2.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_schuldiges1649')
+def _load_dach_schuldiges1649():
+    path = _root / 'corpora/german/DTA/1649_dach_schuldiges/1649_dach_schuldiges.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_schuldigste1649')
+def _load_dach_schuldigste1649():
+    path = _root / 'corpora/german/DTA/1649_dach_schuldigste/1649_dach_schuldigste.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_trost1649')
+def _load_dach_trost1649():
+    path = _root / 'corpora/german/DTA/1649_dach_trost/1649_dach_trost.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_tugend1649')
+def _load_dach_tugend1649():
+    path = _root / 'corpora/german/DTA/1649_dach_tugend/1649_dach_tugend.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('glauber1649')
+def _load_glauber1649():
+    path = _root / 'corpora/german/DTA/1649_glauber_furni/1649_glauber_furni.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hayn1649')
+def _load_hayn1649():
+    path = _root / 'corpora/german/DTA/1649_hayn_liebliches/1649_hayn_liebliches.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('hulsius1649')
+def _load_hulsius1649():
+    path = _root / 'corpora/german/DTA/1649_hulsius_fuenff/1649_hulsius_fuenff.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('nn1649')
+def _load_nn1649():
+    path = _root / 'corpora/german/DTA/1649_nn_friedens/1649_nn_friedens.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('schwemler1649')
+def _load_schwemler1649():
+    path = _root / 'corpora/german/DTA/1649_schwemler_glaubens/1649_schwemler_glaubens.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('textor1649')
+def _load_textor1649():
+    path = _root / 'corpora/german/DTA/1649_textor_exeqviales/1649_textor_exeqviales.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('august1650')
+def _load_august1650():
+    path = _root / 'corpora/german/DTA/1650_august_braunschweig_lueneburg_gottes/1650_august_braunschweig_lueneburg_gottes.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach1650')
+def _load_dach1650():
+    path = _root / 'corpora/german/DTA/1650_dach_einfaeltige/1650_dach_einfaeltige.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_einfaeltige1650')
+def _load_dach_einfaeltige1650():
+    path = _root / 'corpora/german/DTA/1650_dach_einfaeltige_2/1650_dach_einfaeltige_2.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('dach_unbeweglicher1650')
+def _load_dach_unbeweglicher1650():
+    path = _root / 'corpora/german/DTA/1650_dach_unbeweglicher/1650_dach_unbeweglicher.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('glauber1650')
+def _load_glauber1650():
+    path = _root / 'corpora/german/DTA/1650_glauber_annotationes/1650_glauber_annotationes.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('gryphius1650')
+def _load_gryphius1650():
+    path = _root / 'corpora/german/DTA/1650_gryphius_teutsche/1650_gryphius_teutsche.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('harsdoerffer1650')
+def _load_harsdoerffer1650():
+    path = _root / 'corpora/german/DTA/1650_harsdoerffer_poetischer/1650_harsdoerffer_poetischer.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('holfeld1650')
+def _load_holfeld1650():
+    path = _root / 'corpora/german/DTA/1650_holfeld_homo/1650_holfeld_homo.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('luetkemann1650')
+def _load_luetkemann1650():
+    path = _root / 'corpora/german/DTA/1650_luetkemann_krone/1650_luetkemann_krone.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('schirmer1650')
+def _load_schirmer1650():
+    path = _root / 'corpora/german/DTA/1650_schirmer_erstes/1650_schirmer_erstes.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+@_register('wartmann1650')
+def _load_wartmann1650():
+    path = _root / 'corpora/german/DTA/1650_wartmann_germania/1650_wartmann_germania.csv'
+    return reftext.from_corpus_build_csv(path, language='german')
+
+
 # `german` aggregate: DTA German + Luther Bibel 1545 (combined ~2.3M tokens
 # across both corpus_build pipelines). The standalone `dta` loader remains
 # DTA-only for DTA-specific statistics; `luther_bible_1545` likewise stands
@@ -2301,7 +3414,7 @@ def _load_dbnl():
 
 @_register('dta')
 def _load_dta():
-    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490', 'crescentiis1493', 'springer1509', 'ellenbog1524', 'tzeen1530', 'almanach1487', 'dracole1488', 'has1490', 'fusspfad1492', 'almanach1492', 'morgener1497', 'gottfried1497', 'rechnungsbuch1500', 'has1500', 'has1516', 'luther_passional1521', 'bucer1521', 'luther1522', 'luther_enchiridion1524', 'luther_elltern1524', 'corvinus1529', 'crosner_sacrament1531', 'crosner_kirchen1531', 'zeyttung1535', 'schnepf1536', 'luther_thesen1557', 'splendorsolis1590', 'sachs_meerwunder1552a', 'wuerttemberg1552', 'brenz_kirchenordnung1555', 'staden1557', 'bullinger1558', 'sachs_ulisses1561', 'sachs_meerwunder1562', 'walther1562', 'andrea1564', 'kirchenordnung1564', 'brenz_kirchenordnung1565', 'braunschweig_kirchenordnung1569', 'kirchner_bekentnis1569', 'braunschweig_hofgerichtsordnung1571', 'etschenreutter1571', 'selnecker_bekantnus1571', 'selnecker_summa1571', 'braunschweig_repetition1574', 'dresserus1578', 'hesshus1578', 'lesterschrifft1578', 'kirchner_zeugnusse1579', 'braunschweig_ordnung1579', 'hesshus1580', 'magirus1580', 'rumpolt1581', 'sattler1582', 'hesshus1583', 'leyser1583', 'marbach1583', 'kirchner1584', 'kirchner_dass1584', 'kirchner_gruendliche1584', 'braun1585', 'eichler1585', 'hesshus1585', 'hesshus_extrakt1585', 'lutz1585', 'roth1585', 'nn1586', 'nn_newe1586', 'nn_wahrhaftige1586', 'eichler1587', 'kirchner1587', 'kirchner_gruendlicher1587', 'kirchner_leichpredigt1587', 'magirus1587', 'sattler1587', 'hesshus1588', 'hofmann1588', 'gigantaeus1589', 'kuend1589', 'leyser1589', 'sattler1589', 'schopper1589', 'stainer1589', 'tham1589', 'sattler1590', 'sattler_christliche1590', 'sattler_kurzer1590', 'kirchner1591', 'leyser1591', 'olearius1591', 'wenzel1591', 'kirchner1592', 'magirus1592', 'magirus_kurzer1592', 'sattler1592', 'sattler_trostpredigt1592', 'sattler_trostschrifft1592', 'coler1593', 'heusler1593', 'magirus1593', 'sattler1593', 'becker1594', 'cementarius1594', 'sattler1594', 'musaeus1595', 'sattler1595', 'algermann1596', 'strube1596', 'dilbaum1597', 'goltz1597', 'hofmann1597', 'olearius1597', 'sattler1597', 'scheurl1597', 'strube1597', 'baudis1598', 'francius1598', 'nn1598', 'wecker1598', 'mylaeus1599', 'nicolai1599', 'nn1600', 'braunschweig1601', 'eckard1601', 'strube1601', 'stuer1601', 'aubelin1602', 'fuessel1602', 'nn1602', 'sattler1602', 'basilius1603', 'beuthelius1603', 'braunschweig1603', 'hermann1603', 'musaeus1603', 'nn1603', 'pelargus1603', 'rollenhagen1603', 'rossman1603', 'steinbach1603', 'valentinus1603', 'braunschweig1604', 'braunschweig_wolfenbuettel1604', 'luther1604', 'magirus1604', 'sattler1604', 'walther1604', 'becke1605', 'melander1605', 'melander_joco1605', 'seiler1605', 'anther1606', 'felber1606', 'kurfuerst1606', 'mueller1606', 'musaeus1606', 'n1606', 'sattler1606', 'treuer1606', 'treuer_jobi1606', 'dilich1607', 'just1607', 'magirus1607', 'teichman1607', 'ulrich1607', 'hassfurter1608', 'nn1608', 'peckenstein1608', 'sattler1608', 'sattler_predigt1608', 'keppler1609', 'langevoith1609', 'nn1609', 'nn_ruemffens1609', 'schoene1609', 'trisner1609', 'walter1609', 'arndt1610', 'arndt_wahren1610', 'arndt_wahren21610', 'arndt_wahren31610', 'brombach1610', 'faulhaber1610', 'hafenreffer1610', 'keppler1610', 'kremer1610', 'loewe1610', 'niger1610', 'sattler1610', 'teubener1610', 'baudis1611', 'cramer1611', 'deckhardt1611', 'magirus1611', 'sattler1611', 'schmuck1611', 'chemnitz1612', 'droschki1612', 'freudenberg1612', 'goedelmann1612', 'janticovius1612', 'mueller1612', 'schellbach1612', 'sighardus1612', 'stiller1612', 'walther1612', 'barthisius1613', 'breuer1613', 'clarus1613', 'etner1613', 'faber1613', 'holtzmann1613', 'holwein1613', 'kale1613', 'reineck1613', 'sattler1613', 'schober1613', 'schwanengel1613', 'spangenberg1613', 'tuckermann1613', 'weigel1613', 'westerfeld1613', 'bacmeister1614', 'barthisius1614', 'beatus1614', 'brebach1614', 'hentschel1614', 'kheil1614', 'leuchter1614', 'murschel1614', 'neomenius1614', 'neomenius_grosse1614', 'phrysius1614', 'rauschenberg1614', 'schmuck1614', 'schreier1614', 'volcius1614', 'zuckwolf1614', 'albertinus1615', 'bernhertz1615', 'droschki1615', 'friedrich1615', 'grebius1615', 'hammer1615', 'klein1615', 'lange1615', 'muling1615', 'neomenius1615', 'origanus1615', 'rehefeldt1615', 'reich1615', 'sattler1615', 'sattler_predigt1615', 'schoenfeld1615', 'weigel1615', 'andreae1616', 'bacmeister1616', 'briaeus1616', 'friese1616', 'guettner1616', 'jungel1616', 'kepler1616', 'milichius1616', 'mollenfeld1616', 'n1616', 'neomenius1616', 'neomenius_glaubens1616', 'rupelius1616', 'rupflinus1616', 'sattler1616', 'scheuring1616', 'schubert1616', 'seitz1616', 'silber1616', 'thumbshirn1616', 'tuckermann1616', 'tuckermann_huldigungspredigt1616', 'wolder1616', 'amelung1617', 'butschky1617', 'eccardi1617', 'gebauer1617', 'hentschel1617', 'hoe1617', 'hofstetter1617', 'lehen1617', 'leuchter1617', 'milichius1617', 'milichius_justorum1617', 'mollenfeld1617', 'n1617', 'neomenius1617', 'obrecht1617', 'origanus1617', 'sattler1617', 'tuckermann1617', 'tuckermann_lutherische1617', 'vesembeck1617', 'vietor1617', 'vietor_tabea1617', 'winckelmann1617', 'albertinus1618', 'braun1618', 'etner1618', 'friese1618', 'kheil1618', 'schellenberger1618', 'silber1618', 'trescovius1618', 'weckherlin1618', 'weigel1618', 'weigel_gnothi1618', 'weisshaeupt1618', 'wellich1618', 'wiedeburg1618', 'wiedeburg_christliche1618', 'braunschweig1619', 'friderici1619', 'klaerhe1619', 'muench1619', 'pelargus1619', 'ropilius1619', 'schnyerer1619', 'schwenckfeld1619', 'silber1619', 'tuckermann1619', 'tuckermann_antwort1619', 'tuckermann_predigt1619', 'weckherlin1619', 'wiedeburg1619')]
+    parts = [(name, _get(name)) for name in ('brunfels', 'almanach1473', 'dracole1485', 'meerwunder1472', 'almanach1481', 'promptuarium1483', 'kuchemaistrey1490', 'crescentiis1493', 'springer1509', 'ellenbog1524', 'tzeen1530', 'almanach1487', 'dracole1488', 'has1490', 'fusspfad1492', 'almanach1492', 'morgener1497', 'gottfried1497', 'rechnungsbuch1500', 'has1500', 'has1516', 'luther_passional1521', 'bucer1521', 'luther1522', 'luther_enchiridion1524', 'luther_elltern1524', 'corvinus1529', 'crosner_sacrament1531', 'crosner_kirchen1531', 'zeyttung1535', 'schnepf1536', 'luther_thesen1557', 'splendorsolis1590', 'sachs_meerwunder1552a', 'wuerttemberg1552', 'brenz_kirchenordnung1555', 'staden1557', 'bullinger1558', 'sachs_ulisses1561', 'sachs_meerwunder1562', 'walther1562', 'andrea1564', 'kirchenordnung1564', 'brenz_kirchenordnung1565', 'braunschweig_kirchenordnung1569', 'kirchner_bekentnis1569', 'braunschweig_hofgerichtsordnung1571', 'etschenreutter1571', 'selnecker_bekantnus1571', 'selnecker_summa1571', 'braunschweig_repetition1574', 'dresserus1578', 'hesshus1578', 'lesterschrifft1578', 'kirchner_zeugnusse1579', 'braunschweig_ordnung1579', 'hesshus1580', 'magirus1580', 'rumpolt1581', 'sattler1582', 'hesshus1583', 'leyser1583', 'marbach1583', 'kirchner1584', 'kirchner_dass1584', 'kirchner_gruendliche1584', 'braun1585', 'eichler1585', 'hesshus1585', 'hesshus_extrakt1585', 'lutz1585', 'roth1585', 'nn1586', 'nn_newe1586', 'nn_wahrhaftige1586', 'eichler1587', 'kirchner1587', 'kirchner_gruendlicher1587', 'kirchner_leichpredigt1587', 'magirus1587', 'sattler1587', 'hesshus1588', 'hofmann1588', 'gigantaeus1589', 'kuend1589', 'leyser1589', 'sattler1589', 'schopper1589', 'stainer1589', 'tham1589', 'sattler1590', 'sattler_christliche1590', 'sattler_kurzer1590', 'kirchner1591', 'leyser1591', 'olearius1591', 'wenzel1591', 'kirchner1592', 'magirus1592', 'magirus_kurzer1592', 'sattler1592', 'sattler_trostpredigt1592', 'sattler_trostschrifft1592', 'coler1593', 'heusler1593', 'magirus1593', 'sattler1593', 'becker1594', 'cementarius1594', 'sattler1594', 'musaeus1595', 'sattler1595', 'algermann1596', 'strube1596', 'dilbaum1597', 'goltz1597', 'hofmann1597', 'olearius1597', 'sattler1597', 'scheurl1597', 'strube1597', 'baudis1598', 'francius1598', 'nn1598', 'wecker1598', 'mylaeus1599', 'nicolai1599', 'nn1600', 'braunschweig1601', 'eckard1601', 'strube1601', 'stuer1601', 'aubelin1602', 'fuessel1602', 'nn1602', 'sattler1602', 'basilius1603', 'beuthelius1603', 'braunschweig1603', 'hermann1603', 'musaeus1603', 'nn1603', 'pelargus1603', 'rollenhagen1603', 'rossman1603', 'steinbach1603', 'valentinus1603', 'braunschweig1604', 'braunschweig_wolfenbuettel1604', 'luther1604', 'magirus1604', 'sattler1604', 'walther1604', 'becke1605', 'melander1605', 'melander_joco1605', 'seiler1605', 'anther1606', 'felber1606', 'kurfuerst1606', 'mueller1606', 'musaeus1606', 'n1606', 'sattler1606', 'treuer1606', 'treuer_jobi1606', 'dilich1607', 'just1607', 'magirus1607', 'teichman1607', 'ulrich1607', 'hassfurter1608', 'nn1608', 'peckenstein1608', 'sattler1608', 'sattler_predigt1608', 'keppler1609', 'langevoith1609', 'nn1609', 'nn_ruemffens1609', 'schoene1609', 'trisner1609', 'walter1609', 'arndt1610', 'arndt_wahren1610', 'arndt_wahren21610', 'arndt_wahren31610', 'brombach1610', 'faulhaber1610', 'hafenreffer1610', 'keppler1610', 'kremer1610', 'loewe1610', 'niger1610', 'sattler1610', 'teubener1610', 'baudis1611', 'cramer1611', 'deckhardt1611', 'magirus1611', 'sattler1611', 'schmuck1611', 'chemnitz1612', 'droschki1612', 'freudenberg1612', 'goedelmann1612', 'janticovius1612', 'mueller1612', 'schellbach1612', 'sighardus1612', 'stiller1612', 'walther1612', 'barthisius1613', 'breuer1613', 'clarus1613', 'etner1613', 'faber1613', 'holtzmann1613', 'holwein1613', 'kale1613', 'reineck1613', 'sattler1613', 'schober1613', 'schwanengel1613', 'spangenberg1613', 'tuckermann1613', 'weigel1613', 'westerfeld1613', 'bacmeister1614', 'barthisius1614', 'beatus1614', 'brebach1614', 'hentschel1614', 'kheil1614', 'leuchter1614', 'murschel1614', 'neomenius1614', 'neomenius_grosse1614', 'phrysius1614', 'rauschenberg1614', 'schmuck1614', 'schreier1614', 'volcius1614', 'zuckwolf1614', 'albertinus1615', 'bernhertz1615', 'droschki1615', 'friedrich1615', 'grebius1615', 'hammer1615', 'klein1615', 'lange1615', 'muling1615', 'neomenius1615', 'origanus1615', 'rehefeldt1615', 'reich1615', 'sattler1615', 'sattler_predigt1615', 'schoenfeld1615', 'weigel1615', 'andreae1616', 'bacmeister1616', 'briaeus1616', 'friese1616', 'guettner1616', 'jungel1616', 'kepler1616', 'milichius1616', 'mollenfeld1616', 'n1616', 'neomenius1616', 'neomenius_glaubens1616', 'rupelius1616', 'rupflinus1616', 'sattler1616', 'scheuring1616', 'schubert1616', 'seitz1616', 'silber1616', 'thumbshirn1616', 'tuckermann1616', 'tuckermann_huldigungspredigt1616', 'wolder1616', 'amelung1617', 'butschky1617', 'eccardi1617', 'gebauer1617', 'hentschel1617', 'hoe1617', 'hofstetter1617', 'lehen1617', 'leuchter1617', 'milichius1617', 'milichius_justorum1617', 'mollenfeld1617', 'n1617', 'neomenius1617', 'obrecht1617', 'origanus1617', 'sattler1617', 'tuckermann1617', 'tuckermann_lutherische1617', 'vesembeck1617', 'vietor1617', 'vietor_tabea1617', 'winckelmann1617', 'albertinus1618', 'braun1618', 'etner1618', 'friese1618', 'kheil1618', 'schellenberger1618', 'silber1618', 'trescovius1618', 'weckherlin1618', 'weigel1618', 'weigel_gnothi1618', 'weisshaeupt1618', 'wellich1618', 'wiedeburg1618', 'wiedeburg_christliche1618', 'braunschweig1619', 'friderici1619', 'klaerhe1619', 'muench1619', 'pelargus1619', 'ropilius1619', 'schnyerer1619', 'schwenckfeld1619', 'silber1619', 'tuckermann1619', 'tuckermann_antwort1619', 'tuckermann_predigt1619', 'weckherlin1619', 'wiedeburg1619', 'dilger1620', 'erhard1620', 'herfardt1620', 'hoffmann1620', 'kirsten1620', 'leyser1620', 'neomenius1620', 'wiedeburg1620', 'ferdinand1621', 'heinitz1621', 'hentschel1621', 'marquardt1621', 'nerger1621', 'raussendorff1621', 'sachs1621', 'schellbach1621', 'schmuck1621', 'schroeter1621', 'tuckermann1621', 'friese1622', 'heinitz1622', 'hentschel1622', 'magirus1622', 'neomenius1622', 'tilesius1622', 'tuckermann1622', 'bakius1623', 'guenther1623', 'heinitz1623', 'hentschel1623', 'huber1623', 'huber_triumphus1623', 'n1623', 'silber1623', 'baudissen1624', 'calixtus1624', 'hentschel1624', 'kirsten1624', 'la1624', 'millichius1624', 'opitz1624', 'opitz_teutsche1624', 'reichard1624', 'scheffrich1624', 'wiedeburg1624', 'zimmermann1624', 'harer1625', 'hyller1625', 'sattler1625', 'seidemannus1625', 'barclay1626', 'feyerabend1626', 'gedik1626', 'mauritius1626', 'neomenius1626', 'nn1626', 'nn_zwo1626', 'scheffrich1626', 'calvi1627', 'calvi_beutelschneider1627', 'corfinius1627', 'friese1627', 'tralles1627', 'winziger1627', 'albinus1628', 'anhalt1628', 'heinnitz1628', 'n1628', 'silber1628', 'stephanus1628', 'dilger1629', 'hoepner1629', 'kentz1629', 'heinitz1630', 'heusler1630', 'hoepner1630', 'kutschenreuter1630', 'marci1630', 'n1630', 'opitz1630', 'wollenberg1630', 'arnhold1631', 'crueger1631', 'ederus1631', 'gottfried1631', 'hoepner1631', 'mochinger1631', 'mochinger_histori1631', 'thebesius1631', 'wild1631', 'coerber1632', 'hoepner1632', 'hoepner_leichpredigt1632', 'hoepner_leichpredigt21632', 'nerger1632', 'nn1632', 'schreck1632', 'schickard1633', 'zwinger1633', 'eder1634', 'guentherus1634', 'meyfart1634', 'abelin1635', 'hoy1635', 'lazarus1635', 'rolle1635', 'seiler1635', 'seiler_praefixo1635', 'adolph1636', 'hoepner1636', 'scheffrich1636', 'schwenter1636', 'hoepner1637', 'schwendendoerffer1637', 'seidel1637', 'seidel_ministrorum1637', 'albinus1638', 'fabritius1638', 'n1638', 'n_n1638', 'seidel1638', 'thebesius1638', 'micraelius1639', 'micraelius_ander1639', 'micraelius_drittes1639', 'micraelius_erstes1639', 'micraelius_fuenfftes1639', 'micraelius_sechstes1639', 'micraelius_vierdte1639', 'seidel1639', 'seidel_terra1639', 'thebesius1639', 'eder1640', 'felgenhauer1640', 'n1640', 'zesen1640', 'adolph1641', 'czepko1641', 'weckherlin1641', 'zesen1641', 'fleming1642', 'hubrig1642', 'reideburg1642', 'seidel1642', 'dach1643', 'dach_gedaechtnis1643', 'furttenbach1643', 'lange1643', 'n1643', 'dach1644', 'holfeld1644', 'lerchenfeld1644', 'luetkemann1644', 'zimmermann1644', 'dach1645', 'hayn1645', 'holfeld1645', 'klaj1645', 'kuhn1645', 'luetkemann1645', 'zesen1645', 'dach1646', 'dach_klag1646', 'dach_klag21646', 'dach_leich1646', 'dach_trawer1646', 'glauber1646', 'dach1647', 'dach_klag1647', 'dach_letzter1647', 'dach_trost1647', 'glauber1647', 'letsch1647', 'luetkemann1647', 'olearius1647', 'rist1647', 'schlegel1647', 'spee1647', 'weber1647', 'cundisius1648', 'dach1648', 'dach_klag1648', 'dach_klag21648', 'dach_traurigkeit1648', 'dach_trostliedchen1648', 'glauber1648', 'glauber_furni1648', 'harsdoerffer1648', 'mergo1648', 'miguel1648', 'n1648', 'royer1648', 'caselius1649', 'dach1649', 'dach_christliches1649', 'dach_christliches21649', 'dach_christliches31649', 'dach_klag1649', 'dach_letzte1649', 'dach_letztes1649', 'dach_letztes21649', 'dach_schuldiges1649', 'dach_schuldigste1649', 'dach_trost1649', 'dach_tugend1649', 'glauber1649', 'hayn1649', 'hulsius1649', 'nn1649', 'schwemler1649', 'textor1649', 'august1650', 'dach1650', 'dach_einfaeltige1650', 'dach_unbeweglicher1650', 'glauber1650', 'gryphius1650', 'harsdoerffer1650', 'holfeld1650', 'luetkemann1650', 'schirmer1650', 'wartmann1650')]
     tklist = [t for _, rt in parts for t in rt.tklist]
     charlist = list(''.join(tklist))
     rt = reftext.RefText('german', tklist, charlist)

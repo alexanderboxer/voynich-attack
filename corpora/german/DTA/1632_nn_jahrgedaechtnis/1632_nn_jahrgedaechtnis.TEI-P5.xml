@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Jahrgedächtnis der Leipzigischen Schlacht: Leipzigischer Studenten-Marcipan</title>
+<title type="sub">Oder Spannew Sächsisches Confect</title>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName>ULB Sachsen-Anhalt</orgName>
+<resp>
+<note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>
+<ref target="http://digitale.bibliothek.uni-halle.de/vd17/content/titleinfo/171511"/>
+<date type="importDTA">2013-03-14T10:09:31Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Frank</forename>
+<surname>Wiegand</surname>
+</persName>
+<resp>
+<note type="remarkResponsibility">Transkription und Konvertierung nach XML/TEI gemäß DTA-Basisformat.</note>
+<date type="importDTA">2013-03-14T10:09:31Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">22</measure>
+<measure type="tokens">3450</measure>
+<measure type="types">1554</measure>
+<measure type="characters">23269</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:33:28Z</date>
+<availability>
+<licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+<p>Dieses Werk ist gemeinfrei.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/nn_marcipan_1632</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/nn_marcipan_1632</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/nn_marcipan_1632</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/nn_marcipan_1632</idno>
+<idno type="DTADirName">nn_marcipan_1632</idno>
+<idno type="DTAID">30360</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30360-1</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Jahrgedächtnis der Leipzigischen Schlacht: Leipzigischer Studenten-Marcipan. [s. l.], 1632.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Jahrgedächtnis der Leipzigischen Schlacht: Leipzigischer Studenten-Marcipan</title>
+<title level="m" type="sub">Oder Spannew Sächsisches Confect</title>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher/>
+<date type="publication">1632</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Sonstiges</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">dtae</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>     <front>
+<pb facs="#f0001"/>
+<pb facs="#f0002"/>
+<pb facs="#f0003"/>
+<pb facs="#f0004"/>
+<titlePage type="halftitle">           <epigraph>             <quote>Das Chur-Sa&#x0364;ch&#x017F;i&#x017F;che<lb/>
+J&#x017F;t dir wol &#x017F;o bleib davon.<lb/>
+Daß du nicht kriege&#x017F;t bo&#x0364;&#x017F;en Lohn.<lb/>
+</quote>           </epigraph>         <figure/><lb/>
+</titlePage>
+<pb facs="#f0005"/>
+<titlePage type="main">         <titlePart type="main">           Jahrgeda&#x0364;chtnis der Leipzigi&#x017F;chen Schlacht:<lb/>
+Leipzigi&#x017F;cher Studenten-Marcipan/<lb/>
+</titlePart>         <titlePart type="sub">           Oder<lb/>
+Spannew Sa&#x0364;ch&#x017F;i&#x017F;ches<lb/>
+<hi rendition="#aq">Confect</hi><lb/>
+</titlePart>         <titlePart type="desc">           Mit vnter&#x017F;chiedlich von den Tilli&#x017F;chen nach<lb/>
+der Schlacht zu Leipzig warhafftig gehaltenen<lb/>
+Auffzu&#x0364;gen/ <hi rendition="#aq">Ma&#x017F;quaraden</hi> vnd Balleten verbla&#x0364;t-<lb/>
+tert vnd verbremet.<lb/>
+</titlePart>         <titlePart type="desc">           So aber alle (doch eintzig vnd allein <hi rendition="#aq">memo-<lb/>
+riæ cau&#x017F;a</hi>) in dem wolbekanten alten Ketze-<lb/>
+ri&#x017F;chen Thon außgehen:<lb/>
+</titlePart>         <epigraph>           <quote>Jst dir wol/ &#x017F;o bleib davon/<lb/>
+Daß du nicht kriege&#x017F;t bo&#x0364;&#x017F;en Lohn.<lb/>
+</quote>         </epigraph>         <epigraph>           <bibl><hi rendition="#aq"><hi rendition="#i">Alexander M. apud Curtium l. 8. c. 8.</hi></hi><lb/>
+</bibl>           <quote><hi rendition="#aq">Ubi &#x017F;umma imis confundiumus; vi opus e&#x017F;t,<lb/>
+ut vim repellamus.</hi><lb/>
+</quote>         </epigraph>         <figure/><lb/>
+<docImprint>Gedruckt im Jahr<lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<hi rendition="#g">1632</hi>.<lb/>
+</docImprint>       </titlePage>
+<pb facs="#f0006"/>
+</front>
+<pb facs="#f0007"/>
+<body>       <div n="1">         <milestone rendition="#hr" unit="section"/><lb/>
+<head><hi rendition="#aq">Ad Lectorem.</hi></head><lb/>
+<p><hi rendition="#in">D</hi>Er <hi rendition="#aq">Auctor</hi> gegenwertiger <hi rendition="#aq">Invention</hi> helt<lb/>
+nicht darvor/ daß die&#x017F;er Art <hi rendition="#aq">&#x017F;cripta &#x017F;impliciter</hi> vnd<lb/>
+ohne Vnter&#x017F;cheid fu&#x0364;r Schmehkarten &#x017F;olten ko&#x0364;nnen er-<lb/>
+kant vnd verworffen werden/ wil aber auch nicht alle<lb/>
+<hi rendition="#aq">&#x017F;impliciter</hi> fu&#x0364;r recht ge&#x017F;prochen haben: &#x017F;ondern &#x017F;aget<lb/>
+nur zu &#x017F;einer Vertheidigung die&#x017F;es/ daß Er</p><lb/>
+<p><hi rendition="#aq">I.</hi> Die wahre Hi&#x017F;toriam referire/ wie &#x017F;ie &#x017F;ich in einem vnd dem<lb/>
+andern zugetragen/ vnd mit lebendigen Zeigen zu erwei&#x017F;en &#x017F;ey.<lb/>
+Welche Relation er denn erlaubet zu &#x017F;eyn hoffet/ &#x017F;ie ge&#x017F;chehe gleich in<lb/>
+einem <hi rendition="#aq">ju&#x017F;to opere</hi>, oder in einer de&#x017F;&#x017F;elben <hi rendition="#aq">portiuncula</hi>.</p><lb/>
+<p><hi rendition="#aq">II.</hi> Zu keinem andern End/ denn daß er &#x017F;eines theils daraus<lb/>
+mit inniglicher Danck&#x017F;agung Gottes Allmacht/ Warheit vnd Ge-<lb/>
+rechtigkeit erkenne.</p><lb/>
+<p><hi rendition="#aq">III.</hi> Daß er auch/ damit zu &#x017F;olcher Betracht- vnd Danck&#x017F;agung<lb/>
+der gemeine Mann neben jhm alle Jahr vmd die&#x017F;e Zeit je mehr vnd<lb/>
+mehr auffgemundert werde/ die Figuren/ als ein LeyenHi&#x017F;torien-<lb/>
+buch/ abrei&#x017F;&#x017F;en la&#x017F;&#x017F;en.</p><lb/>
+<p><hi rendition="#aq">IV.</hi> Denen aber/ &#x017F;o le&#x017F;en ko&#x0364;nnen/ die Spru&#x0364;che heiliger Schrifft/<lb/>
+&#x017F;o GOtt hier augen&#x017F;cheinlich erfu&#x0364;llet/ auffge&#x017F;etzet/ damit &#x017F;ie &#x017F;ie den<lb/>
+andern vorle&#x017F;en vnd beyde daraus lernen ko&#x0364;nnen/ wozu &#x017F;ie</p><lb/>
+<p><hi rendition="#aq">V.</hi> Diß Bilder-Cartell brauchen/ vnd we&#x017F;&#x017F;en &#x017F;ie &#x017F;ich ja&#x0364;hrlich<lb/>
+darbey erinnern &#x017F;ollen: Nemlich nicht darzu/ daß man &#x017F;ich darmit ku&#x0364;-<lb/>
+tzele/ der vbelzugerichteten Officirer vn&#x0303; Soldaten lache vn&#x0303; &#x017F;potte/ &#xA75B;c.<lb/>
+&#x017F;ondern erkenne/ was Vngerechtigkeit/ Hochmuth/ vnd der wahren<lb/>
+Kirchen Verfolgung endlich fu&#x0364;r einen vbelen Lohn gebe/ denen/ die<lb/>
+&#x017F;ich der&#x017F;elben (wie denn hierbey viel gottlo&#x017F;e Buben auch wider jhre<lb/>
+Religion vnd Vaterland gethan) theilhafftig machen: Gott fu&#x0364;r die<lb/>
+damals &#x017F;einer Kirchen gelei&#x017F;tete Rettung hertzliche dancke/ vnd jhn<lb/>
+ferner anruffe/ bey &#x017F;einer Kirchen zu bleiben/ den Verfolgern die<lb/>
+Augen auffzuthuen/ damit &#x017F;ie doch &#x017F;ehen/ wen &#x017F;ie verfolgen/ vnd dan-<lb/>
+nenhero die Waffen fahren/ die La&#x0364;nder &#x017F;ich einmal wieder erquicken<lb/>
+la&#x017F;&#x017F;en/ Eyd vnd Zu&#x017F;ag halten/ der Deut&#x017F;chen Hoheit nicht miß-<lb/>
+<fw type="sig" place="bottom">A ij</fw> <fw type="catch" place="bottom">brau-</fw><lb/>
+<pb facs="#f0008"/>
+brauchen/ die Leut nicht mit Sebeln in Himmel zu treiben/ vnd aus<lb/>
+hohen Ha&#x0364;uptern der Chri&#x017F;tenheit Spani&#x017F;che Maranen zu machen<lb/>
+&#x017F;ich gelu&#x0364;&#x017F;ten la&#x017F;&#x017F;en.</p><lb/>
+<p>Scheinet es dir aber <hi rendition="#aq">VI.</hi> als wenn er hier oder anderswo doch<lb/>
+noch etlichen <hi rendition="#aq">in&#x017F;ulti</hi>rte vnd Hohn &#x017F;preche? Zeug da&#x017F;&#x017F;elbe mit einem<lb/>
+vornehmen Hoffprediger auff die Verachtung/ die GOtt &#x017F;aget/ Et<lb/>
+auß&#x017F;chu&#x0364;tte auff die Fu&#x0364;r&#x017F;ten/ &#x017F;o andere gezwungen/ gedrungen/ nie-<lb/>
+dergedruckt vnd ge&#x017F;chwa&#x0364;cht haben/ <hi rendition="#aq">P&#x017F;al. 107, 39. &amp; 40.</hi> Halte es<lb/>
+fu&#x0364;r das Pfeiffen derer/ &#x017F;o &#x017F;ich vber alle die Plagen BAbel verwundern<lb/>
+&#x017F;ollen/ <hi rendition="#aq">Jerem. 49, 13.</hi> fu&#x0364;r die Be&#x017F;chreibung des zu den Fu&#x0364;&#x017F;&#x017F;en der<lb/>
+Jahel gekru&#x0364;mbten Si&#x017F;&#x017F;aræ/ des Ge&#x017F;prechs &#x017F;einer Mutter mit jhrer<lb/>
+Hoffmei&#x017F;terin/ daß jhr die Debora &#x017F;o artlich einbilden konte/ Jm<lb/>
+Buch der Richter 5, 27 <hi rendition="#aq">&amp; &#x017F;eqq.</hi> ja endlich fu&#x0364;r ein Stu&#x0364;ck der Wie-<lb/>
+derzahlung/ wie vns Babel mitgefahren/ zu ge&#x017F;chweigen/ daß mans<lb/>
+jhr zwiefa&#x0364;ltig machen &#x017F;olle/ in der Offenbahrung <hi rendition="#aq">Johan. 18, 6.</hi><lb/>
+GOTT mit vns:<lb/>
+<hi rendition="#et">Geben nach einem Jahr/<lb/>
+Als diß alls worden war/<lb/>
+</hi> Nemlich Mitwoch nach <hi rendition="#aq">Edigi Anno 1632.</hi><lb/>
+</p>       </div> <fw type="catch" place="bottom">Der</fw><lb/>
+<pb facs="#f0009"/>
+<div n="1">       <head>Der er&#x017F;te Auffzug. <hi rendition="#aq">A.</hi><lb/>
+Chur-Sa&#x0364;ch&#x017F;i&#x017F;ch Tractament im<lb/>
+Breitenfeldt:<lb/>
+J&#x017F;t dir wol/ &#x017F;o bleib darvon/<lb/>
+Daß du nicht kriege&#x017F;t bo&#x0364;&#x017F;en Lohn.</head><lb/>
+<p><hi rendition="#in">D</hi>Je&#x017F;e <hi rendition="#aq">In&#x017F;cription</hi> oder Titel<lb/>
+i&#x017F;t gantz nicht ruchlo&#x017F;er wei&#x017F;e al&#x017F;o ge-<lb/>
+&#x017F;tellet/ gleich als wenn man mit<lb/>
+Chri&#x017F;tlichen anda&#x0364;chtigen Kirchen-<lb/>
+liedern &#x017F;ein Ge&#x017F;po&#x0364;tt triebe: &#x017F;ondern<lb/>
+&#x017F;ie gru&#x0364;ndet &#x017F;ich beydes auff <hi rendition="#fr">Gottes<lb/>
+Wort</hi>/ vnd die <hi rendition="#fr">Erfahrung</hi>. Denn<lb/>
+was <hi rendition="#fr">Gottes Wort</hi> anlanget/ &#x017F;o<lb/>
+gebeut GOtt ern&#x017F;tlich dem abgo&#x0364;tti-<lb/>
+&#x017F;chen Laban/ er &#x017F;olle &#x017F;ich hu&#x0364;ten/ daß<lb/>
+er mit Jacob (in welches <hi rendition="#aq">familia</hi> damals die Kirche allein be-<lb/>
+&#x017F;tund) nicht anders/ denn freundlich rede/ <hi rendition="#aq">1. Mo&#x017F;. 31.</hi> Jm 105.<lb/>
+P&#x017F;alm &#x017F;tehet/ daß er den abgo&#x0364;tti&#x017F;chen Egyptiern auch geboten<lb/>
+habe: Sie &#x017F;ollen &#x017F;eine Ge&#x017F;albten nicht anta&#x017F;ten: Jm Prophe-<lb/>
+ten Ho&#x017F;ea am 12. ver&#x017F;pricht Gott: Er wolle &#x017F;elb&#x017F;t die Sach<lb/>
+Juda fu&#x0364;hren darumb/ dieweil er noch fe&#x017F;t an GOtt vnd dem<lb/>
+rechten Gottesdien&#x017F;t halte. Die&#x017F;es Go&#x0364;ttlichen Obhalts vnd<lb/>
+Bey&#x017F;tands haben &#x017F;ich nun alle Chri&#x017F;ten/ in&#x017F;onderheit aber<lb/>
+Chri&#x017F;teyferige Regenten zu getro&#x0364;&#x017F;ten/ die &#x017F;ich als rechte Pfleger<lb/>
+vnd <hi rendition="#aq">nutritios</hi> der Kirchen Chri&#x017F;ti erwei&#x017F;en. Wie dann ein<lb/>
+<fw type="sig" place="bottom">A iij</fw> <fw type="catch" place="bottom">&#x017F;olches</fw><lb/>
+<pb facs="#f0010"/>
+&#x017F;olches vnd kein anders dem Churfu&#x0364;r&#x017F;tlichen Hauß Sach&#x017F;en<lb/>
+mit Ruhm muß nachge&#x017F;agt werden/ daß es der Kirchen Chri&#x017F;ti<lb/>
+in &#x017F;einem Lande &#x017F;tattlich Platz vnd Raum gegeben/ vnd &#x017F;ich des<lb/>
+betru&#x0364;bten Zu&#x017F;tandes der Chri&#x017F;tenheit jederzeit trewlich&#x017F;t ange-<lb/>
+nommen. Darumb denn auch das <hi rendition="#aq">omen</hi> muß war bleiben/<lb/>
+das Key&#x017F;er Carl der <hi rendition="#aq">V.</hi> zu Marggraff Georgen zu Branden-<lb/>
+burg (do der Herr Marggraff meynete: Er wolte jhme lieber<lb/>
+den Kopff/ als das freye <hi rendition="#aq">exercitium religionis</hi> nehmen la&#x017F;&#x017F;en)<lb/>
+&#x017F;agte: <hi rendition="#fr">Lieber Fu&#x0364;r&#x017F;t/ nicht Kopff ab/ nicht Kopff ab.</hi><lb/>
+Der Kopff muß nemlich auff dem prote&#x017F;tirenden Schedel &#x017F;te-<lb/>
+hen bleiben/ vnd das freye <hi rendition="#aq">exercitium religionis</hi> behalten/ vnd<lb/>
+wenn alle Key&#x017F;er vnd Ko&#x0364;nig ber&#x017F;ten &#x017F;olten. Vnd &#x017F;olches vmb<lb/>
+&#x017F;o viel de&#x017F;to mehr/ je mehr an &#x017F;olcher Printzen wol- oder vnter-<lb/>
+gehen gelegen.</p><lb/>
+<p>Die <hi rendition="#fr">Erfahrung</hi> aber anlangend/ hat die&#x017F;elbe es nun<lb/>
+zum vierdten mal zur gnu&#x0364;ge erwie&#x017F;en/ daß <hi rendition="#fr">wer &#x017F;ich an Sach-<lb/>
+&#x017F;en gerieben/ den ku&#x0364;rtzern gezogen habe.</hi> Dafu&#x0364;r Gott<lb/>
+jmmer Lob vnd Danck ge&#x017F;aget &#x017F;ey/ der bekrefftige es auch fer-<lb/>
+ner/ Amen<hi rendition="#i">!</hi> Denn vor 340. Jahren wolten zweene Key&#x017F;er<lb/>
+nach einander/ nemlich Key&#x017F;er Adolph ein Graff von Na&#x017F;&#x017F;aw/<lb/>
+vnd Key&#x017F;er Albrecht Ertzhertzog in Oe&#x017F;terreich/ (de&#x017F;&#x017F;en bald<lb/>
+mit mehrerm gedacht wird) Hertzog Friedrichen zu Sach&#x017F;en/<lb/>
+den Frewdigen genant/ wider Recht vnd Billigkeit von Land<lb/>
+vnd Leuten jagen. Sie wurden aber vmb Pegaw/ Lucca vnd<lb/>
+Colditz von jhme derma&#x017F;&#x017F;en abgefertiget/ daß &#x017F;ie Gott danck-<lb/>
+ten/ daß &#x017F;ie aus dem Land zu Mei&#x017F;&#x017F;en kamen/ vnd hernach &#x017F;elb-<lb/>
+&#x017F;ten Ruhe nur vor jhme hatten. Vor 80. Jahren ohn gefehr<lb/>
+fieng ho&#x0364;ch&#x017F;tgemelter Key&#x017F;er Carl der <hi rendition="#aq">V.</hi> Churfu&#x0364;r&#x017F;t Johann<lb/>
+Friedrichen zu Sach&#x017F;en gar. Was gewann er aber damit?<lb/>
+Nichts denn das Grawen im Nacken. Der vberwundene<lb/>
+Sachs im Feld/ vberwandt jhm im Gemu&#x0364;th/ im Gewi&#x017F;&#x017F;en/<lb/>
+vnd in allen &#x017F;einem Thun. Sintemal nach dem&#x017F;elben jhm alle<lb/>
+<fw type="catch" place="bottom">&#x017F;eine</fw><lb/>
+<pb facs="#f0011"/>
+&#x017F;eine An&#x017F;chla&#x0364;ge zu ru&#x0364;cke gangen/ al&#x017F;o/ daß &#x017F;o offt er an die&#x017F;elbe<lb/>
+<hi rendition="#aq">Victoriam</hi> gedacht/ oder &#x017F;ie abgebildet ge&#x017F;ehen/ mit Seufftzen<lb/>
+&#x017F;elb&#x017F;te ge&#x017F;agt hat: <hi rendition="#fr">O hetten wir die&#x017F;en gehen la&#x017F;&#x017F;en<hi rendition="#i">!</hi></hi></p><lb/>
+<p>GOtt hat es jetzo abermal gnedig al&#x017F;o <hi rendition="#aq">dirigiret</hi>, daß die<lb/>
+Papi&#x017F;ten bißher wol werden diß Liedlein dem <hi rendition="#aq">Carolo</hi> offt nach-<lb/>
+ge&#x017F;eufftzet haben: <hi rendition="#fr">O hetten wir die&#x017F;en gehen la&#x017F;&#x017F;en<hi rendition="#i">!</hi></hi> Daß<lb/>
+es al&#x017F;o in Warheit von die&#x017F;em hochlo&#x0364;blichen Stamme <hi rendition="#aq">&#x017F;ani&#x017F;-<lb/>
+&#x017F;imô &#x017F;en&#x017F;u</hi> hei&#x017F;&#x017F;et: <hi rendition="#fr">J&#x017F;t dir wol/ &#x017F;o bleib darvon.</hi> Wie<lb/>
+denn in eben &#x017F;o einem ge&#x017F;unden Ver&#x017F;tand &#x017F;ich bemelter Wort<lb/>
+gebraucht hat Landgraff Wilhelm zu He&#x017F;&#x017F;en/ des jetzigen<lb/>
+Landgraff Wilhelms Fu&#x0364;r&#x017F;tl. Gn. Herr Großvater. Denn<lb/>
+als zwo hohes Standesper&#x017F;onen zu jhme &#x017F;chickten/ vmb &#x017F;ich<lb/>
+zu erkundigen: Ob &#x017F;ie jhres Herrn Vaters Te&#x017F;tament/ in<lb/>
+welchem jhnen etwan zu kurtz ge&#x017F;chehen/ nicht fechten &#x017F;olten?<lb/>
+Hat Er nach abgelegter <hi rendition="#aq">Commi&#x017F;&#x017F;ion</hi> den Abge&#x017F;andten nichts<lb/>
+anders drauff geantwortet/ als daß Er die gewo&#x0364;nliche Kirchen-<lb/>
+meloday die&#x017F;er zween Verß mit dem Munde gepfiffen. Die<lb/>
+Legaten meynen/ der Herr habe jhr Anbringen nicht wol ver-<lb/>
+nommen/ vnd <hi rendition="#aq">repetieren</hi> den Jnhalt kurtz darauff wieder. Als<lb/>
+&#x017F;ie zum andern mal außgeredet/ &#x017F;o &#x017F;ingt Er die zweene Verß:<lb/>
+<hi rendition="#fr">J&#x017F;t dir wol/ &#x017F;o bleib davon/ Daß du nicht kriege&#x017F;t<lb/>
+bo&#x0364;&#x017F;en Lohn.</hi> Vnd meynet/ &#x017F;ie &#x017F;olten &#x017F;ich an jhres Herrn<lb/>
+Vatern letzten Willen bey leib nicht vergreiffen/ wenn &#x017F;ie gleich<lb/>
+dencken/ es &#x017F;ey jhnen jrgend zu genaw getreten worden. Sie<lb/>
+wollens aber noch nicht ver&#x017F;tehen/ vnd <hi rendition="#aq">proponiren</hi> zum drit-<lb/>
+ten mal: Der Fu&#x0364;r&#x017F;t le&#x017F;&#x017F;et &#x017F;ie wieder wol außreden/ hernach &#x017F;agt<lb/>
+Er: Jch habs euch gepfiffen vnd ge&#x017F;ungen/ wolt jhrs nicht<lb/>
+ver&#x017F;tehen/ Herr Cantzler/ &#x017F;o gebts jhnen ge&#x017F;chrieben. Vnd<lb/>
+hiemit gehet er von der <hi rendition="#aq">audientz.</hi> Zu deme &#x017F;o reimen &#x017F;ich<lb/>
+auch deßwegen die&#x017F;e Wort gar bequem hieher: Denn mit<lb/>
+die&#x017F;em Krieg der Papi&#x017F;ten wider Jhre Churfu&#x0364;r&#x017F;tl. Durchl. zu<lb/>
+Sach&#x017F;en/ i&#x017F;t fu&#x0364;rwar nichts anders/ als der rechte Gebrauch des<lb/>
+<fw type="catch" place="bottom">hoch-</fw><lb/>
+<pb facs="#f0012"/>
+hochwu&#x0364;rdigen Sacraments des Altars (welcher bey allen fu&#x0364;r<lb/>
+ein vnfeilbares Kenn- vnd Merckzeichen jedweder Religion<lb/>
+gehalten wird) ern&#x017F;tlich gemeynet vnd ge&#x017F;uchet worden/ an<lb/>
+de&#x017F;&#x017F;en &#x017F;tatt in gantz Mei&#x017F;&#x017F;en jhr abgo&#x0364;tti&#x017F;ch Meßopffer einzu-<lb/>
+&#x017F;etzen.</p><lb/>
+<p>Daß &#x017F;ich al&#x017F;o aus gei&#x017F;t- vnd weltlichen Vr&#x017F;achen die&#x017F;e<lb/>
+Wort auffs be&#x017F;te zu die&#x017F;em Werck bequemen:<lb/>
+<cit><quote><hi rendition="#et">J&#x017F;t dir wol/ &#x017F;o bleib darvon/<lb/>
+Daß du nicht kriege&#x017F;t bo&#x0364;&#x017F;en Lohn.<lb/>
+</hi></quote></cit> <hi rendition="#c"><hi rendition="#aq #i #k"><hi rendition="#g">Cicero</hi>:</hi><lb/>
+<hi rendition="#aq">Heus tu: <hi rendition="#k">Manum de Tabula:</hi> magi&#x017F;ter<lb/>
+ade&#x017F;t citiùs, qvàm putaramus.</hi><lb/>
+<hi rendition="#aq #i #k"><hi rendition="#g">Horat</hi>.</hi><lb/>
+</hi> <hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">&#x2014; &#x2014; fragili qværens illidere dentem.<lb/>
+Infringit &#x017F;olido.</hi></hi><lb/>
+ Manchmal denckt einer/ ein Brod oder Semmel<lb/>
+&#x017F;ey gar weich/ vnd bei&#x017F;&#x017F;et dru&#x0364;ber auff einen<lb/>
+Stein/ daß es jhm im Hirn wehe thut. So<lb/>
+i&#x017F;ts bey die&#x017F;em Tractament auch gangen.<lb/>
+</hi> </p>       </div> <milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"> <head>Der ander Auffzug. <hi rendition="#aq">B.</hi><lb/>
+Der Chur-Sa&#x0364;ch&#x017F;. Marcipan mit den ge-<lb/>
+&#x017F;cherfften zweyen Chur&#x017F;chwertern.</head><lb/>
+<p><hi rendition="#in">G</hi>Leichma&#x0364;&#x017F;&#x017F;ige ge&#x017F;unde Meynung hat es<lb/>
+auch mit dem Chur-Sa&#x0364;ch&#x017F;i&#x017F;chen Marcipan/<lb/>
+de&#x017F;&#x017F;en Vber&#x017F;chrifft zwar aus der Pa&#x017F;&#x017F;ion ge-<lb/>
+nommen i&#x017F;t: aber nur gleich&#x017F;am <hi rendition="#aq">per retor&#x017F;io-<lb/>
+nem Ironicam</hi> ge&#x017F;ehen wird auff Pab&#x017F;t <hi rendition="#aq">Bonifacium VIII.</hi><lb/>
+<fw type="catch" place="bottom">der</fw><lb/>
+<pb facs="#f0013"/>
+der lie&#x017F;&#x017F;e &#x017F;ich im Ro&#x0364;mi&#x017F;chen Jubeljahr/ &#x017F;o er <hi rendition="#aq">Anno 1300.</hi> auß-<lb/>
+ge&#x017F;chrieben/ den er&#x017F;ten Tag im Pa&#x0364;b&#x017F;t- den andern im Key&#x017F;er-<lb/>
+lichen Habit &#x017F;ehen/ ließ das blo&#x017F;&#x017F;e Schwerdt vor jhme hertra-<lb/>
+gen/ wie es Churf. Durchl. zu Sach&#x017F;en/ als des H. Ro&#x0364;mi-<lb/>
+&#x017F;chen Reichs Ertzmar&#x017F;chalch/ einem Ro&#x0364;mi&#x017F;chen Key&#x017F;er vor-<lb/>
+zufu&#x0364;hren pfleget/ vnd darneben mit die&#x017F;en vbel <hi rendition="#aq">accommo</hi>dir-<lb/>
+ten Worten außruffen: <hi rendition="#aq">Ecce duo gladii hîc</hi>, <hi rendition="#fr">Sihe/ hier<lb/>
+&#x017F;ind zwey Schwerdter.</hi> Es &#x017F;tunde auch domals Pab&#x017F;t vnd<lb/>
+Key&#x017F;er <hi rendition="#aq">Albertus</hi> aus Oe&#x017F;terreich in einem Stiffel. Der Pab&#x017F;t<lb/>
+&#x017F;chenckte dem Key&#x017F;er <hi rendition="#aq">in odium Philippi Pulcri</hi> das Ko&#x0364;nig-<lb/>
+reich Franckreich/ als wenns &#x017F;ein wer. Der Key&#x017F;er vberzog<lb/>
+fu&#x0364;r &#x017F;ich das Ko&#x0364;nigreich Bo&#x0364;hmen/ vnd macht &#x017F;einen Sohn<lb/>
+zum Ko&#x0364;nig drinnen. Er wolte auch hochermelten Hertzog<lb/>
+Friedrichen den Frewdigen (nur damit er &#x017F;ein Lande bekeme)<lb/>
+aus blo&#x017F;&#x017F;em Eigenwillen in die Acht erkleren/ vnd in &#x017F;umma/<lb/>
+&#x017F;ie triebens beyde wie &#x017F;ie wolten. Was nahmen &#x017F;ie aber beyde<lb/>
+fu&#x0364;r einen Außgang? Die&#x017F;en. Der Key&#x017F;er wurd von &#x017F;eines<lb/>
+Brudern Sohn vnd etlichen Oe&#x017F;terreichi&#x017F;chen Graffen er-<lb/>
+&#x017F;chlagen. Der Pab&#x017F;t &#x017F;pielte eben eine &#x017F;olche <hi rendition="#aq">Com&#x0153;di</hi> mit Ko&#x0364;-<lb/>
+nig <hi rendition="#aq">Philippo Pulcro</hi> in Franckreich/ wie man dißmals auff<lb/>
+Pa&#x0364;b&#x017F;ti&#x017F;cher &#x017F;eiten mit Jhrer Churf. Durchl. zu Sach&#x017F;en vor-<lb/>
+gehabt. Denn da&#x017F;&#x017F;elbe &#x017F;toltze <hi rendition="#aq">Boni</hi>fa&#x0364;ttzle wolte hochgemelten<lb/>
+Ko&#x0364;nig in Franckreich alle Stiffter/ Klo&#x0364;&#x017F;ter vnd Kirchen in &#x017F;ei-<lb/>
+nem Ko&#x0364;nigreich nehmen/ vnd durffte jhme außdru&#x0364;cklich &#x017F;chrei-<lb/>
+ben: <hi rendition="#aq">Scia tua filialitas, &amp;c.</hi> Er &#x017F;olte wi&#x017F;&#x017F;en/ daß er jhm in<lb/>
+gei&#x017F;t- vnd weltlichen Sachen vnterthan were. Der Ko&#x0364;nig<lb/>
+antwortet jhme <hi rendition="#aq">per <foreign xml:lang="ell"><gap/></foreign> Heroicam animosè</hi> wieder:<lb/>
+<hi rendition="#aq">Sciat tua maxima fatuitas, &amp;c.</hi> Er/ der Pab&#x017F;t mu&#x0364;&#x017F;te der gro&#x0364;&#x017F;te<lb/>
+Narr &#x017F;eyn/ daß er jhme diß einbilden du&#x0364;rffte.</p><lb/>
+<p>Hieru&#x0364;ber thet der Pab&#x017F;t den Ko&#x0364;nig in den Bann. Allein<lb/>
+der Ko&#x0364;nig be&#x017F;chrieb &#x017F;eine <hi rendition="#aq">Cou&#x017F;ins du &#x017F;ang,</hi> die Fu&#x0364;r&#x017F;ten vom<lb/>
+Geblu&#x0364;t vnd Sta&#x0364;nde der Kron Franckreich/ die vrtheilten: daß<lb/>
+<fw type="sig" place="bottom">B</fw> <fw type="catch" place="bottom">der</fw><lb/>
+<pb facs="#f0014"/>
+der Pab&#x017F;t ein Ketzer were. Der Pab&#x017F;t hatte keine Ruhe/ fieng<lb/>
+einen Krieg mit dem Ko&#x0364;nig an/ der lieff al&#x017F;o ab/ daß der Ko&#x0364;nig<lb/>
+den Pab&#x017F;t in dem&#x017F;elben bey der Kutten bekam. Behielt jhn<lb/>
+zwar nur 3. Tage gefangen/ vnd gab jhn hernach wieder loß.<lb/>
+Aber <hi rendition="#aq">Pompacius</hi> hatte &#x017F;ein heiligen Chri&#x017F;ams&#x017F;chedel derma&#x017F;-<lb/>
+&#x017F;en erzu&#x0364;rnet/ daß der Narr nicht lang hernach fu&#x0364;r Vnmuth ra-<lb/>
+&#x017F;end ward/ &#x017F;tarb/ vnd ward &#x017F;ein gantz <hi rendition="#aq">curriculum vitæ Papalis</hi><lb/>
+mit die&#x017F;em dreythierigen <hi rendition="#aq">I&#x017F;ocolo</hi> außgedruckt: <hi rendition="#aq">Intravit ut<lb/>
+vulpes, regnavit ut Leo, mortuus e&#x017F;t ut canis.</hi> Oder/ wie<lb/>
+man aus dem <hi rendition="#aq">Livio</hi> &#x017F;agen mo&#x0364;chte: <hi rendition="#aq">Malè parta, malè ge&#x017F;ta,<lb/>
+malè retenta imperia eum obrui&#x017F;&#x017F;e:</hi> Dabey bleibs noch/<lb/>
+<hi rendition="#aq">&amp; omnis populus dicat, Amen.</hi></p><lb/>
+<p>Vnd weil demnach die Papi&#x017F;ten jetzo/ GOtt Lob/ in der<lb/>
+that auch erfahren haben/ daß <hi rendition="#fr">hier</hi> bey Jhr Churf. Durchl.<lb/>
+zu Sach&#x017F;en/ <hi rendition="#fr">zwey Schwerder &#x017F;eyen/ vnd da&#x017F;&#x017F;elbe gar<lb/>
+genug vor &#x017F;ie &#x017F;ey:</hi> Als &#x017F;to&#x0364;&#x017F;&#x017F;et man jhnen jhre <hi rendition="#aq">Confect</hi>begie-<lb/>
+rige Ru&#x0364;&#x017F;&#x017F;el billich zum er&#x017F;ten auff einen &#x017F;olchen Marcipan/ mit<lb/>
+den 2. Chur&#x017F;chwerdtern/ oder kehrts vmb/ vnd &#x017F;to&#x0364;&#x017F;t jhnen viel-<lb/>
+mehr die 2. Chur&#x017F;chwerdter gar ins Gefreß/ (wie zwar her-<lb/>
+nach etliche Crabaten anhawen werden/ die mit der Na&#x017F;e auff<lb/>
+den Marcipan gefallen/ vnd das Churfu&#x0364;r&#x017F;tl. Wapen auff den<lb/>
+Ko&#x0364;pffen gebrendt tragen) damit &#x017F;ie doch als <hi rendition="#aq">toties icto pi&#x017F;ca-<lb/>
+tores</hi> endlich einmal klug werden/ vnd abla&#x017F;&#x017F;en von dem/ der<lb/>
+Odem in der Na&#x017F;en hat/ vnd &#x017F;eine Kirche nicht ohne Be&#x017F;chu&#x0364;-<lb/>
+tzer la&#x017F;&#x017F;en wil.</p><lb/>
+<p><hi rendition="#fr">Denn da &#x017F;ie zuvor nichts gleuben wolten durch die<lb/>
+Zeuberer verhindert: fuhr dein allma&#x0364;chtiges<lb/>
+Wort herab/ nemlich/ das &#x017F;charffe Schwerdt/<lb/>
+das ein ern&#x017F;tlich Gebot brachte/ vnd lag einer<lb/>
+hier/ der ander da halb todt/ <hi rendition="#aq">NB.</hi> daß man an<lb/>
+jhnen &#x017F;ehen konte/ aus was Vr&#x017F;achen er &#x017F;o (elen-<lb/>
+diglich) &#x017F;tu&#x0364;rbe. <hi rendition="#aq">NB.</hi> Es traff aber auch dazumal<lb/>
+<fw type="catch" place="bottom">die</fw><lb/>
+<pb facs="#f0015"/>
+die Gerechten des Todes Anfechtung: <hi rendition="#aq">NB.</hi> aber<lb/>
+der Zorn wa&#x0364;ret nicht lang. Denn eilend kam<lb/>
+der vn&#x017F;treffliche Mann/ <hi rendition="#aq">NB.</hi> der fu&#x0364;r &#x017F;ie &#x017F;treit/</hi><lb/>
+alles nach laut des Buchs der Weißheit am 18. <hi rendition="#aq">ver&#x017F;. 13,<lb/>
+15, 16, 18, 20, &amp; 21.</hi></p><lb/>
+<p><hi rendition="#aq">N<hi rendition="#sup">o.</hi> 1.</hi> J&#x017F;t der Herr Obri&#x017F;te Taube/ Churf. Sa&#x0364;ch&#x017F;. Stall-<lb/>
+mei&#x017F;ter/ legt das <hi rendition="#aq">Confect</hi> vor mit den Jn&#x017F;trumenten/ wie jhr<lb/>
+&#x017F;ehet. Vnd hat der Herr Stallmei&#x017F;ter &#x017F;onderlich den <hi rendition="#aq">Tilli,</hi><lb/>
+als den <hi rendition="#aq">Principal,</hi> wol in acht genommen/ daß er auffm Kopff<lb/>
+vnd Ru&#x0364;cken gnug heim zu tragen gehabt.</p><lb/>
+<p><hi rendition="#fr">Es gienge nemlich gleiche Rache beyde vber Herr<lb/>
+vnd Knechte/ vnd dein Volck wartet al&#x017F;o auff<lb/>
+das Heil der Gerechten/ vnd auff das Verder-<lb/>
+ben der Feinde/</hi> Jm Buch der Weißheit <hi rendition="#aq">18, 7. &amp; 11.</hi><lb/>
+</p> <cit><quote><hi rendition="#et"><hi rendition="#fr">J&#x017F;t dir wol, &#x017F;o bleib davon/<lb/>
+Daß du nicht kriege&#x017F;t bo&#x0364;&#x017F;en Lohn.</hi><lb/>
+</hi></quote></cit>       </div> <milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"> <head>Dritte Auffzug. <hi rendition="#aq">C.</hi></head><lb/>
+<p><hi rendition="#in">A</hi>Lhier bringen die Ligi&#x017F;ti&#x017F;chen das Stett-<lb/>
+geldt zu&#x017F;ammen/ &#x017F;o &#x017F;ie von der Niederlag zu Leipzig<lb/>
+(weil &#x017F;ie etwas fru&#x0364;he auff die MichaelisMeß kom-<lb/>
+men) auff acht Tage vom Marckt vnd Ga&#x017F;&#x017F;en ge-<lb/>
+ben haben.</p><lb/>
+<p>2. 3. Hier langen &#x017F;ie das Ko&#x017F;tgeldt/ Stubenzinß vnd<lb/>
+Flicklohn jhren Wirthen/ <hi rendition="#aq">Medicis</hi>, Balbirern/ Badern/ &#xA75B;c.<lb/>
+alles nach der Propheceyung des wolgeplagten<lb/>
+<hi rendition="#c">Jobs 15, 29.</hi></p><lb/>
+<p><hi rendition="#fr">Er wird nicht reich bleiben/ vnd &#x017F;ein Gut wird nicht be&#x017F;tehen/<lb/>
+vnd &#x017F;ein Glu&#x0364;ck wird &#x017F;ich nicht außbreiten im Lande. Vnfall<lb/>
+wird nicht von jhme la&#x017F;&#x017F;en: denn er hat &#x017F;eine Hand wider<lb/>
+<fw type="sig" place="bottom">B ij</fw> <fw type="catch" place="bottom">Gott</fw><lb/>
+<pb facs="#f0016"/>
+Gott ge&#x017F;treckt/ vnd wider den Allma&#x0364;chtigen &#x017F;ich ge&#x017F;treu-<lb/>
+bet. <hi rendition="#aq">v. 25.</hi> Vnd des Propheten<lb/>
+<hi rendition="#c"><hi rendition="#aq">Obadiæ v. 6.</hi></hi></hi></p><lb/>
+<p>Wie &#x017F;ollen &#x017F;ie denn E&#x017F;au außfor&#x017F;chen/ vnd &#x017F;eine Scha&#x0364;tze &#x017F;uchen!<lb/>
+</p> <cit><quote><hi rendition="#et"><hi rendition="#fr">J&#x017F;t dir wol/ &#x017F;o bleib darvon/<lb/>
+Daß du nicht kriege&#x017F;t bo&#x0364;&#x017F;en Lohn.</hi><lb/>
+</hi></quote></cit></div> <milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"> <head>Vierdte Auffzug. <hi rendition="#aq">D.</hi></head><lb/>
+<p><hi rendition="#in">H</hi>Jer bringen die Crabaten den Leipzigi-<lb/>
+&#x017F;chen Studenten in dem fu&#x0364;ru&#x0364;ber po&#x017F;tiren <hi rendition="#aq">obiter</hi><lb/>
+eine Abend<hi rendition="#aq">ma&#x017F;qvarada</hi>, &#x017F;o gut &#x017F;ie die <hi rendition="#aq">inventions</hi><lb/>
+auff der Po&#x017F;t erdencken ko&#x0364;nnen: Wie man denn<lb/>
+&#x017F;ihet/ daß es Crabati&#x017F;ch gnug vntereinander hergehet.</p><lb/>
+<p>4. J&#x017F;t der Thurniervogt/ der die <hi rendition="#aq">Adventu</hi>rirer aufffu&#x0364;h-<lb/>
+ret: &#x017F;eines Handwercks ein Ligi&#x017F;ti&#x017F;cher Cornet/ der ko&#x0364;mpt zur<lb/>
+Schildwach vor dem Leipzigi&#x017F;chen Petersthor/ mit die&#x017F;em<lb/>
+Gruß: <hi rendition="#fr">Verlohren/ verlohren.</hi> Er wird aber von der Wach<lb/>
+mit der Antwort angenommen: <hi rendition="#fr">Stille/ &#x017F;tille/ die Bu&#x0364;rger<lb/>
+&#x017F;chmei&#x017F;&#x017F;en vns &#x017F;on&#x017F;t todt.<lb/>
+<hi rendition="#c"><hi rendition="#aq">Mich. 2, 4.</hi></hi><lb/>
+</hi></p> <p>Zur &#x017F;elbigen Zeit wird man einen Spruch von euch machen/<lb/>
+vnd klagen: Es i&#x017F;t aus (wird man &#x017F;agen) wird &#x017F;ind ver&#x017F;to&#x0364;ret.</p><lb/>
+<p>5. J&#x017F;t der Trommeter/ ein Engella&#x0364;nder/ der &#x017F;eine <hi rendition="#aq">&#x017F;e-<lb/>
+qventes</hi> (zwar mit &#x017F;tillem Spiel/ denn es gehet alles <hi rendition="#aq">à la mo-<lb/>
+do</hi> zu) aufffu&#x0364;hret/ nur mit &#x017F;o viel Worten: <hi rendition="#fr">Es i&#x017F;t was vor-<lb/>
+gangen.</hi> Sein Junge aber 6. als jhn ein Bu&#x0364;rger im herein-<lb/>
+lauffen bey der Carthau&#x017F;en erwi&#x017F;cht/ vnd fragt: Was i&#x017F;t vor-<lb/>
+gangen? Der beichtet rein heraus/ vnd &#x017F;aget auff &#x017F;ein <hi rendition="#aq">corrupt</hi><lb/>
+deut&#x017F;ch: <hi rendition="#fr">Hat &#x017F;ich was vorgangen/ hol &#x017F;ich Teuffel/<lb/>
+un&#x017F;er Volck i&#x017F;t alle ge&#x017F;chlagen.</hi></p><lb/>
+<fw type="catch" place="bottom">7. Seind</fw><lb/>
+<pb facs="#f0017"/>
+<p>7. Seynd die Herren <hi rendition="#aq">Patres</hi>, die den vorigen Tag &#x017F;chon<lb/>
+das PaulinerKlo&#x017F;ter be&#x017F;ehen. Deren einer &#x017F;agt zum andern:<lb/>
+<hi rendition="#fr">Sind wir denn nicht &#x017F;tarck genug mit vn&#x017F;ern Ho&#x0364;r-<lb/>
+nern?</hi> <hi rendition="#aq">Amos 6, 13.</hi> Aber der ander antwortet jhm <hi rendition="#aq">ex cap. 3, 8.<lb/>
+eju&#x017F;dem Prophetæ (qvia interrogativum &amp; redditivum:</hi><lb/>
+das wi&#x017F;&#x017F;en die Herrn wol) <hi rendition="#fr">der Lo&#x0364;we bru&#x0364;llet/ wer &#x017F;olt &#x017F;ich<lb/>
+nicht fu&#x0364;rchten?</hi> Sind aber nunmehre alle drey in einer <hi rendition="#aq">pro-<lb/>
+ce&#x017F;&#x017F;ion</hi> den <hi rendition="#aq">30. Septembris</hi> voriges Jahrs Walfarthen nach<lb/>
+Dreßden gefahren/ da&#x017F;elb&#x017F;t nach gelegenheit den Pab&#x017F;t vnd<lb/>
+den Key&#x017F;er zu be&#x017F;uchen.</p><lb/>
+<p><hi rendition="#aq">D.</hi> Hier kommen nun die Herren <hi rendition="#aq">Adventu</hi>rirer/ denen<lb/>
+gehet es nach Gottes Drewung im Propheten<lb/>
+<hi rendition="#c"><hi rendition="#aq">Amos 2, 13.</hi></hi></p><lb/>
+<p><hi rendition="#fr">Sihe/ ich wils vnter euch Firren machen/ wie ein Wagen voll<lb/>
+Garbet kirret/ daß/ der &#x017F;o &#x017F;chnelle i&#x017F;t/ &#x017F;ol nicht entfliehen/<lb/>
+noch der Starcke etwas vermu&#x0364;gen/ oder der Ma&#x0364;chtige<lb/>
+nicht &#x017F;ol &#x017F;ein Leben erreten ko&#x0364;nnen. Vnd die Bogen&#x017F;chu&#x0364;-<lb/>
+tzen &#x017F;ollen nicht be&#x017F;tehen/ vnd der &#x017F;chnell lauffen kan/ &#x017F;ol<lb/>
+nicht entlauffen/ vnd der da reitet/ &#x017F;ol &#x017F;ein Leben nicht erret-<lb/>
+ten. Vnd der vnter den Starcken der Mannhafftig&#x017F;te i&#x017F;t/<lb/>
+&#x017F;ol nackend entfliehen mu&#x0364;&#x017F;&#x017F;en/ zu der Zeit/ &#x017F;pricht der HErr.</hi></p><lb/>
+<p><hi rendition="#c"><hi rendition="#aq">Theocrot. Idyll. 10, 17.<lb/>
+<foreign xml:lang="ell"><gap/></foreign><lb/>
+Zach. 1, 6.</hi></hi><lb/>
+<hi rendition="#fr">Darnach wir hiengen vnd thaten/ al&#x017F;o hat er vns auch gethan:</hi><lb/>
+</p> <p>8. Damit aber die vnge&#x017F;chliffenen Crabaten nicht den <hi rendition="#aq">In-<lb/>
+vention</hi>danck vor den <hi rendition="#aq">ingenio</hi>&#x017F;i&#x017F;chen Herren Wel&#x017F;chen ver-<lb/>
+dienen: So ko&#x0364;mpt hier ein Wel&#x017F;cher Graff/ der ver&#x017F;ucht <hi rendition="#aq">per<lb/>
+occa&#x017F;ion</hi> drey &#x017F;einer Leibroß/ ob &#x017F;ie ein gleichen Schritt ha-<lb/>
+ben/ vnd gleich lei&#x017F;e gehen: marchiret in die&#x017F;er fa&#x017F;on vmb den<lb/>
+Graben herumb in die Peter&#x017F;traß/ do er jhme die Zeit de&#x017F;to<lb/>
+ku&#x0364;rtzer zu machen/ die Wunden bald zu heilen/ bald wieder<lb/>
+auff&#x017F;chneiden le&#x017F;&#x017F;et/ <hi rendition="#aq">mutatis &amp; medicis &amp; chirurgis, qvia</hi><lb/>
+<fw type="sig" place="bottom">B iij</fw> <fw type="catch" place="bottom"><hi rendition="#aq">varie-</hi></fw><lb/>
+<pb facs="#f0018"/>
+<hi rendition="#aq">varietas delectat.</hi> Denn die Ketzerkugeln wu&#x017F;ten &#x017F;ich viel/ daß<lb/>
+&#x017F;ie bey einem &#x017F;o eyfferig-Ro&#x0364;mi&#x017F;ch-Catholi&#x017F;chen <hi rendition="#aq">&#x017F;ubjecto</hi> wa-<lb/>
+ren/ drumb wolten &#x017F;ie nicht von jhm/ sondern hielten bey jhm<lb/>
+&#x017F;o &#x017F;tandhafft/ wie die Lauß beym Dieb am Galgen.</p><lb/>
+<p>9. Hier gehet es nach der Propheceyung des Propheten.<lb/>
+<hi rendition="#c"><hi rendition="#aq">Nahum. 2, 8.</hi></hi></p><lb/>
+<p><hi rendition="#fr">Stehet/ &#x017F;tehet/ (werden &#x017F;ie ruffen) aber da wird &#x017F;ich niemand<lb/>
+vmbwenden. So raubet nun Silber/ raubet Gold/ denn<lb/>
+hie i&#x017F;t der Scha&#x0364;tze kein Ende/ vnd der Menge aller ko&#x0364;&#x017F;t-<lb/>
+lichen Kleinodien.</hi></p><lb/>
+<p>10. Hier weis ein Craba&#x0364;tl nicht &#x017F;o ge&#x017F;chwind ein <hi rendition="#aq">inven-<lb/>
+tion</hi> aus &#x017F;einem Magirigen zu erwi&#x017F;chen: Jedoch weil er &#x017F;ihet/<lb/>
+daß die andern &#x017F;eine Ge&#x017F;pan allbereit im vollen Thurnier-<lb/>
+Auffzug begriffen: Als macht er derwegen mit &#x017F;einem Ro&#x0364;&#x017F;&#x017F;el<lb/>
+nur dieweil den Leipzigi&#x017F;chen ein Auffhebens: Denn wenn &#x017F;ie<lb/>
+den Schelmen nicht auffgehoben/ &#x017F;o lege der Dieb noch da.</p><lb/>
+<p>11. Die&#x017F;er Crabat i&#x017F;t &#x017F;o begierig des Handels/ daß/ weil er<lb/>
+&#x017F;ich halb noch ein weil drau&#x017F;&#x017F;en mit Fu&#x0364;&#x017F;&#x017F;en muß treten la&#x017F;&#x017F;en/<lb/>
+doch vnter de&#x017F;&#x017F;en &#x017F;eine Bein auff &#x017F;einem Roß herein &#x017F;chickt:<lb/>
+fu&#x0364;rwar mit einer &#x017F;olchen Maniere/ die den <hi rendition="#aq">Invention</hi>danck<lb/>
+verdient gehabt/ wenn es der Narr nur außge&#x017F;tanden hette/<lb/>
+hernach gekrochen/ mit dem Leib &#x017F;ich wieder auff die warme<lb/>
+Kutteln ge&#x017F;etzt/ vnd darauff beklieben wa&#x0364;r.</p><lb/>
+<p>12. Der vnd der folgende pr<hi rendition="#aq">æ</hi>&#x017F;entiren &#x017F;ich zum Fußturnier:<lb/>
+Des er&#x017F;ten <hi rendition="#aq">Invention</hi> kan niemand &#x017F;ehen/ er rei&#x017F;&#x017F;e jhm denn<lb/>
+das zehenfingerichte Vi&#x017F;ir ab/ &#x017F;o befindet er/ daß er von der<lb/>
+Stirn an biß auffs Kinn herunten durch vnd durch gehawen/<lb/>
+al&#x017F;o/ daß das gantze Ge&#x017F;icht an einem Stu&#x0364;ck jhm auff die<lb/>
+Bru&#x017F;tu fellet/ wenn er die Ha&#x0364;nde gehen le&#x017F;&#x017F;et/ vnd man jhm biß<lb/>
+in die Speißro&#x0364;hren &#x017F;ehen kan.</p><lb/>
+<p>13. Der folget zu Fuß des Craba&#x0364;tls <hi rendition="#aq">invention</hi> droben<lb/>
+<hi rendition="#aq">Num. 10.</hi> zu Roß/ vnd weil jhn die Wunden &#x017F;o vbel plagen/<lb/>
+daß er &#x017F;ich nicht lenger kan ertragen/ &#x017F;o &#x017F;tu&#x0364;rtzet er &#x017F;ich vber Halß<lb/>
+vnd Kragen/ in den Stadtgraben der Sawmagen. <fw type="catch" place="bottom">Es</fw><lb/>
+<pb facs="#f0019"/>
+Es hei&#x017F;&#x017F;et nemlich wol/ die die <hi rendition="#aq">Medici</hi> &#x017F;agen: <foreign xml:lang="ell"><gap/><lb/>
+<gap/></foreign> <hi rendition="#aq">malè fida &#x017F;ocietas:</hi> Das <hi rendition="#aq">Confect</hi> &#x017F;ey vbel<lb/>
+zu verdewen. Vnd der Fro&#x017F;chqua&#x0364;cker <hi rendition="#aq">Ari&#x017F;tophanes<lb/>
+in Pluto</hi> wais auch davon zu &#x017F;agen: <foreign xml:lang="ell"><gap/><lb/>
+<gap/></foreign>, Man werde alles vber-<lb/>
+dru&#x0364;&#x017F;&#x017F;ig/ auch des <hi rendition="#aq">Confects.</hi> Jch wolte auch wetten/<lb/>
+es hetten viel Tilli&#x017F;chen Soldaten lieber Kie&#x017F;el&#x017F;tein<lb/>
+vor das <hi rendition="#aq">Confect</hi> fre&#x017F;&#x017F;en mo&#x0364;gen/ wenn &#x017F;ie noch zu hart<lb/>
+zu verda&#x0364;wen gewe&#x017F;en: denn da hetten &#x017F;ie auffgeho&#x0364;rt/<lb/>
+wenn &#x017F;ie gewolt/ hier aber mu&#x017F;ten &#x017F;ie &#x017F;o lange der<lb/>
+Wirth wolt/ vn&#x0303; &#x017F;olten gleich alle Da&#x0364;rm dru&#x0364;ber rei&#x017F;&#x017F;en.</p><lb/>
+<p>Aber al&#x017F;o &#x017F;olten wir von A&#x017F;&#x017F;ur (allen Crabaten/ Frantzo&#x017F;en/<lb/>
+Wel&#x017F;chen) errettet werden/ der in vn&#x017F;er Land gefallen war/<lb/>
+vnd vn&#x017F;ere Grentzen zertreten hatte/ <hi rendition="#aq">Micheæ 5, 6.</hi></p><lb/>
+<cit><quote><hi rendition="#et">J&#x017F;t dir wol/ &#x017F;o bleib davon/<lb/>
+Daß du nicht kriege&#x017F;t bo&#x0364;&#x017F;en Lohn.<lb/>
+</hi></quote></cit>         </div> <milestone unit="section" rendition="#hr"/><lb/>
+<div n="1"> <head>Fu&#x0364;nffte Auffzug. <hi rendition="#aq">E.</hi></head><lb/>
+<p><hi rendition="#in">H</hi>Jer hat ein BaurenHund von Bodel-<lb/>
+witz das Spanni&#x017F;ch perfurmirte/ Magde-<lb/>
+burgi&#x017F;chen Nymphen ge&#x017F;u&#x0364;&#x017F;&#x017F;erte/ Sa&#x0364;ch&#x017F;i&#x017F;ch<lb/>
+<hi rendition="#aq">(&#x017F;cil) perconfecti</hi>rte vnd Leipzigi&#x017F;ch mor&#x017F;ellirte<lb/>
+Fleich der Key&#x017F;erl. geko&#x017F;tet/ vnd weil es jhme<lb/>
+be&#x017F;&#x017F;er/ als von einem &#x017F;chlechten E&#x017F;el gemundet/ er auch durch<lb/>
+des Aa&#x017F;&#x017F;es Su&#x0364;&#x017F;&#x017F;igkeit von &#x017F;einer neidi&#x017F;chen Art gar ermildert<lb/>
+worden: Als wil er das <hi rendition="#aq">divide cum &#x017F;ociis</hi> &#x017F;pielen. Leufft dem-<lb/>
+nach ins Dorff/ vnd zeiget das verleckerte Gena&#x0364;&#x017F;ch den andern<lb/>
+Dorffhunden an/ die &#x017F;ich auch mit ge&#x017F;ampter Hand ein&#x017F;tellen/<lb/>
+vnd dem Werck bißher &#x017F;o flei&#x017F;&#x017F;ig obgelegen/ daß &#x017F;ie jhre Mer-<lb/>
+tensganß vnd Faßnacht da gehalten.</p><lb/>
+<fw type="catch" place="bottom">J&#x017F;t</fw><lb/>
+<pb facs="#f0020"/>
+<cit><quote><hi rendition="#et">J&#x017F;t dir wol/ &#x017F;o bleib darvon/<lb/>
+Daß du nicht kriege&#x017F;t bo&#x0364;&#x017F;en Lohn.<lb/>
+</hi></quote></cit> <p>Vnd weil wir al&#x017F;o biß auff der Tilli&#x017F;chen <hi rendition="#aq">&#x017F;epulturam<lb/>
+a&#x017F;ini &#x017F;ine lux &amp; crux</hi> kommen: &#x017F;o wollen wir &#x017F;ie al&#x017F;o in jhrer<lb/>
+eigenen Bru&#x0364;he <hi rendition="#aq">in pice</hi> ruhen la&#x017F;&#x017F;en/ biß &#x017F;ie der helli&#x017F;che <hi rendition="#aq">Cer-<lb/>
+berus</hi> &#x017F;elb&#x017F;ten zau&#x017F;en wird.</p><lb/>
+<p><hi rendition="#c"><hi rendition="#aq">Lector, Spectator.<lb/>
+Qvid jam tibi videtus, nonne qvod Catoni<lb/>
+de cæde Gracchiana?</hi><lb/>
+<foreign xml:lang="ell"><gap/></foreign><lb/>
+Oder vielmehr/ was der Gei&#x017F;t Gottes &#x017F;agt:<lb/>
+Al&#x017F;o mu&#x0364;&#x017F;&#x017F;en vmbkommen/ HErr/ alle deine Feinde/ <hi rendition="#aq">Jud. 5.</hi><lb/>
+Sie mu&#x0364;&#x017F;&#x017F;en ins Schwerdt fallen/ vnd den Fu&#x0364;ch&#x017F;en (Hunden/<lb/>
+Wo&#x0364;lffen/ Raben vnd Geyern) zu theil werden/ <hi rendition="#aq">P&#x017F;al. 63.</hi><lb/>
+Wer von Jerobeam/ <hi rendition="#aq">1. Reg. 14, 11.</hi> Bae&#x017F;a/ <hi rendition="#aq">1. Reg. 16, 4.</hi> vnd<lb/>
+Ahab/ <hi rendition="#aq">1. Reg. 21.</hi> (den drey abgo&#x0364;tti&#x017F;chen Ko&#x0364;nigen J&#x017F;rael/<lb/>
+die jederman zu jhrem Go&#x0364;tzendien&#x017F;t zwungen) &#x017F;tirbt in der<lb/>
+Stadt/ den &#x017F;ollen die Hunde fre&#x017F;&#x017F;en/ vnd wer von jhnen<lb/>
+&#x017F;tirbt auff dem Felde/ den &#x017F;ollen die Vogel des Himmels<lb/>
+fre&#x017F;&#x017F;en.<lb/>
+<foreign xml:lang="ell"><gap/><lb/>
+<gap/></foreign>, <hi rendition="#aq">P&#x017F;al 68, 24.</hi><lb/>
+Aber der Ko&#x0364;nig frewet &#x017F;ich in Gott/ vnd die den HErrn lieb<lb/>
+haben/ mu&#x0364;&#x017F;&#x017F;en &#x017F;eyn wie die Sonne auffgehet in jhrer<lb/>
+Macht/ <hi rendition="#aq">Judic. 5, 31.</hi><lb/>
+</hi></p> <p>14. Endlich ko&#x0364;mpt die Krahe/ die nach des Key&#x017F;ers <hi rendition="#aq">Do-<lb/>
+mitiani</hi>, des grau&#x017F;amen Chri&#x017F;tenverfolgers Todt &#x017F;ich auff die<lb/>
+Spitze des <hi rendition="#aq">Capitolii</hi> zu Rom &#x017F;etzete/ vnd &#x017F;agte: <hi rendition="#fr">Nun wird<lb/>
+es alles gut werden. Vnd das gebe Gott/ Amen<hi rendition="#i">!</hi></hi></p><lb/>
+<p> <hi rendition="#aq #c #i">Vaticinium Alexandri M. ap. Curt. d. l. 8, 8.</hi><lb/>
+<hi rendition="#aq">Non e&#x017F;t diuturna po&#x017F;&#x017F;e&#x017F;&#x017F;io, in qvam gladiô induci-<lb/>
+mur: <hi rendition="#k"><hi rendition="#g">Beneficiorum gratia sempi-<lb/>
+terna est</hi>.</hi><lb/>
+<hi rendition="#aq #c #i"><hi rendition="#g">FINIS</hi>.</hi><lb/>
+</hi></p>       </div>     </body>
+<pb facs="#f0021"/>
+<back>
+<pb facs="#f0022"/>
+</back>   </text> </TEI>

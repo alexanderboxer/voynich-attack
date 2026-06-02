@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Abdanckung Bey der ansehentlichen Sepultur Deß Weiland Ehrenfesten/ Wolweisen vnd Wolbenambten Herren Simon Neissers</title>
+<author>
+<persName>
+<surname>Baudissen</surname>
+<forename>Gotfrid</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">15</measure>
+<measure type="tokens">2189</measure>
+<measure type="types">1165</measure>
+<measure type="characters">16413</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T10:13:00Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/508441</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/508441</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/508441</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/508441</idno>
+<idno type="DTADirName">508441</idno>
+<idno type="DTAID">202964</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-202964-9</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Baudissen, Gotfrid: Abdanckung Bey der ansehentlichen Sepultur. Liegnitz, 1624.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Abdanckung Bey der ansehentlichen Sepultur Deß Weiland Ehrenfesten/ Wolweisen vnd Wolbenambten Herren Simon Neissers</title>
+<author>
+<persName>
+<surname>Baudissen</surname>
+<forename>Gotfrid</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">15</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Fürstliche Druckerey</name></publisher>
+<pubPlace>Liegnitz</pubPlace>
+<date type="publication">1624</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 O 103 / 508441</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001"/>
+<titlePage type="main"> <docTitle> <titlePart type="main"> <hi rendition="#b">Abdanckung</hi><lb/>
+Bey der an&#x017F;ehentlichen<lb/>
+<hi rendition="#aq">Sepultur</hi><lb/>
+Deß Weiland Ehrenfe&#x017F;ten/ Wolwei&#x017F;en<lb/>
+vnd Wolbenambten Herren<lb/>
+<hi rendition="#b">Simon Nei&#x017F;&#x017F;ers</hi><lb/>
+</titlePart> </docTitle> <docTitle> <titlePart type="desc"> <hi rendition="#b">deß Elteren<lb/>
+gewe&#x017F;enen wolverdienten</hi><lb/>
+Elter Bu&#x0364;rgermei&#x017F;ters<lb/>
+zum Jawer/<lb/>
+Vber de&#x017F;&#x017F;en Leich&#x017F;tatt auff<lb/>
+dem Kirchhofe zu S.<lb/>
+Martin da&#x017F;elb&#x017F;t<lb/>
+</titlePart> </docTitle> <byline> gehalten von<lb/>
+<docAuthor> Gotfrid Baudi&#x017F;&#x017F;en<lb/>
+</docAuthor> beyder Rechten<lb/>
+D.<lb/>
+</byline> <milestone rendition="#hr" unit="section"/><lb/>
+<docImprint> <pubPlace>Lignitz</pubPlace> in der <publisher>Fu&#x0364;r&#x017F;tlichen Druckerey</publisher><lb/>
+<docDate><hi rendition="#k"><hi rendition="#aq">M dc xxiv.</hi></hi></docDate><lb/>
+</docImprint> </titlePage> </front><body>
+<pb facs="#f0002"/>
+<div type="dedication" n="1"><p><hi rendition="#c">Denen Ehrenfe&#x017F;ten/ Wolwei&#x017F;en/<lb/>
+Wolbenambten vnd Wolge-<lb/>
+lahrten/ Herren<lb/>
+<hi rendition="#b">Simon Nei&#x017F;&#x017F;ern</hi><lb/>
+Wolverordneten Kirchenvater vnd deß<lb/>
+Scho&#x0364;ppen&#x017F;tuels <hi rendition="#i">V</hi>erwandten/<lb/>
+<hi rendition="#b">Herren Han&#x017F;en Nei&#x017F;&#x017F;ern/<lb/>
+Herren Andre<hi rendition="#aq">æ</hi> Nei&#x017F;&#x017F;ern/</hi><lb/>
+Beyden vornehmen Bu&#x0364;rgern<lb/>
+vnd Handelsmannen/<lb/>
+<hi rendition="#b">Herren Martino Nei&#x017F;&#x017F;ern/</hi><lb/>
+Beyder Rechten <hi rendition="#aq">Candidato,</hi><lb/>
+allen zum Jawer/<lb/>
+Meinen &#x017F;onders gun&#x017F;tigen Herren/ <hi rendition="#aq">re&#x017F;pectivè,</hi><lb/>
+Brudern vnd gutten Freunden.</hi></p><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">O</hi>Bwoln viel erhebliches bedencken mir vorge&#x017F;to&#x017F;&#x017F;en<lb/>
+die&#x017F;e meine Abdanckung daheimbe zubehalten: Je-<lb/>
+doch weil die Herrn &#x017F;olche &#x017F;o in&#x017F;tendig begehrt/ ha-<lb/>
+be Jch den&#x017F;elben als welchen ich nicht wol etwas ab&#x017F;chla-<lb/>
+gen kan/ mehr wilfaren vn&#x0303; folgen wollen dan&#x0303; dadurch an-<lb/>
+zeigen als wann &#x017F;ie etwan zur Pre&#x017F;&#x017F;e vnd offentlichem an-<lb/>
+&#x017F;chawen tu&#x0364;chtig vnd</hi> <hi rendition="#aq">pa&#x017F;tant</hi> <hi rendition="#fr">von mir gehalten wu&#x0364;rde.<lb/>
+Derentwegen auch die Herrn mich hierumben/ an welchen<lb/>
+&#x017F;tellen es von no&#x0364;then/ wol werden am be&#x017F;ten zu ent&#x017F;chuldi-<lb/>
+gen wi&#x017F;&#x017F;en. Die Jch hiemit Go&#x0364;ttlicher obacht entpfeh-<lb/>
+len thue.</hi></p> <dateline><hi rendition="#fr">Jawer den</hi> 1. <hi rendition="#aq">Octobr.</hi> 1624.</dateline><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#fr">Der Herrn dien&#x017F;twilliger Freund<lb/>
+G. Baudiß D.</hi></hi></salute></closer></div><lb/>
+<pb facs="#f0003"/>
+<div type="fsThanks" n="1"><head/> <milestone rendition="#hr" unit="section"/><lb/>
+<p><hi rendition="#b"><hi rendition="#in">D</hi>Eß Hochlo&#x0364;bl. Ka&#x0364;y&#x017F;. vnd Ko&#x0364;-</hi><lb/>
+nigl. Ambtes/ der Fu&#x0364;r&#x017F;tenthu&#x0364;mber<lb/>
+Schweidnitz vnd Jawer Wolverord-<lb/>
+neter Herr Abge&#x017F;andter/ Edler/ Hoch-<lb/>
+gelarter/ Ehrenfe&#x017F;ter/ Großgu&#x0364;n&#x017F;tiger Herr.</p><lb/>
+<p>Edle/ Ehrenfe&#x017F;te/ Wolwei&#x017F;e/ Ehrwu&#x0364;rdige/<lb/>
+Achtbare/ Hoch vnd Wolgelahrte/ Wolbenambte/<lb/>
+Erbare/ <hi rendition="#i">V</hi>or&#x017F;ichtige/ Wolgeachte/ Großgu&#x0364;n&#x017F;tige/<lb/>
+gu&#x0364;n&#x017F;tige/ freundliche liebe Herren.</p><lb/>
+<p>Wolgeborne/ Edle/ <hi rendition="#i">V</hi>ielehrvndtugendreiche/<lb/>
+Erbare/ Tugend&#x017F;ame Frawen vnd Jungfrawen.</p><lb/>
+<p>Alß der weitberu&#x0364;mbte Ro&#x0364;m. Bu&#x0364;rgermei&#x017F;ter<lb/>
+<hi rendition="#aq"><hi rendition="#i">Publius Cornelius Scipio Affricanus</hi></hi> mit tode ver-<lb/>
+fahren/ da&#x017F;elb&#x017F;ten i&#x017F;t nicht alleine die gantze Stadt<lb/>
+Rom trawrens vol worden/ &#x017F;ondern es hat auch<lb/>
+ein an&#x017F;ehentlicher Bu&#x0364;rger/ mit nahmen <hi rendition="#aq"><hi rendition="#i">Quintus<lb/>
+C&#x0153;cilius Metellus,</hi></hi> die&#x017F;es vorge&#x017F;to&#x017F;&#x017F;ene Leid jhm der-<lb/>
+ma&#x017F;&#x017F;en zu hertzen genommen das er auff offnem<lb/>
+Marckt zugelauffen/ vnd mit heller &#x017F;tim<supplied>m</supplied>e ge&#x017F;chri-<lb/>
+hen vnd geruffen:<lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Con-</hi></hi></fw><lb/>
+<pb facs="#f0004"/>
+<hi rendition="#aq"><hi rendition="#i">Concurrite Cives, m&#x0153;nia urbis ve&#x017F;træ conciderunt.</hi></hi><lb/>
+Lauffet zu&#x017F;ammen Jhr Bu&#x0364;rger von Rom/ vnd<lb/>
+betrachtet ewer vnglu&#x0364;ck: Dann ewre Ringmauren<lb/>
+&#x017F;ind vmbgefallen.</p><lb/>
+<p>Jch vor meine wenige Per&#x017F;on bin zwart nicht<lb/>
+gemeinet die&#x017F;e Stadt vnd ort <hi rendition="#aq"><hi rendition="#i">cum &#x017F;epticolli Româ,</hi></hi><lb/>
+mit der Großma&#x0364;chtig&#x017F;ten vnd Siebenhu&#x0364;gligen<lb/>
+Stadt Rom/ <hi rendition="#aq"><hi rendition="#i">quæ terrarum</hi> <hi rendition="#g"><hi rendition="#k">Dea</hi></hi> <hi rendition="#i">Gentium&#xA759; fuit</hi>,</hi><lb/>
+welche gleich&#x017F;am eine Go&#x0364;ttin vor andern Sta&#x0364;dten<lb/>
+vnd <hi rendition="#i">V</hi>o&#x0364;lckern herfu&#x0364;rgeleuchtet/ zuvergleichen/ aber<lb/>
+&#x017F;o viel das lob der Tugend anlangt/ welche &#x017F;o wol<lb/>
+<hi rendition="#aq"><hi rendition="#i">in casá humili</hi>,</hi> in einem einfaltigen Ha&#x0364;ußlein/ alß<lb/>
+<hi rendition="#aq"><hi rendition="#i">in Palatiis Regum</hi></hi> wohnen kan: So viel auch das<lb/>
+An&#x017F;ehntliche Bu&#x0364;rgermei&#x017F;ter Ambt an &#x017F;ich &#x017F;elb&#x017F;ten<lb/>
+<hi rendition="#aq"><hi rendition="#i">concerniren</hi></hi> thut/ welches in gro&#x017F;&#x017F;en Sta&#x0364;dten zwart<lb/>
+mit gro&#x0364;&#x017F;&#x017F;erer weitla&#x0364;ufftigkeit/ in kleineren Sa&#x0364;dten<lb/>
+aber nicht mit geringerer be&#x017F;cheidenheit gefu&#x0364;hret<lb/>
+werden muß: Als lebe Jch der gewi&#x017F;&#x017F;en hoffnung/<lb/>
+das bey gegenwertigem <hi rendition="#i">V</hi>olckreichem Leich<hi rendition="#aq"><hi rendition="#i">conduct</hi>,</hi><lb/>
+deß weyland Ehrenf<supplied>e</supplied>&#x017F;ten/ Wolwei&#x017F;en vnd Wolbe-<lb/>
+nabmten Herren Simon Nei&#x017F;&#x017F;ers des Eltern/ ge-<lb/>
+we&#x017F;enen wolverdienten Elter Bu&#x0364;rgermei&#x017F;ters all-<lb/>
+hier/ ich oben&#x017F;terzehlte worte nichts weniger brau-<lb/>
+chen vnd anziehen ko&#x0364;nne.</p><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Con-</hi></hi></fw><lb/>
+<pb facs="#f0005"/>
+<p><hi rendition="#aq"><hi rendition="#i">Concurrite Cives, m&#x0153;niæ vrbis ve&#x017F;træ conciderunt.</hi></hi><lb/>
+Lauffet zu&#x017F;ammen jhr Bu&#x0364;rger vom Jawer/ vnd<lb/>
+betrachtet ewer gro&#x017F;&#x017F;es <hi rendition="#i">V</hi>nglu&#x0364;ck: Dann ewre<lb/>
+Stadt Mawren &#x017F;ind vmbgefallen.</p><lb/>
+<p>Es gelanget aber vornehmlichen vnd zum<lb/>
+er&#x017F;ten einer Stadt zu be&#x017F;onderen gro&#x017F;&#x017F;en ehren/<lb/>
+wann die&#x017F;elbige mit Mawren/ vnd derogleichen<lb/>
+<hi rendition="#aq"><hi rendition="#i">munitionen</hi></hi> allenthalben vor&#x017F;ehen i&#x017F;t; Dannenhero<lb/>
+auch/ wann Sta&#x0364;dte durch Feindesmacht einge-<lb/>
+nommen/ jhnen kein gro&#x0364;&#x017F;&#x017F;er &#x017F;pott begegnen kan/<lb/>
+alß wann die Stadt vnd Ring Mawren niederge-<lb/>
+worffen/ vnd <hi rendition="#aq"><hi rendition="#i">ruiniret</hi>,</hi> ja wol gar &#x017F;elbige ander-<lb/>
+wert auffzubawen/ wie de&#x017F;&#x017F;en <hi rendition="#aq"><hi rendition="#i">exempla</hi></hi> vorhanden<lb/>
+ob <hi rendition="#aq"><hi rendition="#i">memoriam æterni reatus</hi>,</hi> verboten werden.</p><lb/>
+<p>Ebener ma&#x017F;&#x017F;en i&#x017F;t das Bu&#x0364;rgermei&#x017F;ter Ambt<lb/>
+&#x017F;einer ehren vnd <hi rendition="#aq"><hi rendition="#i">re&#x017F;pectes</hi></hi> halben/ &#x017F;o vortrefflich vnd<lb/>
+erhoben/ daß in <hi rendition="#aq"><hi rendition="#i">civili &#x017F;ocietate</hi>,</hi> in einem Bu&#x0364;rger-<lb/>
+lichen Wandel eine Per&#x017F;on nicht ho&#x0364;her auff&#x017F;teigen<lb/>
+vnd kommen kan; Wie denn der beru&#x0364;mbte Redner<lb/>
+<hi rendition="#aq"><hi rendition="#i">Cicero</hi></hi> de&#x017F;&#x017F;en gnung&#x017F;ambe anleitung giebet/ in deme<lb/>
+Er &#x017F;aget: <hi rendition="#aq"><hi rendition="#i">Honorum populi finis e&#x017F;t Con&#x017F;ulatus</hi>,</hi> Auff<lb/>
+dem Bu&#x0364;rgermei&#x017F;ter Ambt beruht aller Ehren&#x017F;tand.<lb/>
+vnd der fu&#x0364;rtreffliche <hi rendition="#aq"><hi rendition="#i">Poet Statius</hi></hi> &#x017F;chreibet</p><lb/>
+<cit><quote>&#x2014; &#x2014; <hi rendition="#aq"><hi rendition="#i">l<gap reason="illegible" unit="chars" quantity="1"/>cem&#xA759; á conjule ducit</hi></hi> &#x2014;<lb/>
+<fw place="bottom" type="sig"><hi rendition="#i"><hi rendition="#aq">A</hi> 3</hi></fw><fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">omnis</hi></hi></fw><lb/>
+<pb facs="#f0006"/>
+<hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">omnis honos.</hi></hi></hi></quote><bibl/></cit><lb/>
+<p>Andere Ehren Ambter werden durch das Bu&#x0364;r-<lb/>
+germei&#x017F;terAmbt gleich&#x017F;am erleuchtet vnd aun#x017F;ehnt-<lb/>
+licher gemacht. Dahero auch in vn&#x017F;eren Rechts-<lb/>
+bu&#x0364;chern <hi rendition="#aq"><hi rendition="#i">Con&#x017F;ulatûs fa&#x017F;tigiu&#x0303;, excel&#x017F;æ dignitatis apex,<lb/>
+quo nihil altius &#x017F;it, ac unde virtutes bene-meriti com-<lb/>
+probentur l. 1. et 2. C. de Co&#x017F;&#x017F;.</hi></hi> eine hohe ihre dadurch<lb/>
+das nu&#x0364;tzliche verhalten/ vnd die ru&#x0364;mblichen dien&#x017F;te<lb/>
+der Per&#x017F;onen/ welchen &#x017F;olche ehre auffgetragen/<lb/>
+angedeutet wu&#x0364;rde/ nicht &#x017F;onder vr&#x017F;ache genennet<lb/>
+werden. Die heilige Go&#x0364;ttliche &#x017F;chrifft dencket ebe-<lb/>
+ner ma&#x017F;&#x017F;en der Bu&#x0364;rgermei&#x017F;ter gantz lo&#x0364;blichen/ vnd<lb/>
+es gereichet warlichen den&#x017F;elbten zu hohen ehren/<lb/>
+das gele&#x017F;en wird/ welcher ge&#x017F;talt der ma&#x0364;chtige Ko&#x0364;-<lb/>
+nig <hi rendition="#aq"><hi rendition="#i">Darius</hi>,</hi> als er ein gro&#x017F;&#x017F;es mahl &#x017F;einen Knechten<lb/>
+vnd Ambtleuten aus 127. La&#x0364;ndern zubereitet/ zu<lb/>
+dem&#x017F;elbigen auch die Bu&#x0364;rgermei&#x017F;ter beruffen vnd<lb/>
+eingeladen habe.</p><lb/>
+<p>Neben&#x017F;t deme vnd vor das ander/ &#x017F;o &#x017F;ind auch<lb/>
+Stadt vnd Ring Mawren darumben gebawet/ daß<lb/>
+hinter den&#x017F;elben ein jedweder de&#x017F;to be&#x017F;&#x017F;er ruhen vnd<lb/>
+&#x017F;chlaffen/ vnd das vn&#x017F;rige de&#x017F;to &#x017F;icherer &#x017F;ein mo&#x0364;ge;<lb/>
+Ge&#x017F;tal<supplied>t</supplied>&#x017F;amb aus die&#x017F;er vr&#x017F;achen <hi rendition="#aq"><hi rendition="#i">muri einitatum<lb/>
+pro&#x017F;acro-Janctis</hi>,</hi> die Stadtmawren werden vor hei-<lb/>
+<fw place="bottom" type="catch">lige</fw><lb/>
+<pb facs="#f0007"/>
+lige &#x017F;tellen gehalten/ welche zube&#x017F;teigen ma&#x0364;nniglich<lb/>
+verboten/ darumben dann der er&#x017F;te Ko&#x0364;nig zu Rom<lb/>
+<hi rendition="#aq"><hi rendition="#i">Romulus</hi></hi> &#x017F;einen eintzigen Bruder <hi rendition="#aq"><hi rendition="#i">Remum</hi></hi> hinrich-<lb/>
+ten la&#x017F;&#x017F;en/ daß er die StadtMawren zu Rom ver-<lb/>
+wegener wei&#x017F;e vber&#x017F;tiegen hatte.</p><lb/>
+<p>Auff &#x017F;olche art i&#x017F;t es auch mit dem Bu&#x0364;rger-<lb/>
+mei&#x017F;terAmbt be&#x017F;chaffen. Dann von dem&#x017F;elbigen<lb/>
+kan mit guttem fug geredet werden/ was der The-<lb/>
+bani&#x017F;che Kriegesheld <hi rendition="#aq"><hi rendition="#i">Epaminundas</hi></hi> auff &#x017F;ich gezo-<lb/>
+gen/ <hi rendition="#aq"><hi rendition="#i">Ego vigilo, ut i&#x017F;ti dormiant</hi>,</hi> Jch wache/ damit<lb/>
+jhr &#x017F;icher &#x017F;chlaffen mo&#x0364;get. Dannenhero von den<lb/>
+Gela&#x0364;hrten die Bu&#x0364;rgermei&#x017F;ter: &#x03C6;&#x03B8;&#x03B1;&#x03BB;&#x03BC;&#x03BF;&#x1F76; &#x03BA;&#x03B1;&#x1F76; &#x03D7; &#x1F67;&#x03C4;&#x03B1; &#x03C4;&#x1F22;&#x03C2; &#x03C0;&#x03CC;&#x03BB;&#x03B5;&#x03C9;&#x03C2;,<lb/>
+<hi rendition="#aq"><hi rendition="#i">oculi &amp; aures civitatis</hi>,</hi> Augen vnd Ohren der<lb/>
+gantzen Stadt/ genennet werden. Zwart Augen<lb/>
+&#x017F;ind &#x017F;ie darumb/ daß jhnen <hi rendition="#aq"><hi rendition="#i">ex veteri formuld</hi></hi> an-<lb/>
+vertrawet/ <hi rendition="#aq"><hi rendition="#i">providere, ne Re&#x017F;publica qvid detrimenti<lb/>
+patiatur</hi>,</hi> auffacht zugeben/ damitte der gemeine<lb/>
+nutz nicht etwa gefa&#x0364;hret werde/ <hi rendition="#i">V</hi>nd darnach &#x017F;ind<lb/>
+&#x017F;ie auch billich als Ohren gemeiner Stadt; Denn<lb/>
+bey jhnen werden alle vorkombende ge&#x017F;cheffte abge-<lb/>
+leget/ welches bey die&#x017F;en beku&#x0364;mmerten la&#x0364;ufften/ da<lb/>
+ich vnd ein ander ohne &#x017F;orge gewe&#x017F;en/ vielmahl den<lb/>
+jenigen &#x017F;o die&#x017F;e &#x017F;telle gehalten/ gro&#x017F;&#x017F;en kummer ge-<lb/>
+geben hat.</p><lb/>
+<fw place="bottom" type="catch"><hi rendition="#i">V</hi>ber</fw><lb/>
+<pb facs="#f0008"/>
+<p><hi rendition="#i">V</hi>ber diß vnd letzlichen/ &#x017F;o dienen auch Ring-<lb/>
+vnd StadtMawren darzu/ daß zu Krieg vnd vn-<lb/>
+friedenszeiten/ wie nichts weniger auff den fall/ do-<lb/>
+einer zur vngebu&#x0364;hr verfolget wu&#x0364;rde/ ma&#x0364;nniglich<lb/>
+hinter den&#x017F;elben eine zuvorla&#x0364;ßige zuflucht nehmen<lb/>
+vnd &#x017F;uchen/ auch &#x017F;ich darau&#x017F;&#x017F;<supplied>e</supplied>r wieder gewalt &#x017F;chu&#x0364;-<lb/>
+tzen vnd <hi rendition="#aq"><hi rendition="#i">defendiren</hi></hi> ko&#x0364;nne/ Derentwegen/ als Ka&#x0364;y-<lb/>
+&#x017F;er <hi rendition="#aq"><hi rendition="#i">Henricus</hi></hi> der Ander/ auff bewegnu&#x0364;s vnd an&#x017F;tiff-<lb/>
+tung Seiner Gemahlin/ der heiligen <hi rendition="#aq"><hi rendition="#i">Cunigundis</hi>,</hi><lb/>
+das Stifft Bamberg/ zu de&#x017F;&#x017F;en ewigwerender be-<lb/>
+&#x017F;chu&#x0364;tz vnd erhaltung/ mit <hi rendition="#i">V</hi>ier hohen Ambtern auff<lb/>
+maß vnd wei&#x017F;e/ als das gantze Heil. Ro&#x0364;m. Reich/<lb/>
+durch die <hi rendition="#i">V</hi>ier Weltliche Churfu&#x0364;r&#x017F;ten ver&#x017F;ehen<lb/>
+wird/ ausgeru&#x0364;&#x017F;tet/ da&#x017F;elb&#x017F;ten hat man offentlichen<lb/>
+die&#x017F;e Rede gefu&#x0364;hret: Bamberg bedo&#x0364;rffte keiner<lb/>
+RingMawren mehr: Dann gedachte <hi rendition="#i">V</hi>ier hohe<lb/>
+Ambter/ welche man den Seidenen faden der heili-<lb/>
+gen <hi rendition="#aq"><hi rendition="#i">Cunigundis</hi></hi> zu nennen pfleget/ wehre derma&#x017F;&#x017F;en<lb/>
+vmb die Stadt herumb geflochten/ daß daran kein<lb/>
+Feind etwas ausrichten ko&#x0364;nte.</p><lb/>
+<p>Die&#x017F;es i&#x017F;t abermahl auff das lo&#x0364;bliche Bu&#x0364;rger-<lb/>
+mei&#x017F;terAmbt gantz wol zu <hi rendition="#aq"><hi rendition="#i">accommodiren</hi>.</hi> Denn<lb/>
+wann in einer Gemainde einem von &#x017F;einem Nach-<lb/>
+barn vnrecht ge&#x017F;chicht/ vnd er anderwert nicht<lb/>
+<fw place="bottom" type="catch">fort-</fw><lb/>
+<pb facs="#f0009"/>
+fortkommen kan/ &#x017F;o hat er &#x017F;eine zuflucht zum Bu&#x0364;r-<lb/>
+germei&#x017F;ter/ da&#x017F;elb&#x017F;ten ero&#x0364;ffnet er &#x017F;eine noth vn&#x0303; anlie-<lb/>
+gen/ vnd &#x017F;uchet hu&#x0364;lffe/ wie wieder &#x017F;einen wiederwer-<lb/>
+tigen er &#x017F;ich &#x017F;chu&#x0364;tzen ko&#x0364;nne. <hi rendition="#i">V</hi>nd i&#x017F;t al&#x017F;o das Bu&#x0364;r-<lb/>
+germei&#x017F;ter Ambt warhafftig der rechte Fadem/ <hi rendition="#aq"><hi rendition="#i">qvem<lb/>
+tot ægri &#x017F;piritus trahunt</hi>,</hi> an welchem &#x017F;o vieler<lb/>
+Men&#x017F;chen zeitliches heil vn&#x0303; wolfart verknu&#x0364;pffet vnd<lb/>
+angebunden i&#x017F;t. Wann es nun nicht zugehet/<lb/>
+wie bey dem Bu&#x0364;rgermei&#x017F;ter <hi rendition="#aq"><hi rendition="#i">Metello</hi>,</hi> der aus der<lb/>
+vr&#x017F;achen/ das er ma&#x0364;nniglich/ &#x017F;o raht bey jhm &#x017F;uchte/<lb/>
+nur mit vnge&#x017F;tu&#x0364;mben worten wieder abwei&#x017F;en tha&#x0364;-<lb/>
+te/ <hi rendition="#aq"><hi rendition="#i">&#x017F;copulus reorum</hi>,</hi> das i&#x017F;t ein Felß vnd Klippe/ an<lb/>
+welchem alle/ &#x017F;o zuflucht dahin nehmen/ zu dru&#x0364;mern<lb/>
+gehen mu&#x017F;&#x017F;en/ genennet worden/ &#x017F;ondern vorhelt<lb/>
+&#x017F;ich/ was von dem beru&#x0364;hmbten Ka&#x0364;y&#x017F;er <hi rendition="#aq"><hi rendition="#i">Ve&#x017F;pa&#x017F;iano</hi></hi><lb/>
+gelobet wird/ daß kein Men&#x017F;ch von jhm hulff vnd<lb/>
+rahtloß oder mit weinenden Augen abgetreten/<lb/>
+Dannenhero man jhn auch <hi rendition="#aq"><hi rendition="#i">Delitias Generis hu-<lb/>
+mani</hi>,</hi> den jenigen/ an welchem das gantze Men-<lb/>
+&#x017F;chliche Ge&#x017F;chlecht &#x017F;eine lu&#x017F;t vnd frewde ge&#x017F;ehen/ in<lb/>
+den Hi&#x017F;torien zu nennen pfleget. Wann es/ &#x017F;age<lb/>
+ich/ al&#x017F;o zugehet/ ma&#x017F;&#x017F;en wir bey die&#x017F;er Stadt noch<lb/>
+jmmer Gott zu dancken gehabt/ do achte Jch nicht<lb/>
+darfu&#x0364;r/ daß jemand mir vervnbillichen werde/ daß<lb/>
+<fw place="bottom" type="sig">B</fw><fw place="bottom" type="catch">Jch</fw><lb/>
+<pb facs="#f0010"/>
+Jch das Bu&#x0364;rgermei&#x017F;terAmbt auch in die&#x017F;em drit-<lb/>
+ten <hi rendition="#aq"><hi rendition="#i">pa&#x017F;&#x017F;u</hi></hi> mit den Stadt vnd Ring Mawren verglei-<lb/>
+chen wollen.</p><lb/>
+<p><hi rendition="#i">V</hi>nd eine &#x017F;olche vornehme Per&#x017F;on i&#x017F;t auch vn-<lb/>
+&#x017F;er Herr Elter Bu&#x0364;rgermei&#x017F;ter/ den ich zu anfangs<lb/>
+genennet/ mit ma&#x0364;nnigliches beypflichten vnd offent-<lb/>
+lichem nachruhmb gewe&#x017F;en/ dann wie er die ho&#x0364;ch&#x017F;te<lb/>
+ehr in die&#x017F;er <hi rendition="#aq"><hi rendition="#i">Republica</hi></hi> lo&#x0364;blichen erworben/ al&#x017F;o hat<lb/>
+er auch &#x017F;ein Ambt mit aller <hi rendition="#aq"><hi rendition="#i">dexteritet</hi>,</hi> wachenden<lb/>
+Augen vnd fleißigem auff&#x017F;ehen/ mit ertheilung der<lb/>
+billigkeit ohne betrachtung der Per&#x017F;onen <hi rendition="#aq"><hi rendition="#i">admini-<lb/>
+&#x017F;triret</hi>,</hi> daß man jhn vor ein gro&#x017F;&#x017F;e zierde vnd bey-<lb/>
+&#x017F;piel der Gemaine gehalten/ daß &#x017F;ein Regiement<lb/>
+niemande&#x017F;&#x017F;en ge&#x017F;chadet/ ma&#x0364;nniglich vielmehr hinter<lb/>
+dem&#x017F;elbten &#x017F;icher vnd behu&#x0364;ttet geweßt/ auch daß nit-<lb/>
+mands vber vnrecht &#x017F;ich beklagen du&#x0364;rffen/ dannen-<lb/>
+hero mich nicht wundert/ worumben zu de&#x017F;&#x017F;en<lb/>
+Chri&#x017F;tlichen be&#x017F;tattung biß an die&#x017F;en Ort eine der-<lb/>
+ma&#x017F;&#x017F;en gro&#x017F;&#x017F;e menge <hi rendition="#i">V</hi>olckes nachgegangen.</p><lb/>
+<p>Dann vn&#x017F;ere Stadt Mawren &#x017F;ind eingefallen.</p><lb/>
+<p>Das hochlo&#x0364;bl. Ka&#x0364;y&#x017F;. vnd Ko&#x0364;nigliche Ambt/<lb/>
+giebt durch dero Ge&#x017F;andtengegen gemeiner Stadt<lb/>
+dero <hi rendition="#i">V</hi>a&#x0364;terliches mittleiden zu erken&#x0303;en/ daß &#x017F;elbiges<lb/>
+den jenigen nunmehr todt zu &#x017F;ein vernimbt/ wel-<lb/>
+<fw place="bottom" type="catch">ches</fw><lb/>
+<pb facs="#f0011"/>
+ches tugenden vn&#x0303; verdien&#x017F;t jhr Ge&#x017F;tr. allweg jhr &#x017F;on-<lb/>
+derlich gefallen la&#x017F;&#x017F;en/ E. E. vnd W. Rath begleitet/<lb/>
+<hi rendition="#aq"><hi rendition="#i">cum de&#x017F;iderio</hi>,</hi> jhren geliebten Rahtsfreund vnd<lb/>
+Herrn <hi rendition="#aq"><hi rendition="#i">Collegam</hi>.</hi> Ein Ehrwu&#x0364;rdiges <hi rendition="#aq"><hi rendition="#i">Mini&#x017F;teri-<lb/>
+um</hi></hi> vnd die Herren von der Schulen erzeigen die&#x017F;es<lb/>
+<hi rendition="#aq"><hi rendition="#i">tri&#x017F;te officium</hi></hi> willig jhrem <hi rendition="#aq"><hi rendition="#i">Patrono</hi></hi> vnd <hi rendition="#aq"><hi rendition="#i">Evergetæ</hi>.</hi><lb/>
+Die Herren vom Land vnd Stadtgerichten thun<lb/>
+die&#x017F;es deme/ welchen Sie offemahls zum be&#x017F;chu&#x0364;tzer<lb/>
+jhres <hi rendition="#aq"><hi rendition="#i">re&#x017F;pects</hi></hi> vnd <hi rendition="#aq"><hi rendition="#i">exi&#x017F;timation</hi></hi> gehabt. Wir &#x017F;ampt-<lb/>
+lich thun es aus &#x017F;chuldigkeit. Jch ab&#x017F;onderlich vor<lb/>
+meine Per&#x017F;on/ lei&#x017F;te die&#x017F;en letzten dien&#x017F;t <hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Patri meo,<lb/>
+Patripio, Patri benefico, Patri Patriæ</hi></hi>.</hi> Jch<lb/>
+lei&#x017F;te die&#x017F;en letzten dien&#x017F;t meinem Herren vnd <hi rendition="#i">V</hi>a-<lb/>
+tern; meinem geehrten Herren <hi rendition="#i">V</hi>atern/ meinem<lb/>
+woltha&#x0364;tigen Herren <hi rendition="#i">V</hi>atern; dem <hi rendition="#i">V</hi>ater die&#x017F;er<lb/>
+Stadt vnd <hi rendition="#i">V</hi>aterlandes.</p><lb/>
+<p><hi rendition="#i">V</hi>on einem beru&#x0364;hmten Ro&#x0364;mer &#x017F;chreibet <hi rendition="#aq"><hi rendition="#i">Vel-<lb/>
+leius Paterculus</hi>,</hi> dz &#x017F;elbiger in &#x017F;einem leben zu ho&#x0364;ch-<lb/>
+&#x017F;ten ehren kommen/ ein &#x017F;tattliches Alter erreichet/<lb/>
+vnd &#x017F;eine Kinder/ derer <hi rendition="#i">V</hi>ier So&#x0364;hne gewe&#x017F;en/ all-<lb/>
+zumahl in einem gutten handel vnd wandel nach<lb/>
+&#x017F;ich gela&#x017F;&#x017F;en habe: <hi rendition="#i">V</hi>nd &#x017F;chleu&#x017F;&#x017F;et darauff: <hi rendition="#aq"><hi rendition="#i">Hoc e&#x017F;t<lb/>
+nimi um magis feliciter de vitâ inigrare, qvam<lb/>
+mor<gap reason="lost"/></hi>.</hi> Ein &#x017F;olcher todt &#x017F;ey vorkeinen todt zu ach-<lb/>
+<fw place="bottom" type="sig">B ij</fw><fw place="bottom" type="catch">ten/</fw><lb/>
+<pb facs="#f0012"/>
+ten/ &#x017F;ondern were nur gleich&#x017F;amb/ wann einer aus<lb/>
+einem Hau&#x017F;e in ein anders vmb be&#x017F;&#x017F;erer gelegenheit<lb/>
+willen ziehen vnd reumen tha&#x0364;te. <hi rendition="#i">V</hi>n&#x017F;er &#x017F;eliger<lb/>
+Herr Bu&#x0364;rgermei&#x017F;ter/ darff &#x017F;eines be&#x017F;e&#x017F;&#x017F;enen ehren-<lb/>
+&#x017F;tandes halben nicht weiter geru&#x0364;hmet werden/ &#x017F;ein<lb/>
+hohes be&#x017F;cheidenes Alter i&#x017F;t jederma&#x0364;nniglich be-<lb/>
+kandt/ So verla&#x0364;&#x017F;&#x017F;et er ja auch &#x017F;eine <hi rendition="#i">V</hi>ier Herren<lb/>
+So&#x0364;hne allzumal in guttem vnd ehrlichen <hi rendition="#aq"><hi rendition="#i">po&#x017F;to</hi>,</hi> daß<lb/>
+Er jhrenthalb mit fro&#x0364;lichen Augen ein&#x017F;chlaffen<lb/>
+mo&#x0364;gen. <hi rendition="#aq"><hi rendition="#i">Hoc nimirum magis feliciter e&#x017F;t de vitâ<lb/>
+migrare, qvam mori</hi>.</hi> Mehrgedachter vn&#x017F;er Herr<lb/>
+Bu&#x0364;rgermei&#x017F;ter i&#x017F;t derge&#x017F;talt auch von vnß nicht gar<lb/>
+wegge&#x017F;torben/ &#x017F;ondern wir halten jhn billich darfu&#x0364;r/<lb/>
+daß er nur in ein ruhiger Hauß aus die&#x017F;er vnru-<lb/>
+he vmb be&#x017F;&#x017F;erer gelegenheit willen ausgezogen/ hin-<lb/>
+gegen wird er <hi rendition="#aq"><hi rendition="#i">potiore parte &#x017F;ui</hi>,</hi> allzeit bey vnß bley-<lb/>
+ben/ vnd wer wolt vnter vnß allen &#x017F;einer jmmermehr<lb/>
+verge&#x017F;&#x017F;en/ vnd &#x017F;ein beru&#x0364;hmbtes wolverhalten aus<lb/>
+den Augen &#x017F;itzen ko&#x0364;nnen?</p><lb/>
+<p>Ob aber gleich <hi rendition="#aq"><hi rendition="#i">ad has ex&#x017F;equias eundas</hi></hi> ein jedweder<lb/>
+&#x017F;ein <hi rendition="#aq"><hi rendition="#i">privat</hi></hi> vr&#x017F;achen vnd antreiben vorwenden kan/<lb/>
+vermo&#x0364;ge er&#x017F;t ge&#x017F;chehener anmeldung/ vnd derentwe-<lb/>
+gen niemandes vnter allen anwe&#x017F;enden eintzigen<lb/>
+Men&#x017F;chen die&#x017F;es <hi rendition="#aq"><hi rendition="#i">officii</hi></hi> halben zur danckbarkeit wird<lb/>
+<fw place="bottom" type="catch">wollen</fw><lb/>
+<pb facs="#f0013"/>
+wollen verbunden haben; So &#x017F;ehen doch jtztgedach-<lb/>
+ten vn&#x017F;ers Herren Elter Bu&#x0364;rgermei&#x017F;ters hinterblie-<lb/>
+bene Herren So&#x0364;hne/ vnd Jungfraw Na&#x0364;fin/ das<lb/>
+die&#x017F;em jhrem Herren <hi rendition="#i">V</hi>ater vnd Herren Großva-<lb/>
+ter erzeigte hohe ehre/ vnd die gegen Sie zu &#x017F;onder-<lb/>
+bahren jhrem tro&#x017F;t erwie&#x017F;ene <hi rendition="#aq"><hi rendition="#i">Condolentz</hi></hi> durchauß<lb/>
+mit jhrem &#x017F;till&#x017F;chweigen nicht <hi rendition="#aq"><hi rendition="#i">præteriret</hi></hi> werden<lb/>
+ko&#x0364;nne; <hi rendition="#i">V</hi>n&#x0303; thun &#x017F;ich de&#x017F;&#x017F;enthalb in mangel anderer<lb/>
+mittel gegen daß hochlo&#x0364;bl. Ka&#x0364;yß. Ambt/ vnd de&#x017F;&#x017F;en<lb/>
+Herren Ge&#x017F;andten/ gegen E. E. vn&#x0303; W. Rath/ gegen<lb/>
+die H. von Kirchen vnd Schulen/ gegen die Herren<lb/>
+<hi rendition="#aq"><hi rendition="#i">Doctores</hi>,</hi> vn&#x0303; alle andere dem <hi rendition="#aq"><hi rendition="#i">Ordini Literario</hi></hi> bey-<lb/>
+gethanen/ gegen die Herren Scho&#x0364;ppen/ Elti&#x017F;te vnd<lb/>
+Ge&#x017F;chworne/ eine gantze Erbare Bu&#x0364;rger&#x017F;chafft/ ge-<lb/>
+gen die Frawen vnd Jungfrawen/ vor dero gun&#x017F;t vn&#x0303;<lb/>
+gegenwart/ gehor&#x017F;amlich/ vnterdin&#x017F;tlich/ din&#x017F;tlich/<lb/>
+freundlich vnd flei&#x017F;&#x017F;ig bedancken/ mit deme ange-<lb/>
+hencktem erbieten/ daß &#x017F;ie &#x017F;olches jederzeit vmb &#x017F;ie<lb/>
+&#x017F;a&#x0364;mptlich/ jedoch viel lieber in fro&#x0364;licheren <hi rendition="#aq"><hi rendition="#i">occa&#x017F;ionen</hi>,</hi><lb/>
+nach eines jedwedem Stand/ ehren vn&#x0303; gebu&#x0364;hrnu&#x0364;ß/<lb/>
+zube&#x017F;chulden vnd zubedienen indenck &#x017F;ein wollen.</p><lb/>
+<p>Der Allgewaltige wolle nunmehr dem abgeleibten<lb/>
+Co&#x0364;rper in der Erden eine &#x017F;anffte ruhe/ vnd der Se-<lb/>
+len in der Schoß Abrah<hi rendition="#aq"><hi rendition="#i">æ</hi></hi> ein &#x017F;eliges an&#x017F;chawen/<lb/>
+<fw place="bottom" type="sig">B iij</fw><fw place="bottom" type="catch">Seelen</fw><lb/>
+<pb facs="#f0014"/>
+Seelen vnd Leibe am Ju&#x0364;ng&#x017F;ten Tage ein fro&#x0364;liche<lb/>
+verbindung vnd auffer&#x017F;tehen/ vnß allen eine <supplied>tr</supplied>o&#x0364;&#x017F;t-<lb/>
+liche nachfolge zu eines jedwedern rechter zeit geben<lb/>
+vnd vorleyhen.</p><lb/>
+<p>Aber ehe wir von die&#x017F;er Leich&#x017F;tatt abtretten/ &#x017F;o<lb/>
+erinnere ich mich/ daß vn&#x017F;ere vorfahren im Heyden-<lb/>
+thumb vnd der er&#x017F;ten Kirchen/ ma&#x017F;&#x017F;en hiervon <hi rendition="#aq"><hi rendition="#i">Am-<lb/>
+bro&#x017F;ius</hi></hi> vnd <hi rendition="#aq"><hi rendition="#i">Augu&#x017F;tinus</hi></hi> anzeigung thun/ bey be&#x017F;tat-<lb/>
+tung der jhrigen die&#x017F;en brauch gehalten/ daß ein jed-<lb/>
+weder von den jenigen/ &#x017F;o einen todten begleitten<lb/>
+helffen/ ehe er wieder nach Hau&#x017F;e gegangen/ die<lb/>
+Grabe&#x017F;tell deß abgeleibten entweder mit Blumen<lb/>
+zu be&#x017F;trewen/ oder mit Wein zu begi&#x017F;&#x017F;en/ oder mit<lb/>
+etzlichen <hi rendition="#aq"><hi rendition="#i">Valet</hi></hi>worten zu gutter letzt anzureden ge-<lb/>
+pfleget. Mit was vor gedancken/ Sinn vnd mei-<lb/>
+nung die&#x017F;er an&#x017F;ehentliche <hi rendition="#aq"><hi rendition="#i">confluxus</hi></hi> &#x017F;ich von einan-<lb/>
+der anjetzt trennen/ vnd ein jedweder zu &#x017F;einen ge-<lb/>
+&#x017F;cha&#x0364;fften &#x017F;ich wieder begeben werde/ de&#x017F;&#x017F;enthalb wil<lb/>
+ich zu vermeydung vorwitzes vnbeku&#x0364;mmert &#x017F;ein.</p><lb/>
+<p>Jch aber kan nicht vnterla&#x017F;&#x017F;en auch zu gutter letzt<lb/>
+vn&#x017F;ern abge&#x017F;torbenen Herrn Bu&#x0364;rgermei&#x017F;ter anzu-<lb/>
+reden/ vnd jhn zuge&#x017F;egnen/ biß vns der fro&#x0364;liche Tag<lb/>
+deß HErrn wiederumb verbinden vnd zu&#x017F;ammen<lb/>
+bringen wird. Jch wil aber nicht Blumen auff<lb/>
+<fw place="bottom" type="catch">das</fw><lb/>
+<pb facs="#f0015"/>
+das Grab &#x017F;trewen/ noch &#x017F;elbiges mit Wein begi&#x017F;&#x017F;en;<lb/>
+&#x017F;ondern mein vor&#x017F;atz i&#x017F;t deß ver&#x017F;torbenen rechtes<lb/>
+wahres lob in ein Wort zu fa&#x017F;&#x017F;en/ damit weder er<lb/>
+in der Erde zur vbermaß be&#x017F;chweret/ noch ich von<lb/>
+<hi rendition="#c">eintzigem Men&#x017F;chen eines vnvordienten zeug-<lb/>
+ni&#x017F;&#x017F;es mo&#x0364;ge be&#x017F;chuldet vnd angekla-<lb/>
+get werden.</hi></p><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#k"><hi rendition="#in">H</hi>Ic situs urbis honor!</hi></hi></l><lb/>
+<l><hi rendition="#k"><hi rendition="#in">Peccavi; ignoscitemanes!</hi></hi></l><lb/>
+<l><hi rendition="#k"><hi rendition="#in">Hic situs urbis amor!</hi></hi></l><lb/>
+<l><hi rendition="#k"><hi rendition="#in">Dicere debueram.</hi></hi></l><lb/>
+<l><hi rendition="#k"><hi rendition="#in">Sed quid disjungo, fuerung quæ</hi></hi></l><lb/>
+<l><hi rendition="#k"><hi rendition="#in">Juncta vicissim?</hi></hi></l><lb/>
+<l><hi rendition="#k"><hi rendition="#in">Et fuitur bis honor, qui</hi></hi></l><lb/>
+<l><hi rendition="#k"><hi rendition="#in">Fuit urbis amor.</hi></hi></l></lg><lb/>
+<lg type="poem"><l><hi rendition="#fr"><hi rendition="#in">D</hi>En die&#x017F;e Stadt geliebet &#x017F;ehr/</hi></l><lb/>
+<l><hi rendition="#in">Von dem &#x017F;ie hatte ruhm vnd ehr<hi rendition="#i">!</hi></hi></l><lb/>
+<l><hi rendition="#i">Geht weg/ vnd tritt &#x017F;ein Ambt jetzt ab/</hi></l><lb/>
+<l><hi rendition="#i">Sein Co&#x0364;rper wird gelegt ins Grab;</hi></l><lb/>
+<l><hi rendition="#i">Sein trewe Dien&#x017F;t/ &#x017F;ein gutter rath/</hi></l><lb/>
+<l><hi rendition="#i">Ewig in vnß das Leben hat.</hi></l></lg></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</body></text> </TEI>

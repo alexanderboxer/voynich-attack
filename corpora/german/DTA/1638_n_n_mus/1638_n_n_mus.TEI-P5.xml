@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Musæ, quæ vetant mori famam</title>
+<author>
+<persName>
+<surname>N. N.</surname>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">48</measure>
+<measure type="tokens">5996</measure>
+<measure type="types">3804</measure>
+<measure type="characters">44076</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T10:12:53Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/386421</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/386421</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/386421</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/386421</idno>
+<idno type="DTADirName">386421</idno>
+<idno type="DTAID">203003</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-203003-0</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">[N. N.]: Musæ, quæ vetant mori famam. Breslau, 1638.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Musæ, quæ vetant mori famam</title>
+<author>
+<persName>
+<surname>N. N.</surname>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">48 S.</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Baumann</name></publisher>
+<pubPlace>Breslau</pubPlace>
+<date type="publication">1638</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 F 1622/19 / 386421</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Musæ,</hi></hi></hi></titlePart><lb/>
+<titlePart type="desc"><hi rendition="#aq">quæ vetant mori famam<lb/>
+<hi rendition="#i">Viri<lb/>
+admodum Reverendi &amp;<lb/>
+Clarißimi</hi><lb/>
+<hi rendition="#k">Dn. Ulrici Kutschen-<lb/>
+<hi rendition="#g">reuteri</hi></hi><lb/>
+Ducatûs Lignic. &amp; Wolaviens.<lb/>
+vice-Superintendentis,<lb/>
+<hi rendition="#i">Con&#x017F;i&#x017F;torii Illu&#x017F;tris As&#x017F;es&#x017F;oris<lb/>
+primarii</hi><lb/>
+&amp; Eccle&#x017F;iæ Petro-Paulinæ<lb/>
+Pa&#x017F;toris<lb/>
+optimê meriti,<lb/>
+<hi rendition="#i">d. <hi rendition="#g">xxix.</hi> m. Novembris,<lb/>
+ann. Chr. 1638.<lb/>
+pié defuncti.</hi></hi></titlePart></docTitle><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace><hi rendition="#aq"><hi rendition="#i"><hi rendition="#g"><hi rendition="#k">Vratislaviæ,</hi></hi></hi></hi></pubPlace><lb/>
+<publisher><hi rendition="#aq"><hi rendition="#i">Typis <hi rendition="#g"><hi rendition="#k">Baumannianis</hi></hi></hi></hi></publisher><lb/>
+<hi rendition="#aq"><hi rendition="#i">publicatæ.</hi></hi></docImprint></titlePage><lb/>
+</front><body>
+<pb facs="#f0002" n="[2]"/>
+<div type="fsEpicedia" n="1">  <milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">S</hi><hi rendition="#i">OL no&#x017F;træ occubuit, SOL fulgen-</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">tis&#x017F;imus, Vrbis!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">immò etiam <hi rendition="#g">LIGII</hi> faxqve</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">nitorqve &#x017F;oli!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vos, quorum à tanto concepta est Lumine flamma,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Luna velut Fratris mutuat igne &#x017F;uum;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ne, qvæ&#x017F;o, capiat vos harum oblivio rerum,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">quas &#x017F;tudio vobis tradidit Ille pio!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vnde micant tantùm ve&#x017F;tri rectè atria cordis,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">&amp; quibus ad c&#x0153;los artibus urit Amor.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Tu verò, ô Anima æthereis in&#x017F;erta triumfis,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">corporis ex&#x017F;pecta par decus e&#x017F;se tui!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Et, qvoniam humanos fas est occumbere Soles,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Christe</hi> alio illu&#x017F;tra nos&#xA759; tuam&#xA759; domum!</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Verè dolens F.<lb/>
+<hi rendition="#k">Gotf.</hi></hi> <hi rendition="#fr">Baudi&#x017F;s</hi> <hi rendition="#aq">à</hi> <hi rendition="#fr">Gu&#x0364;ldenhuben</hi><lb/>
+<hi rendition="#aq">in</hi> Rudolffßbach/ <hi rendition="#aq">J. U. D. Com.<lb/>
+Pal. Cæ&#x017F;. ac Sereni&#x017F;s. Pr. Lign.<lb/>
+Con&#x017F;il. ac Cancellarius.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Ad beatos</hi></fw><lb/>
+<pb facs="#f0003" n="[3]"/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#i">Ad beatos manes honorati&#x017F;s. Dn. vice-<lb/>
+Superintendentis &amp;c.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#k"><hi rendition="#in">K</hi>utschreutere</hi> tuam effigiem dabit illa papyrus,</hi></l><lb/>
+<l><hi rendition="#aq">Quam tot adumbravit Clara Corona virûm.</hi></l><lb/>
+<l><hi rendition="#aq">Nil reliquum porrò de Te mihi dicere: namqve</hi></l><lb/>
+<l><hi rendition="#aq">Obfu&#x017F;cat majus lumen in hi&#x017F;ce minus.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Caspar Keslerus</hi><lb/>
+Templi b. Virgin. Pa&#x017F;tor<lb/>
+&amp; Con&#x017F;i&#x017F;torialis L.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">Q</hi><hi rendition="#i">uem Svada ac Charites, quem clarus amavit Apollo,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Hunc rapuit &#x017F;ævâ Parca &#x017F;evera manu.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Hic erat Ulricus Ligiorum gloria Templûm;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nobilis &amp; veræ Relligionis onyx.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ergò vos mecum juvenes&#xA759;&#x0301; &#x017F;enes&#xA759;&#x0301; querellas</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">fundite jam tri&#x017F;tes, plangite Pierides.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Plangite vos Mu&#x017F;æ, tri&#x017F;te &amp; mihi fundite carmen,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Compatris ut plorem funera m&#x0153;&#x017F;ta mei.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Verùm quid planctus? pro&#x017F;unt quid mille querellæ?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vivit Is in c&#x0153;lo, &amp; gaudia multa capit.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Applaudo &#x017F;orti, &#x017F;orte hâc nîl &#x017F;vavius illi,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sic precor, æquali ut me beet ip&#x017F;e Deus.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et">&#x03A3;&#x03C5;&#x03BC;&#x03C0;&#x03B1;&#x03B8;&#x03B5;&#x03AF;&#x03B1;&#x03C2; &#x1F15;&#x03BD;&#x03B5;&#x03BA;&#x03B1; <hi rendition="#aq">f.<lb/>
+<hi rendition="#k">Tobias Barthisius</hi> Templi Jo-<lb/>
+hannitici apud Ligios P. aulicus<lb/>
+&amp; Con&#x017F;i&#x017F;torI Ill. A&#x017F;s&#x017F;esor.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw type="sig" place="bottom"><hi rendition="#aq">A</hi> 2</fw><fw type="catch" place="bottom"><hi rendition="#aq">Triginta</hi></fw><lb/>
+<pb facs="#f0004" n="[4]"/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">T</hi>riginta atq; unum numero jam muneris annos</hi></l><lb/>
+<l><hi rendition="#aq">quo fungor, Chri&#x017F;ti dogmata &#x017F;acra docens.</hi></l><lb/>
+<l><hi rendition="#aq">Temporis hoc &#x017F;patio Symmy&#x017F;tæ cuncti obierunt:</hi></l><lb/>
+<l><hi rendition="#aq">&amp; nunc in c&#x0153;lis fulgida ut a&#x017F;tra micant.</hi></l><lb/>
+<l><hi rendition="#aq">Oppida cum pagis Lygiorum tresve duosve</hi></l><lb/>
+<l><hi rendition="#aq">vix, qui &#x017F;int vigiles bis tria lu&#x017F;tra, vident.</hi></l><lb/>
+<l><hi rendition="#aq">Hos inter cum &#x017F;im, melior non Patribus illis,</hi></l><lb/>
+<l><hi rendition="#aq">Ip&#x017F;e quoq;, hinc tandem &#x017F;olvere di&#x017F;cupio.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Johannes Reiman</hi><lb/>
+Pa&#x017F;tor &amp; Decanus<lb/>
+Goldbergen&#x017F;is.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">F</hi><hi rendition="#i">erale ô lu&#x017F;trum! lu&#x017F;trum ô fatale Lygéo</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Templo, qvodclaret nomine Apo&#x017F;tolico!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Hoc intra &#x017F;pacium doctam lugere qvadrigam</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Theiologum, &amp; facere his cogitur exeqvias!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Barthi&#x017F;ium, Adamum Stolcerum luxit; &amp; illum</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Tile&#x017F;ium eluxit nondum: &amp; acerbus adest</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Heu qvartò luctus! qvando Udalricus amatos</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Kutz&#x017F;chenReuterus de&#x017F;erit &amp; moritur!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Scilicet Anti&#x017F;tes Templî, qvi dignus in Orbe</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Omnis inoblitâ qvem pietate colat.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">O tota cultum ô populo&#x017F;um funus in Urbe!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">O Animæ! ô cineri pax &#x017F;it &amp; alma qvies!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">It le&#x017F;sus c&#x0153;lo: Pater ô mî! currrus! Eqves&#xA759;!</hi></hi><note place="right">2. <hi rendition="#aq">Reg. 13 v</hi> 14.</note></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ah Eqvitem! ah curru&#x0304;! ahredde <hi rendition="#k">Jehova</hi> Patrem!</hi></hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Plangite</hi></hi></fw><lb/>
+<pb facs="#f0005" n="[5]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Plangite Theîologi Lygii! hoc &#x017F;ub marmore ve&#x017F;ter</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Kutz&#x017F;chenReuterus, gloria ve&#x017F;tra, cubat.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Triga Decanorum, Seniores, plangite Fratres!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Os, oculus ve&#x017F;ter, con&#x017F;ilium&#xA759; cadit!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qvum Superintendens Patriæ commune bonum &#x017F;it,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">O qvantum hæc claudit vilis arena bonum!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sed vivit Chri&#x017F;tus: M&#x0153;&#x017F;tis &#x017F;olamina reddet,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Pa&#x017F;torem Populo Presbyteris&#xA759; Caput.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Ex debitâ animi condo-<lb/>
+lentiâ fu&#x017F;um<lb/>
+â<lb/>
+<hi rendition="#k">Georgio Stolcero</hi><lb/>
+Eccle&#x017F;iæ Hainovien&#x017F;is<lb/>
+Pa&#x017F;tore, &amp; Dioece&#x017F;eos<lb/>
+Ejusdem Decano.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">I</hi>&#x017F;räelitici pro nominis omine, currus</hi></l><lb/>
+<l><hi rendition="#aq">Tiphys &amp; Automedon <hi rendition="#k">Kutschenreutere</hi> fui&#x017F;ti;</hi></l><lb/>
+<l><hi rendition="#aq">Qvâ JHOVÆ Lygiis Eccle&#x017F;ia militat oris.</hi></l><lb/>
+<l><hi rendition="#aq">O e&#x017F;ses, porroq&#x0301;; fores! &#x017F;ed (tri&#x017F;te) fui&#x017F;ti!</hi></l><lb/>
+<l><hi rendition="#aq">En mi&#x017F;er in c&#x0153;no qvem de&#x017F;eris orphanus hæret,</hi></l><lb/>
+<l><hi rendition="#aq">con&#x017F;ilii omnis inops, abeuntem voce &#x017F;ecutus</hi></l><lb/>
+<l><hi rendition="#aq">tri&#x017F;tis Eli&#x017F;æi, cum &#x017F;canderet æthera curru,</hi></l><lb/>
+<l><hi rendition="#aq">aligeros inter proceres, præceptor Elias:</hi></l><lb/>
+<l><hi rendition="#aq">O pater, ô &#x017F;acri Rector fidi&#x017F;sime currûs</hi></l><lb/>
+<l><hi rendition="#aq">&#x017F;i&#x017F;te gradum; qvæ <hi rendition="#k">Te</hi> vis abripit enthea &#x017F;ur&#x017F;um?</hi></l><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq">A</hi> 3</fw><fw place="bottom" type="catch"><hi rendition="#aq">Qvò</hi></fw><lb/>
+<pb facs="#f0006" n="[6]"/>
+<l><hi rendition="#aq">Qvò &#x017F;ine me tendis? cytharâ Rhodopeius Orpheus,</hi></l><lb/>
+<l><hi rendition="#aq">credere &#x017F;i fas e&#x017F;t, lethæis exciit umbris</hi></l><lb/>
+<l><hi rendition="#aq">dilectam Eurydicen; qvæ <hi rendition="#k">Te</hi> lamenta reducent</hi></l><lb/>
+<l><hi rendition="#aq">terricolis? lachrymans licet emulgere cerebrum,</hi></l><lb/>
+<l><hi rendition="#aq">pulmonesq&#x0301;; ip&#x017F;os ululatu ab&#x017F;umere tentem,</hi></l><lb/>
+<l><hi rendition="#aq">nil valeo; terris nullo revocabere le&#x017F;su.</hi></l><lb/>
+<l><hi rendition="#aq">A&#x017F;tra &#x017F;ubis, nosq&#x0301;; hoc in mundi &#x017F;tercore linqvis.</hi></l><lb/>
+<l><hi rendition="#aq">Non tamen omnis abis: in claro lumine Famæ,</hi></l><lb/>
+<l><hi rendition="#aq">nobi&#x017F;cum, &amp; grandi meritorum pondere vivis:</hi></l><lb/>
+<l><hi rendition="#aq">Immò ip&#x017F;i, &#x017F;i qvæ continget, po&#x017F;teritati</hi></l><lb/>
+<l><hi rendition="#aq">vivet in exemplum <hi rendition="#k">Kutschenreuteria</hi> virtus.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">B. M. de&#x017F;iderati&#x017F;simi Dn. vice-Superat-<lb/>
+tendentis, affinis honorati&#x017F;simi<lb/>
+L. M. Q,. peneb.<lb/>
+<hi rendition="#k">Matthæus Ruthardus</hi><lb/>
+Lubenen&#x017F;. Past. &amp; di&#x017F;trict.<lb/>
+ejusd. Decanus.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#k">Ad Tumul.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">C</hi><hi rendition="#i">Ui <hi rendition="#k">Pietas</hi> cordi; JOV Æ cui gloria curæ;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Unica cui Vitæregula <hi rendition="#k">Christus</hi> erat;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Illetuus, <hi rendition="#k">Ligie</hi> Illu&#x017F;tris, tuus Ille, verendi</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ordo Ministerii, currus &amp; Automedon;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ille DEI fidus præco, decor ille di&#x017F;erti</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Theiologi;</hi> ille &#x017F;acræ Relligionis apex,</hi></hi></l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Post</hi></hi></fw><lb/>
+<pb facs="#f0007" n="[7]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Po&#x017F;t exantlatos vitæ officii&#xA759; labores,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Hoc <hi rendition="#k">Kutschreuterus</hi> conditur in tumulo.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qvid fles, ó <hi rendition="#k">Ligie,</hi> tàm &#x017F;ancto funere raptum?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Eusebie,</hi> ad tumulum cur ita tri&#x017F;tè &#x017F;edes?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ingeminans: Pater ô! Pater ô! Ligii&#xA759; Ducatus</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">At&#xA759; <hi rendition="#k">Israelis</hi> currus &amp; Automedon!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">At non hoc capitur tumulo; &#x017F;altim exiit ævo,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Jam &#x017F;atur ævi, ævi jam melioris amans.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Excepit mortem intrepidus, Currum&#xA759;&#x0301; citos&#xA759;&#x0301;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Eliæ</hi> ad c&#x0153;lum qvêis veheretur eqvos.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Jam&#xA759; extra curas, qvibus hoc jactatus in orbe e&#x017F;t,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Et qvæ nos orbos undi&#xA759; in orbe rotant,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Hêic ubi pax, ubi vera qvies, ubi perpetuum Ver,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">C&#x0153;lica per tempe templa&#xA759; lætus ovat.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">O felix! cui po&#x017F;t tot tanta&#xA759; prælia, &#x017F;ervo</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Emerito, <hi rendition="#k">Dominus</hi> præmia tanta dedit!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">At tu, qvi <hi rendition="#k">Ligiis Kutschreuterum</hi> eripis, ô fac,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Alter ab hoc ut &#x017F;it currus &amp; Automedon!</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">In luctu dome&#x017F;tico &amp; lecto<lb/>
+ægritudinis mem. &amp; ob-<lb/>
+&#x017F;erv. c.<lb/>
+L. M. Q. F.<lb/>
+M. <hi rendition="#k">Ad. Thebesius,</hi> P. L. C.<lb/>
+Eccl. Wol. Pa&#x017F;tor, ejus<lb/>
+demq; Ducatus Senior<lb/>
+primarius.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Vanum</hi></fw><lb/>
+<pb facs="#f0008" n="[8]"/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">V</hi>anum e&#x017F;t, amitti defunctos, credere, vitâ:</hi></l><lb/>
+<l><hi rendition="#aq">Præmitti ad Chri&#x017F;tum c&#x0153;lica &#x017F;acra docent.</hi></l><lb/>
+<l><hi rendition="#aq">Sic benè: &#x017F;ic no&#x017F;tros nimiùm lugere nefas e&#x017F;t:</hi></l><lb/>
+<l><hi rendition="#aq">Sedibus expectant nosmet in ætheriis.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Joannes Ungarus</hi><lb/>
+Pa&#x017F;tor &amp; Senior Parchvvicen&#x017F;is.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq">ULRICUS CUTSCHREITERUS<lb/>
+in Anagr. demtâ ad&#x017F;pir:<lb/>
+CUCURRIT: SECURUS SILET.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">T</hi></hi><hi rendition="#i"><hi rendition="#k">ilesium</hi> &#x017F;equitur <hi rendition="#k">Cutschenreiterus,</hi> &amp; Orbi</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Tri&#x017F;te <hi rendition="#k">Vale</hi> moriens dicit, &amp; a&#x017F;tra &#x017F;ubit</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Thejologus gravis &amp; præ&#x017F;tans, ut Templa deinceps</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">tám facilé fuerint vix habitura parem.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Lumina tolluntur qvod tám claris&#x017F;ima, &#x017F;igna</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Con&#x017F;picua offen&#x017F;i qvis neget e&#x017F;se DEI?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Approperant pænæ, &#x017F;i non maturius, actum e&#x017F;t,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">peccator vitamcorrigat in melius.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Cutschreiterus</hi> iter fixum cum laude <hi rendition="#k">Cucurrit</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">jam&#xA759; coronatus præco &#x017F;tat ante DEUM.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Héic habuit curas&#xA759;, catenatos&#xA759; labores,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Securus</hi> &#x017F;ed nunc c&#x0153;licâ in Arce <hi rendition="#k">Silet.</hi></hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Ex condolent: animo &#x017F;cribeb.<lb/>
+<hi rendition="#k">Zacharias Hofmannus</hi><lb/>
+Herrn&#x017F;tadien&#x017F;: Pa&#x017F;tor &amp;<lb/>
+Senior.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Parodia</hi></fw><lb/>
+<pb facs="#f0009" n="[9]"/>
+<div n="2"><head/><div n="3"><head><hi rendition="#aq">I.<lb/>
+Parodia<lb/>
+<hi rendition="#i">Od. 7. lib. 2. Carm. Horat.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">U</hi><hi rendition="#k">lrice,</hi> nobis Seculum in alterum</hi></l><lb/>
+<l><hi rendition="#aq">Subducte CHRISTO curriculi duce,</hi></l><lb/>
+<l><hi rendition="#aq">qui Te focillabit Quiritem</hi></l><lb/>
+<l><hi rendition="#aq">In Patriâ, rutiloq; c&#x0153;lo,</hi></l><lb/>
+<l><hi rendition="#aq">Hei! hei! meorum prime &#x017F;odalium!</hi></l><lb/>
+<l><hi rendition="#aq">Cum quo morantem &#x017F;æpè diem logo</hi></l><lb/>
+<l><hi rendition="#aq">Fregi, recordatus frequentes</hi></l><lb/>
+<l><hi rendition="#aq">Theilogico in &#x017F;tadio labores:</hi></l><lb/>
+<l><hi rendition="#aq">Tecum antè Morbos, ac Animæ fugam</hi></l><lb/>
+<l><hi rendition="#aq">Sen&#x017F;i relictâ jam propè copulâ,</hi></l><lb/>
+<l><hi rendition="#aq">Cum fracta virtus, &amp; fugaces</hi></l><lb/>
+<l><hi rendition="#aq">(Tri&#x017F;té) &#x017F;imul &#x017F;tupuére pul&#x017F;us:</hi></l><lb/>
+<l><hi rendition="#aq">Sed me per umbras Hippocrates celer</hi></l><lb/>
+<l><hi rendition="#aq">Jovà valentem rettulit au&#x017F;pice;</hi></l><lb/>
+<l><hi rendition="#aq">Te nuper adbu&#x017F;tum re&#x017F;orbens</hi></l><lb/>
+<l><hi rendition="#aq">Morta rotis tulit æ&#x017F;tuo&#x017F;is.</hi></l><lb/>
+<l><hi rendition="#aq">Ergò obligatam redde animam DEO,</hi></l><lb/>
+<l><hi rendition="#aq">Sacrâq; fes&#x017F;um militiâ latus</hi></l><lb/>
+<l><hi rendition="#aq">Depone &#x017F;ub tumbâ tuâ, nec</hi></l><lb/>
+<l><hi rendition="#aq">Parce bonis Tibi de&#x017F;tinatis:</hi></l><lb/>
+<fw type="sig" place="bottom"><hi rendition="#aq">B</hi></fw><fw type="catch" place="bottom"><hi rendition="#aq">Illuctuo&#x017F;o</hi></fw><lb/>
+<pb facs="#f0010" n="[10]"/>
+<l><hi rendition="#aq">Illuctuo&#x017F;o c&#x0153;lica gaudio</hi></l><lb/>
+<l><hi rendition="#aq">Tentoria exple: &#x017F;ume capacibus</hi></l><lb/>
+<l><hi rendition="#aq">Magmenta de campis: Redemtot</hi></l><lb/>
+<l><hi rendition="#aq">Deproperare Tibi coronam</hi></l><lb/>
+<l><hi rendition="#aq">Curabit auro, quam DEUS Arbiter</hi></l><lb/>
+<l><hi rendition="#aq">Servat beatis: Non Ego longius</hi></l><lb/>
+<l><hi rendition="#aq">Morabor in terris! ademto</hi></l><lb/>
+<l><hi rendition="#aq">Dulce mihi fugere e&#x017F;t Amico.</hi></l></lg></div><lb/>
+<div n="3"><head><hi rendition="#aq">II.<lb/>
+<hi rendition="#g"><hi rendition="#k">Tumulus.</hi></hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">H</hi>eîc <hi rendition="#k">Cutzschreuterus</hi> Dux &amp; &#x017F;acri Ordinis</hi></l><lb/>
+<l><hi rendition="#k"><hi rendition="#et">Icon,</hi></hi></l><lb/>
+<l><hi rendition="#aq">Heîc &#x017F;imul Ars, Pietas, Svada, Areteq&#x0301;; cubant:</hi></l><lb/>
+<l><hi rendition="#aq">Næ res infelix hæc e&#x017F;t mortalibus! uno</hi></l><lb/>
+<l><hi rendition="#aq">Quattuor includi Numina Sarcophago!</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">&#x017F;cribb.<lb/>
+Collegæ &amp; Compatri de&#x017F;ider ati&#x017F;so.</hi><lb/>
+<hi rendition="#k">Georg. Thebesius</hi><lb/>
+Lignic. Archi-Diaconus.</hi></hi></salute></closer></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">L</hi><hi rendition="#i">Ucifer infelix Phäethon&#xA759;&#x0301; auriga fuerunt,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Axe rotâ fractis lap&#x017F;us uter&#xA759;&#x0301; polo.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Fortunatior hoc <hi rendition="#k">Kutschenreuterus,</hi> &amp; illo,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Dicatur merito jure beatus Eqves.</hi></hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Excidit</hi></hi></fw><lb/>
+<pb facs="#f0011" n="[11]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Excidit ille qvidem vitæ qvod degitur hujus</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Curriculo, Fato præcipitante &#x017F;uo.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ne tamen hæc po&#x017F;sit nocui&#x017F;se ruina, cadenti</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Angelicæ &#x017F;ese &#x017F;uppo&#x017F;uêre manûs.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ip&#x017F;e DEUS fidum tendentem brachia &#x017F;ervum</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Excepit blando &#x017F;u&#x017F;tinuit&#xA759;&#x0301; &#x017F;inu.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Inde levans facit ut &#x017F;ublimior omnibus a&#x017F;tris,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">E&#x017F;seda prælu&#x017F;tri flammea luce premat.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Hîc Evangelicis qvi vexit inante qvadrigis;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Dum vixit, <hi rendition="#k">Dominum</hi> pectore &amp; ore &#x017F;uum,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Svaviter hunc iterum c&#x0153;le&#x017F;tis gloria portat,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Servat habet&#xA759;&#x0301;, &amp; in hac Ip&#x017F;e coru&#x017F;cus ovat.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sle&#x017F;iacis fuerat præclarum lumen in oris,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nunc regione micat &#x017F;idus in Eli&#x017F;iâ.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nomen honor atum niveis fert Fama veredis,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Publicitus memori cantat ubi&#xA759;&#x0301; tubâ.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">In vitam Tibi mors, <hi rendition="#k">Vir Dive,</hi> occa&#x017F;us in ortum</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vergit, &amp; ecce mali finis origo boni e&#x017F;t.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">At Nos orbamur mi&#x017F;ericapite at&#xA759;&#x0301; coronâ,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qvalis eras, cito &#x017F;ed de&#x017F;inis e&#x017F;se nimis.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Propterea m&#x0153;rens Eccle&#x017F;ia Præ&#x017F;ule rapto,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Grex Pa&#x017F;tore, &#x017F;uo pignora cara Patre.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Lygius Orbis &amp; urbs nuper mirata docentem,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nunc, qvoniam tacet hæc aurea lingva, dolent.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ordo Mini&#x017F;terii &#x017F;acrati totus, &amp; omnis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">De qvibus es meritus tam bene, præ&#x017F;tat idem.</hi></hi></l><lb/>
+<fw type="sig" place="bottom"><hi rendition="#i"><hi rendition="#aq">B</hi> 2</hi></fw><fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Sed</hi></hi></fw><lb/>
+<pb facs="#f0012" n="[12]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Sed reqviem capias, &amp; præmia digna laborum,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Invideat tantæ nemo &#x017F;alutis opes.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Manibus interea &#x017F;anctis dum grata loqvuntur</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Multi, &#x017F;im venerans hoc quo&#xA759; fas mihi &#x017F;it.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Accipe pro ver&#x017F;u gemitum, pro carmine fletum,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Pro thure, ex animis hæc mea vota. Vale.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Gaudeat in c&#x0153;lis mens, floreaturna, vire&#x017F;cant</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">O&#x017F;sa, tuæ maneat laudis in orbe decus.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Jova</hi> det hi&#x017F;ce locis &#x017F;ua qvi vineta deinceps</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vtiliter &#x017F;imili dexteritate colant.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#k">Valentinus Fibingenius</hi> P. L. C.<lb/>
+Eccle&#x017F;ia&#x017F;tes in Brauchit&#x017F;ch-<lb/>
+dorff. et Diæce&#x017F;eos Ligni-<lb/>
+cen&#x017F;is primariæ<lb/>
+Senior.</hi></hi></salute></closer><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</div>  <div n="2"><head/><lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">L</hi>uctibus immer&#x017F;us Ligius Wohlicusq&#x0301;; Ducatus</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#k">Ulrici</hi> deflet fata &#x017F;uprema &#x017F;ui,</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ulrici Kutschreutteri</hi> cui nomen hone&#x017F;tum</hi></l><lb/>
+<l><hi rendition="#aq">Devota Eu&#x017F;ebie, nobilis Evepie,</hi></l><lb/>
+<l><hi rendition="#aq">Cognitio hi&#x017F;toriæ, variæq&#x0301;; &#x017F;cientia mira</hi></l><lb/>
+<l><hi rendition="#aq">Doctrinæ, eximiâ non &#x017F;ine laude dedit:</hi></l><lb/>
+<l><hi rendition="#aq">Qui <hi rendition="#k">Superintendentis</hi> obibat munia dextrò,</hi></l><lb/>
+<l><hi rendition="#aq">Et <hi rendition="#k">Consistor</hi> I &#x017F;plendor honorus erat,</hi></l><lb/>
+<l><hi rendition="#aq">Qvi Petro-Paulino in templo &#x017F;acra ju&#x017F;sa docebat,</hi></l><lb/>
+<l><hi rendition="#aq">Informans animos in pietate rudes:</hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Quæ</hi></fw><lb/>
+<pb facs="#f0013" n="[13]"/>
+<l><hi rendition="#aq">Qvæ meditabatur &#x017F;acri my&#x017F;teria verbi</hi></l><lb/>
+<l><hi rendition="#aq">Scripturæ expo&#x017F;uit cum ratione piè:</hi></l><lb/>
+<l><hi rendition="#aq">Cum &#x017F;olabatur, tunc dulci oratio melle</hi></l><lb/>
+<l><hi rendition="#aq">Dulcior extabat, pectora pre&#x017F;sa levans:</hi></l><lb/>
+<l><hi rendition="#aq">Cum minitabatur p&#x0153;nas iramq&#x0301;; futuram,</hi></l><lb/>
+<l><hi rendition="#aq">Illum dixi&#x017F;ses fulmina dura loqvi:</hi></l><lb/>
+<l><hi rendition="#aq">Officij &#x017F;acri, &#x017F;ic &#x017F;emper ubiq; fidelis</hi></l><lb/>
+<l><hi rendition="#aq">Atq&#x0301;; animo præ&#x017F;ens expediebat opus.</hi></l><lb/>
+<l><hi rendition="#aq">Curriculum vivendi (ut homo) inculpatus agebat,</hi></l><lb/>
+<l><hi rendition="#aq">E&#x017F;set ut exemplar pulchraq&#x0301;; norma gregis.</hi></l><lb/>
+<l><hi rendition="#aq">Unius uxoris vir amore fideq&#x0301;; probatus</hi></l><lb/>
+<l><hi rendition="#aq">Cui curæ &#x017F;emper &#x017F;obria vita fuit,</hi></l><lb/>
+<l><hi rendition="#aq">Moribus ornatus placidis, moderata probabat,</hi></l><lb/>
+<l><hi rendition="#aq">Et mi&#x017F;eris promtam &#x017F;ponte ferebat opem.</hi></l><lb/>
+<l><hi rendition="#aq">Omnibus in&#x017F;tructus donis divina doccndi</hi></l><lb/>
+<l><hi rendition="#aq">Cum &#x017F;ummo hoc &#x017F;tudio &amp; laude peregit opus.</hi></l><lb/>
+<l><hi rendition="#aq">Non luxus, vini non immoderatior u&#x017F;us,</hi></l><lb/>
+<l><hi rendition="#aq">Ferventi cæpit cor pietate calens:</hi></l><lb/>
+<l><hi rendition="#aq">Æqvus eratcunctis, nec vi pugnare &#x017F;olebat,</hi></l><lb/>
+<l><hi rendition="#aq">Turpe qvod extabat re&#x017F;puit Ip&#x017F;e lucrum:</hi></l><lb/>
+<l><hi rendition="#aq">In vita placidus lites fugiebat acerbas,</hi></l><lb/>
+<l><hi rendition="#aq">Nec cupidà vanas mente petebatopes:</hi></l><lb/>
+<l><hi rendition="#aq">Huic pia cura domum dextrè natosq&#x0301;; regendi,</hi></l><lb/>
+<l><hi rendition="#aq">Laudando ob&#x017F;equio qui coluére patrem:</hi></l><lb/>
+<l><hi rendition="#aq">Non nova cudendi hunc malè &#x017F;anus ceperat ardor,</hi></l><lb/>
+<l><hi rendition="#aq">Nec novus in &#x017F;acris vel malus ho&#x017F;pes erat:</hi></l><lb/>
+<fw type="sig" place="bottom"><hi rendition="#aq">B</hi> 3</fw><fw type="catch" place="bottom"><hi rendition="#aq">Non</hi></fw><lb/>
+<pb facs="#f0014" n="[14]"/>
+<l><hi rendition="#aq">Non turbavit ei vitio&#x017F;a &#x017F;uperbia mentem,</hi></l><lb/>
+<l><hi rendition="#aq">Qvæ damnata <hi rendition="#k">Deo,</hi> qvæ reprobata piis:</hi></l><lb/>
+<l><hi rendition="#aq">Nec qvicqvam admi&#x017F;it ve&#x017F;ana calumnia pravo</hi></l><lb/>
+<l><hi rendition="#aq">Qvod &#x017F;va&#x017F;u invidiæ rodere jure qveat.</hi></l><lb/>
+<l><hi rendition="#aq">Hac ratione <hi rendition="#k">Dei</hi> cæle&#x017F;tia munera adauxit,</hi></l><lb/>
+<l><hi rendition="#aq">Charus eratq&#x0301;; magis cultus honore piis.</hi></l><lb/>
+<l><hi rendition="#aq">Talis <hi rendition="#k">Kutschreutterus</hi> erat: jure ergodolendam</hi></l><lb/>
+<l><hi rendition="#aq">Jacturam tanti qvis neget e&#x017F;se viri?</hi></l><lb/>
+<l><hi rendition="#aq">Jure dolet certè Ligius Wohlicusq; Ducatus</hi></l><lb/>
+<l><hi rendition="#aq">PresbyterIq&#x0301;; &#x017F;imul tota corona &#x017F;acri:</hi></l><lb/>
+<l><hi rendition="#aq">Et <hi rendition="#k">ConsistorI</hi> illu&#x017F;tris Clari&#x017F;simus ordo</hi></l><lb/>
+<l><hi rendition="#aq">Lugendi cau&#x017F;am &#x017F;ufficienter habet:</hi></l><lb/>
+<l><hi rendition="#aq">Et quæ dicentem &#x017F;æpe admirata &#x017F;tupebat</hi></l><lb/>
+<l><hi rendition="#aq">In Petro-Paulino concio multa, dolet.</hi></l><lb/>
+<l><hi rendition="#aq">Qvin-etiam conjunx quondam dilecta mariti</hi></l><lb/>
+<l><hi rendition="#aq">Funera tàm fidi, fletq&#x0301;; doletq&#x0301;; gemens:</hi></l><lb/>
+<l><hi rendition="#aq">Qvid natas, natum &amp; generos virtute decoros</hi></l><lb/>
+<l><hi rendition="#aq">Dicam, qvos omnes m&#x0153;ror acerbus edit?</hi></l><lb/>
+<l><hi rendition="#aq">At qvamvis ju&#x017F;tum moveant deducta dolorem,</hi></l><lb/>
+<l><hi rendition="#aq">Illum plura tamen non minus æqua vetant.</hi></l><lb/>
+<l><hi rendition="#aq">Æternam requiem po&#x017F;t morbos po&#x017F;tq&#x0301;; labores</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#k">Kutschreutterus</hi> habet, qvam cupit Ip&#x017F;e &#x017F;ibi:</hi></l><lb/>
+<l><hi rendition="#aq">Nos jungemur Ei, fati hoc cum ju&#x017F;serit ordo:</hi></l><lb/>
+<l><hi rendition="#aq">O lux hæc nobis gaudia qvanta feret!</hi></l><lb/>
+<l><hi rendition="#aq">Intereà illius meritorum grata loqvetur</hi></l><lb/>
+<l><hi rendition="#aq">Po&#x017F;teritas famam, perpetuumq&#x0301;; decus.</hi></l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">At Tu</hi></fw><lb/>
+<pb facs="#f0015" n="[15]"/>
+<l><hi rendition="#aq">At Tu <hi rendition="#k">Christe Deus</hi> Jo&#x017F;uam &#x017F;ubmitte fidelem,</hi></l><lb/>
+<l><hi rendition="#aq">Sublati Mo&#x017F;is qvi benè portet onus.</hi></l><lb/>
+<l><hi rendition="#aq">Ut tibi decantet meritas Eccle&#x017F;ia laudes,</hi></l><lb/>
+<l><hi rendition="#aq">Qvam <hi rendition="#k">Kutschreutteri</hi> cura vigil coluit.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Devotam<lb/>
+In piè defunctum<lb/>
+Ob&#x017F;ervantiam te&#x017F;tatus<lb/>
+&#x017F;cribeb.<lb/>
+<hi rendition="#k">Michael Hene</hi> Vratisl.</hi></hi></hi></salute></closer></div><lb/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#i">Ad</hi><lb/>
+<hi rendition="#k">Nobili S.</hi><hi rendition="#sup">os</hi>&amp; <hi rendition="#k">PræstantiS.</hi><hi rendition="#sup">os</hi><lb/>
+Domini Kut&#x017F;chReutteri<lb/>
+<hi rendition="#g"><hi rendition="#k">Generos.</hi></hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">A</hi><hi rendition="#i">ccipite O &#x017F;olidâ verè virtute nitentes<space dim="horizontal"/>(mor.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Carmina, qvæ in Soceri funere dixit A-</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ip&#x017F;e minora viri meritis video i&#x017F;ta, &#x017F;ed oro, ut</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Suppleat affectus, qvod mihi Mu&#x017F;a negat.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Idem qvi &#x017F;uprà.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">Q</hi><hi rendition="#i">uidtrepidat populus? quid fundit pectore planctus!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Theiologum</hi> magnum nunc cecidis&#x017F;e dolet!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sic est. Opto loqui fal&#x017F;um, &#x017F;ed vera fatebor;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">heu cecidit Lumen! Quid? Columen cecidit!</hi></hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Lumen</hi></hi></fw><lb/>
+<pb facs="#f0016" n="[16]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Lumen proh! Columen <hi rendition="#k">LignitI,</hi> Anti&#x017F;tes, &amp; hujus</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">fulcrum Eccle&#x017F;iolæ, Pa&#x017F;tor, Amor&#xA759;&#x0301; Gregis.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Ulricus Kutschreuterus</hi> Vir, qui Arte probatus,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Doctrinâ purus, promptus &amp; ore fuit.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ah dolor! ah luctus! mihi dic <hi rendition="#k">Respublica</hi> Chri&#x017F;ti</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">num placet hoc? Tibi num &#x017F;acra <hi rendition="#k">Cathedra</hi> placet?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Non placet hoc, video, dum fletibus orarigatis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ve&#x017F;ter quod Dominus, non rediturus, abest.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sed quid flere juvat, &#x017F;u&#x017F;piria &#x017F;i&#x017F;tite, que&#x017F;tus</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">&#x017F;i&#x017F;tite, non periit: vivit, ovat&#xA759; Polo.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vivît ovat&#xA759; Polo, contemnens omnia Mundi,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">a&#x017F;picien&#x017F;&#xA759;&#x0301; <hi rendition="#k">Deum,</hi> c&#x0153;lituum&#xA759; choros.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quod &#x017F;uperest cuncti devota mente rogate,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Thejologos reliquos &#x017F;ervet ut ip&#x017F;e DEUS.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sub&#x017F;tituat&#xA759; Alium, per quem <hi rendition="#k">Respublica Christi</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">cre&#x017F;cat, &amp; æterni Patris alatur honos.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#k">Johannes Stoltzerus</hi><lb/>
+Illu&#x017F;tris Ecele&#x017F;iæ Johannéæ<lb/>
+apud Ligios, &amp; sacelli in<lb/>
+Illu&#x017F;tri&#x017F;s. Aula Parchvitiana<lb/>
+Diaconus.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">K</hi><hi rendition="#k">utschreutere</hi> tuam &#x017F;ortem ne lugeat ullus;</hi></l><lb/>
+<l><hi rendition="#aq">Quam benè Te! mundum linqvis, et a&#x017F;tra</hi></l><lb/>
+<l><hi rendition="#aq">At no&#x017F;tram &#x017F;ortem nemo non defleat; orbi (petis:</hi></l><lb/>
+<l><hi rendition="#aq">Doctore ah tanto, qvæ mala non metuo?</hi></l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">Implorare</hi></fw><lb/>
+<pb facs="#f0017" n="[17]"/>
+<l><hi rendition="#aq">Implorare <hi rendition="#k">Deum</hi> fas, omen ut auferat urbe,</hi></l><lb/>
+<l><hi rendition="#aq">Pa&#x017F;torem talem re&#x017F;tituatq; gregi.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Johannes Sevelenberg</hi><lb/>
+Med. D.</hi></hi></hi></salute></closer><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</div>  <div n="2"><head/><lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">E</hi><hi rendition="#i">t tua Kut&#x017F;chreitere rigent præcordia letho?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Fatalem&#xA759; &#x017F;ubis flebile funus humum?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nec jam præ&#x017F;tanti formabis voce liquorem</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">te&#x017F;tantem fractas pectoris e&#x017F;se fores?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Defecere oculis tua lumina? lingva rigenti</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">nectarea in tumulo victa &#x017F;opore jacet?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ne&#x017F;cio quid præ&#x017F;aga mali mea pectora volvant.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Post magnos pereunt oppida &#x017F;æpe viros.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Mathu&#x017F;alæ po&#x017F;tquam &#x017F;unt membra locata &#x017F;epulchro,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Mergitur ultrici turba relicta &#x017F;alo.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vix Lothus ob&#x017F;cænis Sodomæ dece&#x017F;ser at oris,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cum perit ætheriâ plebs male&#x017F;ana face.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Tolluntur ju&#x017F;ti, ne &#x017F;int qui m&#x0153;nia condant</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Promeritas celi frangere tuta minas.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Tolluntur ju&#x017F;ti, ne &#x017F;pectent tri&#x017F;tia p&#x0153;næ</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Verbera, &amp; irati fulmina torta DEI.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">O fortunatos quorum præcordia tellus,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">quorum animas <hi rendition="#k">Jhovæ</hi> dextra benigna fovet!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Non illis acies ferri, ne&#xA759; laxa tyranni</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Con&#x017F;ilia in &#x017F;upero &#x017F;unt metuenda &#x017F;inu.</hi></hi></l><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq"><hi rendition="#i">C</hi></hi></fw><fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">At nos</hi></hi></fw><lb/>
+<pb facs="#f0018" n="[18]"/>
+<l><hi rendition="#aq"><hi rendition="#i">At nos &#x017F;æva manent mi&#x017F;eri di&#x017F;crimina belli,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Majus &amp; extremâ conditione malum.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Selvete O cineres, tuti&#xA759; quie&#x017F;cite. Detur</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nobis vos propera transitione &#x017F;equi.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Ita inter præcipites, patriæ, bello<lb/>
+æ&#x017F;tuantis, procellas,<lb/>
+Beati&#x017F;s. Viro<lb/>
+gratulari volui, debui,<lb/>
+<hi rendition="#k">Sebastian. Alischerus</hi> P. L. C.<lb/>
+Diaconus Petro-Paulinus.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#i">ULRICUS CUTSCHENREIT ERUS<lb/>
+per Anagrammatismum:<lb/>
+HIS E CURIS ET LUCTU CURRENS.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">Q</hi>Uem mirati omnes quotquot videre; velun-</hi></l><lb/>
+<l><hi rendition="#aq">Audivere virum hunc, elogiumq&#x0301;; viri,<space dim="horizontal"/>(quam</hi></l><lb/>
+<l><hi rendition="#aq">Qui magnis curis magnoq&#x0301;; labore peregit</hi></l><lb/>
+<l><hi rendition="#aq">Munia &#x017F;ancta, <hi rendition="#k">Deus</hi> qvæ peragenda dedit,</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#k">Currens</hi> è <hi rendition="#k">Luctu et Curis</hi> My&#x017F;tarcha Ducatus</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#k">Cutschenreiterus</hi> tendit ad aftra poli.</hi></l><lb/>
+<l><hi rendition="#aq">Quàm benè &#x017F;ic mutat mundum Celi æthere; Curas</hi></l><lb/>
+<l><hi rendition="#aq">Cum requie; lætis tri&#x017F;tia, pace fugam!</hi></l><lb/>
+<l><hi rendition="#aq">Terra Vale; das terra nihil ni&#x017F;i crebrius eheu,</hi></l><lb/>
+<l><hi rendition="#aq">Cura vale &amp; luctus; &#x017F;u&#x017F;cipe JHOVA tuos.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Theoph. Feigius.</hi></hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#k">Terra</hi></hi></fw><lb/>
+<pb facs="#f0019" n="[19]"/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">T</hi><hi rendition="#i"><hi rendition="#k">erra lacus qve mihi;</hi> quondam cum emblemate</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#et">magno</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Symbola Vir magni Cæ&#x017F;aris ille tulit.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Terra polus qve mihi;</hi> tandem cùm emblemate magno</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Kutschenreuterum</hi> &#x017F;ymbola &#x017F;ancta manent.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Exu viæ in terrisrecubant, &#x017F;uper æthere vivit</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Spiritus; O verè terra polus&#xA759; viro.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nomen &amp; in terris vivit, &#x017F;uper æthere re&#x017F;tat</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Gloria; &#x017F;ic, ó &#x017F;ic terra polu&#x017F;&#xA759; viro.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Non tanto ver&#x017F;us profectu<lb/>
+Quanto eordis adfectu<lb/>
+appo&#x017F;uit<lb/>
+<hi rendition="#k">Johannes Rosatus</hi><lb/>
+Eccle&#x017F;iæ Marianæ<lb/>
+Lign. Diaconus.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/><lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">K</hi><hi rendition="#k">utschenreuterus</hi> Spon&#x017F;am ducturus ad aram</hi></l><lb/>
+<l><hi rendition="#aq">Spon&#x017F;a &#x017F;uo á Spon&#x017F;o ducitur ip&#x017F;e domum.</hi></l><lb/>
+<l><hi rendition="#aq">Orba &#x017F;uo <hi rendition="#k">Decore</hi> heu! Corda ingemuêre <list rendition="#leftBraced"><item>ligata<lb/>
+</item><item>liganda</item></list></hi></l><lb/>
+<l><hi rendition="#aq">Ca&#x017F;ta domus; bello &amp; dedita turba &#x017F;acro</hi></l><lb/>
+<l><hi rendition="#aq">Tu Patriam repetis, nos Ex&#x017F;ilio ecce relinquens:</hi></l><lb/>
+<l><hi rendition="#aq">Te tenetara nitens; Nos hara fæda malum.</hi></l><lb/>
+<l><hi rendition="#aq">&#x201E;Namq;, quid hic Mundus, turpis ni&#x017F;i lerna malo-</hi></l><lb/>
+<l><hi rendition="#aq"><space dim="horizontal"/>(rum,</hi></l><lb/>
+<fw type="sig" place="bottom"><hi rendition="#i"><hi rendition="#aq">C</hi> 2</hi></fw><fw type="catch" place="bottom"><hi rendition="#aq">&#x201E; Felix</hi></fw><lb/>
+<pb facs="#f0020" n="[20]"/>
+<l><hi rendition="#aq">&#x201E;Felix, qui Domino nup&#x017F;it, nuptum Ip&#x017F;e daturus!</hi></l><lb/>
+<l><hi rendition="#aq">&#x201E;In c&#x0153;lo Patriam, qui bene nup&#x017F;it, habet.</hi></l><lb/>
+<l><hi rendition="#aq">&#x201E;Felix, qui nubens Domino &#x017F;cit nubere! Facta</hi></l><lb/>
+<l><hi rendition="#aq">&#x201E;Copula cum Domino &#x017F;ola dolore vacat.</hi></l><lb/>
+<l><hi rendition="#aq">&#x201E;Felix, qui Domino, haud mundo confidere novit!</hi></l><lb/>
+<l><hi rendition="#aq">&#x201E;Cum Domino &#x017F;olvi copula facta nequit.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">M.</hi> <hi rendition="#k"><hi rendition="#i">Johannes Buchwæ</hi>l<hi rendition="#i">der.</hi></hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq">Ad b. Dn. Kut&#x017F;chreuteri manes;<lb/>
+de Themate Conc. funeb.<lb/>
+<hi rendition="#i">à Dn. <hi rendition="#k">Georgio Thebesio</hi> pertract.<lb/>
+&#x03C4;&#x1FF7; Joh. 3. Sic <hi rendition="#k">deus</hi> dilexit. &amp;c.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">C</hi><hi rendition="#i">or Patris æterni quæ protulit aurea dicta,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Kutschreutere</hi> tuo jamdudum condita corde,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Decedenti animæ &#x017F;olamina firma dedêre.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Dulcia Chri&#x017F;ticolis quin dant lenimina cunctis;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Et firmant animos, at&#xA759;&#x0301; anxia pectora mulcent.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ira DEI nos terret? amat nos gratia JOVÆ.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ob &#x017F;celus admis&#x017F;um cor palpitat, indignum&#xA759;&#x0301;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Te vitâ clamat Satan, æterna&#xA759;&#x0301; &#x017F;alute?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Victima totius, dic, mundí factus JESUS.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Culpa DEI non est; propriâ gens perfida culpâ</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Traditur æternis Stygio &#x017F;ub fornice p&#x0153;nis.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Parva &#x017F;ed &amp; tenuis fidei est &#x017F;cintillula: quidtum?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Omnes vult inferre poli radiantibus a&#x017F;tris;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Omnes, qui didicêre uni confidere <hi rendition="#k">Christo.</hi></hi></hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Tantus</hi></hi></fw><lb/>
+<pb facs="#f0021" n="[21]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Tantus amor &#x017F;ummi, tanta est dilectio Patris.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Terrori mors est? re&#x017F;tat nova vita beatis:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Neve perire &#x017F;init, quibus est fiducia nati.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">O veri precio&#x017F;a</hi></hi> &#x03BB;&#x03CC;&#x03B3;&#x03BF;&#x03C5; <hi rendition="#aq"><hi rendition="#i">verba, aurea verba!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Numine plena, cedro digna, &amp; de pondere verba!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quis placide te po&#x017F;se mori neget, at&#xA759;&#x0301; beatè?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quis placidè nos po&#x017F;se mori neget, at&#xA759;&#x0301; beatè?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Kutschreutere</hi> &#x017F;acri dux &amp; lux aurea c&#x0153;tûs;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Verbi Præco DEI vigil, excubitor&#xA759;&#x0301; fidelis.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#k">Andreas Celichius</hi><lb/>
+Eccl. Luben. Symmy&#x017F;ta.</hi></hi></salute></closer><lb/>
+</div><milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/><lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">K</hi>ut&#x017F;chreuterus obit: quid tum? mox alter obibit</hi></l><lb/>
+<l><hi rendition="#aq">Illiusin cathedrâ munia, vulgus ait.</hi></l><lb/>
+<l><hi rendition="#aq">Kut&#x017F;chreuterus obit: Currus &#x017F;ublatus Equesq&#x0301;;,</hi></l><lb/>
+<l><hi rendition="#aq">I&#x017F;raël, ingeminat no&#x017F;tra Thal</hi>&#x03B5;&#x03B9;<hi rendition="#aq">a, tuus.</hi></l><lb/>
+<l><hi rendition="#aq">O Eques! O Currus! quo vix felicior alter,</hi></l><lb/>
+<l><hi rendition="#aq">per <hi rendition="#k">Martem &amp; Mortem</hi> qui &#x017F;uper a&#x017F;tra vehat.</hi></l><lb/>
+<l><hi rendition="#aq">Suffice, <hi rendition="#k">Jhova,</hi> tuo populo Currumq&#x0301;; Equitemq&#x0301;;;</hi></l><lb/>
+<l><hi rendition="#aq">per <hi rendition="#k">Martem &amp; Mortem</hi> qui &#x017F;uper a&#x017F;tra veha&#x0303;t.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">M. <hi rendition="#k">Caspar Wencelius,</hi><lb/>
+Diaconus Eccle&#x017F;iæ Goldbergen&#x017F;is.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/><lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">Q</hi><hi rendition="#i">uæ lacrumæ Lygii, funduntur, dicite cives,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cur totâ planctûs edere in urbe juvat?</hi></hi></l><lb/>
+<fw type="sig" place="bottom"><hi rendition="#i"><hi rendition="#aq">C</hi> 3</hi></fw><fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Cau&#x017F;a</hi></hi></fw><lb/>
+<pb facs="#f0022" n="[22]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Cau&#x017F;a gravis nimiùm; nimiùm fune&#x017F;ta&#xA759;&#x0301; cau&#x017F;a</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">effundi in planctus nos jubet, &amp; lacru mas.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Kut&#x017F;chreuterus obit, Sacræ vox aurea Sv adæ,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Divinæ Eu&#x017F;ebies gloria, præco DEI,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Præco DEI fidus, quem Chri&#x017F;ti verba docentem</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">excipere attonitis &#x017F;vevimus auriculis!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Siccine Kut&#x017F;chreuterus obit? proh flebile fatum,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">quod merito planctus exprimit, &amp; lacrumas!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Kut&#x017F;chreuterus obit! quantus Vir! quantus ô ille!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">quem nemo dignis laudibus æqui paret,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Et quem, &#x017F;i lubeat complecti plurima paucis,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Heliam ve&#x017F;trum dicere jure queam.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Heliam populo ip&#x017F;e Suo donârat Jöva:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Hunc etiam ve&#x017F;trâ Numen in Æde locat.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Heliam æthereis ornârat Spiritus olim</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">dotibus: his etiam præditus i&#x017F;te fuit.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Helias fidus commi&#x017F;sum munus obibat:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Con&#x017F;imilem Ulricus præ&#x017F;titit i&#x017F;te fidem.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Su&#x017F;tulit Helias miro fervore Prophetas,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">condiderant aras, quitibi, fæde Baal:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sic fuit &amp; ve&#x017F;ter, quanquam humani&#x017F;simus ille,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">talem execratus pectore &amp; ore gregem.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sed bene habet; veluti Thisbites ignea qvondam</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">flammante in curru venit ad a&#x017F;trapoli:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sic Kutshreuterus quo&#xA759; cel&#x017F;o invectus Olympo,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">&amp; &#x017F;uperis junctus, &#x017F;idera clara tenet.</hi></hi></l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Nos</hi></hi></fw><lb/>
+<pb facs="#f0023" n="[23]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Nos autem ó Pater! I&#x017F;räelis <hi rendition="#k">Currus Eques&#xA759;&#x0301;</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">jure exclamamus, dum cito raptus abit.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Si&#x017F;tite jam lacrumas, &amp; planctus &#x017F;i&#x017F;tite cives,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">&amp; potius &#x017F;ummo fundite Vota DEO;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ut porro Heliam vobis, aut præ&#x017F;tet Eli&#x017F;am,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">qui &#x017F;imili &#x017F;tudio munia &#x017F;acra colat!</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et">&#x03C3;&#x03C5;&#x03BC;&#x03C0;&#x03B1;&#x03B8;&#x03B5;&#x03AF;&#x03B1;&#x03C2; &#x1F15;&#x03BD;&#x03B5;&#x03F0;&#x03B1; <hi rendition="#aq">plangebat<lb/>
+<hi rendition="#k">Paulus Hallmann</hi> Diac.<lb/>
+Hainovien&#x017F;is.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#i">De Abitu beati&#x017F;simo<lb/>
+Animæ beatæ.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">A</hi>ngeLICô CVrrV <hi rendition="#k">k</hi>VtsChenreIter<hi rendition="#k">Vs oLy</hi>MpI,</hi></l><lb/>
+<l><hi rendition="#aq">â CVrIs fVgIens, teCta beata petIt.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">M. <hi rendition="#k">Aug. Feigius,</hi> Eccle-<lb/>
+&#x017F;ia&#x017F;t. Adelsd.</hi></hi></hi></salute></closer><lb/>
+</div><milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/><lg type="poem"><l>&#x03A4;&#x03BF;&#x1FE6;&#x03C4;' &#x1F00;&#x03B3;&#x03B1;&#x03D1;&#x03CE;&#x03C4;&#x03B1;&#x03C4;&#x03CC;&#x03BD; &#x1F10;&#x03C3;&#x03C4;&#x03B9; &#x03C0;&#x03CC;&#x03BB;&#x03B7;&#x03B9;&#x03C4;&#x03B5; &#x03C0;&#x03B1;&#x03BD;&#x03C4;&#x03AF; &#x03C4;&#x03B5; &#x03B4;&#x03AE;&#x03BC;&#x1FF3;,</l><lb/>
+<l>&#x1F4C;&#x03C3;&#x03C4;&#x03B9;&#x03C2; &#x1F00;&#x03BD;&#x1F74;&#x03C1; &#x03B4;&#x03B9;&#x03B1;&#x03B2;&#x1F70;&#x03C2; &#x1F10;&#x03BD; &#x03C0;&#x03C1;&#x03BF;&#x03BC;&#x03AC;&#x03C7;&#x03BF;&#x03B9;&#x03C3;&#x03B9; &#x03BC;&#x03AD;&#x03BD;&#x1FC3;</l><lb/>
+<l>&#x039D;&#x03C9;&#x03BB;&#x03B5;&#x03BC;&#x03AD;&#x03BF;&#x03C2; &#x03B1;&#x1F30;&#x03C3;&#x03C1;&#x1FB6;&#x03C2; &#x03B4;&#x1F72; &#x03C6;&#x03C5;&#x03B3;&#x1FC6;&#x03C2; &#x1F10;&#x03C0;&#x1F76; &#x03C0;&#x03AC;&#x03B3;&#x03C7;&#x03C5; &#x03BB;&#x03AC;&#x03C4;&#x03B7;&#x03C4;&#x03B1;&#x03B9;,</l><lb/>
+<l>&#x03A8;&#x03C5;&#x03C7;&#x1F74;&#x03BD; &#x03BA;&#x03B1;&#x1F76; &#x03D1;&#x03C5;&#x03BC;&#x1F78;&#x03BD; &#x03C4;&#x03BB;&#x03AE;&#x03BC;&#x03BF;&#x03BD;&#x03B1; &#x03C0;&#x03B1;&#x03C1;&#x03B8;&#x03AD;&#x03BC;&#x03B5;&#x03BD;&#x03BF;&#x03C2;.</l><lb/>
+<l>&#x0391;&#x1F32;! &#x03C4;&#x03BF;&#x1FD6;&#x03CC;&#x03C2; &#x03C4;&#x03B5; &#x03C0;&#x03C1;&#x03BF;&#x03B1;&#x03C3;&#x03C0;&#x03B9;&#x03C3;&#x03C4;&#x1F74;&#x03C2; &#x03BB;&#x03CC;&#x03B3;&#x03BF;&#x03C5; &#x1F26;&#x03B5; &#x03B8;&#x03B5;&#x03BF;&#x1FD6;&#x03BF;,</l><lb/>
+<l>&#x03A0;&#x03BF;&#x03B9;&#x03BC;&#x1F74;&#x03BD; &#x03C4;&#x1FF6;&#x03BD; &#x03C8;&#x03C5;&#x03C7;&#x1FF6;&#x03BD; &#x1F14;&#x03BD;&#x03BD;&#x03BF;&#x03BF;&#x03C2; &#x1F21;&#x03BC;&#x03B5;&#x03C4;&#x03AD;&#x03C1;&#x03C9;&#x03BD;.</l><lb/>
+<l>&#x1F08;&#x03BD;&#x03D1;' &#x1F67;&#x03BD; &#x03C4;&#x1F78;&#x03BD; &#x03C0;&#x03B5;&#x03BD;&#x03D1;&#x03BF;&#x1FE6;&#x03C3;&#x03B9;&#x03BD; &#x1F41;&#x03BC;&#x1FF6;&#x03C2; &#x03BD;&#x03AD;&#x03BF;&#x03B9;, &#x1F20;&#x03B4;&#x1F72; &#x03B3;&#x03AD;&#x03C1;&#x03BF;&#x03BD;&#x03C4;&#x03B5;&#x03C2;,</l><lb/>
+<l>&#x1F08;&#x03C1;&#x03B3;&#x03B1;&#x03BB;&#x03AD;&#x1FF3; &#x03B4;&#x1F72; &#x03C0;&#x03CC;&#x03D1;&#x1FF3; &#x03C0;&#x1FB6;&#x03C3;&#x03B1; &#x03BA;&#x03AD;&#x03BA;&#x03B7;&#x03B4;&#x03B5; &#x03C0;&#x03CC;&#x03BB;&#x03B9;&#x03C2;.</l>  <fw type="catch" place="bottom">&#x0391;&#x1F32;!</fw>
+<pb facs="#f0024" n="[24]"/>
+<l>&#x0391;&#x1F32;! &#x1F29;&#x03BC;&#x1FF6;&#x03BD; &#x03BA;&#x03B5;&#x03C6;&#x03B1;&#x03BB;&#x1FC6;&#x03C2; &#x03C3;&#x03C4;&#x03B5;&#x03C6;&#x03B1;&#x03BD;&#x03CC;&#x03C2; &#x03C4;&#x03B5; &#x03BA;&#x03BB;&#x03AD;&#x03BF;&#x03C2; &#x03C4;&#x03B5; &#x1F10;&#x03C1;&#x03B5;&#x03AF;&#x03C0;&#x03B5;&#x03B9;,</l><lb/>
+<l>&#x1F18;&#x03BB;&#x03BB;&#x03B5;&#x03AF;&#x03C0;&#x03B5;&#x03B9; &#x03C4;&#x03B5; &#x03D1;&#x03B1;&#x03BD;&#x1F7C;&#x03BD; &#x1F04;&#x03BB;&#x03B3;&#x03B5;&#x03B1; &#x03BA;&#x03B1;&#x1F76; &#x03C3;&#x03C4;&#x03BF;&#x03BD;&#x03B1;&#x03C7;&#x03AC;&#x03C2;.</l><lb/>
+<l>&#x039D;&#x03B1;&#x1F76;, &#x03BA;&#x03CD;&#x03B5;&#x03B9; &#x1F25;&#x03B4;&#x03B5; &#x03C0;&#x03CC;&#x03BB;&#x03B9;&#x03C2;, &#x03B4;&#x03AD;&#x03BF;&#x03C2;&#x1F10;&#x03C3;&#x03C4;&#x1F76;, &#x03C0;&#x03AC;&#x03D1;&#x03B7;&#x03BC;&#x03B1; &#x03C4;&#x03AD;&#x03BA;&#x1FC3; &#x03BC;&#x1F74;,</l><lb/>
+<l>(&#x0391;&#x1F32;!) &#x1F00;&#x03BA;&#x03BF;&#x03BB;&#x03BF;&#x03C5;&#x03D1;&#x03BF;&#x1FE6;&#x03BD; &#x03C4;&#x1FF6;&#x03BD; &#x03C4;&#x1FF7; &#x03D1;&#x03B1;&#x03BD;&#x03AC;&#x03C4;&#x1FF3; &#x1F08;&#x03BD;&#x03AD;&#x03C1;&#x03C9;&#x03BD;.</l><lb/>
+<l>&#x03C3;&#x03C5;&#x03BC;&#x03C0;&#x03B1;&#x03D1;&#x1F74;&#x03C2; </l></lg>  <closer><salute><hi rendition="#et"><hi rendition="#aq">M. <hi rendition="#k">Martinus</hi></hi> <hi rendition="#fr">Rothman</hi><lb/>
+<hi rendition="#aq">PoëtaLaur. Cæ&#x017F;. &amp; Scholæ<lb/>
+Lign. Pro. R.</hi></hi></salute></closer><lb/>
+</div><milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/><lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">H</hi>actenus acceptus, gratusq; <hi rendition="#k">Huldrice</hi> fui&#x017F;ti,</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#k">Kutschreutere</hi> Bonis, Nomen &amp; Omen</hi></l><lb/>
+<l><hi rendition="#aq">Gratus &amp; acceptus germano idiomate dictus,<space dim="horizontal"/>(erat.</hi></l><lb/>
+<l><hi rendition="#aq">Gratus &amp; ante <hi rendition="#k">Deum,</hi> gratus &amp; ante homines.</hi></l><lb/>
+<l><hi rendition="#aq">Verè <hi rendition="#k">Huldricus</hi> eras, claris&#x017F;ime præco Sionis,</hi></l><lb/>
+<l><hi rendition="#aq">Ely&#x017F;iæq; Duci, Lignitiiq; Duci.</hi></l><lb/>
+<l><hi rendition="#aq">Verè <hi rendition="#k">Huldricus</hi> eras, My&#x017F;tarum &#x017F;tella coru&#x017F;ca</hi></l><lb/>
+<l><hi rendition="#aq">Lignicioq; gregi, Wolavioq; gregi.</hi></l><lb/>
+<l><hi rendition="#aq">Verè <hi rendition="#k">Huldricus</hi> eras, Urbi, Templisq; Scholisq;,</hi></l><lb/>
+<l><hi rendition="#aq">Deliciumq; chori, deliciumq; domûs.</hi></l><lb/>
+<l><hi rendition="#aq">Ex re nomen erat. Sed enim magè gratus Jövæ</hi></l><lb/>
+<l><hi rendition="#aq">Quem trahit in Cathedram per cita fata poli.</hi></l><lb/>
+<l><hi rendition="#aq">Ergò ne nimium tàm gratum hunc ho&#x017F;pitem olym-</hi></l><lb/>
+<l><hi rendition="#aq">Plangite, quem Superum gratia tanta beat.<space dim="horizontal"/>[pi</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">memoriæ cau&#x017F;a &#x017F;cr.<lb/>
+<hi rendition="#k">Andreas Gebauer</hi><lb/>
+Diacon. Wol.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Corporis</hi></fw><lb/>
+<pb facs="#f0025" n="[25]"/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">C</hi><hi rendition="#i">Orporis infirmum &#x017F;y&#x017F;tema ex parte fui&#x017F;se</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Kut&#x017F;chreutere tui, &amp; &#x017F;emina mortis habens,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">I&#x017F;te tuus, tri&#x017F;ti qvem lumine vidimus omnes,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Di&#x017F;ce&#x017F;sus vitæ ex hac regione docet.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Altera &amp; hæc melior pars, auræ flammula &#x017F;anctæ,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Num pereat, pereant cuncta vel o&#x017F;sa viri?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Non perit, a&#x017F;t mortale &amp; item junguntur in uno</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Si immortale, negat vita &#x017F;ubire necem.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sarcina corporeæ tran&#x017F;it cum pulvere molis,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Parta &#x017F;et ingenio fama, perennis erit.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sic moriens vivis, quod&#xA759;&#x0301; est confundere mortem,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Victorem vincis nomine &amp; arte tuum.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">O da, Chri&#x017F;te, tuis tam clara trophæa mini&#x017F;tris,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vivant ut meritis nunc &amp; arce poli.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Deb. ob&#x017F;. ergò pauc. hæc<lb/>
+adj.<lb/>
+<hi rendition="#k">Petrus Thebesius</hi> Pa&#x017F;tor<lb/>
+Seifersd.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#i">Vdalricus Cuts&#x017F;chr&#x0153;uterus Pa&#x017F;tor Petro-Pau-<lb/>
+linus &amp; Vice-Superintendens<lb/>
+Liegnicien&#x017F;is.</hi></hi><lb/>
+&#x0395;&#x03BD; &#x1F00;&#x03BD;&#x03B1;&#x03D7;&#x03B1;&#x03BC;&#x03BC;&#x03B1;&#x03C4;&#x03B9;&#x03C3;&#x03BC;&#x1FF7;<lb/>
+<hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Princeps:</hi> Curia: Eccle&#x017F;ia lugete; perit ve-<lb/>
+&#x017F;ter Lutherus: pons Civitatis. DEUS! non<lb/>
+&#x017F;is durus! non!</hi></hi></head><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq"><hi rendition="#i">D</hi></hi></fw><fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Lugete,</hi></hi></fw><lb/>
+<pb facs="#f0026" n="[26]"/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">L</hi>ugete, ô Vos! m&#x0153;&#x017F;ta Eccle&#x017F;ia: Curia: <hi rendition="#k">Princeps:</hi></hi></l><lb/>
+<l><hi rendition="#aq">Lutherus ve&#x017F;ter morte perit &#x017F;ubitâ.</hi></l><lb/>
+<l><hi rendition="#aq">Civibus, heu! perit hîc ve&#x017F;tris pons. Multa per hunc</hi></l><lb/>
+<l><hi rendition="#aq">Vos pervenerunt commoda, dante DEO. (ad</hi></l><lb/>
+<l><hi rendition="#aq">O quoties vobis Dia &amp; &#x017F;olamine plena,</hi></l><lb/>
+<l><hi rendition="#aq">Plenaq; doctrinâ percipienda dedit!</hi></l><lb/>
+<l><hi rendition="#aq">O quoties flexis genibus Vos ve&#x017F;traq; JOVÆ</hi></l><lb/>
+<l><hi rendition="#aq">Hic commendavit, &#x017F;ic mala multa fugans:</hi></l><lb/>
+<l><hi rendition="#aq">O DEUS! ô non &#x017F;is tam durus! parce JEHOVA!</hi></l><lb/>
+<l><hi rendition="#aq">Ho&#x017F;tibus, hæc, &#x017F;it ne, Eccle&#x017F;ia, præda tuis!</hi></l><lb/>
+<l><hi rendition="#aq">A&#x017F;t! (præda ip&#x017F;e, DEO &#x017F;ic permittente, gemebat</hi></l><lb/>
+<l><hi rendition="#aq">qui &#x017F;emper, mortis fit.) dolor! ô Lachrymæ!</hi></l><lb/>
+<l><hi rendition="#aq">Siccine Cuts&#x017F;chr&#x0153;utere perit tua Vita? perit non.</hi></l><lb/>
+<l><hi rendition="#aq">Vivit enim ante homines fama: Anima ante</hi></l><lb/>
+<l><hi rendition="#aq">Urna tegat corpus: &#x017F;ed Me&#x0303;s potiatur am&#x0153;nâ (<hi rendition="#k">Deum.</hi></hi></l><lb/>
+<l><hi rendition="#aq">Sede Beatorum. Junget Utrumq; Tuba.</hi></l><lb/>
+<l><hi rendition="#aq">Ducimus interea nosintra, &#x017F;pemq; metumq;</hi></l><lb/>
+<l><hi rendition="#aq">Hîc Vitam mi&#x017F;eri. <hi rendition="#k">Christe</hi> veni atq; bea!</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Michael Spörerus</hi> Lygio-<lb/>
+&#x017F;il. in</hi></hi> <hi rendition="#fr">Crot&#x017F;chitz</hi><lb/>
+<hi rendition="#aq"><hi rendition="#i">Pa&#x017F;tor.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#k">Ulricus Gutschreitterus.</hi><lb/>
+per Anagr:<lb/>
+Ut Surculus Chri&#x017F;tireget.</hi></head><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">Non</hi></fw><lb/>
+<pb facs="#f0027" n="[27]"/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">N</hi><hi rendition="#i">On aliquis cecidit den&#x017F;i de fece popelli,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Gemma &#x017F;ed, &amp; <hi rendition="#k">Ligii</hi> pulchra Corona Soli:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quid? cecidit! vice <hi rendition="#k">LignitI</hi> My&#x017F;tarcha Ducatûs,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Vir</hi> magnus, plenus Nectare &amp; Ambro&#x017F;iâ.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Ulricus Gutschreitterus</hi> nempe, Arte Sacerdos,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Phæbi Patronus, Præ&#x017F;idium&#xA759;&#x0301; Chori.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ah dolor! ah luctus! quid ago? non occidit hic <hi rendition="#k">Vir,</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sed viret <hi rendition="#k">ut Christi Surculus,</hi> imò <hi rendition="#k">R<gap reason="illegible" unit="chars" quantity="1"/>git.</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">O viret! ó regit! ergò etiam <hi rendition="#k">Reget</hi> at&#xA759;&#x0301; virebit</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Surculus ut Christi,</hi> &amp; pulchra Corona Poli.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et">&#x03A3;&#x03C5;&#x03BC;&#x03C0;&#x03B1;&#x03B8;&#x03B5;&#x03AF;&#x03B1;&#x03C2; <hi rendition="#aq">declarandæ &#x017F;tudio<lb/>
+f.<lb/>
+<hi rendition="#k">Augustinus Gerlachius</hi> Gor-<lb/>
+licius Eccle&#x017F;iæ Parchvvic:<lb/>
+Diaconus.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#c"><hi rendition="#aq">Vir<lb/>
+[heu! qvondam]<lb/>
+<hi rendition="#i">Reveréndâ dignitate, Religionis Zelo,<lb/>
+Eruditionis laude præclari&#x017F;simus<lb/>
+Dominus</hi><lb/>
+Udalrichus Gut&#x017F;chenreuterus, Pa&#x017F;tor<lb/>
+Petro-Paulinus Lignit&#x017F;ien&#x017F;is, ac<lb/>
+Vice-Superintendens.<lb/>
+[per Anagramma:]<lb/>
+<hi rendition="#i">Tu purus Luther anus clares Theologus, ignita<lb/>
+dicis, per-pius cen&#x017F;eris, &amp; nunc in Su-<lb/>
+pera tendis.</hi></hi></hi></head><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq">D</hi> 2</fw><fw place="bottom" type="catch"><hi rendition="#aq">Te &#x017F;in-</hi></fw><lb/>
+<pb facs="#f0028" n="[28]"/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">T</hi>E &#x017F;incera Fides, Doctrina ignita, piumq;</hi></l><lb/>
+<l><hi rendition="#aq">Innocui Studium, Præ&#x017F;ul, dum vita maneret,</hi></l><lb/>
+<l><hi rendition="#aq">In &#x017F;tygios animabant armabantq; furores.</hi></l><lb/>
+<l><hi rendition="#aq">Scilicet Hoc Clypeum, Telum I&#x017F;ta, &#x017F;ed illa Bipen-</hi></l><lb/>
+<l><hi rendition="#aq">Fida mini&#x017F;trabant, qvi qveîs indutus ab Alto, <hi rendition="#et">(nem</hi></hi></l><lb/>
+<l><hi rendition="#aq">Perpetuò, felix Ho&#x017F;tem pro&#x017F;ternit in Armis.</hi></l><lb/>
+<l><hi rendition="#aq">Nunc, qvia pugnatum &#x017F;atis e&#x017F;t, qvia Numine</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#et">dextro,</hi></hi></l><lb/>
+<l><hi rendition="#aq">Fu&#x017F;i &#x017F;uccumbunt Ho&#x017F;tes, JOVAH Ip&#x017F;e Brabeutes,</hi></l><lb/>
+<l><hi rendition="#aq">Dulciter expan&#x017F;is &#x017F;tat ad O &#x017F;tia Sideris, ulnis,</hi></l><lb/>
+<l><hi rendition="#aq">Inq; tui amplexum Te ex&#x017F;pectat, Tuq; &#x017F;uperna</hi></l><lb/>
+<l><hi rendition="#aq">C&#x0153;le&#x017F;tis fidus Domini intras Gaudia Servus.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">interprete<lb/>
+<hi rendition="#g"><hi rendition="#k">Petro Henningo</hi></hi> Eccle&#x017F;iæ<lb/>
+Christi qvæ Steudnitz I colligitur<lb/>
+Mini&#x017F;ter.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">Q</hi><hi rendition="#i">Ui &#x017F;uperintendit, &#x017F;uprà qvi qværit id Unum,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Næ Superintendens is mihi verus erit!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Talis erat no&#x017F;ter Ligiâ</hi> Kut&#x017F;chreuter <hi rendition="#i">in Urbe,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Taliter &amp; vîxit, taliter &amp; docuit.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">O pia! ô æthereo doctrina rigata liqvore!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">O Deo! ô Angelico nobile dogma choro!</hi></hi></l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Vivat</hi></hi></fw><lb/>
+<pb facs="#f0029" n="[29]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Vivat Fama! Bonum &#x017F;uprà qvod qvæ&#x017F;ijt Unum,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nunc habet. Æternùm hinc &#x017F;alveat &amp; valeat!</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Debitæ condolentiæ ergô<lb/>
+F.<lb/>
+<hi rendition="#g"><hi rendition="#k">Martinus Scultetus</hi></hi><lb/>
+Pa&#x017F;tor in Oy&#x017F;s.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">C</hi>ælica mundanis qvis, qvi præferre recu&#x017F;at</hi></l><lb/>
+<l><hi rendition="#aq">I&#x017F;thoc præ&#x017F;ertim turbine? nullus homo.</hi></l><lb/>
+<l><hi rendition="#aq">Adlancem appende, &amp; mundum cælumq; decenter</hi></l><lb/>
+<l><hi rendition="#aq">Pax erit in c&#x0153;lo, mars reboatq; &#x017F;olo.</hi></l><lb/>
+<l><hi rendition="#aq">Immanis mi&#x017F;eros mavors tàm Corda fatigat,</hi></l><lb/>
+<l><hi rendition="#aq">Ut nil &#x017F;it potius, qvàm bene velle mori.</hi></l><lb/>
+<l><hi rendition="#aq">Chri&#x017F;tiadum qvis non revocanti lætus Jövæ</hi></l><lb/>
+<l><hi rendition="#aq">Vellet ade&#x017F;se &#x017F;uo, &amp; &#x017F;picla &#x017F;ubire necis?</hi></l><lb/>
+<l><hi rendition="#aq">Viventi cum &#x017F;it nulli vixi&#x017F;&#x017F;e negatum,</hi></l><lb/>
+<l><hi rendition="#aq">Vita qvid i&#x017F;ta fugax? e&#x017F;t labor, atq; dolor.</hi></l><lb/>
+<l><hi rendition="#aq">Felix (exæqvet dignus qvi Ne&#x017F;toris annos)</hi></l><lb/>
+<l><hi rendition="#aq">Cui datur optata morte, qviete, frui.</hi></l><lb/>
+<l>&#x1F42;&#x03BB;&#x03B2;&#x03B9;&#x03BF;&#x03C2; <hi rendition="#aq">Ulricus no&#x017F;ter qvoq; morte vocatus</hi></l><lb/>
+<l><hi rendition="#aq">Ad cæli &#x017F;edes,</hi> &#x1F04;&#x03B8;&#x03BB;&#x03B9;&#x03BF;&#x03C2; <hi rendition="#aq">e&#x017F;&#x017F;e neqvit.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Condolens apponebat<lb/>
+<hi rendition="#g"><hi rendition="#k">Georg. Hülsius</hi></hi><lb/>
+Pa&#x017F;t. O&#x017F;singen&#x017F;is.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq">D</hi> 3</fw><fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#k">Ulricus</hi></hi></fw><lb/>
+<pb facs="#f0030" n="[30]"/>
+<div n="2"><head>&#x0391;&#x03BD;&#x03B1;&#x03D7;&#x03B1;&#x03BC;&#x03BC;&#x03B1;&#x03C4;&#x03B9;&#x03C3;&#x03BC;&#x03CC;&#x03C2;<lb/>
+<hi rendition="#aq"><hi rendition="#k">Ulricus Cotschenreuterus.<lb/>
+En, Curre ut Custos lucis, re.</hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">F</hi><hi rendition="#i">elix, qui Velox, celeri pede, currit ad æquam</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Metam, ceu levipes currere Cerva &#x017F;olet;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sedmagis hic felix, Velox, per &#x017F;axa per ignes,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Curriculum Vitæ currere qui poterit;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Attamen è cunctis e&#x017F;t felici&#x017F;simus ille,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qui ad Cælos placidâ currere morte pote&#x017F;t;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">E&#x017F;t ergo felix, e&#x017F;t ter&#xA759;&#x0301; quater&#xA759; beatus,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">My&#x017F;tarches, nuper qui Lygiæ occubuit,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ah! Cot&#x017F;chreuterus, vigilans Athleta Jehovæ,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cui Lache&#x017F;is, vitæ, perfida, fila &#x017F;ecat.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cu&#x017F;tos lucis erat <hi rendition="#k">Verbi,</hi> qvod corde fovebat;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cu&#x017F;tos lucis erat Verbi, itidem ore docens;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cu&#x017F;tos lucis erat Fidei per facta micantis,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cui cor &amp; os &amp; opus lucida tot fuerant.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Currit Is admetam, vitæ melioris, olympi;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Currit Is ad JESUM, per mala mille, &#x017F;uum;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Currit Is &amp; &#x017F;uperat &#x017F;excenta pericula; cæli</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Limina &#x017F;telliferi, tutus ovans&#xA759; &#x017F;ubit.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ergò quid Charites? vi&#x017F;æ velamine Mu&#x017F;æ,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Lugubri &#x017F;acrum cingere velle caput?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Mæ&#x017F;ta&#xA759; quid Ph&#x0153;bæa Cohors? quid Thespia Tempe</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Lugetis? planctum cel&#x017F;a Trophæa datis?</hi></hi></l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Cur&#x017F;us</hi></hi></fw><lb/>
+<pb facs="#f0031" n="[31]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Cur&#x017F;us hic e&#x017F;t felix, patriam quia currit ad arcem,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nil ibi terrenæ &#x017F;idera fecis habent.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Currimus hùc omnes; affectet quis&#xA759; piorum</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sub&#x017F;equier! meritò gratulor ergò Tibi:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">En Curre, ut Custos Lucis, re;</hi> &#x017F;ecla caducis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Lucis rellinquens, gaudia mille cape.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Con&#x017F;angvinit.</hi> &#x1F15;&#x03BD;&#x03B5;&#x03BA;&#x03B1;, <hi rendition="#aq">verè</hi> &#x03C3;&#x03C5;&#x03BC;&#x03C0;&#x03AC;-<lb/>
+&#x03C7;&#x03C9;&#x03BD; <hi rendition="#aq">plangeb.<lb/>
+<hi rendition="#k">Anthonius Wathsius.</hi> Pa&#x017F;tor</hi><lb/>
+<hi rendition="#fr">in Groß-Kriechen.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">O</hi>Rbi qvod lux e&#x017F;t; navi remus; vigil Urbi;</hi></l><lb/>
+<l><hi rendition="#aq">Kut&#x017F;chreuterus erat, Præ&#x017F;ul in æde &#x017F;acrâ.</hi></l><lb/>
+<l><hi rendition="#aq">Nauclerus &#x017F;apiens, lux &#x017F;plendens, pervigil heros,</hi></l><lb/>
+<l><hi rendition="#aq">Vir pietate gravis, Vir gravitate pius.</hi></l><lb/>
+<l><hi rendition="#aq">Ante diem tantus cadit! O violentia fati</hi></l><lb/>
+<l><hi rendition="#aq">Qvod Kut&#x017F;chreuterum &#x017F;urripit ante diem!</hi></l><lb/>
+<l><hi rendition="#aq">Lugent Templa, &#x017F;cholæ, Cives, Ligiusq; Ducatus,</hi></l><lb/>
+<l><hi rendition="#aq">Qveîs præ&#x017F;ens vigilans, profuit officio.</hi></l><lb/>
+<l><hi rendition="#aq">Sed ce&#x017F;set luctus, felici &#x017F;orte beatus</hi></l><lb/>
+<l><hi rendition="#aq">Jam Superintendens coelica Templa colit.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#g"><hi rendition="#k">Gottfridus</hi></hi></hi></hi> <hi rendition="#fr">Gebauer</hi><lb/>
+<hi rendition="#aq"><hi rendition="#i">Pa&#x017F;tor Mundt&#x017F;chicien&#x017F;is.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Sidus</hi></hi></fw><lb/>
+<pb facs="#f0032" n="[32]"/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">S</hi><hi rendition="#i">idus erat Ligio Kut&#x017F;chenreuterus in orbe,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Pura heic doctrina &amp; lux pia Vita fuit.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">A&#x017F;t, eheu, &#x017F;idus palle&#x017F;cit &amp; occidit! En mors</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Exting vit clari lumen utrum&#xA759;&#x0301; viri!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sideris occa&#x017F;um tenebræ comitantur opacæ;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">P&#x0153;narum &#x017F;eqvitur nox gemebunda necem.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Parce, deus, den&#x017F;as iræ &amp; propelle tenebras;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">At&#xA759; aliud Ligio &#x017F;idus in orbe loca,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cujus &#x017F;it purus &#x017F;plendor, cur&#x017F;us&#xA759; probatus,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qvod lux &#x017F;it populo, presbyteris&#xA759;&#x0301; caput.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Martinus Polius</hi></hi> Pa&#x017F;t.<lb/>
+In</hi> <hi rendition="#fr">Conradßdorff.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">Q</hi>Ui &#x017F;ic commis&#x017F;is fruitur, gaudetq; talentis,</hi></l><lb/>
+<l><hi rendition="#aq">Serviatut multis, præmia dupla capit:</hi></l><lb/>
+<l><hi rendition="#aq">Hoc <hi rendition="#k">Kutschreuterus,</hi> mortis qvi &#x017F;emitam adivit,</hi></l><lb/>
+<l><hi rendition="#aq">Præ&#x017F;titit: idcircó præmia dupla capit.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Melchior Hentschelius,</hi><lb/>
+Eccles. Neudorfianæ Pastor.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/><div n="3"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">M</hi><hi rendition="#i">ortuus ante diem qvod <hi rendition="#k">Kutschreuterus,</hi> Ala&#x017F;tor</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Omen habere negat, Numen ine&#x017F;se negat.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ridiculum e&#x017F;t huic, atqve Epicuri de grege porcis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Salvifici verbi qvos pia &#x017F;cita latent.</hi></hi></l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Veram</hi></hi></fw><lb/>
+<pb facs="#f0033" n="[33]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Veram abeo &#x017F;ed &#x017F;i rationem forte repo&#x017F;cas,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Littera &#x017F;cripturæ cui &#x017F;acro &#x017F;ancta patet,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Tam citò &#x017F;urreptum o&#x017F;tendet, ne fabula turbæ</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Is foret, irridet qvæ &#x017F;celerata, Pium.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Multa pios circum veniunt incommoda, multos</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Venit at ereptum dextra benigna DEI.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sat gravidas &#x017F;celerum me&#x017F;ses qvi vidit, earum</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Afacie ablatus Numine dante DEI.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Conce&#x017F;&#x017F;e in tumulo jam <hi rendition="#k">Kutschreutere</hi> qvieti</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Tute vacas, lacrymis non revocande pijs.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vivat in amplexu JOVÆ pars corpore major</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Summa dies jungat donec utramqve polo.</hi></hi></l></lg></div><lb/>
+<div n="3"><head><hi rendition="#aq">II.</hi></head><lb/>
+<lg type="poem"><l>&#x1F4D;&#x03C2; &#x03B6;&#x03C9;&#x1F74;&#x03BD; &#x03BA;&#x03B1;&#x03C4;&#x1F70; &#x03BA;&#x03B1;&#x1F76; &#x03B4;&#x03B9;&#x03B4;&#x03B1;&#x03C7;&#x1F74; &#x03B5;&#x1F56; &#x1F10;&#x03C3;&#x03C4;&#x03B9;&#x03BD; &#x1F04;&#x03BC;&#x03C9;&#x03BC;&#x03BF;&#x03C2;</l><lb/>
+<l>&#x1F18;&#x03C3;&#x03D1;&#x03BB;&#x1F78;&#x03C2; &#x03B4;&#x1F74; &#x03C0;&#x03BB;&#x03B5;&#x1FD6;&#x03CC;&#x03BD; &#x03BC;&#x03BF;&#x03B9; &#x03B4;&#x03BF;&#x03BA;&#x03B5;&#x1FD6; &#x1F20;&#x1F72; &#x03BA;&#x03B1;&#x03BA;&#x1F78;&#x03C2;.</l><lb/>
+<l>&#x039A;&#x039F;&#x03A5;&#x03A4;&#x03A3;&#x03A7;&#x03A1;&#x0395;&#x03A5;&#x03A4;&#x0397;&#x03A1;&#x0395; &#x0398;&#x03B5;&#x03BF;&#x1FE6; &#x03C0;&#x03BF;&#x03BB;&#x03BB;&#x1FF6;&#x03BD; &#x1F00;&#x03BD;&#x03C4;&#x03AC;&#x03BE;&#x03B9;&#x03BF;&#x03C2; &#x1F04;&#x03BB;&#x03BB;&#x03C9;&#x03BD;</l><lb/>
+<l>&#x03A4;&#x03BF;&#x1FD6;&#x03BF;&#x03C2; &#x1F14;&#x03B7;&#x03C2; &#x03B3;&#x03BD;&#x03C9;&#x03C3;&#x03C4;&#x1F78;&#x03C2; &#x03C0;&#x03AC;&#x03BD;&#x03C4;&#x03BF;&#x03D1;&#x03B5;, &#x03C4;&#x03BF;&#x1FD6;&#x03BF;&#x03C2;  &#x1F14;&#x03B7;&#x03C2;.</l><lb/>
+<l>&#x039D;&#x1FE6;&#x03BD; &#x03B5;&#x1F50;&#x03B4;&#x03B1;&#x03AF;&#x03BC;&#x03BF;&#x03BD;' &#x1F14;&#x03C7;&#x03B5;&#x03B9;&#x03C2; &#x03C4;&#x03BF;&#x03CD;&#x03C4;&#x03BF;&#x03C5; &#x03B2;&#x03AF;&#x03BF;&#x03C4;&#x03BF;&#x03B9;&#x03BF; &#x03C4;&#x03B5;&#x03BB;&#x03B5;&#x03C5;&#x03C4;&#x1F74;&#x03BD;</l><lb/>
+<l>&#x0395;&#x1F56; &#x03D1;&#x03BD;&#x03AE;&#x03C3;&#x03BA;&#x03B5;&#x03B9; &#x1F00;&#x03B3;&#x03B1;&#x03D1;&#x03BF;&#x1FE6; &#x03C4;&#x03BF;&#x1FE6;&#x03B4;&#x03B5; &#x03B2;&#x03AF;&#x03BF;&#x03C5; &#x03BC;&#x03B5;&#x03C4;&#x03AD;&#x03C7;&#x03C9;&#x03BD;.</l></lg>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">C</hi>Ujus vita Viri neqvit &amp; doctrina reprendi</hi></l><lb/>
+<l><hi rendition="#aq">Ille Bonus dici cur mereatur habet.</hi></l><lb/>
+<l><hi rendition="#aq">Talis eras inter tu <hi rendition="#k">K<hi rendition="#i">utschreutere</hi></hi> docentes</hi></l><lb/>
+<l><hi rendition="#aq">Non ficta hæc qvondam &#x017F;emina laudis habens.</hi></l><lb/>
+<l><hi rendition="#aq">Ergo qvis bene te vita hac ce&#x017F;si&#x017F;se negaret?</hi></l><lb/>
+<l><hi rendition="#aq">Nam malè Vir nullas, qvi bene vivit, obit.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">F. h. et a. t. e.<lb/>
+<hi rendition="#g"><hi rendition="#k">Johannes Haidorn</hi></hi><lb/>
+ConR. Schol. Lig.</hi></hi></hi></salute></closer></div></div><lb/>
+<fw type="sig" place="bottom"><hi rendition="#aq">E</hi></fw><fw type="catch" place="bottom">Nur</fw><lb/>
+<pb facs="#f0034" n="[34]"/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#in">N</hi>ur die&#x017F;es kra&#x0364;ncket &#x017F;ehr/ daß in den a&#x0364;rg&#x017F;ten zeiten</l><lb/>
+<l>Olieb&#x017F;tes Vaterland/ der Todt von deiner Seiten</l><lb/>
+<l>Der Ma&#x0364;nner be&#x017F;ten Kern/ hin nimpt durch grim&#x0303;e</l><lb/>
+<l><hi rendition="#et">Macht/</hi></l><lb/>
+<l>Da doch jhr wei&#x017F;er Sinn &#x017F;tets auff dein Heil</l><lb/>
+<l><hi rendition="#et">gedacht.</hi></l><lb/>
+<l>Es hat nun <hi rendition="#aq">Luna</hi> fa&#x017F;t fu&#x0364;nff mal den Lauff geendet</l><lb/>
+<l>Vmb jhren Erdenkreiß/ als bey vns angelendet</l><lb/>
+<l>Der &#x017F;chnelle Go&#x0364;tter Both/ vnd bo&#x0364;&#x017F;e bot&#x017F;chafft bracht/</l><lb/>
+<l>Wie Liegnitz deine Zierd von allen hoch geacht/</l><lb/>
+<l>Die Sterbligkeit verbracht/ vnd zwar in &#x017F;chnellen &#x017F;tunden</l><lb/>
+<l>O mehr alß bo&#x0364;&#x017F;e Zeit/ da man jhn Todt gefunden!</l><lb/>
+<l>Weh nun der armen Schar/ die jetzt ohn allenrath</l><lb/>
+<l>Vmb her leufft/ alß ein Schaff/ daß keinen Hirten hat.</l><lb/>
+<l>Euch/ Herr Kut&#x017F;chreuter/ euch mein ich mit ewren Gaben</l><lb/>
+<l>Die leider nun mit euch im Tode &#x017F;ind vergraben/</l><lb/>
+<l>Die fa&#x017F;t nicht men&#x017F;chlich warn/ es hette noch derGei&#x017F;t/</l><lb/>
+<l>Der &#x017F;ich vom Himmel &#x017F;chwingt/ dieSeelen allermei&#x017F;t</l><lb/>
+<l>Durch euch zu jhm gebracht/ vnd viel in wenig Stunden</l><lb/>
+<l>Gantz von der Welt entzuckt/ mit Gottes gun&#x017F;t verbunden/</l><lb/>
+<l>Wenn nicht deß Todes Gifft euch vnverhofft verletzt/</l><lb/>
+<l>Vnd von den Lebenden zur Todten Zahl ver&#x017F;etzt.</l><lb/>
+<l>Allein zu fru&#x0364;h/ zu fru&#x0364;h &#x017F;eyd jhr vns noch ge&#x017F;torben/</l><lb/>
+<l>Der be&#x017F;te Tro&#x017F;t der Stadt i&#x017F;t nun mit euch verdorben:</l><lb/>
+<l>Stirbt &#x017F;chon ein &#x017F;olche&#xA75B; Man&#x0303;/ der nichts als fro&#x0364;migkeit</l><lb/>
+<l>Jm Mund vnd Hertzen hat/ &#x017F;o tra&#x0364;gt man billich leidt.</l><lb/>
+<fw type="catch" place="bottom">Man</fw><lb/>
+<pb facs="#f0035" n="[35]"/>
+<l>Man dacht/ Jhr &#x017F;oltet noch/ diß Land vnd Stadt erlo&#x0364;&#x017F;en</l><lb/>
+<l>Durch eifriges Gebet von viel vnd gro&#x017F;&#x017F;em bo&#x0364;&#x017F;en/</l><lb/>
+<l>So mu&#x0364;&#x017F;&#x017F;en wir vor diß/ O rechte gro&#x017F;&#x017F;e noth:</l><lb/>
+<l>Mit gro&#x017F;&#x017F;em Hertzeleid anho&#x0364;ren ewren Todt.</l><lb/>
+<l>Wenn ich die Worte nur thu in betrachtung bringen/</l><lb/>
+<l>Die auch deß Hertzen grund vermochten durch zudringen</l><lb/>
+<l>Wenn von euch Gottes Wort/ durch Gei&#x017F;tes hu&#x0364;lff vnd</l><lb/>
+<l>die be&#x017F;te Seelen&#x017F;peiß ward zu erquickung bracht; (macht/</l><lb/>
+<l>So pfleget &#x017F;ich mein Hertz in trauren einzu&#x017F;chli&#x017F;&#x017F;en/</l><lb/>
+<l>Vnd meiner Thra&#x0364;nenbach/ vor Leide zuergi&#x017F;&#x017F;en.</l><lb/>
+<l>Doch alles i&#x017F;t vmb&#x017F;on&#x017F;t! es ho&#x0364;rt dennoch mein Sinn</l><lb/>
+<l>Von wem ich fragen mag/ Herr Vlrich i&#x017F;t dahm.</l><lb/>
+<l>So &#x017F;ind wir Sterblichen/ auch in den be&#x017F;ten Jahren</l><lb/>
+<l>Da mu&#x0364;&#x017F;&#x017F;en wir gemach einander nacher fahren</l><lb/>
+<l>Wie jmmer eine Fluth/ die ander von &#x017F;ich treibt/</l><lb/>
+<l>Vnd keine durch den Strom ohn fort geri&#x017F;&#x017F;en bleibt.</l><lb/>
+<l>Euch i&#x017F;t gar wol ge&#x017F;chehn/ die hochbedrengten Zeiten</l><lb/>
+<l>Die treffen euch nun nicht/ vnd was zu allen &#x017F;eiten</l><lb/>
+<l>Vnß mehr vnd mehr bedrengt/ euch i&#x017F;t anjetzo wol/</l><lb/>
+<l>Wir die wir vbrig &#x017F;ind/ &#x017F;tehn noth vnd Jammervol.</l><lb/>
+<l>Was trawren wir denn &#x017F;o/ daß jhr &#x017F;eyd weggenommen/</l><lb/>
+<l>Vnd zu dem rechten Port der &#x017F;ichern Frewden kommen/</l><lb/>
+<l>Wir mu&#x0364;&#x017F;&#x017F;en mit Gedult erwarten vn&#x017F;er Ziel/</l><lb/>
+<l>Biß der/ &#x017F;o alles &#x017F;chafft/ vns zu &#x017F;ich holen wil.</l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">M. <hi rendition="#g"><hi rendition="#k">David Preibisius</hi></hi></hi><lb/>
+von Glogaw auß Schle&#x017F;ien.</hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq">E</hi> 2</fw><fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Ulricus</hi></hi></hi></fw><lb/>
+<pb facs="#f0036" n="[36]"/>
+<div n="2"><head/><div n="3"><head>1.<lb/>
+<hi rendition="#aq">Ulricus Cut&#x017F;chenreuterus.<lb/>
+<hi rendition="#i">Anagr: elis: a&#x017F;pir: h.</hi><lb/>
+IN LUCE CURRET RECTUS USUS.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">H</hi><hi rendition="#i"><hi rendition="#k">Ic Usus</hi> Fidei <hi rendition="#k">Rectus</hi> vix in Cruce <hi rendition="#k">Currit;</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#k">Curret</hi> ut <hi rendition="#k">in</hi> &#x017F;uperâ <hi rendition="#k">Luce</hi> &#x017F;ubindé Poli.</hi></l></lg></div><lb/>
+<div n="3"><head>2.<lb/>
+<hi rendition="#aq">Ulricus Cut&#x017F;chenreuterus,<lb/>
+<hi rendition="#i">Anagr.</hi><lb/>
+IN LUCTU ES? HERUS SUCCURRET.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">I</hi><hi rendition="#i"><hi rendition="#k">n Luctu Rex &amp; Grex Es,</hi> Dux dum Gregis &amp; Lux</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Cutschenreuterus</hi> Morte peremptus obit?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Crede, &#x017F;upremus <hi rendition="#k">Herus Succurret,</hi> &amp; Arte peritum</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Rur&#x017F;us in huncce &#x017F;ciet &#x017F;uppeditare locum.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">In Luctu</hi> Vidua <hi rendition="#k">Es</hi> cùm Semine, quando Maritus</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">At&#xA759; Parens &#x017F;ubitâ Morte peremptus obit?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Crede, &#x017F;upremus <hi rendition="#k">Herus Succurret</hi> quâlibet in re;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Re&#xA759;&#x0301; &#x017F;ciet Vobis amplificare focum.</hi></hi></l></lg></div><lb/>
+<div n="3"><head>3.<lb/>
+<hi rendition="#aq">Ulricus Cut&#x017F;chenreiter,<lb/>
+<hi rendition="#i">Anagr.</hi><lb/>
+CHRISTE, TUSUCCURRE, LENI.<lb/>
+&#x017F;ub Per&#x017F;onâ pié demortui.</hi></head><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Tu</hi></hi></fw><lb/>
+<pb facs="#f0037" n="[37]"/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">T</hi><hi rendition="#i"><hi rendition="#k">u Sucurre</hi> Meis, &amp; <hi rendition="#k">Leni, Christe,</hi> dolores;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qveîs mea Mors Luctus; &#x017F;ed Mihi Fructus, erit.</hi></hi></l></lg><lb/>
+<div n="4"><head><hi rendition="#aq">Chronodi&#x017F;tichon<lb/>
+Cognomen beatè Defuncti, ut &amp; Men&#x017F;em<lb/>
+atq&#x0301;; diem cum Anno, Mortis ip&#x017F;ius,<lb/>
+continens.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">A</hi><hi rendition="#i">pparet nonUs bIs DenUs Inorbe <hi rendition="#k">no</hi>Ve Mber,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">k</hi>Utz&#x017F;chenreUterUs <hi rendition="#k">f</hi>ata beata sUbIt.</hi></hi></l><lb/>
+<l><hi rendition="#aq">Germanicè ità:</hi></l><lb/>
+<l><hi rendition="#fr">Der neun vnd zwantzig&#x017F;te November in der Welt</hi></l><lb/>
+<l><hi rendition="#fr">Er&#x017F;cheint/ da &#x017F;eelig durch den Todt Kutz&#x017F;chreuter felt.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">In<lb/>
+communi omnium Luctu<lb/>
+&amp; Suum hi&#x017F;ce declara-<lb/>
+re voluit<lb/>
+<hi rendition="#k">Casparvs Hofmanvs Reip:<lb/>
+Herrenstad: Notarius.</hi></hi></hi></salute></closer></div></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">D</hi>um <hi rendition="#k">Kutschreuterum</hi> fidum Superattendentem,</hi></l><lb/>
+<l><hi rendition="#aq">Eu&#x017F;ebiæq; decus trux Libitina capit,</hi></l><lb/>
+<l><hi rendition="#aq">Et Sympresbyteri, &amp; Lygiorum Eccle&#x017F;ia plangunt,</hi></l><lb/>
+<l><hi rendition="#aq">At Vidua ami&#x017F;&#x017F;um flet mage m&#x0153;&#x017F;ta Virum.</hi></l><lb/>
+<l><hi rendition="#aq">Sed qvid agas? Superis id vi&#x017F;um, ô ponito planctus,</hi></l><lb/>
+<l><hi rendition="#aq">Mortuum in hanc vitam flendo vocare neqvis.</hi></l><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq">E</hi> 3</fw><fw place="bottom" type="catch"><hi rendition="#aq">Qvi</hi></fw><lb/>
+<pb facs="#f0038" n="[38]"/>
+<l><hi rendition="#aq">Qvi c&#x0153;lum &#x017F;ubijt, redit haut has Orbis in oras.</hi></l><lb/>
+<l><hi rendition="#aq">E&#x017F;t ibi namq; qvies, hîc labor atq; dolor.</hi></l><lb/>
+<l><hi rendition="#aq">Ob &#x017F;acram hanc reqviem fido Superattendenti</hi></l><lb/>
+<l><hi rendition="#aq">Gratemur cuncti, &amp; corde gemente Deum</hi></l><lb/>
+<l><hi rendition="#aq">Oremus, factam qvo &#x017F;arciat ip&#x017F;e ruinam,</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#k">Kutschreutero</hi> aliò Eccle&#x017F;iolamq; beet,</hi></l><lb/>
+<l><hi rendition="#aq">Nimirum Chri&#x017F;ti qvi nôrit pa&#x017F;cere tantâ,</hi></l><lb/>
+<l><hi rendition="#aq">Ut <hi rendition="#k">Kutschreuterus,</hi> dexteritate gregem.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">libens meritò &#x017F;crib:<lb/>
+<hi rendition="#k">Johannes Rhüdelius,</hi> Lygius<lb/>
+Scholæ Lub: R.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">Q</hi><hi rendition="#i">Ui Voce &amp; Vita docui&#x017F;ti vivere cunctos,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Mentes&#xA759; in veri cognitione Dei;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qvi mi&#x017F;eris &#x017F;olamen eras, pre&#x017F;sis&#xA759; levamen,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Præfractis vivus terror &amp; horror item;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cujus ab ore lepos, mistus gravitate &#x017F;evera,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Permul&#x017F;it miris pectora mille modis;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sit tibi terra levis! &#x017F;it in urna purpureum ver!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Ardor</hi> multorum heu, Vir venerande jaces!</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Honoris ergò depro-<lb/>
+perab.<lb/>
+<hi rendition="#k">Caspar Reusnerus</hi> ad divæ<lb/>
+Virgin. Lign. Cantor &amp; Coll.<lb/>
+Scholæ.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Humana</hi></hi></fw><lb/>
+<pb facs="#f0039" n="[39]"/>
+<div n="2"><head/><div n="3"><head>1.</head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">H</hi>Umana &#x017F;i &#x017F;unt vanitatum vanitas,</hi></l><lb/>
+<l><hi rendition="#aq">Et verbo ut ab&#x017F;olvam, nihil:</hi></l><lb/>
+<l><hi rendition="#aq">E&#x017F;t vita no&#x017F;tra &#x017F;iq&#x0301;; obambulatio</hi></l><lb/>
+<l><hi rendition="#aq">Tri&#x017F;tem per orbis machinam:</hi></l><lb/>
+<l><hi rendition="#aq">Hic nulla nobis permanens &#x017F;i civitas;</hi></l><lb/>
+<l><hi rendition="#aq">Si vera c&#x0153;lum Patria;</hi></l><lb/>
+<l><hi rendition="#aq">Am&#x0153;na pacis &#x017F;i qvies ibi aureæ;</hi></l><lb/>
+<l><hi rendition="#aq">Superba &#x017F;i &#x017F;ecuritas.</hi></l><lb/>
+<l><hi rendition="#aq">Si vita dulcis &amp; beatitas ibi,</hi></l><lb/>
+<l><hi rendition="#aq">Ut te&#x017F;tis e&#x017F;t codex &#x017F;acer.</hi></l><lb/>
+<l><hi rendition="#aq">Felicior qvis <hi rendition="#k">Kutschereuter</hi> Te? qvis &amp;</hi></l><lb/>
+<l><hi rendition="#aq">Te mortuo felicior?</hi></l><lb/>
+<l><hi rendition="#aq">Non ergò Te jam lugeo, non lugeo</hi></l><lb/>
+<l><hi rendition="#aq">Vixi&#x017F;se Te non amplius;</hi></l><lb/>
+<l><hi rendition="#aq">Sed lûgeo cum Chri&#x017F;tianis omnibus,</hi></l><lb/>
+<l><hi rendition="#aq">Similes tui non vivere.</hi></l></lg></div><lb/>
+<div n="3"><head>2.<lb/>
+<hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Vlricus Cutschenreuterus</hi></hi><lb/>
+cum triade</hi> &#x1F10;&#x03BD; &#x0394;.<lb/>
+<hi rendition="#aq"><hi rendition="#i">Redivivus Lutherus ac Svadæ Filius.<lb/>
+Epitaphium.</hi></hi></head><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Hoc</hi></fw><lb/>
+<pb facs="#f0040" n="[40]"/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">H</hi>Oc recubat &#x017F;axo redivivus, Amice, Lutherus</hi></l><lb/>
+<l><hi rendition="#in">Filius ac Svadæ, gloria Theiloga.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">lacrumæ con&#x017F;olatoriæ<lb/>
+<hi rendition="#k">Balthasaris Hildebrandi</hi><lb/>
+Jauram p. t. Orphanographi &amp;<lb/>
+Organ: Petro-Paulini Lignic.</hi></hi></hi></salute></closer></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">E</hi><hi rendition="#i">st procul, a&#x017F;triferi templum qvà candet Olympi,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Lucida Doctorum &#x017F;edes, qveis plurimus olim</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ardor, &amp; invicti &#x017F;tudium fuit omne laboris,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">In populum re&#x017F;erare polos, at&#xA759;&#x0301; ore verendo</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Enthea c&#x0153;le&#x017F;tis diffundere munera verbi.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Illic &#x017F;idereis clarum fulgoribus agmen</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Po&#x017F;t fatum mortale coit. stat limite longo</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Flammantûm &#x017F;eries procerum; Suus omnibus ignis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Additus, &amp; propria distincti luce fruuntur,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qvales c&#x0153;lorum faculæ &#x017F;ub nocte &#x017F;ilenti</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Excludunt tenebras, &amp; lætis orbibus ardent.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Hellados hic radiant oculi, Patres&#xA759;&#x0301; Latini,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Chri&#x017F;tum illi, Chri&#x017F;tum, calamo geminare di&#x017F;erto</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">A&#x017F;sueti, &amp; multum &#x017F;criptis affundere nectar,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cum melior tibi, Roma, dies, &amp; candida &#x017F;acra</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Impietas nec-dum fædis prætexeret umbris.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Extremi acce&#x017F;sêre choro, qvi, Numine pleni,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ornârunt no&#x017F;trum præclaris dotibus ævum</hi></hi></l><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Non</hi></hi></fw><lb/>
+<pb facs="#f0041" n="[41]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Non minus, &amp; toto &#x017F;en&#x017F;êre in pectore c&#x0153;lum.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Huc Kut&#x017F;chreuterum quo&#xA759;&#x0301; po&#x017F;t di&#x017F;crimina mundi,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Et formidandos ex omni parte fragores,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Tran&#x017F;tulit omnipotens genitor, no&#x017F;tro&#xA759;&#x0301; carentem</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Pondere, &amp; imbelles exutum corporis artus,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vexit ad optati commercia fau&#x017F;ta &#x017F;ereni.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nam&#xA759;&#x0301; illum Genio pollentem, &amp; divite lingvâ,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Et pri&#x017F;cos æquantem animis, conce&#x017F;serat orbi</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ip&#x017F;e Pater, &#x017F;anctis&#xA759;&#x0301; virum donaverat aris,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Quo nemo melius divina oracula Chri&#x017F;ti</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Panderet eloquijs, &amp; dignas æthere voces</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Concipiens, blandis impleret pectora flammis.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ergò ubi purpureum tenuit novus advena limen,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Occurrunt venerandæ animæ, late&#xA759;&#x0301; nitenti;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Amplexæ medium, gaudent &#x017F;tipare coronâ,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">In&#x017F;ertum&#xA759;&#x0301; &#x017F;ibigratantur, &amp; o&#x017F;cula libant.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Illum autem morbis, at&#xA759;&#x0301; ægre&#x017F;cente &#x017F;enectâ</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Jam vacuum, jam &#x017F;pernentem mala nubila terræ,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ex templo novus ornat honos, nova gloria cæli</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Induit, &amp; puro formo&#x017F;us lumine floret!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Non &#x017F;ecus ac, turpem quoties projecit amictum</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Phæbus, &amp; ob&#x017F;tantes di&#x017F;cu&#x017F;sit in aëre nubes,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Erumpit jubar, &amp; totis pulcerrima lampas</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Igne&#x017F;cit radijs, magnum&#xA759;&#x0301; illu&#x017F;trat Olympum.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nec mora, jam nitidæ permi&#x017F;tus civibus æthræ,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cæle&#x017F;tem Sophiam, non-enarranda&#xA759;&#x0301; rerum</hi></hi></l><lb/>
+<fw type="sig" place="bottom"><hi rendition="#aq"><hi rendition="#i">F</hi></hi></fw><fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Inve&#x017F;tigat</hi></hi></fw><lb/>
+<pb facs="#f0042" n="[42]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Inve&#x017F;tigat ovans animo, Summi&#xA759;&#x0301; Parentis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ardentem, ut prius, affectum perdi&#x017F;cere gaudet,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Affectum ardentem, mundi qvo maximus Autor</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Victus, ut heu! caram mi&#x017F;eris impendere prolem</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Non fugeret, &#x017F;acro&#xA759;&#x0301; ratum decerneret ore,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ne qvisqvam, cui vera fides hoc pignore nixa,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Infandas &#x017F;tygio lueret &#x017F;ub carcere p&#x0153;nas</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Perditus, æternæ caperet &#x017F;ed gaudia vitæ.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Salve ô, æthereos inter tran&#x017F;cripte Qvirites,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">In qvorum mentes cælum de&#x017F;cenderat olim,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nunc ip&#x017F;ic&#x0153;los habitant! Nos pectore grato</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Egregias, qvæ te misêre in &#x017F;idera, dotes</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Figimus; &amp; nullis annorum tectus ab umbris,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">perpetuum claro, velut illi, nomine vives!</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#k">Andreas Sevelenbergius</hi><lb/>
+Lignicen&#x017F;is.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">H</hi>Eu Sile&#x017F;iacam terram nova lerna malorum</hi></l><lb/>
+<l><hi rendition="#aq">Induit, horrendi flebile Martis onus!</hi></l><lb/>
+<l><hi rendition="#aq">Quadrupedante &#x017F;olum &#x017F;on itu qvatit ungula, miles</hi></l><lb/>
+<l><hi rendition="#aq">Et ferus &amp; verè ferreus arma refert.</hi></l><lb/>
+<l><hi rendition="#aq">Hos infelices, &amp; durâ &#x017F;orte creatos</hi></l><lb/>
+<l><hi rendition="#aq">E&#x017F;se reor, tantis qvêis datur e&#x017F;se malis.</hi></l><lb/>
+<l><hi rendition="#aq">Ambiguis præ&#x017F;tat &#x017F;upremam claudere noctem</hi></l><lb/>
+<l><hi rendition="#aq">Rebus, &amp; Angelicos incolui&#x017F;se choros.</hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Hæc</hi></fw><lb/>
+<pb facs="#f0043" n="[43]"/>
+<l><hi rendition="#aq">Hæc, <hi rendition="#k">Kutschreuterum,</hi> jura amplexata, beatum</hi></l><lb/>
+<l><hi rendition="#aq">Abripuêre &#x017F;olo, re&#x017F;tituêre polo.</hi></l><lb/>
+<l><hi rendition="#aq">Gloria Theiologûm, doctæ mens lecta Minervæ,</hi></l><lb/>
+<l><hi rendition="#aq">Ah <hi rendition="#k">Superintendens</hi> morte &#x017F;olutus obit!</hi></l><lb/>
+<l><hi rendition="#aq">Tales mox Ligii le&#x017F;sus cecinere Coloni;</hi></l><lb/>
+<l><hi rendition="#aq">Et &#x017F;tatuunt Mu&#x017F;æ tri&#x017F;tia metra <hi rendition="#k">Viro.</hi></hi></l><lb/>
+<l><hi rendition="#aq">Flere jubet Pietas, lacrumis &#x017F;ed terminus e&#x017F;to:</hi></l><lb/>
+<l><hi rendition="#aq">Haut nimio virtus æqva &#x017F;ube&#x017F;se &#x017F;olet.</hi></l><lb/>
+<l><hi rendition="#aq">Donec multa tulit, fecit, &#x017F;udavit &amp; al&#x017F;it,</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#k">Nos Kutschreuterus</hi> de&#x017F;erit, ac moritur.</hi></l><lb/>
+<l><hi rendition="#aq">Terrea pars terram qvæ&#x017F;ivit, c&#x0153;lica c&#x0153;lum:</hi></l><lb/>
+<l><hi rendition="#aq">Utraq&#x0301;; pacatum pars habeti&#x017F;ta <hi rendition="#k">Deum.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#k">Christophorus</hi></hi> Hohmuth<lb/>
+<hi rendition="#aq">Scholæ Lignicien&#x017F;is<lb/>
+Collega.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq">Ulericus Cut&#x017F;chreiter.<lb/>
+<hi rendition="#i">per Anagr.</hi><lb/>
+TU CUR E TERRIS? CELICUS.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">S</hi><hi rendition="#i">i <hi rendition="#k">Cutschreiterum</hi> in tumulo qvis fortè &#x017F;alutet,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">&amp; tales avido fundat ab ore &#x017F;onos:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Magne Vir, <hi rendition="#k">e terris cur tu</hi> fugis ocius? &amp; tot</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">balantes, gemitu non &#x017F;ine, linqvis Oves?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Huic dubio &#x017F;ine re&#x017F;pondere putabitur: Audi,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Celicus</hi> AngelicâCivis in Urbe cluo.</hi></hi></l><lb/>
+<fw type="sig" place="bottom"><hi rendition="#i"><hi rendition="#aq">F</hi> 2</hi></fw><fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">O benè!</hi></hi></fw><lb/>
+<pb facs="#f0044" n="[44]"/>
+<l><hi rendition="#aq"><hi rendition="#i">O benè! pro Terrâ C&#x0153;lum qvi pos&#x017F;idet, ille</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">revera ex omniparte beatus homo est.</hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">ex Compas&#x017F;ione Chri&#x017F;tianâ<lb/>
+&#x017F;cribeb.</hi><lb/>
+<hi rendition="#k">Gotofredus Hofmanus</hi><lb/>
+SS. Theolog. Studio&#x017F;.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq">ULRICUS KUTSCHREUTERUS,<lb/>
+Eccles: in Ducatu Ligenic: &amp; Wolav: Su-<lb/>
+perintendens, Illu&#x017F;tris Con&#x017F;i&#x017F;torii A&#x017F;se&#x017F;-<lb/>
+&#x017F;or, atquè Templi Petro Paulini<lb/>
+Pa&#x017F;tor:</hi></head><lb/>
+<div n="3"><head><hi rendition="#c"><hi rendition="#aq"><hi rendition="#i">In Anagr.</hi></hi></hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#i">Pol!</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Satis &#x017F;it.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ac</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nullus plangat.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cur?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ecce! Hic Vir tollitur,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ut Supra</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#in">P</hi>erpetuo re&#x017F;idens c&#x0153;le&#x017F;ti in &#x017F;ede, &#x017F;olutus</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Innumeris Curis, ritè quie&#x017F;cat ovans.</hi></hi></l></lg></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Sit</hi></hi></fw><lb/>
+<pb facs="#f0045" n="[45]"/>
+<div n="3"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">S</hi><hi rendition="#i">it &#x017F;atis heus! tandem nimias &#x017F;u&#x017F;pende querelas.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Pol! plangat Lygiâ nullus in urbe diu.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Cur? Vir ab aligeris hic tollitur ecce! mini&#x017F;tris,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Præcipiti jus&#x017F;u Cunctipotentis Heri,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ut &#x017F;upra, rebus mundi queiscun&#xA759;&#x0301; relictis,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Tuta Beatorum cum grege tempora agat,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Perpetuò ac re&#x017F;idens c&#x0153;le&#x017F;ti in &#x017F;ede, &#x017F;olutus</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Innumeris Curis, ritè quie&#x017F;cat ovans;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sim licet haut judex; tamen audeo dicere: dignus</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ulricus tanta Conditione Vir est.</hi></hi></l></lg></div><lb/>
+<div n="3"><head>&#x1F10;&#x03C4;&#x03B5;&#x03BF;&#x03B4;&#x03B9;&#x03C2;.</head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#k">t</hi>ILesI, VLrICVs &#x017F;eqVItVr CItò Morte: preCabor</hi></l><lb/>
+<l><hi rendition="#aq">Vt ferat hoC LIgIo pro&#x017F;perIora &#x017F;oLo.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">Scriptum<lb/>
+â</hi> &#x03C3;&#x03C5;&#x03BC;&#x03C0;&#x03AC;&#x03C7;&#x03BF;&#x03BD;&#x03C4;&#x03B9;<lb/>
+<hi rendition="#aq"><hi rendition="#i"><hi rendition="#k">Friderico Fischero</hi></hi></hi><lb/>
+&#x03C6;&#x03B9;&#x03BB;&#x03BF;&#x03B4;&#x03B9;&#x03F0;&#x03B1;&#x03AF;&#x03C9;.</hi></salute></closer></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#k">Ulriecus Cutschenreuterus,</hi></hi><lb/>
+&#x1F00;&#x03BD;&#x03B1;&#x03D7;&#x03B1;&#x03BC;&#x03BC;&#x03B1;&#x03C4;&#x03B9;&#x03F0;&#x1FF6;&#x03C2;.<lb/>
+<hi rendition="#aq">VECTUS CURRIT LUCE SERENUS.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">V</hi>Æ nobis mi&#x017F;eris nigrâ caligine cinctis!</hi></l><lb/>
+<l><hi rendition="#aq">Lux qvia Lethæo turbine no&#x017F;tra perit.</hi></l><lb/>
+<l><hi rendition="#aq">Rebus in adver&#x017F;is qvi nos &#x017F;olamine pavit</hi></l><lb/>
+<l><hi rendition="#aq">Illius hei tri&#x017F;tis membra recondit humus.</hi></l><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq">F</hi> 3</fw><fw place="bottom" type="catch"><hi rendition="#aq">Ecce</hi></fw><lb/>
+<pb facs="#f0046" n="[46]"/>
+<l><hi rendition="#aq">Ecce Tuo, Sancti, de Nomine Nome nhabentes</hi></l><lb/>
+<l><hi rendition="#aq">Chri&#x017F;te Sacro, gemino funere Vulnus habent.</hi></l><lb/>
+<l><hi rendition="#aq">Verè qvidocuit mandata &#x017F;alubria verbi</hi></l><lb/>
+<l><hi rendition="#aq">Sacrati, doctum Mors rapit atra Virum.</hi></l><lb/>
+<l><hi rendition="#aq">Chri&#x017F;ti Militiâ duro qvi functus in ævo</hi></l><lb/>
+<l><hi rendition="#aq">Vera Poli mortis tramite tecta petit.</hi></l><lb/>
+<l><hi rendition="#aq">Totus in Urbe &#x017F;uâ vitæ qvi <hi rendition="#k">Luce Serenus</hi></hi></l><lb/>
+<l><hi rendition="#aq">Sinceræ, nec non clara <hi rendition="#k">Luce</hi>rna fuit.</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#k">Currit</hi> ab Aligeris cæle&#x017F;tia <hi rendition="#k">Vectus</hi> in A&#x017F;tra</hi></l><lb/>
+<l><hi rendition="#aq">Hic e&#x017F;t Angelicâ <hi rendition="#k">Luce Serenus</hi> ibi.</hi></l><lb/>
+<l><hi rendition="#aq">Ergo tot a&#x017F;siduos omnes deponite luctus,</hi></l><lb/>
+<l><hi rendition="#aq">Non adeò mi&#x017F;erè tri&#x017F;tia verba gemant.</hi></l><lb/>
+<l><hi rendition="#aq">Re&#x017F;pirent Viduæ tri&#x017F;ti&#x017F;sima lumina tandem,</hi></l><lb/>
+<l><hi rendition="#aq">Electi non &#x017F;int mæ&#x017F;ta &#x017F;epulchra Viri.</hi></l><lb/>
+<l><hi rendition="#aq">Una vos Natæ tantos extingvite fletus:</hi></l><lb/>
+<l><hi rendition="#aq">Tu Fili, gemitus mitte, relicte, tuos.</hi></l><lb/>
+<l><hi rendition="#aq">Ely&#x017F;ijs vivâ re&#x017F;plendet <hi rendition="#k">Luce</hi> Theatris,</hi></l><lb/>
+<l><hi rendition="#aq">Regnaq&#x0301;; &#x017F;upremi po&#x017F;sidet alta Dei.</hi></l><lb/>
+<l><hi rendition="#aq">Vivit Is in Chri&#x017F;to: Terrâ &#x017F;unt o&#x017F;sa reclu&#x017F;a</hi></l><lb/>
+<l><hi rendition="#aq">Sedtamen extremo re&#x017F;tituenda die.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Debitæ Condol. te&#x017F;tif. causâ<lb/>
+appo&#x017F;uit<lb/>
+<hi rendition="#g"><hi rendition="#k">Andreas Scultetus</hi></hi><lb/>
+Bol. Sil.<lb/>
+Et Scholæ Ligiæ alumnus.</hi></hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq"><hi rendition="#i">Qvi</hi></hi></fw><lb/>
+<pb facs="#f0047" n="[47]"/>
+<div n="2"><head/>  <lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">Q</hi><hi rendition="#i">Vî non deplorem dilecti fata Parentis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Filius, &amp; madidas dem lacrumando genas?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qvi rerum fuit una ba&#x017F;is, columen&#xA759; mearum,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Extremum cecinit voce gemente Vale.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ah fatum ferale! Pater, nos Pignora linqvis?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Tu nobis mi&#x017F;eris vulnera tanta paras?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Spes erat, ut porrò curæ Tibi Filius e&#x017F;sem,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Sollicita à teneris qvi Tibi cura fui.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Spes erat, ut Patrium Te vivo linqvere tectum</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Po&#x017F;sem, &amp; Breslæætecta &#x017F;ubire Scholæ;</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Te vivo, dilecte Parens, qvi cælite plenis</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Auxilio votis pro&#x017F;eqvereris iter:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qvi mihi porrigeres, qvæ vitæ postulat u&#x017F;us,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qværentis Clarias, per decus artis, opes:</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qvi mea, qvæ &#x017F;acris &#x017F;acrem conamina Libris,</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Fulcires precibus, qveîs grave pondus erat.</hi></hi></l><lb/>
+<l><hi rendition="#aq">&#x201E;Non leve pondus habent fidorum vota Pa-</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#et">rentum,</hi></hi></l><lb/>
+<l><hi rendition="#aq">&#x201E; Qvæ pro Gnatorum vota Salute ferunt.</hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq"><hi rendition="#i">Sed,</hi></hi></fw><lb/>
+<pb facs="#f0048" n="[48]"/>
+<l><hi rendition="#aq"><hi rendition="#i">Sed, Pater, ut moreris, mihi tanta emortua</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i"><hi rendition="#et">&#x017F;pes est;</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Vitam&#xA759;&#x0301; orbatus nunc Patre dego meam.</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Qvem vocitem, fidi qvi &#x017F;it mihi Patris ad instar?</hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Te volo, Te veneror, Te voco, &#x017F;umme Pater.</hi></hi></l><lb/>
+<l><hi rendition="#aq">&#x201E; Nil e&#x017F;t Orbatis pravo contemtius Orbi;</hi></l><lb/>
+<l><hi rendition="#aq">&#x201E;Nil magis his mi&#x017F;erum, &#x017F;it ni&#x017F;i <hi rendition="#k">Jova</hi> Pater.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">app:<lb/>
+de&#x017F;ideratis&#x017F;imum Parentem<lb/>
+dum corpore nondum licet,<lb/>
+moe&#x017F;tis&#x017F;imi animi &#x017F;uspiriis<lb/>
+&#x017F;ecutus, &#x017F;eqvens, &#x017F;ecuturus<lb/>
+Filius<lb/>
+<hi rendition="#k">Johannes Kutschenreuterus.</hi><lb/>
+Scholæ Magdalenææ apud Bres-<lb/>
+len&#x017F;es Alumnus.</hi></hi></salute></closer></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</div>  </body></text>  </TEI>
