@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Kirchenordnung: Wie es mit Christlicher Lere/ reichung der Sacrament/ Ordination der Diener des Euangelij/ Ordentlichen Ceremonien/ Visitation/ Consistorio vnd Schulen/ Jm Hertzogthumb Lünenburgk gehalten wird</title>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/s-399-4f-helmst/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/s-399-4f-helmst/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">193</measure>
+<measure type="tokens">23281</measure>
+<measure type="types">4314</measure>
+<measure type="characters">154902</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:32:50Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Distributed under the Creative Commons Attribution-ShareAlike 3.0 Generic (German) License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/nn_kirchenordnung_1598</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/nn_kirchenordnung_1598</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/nn_kirchenordnung_1598</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/nn_kirchenordnung_1598</idno>
+<idno type="DTADirName">nn_kirchenordnung_1598</idno>
+<idno type="DTAID">30064</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30064-6</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">[Braunschweig-Lüneburg, Herzog Heinrich von]: Kirchenordnung: Wie es mit Christlicher Lere/ reichung der Sacrament/ Ordination der Diener des Euangelij/ Ordentlichen Ceremonien/ Visitation/ Consistorio vnd Schulen/ Jm Hertzogthumb Lünenburgk. Ulssen, 1598.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Kirchenordnung: Wie es mit Christlicher Lere/ reichung der Sacrament/ Ordination der Diener des Euangelij/ Ordentlichen Ceremonien/ Visitation/ Consistorio vnd Schulen/ Jm Hertzogthumb Lünenburgk gehalten wird</title>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher/>
+<pubPlace>Ulssen</pubPlace>
+<date type="publication">1598</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001"/>
+<pb facs="#f0002"/>
+<pb facs="#f0003"/>
+<titlePage type="main">       <docTitle><titlePart type="main">        <hi rendition="#red"><hi rendition="#in">K</hi>irchenordnun&#x0303;g:</hi></titlePart><lb/>
+<titlePart type="sub"><hi rendition="#red">Wie es mit Chri&#x017F;tlicher Lere/</hi><lb/>
+reichung der Sacrament / Ordination der Die-<lb/>
+ner des Euangelij / Ordentlichen Ceremonien/<lb/>
+Vi&#x017F;itation/ Con&#x017F;i&#x017F;torio vnd<lb/>
+Schulen/<lb/>
+<hi rendition="#red">Im Hertzogthumb Lünenburgk</hi><lb/>
+gehalten wird.</titlePart></docTitle>       <lb/>
+<figure/><lb/>
+<docImprint><pubPlace><hi rendition="#red">Vl&#x017F;&#x017F;en</hi></pubPlace><hi rendition="#red">.</hi><docDate><hi rendition="#g"> 1598</hi></docDate>.</docImprint><lb/>
+</titlePage>
+<pb facs="#f0004"/>
+</front>
+<pb facs="#f0005"/>
+<body>       <div type="preface">      <p><hi rendition="#in">V</hi>On&#x0303; Bottes gnaden / Wir Ernst / Hertzog zu Braunschweig vnd Lüneburgk / fügen       allen vnd jeden Vnsern Vnterthanen / weß Standes vnd condition die sein / Geistlich vnd       Weltlich / hiemit zu wissen. Nachdem weilandt der hochgeborn Fürst / Herr Wilhelm / der Jünger       / Hertzog zu Braunschweig vnd Lüneburgk / Vnser geliebter Herr Vater / löblicher Christmilder       gedechtnis / hat neben seiner G. Brudern / dem auch hochgebornen Fürsten / Herrn Heinrichen /       dem Jüngern / Hertzogen zu Braunschweig vnd Lüneburgk / vnserm freundlichen lieben Vettern /       Anno des geringern zals 64 in zeit beider Ihrer G. vnd LL. sampt Regierung / eine Christliche       Kirchen Ordnung / wie im gleichen eine Hoffgerichts Ordnung: Vnd dann in etzlichen nötigen       Puncten
+<pb facs="#f0006"/>
+eine Reformation Ordnung / in Druck geben       lassen / Vnd aber in zeit hero vnser Regierung / bey vns offt vnd viel gesucht worden / weil       solche gedruckte Exemplaria fast vergriffen / vnd von handen komen / das wir hinwider       derselbigen dermassen ein anzal in druck verfertigen lassen möchten / damit sie menniglich zu       bekomen / Vnd wir auch selber solch wolmeinend suchen der vnsern vor eine notdurfft angesehen       vnd bedacht / das wir demnach demselbigen eingewilliget / vnd solche Ordnung / wie       vnterschiedlich folget / vnd sonderlich die Kirchen Ordnung / von wort zu worten / ohneinige       verenderung vnd zusatz / in vnser Stadt Vltzen nach drucken / zu den andern beiden Ordnungen       aber / mit wissen vnd beliebung des Ausschusses vnser gemeinen Praelaten / Rehte / Ritter: vnd       Landschafft / etzliche Zusetze thun lassen haben / die wir nach gelegenheit dienlich vnd nötig       erachtet. Dann so viel die Kirchen Ordnung anlanget / bleiben wir mit vnsern Praelaten / Rethen       / Ritter: vnd Landschafft / allerding vnd durchaus / bey dem / was seithero Reformirter Lehre /       bey zeiten weilandt vnsers Herrn
+<pb facs="#f0007"/>
+Großvaters / Hertzogen Ernsts / etc. darnach vnsers Vettern / Hertzogen Frantz Otten / etc. vnd gemelter vnsers Herrn Vaters vnd Vetters sampt vnd sunderer Regierung / in den Kirchen vnsers Fürstenthumbs ist geleret worden / Als nemlich / bey der heiligen Propheten vnd Apostel Schrifften / vnd Lehre der Ersten Christlichen Kirchen / vnd den dreyen Heubtsymbolis, Apostolico, Nicaeno vnd Athanasiano, vnd der Augsburgischen Confession, so Anno 30. Keiser Carolo dem V. vberantwortet / derselbigen Apologien, den Schmalkaldischen Artickeln / den Catechismis Lutheri Gros vnd Klein / vnd dann der Formula Concordiae, so der Christenheit zu nutz vnd gute / einigkeit in der Lehre zu erhalten / in öffentlichen druck ist ausgangen / vnd von vnserm Herrn Vater / seliger gedechtnis / angenomen / auch von allen Predigern vnsers Fürstenthumbs vnter schrieben worden. Gedencken auch bey solcher rechten waren / gegründeten Lehre vor vns / mit Göttlicher hülff bestendiglich zu bleiben / Vnd wollen / das alle vnd jede vnsere Superintendenten vnd Prediger derselbigen folgen. Vnd bitten Gott /
+<pb facs="#f0008"/>
+das er vns vnd vnsere vnterthanen / bey derselbigen       gnediglich erhalten wolle. Wie wir im gleichen auch vber vorgemelter vnser Hoffgerichts vnd       Reformation Ordnung / mit allem ernst vnd fleis zu halten bedacht sind / Damit neben gesunder       Christlicher Lehre vnd Caeremonien, auch die heilsame justicia, vnd alles ördentliche / Erbar       vnd dienlich wesen / in vnserm Fürstenthumb / durch Segen des lieben Gottes / so viel desto       mehr erhalten vnd vortgesetzt werden müge. Vnd wird sich ein jeder der vnsern in gebür wissen       darnach zu halten. Geben Zell / den 8. Decemb. im 97. Jahre.</p>
+<pb facs="#f0009"/>
+<p>VON Gottes Gnaden / Wir Heinrich vnd Wilhelm / die Jüngern / Gebrüder / Hertzogen zu       Braunschweig vnd Lüneburgk / etc. Fügen allen vnd jeden vnseren Vnterthanen / was standes vnd       Condition die sein / Geistlich vnd Weltlich / hiemit zu wissen / Nachdem Gottes allmechtigen       vnwandelbarer wille ist / das er von den Menschen / die er zu seinem ebenbilde geschaffen hat /       recht nach seinem Göttlichen Wort wil erkandt vnd geehret werden / vnd jhm also durch die Lere       des Euangelij / vnd reichung der Sacrament / ein ewige Kirchen / auff dieser Welt samlet / vnd       ausserhalb solcher Christlichen Kirchen keine seligkeit ist / Vnd einer jeden Obrigkeit / aus       Gottes befehlich gebüret / fleissig auffsehen zu haben / das Gottes Wort lauter vnd rein       geleret vnd geprediget / auch der rechte brauch der heiligen Sacrament / nach der einsetzung       vnsers Herrn vnd Heilands Jesu Chri-
+<pb facs="#f0010"/>
+sti geübet       / vnd Christliche Ceremonien / Zucht vnd Disciplin erhalten / vnd also Gottes heiliger Name /       bey vns armen Menschen auff Erden geheiliget vnd gepreiset / vnd vieler Leute seligkeit       gefördert werde / Vnd sonderlich derhalben ein fleissig auffsehen zu haben von nöten ist / Weil       der Teuffel in dieser letzten zeit der Welt / mehr vnd schrecklicher / als vorhin / tobet vnd       wütet / vnd allerley schreckliche vnerhorte ergernis / Secten vnd verfelschung reiner       Christlichen Lehre / von tag zu tag anstifftet vnd vermehret.</p>      <p>Das wir demnach bey vns bedacht / das vns aus Göttlichem befehlich / vnd vnsers Fürstlichen       Ampts halben / dazu vns Gott der allmechtig aus gnaden beruffen / gebüren wolle / fürnemlich       darauff achtung zu haben / das die ware / reine / Christliche Lere des heiligen Euangelij / Wie       die in der heiligen Propheten vnd der Aposteln Schrifften / vnd Lere der ersten Christlichen       Kirchen / vnd Symbolo Apostolorum, begriffen / in vnserm Fürstenthumb / wie die nu durch Gottes       gnade in die viertzig Jar darinne geleret / vnd geprediget worden /
+<pb facs="#f0011"/>
+dafür wir Gott zu loben vnd zu dancken haben / möge       erhalten / vnd Gott der allmechtige / eine Kirchen / in vnserm Fürstenthumb haben / auch vnsere       arme / vns befohlen Vnterthanen / zur seligkeit gefordert werden.</p>      <p>Vnd ob wol wir befinden / das die Lere in den Kirchen vnsers Fürstenthumbs / Christi vnd der       Aposteln Lere / vnd der Augspnrgischen Confession gemes / welche weilandt der Hochgeborn Fürst       / vnser lieber Herr Vater Herr Ernst / Hertzog zu Braunschweig vnd Lünenburg / etc. seliger vnd       löblicher gedechtnis / aus Gottes gnad vnd Christlichem bedencken / angen omen / vnd bekandt       hat / gefürt / vnd Christliche Ceremonien / nach Gottes befehlich / inhalt seiner Lieb ordnung       / geübet werden.</p>      <p>Dennoch / damit sich ein jeder desto bas in der Lere / nach Göttlicher vnd Apostolischer       bewerter Schrifft zu richten / vnd in Ceremonien desto mehr gleicheit gehelten werden möge / So       haben wir / dem allmechtigen zu lob / vnd zu förderung vnserer Vnterthanen Seelen heil vnd       seligkeit / nachfolgende Ordnung / wie die bisher in vnserm Fürstenthumb gehalten / vnd förder       gehalten werden solle / wollen publiciren / vnd öffentlich lassen ausgehn / damit wir nicht         al-
+<pb facs="#f0012"/>
+lein wollen bezeugen / was wir von Gott       vnd seinem heiligen Wort halten / Sondern damit auch alle vnd jede Superintendenten / Pastores       vnd Seelsorger / in sonderheit / weil je zu zeiten newe Pastores / nach absterben der alten /       zu den Kirchen Ampten / in vnserm Fürstenthumb verordent werden / auch alle / vnd jede vnsere       Vnterthanen / sich desto bas darnach zu richten / vnd sich niemand vnwissenheit halben zu       entschüldigen haben möge.</p>      <p>Wir wollen auch hiemit bezeuget haben / das wir mit dieser vnser Ordnung / der Röm. Key. May.       vnserm aller gnedigsten Herrn / vnd Stenden des heiligen Reichs / nicht wollen fürgegriffen /       noch der meinung dieselbige in Druck verfertigen lassen haben / Als wolten wir dadurch / ein       sonders oder newes / in vnsern Kirchen anrichten / Sondern wir bekennen / das wir die Lere vor       recht halten / die in vnserm Fürstenthumb geprediget wird / die Gott selbs hat durch seinen Son       Ihesum Christum geoffenbaret / vnd die in der Propheten vnd Aposteln Schrifft gefasset / in dem       verstande / der in den Symbolis, Apostolico, Nicaeno, vnd Athanasij, auch in D. Martini Lutheri       seliger Catechismo / auch in der Confession vnd Apologia / welche der Röm. Key. May.
+<pb facs="#f0013"/>
+zu Augspurg / Anno 1530. vber antwortet / verfasset vnd       erholet ist.</p>      <p>Vnd gedencken bey solcher erkanten Lere / mit Göttlicher hülff bestendig zu bleiben / vnd       bitten Gott / das er vns vnd vnsere vnterthanen / bey dersebigen gnediglich erhalten wolle /       Amen.</p>      <p>Sondern ist darumb für nemlich geschehen / wie gemeldet / damit Superintendenten / Pastores        vn&#x0303; Kirchendiener vnsers Fürstenthums / jrer Lere selbst gewis sein / auch jre       befohlene Scheflein / desto besser mit gesunder reiner Lere des heiligen Euangelij weiden / vnd       Christliche gute ordnung er halten werden mögen. Wie den&#x0303; auch diese ordnung       darnach gerichtet / das sie mit vieler Chur vnd Fürsten / der Augspurgischen Confession verwand       / ordnung / vberein stimmet.</p>      <p>Wir sein aber hieneben auch des erbietens / da künfftiglich / auff einem gemeinen Christlichen Conciiio / oder versamlung der Reichstende / sich einer andern gemeinen Christlichen ordnung vnd Ceremonien / die Gottes Wort gemes / verglichen würde / Das wir auff den fall / vns jnen gleichförmig machen / vnd diese Ordnung als denn / vnd wenn es die notdurfft erfordert / zu mehren vnd zu bessern / vorbehalten haben wollen.</p>
+<pb facs="#f0014"/>
+</div>     <div>      <head>Weil dann eine Christlichegute Ordnung fürnemlich vff Vier Stücken beruhet.</head><lb/>
+<p>Nemlich / In pflantzung vnd erkentnis / der einigen / ewigen / warhafftigen / rechten Lere /       die Gott von anbegin der Welt geoffenbaret / vnd bestetiget hat.</p>      <p>Zum Andern / In erhaltung des Kirchenampts oder Ministerij verbi Dei, Auch in verordnung       gewisser Güter vnd einkommen / dauon die Prediger vnd Lerer in den Schulen jre vnterhaltung       haben.</p>      <p>Zum Dritten / In ehrlichen Christlichen eusserlichen Ceremonien.</p>      <p>Zum Vierden / In erhaltung Christlicher Schulen vnd Studien.</p>      <p>So folget vnterschiedlich von solchen vier Stücken.</p>
+<pb facs="#f0015"/>
+</div>     <div>      <head>Erstlich von der Lere.</head><lb/>
+<p>WEil Gottes vnwandelbarer wille ist / das man seinen Son Ihesum Christum hören solle / wie er       selbs saget / Huncaudite, Vnd kein ander Name auff der Welt ist / dadurch man könne selig       werden / denn der name Ihesu Christi / So sollen alle vnsere Superintendenten / Pastores /       Kirchendiener vnd Schulmeister / fleis thun / das sie die Lere des heiligen Euangelj / erst vor       sich recht verstehen / vnd geschickt sein / andere zu leren vnd zu ermanen / vnd fleissig       studiren / damit sie von tag zu tag in der Lere zunemen / vnd in jrer Lere vnd Predigten / das       Gesetz vnd Euangelium predigen / vnd die Lere für vnd für treiben / die Gott in seinem heiligen       Wort durch Mosen / die Propheten / Christum vnd die Aposteln geoffenbaret hat / Vnd wie die in       der heiligen Propheten / Euangelisten vnd Aposteln Schrifften / auch in Symbolis, Apostolico,       Nicaeno vnd Atha-
+<pb facs="#f0016"/>
+nasij, aus gedrücket / vnd       durch Martinum Luther seliger ernewert / vnd in seinem Catechismo / Auch in der Confession vnd       Apologia / die Anno 1530. der Keis. Mayest. zu Augspurg vberantwortet ist / begriffen / vnd       alle andere widerwertige Lere straffen.</p>      <p>Vnd weil die Lere in solchen Büchern nach notdurfft begriffen / so achten wir ohne not /       dieselbe hieher zu erholen / sondern wollen vns deshalben auff solche Lere vnd Bücher gezogen       vnd referirt haben.</p>     </div>     <div>      <head>Von dem MINISTERIO VERBI DEI.</head><lb/>
+<p>WEil das Ander stücke der Christlichen ordnung ist / Ministerium verbi, dadurch die reine       Christliche Lehre erhalten wird / vnd solches eine sonderliche gabe vnd gnade Gottes ist / Wie       Paulus saget / Ephes. 4. Dedit dona hominibus, Prophetas, Apostolos,
+<pb facs="#f0017"/>
+Euangelistas, Pastores, Doctores, &amp;c. So ist dafür       Gott dem allmechtigen zu dancken / vnd zu bitten / das er solch Ministerium erhalten / vnd       trewe Arbeiter in seine Ernde senden / vnd seine Kirchen erhalten wolle.</p>      <p>Weil auch sich niemand / in dis Göttliche Ampt / ohne ordentliche Vocation eindringen solle /       So wollen vnd ordnen wir / das sich keiner / der von vns oder einer Kirchen / oder denen / die       lus patronatus haben / dazu nicht erfordert / des Predigampts / vnd administrirung der heiligen       Sacrament / in vnserm Fürstenthumb anmassen solle.</p>      <p>Da aber einer ordentlich / durch eine Kirchen beruffen j oder von vns / oder vnsern       Superintendenten / oder von denen / die lus patronatus, in etlichen Kirchen haben / dazu       gefordert wird / der soll sich bey vnserem Superintendenten zu Zell angeben / vnd von       demselbigen / vnd andern dazu verordenten / verhört vnd examiniret werden.</p>      <p>So er denn gut zeugnis seines Lebens vnd wandels / von dem ort da er sich enthalten / hat /       vnd befunden wird / das er zu dem Kir-
+<pb facs="#f0018"/>
+chenampt       tüchtig / vnd guten bericht in allen Artickeln Christliche Religion belangende / geben / auch       geschickt zu sein angesehen wird / andere zu leren / vnd vorhin nicht ordinirt were / noch des       zeugnis fürzulegen hette / so sol derselbige nach beschehener vermanung / was es vor ein Ampt       sey / das jm befohlen wird / vnd das er trew vnd fleissig in solchem Ampte sein wolle / nach       der Lere Pauli / mit zusage verpflichtet werden / das er in dem heiligen Ampte / mit Gottes       furcht / Glauben vnd anruffung zu Gott / trewlich vnd fleissig dienen / züchtiglich leben vnd       leren / vnd bey obberürter Lere / die er bekennet hat / bestendiglich bleiben wolle. Vnd wenn       solches geschehen / so sol der Ordinand / auff einen gelegenen tag / nach der Predigt /       öffentlich ordinirt / vnd jm darnach ein schrifftlich Testimonium gegeben werden.</p>
+<pb facs="#f0019"/>
+</div>     <div>      <head>Folget die form der Ordination / durch D. Martinum Luther gestelt.</head><lb/>
+<p>ERstlich singet man / Veni sancte Spiritus, etc. vnd wird die Collect gelesen / darnach       lieset der Superintendens diese solgende text.</p>      <p>So schreibet S. Paulus in der ersten Epistel an Timotheon am dritten Capitel:</p>      <p>Das ist je gewislich war / so jemand ein Bischoffs ampt begeret / der begeret ein köstlich       werck. Es sol aber ein Bischoff vnstrefflich sein / eines Weibes Man / nüchtern / messig /       sittig / gastfrey / lehrhafftig / nicht ein Weinseuffer / nicht beissig / nicht vnehrliche       handtierung treiben / sondern gelinde / nicht haderhafftig / nicht geitzig / der seinem eigen       Hause wol für stehet / der gehorsame Kinder habe / mit aller erbarkeit. So aber jemand seinem       eigen hause nicht weis fürzustehen / wie wird er die Gemeine Gottes versorgen? Nicht ein       Newling / auff das er sich nicht auffblase / vnd dem Lesterer ins vrteil fal-
+<pb facs="#f0020"/>
+le. Er mus aber auch ein gut Zeugnis haben / von       denen die draussen sind / auff das er nicht falle / dem Lesterer in die Schmach vnd       stricke.</p>      <p>So ermanet Paulus die Eltesten der Gemeine zu Epheso / Acto. 20.</p>      <p>So habt nu acht auff euch selbs / vnd auff die gantze Herd / vnter welche euch der heilige       Geist gesetzet hat / zu Bischoffen / zu weiden die gemeine Gottes / welche er durch sein eigen       blut erworben hat. Denn das weis ich / das nach meinem abschied / werden vnter euch komen       grewliche Wolffe / die der Herde nicht verschonen werden / Auch aus euch selbs werden       auffstehen Menner / die da verkerte Lere reden / die Jünger an sich zu ziehen. Darumb seid       wacker / vnd dencket daran / das ich nicht abgelassen habe / drey Jar tag vnd nacht / einen       jglichen mit threnen zu ermanen.</p>      <p>Hie höret jr / das vns / so Bischoffe / das ist / Prediger vnd Pfarherr / beruffen sind / vnd       sein sollen / nicht wird befohlen / Gense oder Kühe zu hüten / sondern die Gemeine / so Gott       durch sein eigen Blut erworben hat / das wir sie weiden sollen / mit dem reinen wort Gottes /       auch wa-
+<pb facs="#f0021"/>
+chen vnd zusehen / das nicht Wolffe vnd       Rotten / vnter die armen Schaffe einreissen / Darumb nennet er es ein köstlich werck. Auch für       vnser Person / sollen wir züchtig vnd ehrlich leben / vnser Haus / Weib / Kind vnd Gesinde /       Christlich halten vnd ziehen.</p>     </div>     <div>      <head>Seid jr nu solches zu thun bereit / So sprecht / Ja.</head><lb/>
+<p>Da lege der Superintendens / vnd die andern Diener des Worts / so dabey sind / dem Ordinando       die hende auff das heubt / darnach spreche er:</p>     </div>     <div>      <head>Lasset vns beten.</head><lb/>
+</div>     <div>      <head>Vater vnser / der du bist im Himel / etc.</head><lb/>
+<p>BArmhertziger Gott / himlischer Vater / du hast durch den Mund deines lieben Sons / vnsers       HErrn Ihesu Christi / zu vns gesagt / Die Erndte ist gros / aber wenig sein der Arbeiter /       Bittet den HErrn der Erndte / das er Arbeiter in seine Erndte sende. Auff solchen deinen       Göttlichen befehlich / bitten wir von hertzen / du wollest diesen deinen
+<pb facs="#f0022"/>
+Diener / sampt vns / vnd allen die zu deinem Wort       beruffen sind / deinen heiligen Geist reichlich geben / das wir mit grossen hauffen / deine       Euangelisten sein / trew vnd vest bleiben / wider den Teuffel / Welt vnd Fleisch / etc. Damit       dein Name geheiliget / dein Reich gemehret / dein wille volbracht werde. Wollest auch dem       leidigen Grewel / vnd allen Feinden deiner Christen / sampt andern Rotten / so deinen Namen       lestern / dein Reich zerstören / deinem willen widerstreben / endlich stewren / vnd ein ende       machen. Solch vnser Gebet / weil du es geheissen / geleret vnd vertröstet hast / wollestu       gnediglich erhören / wie wir gleuben vnd trawen / Durch deinen lieben Son vnsern Herrn Ihesum       Christum / der mit dir vnd dem heiligen Geist lebet vnd herrschet in ewigkeit / Amen.</p>      <p>So gehet nu hin / vnd weidet die Herde Christi / so euch befohlen ist / vnd sehet wol zu /       nicht gezwungen / sondern willig / nicht vmb schendliches gewins willen / sondern von hertzen       grunde / nicht als die vber das Volck herschen / sondern werdet für bilde der Herde / so werdet       jr / wenn der Ertzhirte erscheinen wird / die vnuerwelckliche Kron der ehren empfahen.</p>
+<pb facs="#f0023"/>
+<p>Benedicat vobis Dominus, ut faciatis fructum multum.</p>      <p>Do aber einer oberzelter massen zu einem Kirchenampt vocirt würde / der vorhin ordinirt were       / vnd des zeugnis fürzulegen hat / so sol er sich nichts desto weniger bey vnserm       Superintendenten zu Zell angeben / vnd durch denselbigen vnd andere Kirchendiener / seiner       Lehre erkundet / vnd do dieselbige recht vnd rein befunden wird / obberürte verpflichtung von       jme genomen / vnd jme kundschafft an die Pfarr / dahin er beruffen / mitgeteilt werden / das er       zu derselbigen gestattet worden ist.</p>      <p>Vnd sollen in allewege / die newe Prediger / wenn sie also / wie obstehet / ordinirt / vnd       bestetigt / durch den Superintendenten des orts / dahin er beruffen / vnd durch die Ampten       eingewiesen / vnd solchs dem Volck auff einen Sontag verkündiget werden / damit sie wissen       haben / das er ordentlich vocirt / vnd sie jme als jrem Pastorn / so viel sich gebüret / vnd       seines Ampts ist / folg / vnd das jenige / was sie jm schüldig / leisten sollen.</p>
+<pb facs="#f0024"/>
+</div>     <div>      <head>Von Kirchengericht / vnd Visitation.</head><lb/>
+<p>DIeweil auch zu erhaltung reiner Christlichen Lere / vnd des Ministerij Ecclesiastici,       fürnemlich zwey stücke / Nemlich / Kirchengericht / oder ein Consistorium, vnd Visitationes von       nöten sein:</p>      <p>So ist ein Consistorium zu Zell / an vnserm Hoff verordnet / vnd dasselbige mit vnsern       Gelerten / vnd andern Hoff Rehten / auch etzlichen Predicanten besetzet / dasselbige sol des       Jars vier mal / Nemlich:</p>      <table><row><cell/></row></table> <p>gehalten werden.</p>      <p>Vor solch Consistorium oder Gericht sollen gehören nachfolgende Sachen. Nemlich:</p>
+<pb facs="#f0025"/>
+<p>So streit in der Lere fürfiels.</p>      <p>Item:</p>      <p>Ehesachen.</p>      <p>Wenn streit in der Lere fürfellet / oder ein Pastor sonst seiner Lere oder lebens halben /       verdechtig oder straffbar ist / so sol jhn der Superintendens des orts Christlich vermanen /       dauon abzustehen / vnd sein leben zu besseen / Da er aber das nicht thut / so sol der       Superintendens desselbigen orts / solchs dem Consistorio anzeigen / das sie denn den / oder die       jenigen / so also angeben / für bescheiden / vnd so die sache wichtig / mit vnserm Raht /       darinnen nach gestalt der sachen handeln vnd verfaren.</p>      <p>So viel den Ehestandt belanget / sollen die Pastores in jren Predigten / dem Volcke rechte       Lere dauon offt fürhalten / vnd erinnern / das alle vermischung ausserhalb des Ehestandes Sünde       sey / vnd das Gott seinen zorn dagegen / mit straffen / in diesem leben / vnd in ewigkeit       erzeige / wider die so nicht bekeret werden / Wie das viel Sprüche der heiligen Schrifft / vnd       viel Exempel Göttliches zorns / vnd
+<pb facs="#f0026"/>
+straffe /       anzeigen / die sie dem Volcke fürzuhalten haben.</p>      <p>Sie sollen auch keine vneheliche beywohnung gestatten. So aber Personen sein würden / so       derselbigen pflegten / vnd sich nach vermanunge nicht bessern / vnd von Vnzucht abstehen würden       / So sol der Superintendens oder Pastor desselbigen orts / solchs an das Consistorium gelangen       lassen.</p>      <p>Vnd sol der Ehestand mit offentlicher desponsation vnd Gebet / in beysein etz icher Leut /       als Zeugen / angefangen werden.</p>      <p>Vor allen Hochzeiten sol zuuor die verkündigung der Personen / so Ehelich werden wollen /       zweymal geschehen / oder zum aller geringsten ein mal / nach gelegenheit der zeit / vnd so       jemand verhinderung weis / der hat es anzuzeigen.</p>      <p>Wo nu jrrung zwischen zweyen Personen der Ehe halben fürfelt / oder ein tertia Persona darein       zu sprechen hette / oder nahe verwandte Freunde | In casuprohibito, sich wolten ehelich zusamen       geben lassen / so sol sie der Pastor nicht zusamen geben / sondern sie an das Consistori-
+<pb facs="#f0027"/>
+um weisen / vnd des vrteils erwarten / vnd sich deß       / was jme vom Consistorio befohlen wird / gehalten.</p>      <p>Sol jnen auch gebieten / das sie sich vor dem vrteil nicht berüren.</p>      <p>Der gleichen so eheliche Personen einander verlassen hetten / vnd wolten andere Heiradt       machen / das sol der Pastor auch nicht zulassen / Sondern sol sie an das Consistorium weisen /       vnd jnen verbieten / vor dem vrteil sich zu verheiraten / Mag aber neben der Oberkeit oder       Ampten an dem ort / zwischen solchen Personen wol handlung fürnemen / ob er sie versünen könte       / damit nicht not das Consistorium damit zu bemühen.</p>      <p>Weiter sollen für das Consistorium gehören / die jrrung so sich zwischen Pastorn / Diacon /       vnd dem Custer / vnter jnen selbs zutragen.</p>      <p>Item / so jemand wider Pastorn zu klagen hat / so sollen sie auch vor dem Consistorio       besprochen werden. Es weren denn sachen / die nach jrer art / vor das Consistorium nicht       gehöreten.</p>      <p>Item / so den Kirchen / vnd Kirchen Dienern / von einkomen oder gütern entzogen wird /
+<pb facs="#f0028"/>
+oder jnen nicht bezalung geschicht / vnd die Ampten in       verhelffung derselbigen seumig oder nachlessig weren / Als denn sol jnen das Consistorium       behülfflich sein / das jnen die billigkeit widerfaren möge.</p>     </div>     <div>      <head>Von der Visitation.</head><lb/>
+<p>WEil ohne fleissig auffsehen der Oberkeit / gute ordnung nicht bestendig sein / vnd in       sonderheit / in der Kirchen Visitationes hoch von nöten / auch in der ersten Kirchen aus       bewegenden vrsachen fürgenomen worden sein / damit man erfaren möge / das nicht allein die Lere       recht getrieben / vnd so falsche Lere einreissen wolten / abgewendet / sondern auch       allenthalben ein Christlich Gottselig leben / von Pastorn vnd zuhörern gefürt / vnd so mangel       befunden würde / dieselbige abgeschafft werden mögen:</p>      <p>So sol je zu zeiten / Wenn es von nöten oder gelegen sein wil / Visitation geschehen.</p>      <p>Vnd sol in der Visitation / für nemlich sich der Lere / Lebens / handels vnd wandels / der       Pastorn / auch der zuhörer fleissig / vnd ob dieser
+<pb facs="#f0029"/>
+ordnung allenthalben gemes gelebt / erkundet werden / Vnd so mangel befunden wird / derselbig       sol in besserung gerichtet / oder die Vbertreter nach gelegenheit gestraffet werden.</p>      <p>Vnd weil etzliche vom Adel / vnd Bürger an etlichen Lehen / Vicarien / Commenden / vnd       dergleichen / lus patronatus haben / so sollen sie dasselbige behalten / Vnd soll hierauff in       den Visitationibus auch achtung gegeben / vnd mit den jenigen / da es von nöten / von solchen       sachen nach notdurfft geredt werden.</p>     </div>     <div>      <head>Von vnterhaltung der Pastorn vnd Kirchendiener / Auch Schulmeister vnd Schulgesellen /       Cüster / auch der Pfarrherrn vnd Cüster Heuser.</head><lb/>
+<p>WEil nach der Lere Pauli recht vnd billich ist / das die Pastores vnd Kirchendiener / so dem       Altar dienen / auch vom Altar leben / vnd jre ziemliche vnterhaltung haben / damit sie jrem       studieren vnd Predigtampt desto fleissiger obligen / vnd auswarten mü-
+<pb facs="#f0030"/>
+gen / So ordnen vnd setzen wir / das vnsere Ampten       / auch Bürgermeister vnd Rehte / vnd Kirchschworen in den Stedten / vnd denn auch die Juraten       auff den Dörffern / fleissig auffsehen haben sollen / das die Pfargüter / vnd was an einem       jeden ort zu der Pfarr vnd Cüsterey / an Acker / Wiesen / Garten / Renten / Zinsen / oder ander       nutzbarkeit / oder Gerechtigkeit / gehörig / nicht verrückt oder vereussert / Sondern in wesen       erhalten / vnd dauon den Kirchendienern / vnd Schulmeistern vnd Gesellen / was einem gehört vnd       zugesagt ist / jehrlich zu rechter zeit verreichet werde.</p>      <p>So sollen sie auch fleissig achtung darauff haben / das die Pfarr vnd Cüsters heuser / vnd       Höue / vnd die gebew der Kirchen / auch die Kirchhöue / in bawlichem wesen erhalten werden /       vnd nicht verfallen mögen Vnd damit solchs deste fleissiger verrichtet werden möge / so sollen       vnser Heubt vnd Amptleute / in den Ampten / auch Bürgemeister vnd Rethe in den Stedten / in       beysein der Superintendenten / jerlich an jedem ort rechenschafft von den Juraten / von den       einkomen vnd ausgaben der Kirchengüter /
+<pb facs="#f0031"/>
+Als allen       geistlichen Lehen / Calands gütern / vnd dergleichen nemen / vnd fleissig auffsehen haben / das       nichts zu vnnütz verthan / sondern diesem vnsern Befehlich nachgelebet werde.</p>      <p>Das auch keine Kirchengüter verkaufft / noch verpfendet werden / ohn vnser wissen vnd       verwilligung.</p>      <p>Zum andern / Das in allen Pfarren / alle der Pastorn vnd Cüsters güter / jerliche auffkumpst       vnd gerechtigkeit / fleissig Registriret werden sollen Desgleichen auch alle güter / Landt /       Wiesen vnd Reditus, so zur Fabrica gehörig / Item / was zum Calande / Gilden vnd sonst andern       Geistlichen Lehen gehöret / damit man zu jeder zeit guten bericht dauon haben möge.</p>      <p>Zum dritten / Wenn ein Pastor oder Cüster notdürfftig were / vnd Wiesen oder Landt zur       Kirchen gehörig / bedürffte / vnd vmb einen zins begerte / so sol solch Landt vnd Wiesen / so       zur Fabrica oder Calande gehörig ist / den Kirchendienern vor andern / vmb solchen zins / als       daruon andere gegeben haben / oder wollen / zu brauchen / eingethan werden.</p>
+<pb facs="#f0032"/>
+<p>Zum vierden / Sollen Ampte / Pfarherrn / Kirchschworen / versehung thun / das der Fabricen       vnd Pfarr güter / nicht zu erbe eingezogen / sondern da es die notdurfft vnd gelegenheit       erfordert / andern vmb zinse eingethan werden / damit sich niemand erbgerechtigkeit daran       anzumassen habe.</p>      <p>So sol auch den armen Pastorn / Schulmeistern / vnd andern Kirchendienern / so nicht       notdürfftige vnterhaltung haben / vnd von jren geringen auffkomen nicht leben können / zulage       geschehen / daruon sie mit Frawen vnd Kindern leben / Bücher kauffen / vnd sich erhalten       mögen.</p>      <p>Vnd sol in den Visitattonibus fleissig achtung darauff gegeben werden / das dieser verordnung       also nachgegangen werde.</p>      <p>Vnd damit sich die Pastorn vnd Kirchendiener desto besser erhalten mögen / So sol jnen von       Kindtauffen / Verehlichungen / Begrebnis / besuchung der Krancken / eine verehrung gegeben       werden.</p>      <p>Vnd mag zu eines jeden Christlichen bedencken / oder darnach er es vermag / gefallen stehen /       womit er in solchen fellen / seinen Pastorn vnd Seelsorger bedencken wil. Aber weil viel
+<pb facs="#f0033"/>
+Leute so grob vnd vnuernünfftig sein / wo keine ordnung       oder Satzung derhalb ist / das sie die armen Pastores vnd Kirchendiener wol gar nicht bedencken       würden / So soll ein jeder in obberürten fellen / da er aus gutem willen nichts mehr geben       wolte / zu geben schüldig sein.</p>      <p>Von einem Kind zu teuffen / dem Pastor oder Caplan / der das Kind teuffet / einen Schilling       Lübesch / oder Marien grosschen / vnd dem Cüster einen Witten.</p>      <p>Wenn Personen verehliget werden / der Breutigam vnd Braut / ein jeder dem Pastorn einen       Schilling / dem Cüster einen Witten.</p>      <p>Von Begrebnis / den Pastorn einen Schilling / dem Cüster einen Witten.</p>      <p>Von besuchung der Krancken / dem Pastorn einen Schilling / dem Cüster einen Witten.</p>      <p>So aber in einer oder mehr Stedten vnd örten / gebreuchlich / in jetzt berürten fellen / dem       Priester vnd Cüster mehr zu geben / dasselbige sol fortan gegeben werden / vnd hiermit nicht       geringert sein.</p>
+<pb facs="#f0034"/>
+<p>Zu dem sollen die Leute / Man vnd Frawens personen / Knecht vnd Megde / vnd Kind / so zur       Beicht komen / vnd der Sacrament gebrauchen / in den vier hohen Festen / als Weihenachten /       Ostern / Pfingsten / vnd auff Michaelis tag / opffern / vnd ein jeder nach seiner gelegenheit /       auffs wenigst / von jeder Person einen Pfennig zu opffern schüldig sein.</p>      <p>Da auch gewönlich / den Pastorn Schincken / vnd dem Cüster Schultern / oder andere Pröuen /       an Korn / Fleisch / Eyer / oder andern zu geben / dasselbige sol auch fürder gegeben       werden.</p>      <p>Weil auch zu förderung des Ministerij nicht vnzeitlich bedacht wird / wenn die armen Pastores       verstorben / das jre nachgelassene Widwen vnd Kinder / vnter dach sein / vnd eine behausung       haben mögen / So wollen wir aus gnedigem Veterlichen willen / damit wir den Pastoribus zugethan       / hiemit befohlen haben / das ein jede Stadt vnd Caspel / in vnserm Fürstenthumb / eine Wohnung       / wo es am gelegensten sein wird / mit raht vnser Ampten / oder des Rahts in Stedten /       förderlich sollen bawen /
+<pb facs="#f0035"/>
+Darinnen sollen der       Pastorn verlassen Widwen / die zeit jres lebens / die freye Wohnung haben / auch Schatzfrey       sitzen / vnd nicht desto weniger / der Gemeinen huet vnd Weide / Mastung / vnd notdürfftiger       fewrung / wie andere / zu geniessen haben.</p>      <p>Vnd sollen vnsere Ampten / hiemit befehlich haben / wo sonst die Leute kein holtz / zu       obberürter notdurfft hetten / aus vnsern höltzern, dazu notdürfftig holtz zu weisen.</p>      <p>Da aber zwo Widwen verhanden sein würden / so sol die Junge Widwe / so lange verziehen / bis       die alte verstorben / vnd nach jrem tode / die wohnung auch haben.</p>      <p>Vnd sollen solche Heuser von den Stedten vnd Caspel Leuten / in baw vnd besserung gehalten /       Vnd wenn keine Widwe verhanden / die Wohnung verhüret werden / vnd der zinss dem baw des Hauses       / vnd der Kirchen zum besten komen.</p>      <p>Wenn denn auch bey etzlichen Geschlechten vom Adel / vnd in den Stedten / Geistliche Lehen /       Vicarien oder Commenden verordnet
+<pb facs="#f0036"/>
+sein / So wollen       wir / das solche Lehen nicht ad priuatos usus eingezogen / sondern entweder Kirchendienern oder       Schülern / so studieren / so lange sie in studijs sein / gelihen werden sollen. Vnd sol dieses       Puncten halben in nehester Visitation fleissige erkundigung geschehen.</p>      <p>Als wir auch in vnser Policey ordnung von vnterhaltung der Hospital ordnung gethan / So       wollen wir / das solcher Ordnung auch wircklich nachgelebt / vnd jerlich durch die Ampte /       Rethe in Stedten / vnd die Superintendenten / von den Vorwesern der Hospitaln / rechenschafft       genomen werde.</p>      <p>Vnd weil nötig / das an vnterschiedlichen örtern / Superintendenten vnd Inspectores sein /       welche auff die Lere vnd Leben / der benachbarten Pastorn achtung geben / vnd bey denen sich       andere Pastores in fürfallenden sachen / rahts erholen mögen / So wollen wir / das die       verordente Superintendenten in Ampten vnd Stedten / fleissig auffsehen haben / das die Pastores       / so jrer Superintendentz vnterworffen / sich mit Lere vnd Ceremonien / nach dieser Ordnung       richten / vnd sonst ein Christlich / vnstrefflich leben füren / Vnd da sie an einem oder mehr
+<pb facs="#f0037"/>
+inangel befinden / denselbigen Christlich vnd       Brüderlich vermanen / oder do sich derselbige nicht bessern wolle / dem Superintendenten zu       Zell / oder Consistorio anzeigen / Sol derhalben gebürlich einsehen geschehen.</p>      <p>Es sol auch ein jeder Superintendens seine Pastores / ein oder zwey mal des Jars / conuocirn       / vnd mit jnen von der Lere freundlich conferirn / vnd die so vnterrichtung von nöten haben /       vnterweisen / vnd so sie bey einem oder mehren / der Lere oder jres lebens halben / mangel       finden / vnd derselbige auff die erste oder andere vermanung / sich nicht bessern würde / vns       dasselbige anzeigen / ein gebürlich einsehen zu thun.</p>      <p>Es sollen auch die Pastores keine Krüger sein / noch Bier vmb gelt auszapffen.</p>      <p>In der Visitation sol auch darauff achtung gegeben werden / das die Spittal vnd Gottes Heuser       / in wesen erhalten / vnd von den Einkomen nichts vereussert / oder entwendet werde.</p>
+<pb facs="#f0038"/>
+<p>Die Juraten oder Vorweser der Gottes Heuser / oder der Allmussen / sollen in Stedten vnd       Caspeln / auff dem Lande / alle Jar dem Raht / oder den Ampten vnd Pastorn jeder Kirchen / von       den einkomen vnd ausgaben rechenschafft thun / vnd zugesehen werden / das die Allmussen / vnd       Spende / so gestifftet / trewlich verreichet werden.</p>      <p>Es soll auch in allen Kirchen / in den Stedten / da es nicht allbereit geschehen / ein arme       Kisten auffgerichtet / vnd alle Sontag vnter der Predigt / durch zwen dazu verordnet / die       Allmussen gesamlet / vnd zu notdurfft armer Hausleut ausgeteilt werden.</p>     </div>     <div>      <head>Von Ceremonien / ordnung der Lection vnd Gesang in den Kirchen.</head><lb/>
+<p>WIewol / Gott lob / bisher in vnserm Fürstenthumb / Christliche Ceremonien / bey       administrirung der heiligen Satrament vnd sonst / sein gehalten worden / So wollen wir doch       dieselbigen hernacher setzen / damit es allenthalben / in den Kirchen / so viel desto       eintrechtiger möge gehalten / vnd die Pa stores /
+<pb facs="#f0039"/>
+so       new ankomen / wissen mögen / wornach sie sich zu richten.</p>      <p>Vnd sollen die Pastores jre Zuhörer offtmals fleissig von dem gebrauch der Ceremonien       vnterrichten / vnd sie vermanen / das sie sich auch ausserhalb der Predigt / bey Christlichen       Gesengen vnd Ceremonien / gerne finden lassen / vnd das Ministerium helffen fördern / nicht       allein jnen zum trost / sondern auch andern zum Exempel / vnd was sie vor nutzbarkeit daraus       empfangen. Denn Gott der allmechtige erhelt seine Christliche Kirchen durch solch Ministerium,       als nemlich / durch die Lere des Euangelij / reichung der Sacrament / vnd Christliche       Ceremonien. Gott wil auch also durch die Menschen in versamlungen geehret vnd angebetet sein /       Wie der Psalm sagt / Sein lob ist in der versamlung der Heiligen. Item / Quàm dilecta       tabernacula tua Domine. Item, Dilexi decorem domus tuae.</p>      <p>Vnd Christus saget selbst / Wo zwen oder drey in meinem namen versamlet sein / da wil ich       mitten vnter jnen sein. Item / Was sie bitten / das sol geschehen.</p>
+<pb facs="#f0040"/>
+<p>Vnd sein solche versamlungen sehr schön / lieblich / vnd zum höchsten zu ehren / vnd sein ein       Ebenbild der ewigen versamlung im Himel.</p>      <p>Darumb hat auch Gott im Gesetz Moisi / vnd die Christliche Kirche geordnet / das gewisse zeit       vnd stunde / solcher versamlung / vnd Christliche Ceremonien sein sollen.</p>      <p>Vnd wiewol die Christen nicht so eben an gewisse tage / zeit vnd Ceremonien gebunden / vnd in       eusserlichen Ceremonien freyheit ist / vnd die Regula sagt / Quod dissimilitudo rituum, non       tollit consonantiam fidei. Wie auch der Alten Exempel de dissimilitudine temporis Paschatis       anzeiget. Dennoch weil es allerley nutzbarkeit mitbringet / das eine gleicheit in Ceremonien /       so viel müglich / gehalten werde / vnd solchs auch so viel desto mehr / zu erhaltung der       einigkeit / in der Lere / nützbar vnd ersprieslich ist:</p>      <p>So wollen vnd ordnen wir / das es in vnserm Fürstenthumb mit Ceremonien vnd Gesengen in den       Kirchen solle gehalten werden / wie bisher geschehen / vnd nach dieser Ordnung / Vnd do es also       nicht gehalten worden / da sol sich hin-
+<pb facs="#f0041"/>
+fürder       nach dieser Ordnung gerichtet / vnd dieselbige ohne sonderliche erhebliche vrsach / nicht       vnterlassen werden.</p>      <p>Vnd kan gleichwol das gemeine Volck / zu zeit von solchen Ceremonien / das die Gewissen daran       nicht verbunden sein / vnd als solte verenderung dieser ordnung Sünde sein / das aber vmb der       Jugend vnd ordnung willen / solche Ceremonien nütz / vnd einem jeden gebüret / der Oberkeit in       solchen sachen / die nicht wider Gott sein / zu gehorsamen / wol vnterrichtet werden.</p>     </div>     <div>      <head>Ordnung der Ceremonien in Pfarrkirchen der Stedte / in den Stifften / Klöstern / vnd da       Schulen sind.</head><lb/>
+</div>     <div>      <head>Sonnabends / vnd andere heilige Abend / vnd Feyertage / nach mittag.</head><lb/>
+<p>Sol man in Stedten zu gewönlicher zeit Vesper singen / Nemlich / die Schüler einen Psalm /       zwen oder drey / vnd die Antiphen von der Dominica oder Fest.</p>
+<pb facs="#f0042"/>
+<p>Darnach sol ein Knab eine Lection aus dem newen Testament / oder aber die zehen Gebot /       Glauben vnd Vater vnser / zu zeiten Lateinisch / zu zeiten Deudsch / lesen.</p>      <p>Nach der Lection / sol ein Responsorium oder Hymnus de tempore, die rein sein / vnd darauff       das Magnificat, Bisweilen Lateinisch / bisweilen Deudsch gesungen / vnd da Orgeln sind / ein       Vers vmb den andern / auff der Orgel geschlagen werden.</p>      <p>Darauff lese der Priester eine Collect / vnd beschliesse der Chor / mit dem Benedicamus       Domino.</p>      <p>Nach der Vesper sol der Priester die Leute / so des folgenden tages communicirn wollen /       Beicht hören / vnterrichten vnd absoluiren.</p>      <p>Wenn viel Communicanten sein / mag auch des Son&#x0303;abends / des morgens früe /       nach der Predigt / vnd am Sontag nach der ersten Predigt / Beicht gehöret werden.</p>      <p>Es sol aber das Volck fleissig vermanet werden / das sie auff den Sonnabend morgens
+<pb facs="#f0043"/>
+oder Abends / fürnemlich zur Beicht komen sollen /       sampt jrem Gesinde vnd Kindern / auff das die Kirchendiener nicht zu sehr beschwert werden /       vnd kein vnordnung daraus entstehen möge.</p>     </div>     <div>      <head>An gemeinen Sontagen vnd Feyertagen.</head><lb/>
+<p>DEs Morgens früe nach fünff vhren / sol zur Metten geleutet werden / vnd darnach die Schüler       einen Psalm / zwen oder drey singen / mit der Antiphona de Dominica vel Festo.</p>      <p>Darnach lese ein Knab die Sontags Episteln / Lateinisch oder Deutsch.</p>      <p>Darnach singe man TeDeum laudamus, &amp;c. den einen Sontag Lateinisch / den andern Deutsch /       vnd das Benedictus darauff / vnd beschliesse der Priester oder Diacon mit einer Collecten.</p>      <p>Bald darnach vmb sechs vhren / werde die früe Predigt angefangen / bis vmb sieben / vnd mag       vor der Predigt ein deutscher Psalm / aus Lutheri Psalmbuch gesungen werden.</p>
+<pb facs="#f0044"/>
+<p>Es sol aber in Stedten / vnd da Schulen sein / alle Sontag / zur früe Predigt / der       Catechismus ördentlich für vnd für geprediget / vnd wenn derselbe aus ist / widerumb angefangen       / vnd allezeit vor der Predigt / die wort des Catechismi gelesen werden.</p>      <p>Nach der früe Predigt sol durch das Volck die heiligen zehen Gebot / oder das Vater vnser /       etc. gesungen werden.</p>      <p>Da aber keine Schüler sein / da kan die Metten vnterwegen gelassen / aber vor der Predigt /       ein oder zwen Deutsche Psalm gesungen werden.</p>      <p>Darnach wenn die erste Predigt vnd Gesang geendiget / so sol zur Mess oder Communio geleutet       / vnd sie angefangen werden / welches zu sieben vhren geschehen sol.</p>      <p>Es sollen die Pastores vnd Kirchendiener / so Messe halten wollen / wenn Communicanten       verhanden sein / nicht blos mit jren gewönlichen Kleidern / sondern in jrem Ornatu       Ecclesiastico, als Alben / Caseln vnd Messgewandt / fein ehrlich / vnd mit grosser andacht /       vnd anruffung des Sons Gottes / vor den Altar treten / vnd das Officium Missae anfahen / halten       vnd verrichten.</p>
+<pb facs="#f0045"/>
+<p>Es sol auch der Altar mit reinen Tüchern vnd anderm Ornatu gezieret vnd bekleidet sein.</p>      <p>Item / Liechte auff dem Altar brennen / wie allezeit bisanher geschehen. Vnd damit fortan in       allen Kirchen dieses Fürstenthums / die Ceremonien in officio Missae, allenthalben / ehrlich /       ördentlich vnd eintrechtig / so viel als jmer möglich / gefürt werden mögen:</p>      <p>So sol man erstlich einen Introitum de tempore, darauff das Kyrie Eleison, vnd Gloria in       excelsis, Item / &amp; in terra pax, zu zeiten Lateinisch / zu zeiten Deutsch singen.</p>      <l>Darnach wende sich der Priester zum Volck / vnd singe. Der HERR sey mit euch. Das Volck       antworte. Vnd mit deinem Geist.</l>      <p>Darauff wende sich der Priester widerumb jegen den Altar / vnd singe eine Collecten de       tempore oder Festo, oder die sich zu der Materien schicken / auff folgende Melodey.</p>
+<pb facs="#f0046"/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+<p>Last vns beten. Allmechtiger HERRe Gott / weck <lb/>
+<figure type="notatedMusic"/><lb/>
+vns auff / das wir bereit sein / wenn dein Son kömpt / <lb/>
+<figure type="notatedMusic"/><lb/>
+jn mit freuden zu empfahen / vnd dir mit reinem <lb/>
+<figure type="notatedMusic"/><lb/>
+hertzen zu dienen / durch denselbigen deinen Son Ihesum <lb/>
+<figure type="notatedMusic"/><lb/>
+Christum vnsern HErrn.</p>     </div>     <div>      <head>Das Volck antwortet / Amen.</head><lb/>
+<p>Denn wende sich der Priester gegen das Volck / vnd singe oder lese die Epistel Deutsch. Nach       der Epistel singet man einen Sequentz oder Alleluia / Lobet den HERrn / oder / Nim HERRE Gott /       von vns all vnser Sünde
+<pb facs="#f0047"/>
+vnd Missethat / Vnd der       Priester das Gebet / darinn die Litania begrieffen / O allmechtiger Gott / oder ein ander       Collecta.</p>     </div>     <div>      <head>Ein Christlich Lied vmb erhörung des Gebets / vmb Gnade vnd vergebung der Sünde.</head><lb/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+<p>Nim von vns HErr Gott / all vnser Sünd vnd missethat <lb/>
+<figure type="notatedMusic"/><lb/>
+/ auff das wir mit rechtem glauben vnd reinem hertzen <lb/>
+<figure type="notatedMusic"/><lb/>
+/ in deinem dienst erfunden werden.</p>      <lb/>
+<figure type="notatedMusic"/><lb/>
+<p>Erbarm dich / Erbarm dich / erbarm dich deines Volcks /
+<pb facs="#f0048"/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+OChriste / das du erlöst hast / mit deine&#x0303; thewrbaren blute.</p>      <lb/>
+<figure type="notatedMusic"/><lb/>
+<p>Erhör vns / Erhör vns / Erhör vns vnser bitt Gott <lb/>
+<figure type="notatedMusic"/><lb/>
+Vater / Schepffer aller ding / hilff vns vn&#x0303; sey vns gnedig <lb/>
+<figure type="notatedMusic"/><lb/>
+Erhör vns / Erhör vns / Erhör vns vnser bitt / <lb/>
+<figure type="notatedMusic"/><lb/>
+O Christe / der Welt Heiland / bitt für vns vnd sey <lb/>
+<figure type="notatedMusic"/><lb/>
+vns gnedig.</p>
+<pb facs="#f0049"/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+<p>Erhör vns / Erhör vns / Erhör vns vnser bitt heiliger <lb/>
+<figure type="notatedMusic"/><lb/>
+Geist / du einger tröster / erleucht vns / vnd sey vns gnedig. <lb/>
+<figure type="notatedMusic"/><lb/>
+Als war ich lebe / spricht Gott der Herre / ich wil nicht <lb/>
+<figure type="notatedMusic"/><lb/>
+den Todt des Sünders / sondern das er sich bekere <lb/>
+<figure type="notatedMusic"/><lb/>
+vnd lebe.</p>     </div>     <div>      <head>VERSVS.</head><lb/>
+<p>Wir haben gesündiget mit vnsern Vetern /</p>      <p>Wir haben missgehandelt vnd sind Gottlos gewesen.</p>     </div>     <div>      <head>Lasset vns beten.</head><lb/>
+<pb facs="#f0050"/>
+<p>BArmhertziger ewiger Gott / ein Tröster der Betrübten / ein erquicker der Krancken / las       vnser Gebet für dich komen / in waserley angst vnd not wir dich anruffen / auff das alle       Menschen sich deiner hülffe erfrewen / vnd dir dancken. Wollest auch gnediglich deiner       Christenheit jre Sünde vergeben / vnd sie von allem jrrthumb vnd vbel erretten / in rechtem       Glauben vnd gehorsam gegen dich erhalten / trewe Lerer geben / alle Obrigkeit zu deinem lobe       vnd gemeinem Friede füren vnd regieren / alle Hausveter sampt jren Weib vnd Kind / vnd Gesinde       bewaren / die Lufft von aller gifft reinigen / Pestilentz / Thewrung / Kranckheit / brand /       Krieg / vnd alle wol verdiente straffe von vns gnediglich abwenden / oder durch deine       Barmhertzigkeit lindern / die Früchte auff dem Felde bewaren / die Gefangen erledigen / den       Sichff brüchigen zu Lande helffen / die betrübten trösten / den Schwangern frölichen anblick       der früchte geben / den Krancken gesundheit / den Sündern gnade zur besserung jres lebens / vnd       allen Christgleubigen barmhertzigkeit / deinen heiligen Geist / vnd ewiges Leben mitteilen /       Durch Ihesum Christum vnsern HErrn / Amen.</p>
+<pb facs="#f0051"/>
+</div>     <div>      <head>Tractus ex Psalmis.</head><lb/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+<p><hi rendition="#i">Domi ne nonsecundum peccata <lb/>
+<figure type="notatedMusic"/><lb/>
+nostra fa cias no bis, neque secundum <lb/>
+<figure type="notatedMusic"/><lb/>
+iniquitates no stras re tribu <lb/>
+<figure type="notatedMusic"/><lb/>
+as no bis.</hi></p>      <lb/>
+<figure type="notatedMusic"/><lb/>
+<p><hi rendition="#i">Do mi ne ne memi <lb/>
+<figure type="notatedMusic"/><lb/>
+ne ris iniquitatum nostrarum anti-
+<pb facs="#f0052"/>
+qua       <lb/>
+<figure type="notatedMusic"/><lb/>
+rum, cito an ticipent nos <lb/>
+<figure type="notatedMusic"/><lb/>
+misericordiae tu ae, Quia paupe <lb/>
+<figure type="notatedMusic"/><lb/>
+res facti su mus nimis</hi>.</p>      <lb/>
+<figure type="notatedMusic"/><lb/>
+<p><hi rendition="#i">Ad iuua nas Deus salu taris noster, <lb/>
+<figure type="notatedMusic"/><lb/>
+&amp; propter gloriam nominis tui Domine <lb/>
+<figure type="notatedMusic"/><lb/>
+libe ra nos, &amp; propi tius <lb/>
+<figure type="notatedMusic"/><lb/>
+esto peccatis no stris pro-
+<pb facs="#f0053"/>
+pter       <lb/>
+<figure type="notatedMusic"/><lb/>
+nomen tuum.</hi>       <lb/>
+<figure type="notatedMusic"/><lb/>
+</p>     </div>     <div>      <head>VERSVS.</head><lb/>
+<p>HERR handle nicht mit vns nach vnsern Sünden.</p>      <p>Vnd vergilt vns nicht nach vnser Missethat.</p>     </div>     <div>      <head>Last vns beten.</head><lb/>
+<p>OHERR Gott himlischer Vater / du weist / das wir in so mancher vnd grosser gefahr von       Menschlicher schwacheit nicht können bleiben / Verleihe vns an Leib vnd Seele krafft / das wir       alles / so vns vmb vnser Sünde willen plaget / durch deine hülff vberwinden / vmb Jesu Christi       deines Sons vnsers HErrn willen / Amen.</p>      <p>Wenn aber die zeit zu kurtz fellet / oder Kinder zu teuffen verhanden / So kan entweder der
+<pb facs="#f0054"/>
+Sequentz / oder der Gesang / Nim von vns HERR Gott       / etc. oder der Tractus ein oder alle ausgelassen werden.</p>      <p>So denn Kinder zu teuffen verhanden / die sollen vor der Lection des Euangelij getaufft       werden.</p>      <p>So aber keine Kinder zu teuffen verhanden / oder sonst / so viel zeit ist / sol die Litania       stets gesungen werden.</p>      <p>Darnach singet oder lieset der Priester das Euangelium Deutsch gegen dem Volcke.</p>      <p>Wenn also das Euangelium gelesen oder gesungen / so sol das Patrem / oder / Wir gleuben alle       an einen Gott / gesungen werden.</p>      <p>Vnd wenn der Glaube Deutsch gesungen wird / so sol darunter nicht georgelt werden.</p>      <lb/>
+<figure type="notatedMusic"/><lb/>
+<p><hi rendition="#i">Credo in unum Deum</hi>.</p>
+<pb facs="#f0055"/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+<p><hi rendition="#i">Patrem omnipotentem, factorem coeli &amp; terrae, visibilium <lb/>
+<figure type="notatedMusic"/><lb/>
+omnium, &amp; inuisibilium. Et in unum <lb/>
+<figure type="notatedMusic"/><lb/>
+Dominu&#x0303; lesum Christu&#x0303; filium Dei unigenitum, &amp; ex         <lb/>
+<figure type="notatedMusic"/><lb/>
+patre natum ante omnia secula, Deum de Deo, <lb/>
+<figure type="notatedMusic"/><lb/>
+lumen de lumine, Deum verum de Deo vero genitum <lb/>
+<figure type="notatedMusic"/><lb/>
+non factum, consubstantialem Patri, per quem om-
+<pb facs="#f0056"/>
+nia       <lb/>
+<figure type="notatedMusic"/><lb/>
+facta sunt, qui propter nos homines &amp; propter <lb/>
+<figure type="notatedMusic"/><lb/>
+nostram salutem descendit de coelis, &amp; incarnatus est <lb/>
+<figure type="notatedMusic"/><lb/>
+de Spiritusancto ex Maria virgine. ET HOMO <lb/>
+<figure type="notatedMusic"/><lb/>
+FACTVS Est. Crucifixus etiam pronobis sub Pontio <lb/>
+<figure type="notatedMusic"/><lb/>
+Pilato, passus &amp; sepultus est, &amp; resurrexit <lb/>
+<figure type="notatedMusic"/><lb/>
+tertia die secundumscripturas, &amp; ascendit in coelum,
+<pb facs="#f0057"/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+sedet ad dexteram patris, Et iterum venturus est <lb/>
+<figure type="notatedMusic"/><lb/>
+cumgloria iudicare vivos &amp; mortuos. Cuius regni <lb/>
+<figure type="notatedMusic"/><lb/>
+non erit finis. Et in Spiritum sanctum Dominum <lb/>
+<figure type="notatedMusic"/><lb/>
+&amp; viuificantem, qui ex Patre filioque procedit, <lb/>
+<figure type="notatedMusic"/><lb/>
+qui cum Patre &amp; Filio simul adoratur &amp; <lb/>
+<figure type="notatedMusic"/><lb/>
+conglorificatur. Qui locutus est per Prophetas. Et u-
+<pb facs="#f0058"/>
+nam       <lb/>
+<figure type="notatedMusic"/><lb/>
+sanctam Catholicam &amp; Apostolicam Ecclesiam. <lb/>
+<figure type="notatedMusic"/><lb/>
+Confi teor unum Baptisma in remißionem <lb/>
+<figure type="notatedMusic"/><lb/>
+peccatorum, &amp; expecto resurrectionem <lb/>
+<figure type="notatedMusic"/><lb/>
+mortuorum, &amp; vitam venturi <lb/>
+<figure type="notatedMusic"/><lb/>
+se culi, A men.</hi></p>
+<pb facs="#f0059"/>
+</div>     <div>      <head>Darauff folget die Predigt.</head><lb/>
+<p>VNd sol das Euangelium / des Sontags oder Festes / dem Volck abermal fürgelesen / vnd hernach       durch Christliche auslegung / die zu erbawung der Kirchen / vnd zu trost vnd besserung der       Zuhörer / dienstlich sey / erkleret werden / eine Stunde lang vngefehrlich. Vnd damit die       Zuhörer etwas gewisses aus den Predigten lernen vnd fassen mögen / so sollen die Prediger jre       Predigten im anfang in etzliche Capita, dauon sie reden vnd handeln wollen / teilen / die       darnach repetiren vnd erkleren / vnd im beschlus der Predigt / dieselbige kürtzlich erinnern /       vnd den Zuhörern zu gemüt füren. Das dienet nicht allein darzu / das die Zuhörer etwas gewisses       aus der Predigt fassen vnd lernen mögen / sondern auch darzu / das die Prediger zuuor desto       fleissiger studiren / vnd sich zur tractation gewisser Materien verbinden / vnd nicht in       hauffen hinein reden / wie es jnen in den sinn felt.</p>      <p>Aber vor der Predigt hat der Priester das Volck zum Christlichen Gebet zu ermanen / das
+<pb facs="#f0060"/>
+der liebe GOTT jnen seinen heiligen Geist geben wolle /       sein heiliges Wort nützbarlich zu handeln / vnd in das hertze zu fassen / das sie jr sündlich       Leben bessern / trost vnd sterckung jres Glaubens erlangen / vnd hinfurt Christlich vnd       seliglich leben mögen.</p>      <p>Darauff sol man ein Vater vnser sprechen / Oder singen / Nu bitten wir den heiligen Geist</p>      <p>Vmb die Weihnachten / Ein Kindelein so löbelich / etc.</p>      <p>Vmb die Ostern / Christ ist erstanden / etc.</p>      <p>Zum ende der Predigt / sol das Volck abermal zum Gebet / vnd dancksagung gegen Gott vermanet       werden / vnd samptlich für erhaltung der Kirchen Gottes / vnd rechter Lere / darzu der trewen       warhafftigen Lerer / vnd das GOTT trewe Arbeiter in seine Erndte senden wolle / für die       Oberkeit / für zeitlichen friede / vnd gewechs der Früchte / vnd in summa / für die not der       gantzen Christenheit / vnd sonderbarer Personen / die des Cheistlichen Gebets begeren / wie des       vngefehrlich eine Notel folget.</p>
+<pb facs="#f0061"/>
+<p>Lieben Christen / Last vns Gott bitten / das er vns bey seinem Gottlichen Wort / wolle       gnediglich erhalten / vnd getrewe Arbeiter in seine Erndte senden / den Predigern vnd       Kirchendienern / seinen heiligen Geist verleihen / das sie dasselbige rein vnd recht fürtragen       / vnd leren / auch mit Gottseligem Leben sürgehen / vnd das der Allmechtige / wolle sie vnd vns       / für falscher Lere gnediglich behüten / vnd derselbigen steuren vnd wehren.</p>      <p>Das er auch vnsern Brüdern vnd Schwestern / die mit falscher Lere / oder sonst / mit       vnrechter gewalt / von Vnchristen oder andern Tyrannen angefochten vnd beschwert werden /       gnediglich helffen wolle / das sie in warem glauben vnd gedult bestendig bleiben / vnd so       möglich die verfolgung von jnen genomen / oder gemiltert werde.</p>      <p>Bittet auch für Weltliche Oberkeiten / Keys. May. vnd andere Potentaten / auch alle andere /       die im Ampt der Oberkeit sitzen / das der allmechtige wolle die jenige / die durch Gottes wort       erleuchtet sein / darbey gnediglich erhalten / denen aber / so noch nicht erleuchtet / seine       gnade geben / das sie Gottes wort in jren Landen / leiden vnd
+<pb facs="#f0062"/>
+annemen. Welche aber das nicht thun wollen / vnd es       verfolgen / das er denselbigen stewren / vnd jr fürnemen zu schanden machen wolle.</p>      <p>Sonderlich dancket Gott / das er vnsere gnedige Landsfürsten vnd Herrn / also begnadet hat /       das sie Gottes wort lieb haben / vnd in jrem Lande predigen lassen / vnd fördern. Vnd bittet /       das sie der allmechtige darbey wolle gnediglich erhalten / vnd jnen Gottselig langes leben /       gesundheit vnd gnad verleihen / das sie jr Regiment also füren / das es Gott zu ehren / vnd       jren Fürstlichen gnaden / vnd derselbigen Vnterthanen / zu gutem gereiche / vnd wir ein still       friedlich leben / in aller Gottseligkeit / vnter jnen füren mögen.</p>      <p>Bittet auch vor vnsere gnedige Landsfürstin / das sie der Allmechtig auch in seinem gnedigen       schutz haben / vnd sie vor allem vnheil behüten / vnd an Leib vnd Seel segnen wolle.</p>      <p>Bittet auch vor die Rethe / Ampt vnd Befehlhaber / Auch den Raht dieser Stadt / das jnen Gott       wolle gnade geben / das sie wol rahten / vnd jren befohlenen Ampten vnd Befehlichen       getrewlichen fürstehen vnd ausrichten.</p>
+<pb facs="#f0063"/>
+<p>Bittet auch vor alle angefochtene vnd betrübte hertzen / vor alle Krancken / Schwangere       Frawen / junge Kinder / vnd alle so in nöten sein / das der allmechtige wolle dieselbigen alle       trösten / behüten / vnd jnen in jren nöten beystehen vnd zu hülff komen.</p>      <p>Bittet vor vns alle in dieser Gemein / vnd in dem gantzen Lande / das Gott vns wolle gnedig       sein / vnd behüten vor Krieg / Pestilentz vnd thewrer zeit / vor Fewer vnd Wassers not / vor       Hagel vnd vngewitter / vnd vor allem vnglücke vnd vbel / vnd wolle die früchte auff dem Felde       behüten / segen vnd gnade geben / das wir sie mit fried / Gesundheit vnd dancksagung geniessen       mögen.</p>      <p>Ein jeder trage Gott seine eigene not für / vnd betet in dem namen Christi / auff seine       zusagung / da er spricht / Alles was jr bittet in meinem Namen / gleubet / so werdet jr es       haben / vnd sprecht von grund des hertzens / Vater vnser / etc.</p>      <p>Wenn denn etwas fürfellet / dauon sonderliche bitte zu thun ist / Als vor sonderliche       Krancken / vor Frawen die in Kindes nöten sein / vnd was sonst vor not vnd sachen des Landes /       oder
+<pb facs="#f0064"/>
+sonderer Personen fürfallen / das sol diesem       gemeinem Gebet / auch mit kurtzen worten angehangen werden.</p>      <p>Dieses Gebet sol nach geendigter Predigt / vnd keines zwischen verlesung des Euangelij / vnd       auslegung desselbigen geschehen / damit die Leute so viel besser den inhalt des verlesenen       Euangelij behalten / vnd durch das Gebet nicht in vergeß desselbigen / vnd andere gedancken       gefurt werden.</p>      <p>Es sey denn / das eine Fraw in Kindes / oder jemands anders in todes nöten were / vnd des       gemeinen Gebets begerte / Den&#x0303; in diesem fall / da auch ein geringer verzug könte       nachteilig sein / mag das sonderliche Gebet für dieselbigen / vor oder nach verlesung des       Euangelij wol geschehen.</p>      <p>Auch sol der Prediger zu zeiten die Leute vermanen / das sie in der Kirchen bey der Communion       bleiben.</p>      <p>Wenn das Gebet nach der Predigt geendigt / sollen die / so zur Communion gehen wollen /       alsbald in den Chor tretten / vnd nieder knien.</p>
+<pb facs="#f0065"/>
+<p>So es denn die zeit leidet in Festen / sollen in den Stedten praefation gesungen werden / de       Festo, wie die zu ende dieser Ordnung folgen.</p>     </div>     <div>      <head>FORMVLA EXHORtationis zum Volcke / das zum Sacrament gehen wil.</head><lb/>
+<p>WEine allerliebsten in Gott / dieweil wir nu das Abendmal vnsers lieben Herrn Ihesu Christi       wollen bedencken / vnd halten / darinn vns sein fleisch zu einer Speise vnd sein Blut zu einem       trancke / nicht des Leibes / sondern der Seelen gegeben wird / sollen wir billich mit grossem       fleis / ein jeglicher sich selbst prüfen / Als Paulus sagt / Vnd denn von diesem Brod essen /       vnd von diesem Kelche trincken. Denn niemand sol / sondern allein ein hungerige Seele / die jre       Sünde erkent / Gottes zorn vnd den Todt fürchtet / vnd nach der Gerechtigkeit hungerig vnd       durstig ist / dis heilige Sacrament empfahen. So wir aber vns selbst prüfen / finden wir nichts       in vns / denn Sünd vnd Todt / können vns auch selbst in keinem wege daraus
+<pb facs="#f0066"/>
+helffen / Darauff hat vnser lieber Herr Ihesus Christus       / sich vber vns erbarmet / ist vmb vnser willen Mensch geworden / das er vor vns das Gesetze       erfüllete / vnd lidde / was wir mit vnsern Sünden verschuldet hetten. Vnd das wir ja festiglich       gleubeten / vnd vns frölich darauff verlassen möchten / Nam er nach dem Abendessen das Brod /       sagte danck / brach es / vnd sprach: Nemet hin vnd esset / das ist mein Leib / der vor euch       gegeben wird. Als wolt er sagen / Das ich Mensch bin worden / vnd alles was ich thue vnd leide       / das ist alles ewer eigen / vor euch / vnd euch zu gute geschehen / Vnd des zu einem       wahrzeichen / gebe ich euch meinen Leib zu einer Speise. Desgleichen auch den Kelch / vnd       sprach / Nemet hin / vnd trincket aus diesem alle / Das ist der Kelch des newen Testaments / in       meinem Blute / das vor euch vnd viel vergossen wird / zu vergebung der Sünden / Als offt jr das       thut / so thut es zu meiner gedechtnis. Als wolt er sprechen / Dieweil ich mich ewer angenomen       / vnd ewer Sünde auff mich geladen habe / wil ich mich selbst für die Sünde opffern / mein Blut       vergiessen / gnad vnd vergebung der Sünde erwerben / vnd also ein new Testament auffeichten /
+<pb facs="#f0067"/>
+darinn der Sünde ewig nicht sol gedacht werden. Deß       zu einem war zeichen / geb ich euch mein Blut zu trincken. Wer nu also von diesem Brod isset /       vnd aus diesem Kelch trincket / das ist / Wer diesen worten / die er höret / vnd diese Zeichen       / die er empfehet / festiglich gleubet / der bleibet in Christo / vnd Christus in jm / vnd       lebet ewiglich. Darbey sollen wir nun seines Todes gedencken / vnd jm von hertzen dancksagen /       ein jeglicher sein Creutz auff sich nemen / vnd dem HErrn nach folgen / vnd vor allen dingen       einer den andern lieben / gleich als vns Christus geliebet hat / Denn es ist ein Brod / vnd wir       viel ein Leib / die wir eines Brotes teilhafftig werden / vnd alle aus einem Kelche       trincken.</p>      <p>Das wir aber alle sämptlich / nach jetzt gehorter Lere vnd vermanung / in rechtem       warhafftigen Glauben / vnd busfertigkeit / das heilige Sacrament wirdiglich empfahen mögen / So       wollen wir Gott den Vater im namen Christi anruffen / vnd von grund des hertzen ein andechtig       Vater vnser sprechen.</p>
+<pb facs="#f0068"/>
+</div>     <div>      <head>Ein ander Exhortation.</head><lb/>
+<p>WEine allerliebsten / Vns wird stets durch die Predigt des Euangelij Christi fürgehalten /       das wir von vns selbst vnwissen / arme Sünder / vnd verloren sein / vnd dieweil wir nicht mehr       von vns selbst sein / denn Fleisch vnd Blut / derwegen wir vns auch / mit vnserm verstande vnd       vermögen / nicht können los machen / aus dem strengen Gericht Gottes / vnd von der gewalt des       Teuffels / darein wir gefallen sind / durch die vbertrettung der Gebot / vnd des willens Gottes       / So hat Gott vnser vnvermögen bas erkandt denn wir / vnd hat vor vns gegeben / als ein       gnediger Vater / seinen eingebornen Son / Ihesum Christum / das wir durch sein Euangelium       erleuchtet / vnd durch seinen Todt erlöset worden / von vnsern Sünden / vnd durch jn Kinder       Gottes worden / ewig selig / so wir das gleubten / Solchs lest er vns stets predigen / Wer das       gleubet / der hat gewis das ewige Leben. Auff solchen Glauben / vnd zu solcher seligkeit werden       wir auch getaufft / da sollen wir stets in bleiben / so bleiben wir in Christo / vnd Christus       in
+<pb facs="#f0069"/>
+vns / So essen wir stets ohn vnterlas Geistlich /       mit dem glauben / den Leib Christi / vnd trincken sein Blut / das ist / Wir werden Christo       eingeleibet / das wir eins mit jm werden / damit das wir gleuben / das er sein Leib für vns in       den Todt gegeben hat / vnd sein Blut für vns am Creutze vergossen / Darauff verlassen wir vns       zur seligkeit / wider alle falsche Lere / alle Sünde / anfechtung vnd not. Aus welcher wolthat       Christi / wir auch lernen / welche Liebe vnd gedult wir vben sollen / gegen vnsern Nehesten /       auch gegen vnsern Feinden / was wolten wir mehr? Doch das wir nicht vergessen / oder trag       würden / als wir leider werden / Zu solchem Glauben der Menschwerdung vnd Todes Christi / hat       er vns auch ein besonder gedechtnis / oder verkündigung seines Todes / so offt wir wollen /       befohlen / das wir auch im auswendigen Sacrament der Vernunfft verborgen / alleine dem Glauben       aus dem wort Christi bekandt / essen sollen / vnd trincken / sein Leib vnd Blut / das wir ja       nicht zweiffeln sollen / sein todt vnd Blutuergiessung am Creutze / sey vnser gewisse seltgkeit       / Dauon sollen wir singen / lesen / predigen / hören / gleich wie wir in der Misse thun / vnd       nachmals
+<pb facs="#f0070"/>
+auch dauon reden / vnd vntereinander       verkündigen / vns zu trost / vnd vielen zur seligkeit / nach dem befehl Christi / Solchs thut       zu meinem gedechtnis.</p>      <p>Wer nu wirdig wil essen / vnd trincken / das Sacrament / der sol zwey ding thun / Er sol gleuben was Christus sagt / vnd thun was er gebeut. Er sagt / Das ist mein Leib / der für euch gegeben wird / Das ist mein Blut / das für euch ausgegossen wird / zur vergebung der Sünden / solches sollet jr gleuben. Er gebeut aber / Nemet hin / Esset vnd trincket alle daraus / vnd gedenck et meiner / Solchs sollet jr thun / nach seiner gnaden / wort vnd befehl. Das vns aber der allmechtige Gott vnd barmhertzige Vater / seinen heiligen Geist reichlich mitteilen wolle / auff das wir durch desselbigen gnade / vns dieser zweyer stücke von grund des hertzen befleissigen mögen / vnd also das heilige Sacrament wirdiglich empfahen / zu sterckung vnsers schwachen Glaubens / vnd besserung vnsers sündlichen lebens / So wollen wir jn darumb anruffen / vnd in dem namen Christi beten / von grund des hertzen / ein andechtig Vater vnser / etc.</p>
+<pb facs="#f0071"/>
+</div>     <div>      <head>Alia forma exhortationis.</head><lb/>
+<p>NAchdem wir durch den fall vnd vbertretung vnser aller Eltern / Adam vnd Eua / sein in Sünde       gefallen / vnd des ewigen Todes schüldig worden / auch durch solche Sünde / vnser Leib vnd       Seelen / dermassen geschwecht vnd verdorben sein / das wir aus vns selbst nichts guts thun       können / viel weniger die Gebot vnd willen Gottes halten / vnd derhalben nach dem Gesetz Gottes       verflucht / vnd ewiglich verdampt solten sein / Wie geschrieben stehet / im Buch des Gesetzes /       Vnd aber wir vns selbst / noch keine Cre atur im Himel / vnd auff Erden / aus solchem jammer       vnd verdamnis hat helffen können / So hat sich Gott der allmechtige vber vns erbar met / vnd       aus vnaussprechlicher liebe / seinen einigen Son Ihesum Christum / in diese Welt gesand / vnd       jn Menschliche natur / Fleisch vnd Blut / von der Jungfraw Maria lassen annemen / auff jn all       vnser vnd der gantzen Welt Sünde gelegt / der sie auch für vns getragen / vnd am galgen des       Creutzes gestorben / vnd am dritten tage wider aufferstanden ist / vnd damit die sünde vnd       vbertretung vnser Eltern / vnd vnser selbst gebüsset /
+<pb facs="#f0072"/>
+vnd vns Gott dem allmechtigen widerumb versönet hat / das wir nu gerecht vnd Kinder Gottes       werden / vnd das ewige Leben / vnd seligkeit haben sollen.</p>      <p>Damit wir nu solches desto gewisser sein / vnd dieser grossen vnaussprechlichen       Barmhertzigkeit / lieb vnd wolthat / nicht vergessen solten / So hat Ihesus Christus in dem       Abendmal / als sein leiden angehen solte / seinen lieben Jüngern seinen Leib zu essen / vnd       sein Blut zu trincken gegeben / Vnd zu jnen vnd allen Christen gesagt / das es sein Leib sey /       der für sie gegeben / vnd sein Blut / das für sie vergossen sey / zu vergebung der Sünden / Vnd       das sie solches / so offt sie also essen vnd trincken würden / solten zu seiner gedechtnis thun       / Vnd wie S. Paulus sagt / seinen Todt darbey verkündigen / bis er wider komen wird / am       Jüngsten tage / zu richten die Lebendigen vnd die Todten.</p>      <p>Darumb sollen wir thun / was er vns befihlet / Nemlich seinen Leib essen / vnd sein Blut       trincken / vnd darbey seiner grossen wolthat / das er vns durch sein bitter leiden vnd sterben       / von Sünde / ewigem Tode / Teuffel / vnd ewigem verdamnis erlöset / vnd Gott dem Himlischen
+<pb facs="#f0073"/>
+Vater wider versönet hat / gedencken / vnd       jmdancksagen.</p>      <p>Wir sollen auch gleuben / was er gesagt hat / Nemlich / das ist mein Leib / der für euch       gegeben wird / das ist mein Blut / das für euch vergossen wird / zur vergebung der Sünde. Wenn       wir solches thun vnd gleuben / so empfangen wir nach seinem Wort / seinen waren Leib mit dem       Brod / vnd sein wares Blut / mit dem Weine / vnd mit denselbigen alle seine verdienst vnd       Gerechtigkeit / Als nemlich / vergebung der Sünde / erlösung vom Tode / die Kindschafft Gottes       / vnd ewige seligkeit.</p>      <p>Es sollen aber allein die Leute / die hungerig vnd durstig nach der Gerechtigkeit sein / zu       diesem hochwirdigen Sacrament gehen / das ist / die sich für Sünder bekennen / vnd jnen       dieselbige lassen leid sein / vnd ein fürsatz haben / sich zu bessern / vnd so viel möglich /       nach dem willen Gottes zu leben.</p>      <p>Darumb prüfse sich ein jeder Mensch selbst / Vnd der sich also gesinnet befindet / der gehe       kecklich herzu / Denn er empfehet das Sacrament wirdiglich / Vnd ob er gleich im Glauben noch       schwach were / so wil doch Gott damit
+<pb facs="#f0074"/>
+gedult haben /       Denn er das glimmende Tocht nicht ausleschen / noch das zerbrochen Rhor zerknirschen / sondern       den anfang des Glaubens zu gefallen annemen wil. Wir sollen aber bitten / wie im Euangelio       stehet / Herr ich gleube / ich bitt aber / mehre mir den Glauben.</p>      <p>Welchem aber seine Sünde nicht leid sein / auch keinen willen hat sich zu bessern / Sondern       in öffentlichen Sünden vnd lastern fortzufaren / der bleibe von diesem Sacrament / denn er       empfehet es zum Gericht / wie S. Paulus saget.</p>      <p>Das nu wir die versamlet sein / das Abendmal des Herrn zu halten / vnd sein Leib vnd Blut zu       geniessen / mögen solchs wirdiglichen thun / vnd vnsern Glauben dadurch stercken / vnd förder       nach dem willen Gottes leben / vnsern Feinden vergeben / vnsern Nehesten lieben / vnd allen       Menschen guts thun / Wollen wir Gott den Vater durch Ihesum Christum anruffen / vnd beten das       heilige Vater vnser.</p>      <p>Nach der vermanung singe der Priester das Vater vnser / vnd die wort von der Einsetzung des       Abendmals Ihesu Christi / Auff folgende Melodien.</p>
+<pb facs="#f0075"/>
+</div>     <div>      <head>ORATIO DOMINICA.</head><lb/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+<p>Vater vn ser der du bist im Himel / <lb/>
+<figure type="notatedMusic"/><lb/>
+Geheiliget werd dein Name / Zukome dein Reich / <lb/>
+<figure type="notatedMusic"/><lb/>
+Dein will gescheh / als im Himel auch auff der Erden / <lb/>
+<figure type="notatedMusic"/><lb/>
+Vnser teglich Brod gib vns heut / Vnd verlas vns <lb/>
+<figure type="notatedMusic"/><lb/>
+vnser schuld / als wir vergeben vnsern Schüldigern / <lb/>
+<figure type="notatedMusic"/><lb/>
+Vnd führ vns nicht in versuchung / Sondern erlös <lb/>
+<figure type="notatedMusic"/><lb/>
+vns von dem bösen. Amen.</p>
+<pb facs="#f0076"/>
+</div>     <div>      <head>VERBA INSTITVTIONIS Coenae Dominicae.</head><lb/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+<p>Vnser HErr Ihesus Christus / in der nacht / da er <lb/>
+<figure type="notatedMusic"/><lb/>
+verraten ward / nam er das Brod danckte vn&#x0303; brachs / <lb/>
+<figure type="notatedMusic"/><lb/>
+vnd gabs seinen Jüngern / vnd sprach / Nemet hin / vnd <lb/>
+<figure type="notatedMusic"/><lb/>
+esset / das ist mein Leib / der für euch gegeben wird / solchs <lb/>
+<figure type="notatedMusic"/><lb/>
+thut zu meiner gedechtnis.</p>      <lb/>
+<figure type="notatedMusic"/><lb/>
+<p>Des geleichen nam er auch den Kelch / nach dem Abend-
+<pb facs="#f0077"/>
+mal       <lb/>
+<figure type="notatedMusic"/><lb/>
+/ danckte / gabs jn / vnd sprach / Trincket alle daraus / <lb/>
+<figure type="notatedMusic"/><lb/>
+dieser Kelch ist das new Testament in meinem Blut / <lb/>
+<figure type="notatedMusic"/><lb/>
+das für euch vergossen wird / zur vergebung der Sünden / <lb/>
+<figure type="notatedMusic"/><lb/>
+solchs thut so offt jrs trincket zu meinem gedechtnis.</p>      <p>Nach dem die wort des Testaments gesungen sind / Communicire man das Volck mit beider gestalt       / nach der einsetzung des HErrn Christi / vnd nicht anders.</p>      <p>Vnter der Communion singe man / weil sie wehret / der nachgesetzten Gesenge / einen oder mehr       / darnach viel Communicanten sein.</p>      <l>Ihesus Christus vnser Heiland / etc. Item / Gott sey gelobet / etc. Sanctus, Agnus Dei.
+<pb facs="#f0078"/>
+Esaia dem Propheten / oder ein and ers. Oder / O Lamb       Gottes vnschüldig.</l>     </div>     <div>      <head>Nach der Communion sol folgende Collecta gesungen werden.</head><lb/>
+<p>WIr dancken dir allmechtiger HERRE Gott / das du vns durch diese heilsame Gabe hast erquicket       / Vnd bitten deine Barmhertzigkeit / das du vns solches gedeyen lassest / zu starckem Glauben       gegen dir / vnd zu brünstiger liebe vnter vns allen / vmb Ihesu Christi vnsers HErrn willen /       Amen.</p>     </div>     <div>      <head>Benedictio gegen dem Volcke.</head><lb/>
+<p>Der HERR segne dich / vnd behüte dich.</p>      <p>Der HERR erleuchte sein angesicht vber dich / vnd sey dir gnedig.</p>      <p>Der HERR erhebe sein angesicht auff dich / vnd geb dir friede / Amen.</p>     </div>     <div>      <head>An Sontagen vnd hohen Festen / nach Mittage / in Stedten.</head><lb/>
+<p>DIeweil in vielen Kirchen nützlich vnd heilsamlich geordnet / auch in etlichen vnsers       Fürstenthumbs / gewönlich ist / das in der wochen ein mal ein Kinderpredigt gehalten / vnd die       Jugend / Knaben vnd Meigdlin / gewehnet werden /
+<pb facs="#f0079"/>
+den       Catechismum mit einer kurtzen Auslegung auswendig zu lernen vnd zu recitiren / So wollen wir /       das solchs in allen Kirchen / vnsers Fürstenthumbs / in den Stedten / auff den Sontag vor der       Vesper geschehen solle / wie hernach folget / damit die Jugend in Gottes furcht er zogen / vnd       den Catechismum bey zeiten lernen möge / Vnd solle ein jeder Hausvater seine Kinder / Knaben       vnd Megdlin / die des Alters sein / in solche Predigt zu schicken schüldig sein.</p>      <p>Es sollen auch Megde vnd Knechte darein gehen / vnd von jren Hauswirten vnd Frawen / dazu       gehalten werden.</p>      <p>Vnd weil solchs nicht wol füglicher / als auff einen Sontag geschehen kan / vnd der Sabbath       so viel desto mehr geheiliget / so sol es folgender gestalt damit gehalten werden.</p>      <p>Am Sontag nach Mittag / zu einer vhr / solle man ein kleine Glocken leuten / vnd dar nach die       Schüler den Catechismum lesen / anfahen einen oder zween Deutsche Psalm zu singen / oder die       zehen Gebot / oder das Vater vnser / etc. Christ vnser Herr zum Jordan kam / etc. vnd       dergleichen / vnd sollen die andern Kinder vnd Gesinde / in der Kirchen mit singen lernen.</p>
+<pb facs="#f0080"/>
+<p>Darnach sol der Prediger oder Diacon einer / wie sie sich dessen werden vergleichen / die       Kinder in solcher Catechismi Lere / nacheinander auff jeden Sontagen etliche fragen / vnd jm       denn aus wendig sagen lassen / Item die auslegung / welche die Kinder von wort zu wort aus dem       kleinen Catechismo D. Martini Lutheri sollen lernen vnd auffsagen.</p>      <p>Desgleichen neme er ein ander mal / ein ander stücke des Catechismt für sich / bis zu ende /       vnd wenn der Catechismus ein mal geendiget / so solle er widerumb angefangen / vnd für vnd für       also getrieben werden.</p>      <p>Da aber die Prediger / anderer arbeit halben / nicht zeit hetten / den Catechismum auff den       Sontag zu predigen / So sol es auff einen Werckeltag geschehen / Aber da es geschicht / sol man       nach der Kinder predigt / oder sonst zu zweyen vhren zur Vesper leuten / Vnd die Schüler einen       oder zwen Lateinische Psalm singen: Dixit Dominus, &amp;c. Co&#x0303;fitebor, &amp;c.       Beatus vir, &amp;c. Laudate pueri Dominum, &amp;c. zu zeiten / In exitu Israel, &amp;c. darnach       die Lection / zehen Gebot / den Glauben / vnd Vater vnser / etc. Deutsch.</p>      <p>Darnach singet man den Hymnum de tempore, zu zeiten Deutsch / zu zeiten Lateinisch.</p>
+<pb facs="#f0081"/>
+<p>Darnach thut man eine Predigt / von der Sontags Episteln / oder de Festo. Oder es mag ein       Prediger eine Epistolam Pauli / oder eine andere fürnemen / vnd die nach einander auff den       nachmittag des Sontags predigen.</p>      <p>Nach der Predigt / singet man das Magnificat, bisweilen Deutsch / bisweilen Lateinisch /       darauff wird eine Collecta gelesen / vnd mit dem Benedicamus Domino beschlossen.</p>      <p>Auff den Dörffern / wie hernacher gemeldet / sol man am Sontag on vnterscheid vmb ein vhr /       Vesper halten / einen Psalm oder zwen Deutsch singen / vnd darnach den Catechismum den Kindern       leren / vnd wenn das geschehen / so mag der Prediger / dem alten Volck ein stücke aus dem       Catechismo erkleren.</p>      <p>Darnach mag man das Magnificat deutsch / oder Nunc dimittis Deutsch singen / vnd mit einer       Collecten beschliessen.</p>      <p>In sonderheit aber / sollen die Pastor es / das Volck vermanen / das sie fleissig vor sich       selbst / in die Kirchen gehen / auch jr Gesinde vnd Kinder lassen darein komen.</p>      <p>Es sollen auch Bürgermeister vnd Rhat in den Stedten / vnd vnsere Haupt vnd Amptlen-
+<pb facs="#f0082"/>
+te / vnd Voigte in den Ampten / die Leute / wo es       nicht sonderliche ehehaffte not erfordert / mit diensten verschonen / vnd allenthalben ein       fleissig auffsehen haben / das vnter der Predigt / vnd Gottesdienst / so wol den nachmittag /       als vor mittag / kein Gasterey / Krügen / oder Schwelgerey oder Zecherey / auch Spatzieren       gehen / auff dem Kirchhoff / gestattet / noch vnter der Predigt / Brantenwein oder Bier       verkaufft / oder in den Dörffern / da Wagen sein / ichteswas gewogen / oder sonst       kauffmanschafft / getrieben / noch die Kremer buden eröffnet werden / vnd solchs ernstlich       verbieten / vnd von der Cantzel verkündigen lassen / vnd da dawider geschehe / so sollen sie       Wirt vnd Gast in straffe nemen / auch so nötig / in gefengnis einzihen / damit andern Exempel       gegeben / vnd solch vngeschickt / vnchristlich wesen abgestalt werde.</p>      <p>Es sollen auch in Stedten vnd Dörffern / alle Sontag / vor der früe vnd nach mittags predigt       / die wörter des gantzen Catechismi den Leuten deutlich vorgesagt werden / Auch eine kurtze       form einer Beicht / damit der gemeine Man lerne seine Sünde Gott dem allmechtigen beichten /       vnd sich in der Beicht rechtschaffen zu schicken.</p>
+<pb facs="#f0083"/>
+</div>     <div>      <head>Von den besondern Festen oder Feyertagen / so man im Jar halten sol.</head><lb/>
+<p>VBer die gemeinen Sontage sollen gehalten werden / die hohen Heubt Feste des Herrn Christi /       als da sind:</p>      <p>Der tag Natiuitatis Christi, oder der Geburt Christi / sampt den andern vnd dritten       folgenden.</p>      <p>Der tag Circumcisionis, oder der Beschneidung Christi.</p>      <p>Der tag Epiphaniae, das ist / der erscheinung / oder der offenbarung Christi / den man nennet       / der heiligen drey Könige tag.</p>      <p>Der tag der Opfferung Christi im Tempel / genant Purificationis Mariae, oder Liechtmeß       tag.</p>      <p>Der tag Annunciationis Mariae, oder Conceptionis Christi, Da Christus in der Jungfrawen Leib       empfangen ist.</p>
+<pb facs="#f0084"/>
+<p>Der tag Coena Domini, den man den Grünen donnerstag nennet / daran von des HErrn Abendmal sol       geprediget werden / vor Mittag.</p>      <p>Der tag Passionis Christi, oder Leidens vnd Sterbens Christi / welcher der Karfreytag       genennet wird / vor Mittag.</p>      <p>Der Ostertag oder Pascha, der tag der Aufferstehung Christi / sampt den folgenden Montag vnd       Dienstag.</p>      <p>Der Tag Ascensionis, oder Himelfart Christi.</p>      <p>Der Pfingstag / sampt den folgenden Montag vnd Dienstag.</p>      <p>Der tag Trinitatis, felt auff den nehesten Sontag nach Pfingsten.</p>      <p>Der tag S. Johannis des Teuffers.</p>      <p>Der tag Visitationis Mariae, da Maria jre Mume Elisabeth heimsucht.</p>      <p>Der tag Michaelis.</p>
+<pb facs="#f0085"/>
+<p>Auff diese Fest sol es mit ordnung der Lection / Gesenge / Predigten vnd Communton gehalten       werden / wie an den gemeinen Sontagen / allein das die Introitus, Sequentz vnd Praefationes de       tempore gesungen werden. Item / die deutsche alte Liedlin / Als auff Natiuitatis, Ein Kindelein       so löbelich.</p>      <p>Auff Ostern / Christ ist erstanden.</p>      <p>Auff Pfingsten / Nu bitten wir den heiligen Geist / etc.</p>      <p>Vnd sollen auch diese Gesenge die Prediger von der Cantzel / wenn sie die Predigt anfahen /       mit dem Volck singen.</p>      <p>Vber die fürnemesten Fest / sollen auch gehalten werden / die tag der Aposteln / auff welche       man in Stedten vnd auff Dörffern des Morgens predigen solle.</p>      <p>Aber an solchen Apostel tagen / nach der Predigt / mag ein jeder seiner arbelt wol       warten.</p>      <p>Vnd damit die Sontag vnd verordente Feyertage / dauon hernacher gemeldet / zu dem       Gottesdienste / desto mehr gebrauchet / vnd also
+<pb facs="#f0086"/>
+der Sabbath geheiliget / vnd das gemeine Volck vrsach haben möge / Gottes ehre / vnd jr eigen Seelen seligkeit / zu suchen vnd zu fördern / So sollen die Pastores offt in der erklerung des dritten Gebots Gottes / auch sonst das Volck vermanen / von dem rechten gebrauch / vnd heiligung des Sabbaths / das sie auff demselbigen Gottes Wort hören vnd lernen / vnd Gott desto fleissiger anruffen / vnd alle andere arbeit vnterwegen lassen / vnd denselbigen tag deu Krug / vnd alles was sie an dem Gottesdienste auffsolchen tag verhindern möchte / wo es die not oder Liebe des Nehesten nicht benimpt / meiden.</p>     </div>     <div>      <head>An Wercktagen.</head><lb/>
+<p>IN den grössesten vnd fürnemesten Stedten / vnd da drey Predicanten sein / sol alle Wercktage       eine Predigt geschehen / Aber in den andern kleinen Stedten / sollen auffs wenigste zwo oder       drey / als am Montag / Mitwochen vnd Freytag / geschehen / vnd also gehalten werden / das im       Sommer vmb sieben / vnd des Winters zu acht vhren / die Glocke geleutet werde.</p>
+<pb facs="#f0087"/>
+<p>Vnd darnach die Schüler auff den Chor gehen / vnd einen oder zween lateinische Psalmen       singen.</p>      <p>Darnach einen deutschen Psalm / Darnach sol man predigen / den Sommer bis vmb acht vhren /       vnd nicht darüber. Nach der Predigt singet man einen kurtzen deutschen Psalm / darnach eine       Collect / Aber des Mitwochens oder Freytags / sol in allen Stedten vnd Flecken / nach der       Predigt / die Litania gesungen werden / also das der Prediger oder Caplan einer vorsinge / vnd       die gantze Kirche antworte. Darnach mag zu zeiten / Nim von vns HERRE Gott / all vnser Sünd vnd       Missethat / oder der Tractus, Domine non secundum peccata, &amp;c. wie es hievor gezeichnet /       gesungen / vnd mit der folgenden Collecten beschlossen werden.</p>      <p>Die Prediger sollen sich befleissigen / gute nützliche Materien dem Volck für zu tragen / als       zu zeiten einen Euangelisten / den Catechismum ordentlich / etliche Epistolas Pauli / etliche       fürnemliche Psalmen / vnd sollen die Capellan / mit raht jrer Pastorn solche materien       fürnemen.</p>
+<pb facs="#f0088"/>
+<p>Wenn aber solche heilige tage gefallen / die man nicht pflegt zu feyren / vnd doch jre       Historien im Euangelio beschrieben sind / Als da ist der tag Conuersionis Pauli, Mariae       Magdalenae, S. Johannis entheubtung / mögen die Prediger den selben Text vnd Historien / an       einem solehen Wercktage / oder am Mitwochen / oder Freytage / der solchem heiligen tage am       nehesten ist / in der Predigt lesen vnd handeln.</p>      <p>In der Fasten / sol man die Historien des Leidens Christi / an solchen Wercktagen predigen.       Vnd wird für gut angesehen / das man bald nach Laetare, jedoch nach gelegenheit der Kirchen /       vnd als ein Superintendens des orts / dasselbige am besten erkennen wird / oder auff den       Dörffern am Sontag Esto mihi, anfahen das Büchlin / vom Leiden Christi / aus den vier       Euangelisten zusamen gezogen / ördentlich zu lesen / damit man zeit habe / alle stückt fleissig       zu handeln / vnd zu betrachten.</p>
+<pb facs="#f0089"/>
+</div>     <div>      <head>Kirchenordnung auff den Dörffern.</head><lb/>
+<p>ALle Sonabend nach Mittage / vmb zwey vhren / vnd alle heilige Abend / wenn des andern tags       die versamlung des Volckes geschicht / sol auff den Dörffern / der Custos zur Vesper leuten /       vnd sol der Pfarherr alsbald darnach in die Kirchen komen / vnd mit seinem Custode einen Psalm       deutsch vnd fein verstendlich singen / darauff den Hymnum, O lux beata, &amp;c. oder Christe       qui lux es &amp; dies, &amp;c. deutsch / oder Christliche gute Gesenge / nach gelegenheit der       zeit / der Feste vnd Sontage / vnd denn das Magnificat deutsch / vnd die Collecta / Item /       Benedicamus Domino, &amp;c.</p>      <p>Nach der Vesper sol der Pfarherr die Leute so beichten wollen / hören vnd absoluiren / die       des andern tages zur Communion gehen wollen / Vnd sol der Pastor die jenigen / so communiciren       wollen / vermanen / das sie den Sonabend
+<pb facs="#f0090"/>
+zuuor / vor       vnd nach der Vesper zur Beicht komen / vnd er darauff mit fleis warten.</p>      <p>Wo der Pfarherr im Dorff nicht wohnet / so sol er die Leute so communiciren wollen / auff den       Sonnabend des Morgens / auff eine gewisse stunde bescheiden / vnd jre Beicht hören / vnd mit       fleis sie vnterweisen.</p>      <p>Es sol in allen Dörffern die Woche ein mal / am Mitwochen / oder Freytag / eine Predigt       geschehen / vnd allezeit auff denselbigen tag die Litania gesungen werden. Vnd damit das       gemeine vnd junge Volck / die Summa der Christlichen Lere / desto besser fassen vnd lernen möge       / so soll allezeit / auff den Dörffern / des Freytags der Catechismus / einfeltig geleret vnd       geprediget werden.</p>      <p>Weil auch gebreuchlich / das die Betglocken Abends / Morgens / vnd zu Mittage / geleutet       werden / So sol das Volck vermanet werden / wenn solchs geschicht / das sie jr Gebet zu Gott       dem HERRN / für Friede / vnd alle zeitliche vnd ewige wolfart thun / vnd jr Gesinde auch darzu       halten / sie sein im Hause / im Felde /
+<pb facs="#f0091"/>
+oder wo       einer ist / vnd das sie sich des nicht schemen / Denn es ist Gott ein gefellig / vnd jnen       selbst ein nützlich werck.</p>     </div>     <div>      <head>Wie mit der Mess oder Communion auff den Dörffern sol gehalten werden.</head><lb/>
+</div>     <div>      <head>Mess oder Communio.</head><lb/>
+<p>Die sol der Pfarherr vnd Custos anfahen / mit einem Deutschen Psalmen / wens jnen allein den       Introitum zu singen zu schwer were.</p>      <p>Darnach das Deutsche Kyrie.</p>      <p>Darnach / Allein Gott in der höhe sey ehr / etc.</p>      <p>Darnach wende der Priester sich gegen dem Volcke / vnd spreche oder singe:</p>      <p>Der HERR sey mit euch.</p>     </div>     <div>      <head>Antwortet der Custos.</head><lb/>
+<p>Vnd mit deinem Geiste.</p>      <p>Darauff folget die Collecta oder Gebet / wie die auff die Sontage vnd Fest verordnet sind /       die lieset der Priester gegen dem Altar.</p>
+<pb facs="#f0092"/>
+<p>Darnach wendet er sich widerumb gegen dem Volck / vnd lieset oder singet nach der gelegenheit       die Epistel Deutsch mit lauter stim / das die Kirche die Wort vernemen könne: Vnd hebet an:       Diese Epistel beschreibet der heilige Paulus oder N. in N. Epistel.</p>      <p>Nach der Epistel singet man einen Deutschen Psalm / darnach wende sich der Pfarherr abermal       gegen dem Volck / vnd lese oder singe / das Euangelium desselben Sontags oder Festes / vnd       fehet also an:</p>      <p>Das heilige Euangelium beschreibet S. N. im N. Capitel.</p>      <p>Darnach wende er sich wider gegen den Altar / vnd singe / Wir gleuben all an einen Gott /       etc. Das sol die gantze Kirche singen.</p>      <p>Darauff folget die Predigt / in welcher anfang der Catechismus von wort zu wort gantz / vnd       darnach das Euangelium abermal sol gelesen / vnd hernach erkleret werden. Zu ende der Predigt /       geschicht das gemeine Gebet / wie obstehet.</p>
+<pb facs="#f0093"/>
+<p>Die vermanung in der Kirchen / bey der Communion zu bleiben / sol etlich mal im Jar       geschehen.</p>      <p>Nach der Predigt fehet der Pfarherr auff der Cantzel einen Psalm an zu singen.</p>      <p>Auff die hohen Fest / mag eine Deutsche Praefatio gesungen werden.</p>      <p>Darnach thut er die Vermanung / wie oben stehet.</p>      <p>Darnach singet der Pfarherr vor dem Altar / das Vater vnser vnd die Wort von der einsetzung       des Abendmals Ihesu Christi.</p>      <p>Nach den worten des Testaments / sol man singen / Ihesus Christus vnser Heiland / etc. vnd       vnter diesem Gesang die Leute communicirn.</p>      <p>Wenn der Communicanten viel sind / singe man dieweile auch andere Gesenge / Als / Gott sey       gelobet / etc. Item / den Psalm / Ich dancke dem HERRN / etc. Vnd zu letzt / O Lamb Gottes       vnschüldig / etc. Oder / Christe du Lamb Gottes.</p>
+<pb facs="#f0094"/>
+<p>Darnach wenn sie alle communicirt sein / spreche der Pfarherr die Collect / Wir dancken dir       allmechtiger HERR Gott / etc. Item / die Benediction / Der HERR segne dich / etc. wie dis alles       oben verzeichnet.</p>      <p>Wenn nicht Communicanten da sind / sol es mit dem Gesang vnd Lection vor der Predigt / aller       ding gehalten werden / wie oben beschrieben. Auch sol in der Predigt erinnerung vnd vermanung       geschehen / das man offter zur Communion komen wolle.</p>      <p>Nach der Predigt aber sol allein die Litaney gesungen werden / vnd der Segen darauff.</p>      <p>Zu letzt singe man / Erhalt vns HERR bey deinem Wort / etc. vnd / Verleihe vns Friede       gnediglich.</p>      <p>Weil auch bisher gebreuchlich gewesen / das bey der Communion / der Priester so Mess helt /       mit dem Kirchen Ornat bekleidet / vnd Wachsliechter auff dem Altar angezündet werden / so sol       es fürder darbey gelassen / vnd also in Dörffern auch gehalten werden.</p>
+<pb facs="#f0095"/>
+<p>Es sollen auch sonst die Priester / mit ehrlichen vnd ziemlichen langen Kleidern / jeder zeit       gekleidet sein.</p>     </div>     <div>      <head>Nach Mittage am Sontage vnd Feyertagen auffden Dörffern.</head><lb/>
+<p>SOllen die Leute in allewege darzu gehalten werden / das sie widerumb in die Kirchen komen /       vnd den Catechismum hören lesen / vnd handlen.</p>      <p>Darbey sollen sie singen / Dis sind die heiligen zehen Gebot / etc. Item / Vater vnser im       Himelreich / etc.</p>      <p>Wo aber dieses vmb gewisser vrsachen willen nicht möglich / sollen alle Sontag nach der       Predigt / vnd vor der Communion / vnd am Mitwochen vor Mittage / nach der Predigt / ein stück       aus dem kleinen Catechismo Lutheri / von wort zu wort fürgelesen werden / vnd sollen die       Pastores in allwege fürnemlich darauff bedacht sein / das sie die Lere des Catechismi mit       höhestem fleis bey jren Pfarkindern treiben vnd pflantzen / Denn wie nütz vnd nötig das sey /       ist nicht auszusprechen.</p>
+<pb facs="#f0096"/>
+</div>     <div>      <head>Von den Stifften.</head><lb/>
+<p>IN vnsern Stifften Bardewick vn&#x0303; Ramelslo / sol es aller ding gehalten werden /       mit Gesengen / predigen / vnd andern / wie in den Stedten / als obgemeldet.</p>      <p>Aber in der Wochen / sollen zwo Predigt / am Dienstag vnd Freytag zu Bardewick / vnd am       Mitwochen vnd Freytag zu Ramelslo geschehen / vnd die Litania gesungen werden / Aber alle       Wercktage / ausbescheiden des Mitwochens vnd Sonabendes vor Mittage / sollen in beiden Stifften       Metten vnd Vesper gesungen werden / vnd die Residirende Canonici vnd Vicarij pflichtig sein /       stets dabey zu sein / vnd helffen singen / vnd ohne erhebliche vnd kündliche vrsache / die dem       Dechant oder Pastorn sollen angezeigt werden / nicht daraus bleiben. Vnd sollen das Capittel       vnter sich eine geltstraffe darauff setzen / wenn einer ohne redliche vnd kündtliche vrsache       aus der Kirchen bleibet / welche den andern solle zu gute komen. Vnd haben die Canonici vnd       Vicarij zu bedencken /
+<pb facs="#f0097"/>
+das jnen solcher Gottesdienst       gebüret / Wer aber das nicht thun wil / der sol als ein Müssiggenger in vnsern Stifften nicht       gelitten werden.</p>      <p>In den Jungfrawen Klöstern / sol es auff die Fest tage mit Gesengen vnd Predigen / wie       obstehet / vnd sich sonst weiland vnsers lieben Bruders / Hertzogen Frantz Otten seliger vnd       löblicher gedechtnis / Ordnung / so sein Liebe in den Klöstern gemacht / gehalten / vnd       Vnchristliche Gesenge / Lection vnd Collect gentzlich vnterlassen / vnd gemitten werden.</p>
+<pb facs="#f0098"/>
+</div>     <div>      <head>Von der Tauffe.</head><lb/>
+<p>WEil die heilige Tauffe von vnserm HErrn Ihesu Christo selbst eingesetzt / vnd das Fundament       vnsers Christlichen Glaubens ist / vnd wir dadurch der heiligen Christlichen Kirchen / ja       Christo selbst einuerleibet werden / vnd billich vnd recht ist / das dieselbige ehrlich / vnd       mit grosser solennitet / vnd andacht / vnd in beysein vieler Christen / gehalten werde / damit       andere Leute jrer Tauffe / vnd der hohen gaben Gottes / als der vergebung der Sünde / der       Kindschafft Gottes / vnd der ewigen seligkeit / die er dadurch den Menschen mitteilet /       erinnert / auch zum Gebet / für die Kindlein / so getaufft / vermanet werden / So wollen wir /       das in vnserm Fürstenthumb / die heilige Tauffe / nicht im winckel / oder heimlich / sondern in       facie Ecclesiae, geschehen solle / Derwegen ordenen vud setzen wir / das in allen Pfarren /       vnsers Fürstenthumbs / die Tauffsteine / wo es nicht allbereit geschehen / oben vor dem Chor /       vnd ein tritt oder zween in die höhe / gesetzet wer-
+<pb facs="#f0099"/>
+den sollen. Vnd sollen die Leute vermanet werden / wo es die gelegenheit leiden wil /       das sie jre Kindlein des Sontags vnd Wercktages / wenn Predigt gehalten werden / in die Kirchen       bringen / vnd teuffen lassen.</p>      <p>Es sol aber die Tauffe an Sontagen des morgens vor der Lection des Euangelij / vnd auff den       Nachmittag kurtz nach der Predigt / vor dem Magnificat, vnd auff die Wercktage / als bald nach       der Predigt / ehe das Volck aus der Kirchen gehet / gehalten werden.</p>      <p>Vnd wiewol die Forma der Tauffe menniglichen bekant / vnd im Catechismo Lutheri gefast ist /       So wollen wir sie doch hieher / von worten zu worten setzen lassen / damit sich ein jeder       Pastor so viel desto bas darnach zu richten.</p>     </div>     <div>      <head>Auff nachfolgende weise sol der Teuffer die Leute so Kinder zur Tauffe tragen / anreden       vnd vermanen.</head><lb/>
+<p>Der Priester sol erstlich fragen.</p>      <p>Wie sol das Kind heissen?</p>
+<pb facs="#f0100"/>
+<p>Antworten die Paten / N. oder N.</p>      <p>Darnach spreche er.</p>      <p>Fahr aus du vnreiner Geist / vnd gib raum dem heiligen Geist.</p>      <p>Darnach mache er jm ein Creutz an die Stirn vnd Brust / vnd spreche:</p>      <p>Nim das Zeichen des heiligen Creutzes / beide an der Stirn vnd an der Brust.</p>     </div>     <div>      <head>Lasset vns beten.</head><lb/>
+<p>OAllmechtiger ewiger Gott / Vater vnsers HErrn Ihesu Christi / Ich ruffe dich an vber diesen       N. deinen Diener / der deiner Tauffe gabe bittet / vnd deine ewige Gnade / durch die Geistliche       widergeburt begeret / Nim jn auff HERR / wie du gesaget hast / Bittet so werdet jr nemen /       Suchet so werdet jr finden / Klopffet an / so wird euch auffgethan. So reiche nu das gut / dem       der da bittet / vnd öffne die thür / dem der da anklopffet / das er den ewigen segen dieses       Himlischen bades erlange / vnd das verheissen Reich deiner Gabe empfahe / durch Christum vnsern       HErrn / Amen.</p>
+<pb facs="#f0101"/>
+</div>     <div>      <head>Lasset vns beten.</head><lb/>
+<p>ALlmechtiger ewiger Gott / der du hast durch die Sindflut / nach deinem gestrengen Gericht /       die vngleubige Welt verdammet / vnd den gleubigen Noah selb acht nach deiner grossen       Barmhertzigkeit erhalten / vnd den verstockten Pharao mit allen seinen im roten Meer erseuffet       / vnd dein Volck Israel trucken durch hin gefüret / damit dis Badt deiner heiligen Tauffe       zukünfftig bezeichnet / Vnd durch die Tauffe deines lieben Sons / vnsers HErrn Ihesu Christi /       den Jordan / vnd alle wasser zur seligen Sindflut / vnd reichlichen abwaschung der Sünden /       geheiliget vnd eingesetzet / Wir bitten durch dieselbe deine grundlose Barmhertzigkeit / du       wollest diesen N. gnediglich ansehen / vnd mit rechtem Glauben im Geist begaben / das durch       diese heilsame Sindflut / an im erseuffe vnd vntergehe / alles was jm von Adam angeboren ist /       vnd er selbst dar zu gethan hat / vnd er aus der Vngleubigen zal gesundert / in der heiligen       ARCA der Christenheit / trocken vnd sicher behalten / allezeit brünstig im Geist /
+<pb facs="#f0102"/>
+frölich in hoffnung / deinem Namen diene / auff das er       mit allen Gleubigen / deiner verheissung / ewiges Leben zu erlangen wirdig werde / Durch Ihesum       Christum vnsern HErrn / Amen.</p>      <p>Ich beschwere dich du vnreiner Geist / bey dem Namen des Vaters / vnd des Sons / vnd des       heiligen Geistes / das du ausfarest vnd weichest / von diesem Diener IHEsu Christi N. Amen.</p>     </div>     <div>      <head>Lasset vns hören das heilige Euangelium S. Marcus.</head><lb/>
+<p>VNd sie brachten die Kindlein zu Ihesu / das er sie anrürete / Die Jünger aber fuhren die an       / die sie trugen. Da es aber Ihesus sahe / ward er vnwillig / vnd sprach zu jnen / Lasser die       Kindlein zu mir komen / vnd wehret jnen nicht / Denn solcher ist das Reich Gottes. Warlich ich       sage euch / Wer das Reich Gottes nicht empfehet / als ein Kindlein / der wird nicht hinein       komen / Vnd hertzet sie / vnd leget die Hende auff sie / vnd segnet sie.</p>
+<pb facs="#f0103"/>
+</div>     <div>      <head>Hiernach mag eine kurtze Vermanung geschehen / vngefehrlich die meinung / Wie       folget.</head><lb/>
+<p>LIeben Freunde in Christo / Wir hören alle tage aus Gottes Wort / erfaren es auch beide an       vnserm leben vnd sterben / das wir von Adam her / allesampt in Sünden empfangen vnd geboren       werden / darinnen wir denn vnter Gottes zorn in ewigkeit verdammet / vnd verloren sein müsten /       wo vns nicht durch den eingebornen GOTtes Son / vnsern lieben HErrn Ihesum Christum / daraus       geholffen were.</p>      <p>Weil denn dieses gegenwertige Kindlein / in seiner Natur mit gleichen Sünden / in massen wie       wir / auch vergifftet vnd verunreiniget ist / derwegen es auch des ewigen Todes vnd verdamnis       sein vnd bleiben müste / vnd aber Gott der Vater aller Gnad vnd Barmhertzigkeit / seinen Son       Christum der gantzen Welt / vnd also demnach auch dem Kindlein nichts wenigers als den Alten       verheissen / vnd gesandt hat.</p>
+<pb facs="#f0104"/>
+<p>Welcher auch der gantzen Welt Sünde getragen / vnd die armen Kindlin / nichts wenigers / sondern eben so wol / als die Alten / von Sünden / Tode vnd verdamnis / erlöset vnd selig / gemacht hat / vnd befohlen / Man solte sie zu jm bringen / das sie gesegnet werden / die er auffs aller gnediglichst annimpt / vnd jnen das Himelreich verheisset. Derhalben wollet aus Christlicher liebe / dieses gegenwertigen armen Kindlins / gegen Gott dem HERRN / euch mit ernst auch annemen / dasselbige dem HErrn Christo fürtragen / vmb vergebung der Sünden / vnd das es ins Reich der Gnaden / vnd seligkeit / auch auffgenomen werden möge / verbitten helffen / Vngezweiffelter zuuersicht / vnser lieber HErr Ihesus Christus / werde solches ewer werck der Liebe / gegen dem armen Kindelin erzeiget / in allen gnaden von euch annemen / vnd ewer Gebet auch gewislich erhören / Sintemal er die Kindlein zu im zu bringen selbst befohlen / vnd sie in sein Reich auffzunemen verheissen hat.</p>     </div>     <div>      <head>Oder es mag nachfolgende Form der vermanung gebraucht werden.</head><lb/>
+<pb facs="#f0105"/>
+<p>ANdechtigen lieben Christen / Es haben die Eltern dieses Kindes / dasselbige hieher gesandt /       darumb das sie Christen sind / vnd von Christo einen befehlich haben / das man sich teuffen       lassen sol / Im namen des Vaters / des Sons / vnd heiligen Geistes / vnd das sie wissen / das       Gott auch eine gnedige zusage dabey gesatzt hat / vnd gesagt / Wer da gleubet vnd getaufft wird       / der wird selig werden. So wissen auch gedachte Eltern / aus der heiligen Schrifft / das auch       dis Kind in Sünden empfangen vnd geboren ist / wie wir armen Sünder leider allzusamen / vnd       derhalben nötig / das wir durch dis heilsam Sacrament / der heiligen Tauffe / auffs newe       geboren werden / Wie Christus saget / Joh. am dritten Capitel: Wo ein Mensch nicht newgeboren       wird / durch das Wasser vnd heiligen Geist / so kan er ins Reich Gottes nicht komen.</p>      <p>Dieweil es denn ein gros herrlich ding ist / vmb die Tauffe / in welcher Gott Vater / Son /       vnd heiliger Geist / ein verbund mit vns machet / Also / das Gott Vater / vnser gnediger lieber       Vater sein wolle / vns für seine Kinder an-
+<pb facs="#f0106"/>
+nemen / vnd aus grosser Liebe schencken / seinen Son IHEsum CHRIstum / mit allem seinem       verdienste / Leiden / blutvergiessen / vnd Sterben / vnd in Ihm / vnd durch Ihn / vergebung der       Sünde / erlösung vom Tode / Teuffel vnd ewigem verdamnis. Item / Das er vns die Kindschafft vnd       Erbschafft aller Himlischen Güter / vnd seinen heiligen Geist schencke / der vnser hertz mit       einem warhafftigen Glauben begabe / erleuchte vnd reinige / etc.</p>      <p>So ist der Eltern an euch gantz Christliche bitte / das jr für dis Kindlein bitten wollet /       das jme der allmechtige Gott / alle seine Sünde vergeben wolte / sein Hertz mit dem heiligen       Geist erleuchten / vnd einen rechten Glauben verleihen / auff das es in die zal der Christen       möge eingeleibet werden.</p>      <p>Item / Das er jme hernach seine Gnade reichlich mitteilen wolle / das es im Glauben zuneme       vnd wachse / wider den Teuffel / die Welt / vnd sein eigen Fleisch streite vnd fechte / in       rechtem Glauben verharre / vnd endlich nach diesem Leben die ewige Seligkeit vberkomen
+<pb facs="#f0107"/>
+ge / Wollen auch der halben von grund des hertzen / ein       andechtig Vater vnser sprechen. Vater vnser der du bist im Himel / etc.</p>      <p>Es mag auch diese vermanung vor oder nach dem Exorcismo / darnach es an jedem ort hergebracht       / geschehen:</p>      <p>Andechtigen lieben Freunde in Christo dem HErrn / demnach dis gegenwertige liebe Kindlein       (oder diese) gleich wie andere Menschen / in Sünden empfangen vnd geboren ist / vnd also von       wegen der Sünde auch stecket vnter dem ewigen Tode / vermag sich auch derwegen / von solchem       grossen schaden / nicht zu helffen / noch zu entledigen / besonder jme ist hoch von nöten / das       es nach der Lehre / vnd auff den befehlich Ihesu Christi / zum andern mal durch das Wasser /       vnd den heiligen Geist geboren werde / vnd also seinem Erlöser vnd Heiland Ihesu Christo       eingeleibet werde / So wollen wir seinet halben / Gott im Himel anruffen / vnd bitten / Er       wolle ja selbst allhie der Teuffer sein / vnd diesem Kindlein (oder diesen) seinen heiligen       Geist reichlich mitteilen / der in seinem hertzen anzünde / bekrefftige vnd auch erhalte /       einen festen Glau-
+<pb facs="#f0108"/>
+ben / vnd gewisse zuuersicht       / auff das einige verdienst Ihesu Christi / durch welchen Glauben dis liebe Kindlein / jtzund       möge werden / hernachmals sein vnd ewiglich bleiben / ein Kind Gottes vnd Erbe aller himlischen       güter / vnd also endlichen erlangen / vnd vberkomen / die ewige seligkeit / vnd das ewige Leben       / Wollen der halben sämptlich beten das heilige Vater vnser / etc.</p>     </div>     <div>      <head>Darnach bringet man das Kindlein zu der Tauffe / vnd der Priester spreche:</head><lb/>
+<p>DEr HERR behüte deinen Eingang vnd ausgang / von nu an bis zu ewigen zeiten / Amen.</p>     </div>     <div>      <head>Darnach lasse der Priester das Kind durch seinen Paten / dem Teuffel absagen / vnd       spreche.</head><lb/>
+<p>N. Entsagestu dem Teuffel?</p>      <p>Antwort. Ja.</p>      <p>Vnd allen seinen wercken?</p>      <p>Antwort. Ja.</p>
+<pb facs="#f0109"/>
+<p>Vnd alle seinem wesen?</p>      <p>Antwort. Ja.</p>      <p>Darnach frage er:</p>      <p>Gleubestu an Gott den Vater allmechtigen / Schepffer Himels vnd der Erden?</p>      <p>Antwort. Ja.</p>      <p>Gleubestu an Ihesum Christum seinen einigen Son vnsern HErrn / der empfangen ist vom heiligen       Geiste / geborn von Marta der Junckfrawen / Gelitten vnter Pontio Pilato / gekreutziget /       gestorben vnd begraben / Niedergefaren zu der Helien / Am dritten tage wider aufferstanden von       den Todten / Auffgefaren gen Himel / sitzend zur rechten Gottes des allmechtigen Vaters / Von       dannen er komen wird zu richten die lebendigen vnd die todten?</p>      <p>Antwort. Ja.</p>      <p>Gleubestu an den heiligen Geist / eine heilige Christliche Kirchen / gemeine der Heiligen /       Vergebung der Sünden / Aufferstehung des fleisches / vnd nach dem Tode / ein ewiges Leben?</p>      <p>Antwort. Ja.</p>
+<pb facs="#f0110"/>
+<p>Wiltu getaufft sein?</p>      <p>Antwort. Ja.</p>      <p>Da neme er das Kind / vnd teuffe es / vnd spreche:</p>      <p>Vnd / Ich teuffe dich im namen des Vaters / vnd des Sons / vnd des heiligen Geistes /       Amen.</p>     </div>     <div>      <head>Denn sollen die Paten das Kindlein halten / in der Tauffe / vnd der Priester spreche /       weil er jm das Westerhembde anzeucht.</head><lb/>
+<p>DEr allmechtige Gott vnd Vater vnsers HErrn Ihesu Christi / der dich anderweit geboren hat /       durch das Wasser vnd den heiligen Geist / vnd hat dir alle deine Sünde vergeben / der stercke       dich mit seiner Gnade zum ewigen Leben / Amen.</p>      <p>Friede sey mit dir.</p>      <p>Antwort.</p>      <p>Amen.</p>
+<pb facs="#f0111"/>
+</div>     <div>      <head>Von der Nottauffe.</head><lb/>
+<p>DEmnach an den Hebammen gros vnd viel gelegen / vnd offtermals in Stedten vnd Dörffern / bey       der Nottauffe / auch durch der Hebammen vnd Frawen vnuerstand / viel missbrauchs gespürt wird /       So wollen wir erstlich / das von allen Ampten jedes orts / sampt dem Pastor vnd den       Kirchschworen / mit raht verstendiger Frawen / allenthalben Hebammen verordnet werden sollen /       so Gottfürchtig / fleissig / trew / tüchtig sein / vnd bey jederman ein gut gerüchte haben /       Denn Vntüchtige / Gottlose vnd verachte Personen / in solcher zeit vnd fall / viel vnglücks       stifften / vnd Frawens Personen grossen schaden thun können. Es sollen auch solche verordente       Hebammen sich verpflichten / in der not bey den Frawen / keine Abgötterey zu gebrauchen / wie       offtermals gespüret / Sondern allenthalben alleine bey Gott / durchs Christliche Gebet / hülff       zu suchen / vnd verordente Christliche mittel zu gebrauchen / Desgleichen auch verpflichtet       sein /
+<pb facs="#f0112"/>
+bey den Armen so fleissig / willig vnd getrew       zu sein / als bey den Reichen / wie denn billich.</p>      <p>Darnach wollen wir auch / das die Pastores / die Frawen vnd verordenten Hebammen / in der       Predigt / vnd auch Priuatim / mit sonderlichem fleis vnterrichten / wie sie sich in der zeit       der Not / mit der Tauffe halten sollen / damit in dem falle nichts geschehe / das Vnchristlich       oder jemands ergerlich sey. Es sol aber in der vnterweisung von nachbeschriebenen Puncten       geredet werden.</p>      <p>Erstlich / Das sie nicht leichtlich / ohne hochdringende not zur Nottauffe eilen oder       greiffen sollen / Sondern sich so viel als möglich / vnd die gelegenheit erleiden kan /       befleissigen / mit dem förderlichsten das geborn Kindlein in die Kirchen zu bringen / damit es       vor der Gemeine öffentlich getaufft werden möge.</p>      <p>Zum Andern / Das sie in zeit der Not / da es mit der geburt schwerlich felt / vnd auch zu       beförchten / das die Frucht nicht lebendig zur Welt komen möchte / dennoch mit der
+<pb facs="#f0113"/>
+Nottauffe verzihen sollen / so lange bis das Kindlein       gantz vnd gar geborn / vnd in die hende der Menschen gekomen / Denn sol die ander Geburt       geschehen / vnd ein Mensch widerumb new geboren werden / aus dem Wasser vnd heiligen Geist / So       mus die erste Geburt auch vollenkomen sein / vnd der Mensch gantz auff die Welt geboren sein /       Darumb sol auch in solcher Not kein teil des Leibes getaufft werden / son dern solche       Leibsfrucht / mit einem Christlichen vnd gleubigen Gebet / Gott befohlen / vnd im Namen Christi       gebeten werden / Gott wolle gnad verleihen / das solche gegenwertige Frucht / in jre Hende       gegeben werde / vnd also nach seinem befehl / vnd auff seine gnadenreiche zusage / die heilige       Tauffe empfahen möge / Wo nicht / das dennoch der barmhertzige liebe Vater / sich der lieben       Frucht / in Gnaden annemen wolle / vmb seines geliebten Sons Ihesu Christi willen / Amen.</p>      <p>Zum dritten / Das sie auch / wenn die Leibsfrucht todt zur Welt komen würde / dieselbige       nicht teuffen sollen / Denn die Tauffe nicht für die Todten / sondern für die Lebendigen       verordnet / etc.</p>
+<pb facs="#f0114"/>
+<p>Item / Das sie in solchem falle / die todte frucht / ohn alle Disputation auff den Kirchhoff       oder Gottesacker begraben sollen / vnd die Eltern trösten / mit der grossen vnaussprechlichen       Gnad vnd Barmhertzigkeit Gottes / vnd nicht zweiffeln / solche Leibsfrucht / die durch das       Gebet der Eltern / vnd anderer Christen / so dabey gewesen / Gott in seine Gnade befohlen / sey       auch von jme in dem Namen Christi / zu gnaden vnd ewigen Leben angenomen.</p>      <p>Zum vierden / Sol auch mit vorgemelten Personen geredet werden / wie sie sich halten sollen /       wenn die hohe notdurfft er fordert / das das geborne Kindlein seiner schwachheit halben / sol       vnd mus im Hause getaufft werden / Nemlich / das die Frawen / so da verhanden sein / ein Person       drey / vier / fünff / sechsse / oder mehr / GOTT im Himel anruffen sollen / vnd das Kind / so       getaufft werden sol / in seine zugesagte Gnaden / durch ein hertz gründlich Gebet befehlen /       vnd darnach Wasser nemen / vnd das Kindlein damit teuffen / Im namen des Vaters / des Sons /       vnd des heiligen Geistes /
+<pb facs="#f0115"/>
+Amen. Auch nicht       zweiffeln / das Kind sey recht getaufft / weil es nach Christi befehl getaufft worden.</p>      <p>Diese vnterrichtung sol offtermals geschehen / wie zuuor vermeldet / damit auch in solchem       fall / alles Christlich zugehen möge.</p>      <p>Wir wollen auch / das wenn ein Kindlein / also in der not getaufft / vnd im leben bleibet /       dennoch in die Kirchen sol getragen werden / vmb nachgesetzter vrsach willen.</p>      <p>Erstlich / vmb der Eltern willen / auff das dieselbige durch das öffentliche gezeugnisse des       Pastors mögen vergewisset werden / das jr Kindlein / so in der Not nach Christi befehlich       getaufft / recht getaufft / vnd derhalben durch die empfangen heilige Tauffe / warhafftigen in       die zal der Gemeine Gottes eingeleibet vnd angenomen / vnd von allen jren Sünden abgewaschen       sein / auch zu Kindern Gottes / vnd in Christo Ihesu / zu Erben aller Himlischen güter       worden.</p>      <p>Zum andern / Auch vmb der lieben Kindlein willen / so in der Not getaufft sein / auff
+<pb facs="#f0116"/>
+das dieselbigen hernachmals von der Gemeine Gottes jrer       empfangenen Tauffe / desto mehr zeugnis haben mögen / vnd sich derselbigen in allen       anfechtungen vnd anligen desto gewisser zu trösten haben / etc.</p>      <p>Zum letzten / Auch vmb der Gemeine Gottes willen / auff das die durch solche öffentliche       bestettigung / solcher Nottauffe / so von Frawen geschehen / erinnert werde / Das man in den       heiligen Sacramenten / für allen dingen achtung geben solle / auff die Einsetzung Ihesu Christi       / vnd da dieselbige gehalten wird / da sey an den Sacramenten / vnd jrer krafft / nicht zu       zweiffeln / Denn die Sacrament ja nicht gebunden an sonderliche örter / Stand / Condition /       Wirdigkeit oder vnwirdigkeit der Personen / oder ander auswendige Circumstantias, sondern       alleine auff die Einsetzung des HErrn Ihesu Christi / vnd auff Gottes befehl vnd zusage.</p>      <p>Vmb dieser jetzt gemelten vrsache willen / wollen wir / das auch nach empfangener Nottauffe /       die Kindlein / wenn sie im leben bleiben /
+<pb facs="#f0117"/>
+in die       Kirchen / vnd versamlung der Gemeine sollen gebracht werden.</p>      <p>Vnd wenn das geschicht / Alsdenn sol der Pfarherr oder Caplan / die Leute allenthalben       fleissig fragen.</p>      <p>Erstlich / Ob das Kind getaufft sey?</p>      <p>Wird nu geantwortet / Ja.</p>      <p>So frage der Pfarherr ferner.</p>      <p>Durch wen ist solchs geschehen / vnd wer ist darbey gewesen?</p>      <p>Spricht denn jemand:</p>      <p>Die vnd die Person N. vnd N. sind darbey gewesen / vnd die Person hat dem Kinde die Tauffe       gegeben.</p>      <p>So frag er weiter.</p>      <p>Womit habt jr getaufft?</p>      <p>Antwortet man denn:</p>      <p>Mit Wasser.</p>      <p>So frage er:</p>      <p>Mit was worten habt jr getaufft?</p>
+<pb facs="#f0118"/>
+<p>So man denn sagt:</p>      <p>Im namen des Vaters / vnd des Sons / vnd des heiligen Geistes.</p>      <p>So frage er endlich:</p>      <p>Wisset jr / das jr die Wort also gebraucht habt?</p>      <p>Vnd wo sie darauff antworten:</p>      <p>Ja wir wissens.</p>      <p>So sage er:</p>      <p>NV meine lieben Freunde / weil jr denn im namen / vnd auff den befehl vnsers lieben HERRN       Gottes / solches alles gethan / so sage ich / das jr recht vnd wol gethan habt / Sintemal die       armen Kindlein / der Gnaden bedürffen / vnd vnser HErr Ihesus Christus / jnen dieselbige nicht       abgesagt / sondern sie auffs aller freundlichst dazu fordert / wie solchs der nachfolgende Text       des heiligen Euangelij / tröstlich zeuget / welchen der Euangelist also beschrieben hat.</p>     </div>     <div>      <head>Marci am x. Capitel.</head><lb/>
+<p>VNd sie brachten die Kindlein zu Ihesu / das er sie anrürte / die Jünger aber fuhren die an /       die sie trugen. Da es aber Ihesus
+<pb facs="#f0119"/>
+sahe / ward er       vnwillig / vnd sprach zu jnen / Lasset die Kindlein zu mir komen / vnd wehret jnen nicht / denn       solcher ist das Reich Gottes. Warlich ich sage euch / Wer das Reich Gottes nicht empfehet / als       ein Kindlein / der wird nicht hinein komen / Vnd hertzet sie / vnd leget die hende auff sie /       vnd segnet sie.</p>      <p>Vnd weil wir / aus jetztgehörten worten / vnsers HErrn Christi / des gewis vnd sicher sein /       das dis Kindlein zum Reich der Gnaden / auch angenomen / wollen wir bitten / das es darinnen       möge zur ewigen Seligkeit bestendig erhalten werden / Vnd von grund des hertzen / ein andechtig       Vater vnser / etc. sprechen.</p>     </div>     <div>      <head>Lasset vns beten.</head><lb/>
+<p>DEr Allmechtige Gott / vnd Vater vnsers HErrn Ihesu Christi / der dich N. durchs Wasser vnd       heiligen Geist / anderweit geboren / vnd dir alle deine Sünde vergeben hat / der stercke dich       mit seiner Gnade zum ewigen Leben / Amen.</p>      <p>Friede sey mit dir.</p>
+<pb facs="#f0120"/>
+<p>WVrden aber die Leute / so das Kindlein zur Tauffe bringen / auff des Pfarherrs frage /       vngewisse antwort geben / vnd sagen / sie wüsten nicht / was sie gedacht / viel weniger was sie       geredt oder gethan / in solcher grossen not (Alsdenn zu zeiten zu geschehen pfleget) so mache       man nicht viel disputirens / sondern neme das Kind als vngetaufft / vnd fördere es zur Tauffe /       Also / wie man alle vngetauffte zur Tauffe zu fördern / vnd zu teuffen pfleget.</p>      <p>Vnd wenn man die Gebet / sampt den Exorcismis gesprochen / vnd die Kinder durch die Paten /       dem Teuffel entsagen / vnd des Glaubens bekentnis hat thun lassen / Als denn teuffe der       Pfarherr die Kinder ohn alle Condition / im namen des Vaters / vnd des Sons / vnd des heiligen       Geistes / Amen.</p>
+<pb facs="#f0121"/>
+</div>     <div>      <head>Wie mit den Leuten in der Beicht zu handeln.</head><lb/>
+<p>WEil die Beicht vnd priuata Absolutio / ein hochnotwendig ding ist / in der Kirchen / vnd       dadurch einem jeden die wolthaten Christi applicirt werden / so sein auch dieselbigen in jrem       rechten gebrauch in der Kirchen zu behalten / Darumb sol keiner zum Sacrament des Altars gehen       / er habe sich denn bey dem Priester angeben / vnd sich für einen Sünder bekandt / vnd die       priuatam Absolutionem erlanget. Es sollen aber die Pastores / die einfeltige Leute von       rechtschaffener Beicht wol vnd Christlich vnterweisen / auff das sie Gottes zorn wider die       Sünde fürchten / vnd erkennen lernen / vnd sie darnach / wenn sie Busse thun / vnd fürsatz       haben / jr leben zu bessern / mit Gottes wort trösten / vnd einen jeden / nach gethaner Beicht       / aus dem Befehl vnd der zusage Christi / in sonderheit absoluiren / vnd nicht zween / drey       oder mehr zugleich / wie man etlich mal erfaren / denn solchs nicht geduldet werden sol.</p>
+<pb facs="#f0122"/>
+<p>Da auch zu zeiten gar einfeltige Leute den Pastorn vnd Beichtvetern fürkomen / so sollen sie       die in jrem Catechismo fragen / vnd denselbigen recitirn lassen / vnd wo sie den nicht wissen /       sie vermanen / bey straff denselbigen zu lernen. Vnd wiewol ein jeder Pastor wird wissen / wie       er die Beichtkinder absoluiren sol / so folget doch vmb der einfeltigen Pastorn willen / eine       Form oder zwo / der sich dieselbigen zu gehalten.</p>     </div>     <div>      <head>Forma der Absolution.</head><lb/>
+<p>DEr allmechtige Gott / vnd Vater vnsers HErrn Ihesu Christi / wil dir gnedig vnd barmhertzig       sein / vnd wil dir all deine Sünde vergeben / vmb des willen / das sein lieber Son Ihesus       Christus dafür gelitten hat / vnd gestorben ist / Vnd im Namen desselbigen vnsers HErrn Ihesu       Christi / auff seinen befehl / vnd in krafft dieser Wort / da er sagt / Welchen jr die Sünde       erlasset / den sind sie erlassen / Spreche ich dich aller deiner Sünden frey / ledig vnd los /       das sie dir allzumal / sollen vergeben sein / so reichlich vnd vollenkomen / als Ihesus       Christus
+<pb facs="#f0123"/>
+dasselbige durch sein Leiden vnd sterben /       verdienet / vnd durchs Euangelium / in alle Welt zu predigen befohlen hat / vnd dieser       tröstlichen zusagen / die ich dir jtzt im namen des HErrn Christi gethan / der wollest dich       tröstlich annemen / dein Gewissen darauff zu frieden stellen / vnd festiglich gleuben / deine       Sünde sein dir gewislich vergeben / Im namen des Vaters / vnd des Sons / vnd des heiligen       Geistes.</p>     </div>     <div>      <head>ALIA ABSOLVTIONIS formula.</head><lb/>
+<p>DIeweil das jr bekennet / das jr mit Sünden behafftet seid / vnd Gott mit sündigen erzürnet       habt / vnd des fals begeret / Trost wider des Teuffels anfechtung / vnd ich zu trösten arme       Sünders vnd Sünderinnen verordnet bin / ein Diener Gottes / Nach dem auch Christus zu mir       gesprochen hat / Welches Sünde jr vergebet / dem sind sie vergeben. Item / Was jr entbindet       auff Erden / ist entbunden im Himel. Auff solche zusage Gottes / vnd nach seinem befehl /       spreche ich euch los / von allen ewern Sünden / allhie in der stedte Gottes / Im Na-
+<pb facs="#f0124"/>
+men des Vaters / vnd des Sons / vnd des heiligen       Geistes / Amen.</p>     </div>     <div>      <head>Gehet hin im Friede / vnd sündiget nicht mehr.</head><lb/>
+</div>     <div>      <head>Von besuchung der Krancken.</head><lb/>
+<p>DEmnach hoch vnd viel daran gelegen ist / das ein krancker Mensch in seiner Kranckheit wol       vnterrichtet vnd getröstet werde / Vnd solchs für allen dingen auch ins Predigampt gehöret /       vnd den Pfarherrn / als den Seelsorgern / zustehet / So sollen auch alle Pastorn / aus       obligendem Ampt / sich sonderlichen zum höchsten befleissigen zu wissen / wie sie sich bey       Krancken halten sollen / Nemlich / sie erst vnterrichten / da es die zeit erleiden wil / wie       ein Christ seine Kranckheit ansehen sol / warumb jm dieselbige von Gott zugeschicket werde /       was Gott darinne suche / vnd wie man sich in solcher Kranckheit / Christlich halten solle.</p>
+<pb facs="#f0125"/>
+<p>Zum andern / die Krancken auch nicht allein gegen die schmertzen vnd schwachheit des Leibes /       sondern auch allerley inwendige anfechtung des hertzen trösten / Denn die zwey stück sein       beiderley nötig bey krancken Leuten / damit sie sich in jrer Kranckheit / guts zu Gott versehen       lernen / vnd desto besser zu friede / vnd gedult begeben mögen.</p>      <p>Vnd wiewol für vnnötig geachtet / von diesen stücken an diesem orte weitleufftig zu handeln / weil sonst von vielen Gottfürchtigen / hochgelerten Leuten / dauon geschrieben ist / Als nemlich / D. Martino Luthero / Vrbano Regio / Pfeffingero / Huberino / Wellero / vnd andern mehr / So wollen wir doch vmb der einfeltigen Pastorn willen / eine kleineanleitung vermelden.</p>      <p>Wenn ein Pfarherr von einem Krancken gefordert wird / jn zu vnterrichten / zu trösten / zu       absoluiren / vnd das heilige Sacrament des Altars zu reichen / So sol er sich mit sonderlichem       fleis erstlich erkunden / bey den so vmb den Krancken sein / auch von jm selbst / Ob er vber       die leibliche schwacheit / auch innerliche beschwerung vnd anfechtunge habe / als ob er mit         befin-
+<pb facs="#f0126"/>
+dung seines schwachen Glaubens vnd       vnwirdigkeit / oder tentatione particularitatis angefochten werde.</p>      <p>Ober mit betrachtung seiner grossen manigfaltigen Sünden beschweret / Ob er mit den schrecken       des zorns Gottes / des ewigen Todes / vnd ewigem verdamnis beengstiget / Ob er vber den       abscheid von dieser Welt / vnd den seinen bekümmert / oder ander dergleichen anfechtung in       seiner Conscientten habe.</p>      <p>Wenn er nn also nach solcher fleissiger erforschung / erfaren / worinne der Krancke zum       höchsten angefochten wird / So sol er auch seine vnterrichtung vnd trost dargegen stellen /       damit er dem Patienten solche anligende beschwerung aus dem sinne bringen möge / vnd doch nicht       viel Sprüche auff einen hauffen werffen / sondern wenig / vnd auserlesene liebliche Sprüche       füren / damit sie der krancke betrübte Mensch desto besser fassen möge.</p>      <p>Es sol aber / in dem solchs alles geschicht / das Volck so im Hause versamlet / von dem       Krancken abtreten / damit der Pfarherr mit jm in sonderheit / vnd in geheim reden möge.</p>
+<pb facs="#f0127"/>
+<p>Nach gethaner vnd gehörter Beicht / soler jn auff sein bitte vnd begeren / im namen / vnd aus       dem befehlich Ihesu Christi absoluiren / wie kurtz zuuor vermeldet / vnd jn darnach abermals       ermanen / zum bestendigen warhafftigen Glauben / auff die zusage Gottes / vnd verdienst Ihesu       Christi / zur gedult / hoffnung vnd embsigen Gebet / im namen Ihesu Christi / vnd das er       jedermenniglich / der jm zu nahe gewesen / gerne vnd williglich vergeben solle / gleich als er       wolle / das jme von Gott widerfaren solle.</p>      <p>Vnd weil auch billich / das wenn ein Krancker sol communicirt werden / das das Gesinde / die       Freunde vnd Nachbarn / zu dieser Action gefordert werden / wie auch bisher die gewonheit       gewesen / So sol solchs allenthalben auch forthin also gehalten werden / damit keine       Winckelmess daraus werden möge / Vnd sol als denn nach gesprochener Absolution vber den       Krancken / auch eine kurtze vermanung geschehen / an das Volck / zum ernstlichen Gebet / für       den Krancken / auff diese oder dergleichen forma.</p>
+<pb facs="#f0128"/>
+<p>LIeben Freunde / Demnach wir befinden / das vnser lieber Bruder / oder liebe Schwester / in       Christo / mit schwerer schwacheit oder grossen schmertzen beladen / vnd wir jme in dem allem /       nicht besser dienen können / denn mit vnserm Christlichen Gebet / So wil ich euch alle       sämptlich vermanet haben / jr wollet ewer Gebet zusamen thun / vnd mit diesem ewerm krancken       Vater / Mutter / Bruder / Schwester / Herrn / Frawen / Nachbarn / Diener oder Dienerin / Gott       anruffen vnd bitten / Gott wolle jm in seiner schweren Kranckheit zu hülff komen / im Glauben       stercken / in rechter anruffung Gottes / vnd Christlicher gedult erhalten / vnd in dieser       seiner Kranckheit verleihen / was jme nütz vnd gut ist / an Leib vnd Seel / hie zeitlich / vnd       hernachmals ewiglich / Sonderlich das jm Gott gnade verleihen wolle / das er das heilige       Sacrament wirdiglich empfangen möge / zu sterckung seines schwachen Glaubens / zu trost seiner       betrübten Conscientien / etc. Vnd also mit vns beten / auff Gottes befehlich / vnd seine       gnedige zusage / von grund des hertzen / ein andechtig Vater vnser / etc.</p>
+<pb facs="#f0129"/>
+<p>Man mag in solcher vermanung nemen / das Exordium à dicto Christi, Matth. xviij. Ich sage       euch / so zwen vnter euch eins werden auff Erden / warumb es sey / das sie bitten wollen / das       sol jnen von meinem Vater im Himel widerfaren / Denn wozwen oder drey versamlet sein / in       meinem Namen / da bin ich mitten vnter jnen: vnd also dirigirt werden ad Orationem Deo       offerendam pro aegrotante, oder auch von andern schönen Sprüchen der Schrifft / vnd doch       endlich dahin gericht / das das Volck zum Gebet vermanet.</p>      <p>Auff solche vermanung / sol der Pfarherr / das Vater vnser sprechen / fein laut / damit die       krancke Person / vnd das gantze Volck / mit beten könne / Spreche auch darauff / Der       Allmechtige Gott wolle vnser Gebet gnediglich erhören / Amen.</p>      <p>Es mag auch allhier ein Pfarherr / zur erinnerung des Krancken / die Artickel des Glaubens       erzelen / nach gelegenheit der zeit vnd Personen.</p>      <p>Darnach / wenn man einen Tisch fein ehrlich / mit reinen Tüchern / vnd mit Brodt vnd
+<pb facs="#f0130"/>
+Wein / zu der Communion zubereitet / So recitire der       Pfarherr das erste Teil der wörter Christi / von der Einsetzung des Abendmals.</p>      <p>Vnser Herr Ihesus Christus / in der nacht / da er verrhaten ward / nam er das Brod / dancket       / vnd brachs / vnd gab es seinen Jüngern / vnd sprach / Nemet hin vnd esset / das ist mein Leib       / der für euch gegeben wird / Solchs thut zu meiner gedechtnis.</p>      <p>Auff diese wort reiche man dem Krancken den Leib des Herrn Ihesu Christi.</p>      <p>Darnach recitire er das ander teil der wörter Christi / von der Einsetzung des Abendmals.</p>      <p>Desgleichen nam der Herr Ihesus Christus auch den Kelch / nach dem Abendmal / danckte / vnd       gab jnen den / vnd sprach / Nemet hin vnd trincket alle daraus / dieser Kelch ist das newe       Testament / in meinem Blute / das für euch vergossen wird / zur vergebung der Sünde. Solches       thut / so offt jr es trincket / zu meiner gedechtnis.</p>
+<pb facs="#f0131"/>
+<p>Auff diese Wort reiche man dem Krancken das Blut Ihesu Christi.</p>      <p>Darnach spreche der Pfarherr / Lasset vns beten.</p>      <p>Christe du Lamb Gottes / der du tregst die Sünde der Welt / Erbarm dich vnser.</p>      <p>Christe du Lamb Gottes / der du tregst die Sünde der Welt / Erbarm dich vnser.</p>      <p>Christe du Lamb Gottes / der du tregst die Sünde der Welt / Gib vns deinen ewigen frieden /       Amen.</p>      <p>WIR dancken dir / allmechtiger HERR Gott / das du vns durch diese heilsame Gabe hast       erquicket / Vnd bitten deine Barmhertzigkeit / du wollest vns solches gedeyen lassen / zu       starckem Glauben gegen dir / vnd zu hertzgründlicher liebe vnter vns allen / vmb Ihesu Christi       vnsers HErrn willen / Amen.</p>     </div>     <div>      <head>ADDATVR BENEDICTIO.</head><lb/>
+<p>Der HERR segne dich / vnd behüte dich.</p>
+<pb facs="#f0132"/>
+<p>Der HERR erleuchte sein Angesicht vber dich / vnd sey dir gnedig.</p>      <p>Der HERR erhebe sein angesichte auff dich / vnd gebe dir seinen ewigen Friede / durch Ihesum       Christum vnsern HErrn / Amen.</p>      <p>Nach solchem allem kan der Pastor seinen abscheid von dem Krancken nemen / mit diesen oder       dergleichen worten:</p>      <p>Lieber Freund / demnach jr aus Gottes Wort getröstet / vnd durch eine fröliche Absolution los       gesprochen / von allen ewern Sünden / auch zu mehrer sterckung ewers Glaubens / mit dem Leib       vnd Blut Ihesu Christi erquicket / vnd also allenthalben gnugsam verwissert seid / das euch       alle ewer Sünde warhafftigen verziehen vnd vergeben sein / vnd das jr in gnaden Gottes stehen /       vnd wir alle sämptlich mit euch / ewer sache Gott im Himel / ewrem lieben Vater / auff seine       gnadenreiche zusagen befohlen / so wird er auch sonder zweiffel / ewer Kranckheit / als ein       getrewer fromer Gott vnd Vater / zum allerbesten wenden / als es euch nütz vnd gut ist / an       Leib vnd Seele / Darumb seid getrost / vnd
+<pb facs="#f0133"/>
+sprecht       jmerdar: HERR himlischer Vater / hie bin ich / dein liebes Kind / vnd dein Diener oder Dienerin       / machs mit nur nach deinem willen / allein füre mich nicht in versuchung / sondern erlöse mich       von allem vbel / Amen.</p>      <p>Vnd weil jr euch also frölich zu Gott / gantz vnd gar begebet / So wünsche ich euch / Gott       wolle euch in solchem glauben / gedult / hoffnung vnd anruffung gnediglich erhalten / durch       Christum vnsern HERRN / Amen.</p>      <p>Friede sey mit euch / Amen.</p>
+<pb facs="#f0134"/>
+</div>     <div>      <head>Von Begrebnissen.</head><lb/>
+<p>WEil die Sepulturae oder Begrebnis / bey den alten Vetern / vnd dem Volcke Gottes / allezeit       ehrlich sein gehalten worden / Denn sie sein erinnerung / der künfftigen Aufferstehung / Auch       die Kirchhöffe oder Gottes Arker / da die Christen ruhen / billich befriedet sein sollen / vnd       aus vielen vrsachen / nütz vnd gut ist / das die Kirchhöffe ausserhalb den Stedten sein /       sonderlich da die Kirchhöffe / in der Stadt keinen grossen platz haben / So ordnen wir / das       die Kirchhöffe in vnd vor den Stedten / auch auff den Dörffern / sollen dermassen befriediget       werden / Also / das kein Viehe darauff gehen / noch schaden thun könne / Vnd da es die       notdurfft erfordert / ausserhalb den Stedten / an einen gelegen ort / Kirchhöffe oder Gottes       Acker zugerichtet werden.</p>      <p>Vnd weil bey vns eine löbliche gewonheit ist / das die Kindlein / so ohne die Tauffe       hinsterben / nicht auff einen sonderlichen Kirchhoff / sondern neben andere Christen / begraben       werden / auff
+<pb facs="#f0135"/>
+den Gottes Acker / vnd wir auch       dasselbige Christlich achten / vnd ohne ergernis wol geschehen kan / So wollen wir / das solchs       auch forthin also sol gehalten werden / den fromen Eltern zu trost.</p>      <p>Vnd weil gebreuchlich / das die todte Cörper ehrlich / vnd mit Christlichen Gesengen / zur       Erde bestetiget werden.</p>      <p>So soll an den örtern / da Schüler sind / dieselbige vorher / vnd die Pastores / Oder da       keine Schüler sein / der Pastor vnd Cüster / vor der Leiche gehen / vnd singen ein Geistlich       lied oder zwey.</p>      <p>Mitten wir im leben sind / etc.</p>      <p>Mit fried vnd frend / etc.</p>      <p>Responsorium, Si bona suscepimus, &amp;c.</p>      <p>Aus tieffer not / etc.</p>      <p>Erbarm dich mein OHERRE Gott / etc.</p>      <p>Wir gleuben / etc.</p>      <p>Nu lasset vns den Leib begraben / etc.</p>      <p>Nach der Leiche sollen Man vnd Frawens Personen ördentlich folgen.</p>
+<pb facs="#f0136"/>
+<p>Vnd wenn sie auff den Kirchhoff komen / so soll die Leiche niedergesetzt / vnd durch den       Pastorn oder Caplan / eine kurtze vermanung geschehen / von sterbligkeit vnd schwachheit des       Menschlichen Geschlechts / von vrsachen der Sünde vnd Todes / von erlösung so durch Christum       Gottes Son / vnsern Heiland geschehen / vnd von Aufferstehung der Todten / oder       dergleichen.</p>      <p>Vnd mögen die Themata der vermanung / Wenn ein Kindlein begraben wird / genomen werden:</p>      <p>Ex Matth. 18. Es sey denn / das jr werdet / als dieser kleinen Kindlein ein / so werdet jr       ins Himelreich nicht komen.</p>      <p>Ex Matth. 19. Lasset die Kindlein zu mir komen / etc.</p>      <p>Ex Sapientiae lib. 4. Der Rechtfertige / ob er gleich allzu zeitlich stirbet / so ist er doch       in der ruhe.</p>      <p>Ex Esaiae z 6. Der Rechtfertige wird weggeraffet / etc.</p>
+<pb facs="#f0137"/>
+<p>Ex Gal. 3. Ihr seid allzumal Kinder Gottes durch Ihesum Christum / etc.</p>      <p>Ex Ephes. 2. Wir waren allzusamen Kinder des zorns Gottes / als die andern / etc. Aber aus       gnaden seid jr selig worden / durch den glauben / vnd solchs nicht aus euch / Gottes gabe ists       / auff das sich niemand zu berhümen habe.</p>      <p>Wenn aber ein alt Mensch begraben werden sol / so können die Themata der vermanung genomen       werden.</p>      <p>Ex Psal. 39. HERR lere mich / denn es ein ende mit mir haben wird.</p>      <p>Ex Psal. 90. Lere vns bedencken / das wir sterben müssen / auff das wir verstendig       werden.</p>      <p>Ex Iob 14. Ein Mensch geborn von einer Frawen / etc.</p>      <p>Ex Iob 19. Ich weis das mein Erlöser lebet.</p>      <p>Ex Esaiae cap. 56. Der Gerechte kömet vmb / vnd niemand ist / der es zu hertzen neme / vnd       heilige Leute / etc.</p>
+<pb facs="#f0138"/>
+<p>Ex Daniel. 12. Viel die vnter der Erden ligen vnd schlaffen / werden auffwachen / etc.</p>      <p>Ex Ecclesiastis Cap. 7. Der Tag des Todes ist besser / etc.</p>      <p>Ex Cap. 9. Der Mensch weis seine zeit nicht / etc.</p>      <p>Ex Siracidis Cap. 5. Verzeuch es nicht / dich zum HERRN zu bekeren / etc.</p>      <p>Item / Cap. 17. So bekere dich zum HERRN / Verlas dein sündlich leben / etc.</p>      <p>Ex Cap. 38. Wenn einer stirbet / so beweine jn / etc.</p>      <p>Item, ex Cap. 40. Es ist ein elend vnd jemmerlich ding / etc.</p>      <p>Johannis 5. Warlich warlich ich sage euch / Wer mein Wort höret / vnd gleubet dem / der mich       gesand hat / der hat das ewige Leben.</p>      <p>Item, Cap. eodem, Es kömet die stunde / in welcher alle die in todten grebern sein / etc.</p>      <p>Ex Cap. 11. Ich bin die Aufferstehung vnd das Leben / etc.</p>
+<pb facs="#f0139"/>
+<p>Rom. 5. Der Todt ist durchgedrungen auff alle / etc.</p>      <p>Ex Epistola ad Hebraeos Cap. 11. Es ist allen Menschen aufferlegt.</p>      <p>Ex Apocalypseos cap. 14. Selig sind / die im HERRN entschlaffen / etc.</p>      <p>Vnd andere dergleichen mehr Sprüche.</p>      <p>Vnd kan daneben kürtzlich angezeigt werden / vom Glauben vnd Bekentnis oder gutem wandel des       verstorbenen / damit andere Leute gereitzet werden / demselbigen Exempel zu folgen.</p>      <p>Es soll auch zu zeiten das Volck vermanet werden / sich gerne bey solcher Versamlung vnd       Begrebnis finden zu lassen / damit ein jeder von seiner eigen schwachheit / vnd sterblichem       ende / vnd trost des ewigen Lebens erinnert werden möge.</p>      <p>Weil auch offtermals Leute im Gottlosen leben also ersoffen sein / das sie vmb jrer       mutwilligen Sünde willen / darin sie stecken / als Ehebruch / Hurerey / Dieberey / Wucherey /
+<pb facs="#f0140"/>
+Hass / Neid / vnd dergleichen / sich viel lieber       der Predigt des Göttlichen worts / vnd gebrauch der heiligen Sacramenta / enthalten wollen /       denn sich bessern / vnd von jren Sünden ablassen / auch darüber offtermals / in solcher       vnbusfertigkeit hinsterben / So wollen wir / das so dieselbigen sich nach fleissiger vermanung       jres Pastoris nicht bessern vnd bekeren werden / sondern ohne den gebrauch des Sacraments dahin       sterben / das man dieselbige nicht wie andere Christen / mit Processionen / Gesengen / vnd       andern Christlichen Ceremonien begraben solle / Es sollen auch keine Schulmeister / Pastorn /       oder Prediger verpflichtet sein / bey solcher Leute begrebnis zu sein / Es mögen die jren       solche Leute allein begraben / nach jrer gelegenheit.</p>
+<pb facs="#f0141"/>
+</div>     <div>      <head>Von vertrawen vnd segnen Braut vnd Breutigam.</head><lb/>
+<p>NAChdem der Ehestand auch eine sonderliche Gottes ordnung ist / dardurch das Menschliche       Geschlecht erhalten / vnd dem Allmechtigen eine Kirche auff dieser Welt gesamlet wird / vnd aus       vielen Christlichen vrsachen / nötig / das die zusamenfügung der Eheleut öffentlich / vnd in       der Gemeine geschehe / damit nicht allein der Ehestandt / so viel desto ehrlicher gehalten /       Sondern auch verbotene vermischung / desto bas mögen verhütet werden.</p>      <p>So ordnen wir / das die Personen / so zusamen sollen gegeben werden / zwen Sontag oder       Feyertag zuuor / oder zum allergeringsten einen / nach gelegenheit der zeit / von der Cantzel       auffgeboten werden / vngefehr mit den worten: Hans N. vnd Greta N. wollen nach Göttlicher       ordnung zum heiligen Stande der Ehe greiffen / Begeren des ein gemein Christlich Gebet / für
+<pb facs="#f0142"/>
+sie / das sie es in Gottes namen anfahen / vnd wol       gerate / Vnd hette jemand was darein zu sprechen / der thue es bey zeit / oder schweige hernach       / Gott gebe jnen seinen segen.</p>      <p>Vnd damit der Ehestandt desto ehrlicher gehalten werde / so ordnen wir / das die       zusamenfügung der Personen / in Stedten vnd Dörffern / so Ehelich werden wollen / öffentlich in       der Kirchen geschehe / vor der Gemeine / welches auff einen Sontag zur Vesper / oder nach       gelegenheit vnd gefallen der Personen / so ehelich werden wollen / anff einen Wercktag / nach       gehaltener Predigt / geschehen mag / Vnd sol bey der Copulation Braut vnd Breutigams /       vngefehrlich nachfolgender Process gehalten werden.</p>      <p>Erstlich sol der Pastor eine kurtze vermanung thun / vom heiligen Ehestand / nach gelegenheit       der zeit / vnd Personen / Oder in stat solcher vermanung / diese nachfolgende stücke vorlesen /       den gegenwertigen jungen Eheleuten / zu trost / lere vnd vnterrichtung / auff solche vnd       dergleichen weise.</p>
+<pb facs="#f0143"/>
+<p>Demnach der heilige Ehestandt / so von Gott selbst eingesetzt / ein solcher Standt ist / in       welchem sich alle die jenigen / so die gabe der keuschheit nicht haben / gerne vnd williglich       sollen finden lassen / vnd auch billich / das die so sich darein begeben haben / oder noch       darein zu begeben bedacht sein / offtermals bedencken / was vnd wie die heilige Schrifft von       solchem Stande redet / So wollen wir auff dismal Gott zu ehren / vnd gegenwertigen Personen /       zur Lere vnd trost / vier stücke fürlesen / die in heiliger Göttlicher Schrifft / von diesem       stande fürgestalt sein.</p>      <p>Erstlich sollen frome Eheleute / oder die zur Ehe greiffen wollen / wissen / das der Ehestand       / von Gott selbst im Paradiss verordnet / vnd eingesetzt sey / Denn also lesen wir im ersten       Buch Moisis / Cap. 2.</p>      <p>Vnd Gott der HERR sprach / Es ist nicht gut das der Mensch alleine sey / Ich wil jme einen       Gehülffen machen / die bey jm sey. Vnd Gott der HERR lies einen tieffen schlaff fallen / auff       den Menschen / vnd er entschlieff / vnd nam seiner Rieben eine / vnd schloss die Stedte zu mit
+<pb facs="#f0144"/>
+Fleisch. Vnd Gott der HERR bawet ein Weib aus der       Rieben / die er aus dem Menschen nam / vnd bracht sie zu jm. Da sprach der Mensch / Das ist       doch Bein von meinem bein / vnd Fleisch von meinem Fleisch / man wird sie Mennin heissen /       darumb das sie vom Manne genomen ist. Darumb wird ein Man seinen Vater vnd seine Mutter       verlassen / vnd an seinem Weibe hangen / vnd werden sein zwey ein Fleisch.</p>      <p>Darnach sollen sie auch wissen / das in heiliger Göttlicher Schrifft auch kierlich für       gestelt ist / Wie sich Gottfürchtige Eheleute gegen einander im Ehestande Christlich verhalten       sollen / Denn also spricht Paulus / Ephes. 5.</p>      <p>Ir Menner habt lieb ewre Weiber / gleich wie Christus geliebet hat die Gemeine / vnd hat sich       selbst für sie gegeben / auff das er sie heiliger / vnd hat sie gereiniget durch das Wasserbadt       im Wort / auff das er sie jm selbst zurichtet / eine Gemeine die herrlich sey / die nicht habe       einen flecken oder Runtzel / oder des etwas / sondern das sie heilig sey vnd vnstrefflich.</p>
+<pb facs="#f0145"/>
+<p>Also sollen auch die Menner jre Weiber lieben / als jre eigene leibe. Wer sein Weib liebet /       der liebet sich selbst / Denn niemand hat jemals sein eigen Fleisch gehasset / Sondern er neret       es / vnd pfleget sein / gleich wie auch der HErr die Gemeine.</p>      <p>Die Weiber sein vnterthan jren Mennern / als dem HERRN / Denn der Man ist des Weibes Heubt /       gleich wie auch Christus das Heubt ist der Gemeine / vnd er ist seines Leibes Heiland / Aber       wie nu die Gemeine ist Christo vnterthan / Also auch die Weiber jren Mennern / in allen       dingen.</p>      <p>Zum dritten / ist auch zu mercken / das beide vmb der Sünde willen des Menschen / dem Manne       vnd auch der Frawen / in solchem stande / das Creutz von Gott aufferlegt sey / Denn also       schreibet Moises / Genesis 3.</p>      <p>Gott sprach zu der Frawen / Ich wil dir viel Kummer schaffen / wenn du schwanger wirst / du       solt deine Kinder mit kummer geberen / vnd du solt dich drücken vor deinem Manne / vnd er sol       dein Herr sein.</p>
+<pb facs="#f0146"/>
+<p>Vnd zum Manne sprach er / Dieweil du hast gehorcht der stimme deines Weibes / vnd gessen von       dem Baum / dauon ich dir gebot / vnd sprach / Du solt nicht dauon essen / Verflucht sey der       Acker vmb deinet willen / mit kummer solt du dich darauff neeren / dein lebenlang / Dorn vnd       Disteln sol er dir tragen / vnd solt das Kraut auff dem Felde essen / Im schweis deines       angesich tes / soltu dein Brodt essen / bis das du wider zu Erden werdest / dauon du genomen       bist / Denn du bist staub / vnd solt zu staube werden.</p>      <p>Zum vierden ist weiter zu wissen / Das / wiewol Gott das Creutz auff den Menschen seiner       Sünde halben gelegt hat / das dennoch dieser Standt Gott angeneme vnd gesegnet sey / Denn also       stehet geschrieben / Genes. 1.</p>      <p>Gott schuff den Menschen / sich selbst zum bilde / zum bilde Gottes schuff er jn / vnd er       schuff sie ein Mennl in vnd Frewlein.</p>      <p>Vnd Gott segnet sie / vnd sprach zu jnen / Seid fruchtbar vnd mehret euch / vnd füllet
+<pb facs="#f0147"/>
+die Erden / vnd bringet sie vnter euch / vnd herschet       vber Fisch im Meer / vnd vber Vogel vnter dem Himel / vnd vber alles Thier / das auff Erden       kreucht. Vnd Gott sahe an / alles was er gemacht hatte / vnd sihe da / Es war alles sehr       gut.</p>      <p>Darumb spricht auch Salomon / Wer eine Ehefraw findet / der findet was guts / vnd schepffet       ein Segen von dem HERRN.</p>     </div>     <div>      <head>Auff diese verlesene vier stück / kan ein Pastor zum Beschlus also sagen.</head><lb/>
+<p>DIs sein die fürnemesten stück / so die heilige Göttliche Schrifft vom Ehestande vermeldet /       welche alle Eheleute offtermals bedencken sollen / damit sie wissen / was von diesem Stande zu       halten / wie sich ein jeder darein richten / vnd wes sie sich jm Creutze vnd widerstande /       darzu zu trösten haben / Dieweil aber dauon offtermals gelert / so sey auff diese zeit hieuon       gnug.</p>
+<pb facs="#f0148"/>
+</div>     <div>      <head>Darnach sol ein Pastor den Breutigam vnd die Braut namhafftig / nachmals auff bieten /       auff folgende vnd dergleichen weise.</head><lb/>
+<p>ES sein allhie gegenwertig N. vnd N. welche sich in den Ehelichen stand / nach Göttlichem       willen zu begeben / bedacht sein / auch derwegen nach gebrauch dieser Kirchen öffentlich von       der Cantzel abgekündiget worden / Wil sie auch nachmals zum vber flus auffgeboten haben / Ob       jemand were / der einrede hette / vnd gute vrsachen wüste fürzubringen / damit diese       angefangene Ehe nicht möchte vor sich gehen / das der bey zeiten spreche / oder schweige       hernachmals. Taceat paulisper, postea pergat.</p>      <p>Demnach sonst lange keiner gefunden / auch noch zur zeit nicht verhanden / der einige einrede       hat / dadurch diese Ehe zwischen jtzt genanten Personen möchte verhindert werden / so sol auch       hernach keiner zugelassen werden / besondern was allhie vollnzogen wird / sol sich kein Mensch       vnterstehen zu verandern.</p>
+<pb facs="#f0149"/>
+<p>Darnach sol die vertrawung geschehen / mit folgenden oder dergleichen worten.</p>      <p>Hans jr stehet allhie / vnd begeret gegenwertige Margarethen zu nemen / zu ewer Ehelichen       Hausfrawen / euch von jr nicht zu scheiden / es sey denn / das euch der Todt scheide / Ist       solches noch ewers hertzen wille vnd meinung / so bekennets allhie vor Gottes Angesichte / vnd       in gegenwertigkeit der Gemeine / vnd saget ja.</p>     </div>     <div>      <head>Dicat Ja.</head><lb/>
+<p>Margaretha / Ir stehet allhie vnd begeret gegenwertigen Hansen zu nemen / zu ewerm Ehelichen       Manne / euch von jm nicht zu scheiden / der Todt scheide euch denn / Ist solches ewers hertzen       will vnd meinung / So bekennets allhie / vnd saget Ja.</p>     </div>     <div>      <head>Dicat Ja.</head><lb/>
+<p>Hie lasse er sie ein dem andern die Trawringe geben / vnd füge jrer beider rechte hende       zusammen / vnd spreche.</p>
+<pb facs="#f0150"/>
+<p>Was Gott zusamen füget / sol der Mensch nicht scheiden.</p>     </div>     <div>      <head>Darnach spreche er vor allen in gemein.</head><lb/>
+<p>Weil Hans N. vnd Margreta / sich vntereinander zur Ehe begeren / vnd solchs alhie öffentlich       / für Gott / vnd dieser Christlichen Gemeine / bekennen / sich auch darauff vnterandern die       Hende / vnd Trawringe gegeben haben / So spreche ich sie Ehelich zusamen / im namen des Vaters       / des Sons / vnd des heiligen Geistes / Amen.</p>     </div>     <div>      <head>Weiter spreche er.</head><lb/>
+<p>Wachsset vnd vermehret euch / vnd erfüllet das Erdreich.</p>     </div>     <div>      <head>Hie reiche er die hende vber sie / vnd spreche: Lasset vns beten.</head><lb/>
+<p>ALlmechtiger HERR Gott der du Man vnd Frawen hast geschaffen / vnd zu dem Ehestande verordnet       / dazu mit früchten des Leibes gesegnet / vnd das Sacrament deines lie-
+<pb facs="#f0151"/>
+ben Sons Ihesu Christi / vnd der Kirchen seiner       Braut / darinn bezeichnet / Wir bitten deine grundlose güte / du wollest solch dein geschöpff /       ordnung vnd segen / nicht lassen vmbsonst sein / noch verderben / sondern gnediglich in vns       bewaren / durch Ihesum Christum vnsern HErrn / Amen.</p>     </div>     <div>      <head>ADDATVR. Gott gebe euch seinen Segen / Amen.</head><lb/>
+<p>So viel aber die hochzeitliche freude nach dem Kirchgang belanget / So sol sich in Stedten       vnd Dorffern / vnser publicirten Policey ordnung in allewege gemess verhalten werden.</p>
+<pb facs="#f0152"/>
+</div>     <div>      <head>Von Ehegelübden.</head><lb/>
+<p>ES sollen die Pastores / sonderlich auff den Dörffern / offtmals / vnd auffs wenigst des Jars       ein oder zwey mal notdürfftigen bericht thun vom Ehestande / wozu derselbige eingesetzt / vnd       das Gott alle verbotene vermischung vnd Vnzucht hasset vnd straffet / wie sie des Exempel aus       der heiligen Schrifft anzuziehen haben / Vnd sollen derwegen das Volck / von Vnzucht / Hurerey       / Ehebruch / vnd aller verbotener vermischung / mit ernst vnd bedrawung / nicht allein       Göttlicher / sondern auch vnser / als der Oberkeit / zeitlichen straffen abmanen. Denn wir       bedacht vnd entschlossen sein / ernstliche Leibs / vnd andere gebürliche straffe / gegen       Ehebrecher vnd öffentliche Hurer / vnd Junckfrawen schender / fürzunemen.</p>      <p>Zu dem / Weil der Ehestand nicht in allen Graden zugelassen / sondern etzliche in Gottes vnd       natürlichen Gesetzen / auch löblichen Ordnungen / sein verboten / So sollen sie dem Volcke
+<pb facs="#f0153"/>
+zu zeiten das acht vnd zwentzigste Capitel Leuitici       fürlesen / vnd berichten / das solche felle / wie darinne begriffen / bey ernstlicher straffe       verboten sein.</p>      <p>Sie sollen auch auffs wenigst des Jars ein mal dem Volck fürhalten / Vnzucht vnd Hurerey zu       ver meiden / vnd solche Sünde mit fleis straffen / Denn solche Sünden vnter den Sünden Sodomae       vnd Gomorrhae / in der Sindflut erzelet werden / Vnd werden vmb solcher Sünde willen / Land vnd       Leute / vnd Regiment verandert / vnd hart gestraffet / Wie das alle Historien / Göttlich vnd       Weltlich / voller Exempel sein / die sie dem gemeinen Volck fürzuhalten haben.</p>
+<pb facs="#f0154"/>
+</div>     <div>      <head>Von den Sthulen.</head><lb/>
+<p>ES ist gewis / das erhaltung der Kinder Schulen / ein hochnützlich vn&#x0303; Gott       wolgefellig werck ist / nicht allein der Jugend halben / das sie im Catechismo / vnd Sprachen       vnterweiset werden mögen / Wie Gott selbst geboten hat / im alten Testament / Acues meum verbum       filijs tuis, Sondern auch darumb / das gelerte Leute mögen aufferzogen werden / die hernacher       zu Kirchen vnd Weltlichem Regiment tüchtig vnd bequeme sein mögen / Vnd sein gewislich Scholae       seminaria Ecclesiae &amp; Reipub. Vnd hat Pericles nicht vnrecht gesagt / Scholas tollere, est       Solem è mundo tollere. Darumb gebüret auch der Oberkeit / gebürlich einsehen zu haben / das in       Stedten Kinder Schulen erhalten / vnd die Jugend wol erzogen / vnd etliche praeparirt werden       mögen / die hernacher zu Kirchen / oder andern Weltlichen Emptern zu gebrauchen sein / Vnd hat       solches viel nutzbarkeit / die hie nicht alle zu erzelen sein.</p>
+<pb facs="#f0155"/>
+<p>Demnach setzen vnd ordnen wir / das in den Stedten vnd Flecken / vnd grossen Dörffern vnsers       Fürstenthumbs / Kinder Schulen sollen gehalten werden / wie auch bisher / Gott lob / geschehen       / Vnd sollen in den Stedten / wo nicht vier / jedoch drey / zwen / oder nach gelegenheit ein       Schulmeister oder Gesell gehalten / vnd einem jeden nach seiner gelegenheit / besoldung       verordnet werden.</p>      <p>Desgleichen wollen wir auch / das allenthalben Megdlein vnd Jungfrawen Schulen verordnet sein       sollen / damit auch die Megdlin in der Jugend wol vnterrichtet werden mögen / in lesen /       schreiben / neyen / vnd dergleichen stücken.</p>      <p>Vnd damit die Jugend wol vnd nützlich allenthalben möge vnterrichtet werden / So sollen die       Superintendenten / vnd Pastores eines jeden Orts / gut auffsehen haben / das bey die Schulen       verordnet werden / solche Leute / die der Jugend wol fürstehen können / vnd das nach       gelegenheit der Knaben / solche Lectiones gelesen / so der Jugend nützlich sein mögen / damit       sie in Gottes forcht / guter zucht / Kunst vnd Sprachen aufferzogen werden.</p>
+<pb facs="#f0156"/>
+<p>Vnd weil ein nützlich ding ist / die Visitatio in den Schulen / vnd die Jugend dadurch zur       Lere vnd Zucht nicht wenig gereitzet wird / wenn entweder jr fleis oder vnfleis gelobet oder       gestraffet wird / So sollen des orts / da Schulen sein / des Jars zwey mal Visitationes durch       den Pastorn vnd Prediger / vnd zwen des Rhats / auff gewisse tage / vor Michaelis vnd Ostern /       gehalten / die Knaben examinirt / vnd fleissig zu studieren angehalten werden.</p>      <p>Da sie auch in solcher Visitatio mangel oder gebrech bey den Schulmeistern oder Gesellen       befinden / die sollen sie abschaffen / vnd die Schulgesellen vermanen / das sie mit den Knaben       vernünfftiglich vmbgehen.</p>      <p>Wo sie denn an gebewen der Schulen / oder sonst einigen mangel befinden / denn haben sie in       solcher Visitation auch zu bessern / vnd nach gelegenheit / enderung darein zu verschaffen.</p>
+<pb facs="#f0157"/>
+</div>     <div>      <head>Folgen etliche Collecten oder Gebet / so in der Kirchen / vnter dem Ampt der Messe / vor       der Epistel vnd sonst gelesen werden.</head><lb/>
+</div>     <div>      <head>Im Aduent.</head><lb/>
+<p>LIeber HERR Gott / Wecke vns auff / das wir bereit sein / wenn dein Son kömpt / jn mit       freuden zu empfahen / vnd dir mit reinem hertzen zu dienen / durch denselbigen deinen Son       Ihesum Christum / AMEN.</p>     </div>     <div>      <head>A LIA IN ADVENTV.</head><lb/>
+<p>HERR Gott himlischer Vater / Wir dancken dir von gantzem hertzen / das du vns armen Sündern       zu trost / deinen Son Christum zu einem Messia verordnet / vnd gesand hast / das er ein       gerechter König vnd Heiland sein solte / das ist / Sein Volck von Sünden
+<pb facs="#f0158"/>
+erlösen / vnd aus des Teuffels Tyranney vnd ewigem Tode       erretten. Wir bitten dich von hertzen / du wollest vns durch deinen heiligen Geist / also       erleuchten / regieren vnd füren / das wir diesen gerechten König vnd Heiland warhafftigen       erkennen / an jm allein halten / vns an seiner geringen gestalt / verachtetem Worte vnd Reiche       nicht ergern / Sondern in einem rechten vertrawen auff jn / ewig selig werden mögen / durch       denselbigen deinen Son Ihesum Christum / vnsern HErrn / AMEN.</p>     </div>     <div>      <head>Auff Weihnachten / von der Geburt Christi.</head><lb/>
+<p>HIlff lieber HERR Gott / das wir der newen leiblichen Geburt deines Sons teilhafftig werden       vnd bleiben / vnd von vnser alten sündlichen geburt erlediget werden / durch denselbigen deinen       Son Ihesum Christum / vnsern HErrn / AMEN.</p>
+<pb facs="#f0159"/>
+</div>     <div>      <head>ALIA IN DIE NATIVITATIS CHRISTI.</head><lb/>
+<p>HERR Gott himlischer Vater / Wir dancken dir / deiner grossen Gnade vnd Barmhertzigkeit / das       du deinen eingebornen Son Ihesum Christum / in vnser Fleisch hast komen lassen / vnd durch jn       vns von Sünden vnd ewigem Tode / gnediglichen geholffen / Wir bitten dich hertzgründlich /       erleuchte vnsere hertzen / durch deinen heiligen Geist also / das wir für solche deine Gnade       dir danck bar sein / vnd derselbigen vns in aller Anfechtung trösten / vnd endlichen ewig selig       werden mögen / durch denselbigen deinen Son Ihesum Christum vnsern HErrn / Amen.</p>     </div>     <div>      <head>IN DIE CIRCVMCISIONIS DOMINI.</head><lb/>
+<p>OHERR Gott himlischer Vater / Wir dancken dir für deine Veterliche Gnaden / das du dich der       armen Sünder angenomen / vnd deinen Son Christum denselbigen
+<pb facs="#f0160"/>
+zu gut vnter das Gesetz gethan hast / das er mit seinem       volkomen gehorsam / deinen gerechten Zorn stillete / vnd vnsern vngehorsam heilete / Wir bitten       dich / du wollest durch deinen heiligen Geist / vnsere hertzen also erleuchten / das wir vns       solches gehorsams wider vnsere Sünde / vnd böses Gewissen / trösten können / vnd durch die       hülffe des heiligen Geistes / auch anfangen gehorsame Kinder zu werden / vnd endlich ewig selig       werden mögen / durch denselbigen deinen Son Christum Ihesum vnsern HErrn / Amen.</p>     </div>     <div>      <head>IN DIE EPIP HANIAS DOMINI.</head><lb/>
+<p>HERR Gott Himlischer Vater / der du deinen eingebornen Son Ihesum Christum / durch       erscheinung eines Sterns / den Heiden offenbaret hast / vnd vns auch in diesen letzten zeiten /       mit dem seligen Liechte deines Göttlichen Worts / zu erkentnis deines lieben Sons hast komen       lassen. Wir bitten von gantzem hertzen / du wollest vns durch deinen heiligen Geist also       begnaden / vnd begaben / das wir nach solchem Liecht / deiner Warheit /
+<pb facs="#f0161"/>
+jmerdar wandern / vns mit gantzer zuuersicht vnsers       Heilands allezeit erfrewen / vnd also zur ewigen seligkeit erhalten werden mögen / durch       denselben deinen Son vnsern HErrn / Amen.</p>     </div>     <div>      <head>Auff Purificationis.</head><lb/>
+<p>ALlmechtider ewiger Gott / Wir bitten dich hertzlich / gib vns / das wir deinen lieben Son       erkennen / vnd preisen / Wie der heilige Simeon jn leiblich in die Arme genomen / vnd Geistlich       gesehen vnd bekandt hat / Durch denselbigen deinen Son Ihesum Christum vnsern HErrn / Amen.</p>     </div>     <div>      <head>ALIA IN DIE PVRIFICATIONIS MARIAE.</head><lb/>
+<p>HERR Gott himlischer Vater / der du deinen Son vns zum Heiland bereitet hast / das er der       Heiden Liecht / vnd der Jüden Preiss sein solte / Wir bitten dich / erleuchte vnsere hertzen /       das wir deine gnade / vnd Veter-
+<pb facs="#f0162"/>
+lichen willen /       in jme erkennen / auch hülffe vnd schutz wider die Sünde / verdamnis vnd leidigen Satauam / an       jme haben / vnd hernachmals ewig selig werden mögen / durch denselbigen deinen Son Ihesum       Christum vnsern HERRN / AMEN.</p>     </div>     <div>      <head>IN DIE ANNVNCIATIONIS MARIAE.</head><lb/>
+<p>HERR Gott himlischer Vater / Wir dancken dir für deine vnaussprechliche gnade / das du vns       armen Sünder bedacht hast / vnd deinen Son in vnser Fleisch geschickt / vnd vmb vnsern willen       lassen Mensch werden / Wir bitten dich von gantzem hertzen / du wollest vns durch deinen       heiligen Geist gnade verleihen / das wir vns seiner Menschwerdung / leidens vnd sterbens       trösten / jn für vnsern Herrn vnd ewigen König erkennen vnd annemen / vnd durch jn mit dir /       vnd dem heiligen Geist / ewig leben / vnd selig werden mögen / Amen.</p>
+<pb facs="#f0163"/>
+</div>     <div>      <head>Von dem Leiden Christi.</head><lb/>
+<p>BArmhertziger ewiger Gott / der du deines einigen Sons nicht verschonet hast / sondern für       vns alle dahin gegeben / das er vnsere Sünde am Creutz tragen solte / Verleihe vns / das vnser       Hertz in solchem Glauben nimmermehr erschrecke noch verzage / Durch denselben deinen Son Ihesum       Christum vnsern HErrn / AMEN.</p>     </div>     <div>      <head>Auff Ostern.</head><lb/>
+<p>ALlmechtiger Gott / der du durch den todt deines Sons / die Sünde vnd Todt zu nichte gemacht       / vnd durch sein auffer stehen die vnschuld vnd ewiges leben widerbracht hast / auff das wir       von der gewalt des Teuffels erlöset / in deinem Reich leben / Verleihe vns / das wir solchs von       gantzem hertzen gleuben / vnd in solchem Glauben bestendig / dich allezeit loben / vnd dir       dancken / durch denselben deinen Son IHEsum Christum vnsern HErrn / Amen.</p>
+<pb facs="#f0164"/>
+</div>     <div>      <head>ALIA IN DIE PASCHATIS.</head><lb/>
+<p>HERR Gott Himlischer Vater / der du deinen eingebornen Sohn / vmb vnser Sünde willen hast hin       gegeben / vnd vmb vnser Gerechtigkeit willen aufferwecket / Wir bitten dich / du wollest deinen       heiligen Geist vns schencken / durch denselben vns regieren vnd füren / in rechtem warhafftigen       Glauben erhalten / vnd für allen Sünden / in einem newen Leben behüten / vnd nach diesem Leben       aufferwecken / zum ewigen Leben / durch deinen Son IHEsum CHRistum vnsern HErrn / Amen.</p>     </div>     <div>      <head>IN DIE ASCENSIONIS DOMINI.</head><lb/>
+<p>HERR Ihesu Christe / du Son des aller höhesten / der du nu forthin nicht mehr auff Erden arm       vnd elend bist / Sondern zur rechten deines Vaters / ein gewaltiger HErr vber alles / was da       ist im Himel vnd auff Er-
+<pb facs="#f0165"/>
+den / alles auch       erfüllest vnd regierest / Wir bitten dich / du wollest deinen heiligen Geist vns senden / frome       Kirchendiener geben / dieselbigen begaben / vnd auff deinem Worte erhalten / dem Satanae vnd       allen Tyrannen wehren / dein Reich auff Erden gewaltig erhalten / bis das alle Feinde zu deinen       Füssen ligen / vnd wir auch durch dich die Sünde / den Todt vnd alles vberwinden / Amen.</p>     </div>     <div>      <head>Auff Pfingsten.</head><lb/>
+<p>HERR Gott lieber Vater / der du (an diesem tag) deiner gleubigen hertzen / durch deinen       heiligen Geist erleuchtet vnd geleret hast / gib vns / das wir auch durch denselbigen Geist       rechten verstand haben / vnd zu aller zeit seines trostes vnd krafft vns frewen / durch deinen       Son Ihesum Christum vnsern HErrn / Amen.</p>      <p>Wenn man diese Collecten auff andere zeit ausser des Pfingstags lesen wil / mag man diese       parenthesin (an diesem tage) aussen lassen.</p>
+<pb facs="#f0166"/>
+</div>     <div>      <head>ALIA IN DIE PENTECOSTES.</head><lb/>
+<p>HErr Ihesu Christe / du Son des allmechtigen Gottes / Wir bitten dich / du wollest durch dein       Wort / deinen heiligen Geist in vnser hertze geben / das derselbige vns regiere vnd füre / nach       deinem willen / vns in allerley Anfechtung vnd vnglück tröste / in deiner Warheit wider allen       Irthumb leite vnd erhalte / auff das wir im Glauben fest bestehen mögen / in der liebe vnd       guten wercken zunemen / vnd durch eine gewisse hoffnung / deiner erworbenen vnd geschenckten       Gnaden / ewig selig werden / der du mit dem Vater vnd heiligem Geist regierest von ewigkeit zu       ewigkeit / Amen.</p>
+<pb facs="#f0167"/>
+</div>     <div>      <head>Auff Trinitatis.</head><lb/>
+<p>ALlmechtiger ewiger Gott / der du vns geleret hast / im rechten Glauben zu wissen vnd       bekennen / das du in drey Personen gleicher macht vnd ehren / ein einiger ewiger Gott / vnd       dafür anzubeten bist / Wir bitten dich / du wollest vns bey solchem glauben allezeit fest       erhalten / wider alles / das dagegen vns mag anfechten / der du lebest vnd regirest / von       ewigkeit zu ewigkeit / Amen.</p>     </div>     <div>      <head>IN DIE IOHA NNIS BAPTISTAE.</head><lb/>
+<p>HERR Gott himlischer Vater / der dir durch den heiligen Teuffer Johannem / vns allen zu trost       / hast bezeugen lassen / das Ihesus Christus das ware vnschüldige Lemblin were / welcher der       gantzen Welt Sünde tragen solte / in welchem auch alle Gleubigen das ewige leben vberkomen       werden / Wir bitten dich von hertzen / du wollest vns durch deinen
+<pb facs="#f0168"/>
+heiligen Geist erleuchten / das wir vns allezeit /       solcher gezeugnis von vnserm Heiland Ihesu Christo trösten vnd erfrewen / in rechtem Glauben /       darinne bestendig beharren / vnd endlichen mit Johanne dem Teuffer / vnd allen Gleubigen die       ewige seligkeit vberkomen mögen / durch denselbigen deinen Son Ihesum Christum vnsern HErrn /       AMEN.</p>     </div>     <div>      <head>IN DIE VISITATIONIS MARIAE.</head><lb/>
+<p>HERR Gott himlischer Vater / Wir dancken dir für alle deine wolthat / Geistlich vnd leiblich       / die du vns so reichlich hast widerfaren lassen / Vnd bitten dich / behüte vns für hoffart vnd       sicherheit / das wir nicht in vndanckbarkeit vnd Sünde geraten / vnd deine hulde verlieren /       Wie die liebe Junckfraw Maria in jrem Lobgesange gesungen hat / das weder Weisheit / gewalt       oder Reichthumb / die helffen sol / die dich nicht fürchten / Gib vns aber ein solches hertz /       das in deiner furcht bleibe / an deinem worte hange / auff das wir deinen Segen behal-
+<pb facs="#f0169"/>
+ten / vnd endlich selig werden mögen / durch deinen       Son Ihesum Christum vnsern HErrn / Amen.</p>     </div>     <div>      <head>IN DIE MICHAELIS.</head><lb/>
+<p>ALlmechtiger HERR Gott Vater / Wir dancken dir von hertzen / das du deine heilige Engel / zu       dienstbaren Geistern geschaffen / vnd verordnet hast / das sie vmb die Gottfürchtigen stehen       sollen / denselbigen allenthalben dienen / sie auff allen jren wegen behüten / Sie auch als       eine Wagenburg vmbringen / damit sie vom Teuffel vnd der Gottlosen Welt nicht beleidiget werden       mögen. Wir bitten auch von hertzen / du wollest vns durch deinen heiligen Geist erhalten im       rechten Glauben / an Jesum Christum / vnd warhafftigen gehorsam deines willens / damit wir in       der beschützung deiner lieben Engel sein vnd bleiben / vnd allenthalben an Leib vnd Leben /       Haus / Hoff / Frawen vnd Kinder / vnd was wir sonst auff Erden haben / zu tag vnd nacht mögen       sein befriedet / vmb deines lieben Sons Ihesu Christi willen / AMEN.</p>
+<pb facs="#f0170"/>
+</div>     <div>      <head>Gemeine Collecten.</head><lb/>
+<p>ALimechtiger HERR Gott Vater / der du bist ein beschützer / aller / die auff dich hoffen / on       welches gnad niemand ychtwes vermag / noch etwas vor dir gilt / las deine barmhertzigkeit / vns       reichlich widerfaren / auff das wir durch dein heiliges eingeben / dencken was recht ist / vnd       durch deine krafft dasselbige vollenbringen / Vmb Ihesus Christus vnsers HErrn willen /       Amen.</p>     </div>     <div>      <head>ALIA.</head><lb/>
+<p>ALlmechtiger HERR Gott Vater / verleihe vns einen bestendigen Glauben in Christum Ihesum /       eine vnerschreckliche hoffnung in deine Barmhertzigkeit / wider alle bosheit / vnser sündlichen       Conscientien / vnd eine grundgütige liebe / zu dir vnd allen Menschen / vmb Ihesu Christi       deines Sons vnsers HErrn willen / AMEN.</p>
+<pb facs="#f0171"/>
+</div>     <div>      <head>Ein ander.</head><lb/>
+<p>HERR Gott himlischer Vater / der da aus Veterlicher liebe / vns armen Sündern / deinen Son       geschenckt hast / das wir an jn gleuben / vnd durch den Glauben selig werden sollen / Wir       bitten dich / gib deinen heiligen Geist / in vnsere hertzen / das wir im rechten glauben / bis       ans ende beharren / vnd selig werden / durch Ihesum Christum deinen Son vnsern HErrn /       Amen.</p>     </div>     <div>      <head>Ein ander.</head><lb/>
+<p>HERR Gott himlischer Vater / von dem wir ohne vnterlass allerley guts / gar vberflüssig       empfahen / vnd teglich für allem vbel gantz gnediglich behütet werden / Wir bitten dich / gib       vns durch deinen Geist / solches alles mit gantzem hertzen / im rechten glauben zu erkennen /       auff das wir deiner milden güte vnd barmhertzigkeit / hie vnd dort ewiglich dancken / vnd loben       / durch Ihesum Christum deinen Son vnsern HErrn / Amen.</p>
+<pb facs="#f0172"/>
+</div>     <div>      <head>Ein ander.</head><lb/>
+<p>VErschone HERR / verschone vnser Sünde / vnd wiewol den Sündern ewige straffe gebüret / So       bitten wir dich doch von gantzem hertzen / gib / das es vns zu einer gnedigen straffe kome /       das wir zum ewigen verderb verdienet haben / durch Ihesum Christum deinen Son vnsern HErrn /       Amen.</p>     </div>     <div>      <head>Ein ander Gebet vmb Frieden.</head><lb/>
+<p>HERR Gott himlischer Vater / der du heiligen muth / guten raht / vnd rechte werck schaffest /       gib deinen Dienern Friede / welchen die Welt nicht kan geben / auff das vnser hertze an deinen       geboten hange / vnd wir vnser zeit durch deinen schutz / stille / vnd sicher für Feinden leben       / durch Ihesum Christum deinen Son vnsern HErrn / Amen.</p>
+<pb facs="#f0173"/>
+</div>     <div>      <head>Ein ander Gebet für gemeine not.</head><lb/>
+<p>HERR allmechtiger Gott / der du der elenden seufftzen nicht verschmähest / vnd der betrübten       hertzen verlangend nicht verachtest / sihe doch an vnser Gebet / welchs wir zu dir in vnser not       fürbringen / vnd erhör vns gnediglich / das alles so beide vom Teuffel vnd Menschen wider vns       strebet / zu nichte vnd nach dem Raht deiner gürigkeit verstöret werde / Auff das wir von aller       anfechtung vnuersehret / dir in deiner Gemeine dancken / vnd dich allezeit loben / durch Ihesum       Christum deinen Son vnsern HErrn / Amen.</p>     </div>     <div>      <head>Ein ander.</head><lb/>
+<p>HERR Gott himlischer Vater / der du nicht lust hast / an der armen Sünder tode / lessest sie       auch nicht gern verderben / sondern wilt das sie bekeret werden / vnd leben / Wir bitten dich       hertzlich / du wollest die wolverdiente straffe / vnser Sünde gnediglich abwenden / vnd vns       hinfort zu bessern / deine Barmhertzigkeit mildiglich verleihen / vmb Jesu Christi vnsers HErrn       willen / Amen.</p>
+<pb facs="#f0174"/>
+</div>     <div>      <head>Ein ander Gebet / für die gemeine Christenheit.</head><lb/>
+<p>ALlmechtiger ewiger Gott / der du durch deinen heiligen Geist / die gantze Christenheit       heiligest vnd regierest / Erhöre vnser Gebet / vnd gib gnediglich / das sie mit allen jren       gliedern / in reinem Glauben / durch deine gnade dir diene / durch Ihesum Christum deinen Son       vnsern HErrn / Amen.</p>     </div>     <div>      <head>ALIA.</head><lb/>
+<p>HERR Gott Himlischer Vater / wir bitten dich / du wollest deinen heiligen Geist in vnser       hertze geben / vns in deiner Gnad vnd Warheit ewiglich erhalten / in aller anfechtung behüten       vnd trösten / vor dem Bapst / Türcken vnd allen Feinden deines worts / bewaren / vnd deiner       armen Christenheit heilsamen fried verleihen / durch Ihesum Christum vnsern HErrn / Amen.</p>
+<pb facs="#f0175"/>
+</div>     <div>      <head>ALIA.</head><lb/>
+<p>ALlmechtiger ewiger Gott Vater / der dir sehen lest / das liecht deiner Warheit / denen die       da jrren / das sie wider auff den weg der Gerechtigkeit komen mögen / Wir bitten dich / gib       gnad allen Gleubigen / das sie verachten / was deinem Namen entgegen ist / vnd annemen / was       jme dienet / durch Ihesum Christum deinen Son vnsern HErrn / Amen.</p>     </div>     <div>      <head>ALIA.</head><lb/>
+<p>HERR Gott himlischer Vater / Wir bitten dich / du wollest durch deinen heiligen Geist vns       also leiten vnd füren / das wir erstlich vnser Sünde nicht geringe achten / vnd sicher werden /       Sondern in steter busfertigkeit befunden werden / vns von tag zu tag bessern / vnd darnach vns       allein des trösten mögen / das du vns gnad beweisen wollest / alle Sünde vergeben / vnd ewig       selig machen / vmb deines Sons Ihesu Christi vnsers HErrn willen / Amen.</p>
+<pb facs="#f0176"/>
+</div>     <div>      <head>ALIA.</head><lb/>
+<p>ALlmechtiger ewiger Gott Vater / der du aus Veterlicher wolmeinung / vns deine Kinder alhie       auff Erden / vnter das Creutze stellest / vnd allerley vngewitter vber sie lest komen / der       Sünde damit zu wehren / vnd vns zu busfertigkeit / glauben / hoffnung / vnd embsigen Gebet zu       reitzen / Wir bitten dich / du wollest vns in aller anfechtung vnd not / durch deinen heiligen       Geist trösten / vnser Gebet erhören / vnd gnedige hülffe verschaffen / auff das wir nicht       verzagen / Sondern deine Veterliche gnad vnd beystand erkennen / vnd dich mit allen Heiligen in       ewigkeit loben / preisen vnd dancken / durch Ihesum Christum deinen Son vnsern HErren /       Amen.</p>
+<pb facs="#f0177"/>
+</div>     <div>      <head>Folgen die Prefationes / so in hohen Festen in den Stedten / nach der Predigt / vor der       Communio gesungen werden.</head><lb/>
+</div>     <div>      <head>QVOTIDIANA.</head><lb/>
+<p><lb/>
+<figure type="notatedMusic"/><lb/>
+<hi rendition="#i">Dominus vobiscum. Et cum Spiritu tuo.       <lb/>
+<figure type="notatedMusic"/><lb/>
+Sur sum corda Habemus ad Dominum.       <lb/>
+<figure type="notatedMusic"/><lb/>
+Grati as agamus Do mino Deo nostro.
+<pb facs="#f0178"/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+Dignum &amp; iu stum est.       <lb/>
+<figure type="notatedMusic"/><lb/>
+Verè dignum &amp; iustum est, aequum &amp;       <lb/>
+<figure type="notatedMusic"/><lb/>
+saluta re, nos tibi semper &amp; ubique gratias       <lb/>
+<figure type="notatedMusic"/><lb/>
+agere, Domine sancte pater omnipotens, aeterne       <lb/>
+<figure type="notatedMusic"/><lb/>
+Deus, per Christum Dominum nostrum, per       <lb/>
+<figure type="notatedMusic"/><lb/>
+quem Maiestate&#x0303; tuam laudant Angeli, ado rant
+<pb facs="#f0179"/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+dominationes, tremunt potestates cali coelorumque       <lb/>
+<figure type="notatedMusic"/><lb/>
+virtutes, ac beata Seraphin so cia       <lb/>
+<figure type="notatedMusic"/><lb/>
+exultatio ne concelebrant. Cum quibus &amp;       <lb/>
+<figure type="notatedMusic"/><lb/>
+nostras voces ut admitti iubeas te precamur       <lb/>
+<figure type="notatedMusic"/><lb/>
+sup plici confeßio ne di cen tes.</hi></p>
+<pb facs="#f0180"/>
+<p>SANCTVS, SANCTVS, SANCTVS DOMINVS ZEBAOTH, Pleni sunt coeli &amp; terra, gloria tua, Osianna       in excelsis, Benedictus qui venit in nomine Domini, Osianna in excelsis.</p>     </div>     <div>      <head>IN DIE NATIVITATIS CHRISTI.</head><lb/>
+<p><lb/>
+<figure type="notatedMusic"/><lb/>
+<hi rendition="#i">Verè dignum &amp;, &amp;c. AEterne Deus, quia per       <lb/>
+<figure type="notatedMusic"/><lb/>
+incarnati verbi mysterium noua mentis nostrae       <lb/>
+<figure type="notatedMusic"/><lb/>
+oculis luxtu ae clarita tis effulsit, ut dum
+<pb facs="#f0181"/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+visibiliter Deum cognoscimus, per hunc in inuisibilium       <lb/>
+<figure type="notatedMusic"/><lb/>
+amorem rapia mur. Et i deo       <lb/>
+<figure type="notatedMusic"/><lb/>
+cum Angelis &amp; Archangelis, cum thronis &amp; domina       <lb/>
+<figure type="notatedMusic"/><lb/>
+ti o nibus, Cumque omni militia coelestis exercitus       <lb/>
+<figure type="notatedMusic"/><lb/>
+Hymnum gloriae tu ae canimus sine       <lb/>
+<figure type="notatedMusic"/><lb/>
+fi ne di centes. Sanctus, &amp;c.</hi></p>
+<pb facs="#f0182"/>
+</div>     <div>      <head>IN DIE EPIPHANIAS.</head><lb/>
+<p><lb/>
+<figure type="notatedMusic"/><lb/>
+<hi rendition="#i">Verè dignum &amp; iustum, &amp;c. AEterne Deus, qui cum       <lb/>
+<figure type="notatedMusic"/><lb/>
+unigenitus tuus, in substantianostrae mortalitatis       <lb/>
+<figure type="notatedMusic"/><lb/>
+apparuit, noua nos immortalitatis suae luce       <lb/>
+<figure type="notatedMusic"/><lb/>
+re parauit. Et i deo cum Angelis       <lb/>
+<figure type="notatedMusic"/><lb/>
+&amp; Archangelis, cum thro nis &amp; domi       <lb/>
+<figure type="notatedMusic"/><lb/>
+nati o nibus, Cumque omni mili tia
+<pb facs="#f0183"/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+coelestis exercitus Hymnum gloriae tu ae       <lb/>
+<figure type="notatedMusic"/><lb/>
+canimus si- ne fi ne di centes. Sanct. &amp;c.</hi></p>     </div>     <div>      <head>IN DIE PASCHAE.</head><lb/>
+<p><lb/>
+<figure type="notatedMusic"/><lb/>
+<hi rendition="#i">Verè dignum &amp; iustum est, aequum &amp;       <lb/>
+<figure type="notatedMusic"/><lb/>
+sa lu ta re, Te quidem Domine omni tempore,       <lb/>
+<figure type="notatedMusic"/><lb/>
+Sed in hac potißimum die gloriosius
+<pb facs="#f0184"/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+praedicare, Cum Pascha nostrum immolatus est       <lb/>
+<figure type="notatedMusic"/><lb/>
+Christus. Ipse enim verus est Agnus, qui abstulit       <lb/>
+<figure type="notatedMusic"/><lb/>
+pec cata mundi. Qui mortem nostram       <lb/>
+<figure type="notatedMusic"/><lb/>
+inoriendo destruxit, &amp; vitam resurgendo       <lb/>
+<figure type="notatedMusic"/><lb/>
+re parauit. Et i deo cum Angelis &amp;       <lb/>
+<figure type="notatedMusic"/><lb/>
+Archangelis, cum thronis &amp; domi nati o-
+<pb facs="#f0185"/>
+nibus,       <lb/>
+<figure type="notatedMusic"/><lb/>
+Cumque omni mili tia coelestis exercitus       <lb/>
+<figure type="notatedMusic"/><lb/>
+Hymnum gloriae tuae canimus, si ne fine       <lb/>
+<figure type="notatedMusic"/><lb/>
+di cen tes. Sanctus, &amp;c.</hi></p>     </div>     <div>      <head>ASCENSIONIS.</head><lb/>
+<p><lb/>
+<figure type="notatedMusic"/><lb/>
+<hi rendition="#i">Verè dignum &amp;, &amp;c. Per Christum Dominum nostrum,       <lb/>
+<figure type="notatedMusic"/><lb/>
+Qui post refurrectionem suam omnibus disci-
+<pb facs="#f0186"/>
+pulis       <lb/>
+<figure type="notatedMusic"/><lb/>
+suis manifestus apparuit, &amp; ipsis cernentibus       <lb/>
+<figure type="notatedMusic"/><lb/>
+est eleuatus in coelum, ut nos diuinitatis suae       <lb/>
+<figure type="notatedMusic"/><lb/>
+tribueret esse participes. Et ideo       <lb/>
+<figure type="notatedMusic"/><lb/>
+cum Angelis &amp; Archangelis, cum thronis &amp;       <lb/>
+<figure type="notatedMusic"/><lb/>
+domi nati o nibus, Cumque omni militium       <lb/>
+<figure type="notatedMusic"/><lb/>
+coelestis exercitus Hymnum gloriae
+<pb facs="#f0187"/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+tuae canimus, si ne fi ne, dicentes.       <lb/>
+<figure type="notatedMusic"/><lb/>
+Sanctus.</hi></p>     </div>     <div>      <head>PENTECOSTES.</head><lb/>
+<p><lb/>
+<figure type="notatedMusic"/><lb/>
+<hi rendition="#i">Verè dignum &amp; iustum, &amp;c. Per Christum dominum       <lb/>
+<figure type="notatedMusic"/><lb/>
+nostrum, Qui ascendens super omnes coelos, sedeum que       <lb/>
+<figure type="notatedMusic"/><lb/>
+ad dexteram tuam promissum Spiritum san-
+<pb facs="#f0188"/>
+ctum       <lb/>
+<figure type="notatedMusic"/><lb/>
+hodierna die in fi lios adoptio nis       <lb/>
+<figure type="notatedMusic"/><lb/>
+effudit Quapropter profusis gaudijs totus in       <lb/>
+<figure type="notatedMusic"/><lb/>
+or be terrarum mundus exul tat, Sed &amp; supernae       <lb/>
+<figure type="notatedMusic"/><lb/>
+virtutes atque angelicae potesta tes       <lb/>
+<figure type="notatedMusic"/><lb/>
+Hymnum gloriae tuae canimus, si ne fine,       <lb/>
+<figure type="notatedMusic"/><lb/>
+dicentes. Sanctus.</hi></p>
+<pb facs="#f0189"/>
+</div>     <div>      <head>TRINITA TIS.</head><lb/>
+<p><lb/>
+<figure type="notatedMusic"/><lb/>
+<hi rendition="#i">Verè dignum &amp; iustum est, aequum &amp;       <lb/>
+<figure type="notatedMusic"/><lb/>
+saluta re, nos tibi semper &amp; ubique gratias       <lb/>
+<figure type="notatedMusic"/><lb/>
+agere, Domine sancte pater omnipotens,       <lb/>
+<figure type="notatedMusic"/><lb/>
+aeterne Deus, Qui cum unigenito filio tuo,       <lb/>
+<figure type="notatedMusic"/><lb/>
+&amp; Spiritu lancto unus es Deus, unus es
+<pb facs="#f0190"/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+Dominus, non in unius singularitate personae,       <lb/>
+<figure type="notatedMusic"/><lb/>
+sed in unius Trinitate substantiae, Quod enim       <lb/>
+<figure type="notatedMusic"/><lb/>
+de tua gloria reuelante te credimus, hoc de       <lb/>
+<figure type="notatedMusic"/><lb/>
+filio tuo, hoc de Spiritu sancto sine differentia       <lb/>
+<figure type="notatedMusic"/><lb/>
+discretionis sentimus, ut in confessione       <lb/>
+<figure type="notatedMusic"/><lb/>
+verae sempiternaeque deitatis, &amp; in
+<pb facs="#f0191"/>
+<lb/>
+<figure type="notatedMusic"/><lb/>
+personis proprietas, &amp; in essentia unitas,       <lb/>
+<figure type="notatedMusic"/><lb/>
+&amp; in Maiestate ado re tur aequalitas,       <lb/>
+<figure type="notatedMusic"/><lb/>
+Quamlaudant Angeli, adorant dominati       <lb/>
+<figure type="notatedMusic"/><lb/>
+ones, tremunt potesta tes Coeli       <lb/>
+<figure type="notatedMusic"/><lb/>
+coelorumque virtutes ac beata Seraphin       <lb/>
+<figure type="notatedMusic"/><lb/>
+socia exulta ti o ne conce-
+<pb facs="#f0192"/>
+lebrant.       <lb/>
+<figure type="notatedMusic"/><lb/>
+Cum qui bus &amp; nostras voces ut admitti       <lb/>
+<figure type="notatedMusic"/><lb/>
+iubeas te precamur sup plici confeßio       <lb/>
+<figure type="notatedMusic"/><lb/>
+ne dicentes. Sanctus.</hi></p>
+<pb facs="#f0193"/>
+<p>Gedruckt zu Vlssen / bey Michel Kröner. 1598.</p> </div>    </body>   </text>  </TEI>

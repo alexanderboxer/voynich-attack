@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Leichpredigt Aus dem 12. Capittel Danielis. GEthan bey der Begrebnis Weiland der Edlen ... Jungfrauwen Appolloniae von Gram</title>
+<title type="sub">welche den 9. Martij Anno 1596. zu Bokenem ... entschlaffen ...</title>
+<author>
+<persName ref="http://d-nb.info/gnd/104188944">
+<surname>Strube</surname>
+<forename>Johannes</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/db-992-5s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/db-992-5s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">40</measure>
+<measure type="tokens">7663</measure>
+<measure type="types">2477</measure>
+<measure type="characters">48339</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:25Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/strube_leichpredigt_1596</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/strube_leichpredigt_1596</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/strube_leichpredigt_1596</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/strube_leichpredigt_1596</idno>
+<idno type="DTADirName">strube_leichpredigt_1596</idno>
+<idno type="DTAID">30288</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30288-3</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Strube, Johannes: Leichpredigt Aus dem 12. Capittel Danielis. GEthan bey der Begrebnis Weiland der Edlen ... Jungfrauwen Appolloniae von Gram. Wolfenbüttel, 1596.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Leichpredigt Aus dem 12. Capittel Danielis. GEthan bey der Begrebnis Weiland der Edlen ... Jungfrauwen Appolloniae von Gram</title>
+<title level="m" type="sub">welche den 9. Martij Anno 1596. zu Bokenem ... entschlaffen ...</title>
+<author>
+<persName ref="http://d-nb.info/gnd/104188944">
+<surname>Strube</surname>
+<forename>Johannes</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Horn</name></publisher>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1596</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main">  <docTitle><titlePart type="main">Leichpredigt<lb/>
+Aus dem 2. Capittel<lb/>
+Danielis.<lb/>
+<hi rendition="#b">GEthan bey der</hi> <lb/>
+Begrebnis Weiland der Ed-<lb/>
+len vnd vieltugentsamen Jungfrau-<lb/>
+wen
+Appolloniae von Gram/welche den 9.<lb/>
+Martij <hi rendition="#aq">Anno 1596.</hi> zu Bokenem in Gott
+seliglich entschlaffen/vnd<lb/>
+den <hi rendition="#i">16.</hi> Hernacher
+Christlich daselbst zur Erden<lb/>
+ist bestattet worden.<lb/>
+</titlePart></docTitle>
+<byline>Durch<lb/>
+<docAuthor><hi rendition="#aq #i">M. IOHANNEM STRVBIVM</hi></docAuthor> <lb/>
+Pfarhern vnd <hi rendition="#aq">General
+Superintendenten</hi> daselbst.<lb/>
+</byline>
+<docImprint> <supplied>Ge</supplied>druckt Zur<pubPlace> Heinrichstadt</pubPlace> durch <publisher>Conxad Horn</publisher><lb/>
+<docDate><hi rendition="#i #aq">M. D
+XCVI.</hi></docDate></docImprint></titlePage>
+</front>
+<pb facs="#f0002"/>
+<body>
+<div>
+<head>Dan: 2. Cap:<lb/>
+</head>
+<p>ZVr selbige&#x0303; zeit wirt der Grosfürst Michael / der für dein Volck
+stehet / sich auffmachen. Denn es wird ein solche trübselige zeit sein / als sie
+nicht gewest ist / sind das Leute gewest sind / biß auff dieselbige zeit.
+Zurselbigen zeit wird dein Volck errettet werden / alle die im Buch geschrieben
+stehen. Vnd viele / so vnter der Erden schlaffen liegen / werden auffwachen /
+Etliche zum ewigen Leben / Etliche zu ewiger schmach vnd schande.</p>
+</div>
+<div>
+<head>Auslegung.<lb/>
+</head>
+<p>GEliebte im HERRn / es ist ein Christlicher vnd löblicher gebrauch / das man bei
+den Begrebnissen der verstorbenen Christen / deren Leichnam Tempel vnd wohnungen
+des heili-
+<pb facs="#f0003"/>
+gen Geistes gewesen sind /
+pfleget Leichtpredigten zuhalten.</p>
+<p>Vnd geschicht dasselbe sonderlich vmb dieser zweier vrsachen willen: Erstlich /
+so ist es ja billig vnd recht / vnd kan vnser HERr Gott wol leiden / das da den
+verstorbenen gelubigen Christen / in solcher versamlung / das gebürliche Lob
+jhrer Gottseligkeit mitgetheilt werde.</p>
+<p>Daher Dauid im 112. Psalm sagt: Des Gerechten wird nimmermehr vergessen.</p>
+<p>Vnd von der Frawen / die den Sohn Gottes kurtz vor seinem Leiden vnd Sterben
+salbete / spricht der HErr Matth. 26. Warlich ich sage euch / wo diß Euangelium
+geprediget wird in aller Welt / da wird man auch sagen / zu jhrem gedechtnis /
+was sie gethan hat.</p>
+<p>Zum Andern / vnd führnemblich werden die Leichpredigten auch gehalten vmb vnsert
+wille&#x0303; / die wir noch hinderstellig im leben sind / vnd mit zu
+Grabe gehen: das wir bei solcher gelegenheit erinnert werden vnser sterblichkeit
+/ das wir allhie keine bleibende stet haben / sondern auch ein mahl dauon
+müssen: Vnd das wir aus Gottes Wort berichtet werde&#x0303; / wie die
+sach anzustelle&#x0303; / damit wir heut oder morgen / wann wir diese
+Welt verlassen sollen / ein seliges Ende dauon bringen / vnd vom Todt zum leben
+hindurch dringen mügen.</p>
+<pb facs="#f0004"/>
+<p>Dieweil wir dann aus diesen vrsachen jtzund / da wir eine Jungfraw vom Adel zur
+Erden bestatet haben / auch sind bey einander geblieben / so habe ich vns zum
+vnterricht / die verlesene wort aus dem Propheten Daniel wöllen vor mich nehmen
+vnd erklären.</p>
+<p>Vnd sol E. L. Diese Wort jhr mit fleis lassen beuohlen sein.</p>
+<p>Dann von Daniels Buch sagt der Sohn GOttes selbs Matth. 24. Wer das lieset / der
+merck drauff.</p>
+<p>Vnd hat sonderlich zu den letzten worten des verlesenen Texts / der Sohn Gottes
+eine solche lust gehabt / das er dieselben Joh. 5. in seiner Predigt zu den
+Jüden selbs wiederholet hat / da er also spricht: Es kompt die stunde / in
+welcher alle die in grebern sind / werden die stimme des Menschen Sohns hören /
+vnd werden herfür gehen / die da gutes gethan haben / zur aufferstehung des
+lebens / die aber vbels gethan haben / zur aufferstehung des Gerichtes.</p>
+<p>Wie dann auch schöne lehre / herlicher Trost / vnde starcke vermahnungen in
+diesen worten vns fürgehalten werden.</p>
+<p>E. L. Gebe achtung auff diese Drei stück</p>
+<p>1. Wie Daniel anzeiget / das der Grosfürst
+<pb facs="#f0005"/>
+Michael werde sich seines Volckes annemen / vnd es erretten.</p>
+<p>2. Wie er weissagt von der aufferstehung der Todten.</p>
+<p>3. Wie er vermeldet / was nach der aufferstehung zwischen den Menschen für ein
+grosser vnderscheit fürfallen werde. Gott verleihe vns hiezu die gnade seines
+heiligen Geistes durch Christum / Amen.</p>
+</div>
+<div>
+<head>Der Erste Theil.<lb/>
+</head>
+<p>Anfenglich so sol E. L. wissen / das der Prophet Daniel in den verlesenen worten
+handlet von den letzten zeiten der Welt.</p>
+<p>Vnd zeiget nun klärlichen an / das es vor dem Jüngesten tage ein solche
+trübselige zeit sein werde / als sie nicht gewest ist / seid das Leute auff
+Erden gelebt haben: Also grewlich werde der Antichrist zu Rom der Pabst (welchen
+der Prophet in vorgehenden worten vnter der Person des Königs Antiochi Epiphanis
+eigentlich beschrieben / vnd abgemahlet hat) Gottes Wort verfelschen / vnd die
+armen Gewissen mit seinen Menschen satzungen plagen: Vnd so viel jammers vnd
+Elendes werde auch im Weltlichen Regiment vnd im gemeinen Hausstande im schwang
+gehen.</p>
+<p>Wie denn eben dasselbige auch der Sohn Got-
+<pb facs="#f0006"/>
+tes Luc. 21. Verkündiget hat / das in den letzten zeiten den Leuten
+auff Erden werde bange sein vnd werden zagen.</p>
+<p>Dagegen aber setzet nun Daniel her wiederumb in den verlesenen worten den
+herrlichen Trost / vnd sagt: Wann die sachen in der Christenheit so vbel
+stehe&#x0303; / vnd die not am gröste&#x0303; sein werde / so
+werde der Grosfürst Michael / das / ist vnser lieber HERr vnd Heiland Jesus
+Christus / mit dem es das ansehen gehabt / als hette er in solcher not
+geschlaffen / vnd seine Gemein gar vbergeben / derselbe werde sich plötzlich vnd
+gleich vnuersehens auffmachen / vnd für sein Volck stehen.</p>
+<p>Nichts anders wie sonst etwa ein from&#x0303;er Fürst vn&#x0303;
+Obrigkeit / wan&#x0303; die vnterthanen von dem Feind vberzogen vnd
+beschwärt werden / nicht stille sitzet / sondern sich rüstet / zu felde zeucht /
+vnd dem Feinde durch Gottes gnade wiederstand thut / vnd die vnterthanen
+schutzet: Also werde vnser Haupt vnd König Jesus Christus / in solcher not vnd
+gefahr seines Volckes / sich auch Rüsten / ausziehen / vnd seines Reichs
+vnterthanen / alle die im Buch geschrieben stehen / das ist / alle gleubigen /
+erstlich zwar durch die Predigt des heiligen Euangelij / von des Pabsts greweln:
+Vnd dan&#x0303; auch bald darauff / durch seine zukunfft zum Gerichte von
+allem vbel erlösen vnd ewig selig machen.</p>
+<pb facs="#f0007"/>
+<p>Das ist also der eigentliche verstand der wort im ersten theil.</p>
+<p>Da gibt vns nun Daniel die tröstliche lehr an die Hand / wann mit den Kindern
+Gottes die sachen am vbelsten stehen / vnd jhre noth am grösten sei / so pflege
+vnser HERR Gott mit seiner Hülff vnd erretung jhnen am nähesten zu sein.</p>
+<p>Die vernunfft vrtheilet anders dauon / wann sie einen siehet in grossen nöthen
+stecken / vnd das keine mittel vorhanden sind / dadurch man kan errettet werden
+/ oder die mittel wöllen nicht helffen / so gedenckt sie / Gott habe des
+Menschen vergessen / vnd jhn gar vbergeben.</p>
+<p>Aber Gottes Wort / welches allein vnser fuse leuchte sein sol / berichtet vns
+also von der sach / das vnser HERR Gott den seinen in nöthen am nehesten
+sei.</p>
+<p>Wie er denn auch seine Hülffe darumb so lange auffschiebet / vnd bis vffs letzte
+sparet / damit man augenscheinlich spüren / vnd gleich greiffen könne / er sei
+allein der einige / der vns in nöthen ausgeholffen habe.</p>
+<p>Daher gibt Dauid vnserm HERRN Gott Psal. 9. Den schönen Namen / vnd heist in
+adiutorem in oportunitatibus, einen helffer in der noth / die weil
+<pb facs="#f0008"/>
+er pflegt zuhelffen wann die noth am
+grösten ist.</p>
+<p>Vnd Psalm. 91. Spricht Gott selbs: Ich bin bei jm in der noth (wann die noth an
+Man trit) ich wil jhn heraus Reissen vnd zu Ehren machen.</p>
+<p>Vnd der Spruch Philonis des Juden ist bekant: vbi desinit auxilium humanum, ibi
+incipit diuinum, Wann Menschen hülff auffhöret / so gehet Gottes hülff an.</p>
+<p>Solches bezeugen die Historien der Kinder Gottes von anfang her.</p>
+<p>Als Pharao der König in Egypten / die Kinder Israel mit dem Herrndienst hefftig
+beschweret / vnd es nun auch so weit kam / das alles was Menlich von jhnen
+geboren ward / solte erseufft werden Exodi 1. Cap. Da sie ohne zweifel gedacht
+haben / Gott hette jhrer gar vergessen / sihe da sendet Gott Mosen / vnd lest
+sein Volck aus der schweren dienstbarkeit erlösen / vnd jhre Feinde im Wasser
+vntergehen / Exodi 14. Cap.</p>
+<p>Also lesen wir Esa: 36. vnd 37. Da Sennaherib der König in Assyria die stadt
+Jerusalem mit zweimahl Hundert Tausent Man belagert hat / vnd die besattzung in
+der Stadt gering ist / Da ist der Köning Hiskia in Tausent nöthen / wie er denn
+spricht: Das ist eine zeit des Trübsals. Es gehet gleich / als wann die Kinder
+bis an die Geburt kom-
+<pb facs="#f0009"/>
+men sind / vnd
+ist keine Krafft da zugeberen. Aber was geschichte Wie die noth am grösten ist /
+das man meinet / man könne nun die Stadt nicht lenger wieder den Feind
+auffhalten / da schickt Gott in der Nacht einen Engel / vnd lest im Lager der
+Assyrer schlagen Hundert Fünff vnd Achtzig Tausent Man / das Sennacherib Gott
+dancket / das er mit den vbrigen dauon kompt.</p>
+<p>Des haben wir auch ein Exempel in der Hystorien von der Geburt Christi. Denn als
+die Jüden von den Römern gantz vnd gar bezwungen waren / das sie nun auch neben
+anderen Völckern sich musten schetzen lassen / das sie ohne zweiffel in den
+gedancken gestanden / Gott hette sie gar vbergeben: Siehe da ist Ihnen die
+Erlösung am nehesten / vnd gehet die Selige zeit an / darauff alle fromme Väter
+vnd Könige mit so grossem verlangen gehoffet hatten / das Christus der Welt
+Heiland geboren wird / Luc. 2. Capit.</p>
+<p>Also da für 50: Jahren das Pabstumb auffs höhest kommen war / vnd nun eitel
+Menschen satzungen im schwang gingen / Gottes Wort aber dargegen vnter der Banck
+lag / das man sich ewiger finsternis aus Gottes gerechten Gerichte besorgete: Da
+erwecket Gott D. M. L. Vnd lest seine Gemein von des Pabsts Greweln erlösen /
+vnd wiede-
+<pb facs="#f0010"/>
+rumb anzünden das helle
+Licht seines heiligen Worts / das wir nun Gott lob wissen / wie wir Gott recht
+erkennen vnd Selig werden sollen.</p>
+<p>Nu diese Lehr / das wir hören / Gott sey ein helffer in der noth / sollen wir mit
+fleiß mercken / vnd vns auch sonderlich zu dieser zeit zu nutz machen</p>
+<p>Dann E. L. mus mit mir bekennen / das wir in recht betrübte zeiten gerathen sind:
+So viel Jammers vnd Elends ist in allen Stenden vorhanden.</p>
+<p>Im Geistlichen stande was greuwlicher jrthumb gehen da im schwanger</p>
+<p>Im Weltlichen Regiment wann man das Haupt mit seinen Gliedern ansiehet / hengt es
+nicht alles als an einem Seiden fadem / ist es nicht / wie ein alter schwacher
+Cörper / der nun kaum mehr Odem ziehen kann</p>
+<p>Also den Gemeinen Hausstandt betreffend / welche mühe vnd arbeit hat man da mit
+der Nahrung / Kinderzucht / mit bösem Gesinde / vntrewen Nachtbaurn Sicherheit /
+Gotteslesterung / verachtung des Worts vnd Prediger vngehorsamb / Vntrew / Haß /
+Neid / Mord / Vnzucht / Fressen / Sauffen / Vngerechtigkeit / affterede&#x0303; / vnd dergleichen schreckliche Sünde haben in der Welt als eine
+Sündfluth vberhandt genomen.</p>
+<p>In Summa es ist mit der bößheit auffs höhest
+<pb facs="#f0011"/>
+kommen / vnd kan nie erger gewesen sein / wie alle fromme Hertzen bekennen
+müssen.</p>
+<p>Vnd ist also erfüllet / das Daniel in abgelesenen worten sagt: Es werde für dem
+Jüngsten tage ein solche Trübselige zeit sein / als sie nicht gewest sey von
+anfang her.</p>
+<p>Wolan / dieweil nun das eine erfüllet ist / so wirt das ander gewißlich nicht
+fehle&#x0303; / Nemblich / das der Grosfürst Michael sich bald
+auffmachen / vnd durch seine zukunfft zum Jüngsten Gericht / sein Volck von
+allem vbel Erlösen wird.</p>
+<p>Denn Gottes Wort kan nicht triegen. Daher auch der Sohn Gottes sagt Luc. 21. Cap.
+Wann aber dieses (verstehet das den Leuten auff Erden bange ist vnd zagen)
+anfehet zugeschehen / so sehet auff / vnd hebt ewre Heupter auff / darumb das
+sich ewer Erlösung nahet.</p>
+<p>Dessen wir vns denn in diesen letzten bösen zelten Trösten sollen.</p>
+<p>Nicht allein aber sollen wir diesen Trost also in gemein mercken / sondern wir
+sollen in auch ein jeder in sonderheit auff seine Person ziehen.</p>
+<p>Wann wir durch Gottes verhengnis in grosse noth gerathen / vnd sehen keine
+Menschliche mittel / dadurch vns könte geholffen werden / oder es wil mit den
+mitteln nirgent zu / das wir gedencken / es
+<pb facs="#f0012"/>
+sey nun als verlohren: So sollen wir wissen / Gottes hülffe werde vns nahe
+sein.</p>
+<p>Wie denn ein jeder / wann er auff sein Leben achtung gibt / bekennen mus / das er
+bißweilen so wünderlich in nöthen erhalten vnd errettet wird / das er gleich
+greiffen mus / Gott habe das beste bey jhm gethan. Also auch / wan&#x0303; wir nu&#x0303; alt vn&#x0303; schwach beginnen zu werde&#x0303; / es vergehet vns das gehör vnd gesichte / vnd alle kreffte
+nemen ab / so sollen wir das Hertz nicht fallen lassen / vn&#x0303;
+trawrig werde&#x0303; / sondern getrost sein / vnd gedencken / das sind
+gute zeichen: Da spüre ich / das es schier mit mir gut werden / vnd Gott mich
+bald durch den zeitlichen Todt von allem vbel Erlösen / vnd zu seinem ewigen
+Reich aushelffen wird.</p>
+<p>Sagt einer / der trost were wol sehr schön / aber Daniel setzet allhie etwas das
+Stösset mich für de&#x0303; Kopff / nemblich / es sollen errettet werden
+alle die im Buch geschrieben stehen.</p>
+<p>Wann ich nun wuste / das ich auch im Buch des lebens angeschrieben stünde / so
+könte ich mich des lieblichen Trostes annemen.</p>
+<p>Antwort / mein lieber Christ / wer im Buch des Lebens stehe oder nicht / darumb
+mustu nicht deine Vernunfft fragen.</p>
+<p>Dann was sol die arme blinde Vernunfft
+<pb facs="#f0013"/>
+vom
+Buch des lebens wissen / vnd wer darin stehe oder nicht sonder du must in diesem
+fall dich allein an Gottes Wort halten.</p>
+<p>Dann die heilige Schrifft ist das rechte einige Buch des Lebens / darin stehets
+wen Gott ausserwehlet habe oder nicht.</p>
+<p>Darumb vns auch Gott nicht mit vnseren gedancken in Himmel steigen / vnd seinen
+Heimlichen Rath / was er vber vns Mensche&#x0303; von ewigkeit
+beschlossen / erforschen heist / sondern er weiset vns allein auff sein Wort /
+Darin aller Rath Gottes offenbaret ist / Acto. 20. Cap. Vnd saget / wir sollen
+vns darnach richten. Darumb sagt Abraham zum Reichen Man Luc. 16. Sie haben
+Mosen vnd die Propheten / las sie dieselbigen hören.</p>
+<p>Daher stehet Luc. 22. von den Aposteln: Sie sollen an jennem tage Richten die
+Zwölff Geschlechte Israel.</p>
+<p>Denn nach jhrer Predigt / vnd nicht anders wird das Gerichte am Jüngsten tage
+angestellet werden.</p>
+<p>Wolan was sagt den Gottes Wort von der sach / wer stehet im Buch des Lebens oder
+nicht geliebte im HErrn / Ich wil E. L. für dißmal des einigen gemeine spruchs
+erinnert haben Johan. 3. Da der Sohn Gottes also spricht: Also hat Gott die
+<pb facs="#f0014"/>
+Welt geliebet / das er seinen eingebornen
+Sohn gab / auff das alle die an jhn gleuben / nicht verloren werden / sonder das
+ewige Leben haben.</p>
+<p>Da stehets austrücklich / wer ins Buch des Lebens gehöre / nemlich / wer an den
+Sohn Gottes gleubet. Erkennestu nun (lieber Christ) deine sünde / Tröstestu dich
+von Hertzen deines Heilands Jesu Christi / besserstu dein Leben vnd hütest dich
+für mutwilligen Sünden: So stehestu gewißlich mit Namen im Buch des lebens
+angeschrieben / vnd bist erwehlet zur ewigen Seligkeit. Denn Gottes Wort kan
+dich nicht triegen.</p>
+<p>Sprichstu: Ich befinde aber / das der Glaube in mir sehr schwach ist / darumb
+besorge ich mich / das ich keinen theil am Buch des Lebens habe.</p>
+<p>Antwort mein frommer Christ / die schwachgleubigen gehören auch ins Buch des
+Lebens. Darumb der Sohn Gottes Esa. 42. Von sich in alle Welt verkündigen lest
+Er wölle das zustossen Rohr nicht zubrechen / vnd das Glümmend Rohr nicht
+auslöschen.</p>
+<p>Lieber Gott / wann vnser HERR Gott die schwachgleubigen verwerffen wolte / wo
+wolten die Jünger Christi geblieben sein. Von welchen E. L. jtzo in der Hystori
+der Passion höre&#x0303; / mit was grosse&#x0303; schwachheiten
+sie sind behafftet gewesen / die auch
+<pb facs="#f0015"/>
+noch
+nach der Aufferstehung Christi jhnen nachgehenget haben.</p>
+<p>Noch hat sie der HERR deshalben nicht verworffen / sondern hat sie gedüldetvnd
+getragen / wie eine Mutter jhr schwaches Kindlein treget / vnd nicht bald seiner
+mengel halben hinwirfft.</p>
+<p>Sihe das wil der Sohn Gottes bey dir vnd mir gewißlich auch thun / wo fern wir
+mit den lieben Aposteln vnsere schwachheit erkennen / vnd durchs Gebet vn&#x0303; Wort Gottes da wieder kempffen.</p>
+<p>Darumb wir vnser schwachheit halben nicht verzagen sollen.</p>
+<p>Aber das sey also vom Ersten theil vnd was wir vns dabey erinneren sollen /
+genung gesagt.</p>
+</div>
+<div>
+<head>Der Ander Theil.<lb/>
+</head>
+<p>Der Prophet Daniel hat in gemein angezeigt / das der Grosfürst Michael / das ist
+/ vnser lieber HERR vnd Heiland Jesus Christus in den letzten bösen zeiten sein
+Volck erretten werde</p>
+<p>Nu fehret er fort / vnd vermeldet weiter / wie es denn mit solcher errettung
+werde hergehen / vnd spricht: Viele / so vnter der Erden Schlaffen liegen /
+werden auffwachen. Wann der Prophet alhie sagt / viele werden auffwachen / So
+mus E. L. es nicht also verstehen / als wann nur allein etliche vnd nicht
+<pb facs="#f0016"/>
+alle Todten am Jüngsten tage solten
+aufferstehen: Sondern durch das Wort (viele) werden alhie (alle) verstanden. Wie
+den&#x0303; das Wort offt also in heiliger Schrifft gebraucht
+wird.</p>
+<p>Als Esaie 53. Stehet von dem HERRN Christo: er hab vieler sünde getragen. Es hat
+aber nicht die meinung / als wann er nur allein etlicher vnd nicht aller
+Menschen sünde solte getragen haben: wie der Prophet Esaias in vorhergehenden
+worten sich deütlich erkläret / da er spricht: der HErr warff vnser aller sünde
+auff jhn.</p>
+<p>Also Rom. 5: spricht Paulus: das durch eines Menschen vngehorsam viel Sünder
+worden sein. Er wil aber damit nicht zuuerstehen geben / als were&#x0303;
+nur allein etliche menschen vn&#x0303; nicht alle durch Adams fall Sünder
+worden / wie er denn kurtz vorher gesagtr das durch eines Menschen Sünde / die
+verdamnus vber alle Menschen kommen sey.</p>
+<p>Also auch wann Daniel alhie sagt: viele so vnter der Erde&#x0303;
+schlaffen liegen werden auffwachen: Wil er nicht etliche allein / sondern alle
+Todte&#x0303; damit verstanden vnd begriffen haben. Wie denn Johan.
+am 5. Der Sohn Gottes in wiederholung dieses Spruchs / das Wort (alle)
+austrücklich setzet.</p>
+<p>Gleich wol aber / so hat der Prophet das wort von (vielen) alhie nicht ohn
+sonderliche&#x0303; bedacht gesetzet.</p>
+<pb facs="#f0017"/>
+<p>Denn es sind gar viel Tausent / ja viel Hundert Tausent Todten / denen es so gut
+nicht werden mögen / das sie in die Erden hetten können Begraben werden /
+Sondern sind entweder durchs Fewr / oder im Wasser von Fischen / oder in der
+Lufft von Vögeln / oder sonst von den Wilden thieren auffgefressen vnd verzehret
+worden: Wie den heiligen Martyren vnd andern wiederfahren ist.</p>
+<p>So sind Enoch / Elias / vnd die Todten / so nach Christi aufferstehung Matth: 27.
+herführ gangen / auch albereits / mit dem leibe von der Erden erhaben vnd vorhin
+geschickt.</p>
+<p>Wie denn auch der Jüngst tag eine gute volle Welt von Menschen antreffen wird /
+welche nicht in die Erden kommen / sondern allein verwandlet werden sollen 1.
+Cor. 15. Capit.</p>
+<p>Das Daniel also nicht vnbillich sagt: Viele so vnter der Erden schlaffen liegen /
+werden auffwachen.</p>
+<p>Nun solche Todten all miteinander (will der Prophet sagen) wie sie einen Namen
+haben mögen / sie sein in die Erden Begraben oder im Fewer / Wasser / Lufft /
+etc. Verzehret worden: Wann sie am Jüngsten tage die Stimme jhres Grosfürsten
+Michaelis / hören werden / so werden sie also bald auffwachen.</p>
+<pb facs="#f0018"/>
+<p>Wird nicht anders hergehen / als wann vnser einer einen schlaffenden Menschen
+anredet / vnd derselbige bald auff wüscht vnd da stehet: Also werden die Todten
+(als die vor Gott nur schlaffen) auff Christi Stim auffwachen / vnd lebendich
+herführ gehen.</p>
+</div>
+<div>
+<head>Das ist der verstand des Andern Theils.<lb/>
+</head>
+<p>Da wird vns nun mit deutlichen Worten bestetiget / der Artickel vnsers
+Christlichen Glaubens / da wir bekennen vnd sagen: Ich gleube eine aufferstehung
+des Fleisches.</p>
+<p>So eine Lehr im Glauben ist / Daran sich Menschliche vernunfft stösset / so ist
+es die Lehr von der aufferstehung der Todten.</p>
+<p>Dessen wir eine merckliche Historiam lesen / Acto: 26. Capit. Als Paulus vor dem
+Landpfleger Festo eine schöne lange Predigt thut / höret Festus jhm gedültig zu
+/ bis das er kompt auff die Lehr von aufferstehung der Todten / da kan sich
+Festus nicht lenger enthalten / fehret jhn an / vnd spricht: Paule du Rasest /
+die grosse kunst macht dich Rasend.</p>
+<p>Denn das kan die Vernunfft nicht begreiffen / das ein Mensch / dem die Seel
+ausgangen / der in die Erden verscharret vnd von Würmern verzehret worde&#x0303; / solle wiederumb kön&#x0303;en lebendig werden.</p>
+<p>Aber Gottes Wort (welches die ewige Warheit ist) berichtet vns / das vnser HERr
+Gott
+<pb facs="#f0019"/>
+am Jüngsten tage alle Todten gewißlich
+wiederumb aufferwecken werde. E. L. hat zu andern zeiten außfürlichen bericht
+von der sach empfangen / jtzo wollen wir allein etzliche vnd zwar die
+fürnembsten sprüche heiliger Schrifft dauon anhören.</p>
+<p>Der heilige Job / der zu der Ertzväter zeiten sol gelebt habe&#x0303; /
+spricht in seine&#x0303; Buch am 19. Cap. Also:</p>
+<p>Ich weis das mein Erlöser lebt / vnd er wird mich hernach aus der Erden
+aufferwecken. Vnd werde darnach mit dieser meiner Haut vmbgeben werden / vnd
+werde in meinem Fleisch Gott sehn / denselben werde ich mir sehn / vnd meine
+Augen werden jhn schawen / vnd kein Frembder.</p>
+<p>Was könte deutlichers von der Aufferstehung der Todten gesagt werden? Der Prophet
+Esaias weissagt von der aufferstehung der Todten Cap. 26. Mit diesen Worten:
+Aber deine Todten werden leben / vnd mit dem Leichnam aufferstehen.</p>
+<p>Vnd redet daselbst der Prophet die Todten an / vnd spricht: Wacht auff / vnd
+Rühmet / die ihr ligt vnter der Erden.</p>
+<p>Er besch reibet die Todtengreber / vnd spricht / es sein nur Liebliche
+Schlaffkämmerlin / darin die Gleubigen liegen / vnd ruhen von jhrer arbeit / in
+<pb facs="#f0020"/>
+dem er also sagt: Gehe hin mein Volck
+in eine Kammer / vnd schleus die Thür nach dir zu / verbirge dich ein klein
+augenblick / bis der Zorn fürüber gehe.</p>
+<p>Daniel der 500. Jahr vor Christi gelebt hat / redet in den verlesenen worten von
+der Aufferstehung der Todten so deutlich / das nichts klärers kan gesagt werden:
+Viele spricht er / so vnter der Erden schlaffen liegen / werden auffwachen.</p>
+<p>Oseas am 13. Capit führet den Sohn Gottes ein / das er seine gleubige tröstet mit
+diesen worten: Aber ich wil sie Erlösen aus der Helle / vnd vom Tode erretten.
+Todt ich wil dir ein Gyfft sein / Helle ich wil dir ein Pestilentz sein.</p>
+<p>Im Newen Testament seind solcher sprüch auch gar viel. Johan: 6. Cap. Spricht der
+Sohn Gottes: Das ist der Wille des der mich gesand hat / das wer den Sohn siehet
+/ vnd gleubet an jhn / habe das ewige Leben / vnd ich werde jhn aufferwecken am
+Jüngsten tage.</p>
+<p>Hieher gehört das gantze 15. Cap. Der Ersten Epistel S. Pauli an die Corinther /
+in welchem Paulus diese Lehr gar ausführlich handlet / vnd gewaltig beweiset /
+das die Todten werden aufferstehen.</p>
+<p>Wie Er denn daselbs dieses zum grunde seiner Lehr setzet / das er spricht: So
+aber Christus gepre-
+<pb facs="#f0021"/>
+diget wird / das
+er sey von den Toden aufferstanden / wie sagen denn etliche vnter euch / die
+aufferstehung der Todten sey nichts? Vnd 1. Thes. 4. Spricht er: wir wöllen euch
+/ lieben Brüder / nicht verhalten von denen die da schlaffen / auff das jhr
+nicht trauwrig seid / wie die andern / die keine hoffnung haben. Denn so wir
+gleuben / das Jesus gestorben vnd aufferstanden ist / also wird Gott auch / die
+da entschlaffen sind durch Jesum mit jhm führen.</p>
+<p>Aus diseen vnd dergleichen hellen sprüchen (deren die Schrifft voll ist) höret E.
+L. das die Todten gewißlich am Jüngsten tage wiederumb aufferstehen werden.</p>
+<p>Vnd da sollen wir vns die Köpff nicht darüber zubrechen / wie solches geschehen
+vnd zugehen könne.</p>
+<p>Wie dann die vernunfft jmmer viel Disputirens hat / vnd sorgfeltig ist / wie
+vnser HERR Gott sein Wort erfüllen werde.</p>
+<p>Wir sollen gedencken an den spruch des Engels / Luc. 1. Cap. Bey Gott ist kein
+ding vnmüglich. Wann er spricht / so geschichts / wann er gebeut / so stehets da
+/ spricht Dauid Psal: 115. Hat nicht Gott Himmel vnd Erden aus nichts
+geschaffen? Hat er
+<pb facs="#f0022"/>
+nicht den Menschen / da
+er nichts war / aus einem Erdenklos gemacht? Wie solte er denn das jenige / so
+zuuor ein Mensch gewesen / vnd nun zur Erden worden / nicht wiederumb zum
+lebendigen Menschen machen können? Wer wolt daran zweiffeln? Vnd zwar das der
+Sohn Gottes des vermögens sey / das er die Todten könne aufferwecken / des hat
+er vns die Probe albereits gegeben. Er hat aufferwecket Jairi des obersten
+Tochter / die warhafftig gestorben war / Math: 9. Cap.</p>
+<p>Er hat wiederumb lebendig gemacht der Witwen Sohn zu Nain / der hinaus getragen
+ward / vnd jtzo zur Erden solte bestatet werden. Luc. 7. Cap. Ja er hat mit
+einem Wort in diß leben herwieder bracht Lazarum / der albereits vier tage im
+Grabe gelegen / vnd zustincken angefangen hatte / Johan: 11. Cap. Vnd hat solche
+Kunst an jhm selbst auch bewiesen / damit das er am Dritten tage von Todten
+wiederumb aufferstanden ist. Der nun das gethan hat / solte der nicht auch die
+anderen Todten alle am Jüngsten tage wiederumb aus der Erden können herführ
+bringen vnd lebendig machen? Haben doch Elias vnd Eliseus / Petrus vnd Paulus
+aus krafft Christi Todten aufferwecket / wie solte denn dasselbige nicht viel
+mehr dem HERrn selbst zu thun möglich sein? Darumb wir die Almechtige
+<pb facs="#f0023"/>
+krafft Gottes dieses fals in keinen
+zweiffel ziehen sollen. Dieses nun / das wir bißhero / vermög Gottes Worts / von
+aufferstehung der Todten gesagt haben / sol vns dienen: Erstlich / zu stärckung
+vnsers Glaubens / das wir nicht allein mit dem Mund bekennen / sondern auch von
+grund vnsers Hertzens gleuben eine aufferstehung des Fleisches.</p>
+<p>Zum andern sol es vns dienen zum trost / wann wir vber der vnsern / oder vnserm
+eigen abschied aus dieser Welt angefochten werden / das wir vns denn zufrieden
+geben können.</p>
+<p>Denn was der Todt für schmertzen mache / das weis niemand als der es erfahren
+hat. O es thut wehe / wann Man vnd Weib / Eltern vnd Kinder / Brüder vnd
+Schwester / oder sonst gute Freunde / durch den Todt von einander gerissen
+werden. Noch mehr aber gehet es vns zu Hertzen / wann wir selbs auch den Todt
+vor augen sehen vnd dauon müssen.</p>
+<p>Freylich heist es in solchen fellen: Scheiden du thust wehe?</p>
+<p>Wolan / wes sollen wir vns denn in solchen nöthen trösten? Die Vernunfft weis von
+keinem trost wieder den Todt. Sie sagt viele / man solle bedencken / das es mit
+diesem leben nichts denn mühe vnd arbeit sey: Das alle Menschen Sterben
+<pb facs="#f0024"/>
+müssen / etc. Aber der Trost ist gering /
+vnd wil in solchen nöthen den stich nicht halten. Gottes Wort aber helt vns
+allein bestendige&#x0303; Trost für wieder den Todt / vnd ist derselbige
+dieser: Das es berichtet / ob wir wol durch den zeitlichen Todt vnser liebsten
+Freunde / vnd entlich auch vnsers eigen lebens müssen beraubet werden: So werde
+doch solches nicht ewig wehren / sondern es werde gewißlich ein mahl der tag
+anbrechen / da vnser HERR Gott / vermöge seiner zusage / vns aus der Erden
+auffer wecken / vnd wiederumb zusamen bringen werde. Da wir denn (wo fern wir
+anders alhie im Glauben an Christum gestanden vnd abgescheiden sind) im Reich
+Gottes / ewige selige gemeinschafft mit einander haben / vnd nimmermehr
+wiederumb sollen von einander gerissen werden. Müssen wir nun geschehe&#x0303; lassen / das bißweile&#x0303; in dieser Welt / wir durch
+schickung Gottes / von vnsern lieben Kindern oder guten Freunden abgesondert
+werden / das wir sie offt in 10. 20. oder wol mehr Jahren / nicht zusehen
+kriege&#x0303; / da wir vns doch jmmerdar mit der hoffnung aushalten
+vnd trösten / wir werden noch ein mahl wieder zusamen kommen: Warumb wolten wir
+denn nicht auch zu frieden sein / wann vnser HERR Gott nach seinem gnedigen
+willen / vns durch den zeitlichen Todt (dem niemand entrinnen kan) von
+<pb facs="#f0025"/>
+einander reisset / weil wir die gewisse
+hoffnung haben / das wir am Jüngsten tage (der nun mehr für der Thür ist)
+wiederumb von der Erden aufferstehen vnd zusamen kommen sollen? Vnd also haben
+die Kinder Gottes in der jhren / auch jhrem eigen abschied von dieser Welt /
+diesen Trost ergreiffen / vnd sich wieder den Todt damit auffgehalten. Als dem
+lieben Dauid sein Söhnlein Stirbt 2. Samu 12. Da ergreifft er in der höhesten
+trawrigkeit den Trost / das er weiß / sein Kind sey vnuerlohren / vnd das er am
+Jüngsten tage dasselbige wieder finden / vnd im Reich Gottes selige
+Gemeinschafft mit jhm haben werde. E. L. hat vnlangst in der Histori der Passion
+das Exempel des HERRN Christi selbs gehört / als der sich mit seinen lieben
+Jüngern vber dem Abendessen letzet / welches jhm denn / als einem rechten
+Natürlichen Menschen sehr zu hertzen gangen / ergreifft er den Trost da mit er
+sich selbs in solchen nöthe&#x0303; auffhelt / damit er auch seine
+hochbetrübte Jünger zu frieden spricht / das er sagt: Wir werden es new trincken
+in meines Vaters Reich / das ist / ob es wol jtzo an ein scheiden gehen mus / so
+werden wir doch nach meiner aufferstehung / vnd hernacher am Jünsten tage
+wiederumb zusamen kommen / da wird vnser Frewde vnd Gemeinschafft kein ende
+haben.</p>
+<pb facs="#f0026"/>
+<p>Diesen Trost / von der aufferstehung der Todten sollen wir wann Gott die vnsern
+oder vns selbst aus dieser Welt abfordert / ergreiffen / vnd mit Gottes willen
+zu frieden sein. Welche leuth aber dieser Trost eigentlich angehe / ist zum
+theil im beschlus des ersten stücks albereits gehört worde&#x0303; / vnd
+wird am ende des Dritten theils ferner vermeldung dauon geschehen / Aber das sey
+auch ein theil vom andern stück genung gesagt.</p>
+</div>
+<div>
+<head>Der Dritte Theil.<lb/>
+</head>
+<p>Daniel hat gesagt / das die Todten alle am Jünsten tage / durch Gottes krafft /
+werden aufferstehen.</p>
+<p>Nun fehret er fort / vnd zeiget Weiter an / wie es denn nach der aufferstehung /
+mit den Menschen werde hergehen / vnd spricht / es werde sich ein Grosser
+vnterscheid zutragen. In dieser Welt gehen sie durch einander / da man die
+Fromen von den bösen nicht kan vnterscheiden. Ja die Gottlosen wissen offtmals
+also den Schalck zuuerbergen / vnd jhr Gottlos wesen zu schmücken / das einer
+gedenckt / sie sein die rechten Leuth / die Gott fürchten vnd vor augen haben.
+Dagegen die Frommen / weil sie nicht so verschlagen sind / werden offtmals jhrer
+schwachheit halben für Gottloß angesehen. Aber
+<pb facs="#f0027"/>
+da vermeldet Daniel in verlesenen worten /
+es werde an jenem tage anders hergehen. Da werde der Richter der lebendigen vnd
+der Todten / vnser Heiland Jesus Christus / als ein Hertzenkündiger / einen
+vnterscheid machen / vnd die frommen von den bösen absondern.</p>
+<p>Vnd die Frommen zwar werde er zu seinem ewigen Reich einweisen / die bösen aber
+zu ewiger schmach vnd schand verdamme&#x0303; / wie denn solch endurtheil
+der fromen vnd gottlosen Matth. 25. Weitleufftiger beschrieben wird / welche
+Predigt der Son Gottes aus diesen worten Danielis genomen hat.</p>
+<p>In diesem dritten Theil wirt vns bestetiget der Artickel vnsers Glaubens / das
+ein ewigesleben / vnd Frewde der auserwelten / vnd dann auch / das eine Hell vnd
+ewiges verdamnis der gotlosen erfolgen werde. Das bekennen wol viel leuth mit
+dem Munde / aber wenig gleubens recht von Hertzen. Vnd stehen jhrer viel in den
+gedancken / was man vom ewigen leben sagt / das sey ein gedicht / dazu erfunden
+/ das man die leuth damit fromb mache: Wie denn auch das von der Hell dazu
+erdacht sey / das man die gotlosen damit könne im zaum halten. Aber das ein
+solcher zustand fromer vnd böser leuth gewißlich nach diesem leben sein werden /
+können
+<pb facs="#f0028"/>
+wir E. L. mit gutem grunde beweisen
+vnd darthun.</p>
+<p>Vnd zwar so einer in dieser versamlung were / der solches nicht gleuben wolte /
+weil es in der Bibel stehet: Dem wil ich seine eigene vernunfft vnd das zeugnis
+der Heide&#x0303; vorgehalten haben / welche bekennen / das ein ewiges
+lebe&#x0303;n vnd verdamnis erfolgen werde. Denn das weiß die
+vernunfft / vnd bezeugen der Heiden Bücher / das ein Gott sey / vnd das er
+Gerechticheit lieb habe / wölle das gute belohnen / vnd das böse straffen. Nun
+wird aber solches in diesem leben nicht alzeit erfüllet: Scipio Aristides
+verdienen sich wol vmbs Vaterland / vnd haben doch endlich vndanck zum lohn.</p>
+<p>Darumb haben die vernünfftige Heiden hieraus geschlossen / es müste eine andere
+zeit vorhanden sein / da frome vnd böse rechte belohnung jhrer arbeit von Gott
+empfangen würden.</p>
+<p>Aber dieweil dieser beweis aus der vernunfft genommen / etwas schwach ist / so
+wöllen wir Gottes Wort (das vns nicht triegen kan) von der sach anhören. Wie
+lieblich ist es / das vnser HERR Gott in der erste&#x0303; Welt den Enoch
+/ Gen. 5. in der andern den Eliam / 2. Reg. 2. vnd in der dritten seinen
+eingeborn Sohn gehn Himmel ausgenomen / vnd offentlich damit bezeuget hat / das
+ein ander leben sey: Der Prophet Esaias beschreibt Capit. 56.
+<pb facs="#f0029"/>
+vnd 66. Das ewige leben mit diesen worten:
+Sihe / spricht der HERR / ich wil einen newen Himmel vnd newe Erden schaffe&#x0303; / das man der vörigen nicht mehr gedencken wird / noch zuhertzen
+nehmen. Sondern sie werden sich ewiglich freuwen / vnd frölich sein vber dem das
+ich schaffe. Vnd alles Fleisch wird einen Monden nach dem andern / vnd einen
+Sabath nach dem andern kommen anzubeten für mir. Die Helle aber vnd verdamnis
+der gotlosen beschreibt er daselbs mit diesen worten: Ihr Wurm wird nicht
+Sterben / vnd jhr Feuwer wird nicht verleschen / vnd werden allem Fleisch ein
+grewel sein.</p>
+<p>Danielis Wort / das ein ewiges leben vnd ein Hell sey / sind in verlesenen Text
+so klar / als sie im gantzen alten Testament daselbs mögen gefunden werden.
+Viele spricht er / so da schlaffen / werden auffwachen / etzliche zum ewigen
+leben / etzliche zu ewiger schmach vnd schande. Das nun Daniel keine fabeln in
+seinem Buch / sondern die ewige warheit beschrieben habe / ist gewiß / vnd gibt
+auch Christus damit zuuerstehen / das er spricht: Wer das lieset / der mercke
+drauff / Matth: 24. Cap. Der Son Gottes gedenckt / des ewigen lebens Johan 3. Da
+er also spricht: Also hat Gott die Welt geliebet / das er seinen eingebornen
+Sohn gab / auff das
+<pb facs="#f0030"/>
+alle die an jhn gleuben
+/ nicht verlohren werden / sondern dz ewige lebe&#x0303; haben. Des
+hellischen Fewers gedencket Mat. 18. Cap. So dein auge dich ergert / reis es aus
+/ vnd wirffs von dir. Es ist dir besser / das du eineugig zum leben eingehest /
+denn das du zwei augen habest / vnd werdest in das Hellische Fewer geworffen.
+Andere sprüch / wöllen wir vmb geliebter kürtze willen / jtzo geschweigen.</p>
+<p>Wer kein Epicurer ist / sondern Gottes Wort bey im wil gelten lassen / der hat
+hie zeugnis gnung / das ein ewiges Leben vnd Hell verhanden sey.</p>
+<p>Sagt einer / ich gleube beides / aber ich möchte auch gern wissen / was die
+auserwelten für Frewd im ewigen leben haben werden / vnd ob auch die Hell so
+heis sein werde / als man dauon Prediget?</p>
+<p>Antwort mein lieber Christ / was die Kinder Gottes im ewigen leben für Frewde
+haben werden / kan man vns in dieser schwachheit nicht eigentlich beschreiben.
+Denn es hat kein Auge gesehen / vnd kein Ohr gehört / vn&#x0303; ist in
+keines Menschen hertz ko&#x0303;men / was Gott bereitet hab denen / die
+in lieben. Esa: 64. 1. Cor. 2. Cap. Aber das sollen wir gleichwol wissen / das
+die herligkeit der gleubigen im künftigen ewigen leben / gros vnd
+vnaussprechlich sein werde. Wie Dauid Psal: 16. Lehret / da er also
+<pb facs="#f0031"/>
+spricht: Für dir ist Frewde die fülle / vnd
+lieblich wesen zu deiner Rechten ewiglich. Vnd Petrus spricht 1. Cap. 1. Wenn
+nun offenbahr wird Jesus Christus / welchen jhr nicht gesehen / vnd doch lieb
+habt / so werdet jhr euch frewen mit vnaussprechlicher vnd hertzlicher frewden.
+Die vrsach aber solcher frewd im ewigen leben / wird nicht allein sein / das
+Gott zu der zeit alle thränen von den augen der ausser welten wird abwischen /
+vnd das kein Todt / noch Leid / noch Geschrey / noch schmertzen mehr sein wird.
+Apocal. 21: Sondern auch / das er sich als dan von den seinen die jhnn alhie
+durch einen Spiegel in eine&#x0303; tunckeln wort erkant habe&#x0303; / von angesicht zu angesicht anschawen lassen / vnd alles in
+allem sein wird / 1. Cor. 13. vnd 15. Cap.</p>
+<p>Daher werden wir volkommen selig / vnd den Engeln Gottes gleich sein / Math.
+22.</p>
+<p>Ein wenig wird vns von solcher künfftigen frewde des ewigen lebens gewiesen in
+der Histori von der verkla&#x0303;rung Christi / Matth. 17. Cap. Da wirdt
+Petrus so frölich / das er die gantze Welt verkiesen / vnd auff dem Berge
+pleiben wil. HERR / spricht er / hie ist gut sein / wiltu / so wollen wir drey
+Hütten machen / dir eine / Mosi eine / vnd Elias eine. Vnd ist doch das allein
+ein vorschmack der künftigen frewde gewesen / was wil denn werden / wan wir nun
+gar vber den Berg kommen / vnd bey dem HErrn alzeit sein werden?</p>
+<pb facs="#f0032"/>
+<p>Die Helle betreffent / so mag ein jeder wol gleuben / das es damit kein Kirchmeß
+wie man sonst zu rede&#x0303; pflegt / sein wird / solche angst vn&#x0303; pein werden die verdambten in ewigkeit ausstehen müssen. Esaias
+nennet es ein Fewer das nicht zulöschen sey / Cap 66. Johan: Apocal. 21. Heist
+es einen Pfuhl / der mit Fewr vnd Schwefel brennet.</p>
+<p>Daniel allhie heist es eine ewige schmach vnd schande. Vnd nimpt ein gleichnis
+von den armen Sündern / die das leben verwircket haben / vnd nun zum Todt
+ausgeführt werden. Hilff Gott welch ein schmach ist das für der Welt / welch ein
+angst vnd schrecken gibt das. Also werden die Gottlosen an jenem tage allem
+Fleisch ein grewel sein.</p>
+<p>Sprichstu ferner: wie stelle ich die sach an / das ich der Hellen entrinnen / vnd
+des ewigen lebens möge theilhafftig werden?</p>
+<p>Antwort / das lehret vns der Sohn Gottes Johan 5. da er diese Wort Danielis
+erklärt / vnd also spricht: Die da gutes gethan haben / werden herführ gehen zur
+aufferstehung des lebens / die aber vbels gethan haben / zur aufferstehung des
+Gerichtes. Wiltu nur der ewigen frewde mit allen ausserwehlten geniessen / so
+mustu gutes thun / das ist / du must buß thun / deine Sünde erkennen vnd berewen
+/ dich Christi verdienstes trösten / vnd dein leben
+<pb facs="#f0033"/>
+besseren. Thustu das / vnd lessest dein
+leben eine solche stetige Busse sein / so wirstu gewißlich ewig selig werden.
+Darumb stehet vom Enoch / er sey von Gott hin weg genommen worden / die weil er
+ein Göttlich leben gefüret hat. Freilich ist Enoch nicht Engel rein in seinem
+leben gewesen / er hat sich aber warer Busse befliessen / des verheissen Weibes
+samen getröstet / vnd einen Christlichen wandel geführt / Darumb ist er gehn
+Himmel auffgenommen worden. Sihe also müssen wir alle zum Himmel kommen. Thun
+wir das aber nicht / sondern sein Gottlos / erkennen vnd beweinen vnsere Sünde
+nicht / trösten vns nicht Christi vnsers Heilandes / vnd leben in Sünden wieder
+das gewissen / so müssen wir ewig verlohren sein. Was thut dem Reichen Man Luc.
+16. Den schaden / das er verdambt wird? Freilich ist das die vrsach / dieweil er
+vnbußfertig ist. Vnd ist zwar kein Wunder / das er keine ware Busse hat. Denn
+dieweil er Mosen vnd die Propheten verachtet / wie sol er denn zu erkentnis
+seiner Sünden komen? Wie sol er an den Messiam gleuben? Denn der Glaube kompt
+aus dem gehör. Darumb ist er auch hoffertig / vnd vnbarmhertzig gegen dem armen
+Lazarum / dieweil er jhm Gottes Wort in seinem leben nicht lest fürleuchten.</p>
+<pb facs="#f0034"/>
+<p>Darumb wer der Hellen entrinnen wil / der hüte sich für vnbußfertigkeit. Aber so
+viel sey auch genung gesagt vom letzten Theil.</p>
+</div>
+<div>
+<head>Beschluß.<lb/>
+</head>
+<p>Also haben wir jtzund zur Erden bestattet weiland die Edle vnd vieltugentsame
+Junckfraw Appolloniam von Cram. Was nun Ihr Geslchlecht vnd herkommen belangen /
+so achte ich vnnötig zusein / dasselbe alhie zu wiederholen. Denn es ist vns /
+Gott lob / dieser örter wolbekant. So hats auch mit solchen sachen die
+gelegenheit / das sie eigentlich auff die Cantzel nicht gehören: Wie denn der
+heilige Geist / wann er der Gottseligen abscheid aus dieser Welt beschreibt /
+jhren Adel beseits setzet. Wans auch so weit kompt / als es jtzund mit dieser
+verstorbenen Junckfrawen kommen ist / so wil kein Adel oder hocheit mehr helffen
+/ vnd wan einer auch die gantze Welt gehabt hette. Wie man von Keiser Seuero
+lieset / das er an seinem Todtbet gesagt hat: omnia fui, &amp; nihil mihi
+prodest, ich habs alles gehabt / was hilfft michs nun? Daher denn der Todte
+Cörper eine leiche genennet wird / dieweil da aller vnterscheit auffgehaben wird
+/ vnd wir eusserlich ein ander im Todt gleich sind. Darumb keiner sich auff
+solche gaben verlassen / vnd desshalben sei-
+<pb facs="#f0035"/>
+nen nehesten verachten / sondern wir alle auff den lebendigen Gott
+vnser vertrawen setzen sollen. Das gehört aber auff die Cantzel / vnd kan vermög
+Gottes Worts von dieser verstorbenen Person gesagt werden / das sie gewesen ist
+eine arme Sünderin in Sünden empfangen vnd geboren.</p>
+<p>Denn da stehen Christi Wort Johan. 3. Was vom Fleisch geboren wird / das ist
+Fleisch / vnd kan das Reich Gottes nicht sehen. Aber dagegen ist das vnser trost
+an jhr / das sie bald nach jhrer sündlichen Geburt / durch die heilige Tauff dem
+HERrn Christo einuerleibet / vnd also von Gott dem Vater zu einem Kind vnd Erben
+der ewigen Seligkeit ist angenommen worden.</p>
+<p>Wie Paulus vnser Tauffe also auslegt Gal. 3. Cap. Ihr seid alle Kinder Gottes
+durch den glauben an Christum Jesum. Denn so viel ewer getaufft seid / die haben
+Christum angezogen.</p>
+<p>Ihr leben betreffend / so heist es / Wie Job. 14. Stehet: Wer wil einen reinen
+finden bey denen da keiner rein ist? Vnd der Reim in der Fünffte&#x0303;
+Bitte des Vater vnsers wil wol vnausgeloschen pleiben: Wir sündigen alle teglich
+viel / vnd verdiene&#x0303; nichts de&#x0303; eitel Straff. Also
+ist diese verstorbene Junckfraw auch in jhrem leben eine arme Sünderinne gewesen
+/ hat jhre vielfeltige mengel vnd fehl gehabt.</p>
+<pb facs="#f0036"/>
+<p>Aber da müssen wir gleichwol jhr alle das zeugnis geben / das sie keine
+mutwillige Sünderin gewesen sey. Wie man der leider viel findet / die wieder das
+gewissen in sünden verharren vnd fortfahren / vn&#x0303; lassen sich
+keine trewe warnung der Prediger sagen oder abschrecken. das hat diese Junckfraw
+nicht gethan / sondern sie ist Bußfertig gewesen / vnd hat offtmals durch den
+gebrauch des heiligen Hochwirdigen Sacramentes mit vnserm HERRn Gott pflegen
+abzurechen. Wie sie den&#x0303; auch Gottes Wort gehöret / vnd ein fein
+stilles vnd züchtiges lebe&#x0303; bey vns alhie gefürt / vnd jhr hohes
+Alter in jhren Junckfrawen stand / nemblich Achtzig Jahr / mit allen ehren
+erreicht hat. Sonderlich hat sie den glauben durch die milde Handt / welche sie
+den armen alhie auffgethan leuchten lassen. Wie es denn auch lobens wert ist /
+das sie sich jhrer trewen dienstboten mit ernst angenommen / vnd derselben
+etlich von jhrem hoff zun Ehren befodert hat. Ihren abschied aus dieser Welt
+belangend / so ist sie nun (wie E. L. weis) eine geraume zeit schwach gewesen.
+Vnd ob sie wol der besserung gehoffet / jedoch als sie gespüret / wo es hinaus
+wolte / hat sie sich zur sache geschicket / jhre sünde erkand / vnd sich darauff
+mit dem Leib vnd Blut des HERRN zu vergebung jhrer Sünd speisen vnd
+<pb facs="#f0037"/>
+trencken lassen / vnd also jhr sachen dem
+lieben Gott befohlen. Gottes Wort ist jhr in jhrer kranckheit von Predigern /
+vnd andern frommen Christen fleisig vorgehalten worden / welches auch gedult vnd
+trost in jhr gewircket hat. Vnd also ist sie am verschienen Dienstag / war der
+9. Martij. Zu abent vmb 9. Vhr in warer anruffung des Sohns Gottes / vo&#x0303; dieser Welt abgescheiden / vn&#x0303; zu jren Eltern /
+weiland dem Edlen vnd Ehrnvesten Burchart von Cram / vnd der Edlen vnd viel
+tugentsamen Armgart vo&#x0303; Veltheim / beiden seliger gedechtnis so
+auch zu jhren Brüdern vnd Schwestern / deren sie 15. zusamen (alle von einem
+Vater vnd Mutter geboren) vorhin geschickt / versamlet worden.</p>
+<p>Da wir sie an jenem tage wieder finden / vnd mit jhr vnd allen ausserwelten ewige
+selige gemeinschafft haben werden. Dazu vns verhelff Gott Vater / Sohn / vnd
+heiliger Geist / die heilige Dreifaltigkeit / Hochgelobet in ewigkeit /
+AMEN.</p>
+</div>
+<div>
+<head>VERBA PIORVM EX <hi rendition="#i">HAC VITA IN AETER</hi>NAM PATRIAM
+DECEDENTIum, descripta ex oratione M. Iohannis Rosae, quondam in Academia
+Iaenensi professoris, Viri Clarissimi &amp; pientissimi.<lb/>
+</head>
+<pb facs="#f0038"/>
+<p>NVNC finem vitae meae, adeoque meae laboriosae peregrinationis adesse sentio,
+&amp; imminens Lethum Laetus excipio.</p>
+<p>Tempus est, ut tandem, lassus cura, fessus cursu, ex hoc infido, tenebricoso,
+&amp; sordido diversorio educar, &amp; hoc pauperis tuguri congestum cespite
+culmen relinquens, laetissimos patrios fines, quorum pinnas iam non ita procul
+apparere conspicio, ingrediar. <hi rendition="#i">H</hi>ic est dies meae
+migrationi, novae meae nativitati, meo triumpho consecratus.</p>
+<p>Hoc supremi congressus, quo omnibus laboribus, omnibus periculis, omnibus curis,
+omnibus culpae &amp; poenae malis perfungar semel, certamen. <hi rendition="#i">I</hi>am mea <foreign xml:lang="el"><gap reason="fm"/></foreign>. &amp; potius meae navigationis se
+aperit, iam prodit aurora praecurrens solem iustitiae meae, reducturum me ex his
+spinosis, in quibus per totam huius vitae noctem oberrans variè laceratus fui,
+vepretis, in viam coeli.</p>
+<p>Gaude anima mea, imò non mea, sed Christi, cuius preciosissimo sanguine redemta
+es, anima, laetare in Deo salutari tuo. Egredere cum Loth ex Sodoma, nec
+respice. Transi per mare rubrum, ut evadas ex insectantiu&#x0303;
+unguibus, &amp; in terram lacte &amp; melle fluentem intres. <foreign xml:lang="el"><gap reason="fm"/></foreign>. coelo nata es, coelo redemta, coelo san. ctificata, coelo
+electa es. <foreign xml:lang="el"><gap reason="fm"/></foreign> tuum in coelis est, ibi tibi iam pridem
+laetissima sedes parata est, ad eam respice, &amp; <foreign xml:lang="el"><gap reason="fm"/></foreign>
+depone immundae &amp; multis modis molestae carnis sarcinam, asinum ad divini
+montis radicem relinque. Iam tibi Abrabae sinus, ut Abrahae semini panditur: Iam
+tibi coelum, utpote cum (hristo ex <hi rendition="#i">B</hi>aptismo ascendenti
+aperitur: iam tibi ut palmiti Christo per fidem inserto, &amp; Christi sanguine
+purifi cato paradisus reseratur. Sentis difficultatem <foreign xml:lang="el"><gap reason="fm"/></foreign>,
+sustine paululum, momentum est, quo te
+<pb facs="#f0039"/>
+Deus
+expediet, perfer &amp; obdura, praestat semel &amp; brevl laborare, &amp; quod
+ad extremum tamen persolvendum est debitum, maturè persoluere, quàm diutius in
+hoc mundo affligi. Non morieris, sed vives, &amp; narrabis opera Domini,</p>
+<p><hi rendition="#i">T</hi>u verò corpus, cui curando, sustentando, fovendo,
+reficiendo, nimis multum temporis impendendum fuit, quod lubentius ad meliora
+collocassem: tu, cuius pondere anima mea nimis saepè ad terram depressa, minus
+liberè se ad coelestia attillere potuit: tu, inquam quoniam Dei stat sententia,
+ut de terra sumtum ìn terram redeas, idq? tibi toties per tot morborum genera
+&amp; casus (quorum intervallum tuae demolitionis non <foreign xml:lang="el"><gap reason="fm"/></foreign>
+erat, sed <foreign xml:lang="el"><gap reason="fm"/></foreign>) fuit denunciatum, da te quieti, intra in
+cubiculum tuum, claude ostium tuum super te, abscondere modicum ad momentum,
+donec transeat indignatio. <hi rendition="#i">T</hi>ua in sarcophago corruptio,
+erit tui purgatio, redibis gloriosius, seminaris corruptibile, incorruptibile
+resurges, seminaris inignominia, cum gloria resurges, Seminaris infirmum,
+validum resurges. Gestasti imaginem terreni, gestabis imaginem coelestis, &amp;
+in carne tua videbis faciem Dei, satiaberis, cùm evigilaveris ad similitudine&#x0303; eius. Certa tibi est proposita resurrectio etiamsi dissipatu&#x0303; toti rerum naturae amittereris, tamen domino tuo, qui est os ex
+ossibustuis, &amp; caro de carne tua, &amp; cui insertu&#x0303; es,
+nunqua&#x0303; amitteris. Ipsi te evocanti nihil obstabit, nihil, quò
+mi nus reddaris, impediet. Qui Lazarum iam colliquatum, &amp; ex putredine
+vermescentem, uno verbo ex sepulcro producebat viuum &amp; vegetum, in te quoque
+excitando virtutem suam ostendet. Cruciaris nunc &amp; torqueris, modicum est,
+iam iamliberaberis. Cuperet tota rerum natura congemiscens, <foreign xml:lang="el"><gap reason="fm"/></foreign> finem suum videre, cur tu quietem recusares? Nunc pergat
+mors, &amp; solvat, quod ut solveretur, fuit compactum. <hi rendition="#i">N</hi>on mihi pestis erit, sed <foreign xml:lang="el"><gap reason="fm"/></foreign>, sed pacis, sed
+laetitiae nunquam periturae praemium. Lubens tene-
+<pb facs="#f0040"/>
+bras oculis corporís obrepe&#x0303;tes, fera&#x0303;, ut aeternam luce&#x0303;
+videam.</p>
+<p>Tu modò, ô salus mea, fili Dei qui, eruisti me de inferno, &amp; salvum fecisti
+de manu mortis, si unquam mihi affuisti, nunc in hoc supremo vitae meae mortalis
+articulo, laboranti ades. Ad te animum &amp; palmas, &amp; cum illis languidum
+&amp; aegrè iam Spiritum trahens cor attollo, te in voco, te desidero rex meus,
+&amp; Deus, meus qui descendisti in hanc carnis miseriam, ut ego in coeli regiam
+ascendere&#x0303; qui ipse in ara crucis animam egisti, ut ego in te
+expirans reviuiscerem ne derelinquas me domine Deus meus, ne discesseris à me,
+festina in auxilium meum, Domine salutis meae. ô verbum aeterni patris, fac ne
+ex pectore meo elabatur aut evanescat verbum illud: Haec est vita aeterna, ut
+cognoscant te Deum verum, &amp; quem misisti Iesum esse Christum, id est, unctum
+omnium in se credentium sacerdotem &amp; regem: &amp; verbum illud, quod latroni
+anima&#x0303; inter dentes tenenti dixisti, in me Spiritu sancto tuo
+paracleto obsigna: Hodiè mecum eris in paradiso. Fac ut placidè ex hoc divei
+soriolo animula mea se expediat, &amp; ultimus meus Spiritus in sanctissimum
+<foreign xml:lang="el"><gap reason="fm"/></foreign> cor tuum effusus tibi, qui vita es, deducetur, tibi
+hauriatur, tibi hic postremus vitae meae mortalis actus claudatur. Da ut ex <hi rendition="#i">AE</hi>gipto per mare rubru&#x0303; incedens per te
+&amp; in te victor perru&#x0303;pam In manus tuas commendo Spiritum meum,
+redemisti me Deus veritatis. Reuertere anima mea in requiem tuam, quia Dominus
+benefecit tibi, quia eripuit animam meam de morte, oculos meos à lachrymis,
+pedes meos à lapsu. Placebo Domino in regione vivorum. Certamen bonum certavi,
+cursum meum consum&#x0303;avi, quod super est, reposita est mihi corona
+iustitiae, qua&#x0303; reddet mihi, Domin in us die illa. Iamquando
+placet, Balena Ionam expuat. Munde vale, sat mihi fecisti negoty, quaere alium,
+quempost hac adoriaris. ô dulcis coeli regia, mea patria, salue <hi rendition="#i">A</hi>h Domine expecto salutare tuum. Adveniat regnum tuum.
+<hi rendition="#i">L</hi>ibera nos a malo <hi rendition="#i">A</hi>men.</p>
+</div>
+</body>
+</text>
+</TEI>
