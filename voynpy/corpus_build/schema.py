@@ -243,6 +243,19 @@ def split_sentences_with_offsets(s: str) -> list[tuple[int, str]]:
             prev_off, prev_t = merged[-1]
             merged[-1] = (prev_off, prev_t + " " + t)
             continue
+        if merged and all(
+            _ROMAN_RE.match(tok.rstrip(".").replace("j", "i").replace("J", "I"))
+            for tok in t.split()
+            if tok.rstrip(".")
+        ):
+            # Multi-token pure-Roman "sentence" — almost always a date that
+            # got separated from its anchor ("anno domini. M.D.XCIII." →
+            # second half is "M D XCIII" standing alone). The single-word
+            # rule above only catches one-token Romans; this catches the
+            # multi-token form. Merge into predecessor.
+            prev_off, prev_t = merged[-1]
+            merged[-1] = (prev_off, prev_t + " " + t)
+            continue
         merged.append((off, t))
 
     # Move trailing inline dialogue speaker labels (all-caps abbreviations
