@@ -18,16 +18,13 @@ def main() -> None:
         print(f"downloading {DOC_ID} from DTA...")
         download_xml(DOC_ID, XML_PATH)
     rows = parse_tei(str(XML_PATH), DOC_ID)
-    # Per-text human decision: this cookbook wraps both its front-matter
-    # recipe-name TOC (~1,500 items, Arabic-numbered pages) and its full
-    # recipe corpus (~2,000 items, Roman-numbered pages) inside <item>
-    # blocks. Audit flagged item-content (756k chars) > body-content
-    # (128k chars). Human assessment: promote all items to body. The TOC
-    # items are short recipe names that happen to be redundant with what
-    # follows but are still useful German prose; no reason to drop them.
-    # Other texts with item-dominant content may need a more selective
-    # rule (e.g. promote only items past a length threshold, or only items
-    # in a specific <div>); decide per-text.
+    # Per-text override: parse_tei's content classifier already promotes the
+    # ~2,000 long Roman-page recipe items (sentence-length prose) to body.
+    # The audit then still flags Rumpolt because ~1,500 short Arabic-page
+    # items remain — these are front-matter recipe-name fragments
+    # ('ein kapprydat', 'warm gesotten rindfleisch'). Human assessment:
+    # those names are useful German prose too; promote them all to body
+    # rather than drop them.
     for r in rows:
         if r.block_type == 'item':
             r.block_type = 'body'

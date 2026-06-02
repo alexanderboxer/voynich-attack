@@ -679,21 +679,78 @@ def parse_tei(xml_path: str, doc_id: str) -> list[Row]:
     if front is not None:
         rows.extend(_walk(front, doc_id, counter, state))
     rows.extend(_walk(body, doc_id, counter, state))
-    # If a document has no body rows but has item rows (e.g. a ledger or
-    # list-only text where every entry is an <item>), the items are the
-    # running content — relabel them as body so the default body-only
-    # loader picks them up.
-    #
-    # Beyond this zero-body fallback, the parser stays agnostic: when a
-    # text has both body and item content, classification stays as-is.
-    # If item content turns out to be dominant (TOC vs recipe vs gloss vs
-    # back-matter index — we can't tell automatically), the audit will
-    # flag it for human review and the per-text build.py is where the
-    # ad-hoc promotion rule lives (see e.g. corpora/german/DTA/1581_rumpolt_new
-    # for an example).
+    _promote_non_body_content(rows)
+    return rows
+
+
+# Smell-test thresholds: if either is exceeded, the parser inspects
+# individual item/head rows and promotes the ones that look like running
+# content (not structural markup). Calibrated from a 219-text corpus survey
+# where the p90 non-body content was ~7,400 chars / 4.3%.
+_NONBODY_CHARS_TRIGGER = 5_000
+_NONBODY_PCT_TRIGGER = 0.02
+
+# A row is treated as a structural marker (kept as item/head) if it fits
+# one of these patterns. Otherwise it's treated as running prose and
+# promoted to body. Corpus survey: 86% of head rows are <= 50 chars.
+_STRUCTURAL_MAX_LEN = 50
+_KAPITEL_RE = re.compile(
+    r"\b(kapitel|capit|cap\.|buch|teil|theil|abschnitt|stueck|liber)\b",
+    re.IGNORECASE,
+)
+_PURE_NUMERAL_RE = re.compile(r"^\s*[ivxlcm0-9]+\.?\s*$", re.IGNORECASE)
+_KAPITEL_MAX_LEN = 80
+
+
+def _looks_structural(text: str) -> bool:
+    t = text.strip()
+    if len(t) <= _STRUCTURAL_MAX_LEN:
+        return True
+    if _PURE_NUMERAL_RE.match(t):
+        return True
+    if _KAPITEL_RE.search(t) and len(t) <= _KAPITEL_MAX_LEN:
+        return True
+    return False
+
+
+def _promote_non_body_content(rows: list[Row]) -> None:
+    """Mutate rows in place to fix block_type misclassification.
+
+    Step 1 (zero-body fallback): a ledger / list-only text where every entry
+    is an <item> has no body rows — promote all items to body so the default
+    body-only loader picks them up.
+
+    Step 2 (smell-test + classifier): if non-body content is suspiciously
+    large in absolute or relative terms, inspect each item/head row. Those
+    that look like running prose (long, not bare numerals, not Kapitel-style)
+    get promoted to body. Genuinely structural rows (short labels, chapter
+    headings) stay where they are.
+
+    After this runs, the per-text build.py may layer further ad-hoc
+    promotions (e.g. Rumpolt's cookbook promotes all remaining short
+    recipe-name items into body — a human-level judgment the parser can't
+    make on its own).
+    """
     block_types = {r.block_type for r in rows}
     if "body" not in block_types and "item" in block_types:
         for r in rows:
             if r.block_type == "item":
                 r.block_type = "body"
-    return rows
+        return
+
+    chars = {"body": 0, "item": 0, "head": 0}
+    for r in rows:
+        if r.block_type in chars:
+            chars[r.block_type] += len(r.textstring_simple)
+    total = sum(chars.values())
+    if total == 0:
+        return
+    non_body = total - chars["body"]
+    non_body_pct = non_body / total
+    if non_body <= _NONBODY_CHARS_TRIGGER and non_body_pct <= _NONBODY_PCT_TRIGGER:
+        return
+
+    for r in rows:
+        if r.block_type in ("item", "head"):
+            if not _looks_structural(r.textstring_simple):
+                r.block_type = "body"
