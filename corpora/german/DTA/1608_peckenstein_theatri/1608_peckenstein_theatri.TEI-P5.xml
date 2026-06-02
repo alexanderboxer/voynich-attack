@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">       <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Theatri Saxonici</title>
+<title type="sub">Darinnen ordentliche Warhaftige Beschreibungen von Erbawung vnnd Auffnemen der vornembsten Haupt vnd Fürsten Schlössere / Im Marggraffthumb Meissen / Der Chur Sachsen / Landgraffschafft Düringen / Vnd dem Voigtlande / So wol dem Burggraffthumb Magdeburg / etc.</title>
+<title type="volume" n="2"/>
+<author>
+<persName ref="http://d-nb.info/gnd/124557260">
+<surname>Peckenstein</surname>
+<forename>Lorenz</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName>Wikisource</orgName>
+<resp>
+<note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in Wikisource-Syntax.</note>
+<note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme aus Wikisource entsprechen muss.</note>
+<ref target="http://de.wikisource.org/wiki/Theatri_Saxonici_Ander_Theil"/>
+<date type="importDTA">2013-05-02T13:09:31Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<orgName>ULB Halle</orgName>
+<resp>
+<note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>
+<ref target="http://nbn-resolving.de/urn:nbn:de:gbv:3:1-42558"/>
+<date type="importDTA">2013-05-02T13:09:31Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Frank</forename>
+<surname>Wiegand</surname>
+</persName>
+<resp>
+<note type="remarkResponsibility">Konvertierung von Wikisource-Markup nach XML/TEI gemäß DTA-Basisformat.</note>
+<date type="importDTA">2013-05-02T13:09:31Z</date>
+</resp>
+</respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">44</measure>
+<measure type="tokens">11550</measure>
+<measure type="types">3033</measure>
+<measure type="characters">80429</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T10:14:42Z</date>
+<availability>
+<licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+<p>Dieses Werk ist gemeinfrei.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/peckenstein_theatri02_1608</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/peckenstein_theatri02_1608</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/peckenstein_theatri02_1608</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/peckenstein_theatri02_1608</idno>
+<idno type="DTADirName">peckenstein_theatri02_1608</idno>
+<idno type="DTAID">30383</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30383-4</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="MM">Peckenstein, Lorenz. Theatri Saxonici. Teil 2. Jena, 1608.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Theatri Saxonici</title>
+<title level="m" type="sub">Darinnen ordentliche Warhaftige Beschreibungen von Erbawung vnnd Auffnemen der vornembsten Haupt vnd Fürsten Schlössere / Im Marggraffthumb Meissen / Der Chur Sachsen / Landgraffschafft Düringen / Vnd dem Voigtlande / So wol dem Burggraffthumb Magdeburg / etc.</title>
+<title level="m" type="volume" n="2"/>
+<author>
+<persName ref="http://d-nb.info/gnd/124557260">
+<surname>Peckenstein</surname>
+<forename>Lorenz</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Henning Grosse</name></publisher>
+<pubPlace>Jena</pubPlace>
+<date type="publication">1608</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Als Grundlage dienen die <a href="http://de.wikisource.org/wiki/Wikisource:Editionsrichtlinien">Wikisource:Editionsrichtlinien</a>.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Regionalgeschichte</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">wikisource</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>         <front>
+<pb facs="#f0001"/>
+<pb facs="#f0002"/>
+<titlePage type="main">                 <titlePart type="main"><hi rendition="#g #k">Theatri Saxonici</hi></titlePart><lb/>
+<titlePart type="volume">Ander Theil /</titlePart><lb/>
+<titlePart type="sub"><hi rendition="#b">Darinnen or-<lb/>
+dentliche Warhaf-</hi><lb/>
+tige Beschreibungen von Erbawung vnnd<lb/>
+Auffnemen der vornembsten Haupt vnd<lb/>
+Fürsten Schlössere /<lb/>
+Im<lb/>
+Marggraffthumb Meissen /<lb/>
+Der Chur Sachsen /<lb/>
+Landgraffschafft Düringen /<lb/>
+Vnd dem<lb/>
+Voigtlande / So wol dem Burggraffthumb Magdeburg / etc.<lb/>
+Zusampt dero Empter Vorzeichnis etc.</titlePart><lb/>
+<byline>Aus vielen alten <hi rendition="#aq">Monumentis</hi> vnd <hi rendition="#aq">Archivis colligirt</hi><lb/>
+Durch<lb/>
+<docAuthor><hi rendition="#aq">Laurentium Peccensteinium</hi></docAuthor> Churf. S. <hi rendition="#aq">Histor.</hi></byline><lb/>
+<docImprint>In Verlegung <publisher>Henning Grossen des Eltern</publisher>.<lb/>
+<figure/><lb/>
+Gedruckt zu <pubPlace>Jehna</pubPlace> im Jahr /<lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docDate><hi rendition="#aq">M. <space dim="horizontal"/> DC. <space dim="horizontal"/> VIII.</hi></docDate></docImprint><lb/>
+</titlePage>
+<pb facs="#f0003"/>
+<div type="dedication">                 <p rendition="#c #aq">                     Amplissimâ dignitate, Generis anti-<lb/>
+quitate, Eruditione &amp; rerum usu Viris praestantiss:</p><lb/>
+<p rendition="#c"><hi rendition="#aq">Dn. JOANNI</hi> Löser in Pretatzsch <hi rendition="#aq">Haereditario,<lb/>
+Mareschallo Electoratus Saxon.</hi></p><lb/>
+<p rendition="#c"><hi rendition="#aq">Dn. JOANNI à</hi> Kostitz in Kriegersdorff.<lb/>
+<hi rendition="#aq">ET<lb/>
+Dn. JOHAN ERNESTO ab</hi><lb/>
+Haugwitz in Potzka.</p><lb/>
+<space dim="horizontal"/>                 <p rendition="#c #aq">Praepositis &amp; Praesidibus summis Ecclesiarum Naumburgensis,<lb/>
+Mersburgensis &amp; Misnensis, nec non Cizensis etc.<lb/>
+Dominis officiosè observandis.</p><lb/>
+<p rendition="#c #aq #i">Hanc Pyrgographiam Principum &amp; Ducum<lb/>
+Saxonie etc.<lb/>
+Dicat &amp;<lb/>
+consecrat<lb/>
+Officioso &amp; humilimo animo<lb/>
+<hi rendition="#right">Laurentius Peccenstenius<lb/>
+Autor.</hi></p><lb/>
+</div>         </front>
+<pb facs="#f0004" n="3"/>
+<body>             <div n="1">                 <head><hi rendition="#aq"><hi rendition="#g">PRIMORUM AR-<lb/>
+CIUM MISNENSIUM</hi><lb/>
+Ducum Principum&#xA759; Saxo-<lb/>
+niae Origines.</hi></head><lb/>
+<div n="2">                     <head><hi rendition="#aq">I.</hi><lb/>
+Schlos Meissen.</head><lb/>
+<p><hi rendition="#in">A</hi>Vs beglaubten <hi rendition="#aq">Historicis</hi> ist allerding kundbar / daß Keyser <hi rendition="#aq">Heinricus Saxo, Auceps</hi> zugenamet / <hi rendition="#aq">Anno</hi> 934. nach dem er die Vngern vor Merseburg allerding biß vffs Heupt erlegt / vnd von der grossen Menge derselben nicht mehr als jhr sieben vbrig vnd am Leben gelassen / welchen er doch die Ohren / Nasen vnd Hände abhawen / vnd also zerstümmelt anheim schaffen lassen / den andern die Zeitunge zu bringen / sich fort nicht mehr also mutwillig in andere Herrschafften zu wagen / vnd mit eusserstem Vnheil der Vnterthanen einen <hi rendition="#aq">Tribut</hi> zu erzwingen / an dem Ort / da hernacher die Stadt Meissen angelegt / vnd nahe an der Elbe eine Burg / Castell vnd Landesfestung erbawet / daraus nicht allein den einfallenden Vngern / besondern auch andern Völckern / als die Laußnitzer / Dalomincier / vnnd Milciener Wenden / so er damals auch vnter seinen Gehorsam gebracht / zu wehren vnnd den Vnterthanen Schutz zu halten. Inmassen <hi rendition="#aq">Ditmarus,</hi> als der Eltisten einer dauon also schreibet: <hi rendition="#aq">Imperator Heinricus montem juxta Albim positum, &amp; arborum densitate tunc occupatum, excoluit, ibi&#xA759; arcem propugnaculum nec non urbem statuens, eidem&#xA759; de rivo quodam, qui in parte Septentrionali fluit, nomen Misna imposuit, quam, ut hodie in usu habetur, praesidiis &amp; aliis impositionibus munivit, ut ex ea Milcienos suae subactos ditioni, censum persolvere
+<pb facs="#f0005" n="4"/>
+coëgit.</hi> Das ist / Keyser Heinrich hat einen Berg an der Elben / so voller Beum vnd Gestreuche gestanden / einebnen reumen / vnd darauff ein Schlos / Burg / vnd dann darneben eine Stadt angelegt / vnd der Stadt den Namen von dem Wässerlein die Meisse / so nach Mitternacht seinen Vrsprung vnd Lauff hat / gegeben / das Schlos auch mit Kriegsvolck besetzt vnd befestiget / daraus die Milciener vnnd andere Völcker / so er bezwungen / in Gehorsam vnd zu Erlegung des Tributs anzuhalten.</p> <p>Die Meißnischen vhralten <hi rendition="#aq">Annales</hi> geben diese Nachrichtung / daß Keyser Heinrich der Erste / oder Vogler im Jahr Christi 930. vnd im 11. seines Regiments / das Schlos vnnd die Stadt darbey erstlichen angelegt / vnnd weil beydes zur Landfestunge wol gelegen / in etwas mit Wallen vnnd Graben befestiget / vnd das Schlos mit einer Besatzung von Riparensischen Kriegsleuten wider die Vngern / Lusatzer / Milciener / Böhmen vnnd Polen / so er alle bezwungen / versehen / vnd solche Festung vnd Stadt einem seiner Vettern / so zwar nicht genennet wird / vntergeben / welchen er hernacher zum Marggraffen vnd <hi rendition="#aq">Iudicem Limitaneum</hi> gewidmet vnd endlichen gar vbereignet / welches <hi rendition="#aq">Posteri</hi> vnnd Marggraff <hi rendition="#aq">Echardus I. Guncelinus, Gunterus</hi> vnd <hi rendition="#aq">Echardus II.</hi> mit den Polen vnd Böhmen darumb viel Kampffs gehabt / solche zum teil eine zeitlang daraus entsetzt / von jnen eingenommen / vnnd dagegen hinwieder von den Margraffen eröbert / vnd allerding besteiffet. Hernacher auch das hohe Stiefft daselbsten vom Keyser <hi rendition="#aq">Ottone I.</hi> angelegt / vnd zum Schutz mit einem Burggraffen versehen / so dann auch seine sondere Residentz des Orts gehalten / inmassen dann von den dreyen <hi rendition="#aq">Castellis</hi> des Orts vnnd sondern Burgen hernacher diß Sprichwort vnd Retzel erwachsen / da man zu sagen gepflogen / Raht / wo ist im Lande ein solcher Berg / darauff drey vnterschiedene Schlösser erbawet / vnd dann solche / als auch die Stadt darbey mit dreyen Wassern vmbgeben / vnd die Schlosbrücken vber den Kirchthurmb der Stad erhoben / da man diesen Ort damit gemeynet / der nicht allein die drey Schlössere / als der Marggraffen oder Fürsten Residentz / besondern auch des Bischoffs / so von Johanne dem Fünfften des Geschlechts von Weisbach erhoben / vnd dann der Burggraffen / dauon noch vor wenig Jaren ein hoher runder vnd zum theil eckichter Thurm zu sehen gewesen / gehabt / besondern auch die Schlosbrücken vber der Kirchen / so im Thal gelegen / erbawet / vnd dann die Stadt mit dem Schiffreichen Wasser der Elben / dann der Trebisa / vnd dann der Meisse / dauon die Stadt den Namen erstmal / vnd dann die gantze Gegend zusampt den <hi rendition="#aq">Incolis</hi> erlanget.</p> <p>Das Heupt vnnd Fürstenschlos ist von Hertzog Albrechten von
+<pb facs="#f0006" n="5"/>
+Sachsen / so man den deutschen Ruland / vnnd dann die Rechtehand des Römischen Reichs Ehren halben zugenamet / <hi rendition="#aq">Anno</hi> 1471. auffs newe aussm Grund gantz steinern erhoben / also daß vier Gemach hoch alles vbereinander / auch biß vnter das Dach gewelbet / vnd recht Fürstlich vnd prechtig allerding zugerichtet / darüber Bawmeister <hi rendition="#aq">Arnoldus Westphalus</hi> gewesen / ist wol zusehen / vnnd ein rechtes Fürstliches Sommerhaus / desgleichen keines im Lande der Gelegenheit vnd Lusts wegen / ob wol prächtigere vnd grössere derer verhanden / zu finden. Der Berg ist vor Alters mit einem Thiergarten vmbgeben gewesen / vnd hat dz Schlos einen trefflichen schönen <hi rendition="#aq">Prospectum</hi> nach allen <hi rendition="#aq">Plagis.</hi></p> <p>Neben diesem Fürstlichen Schlos haben in vorzeiten die Könige in Böhmen / vnd <hi rendition="#aq">Vratislaus I.</hi> ein besonderes Schlos <hi rendition="#aq">Anno</hi> 1088. nach der Höhe zur Gegenfestunge / daraus die Stadt in derer Gehorsam zu halten / zu demmal angelegt / als gantz Meissen vnd der Oberteil durch Keyser Heinrich den Vierdten / dem Königreich Böhmen zugeschlagen / vnd nach Böhmischer Sprach Guozedeck genant / dauon aber keine <hi rendition="#aq">Vestigia</hi> jetzo in wenigsten der <hi rendition="#aq">Rudera</hi> verhanden / vnnd allerding hernacher von dem alten Marggraffen vnd Erbherren zu grunde <hi rendition="#aq">desolirt.</hi></p> <p>Auff diesem Schlos zu dem mal sich eine merckliche Historia zugetragen / so <hi rendition="#aq">Cosmus Historicus</hi> mit diesen Vmbständen anziehen thut / Daß ein Böhmischer Herr / <hi rendition="#aq">Beneda</hi> genant / des Königreichs Böhmen / aus was Vrsachen wird nicht angezogen / landreumig vnd ein <hi rendition="#aq">Exul</hi> werden müssen / vnd als solcher sich nach Meissen / vnnd zu dem heiligen Mann Bischoff <hi rendition="#aq">Bennoni,</hi> so ein Graff von Woldenburg aus Sachsen / vnd ingleichen in des Keysers vnd Königs Vngnaden gewesen / gewendet / vnd der König solches erfahren / habe er ihn durch gütliche Beschickung / aus Meissen zu sich ins Schlos Guozedeck bestellen lassen / Der <hi rendition="#aq">Beneda</hi> trawte dem Könige / vnd stellet sich ein / dem der König mit guten Worten zugesprochen / sein Rapier vnd Mantel in Freundschafft abzulegen / welchem <hi rendition="#aq">Beneda</hi> Folge thut / darauff wider Traw vnd Glauben der König solchen greiffen vnd anfassen lassen wil / <hi rendition="#aq">Beneda</hi> so ein hertzhaffter Mann / erwischt in eil ein Schwerdt / so des Königs Cämmerling an der Seiten getragen / vnnd hewet zum ersten den Cämmerer / so den König schützen wollen / zu boden / der König / so allein / verheisset jhm in der Gefahr / Gnade zu erzeigen / als darauff <hi rendition="#aq">Beneda</hi> einhalten thut / sticht vnd hawet der König auff solchen los / <hi rendition="#aq">Beneda</hi> mus sich seiner Haut wehren / vnnd gibt dem Könige drey Streiche / also daß er fast zu boden gesuncken / in deme die Guardi wach worden / vnd auff <hi rendition="#aq">Beneda</hi> zugeeilet / der dann in der ersten Furien zween Soldaten auff die Seel gefast / endlichen vbermannet / vnd gefenglichen angenommen / vnd ob er wol die Vntrew des Königes / vnd wie er zur
+<pb facs="#f0007" n="6"/>
+Noht vnd Gegenwehr höchst gedrungen / angezogen / ist er doch mit vier Pferden <hi rendition="#aq">ad supplicium</hi> von einander gerissen / vnd dessen Cörper aus Gnaden vor dem Thumstifft zu Meissen ehrlichen begraben worden / da man dann hernacher wunderbare Lugenden geschrieben / vnd wie der Cörper gantz wiederumb in der Erden zusammen gewachsen / im Auffgraben gesehen / vnd sondere Mirackel darauff / Item / diß erfolget / daß der König in Böhmen bald hernacher erstochen / vnd also an jhm <hi rendition="#aq">poena Talionis</hi> war gemacht / vnd jhm seine Vntrew belohnet worden / derwegen <hi rendition="#aq">Beneda martyrisiret</hi> vnd <hi rendition="#aq">canonisiret,</hi> vnd von <hi rendition="#aq">Casma virum illustrem &amp; Dei Martyrem nominirt</hi> wird.</p>
+</div> <div n="2"> <head><hi rendition="#aq">II.</hi><lb/>
+Scharffenberg.</head><lb/>
+<p><hi rendition="#in">I</hi>St auch der vhralten Schlösser vnd Keys. Burgen eines / vom Keyser <hi rendition="#aq">Heinrico Aucupe</hi> mit dem Schlos Meisen vnd Streela zugleich aus Vrsachen wie in Meissen angezogen / erstlichen vnnd <hi rendition="#aq">Anno</hi> 934. angelegt / vnd mit einer Kriegsbesatzunge versehen / endlichen auch gar den Marggraffen von Meissen vntergeben / die es auch lange Jahr vor jhr Heuptschlos vnnd Fürstlichen Residentz gehalten / Den Namen sol es von Schurffen haben / weil daselbsten vnd vngefehr vmb die Jahr Christi 1226. im Silberbergwergk / so anfenglichen starck geschurffet / fundig worden / vnd noch biß auff diese Zeit in etwas im Brauch gehalten / vnd geben die Historien / daß / da zur Zeit Marggraff <hi rendition="#aq">Heinricus Illustris,</hi> der erlauchte vnd gewaltige Fürst / dero Gegend seiner Jagtlust nachgezogen / habe sein Gaul einen Stein auffgestossen / so vom Glantz dermassen scheinbar vnd schön anzusehen gewesen / daß er vom Klepper abgestiegen / solchen auffgehoben / vnnd durch die Geschworne zu Freyberg / so vnter seinem Grosvater Marggraff Otten <hi rendition="#aq">Anno</hi> 1171. zur Bergkstadt worden / <hi rendition="#aq">probiren</hi> lassen / da dann befunden / daß es gut Silber Ertz gehalten / darauff der Marggraff einfahren lassen / vnd den Berg daselbsten / so reich von Silber Ertz vnd Bley befunden / auch darinnen solche starcke Ausbeuten erlangt / daß er mit solchen vnnd was jhm aus Freyberg zukommen / gantz Böhmen mit barem Gelde bezahlen können / inmassen er sich auch also bereichert / daß er damals vor den gewaltigsten Fürsten / vnnd sich sonderlichen in des Reichs Zusammenkunfften / vnd bey den Keysern also statlichen gehalten / vnd solchen Pracht geführet / daß es jhme leichtlichen keiner nachthun können / darumb er auch vom Keyser <hi rendition="#aq">Friderico II.</hi> also <hi rendition="#aq">respectiret,</hi>
+<pb facs="#f0008" n="7"/>
+daß derselbe seine Tochter Margrethen dessen Sohne <hi rendition="#aq">Alberto</hi> ehelichen beygelegt / vnd mit jhm sondere Freundschafft gehalten.</p> <p>Wie es aber pflegt zuzugehen / wann einem der liebe Gott ein Glück bescheret / er der Neider viel zu erwarten / also damals dem freudigen Fürsten begegnet / dann er von dem Bischoff von Meissen / Wittichen / einem Herrn von Camentz / <hi rendition="#aq">castris aptior quàm quieti,</hi> wie solchen <hi rendition="#aq">Lumbertus describirt,</hi> wegen dieses Bergwergks angefeindet vnd vorgegeben worden / als wann solches vnter dem <hi rendition="#aq">Territorio</hi> des Stiffts gelegen / derwegen von jhm den Zehenden erfordert / Der Marggraff dagegen solches auff Vnterhandlung gestellet / inmassen sich dann der König in Böhmen <hi rendition="#aq">Wenceslaus</hi> des Marggraffen Schwager darein geschlagen / vnd solches vertragen. Auff diesem Schlos dessen erstes Gemahl / vnd Fraw Agnes Königin in Böhmen verstorben / von der diese Historia in der Isenachischen Chronica zu lesen / daß / da solche im Siechbette gelegen / jhr im Schlaff ein Engel vorkommen / so jhr aus einem gülden Becher einen Trunck geboten / welchen sie genossen / vnnd gantz herb vnd bitter schmeckend / befunden / darüber sich die Fürstin erschottert / vnd gesagt / Ey wie ist diß ein herber Tranck / der Engel jhr geantwortet / Ja wol ein herber Tranck / wird aber bald in einen lieblichen süssen vnnd anmutigen Tranck verwandelt werden / so durch Christum geschehen wird / darüber die Fürstin erwachet / vnnd solchen Traum jhrem Herrn <hi rendition="#aq">referirt,</hi> auch bald darauff hernacher verschieden / so dann wol zu mercken.</p>     <p>Dieses Schlos viel lange Jahr der Fürsten von Sachsen Landhaus gewesen / wie es aber hernacher an die von Schleinitz / so diß Haus durch Begnadung erlanget / dann hernacher auff die von Miltitz / so es noch jetziger Zeit besitzen thun / vnd derselben vhraltes Stamhaus ist / kommen / dauon findet man keine Nachrichtung. Ingleichen bewohnen die von Miltitz das Schlos Siebeneichen / nahe drunter vnd in solcher Gegend gelegen / als dann auch Batzdorff / ob dieses alte Heuser / vnnd von wem solche anfenglichen angelegt vnd erbawet / ist ingleichen vnwissend / aber vor langen Jaren jederzeit derer von Miltitz Erbstamheuser gewesen.</p></div>
+<pb facs="#f0009" n="8"/>
+<div n="2"> <head><hi rendition="#aq">III.</hi><lb/>
+Schlos Dreßden.</head><lb/>
+<p><hi rendition="#in">D</hi>AS Schlos zu Dreßden / so billich vor das Heuptschlos im Lande wegen allerhand Zierligkeit vnd der Grösse / auch wegen des steten Chur vnd Fürstlichen Hofflagers / zu achten / ist zwar ein alte vnd beruffene Burg vnd Vorwehre des Landes zu Meissen an der Böhmischen Grentze fast gelegen / vnd gleublichen / daß des Orts wegen guter Gelegenheit vnd der Elbenfart / zeitlichen vnnd je mit dem Auffkommen der newen Stadt eine Burg vnd Fürstenhaus angelegt / inmassen dann Nachrichtung verhanden / daß Marggraff Otto von Meissen vnter deme das Silberbergwergk zu Freywerg <hi rendition="#aq">An.</hi> 1171. angangen / des Orts <hi rendition="#aq">residirt,</hi> auch daselbsten <hi rendition="#aq">Anno</hi> 1189. inmassen auch dessen Sohn / Marggraff Diderich vnd <hi rendition="#aq">Nepos Heinricus illustris,</hi> vnter dem das Bergwergk zum Schurffenberg entstanden / verstorben / vnd in das Kloster Alten Zella vnter Freyberg begraben / vnnd ob wol die folgenden Marggraffen andere Residentz / darnach ein jeder seinen Willen vnd Lust gehabt / anderswo gehalten / ist doch jederzeit des Orts ein Fürstlicher Sitz verblieben / Vnnd ob wol beyde Städte / alt vnnd new Dreßden / als auch der Strich nach Bischoffwerda / Stolpen vnd Pirna / dem Stiefft Meissen <hi rendition="#aq">incorporirt</hi> gewesen / vnd also demselben mit Lehnspflichten verwandt / ist doch zeitlichen mit dem Stiefft Handlung gepflogen / vnd diese Städte als auch Pirna gegen andern Gütern <hi rendition="#aq">An.</hi> 1312. verwechselt / vnd allerding den Marggraffen zu Meissen erblichen vberlassen / inbesondern haben die Churfürsten Marggräffischen Stams / gern des Orts vnd in dero Gegend hausirt / in dem sie angesehen die gute frische Lufft / Bequemigkeit des Wassers vnd Zufure aus Böhmen / dann auch der Bergwergke halben / daraus sie dann ein statliches genommen / von den newsten aber hat Hertzog Albrecht von Sachsen / welchen man den Hertzhafften vnd der Deutschen Roland zugenamet / gerne des Orts <hi rendition="#aq">residirt,</hi> sein Gemahl auch / so eine Königin in Böhmen / vnd <hi rendition="#aq">Georgii Bodiebracii</hi> Tochter gewesen / jren Witwenstuel daselbsten vnd zum Torand / dauon diß alte Sprichwort / welches man jhr zulegen wil / Verlieren wir das Meißnerland / so behalten wir doch den Torand / wegen der Befestigung des Schlosses / so von Natur angelegen / stetig gehalten / darumb dann auch dessen Sohn / Hertzog Georg von Sachsen / weil er daselbsten jung worden / einen solchen Willen zu der Stadt Dreßden gewonnen / daß er die alten Schlosgebewde meistentheils zu Grund legen / vnnd gar ein newes
+<pb facs="#f0010" n="9"/>
+gantz prechtig / königlich vnd auff das allerzierlichste <hi rendition="#aq">Anno</hi> 1530. bawen lassen / so den Namen von jhm vnd Hertzog Georgen Schlos bißanhero behalten / Vber solches Gebewde dann sich König Ferdinand / hernacher Keyser / nach der Zeit Gelegenheit dermassen verwundert / daß er gesagt sol haben / In gantz Spanien dergleichen zu befinden.</p> <p>Nachdem vnd <hi rendition="#aq">Anno</hi> 1550. Churfürst Moritz ingleichen ein new Gebewde nach der Elben warts vierkandicht anlegen / vnd dermassen mit Fürstlichen Zimmern vnnd andern Herrligkeiten versehen lassen / daß dergleichen im Lande keines zu befinden / so wol mit der Stadtfestunge einen starcken Anfang gemacht / welches alles hernacher Churfürst <hi rendition="#aq">Augustus</hi> erweitert / ausgeführt / verbessert vnd allerding vollbracht / So wol das Zeughaus vnd die Artalarey mit allem Vorraht erbawet / vnd also steiff versehen / daß wol dergleichen in <hi rendition="#aq">Germania</hi> nicht zu befinden. Als dann auch Churfürst Christian der Erste / das Schlos vnnd die Stadtfestunge dermassen verbessert vnnd <hi rendition="#aq">fortificirt,</hi> daß fast daran kein Mangel zu befinden / wie er dann auch ein newes Schlosgebewde dem andern vnd alten weit prechtiger vn&#x0303; fürtrefflicher / so man die Stallunge in gemein nennen thut / ausgeführt / welches alles an alten vnd newen Schlosgebewden Churfürst Christian der Ander / gantz prechtig mit grossen Vnkosten <hi rendition="#aq">renoviren</hi> lassen / vnnd in summa / sind die Schlosgebewde des Orts also mit allerhand Regalischen Zierden vnd Ornat von inwendig vnd aussen versehen / daß es nicht allein jederman Verwunderungs gibt / besondern auch wol einem Keyserhaus zu vergleichen. Vnd Keyser Maximilian der Ander / <hi rendition="#aq">Anno</hi> 1575. nicht vnbillich diesen Schlosgebewden damals / als auch der Festunge diß <hi rendition="#aq">Elogium</hi> gegeben / Er müste bekennen / daß diese Stadt mit aller Notturfft also versehen / daß / da er dergleichen eine an den Vngerischen Frontier haben möchte / er sich vngeschewet einiger Gefahr / jedoch ausser Gottes Gewalt / eigener Person / nicht ein / sondern mehr Jahr / auffenthalten wolte / wüste dessen gleichen nicht in <hi rendition="#aq">Germania,</hi> was zur Landesbefestigung nöhtig vnd nütz / zu Wasser aber hette es andere Meynunge / <hi rendition="#aq">Haecille,</hi> vnd von dem gnug. Wann aber ermelter oder jetziger Keyser den jetzigen Zustand / so weit vbertrefflicher / anschawen solte / würde ein mehrers <hi rendition="#aq">ludicium</hi> gefallen / vnd bleibt billich diß <hi rendition="#aq">Distichon</hi> war / <hi rendition="#aq">Omnibus optatis Dresda referta bonis.</hi></p></div>
+<pb facs="#f0011" n="10"/>
+<div n="2"> <head><hi rendition="#aq">IV.</hi><lb/>
+Pirna.</head><lb/>
+<p><hi rendition="#in">D</hi>As Schlos zu Pirna ist nach der Höhe vnnd zweiffels ohn vor Alters zur Landesvorwehr vnd Grentzfestunge zugerichtet / inmassen an den <hi rendition="#aq">Vestigiis</hi> der tieffen duppeln Gräben / als auch andern <hi rendition="#aq">Propugnaculis</hi> zum Ernst angerichtet / zu sehen / vnnd ob wol keine Gewisheit verhanden / von weme solches erbawet / ist doch gleublichen / weil diese Stadt vor Alters dem Königreich Böhmen / vnd noch <hi rendition="#aq">Anno</hi> 1340. <hi rendition="#aq">immediatè incorporirt</hi> gewesen / daß dieses Schlos von den Hertzogen / hernacher Königen in Böhmen erhoben / Als es aber <hi rendition="#aq">Anno</hi> 1408. hinwieder an die Marggraffen kommen / inmassen es dann <hi rendition="#aq">tempore Heinrici Illustris,</hi> vnd <hi rendition="#aq">Anno</hi> 1260. ingleichen Meißnisch gewesen / ist solches als ein Grentzhaus <hi rendition="#aq">fortificirt,</hi> vnnd jederzeit vor eine Festung gehalten worden / Nach dem es aber Bischoffslehn gewesen / allerding auch nicht also in <hi rendition="#aq">Esse,</hi> inmassen auch jetzo / weil das Haus Sachsen mit der Kron Böhmen gute nachbarliche <hi rendition="#aq">Correspondentz</hi> halten thut / verblieben / jedoch gleichwol noch in einem zimlichen Bawwesen erhalten / also / daß es wol vor ein Fürstenhaus bestehen thut. <hi rendition="#aq">Monachus Pirnensis</hi> setzet in seinem hinterlassenen <hi rendition="#aq">Manuscripto,</hi> daß Marggraff Wilhelm / so man <hi rendition="#aq">Coclem</hi> vnd den Eineugigten zugenamet / die Stadt Pirn sampt dem obern <hi rendition="#aq">Tractu Regionis</hi> nach dem Lande zu Böhmen / vnd vnter andern die alten verwüsten Heuser vnd Schlösser / Donyn / Wissenstein / Königstein / Schreckenstein / Lilgenstein / Riesenburg / Totzaw mit aller Zugehörung aller der Schlösser vnd dem Thierstein / Item / Keferburg / Wintenstein vnd Werda / mit Gold vnd Gelt / wie die Wort lauten / zum theil auch durch Kriegesgerechtigkeit / an sich erkaufft vnnd gebracht / vnnd hernacher bey dem Hause Sachsen verblieben / vnd inbesonder das Schlos zu Pirna befestiget / mit schönen Gebewden gezieret / vnd jhm den Namen Sonnenstein / inmassen auch der Stadt auff deutsch Sonnenthal gegeben / dannenhero etliche <hi rendition="#aq">Historici</hi> diesen Wilhelm vor den <hi rendition="#aq">alterum Fundatorem arcis</hi> allerding halten thun / Die jetzogenanten Schlösser sind noch zum meisten bey dem Haus Sachsen / aber allerding biß auff den Wisenstein / so jtzo derer von Bunaw Erbstamhaus ist / vnd den Königstein / dauon bald Meldunge geschehen sol / vnerbawet.</p></div>
+<pb facs="#f0012" n="11"/>
+<div n="2"> <head><hi rendition="#aq">V.</hi><lb/>
+Königstein.</head><lb/>
+<p><hi rendition="#in">S</hi>Chlos obig Pirn vnd zwo Meilen dauon gelegen / darauff hat vor Alters ein altes zerfallenes Gemawer gestanden / vnnd lange Jahr wüste gelegen / auch gleublichen / solches vnd andere darbey liegende von den Böhmen / so stetige Kriege mit den Meißnern geführet / oder ja von den Hussiten <hi rendition="#aq">Anno</hi> 1425. <hi rendition="#aq">desolirt,</hi> biß daß zu den Zeiten Hertzog Georgen von Sachsen / vnnd durch jhn aus sonderer Andacht <hi rendition="#aq">Anno</hi> 1505. ein Kloster daselbsten / <hi rendition="#aq">Coelestiner</hi> Ordens angelegt / vnd aus dem Stifft Meissen / zum theil aus des Fürsten Rent-Cammer mit Einkommen versehen / so aber nicht lange Bestand gehabt / dann wie der Bischoff damals zu Meissen Johan von Salhausen / dauon <hi rendition="#aq">judicirt,</hi> daß solches Kloster von den Bömischen Winden vnd der starcken Lufft / der Böhmischen Ketzer die Hussiten meynende / bald vmbgeworffen vnd zergehen werde / inmassen dann geschehen / dann die Mönche noch bey Hertzog Georgens Leben daraus entlauffen / vnd das Kloster wüste worden / auch also öde liegend verblieben / biß daß Churfürst <hi rendition="#aq">Augustus</hi> die Gebewde zum theil wegen des hohen vnd von Natur festen Orts erhoben / vnnd endlichen noch bey seinem Leben zur Landeskron vnd Festung gewidmet / vnd zum theil mit allerhand Krieges<hi rendition="#aq">munitionibus</hi> vnd <hi rendition="#aq">Propugnaculis</hi> versehen lassen.</p> <p>Diese Festung Churfürst Christian der Erste / nicht allein statlichen ausgeführt / besondern auch mit weitern vnd solchen Gebewden / Vowehren / Schies vnd Wachheusern / als auch Munition vnnd Prouiant also versehen / daß es zwar vnmenschlich scheinet dieselbe zu ersteigen / oder durch Menschen Gewalt vnd Kriegeslist zu gewinnen / hat nur einen einigen Zugang / vnd ist der Platz des Berges also geraumlichen / daß nicht allein die vielfaltigen Gebewde allerding jhre gute vnd bequeme Gelegenheiten haben / besondern auch noch ein vbriger Platz / so mit Holtz bestanden / zum theil zum Ackerbaw zugerichtet / vber das ein tieffer Wasserbrunn durch den Berg mit Stollen ausgeführt / so zwar je alles grosse Verwunderung gibt / Diese Gegend haben in vorzeiten ein sonder Herrngeschlecht die Clommen / so auff dem Schlos Wilen <hi rendition="#aq">residirt,</hi> vnd Rathen / auch den gantzen obern <hi rendition="#aq">Tractum</hi> vnter sich gehabt / besessen / hernacher aber erblos gestorben.</p></div>
+<pb facs="#f0013" n="12"/>
+<div n="2"> <head><hi rendition="#aq">VI.</hi><lb/>
+Donyn.</head><lb/>
+<p><hi rendition="#in">I</hi>St wol eine alte Herrschafft vnd die Burg des Orts gros vnnd von vielen Gebewden vnd ansehnlicher Herrligkeit gewesen / aber jetzo gantz desolat vnd fast dem Boden gleich geebnet / vor Alters Bömisch / jetzo aber Sächsisch Lehn worden / haben daselbsten die Herren Burggraffen von Dohna <hi rendition="#aq">residirt,</hi> so ein altes Herrengeschlecht / vnd allbereit <hi rendition="#aq">tempore Ludovici Pii,</hi> vnd <hi rendition="#aq">Anno</hi> 840. in sonderm Beruff / vnd jetzo noch in <hi rendition="#aq">Flore</hi> andere örter / als Schlesien vnd Böhmen / zum meisten seyn / vnter denen vnnd der Eltisten einer H. Conrad berühmbt / so also gewaltig vnd reich gewesen / daß er eine Brücke vor Dreßden zu beyden Vfern vff seine Vnkosten angelegt vnd ausgeführt / darumb auch diß Geschlecht noch bey Mansgedencken die Zollgerechtigkeit darauff gehabt / so durch Churfürst Augusten erst gar abgelöset.</p> <p>Was die Desolirunge dieses Hauses geursachet / dauon findet man allerhand / jedoch widerwertige Bericht / Dann etliche wollen / daß solches <hi rendition="#aq">Anno</hi> 1373. geschehen sey / da Burggraff Jonas des Orts <hi rendition="#aq">residirt,</hi> welcher sich auff des Keysers <hi rendition="#aq">Ludovici Bavari,</hi> dem er gedienet / Gnade verlassen / vnd dem Marggraffen von Meissen <hi rendition="#aq">Guilhelmo Cocli</hi> rebellisch vnd widerspennig worden / auch auff dessen Vnterthanen vom Adel gestreifft / darüber der Marggraff mit Hülff der Böhmen verursacht / jhn zu belagern / inmassen geschehen / das Schlos eröbert vnd zu grunde gelegt. Andere wollen dieses <hi rendition="#aq">Anno</hi> 1402. erfolgt sey / dann da die Burggraffen mit einem Adelstand vnnd denen von Körbitz / so auch grosses Vermügens gewesen / in einen Mißverstand vnd zum Faustrecht geraten / dieselben aber jhre Lehensherren vnnd Marggraffen von Meissen zu Hülffe genommen / sey das Schlos / daraus der Landschafft allerhand Plackerey beschehen / berandt vnd zu grunde gelegt / auch damals <hi rendition="#aq">cavirt</hi> worden / daß solches zu ewigen Zeiten nicht hinwiederumb auffgebawet werden solle. Ein ander <hi rendition="#aq">Autor</hi> wil vorgeben / solches aus Vrsachen / daß ein Herr von Dohna / wegen eines vnzüchtigen Tantzes / so der Marggraff mit dessen Gemahl vngeschewet getrieben / solchem einen Maulschlag gegeben / auch mit dem Dolch nach jhme gestochen / geschehen sey / also bißanhero <hi rendition="#aq">desolat</hi> gelassen.</p></div>
+<pb facs="#f0014" n="13"/>
+<div n="2"> <head><hi rendition="#aq">VII.</hi><lb/>
+Freyberg.</head><lb/>
+<p><hi rendition="#in">I</hi>St auch zweiffels ohn ein altes Bergschlos vnd von Marggraff Otten / vnter dem das Bergwergk daselbsten / vnd beym Dorff Laußnitz <hi rendition="#aq">Anno</hi> 1171. erstlichen auffkommen / erbawet / hernacher auch von dessen Nachkommen verbessert / hat aber viel Anstösse erlitten / vnnd inbesondern damals / da Keyser Heinrich der Sechste / Marggraff Diderichen / dessen Sohn wegen solches reichen Bergwergks biß in den Tod angefeindet / vnnd damals vnnd <hi rendition="#aq">Anno</hi> 1198. das Schlos von jhme eröbert / doch solchen hinwieder mit Hülff des aus Landgraffen Thüringen Herman seines Schwagers ab vnnd ausgetrieben / auch damals da beyde Keyser <hi rendition="#aq">Adolphus</hi> vnd <hi rendition="#aq">Albertus</hi> dem Marggraffthumb Meissen vnnd inbesondern dieser Stadt viel Vnglücks zugefügt / vnd das Schlos sampt der Stadt eingenommen / vnd den rechten Erben vorenthalten / jedoch jederzeit wiederumb erlediget / vnd den Fürsten von Meissen biß auff diese Stunde verblieben / Haben auch daselbsten gerne <hi rendition="#aq">residirt,</hi> inbesondern vnter dem newesten Hertzog Heinrich von Sachsen / den man <hi rendition="#aq">Pium</hi> zugenamet / seine meiste Lebenszeit daselbsten zubracht / vnd sich öfftern hören lassen / Er wolle bey seinen Freybergern leben vnd sterben / inmassen auch daselbsten sein Begrebnis zum ersten angestellet. Dieses Schlos Churfürst <hi rendition="#aq">Augustus</hi> als seinen Geburtsort gantz new <hi rendition="#aq">renoviren</hi> vnnd mit sondern Fürstlichen Gebewden versehen lassen / inmassen dann dieser löbliche Churfürst sein Land aller örter fast dermassen gezieret / daß es billich zu loben / vnnd in Ewigkeit nicht vergessen werden kan / Daselbsten auch sein vnnd der seinen Begrebnis allerding / so mit solcher <hi rendition="#aq">Magnificentz</hi> angeordnet / daß es zu verwundern / daran dann Churfürst Christian der Erste / ein statliches angewendet / vnd sich wol sehen lest.</p> <p>Dieses Schlos sol den Namen vor Alters vnd noch den Freudenstein <hi rendition="#aq">à liberis fossis</hi> inmassen die Stadt / haben. <hi rendition="#aq">Iohannes Bocerus</hi> wil den Namen <hi rendition="#aq">à laeticiis per V</hi> haben / wie er dann in seinem <hi rendition="#aq">Epigrammate</hi> also <hi rendition="#aq">discurrirt:</hi></p>     <epigraph>         <cit>             <quote>                 <hi rendition="#c">                     <hi rendition="#aq">Huic à laeticia, cùm nil nisi gaudia<lb/>
+praestet,<lb/>
+<pb facs="#f0015" n="14"/>
+His inventa locis foecundae copia venae<lb/>
+Forma&#xA759; Fribergi, sidus &amp; jucundior urbis,<lb/>
+Nomina perpetuae tribuerunt consona famae,<lb/>
+Vt Freudenstenu&#x0303; nativo jure vocetur.</hi></hi></quote></cit></epigraph><lb/>
+</div> <div n="2"> <head><hi rendition="#aq">VIII.</hi><lb/>
+Frawen vnd Porstenstein.</head><lb/>
+<p><hi rendition="#in">O</hi>B wol diese beyde Heuser jetzo denen von Schönberg einem fürnemen adelichen Geschlecht zustendig / auch vor langen Jaren derselben Erb vnnd eigen gewen / ist doch an dem / daß inbesondern Frawenstein der Burggraffen von Meissen / vnd Herren von Hartenstein / Sitz vnd Burg lange Zeit gewesen / vnd <hi rendition="#aq">An.</hi> 1444. durch Churfürst Friedrichen den Ersten / dieses Stams / an das Haus Sachsen kommen / inmassen solches durch dessen Heuptleute / deren einer Storch / der ander Fincke / vnd der dritte Zeißke geheissen / vnnd derer einer eine gantze rauche Haut gehabt / durch Kriegsgewalt gewonnen / vnd lange Jahr der Fürsten von Sachsen Sitz / Ampt vnd Residentz gewesen / wie aber dieses / so wol der Porstenstein an die von Schönberg kommen / ist keine Gewisheit verhanden / gleublichen aber / daß wegen jhrer ritterlichen Thaten / derer Vorfaren einem aus Gnaden solche geeignet / sind beyde vorneme erbawte Heuser / vnd haben grosses Einkommen / auch eine vorneme statliche Landschafft.</p>
+</div> <div n="2"> <head><hi rendition="#aq">IX.</hi><lb/>
+Dippoldißwald.</head><lb/>
+<p><hi rendition="#in">O</hi>B auch dieses Schlos als auch Stadt vnd gantze Gegend nit vor langen Jahren derer von Maltitz / auch einem fürnemen Meißnischen Adels gewesen / ist doch solche Pflege durch Churfürst Augusten allerding ausgekaufft / vnd also an das Haus Sachsen kommen / daselbsten auch das Schlos als auch die vmbligende Forbergsgebewde dermassen in solch Ansehen vnnd Verbesserung gebracht / daß es numehr vor ein Fürstenhaus wol bestehen thut / sol den Namen von einem von Clomen des Geschlechts so <hi rendition="#aq">Dippoldus</hi> geheissen / haben / vo&#x0303; wegen seiner sondern Heiligkeit vom Bapst <hi rendition="#aq">canonisirt,</hi> auch dessen Orts im Walde allda ein Capel vor alters gestanden / von dem gemeinen Volck <hi rendition="#aq">venerirt</hi>
+<pb facs="#f0016" n="15"/>
+worden / welches Cappellichen noch bey Mannes Gedencken gestanden / vnd durch den Bischoff von Meissen Johan von Maltitz aus diesem Hause <hi rendition="#aq">desolirt</hi> worden / dann damals allbereit der Aberglaub in Abfall kommen. Andere wollen <hi rendition="#aq">à Fundatore</hi> vnd <hi rendition="#aq">Dippoldo</hi> von Maltitz den Namen hero <hi rendition="#aq">deriviren,</hi> so <hi rendition="#aq">verisimilius.</hi></p>
+</div> <div n="2"> <head><hi rendition="#aq">X.</hi><lb/>
+Wolckenstein.</head><lb/>
+<p><hi rendition="#in">I</hi>St der alten Heuser eins / vnd jederzeit der Fürsten von Sachsen Hofflager / vnd zuförderst derer so zu regieren angefangen / inmassen Hertzog Heinrich von Sachsen bey Leben seines Brudern Hertzog Georgen mit solchem Ampt vnd Freyberg / dann Churfürst <hi rendition="#aq">Augustus</hi> anfenglichen auch mit solchem vnd dem Ampt Weisenfels bey Churfürst Moritzen Zeiten sich benügen lassen müssen / Hat den Namen von der Höhe / vnd daß es fast die Wolcken erreichen solle / Ist aber allerding nicht so vbermennigter Höhe vnnd zimlichen wol erbawet.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XI.</hi><lb/>
+Lichtenwald.</head><lb/>
+<p><hi rendition="#in">I</hi>St auch der alten Heuser eins vnd hiezuuorn derer von Vitzdomb Erbschlos / hernacher derer von Harras / so es lange Jahr besessen / gewesen seyn / Als aber <hi rendition="#aq">Eustachius</hi> der letzte dieses Geschlechts ohne Erben mit Tode abgangen / ist es an die Fürsten von Sachsen gefallen / die es jetziger Zeit vor sich vnd als ein sonders Ampt gebrauchen / darunter dann das Stifft Ebersdorff gehörig / in welcher Kirchen der beyder abgeführten Fürsten von Sachsen <hi rendition="#aq">Ernesti</hi> vnd <hi rendition="#aq">Alberti</hi> von dem Schlos Altenburg / Kleidunge von schlechter Art vnd allerhand Farben auffgehengt zu sehen.</p></div>
+<pb facs="#f0017" n="16"/>
+<div n="2"> <head><hi rendition="#aq">XII.</hi><lb/>
+Augustusburg.</head><lb/>
+<p><hi rendition="#in">H</hi>At zuuor der Schellenberg geheissen / nahe bey Chemnitz gelegen / Ist vor Alters nicht sonders an Gebewden ansehnlichen vnnd in acht gehalten / jetzo aber durch Churfürsten Augusten / von deme es auch den Namen erlanget / dermassen erhoben / daß es fast / ausser Dreßden / sonsten keinem Fürstenhaus innerlandes zu vergleichen / ist vierkandicht / vnnd jeder Ort nachm Morgen / Abend / Mittag / vnnd Mitternacht / vor ein sonderes Schlos zu achten / inmassen dann jeder Ort also mit Zimmern vnd anderer Notturfft zugerichtet / daß sich reichlichen eine Fürstliche Person darinnen mit allen <hi rendition="#aq">Requisitis</hi> zu betragen / vnnd sol Keyser Maximilian der Ander / als er solches gesehen / gesagt haben / Er köndte nicht sagen / daß dieses Haus an Zierden / so einem Fürsten / ja wol Keyser vnnd Königen wol anstehen solle / in etwas vnnd geringsten mangeln könne / also wol vnnd ordentlichen ist es erbawet / Darunter dann die Tzschopa vorüber fleust / vnd die Gegend befeuchtet.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XIII.</hi><lb/>
+Lauterstein.</head><lb/>
+<p><hi rendition="#in">A</hi>Vch der alten Heuser eins / vnnd ein sonderes Ampt / nahe beym Marienberg gelegen / So wol das Ampt vnd Schlos.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XIV.</hi><lb/>
+Schwartzburg.</head><lb/>
+<p><hi rendition="#in">S</hi>O auch ein alt Gebewde / jedoch von Gehöltzen vnd sondern Höhen vnd Beerjagten berühmet / Diese Heuser hiezuuor zur Kron Böhmen gehörig gewesen / wie aber solche zum Hause Sachsen
+<pb facs="#f0018" n="17"/>
+kommen / ist keine Gewisheit verhanden. <hi rendition="#aq">Monachus Pirnensis</hi> setzet / solche <hi rendition="#aq">pro dote</hi> sampt andern / Hertzog Albrechten von Sachsen mit seinem Gemahl König Georgen Tochter zugeschlagen / inmassen dann auch wolermelte Hertzogin nach dem Todesfall jhres Herrn / derer Gegend / vnd vmb den Torand jhren Witweibsstuel gehalten / vnd beyde Empter jhr zum Leibgut verschrieben / darbey der Wiesenthal gelegen / so ein herrlich Ort von Warmenbaden vnnd anderer Nahrungs Bequemigkeiten.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XV.</hi><lb/>
+Tzschopaw.</head><lb/>
+<p><hi rendition="#in">A</hi>Llda auch ein alter Fürstensitz / so aber auch vor wenig Jahren mit sondern Gebewden verbessert vnd <hi rendition="#aq">renovirt,</hi> dabey das Städlein / von guten Bieren / vnnd die Gegend von herrlichen Jagten vnnd Viehezucht beruffen. Hat den Namen von dem fürfliessenden Wasser der Tzschopaw / so jhren Vrsprung hat vberm Annaberg / zwischen Zwenitz vnd Scheibenberg / nicht fern von der Leßnitz / Schwartzenburg vnd Krotendorff / vnd vnter die Augustusburg / Franckenberg / vnd dem Dorff Flöhe vorüber fleust / dazu dann die Flöhe kommen thut.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XVI.</hi><lb/>
+Waldheim.</head><lb/>
+<p><hi rendition="#in">I</hi>St auch ein alter Sitz des Orts gewesen / jetzo aber vnd vor wenig Jahren durch Churfürst Christian den Ersten / <hi rendition="#aq">renovirt,</hi> vnd mit schönen newen Gebewden / inbesonders einer zierlichen Kirchen dabey versehen. Sol diese Gegend den Herren von Schönburg / jetzo zu Penigk / zugestanden haben / aber durch einen Wechsel an die Fürsten kommen.</p>
+<pb facs="#f0019" n="18"/>
+</div> <div n="2"> <head><hi rendition="#aq">XVII.</hi><lb/>
+Leißnick.</head><lb/>
+<p><hi rendition="#in">D</hi>Ieses Schlos / Stadt vnd Gegend ist vor Alters eine <hi rendition="#aq">Praefectura Imperii</hi> oder Burggraffthumb gewesen / zu dem Ende allda angelegt / daß den Einwohnern derer örter vor den einfallenden Wenden vnd andern Völckern Schutz gehalten / so hernachmals erblich worden / vnd Graff Wiprechten von Groitzsch durch Keyser Heinrich den Vierdten / vorlihen / von deme es auff Marggraff Conradum vnd seine Erben kommen / Vnd als Graff Heinrich dem Kloster Bucha / so seine Vorfahren <hi rendition="#aq">Anno</hi> 1190. gestiefftet / allerhand Widerwillen vnd Dampffs angelegt / sind die Fürsten von Sachsen / Friederich / Wilhelm / vnd Balthasar / daruor gezogen / solches belagert / eröbert / vnd den Graffen zu <hi rendition="#aq">permutiren</hi> gedrungen / vnnd also <hi rendition="#aq">Anno</hi> 1365. an das Haus Sachsen / von dem es zu Lehn gangen / kommen / ist im Spanischen Kriege <hi rendition="#aq">Anno</hi> 1547. vom Keyser Ferdinand als Böhmisch verfallen Lehn zusampt Eilenburg vnd Colditz eingezogen / aber durch Churfürst Moritzen hinwieder gegen dem Fürstenthumb Sagen <hi rendition="#aq">permutirt</hi> vnd abgelöset worden. Ist eine gar alte Burg vnd Graffschafft / dann in der Vngerischen Niederlage vor Merseburg / <hi rendition="#aq">Anno</hi> 1333. allbereit ein Burggraff von Leißnick mit im Zuge gewesen / hernacher auch lange Jahr / vnd biß in das Jahr Christi 1300. diese <hi rendition="#aq">Familia florirt,</hi> Inmassen auch die Herren von Penigk das Wapen biß auff <hi rendition="#aq">Albertum Hugonem</hi> vnd <hi rendition="#aq">Georgium,</hi> so im Jahr 1538. gestorben / jederzeit noch geführt. Die Gebewde des Schlosses sind zwar von alter aber sehr starcker Manier / mit Thurnen vnd Mauren also versehen / daß es wol zum theil vor eine Landesfestunge zu achten.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XVIII.</hi><lb/>
+Colditz.</head><lb/>
+<p><hi rendition="#in">S</hi>O auch in vorzeiten eine sondere Herrschafft gewesen / vnd zu dem Pleißnerlande geschlagen / Das Schlos liget birgicht / vnnd darunter mit der Mulden beflossen / Hat den Namen von den finstern vnd dicken Wälden / damit es vff allen Seiten vmbgeben / vnd sol das Wort Colditz auff Wendisch finster Wald heissen / <hi rendition="#aq">Anno</hi> 1397.
+<pb facs="#f0020" n="19"/>
+erst vnter die Fürsten von Sachsen kommen / vnnd durch Wilhelmen den Ersten / erkaufft / welcher das Schlos in etwas <hi rendition="#aq">reparirt,</hi> aber durch Churfürst Ernsten / als es <hi rendition="#aq">Anno</hi> 1486. gar ausgebrandt / gantz new vnd prechtig erhoben / welcher auch gern des Orts <hi rendition="#aq">residirt,</hi> Inmassen er auch daselbsten verstorben / jetzo aber durch Churfürst Christian den Ersten / also in eine ansehnliche Form vnnd Zier gebracht / daß es wol vor ein Fürstliches Haus bestehen thut / vnnd inbesondern mit einem Thiergarten vmbfangen / gebraucht solches vnnd <hi rendition="#aq">residirt</hi> daselbsten sampt vmbligender Pflege dessen hinterlassene Witwe / Fraw Sophia / Marggräffin von Brandenburg / <hi rendition="#aq">ex pacto datalitio.</hi></p>
+</div> <div n="2"> <head><hi rendition="#aq">XIX.</hi><lb/>
+Rochlitz.</head><lb/>
+<p><hi rendition="#in">I</hi>ST in vorzeiten auch eine sondere Herrschaft gewesen / so daselbsten <hi rendition="#aq">residirt,</hi> gar vhralter Ankunfft / dann aus Historien wissend / daß Graff Wittichind der jünger / eine Gräffin von Rochlitz <hi rendition="#aq">Iulandam, Anno Christi</hi> 860. zum Gemahl gehabt / dessen <hi rendition="#aq">Posteri</hi> hernacher das Marggraffthumb Meissen / vnnd nochmals jetzo besitzen thun. Hat den Namen von den Rissen oder Hölen / derer des Orts viel zu sehen.</p> <p>Andere sagen von dem Schachtspiel / dessen <hi rendition="#aq">Notam</hi> die Graffen in jhrem Wapen vnnd <hi rendition="#aq">Insigniis</hi> geführt. Etliche von dem Wort Rötlicht / von dem Rotenstein / so des Orts gebrochen wird vnd grossen Nutz gibt. Ist diese Herrschafft durch Marggraff Wilhelm dem Ersten / <hi rendition="#aq">Anno</hi> 1390. erst zum Marggraffthumb geschlagen / inmassen auch solcher das Schlos von newen erbawet / vnd mit zweyen Thürmen <hi rendition="#aq">ornirt,</hi> so wol die Schlösser zu Leißnick / Grim / vnd Colditz vernewret / vnnd mit mehrern Gebewden gezieret / jetzo aber von der Churfürstlichen Witwen / vnnd Christian des Ersten / Gemahl / zu einem fürnemen Fürstenhaus / nach der jetzigen Welt Lauff / gewidmet vnd statlichen <hi rendition="#aq">renovirt.</hi></p> <p>Die Kirche am Schlos / so von lautern Quadratsteinen ausgefürt / sol ein gar altes Gebewde / vnd vom Keyser <hi rendition="#aq">Heinrico I.</hi> oder dessen Gemahl <hi rendition="#aq">Cunigundis</hi> / <hi rendition="#aq">An.</hi> 1009. erbawet seyn / inmassen solches der gülde&#x0303; Kelch so daselbst in der Stad oder Pfarrkirchen verhanden / vn&#x0303; darauff diese Wort zu sehen: <hi rendition="#aq">Heinricus &amp; Mathildis me co&#x0303;paraverunt,</hi>
+<pb facs="#f0021" n="20"/>
+dessen Anzeigunge gibt. Die Gegend dessen Orts ist sehr lustig vnd bequeme / wie dann das Gebirge im Walde daselbsten / neben dem Oschatzer / Colmberg für die höchsten zwey Gebirge in Meissen / ausserhalb den Bergstädten gehalten wird / dann solcher Rochlitzer Berg auff ein zehen Meilweges zu sehen.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XX.</hi><lb/>
+Nossen.</head><lb/>
+<p><hi rendition="#in">D</hi>As Schlos vnd Ampt Nossen ist in vorzeiten dem Stifft Meissen <hi rendition="#aq">incorporirt</hi> gewesen / inmassen es von Bischoff Wittichen dem Andern / <hi rendition="#aq">Anno</hi> 1357. dazu erkaufft / so endlichen dem Kloster Alten Zella <hi rendition="#aq">Anno</hi> 1414. vnd dann den Fürsten von Sachsen zukommen / Ist jetzo gantz new durch Churfürst Augusten erbawet vnd <hi rendition="#aq">renovirt,</hi> Ligt an der Molden / vnd hat ein fruchtbaren Boden dero Gegend.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXI.</hi><lb/>
+Chemnitz.</head><lb/>
+<p><hi rendition="#in">I</hi>St in vorzeiten ein Kloster <hi rendition="#aq">Benedictiner</hi> Ordens / vnd der Apt dessen ein <hi rendition="#aq">Archidiaconus Romanae Ecclesiae</hi> gewesen / vnd vom Keyser <hi rendition="#aq">Lothario Franco, Alii, Conrado Svevo fundirt,</hi> von Churfürst <hi rendition="#aq">Mauritio</hi> aber des Orts ein Schlos daraus angelegt / vnd mit schönen Gebewden gezieret / Hat den Namen von dem fürfliessenden Wasser die Kemnitz / so wol die Stadt darbey ligend / so vor Alters eine Reichstadt gewesen / vnnd <hi rendition="#aq">Anno</hi> 1308. vnter die Marggraffen von Meissen kommen.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXII.</hi><lb/>
+Zwickaw.</head><lb/>
+<p><hi rendition="#in">D</hi>As Schlos daselbsten sol erstlichen von Graff Wiprechten von Groitzsch dem Eltern / erbawet / vnnd der Osterstein genennet worden seyn / vnnd hernachmals nach derer Erben Absterben
+<pb facs="#f0022" n="21"/>
+hinwieder an das Reich gefallen / vnd Schlos vnd Stadt zum Reich kommen / dann vnter <hi rendition="#aq">Friderico Forti</hi> Marggraffen / neben Chemnitz vnd Altenburg an Meissen geraten / darbey es auch bißanhero erhalten / vnd das Schlos durch Churfürst Augusten gar Fürstlichen angerichtet vnd <hi rendition="#aq">renovirt,</hi> ligt an der Grentze des Voigtlandes / wird von der Mulden befeuchtet / vnd hat einen fruchtbaren Boden.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXIII.</hi><lb/>
+Hoenstein.</head><lb/>
+<p><hi rendition="#in">D</hi>Ieses Schlos sampt Lomen haben in vorzeiten die Herren Bircken von der Dauba Böhmischer Ankunfft / innegehabt / vnd <hi rendition="#aq">Anno</hi> 1414. nochmals besessen / hernacher durch Zwang wegen dessen / daß sie dem Stifft Meissen in vielen zuwider gewesen / <hi rendition="#aq">mutiren</hi> müssen / vnd sich nach Mülberg an die Elben gesetzt / Hernacher dieses Schlos als auch die Gegend durch Churfürst Friedrichen den Andern / <hi rendition="#aq">Anno</hi> 1444. eingenommen / vnd der Kron Böhmen entzogen / aus Vrsachen / daß daraus dero Gegend grosser Schaden von den Streiffrotten beschehen / also vnter dem Fürsten von Sachsen verblieben / vnd jederzeit vor ein besonder Ampt / inmassen auch nochmals gehalten. Endlichen von Hertzog Georgen die von Schleinitz darmit begnadet / von denen es die Herren von Schönburg jetzo zu Penigk kauffsweise erlangt / vnnd dann hernacher durch einen Wechsel vor Rosla / wieder an die von Sachsen kommen / Ist ein altes jedoch festes Bergschlos / von sondern starcken Thürmen vnnd Gebewden / sol vor alten Jahren eine sondere Herrschafft / noch vor den Herren Bircken gewesen / vnnd solches das Geschlecht die Clommen innengehabt haben / so zu Wila an der Elben <hi rendition="#aq">residirt,</hi> Rathen / Clomen oder jetzo Lomen / so wol Hoenstein / vnd den obern <hi rendition="#aq">Tractum</hi> Königstein / Liligen vnd Schreckenstein besessen / vnd wegen jhrer Streifferey vnd Plackerey des Orts vertrieben seyn.</p></div>
+<pb facs="#f0023" n="22"/>
+<div n="2"> <head><hi rendition="#aq">XXIV.</hi><lb/>
+Stolpen.</head><lb/>
+<p><hi rendition="#in">I</hi>N vorzeiten der Bischoffe von Meissen fürnemer Residentz / inmassen auch auffm Schlos ein sonderlich <hi rendition="#aq">Collegium Canonicorum</hi> gewesen seyn / welche diese Gegend sampt Jochern von einem Adelstand die von Mocken von adelischer Ankunfft / welche des Raubens gewohnet / vnnd damit den Benachbarten grossen Dampff angelegt / <hi rendition="#aq">Anno</hi> 1218. erkaufft / vnd vom jhm / als auch hernacher Bischoff Johan von Weisbach <hi rendition="#aq">Anno</hi> 1476. Fürstlich erbawet / vnd vnter dem Stifft biß auff das Jahr Christi 1555. gelassen. Zu der Zeit das Geschlecht die von Carlowitz mit Bischoff Johan von Haubitz / eines Testaments halben / so vnterdruckt werden wollen / vnnd darinnen von dessen Vorfahren dem Geschlecht ein <hi rendition="#aq">Legatum</hi> beschehen / einen Streit vnnd Widerwillen angefangen / darüber der Bischoff verjagt vnd endlichen die Sache also vertragen / daß das Stiefft sich mit denen von Carlowitz vorgliechen / das Schlos Stolpen sampt der Stadt vnd Gegend gegen der Stadt Mülberg an der Elben / sampt andern <hi rendition="#aq">Cohaerenten permutirt,</hi> vnd aus Stolpen ein Fürstliches Haus vnd Ampt worden / von Churfürst Augusten auch das Schlos statlichen <hi rendition="#aq">renovirt,</hi> vnd recht zur Fürstlichen Residentz gewidmet.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXV.</hi><lb/>
+Moritzburg.</head><lb/>
+<p><hi rendition="#in">I</hi>St ein newes Schlos vnd Jagthaus vnter Dreßden vnd beym Hayn gelegen / von Churfürst Moritzen aussm Grunde Fürstlichen erbawet / ligt am Friedewalde / vnnd wird von den Fürsten von Sachsen offtmals bewohnet wegen der Jagtlust / so dero Gegend angestelt.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXVI.</hi><lb/>
+<choice><sic>Falckreut</sic><corr>Kalckreut</corr></choice>.</head><lb/>
+<p><hi rendition="#in">D</hi>Ieses Haus ist in vorzeiten der von Kommerstadt gewesen / inmassen solches H. Görg von Kommerstadt Churfüst Moritzen-Cantzler vnd vornemer Raht / noch <hi rendition="#aq">Anno</hi> 1559. besessen / daselbsten
+<pb facs="#f0024" n="23"/>
+auch gestorben / durch Churfürst Christian den Ersten / aber hinwieder mit Gelde abgelöset / vnd mit statlichen Gebewden vnnd Fürstlichen Hofflager versehen / wird des Orts wegen sonderer guter Triefften vnd Gelegenheiten eine Pferdestruth gehalten / vnd viel junge Pferde allerhand Art erzogen.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXVII.</hi><lb/>
+Zabelutz.</head><lb/>
+<p><hi rendition="#in">I</hi>Nmassen auch das Schlos Zabelutz hiezuuorn vnd lange Jahr der Pfluge Erbsitz gewesen / ingleichen durch Churfürst Christian Caspar Pflugen jetzo zu Gauernitz mit Gelde abgelöset / vnd zur Fürstlichen Residentz gewidmet / auch mit sondern newen vnd statlichen Stallgebewden versehen / Darunter dann vnd an der Elben das Haus Seuselitz vnd Hirschstein / jetzo den Pistoriussen zustendig / gelegen / welche Heuser in vorzeiten Fürstliche Residentze / inbesondern der Hirschstein gewesen / dann daselbsten / wie in <hi rendition="#aq">Chronicis</hi> gelesen wird / Marggraff Friederich <hi rendition="#aq">Didrici</hi> des Weisen Sohn / <hi rendition="#aq">Anno</hi> 1291. <hi rendition="#aq">residirt,</hi> vnd jhme in Kirschen vergeben worden / vnd zu Suselitz / so hernacher zum Nonnenkloster gewidmet / begraben worden / Sind beyde Heuser jetzo wol erbawet / vnd der Hirschstein derer von Haubitz / Seuselitz aber lange Jahr der Pistoriussen gewesen / inmassen dann Herr Simon <hi rendition="#aq">Pistorius</hi> Churfürstlicher Sächsischer Cantzler vnd Raht / solches zum ersten aus Gnaden erhalten / vnnd auff seinen Stamm gebracht / darbey es auch bißanhero verblieben.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXVIII.</hi><lb/>
+Hayna.</head><lb/>
+<p><hi rendition="#in">D</hi>Aselbsten auch jederzeit ein Fürstlicher Residentz gewesen / inmassen der hohe vierkandichte Thurn sampt andern <hi rendition="#aq">Ruderibus</hi> dauon noch zu sehen / Inbesondern Marggraff Friedrich <hi rendition="#aq">Fortis</hi> daselbsten gerne hausirt / auch vor sein fürnembstes Hofflager gehalten.</p></div>
+<pb facs="#f0025" n="24"/>
+<div n="2"> <head><hi rendition="#aq">XXIX.</hi><lb/>
+Hohebucke.</head><lb/>
+<p><hi rendition="#in">O</hi>B dieses ein altes Haus / ist vnwissend / vom Churfürst Augusto aber zum Jagthaus gewidmet / vn&#x0303; mit newen Gebewden versehen / ligt im Ampt Schlieben / vnd fast an der Grentze / des gleichen Namens auch eines an der Elben vor alten Jahren / wo aber / ist vnwissend / gelegen gewesen sol / so jederzeit vor eine der Sachsen wolverwarte Festung gehalten / vnd setzet <hi rendition="#aq">Albinus</hi> in seinem Meißnischen <hi rendition="#aq">Commentario,</hi> daß solche Festung von den Viltzer Wenden <hi rendition="#aq">Anno</hi> 810. eröbert / vnd zu grunde eingerissen / vom <hi rendition="#aq">Carolo Magno</hi> aber hinwieder erbawet / dauon aber keine <hi rendition="#aq">vestigia</hi> mehr verhanden.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXX.</hi><lb/>
+Senfftenberg.</head><lb/>
+<p>ISt fast ein Grentzhaus nach der Laußnitz / vnd vmb vnd vmb mit Wendischen Dörffern vmbgeben / vom Churfürst Moritzen von Sachsen anfenglichen erbawet / vnd insonderheit gezieret / Ob daselbsten zuuor eine alte Schlosstat gewesen / dauon ist keine Gewisheit verhanden.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXXI.</hi><lb/>
+Radeberg.</head><lb/>
+<p><hi rendition="#in">I</hi>Ngleichen von diesem Schlos Radeberg / so auch durch Churfürst Moritzen mit sondern newen Gebewden gezieret / vnnd beyde zu Emptern gewidmet / sind vorneme Grentz vnd Fürstenheuser.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXXII.</hi><lb/>
+Libenwerdaw.</head><lb/>
+<p><hi rendition="#in">S</hi>Chlos vnd Ampt in der Chur Sachsen / vnd an der Grentze gelegen / Ist ein altes Haus daselbsten gestanden / so durch die von Rammelshain einem alten vn&#x0303; abgegangenem Adelstand / bewonet /
+<pb facs="#f0026" n="25"/>
+vnd weil solche sich des Stegereiffs genehret / vnd allerhand Klagen von den Preßlauischen vnd Schlesischen Kauff vnd Fuhrleuten einkommen / sind die Churfürsten von Sachsen Anhaldischen Stams als Lehnherren / vnd inbesondern Churfürst Rudolph der Dritte / <hi rendition="#aq">Anno</hi> 1384. verursacht worden / Sicherheit den Fürreisenden zu schaffen / sie darauff verwarnet / vnd da solche nicht ablassen wollen / des Orts gentzlichen auszusetzen gedräwet / inmassen jhnen auch das Haus feil gemacht / vnd andere örter verwiesen / darauff das Schlos eingenommen / vnd zum Fürstlichen Lager versehen / auch darauff eine Stadt darbey angelegt / da zuuorn nur wenige vnd etliche <hi rendition="#aq">Diversoria</hi> vnd Gastheuser vnterm Schlos dabey gelegen / vnd die Stadt mit Sicherung vnd Freyheiten / auch Gerichten versehen. Nach dem aber vnd als der Letzte in diesem Anhaldischen Geschlecht vnd Churfürst <hi rendition="#aq">Albertus III.</hi> mit Tode ohne Erben abgangen / vnnd die Chur dem Marggräffischen Stam von Meissen / vnd <hi rendition="#aq">Friderico Bellicoso</hi> zukommen. Ist dieses Schlos sampt Stadt vnd etliche Dörffer desselben hinterlassenen Witwen / vnnd Frawen Offkam / einer Schlesischen Fürstin / vnd Hertzog Conraden von der Olß Tochter / <hi rendition="#aq">ex pacto dotalitio</hi> eingereumet / welche dan&#x0303; auff solchem Schlos fast ein Klosterleben geführt / inmassen noch bey Mannes Gedencken die Cellen vnnd Capell daselbsten noch zu sehen gewesen / der Stadt viel gutes bewiesen / vnnd diese Gnade erzeit / daß sie solcher zu jhrem Abzug vnd Gedechtnis (dann sie hernacher hinwieder von Fürst Georgen dem Schwartzen von Anhalt geheyrahtet) das Holtz / jetzo den Bürgerpusch genant / dann die Luckische Wiese / Item / die Frawenwiese / dann ein Forwerg / Kloitzschdorff genant / zusampt dem Ackerbaw vnd zugehörigem Wiesenwachs / als auch der freyen Fischerey auff der Elster / mehr / mit etlichen Zinsen aus den Fleischscherren aus Gnaden erblichen vnd vnwiederrufflichen verschrieben vnd geeignet. Nach derer Abzug wiederumb Stadt vnd Schlos zur Chur geschlagen / inmassen dann die Churfürsten <hi rendition="#aq">Fridericus III. Sapiens,</hi> Item / Johan dessen Bruder / vnd Johan Friederich sein Sohn / alle Churfürsten / gerne des Orts wegen der Jagtlust / sich enthalten / So wol Churfürst <hi rendition="#aq">Augustus</hi> auch die alten Schlosgebewde gentzlichen aussm Grunde erhoben / vnd zu einem Fürstlichen Lager allerding zierlichen auffbringen lassen.</p> <p>Den Namen des Schlosses vnd der Stadt wollen etliche <hi rendition="#aq">Scriptores</hi> dannenhero <hi rendition="#aq">deriviren,</hi> daß solcher beyden von der <hi rendition="#aq">Specula</hi> oder Wartta / so noch heut bey tage auff der Schlosstete / vnnd mitten im Hofe auffgeführt zu sehen / zugelegt / vnd Lubbwarth / das ist / Hohewarttha heissen sol / wie dann auff Wendisch das Wort Lubbe / hoch ausgelegt wird / auch dieses Wort in den alten Brieffen also / vnnd Lubbewarth
+<pb facs="#f0027" n="26"/>
+geschrieben befunden wird. Andere wollen die Deutung auff recht Deutsch geben / vnd Libenwerdaw / <hi rendition="#aq">quasi</hi> ein guter oder lieber Anger auslegen / so ich an seinen Ort stelle / vnd zwar wolte ich mir die erste Deutuung / weil die <hi rendition="#aq">Vestigia</hi> des Thurms / oder der Warthen / dauon dann noch vnter dem gemeinen Mann vor Alters ein Sprichwort auskommen / wegen dessen / daß es vor alten Zeiten da fürüber nicht sicher zu reisen gewesen / da man gesagt / Weren wir der hohen Warth hinweg / alsdann wir hetten sichern Steg / noch verhanden / vor der andern / so vbel dero Gegend zu beweisen / gefallen lassen.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXXIII.</hi><lb/>
+Torgaw.</head><lb/>
+<p><hi rendition="#in">S</hi>Chlos vnd Ampt gar vhralter <hi rendition="#aq">Originis,</hi> dann obwol Nachrichtung verhanden / daß <hi rendition="#aq">Anno</hi> 960. Torgaw nur ein kleines Dörfflein von lauter Fischerheuslein gewesen / dauon dann noch die Fischergasse verhanden / Hat doch bald darauff die Stadt sehr zugenommen / also daß es zur sondern Graffschafft gediehen / inmassen dann deroselben Graffen noch <hi rendition="#aq">Anno</hi> 1342. daselbsten zweene residirende <hi rendition="#aq">Lutholdus</hi> vnnd <hi rendition="#aq">Iohannes,</hi> in den <hi rendition="#aq">Annalibus nominirt</hi> werden / denen durch Keyser <hi rendition="#aq">Adolphum Nassaviensem,</hi> so mit dem Marggraffen von Meissen <hi rendition="#aq">Friderico</hi> vnd <hi rendition="#aq">Tizemanno</hi> schwere Kriege geführt / diese Stadt vnd zwar die gantze Graffschafft entzogen / welche sich hernacher vnd nach gestilten Kriegen / vnter der Marggraffen Schutz vnnd Gebiet gegeben / zumal weil bald darauff die Graffen ohne Erben mit Tode abgangen / vnd daß solche Graffen dem Schlos vnd der Stadt einen Anfang gegeben / ist kein zweiffel / hernacher aber durch die Fürsten von Sachsen / so gerne des Orts <hi rendition="#aq">residirt</hi> in vielen verbessert / dann <hi rendition="#aq">Anno</hi> 1491. die Brücke vber der Elben durch Hertzog Ernsten vnd Albertum Gebrüdere / erstlichen angelegt / inmassen auch an dem Schlos durch sie gegen dem Abend grosse Verbesserung geschehen / dann durch Churfürsten Fridrichen vnd Johan Gebrüdern / ingleichen ausgefürt vnd vollnbracht / wie dan&#x0303; auch Churfürst Johan Friederich die andern beyde Theil am Schlos gegen Morgen vnnd Mittage aussm Grunde gar new vnd prechtig erhoben / vnd das Schlos allerding <hi rendition="#aq">An.</hi> 1535. auff die Mas / wie es jetzo zu sehen / <hi rendition="#aq">absolvirt,</hi> dessen gleichen in diesen Landen ausser Dreßden nit zu befinden ist / die Schloskirche D. Luther eigner Person <hi rendition="#aq">Anno</hi> 1536. eingeweihet / vnd die erste Predigt gethan /
+<pb facs="#f0028" n="27"/>
+Ist auch vorgewesen / daß der Churfürst sein Begrebnis dahin legen wollen / wenn nicht leider ein Vnfall sich <hi rendition="#aq">Anno</hi> 1547. da der Churfürst vom Keyser <hi rendition="#aq">Carolo V.</hi> geschlagen / gefangen / vnnd der Chur benommen / sich zugetragen.</p> <p>Den Namen Torgaw sol es haben nach Wendischer Sprach <hi rendition="#aq">à Lucerna,</hi> von einer Leuchte / <hi rendition="#aq">inde quod in illustri loco posita sit tanquam Lucerna seu Specula totius Regionis.</hi> Das Schlos aber sol Hartenfels heissen / darumb daß es allerding auff einen Steinfels <hi rendition="#aq">fundirt</hi> vnd erbawet / wird jederzeit bawlichen vnnd im guten Stande erhalten. Ist ein recht Fürstliches ja fast Keyserliches Haus / inmassen es <hi rendition="#aq">Carolus V.</hi> Keyser also getaufft.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXXIV.</hi><lb/>
+Weidenhayn.</head><lb/>
+<p><hi rendition="#in">I</hi>ST ein Fürstliches Jagthaus / vor langen Jahren darzu erbawet vnd gewidmet / auch nochmals in gutem <hi rendition="#aq">Esse</hi> erhalten. Inmassen auch</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXXV.</hi><lb/>
+Sitzeroda.</head><lb/>
+<p><hi rendition="#in">S</hi>O zwar vor Alters ein Kloster <hi rendition="#aq">Benedictiner</hi> Ordens gewesen / hernacher auch zu einem Fürstlichen Jagtlager verordnet / vnnd durch Churfürst Augusten mit sondern Fürstlichen Gebewden versehen / ligen beyde im Ampt Torgaw / werden auch daraus bestellet / vnd ligen beyde im Holtz / vnd sind darbey Dörffer erbawet.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXXVI.</hi><lb/>
+Lichtenberg.</head><lb/>
+<p><hi rendition="#in">I</hi>ST vor alten Zeiten ein Antoniter Hoff vnnd Kloster gewesen / von sondern Gebewden vnd Einkommen / jetzo aber vnnd durch Churfürsten Augusti Gemahl / Fraw Anna / geborne Königin aus Dennemarck / zu einem Fürstlichen Haus vnnd Forwerg gewidmet / vnd mit sondern statlichen Schlosgebeuden versehen / Ligt an dem
+<pb facs="#f0029" n="28"/>
+Städtlein Pretien nicht weit von der Elben / auff einem fruchtbarlichen vnd genieslichen Boden zur Viehezucht vnd allerhand Nützungen angerichtet.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXXVII.</hi><lb/>
+Annaburg.</head><lb/>
+<p><hi rendition="#in">I</hi>N vorzeiten ein altes Jagthaus vnd Lochaw geheissen / jedoch ein sonderes Ampt / Ingleichen <hi rendition="#aq">Anno</hi> 1579. von Churfürsten <hi rendition="#aq">Augusti</hi> Gemahl / Fraw Anna / aussm Grunde gar new vnd prechtig erhoben / daß es numehr vor ein Fürstliches Haus wol zu halten / vnd von jhr / als der <hi rendition="#aq">Fundatrice</hi> den Namen Annaburg erlanget / ligt im Holtz / nicht weit von der Schweinitz / dem Ampt vnnd Städlein / allda nicht vorlengsten ein vornemes Jagthaus / so durch Churfürst Ernsten <hi rendition="#aq">Anno</hi> 1486. gantz prechtig erhoben vnd <hi rendition="#aq">renovirt,</hi> auch gestanden / aber wegen des Hauses Annaburg <hi rendition="#aq">desolirt,</hi> vnd der Abraum an Steinen vnnd andern dahin <hi rendition="#aq">transferirt.</hi> Ist das Haus allda Churfürst Rudolphen von Sachsen des Geschlechts von Anhalt / <hi rendition="#aq">Anno</hi> 1406. zween Söhne mit einem alten Thurm bey Nacht verfallen / vnnd sampt andern sechs Personen / Knaben vom Adel / vnd dem <hi rendition="#aq">Praeceptori</hi> erschlagen. Item / Churfürst Johans <hi rendition="#aq">Anno</hi> 1532. verstorben / Wie dann auch Churfürst <hi rendition="#aq">Albertus</hi> der Letzte im Anhaldischen Stamme zur Lochaw in Fewersnöhten geraten / daß er bald darauff aus Erschreckens vnd andern zufallenden Kranckheiten / ohne Erben mit Tode abgangen / vnnd Churfürst <hi rendition="#aq">Fridericus Sapiens,</hi> so die <hi rendition="#aq">Vniversitet</hi> Wittenberg <hi rendition="#aq">fundirt,</hi> allda <hi rendition="#aq">Anno</hi> 1525. verstorben / vnnd alle zu Wittenberg in der Schloskirchen begraben ligen / daß also beyde örter wol vor <hi rendition="#aq">ominosa</hi> zu halten.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXXVIII.</hi><lb/>
+Mülberg.</head><lb/>
+<p><hi rendition="#in">A</hi>N der Elben gelegen / ist in vorzeiten eine sondere Herrschafft gewesen / vnd den H. Bircken von der Tauba zugestanden / die es noch <hi rendition="#aq">Anno</hi> 1492. besessen / vnnd endlichen von den Fürsten von Sachsen abgelöset / vnnd zu einem sondern Ampt gewidmet / <hi rendition="#aq">Anno</hi> 1556. aber dem Stifft Meissen das Kloster vnnd die Stadt sampt dem
+<pb facs="#f0030" n="29"/>
+Schlos Dreßkaw vnnd der Stadt Belgern / an stat des Hauses vnd Ampt Stolpen eingereumet / Als aber hernacher der letzte Bischoff Johan von Haubitz vom Stifft abgetretten / vnnd sich verheyratet / auch auff Mögeln allerding auff sein Leben vorwiesen / ist alles hinwieder dem Ampt heimgefallen / da dann das Schlos von Churfürst Augusten statlich <hi rendition="#aq">renovirt</hi> vnd verbessert. Dreßka aber das Schlos vnter Mülberg / einem wolverdienten vom Adel / <hi rendition="#aq">Stellano</hi> von Holtzendorff aus der Marck / vnd Sächsischem alten Diener / aus Gnaden erblichen geeignet. Dieses Schlos Dreßka sol ein altes Burgwardum vnd Keyserliches Haus seyn / von <hi rendition="#aq">Ludovico Pio Caroli Magni</hi> Sohn zum Schutz wider die Sachsen / Böhmen vnd Sorben Wenden angelegt / Andere wollen die <hi rendition="#aq">Fundation</hi> dieses Hauses <hi rendition="#aq">Carolo</hi> dem jüngern zulegen / so auch Belgern erbawet / vnnd seinen Hoff vnd Winterlager zu etlich malen allda gehalten / auch den Roland dahin gesetzt haben / vnnd wird dafür gehalten / daß Belgern vnnd Zwickaw die eltesten Städte in Meissen seyn sollen / Inmassen dann daselbsten auch ein altes Schlos gestanden / so nach der Stadt Namen / Weissenberg genennet / vnnd jtzo denen von Drandorff der Stadt keufflichen zukommen. Das Kloster daselbsten in Mülberg <hi rendition="#aq">Virginum Cistertiensium,</hi> sol ein altes Stiefft / vnd von Marggraff Diderichs von Meissen Gemahl Jutta oder Juditha / <hi rendition="#aq">Anno</hi> 1219. <hi rendition="#aq">fundirt</hi> seyn / inmassen noch vor weniger Zeit jhr Bildnis daselbsten zu sehen gewesen.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XXXIX.</hi><lb/>
+Mögelen.</head><lb/>
+<p><hi rendition="#in">S</hi>Chlos vnd Stadt ist dem Stifft Meissen <hi rendition="#aq">incorporirt</hi> gewesen / inmassen es noch dem letzten Bischoff Johan von Haubitz auff sein Leben gelassen / der auch daselbsten verstorben / vnnd das Schlos / so den Namen Kugethal vor Alters vnnd <hi rendition="#aq">Anno</hi> 1261. gehabt / vnd von Bischoff Alberten des Geschlechts von Motzschen zum ersten erbawet / mit sondern zierlichen Gebewden <hi rendition="#aq">renovirt,</hi> vnd statlichen verbessert / jetzo der Fürsten von Sachsen Amptshaus.</p></div>
+<pb facs="#f0031" n="30"/>
+<div n="2"> <head><hi rendition="#aq">XL.</hi><lb/>
+Eylenburg.</head><lb/>
+<p><hi rendition="#in">V</hi>Or Alters Ilenburg von <hi rendition="#aq">Ilone</hi> oder <hi rendition="#aq">Ilba,</hi> einem sondern Graffengeschlecht <hi rendition="#aq">fundirt,</hi> inmassen es dann jederzeit ein sondere Herrschafft gewesen / vnd <hi rendition="#aq">Anno</hi> 1127. an die Marggraffen von Meissen erstlich kommen / da es auch hernacher hinwieder von dem Stamm auff andere geraten / durch Marggraff Wilhelm / den man <hi rendition="#aq">Coclem</hi> vnnd Eineugigten genant / <hi rendition="#aq">Anno</hi> 1395. hinwider eingelöset / Von der Zeit an dann diese Herrschafft jederzeit beym Hause Sachsen geblieben / vnd das Schlos so Miltenaw vor Alters geheissen / zweiffels ohn / von dem vorfliessenden Wasser der Milden / vmb ein statliches verbessert vnd erweitert / also daß es wol vor ein Fürstenhaus bestehen thut / wird daselbsten ein sonderes Ampt gehalten. Im deutschen Kriege vnd <hi rendition="#aq">Anno</hi> 1547. ist diese Stadt sampt Leißnick vnd Colditz vom König Ferdinand als Böhmisch Lehn vor die Vnkosten eingezogen / so durch eine sondere <hi rendition="#aq">Transaction</hi> durch Churfürst Moritzen gegen dem Fürstenthumb Sagen / Pribas vnd Camberg hinwieder eingelöset / weil es fast mitten im Lande gelegen / so aber fast ein vngleicher Wechsel gewesen / jedoch damals nicht viel dawieder zu handeln. Vnter solchem Schlos ligt das vhralte feste Haus Grunna / so der Sorben Wenden starkes <hi rendition="#aq">Propugnaculum</hi> vnd Heuptschlos <hi rendition="#aq">Anno</hi> 927. allbereit gewesen / vnd durch Keyser <hi rendition="#aq">Heinricum Aucupem</hi> eröbert vnd zerstöret / vnd aus der vornemen Stadt ein Dorff gemacht / jetzo den Spiegeln einem Adelgeschlecht zustendig.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XLI.</hi><lb/>
+Wurtzen.</head><lb/>
+<p><hi rendition="#in">I</hi>ST vor Alters ingleichen eine sondere Herrschaft gewesen / vnnd <hi rendition="#aq">Anno</hi> 985. dem Stifft Meissen nach Absterben Graffen <hi rendition="#aq">Esiconis</hi> des Letzten / so keine Erben gelassen / durch Keyser Otten dem Dritten zugeschlagen. Andere <hi rendition="#aq">Historici</hi> setzen nur von jhm <hi rendition="#aq">confirmirt,</hi> vnd durch Volckhulden dem andern Bischoff von Meissen / beneben Bichen / Bauchen / Lubenitz vnd Gerischo jetzo Groitz erkaufft / vnd der Thumb als eine <hi rendition="#aq">Collegiata Ecclesia Cathedralis Ecclesiae Misnensis</hi> von <hi rendition="#aq">Hervvigo</hi> dem Andern / in der Ordnung Bischoffen <hi rendition="#aq">Anno</hi> 1112 <hi rendition="#aq">fundirt,</hi> Das Schlos aber daselbsten erstlichen durch Bischoff
+<pb facs="#f0032" n="31"/>
+Johan von Saalhausen <hi rendition="#aq">Anno</hi> 1497. angelegt / vnd aussm Grunde erbawet / welcher auch in willens gewesen / die Stadt zu erweitern vnnd die Wentzelskirche mit in die Ringmauer zu beschliessen. Jetzo numehr nach dem der Bischoff Haubitz allerding abgetretten / zu einem Fürstenhaus vnnd sonderes Ampt gewidmet / doch wird daselbsten noch eine sondere stifftische Regierung gehalten.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XLII.</hi><lb/>
+Mutzschen.</head><lb/>
+<p><hi rendition="#in">I</hi>ST ein altes Haus / denen von Starscheddel zustendig gewesen / so nochmals jetzo darbey vnd auff Kannewitz gesessen / vnnd gegen andern Gütern verwechselt / zum theil auch mit barem Gelde abgelegt / von Churfürst Augusten eingelöset / vnnd zu einem sondern Ampt gewidmet. Vor alten Zeiten sol allda ein sonderes Geschlecht vnd Herrenstandes daselbsten die von Mutzschen <hi rendition="#aq">residirt</hi> haben / so aber ohne Erben abgangen / vnd das Kloster daselbsten <hi rendition="#aq">Servorum Mariae fundirt,</hi> Das Schlos wird in gutem bewlichen Stand erhalten / darbey dann das Jagthaus Wernßdorff gelegen / ist der Ort von Jagten vnd anderer Herrenlust namhafft / inbesonders von herrlichen Teichen / so wol auch einem austreglichen Ackerbaw vnnd guter Viehezucht.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XLIII.</hi><lb/>
+Grimb.</head><lb/>
+<p><hi rendition="#in">D</hi>As Schlos daselbsten ist auff zween vnterschiedene Sitz vor Alters erbawet / inmassen dann die Fürsten von Sachsen gerne des Orts / vnd inbesonders Churfürst Friederich <hi rendition="#aq">Placidus residirt,</hi> allda dann auch Hertzog Ernst vnd <hi rendition="#aq">Albertus</hi> Gebrüdere jung worden / so sich des Orts auch gerne enthalten / Ist ein altes Gebewde / vnnd der viereckichte Thurm darinnen durch Marggraff Wilhelm den Ersten / erbawet / der dann zum meisten allda Hoff gehalten.</p> <p>Man wil auch wol sagen / daß Keyser <hi rendition="#aq">Heinricus Auceps</hi> daselbsten zu demmal <hi rendition="#aq">residirt,</hi> vnnd sich gestercket / als er die Hungern vor Merseburg vberfallen vnnd geschlagen / inmassen dann vor wenig Jahren bey dem Dorff Grosse Barda / dessen silbern Müntz /
+<pb facs="#f0033" n="32"/>
+so dessen Bildnis in der Rechtenhand einen Vogel haltend / <hi rendition="#aq">repraesentirt</hi> gefunden worden. In diesem Schlos dann auch der erste Fürstliche <hi rendition="#aq">Conventus Anno</hi> 1288. gehalten / vnd ein Verbündnis gemacht / die grassirenden Reuber vnd Beuähdere zu dempffen / einander wider jhre Feinde Beystand zu leisten / jetzt wird es die Erbvorbrüderung genennet zwischen den Heusern Sachsen / Hessen vnd Brandenburg / so gemeiniglich zur Naumburg <hi rendition="#aq">renovirt</hi> wird.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XLIV.</hi><lb/>
+Pleissenburg.</head><lb/>
+<p><hi rendition="#in">D</hi>As Schlos zu Leipzig also genant / zur Landesfestung mehr als zur Zier vnd Wohnunge zugerichtet / wiewol es auch dermassen mit Fürstlichen Gebewden versehen / daß es zu rühmen / Hat den Namen von dem Wasser die Pleissa / so darbey fliessen thut. Churfürst <hi rendition="#aq">Augustus</hi> hat auff diese Schlosfestung ein statliches vnnd vber eine Tonne Goldes auffgewendet / Ist auch dermassen mit <hi rendition="#aq">Munition,</hi> Kraut vnd Loth versehen / daß es wol vor eine Festung bestehet / vnnd austauren könne / werden daselbsten fort vnd fort 30. Soldaten sampt einem Heuptman zur Wache vnterhalten / ist sonsten gar ein altes Gebewde vor dessen jederzeit des Orts gewesen / dann in Historien gelesen wird / daß <hi rendition="#aq">Anno</hi> 945. Graff Günther von Pleissen des Orts allbereit <hi rendition="#aq">residirt,</hi> vnnd die drey Schlösser / Pleissenburg / Aldenburg vnnd Skeuditz erbawet / hat die Zeit vnd lang hernach vnter die Graffschafft Merseburg gehöret / biß daß solche endlichen mit Graff Isacio oder Esico dem letzten <hi rendition="#aq">Anno</hi> 1007. abgangen / vnd hernacher eine Zeitlang / vnd biß auffs Jahr Christi 1134. vnter dem Stifft Merseburg gewesen / vnd dann von Marggraff Otten / Conrads Sohn / mit andern Schlössern vnd Gütern vorwechselt / zum Marggraffthum Meissen geschlagen / Dieser dann auch den alten Flecken Liptz mit Mauren vmbziehen lassen / vnd also damals zur Stadt ein Anfang gemacht / von deme es dann auch die Fürstlichen <hi rendition="#aq">Insignia</hi> erlangt / jedoch mit andern Farben zum Vnterscheid vermenget / hernach die succedirenden Marggraffen / dann die Chur vnd Fürsten von Sachsen ein jeder das seine bey dieser Stadt vnd dero Gegend gethan / biß daß solche zu einem solchen Stand kommen / wie es Gott lob zu sehen / vnd ist sonderlich die Festung am Schlos wegen der Märckte / vnd zum Schutz der frembden Handelsleute angelegt. In dero Gegend dann auch die vhreltesten beyde Schlosgebewde gelegen / Als</p></div>
+<pb facs="#f0034" n="33"/>
+<div n="2"> <head><hi rendition="#aq">XLV.</hi><lb/>
+Landesberg vnter Hall / vnd Groitzsch<lb/>
+bey Pegaw.</head><lb/>
+<p><hi rendition="#in">W</hi>Elches erst von <hi rendition="#aq">Diterico III. Anno</hi> 1165. erbawet vnd besessen / jetzo aber gantz <hi rendition="#aq">desolirt,</hi> vnnd wird des Orts mehr nicht als die alte Capell zum Gedechtnis / darinnen eine Marmorseule / so gantz spiegelicht / vnd darauff das Gewelbe im Chor ruhen thut / zu sehen / erhalten. Ist vor Alters ein sonders grosses Bergschlos gewesen / starck befestiget / darumb es dann auch <hi rendition="#aq">desolirt,</hi> vnnd bißanhero vnerbawet gelassen / Inmassen auch das ander vnd Groitzsch vor Alters ein vornemes <hi rendition="#aq">Propugnaculum,</hi> vnnd Graff Wiprechts des Eltern / Hauptschlos / jetzo gantz <hi rendition="#aq">desolat</hi> zusehen / wird auch wol also vorbleiben / jedoch bleiben die beyde Herrschafften vor sich / vnd werden deroselben Regalien in der Marggraffen von Meissen vnnd Hertzogen von Sachsen Fahnlehn gebraucht vnd geführt / vnter denen Petersberg / dann auch die beyde sondere Herrschafftsheuser / Als</p>
+</div> <div n="2"> <head><hi rendition="#aq">XLVI.</hi><lb/>
+Zörbigk.</head><lb/>
+<p><hi rendition="#in">J</hi>Etzo noch etlicher massen erbawet / vnnd ein sonderes Churfürstliches Ampt / Dann</p>
+</div> <div n="2"> <head><hi rendition="#aq">XLVII.</hi><lb/>
+Wettien.</head><lb/>
+<p><hi rendition="#in">S</hi>O denen von Krossig einem Adelsgeschlechte zustendig / sind beyde Heuser von Alters hero berühmbt / vnd in der Marggraffen von Meissen / vnd Fürsten von Sachsen Fahnlehen.</p> <p>Wann nun das Meißner / Oster vnnd Pleißnerland <hi rendition="#aq">absolvirt,</hi> müssen wir auch zur Chur Sachsen schreiten / ehe wir das Landgraffthumb Thüringen vor die Hand nemen / Vnter denen dann:</p></div>
+<pb facs="#f0035" n="34"/>
+<div n="2"> <head><hi rendition="#aq">XLVIII.</hi><lb/>
+Wittenberg.</head><lb/>
+<p><hi rendition="#in">W</hi>Ittenberg das Heuptschlos von <hi rendition="#aq">Wittichindo II. Anno</hi> 812. <hi rendition="#aq">alii</hi> 779. erstlichen angelegt / hernacher von Churfürst <hi rendition="#aq">Bernhardo II. Alberti Vrsi</hi> Sohn Anhaldischen Stammes <hi rendition="#aq">Anno</hi> 1147. erweitert / vnd mit Wallen / Gräben vnnd Mauren befestiget / dann die Stadt ingleichen mit Mauren bezogen / von Churfürsten <hi rendition="#aq">Alberto I. Item II.</hi> dann <hi rendition="#aq">Rudolpho I. &amp; II. Wenceslao I.</hi> vnd <hi rendition="#aq">Rudolpho III.</hi> allen Churfürsten Anhaldischen Stammes / auff die Mas / wie zu sehen / erweitert vnd verbessert / welche auch allesampt jhr Begrebnis des Orts in der Franciscaner Klosterkirchen / so jetzo zum Kornhaus gewidmet / vnd derer <hi rendition="#aq">Ossa</hi> in die Schloskirche <hi rendition="#aq">transferirt,</hi> sampt den jhren gehalten. Von Churfürsten <hi rendition="#aq">Friderico III.</hi> aber / <hi rendition="#aq">Sapienti</hi> genant / so die <hi rendition="#aq">Vniversitet</hi> daselbsten <hi rendition="#aq">Anno</hi> 1502. angelegt / in ein sondere newe Form / mit schönen Thurnen vnnd Erckern gebracht / darzu dann auch die schöne Schloskirche <hi rendition="#aq">Anno</hi> 1518. aussm Grunde auff die Mas gantz zierlichen vnd prechtig erbawet / inmassen die Vberschrifft vber der Kirchenthür mit diesen Worten dessen Anzeigunge gibt: <hi rendition="#aq">Domini Friderici Ducis Saxoniae S. R. I. &amp; ejusdem Caesareae Majestatis Archimarschalli Electoris &amp; Locumtenentis generalis Landgr. Thuringiae &amp; Marchionis Misniae Structura Anno 1518. absoluta, pro Domus Saxonicae salute &amp; posterorum incolumitate in Dei Opt. Max. laudem inchoata.</hi> Welcher ingleichen seine Fürstliche <hi rendition="#aq">Sepulturam,</hi> sampt seines Brudern Churfürst Johans / in der Schloskirchen daselbst anordnen lassen / Vnd zwar wenn man die jetzigen Schlosgebewde sampt dero Kirchen / vnnd dann die gantze <hi rendition="#aq">Structura</hi> der Stadtfestunge recht ansehen vnd erwegen wil / ist zu bekennen / daß dergleichen im Lande ausser Dreßden vnd zum theil Torga an den Schlosgebewden nicht zu finden / die Festung auch also angelegt / daß man derselben leichtlichen ausser Gottes Gewalt nicht beykommen könne / vnd vor einem zimlichen starcken Anlauff mit allen <hi rendition="#aq">Requisitis</hi> wol versehen / inmassen dann Keyser <hi rendition="#aq">Carolus V.</hi> als S. M. <hi rendition="#aq">Anno</hi> 1547. dafür gelegen / gesagt haben solle / Er müsse bekennen / diese Festung allerding vnd wol angelegt / vnnd würde noch manchen Kopff gekostet haben / wenn er solche durch Kriegesmacht hette eröbern sollen. Ist bißanhero etlicher massen erhalten / vnnd wo es nöhtig gewesen / Besserung angewendet. Vnter diesem ligt das Schlos Pretzsch / den
+<pb facs="#f0036" n="35"/>
+Lösern / Erbmarschalchn der Chur Sachsen zustendig / ein schön herrlich vnd Fürstliches Gebewde / dauon weiter in der Adelschlössere <hi rendition="#aq">Relation</hi> Bericht gethan werden solle.</p>
+</div> <div n="2"> <head><hi rendition="#aq">XLIX.</hi><lb/>
+Beltzig.</head><lb/>
+<p><hi rendition="#in">I</hi>ST ein altes Ampt vnd Grentzhaus / von Churfürst Ernsten <hi rendition="#aq">Anno</hi> 1462. auff die Form / wie jetzo zu sehen / <hi rendition="#aq">restaurirt</hi> vnd <hi rendition="#aq">renovirt,</hi> vnd in etwas inmittelst in Besserung erhalten / weil solches Schlos sampt dem Hause Rabenstein drunter gelegen / <hi rendition="#aq">Anno</hi> 1406. vom Ertzbischoff Alberto von Magdeburg gantz <hi rendition="#aq">desolirt</hi> vnd zu grunde gelegt / folgend auch in den Merckischen Kriegen allerhand Schaden empfangen / an den alten <hi rendition="#aq">Ruderibus,</hi> so wol dem runden Thurm / so mitten im Schloshoff stehet / ist zu sehen / daß es ein grosses Gebewde vor Alters müsse gewesen seyn / mit Rondelen vnnd starcken Mauren also starck vnd in der Weite vmbfangen / daß demselben mit Pflitzbogen vnd Steinwürffen / so vor Alters an stat der Büchsen gebraucht / leichtlichen nicht abzubrechen gewesen / zu dem jetzigen Ernst der Büchsen würde es keinen Bestand haben / jedoch eine zeitlang darauff sich noch auffzuhalten. Sol den Namen von Bellsitz / das ist ein Herrnsitz / haben / vnd mit dem Wort Stolpen / <hi rendition="#aq">quasi</hi> Stuhlbahn / so einen Herrnhoff bedeutet / eins seyn.</p>
+</div> <div n="2"> <head><hi rendition="#aq">L.</hi><lb/>
+Gommern.</head><lb/>
+<p><hi rendition="#in">I</hi>ST auch ein alter Sitz / so zum Burggraffthumb Magdeburg sampt Elbenaw / Plötzig / vnd derselbe Refier herumb / vor Alters vnd nochmals gehörig gewesen / jetzo aber dauon <hi rendition="#aq">exempt</hi> gemacht / vnd zur Chur Sachsen geschlagen / inmassen es dann ein sonderes Churfürstliches Ampt ist. Churfürst <hi rendition="#aq">Augustus</hi> hat dieses Schlos fast aussm Grunde / vnd von newen erhoben / vnd mit allerhand schönen Gebewden <hi rendition="#aq">Anno</hi> 1578. ziehren lassen.</p></div>
+<pb facs="#f0037" n="36"/>
+<div n="2"> <head><hi rendition="#aq">LI.</hi><lb/>
+Glücksburg.</head><lb/>
+<p><hi rendition="#in">E</hi>In Jagthaus <hi rendition="#aq">Anno</hi> 1576. gantz new von Churfürsten Augusten / zwischen den beyden Lindischen vnd Seidischen Heyden in flachen Feldern bey dem Dorff Mügeln angelegt / ist in das Ampt Seidaw geschlagen / daraus es dann auch bestellet wird / Grentzet zum theil mit den stifftischen Magdeburgischen Dörffern / anderthalb Meil von der Stad Juterbock gelegen / der Plan mit einer Ringmauren von einfachen Steinen / zum Garten angerichtet / vmbfangen / nicht sonders gros von Gebewden.</p>
+</div> <div n="2"> <head><hi rendition="#aq">LII.</hi><lb/>
+Weissenfels in Thüringen.</head><lb/>
+<p><hi rendition="#in">D</hi>As Schlos daselbsten ligt der nach der Höhe mit allerhand Gebewden zum Fürstlichen Lager zur guten Notturfft versehen / inmassen dann Churfürst Augustus / ehe er zur Regierung geschritten / daselbsten etliche Jar seinen Residentz gehalten / Ist vor Alters eine sondere vn&#x0303; alte Herrschaft gewesen / vn&#x0303; durch Marggraff Otten / Diderici Sohn / <hi rendition="#aq">Anno</hi> 1180. allbereit beherrschet / hat den Namen von dem weissen Steinbruch / so vmb vnd vmb ausser der Stadt vnd dero Gegend gebrochen werden / inmassen dann auch die Stadt drunter den Namen dauon erhalten / jetzo ein Churf. Ampt vnnd mit sondern Einkommen versehen / wie man dann sagen wil / daß dieses vnd das Ampt Aldenburg einander an Einkommen vnd Dörffern fast gleich / vnd die fürnemsten Empter im Lande sind. Das Kloster daselbsten / ist wegen der vhralten <hi rendition="#aq">Fundation</hi> beruffen / darinnen dann statliche Gebewde vor Fürstliche Personen verhanden / inmassen dann Fraw Sidonia / Churfürsten Augusten Fraw Schwester / Hertzogin von Braunschweig / darinnen jhr Leben zubracht.</p>
+</div> <div n="2"> <head><hi rendition="#aq">LIII.</hi><lb/>
+Naumburg.</head><lb/>
+<p><hi rendition="#in">D</hi>As Schlos daselbsten vor Alters Neweburg genant / ist <hi rendition="#aq">Anno</hi> 1170. von Landgraff Ludowig / so man den eisernen Landgraffen von des wegen / daß er gleich Eisenhart gewesen / vnnd was er
+<pb facs="#f0038" n="37"/>
+vorgenommen / seinen Fortgang haben müssen / zugenamet / erstlichen angelegt / von solchem dann eine gedenckwirdige Historia in <hi rendition="#aq">Scriptis referirt</hi> wird / daß zur Zeit Keyser Friederich zu diesem seinem Schwager eingekeheret / vnd als er das newe Schlos besehen / gesagt haben sol / demselben nichts als eine Mauer zur Befriedung / mangeln thete / Dem der Landgraff geantwortet / Er gar bald auch noch bey des Keysers Anwesen darzu kommen wolte / dessen der Keyser gelächelt vnd ferner gefraget / wie bald solches geschehen solte / Der Landgraff geantwortet / Auffs lengste in dreyen Tagen / Der Keyser fast abermal gehönlechelt / vnnd gesagt / das were ein vnmügliches Werck / da er auch gleich alle Werckleute in gantz Deutschland darzu auffbrechte / Darauff der Landgraff den Keyser zur Malzeit geführt / vnd inmittels Bestallunge thun lassen / das ein jeder vo&#x0303; Adel / so viel er derer vnter sich gehabt / sampt dem beste&#x0303; Kern aus den Städten mit jhrem besten Schmuck / auch jhrem Harnisch vnd besten Wehren zur Stete kommen / Vnd als solches geschehen / dieselben ringsherumb in eine Ordnung vmb das Schlos anstellen lassen / also / wo ein Thurm auffgebawet werden sollen / dahin ein Graff oder Freyherr mit einem Fendrich gestellet / vnd demselben ein Schlachtschwerdt blos in die Hand geben lassen / also alles dermassen angeordnet / vnd die Glieder in einander geschoben / daß auch bald nicht müglichen ein Hund dadurch reissen solte / Darauff nach der Malzeit den Keyser angesprochen / wofern seine Majestet die Mauer / so allbereit fertig / sehen wolte / geschehe jhm zu willen / Der Keyser solches vor einen Schertz auffgenommen / als aber der Landgraff solches betewret / vnd der Keyser sich vmbgesehen / auch das Schlos mit geharnischten Kriegsleuten allerding in guter Ordnung vmbgeben / vnnd gleichsam vermauret befunden / hat er sich drüber verwundert / vnd gesagt / Er die Zeit seines Lebens keine schönere vnd wolbestalte Mauer gesehen / dem Landgraffen vor seinen Dienst gedanckt / vnnd solches offtermals berühmet. Dieses Schlos ist jetzo gantz vnd gar niedergelegt / vnd andere Gebewde dahin <hi rendition="#aq">transferirt,</hi> auch Stadt vnd Schlos zum Stifft Zeitz geschlagen.</p>
+</div> <div n="2"> <head><hi rendition="#aq">LIV.</hi><lb/>
+Freyburg.</head><lb/>
+<p><hi rendition="#in">I</hi>St gar ein altes vnd weit vmbfangenes Bergschlos / vom Landgraff Ludowigen dem Springer / <hi rendition="#aq">Anno</hi> 1125. an der Vnstruth erbawet / jetzo ein sonderes Amptshaus / mit sondern newen vnnd
+<pb facs="#f0039" n="38"/>
+Fürstlichen Gebewden versehen / vnd durch Churfürst Augusten <hi rendition="#aq">renovirt,</hi> hat dieses Schlos zu etlich malen wegen der Belagerung / so von Keyser Friedrichen dem Ersten / geschehen / welcher diesen Landgraffen wegen dessen / daß er Pfaltzgraff Friedrichen erstochen / darauff gefangen nemen / vnd nachm Gibichenstein in die <hi rendition="#aq">Custodia</hi> bringen lassen / Schaden empfangen / vnnd also damals das Schlos zu grunde gelegt / dann von den Nachkommenden wiederumb erbawet / vnnd <hi rendition="#aq">Anno</hi> 1260. hinwieder von Keyser Adolphen von Nassaw zerstöret / dennoch hinwieder auff die Mas / wie jetzo noch zu sehen / erhoben.</p>
+</div> <div n="2"> <head><hi rendition="#aq">LV.</hi><lb/>
+Eckhardsberg.</head><lb/>
+<p><hi rendition="#in">S</hi>Chlos vnd Ampt / von Marggraffen Eckhardo dem Ersten / in Meissen vnd Thüringen <hi rendition="#aq">Anno</hi> 1013. erstlichen erbawet / vnnd nach jhm genennet / so aber hernacher vnnd noch bey seinen Zeiten hinwieder zerstöret / dann er sich grosses Dinges vnterstanden / vnnd Keyser seyn wollen / als jhm Keyser <hi rendition="#aq">Lotharius</hi> der Sachse vorgezogen / ist er denselben in allen zuwider gewesen / vnd sich auff seine Gewalt vnd festes Haus verlassen / darüber das Schlos belagert / eröbert / vnd zu grunde gelegt / er auch hernacher bey Nordheim erschlagen worden / vnd ob wol dieses Schlos hernacher durch dessen Nachkommen hinwieder erbawet / vnd in eine sondere Form vnnd schönes grosses Gebewde gebracht / hat es doch niemals keinen Bestand haben wollen / offtermals <hi rendition="#aq">desolirt</hi> vnd zerstöret / inmassen es noch heut zu tage also vnerbawet legen thut / vnd das wenigste daran nur zur Auffschüttunge des Ampts Getreidichs erhalten worden / sonsten ist das alte Gebewde an Thürmen vnd Gemeuren gantz fest.</p>
+</div> <div n="2"> <head><hi rendition="#aq">LVI.</hi><lb/>
+Sachsenburg.</head><lb/>
+<p><hi rendition="#in">A</hi>Mpt vnd Schlos in vorzeiten die Hagkenburg genennet / ist jetzo gantz wüste / vnnd nur die <hi rendition="#aq">Rudera</hi> dauon zu sehen / Sol ein sehr altes Gebewde / vnd von den Sachsen / inmassen auch Scheidingen derselben festes <hi rendition="#aq">Propugnaculum An.</hi> 534. erst erbawet seyn / vnd
+<pb facs="#f0040" n="39"/>
+solches Schlos zum ersten einem tapffern Ritter / so den Sachsen trewlichen Beygestand geleistet / vnd durch eine sonderliche Kriegslist Scheidingen die Königliche Burg vnd Stadt gewinnen helffen / eingegeben / dannenhero es den Namen die Hackenburg erhalten / sol der eltesten Heuser eines seyn / so jemals in diesen Landen gewesen / doch wil man sagen / daß das Schlos Kyffhausen vor Alters die Hartzburg genant / so jetzo auch gantz <hi rendition="#aq">desolat</hi> ligen thut / vnnd vom <hi rendition="#aq">Iulio Caesare</hi> dem ersten Römischen Keyser / vor Christi Geburt / erbawet seyn sol / Elterer Ankunfft wird die Gegend das Finnische Gebirge genennet / darbey dann auch das Schlos Beichlingen / darauff Keyser Heinrich der Vierdte / offten <hi rendition="#aq">residirt</hi> vnd solches erbawet haben sol / jetzo aber denen von Werttern zustendig / darunter dann auch Kindelbrück das vhralte Städtlein gehörig gelegen / vnd ist sich zu verwundern / wie dero Gegend vnd vmb den Hartz viel Schlösser <hi rendition="#aq">desolirt,</hi> daraus dann zu vermuten / daß dero Gegend vnnd in Thüringen grosse Kriege müssen gewesen seyn / inmassen dann auch aus den <hi rendition="#aq">Speculis</hi> vnd Warthen / so daselbsten hin vnd wieder <hi rendition="#aq">erigirt,</hi> zu sehen.</p>
+</div> <div n="2"> <head><hi rendition="#aq">LVII.</hi><lb/>
+Weissensee.</head><lb/>
+<p><hi rendition="#in">S</hi>Chlos vnd Ampt / ist auch gar ein altes Gebewde vom Landgraff Ludowig dem Eisernen / <hi rendition="#aq">Anno</hi> 1172. erstlichen angelegt / wird aber noch jetzo in gutem bewlichen Wesen erhalten / Hat den Namen von dem grossen See / so drunter gelegen / vnd nicht zu ergründen / jedoch Fischreich seyn sol / ist eine herrliche Gegend von Ackerbaw vnd Viehezucht / auch zum Fürstlichen Lager allerding bequem.</p>
+</div> <div n="2"> <head><hi rendition="#aq">LVIII.</hi><lb/>
+Langensaltza.</head><lb/>
+<p><hi rendition="#in">A</hi>Mpt vnd Schlos in vorzeiten eine sondere Herrschafft / so man die Edlen Herren von Saltza / zu Dulstadt vnd Vfhoffen / genant / Hat den Namen von dem vorlauffenden Wasser die Saltza / Ist wegen grosser Vneinigkeiten der dreyen Gebrüdere / so vmb das Jahr Christi 1343. daselbsten gesessen / vnd sich vnter das Stifft Mentz ergeben wollen / vnter die Landgraffen in Thüringen kommen / jedoch das Stifft Mentz lange Jahr den halben Theil besessen / biß endlichen solches auch abgelöset / vnd allerding Schlos vnd Stadt den Fürsten von Sachsen zukommen / die es noch besitzen thun.</p></div>
+<pb facs="#f0041" n="40"/>
+<div n="2"> <head><hi rendition="#aq">LIX.</hi><lb/>
+Sangerhausen.</head><lb/>
+<p><hi rendition="#in">S</hi>Chlos vnd Ampt / so vor Alters auch eine sondere Herrschafft vnd vnter der Hertzogen von Braunschweig Botmessigkeit gewesen / die es durch Heyraht an sich gebracht / <hi rendition="#aq">Anno</hi> 1370. aber durch einen Kauff an die Fürsten von Sachsen kommen / darbey es auch jederzeit gelassen.</p>
+</div> <div n="2"> <head><hi rendition="#aq">LX.</hi><lb/>
+Plauen.</head><lb/>
+<p><hi rendition="#in">I</hi>M Voigtlande / Stadt / Ampt vnd Schlos gelegen / ein alter Sitz der Herren Voigte von Plauen und Herren zu Gera / so dem gantzen Strich vmb Weida / Ziegenrück / Ronneburg vnd dero Gegend vnter sich gehabt / vnnd <hi rendition="#aq">Anno</hi> 1464. vnter die Fürsten von Sachsen dergestalt kommen / daß da Herr Heinrich Voigt vnd Burggraff / welchen man den Reichen wegen dessen / daß er alle vorangezeigte Güter und diese Herrschafft allein vnter sich gehabt / seine Vnterthanen zu viel Dampffs angelegt / auch drüber der Fürsten von Sachsen Leut vberzogen / ist er von Hertzog Ernsten Churfürsten zu vielmals verwarnet worden / dauon abzustehen / als aber keine Warnung helffen wollen / endlichen zur Scherffe gegrieffen / das Schlos Plauen belagert / eröbert / vnd den Herrn daraus verjagt / jedoch die Sache dahin endlichen verglichen / daß ihm eine Summa Geldes daruor ausgezalt / dauon dann die Herrschafften Drüsing vnd Engelsburg in Böhmen erkaufft / jedoch dessen Söhne noch Gera / Gretz / Kranichfeld behalten / Sol den Namen <hi rendition="#aq">à caerulea vel Cyanea valle,</hi> von plauen Thal haben / weil solche Stadt im Thal gelegen / wird sonsten die Gegend <hi rendition="#aq">Terra Advocatorum</hi> vnd <hi rendition="#aq">Praetoriana</hi> genant / vnd sol <hi rendition="#aq">Drusus</hi> der Römer diese Gegend erst bezwungen / vnnd vnter der Römer Gebiet gebracht / das Schlos erstlichen angelegt / vnd mit einem Voigt besetzt haben / inmassen die alte Schrifft vberm Thor zum Voigtsberg ausweiset / so also lauten thut:<lb/>
+<lg>         <l rendition="#aq #i">Castra locans Drusus hîc Praetoria nomina monti</l><lb/>
+<l rendition="#aq #i">Fecit posteritas servet ut illa sibi.</l>     </lg><lb/>
+Würde also die Rechnung zu machen seyn / daß diese Burg vor Christi Geburt gestanden.</p></div>
+<pb facs="#f0042" n="41"/>
+<div n="2"> <head><hi rendition="#aq">LXI.</hi><lb/>
+Voigtsberg.</head><lb/>
+<p><hi rendition="#in">A</hi>Mpt vnd Schlos gar vhralter Ankunfft / inmassen die Einwohner dero Gegend sich berühmen / daß solches als auch Schöneck / vber 300. Jar vor Christi Geburt in <hi rendition="#aq">Flore</hi> gewesen / vn&#x0303; von <hi rendition="#aq">Druso Germanico</hi> erst hernacher wiederumb vernewert / so aber alles Fabelwerck ist / An deme ist es zwar / daß dieses Schlos von alter Manier anzusehen / von den Voigten der Römischen Herrschafft erbawet / vnd viel lange Jahr in jhrer Gewalt gewesen / wie durch vorangezeigte Schrifft zu erweisen / auch die deutschen Reimen am Schlos also lautende / Anzeigung geben:<lb/>
+<lg type="poem"> <l><hi rendition="#aq">Drusus</hi> der edle Römisch Voigt</l><lb/>
+<l>Erbawet diesen Berg in Noth /</l><lb/>
+<l>Da er Kriege im Deutschland pflag /</l><lb/>
+<l>Voigtsberg heist er auff diesen Tag /</l><lb/>
+<l>Darnach ward von jhm recht genant</l><lb/>
+<l>Die Gegend / vnd heist Voigtland /</l><lb/>
+<l>Die Burg die blieb ein lange Zeit /</l><lb/>
+<l>Wie durch die Schrifft wird ausgeseit /</l><lb/>
+<l>In des Römschen Keysers Gewalt /</l><lb/>
+<l>Hernach wurde sie zugezalt</l><lb/>
+<l>Einr edlen Herrschafft lobesan /</l><lb/>
+<l>Die gwan von Voigtsberg jhrn Nam /</l><lb/>
+<l>Die Burg die Stund viel manche Jahr</l><lb/>
+<l>In jhrer Hand / ohn all Gefahr /</l><lb/>
+<l>Biß dreyzehenhundert Jahr nach Christi Geburt /</l><lb/>
+<l>Sechs vnd funfftzig / am Sontag Laurenti fuhrt /</l><lb/>
+<l>Dann ist sie an die Landesfürsten kommen /</l><lb/>
+<l>Friedrich vnd Wilhem haben sie eingenommen /</l><lb/>
+<l>Thüring / Meissen vnd Osterland</l><lb/>
+<l>Stund die Zeit alls in jhrer Hand /</l><lb/>
+<l>Die Pfaltz zu Sachsen auch dazu /</l><lb/>
+<l>Sie erhiltn den Landen Fried vnd Ruh /</l><lb/>
+<l>Gott / in welchs Händen alles steht /</l><lb/>
+<l>Wol segnen jhr <hi rendition="#aq">Posteritet.</hi></l><lb/>
+</lg> Daraus dann zu vernemen / daß zuuorn <hi rendition="#aq">An.</hi> 1356. diese Herrschafft bekrieget vnnd eingenommen / inmassen es auch die Historien geben /
+<pb facs="#f0043" n="42"/>
+daß Keyser <hi rendition="#aq">Carolus IV.</hi> denen von Plauen mit Hülff Marggraff Friedrichs bekrieget von des wegen / daß er etliche Schlösser vnd Städte zum Königreich Böhmen gehörig / Pfandweis inne gehabt / vnnd der Kron gegen ausgezelten Geldern / vorenthalten / damals dann auch die Marggraffen diese Stadt an sich gezogen / hernacher aber wieder abgehandelt / vnd erst <hi rendition="#aq">Anno</hi> 1464. zum Hause Sachsen erblichen geschlagen / Vnter diesem Ampt ligt auch die Stadt Olßnitz an der Elster / so jederzeit demselben zugethan gewesen / vnd beyde in der Hussiten <hi rendition="#aq">Direption</hi> grossen Schaden genommen / vnnd beyde allerding ausgebrandt / hernacher hinwieder auff die Form wie zu sehen / <hi rendition="#aq">restaurirt.</hi></p>
+</div> <div n="2"> <head><hi rendition="#aq">LXII.</hi><lb/>
+Weida.</head><lb/>
+<p><hi rendition="#in">E</hi>In altes Bergschlos / Ampt vnd Stadt im Voigtlande / so auch der Herren Voigte gewesen / vnd neben andern <hi rendition="#aq">Anno</hi> 1356. zu dem Hause Sachsen durch Kriegsrecht geschlagen / ist eine sondere Herrschafft jederzeit vor dessen gewesen / dann <hi rendition="#aq">Anno</hi> 1140. einer vnd Herr Heinrich / Herr zu Weida daselbsten <hi rendition="#aq">residirt,</hi> so das Kloster Miltenfort <hi rendition="#aq">fundirt,</hi> so vier Söhne / eines Namens / vnd Heinriche alle / gelassen / welche hernacher sich auff Weida / Gretz / Plauen / vnnd Gera vortheilt / vnd dauon die andere Stämme <hi rendition="#aq">propagirt,</hi> vnnd weil auch <hi rendition="#aq">Anno</hi> 1356. der letzte dieser Linien ohne Erben abgangen / ist die <hi rendition="#aq">Succession</hi> auff die Lehensfürsten geraten / vnd dargegen die Mitbelehnten auff andere Güter verwiesen.</p>
+</div> <div n="2"> <head><hi rendition="#aq">LXIII.</hi><lb/>
+Adorff.</head><lb/>
+<p><hi rendition="#in">S</hi>Ol vor Alters Hagdorff <hi rendition="#aq">quasi saltus villae,</hi> Waltdorff <hi rendition="#aq">ab Hag vel Hagen,</hi> so ein Wald bedeutet / ein sehr altes Haus vnd Stad vnter den Voigten vnd Burggraffen von Plauen / gehörig / hernacher vnter Churfürst Ernsten dem Hause Sachsen / <hi rendition="#aq">Anno</hi> 1467. zukommen / bey deme es noch bißanhero geblieben / vnd wird ausdrücklichen in Historien angezogen / daß erwenter Churfürst durch viel Vnbilligkeit dazu verursacht / den Herrn von Plauen bekriegt / vnd jhm insonderheit Plauen / Olßnitz vnd Adorff / Schlösser vnnd Städte genommen /
+<pb facs="#f0044" n="43"/>
+eröbert vnd besetzt / aus diesen sondern Vrsachen / daß des Herrn von Plauen Weib eine von Bünaw aus dem Hause Elsterburg / die Edelleut hin vnd wieder vertrieben / welche nicht weichen wollen / ausgejagt / vnd Schäffereyen angerichtet / Item / des Fürsten Vnterthanen an der Grentze angegriffen / beuähdet vnnd vbel mit jhnen handtieret / darüber die Fürsten von Sachsen zugreiffen müssen.</p> <p>Nun solten wir auch von andern Voigtländischen Städten Erzehlung thun / weil aber dieselben vnter dieser Sächsischen Herrschafft nicht gelegen / ist es eingestelt.</p> </div></div>             <div type="postface" n="1"> <head>Beschlus.</head><lb/>
+<p><hi rendition="#in">W</hi>As belanget die stifftischen Schlösser / als Merseburg / Zeitz / auch die vornemsten vnd eltesten Adelsheuser vnnd Rittersitz / sol in einem sonderlichen Buch / nach der Städte in Meissen / der Chur Thüringen / Voigtland vnd Graffschafft Hennenberg <hi rendition="#aq">Description</hi> insonderheit angezogen / vnd geliebts Gott / eingebracht werden.</p></div>         </body>     </text> </TEI>

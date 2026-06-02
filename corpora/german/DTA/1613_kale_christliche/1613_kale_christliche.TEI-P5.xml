@@ -1,0 +1,2108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Eine Christliche Leichpredigt/ Am tage der Begrebniß/ des weylandt Hochwirdigen/ Durchleuchtigen/ Hochgebornen Fürsten und Herrn/ Herrn Heinrichen Julij/ Postulierten Bischoff zu Halberstadt/ und Hertzogen zu Braunschweig und Lüneburg/ [et]c. : Welcher in der Königlichen alten Heuptstadt Prage Anno 1613. am 20. Julij ... entschlaffen</title>
+<author>
+<persName ref="http://d-nb.info/gnd/121256170">
+<surname>Kale</surname>
+<forename>Jacob</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/37-2-rhet-27s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/37-2-rhet-27s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">79</measure>
+<measure type="tokens">18800</measure>
+<measure type="types">5471</measure>
+<measure type="characters">124088</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:30:40Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Distributed under the Creative Commons Attribution-ShareAlike 3.0 Generic (German) License.</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/kale_leichpredigt_1613</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/kale_leichpredigt_1613</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/kale_leichpredigt_1613</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/kale_leichpredigt_1613</idno>
+<idno type="DTADirName">kale_leichpredigt_1613</idno>
+<idno type="DTAID">30074</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30074-1</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Kale, Jacob: Eine Christliche Leichpredigt/ Am tage der Begrebniß/ des weylandt Hochwirdigen/ Durchleuchtigen/ Hochgebornen Fürsten und Herrn/ Herrn Heinrichen Julij/ Postulierten Bischoff zu Halberstadt/ und Hertzogen zu Braunschweig und Lüneburg/ [et]c. : Welcher in der Königlichen alten Heuptstadt Prage Anno 1613. am 20. Julij ... entschlaffen. Goslar, 1613.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Eine Christliche Leichpredigt/ Am tage der Begrebniß/ des weylandt Hochwirdigen/ Durchleuchtigen/ Hochgebornen Fürsten und Herrn/ Herrn Heinrichen Julij/ Postulierten Bischoff zu Halberstadt/ und Hertzogen zu Braunschweig und Lüneburg/ [et]c. : Welcher in der Königlichen alten Heuptstadt Prage Anno 1613. am 20. Julij ... entschlaffen</title>
+<author>
+<persName ref="http://d-nb.info/gnd/121256170">
+<surname>Kale</surname>
+<forename>Jacob</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Vogt</name></publisher>
+<pubPlace>Goslar</pubPlace>
+<date type="publication">1613</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main"><docTitle><titlePart type="main">Eine Chri&#x017F;tliche Leichpredigt/</titlePart><lb/>
+<titlePart type="sub"><hi rendition="#b"> Am tage der Be-<lb/>
+grebniß / des weylandt
+Hoch-</hi><lb/>
+wirdigen / Durchleuchtigen / Hochge-<lb/>
+bornen Für&#x017F;ten vnd Herrn / Herrn
+Heinrichen<lb/>
+Julij / Po&#x017F;tulierten Bi&#x017F;choff zu Halber&#x017F;tadt/vnd Hertzo-<lb/>
+gen zu
+Braun&#x017F;chweig vnd Lüneburg / &#xA75B;c. Welcher in der<lb/>
+Königlichen alten Heupt&#x017F;tadt
+Prage Anno 1613. am 20.<lb/>
+Julij/zwey vierthel vff 9. gegen abend/bey
+guter ver-<lb/>
+nunfft vnd in wahrem &#x017F;tandhafftigem<lb/>
+Glauben an Je&#x017F;um Chri&#x017F;tum/<lb/>
+&#x017F;elig ent&#x017F;chlaffen.</titlePart><lb/>
+<titlePart type="desc"><hi rendition="#fr"><hi rendition="#b">Gehalten in Für&#x017F;tlicher freyer</hi><lb/>
+Bergk&#x017F;tadt Wildeman / am 4. Octobris<lb/>
+oben gedachtes Jahrs/</hi></titlePart></docTitle><lb/>
+<byline> Durch<lb/>
+<docAuthor><hi rendition="#b">Jacobum Kalenium</hi></docAuthor>/<lb/>
+Predigern da&#x017F;elb&#x017F;t.</byline><lb/>
+<milestone rendition="#hr" unit="section"/>
+<docImprint><hi rendition="#fr">Gedruckt zu </hi><pubPlace><hi rendition="#fr">Goßlar</hi></pubPlace><hi rendition="#fr">/bey </hi><publisher><hi rendition="#fr">Johann Vogt</hi></publisher>/<lb/>
+Im Jahr <docDate>1613</docDate>.</docImprint></titlePage>
+<pb facs="#f0002"/>
+</front>
+<body><div>
+<head>CARMEN FUNEBRE, IN <hi rendition="#i">Praematurum &amp; insperatum quidem
+nihilominus tamen beatum, immò beatißimum obitum</hi> Reuerendissimi nec non
+Illustrissimi principis Domini HEN RICI JULII, (piae memoriae) postulati
+Episcopi Halbersta densis, Ducis Brunsuicensis ac Lunaeburgensis, compositum à
+lacobo Kalenio, verbi divini ministro Ecclesiae Wildemannensis.</head><lb/>
+<lb/>
+<l>P<hi rendition="#i">Raeditus HENRICVS praeclaro est nomine princeps JULIUS, ac functus principis officio. Officiumfecit mansueti principis omni Tempore, quem luget subdita turba sibi: Illum nam rapuit durae inclementia mortis In nos quae miseros dira venena vomit. At nunc aethereo est civis transscriptus Olympo Percipit &amp; nitidig audia magna poli. Dilexit Verbum Christi, coluitque ministros Tractantes summi dogmata pura DEI. Charam constanter patriam defendit ab hoste, Defenditque sacrae relligionis opus. Servavit pacem, servavit Juris &amp; usum. Atque illi populi maxima cura fuit. Sed dux ille pius Pragae disceßit &amp; orbum Heu liquit, populum raptus ab orbe suum Principis ast corpus rursum de morte resurget Interea tumulo molliter oßa cubent.</hi></l>
+<pb facs="#f0003"/>
+</div>
+<div>
+<head>Den Ehrnvesten / Achtbaren / Wollweisen / Ehrn vnd Vornehmen Richter vnd
+Schepffen der Fürstlichen freyen Bergkstadt Wildeman / Meinen großgünstigen
+Herren / freundtlichen Gefattern vnd lieben Zuhörern.</head><lb/>
+<lb/>
+</div>
+<div>
+<head>So wol Den vier Schetzern Fürstlicher Bergkstadt Ernst Bergman / Asmus Hessen
+/ Paul Erißbach vnd Adam Müller: Vnd dann Allen meinen lieben Zuhörern der
+löblichen Christlichen Gemein zum Wildeman.</head><lb/>
+<lb/>
+</div>
+<div>
+<head>Gottes Heyl / Trost vnd Seligkeit an Leib vnd Seel / durch Jesum Christum
+vnsern Erlöser jederzeit zuvor.</head><lb/>
+<lb/>
+<p>EHrnveste / Achtbare / Wollweyse / Ehr vnd Vornehme / großgünstige Herren /
+freundtliche Gefatteru vnd liebe Zuhörer / So bald ich durch Gottes hülffe diese
+Leichpredigt / die mir /
+<pb facs="#f0004"/>
+wie auch allen anderen <hi rendition="#i">Pastoribus</hi> dieses löblichen Fürstenthumbs Braunschweig
+aufferlegt / in einer rühmlichen / feinen vnd Christlichen <hi rendition="#i">Frequentia</hi> vnd versamlung am 4. <hi rendition="#i">Octobris,</hi>
+dieses instehenden 1613 Jahrs / Gott dem HErrn zu Lob / vnd vnserem Gottseligem
+gewesenem frommen regierendem Landesfürsten / vnd derselbigen hochbetrübter
+nachgelassener Widtwen vnd Kindern / beyde Herlein vnd Frewlein / sampt allen
+angehörigen vnd verwanten / zu Christlicher Liebe / Ehrerbietunge / schüldigem
+gehorsam vnd pflicht / verrichtet / haben etzliche fromme Pfarkinder auß meiner
+befohlen Pfar Wildeman so sie gehört / davon Copey vnd Abschrifft begehret / vnd
+die drücken zulassen sich erbotten. Ob ich aber wol hierüber anfenglich allerley
+bedencken getragen / solchesnicht zu willigen / sonderlich weil ich mich
+befürchtet / mir solches / alß das es <hi rendition="#i">ingenij &amp;
+ostentandigratia</hi> geschehe / zum ergesten ausgelegt / vnd das ich etwa
+vor anderen gesehen sein wolte / verarget werden möchte / da mir doch meine <hi rendition="#i">tenuitas</hi> vnd vnvermügen gantz wol bewust ist / Jedoch
+aber jhnen hernach die zusagung gethan / jhrer gethanen Bitte halben / so bald
+ich Amptes wegen die zeit haben könte / mein <hi rendition="#i">Concept</hi>
+rein zuschreiben / vnnd zum druck kommen zulassen / aus folgenden Vrsachen:</p>
+<p>Erstlich / weil ich mich erinnerte / das es nicht wider Gott vnd sein Gebott /
+sondern vielmehr sein Befehl / vnd ich armer vnwirdiger Diener Göttliches Wortes
+jhnen hierinnen zu <hi rendition="#i">gratificiren</hi> vnd zuwilfahren schüldig
+were. Darnach weil <note place="left">Syr. 19.</note>Syrach sagt am 19
+Cap. das offt geringe Klugheit mit Gottesfurcht besser sey / denn grosse
+Klugheit mit Gottes verachtunge / vnnd ein Seelsorger sich Gottes Worts vnd
+seines
+<pb facs="#f0005"/>
+Evangelij nicht schemen / wie Paulus sagt / zun Rom.
+am<note place="right">Rom. 1.</note> 1. Cap. sonderen viel mehr auff
+sein Ampt trotzen sol / wie Syr. am 10. cap. sagt. Zum dritten / weil sich in
+einem jeglichen<note place="right">Syr. 10.</note> die Gaben des heiligen
+Geistes ereugen sollen zum gemeinen Nutz / vn&#x0303; darneben wol weiß /
+das in einem grossen Hause nicht allein weren Güldene vnd Silberne Gefesse /
+sonderen auch Hültzerne vnd jrdische / wie wir Exod. am 28. Cap. lesen /
+das<note place="right">Exod. 28.</note> zum <hi rendition="#i">Tabernacul</hi> vnd Hütten des Stifftes / auch allen Gottesdiensten / nicht
+alleine reiche vnd vermügene Leut / Gold / Silber / Ertz / Edelgesteine / Seyden
+vnd dergleichen gebracht / sondern auch der armen Christliches vnd williges
+Hebeopffer / nach jhrem vermügen Widder / Ziegen / vnd Dachsfell / gleichfals
+Ziegenhar / Ole vnd dergleichen / auch dem reichen Gott hertzlich wolgefallen /
+lieb vnd angenehm gewesen / wie solches auch bezeuget der alte Lehrer <hi rendition="#i">Hieronymus,</hi> da er sagt: <hi rendition="#i">Vnusquisque</hi><note place="right">
+<hi rendition="#i">Hieronymus.</hi>
+</note>
+<hi rendition="#i">offert ad Tabernaculum Domini quod potest, alius aurum, alius
+argentum, gemmas, alius pelles &amp; pilos caprarum, omnibus enim his
+opus habet Dominus, &amp; placet voluntas aequaliter eorum, qui
+inaequaliter offerunt.</hi> Vnd dann zum Vierdten auch ein jeglicher mit der
+Gabe die er empfangen hat / alß die guten Haußhalter Gottes der mannicherley
+Gaben Gottes / einem anderen dienen sol / wie S. Petrus sagt in der 1.
+Epistel<note place="right">1. Pet. 4.</note> am 4. Cap. Daher hoffe
+ich werde diese geringe Predigt / weil sie in Gottes Wort gegründet / Gott auch
+angenehm sein / vnd ich daran / das sie zum druck kommen / nicht könne
+gesündiget haben. Zum letzten / weil Gottes Wort saget vnd bezeuget / das des
+Gerechten nimmermehr sol vergessen werden / wie der<note place="right">Psal. 112.</note> Prophet David im 112. Psalmsaget: <hi rendition="#i">In
+memoria sempiterna erit Justus,</hi> so kan vnd sol ich auch S. F. G. nicht
+vergessen.
+<pb facs="#f0006"/>
+Auß solchen Vrsachen habe ich meiner gethanen
+Zusagung gnug thun / jhrer bitte gewehren / die Predigt nach dem Maß / wie sie
+Gott der heilige Geist gegeben / nicht hinder halten / sondern selbst <hi rendition="#i">publiciren</hi> vnd in den druck geben wollen /
+vngezweiffelter <note place="left">Esa. 55.</note>Hoffnung vnd Zuversicht
+/ sie werde / wie albereit geschehen / nach des Propheten Esaie meinung am 55.
+Cap. wo nicht bey allen / doch bey etzlichen frommen Christen in künfftigen
+Zeiten auch jhren Nutz bringen.</p>
+<p>Daß ich aber Großgünstige liebe Herren / Gefattern vnd Zuhörer / ewer Ehrnvesten
+vnd Achtbar gunsten solche Leich: vnd Grabpredigt <hi rendition="#i">dedicire</hi> vnnd zuschreibe / geschicht nicht grossen Rhum damit zu erjagen /
+einen <hi rendition="#i">nomen immortalitatis</hi> zu <hi rendition="#i">compariren</hi> / Kunst vnd sonderliche grosse Geschickligkeit sehen
+zulassen / Nein trawn / sonder en folgender Vrsachen halben. Erstlich / weil. S.
+F. G. ewre Ehrnveste vnd Achtbar gunsten eine raume Zeit auff den Bergkwercken
+getrewe Diener gewesen / vnd deroselben gescheffte / vn&#x0303; wie sie
+jeder zuverwalten gehabt / nach Eydes pflicht / auffs fleissigste vnd
+trewlichste verrichtet / darumb sie auch von S. F. G. geliebet / vnd in ja so
+grossen Gnaden gehalten worden seyn / als andere Diener der Bergkwercke / vnd
+anderer örter im Lande / welches E. E. vnd Achtbar gunsten vnd alle den jhrigen
+gutes Lob / ja einen ewigen Rhum vnd Namen geben wird. Darnach auch darumb /
+weil ich gar wol weiß / das S. F. G. tödtlicher / vnverhoffter / plötzlicher
+Abgang E. E. vnud A. gunsten schmertzlich wehe thut / vnd auch darumb Leidt
+tregt vnd trawret / wie es auch Christlich vnd Rühmlich ist / das getrewe vnd
+fleissige Vnterthanen vnd Diener vmb jhrer frommen Herren tödtlichen abgang eine
+Zeitlang trawren / welches die heilige Schrifft bil-
+<pb facs="#f0007"/>
+liget vnd befiehlet / zun Rom. am 12. 1. Thes. 4. Jer. 22. 2. Sam.<note place="right">Rom. 1. 1. Thes. 4. Jer. 22. 2. Sam. 1. vnd 1. Par.
+25.</note> 1. vnd 1. Paralip. 25.</p>
+<p>Zum dritten / das ich hiemit meine liebe die ich zu E. E. vnd A. gunsten trage /
+als ein Seelenhirte zu seinen Schefflein billich tragen vnd haben sol an den tag
+gebe.</p>
+<p>Zum vierdten / das diese Predigt sein möchte / nicht allein ein küntliches <hi rendition="#i">Document,</hi> oder öffentliches Zeugniß eines Christlichen
+<hi rendition="#i">luctus</hi> vnd vnterthenigen Gottseligen trawren / auch
+nicht allein ein feines <hi rendition="#i">ornament,</hi> oder ansehenliche
+Zierde der Christlichen Begrebnis / sondern eine Ehre vnd Trostpredigt / Eine
+Ehrpredigt zum vnvergeßlichen Gedechtnis vnsers seligen abgestorbenen
+Landesfürsten / Hertzogen <hi rendition="#i">Henrici Julij,</hi> Eine
+Trostpredigt vns leidtragenden Vnterthanen. Entlich vnd zum letzten / das E. E.
+vnd Achtbar g. jtzo vnd zu aller zeit zusehen vnd auff zuweisen hetten / wie ich
+zugesantem befehl nach gelebt / was ich gelehrt vnd geprediget / vnd was ich für
+ein <hi rendition="#i">Thema</hi> oder text auß Gottes Wort zur Leichpredigt
+vber S. F. G. todt meinen Schefflein vnd <hi rendition="#i">Sareptanern,</hi>
+hette geführt vnd <hi rendition="#i">tractirt.</hi> Diese vnd keine andere
+Vrsachen nun / Großgünstige Herren / Gefattern vnd Zuhörer / haben mich <hi rendition="#i">impellirt</hi> vnd bewogen / E. E. vnd A. g. diese meine
+geringschetzige Predigt zu zuschreiben / vnd als ein <hi rendition="#i">munusculum</hi> zuvorehren / freundlich vnd demütig bittende / dieselben
+wolten sie günstiglich vnd im besten / wie es (dessen Gott mein Zeuge) gemeinet
+/ auff vnd annehmen / vnd mit anderen Gottseligen frommen Christen / beyde zum
+trost / vnd guter seliger <hi rendition="#i">praeparation</hi> zum todt vnd
+sanfftem / seligem Sterbestündelein gebrauchen. Bin E. E. vnd Achtbar gunsten /
+vnd deroselben Kindern mit meinem <hi rendition="#i">Pater noster</hi> vnd armen
+vermügen jeder zeit ferner
+<pb facs="#f0008"/>
+zu dienen hiemit williger als
+willig. Datum Wildeman / Anno <hi rendition="#i">reparatae salutis</hi> 1613.
+den 15 <hi rendition="#i">Octobris</hi> / an welchem tage S. F. G. im jahr 1564.
+zur Welt geboren / vnd nach dem sie gelebet 48. jahr. 9. Monden vnd 5. Tage /
+wider in der Königlichen <note place="left">Rom. 4.</note>Alten
+heuptstadt Prage in Gott dem HErrn selig entschlaffen. Jesus Christus / der
+selbst vmb vnser Sünde willen gestorben / vnd vmb vnser Gerechtigkeit willen
+wider auff erstanden / wolle S. F. G. am jungsten Tage widerumb zur ewigen
+Frewde vnd Herrligkeit erwecken / AMEN.</p>
+<p>E. Ehrnvesten vnd Achtbar gunsten lieber Seelsorger</p>
+<p>Jacobus Kale / vn wirdiger Diener am Wort Gottes daselbst.</p>
+<pb facs="#f0009"/>
+</div>
+<div>
+<head>Occasio Concionis.</head><lb/>
+<lb/>
+<p>GEliebten im HErrn / der Allmechtige getrewe vnd barmhertzige Gott / vnser
+hertzliebster Vater im Himmel / hat nach seinem allein weisen Raht / veterlichem
+Willen vnd gnedigem göttlichem Wolgefallen / das alte löbliche vnd hochberümbte
+Hauß Braunschweig / Kirchen / hohe vnd niedrige Schulen / ja das gantze
+Braunschweigische Land sehr hochbetrübet / vnnd mit einer schweren
+wollverdienten Straffe heimgesucht / vnd nach dem 60. Psalm / demselben ein<note place="right">Psalm. 60.</note> hartes erzeiget / in dem die
+Göttliche Majestat vnd hohe Allmacht den weylandt Hochwirdigen / Durchleuchtigen
+/ Hochgebornen Fürsten vnd Herren / Herren <hi rendition="#i">Henricum Julium,
+postulirten</hi> Bischoff das Stifftes Halberstadt / vnd Hertzogen zu
+Braunschweig vnd Lüneburg / vnsern numehr Christseligen in Gott ruhen den
+regierenden Landesfürsten / vnd Vater des Vaterlandes / aus diesem zeitlichem /
+müseligem vnd kümmerlichem leben / Wunderburgk vnd Jammerthal den 20 <hi rendition="#i">Iulij</hi> in der alten Königlichen Heuptstadt Prage /
+halbeweg 9. gegen Abendt / dieses schwebenden 1613. jahrs / gnediglich / sanfft
+/ still / bey guter Vernunfft / in warem Glauben an Jesum Christum vnseren
+einigen Heylandt / Erlöser vnd Seligmacher / vnd in hertzlicher bestendiger
+Anruffunge des heiligen Namens Gottes / Christlich vnd Seliglich abgefordert /
+vnd deroselben Gottselige Seelins ewige / selige / frieden vnd frewden Leben
+auffgenommen / alda sie empfindet vnd geneust der leiblichen<note place="right">Acto. 3.</note> erquickunge Gottes Angesichtes / wie
+Acto. 3. geschrieben stehet. Weil dan&#x0303; vber diesem plötzlichen /
+vnverhofften / Fürstlichen
+<pb facs="#f0010"/>
+todesfall nicht allein diese
+Bergkstadt Wildeman / sondern das gantze Landt bewogen wirdt / vmb jhren <hi rendition="#i">Iosiam</hi> leidt zutragen / so sein wir deßwegen ja aus
+schüldiger Pflicht vnnd Danckbarkeit zusammen kommen alhier in die Kirche / eben
+an dem tage / da S. F. G. einge sarckter Leichnam zu Wulffenbüttel mit trawriger
+<hi rendition="#i">proceßion</hi> von der Vestung in die herrliche
+newgebawete Heinrichstedter Kirche zu S. F. G. vnd dero löblichen / gottseligen
+/ verstorbenen Eltern / Brüdern / Geschwistern vnd anderen Vorfahren Grabe vnd
+Ruhekemmerlein zur niedersetzunge gebracht wirdt / vnd mir Vnwirdigen Diener am
+Wort Gottes / wie allen Predigern in S. F. G. gehabten Landen / durch einen
+ernsten befehl befohlen vnd auff gedragen / S. F. G. zu klagen / das ist / vnter
+dieser gemeinen trawr vnd landtklage eine Leichpredigt meinen Zuhörerern zu thun
+/ <note place="left">
+<hi rendition="#i">Duo similia.</hi>
+</note>welches dan&#x0303; recht vnd billich ist. Es trawren fürwar alle
+Sterne am Himmel / wen&#x0303; Son vnd Mondt / jhre Regenten /
+vorfinstert werden / vnd gehet als denn dem schönen gestirneten Himmel an seiner
+Zierde viel abe / solten den&#x0303; getrewe Vnterthanen nicht trawren /
+wenn jhnen Gott jhr Licht im Lande außgehen vnd verleschen lest. Wann in einem
+lustigen Lustgarten vnd herlichem Obesthofe nur ein einiger Baum verdorret vnd
+mit der zeit dahin felt / so beklaget man denselben vnd spricht: Ists nicht
+jmmer mordt vnd schade vmb den schönen fruchtbahren Baum: Solten denn fromme
+Vnterthanen nicht trawren / weil in dem schönen Fürstlichen Lustgarten des
+Fürstlichen Hauses Braunschweig / welchen der HERR gepflantzet hat / der
+Fürstliche Regenten Baum vmbgefallen / vnter welchem sie Schutz / Schirm vnd
+Schatten gehabt. Ja das noch viel mehr ist / so <hi rendition="#i">concediret</hi> vnd <hi rendition="#i">mandirt</hi> vns solches Gottes Wort /
+<pb facs="#f0011"/>
+wie sonderlich die <hi rendition="#i">gemitus</hi> vnnd
+seufftzen / mit welchen hoher Personen / vnd betrübter Regenten tödtlicher
+hintrit beseufftzet<note place="right">Jer. 22.</note> vnd beklaget / vom
+Propheten Jeremia am 22. Cap. beschrieben werden / da den&#x0303; stehet:
+Ach Bruder / Ach Schwester / Ach HErr / Ach Eidam. Vnd im andern Buch Samuel am
+2.<note place="right">2. Sam. 2.</note> Cap. machte David ein
+Trawrlied / da Saul vnd Jonathan in der Schlacht vmbkamen / vnd sprach: Wie sind
+die Helden gefallen. Vnd den frommen könig Josiam hat das gantze Land beweinet /
+vnd der Prophet Jeremias hat dem Volck Klaglieder<note place="right">2.
+Paral. Cap. 35.</note> gemacht / vnd dieselbe singen lassen / wie zu lesen
+im 2. Pa. am 35. cap. Vnd das ich noch vieler anderer Zeugnissen / Sprüchen vnd
+Historien geschweige. Damit nun dem zugesantem Befehl / Klag vnd Leichpredigt
+jhr recht geschehe / wir auch lehrnen vnd wissen können / was für Maß im trawren
+zuhalten sey / vnd nicht thun wie die Heyden die von Gott nichtes wissen / wie
+S. Paulus solches vbermessiges trawren verbeut / in der 1. an die Tehssalonicher
+am 4. Cap. da er spricht: Wir<note place="right">1. Thes. 4.</note>
+wollen euch aber lieben Brüder nicht verhalten / von denen die da schlaffen /
+das jhr nicht trawrig seid / wie die anderen / die keine<note place="right">Syr. 38.</note> Hoffnung haben. Vnd Syrach sagt im 38.
+Cap. So wollen wir miteinander Gott den Himlischen Vater im Name&#x0303;
+Jesu Christi anruffen / vnd bitten vmb seinen göttlichen Beystand vnd heiligen
+Geist / damit wir S. F. G. seligen / eine solche Leichpredigt thun mögen / die
+da gereiche Gott dem HErrn zu Lob / Preiß vnd Ehren / zu außbreitunge seines
+Göttlichen Namens / zu besserung vnsers Lebens / zu guter bereitung zu einem
+seligen Sterbestündelein / zu sterckung vnsers schwachen Glaubens / vnd das wir
+alle miteinander das Ende des Glaubens davon bringen mögen / nemlich / der
+Seelen Se-
+<pb facs="#f0012"/>
+ligkeit. Solches nun von der hohen / heiligen
+/ göttlichen Majstat zuerlangen / wollen wir armen Sünder vns vor derselben
+demütigen / die Knie vnsers Hertzens vnd Leibes beugen / vnd beten miteinander
+in warem Glauben ein andechtiges vnd gleubiges Vater vnser / etc.</p>
+</div>
+<div>
+<head>THEMA oder Leichtext. <hi rendition="#i">PSALMVS LX.</hi></head><lb/>
+<lb/>
+<p>GOTT / der du vns verstossen vnd zerstrewet hast / vnd Zornig warest / tröste vns
+wider.</p>
+<p>Der du die Erde beweget vnd zurissen hast / heyle jhre Brüche / die so
+zerschellet sind.</p>
+<p>Denn du hast deinem Volck ein hartes erzeiget / du hast vns einen Trunck Weins
+gegeben / das wir daumelten.</p>
+<p>Du hast aber noch ein Zeichen gegeben / denen die dich fürchten / welches sie
+auffwurffen vnd sie sicher machet / Sela.</p>
+<p>Auff das deine lieben erlediget werden / so hilff nun mit deiner Rechten / vnd
+erhöre vns.</p>
+<p>Gott redet noch in seinem Heiligthumb / des bin ich fro / vnd wil theilen Sichem
+/ vnd abmessen das thal Suchoth.</p>
+<pb facs="#f0013"/>
+<p>Gilead ist mein / mein ist Manasse / Ephraim ist die macht meines Heupts / Juda
+ist mein Fürst.</p>
+<p>Moab ist mein &#x2020; Waschtöpffen / meinen<note place="right">&#x2020; Waschtöpffen)
+das ist / meine Vnterthanen.</note> Schuch strecke ich vber Edom / Philistea
+jauchtzet zu mir.</p>
+<p>Wer wil mich führen in eine feste Stadt / wer geleitet mich biß in Edom?</p>
+<p>Wirstu es nicht thun Gott / der du vns verstössest? Vnd zeuchst nicht aus / Gott
+/ auff vnser Heer? Schaff vns Beystandt in der Noth / den&#x0303;
+Menschen Hülff ist kein Nütz.</p>
+<p>Mit Gott wollen wir thaten thun / er wird vnser Feinde vntertretten.</p>
+</div>
+<div>
+<head>EXORDIVM.</head><lb/>
+<lb/>
+<p>IHr andechtigen vnd geliebten in Christo Jesu / Ich möchte bey dieser vornehmen /
+hohen Fürstlichen Leich bald sagen / wie jenner im <hi rendition="#i">Virgilio,
+AEneidos 11.</hi><note place="right">
+<hi rendition="#i">Virgilius AEneidos 11.</hi>
+</note>
+<hi rendition="#i">Nos animae viles, inhumata, infletaque turba sternamur
+campis.</hi> Das ist / wenn ich vnd meines gleichen arme einfeltige Leute
+stürben / das were ein solcher schade / der leicht zuverschmertzen vnd bald
+wider zuersetzen stünde / denn vnsers gleichen kan man Gott lob alle tage
+finden: Heut aber den 4. <hi rendition="#i">Octobris</hi> wird zu Wulffenbüttel
+eine solche Person / an dem
+<pb facs="#f0014"/>
+Landt / Leuten / vnd dem gantzen
+Hochlöblichem Fürstlichem Hause Braunschweig viel gelegen / in die Erden bey
+seine selige verstorbene Vorfahren gesetzet. Diesen Verlust nun sollen wir nicht
+gering schetzen / sondern gewiß dafür halten es sehe einem ernste&#x0303;
+zorn vnd vorstehendem bösen Wetter ehnlich / wen&#x0303; Gott jolche
+vornehme Stender vnnd Reiches seulen / Heupter vnd Monarchen des heiligen
+Römischen Reichs hinweg reisset / wie in kurtzer zeit nacheinander geschehen.
+Alß / das er Anno <note place="left">Anno 1611 den 2. May. 23. <hi rendition="#i">Junij</hi></note>1611. den 2. May Herren Ernst /
+Hertzogen zu Braunschweig vnd Lüneburg. Im selben jahr den 23. <hi rendition="#i">Junij</hi> Christianum den anderen / Churfürsten zu Sachsen /
+gleichfals den 10. <hi rendition="#i">Januarij</hi>
+<note place="left">Anno 1612</note>Anno 1612. die Römische Keyserliche
+Majestat / Herren Rudolphum den anderen / vnd jetzo den 20. <hi rendition="#i">Iulij</hi> dieses schwebenden <note place="left">Anno
+1613</note>1613. Jahrs <hi rendition="#i">HENRICVM JULIVM,</hi> Postulirten
+Bischoff des Stifftes Halberstadt / vnd Hertzogen zu Braunschweig vnd Lüneburg /
+damit Gott gleich sagen wil: Ihr ansehnliche / begabte / verstendige / vnd von
+mir hocherhabene Leute / die jhrs mit Kirchen vnd Schulen / mit dem Regiment /
+mit Landt vnd Leuten trewlich vnd gut gemeinet / die jhr vber dem edlen Fried /
+vnd sonderlich der tewren Beylag Gottes Wortes gehalten / trewe vnd eyferige
+Prediger geliebet / die bösen gestraffet / vnd die frommen gehandthabt vnd
+geschützet: Gehet in ewer Kämmerlein / einer nach dem anderen / vnd verberget
+euch / den&#x0303; ich gedencke der gottlosen Welt / des Teuffels Braut /
+einen grewlichen Kherab zugeben / meinen Zorn vnd Grim mit macht vber sie
+zuschütten / wie ich wol ehe gethan / als Gottes Wort vnd die heilige Schrifft /
+vnd dero gewaltige Exempla anzeigen.</p>
+<p>Ob nun gleich grobe vngeschliffene <hi rendition="#i">Corydones,</hi> die so viel
+<pb facs="#f0015"/>
+nach denckens im Kopffe / als Gottesfurcht im Hertzen
+haben / pflegen vnvernünfftig vnnd leichtfertig heraus zu fahren / vnd zusagen:
+Was ist es denn mehr? Es ist wol ehe ein Braunschweigischer Fürst gestorben /
+vnd zu Braunschweig in den Thum S. Blasij / oder Heinrichstadt begraben worden /
+die Stifftes Kirche / Stadt vnd Vestunge aber ist darumb nicht eingefallen /
+sonderen stehen blieben / was sein sie mehr als andere menschen / ja dürffen
+noch wol spöttisch sagen / mustedoch des Keysers Koch sterben / da er doch gute
+feiste Suppen machen kondte / ja wie jtzt gehört der Keyserselbst: Aber lieben
+Freunde / wir sehens in heiliger Schrifft die es bezeuget / mit der erfahrung /
+wiewol es gestanden vmb Diener vnd Vnterthanen / so lange fromme Obrigkeit / vnd
+berühmbte Leute gelebet<note place="right">Syr. 41.</note> / dagegen wie
+wunderlich vnd seltzam es darnach zugegangen / wenn sie das Heupt gelegt / wie
+bezeuget Salomo<note place="right">Prov. 28.</note> Pro. 28. <hi rendition="#i">Ab interitu principum magnae fiunt rerum confusiones.</hi>
+Das ist / wen&#x0303; Fürsten vnd Herren sterben / so gibet es vmb des
+Volckes Sünde willen grosse verenderung. Solches wil<note place="right">Noab.</note> ich darthun mit folgenden Exemplis. So bald Noah mit den
+seinen in die Arch versamlet ward / kam die Sintfluth / Gene.<note place="right">Genes. 7.</note> 7. vnd erseuffte alles auff Erden /
+was einen lebendigen Athem hatte. Loth war kaum mit den seinen aus Sodoma gangen
+/<note place="right">Loth. Genes. 19.</note> da fiel Fewr vnd
+Schwefel vom HErrn aus dem Himmel / vnd verzehrte Sodoma / Gomorrha / Adama /
+Zeboim vnd Zoar / vnd alle einwohner / Gen. 19. Als Joseph gestorben war /
+drückete<note place="right">Joseph.</note> die Kinder von Israel ein
+newer König mit Frondiensten / wie zu lesen / Gen. 50. vnd Exod. 1. sonderen das
+vnglücke betrifft<note place="right">Gene. 50. vnd Exod. 1.</note> sie
+heuffig vnd felt letzlich auff die Egypter / das sie nach mannicherley aus
+gestandenen Plagen im rothen Meer ersauffen müssen.</p>
+<pb facs="#f0016"/>
+<note place="left">Samuel. 1. Sam. 25.</note>
+<p>Da der Prophet Samuel gestorben war / wie im 1. Sam. am 25. Cap. stehet / welcher
+sich mit seinem Gebet zur Mawr wider den Riß geleget / vnd dadurch dem König
+Saul viel gutes erlanget / hatte Sauls Glücke ein ende. Vnd also ist es durchaus
+im alten Testament gangen / wenn fromme Richter / Könige vnd Propheten die Augen
+zugethan / so haben die lebendigen warlich herhalten / sich für die Haarwürme
+bremsen / vnd rechtschaffen zerzausen lassen / Krieg / Hunger / tewre Zeit /
+Pestilentz vnnd andere Plagen versuchen vnnd ausstehen müssen.</p>
+<p>Im newen Testament / vnd der Kirchen Historien findet man auch Exempla genug /
+die da darthun vnd bezeugen / wie <note place="left">Joannis. Matth. 14.
+Marc. 6.</note>wenig gutes auff Gottseliger Leute absterben erfolget sey.
+Joannis des Teuffers todt / wie geschrieben stehet / Matt. 14. vnd Mar. 6.
+bracht <hi rendition="#i">Herodi Antipae,</hi> sonst <hi rendition="#i">Tetrarchae,</hi> dem Predigermörder / vnnd seiner vnzüchtigen Bestien vnd
+leichtfertigen Tentzerin wenig gutes / wie Josephus vnd Nicephorus / vnd
+sonderlich Josephus lib. 18 vnd 20. am 6. 9. vnd 10. Cap.</p>
+<note place="left">
+<hi rendition="#i">Herodes Agrippa.</hi>
+</note>
+<p>So hatte <hi rendition="#i">Herodis Agrippae, Herodis magni</hi> des
+Kindermörders Kindeskindt / Pracht vnd verfluchte Hoffart bald ein ende / alß er
+den heiligen Apostel Jacobum tödten ließ / Acto. 12. vnd 18. Von diesen drey
+ehrlichen Vögelen / hat Lyra diese zwene Verß gemacht:</p>
+<l>
+<hi rendition="#i">Ascalonita necat pueros, Antipa Johannem, Agripa Jacobum, claudens in carcere Petrum.</hi>
+</l>
+<note place="left">
+<hi rendition="#i">Aposteli.</hi>
+</note>
+<p>Alß die Apostel aus dem Jüdischem Lande vertrieben vnd verfolget würden / folgete
+allerley schrecklich Vnglück vnd die entliche vnd gäntzliche Zerstörung
+Jerusalem / des Tempels /
+<pb facs="#f0017"/>
+der in die 38. Tonnen Goldes
+gekostet / vnd des gantzen Jüdischen Landes / welche Christus auch in seiner <hi rendition="#i">eduction</hi> zu seinem Todt / Leiden vnd Sterben / 40. jahr
+zuvor / ehe sie erfolgt / <hi rendition="#i">vaticinirte,</hi> Luc. 19.<note place="right">Luc. 19. Ambrosius. Augustinus. D. Martinus Lutherus
+<hi rendition="#i">moritur Anno 1546. In die Concordiae.</hi></note></p>
+<p>Also vberzogen vnnd durchstreiffeten die Gothen Welschlandt / da D. Ambrosius
+hinweg war / vnnd das Heupt gelegt hatte. Nach des heiligen Augustini Absterben
+/ verwüsteten die Teutschen Wandaler Aphricam. Alß auch D. Martinus Lutherus
+eingeschlaffen / vnd gen Wittenberg in sein Ruhekämmerlein war gebracht worden /
+gieng der Teutsche Krieg an. Ist also alle Zeit auff gerechter / heiliger vnd
+hoher Leut tödtlicher abgangk nichtes gutes erfolget / wie Esaias sagt am 56.
+cap. Welches auch die weysen Heyden in acht genommen / vnd aus der Erfahrung
+gesagt: Auff absterben fürnehmer / nützlicher / wolverdienter Leute / pflegen
+gemeiniglich schwere Straffen zufolgen. Vnd daß ist es eben / das Gott der HErr
+im 2. Re.<note place="right">2. Reg. 22.</note> 22. Cap. nicht allein von
+dem König Josia / sonderen auch von anderen frommen heiligen vnd wolverdienten
+Leuten / die in warem Glauben an JEsum Christum von dieser Welt abgescheiden
+sein / saget: Ich wil dich zu deinen Vetern samlen / das du mit Frieden in dein
+Grab versamlet werdest / vnnd deine Augen nicht sehen alle das vnglücke / das
+ich vber diese Stedte bringen wil. Solches ist sich bey diesem hohen fall auch
+zuvermuhten / denn wir ja nicht allein denselben / sonderen mit der grossen
+Vndanckbarkeit / Verrachtung Gottes Wortes / der heiligen Sacrament / Vngehorsam
+gegen jhre Fürstliche Gnade / vnbußfertigem Leben / vnnd der gleichen Sünde /
+allerley Straffe vnd Plage gantz wol verdienet. Wollen wir nun aber besörglicher
+vnd vermuhtlicher straffen Gottes erübrigt sein /
+<pb facs="#f0018"/>
+vnd vnser
+HErr Gott soll vns / vnd Landt vnd Leuten widerumb einen frommen Josiam geben /
+inmassen wir an Hertzogen Henrico Julio gehabt / so müssen wir ohne vnterlaß vnd
+verdruß Gott darumb anruffen / ernst vnd andechtig beten / <note place="left">Luc. 15. 7.</note>vnsere Sünde mit dem verlohrnen Sohn
+vnd anderen rewenden Sündern bereuwen / deroselben vergebunge suchen vnd bitten
+/ alle Bößheit lassen / eines besseren Lebens vns befleissigen / vnd also zu
+jederzeit fromme Christen sein / so wird vnser Gott nach seiner Zusage vns
+erhören / vnd geben einen solchen frommen vnd gottseligen Landesfürsten / wie
+wir gehabt vnd gebeten.</p>
+<p>Das wir vns aber jtzo in die zeit schicken / wie S. Paulus <note place="left">Ephes. 3. Rom. 12.</note>lehret / zun Ephes. 3. vnd zun
+Röm. 12. leidt tragen vnd trawrig sein mit den trauwrigen / vber den tödtlichen
+Abgang vnsers gnedigsten Fürsten vnd Herren / so geschicht solches billich /
+bevorab weils befohlen / wir auch wissen das es jhme der heilige Geist mit
+nichten mißfallen / sonderen zum angenehmen Willen werde gereichen lassen. Zum
+letzten / weil vns an S. F. G. Todt nicht eine Tasche entfallen / darin kein
+Gelt gewesen / sonderen ein löblicher frommer Landes fürst dahin gegangen /
+daran vns gar wehe geschehen / ja <hi rendition="#i">corona capitis nostri
+cecidit,</hi> die Kron vnsers Heuptes ist abgefallen. <hi rendition="#i">Cecidit columna imperij, cecidit oculus, imò Brachium &amp; dextra fida
+Caesaris Matthiae primi invictißimi.</hi></p>
+<p>Hierob dann diese Bergstadt vnd das gantze Braunschweigische Landt billich
+bewogen wird / vmb jhren frommen Josiam / Landesfürsten vnd Vater des
+Vaterlandes auch leid zutragen / Dannhero ist dieser Tag / der 4. <hi rendition="#i">Octobris</hi> zu S. F. G. Begrebniß / Trauwr vnd Leichpredigt
+tage berambt vnd auß-
+<pb facs="#f0019"/>
+geschrieben / vnd sein derwegen
+dißmahl in einer Volckreichen Versamlung zusammen kommen / den Tag zubegehen /
+dem zugeschicketen <hi rendition="#i">mandato</hi> zu <hi rendition="#i">pariren,</hi> vnd von alles Fleisches Sterbligkeit zureden. Derhalben
+wollen wir den jtzt verlesenen 60. Psalm / der ein rechter Trawr vnd Klag Psalm
+ist / vnd sich nicht vnbequem auff diesen vnverhoffeten / plötzlichen Todesfall
+vnd zu S. F. G. Leichpredigt schicket / vor vns nemmen vnd zwey stücke handelen.</p>
+<p>Erstlich wil ich berichten / wie wir diesen vnverhofften /<note place="right">
+<hi rendition="#i">Propositio bimenbris.</hi>
+</note> plötzlichen vnd gegenwertigen Todesfal ansehen / was wir hirunter
+bedencken / vnd wie wir vns Christlich darein schicken sollen.</p>
+<p>Zum anderen / wil ich anzeigen / wie wir vnter diesem betrübten Zustande vns vnd
+andere trösten / vnd auffrichten sollen. Das wir nun von solchen zweyen Stücken
+fruchtbarlich<note place="right">
+<hi rendition="#i">Votum.</hi>
+</note> vnd mit vnser aller erbawunge handelen mögen / wolle der Allmechtige
+GOtt vns beyder seits seine Gnad / heiligen Geist vnd Segen verleihen / vmb des
+HErrn Christi willen / Amen.</p>
+</div>
+<div>
+<head>EXPOSITIO <hi rendition="#i">Primi loci.</hi></head><lb/>
+<lb/>
+<p>DIeser abgelesener Psalm / jhr liebe außerwehlte in dem HErrn / daraus wir mit
+Gottes Hülff dißmahl zwey Stück <hi rendition="#i">tractiren</hi> wollen / ist
+ein rechter Trawr vnd Klagpsalm / in welchem der heilige König vnd Prophet David
+seine selbest eigene / vnd des gantzen Landes oder des Jüdischen Volckes Noht
+vnd Anliegen mit wehmuht vnd Betrübnis seinem lieben frommen GOtt klaget vnd
+fürtregt. Deren Vrsache dann er sich mit vnserem betrübten Trawr-
+<pb facs="#f0020"/>
+standt gar wol vergleicht / vnnd zu vnserem
+vorhabendem Werck sehr nützvnd dienstlich ist / Dann ob wol in <hi rendition="#i">Specie</hi> vnd mit Namen nicht ausgedrücket oder angezeiget
+wird / was eben die Noht vnd das Anliegen gewesen sey / welches David alhier in
+seiner Klage geführet hat / ohn allein was etlicher massen aus der Vberschrifft
+des Psalmens genom&#x0303;en / vnd vermeinet wird / das es Feindes noth
+gewesen sey / so geben doch die Wort so viel zuvermercken / das es eine grosse
+noth / ein starckes anliegen muß gewesen sein / die den lieben David tieff ins
+Hertz geschnitten / vnd vnter dem Landtvolck grossen Jammer / Noth vnd
+Weheklagen muß erwecket haben. Jedoch ist David in diesem Psalm jhme selbsten
+etlicher massen vngleich.</p>
+<p>Dann im ersten Theil klaget vnd winselt er. Bald darauff aber vnd im anderen
+Theil wendet er sich / richtet sich auff / schepffet trost / vnd fasset wider
+einen frölichen Muth. Das ist denn eben auch die rechte vnd die feine güldene
+Kunst / die man bey rechten Christen vnd waren Kinderen Gottes findet / trawren
+/ doch mit massen / nicht wie die so keine Hoffnunge <note place="left">1. Thes. 4.</note>haben / wie Paulus in der 1. an die Thes. am 4. Cap.
+Leide tragen vnd weinen / doch das man sich wider tröste / vnd trösten <note place="left">Syr. 38.</note>lasse / wie der weise man Syrach
+vermahnet am 38. Capittel. Welchem Exempel vnd Vermanunge zu billicher folge /
+Gott helffe das es mit Frucht vnd Segen geschehe / wie zuvor gewünschet vnd von
+GOTT gebeten worden / wir dißmahl beyde von trawren vnd trost reden wollen / vnd
+kommen also damit auff das erste Stück vnserer Predigt / nemblich / da wir zu
+reden / wie wir diesen vnverhofften / vnvermuhtliche&#x0303; vnd
+plötzlichen gegenwertigen Trawrfall ansehen / was wir hierinne bedencken / vnnd
+wie wir vns auch Christlich darein
+<pb facs="#f0021"/>
+schicken sollen. Ob sichs
+nun wol sonsten gar nicht leiden / ja im allergeringsten nicht gebühren wil mit
+Gott zu rechten / vber vnd wider seine Regierung vnd Wercke einige klage
+zuführen / wie Jeremias am 12. Cap. sagt: HErr wenn ich gleich mit dir<note place="right">Jer. 12.</note> rechten wolte / so behieltestu doch
+recht / dennoch muß ich von recht mit dir rede&#x0303; / Warumb gehet es
+doch den gottlosen so wol / vnd die Verechter haben alles die fülle? Du
+pflantzest sie das sie wurtzeln / wachsen vnnd Frucht bringen / du lesset sie
+viel von dir rhümen / vnd züchtigest sie nicht / mich aber HErr kennestu vnd
+sihest mich / vnd prüfest mein Hertz vor dir. Aber du lest sie frey gehen wie
+Schafe / das sie geschlachtet werden / vnd sparest sie / das sie gewürget
+werden. Sondern den frommen Christen vnd gleubigen Gottes gebührt viel mehr /
+wie Job.<note place="right">Job. 21.</note> am 21. Cap. sagt / die Handt
+auffs Maul zulegen / den Mund in den Staub zustecken / vnd dem HErrn in allem
+recht zugeben vnd zulassen / angesehen / das es heisset / Der HERr ist gerecht
+in allen seinen Wercken: So mag es doch der fromme Gott an seinen lieben
+Gleubigen bißweilen gar wol geschehen lassen / das mit jhme von recht geredt /
+bevoraus in Kindlichem Vertrawen vnd Gehorsam / von jhnen jhre noth vnd obliegen
+geklaget werde.</p>
+<p>Dessen zum Exempel wird vns der heilige König vnd Prophet David in vorhabendem
+Psalm fürgestelt / welcher mit seinem lieben Gott hierinn eben eine starcke
+Sprache helt / vnd in seinem / vnd des gantzen Volckes Namen eine zimliche
+hefftige Klage für vnnd anbringet. Der eingang der Klage ist gar kurtz vnd
+abgebrochen / er findet ein einiges Wörtlein vnd spricht: Gott der du vns. etc.
+Sonsten in anderen Psalmen / vnd sonderlich da es vmb Geistliche noth vnd
+anlie-
+<pb facs="#f0022"/>
+gen zu thun ist / alß im 3. 6. 9. vnd
+anderen / gibet es David mit mehrerern vnd anderen Worten / vnd pfleget
+gemeiniglich zuruffen: Ach HERR. Andere Gleubige vnd heilige / wann sie jhrem
+lieben Gott klagen / vnd jhr Hertz vber jhm ausschütten wollen / so geben sie
+jhm seine gebührliche Titel / vnd sprechen: Heiliger / Barmhertziger / starcker
+vnd gnediger Gott. David aber ist hie des Jammers so vol / das er mehr nicht /
+als das Wörtlein Gott / er greiffet / vnd ist doch eben viel / ja gnug hiemit
+begrieffen. Dann dieser Name Gott kommet her vom guten. Niemand aber ist gut /
+dann der einige Gott / Matth. 19. vnd begreifft in sich alles / was herliches
+vnd gutes von GOtt kan vnd mag gesagt werden. Das bildet David alhier vnter
+seiner Klag tieff in sein Hertz hinein / vnd ob er schon bey Gott klagen vnd
+seine Noth anbringen wil / so bekennet er doch / vnd wils zum voraus gesetzet
+haben / Gott sey vnd bleibe allezeit / vnd in allem Gut vnd Gerecht.</p>
+<p>Ach liebste Freunde / es ist eine hohe schwere Sache mitten vnter der straffe /
+darunter doch Gottes gerechter vnd billicher Zorn gespühret wird / sich
+auffrichten / für Gottes Angesicht treten / vnd jhme gleich in die Zornruhte
+greiffen / vnd mit jhm seine Notturfft handelen können. Gott / spricht er weiter
+/ du hast deinem Volcke ein hartes erzeigt. Wil so viel sagen / gegen wem solte
+sich ein Volck mehr gutes versehe&#x0303; / alß gegen seinem lieben vnd
+frommen Gott: Freylich gegen niemand anders. Nun aber da solches von vns
+geschicht / was folget? Du hast vns zumahln hart heim gesucht / du hast vns
+<note place="left">Thre. 1. Psal. 68.</note>angegriffen an dem ort /
+da es vns am wehesten thut / Thre. 1. Du hast vns nach dem 68. Psalm eine Last /
+ja eine schwere last auffgeleget / Du hast vns voll Jammers ge-
+<pb facs="#f0023"/>
+macht. Was ist dann das harte erzeigte / vnd der
+grosse Jammer gewesen? Etwas wird hiervon berichtet / doch wird es in <hi rendition="#i">Specie</hi> nicht außgedrücket / noch mit lauterem Namen
+genen&#x0303;et.</p>
+<p>Dann erstlich sagt er / Gott sey Zornig gewesen / habe Zorn zeichen sehen lassen.
+2. Er habe sie verstossen vnd zerstrewet: 3. Er habe die Erde / das gantze Landt
+beweget vnd zerrissen / das sie von Brüchen gar zuschellet sey / die Grundtfeste
+des Landes seyn bey nahe eingefallen. 4. Er habe jhnen ein Trunck Weins gegeben
+/ das sie davon daumelten. Gott habe jhn dermassen vnd viel eingeschencket / das
+sie fast nicht austrincken können / Sonsten hat Gott wol einen Kelch in seiner
+Hand / mit starckem Wein eingeschencket / aus welchem Creutzkelch er allen
+seinen Freunden pfleget einzuschencken / wie David sagt im 75. Psalm. Denn<note place="right">Psalm. 75.</note> der HErr hat einen Becher in der
+Handt / vnd mit starckem Wein voll eingeschencket / vnd schencket aus demselben
+/ das ist / er teilet einem jglichem sein Maß zu / das er leide / aber die
+Gottlosen müssen alle trincken / vnd die Hefen aussauffen. Aber alhier sey der
+Trunck gar starck gewesen / Summa / gar ein vber aus hartes / schweres /
+vnfreundtliches sey jhm erzeiget worden.</p>
+</div>
+<div>
+<head>So viel vom Text.</head><lb/>
+<lb/>
+<p>HAt nun / andechtige im HErrn / der König David / vnd das gantze Volck / vber
+jhren Zustandt so hefftig getrawret vn&#x0303; geklaget / geheulet vnd
+geweinet / da er doch bey Land vnd Leuten blieben / vnd das Volck seinen König
+vnd Regie-
+<pb facs="#f0024"/>
+renden Herren vnd Landesvater behalten hat:
+Wer wil vns arme betrübte Vnterthanen dann verdencken / vnnd es vns zum ergesten
+außlegen / vnd vbel deuten / da wir in vnverhofftem / gegenwertigem /
+leidliche&#x0303; Betrübnis / vnd kleglichem Zustandt auch vnsere
+klage führen / da der Allmechtige GOtt nach seinem vns verborgenem Rath vnd
+Wollgefallen den weylandt Hochwirdigen / Durchleuchtigen / Hochgebornen Fürsten
+vnd Herren / Herren Henricum Julium / Postulirten Bischoffen zu Halberstadt /
+vnd Hertzogen zu Braunschweig vnd Lüneburg / vnseren frommen gewesenen
+angebornen Erb vnd Landesfürsten / ausserhalb Landes vns entrücket / vnnd durch
+den zeitlichen Todt entzogen vnd genommen hat / durch welchen jämmerlichen /
+plötzlichen vnnd betrübten Fall / vns auch allerseits ein hartes / Ach / Ach
+leider / Gott im hohen Himmel sey es geklaget / ein gar hartes ist erzeiget. Im
+löblichen berümbten Hause Braunschweig sein bißhero zwey par Brüder am Leben
+gewesen / alß nemblich / vnser verstorbener Herr / Herr Henricus Julius /
+Christmilder gedechtnis. Philippus Sigismundus / Postulirter Bischoff dero
+Stifft Osnabrück vnd Verden / Thumprobst zu Halberstadt / vnnd Hertzog zu
+Braunschweig vnd Lüneburg. Joachim Carl / Thumprobst hoher Stifft Straßburgk /
+vnd Julius Augustus / Thumprobst des Stifftes S. Blasij in Braunschweig / vnd
+Abten zum Michelstein. Diese zwey par Brüder aber sind gewesen / nicht allein
+leibliche / sonderen auch hertzliche Gebrüdere / die <note place="left">Psal. 133. Syr. 25.</note>einig gelebt / darob Gott vnd Menschen / wie
+David im 133. Psalm sagt / vnd Syr. im 25. Cap. ein Wollgefallen gehabt / welche
+auch einem anderen Trew vnd Holt / biß in den todt gewesen / vnd nicht allein in
+Brieffen zugeschrieben / sondern
+<pb facs="#f0025"/>
+solches auch im werck vnd
+mit der that / wie jedermenniglich bewust / geleistet haben / Diese par
+Gebrüdere sein nun zerentzelet / das Bandt vnd Brüderschafft ist nun auffgelöset
+vnd zertrennet / das ist ja warlich ein hartes / das Gott hierinnen erzeiget
+hat.</p>
+<p>Gleicher gestalt hat durch diesen betrübten Todesfall / vnser lieber GOtt den
+Fürstlichen Geschwistern ein sehr hartes erzeiget / das sie schier nicht wissen
+wo aus noch ein. Zum dritten / ist ein ander liebes par gewesen / welches GOtt
+selbesten zusammen gefüget / vnd kein Mensch vnd Creatur / weder im Himmel noch
+Erden / nicht zu scheiden macht gehabt hat / nach dem Spruch Christi / Matth.
+19. Was Gott zusammen gefüget<note place="right">Matth. 19.</note> / sol
+niemandt scheiden / Die Fürstliche verwantnis / welche S. F. G. mit jhrem
+Hertzallerliebsten Gemahlin gehabt / der Durchleuchtigen / Hochgebornen Fürstin
+vnd Frawen / Frawen Elisabethen / gebornen aus Königlichem Stam Dennemarck / vnd
+Hertzogin zu Braunschweig vnd Lüneburgk. Solches par in ehelicher / keuscher
+Liebe vn&#x0303; Freundtschafft verknüpffet / ist in zweyen Lieben ein
+Hertz / ein Gemüth vnd Seel gewesen. Diß liebe par ist auch getrennet / vnd
+durch den geelgrünen Reuter vnd Leutfresser / den zeitlichen Todt / ein kleglich
+Riß vnd Scheidunge gemacht / vnd vnsere gnedige Landesmutter von jhrem auff
+Erden werdestem vnnd Hertzallerliebsten Schatz / eine verlassene Witwe worden.
+Dahero das hochbetrübte Fürstliche Hertz winselt wie eine Kranich / vnd girret
+wie eine Taube / wie eine Turteltaube in der Einsame / so kein grünes Zweigelein
+mehr besitzen / vnd hell klar Wasser nicht trincken wil. Ach HErre Gott / das
+ist einmahl ein hartes / das du hier erzeigest / herter vnd stercker hettestu es
+zu diesem mahl
+<pb facs="#f0026"/>
+schier nicht machen können / Denn durch diß
+hartes vnd jämmerliche Ehetrennunge war worden / was der Poet Stigelius sagt /
+von zweyen frommen vnd lieben Hertzen:</p>
+<l><hi rendition="#i">Non dolor est maior, quam cum violentia mortis Unanimi solvit corda ligata fide.</hi> Es ist kein grösser
+Leidt vnd Schmertz / Alß wenn der Todt scheidt zwey trew Hertz.</l>
+<p>Diß ist also eine sehr scharffe <foreign xml:lang="el"><gap reason="fm"/></foreign>, davon der alte Lehrer
+Basilius redet / vnd spricht: Wann Man vnd Weib durch den zeitlichen Todt
+getrennet werden / daß das also schmertze / alß wenn eines gesunden Menschen
+Hertz in zwey theil gespaltet würde / von welchem das eine in die Erden
+verscharret / <note place="left">Augustinus.</note>vnd das ander also
+blutrüstig vnnd vnverbunden im Leibe behangen bliebe / darüber der nachbleibende
+Ehegahte in solche Trübsal gereth / das er wol mit dem heiligen Augustino sagen
+möchte: <hi rendition="#i">Horrori est mihi vita, quia nolo dimidius
+vivere,</hi> Ich begehr nicht lenger zu leben / denn was sol ich alß ein halber
+Mensch leben.</p>
+<p>Daher lieset man / das etliche / wann von den Eheleuten <note place="left">Capaneus</note>eins gestorben / sich das ander theil leid angethan vnnd
+selbst vmbracht / Etliche mit Fewr / alß der könig Capaneus / Etliche <note place="left">Ligarius. Portia.</note>haben sich mit Hunger
+verschmechtet vnd getödtet / alß der Römer Ligarius / Etliche haben fewrige
+Kolen gefressen vnd verschlungen <note place="left">
+<hi rendition="#i">Flamen Dialis.</hi>
+</note>/ alß die berühmte Fraw Portia / Etliche haben jhr Ampt vbergeben / als
+der Heydtnische Priester zu Rom / darumb / das durch Absterben seines Weibes jhm
+sein Hauß jämmerlich verstümmelt vnd enblösset ward. Ettzliche haben <note place="left">
+<hi rendition="#i">Artemisia</hi>
+</note>jhre abgestorbene nicht wollen begraben / sonderen mit Fewr zerpulueren
+lassen / wie die Königinne <hi rendition="#i">Artemisia</hi> des Landes
+<pb facs="#f0027"/>
+<hi rendition="#i">Cariae,</hi> damit sie die Aschen täglich im Tranck
+gebrauchen / in jhr<note place="right">
+<hi rendition="#i">Regina &amp; conjunx Mauselei.</hi>
+</note> Leib begraben / vnd nimmemehr vergessen möchte / wie sie denn gesagt:
+Mein Gemahl vnd Hertzliebster / der mich vnd ich jhne geliebet habe / sol vnter
+meinem Hertzen sein Grab haben. Etliche haben nicht wider freyen / noch die
+andere Ehe beschreiten wollen / alß die <hi rendition="#i">Cornelia Grachi,</hi>
+so nach Absterben jhres Gemahls des Königes wider einen Egyptischen König zu
+einem Ehegemahl bekom&#x0303;en können. Aber aus hertzlicher Liebe jhres
+verstorbenen Herren / welchen sie lieber gehabt den&#x0303; viel tausent
+Gülden / ja lieber den&#x0303; viel Tonnen Goldes / hat sie jhm solchen
+Heyrat abgeschlagen / vnnd die andere Ehe keines weges beschreiten wollen.
+Etzliche haben zum allerwenigsten ob solchem ehelichen Abgang jhre Namen
+verendert / vnd sich anders nennen lassen / als die gute fromme Naemi / Ruth. 2.
+da sie von<note place="right">Ruth. 2.</note> den Moabitern wider zu Hauß
+kommet gen Bethlehem / vnd jhre Nachtbarn sie frölich hiessen wilkommen sein /
+wil sie nicht mehr Naemi / das ist / lustig vnd lieblich heissen / sonderen wil
+/ man sol sie Maram heissen / <hi rendition="#i">à moerore &amp;
+amaritudine,</hi> von der Bitterkeit vnd grossem Betrübnis / das jhr der
+HERR vnter den Frembden zugeschicket / da er sie beyde jhres lieben Mannes vnd
+jhrer zweyer Söhne beraubet hat. Doch gleichwol müssen wir Christen nicht
+trawren alß die Heyden / die keine Hoffnung haben / 1. Thes. 4. Sonderen vns
+dessen trösten / das<note place="right">1. Thes. 4.</note> die vnseren in
+jhrem Stande vnd Beruff / darein sie Gott der HErr selbest gesetzet / jhr Leib
+vnd Leben gelassen / vnd nun einen edelen Wechsell gethan / nemblich / das
+Threnenthael verwandelt in einen Königlichen <hi rendition="#i">Palatium</hi>
+oder Frewdensaal / vnd für die zeitliche vnd leichte Trübsal eine ewige vnnd
+vber alle masse wichtige Herrligkeit / vnd das vnbefleckete vnverwelckli-
+<pb facs="#f0028"/>
+che
+<note place="left">2. Petr. 1.</note>Erbe im Himmel vberkommen haben / 1.
+Pet. 1. Welcher ist ein Schatz vber alle Schätze / denn so helt Gott der HErr
+seinen proces / nach art der Hebreischen Sprach / das hinderste <note place="left">Lutherus. in Genesi. Prov. 18.</note>zu förderste / <hi rendition="#i">priores paßiones, posteriores glorias,</hi> daß Leyden zuvor
+/ vnd darnach die Herrligkeit / wie Lutherus / seliger Gedechtnis / in seinem
+Genesi schreibet / vnd Salomon Prov. 18. saget: Ehe man zu Ehren kompt / mus man
+zuvor leyden / vnd wenn Gott der HErr aus vns wil etwas machen / das er dann
+erst nichtes aus vns macht / vnnd stost vns durchs liebe Creutz / gleich alß in
+einem Mörsell vber einen klumpen zusammen / vnd <note place="left">1. Sam
+.2.</note>tödtet vns / darnach machet er vns wider lebendig / wie Hanna sagt
+/ 1. Sam. am 2. Cap.</p>
+<p>Folgen vier Junge Herrlein / alß der Gott lob nun mehr regierende Landesfürste /
+Hertzog Friderich Vlrich / Hertzog zu Braunsch. vnd Lüneburg / Herr Christianus
+/ Herr Rudolphus vnd Herr Henrich Carl / mit etlichen Frewlein in vnd ausser dem
+Ehestande / welche alle miteinander durch diesen trawrigen Todesfall jhres
+gottseligen frommen Herren Vaters / zu Vaterlosen Weysen gemacht worden / Ach du
+gütiger Gott / Ach liebster HErr / das ist wiederumb gar ein hartes / das du
+hier erzeiget hast. Zu allernechst stehe&#x0303; hierbey die Für stliche
+Diener / Geistliche vnd Weltliche / die Räthe / Hoffjunckern / vnd semptliche
+Diener / das Fürstliche Frawen Zimmer / vnd waß dem Fürstlichem
+Braunschweigischem Hofe mit auffwartunge / pflicht / Eyden vnd Diensten verwandt
+ist. Die alle mit einander haben jhren gnedigen vnnd milden Herren zu <note place="left">Thre. 5.</note>grosser vnzeit verlohren / die seufftzen
+mit Jeremia aus den Thre. am 5. Cap. vnd sprechen: <hi rendition="#i">Cecidit
+corona capitis nostri,</hi> Vnsers Hertzen frewde hat ein ende / vnser Reien
+ist in Wehe-
+<pb facs="#f0029"/>
+klagen verkehrt / die Kron vnsers Heuptes
+ist abgefallen: O wehe / das wir so gesündiget habe&#x0303;! Darumb ist
+auch vnser hertz betrübet / vnd vnsere Augen sind &#x2020; Finster worden.
+Letzlich<note place="right">&#x2020; Finster) das ist / Das Gesicht vergehet
+vns / vnd ist alles schwartz für den Augen für grossent Jammer.</note> sind
+noch vbrig wir arme vnd betrübte Vnterthanen / denen auch jhr frommer
+natürlicher Erb vnd Landes Herr / ja viel mehr gemeiner Landesvater / dessen mit
+fug vnd recht sich niemandt hat beschweren können / durch den zeitlichen Todt
+entfallen ist.</p>
+<p>Daß ist abermahl kein leichtes oder geringes / sonderen gar ein hartes / das Gott
+seinem Volck erzeiget hat. Dann vnter diesem frommen Landesfürsten haben diese
+Bergstedte / am Hartz insonderheit / ins 25. jahr den edelen Frieden vnd
+allerhand Ruhe vnd stilles Wesen so gut gehabt / als ein ort Landes im gantzen
+Braunschweigischen Lande jmmermehr mag gehabt haben / Wir haben alle sicher
+gewohnet / ein jeder / wie im 1. Reg. 4. stehet / vnter seinem Weinstock / vnd
+vnter seinem Feigenbaum<note place="right">1. Reg. 4.</note> / ja wir <hi rendition="#i">Sareptaner</hi> vnd Bergkstedter habe&#x0303; bevoraus
+alle vnter diesem hohen Heupt vnd Schilt der Erden / dem Gott sein Gericht vnd
+Gerechtigkeit gegeben im 72. Psalm / ein<note place="right">Psal.
+72.</note> friedtliches / geruliches vnd stilles Leben führen können / in aller
+Gottseligkeit vnnd Ehrbarkeit. Für diesen bißher edelen gehabten Friede / (Gott
+gebe weiter seine Gnade) alß einen fürtrefflichen Schatz / sollen wir Gott
+dancksagen / in betracht / das es keine geringe / sonderen grosse Wolthat
+gewesen ist / drumb mögen wir wol zur Dancksagung mit jennem Heydtnischen Poeten
+/ doch nicht Heydtnisch / sonderen recht Christlich <hi rendition="#i">exclamiren</hi> vnd sagen:</p>
+<l><hi rendition="#i">O pax optima rerum
+<pb facs="#f0030"/>
+Quas homini nouiße datum est, pax una triumphis Innumeris
+potior.</hi> G Edler Fried / O köstlich Ruh Nichts ist so thewr vnd herrlich
+als du / Kein Schatz / kein Reichthumb in der welt Kein Edelstein / kein grosses
+Gelt / Kan dir geachtet werden gleich Wenn es schon wer ein Königreich.</l>
+<p>Wir müssen es aber nicht bey der Dancksagung für Gottes Wort / gehabten Frieden /
+vnd andere Wolthaten bewenden lassen / sonderen Gott widerumb fleissig anruffen
+/ das er Land vnd Leuten / an vnserem gnedigen Landesfürsten / dem
+Durchleuchtigen / Hochgebornen Fürsten vnd Herren / Herren Friderichen Vlrichen
+/ widerumb einen Friedliebenden Landesfürsten geben wolle / der in der That mit
+S. F. G. Namen vberein komme / das es heissen möge / wie der Poet sagt:</p>
+<l>
+<hi rendition="#i">Rebus conveniunt nomina saepe suis.</hi>
+</l>
+<p>Denn / Andechtige im HErrn / wenn Gott einem Volcke vngnedig ist vnd dasselbe
+straffen wil / so nimpt er den Friede hinweg aus dem Lande / Wenn er aber ein
+Landt segnen wil / so gibet er Friedtfertige Fürsten vnd Regenten / vnd breitet
+<note place="left">Esa. 66.</note>den Frieden aus / wie einen
+Wasserstrom / vnd die Herrligkeit des Landes / alß einen vberfliessenden Bach /
+Esa. 66. wie auch der Heyde Plato solches erkennet / da er spricht: <hi rendition="#i">Cum vult Deus benefacere civitati, dat ei bonum Magistratum
+quem, ubi malum imminet, adimit.</hi> Das ist / wenn Gott wol wil einem Land
+/ Stad vnd <hi rendition="#i">Commun</hi> / so gibt er jhr fromme Obrigkeit /
+Ist
+<pb facs="#f0031"/>
+aber ein Vnglück vorhanden / rafft er sie vor demselben
+weg. Ob nun gleich neben dem edlen gehabten Friede vnd anderen vielen Wolthaten
+Gottes / bey S. F. G. Regierung was vnrichtiges mit vntergelauffen / so zu
+Beschwerung armer Leute gereicht / wie den&#x0303; keine Regimente auff
+Erden sein / darin nicht zu zeiten was vnrichtiges für fihle / So ist doch
+solches fürwar nicht des gottseligen frommen Landesfürsten schult / sonderen
+böses Berichtes derer Leute / die vnrichtige böse Sachen durch zutreiben sich
+bemühet vnd bearbeitet haben / vnd darnach aussen gewest / das arme Vnterthanen
+beschwert / ja lenger ja mehr ausgesogen / vnnd den Dienern jhr altes Herkommen
+/ Gerechtigkeit / Besoldung / vnd was sie sonst gehabt / wo nicht gantz vnd gar
+genommen / doch geschwechet vnd geschmeleret / vnd also jhnen eins nach dem
+anderen möchte entzogen werden / Darauff entlichen etzlichen allerley böses
+gefolget / etzlichen ist es dahin kommen / das sie die hohe Gnade verlohren /
+vnd hat mit solchen geheissen / aus dem 119. Psalm / <hi rendition="#i">vidi
+finem,</hi> Ich<note place="right">Psalm. 119.</note> hab alles
+dinges ein ende gesehen / Aber dein Gebot wehret. An S. F. G. aber ist diß nicht
+ein geringes / sonderen an derselben für einen werthen vnd hohen Schatz zurühmen
+gewesen / nach dem bey diesem Heupt vnd vornehmer Seule des Römischen Reichs
+Gott selbesten ist erhöhet / haben S. F. G. Gott zu ehren Kirchen vnd Schulen
+gantz Löblich vnd Fürstlich erbawet / darunter ein ausbundt vnd auserlesen Stück
+von einer schöner Kirche&#x0303; ist / die gebawete Bischöffliche
+Grüningische Kirche / die trawn ein ehrliches gekostet / die itzige newe
+Heinrichstettische / zu welcher S. F. G. sampt derselben vielgeliebten
+nachgelassenen Gemahlin ein ehrliches <hi rendition="#i">contribuirt</hi> haben
+/ Das Helmstetische newe Collegium / das ich geschweige anderer
+<pb facs="#f0032"/>
+Kirchen vnd Schulen im Lande hin vnd wider / darzu S. F. G. Fürstlich geben /
+vnd ob gleich etzliche Kirchen vnd Schulen S. F. G. im Lande nicht gantz gebaw
+et / so haben sie doch denselben / so bald es schrifftlich vnd <hi rendition="#i">supplicativè</hi> fürbracht / mit Holtz / Kalck / Zigel /
+Bley / Schifer / vnd dergleichen allen vorschub gethan / vnd noch wol darzu jhre
+Fürstliche Gelt <hi rendition="#i">munera</hi> vnd <hi rendition="#i">beneficia</hi> verehret. Haben also S. F. G. in diesem Stücke <note place="left">Hiram.</note>in etwas vielen Gottfürchtigen Königen vnd
+Keyse ren gefolget / alß dem Hiram / David / Cyro / Dario vnd anderen. Denn
+<note place="left">1. Reg. 5. Cyrus. Esdr. 1. David. 1. Par. 30.
+Darius Longimanus. Otto.</note>Hiram / König zu Tyro / gab zur erbawung des
+Tempels Cedern vnd Dennenholtz / 1. Reg. 5. Cyrus gab Stewr zur erbawung des
+anderen Tempels / Esd. 1. Von David lesen wir 1. Pa. 30. das er zum Gebew des
+ersten Tempels in die 50. tausent Tonnen Goldes / an Golde / Silber / ohn allen
+anderen stattlichen Vorrath bescheiden / Vnd Darius Longimanus haben zur
+Erbawung des anderen Tempels reichlichen vorschub gethan. Also hat auch Keyser
+Otto zum Thum vnnd Stifft zu Magdeburgk 19. Tonnen Goldes / ohne alles andere /
+stattliche Landtgüter / Dörffer vnd Vorwercke / aus guter Christlicher
+Wolmeinunge verehret. Diesen thewren Helden vnd guthertzigen mitleidenden hohen
+Personen ist in etwas S. F. G. wie erwent / nachgeschlagen / vnd sich damit
+erwiesen / das S. F. G. <note place="left">Esa. 49.</note>der Kirchen
+Pfleger vnd Nehrer gewesen. Gleich wie auch S. F. G. für sich selbesten das
+Reich Gottes vnd seine Gerechtigkeit / nach der Gülden Regel / Matth. 6. Cap.
+zum ersten gesucht: Also haben sie bey jhrer Regierungs zeiten das reine vnd
+vnverfelschete wort Gottes / neben reinem Gebrauch der Hochwirdigen Sacramenten
+vnd gantzem vnverfelschetem Gottesdienst / im gantzen Lande gehandthabt / wider
+alle
+<hi rendition="#i">corrupte-
+<pb facs="#f0033"/>
+len,</hi>
+jrthumb vnd schwermereyen geschützet vnd erhalten / vnd in Summa / vber der
+Religion / wie ein rechter Josias vnd alß ein löblicher Landesfürst / steiff vnd
+fest gehalten / welches dann auch vnter anderen hieraus erscheinet / das S. F.
+G. neben Christiano dem anderen / Churfürsten zu Sachsen / Christmilder
+Gedechtnis / die Predigt des heiligen Evangelij in das löbliche Königreich
+Behmen gebracht / vnd allerley Fürstliche verehrung zu der newen Kirchen in der
+alten Stadt Prag / auffm Retschin vnd <hi rendition="#i">Vniversitet</hi> gethan
+/ Solches werden die Prager stedte sonder zweiffel / als Evangelische Christen /
+für eine sonderliche Providentz vnd Veterliche schickunge Gottes erkennen / das
+vnser Christseligster Herr zu Prag / da S. F. G. auch das Mühselige leben
+geendet / als ein frommer vnnd gehorsamer Fürst gegen seine von Gott
+vorgesetzete Heupter vnd Liebe Herren / Keysere Rudolpho dem anderen vnd Matthia
+dem 1. Gebrüderen / ins vierdte Jahr williglich vnd gehorsamiglich enthalten /
+vnd viel gutes gestifftet / nicht alleine in diesen berürten Sachen / sonderen
+auch in <hi rendition="#i">politicis,</hi> daran zweiffelohne dem Landt
+Braunschweig vnd gantzem Römischen Reich gelegen / Aber davon lasse ich andere /
+denen es gebühret / reden vnd hierüber mehr wissenschafft haben. S. F. G. ist
+Bäpstischer / Calvinischer vnd aller anderer jrrigen falschen Lehr / wie sie
+Namen haben mögen / von Hertzen spinnen feindt gewesen / vnnd sich zu der allein
+Seligmachenden in Gottes Wort / der Augsbürgischen <hi rendition="#i">Confeßion,</hi> in Schrifften <hi rendition="#i">Doctoris Martini Lutheri</hi>
+vnd der <hi rendition="#i">Formulae concordiae</hi> begriffener Religion
+außdrücklich bekandt. So hat auch S. F. G. seines Herren Vaters / Hertzogen
+Julij wolgestelte Kirchenordenunge vber diß löbliche Fürstenthumb behalten /
+vnnd der in allen
+<pb facs="#f0034"/>
+puncten nachgelebet / vnd von den
+Vnterthanen nachleben lassen. S. F. G. haben zu Wulffenbüttel etliche
+Cappelknaben gehalten / vnd dieselbe nach Notturfft mit Speise vnd Tranck /
+Kleidung vnd anderen dingen versehen lassen / vnd darzu gehalte&#x0303;
+berühmbte Cappelmeister / mit allerley Instrumentisten / vnd eine solche
+Cantorey in der Hoffkirchen gehabt / das / wer sie gehöret / sich darob
+verwunderen müssen. Mit armen ins elendt vertriebenen Predigern / beyde von
+Papisten vnnd Calvinisten / haben S. F. G. ein grosses mitleyden gehabt /
+denselben Fürstliche Wolthat erzeiget / vnd dero viel vom Ehrwirdigen
+Fürstlichen B. <hi rendition="#i">Consistorio</hi> beförderen lassen. Mit
+anderen / so vom Türcken gefangen / geprügelt vnd gemartert gewest / haben S. F.
+G. gleichfals mitleiden getragen / vnd dero etzliche von Prage her an die
+Fürstliche Herren Räthe verschrieben / den man im Lande geben müssen / damit sie
+zur <hi rendition="#i">Rantzion</hi> kommen könten. Ich werde berichtet / das S.
+F. G. in eine reine Lutherische Kirche zu Prage / beyde Altar vnd Cantzel sol
+verehret haben. S. F. G. sein auch nicht allein jhrem Herren Vater / Hertzog
+Julio seliger Gedechtnis / gehorsam gewesen / sonderen auch jhrer seligen
+verstorbenen Fraw Mutter / in jhrem betrübten Widtwenstande / ja sie sein
+derselben jmmerzu tröstlich gewesen / vnd im Ehestande so wol / alß ausser
+demselben / alle Kindliche Ehrerbietunge vnd gebührenden gehorsam erzeiget /
+Drumb S. F. G. nach dem vierdten Gebot / reichlich von Gott gesegnet / das sie
+mehr an Landt vnd Leutenb kommen / alß jhr Herr Vater nachgelassen / mehr
+ererbet an allerley Bergwercken / Holtzunge / Saltz / Eysen / Glasewerck / vnd
+dergleichen / als jemals ein Braunschweigischer Herr mag gethan haben. Mit
+seinen Herren Brüderen vnd Geschwisteren / wie
+<pb facs="#f0035"/>
+oben gedacht /
+der 11. zusammen gewest / 4. Herren vnd 7. Frewlein / davon aber etzliche mit
+Tode abgangen / haben S. F. G. sich allwege wol vertragen / vnnd miteinander in
+grosser Brüderlicher Liebe vnd Friede / Frewde / Correspodentz vnnd Einigkeit
+gelebet / In Summa / S. F. G. sein nach Syrachs Spruch am 44. Cap. lobens werth.
+Sehet nu / lieben Christen<note place="right">Syr. 44.</note> / solchen
+Gottseligen / Eyferigen / Christlichen Landesfürsten haben wir durch gemelten
+trawrigen Todesfal verlohren. Das ist ja / wie der liebe Gott weis vnd erkennet
+/ eben gar ein hartes / das vns arme Vnterthanen hiemit ist erzeiget worden. Das
+ist vnd heist eine schwere Last / die vns der HErr hat auffgeleget / damit er
+vns voll Jammers gemacht / vnd einen solchen Riß in diesem Landt vervrsachet vnd
+angerichtet / der vbel zu heylen stehet / Das gantze Landt ist von diesem Bruch
+beweget vnd erschallet / Wir haben hiermit einen rechten bitteren daumel Trunck
+bekommen / davon Reich vnd Arm / Obrigkeit vnd Vnterthanen / Prediger vnd
+Zuhörer / Herr vnd Knecht / Söne vnd Töchtere daumelen / vnd schier niemands
+weis woraus noch ein. Was nun ferner vorzunehmen / wie man doch mit Gott möchte
+daran sein / Das ist ja rechtschaffen ein hartes / das vns Gott erzeiget hat /
+vnd ist zubefürchten / in dem lasse sein Zorn noch nicht nach / seine handt sey
+noch außgestrecket / es werde noch ein herter kommen / vnd wird diese&#x0303; tödtlichen hintrit vnd mechtigen verlust erst hernach spüren /
+wan&#x0303; der schade schon langest geschehen ist. Es gibet zwar
+schmertzen vnd wehtage gnug / wann einem ein Auge außgestochen / ein Glied / als
+Arm oder Schenckel / vom Leibe wirdt abgelöset / ohne weh vnd schmertzen ist es
+vnmüglich das es ledig abgehe. Aber alß dan&#x0303; ist der schmertzen
+noch nicht vberstanden / vnnd alles vberwun-
+<pb facs="#f0036"/>
+den / wann
+es mit einem Menschen zu solchem Fall gereichet / wann die Wunden nun mehr
+zugeheilet / das Pflaster abgethan ist / der Mensch wil mit dem Auge sehen / so
+ist dasselbige hinweg / er wil zugreiffen / Ach / Ach / da ist nicht es dann der
+strumpff am Arm vorhanden er wil auff die Beine treten vnd fortgehen / so
+mangelt es am Schenckel / er mus erst nach der Krücken greiffen / da kom&#x0303;en erst die rechten nachweh / da fühlet man erst / vnd wird inne
+vn&#x0303; gewahr / was vnwiderbringlichen schaden man am Leibe
+genommen hat. Gott der Allmechtige wolle in Gnaden verhüten / Darumb ist auch
+wol vnd ernstlich zubitten / das vns auch nicht der gleichen Noth vnd Vnglück
+treffen vnd rühren möge / darumb klagen wir ja billich vber diesen betrübten
+Fall / vnd klagen es aber dem / dem David vnd das Volck seine Noth geklaget hat.
+Vor dir OGott schütten wir vnsere Hertzen aus / vnd klagen dir in dein frommes
+Vater Hertz / Gott du hast deinem Volck ein hartes erzeiget / Ach HErr / straffe
+vns nicht in deinem zorn / vnd züchtige vns nicht in deinen Grim / HErr sey vns
+gnedig / den&#x0303; wir sein Schwach / Heile vns HErr / denn vnsere Bein
+vnnd Seele sein sehr erschrocken / Ach du HErr wie lange? Bey welcher klage es
+auch für dißmahl mag bewendet sein. Ehe wir aber von diesem Stücke abschreiten /
+bin ich ferner zuberichten schüldig / was vns hierunter mit Darstellung der
+Fürstlichen Leich Gott selbest wolle gepredigt / vnd wie wir vns auch eigentlich
+in diesen Jammerseligen Trawrfal zurichten haben.</p>
+<note place="left">1.</note>
+<p>Erstlich / gibet vns der gnedige Gott mit diesem hohen vnd betrübten fall
+zubedencken / das es war sey / was David sagt <note place="left">Psalm.
+82.</note>im 82. Psalm: Ich habe wol gesagt jhr seid Götter / vnd alle zumal
+Kinder des Höhesten / aber jhr werdet sterben wie men-
+<pb facs="#f0037"/>
+schen: Gleichfals was Moses sagt im 2. Buch am 22. Cap.<note place="right">Exod. 22.</note> Wo einer den anderen schüldigt vmb
+einigerley Vnrecht / es sey vmb Ochsen / oder Esel / oder Schaf / oder Kleyder /
+oder allerley das verloren ist / so sollen beyder Sache für die Götter kom&#x0303;en / welchen die Götter (die Richter) verdammen / der sols
+zweyfeltig<note place="right">Obrigkeit sint ampts Götter.</note>
+seinem Nechsten wider geben. Ob nun gleich kein Standt auff Erden ist / den Gott
+mit so hohen Namen nobilitirt vnd geehret / alß der Obrigkeit Standt / so müssen
+doch alle die darinne leben / den Standt haben / sterben vnd das zeitliche mit
+dem Rücken ausehen. Vnter den Edlensteinen zwar wird den Regenten der Carfunckel
+zugeeignet / anzuzeigen / wie des<note place="right">Carfunckel.</note>
+Fewers natur ist / das es brennet vnd leuchtet: Also sol ein Regent im Straffen
+ernst / in Gnaden aber gütig vnnd linde sein. Vnter den Metallen gehöret der
+Obrigkeit das Gold / welches<note place="right">Goldt.</note> lind vnd
+schmeidig ist / anzudeuten / das sich nach der Sachen gelegenheit jhr Hertz zu
+Erbarmunge sol erweichen lassen. Vnter den Thiren wird den Regenten der Lew
+zugeeignet / wie<note place="right">Lew.</note> jhne dan&#x0303;
+vnserer gnediger Landes fürst vnd alle Braunschweigische Fürsten führen / von
+welchem man schreibet / das er der verschone / die sich für jhm demütigen. Vnter
+den Vogeln wird jhnen der Adeler gegeben / wie die Römische Keyserliche<note place="right">Adeler.</note> Majestat / die Keyserfreye Reichstadt
+Goßlar / vnd andere denselben führen / welcher weit in die ferne sihet / hoch
+empor schwebet vnd die Raubvogel verscheucht / damit die Täubelein / Lerchen /
+Fincken / Nachtigaln / vnd andere Sangkvogel von jhnen vnbeschediget bleiben
+möchten. Sie heissen Richter / das<note place="right">Kichter.</note> sie
+vber Recht vnd Gerechtigkeit halten / das Gute förderen / dz Böse straffen
+sollen. Sie heissen seines Reiches Amptleute /<note place="right">Amptleute</note> das jhnen gebühren wil vber Gottes Gebot zuhalten. Sie
+<pb facs="#f0038"/>
+<note place="left">
+<hi rendition="#i">Patres Patria,</hi>
+</note>heissen <hi rendition="#i">Patres Patriae,</hi> Väter des Vaterlandes /
+das sie Vaterhertze gegen die Vnterthanen haben / vnd sie vor Schaden bewahren.
+Wie denn der Herrschafft Vnterthane den Namen habe&#x0303; / das sie
+Leute heissen / vom Ebreischen <hi rendition="#i">Ludim,</hi> welches so viel
+heist / alß Kinder oder Söhne / vnd das Wörtlein Land hat seinen Vrsprung von
+<hi rendition="#i">Lon</hi> / das heist wohnen / weil Regenten <note place="left">Rephaim. Lutherus in Genesi. <foreign xml:lang="el"><gap reason="fm"/></foreign>.</note>Schutzherren sein sollen / das Vnterthanen sicher wohnen können / Sie
+heissen <hi rendition="#i">Rephaim (medici)</hi> das sie den Schaden heilen
+sollen helffen / der im Lande entstehet. Sie heissen <foreign xml:lang="el"><gap reason="fm"/></foreign>,
+<hi rendition="#i">(Servatores)</hi> die jhre Vnterthanen in Vnfall rette&#x0303; / Sie heissen <note place="left">
+<foreign xml:lang="el"><gap reason="fm"/></foreign>
+</note>, das sie gute ordenunge anrichten / sie heissen <foreign xml:lang="el"><gap reason="fm"/></foreign>, <note place="left">Schilde der Erden. Psal. 47.</note>das fromme
+Vnterthanen gutes von jhnen zu gewarten. Sie heissen im 47. Psalm / Schilde der
+Erden / das man sich vnter der Obrigkeit Schutz nehren vnd verbergen sol. Diß
+sein zwar / wie gesagt / schöne namen die der Obrigkeit zugeeignet werden / auch
+seins ja feine Leute / die den bekleiden / Aber sie müssen sterben / vnd ist nur
+ein HErr vnd Gott der vnsterblich ist. Diese errinnerung ist beydes Obrigkeiten
+vnd Vnterthanen / Geistlichen vnd Weltlichen / Keyserlichen / Königlichen vnd
+anderen Fürstlichen Personen nötig / vnd dienet darzu / das man sich darbey der
+Sterbligkeit erinnere / wie man den&#x0303; lieset von dem <note place="left">
+<hi rendition="#i">Philippus Rex Mace / doniae,</hi>
+</note>grossen Helde Philippo König in Macedonia / welchem alle Morgen ein
+edeler Knabe für das Bette treten / vnd mit lauter Stim jhm zuruffen muste: <hi rendition="#i">Philippe memento te eße mortalem,</hi> König Philippe
+erinnere dich / das du ein Mensch vnd sterblich bist. Dieser kühne vnd tapffere
+Held hat auch einsmal gesagt / da er ohne gefehr auff den Ren oder Kampff Platz
+in den Staub gefallen war / vnd wieder auffstehet vnd den kleinen reumlein da er
+gelegen ansihet / Ach wie ist das so ein klei-
+<pb facs="#f0039"/>
+nes
+reumlein / da eines Menschen Cörper ligen kan / noch lassen wir vns nicht
+genügen / wenn wir gleich die gantze Welt inne hetten.</p>
+<p>Bey den anderen Griechen / wann ein Fürst ins Regiment eintrat / musten des
+ersten tages die Steinmetzen für das Zimmer treten / vnd jhne fragen / was für
+Steine er zu seiner Grabstet haben wolte / jhn der gestalt auch seiner
+Sterbligkeit zuerinneren.</p>
+<p>Der löbliche Keyser <hi rendition="#i">Maximilianus</hi> hat seinen Sarck /
+darinn<note place="right">
+<hi rendition="#i">Maximilianus.</hi>
+</note> er liegen wollen / vnd Grabgeretlein etliche jahr vber Land führen
+lassen / damit er stets des Todes eingedenck were.</p>
+<p><hi rendition="#i">Saladinus,</hi> welcher dreyer mechtiger königreich / alß
+Asien /<note place="right">
+<hi rendition="#i">Saladinus.</hi>
+</note> Syrien vnd Egypten Herr war / lies jhm allezeit auff der Reise seinen
+Sterbekittel an einer Stangen fürtragen / vnd da er nun verschieden vnnd
+gestorben / muste seiner anordenunge nach / ein Leinlachen oder Grabtuch auff
+einem langen Spieß im Leger vmbhergetragen / vnd also durch den Herolt
+ausgeruffen werden:</p>
+<l>
+<hi rendition="#i">In toto fuerat quirex oriente superbus, Hunc nisi panniculum nil Saladinus habet.</hi>
+</l>
+<p>Das ist / <hi rendition="#i">Saladinus</hi> war ein mechtiger König in Orient /
+aber er nimmet nichtes mit sich dann diesen einigen Sterbekittel. Der fromme
+Joseph zu Jerusalem lies jhme sein Grab zeitlich<note place="right">Joseph.</note> verfertigen / in welch noch GOttes Sohn JEsus CHristus
+gelegt worden.</p>
+<p><hi rendition="#i">Iohannes Gigas,</hi> weylandt Prediger zu Northausen /
+nach<note place="right">
+<hi rendition="#i">Iohannes Gigas.</hi>
+</note> dem er fühlete / das er sein <hi rendition="#i">Curriculum</hi> fast
+volbracht / auch hertzlich verlangen nach dem rechten ewigen Vaterlande trug /
+vnd
+<pb facs="#f0040"/>
+begehrte abzuscheiden vnd bey seinem Erlöser Jesu Christo
+zu sein / schrieb er jhme selbest sein <hi rendition="#i">Epithaphium,</hi>
+welches so lautet:</p>
+<l>
+<hi rendition="#i">Pertesus mundi recubo hic, anima incolit astra Non moritur nitens sanguine Christe tuo. Quam felix, quemcumque hodie Deus evocat, ille est Horrida tempestas &amp; venit atra dies.</hi>
+</l>
+</div>
+<div>
+<head>Das ist /</head><lb/>
+<lb/>
+<l>Im Friedt fahr ich / Christ ist mein Frewdt / Der Welt ich bin gar worden feindt
+/ Alle die im GErrn jtz schlaffen ein / Fürm Vnglück treten vnter fein.</l>
+<note place="left">Alexander Magnus.</note>
+<p>Der Großmechtige vnd gewaltige König Alexander Magnus / hat sich seiner
+sterbligkeit bey einem Stein erinnert / Dan&#x0303; seiner Königlichen
+Wirde / wie man lieset / ist ein herlicher vnd schöner Stein zugeschicket worden
+/ der Art vnd eigenschafft / wenn man denselben auff eine Wage gelegt / hat er
+alle das jenige / was auff der anderen Wageschalen gelegen / vberwogen / wie
+schwer es auch gewesen / so bald man aber ein weinig Erden auff den Stein
+geleget / ist er gantz leicht worde&#x0303; / also / das er auch von gar
+geringen dingen können vberwogen werden / Als sich nun vorgemelter König
+höchlich darob verwundert vnnd zu wissen begehret / was es doch mit gedachtem
+Stein für eine gelegenheit haben möchte / vnd was er sich darbey zuerinneren /
+hat jhm entlich einer von seinen Weisen vnd Gelehrten solches <hi rendition="#i">explicirt</hi> vnd gedeutet: Du König bist der schwere Stein / das dich
+auch der gantze Erdboden kaum kan ertragen / vnd vberwigest alle <hi rendition="#i">Potentaten</hi> in der Welt / daß sie gegen dir gantz
+geringschetzig zu achten: Aber es ist vmb ein
+<pb facs="#f0041"/>
+kleines zuthun
+/ wann man ein wenig Erden auff dich legen wird / wirstu leicht gnug werden /
+darumb hat er diesen Stein / sich daran seines Endes zuerinneren / behalten /
+hoch vnnd thewr geachtet / wie er dann solches zu letzt erfahren / da er zu
+Babylon gestorben. Vnd ob gleich sein Leib mit grosser <hi rendition="#i">magnificentz</hi> vnd Herrligkeit zur Erden bestattet ward / welcher zuvor
+in einen Güldenen Sarck gelegt / auff einen Silberen Wagen gesetzet / vnd vber
+die anderthalb hundert Meilweges mit grossem geprenge vmbher geführet / vnd mit
+jhm alles in alles / wie <hi rendition="#i">Diodorus Siculus</hi> schreibt / in
+die 30. Tonnen Goldes<note place="right"><hi rendition="#i">Diodorus
+Siculus.</hi> Ludolphus Saxo.</note> gekostet. So ist doch an jhme
+erfüllet vnd war worden / wie Ludolpus Saxo schreibt / was die sieben weisen
+Meister von seinem Leichnam gesagt: <hi rendition="#i">Quem totus mundus non
+capiebat, hodiè parua continet arca,</hi> Das ist / dem zuvor die gantze
+Welt zu enge war / der ligt jetzt in einem kleinen Schrein vnd Todtenkestlein.</p>
+<p>Also lesen wir auch von dem thewren / vnd in Creutz vnd<note place="right">Fürst Wulffgang zu Anhalt.</note> Anfechtunge wol versuchten Fürsten /
+Wolffgang zu Anhalt / das er nicht allein 15. gantzer Jahr für seinem seligen
+Ende / einen Sarck bey seinem Schlaffbette sol stehent gehabt haben / sich
+darbey seiner sterbligkeit vnd zunahenden Endes zu erinneren / sonderen das er
+auch zur zeit / alß Henrich der Jünger / des heiligen Römischen Reiches
+Burggraff zu Meissen / Grafe zum Hartenstein / Herr zu Plawen vnd Geraw / mit
+Fraw Catharinen / Hertzogin zu Braunschweig vnd Lüneburg / sein ehelich Beylager
+gehalten / einen Sarck beneben vielen todten greberen / Hirnscheddelen / vnd
+allerley menschen Knochen vnd Gebeinen in grosser anzal auff ein Tuch oder
+Leinewandt gar künstlich vnnd artig habe malen / vnd die schönsten
+Trostsprü-
+<pb facs="#f0042"/>
+che herumb schreiben lassen: Als /
+HERR nun lessestu deinen <note place="left">Luc. 2.</note>Diener in
+Friede fahren / etc. Luc. 2. Gleichfalß: Christus ist mein Leben / Sterben ist
+mein Gewin / ich habe lust abzuscheiden <note place="left">Phil. 1. Joh.
+11.</note>vnd bey dir zu sein / Phil. 1. Gleicher gestalt Joh. 11. Ich bin
+die Aufferstehung vnd das Leben / wer an mich gleubet / der wird leben ob er
+gleich stürbe / vnnd wer da lebet vnnd gleubet an mich / der wird nimmer mehr
+sterben. Item: Wir wollen euch aber lieben Brüder nicht verhalten / von denen
+die da <note place="left">1. Thes. 4. Dantel. 12.</note>schlaffen / auff
+das jhr nicht trawrig seid / 1. Thes. 4. Viel so vnter der Erden schlaffen
+liegen / werden auffwachen / Daniel. 12. Diese vnd andere dergleichen schöne
+Sprüche mehr. Mit solchem gemälde sol er die Fürstliche Braut / an stadt des
+geschenckes / an jhrem Hochzeitlichen tage verehret / vnd jhr darneben anzeigen
+vnd vermelden lassen / sie solte darbey gedencken / das sie auch sterblich were
+/ auch was es für ein ende gewinnen werde / wes sie auch dagegen sich zufrewen
+vnd zutrösten hette. Diß sol der Fürstlichen Braut gar ein liebes vnd angenehmes
+wolgefelliges Geschenck vnd Verehrung gewesen sein. Bey den Kinderen dieser Welt
+/ hat solches beydes ein seltzames vnd wunderliches ansehen. Dann die hören
+nicht gerne vom Tode vnd Sterben reden / vngeachtet / das sie sterben müssen /
+vnnd düncket sie zumal vngereimbt ding sein / bey Hochzeitlicher Frewde
+dergleichen erwehnen vnd fürbringen / da man billich dem Ehestande zu ehren
+solte frölich sein. Wenn wir aber / als Christen vnd Kinder des Lichtes / den
+Sachen recht wolten nach dencken / so müssen wir bekennen vnd sagen / es sey
+hierinnen nichtes vnbescheidenes gehandelt / viel weniger etwas zu tadeln /
+sonderen viel mehr beydes an einer solchen hohen Fürstlichen Person zu rühmen
+vnd zu loben. Denn das erstlich der
+<pb facs="#f0043"/>
+fromme Fürst ein lange
+zeit bey seinem Slaffbette einen Sarck stehent gehabt / daraus erscheinet ja
+gnug / das ein recht Christliches / Gottfürchtiges vnd demütiges Hertz in jhme
+müsse gewesen sein / vnd das er sich seines hohen Standes nach der Lehre Syr. am
+10. Cap. nicht vber hoben / sonderen sich für einen sterblichen Menschen erkant
+/ vnd stets mit sterbens gedancken müsse vmbgegangen sein. Solches ist zwar <hi rendition="#i">in genere</hi> an allen Menschen / <hi rendition="#i">in
+Specie</hi> aber an hohen Fürstlichen Personen noch viel mehr zu loben /
+Dann dieselben sonst mehr vr sach vnd gelegenheit haben zur Hoffart / vnd können
+vom Sathan leicht verblendet werden / das sie vergessen / das sie Menschen vnd
+sterblich sind / sich jhrer Hoheit vnd Gewalt vberheben / vnd etwas thun vnd
+fürnehmen / darumb sie sich an Gott vnd jhrem Nechsten gröblich vergreiffen vnd
+versündigen. Daher lesen wir vom Mose im 90. Psalm / das er Gott gebeten
+vud<note place="right">Psalm. 90. vnd 39.</note> also angeruffen
+habe: Lehre vns bedencken / das wir sterben müssen / auff das wir klug werde&#x0303;. Vnd David betet vnd spricht im 39. Psalm: HErr lehre doch mich
+/ daß ein ende mit mir haben mus / vnd mein Leben ein Ziel hat / vnd ich davon
+mus. Den Vnterthanen dienet diese erinnerung / sich darbey auch rechter pflicht
+vnd gebühr zubescheiden / das sie / in betrachtung solcher Sterbligkeit / deren
+auch jhre Fürsten vnd Herren vnterworffen sind / jhre Herren nicht gar zu hoch
+vnd vber diesen Stand hinauß erheben / lauter Abgötter aus jhnen machen / vnd
+was von jhnen jrgend mag / auch böses / gewaltsames vnnd vnrechtes gesagt vnd
+geordenet werden / schlecht alles für Heiligthumb anbeten / vnd es dafür halten
+/ als sey es vom Himmel herab geredet: Sonderen erinneren sich dessen / was
+David selbesten / auch ein König vnd Herr des Volckes Gottes / geschrieben hat
+<pb facs="#f0044"/>
+<note place="left">Psal. 146.</note>im 146. Psalm: Fürsten sind doch auch
+Menschen / Menschen <note place="left">62.</note>aber sind doch ja
+nichtes. Im 62. Ps. Grosse Leute fehlen auch / ja es heist / <hi rendition="#i">omne quod oritur, moritur.</hi> Syrach 40. Es ist ein elend jämmerlich ding
+vmb aller Menschen Leben / von Mutterleibe an biß das sie in die Erden begraben
+werden / da ist jmmer Sorge / Furcht Hoffart / vnd zuletzt der Todt / so wol bey
+dem der in hohen Ehren sitzet / alß bey dem geringsten auff Erden / so wol bey
+dem der Seyden vnd Kron tregt / alß der einen Leinen Kittel anne hat. Im 89.
+Psalm stehet: Wo ist ein Mensch der da lebe vnd den Todt nicht sehe / Alß wolt
+er sagen: Nirgens wirstu einen finde&#x0303; / der Todt vberfelt sie alle
+/ wie der Poet saget:</p>
+<l><hi rendition="#i">Mors servat legem, tollit cum paupere regem, Nullus tam fortis, pareant cui vincula mortis.</hi> Der Todt
+daß Gesetz am scherffsten helt / Den König mit dem Armen felt / Da ist keiner
+gewest so starck / Den er nicht gebracht het in Sarck. Bringt jederman an seinen
+Tantz / Niemandt gewint jhm ab die Schantz.</l>
+</div>
+<div>
+<head>Gleichfals.</head><lb/>
+<lb/>
+<l>
+<hi rendition="#i">Est commune mori, mors nulli parcit honori, Debilis &amp; fortis veniunt ad limina mortis.</hi>
+</l>
+</div>
+<div>
+<head>Das ist:</head><lb/>
+<lb/>
+<l>Eim Reichen hilfft doch nicht sein Gut / Dem Junge&#x0303; nicht sein
+stoltzer Muth / Er mus auß diesem Meyen / Wenn einer hette die gantze Welt /
+Silber vnd Golt vnd alles Gelt / noch mus er an den Reyen.</l>
+<note place="left">1. Cor. 7.</note>
+<p>Paulus sagt: Das wesen dieser Welt vergehet / Vnnd die <hi rendition="#i">Ecclesia</hi> singet:</p>
+<pb facs="#f0045"/>
+<l>Weltlich Ehr vnd zeitlich Gut / Wollust vnd aller Vbermuth / Ist eben wie ein
+Graß / Aller Pracht vnd stoltzer Rhum / Verfellet wie ein Wiesen Blum / O Mensch
+bedenck du eben das / Vnd besorge dich fürbas.</l>
+<p>Es ist alles eitel vnnd vergenglich / <hi rendition="#i">vanitas vanitatum
+&amp; omnia vanitas.</hi></p>
+<p>Das haben auch die vernünfftige Heyden in acht genommen / Daher dann der
+Heydnische Poet Horatius spricht:</p>
+<l>
+<hi rendition="#i">Pallida mors aequo pulsat pede pauperum tabernas Regumque turres. &amp;c.</hi>
+</l>
+</div>
+<div>
+<head>Das ist:</head><lb/>
+<lb/>
+<l>Der Todt trit zu vns frisch herein / Wer sol denn wol zu Edel sein / Er trifft so
+bald des Fürstensaal / Als des geringsten Hirten Stall. Ach / Ach lieber Mensch
+es heist: <hi rendition="#i">Quid struis eductas immensis sumptibus aulas, Sis memor, extinctum te brevis urnateget.</hi> Wann du lang
+bawst mit schwerer Last / Hohe Heuser vnd grosse Pallast / So wird dir doch von
+alle deiner Haab Nicht mehr denn nur ein Tuch ins Grab.</l>
+<p>Drumb auch nicht vnrecht geredt vnnd gesungen wird: Wer ich so schön als Absolon
+/ Vnd so weiß als Salomon / Hett auch des Pharaonis muth / Des grossen
+Alexanders gut / vnd des Türckischen Keysers Reich / So müst ich werden dem
+Tode gleich.</p>
+<pb facs="#f0046"/>
+<p>Daher sagt Ambrosius / der fromme Bischoff zu Meiland / <hi rendition="#i">Vitae
+huius principium mortis exordium est, &amp; aetas non prius incipit
+augeri quàm minui. Cui si quid accedit spatij tempor alis, non in hoc
+accedit ut maneat, sed in hoc transit ut pereat.</hi></p>
+</div>
+<div>
+<head>Das ist so viel:</head><lb/>
+<lb/>
+<l>Dieses Lebens anfang / Ist des Todes eingang / Vnd die Tage so vns fliessen zu /
+Haben doch weder Rast noch Ruh /</l>
+<p>Biß sie gar wider lauffen ab / Vnd vns hinführen in dz Grab. <note place="left">Job. 14.</note>Ist also das gantze Leben vol Vnruhe /
+Mühe vnd Arbeit / Job. 14. Jafürwar nichtes anders / als:</p>
+<l>Ein Todtenkul / ein Bubenschul / Ein Jammerthal / Ein Trawrsaal / Ein Sündenreich
+/ Ein stete Seuch / Ein täglich Sterben / Ein eitel Verderben / Ein kläglich
+Klagen / vnseglich Nagen.</l>
+<p>Auß diesem allen haben wir nun gehöret / das der Todt <note place="left">2. Sam. 14</note>gleich durchgehet vnd keines schonens bey jm ist / wie im
+2. Sa. am 14. cap. stehet. Wir sterbe&#x0303; des Todes / Vn&#x0303; wie das Wasser in die Erde verschleifft daß man nicht auffhelt. Syrach sagt /
+am 14. Cap. Alles Fleisch verschleist / wie ein Kleid / den&#x0303; es
+ist der alte Bund / du must sterben. Gleich wie die grünen Bletter auff einem
+schönen Baume etliche abfallen / etliche wider wachsen / <note place="left">Psal. 103.</note>Also gehets mit den Leuten auch /
+etliche sterben / etliche werden gebohren. Im 103. Psalm stehet / Ein Mensch (er
+heisse Keyser / König / Fürst / Graff / Herr vnd Knecht / Edel / Vnedel /
+Bürgermeister / Richter / Rath / Arm oder Reich / ist in seinem Leben wie Graß /
+er blühet wie eine Blume auff dem Felde. In welchen worten David sonderlich
+suchet ein Bilde / mit wel-
+<pb facs="#f0047"/>
+chem sich das menschliche
+Leben etwas vergleiche: Findet aber solches nicht am <hi rendition="#i">Firmament</hi> / denn da scheinen die schönen Himmelsliechter nun vber
+sechstehalb tausent jahr: Nicht bey zamen vnd wilden Thieren / dero einstheil
+jhr leben hoch bringen / sonderlich Walfische im Meer / Rehe vnd Hirschen auff
+truckenem Lande / Kreen vnd Raben in der Lufft / Auch nicht an Beumen / derer
+alter auff etlich viel hundert jahr leufft / wie Josephus schreibet / das der
+Terebint oder Eichenbaum in<note place="right">Josephus.</note> Mamre /
+darunter die drey Menner gesessen / noch zu seiner zeit sey gesehen worden:
+Sonderen führet vns ins Felt / zeiget ein Graß oder Feltblümlein / darauff frü
+Morgens die schöne Taw tröpffelein als Perlekrentzelein stehen / vnd sich
+hernach in die wurtzel sencken / vnd dieselbe erquicken: Da hastu / spricht er /
+deines gleichen: Den&#x0303; wie Graß vnd Blumen entlich doch verwelcken
+vnd abgehawen werden mus / vnd hilfft sie weder Farbe noch Gestalt / weder
+Geruch noch Krafft / die Gott zur Artzney darin geleget hat / also müsse&#x0303; die menschen auch verwelcken vnd sterben. Eben also spricht auch
+Esaias am 40. <hi rendition="#i">Domine</hi><note place="right">Esa. 40.</note>
+<hi rendition="#i">quid clamabo,</hi> Ach HErr / was soll ich Predigen? Der HErr
+antwortet vn&#x0303; sprach: So soltu Predigen / <hi rendition="#i">Omnis
+caro foenum,</hi> alles Fleisch ist Hew / vnd all seine güte wie des Grases
+Blume / das Hew verdorret / vnd die Blume verwelcket. Ein jeder Mensch ist wie
+Hew vnd Graß / vnd seine Güte vnd Herrligkeit / das ist / hoher Stand vnd
+Weltliche Ehre / Pracht / Reichthumb vnd Gewalt / ist wie des Grases Blume /
+vnsers jetzigen Römischen Keysers Matthie / eines Churfürsten / Fürsten /
+Edelmans / Bürgemeisters / Richters vnd reichen Kauffherren Güte vnd Herrligkeit
+ist seine grosse Ehre / Gewalt vnd Reichthumb für der Welt. Aber diese Güte vnnd
+Herrligkeit ist gantz wie des
+<pb facs="#f0048"/>
+Grases blume. So bald eine
+Blume verwelcket / verdorret vnd verweset / so bald ist auch des Menschen
+Herrligkeit dahin. Vnd wie alle Blumen gegen den Winter vnd mannichmahl / noch
+ehe welck werden / also müssen <hi rendition="#i">regulariter</hi> alle Menschen
+sterben vnd verwelcken / vnd offtmals ehe sie sichs versehen / wie solches
+erstlich vnser Landesfürst / Christmilder Gedechtniß / mit seinem Exempel
+bezeuget / vn&#x0303; darnach vns mit todtem Munde ein Lied fürsinget /
+das heist: <hi rendition="#i">Hodiè mihi, cras tibi,</hi> Heut ists an mir /
+Morgen an dir.</p>
+<p>In Summa / wann der Mensch sich recht ansihet / so findet er / das er anders
+nichtes ist / alß <hi rendition="#i">vermis &amp; putredo,</hi> eine Made
+<note place="left">Job. 25. 13.</note>vnd ein Wurm / (Job. 25.) Ein
+fligendt Blat vnnd dürrer <note place="left">Gene. 18.</note>Halm / Er
+ist Erd vnd Asch / In Schwachheit / weinen vnnd schmertzen wird er zur Welt
+geboren / In schwachheit bringet er sein Leben zu / So gehet der Todt ohn
+schmertzen / weinen / <note place="left">
+<hi rendition="#i">Ingressus flebilis, pro. gressus debilis, egressus
+horribilis.</hi>
+</note>angst vnd schrecken nicht ab / wie wir singen: Weinen war mein erste Stim
+/ mit weinen war ich geboren / mit weinen tregt man mich wider hin / den Würmern
+zur Speiß auserkohren. Es sey einer wo er wolle / in Spanien / Franckreich /
+Engeland / Welschlandt / Behmen / Deutschlandt / in Persia / in Turcia / oder
+auch gleich in den <hi rendition="#i">Insulis Fortunatis,</hi> so kompt doch
+entlich der Todt vber jhn / er muß die Herberge reumen / vnd einer dem anderen
+weichen / da ist kein Winckel / kein Kemmerlein noch Stübelein in der grossen
+weiten Herberge dieser Welt / darinnen sich einer könte verbergen / wie solches
+auch diß <hi rendition="#i">in Specie</hi> bezeuget / das es in kurtzen Jahren
+dahin kommen / das hohe Stemme in dieser betrübten Welt gar außgegangen sind /
+Dann ja Königliche / Fürstliche / vnd Gräffliche Heuser rein außgestorben sein /
+alß Polen / Braunschweig / Kalenbergisch
+<pb facs="#f0049"/>
+theil / Braunschweig
+/ Grubenhägischen theil / Gülicher Land / Henneberg / Plesse / Hoja /
+Spigelbergk / Pirmont / Honstein / Reinstein / vnd dergleichen / Daher
+abzunehmen / das Gott keine Person ansehe / vnd solcher Abgang hoher Leute vnd
+Geschlechter / gewisse straffe der Sünden sein.</p>
+<p>Drumb schier billich also Reim weiß gefraget wird.</p>
+<l>Wo ist geblieben Romulus / Octovianus Carolus / Der mechtig Alexander groß / Nero
+der viel Bluts vergoß? Wo sind die / so vor hundert Jahren / Regenten in der
+Welt waren / Sampt allen andern groß vnd klein / Die nimmermehr zu zehlen sein.</l>
+<p>Hormisda / ein Erbe des Persischen Königreiches / wird<note place="right">Hormisda</note> vom Keyser Constantino gefraget / was er in der weitber
+ümbten alten Stadt Rom gut s gesehen / <hi rendition="#i">num etiam homines
+Romae moriuntur,</hi> Ey lieber / sprach er / sterben auch wol die Leute in
+der mechtigen vnd prechtigen Stad Rom? Darauff gab er zur antwort / es stürben
+die Leute daselbst eben so wol / als anders wo / vnd gingen nicht allein dahin
+die Armen / sonder en die Reichen / Bürgemeistere / Ratsherren / Stadtjunckeren
+/ vnd Kauffleute. Dieser wege&#x0303; hielt einmal ein sehr hoch
+vernünfftig gesprech jen&#x0303;er Indianer vnd barbarische Man / mit
+eine&#x0303; geitzigen<note place="right">Indianer helt
+gesprech mit einem Spannischen Kauffman.</note> Spannischen kauffman. Den&#x0303; er fragete den kauffman / ob die Spannier in jrem Lande kein
+Holtz zum bren&#x0303;en hetten / das sie so viel grosser Schiffe mit
+rotem Prisillienholtz belüden vnd abführeten? Da jm aber der Spannier zur
+antwort gab: Sie brauchten das Indianische Holtz nicht zum Feurwerck / sondern
+zum ferben / vnd were in Spannien wol ein Kauffman / der so viel rote Tücher /
+Messer / Spiegel / vnd dergleichen wa-
+<pb facs="#f0050"/>
+ren hette / die
+mit dem Holtz geferbet weren / alß er in Indien nie gesehen / Darauff forschete
+der Vnchrist vnd Indianer weiter vnd fragte: Ob denn solche reiche handels Leute
+nicht stürben / sonderen ewig lebeten? Vnd alß er bericht empfing / ja sie
+müsten freylich auch sterben / wie andere / Das grosse Gut aber samleten sie
+jhren Kinderen vnd Erben / Da saget er mit verwunderung darauff: Hilff Gott /
+wir Indianer haben vnsere Kinder ja so lieb alß andere / (wie sie dann jhre
+Kinder hertzlich lieben sollen) Aber auff einen solchen Vorrath gedencken wir
+nicht / sonderen wir haltens dafür / <hi rendition="#i">Eadem terra quae nos
+aluit, illos etiam alet,</hi> eben der Erdbodem / der vns ernehret hat /
+wirds den vnseren auch an Nahrunge nicht mangelen lassen. Das mag mir doch /
+liebe Christen / von einem wilden Heydnischen Menschen eine vernünfftige Rede /
+vnd fast eine Christliche Straffpredigt sein / wider den Geitz vnd die leidige
+Bauchsorge. O wolt Gott wir Christen weren also gesinnet vnd sagten: <hi rendition="#i">Eadem terra, idemque Deus,</hi> eben die Erde vnnd eben der
+getrewe Gott / der vns ernehret hat / der wird auch die vnseren ernehren.</p>
+<note place="left">2.</note>
+<p>Zum anderen / so gibt dargegen vns der liebe Gott an diesem Stande auch dieses
+widerumb zu <hi rendition="#i">ponderiren,</hi> was wir dieses Standes Personen
+/ als Keysere / Könige / Fürsten / Herren / Grafen / vnd sonderlich deren / die
+da from vnnd recht gnedige Herren sind / zugeniessen haben / Alle vnsere
+zeitliche Wolfart haben wir nechst Gott von jhnen / darumb sie rechte <hi rendition="#i">Patres Patriae,</hi> Vätere des Vaterlandes mit fug genennet
+werden <note place="left">Augustus.</note>/ welches Namens sich dann der
+Römische Keyser Augustus höchlich erfrewet / vnd dem <hi rendition="#i">Valerio
+Maßala</hi> / der jhn im Rath also genennet / für Frewden mit thränen
+geantwortet /
+<pb facs="#f0051"/>
+das er nicht mehr von Gott wünschete / alß das
+er dem Namen biß an sein ende gnug thun möchte. Dann alles was ein Vater bey
+seinen Kinderen vnd Gesinde im Hause ist / das ist ein Fürste im Lande bey
+seinen lieben vnd getrewen Vnterthanen /<note place="right">Cyrus.</note>
+wie Cyrus spricht: <hi rendition="#i">Nihil differt bonus princeps à bono
+patre,</hi> Ein Fürst vnnd Vater vergleichen sich wol miteinander. Vnd <hi rendition="#i">Falconius Nicomachus</hi> sagte im Rath zu Rom zum <hi rendition="#i">Augusto:</hi><note place="right">
+<hi rendition="#i">Falconius Nicomachus.</hi>
+</note>
+<hi rendition="#i">Ingens est gloria Rempublicam magis amare quàm filios,</hi>
+Es ist ein treffliches Lob einem Regenten / Land / Leute vnd das gemeine beste
+mehr den&#x0303; seine eigene Kinder lieben / welches denn von den
+Vnterthanen billich in acht genommen / vnnd jhren lieben Landesfürsten als
+Väteren alle gebürliche ehre / gehorsam vnd pflicht jederzeit sol erzeigt
+werden. Wer nimmet aber solches alles zu hertzen? Wo bedencket man das / wie
+sichs gebüret? Wie viel mangelt hier gemeiniglich am Werck vnnd am Gehorsam
+selbesten? Darumb so muß dan&#x0303; Gott bißweilen drein greiffen /
+fromme Fürsten auffheben vnd verbergen / wie Esaias saget /<note place="right">Esa. 26.</note> am 26. Cap. <hi rendition="#i">Ut tum
+demum homines sua intelligant bona, cum quae in potestate habuerunt, ea
+amiserunt,</hi> Das wenn man sie verlohren hat / man hernach erst gewahr
+werde / was man an jhnen habe. Fürs dritte / demnach es mit Fürsten vnd
+Herren<note place="right">3.</note> nicht allein ein sterblich thun /
+sonderen auch ein solch vnbestendig wesen ist / das Augenblicklich vmbschlegt
+vnnd sich verendert / wie vns Gott solches von Anbegin der Welt an den Exempeln
+selbst zum Angenschein beybringet / so wil vns Gott damit fürgepredigt haben /
+das man auff der Fürsten gunst / des Hoffwesens Pracht vnd Macht nicht zu viel
+bawe / vnnd hierauff / wie ein Bock / sich auff die Hörner verlasse / in
+meinunge / als werde es also ewig bleiben / vnd sich das Blat nimmermehr
+<pb facs="#f0052"/>
+werde oder könne vmbbrechen: Es heist / <hi rendition="#i">ab
+interitu principum magnae fiunt rerum conversiones,</hi> Wann Fürsten vnnd
+Herren mit Tode abgehen / so gibet es gemeiniglich verenderungen im Lande /
+sagte ein berümbter Geschichtschreiber / einer felt / der ander steiget / <hi rendition="#i">novus rex, novalex,</hi> new Herr / new Gesetze / Da trifft
+mannichen ein Vngewitter vn&#x0303; Vnglück / dessen er sich nicht
+versehen gehabt / kaum wird es nachbleiben / das solches in dieser <hi rendition="#i">mutation</hi> mit etlichen auch nicht dürffte war werden. Da
+were gut / beym Hellen tage vnd Sonnenschein auff solche felle zugedencken / vnd
+jhnen ein zubilden / was abermal der Königliche Prophet David gesaget / vnd
+jederman gewarnet <note place="left">Psal. 146.</note>hat / im 146.
+Psalm: Verlasset euch nicht auff Fürsten / es sind Menschen / Des menschen Geist
+mus doch davon / alß dann sind verlohren alle anschlege / Wol dem des Hülffe der
+Gott Jacob ist / des Hoffnungen auff dem HErrn seinem Gott stehet / der Himmel /
+Erden / Meer / vnd alles was drinnen ist / gemacht hat / Der glauben helt
+ewiglich / der recht schaffet / denen / so gewalt leyden / Mannicher tregt newe
+Zeitunge zu Hoff / meinet einen Hoffdanck damit zuverdienen / oder andere auß
+den diensten zu heben vnnd selbest anzukommen / vertreugt sich auff Fürstliche
+Gnade / Hofes macht / Herren Gunst / vnd dergleichen / Aber es were besser
+nachgelassen / vnd an den Nachwinter vnd diese Väterliche erinnerung gedacht.
+Was Herren gunst thu vnd bringe / zeugen die Exempla Mosis vnd Bellisarij /
+Solte es mit den Dieneren Herren gunstes halben nicht gefehrlich vnd vnbestendig
+sein / ist es doch mannichmal mit den hohen Heuptern selbesten vnbestendig /
+eitel vnnd vergenglich <note place="left">Historia.</note>ding / wie
+ausweiset nachfolgende geschicht. Jenner König / da er neben anderen gefangenen
+/ in einen Wagen eingespant
+<pb facs="#f0053"/>
+ward / sahe jmmer zu rücke auff
+das Rad / vnd als er vom vberwinder / der auffm dem Wagen saß / gefraget wordt /
+worumb er das thete? gab er zur antwort: Er erinnere sich darbey / wie bald sich
+das glücke verenderen könne / daß das vnterste zu oberst / das oberste zu
+vnterst komme / Er sey kurtz zuvor ein gebietender König gewesen / vnd müsse
+jtzundt alß ein Roß im Wagen ziehen Denn es sey alles vnbestendig in der welt.
+Solcher vnbestendigkeit hoher Leute / &amp; <hi rendition="#i">aliarum rerum
+bumanarum,</hi> werden wir hier erinnert.</p>
+<p>Zum vierdten / wil Gott vnter diesen fällen vnd betrübnis<note place="right">4.</note> vns erinnert haben / nachzudencken / was es
+doch bedeuten müge / wann fürnehme Heupter vnnd fromme Fürsten die Schuld der
+Natur bezahlen. Hiervon bericht zuthun / weiß ich trawn nicht von viel gutem
+oder sonderbarem Glück zusagen / oder jemand einige vertröstunge zumachen. Es
+bedeut in einer Summa zureden Vnglück vnd eitel Böses. Dann gleich wie oben
+albereit angezogen / wenn Gott ein Landt segnen will / (wie oben gehört) so
+gibet er jhm gnedige Fürsten vnd Regenten / Wenn ers aberstraffen wil / so gibet
+er jhnen einen König<note place="right">Oseas 13. Eccl. 10. vnd
+16.</note> im Zorn / wie Oseas am 13. Cap. sagt. Vnd Salomon im Prediger am 10.
+vnd 16. Cap. sagt: Wehe dir Landt des König ein Kindt ist / vnd des Fürsten früe
+essen / Wol dir des König Edel ist / vnd des Fürsten zu rechter zeit essen / zur
+stercke vnd nicht zur lust. Gleichergestalt sagt er im 28. Cap. Wenn ein Fürst
+ohne verstand ist / so geschicht viel Vnrechts / Ja vnser HErre Gott lesset
+selbest durch den Propheten Esaiam am. 3. vnd <hi rendition="#i">4.</hi> Cap.
+solche straffe drewen. Ich trage leyder Sorge / es sey was vorhanden / auff den
+Todesfall werden mehr straffen Gottes folgen / kans abgewendet sein / wie doch
+wolgeschehen könne / wen&#x0303;
+<pb facs="#f0054"/>
+wir Busse theten / so wollen wir Gott dancken / kans aber
+nicht sein / so helffe vns solches die Allmacht vnd Gnade Gottes mit gedult
+zuvberwinden.</p>
+<note place="left">5.</note>
+<p>Zum letzten / wil GOtt mit diesem elenden trawrfall vns auch ermuntert vnd
+auffgewecket haben / in keine vergessenheit zu stellen / sonderen fleissig
+nachzudencken / auff was vervrsachung dann solcher betrübter traw fall
+fürnemblich beruhen vnd bestehen möge. Wer keinen Bericht hierüber hat / der
+höre <note place="left">Prov. 28.</note>was hievon der heilige Geist
+aussaget vnd bezeuget / Prov. 28. Vmb des Landes Sünde willen werden viel
+Verenderung der Fürstenthüme. Ach / Ach / diese Wort mag Obrigkeit vnd
+Vnterthanen / Lehrer vnd Zuhörer / gelehrt vnnd vngelehrt / Herr vnd Knecht /
+Fraw vnd Magd / Bruder vnd Schwester / Rath / Rathsherren vnd Diener wol <hi rendition="#i">ponderiren</hi> vnd zu Hertzen nehmen / niemandt auff andere
+sehen / vnd den handel auff andere schieben vnnd waltzen / wie Eva die schuld
+auff die Schlange schob / Nein / wir sind hie alle in einem Spiel / tragen
+Wasser an einer Stangen / vnd haben einerley Tuch zu allen Hosen.</p>
+<p>Einen außerlesenen Hertz frommen löblichen Landesfürsten haben wir gehabt an <hi rendition="#i">Henrico Julio,</hi> dem frommen vnd gottseligen Hertzen. Diß
+ist von vns zur gebühr noch keinmal erkandt / Gott noch niemals zur genüge
+gedancket worden / seiner F. G. vnd grossen Mildigkeit haben viele mißgebraucht
+/ seine Vater trew ist an vielen offtmalß vnbewandt geblieben. S. F. G. Befehlen
+vnnd <hi rendition="#i">mandatis</hi> ist auch vbel von dem meisten theil der
+Vnterthanen nachgesetzet worden. Diese Sünde vnd dergleichen hat Gott lenger mit
+Augen nicht ansehen mögen / darumb er bewogen worden diß Kleinot / wie nu
+geschehen / zuentziehen.</p>
+<pb facs="#f0055"/>
+<p>So haben nun S. F. G. seligster Gedechtniß / wir gleichsam<note place="right">Hertzeg Henrich des Jünger Alter 97. Jahr.</note> dem
+Tode in den Rachen gestecket / vnd jhme für der Zeit / da S. F. G. noch lange
+nicht seines Herren Großvaters / Hertzogen Henrichen des Jüngern / der <hi rendition="#i">97.</hi> Jahr alt worden / Alter ereichet / Dann sie nur
+allein alt gewesen 48. Jahr. 9. Monden vnd 5. tage / von dem leben geholffen /
+vnd den grossen stoß zum Hertzen gegeben. Darüber zeuget Gott vnd sein heiliges
+wort / vnsere Gewissen vnd eigene durch den fall verdorbene Sündliche Hertzen
+beklagen vnd beschüldigen vns hierob zum vberfluß. Wolan / wie ist jhme nun
+zuthun / wie greifft mans an / ist dann ferner kein Mittel mehr da / dadurch
+diesen betrübten Sachen kan Rath geschaffet werden? Ey worumb nicht / das wolte
+Gott nimmermehr. Wem zu rathen stehet / dem stehet auch noch wol zu helffen /
+wer aber nicht folgen wil / der stehe sein eben thewr / vnd warte Plage vnd
+Straffe. Den Rath aber finden wir alhier bey dem heiligen König David / vnd ist
+dieser / das wir nemblich in aller Rew / Demuth vnd Bußfertigkeit vnserer
+Hertzen zu in brünstigem vnd eyferigem andechtigem Gebet greiffen / vnd dem
+barmhertzigem Gott in die gefaste Zornruthe fallen / vnd mit threnen vnd tieffen
+seufftzen jhme<note place="right">
+<hi rendition="#i">Iohannis Gigas.</hi>
+</note> also zuruffen / vnd erstlich mit der Kirchen aus <hi rendition="#i">Iohannis Gigantis</hi> Psalm singen: Weil vns der HERR heimsuchen thut /
+last vns von Hertzen sagen / die Straff wir wol verdienet han / solches beken
+ein jederman / niemandt darff sich ausschliessen. Darnach / lieber Himlischer
+Vater / es ist ja freylich vor Augen vnd vnwidersprechlich war / das wir mit
+grosser schrecklicher Sicherheit / Vnglauben / Zweiffelunge / Vndanckbarkeit /
+schnöder ver achtunge deines heiligen Worts vnnd Saeramenten / mit Vngehorsam /
+Haß / Neid / Rachgier / Feind-
+<pb facs="#f0056"/>
+schafft / fressen /
+sauffen / Vnzucht / Hurerey / Ehebruch / Wucher / schinden / schaben / Vinantz /
+vnd dergleichen anderen vielen vberheufften Sünden / diese sonderliche grosse
+Straffen vnd Plage / vnnd andere mehr Straffen vberflüssig verdienet vnd
+verschuldet haben. Aber liebster frommer Gott / dieweil die Betrübten trösten /
+den Elenden helffen dein eigen Werck ist / So bitten wir dich aus grund vnserer
+Seelen / tröste vns doch widerumb / als ein Gott der gedult vnd des trostes /
+heute vnd jederzeit alle betrübte vnd trawrige Hertzen / vnd erfülle sonderlich
+an Herrschafft vnd Vnterthanen / Geistlichen vnd Weltlichen / Edel vnd Vnedel /
+Gelahrt vnd Vngelahrt / vnd in Summa / an allen die vber dieser Fürstlichen
+Leiche betrübet sind / seine verheissung: Selig sind die da leide tragen / denn
+sie sollen getröstet werden. Wo kan aber ein Volck im Lande frölich sein / das
+seine Obrigkeit aus Hertzen grund liebet vnd mit trewen meinet / da es siehet /
+das du sie so hart angreiffest / das Heupt von jhnen hinweg reissest. Ach
+frommer GOtt / heyle die Brüche / heile die Hertzen wunden / welche du so woll
+den Fürstlichen als aller Vnterthanen Hertzen geschlagen hast / erbarm dich
+vnser lieben Obrigkeit / vnd erhalt sonderlich vnseren nun mehr Regierenden
+Landesfürsten / <hi rendition="#i">FRIDERICH VLRICHEN</hi> bey langem leben /
+guter gesundheit / glückseliger Regierung vnd gedeylicher Wolfahrt / mache es ja
+nicht garauß / vnd schaffe gnediglich / das wir noch lenger bey gutem frieden
+dein heiliges Wort hören / vnnd die hochwirdige Sacramenta nach der einsetzung
+Christi haben / vnd dir hinfort in mehrer Gottseligkeit vnd Ehrbarkeit dienen
+mögen. Gnug von leid vnd trawrigen sachen. Wir müssen auch etwas von Trost hören
+/ zu Hertzen fassen vnd mit vns zu Hauß nehmen.</p>
+<pb facs="#f0057"/>
+</div>
+<div>
+<head>Das ander Stück der Predigt.</head><lb/>
+<lb/>
+<p>ZV gutem vnd bestendigem Trost / gibt der heilige König vnd Prophet David in
+abgelesenem Psalm weniger nicht / als zum trawrigen klagen / gar feine vnd gute
+anleitunge vnd nachrichtung / vnd deren zwar nit einerley / sondern
+vnterschiedliche. Dann erstlich spricht er also: Gott du hast aber doch ein
+Zeichen gegeben denen die dich fürchten / welches sie auffworffen / vnd sie
+sicher machte / Sela / Auff das seine lieben erleidiget werden. Siehet mit
+diesen Worten auff den Sieg / den Gott gleichwol auff Davidis seiten gegeben /
+das der Feind aus dem Lande geschlagen / das Volck aber vnd der König bey Land
+vnnd Leuten geblieben / vnd ein jeder bey den seinigen / bey Weib vnd Kind / bey
+Hauß vnd Hoff / Land vnd Leuten / Kuxen vnd Bergktheilen / vnd was er sonsten
+mehr liebes gehabt hat / erhalten worden: Dem Feinde aber sein feindliches
+vorhaben / die Jüden zuvertilgen vnd außzurotten / in Brunnen gefallen ist / Daß
+ist Davids erster Trost gewesen / welchen dann der heilige Geist in
+gegenwertigem Trawrstandt auch vns Vnterthanen wil gewiesen vn&#x0303;
+für gehalten haben / warzunemen / das Gott vnter diesem gemeinen Hertzeleid vns
+auch gleichwol ein Zeichen gegeben / welches wir auffwerffen vnd vns sicher
+machen kan / darunter Gottes liebe Freunde vbermessiges trawrens auch köndten
+entleidigt werden. Vnd ist dieser Zeichen nicht einerley / sondern mannicherley.</p>
+<p>Erstlich zwar / ist vns von Gott ein Zeichen des Trostes<note place="right">1.</note> gegeben worden / an jhme / dem seligen in
+Gott ruhendem Fürsten selbest / Denn das S. F. G. wie zugesante Befehl auß-
+<pb facs="#f0058"/>
+weisen / bey guter Vernunfft wol vnnd seliglich auß
+dieser betrübten Welt abgescheiden ist / vnd so ein Christliches vnd Seliges
+Ende vom lieben Gott bekommen / vns zwar allen / vnd gantzer Landschafft ist der
+Tag / daran S. F. G. nach Sanct Pauli wunsch auffgelöset worden / ein finsterer
+/ tunckeler vnd trawriger Tag gewesen / welcher vns ein rechtes Trawr vnd
+Leydjahr gemachet hat. Aber S. F. G. ist dieser Tag des Abscheides / ein rechter
+Heim vnd Himmelfarhts tag gewesen / an welchem sie von allem Vbel vnd mühsaal
+gegenwertigem Elenden lebens / sind erlöst vnd frey gemacht / vnd zu einem
+seligsten Himmelsfürsten eingewiesen vnd auffgenomen worden. <hi rendition="#i">Beati mortui, qui in Domino moriuntur</hi>: Selig sind die Todten / die in
+dem HErren sterben von nun an / spricht der Geist Gottes <note place="left">Johan. 14.</note>in der Offenbarung Johannis am 14. Cap.
+Sie ruhen von jhrer Arbeit / vnd jre Wercke folgen jnen nach: Ohne zweiffel ist
+des seligen Herrens Rede vnd Gedancken / (weil er so vernünfftig gestorben) vor
+seinem seligen Ende nichtes anders / denn von GOtt vnd seinem heiligen Wort
+gewesen / wie die wol werden zeugen / so S. F. G. mit pflege vnd wartunge biß
+ins ende beygewohnet haben.</p>
+<note place="left">2.</note>
+<p>Das ander Zeichen / das Gott vber diesen Trawrfall zu sonderlichem Trost gegeben
+/ ist die offentliche allgemeine Landklage / so vber dieses frommen Fürsten
+tödtlichen Abgang geführ et wird / welches dann eben ein gutes vnd recht
+tröstliches Zeichen ist / für alle vber diesem Fall <hi rendition="#i">intereßirte</hi> Personen. So lange als Fürstliche Personen am leben sind /
+stehet es gar wol vnd löblich / wann im Lande wenig klagens vnd trawrens gehöret
+<note place="left">Pericles.</note>wird. Dessen rühmete sich jenner
+fromme Regent Pericles / da er aus dieser welt abscheiden solte / vnd sagte: So
+lange
+<pb facs="#f0059"/>
+er beym Regiment gewesen / hette kein Vnterthan seinent
+wegen eines Trawrmantels bedürfft / Damit wolt er anzeigen / wie löblich /
+rühmlich vnd nützlich er geregiret / vnd seiner lieben Vnterthanen Nutz
+befördert hette.</p>
+<p>Dieses Lobes ein öffentlich Zeugnis bringet dieser löblicher Landesfürst /
+Henricus Julius / seliger Gedechtnis / heutiges tages mit sich davon / durch das
+gemeine weheklagen / heulen vnd weinen / so in allen Stedten / bey aller
+Bürgerschafft / Landschafft / oder arbeitsamer Bawrschafft ist bißher gesehen
+vnd noch jtzo gehöret vnd vermercket wird / Möchten doch die thränen / so von
+Jung vnd Alt / von Man vnd Weib / von Edel vnd Vnedel / von Geistlichen vnd
+Weltlichen / von Bürgern vn&#x0303; Bawren / von Inwonern vnd
+Außlendischen / alß den Pragerstedten / gantz Bhömen / vnd anderswo vergossen
+worden sint vnd noch werden / schier einen Bach füllen / vnd einen Strom im
+Lande geben / Wie kan das anders dan&#x0303; ein gantz tröstliches
+Zeichen sein / der Väterlichen Regierung / deren wir von diesem löblichen
+Fürsten ins 25. jahr genossen haben / welches Weheklagens zu seinen lebzeiten
+man wenig bedurfft hat. Wann aber Fürsten vnnd Herren mit Tode abgehen / so
+stehet es gar wol / vnd ist ein vber aus gutes anzeigen / wann viel weinens im
+Lande gehöret vnd gesehen wird: Das erkante Herodes<note place="right">Herodes.</note> der Bluthund vnd Tyranne selbest auch / darumb da er
+sterben solte / vnd wuste sich zu erinneren / das geübter Tyranney wegen wenig
+thränen vber seinem tode würden vergossen werden / sagte er: <hi rendition="#i">Permolestumeße, sicareat postremo luctus honore, qui regibus debeatur,</hi>
+Es were gar ein verdrießlich Werck / wann vber seinem Tode kein leidt noch
+trawren erfolgen solte / da doch grossen Monarchen / Fürsten vnd Herren /
+gemeines
+<pb facs="#f0060"/>
+<note place="left">Josephus Annq. lib. 7 Cap. 8.</note>leidt vnd trawren
+aus pflicht nachfolgen solle / wie Josephus / der Jüdische Geschicht schreiber /
+Antiq. lib. 17. Cap. 8. seine Wort erzehlet hat / vnd wird hierauff von jhme
+gemeldet / was mördliches beginnen vn&#x0303; vnrat er erfunden vnd bey
+sich erdacht habe / das / wenn er nun sterben würde / man im gantzen Lande / in
+all den fürnembsten Geschlechtern vnd Heusern etliche der vornehmesten
+vmbbringen solte / darmit im gantzen Lande ein trawren entstünde / vnd die zeit
+seines todes ohne leid im Lande nicht abginge. Das ist wol ein Mordtlied / ja
+ein Teuffelischer gebrauch / der wider das fünffte Gebot leufft / Aber des
+königes halben kein Sterbelied gewesen / vnd sind nicht die Tyrannen / welche
+wen&#x0303; sie <hi rendition="#i">cum gemitu &amp; fremitu, non
+in pace, sed pice,</hi> das ist / mit ach vnd wehe aus diesem leben
+geschieden / jre trewe Diener vnd Vnterthanen neben sich zu tödten befohlen /
+sondern jhre Diener / so sie jämmerlich ermorden lassen / beweinet worden. Ein
+solch erzwungenes trawren hat vnser from&#x0303;er Landesfürst nirgend
+bedurfft gehabt / es findet sich sonsten ohne das weinen vnd weheklagen mit
+hauffen / vnd leider schier zuviel / doch ist es alles ein gutes Zeichen. <hi rendition="#i">Solvamus bono principi stipendiarias lachrymas,</hi> sagt der
+heilige Bischoff <note place="left">D. Ambrosius.</note>Ambrosius / vber
+Keysers Valentiniani tod / es sind die rechten Lehnthrenen / die wir dem frommen
+seligen Fürsten nach schicken / vn&#x0303; hiermit bey S. F. G. alß
+getrewe vnterthanen / vns ablösen sollen. Daher dann auch ein rechtes
+Trostzeichen hiermit allen betrübten Hertzen gegeben vnd für Augen gestellet
+wird. Vnd so viel von diesem.</p>
+<p>Darnach zu schepffunge mehres Trostes / in seinem vnnd des Landes Obligen /
+greiffet David noch zu einem anderen Stücke / vnd stelt an eine <hi rendition="#i">Collation,</hi> oder vergleichung des scha-
+<pb facs="#f0061"/>
+dens / so er albereit genommen / Entgegen auch des Segens vnd des
+guten / so er noch aus der Handt des HErren im Vorrath hatte. Hatte nun schon
+der Feind etlicher örter etwas schaden gethan / wie es zwar ledig nicht pflegt
+abzugehen / so zehlet David widerumb im Lande vmbher / was Landt vnd Leut er
+noch im Vorrath habe / vnd wessen er sich jeglichen Stückes noch gefrömmet vnd
+gebessert wisse / da findet sich Sichem vnd Suchoth / Es ist Manasse / Ephraim
+vnd Juda: Er zehlet Moab / Edom / Philistea / eines nun gegen dem anderen /
+abgang gegen Vorrath gerechnet / befindet er vrsache einen Trost zu schepffen
+vnd im HErren frölich sein. Das ist in gegenwertigem betrübten trawrstande auch
+eine feine weise / Trost zu schepffen / vnd sich vom Jammer vnd Leide widerumb
+etwas auffzurichten. Ein Herr / ein Bruder ist vom anderen getrennet / ein
+Bruder ist von den Schwestern gescheiden / ein Schwager / Ohm vnd Gefatter von
+dem anderen? Was den&#x0303; / <hi rendition="#i">Non amißus, sed
+praemißus est.</hi> Der Herr Bruder ist nicht gar verloren / sonderen allein
+vorn angeschicket / dahin wir alle mit Frewden hinnach gedencken zufahren. Vnd
+ob schon der Herr Bruder Henricus Julius seliger dahin / so sein ja doch / wie
+vor erwehnt / jrer noch drey im leben / aber der beste Bruder ist noch im Himmel
+/ welcher sich in der Schrifft vnseren Bruder nennen vnd tituliren lesset / an
+welchem ein gleubiger Christ noch mehrhat / dan&#x0303; an seinem
+leiblichen Bruder. Vn&#x0303; das nun solches war sey / das vnser beste
+Bruder im Himmel sey / so bezeugets David im 22. Psalm / da er spricht / Ich wil
+deinen Namen<note place="right">Psalm. 22.</note> predigen meinen Brüdern
+/ ich wil dich in der Gemeine rühmen / rhümet den HErren / die jr jhn fürchtet.
+Gleichfals / Joh. 20. Gehet aber hin zu meinen Brüderen / vnd saget jhnen /
+Ich<note place="right">Joh. 20.</note>
+<pb facs="#f0062"/>
+fahre auff zu meinem Vater vnd zu ewrem Vater / zu meinem
+Gott vnd zu ewrem Gott. Der Fürstlichen Witwen ist jhr allerliebster Eheschatz
+hinweg / vnd das ist leider die Warheit / <note place="left">Esa.
+62.</note>wie aber dem allen / <hi rendition="#i">non deserta vocaberis,</hi>
+spricht Gott im Propheten Esaia / am 62. Cap. zu seiner lieben Zion / Man solle
+dich dennoch nicht eine verlassene heissen / welcher Trost denn alle Töchter
+Zion / alle Gottselige Christliche Witwen / sie sein reich <note place="left">Psal. 68.</note>oder arm / hohes oder niedriges Standes
+auch angehöret. So nennet sich Gott auch insonderheit selbesten im 68. Psalm /
+einen Vater der Waysen / vnd einen Richter der Witwen / einen Richter nicht zum
+schrecken / sonderen zum Trost / der / weil er jhnen als verlassenen Personen
+hart verpflichtet ist / jhnen <note place="left">Psalm. 56.</note>recht
+schaffen / sie <hi rendition="#i">defendiren</hi> vnnd schützen wolle.
+Gleichfals sagt David im 146. Psalm: Der HErr behütet Frembdling <note place="left">Deut. 10.</note>vnd Waysen / vnd erhelt die Widwen. Im
+56. Psalm zehlet er jhre flucht / vnd samlet jhre thränen in seinen Sack / Ja
+ohne zweiffel / er zehlet sie. Deut. 10. Gott ist ein grosser / mechtiger /
+erschrecklicher Gott / der die Person nicht ansiehet / vnd <note place="left">Syr. 35.</note>schaffet recht den Witwen vnd den Waysen
+/ vnd Frembdlingen / vnd hat sie lieb / vnd gibet jhn Speiß vnd Kleider. Syr.
+sagt auch am 35. Cap. Gott erhört das Gebet der beleidigten / er verachtet des
+Waysen Gebet nicht / noch der Witwe / die da klaget. <note place="left">2. Reg. 4. Luc. 7.</note>Deß haben wir viel tröstliche Exempel / an der
+Naemi / an der Witwe zu Sarpath / an eines frommen Predigers Witwe / 2. Reg. 4.
+an der Witwe zu Naim / Luc. 7. Vnd damit man ja sehe / wie Väterlich Gott
+verlassene Witwen vnd Waysen / hohes vnd niedriges Standes meine / so befiehlet
+er sie gar ernstlich / nicht allein der Obrigkeit / sonderen auch vns vnd allen
+anderen Menschen / vnd wil das man jhnen rechts verhel-
+<pb facs="#f0063"/>
+ffen / vnd sich bey Leib niemand an jhnen vergreiffen / sonderen
+jedermänniglich sich mitleidig vnd wolthätig gegen jhnen erzeigen<note place="right">Psal. 82. Esa. 1. Zach. 1. Litania. 1. Timot. 5.</note>
+sol / Psal. 82. Esai. 1. Zach. 7. <hi rendition="#i">etiam in Litania,</hi> Auff
+den sollen jhre F. G. jhre Hoffnunge setzen / wie 1. Timoth. 5. stehet / Welche
+ein rechte Witwe vnd einsam ist / die stellet jhre Hoffnung auff Gott / vnd
+bleibet am Gebet Tag vnd Nacht / welche aber in Wollust lebet / die ist lebendig
+Todt. Darnach sollen jhre F. G. beten / so ist gantz kein zweiffel / Gott werde
+sie nimmermehr verlassen / wie auch das ein herrlicher vnd trefflicher Trost ist
+/ das jhre F. G. Söhne vnd Töchtere sie hertzlich lieben vnd ehren / vnd also
+jhre F. G. auch für jhre Person trösten werden.</p>
+<p>Belangent S. F. G. hochbetrübte / vnd hinterlassene Fürstliche Kinder / die
+Jungen Herren / vnd sonderlich die Frewlein / haben sie zwar einen frommen
+lieben vnd löblichen Vater verlohren / Entgegen / wie David sagt im 68. Psalm /
+eieinen<note place="right">Psalm. 68.</note> besseren Vater im Himmel
+/ der sich einen Vater der Waysen selbesten nennet / bekommen / der rechte Vater
+ist vber alles was da Kinder heist / im Himmel vnd auff Erden / welchem sie auch
+vmb ein Grad neher / alß zuvor / verwandt sind / welcher sie auch alß der beste
+Vater wird zuversorgen / vnd jhrer alß vormunde wird zu pflegen wissen / dieser
+Himlische Vater hat es zuvor wolmehr vnd öffter gethan / das er nach Absterben
+der leiblichen Eltern fromme Kinder vnd Waysen höher hinan gebracht / vnd
+reichlicher versorget hat / dan&#x0303; jnen bey lebzeiten jhrer
+leiblichen Väter jmmer begegnet oder widerfahren were. Wie also das arme
+Wayselein Esther zum Königlichen Stand erhaben ist. Dessen Exempel die
+Fürstliche Kinder eben an jhrem selbeygenem Großvater / dem Durchleuchtigen
+Hochgebornen Fürsten vnd Herren / Herrn Julij / Her-
+<pb facs="#f0064"/>
+tzogen zu Braunschweig vnd Lüneburg / seliger Gedechtnis / <note place="left">Besiehe D. Basilij Leichpredigt vber Hertzog Julij
+Todt.</note>vor sich vnd jhnen zum Trost einzubilden haben / Denn S. F. G. der
+geringste gewesen / wie David der verachteste war / vnter seinen Brüderen / vnd
+war mit S. F. G. fast alles dahin gerichtet / das sie nicht zur Regierung jhres
+Väterlichen Landes kommen / sonderen zu einem Bisthumb befördert werden solten /
+Allein Gott wolt es haben vnd bracht es dahin / das S. F. G. zur Regierung
+kamen. Werden nun aber die Fürstlichen Kinder vnnd Junge Herrschafft bey Gottes
+Wort fest vnd standthafftig halten vnd bleiben / der Calvinischen vnd
+Jesuwiderischen Lehr / vnd anderen Ketzereyen spinnenfeind sein / vnd sich
+Väterlicher vermanunge / so sonder zweiffel offt im leben geschehen / Kindlich
+vnd Gehorsamlich erinneren / der Lehre vnnd Exempel jhres seligen Herren Vaters
+nimmermehr vergessen / vnd dan&#x0303; ferner in guter acht haben / das
+die betrübte Fraw Mutter von jhnen Kindlich geehret / vnd sie als Fürstliche
+Kinder / Brüdere vnd Geschwistere in guter Einigkeit vnd frieden Christlich
+mögen erzogen vnnd beysammen erhalten werden / so wollen wir Gott vertrawen /
+hoffen vnd fest auff jhn bawen / es werde nimmermehr ein Man mangelen / der auff
+dem Fürstlichem altem Braunschweigischem Stull sitze.</p>
+<p>Entlich sind noch vbrig / wir arme vnd hochbetrübte Vnterthanen / die jhren
+lieben vnd Gottseligen Landesvater verlohren / vnd wie Gott weiß vnd kein
+verstendiger in Abrede seyn kan / vmb ein grosses vnd edeles Kleinot / die Kron
+des Landes / kommen sein. Dencket aber / liebste Freunde im HErrn / auch ein
+wenig förder / vnd sehet widerumb auff das / was vns der güdige Gott gelassen
+hat / so werdet jhr auch widerumb einen reichen Vorrath / vnnd noch solche güter
+vber vbrig befinden /
+<pb facs="#f0065"/>
+darüber wir billich widerumb Trost
+zuschepffen / vnd vber den schätzen Göttlicher güte vns hochlich zuerfrewen
+haben. Denn da tröstet Gott mit Worten nicht allein / sondern wircklich vnd mit
+der That selbesten. Denn nach tödtlichem Abgang vnsers seligen Landesfürsten vnd
+Herren / Herrn Henrici Julij / hat vns Gott noch vbrig vnd am Leben gelassen /
+(Helffe Gott lange zeit) den auch Durchleuchtigen / Hochgebornen Fürsten vnd
+Herren / Herrn Friederich Vlrich / Hertzogen zu Braunschweig vnd Lüneburg /
+vnseren allerseits gnedigen Landesfürsten vnd angebornen Herren / welcher
+albereit die Regierunge angetreten / vnd den 3. Decembris auff dem Bergwercke
+sich wil schweren vnd hüldigen lassen / vnd hinfort vnser aller Heupt / vnd
+gnediger Landesfürst vnd Herr sein wird.</p>
+<p>So sind von vorstorbenem vnserem seligen Landesfürsten noch vbrig vnd
+nachgelassen / ohne den nun mehr Regierenden Herren / Friderich Vlrichen / drey
+Fürstliche Brüder vnd Herren pflentzlein / etliche schon albereit auch mit
+feinen Fürstlichen tugenden außgerüstet / die nun hernacher wachsen / vnd also
+beyderseits jhres seligen Herren Vaters vnd Regierenden Herren Bruders heut oder
+morgen / (Welches aber Gott lange in gnaden verhüten wolle) nicht allein an
+Landt vnd Leuten / oder zeitlicher verlassenschafft Erben / sondern auch / vnd
+viel mehr an allen Fürstlichen vnd Löblichen Tugenden vnd thaten <hi rendition="#i">Succeßores</hi> vnd Nachkömlinge sein vnd bleiben werden. Ich
+wil geschweigen deß verstorbenen seligen Landesfürsten Herren Brüder / die im
+ersten Stücke mit Namen genennet. Sehet / also grünet Gott lob / der Cederbaum
+des hochlöblichen Hauses Braunschweig / vnd seine Este breiten sich noch zimlich
+weit aus.</p>
+<pb facs="#f0066"/>
+<note place="left">Psal. 147. vnd 68.</note>
+<p>O du getrewer Gott / laß sie viel Früchte tragen / vnd gib erstlich Früchte in
+Choro / das vnter Hertzog Friderich Vlrichen Regierung Gottes Wort schnel lauffe
+/ vnd mit Lust vnd Frewdigkeit geprediget werde. OGOTT / laß diesen
+Braunschweigischen Baum zum guten Anfang / vnd allezeit vnter jetzgemeltem
+regierenden Landesfürsten Früchte bringen in <hi rendition="#i">Foro,</hi> das
+Fried vnd Gerechtigkeit täglich wachse vnd zunehme / vnd wir vnter S. F. G. ein
+geruhliches Leben / vnd stilles wesen <note place="left">1. Tim.
+2.</note>führen mögen / in aller Gottseligkeit vnnd Ehrbarkeit / 1. Tim. 2.
+Lasse auch diesen Baum hiernechst Früchte bringen in <hi rendition="#i">Thoro,</hi> das auß diesem hochlöblichen Stam biß an der Welt ende herkommen
+Fürsten vnd Herren / Herrscher / Seulen des heiligen Reichs / vnd Vätere des
+Vaterlandes / Begnade OGott vnseren jetzigen aller gnedigsten Regierenden Landes
+<note place="left">Jud. 6. 15. 2. Reg. 1. Psal. 25.</note>Herren mit
+dem muth <hi rendition="#i">Gideons</hi> / Judic 6. mit der stercke Simsons /
+Jud. 15. mit der Weißheit Salomons / 2. Re. 1. mit der Andacht Davidis / Psal.
+25. Vnd verleihe vns allen gnediglich / das diß Heupt des Hauses Braunschweig
+vnd gantzen Landes / wir heilsamiglich zu deinen Ehren / vns vnnd vnseren
+Nachkommen zum besten / an Seel / Leib / Haab / Ehr vnd Gut gebrauchen / vnd an
+S. F. G. einen allergnedigsten Landesvater langezeit haben vnnd behalten mügen.
+Vnd ist gar nichtes geredt / das man sich wieder den Trost setzen vnd sagen
+wolte: Ach / Ach / scheide&#x0303; thut gleichwol schmertzlich weh. <hi rendition="#i">Resp.</hi> Ist wol war / denn sonst were es kein Creutz /
+Aber widerkommen macht das man scheide&#x0303; nit acht / oder das man
+sprechen wolte: Gleichwol ist Hertzog Henrich Julius vnser liebstes Ehegemahl /
+Bruder / Herrvater vnd Landesfürst hinweg / wann dieser noch vorhanden vnd bey
+vns were / so wolten wir vns nach-
+<pb facs="#f0067"/>
+mals glückes vnd gutes
+versehen. Diesen einwurff lehnet David ab / vnd benimmets vns mit solchen
+Worten: Gott du zeugst nit auff vnser Heer / menschen hülff ist nit nütze / mit
+Gott wollen wir Thaten thun. Was ist es / wil er sagen / dz wir gutes durch
+einiges mittel / creatur oder mensche&#x0303; empfangen haben / dz alles
+mag wol eine zeitlang vnser Heer heissen / so lange es Gott vns gebrauchen lest.
+Aber was durch dieses heer vnd mittel geschicht / das ist einig vnd allein
+Gottes werck / Gott ist an seiner Creatur keine gebunde&#x0303; / Er
+zeugt nicht aus auff vnser Macht / sondern auff seine Macht thut er / was er vns
+thut. Darumb niemandt jhne an einige Mittel oder seine Wolthaten / sein
+außziehen / an einig vnser Heer vnd Macht binden / sondern jhme einen
+freywilligen vnd Allmechtigen Gott jederman solte bleiben lassen / der da
+vberschwenglich thun kan / das wir bitten oder verstehen / nach der Krafft<note place="right">Ephes. 3.</note> die in vns wircket / Eps. 3. Entlichen
+/ vnd fürs letzte / weiset David noch einen anderen Trost / Gott / spricht er /
+redet noch in seinem Heligthumb / des bin ich fro / Tröstet sich hiermit
+fürnemblich Gottes Wortes / welches Gott in seinem hause vn&#x0303;
+heiligthumb noch täglich schallen lasse. So lange nun das noch geschehe / so
+lange Gott sein Wort predigen vnd erdönen / so lange er noch seinem volcke den
+Gottesdienst vnd reinen gebrauch der Sacramenten lasse / so habe es noch keine
+Noth / so könne man noch anderer Trübsalvergessen / darwider Gott vns in seinem
+heiligen wort mit Labsal vnd Trost versorge vnd versehe / Ach das ist ein
+mechtiges vnd herrliches Stücke zum trost gehörig. Gedencket vielleicht man&#x0303;ich betrübtes hertz / es sey nun aus vnd mit dem Lande gar gethan
+/ gute friedliche zeit sey
+<pb facs="#f0068"/>
+hinweg / vnd werde nun nichtes
+den&#x0303; vnglücke folgen / Den&#x0303; eben darumb habe vns
+Gott vnseren alten Regierenden Landesfürsten zum teil hinweg genom&#x0303;en. Das wolte gar trawrige hertzen gebe&#x0303;. Wolan / wie sol man
+sich solcher trawrgedancken erweren / wie vnd auff was weise muß man dieselbe
+auschlagen: Gott redet noch in seinem Heiligthum&#x0303; / des bin ich
+fro / Die Hand des HErrn ist nicht zu kurtz / das er nicht helffen <note place="left">Esa. 66.</note>köndte / Ist eines. Er redet noch ein
+anders / Es. <hi rendition="#i">66.</hi> Ich wil euch trösten / wie einen seine
+Mutter tröstet. Gott redet ja noch ferner in seinem Heiligthumb / vnd saget
+Friede zu seinem Volck / vnd seinen Heiligen / wann sie nur nicht auff eine
+thorheit gerathen. Er redet vber diß alles auch / das in seinem Heiligthum&#x0303; der Todt seiner Heiligen ist werth gehalten für dem HErren.
+<note place="left">2. Reg. 12.</note>Entlich / redet Gott in seinem
+Heiligthumb auch dieses / vnd redet es durch den heiligen König vnd Propheten
+David. Wir können mit trawren vnd weinen den verstorbenen Landesfürsten / nicht
+widerholen / wir werden wol zu jhm fahren. S. F. G. vnnd andere verstorbene
+kommen nicht wieder zu vns / vnd ist kein zweiffel / wenn es Gott also gefellig
+were / das vnser verstorbener Landesfürst widerumb solte lebendig werden / vnd
+die selige Seel mit jhr em heut niedergesetzetem Leichnam vereiniget / vnd S. F.
+G. vns alle aus dem Sarcke noch einmal ansprechen solte: So würden S. F. G. Wort
+vnd Reden dieses sein: Hertz allerliebster Eheschatz vnnd Gemahlin hertz getrewe
+liebe Brüder / liebe getrawte Kinder / Söhne vnd Töchter / liebe Räthe vnd
+Vnterthanen / gebet euch nun mehr zu Ruhe / machet ewers trawrens eine masse.
+Was jhr bißher gethan / ist auß ehelicher / brüderlicher / kindlicher /
+vntertheniglicher liebe / schuld vnnd pflicht geschehen / das erkenne ich an
+<pb facs="#f0069"/>
+euch allen zu seligem danck / Aber nun ferner ist mit
+vbermessigem trawren vnd weinen nichtes außgerichtet. Darumb fasset liebe Leute
+ewre Seelen mit Gedult / ergebet ewren willen in Gottes gnedigen willen / vnd
+demnach mir nach meinem Absterben gar wol vnd ewig wol ist / ich bin nun worden
+ein seliger Himmelsfürst / vnd mein Leichnam sol nach Jobs spruch /<note place="right">Hiob. 19.</note> am <hi rendition="#i">19.</hi> Cap. am
+Jüngsten Tage wieder auffstehen: So seid ermahnet / Gott nach seinem heiligen
+Wort zufolgen / in stetiger seiner Frucht Christlich vnd Gottseliglich zu leben
+/ bey der erkanten Warheit vnd im seligmachenden Glauben an den ewigen Sohn
+Gottes Jesum Christum / biß an ewer Ende bestendig / nach meinem Exempel /
+zuverharren. So wollen wir dort in der Frewde des ewigen Lebens gewißlich
+zusammen kommen / vnd bey dem HErren sein vnd bleiben ewiglich.</p>
+<p>Nun wir dancken dir großmechtigster / vnüberwintligster ewiger Gott vnd HErr von
+grund vnserer Hertzen / das du vnser Gebet so gnedig erhöret / vnnd das
+Braunschweigische Landt mit einem so hochlöblichen Heupt vnnd Landesvater wider
+versehen vnd begnadet hast: Durch dich herrschen die Könige / vnd sie sind
+deines Reches Amptleute / du HErr alleine gibst die Königreiche vnd Fürstenthümb
+wem du wilt / vnd sie<note place="right">Prov. 8. Sap. 6. Dan. 4.</note>
+stehen in deinen Henden / Darumb so dancken wir dir billich / das du vns nicht
+im zorn einen feindseligen Saul / sondern in grosser Gnade einen frommen
+gerechten David / einen weisen Salomon / einen sanfftmütigen Cyrum gegeben hast
+/ Wir bitten dich O trewer Gott / du wollest vber den newen Regierenden
+Landesfürsten vnd Herrn mit deiner beharlichen Gnade halten vnd walten / Psalm
+20.<note place="right">Psalm 20.</note></p>
+<p>Erhöre S. F. G. O großgütiger HERR / in aller Noth /
+<pb facs="#f0070"/>
+dein
+heiliger Name schütze jhn / sende jhm Hülff vom Heiligthumb / vnd stercke S. F.
+G. aus Zion / Gib O Gott S. F. G. was dero Hertz begeret / vnd erfülle alle S.
+F. G. Christliche vnd Gottselige anschlege / gewehre / O HErr / deinem
+gesalbete&#x0303; alle seiner bitte / vnd deine Hand laß jhm helffen
+gewaltiglich / Psalm 72. Gib deine Gerichte dem Könige / das er dein Volck
+bringe zur Gerechtigkeit / vnd die Elenden rette: Lasse das elende Volck bey
+recht bleiben / vnd gib das in vnserem Vaterlande Ehre wone / das Güte vnd Trewe
+einander begegnen / Gerechtigkeit vnd Friede sich küssen / das Trewe auff Erden
+wachse / das Gerechtigkeit von Himmel schauwe / vnd der HErr vns gutes thue.
+Segne S. F. G. an Seel / Leib / Haab / Ehr vnd Gut / gib glückselige Regierung /
+gedeygliche Wolfahrt / Gesundheit vnd langes Leben. Das verleihe Gott Vater /
+Sohn vnd heiliger Geist / hochgelobter Gott in ewigkeit / Amen.</p>
+</div>
+<milestone unit="section" rendition="#hr"/><lb/>
+<div>
+<head>Zugabe oder teutsche Rythmi auff Fürstlichen vnverhofften Todesfall / Fürsten
+<hi rendition="#i">HENRICI JULII,</hi> Hertzogen zu Braunschweig vnd
+Lüneburg / Christseligster Gedechtnis / aus vorhergehender Predigt gemacht / ab
+autore Concionis.</head><lb/>
+<lb/>
+<l>OLandt Braunschweig du hast verlohrn / Ein Landesfürsten außerkorn. Ein Landes
+Vater vnd Herren / Welchn du auch hettst behalten gern.
+<pb facs="#f0071"/>
+Ein
+starcke Seul vnd gute Wehr / Wider allerley falsche Lehr. From / Reich von Geist
+/ vnd groß von Gabu / Von Gott vnd Menschen hoch erhabn. Dem viel wol nicht an
+Tugend gleich / Vntern Monarchn Römisches Reich. An Gotts Furcht jhm nichts
+mangeln thet / Vnsern HErren Gott allzeit ehrt. Er liebt sehr sein heiliges Wort
+/ Pflantzte es auch an frembde Ort. Er ehrte trewe Prediger / War feind den
+Sacramentirer. Dem Pabsthumb war er nicht zugthan / Entsagt des Türcken <hi rendition="#i">Alcoran.</hi> War guter Lutherischer Lahr / Die ließ er
+Predign offenbahr. War auch feind aller Sünd vnd Schandt / Vnd strafft dieselb
+in seinem Landt. Ließ auch viel Vnrecht vbr sich ghan / Daß sonst wol kein Fürst
+hett gethan. Zu der zeit alß der Lester er / Sein Gnad angreiff an Glimpff vnd
+Ehr. Brauchte Gedult / Sanfftmütigkeit / Grosse Gnade Barmhertzigkeit. Damit er
+offt abgewendt hat / Schwere Straffe vnd Wunderthat / Gottes Zorn / Plag vnd
+Verderben / Vnglück / Jammer / Noth vnd Sterben.
+<pb facs="#f0072"/>
+<note place="left">Prov. 28.</note>Abr die Sündt habens erworben / Das er
+so balde gestorben. Das er vns entrückt auß Henden / <note place="left">Gene. 19.</note>Gleich wie der Loth aus den Brenden. O Gott laß nicht ghen
+deinen Zorn / Sonst sind wir arm Sünder verlohrn. Wie du wol ehe hast ghen lan /
+Alß die heilig Schrifft zeiget an. Dan derselben Exempel gebn / Wie du gestrafft
+das sündlich Lebn / Sonderlich die Vndanckbarkeit Gegens Wort / Dienr vnd
+Obrigkeit. <note place="left">Gene. 7.</note>So bald Noah in die Arch
+ging / Die grosse Sindfluth sich anfieng. Ergoß sich eylig / schwind vnd bald /
+Erseufft Man / Weib / Kind / Jung vnd Alt. <note place="left">Gene.
+19.</note>Alßbald Loth ward Sodome loß / Fewer vnd Schwefel vom Himmel schoß.
+Vnd verzehret Sodomam bald Reich / Arm / Herr / Knecht Magd / Jung vn&#x0303; Alt / An welchem orte ward zur Hand / Ein Seh das todte Meer
+genand. <note place="left">Gen. 50. Exod. 1.</note>So bald auch der from
+Joseph starb / Viel vnglück Israel verdarb. Ja zu letzt muste vertrincken /
+Egyptn vnd im Meer versincken. <note place="left">1. Sa. 25.</note>Wie
+Samuel gestorben war / Endet sich Sauls Glück gantz vnd gar.
+<pb facs="#f0073"/>
+Joannis des Baptistae Todt /<note place="right">Matt. 14. Mar. 6. Niceph.
+Joseph. lib. 18. cap. 6 9 10.</note> Bracht Herodi Antipae Noht. Alß bald zu
+nechst das Venus Kindt / Vnter dem Eiß sein Lohn empfing. Als auch Doctor Luther
+schlaffn ging / Der Teutsche Krieg sich bald anfing.<note place="right">An. 1546. <hi rendition="#i">in die concordiae.</hi> 2. Reg. 22.</note> Man
+sichts auch an den Vögelein / Die den Menschn zur Speiß erschaffn sein. So bald
+sie geben gute Nacht / Der kalte Wintr herbey sich macht. Also wenn Herrn werdn
+bey gebracht / Noth vnd groß Vnglücke auffwacht. Mit solchen Straffn verschon
+vns Gott / Vnd bewahr vns für aller Noht. Dein edles Wort das ewig Licht / Laß
+ja bey vns außleschen nicht. Den Schwermern stewr / dein Sacrament / Halt bey
+vns rein biß an das End. Gib vnser lieben Obrigkeit / Fried / gut Regiment /
+Einigkeit. Bevorab wolst den <hi rendition="#i">Principem,</hi> Mit Nam <hi rendition="#i">FRIDERICH VLRICHEN,</hi> Mit fürtrefflichen Gaben ziern / Das
+er glücklich möge regiern. All Vnterthanen vernünfftig / Bey Gottes Wort bleib
+standhafftig. Gleich wie sein Herr Vater gethon / So bringt er Rhum vnd Ehr
+davon.
+<pb facs="#f0074"/>
+Rhum vnd Ehr ist besser denn Gelt / Vnd alles was da
+liebt die Welt. Dann Gut / Golt vnd Gelt vergehet / Ein guter Nam allein besteht
+/ Wie jtzt gemelt / ergreiff sie schon / Die Seuln / so gebn die beste Kron /
+<hi rendition="#i">Relligionem sinceram,</hi> Vnd auch <hi rendition="#i">Iusticiam Sanctam.</hi> Weil die höchste Ehr des Landts ist / Daß gleub mir
+zu ein jder Christ / Wann Gottes Wort an allem Endt / Rein gelehret / gut
+Regiment Geführet wird / da muß Gott Segn / Vnd dem Landt Reichthumb vnd Gabn
+gebn. <note place="left">Psalm. 6. 51. 143. 130. 65. 25. 103. Esa.
+49.</note>Solch alles woll Gott erfüllen / Vnd sein gefasten Zorn stillen / Vnd
+nicht gedencken alter Schult / Sondern zu vns wendn seine Hult / Seine Hult vnd
+Barmhertzigkeit / Darzu sein grosse Gütigkeit / Vnd seiner Gnad gebn viele Jahr
+/ Glücklich Wolfahrt vnd weisse Haar / Erlasse sich auch befohln sein / Die
+andern Herren vnd Frewlein / Sonders die Fürstin Tugentsam / Geborn aus
+Königlichem Stam / <note place="left">
+<hi rendition="#i">Stigelius. <gap unit="chars" quantity="1" reason="illegible"/></hi>
+</note>Der niemals begegnt grösser leidt / Dann jetzt / da der Todt die
+Ehscheidt.
+<pb facs="#f0075"/>
+Vnd genommen außm Jammerthal / Ihr allerliebstes
+Ehgemahl. Daß grund gute / lieb / fromme Hertz / Ach Gott solt jhr das nicht
+bringn Schmertz. Drumb Gott tröste sie durch dein Wort / Weil sie betroffn solch
+Leidt vnd Noht. Gib jhr deines Geists Gnad vnd Krafft / Das ja Gottes Wort bey
+jhr hafft / Vnd weil sie weint ohn vnterlaß /<note place="right">Matth.
+6</note> So verleih das sie halte maß Im trawrn / vnd nicht den Heydn sey gleich
+/ So nichts wissen vom Himmelreich / Sondern gleub das jhr Ehgemal / Der
+Seel nach / sey ins Himmelssal / Vnd weiter hertzlich trösten mag / Das sie an
+jennem herrlichm Tag /<note place="right">1. Cor. 15. Ezech. 37. Esa. 26.
+Dan. 12. Job. 19. Matt. 24. Rom. 3. Acto. 15.</note> Ihren Ehgemal vnd
+Herren / Wird wider sehen mit Ehren / <note place="left">
+<hi rendition="#i">Ut sequatur in membre quod praecessit in capite.</hi>
+</note>Vom Tode vnd Grabe auffstehn / Vnd mit zur ewign Frewdt einghen / Da dann
+mit seinen Augenlicht / Er schawn wird Gottes Angesicht / Vnd ererben das ewig
+Lebn / So Gott jhm wird aus gnaden gebn / Vmb Jesu Christi seinen Sohn /
+Hochgelobet ins Himmels Thron. Da werdn sie auch im newen bundt /<note place="right">Esa. 6.</note> Erheben Gott von Hertzen grundt.
+<pb facs="#f0076"/>
+In einer vnentlichen Frewdn / Vnd nimmermehr von ander
+scheidn. Fürnemblich abr werden sie sich / Alß Ehleut lieben hefftiglich. Auch
+vmb sich han jhr Kinder klein / Ach Gott solt das nicht Frewde sein. <note place="left"><hi rendition="#i">Ecclesia</hi> im Psalm: Wen mein
+Stündlein vorhanden ist etc.</note>Drumb geb sich die Fürstin zu friedt /
+Ihr Herr seligr ist Christi Gliedt. Entschlaffn auff seines Namens Ehr / Vnd
+wünscht hier nicht zu leben mehr. Er hat bekommn das höchste Gut / <note place="left">
+<hi rendition="#i">Nam sanguis Christi est clavis paradisi, in quit
+Hieronymus.</hi>
+</note>Weil er gestorbn auff Christi Blut. Sonst denck auch der anderen dein /
+Die durch dein Blut erlöset sein. Vnd laß vns auch all Selig sterbn / In keiner
+Angst noch Noht verderbn. Vnd wenn das Stündtlein kömpt herbey / Vns Gnedig vnd
+Barmhertzig sey / Vnd verkürtze des Todes Qual / Vnd nim die Seel in deinen Sal.
+So wollen wir stets preisen dich / Hie zeitlich vnd dort ewiglich. AMEN.</l>
+</div>
+<div>
+<head>IN INVIDUM ET ZOILUM.</head><lb/>
+<lb/>
+<l>TRisti animo tristem, quem cernis, candide lector, Sermonem hunc habui voce
+gemente simul. Continet haec tantum duo parvula concio membra, Tristiciam
+referens, laeticiamque sonans.
+<pb facs="#f0077"/>
+Sit licet illa brevis; tamen
+haec suntomnia sumpta, Quae legis ex scriptis, quae sacra Scripta vocant. Nam
+nihil hic posui nisi quod mihi Christus Iësus, Spiritus ac sancti gratia larga
+dedit. Haec tibi non artis praeclarae signa ministrat, Sed merita enarrat
+principis illa mei. Non nervosa quidem est, nulla ornamenta videbis, Sed tenui
+monstrat mistica sacia stylo. Ergo sit is Iudex summi qui sancta Monarchae Iura
+tenet, tua nil Zoile verba valent. Curacuis miror ringendo Zoile dentes? Cur est
+in vultu ruga maligna tuo? Fac melius si scis, summas ego dico Tonanti, Grates,
+haec mihi quod vilia dona dedit. Inde meum non invide Zoile sperne laborem,
+Illum sed placidâ susscipe mente Vale.</l>
+<p>
+<hi rendition="#i">I. K.</hi>
+</p>
+<l>I<hi rendition="#i">Nvidia</hi> laß mein Gedicht / Mit deiner Klugheit vngericht
+/ Vnd dir von einer solchen Sach / Ein sonderlich Gedichte mach / Auff daß ich
+seh / wie klug vnd weis / Verstendig vnd erfahrn du seis / Zu tadeln nach deim
+hohen Geist / Was du doch kaum zu bessern weist. Kunst ists nicht wol können
+richten / Kunst ist es abr besser dichten / Vnd mit der That beweysen frey / Das
+er besser zumachen sey.
+<pb facs="#f0078"/>
+Wer das kan thun ist Ehrenwert /
+Steht auch zu brauchen auff der Erdt / Als einer dem die Majestat / Ein grosse
+Gnad verliehen hat / Er sey gleich ein Geistlicher Man / Oder sonst bey der Welt
+hoch dran. Das aber ein spöttischer Man / Sein carpirn nimmer lassen kan / Wie
+hin vnd widr offtmals geschicht / Damit sein verstandt ausbricht. So rechts
+man seim vnverstandt zu / Wer er geschickter het wol ruh. Solch als hab ich nun
+nicht geacht. Sondern Predigt / Vers vnd Reim gmacht. Warhafftiglich / nach
+meinr einfalt / Hab ichs nach Gottes Wort gestalt. Wers aber besser machen kan /
+Der thus / wil jhn wol zu friedn lahn. Ich dancke Gott für die Genadt / So er
+mir aus Gnaden gebn hat.</l>
+<p>Jacobus Kale / der E. freyen Bergstat Wildeman Pfarher.</p>
+<p>Sym. Sancta Trinitas mea haereditas.</p>
+<pb facs="#f0079"/>
+</div>
+<div>
+<head>AD REVERENDUM ET DOCTISSIMUM VIRUM, Dn. JACOBUM CALENIUM, Ecclesiae
+Wildemannensis Pastorem vigilantissimum.</head><lb/>
+<lb/>
+<l>M<hi rendition="#i">Agnâte meritò mactat tua concio laude CALENI, sanctaerelligionis apex. Scripturaepandens divina volumina sacrae Hostes è cathedra voce tonante premis: Instanterque mones, ut Christi iußa capessant, Quos rectâ flexit mens malesuada viâ. Hinc tibi surgit honos ingens, doctißime praeco, Invidiae stimulos hinc superare potes. Praemia pro meritis fundet venerabile Numen, Atque annos faciet Nestoris ut superes. Tuque adeo insigni dives GVILDMANNE metallo, Si te sollicitat nunc pietatis amor. Huncce sinugesta, laetâ hunc amplectere mente Laudibus hunc effer lucida ad astrae virum.</hi></l>
+<p>Georgius Helleman, Scholae Goslariensis alumnus.</p>
+</div>
+</body>
+</text>
+</TEI>

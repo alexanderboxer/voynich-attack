@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Ein Predigt/ Gethan bey der Begrebnis Bodo von Veltheimb/ Des Edlen und Ehrnvesten Güntzel von Veltheimb auff Harpke/ Eheleiblichen Sohns zu Wulffenbüttel</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116974788">
+<surname>Sattler</surname>
+<forename>Basilius</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/db-4893-4s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/db-4893-4s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">28</measure>
+<measure type="tokens">5737</measure>
+<measure type="types">1596</measure>
+<measure type="characters">34917</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:10Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/sattler_predigt_1604</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/sattler_predigt_1604</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/sattler_predigt_1604</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/sattler_predigt_1604</idno>
+<idno type="DTADirName">sattler_predigt_1604</idno>
+<idno type="DTAID">30272</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30272-0</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Sattler, Basilius: Ein Predigt/ Gethan bey der Begrebnis Bodo von Veltheimb/ [...]. Wolfenbüttel, 1604.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Ein Predigt/ Gethan bey der Begrebnis Bodo von Veltheimb/ Des Edlen und Ehrnvesten Güntzel von Veltheimb auff Harpke/ Eheleiblichen Sohns zu Wulffenbüttel</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116974788">
+<surname>Sattler</surname>
+<forename>Basilius</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Stange</name></publisher>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1604</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main">
+<docTitle>
+<titlePart type="main">Ein Predigt/<lb/>
+<hi rendition="#b">GEthan bey der</hi><lb/>
+Begrebnis Bodo von Veltheimb /<lb/>
+Des
+Edlen vnd Ehrnvesten Güntzel von<lb/>
+Veltheimb auff Harpke/ Eheleiblichen<lb/>
+Sohns zu
+Wulffenbüttel.<lb/>
+</titlePart>
+</docTitle>
+<byline>Durch<lb/>
+<docAuthor>Basilium Satler</docAuthor> D. Hoffprediger<lb/>
+daselbst.<lb/>
+</byline>
+<figure/>
+<lb/>
+<docImprint>Gedruckt<lb/>
+Zu <pubPlace>Wulffenbüttel</pubPlace> durch <publisher>Johan:<lb/>
+Stangen</publisher>/ Anno <docDate><hi rendition="#g">1604</hi></docDate>.<lb/>
+</docImprint>
+</titlePage>
+<pb facs="#f0002"/>
+</front>
+<body>
+<pb facs="#f0003"/>
+<div>
+<head>Also stehet geschrieben im 2. Buch Samuelis am 12. Capittel.<lb/>
+</head>
+<p>VNnd der HErr schlug das Kindt das Vrias Weib Dauid geboren hatte / das es todt kranck
+wardt / vnd Dauid ersuchte GOtt vmb das Knäblin / vnd fastet / vnd gieng hinein / vnd lag
+vber nacht auff der Erden / da stunden auff die Eltesten seines Hauses / vnd wolten jhn
+auffrichten von der Erden / er wolte aber nicht / vnd aß auch nicht mit jhnen. Am
+Siebenden tag aber starb das Kind vnd die Knechte Dauid furchten sich jhm anzusagen / das
+das Kindt todt wehre / denn sie gedachten / Sihe da das Kindt noch lebendig war / redeten
+wir mit jhm / vnd er gehorcht vnser stim&#x0303; nicht / wie viel mehr wird es jhm wehe
+thun / so wir sagen / das Kindt ist todt: Da aber Dauid sahe / das seine Knechte leise
+redeten / vn&#x0303; merckt / das das Kindt Todtwehre / Sprach er zu seinen Knechten / Ist
+das Kindt Todt? Sie sprachen Iha / Da stundt Dauid auff von der Er-
+<pb facs="#f0004"/>
+den
+/ vnd wusch sich vnd salbete sich / vnd thet ander Kleider an / vnd gieng in das Haus des
+HErrn vnd betet an / vnd da er wieder heimb kam / hieß er jhm Brodt aufftragen vnd aß. Da
+sprachen seine Knechte zu jhm / was ist das für ein ding das du thust: da das Kindt lebte
+/ fastestu vnd weinetest / Nhu es aber gestorben ist / stehestu auff vnd issest? Er sprach
+vmb das Kindt fastet ich / vnd weinet da es lebet / denn ich gedacht / wer weiß ob mir der
+HErr gnedig wirdt / das das Kindt lebendig bleibe / nuhn es aber Todt ist / was sol ich
+fasten: Kan ich auch jhn wiederumb holen: Ich werde wol zu jhm fahren / es kömpt aber
+nicht wieder zu mir.</p>
+</div>
+<div>
+<head>Außlegung.<lb/>
+</head>
+<p>GEliebteim HErrn / Es spricht Esaie am Viertzigsten ein Stim&#x0303; zu Johanni dem
+Teuffer Predige / vnd alß er fraget / was er Predigen soll / wird jhm die antwort alles
+Fleisch ist Hew / vnd alle seine Güte ist wie die Blume auff dem Feld / das Hew verdorret
+/ die Blume verwelcket.</p>
+<pb facs="#f0005"/>
+<p>Damit anzeiget wirdt / wie gantz vngewiß / vnbestendig / auch vergenglich dieses Leben
+sey / vnd das nicht allein gemeine Leuht / sondern auch die / welche von GOTT mit sondern
+gaben gezieret / vnd durch die Blumen bedeut sein / mit dem Todt / weil sie Fleisch vnd
+durch die Sünd verderbt sein / nicht verschonet werden.</p>
+<p>Das erfahren wir täglich / vnd werden dessen erinnert / wenn also vmb Neun oder Zwölff
+vhr die Glocken gehen / Insonderheit aber wirdt vns jetzundt dessen ein Exempel für die
+augen gestellet / dieweil wir einen Edlen Knaben zu seiner grab vnd ruhestet begleitet /
+welcher verhofftlich / alß ein schöne Blume erst recht außbrechen / blühen vnd einen
+lieblichen geruch von sich geben solte.</p>
+<p>Aber die Blum ist abgefallen / vnd verwelcket.</p>
+<p>Darumb wir dann baldt im eingang erinnert sein sollen / das wir vns auff vnsere gaben /
+auff vnser ehrlich geschlecht / jugent / oder dergleichen nicht verlassen / das wir meinen
+vnnd vns einbilden wolten / wir wehren für dem Todt befreiet. Sondern / wir sein / wer wir
+wollen / sollen wir vns alle tage vnd stunde / erinnern / das wir Menschen vnd sterblich
+seind / vnd zum Todt vns stets gefast machen / vnd bedencken das im 95. Psalm stehet /
+Heut / so jhr seine stimme höret / so verstocket ewre hertzen nicht / vnd Ecclesiastes 12.
+Gedencke an deinen Schöpffer in deiner Jugent 2. Cor: 6. spricht Paulus auß Esaia 49.
+Jetzt ist die angenehme zeit / jetzt ist der tag des heils / vnd Jesa. am 55. Suchet den
+HERRN weil er zufinden ist / ruffet jhn an / weil er
+<pb facs="#f0006"/>
+nahe ist /
+verseumen wir es / so werden wir mit den fünff törichten Jungfrawen Matthei am 25. von der
+Himlischen Hochzeit außgeschlossen.</p>
+<p>Das wir vns aber in den jetzigen betrübten Todtsfall / da abermahl ein Kindt für seinen
+Eltern hingestorben / Christlich schicken mögen / habe ich diese Historien / wie Dauids
+Söhnlein ist kranck worden / vnd gestorben / für mich nemen wollen / Dieweil sie vns
+nachrichtung gibt / wo die Kranckheit vnnd der Todt herrüre / wie wir vns in die sache
+richten / das trawren messigen / vnd wes wir vns trösten sollen.</p>
+<p>Darumb wollen wir diese Histori erwegen / vnd vmb mehrer richtigkeit willen / die Predigt
+in diese Vier Puncten abteilen.</p>
+<p>Erstlich wollen wir die Wort erwegen / das der heilige Geist sagt / Der HERR schlug / vnd
+also berichten / wo diß Vnglück dem Dauid her komen.</p>
+<p>Zum Andern warumb GOTT eben das Kindt angegriffen.</p>
+<p>Zum Dritten wie sich Dauid in solchem Creutz / vnd bey werender Kranckheit seines Kindes
+gehalten.</p>
+<p>Zum Vierdten / Wie sich Dauid erzeiget / da er vernommen / das das Kindt todt wehre.</p>
+<p>GOTT gebe vns darzu die Gnade seines heiligen Geistes Amen.</p>
+<pb facs="#f0007"/>
+</div>
+<div>
+<head>Der Erste Theil.<lb/>
+</head>
+<p>DEm Dauid wirdt sein Kindt Kranck / vnd zwar eben das Kindt / das jhm Bethsaba Vriae Weib
+geboren hatte / wie Ewr L. die Histori von Dauids Fall bekandt ist.</p>
+<p>Es erzehlt aber der H. Geist nicht schlecht die Histori von des Kindes Kranckheit /
+Sonder berichtet auch auß dem grund / wa vnd von wem solche Kranckheit herkom&#x0303;en
+sey / vnd spricht / Der HERR schlug das Kindt / damit er anzeiget / Das solche Kranckheit
+nicht vngefehr oder schlumpsweise dem Kindt zukomen / sondern GOTT der alles in henden hat
+vnnd regiert / habe dem Kinde diese Kranckheit zugedacht / vnd zugeschickt / Wie denn in
+vorgehenden Worten dieses Capittels deutlich vermeldet wirdt / das GOTT solches vmb <supplied>d</supplied>as
+Kindt beschlossen / vnd dem Dauid anzeigen lassen. Solches sein decret das vber das Kindt
+ergangen / ehe es gebohren ist / exequiret GOtt hie / vnd richtet es ins werck / nach jhm
+muß es sich alles richten vnd schicken.</p>
+<p>Derwegen vns der H. Geist lehren will / das man in dieser geschicht nicht soll fragen
+nach der nechsten vrsachen dieser tödtlichen Kranckheit / es sey gleich das seiten stechen
+oder Brust Kranckheit / oder ein andere geschwinde vnd gefehrliche Seuche gewesen /
+sonderen auff GOTT alß die höchste vrsach / der solches beschlossen / ehe das Kindt
+geboren war / vnd hie seinen schluß exequiret vnd ins werck rich-
+<pb facs="#f0008"/>
+tet.
+GOtt ist der das Kindt Dauids schlecht / die Kranckheit aber ist nur gleich vnsers HErrn
+GOttes Ruthe.</p>
+<p>Nuhn sollen wir aber nicht gedencken / das es dißfals mit Dauids Kindleins tödtlicher
+Kranckheit ein sonderlichs sey / also das allein dieses Kindes Kranckheit von GOTT herrüre
+/ mit den andern aber / die sonsten sterben / hette es ein andere gelegenheit. Sonder eben
+der GOTT / von dem hie stehet / das er Dauids Kind geschlagen habe / ist der / der alle
+ding in henden hat vnd regieret / also / das ohn seinen willen vns das allergeringste
+nicht wiederfehret / es sey gut oder böß / er schickts vns alles zu / es sey Kranckheit
+oder Todt.</p>
+<p>Darumb singet Hanna 1. Sam: 2. In jhrem Lobgesang / nach dem sie ein schweres Creutz
+außgestanden / vnd entlich GOttes hülff erlanget hatte / Der HErr tödtet vnd machet
+lebendig / er führet in die Hell vnd wieder herauß.</p>
+<p>Damit stimmet Dauid vberein im 68. Psalm da er singet / GOtt legt vns ein Last auff /
+aber er hilfft vns auch.</p>
+<p>Vnd Jerem: in seinen Klagliedern am dritten spricht / vom Vnglück des Jüdischen Volcks /
+Wer tahr sagen / das solches geschehe ohn des HERRN befehl / vnd das weder böses noch
+gutes komme auß dem munde des HERRN?</p>
+<p>Amos 3. sagt in gemein von allen Plagen / Es ist kein Vnglück in der Stadt / das der HERR
+nicht thue.</p>
+<p>Sonderlich aber zeuget GOttes Wort / das auch das letzte vnnd grösseste Vnglück eines
+Menschen / wenn er so kranck wirdt / das er sterben muß / von GOtt einem jeden
+<pb facs="#f0009"/>
+zugeschicket werde. Psalm 90. Du lessest die Menschen sterben.</p>
+<p>Hiob 14. Der Mensche hat seine bestimpte zeit / die zeit seiner Monat stehet bey dir / Du
+hast ein Ziel gesetzet / das wirdt er nicht vbergehen.</p>
+<p>Im 139. Psalmen redet Dauid noch klerlicher dauon / Deine Augen sahen mich / da ich noch
+vnbereitet war / vnd waren alle Tage auff dein Buch geschrieben / die noch werden solten /
+vnd derselben keiner da war / Christus / da er Matth: 10. sein Apostel zu predigen
+ausschickt / spricht er zu jhnen / keufft man nicht zwey Sperling vmb einen Pfennig / noch
+felt derselben keiner auff die Erden / ohn ewren Vatter im Himmel. Nuhn aber seind auch
+alle Haar auff ewrem Heupte gezehlet.</p>
+<p>Sihe / so gahr genaw hat GOtt achtung auff alle Creaturen / vnd insonderheit auff die
+Menschen / also regiret er alles / das ohn jhn / vns das geringste nicht wiederfehret / es
+sey gut oder böß.</p>
+<p>Derwegen / sollen wir auch jetziger zeit / in dieser algemeinen Kranckheit nicht sehen
+auff die Natürliche vrsachen / den warmen Sommer / die böse Lufft / oder dergleichen /
+sonder wenn schon die Plag natürliche vrsachen hat / sollen wir gedencken / die Natürliche
+vrsach werden von GOtt regiret / vnd sey also diese Plag GOttes Ruthe.</p>
+<p>Vnd sollen nuhn diese Lehr darzu gebrauchen / das wir vns stracks vnd allein zu GOtt
+kehren / durch ware Buß vnd ein gleubiges Gebet / in vnserm Vnglück.</p>
+<pb facs="#f0010"/>
+<p>Vnd denn zum Andern / das wir vns der nerrischen nachrechnung enthalten / da wir sagen /
+ach hette ich doch das gethan / hette ich doch das gelassen.</p>
+<p>Prouerb: 21. Es hilfft kein Weißheit / kein Raht wieder den HERRN / des HERRN Handt ist
+außgereckt / wer wils wenden? Jesaie 14.</p>
+<p>Viel mehr sollen wir das auch zur Gedult vnd Trost gebrauchen / weil vns GOtt schlegt /
+der es mit vns seinen Kindern gut meinet / das wir vns mit Gedult in seinen willen ergeben
+/ vnd mit Hiob sagen / Der HERR hats gegeben / Der HERR hats genommen / Der Nahme des
+HERRN sey gelobet.</p>
+</div>
+<div>
+<head>Der Ander Theil.<lb/>
+</head>
+<p>WIR haben gehöret / woher das grosse Vnglück in Dauids Hauß kommen. Nuhn wollen wir
+weiter hören vnd erwegen / wen es getroffen habe / oder wen GOtt geschlagen habe.</p>
+<p>Da solte nuhn einer meinen / dieweil Dauid selber ist / der gesündiget hat / so würde jhn
+GOtt schlagen vnd kranck werden lassen / Aber GOtt machts nach seinem Raht vnd Wolgefallen
+/ vnd greifft den Dauid an einem andern ort an / da es jhm gleichwol nicht weiniger wehe
+thut / vnd lest jhm eben das Kindt kranck werden / vnd sich in den siebenden tag quele /
+welches er im Ehebruch gezeuget / Also trifft
+<pb facs="#f0011"/>
+GOtt das Kindt / vnd
+meinet den Vater. Also ists GOtt vmb das Kindt nicht zuthun / ob es woll in Sünden
+empfangen / dieweil Dauid gesündigt hat / muß das Kindt sterben / Wie GOtt durch Nathan
+jhm sagen lest / Weil du die Feinde des HERRN hast durch diese geschicht lestern gemacht /
+wird der Sohn / der dir geboren ist / des Todes sterben.</p>
+<p>In dem nuhn GOtt das Kindt also hart mitnimbt / so sihet vnd fühlet Dauid alß der Vater /
+gleichwol / was er gethan / Iha er macht sich / wie billich die gedancken / greifft GOtt
+das Kindt so hart an / das kein schuldt hat / an dem Ehebruch / was soltestu billich
+leiden / der du die Sünde begangen hast.</p>
+<p>Also gibt GOtt dem Dauid ein Denckmahl vnd Zeichen seines Zorns / vnangesehen / das er
+jhm die Sünde vergeben hat / jha damit auch die nachkommen sich an jhm nicht ergern / so
+lesset er dieses Exempel seines Zorns wieder Dauids Sünde auffzeichnen.</p>
+<p>Damit vns dann der H. Geist lehret / wenn GOtt etliche Personen auß vnserm mittel
+außmahlet / angreifft / vnd hart mit nimbt / das es nicht allein eben denen gelte / die er
+also trifft / sondern es gelte auch den andern allen die es ansehen / hören vnd erfahren /
+ob er sie schon selber nicht also mit nimbt / sonder jhrer noch verschonet.</p>
+<p>Das meinen wir nuhn nicht / das es vns gelten solte / wenn GOtt andere Leuht straffet /
+sondern bilden vns ein / die haben es darnach gemacht / wir aber / die damit verscho-
+<pb facs="#f0012"/>
+net / seind viel frommer / vnd haben vns des nichts anzunehmen.</p>
+<p>Darumb gedencken Hiobs freunde auff sich nicht / da GOtt jhn / den from&#x0303;en Man
+angreifft / sondern disputiren, er müsse es mit sonderlichen Sünden verschuldet haben /
+dauon sie keinen mangel haben.</p>
+<p>Vnd Actor: 28. Da die Melitenser sehen / das Paulo / wie er Holtz zusamen lieset / ein
+Otter vmb die Handt fährt / vnd die Handt jhm auch auff leufft vrteilen sie / der Mensch
+müsse ein Mörder sein / den die Rache nicht leben lasse.</p>
+<p>GOtt aber berichtet vns in seinem Wort / das er auch darumb etliche Leuht in diesem Leben
+für vnsern augen hart mit nehme vnd straffe / auff das neben jhnen auch wir andern vns
+daran spiegeln / vnd Buß thun / vnd für dergleichen Sünden vns hüten.</p>
+<p>So spricht er zu den Juden zu Jerusalem / Gehet hin an meinen ort zu Silo / da vorhin
+mein Nahme gewonet hat / vnd schawet / was ich daselbst gethan habe vmb der boßheit willen
+meines Volcks Israel.</p>
+<p>Weil jhr alle solche stücke treibet etc. So wil ich dem Hauß / das nach meinem Nahmen
+genennet ist / eben thun wie ich Silo gethan habe.</p>
+<p>Also lesen wir Luc. 13. da etzliche zu Christo kom&#x0303;en / vnd jhm zeitung bringen
+von den auffrürischen Galileern / deren Blut Pilatus mit dem Opffer vermenget hatte / vnd
+auch in den gedancken stehen / die Leuht müssen für andern
+<pb facs="#f0013"/>
+böse
+gewesen sein / vnd diese Straffe wol verdienet haben / da spricht Christus zu jhnen /
+Meinet jhr das diese Galileer für allen Galileern Sünder gewesen sind / dieweil sie das
+erlitten haben / Ich sage / Nein / Sonder wo jhr euch nicht bessert / werdet jhr auch alle
+also vmbkommen.</p>
+<p>Vnnd das man nicht meine / es gehe solche meinung Christi allein auff den einigen fall
+mit den Galileern / So bringet Christus noch ein andere Histori / von den Achtzehen
+Mennern / die der Thurn zu Siloß erschlug / vnnd spricht gleicher gestalt / Meinet jhr /
+das sie für alle Menschen / die zu Jerusalem wohnen / seind schüldig gewesen? Ich sage /
+Nein / Sondern so jhr euch nicht bessert / werdet jhr auch alle also vmbkommen.</p>
+<p>Vnd thut GOtt dißfals / wie die / welche junge Lewen abrichten vnd zahm machen / die /
+wenn sie vnbendig sein wollen / für jhren Augen einen jungen Hundt steupen / das sie sich
+fürchten vnd fursehen / oder wie Schulmeister vnd Obrigkeit thun / die einen auß dem
+hauffen herauß nehmen / züchtigen vnd straffen / auff das sich die andern daran stossen /
+vnd für gleicher Sünden hüten.</p>
+<p>Iha / das wunderlich für vnsern augen ist / nimbt GOtt seine liebste Kinder in dieser
+Welt für andern eben hart mit / vnd vnderwirfft sie schwerem leiden / auff das andere vnd
+insonderheit die Gottlosen sich daran spiegeln / vnnd jhnen die gewisse Rechnung machen /
+Weil GOtt mit denen also verfert / was sie dan&#x0303; zugewarten haben / vnd wie ein
+schrecklich Vrtheil zu seiner zeit vber sie ergehen werde / wofern sie nicht vorbeugen vnd
+Buß thun.</p>
+<pb facs="#f0014"/>
+<p>Dauon lesen wir Jerem: 25. das GOtt sagt / Sihe an der Stadt die nach meinem Nahmen
+genennet ist / fahe ich an zu plagen / Vnnd jhr (Heiden) sollet vngestraffet bleiben:</p>
+<p>Vnd Christus selber Predigt also von seinem Leiden / Ihr Töchter Jerusalem / weinet nicht
+vber mich / sondern vber euch vnd vber ewre Kinder / etc. Den&#x0303; geschicht das am
+Grünen Holtz / was wil am Dürren werden?</p>
+<p>Vnd Petrus 1. Cor. 4. schreibet / Es ist zeit das das Gerichte anfange an dem Hauß des
+HERRN. So aber erst an vns / was wils für ein ende werden mit denen / die dem Euangelio
+nicht gleuben? Vnd so der Gerechte kaum erhalten / wo wil der Gottloß vnd Sünder
+erscheinen?</p>
+<p>Also heist Paulus die Corinther ansehen die gemeine Kranckheit 1. Cor. 11. vnd saget
+denen die noch vberblieben waren. So wir vns selber richteten / so würden wir nicht
+gerichtet / etc. Wil also / das sie sich an der andern Exempel stossen / vnd sich bessern
+sollen.</p>
+<p>Darumb geliebte im HErrn / das GOtt ein zeithero hie etliche Leuht für andern außmalet /
+vnd mit dieser abschewlichen Kranckheit angegriffen hat / Darunter auch junge Kinder vnd
+andere fromme Leuht seind / die es freilich mit sündigen so grob nicht gemacht / alß wir
+andern / hat er vmb vnsernt willen gethan / das wir (wie Dauid) in vns gehen / vnd
+bedencken sollen / weil wir bißhero vbel hauß gehalten / so haben wir wofern wir vns nicht
+bessern / anders nichts alß den vntergang zuerwarten.</p>
+<pb facs="#f0015"/>
+</div>
+<div>
+<head>Der Dritte Theil.<lb/>
+</head>
+<p>WIE helt sich nuhn aber Dauid in solchem Creutz vnnd wehrender Kranckheit seines Sohns /
+vermuthlich ists / das er der Ertzte Raht auch werde gebraucht haben. Denn ordentliche
+Mittel soll vnd kan man wol gebrauchen.</p>
+<p>Dieweil er es aber darauff gar nicht gesetzt / sonder erst vnd letzt / GOtt vmb hülff
+angeruffen / vnd auff jhn allein sich verlassen / so schweiget hie der H. Geist gar still
+dauon / vnd saget kein Wort weder von dem Artzten noch von der Artzney. Denn wo GOTT das
+gedeien dazu nicht gibt / so ist es nichts damit. Derwegen meldet diese Histori mehr
+nichts von Dauid / alß das er den HERRN ersucht habe / das ist / er habe sich
+erin&#x0303;ert / das diese Kranckheit von GOTT herkomme / derselbige / der sie jhm
+zugeschickt / der könne sie jhme auch wieder benehmen. Darumb rufft er jhn alß den
+höchsten Artzt vmb hülff an.</p>
+<p>Es wird aber daneben vermeldet / wie Dauid in solchem Gebet gesinnet gewesen sey / vnd
+wie er sich gestellet vnd gehalten.</p>
+<p>Erstlich zeiget diese Histori an / das er sehr trawrich vnd betrübt sei gewesen / welches
+darauß abzunehmen / das er die gantze zeit vber / nicht auff einem Bette / sondern auff
+der Erden gelegen. 2. Das er gefastet vnd den gantzen ja etliche tag kein Tafel gehalten.
+3. Vnnd ob woll seine
+<pb facs="#f0016"/>
+Knechte jhn auffrichten vnd jhm ein Hertz
+einsprechen wollen / ist es doch alles vergebens gewesen.</p>
+<p>Darumb er aber so trawrig gewesen / der doch sonsten fürm Goliaht / jha auch für Lewen
+vnd Beren sich nicht gefürchtet / ist leichtlich abzunehmen / nemblich / nicht allein /
+weil es sein Kindt gewesen / vnd natürlich ist / das man sich betrübe / wenn es den
+Kindern vbel gehet / vnd sie sich also quelen / sonder / wie zur zeit des Vngewitters /
+die alte schäden sich regen / also wird jhm da sein schwerer Fall vnd die alte Wunde
+vernewert / Weil es eben das Kindt ist / das er in Ehebruch gezeuget / das er gedencken
+muß / nimbt GOtt so hart mit / was habe ich verdienet der ich die Sünde begangen habe?</p>
+<p>Er verzaget aber darumb nicht / sondern tröstet sich / das jhm GOtt durch Nathan
+vergebung der Sünden angemeldet / vnd schleust bey sich / wie GOtt die drewung mit dem
+Kindt halte / so werde er jhm auch gnedig sein / vermög seiner zusag / derwegen er jhn in
+Kindtlicher zuuersicht / vmb hülff anrufft. Sonderlich aber vernehmen wir / auß seinen
+eignen Worten / das er sich fein gedültig in die sache ergeben / vnd es GOTT heimb
+gestellet / das der es mochte mit dem Kindt machen / wie er selber wolte. Ich gedacht
+spricht er / Wer weiß / ob mir der HErr gnedig sein würde / das das Kindt lebendig
+bleibe?</p>
+<p>Diesem Exempel des lieben Dauids / sollen wir nachfolgen / wenn vns GOtt mit dem Creutz
+heimsucht / vnd wir oder die vnsern von GOtt mit kranckheit angriffen werden.</p>
+<pb facs="#f0017"/>
+<p>Da wissen wir nuhn nicht viel wo wir zugreiffen sollen / vnd ist / wie man zu sagen
+pfleget / guter Raht tewr.</p>
+<p>Nuhn pfleget man sich sonsten in Kranckheiten vnd andern schweren Sachen Consilia stellen
+zulassen. Aber weil GOttes Zeuchnuß vnsere Rahtsleute sein / hat vns GOTT selber in
+Kranckheit vnd nöten ein Consilium vnd Raht gestellet. Wir pflegen gemeinlich zur Artznei
+zueilen / welches zwar an sich nicht vnrecht ist / Denn GOtt hat den Artzt vnd die Artznei
+erschaffen / aber da ist zu offtermal der Mißbrauch bey / das man sich darauff verlest /
+vnd GOTT zu rücke setzet / wie Assa der König thut / da er an Füssen kranck ist / darüber
+er denn auch des Todts ist.</p>
+<p>Dieweil aber alles / es sey Todt oder Leben / Gesundheit oder Kranckheit in GOttes Henden
+allein stehet / sollen wir vns für solcher Sünde vnd Vnglauben hüten / sonder dem Raht
+GOttes folgen / vnd wie hie Dauid thut / allein auff GOtt vns verlassen / vnd jhn vmb
+hülff anruffen vnd ersuchen.</p>
+<p>Den Raht gibt vns GOtt im 50. Psalm / Ruff mich an in der Noht / so wil ich dich erretten
+/ vnd im 91. Psalm / spricht er / Er begeret mein / so will ich jhm außhelffen / Er kennet
+meinen Nahmen / so wil ich jhne schützen / Er rufft mich an / so wil ich jhn erhören / Ich
+bin bey jhm in der Noht / ich wil jhn herauß reissen.</p>
+<p>So ist dieses an vielen / jha an allen gleubigen probirt. Sehet an die Exempel der Alten
+spricht Syrach 2. Wehr ist jemahl zu schanden worden / der auff jhn gehoffet hat?</p>
+<pb facs="#f0018"/>
+<p>Dauid hats von allen versucht / wie er im 6. Psalmen / vber den schweren Anfechtungen
+maht wird / schreiet er zu GOtt / vnd wird getröstet / das er den Psalmen frölich endet /
+Weichet von mir alle Vbeltheter / denn der HErr höret mein weinen / der HErr höret mein
+flehen.</p>
+<p>Also wendet sich Hiskia in seiner Kranckheit zur Wandt / vnd ruffet den HErrn an / vnd
+erlanget / das er noch 15. jahr lebet. Darumb sollen wir in Kranckheit vnd allem Vnglück /
+nur getrost zum Gebet greiffen / vnd dem Consilio das vns GOtt gestellet / folgen.</p>
+<p>Hieneben weiset vns Dauid auch mit seinem Exempel / wie das Gebet geschaffen / oder
+vielmehr / wie wir im Gebet sollen gesinnet sein / vnd mit was hertzen wir beten
+sollen.</p>
+<p>Erstlich sollen wir nicht sicher vnd ruchloß oder vnbußfertig sein / sonder wie Dauid hie
+ohne zweifel seiner Sünden halben trawrich vnd betrübet ist / also sollen wir auch im
+Gebet vnsere Sünde vnd vnwirdigkeit bekennen vnd behertzigen / Dauon saget Dauid im 51.
+Psalm / Die Opffer die GOtt gefallen / seind ein geengster Geist / ein geengstes vnd
+zuschlage&#x0303; hertz wirstu GOtt nicht verachten. Von den Vnbußfertigen aber stehet
+Jesaie 1. Ob jhr schon viel betet / höre ich euch doch nicht / etc. Waschet euch reiniget
+euch.</p>
+<p>Zum Andern aber sollen wir solcher Sünde halben keines weges verzagen / sondern durch
+Christum zu GOtt das vertrawen haben / das GOtt vnsere Sünd vergeben vnd vnser Gebet
+erhören wolle.</p>
+<pb facs="#f0019"/>
+<p>Denn es ist vnd bleibet wahr / das Christus so offt saget / Dein glaube hat dir
+geholffen. Darumb Dauid / wie schwerlich er sich auch an GOtt versündiget hat / nicht
+verzaget / Sonder in wahren Glauben vnd Freidigkeit zu GOtt tritt / vnd jhn ersucht / das
+er seinem Kind helffen wölle.</p>
+<p>Zum Dritten / sollen wir vns in zeitlichen dingen vnd gütern / wenn wir die von GOtt
+bitten / vns jhm vnd seinem Göttlichen willen gantz vnd gar vndergeben. Denn er alß ein
+Vater verstehets besser / was vns nutz vnd gut sei / alß wir selber / die wir offt / wie
+die Kinder zubeden nicht wissen / was wir bitten. Darumb Christus verheisset / So jhr /
+die jhr doch Arg seit könnet ewren Kindern gute gaben geben / wie viel mehr wird mein
+Himlischer Vater guts geben denen / die jhnen darumb bitten.</p>
+<p>Darumb vndergibt sich Dauid nicht allein hie dem gnedigen willen GOttes / Sonder auch /
+da er für seinem Sohn Absolon fleucht / stellet er es GOTT gantz heimb / vnd spricht /
+Habe ich gnade funden so wird er mich widerholen / vnd die Laden sehen lassen / spricht er
+/ Ich habe kein lust zu dir / Sihe / hie bin ich / er mache es mit mir / wie es jhm
+wolgefelt / Vnnd der Außetzige Matth. 8. spricht / HErr so du wilt kanstu mich wol
+reinigen.</p>
+<p>Wer also in nöten GOtt anrufft mit bußfertigem gleubigen hertzen / vnd stellet es GOtt
+heimb in zeitlichen anliegen / der wirdt gewißlich erhöret / vnd erlanget / who nicht eben
+das er begeret / doch viel ein bessers.</p>
+<pb facs="#f0020"/>
+<p>Wie wir von Dauid hören werden / das er mit GOtt woll zufrieden ist / ob er jhm schon
+nicht gegeben / was er begeret / denn er gleubet vnd trawet / das das des Kindes bestes
+ist / das es nicht auffkommen / sondern gestorben ist.</p>
+</div>
+<div>
+<head>Der Vierdte Theil.<lb/>
+</head>
+<p>DIeweil es Dauid selber GOtt heimstellet / so macht es GOtt auch nach seinem heiligen
+Raht / wie es jhm gefelt / vnd nimbt durch den Todt das Kindt hinweg auß diesem Leben / da
+es denn allem Vnglück auß dem wege kompt. Da seind nuhn seine Diener betretten / vnd
+machen jhnen die gedancken / Nu werde er sich erst recht gremen / weil es Todt ist / da er
+zuuor / wie es nur kranck gewesen / sich so sehr bekümmert hatte.</p>
+<p>Aber es befindet sich viel anders / denn alß Dauid das flistern vnd heimblich reden höret
+/ merckt er vnd tregt es jm der Sinn zu / das Kindt muste Todt sein / fraget derwegen / ob
+es Todt sey / vnd begeret / das sie es jhm nicht verhelen / da können sie es jhm nicht
+lenger verschweigen / sonder zeigen an / GOtt habe seinen willen mit dem Kindt
+geschaffet.</p>
+<p>Da gremet sich nun Dauid nicht allein recht mehr / sonder er erholet sich auch fein / vnd
+gibt sich gar woll zu frieden / jha wirdt gleich frölich / Denn es ist jhm lieb / das GOtt
+sein Gebet auff einen Weg erhöret / vnd ob er jhm schon nicht eben zu diesem Leben
+geholffen / das er jhm doch
+<pb facs="#f0021"/>
+sein Pein verkürtzet / vnd es in das ewige
+Leben auffgenommen hat.</p>
+<p>Darumb were jhm leid / das er sich lenger quelen solte / sonder tröstet sich / vnd das
+beweiset er mit der That. Denn wie er sich zuuor nicht wolte zu frieden sprechen vnd
+auffrichten lassen / Also stehet er jetz von sich selber auff von den Erden / da er zuuor
+sich nicht waschen noch salben oder recht anziehen möchte / waschet er sich jetzundt / vnd
+salbet sich mit dem freuden Ole des Balsams / vnd zeugt seine gewönliche Kleider an / da
+er zuuor immer in seinem Gemach bliebe / gehet er jetzundt auß dem Tempel vnd betet / vnd
+dancket ohn zweifel GOtt / das er seinen willen geschaffet / vnd dem Kind sein Pein
+gekürtzet. Auß dem Tempel gehet er nach Hauß / lest auffdecken vnd helt Tafel / das in
+etzlichen tagen nicht geschehen war. Da nuhn seine Diener jhn wunders halben fragen /
+warumb er zuuor trawrig gewesen / da das Kind gelebet vnd nuhr Kranck gewesen / jetz aber
+nuhn es gar Todt / sich gar wol zufrieden gebe. Da gibt er jhnen die antwort / darumb sey
+er trawrig gewesen / vnd habe gefastet vnd GOtt für das Kind so inniglich gebeten / das er
+jm&#x0303;er gehoffet / es möchte vieleicht GOtt noch das Kindt fristen. Dieweil aber GOtt
+nuhn seinen willen geschaffet / vnd auff einen weg / der jhm wolgefallen / sein Gebet
+erhöret / so gebe er sich billich nuhn zufrieden. Denn wen&#x0303; er sich schon lange
+gemeiet / richte er damit nichts auß / sonder erzürnete nuhr GOtt / weil er mit jhm nicht
+zufrieden wehre / vnd sich gleich wieder jhn aufflegte. Das Kind
+<pb facs="#f0022"/>
+aber
+werde dauon nicht wieder kommen / Er tröstet sich aber das noch ein ander leben ist /
+dahin er das Kindt geschickt / vnd zeiget an da sey jhm woll / es werde auch nimmermehr in
+dieses Jammerthal vnd Elende kommen / das aber sein Trost / das wenn einmal dieß
+vergengliche Leben ein ende hat / so werde er auch zu dem seligen hauffen kom&#x0303;en /
+dahin sein liebes Kindt vorsendet ist / da werde er es mit frewden wieder sehen.
+Den&#x0303; das der gleubige König mit diesen worten / Ich werde zu jhm fahren / allein
+den Todt verstehe / darin er dem Kindt folgen werde / wie etzliche meinen das is nicht /
+sonder er weiß / das ausser vnd nach diesem ein ander Leben ist / vnd das sein Vater
+Abraham / Isaac / Jacob / für GOtt leben / darumb gibt er sich so wol zu frieden.</p>
+<p>Da gibt vns Dauid abermahl ein Exempel wie wir vns Christlich in die sache schicken
+sollen / Wenn GOtt die vnsern durch den zeitlichen Todt auß diesem Leben abfordert /
+nemblich / das wir zwar trawren vnd sie beklagen mögen / aber wir sollen ein hertz
+ergreiffen / vnd vns wieder erholen vnd zu frieden geben.</p>
+<p>Etliche wollen so heilig vnd starck im Glauben sein / das sie meinen / man soll gar nicht
+trawren / noch die Todten beklagen / Aber das es vnrecht sey / ist darauß abzunehmen / das
+GOtt selber es in die Natur gepflantzet hat / wie ein Vögelein wenn es seine Junge
+verloren / auff seine weise sich kleglich helt.</p>
+<p>So spricht der weise Man Syrach / Mein Kind wenn dir einer stirbt / so beweine jhn vnd
+beklage jhn etc.</p>
+<pb facs="#f0023"/>
+<p>Wie dann auch die grosse heiligen jhre Todten beweinen / als Abraham vnd Isaac die Saram
+Genes. 23. vnnd 24. den heiligen Jacob / Joseph vnd seine Brüder Gen. 50. Christus selber
+Johan. 11. den Lazarum Actor. 8. Halten die Jüngern ein grosse Klag vber Stephanum.</p>
+<p>Vnd ob wol Paulus 1. Thes. 4. schreibet / sie sollen wegen deren die schlaffen nicht
+trawrich sein / setzt er doch hinzu / wie die andern die keine Hoffnung haben / da er das
+trawren nicht aller dings verbeut / sonder wil das ein vnderschied sein soll / zwischen
+dem trawren der gleubigen vnd vngleubigen.</p>
+<p>Derwegen wenn man die seinen verleuret / mag man wol abweinen / vnnd sollen wir nicht
+allein das betrauren / das wir der vnsern beraubet seind / sonder auch behertzigen vnd
+beklagen den elenden zustandt / des gantzen Menschlichen geschlechts / das wir von wegen
+der Sünden dem Tod vnderworffen sind / wie Moses im 90. Psalmen thut / Wir sollen aber das
+trauren nicht vberhandt nehmen lassen / sonder vns wieder erholen / vnnd trösten mit
+GOttes Wort / das vns wieder den Todt auch bestendigen Trost gibt.</p>
+<p>Wie dann Syrach in vorgemelten Capittel / Las die traurigkeit nicht in dein hertz / das
+ist / laß sie nicht vberhand nehmen / sonder schlage sie von dir etc.</p>
+<p>Vnnd Paulus 1. Thesalo. 4. Wir wollen euch lieben Brüder nicht verhalten / von denen die
+dar schlaffen / auff das jhr nicht traurich seid / wie die andern / die kein Hoffnung
+haben.</p>
+<pb facs="#f0024"/>
+<p>Vnd sollen wir da bedencken / das GOtt der ist / der die vnseren abfordert / dessen
+willen sollen wir nicht wiederstreben / das bedencket hie Dauid / das jhm / weil GOtt
+seinen willen geschaffet nicht gebühren will / sich dawieder zulegen / wie er es jhm denn
+zuuor in seinem Gebet gantz heimbgestellet.</p>
+<p>So ist auch wie in andern Creutz das ein furnehmer Trost / das GOtt vns solch Creutz
+nicht als ein Feindt zuschickt / sonder als ein Vater. Denn er vns durch Christum alle
+Sünde vergibt. Wie ohn zweifel Dauid sich mit den Worten Nathans getröstet / Der HERR hat
+deine Sünde von dir weg genomen. Sonst hette er sich nicht können zu frieden geben /
+sonder jm&#x0303;er gedencken müssen / GOtt strafft dich / dieses Trosts haben sich alle
+bußfertige vnd gleubige hertzen zuerfrewen.</p>
+<p>Es soll auch ein Mensch bedencken / das er mit seinem trawren nichts außrichte / der
+Todte kombt nicht wieder / sonder man erzürne nur GOTT mit solcher vngedult vnd thut sich
+selber schaden an seiner gesundtheit. Von trawren kombt der Todt / saget Syrach / Vber
+allen Trost aber soll vns der erfrewen / das wir GOtt lob vnd danck wissen / das es mit
+den Todten nicht gar auß sey / wie die vernunfft meinet / sonder sie werden nur von einem
+ort zum andern versetzet / vnd zwar auß diesem jammerthal ins ewige Leben. Dahin die Seel
+alßbalt versamblet wird / biß der Leib auch folget / zu seiner zeit. Darumb nennet sich
+GOtt Exod: 3. den GOtt Abraham / Isaac / Jacob / dieweil sie für GOtt
+<pb facs="#f0025"/>
+nicht Todt seind / sonder leben / vnd von den Ertzvätern vnd Köningen sagt die Schrifft /
+sie sein versamblet zu jhren Vätern.</p>
+<p>Das Buch der Weißheit sagt dauon / Die Seelen der Gerechten seind in der handt GOttes /
+vnd kein qual rüret sie an. Christus saget Luc. 16. von Lazaro / er sey getragen in
+Abraham Schoß / Paulus begeret abzuscheiden vnnd bey Christo zu sein.</p>
+<p>Wenn wir das bedechten / würden wir gar woll zufrieden sein / Wenn sonsten die Eltern
+schon jhre Kinder nicht bey sich haben / seind sie doch wol zufrieden / wenn sie nur
+wissen / das sie noch leben / sonderlich wenn sie wissen das es jhnen noch woll gehet.</p>
+<p>Solchen Trost gibt hie Dauid / es sey mit seinem Kind vnd den Todten des Volcks vnd der
+Kinder GOttes nicht gar auß / sie leben noch vnd sey jhrer ein gantzer hauff alda beysamen
+/ da werden wir andern auch hin kommen vnd sie wieder sehen / sie aber kommen hieher nicht
+/ begeren es auch nicht. Derwegen wir GOttes Wort hierein gleuben vnd vnser hertz
+zufrieden stellen sollen.</p>
+<p>Ja es sihet Dauid wol weiter / auff die algemeine aufferstehung der Todten / da wir alle
+mit Leib vnd Seel zusamen kommen vnnd bey GOTT ewig leben vnd selig sein werden.</p>
+<p>Darumb saget er auch / Ich werde zu jhm kommen. Darumb schreibet Paulus 1. Thesal. 4. So
+wir gleuben / das Christus gestorben vnd aufferstanden ist / Also wirdt
+<pb facs="#f0026"/>
+GOtt so durch Christum entschlaffen mit jhm führen / etc. Wir werden bey dem HERRN sein
+allezeit.</p>
+</div>
+<div>
+<head>Beschluß.<lb/>
+</head>
+<p>ALso haben wir jetzund zu seiner Rugestet gebracht vnser gnedigen Jungen Herrschafft
+Edelen Knaben Bodo von Veltheimb. Da wollen wir von seinem ehrlichen Geschlecht vnnd
+Voreltern nichts sagen / es gehöret nicht auff die Cantzel / so sihet auch GOTT kein
+Person an.</p>
+<p>Das aber müssen wir zum Trost gedencken / das er in wahrer GOttes furcht erzogen ist /
+seinen Catechismum / schöne Sprüche auß GOttes Wort / etliche viel Psalmen / vnd
+Christliche Gebet gelernet. Vnnd hat jhn GOtt eben hart mitgenommen / da er denn GOttes
+Wort recht verstehen lernen / Insonderheit den 6. Psalmen / den er mit seuffzen gesprochen
+/ vnd also ohn einige außlegung in der noht denselbigen recht verstehen gelernet / Wie er
+denn in solcher seiner noht / wie die so bey jhm gewesen / berichtet vnnd ich zum theil
+selber gehöret / der Gebet mehr gesprochen / alß in deine hende beuehl ich meine Seel / Du
+hast mich erlöset du getrewer GOtt.</p>
+<p>Item / HErr JEsu Christ war Mensch vnd GOtt / Ach HErr JEsu kom etc. Vnnd zum letzten / O
+HERR GOtt in meiner Noht / Andere Sprüche die er gelernet
+<pb facs="#f0027"/>
+vnd
+gesprochen zugeschweigen / vnd den vorigen Tag ehe er gestorben / sich gegen seinen Eltern
+vernehmen lassen / morgen wolte er hin ins ewige Leben.</p>
+<p>Da sollen wir nun bedencken / das jhn der HERR geschlagen / das er gestorben / vnd sey
+sein zeit kommen gewest.</p>
+<p>Derwegen wir vnsere rechnung nachlassen sollen / hette ich das nicht gethan etc. Die
+Eltern habens gut mit jhm fürgehabt / jhnen zur Gottseligkeit vnd Adelichen Tugenden
+erziehen wollen / daran sie recht gethan / vnd er ist wie auch billich seinen Eltern darin
+gehorsamb gewest / Aber GOtt hat ein anders bedacht / Liebe Elter / schickt jhr jhn nur
+hin / vnd du liebes Kindt zeug hin / Aber ich wil dich nicht lange in der bösen Welt
+lassen / du möchtest mir verfüret werden / nicht besser / als das ich dich zu mir nehme /
+so bistu aller noht vnd gefahr entrunnen. Weil aber GOtt das junge das so viel nicht
+gesündiget als wir / so hart mitgenommen / sol es vns ein Bußpredigt sein / sonst wird vns
+ein ergers wiederfahren / Wir haben GOtt den HERRN für jhm ersucht / er hat vnfer gebet
+erhöret / vnnd ein bessers gegeben / als wir begeret / Ihne von allem vbel erlöset.</p>
+<p>So sollen wir vns nun zufrieden geben / gedencken es ist GOttes wille / so gehöret er
+auch vnter die / dauon Christus saget / Wer gleubet vnd getaufft wird / der wird
+selig.</p>
+<p>Er ist nun bey dem seligen hauffen im Lande der Lebendigen / da freude die fülle ist /
+vnd liebliches wesen zur rechten GOttes ewiglich / da werden wir mit freuden wieder zu jhm
+kommen.</p>
+<pb facs="#f0028"/>
+<p>Vnd heist es mit seinem Todt Sap: 4. Der Gerechte / ob er gleich zu zeitlich stirbt / ist
+er doch in der Ruge / denn er gefelt GOtt woll vnd ist jhm lieb / vnd wird
+weggenom&#x0303;en auß dem Leben vnder den Sündern / vnd wird hingerückt / das die boßheit
+seinen verstandt nicht verkehre / noch falsche lehre sein Seel betriege etc. Sein Seel
+gefelt GOtt woll / darumb eilet er mit jhm aus diesem bösen Leben.</p>
+<p>GOtt gebe gnade / das wir dieses alles was wir dißmal gehöret zu hertzen nehmen / vnnd zu
+vnser besserung / auch zum Trost im Leben vnd Sterben seliglich gebrauchen.</p>
+<p>AMEN.</p>
+</div>
+</body>
+</text>
+</TEI>

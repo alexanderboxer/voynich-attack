@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Eine Predigt Vom Cananeischen Weiblein Dom. Reminiscere. Zu Harst gethan</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124599281">
+<surname>Tuckermann</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>     <orgName>Obrigkeitskritik und Fürstenberatung: Die Oberhofprediger in Braunschweig-Wolfenbüttel 1568-1714</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Texttranskription und Auszeichnung in XML/TEI.</note>         <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme entsprechen muss.</note> <ref target="http://diglib.hab.de/drucke/c-349-4f-helmst-1s/tei-transcript.xml"/> <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>     <orgName>Wolfenbütteler Digitale Bibliothek</orgName>     <resp>         <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>  <ref target="http://diglib.hab.de/drucke/c-349-4f-helmst-1s/start.htm"/>     <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt> <respStmt>  <persName>         <forename>Marcus</forename>         <surname>Baumgarten</surname>     </persName>     <persName>         <forename>Frederike</forename>         <surname>Neuber</surname>     </persName>  <persName>         <forename>Frank</forename>         <surname>Wiegand</surname>     </persName>     <resp>         <note type="remarkResponsibility">Konvertierung nach XML gemäß DTA-Basisformat, Tagging der Titelblätter, Korrekturen der Transkription.</note>         <date type="importDTA">2013-02-15T13:54:31Z</date>     </resp> </respStmt>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">32</measure>
+<measure type="tokens">8789</measure>
+<measure type="types">2256</measure>
+<measure type="characters">54169</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T08:37:31Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/tuckermann_predigt_1619</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/tuckermann_predigt_1619</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/tuckermann_predigt_1619</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/tuckermann_predigt_1619</idno>
+<idno type="DTADirName">tuckermann_predigt_1619</idno>
+<idno type="DTAID">30297</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-30297-2</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Tuckermann, Peter: Eine Predigt Vom Cananeischen Weiblein Dom. Reminiscere. Zu Harst gethan. Wolfenbüttel, 1619.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Eine Predigt Vom Cananeischen Weiblein Dom. Reminiscere. Zu Harst gethan</title>
+<author>
+<persName ref="http://d-nb.info/gnd/124599281">
+<surname>Tuckermann</surname>
+<forename>Peter</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<publicationStmt>
+<publisher><name>Holwein</name></publisher>
+<pubPlace>Wolfenbüttel</pubPlace>
+<date type="publication">1619</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+<![CDATA[
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+<li>Langes s (&#x017F;) wird als rundes s (s) wiedergegeben.</li>
+<li>Rundes r (&#xA75B;) wird als normales r (r) wiedergegeben bzw. in der Kombination &#xA75B;c. als et (etc.) aufgelöst.</li>
+<li>Die Majuskel J im Frakturdruck wird in der Transkription je nach Lautwert als I bzw. J wiedergegeben.</li>
+<li>Übergeschriebenes &#x201E;e&#x201C; über &#x201E;a&#x201C;, &#x201E;o&#x201C; und &#x201E;u&#x201C; wird als &#x201E;ä&#x201C;, &#x201E;ö&#x201C;, &#x201E;ü&#x201C; transkribiert.</li>
+<li>Ligaturen werden aufgelöst.</li>
+<li>Silbentrennungen über Zeilengrenzen hinweg werden aufgelöst.</li>
+<li>Silbentrennungen über Seitengrenzen hinweg werden beibehalten.</li>
+<li>Kolumnentitel, Bogensignaturen und Kustoden werden nicht erfasst.</li>
+<li>Griechische Schrift wird nicht transkribiert, sondern im XML mit &lt;foreign xml:lang="el"&gt;&lt;gap reason="fm"/&gt;&lt;/foreign&gt; vermerkt.</li>
+</ul>
+]]>
+</p>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">hab</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<front>
+<pb facs="#f0001"/>
+<titlePage type="main"><figure/><lb/>
+<docTitle><titlePart type="main"> Eine Predigt<lb/>
+<hi rendition="#b"> Vom Cananeischen </hi><lb/>
+Weiblein<lb/>
+<hi rendition="#aq">Dom. Reminiscere.</hi><lb/>
+Zu Harst gethan<lb/>
+</titlePart></docTitle> <byline>Durch <docAuthor><hi rendition="#aq">M.
+Petrum </hi>Tuckerman</docAuthor> Hoff Prediger <lb/>
+Im Jahr/ 1619.<lb/>
+</byline>
+<figure/><lb/>
+<docImprint>Gedruckt zu <pubPlace>Wolffenbüttel</pubPlace>/<lb/>
+Durch <publisher>Eliam Holwein</publisher>/F. B. Buchd. vnd F. Anno
+<docDate>1619</docDate>.</docImprint></titlePage></front>
+<pb facs="#f0002"/>
+<body>
+<pb facs="#f0003"/>
+<div>
+<head>Dem Durchleuchigen / Hochgebornen Fürsten vnd Herrn / Herrn Moritz / Landgraffen zu
+Hessen / Graffen zu Catzenelbogen / Dietz / Ziegenhäin vnd Nidda / etc. Meinen gnedigen
+Fürsten vnd Herrn.<lb/>
+</head>
+<p>DVrchleuchtiger / Hochgeborner Fürst / gnediger Herr / weil E. F. Gnad. Hoffprediger vor
+diesem eine Fried Predigt außgehen lassen / vnd auff dieselbe von vnser seiten noch nicht
+geantwortet / alß ist mir vrsach vnd gelegenheit darzu an die hand gegeben durch die
+Predigt / die in gegenwart E. F. G. von mir zu Harst geschehen / denn man mich derselben
+halben zum Cavinisten wollen machen / wie die Wort gefallen seyn / der Pfarherr hette eine
+gute Calvinische Predigt gethan / vnd sein wir durchauß damit einig. Ob nu die Predigt
+Calvinisch oder Lutherisch sey / lasse ich alle rechtgleubige Christen vrtheilen
+vn&#x0303; habe sie derowe en
+<pb facs="#f0004"/>
+in öffentlichen druck kommen lassen. E.
+F. G. aber dieselbe in vnterthenigkeit zu schreiben wolle / weil mein gnediger Fürst vnd
+Herr in gnaden dasselbe von mir begehret / man sich auch auff jener seiten drauff berufft
+/ daß man in ein vnd andern vnnd zwar den meisten / wie auch in dem Puncten oder Artikel
+von der Gnadenwahl mit vns einig sey: Ob einigkeit zwischen vns beyderseits Evangelischen
+/ wie man vns nennet / weiter getroffen / vnd alle Mißhelligkeiten möchten beygelegt
+werden / denn wir auff vnser seiten nicht lust zuzancken vnd ergernis anzurichten haben /
+es gebürt sich auch nicht / vnd kan ders für GOtt / der schult drau hat / nicht
+verantworten: Ist derowegen zur einigkeit vnd fraternitet in der verantwortung auff
+Irenicam Cantionem E. F. G. Hoffpredigers / vnd dieser Predigt vom Cananeischen Weiblein
+der weg ziemlich gezeiget. E. F. G. als ein hochverstendig Christlich Hertz werden ohn
+allen zweiffel den sachen weiter nach dencken / vnnd da es auff jener seiten zum Frieden
+vnd Christlichen Brüderschafft in der Religion ein ernst / wie es billig sein sol / vnd
+wir auff dieser vnser seiten von hertzen wünschen / werden E. F. G. dahin sehen vnnd
+darnach aus seyn / das dem vbrigen / daß vns nach von einander helt / ferner abgeholffen
+werde.</p>
+<pb facs="#f0005"/>
+<p>Befehle E. F. G. GOttes gnedigen Schütz vnnd Schirm. Derselbe GOtt des Friedens wolle
+geben / daß wir beyderseits einig gesinner sein in Christo JEsu vnserm HErrn. Gegeben
+Wolffenbüttel am 27. Martij / 1619.</p>
+<p>E. F. G.</p>
+<p>V</p>
+<p>M. Peteus Tuckerman.</p>
+<pb facs="#f0006"/>
+</div>
+<div>
+<head>Evangel. Matth. 51.<lb/>
+</head>
+<p>DEr heutige Sontag wird genand Re<hi rendition="#i">miniscere</hi> gedenck: Welcher Nahm
+aus dem 25. Psalm genommen / darinnen diese Wort stehen: Reminiscere miserationum tuarum
+Domine, gedenck HErr an deine Barmhertzigkeit / vnd deine güte / die von der Welt her
+gewesen. Das ist ein Gebet Davids vnnd der Kirchen / daß GOtt sich jhrer nach seiner
+grossen Barmhertzigkeit annemen wolle. Dieser Nahm schickt sich nicht vbel zu dem jtzt
+verlesenen Evangelio / den darinnen ei-nes Cananeischen Weibes gedacht wird / welcher
+Tochter vom Teuffel vbel geplaget worden: Die findet sich derwegen zu Christo / schreyet
+jhm von Hertzen nach vnnd spricht: Ach HErr du Sohn David erbarm dich mein / das ist eben
+so viel als wenn sie gesagt hette: Gedenck HErr JEsu Christe an deine Barmhertzigkeit vnd
+deine Güte / die von der Welt her gewesen / vnd hilff meinem armen Kinde. Ob sich nu wol
+Christus im anfang etwas raw vnd hart gestellet / so hat er jhr doch zuletzt gegeben / was
+sie gewolt / vnd jhre Tochter ist gesund worden zu derselben stunde. So sollen wirs auch
+in geistlichen vnd leiblichen Nöthen machen vnnd vns an das Reminiscere halten vnd beten:
+Gedenck HErr an deine Barmhertzigkeit / vnd an deine Güte / die von der Welt her gewesen
+ist. Wenn wir das thun / so wil sich GOtt erweichen lassen / denn es jammert sein
+Barmhertzigkeit vnser Klag vnd grosses Leid.</p>
+<p>Dis Evangelium folget nu recht vnd wol auff des verschienen Sontags Evangelium / denn da
+haben wir gehöret / daß Christus vnser Häupt vnd Heyland vom Teuffel vnsernthalben
+versucht worden: Jetz aber hören wie das Christus selbst diß Cananeische Weiblein versucht
+habe: Sein also
+<pb facs="#f0007"/>
+zweyerley versuchungen / GOttes vnd des Teuffels: Aber
+es ist ein grosser vnterscheid drunter: Denn der Teuffel hat Christum versucht vnnd
+versucht vns noch heutiges Tages zum Bösen / er gehet vmbher wie ein brüllender Lew
+vn&#x0303; sucht welchen er verschlinge: 1. Pet. 5. aber GOtt versucht niemand zum bösen
+Jacob 5. sondern zum guten / dz vnser glaube bewehret / vnd rechtschaffen vnd viel
+köstlicher erfunden werde / denn das vergengliche Gold / das durchs Fewer bewehret wird /
+1. Pet. 1. Nach diesen Geschichten versuchte GOTT Abraham Gen 22. Deut. 13. wenn ein
+Prophet oder träwmer vnter euch wird auffstehen / etc. so soltu nicht gehorchen den worten
+solches. Propheten oder Träwmers / denn der HErr ewer GOtt versucht euch / daß er erfahre
+/ ob jhr jhn von gantzem Hertzen / vnnd von gantzer Seelen lieb habt. Weil demnach GOttes
+versuchungen vns zum besten gereichen / so sollen sie vns lieb vnd angenehm seyn. Wir
+wollen für dißmahl im namen GOttes vom Cananeischen Weiblein lernen / wie man sich in die
+anfechtungen vnd versuchungen GOttes schicken sol: Sie stehet vier schwere versuchungen
+aus / vnd vberwindet sie. 1. Schlecht GOtt auff sie zu als ein Feindt / vnnd schickt jhr
+ein schwer Hauß Creutz zu. Das ist jhr keine geringe versuchung gewesen. 2. Betet sie /
+vnnd Christus schweigt still: Das ist abermahl eine schwere versuchung gewesen. 3. Die
+Apostel thun eine fürbitte für sie / aber Christus gibt jhnen eine harte antwort / er sey
+nicht gesand den nur zu den verlornen Schaffen vom Hause Israel. Die versuchung ist die
+allerschwerste gewesen. 4. Helt sie an mit dem Gebet / vnnd wird von Christo für einen
+Hund gescholten. Das ist jhr auch eine hohe anfechtung gewesen. 5. Vberwindet vnd Sieget
+sie nach den anfechtungen / vnd langt was sie begehret. Davon kürtzlich. GOtt verleihe vns
+darzu die gnad seines heiligen Geistes vmb JEsu Christi willen / Amen.</p>
+<pb facs="#f0008"/>
+</div>
+<div>
+<head>Vom Ersten:<lb/>
+</head>
+<p>BEtreffend das erste / so fengt sich diß Evangelium also an. JEsus sey außgangen von
+dannen / vnd entwichen in die gegend Tyro vnd Sydon. Tyrus vnd Sydon sind heidnische vnd
+gewaltige Kauff vnd Handelßstätte gewesen in Phaenicia. Christus gedencket derselben /
+Matth 11. vnd sagt: Wehe dir Corazim / wehe dir Bethsaida / wehren solche thaten zu Tyro
+vnd Sydon geschehen als bey euch geschehen sind / sie hetten vorzeiten im Sacke vnd in der
+Aschen Busse gethan. Doch ich sage euch / es wird Tyro vnd Sydon treglicher ergehen am
+jüngsten Gerichte / denn euch Damit wird angedeutet / das zwar die Heydnische Sätte / die
+GOttes Wort nicht gehabt / am jüngsten Tage werden verdampt werden / aber andere Stätte /
+die es gehabt vnd sich nicht darnach gerichtet / werden schwerer verda&#x0303;nis leiden
+müssen. Derwegen weil wir GOttes Wort vnd Sacrament haben / sollen wir GOtt dafür danckbar
+sein vnd Busse thun / sonsten wird es Tyro vnd Sydon / Sodoma vn&#x0303; Gomorra / Türcken
+vnd andern Heyden am jünsten Tage treglicher ergehen als vns.</p>
+<p>Da nun Christus in die gegend Tyro vnd Sydon kom&#x0303;en / ist eben ein Cananeisch Weib
+aus derselben Gräntze gegangen. Marcus meldet am 7. cap. Es sey ein Griechisch Weib aus
+Syrophenice / das ist ein Heydin gewesen. Diese muß vorher / das kan nicht feilen / von
+Christo gehöret haben / den&#x0303; sie nennet jhn den HErrn denn Allmechtigen GOtt vnd
+Davids Sohn / erken&#x0303;et jhn also für den versprochenen Messiam / der dem David war
+zugesacht / 2. Sam. 7. Sie richtet jhr Gebet zu jhm / vnd hat einen rechtschaffenen
+starcken vnd lebendigen Glauben an jhn: Ist also der Geburt nach eine Heydin / aber dem
+Glauben / erkentnis vn&#x0303; bekentnis nach eine
+<pb facs="#f0009"/>
+rechtschaffene
+Christin gewesen / deren es nicht viel vnter den Juden geben. Diß fromme Weib hat nu ein
+schwer Hauß-Creutz an jhrer Tochter Kinder / sagt man / kom&#x0303;en von Hertzen / vnd
+Kinder gehen auch wieder zu Hertzen / wie sich dasselbe auch an den grossen Heiligen
+GOttes hat außgewiesen. Die Tochter hat nicht jrgens eine geringe Kranck heit am Halse /
+sondern ist leibhafftig vom Teuffel besessen / weicher sie vbel geplaget vn&#x0303;
+gemartert. Das hat das arme Weib täglich müssen ansehen / vnnd hat jhr nicht helffen
+können. Das ist jhr nu eine schwere anfechtung vnd versuchung gewesen / daß sie ohn allen
+zweiffel offt gedacht / siehe / weil Gott dem Teuffel so viel verhenget / daß er in dein
+Haußkomen / vnd deine Tochter besessen / so muß ja GOtt von dir gewiche&#x0303; vnd mit
+dir nicht wollen zu thun haben. Vnd ist wunder / daß das Weib nicht drüber vergangen vnd
+sich zu Todt gegremet hat.</p>
+<p>An diesem gleubigen Cananeischen Weibe wird vns ein Exempel fürgestelt / wie GOtt pflege
+Haußzuhalten mit den Frommen vnd Gleubigen: Wir bilden vns ein / weil sie GOtt lieb seyn /
+so solten sie billig GOtt jmmer im Schoß sitzen / vnd er solte jhnen eitel Rosen / wie man
+sagt / zulachen: Aber so machts GOtt nicht / sondern schlecht mangmahl als ein Leind auff
+sie zu / nimbt sie hart mit / vnd schicket jhnen schwer Creutz zu. Das hat sich nicht
+allein an diesem frommen Weiblein ereuget / sondern an andern mehr: Abraham war
+From&#x0303; vnd Gottselig / er muste viel leiden: Jacob war auch From&#x0303; vnd
+Gottselig / es begegnete jhm ein Creutz vnd Vnglück vber das ander / daß er selbst
+bekennet / Gen. 47. Wenig vnd böß sey die zeit seines Lebens. Mose war From&#x0303; vnd
+Gottselig / vnd war ein sehr gepflagter Mensch vber alle Menschen auff Erden / Num. 12.
+Hiobs gleichen war nicht an frommigkeit vnd Gottseligkeit im gantzen Lande / im gan-
+<pb facs="#f0010"/>
+tzen Lande wart auch keiner so hart mit genommen vnd angegriffen. Was sol
+ich sagen von David dem Mann nach dem Hertzen des HErrn? Er wahr zu Leiden gemacht. Summa
+es ist war worden vnd noch war / der Gerechte mus viel leiden / Psal. 34. Wir müssen durch
+viel trübsal in das Reich GOttes gehen / Act. 14. Vnd alle die Gottselig leben wollen in
+Christo JEsu müssen verfolgung leiden / 2. Tim. 3.</p>
+<p>Solch schwer Creutz / vnd daß GOtt auff die Frommen als ein Feind zuschlecht / daß ist
+jhne&#x0303; eine schwere anfechtung / daß sie sich wol einbilden / GOtt habe mit jhnen
+nichts zu thun / ja das sie wol mit Hiob sagen: 30 cap. Du bist mir verwandelt in einen
+grawsamen / vnd zeigest deinen gram an mir mit der stercke deiner Hand: Vnd das mehr ist /
+aus dem 7. cap. Meine Seele wünschet erhangen zu seyn / vnd meine Gebeine den Todt / ich
+begehre nicht mehr zu leben. Aber GOtt hat dessen seine vrsachen die vns zum besten
+gereichen / deren ich nur 2. andeuten wil: Eins thuts GOtt ohn allen zweiffel vmb der
+Gottlosen willen / daß die dadurch zur Buß sollen geleitet werden vnd gedencken / siehe /
+nimbt GOtt die Frommen so hart mit / was wird an dir dermahl eins geschehen / der du GOtt
+nicht für Augen heltst? Dahin siehet Petrus 1. cap. 4. Es ist zeit das anfahe dz Gerichte
+an dem Hause GOttes: So aber zu erst an vns / was wils für ein ende werden mit denen / die
+dem Evangelio GOttes nicht gleuben? Vnd so der Gerechte kaum erhalten wird / wo wil der
+Gottlose vnd Sünder erscheinen? Christus gehet auch dahin Luc. 13. Da hatte Pilatus
+etlicher Gallileer Blut mit dem Opffer vermischt / vnd der Thurn in Siloha war auff
+achtzehen Menschen gefallen vnd hatte sie jemmerlich zerquetschet: Da meineten etliche /
+daß diese für allen andern müsten Sünder seyn / dieweil es jhnen so vbel ergangen: Aber
+Christus antwortet: Meinet jhr / daß diese Gallileer für allen Gallileern
+<pb facs="#f0011"/>
+Sünder gewesen sind / dieweil sie das erlitten haben? Ich sage / nein /
+sondern so jhr euch nicht bessert / werdet jhr alle auch also vmbkommen. Oder meinet jhr /
+daß die achtzehen auff welche der Thurn in Silohafiel / vnd erschlüg sie / sein schuldig
+gewesen für allen Menschen die zu Jerusalem wonen? Ich sagen nein / sondern so jhr euch
+nicht bessert / werdet jhr alle auch also vmbkommen.</p>
+<p>Derwegen wenn wir sehen vnd vernemen / das es denen die frömmer sein als wir / vbel gehet
+vnnd sie schwer Hauß-Creutz vnd groß Vnglüch haben / so sollen wir in vns schlage&#x0303;
+vnd sagen: Geschicht das am grünen Holtz / an den From&#x0303;en / was wil am dürren / an
+der Gottlosen werden / Luc. 23. vnd derwegen vns dadurch von der Gottseligkeit zur Buß
+lassen auffmuntern vnd bewegen.</p>
+<p>Darnach thuts GOtt auch / daß er die Frommen so hart mit nimbt / jhnen selbst zum besten
+/ denn wenns jhnen jm&#x0303;er wolginge / würden sie sich einbilden / sie wehren heilige
+Engel / vnd muste es jhnen jhrer fröm&#x0303;igkeit halben also gehe&#x0303;: aber wenn
+jhnen das Creutz zugeschickt wird / daraus können sie abnemen / daß sie noch Sünden vnd
+Gebrechen an sich haben / vmb welcher willen jhnen solchs wieder fahre / vn&#x0303;
+kom&#x0303;en also zum erkentnis jhrer Sünden: Wie GOtt Jerem: 30. sagt: Züchtigen wil ich
+dich mit masse / daß du dich nicht vnschüldig haltest. So ists zugangen mit Jacobs Söhnen
+/ so lang es jhnen wolginge / gedachten sie nicht an die Sünde / die sie an jhrem Brüder
+Joseph begangen: Aber hernach da sie in Egypten in Vnglück gerahten / kom&#x0303;en sie
+zum erkentnis vnd sprechen: Gen. 42. Das haben wir an vnserm Bruder verschuldet / daß wir
+sahen die angst seiner Seelen / da er vns flehet / vnd wir wolten jhn nicht erhören /
+darvmb köm&#x0303;et nu diese Trübsal aber vns. Wenns den From&#x0303;en jm&#x0303;er
+wolginge / so würden sie auch auff GOTTes Wort so fleissige
+<pb facs="#f0012"/>
+achtung
+nicht geben / noch so instendig mit dem Gebet anhalten / wie sichs gebüret / aber wenn
+GOtt mit dem Creutz zu jhnen kompt / da schickt sichs wol / da lehret die not beten /
+anfechtung lehret auffs Wortmercken / Esai: 28. HErr wenn trübsal da ist / so sucht man
+dich / wenn du sie züchtigest / so ruffen sie engstiglich Esa: 26. Ja wenns den
+From&#x0303;en jm&#x0303;er gleich wolginge / würde&#x0303; sie drüber in sicherheit vnd
+allerhand Sünden gerahten / vnnd in den Sünden mit der Welt verdampt werden: Da wieder ist
+nu das liebe Creutz nützlich vnd gut / denn wer am Fleisch leidet / der höret auff von
+Sünden / daß er hinfort / was noch hinderstelliger zeit im Fleisch ist / nicht der
+Menschen lüsten / sondern dem wille&#x0303; GOttes lebe: 1. Pet. 4. Wen&#x0303; wir
+Gerichtet werden / so werden wir vom HErrn Gezüchtiget / daß wir nicht sampt der Gottlosen
+Welt verdampt werden / 1. Cor. 11. Wenn es ging nach des Fleisches mut / in gunst vnnd
+gesundheit mit grossem Gut / würdet jhr gar bald erkalten / darvmb schickt GOtt die
+Trübsal her / daß ewer Fleisch gezüchtigt werd / zur ewigen Frewd erhalten. Dz verstund
+David wol / darvmb sagt er Psal. 119. ehe ich gedemütiget ward / jrret ich / nu aber halte
+ich dein Wort: Es ist mir lieb / daß du mich gedemütiget hast / daß ich deine Rechte
+lerne. Derwegen sollen wir die erste anfechtung vnd versuchung vom Creutz darzu gebrauchen
+/ daß wir dasselbe nicht für ein Zorn / sondern Lieb vnd Gnadenzeichen der Kinder GOttes
+halten / Heb. 12. Mein Sohn / achte nicht geringe die züchtigung des HErrn / vnd verzage
+nicht / wenn du von jhm gestrafft wirst / den&#x0303; welchen der HErr lieb hat / den
+züchtiget er / er steupt aber eine&#x0303; jeglichen Sohn / den er auffnimbt. Seid jhr ohn
+züchtigung / welcher sie alle sind theilhafftig worden / so seid jhr Bastarte vnd nicht
+Kinder. Tobiae 12. Sagt der Engel Raphael zum Tobia / weil du GOTT lieb wahrest / so musts
+so seyn / ohne anfechtung mustestu nicht
+<pb facs="#f0013"/>
+bleiben / auff daß du bewert
+würdest. Vnd sollen wir so wenig vberm Creutz trawrig vnd betrübt werden / daß wir vns
+desselbe&#x0303; mehr erfrewen / wie Paulus 2. Cor. 7. ich bin vberschwe&#x0303;glich in
+Frewden in alle vnserm Trübsal: Vnd Rom. 5. wir rühmen vns auch der Trübsal / dieweil wir
+wissen / das Trübsal gedult bringet / gedult aber bringet erfahrung / erfahrung aber
+bringet hoffnung / hoffnung aber lest nicht zu schanden werden. So viel vom Ersten.</p>
+</div>
+<div>
+<head>Vom Andern.<lb/>
+</head>
+<p>ZVm Andern folget / wie sich das Cananeische Weiblein in jhrem schwerem Creutz / da GOtt
+als ein Feind auff sie zugeschlagen / verhalten habe. Im verlesenen Evangelio stehet: Sie
+schrey JEsu nach vnd sprach: Ach HErr du Sohn David / erbarm dich mein / meine Tochter
+wird vo&#x0303; Teuffel vbel gepflaget. Mit dem nachschreyen / daß sie getha&#x0303; /
+wird angedeutet / das es jhr mit dem Gebet ein ernst sey gewesen / vnd habe es von hertzen
+gemeinet. In dem sie aber Christum einen HErren nennet / gibt sie damit zuverstehen / daß
+sie jhn halte für den Jehovah den HErrn den Allmechtigen GOtt / der leicht helffen könne:
+In dem sie jhn aber heist Davids Sohn / erkennet sie jhn für den Messiam vnd Heyland / der
+dem David von GOtt verheissen wahr / 2. Samuel 7. Das sie aber anhelt vmb seine
+Barmhertzigkeit / damit bekennet sie / sie habe es vmb jhn nicht verdienet / kön&#x0303;e
+es auch nicht verdienen / daß er jhr helffe / sondern sie begehre nur Gnad: In dem sie
+aber jhrer Tochter gedenckt / klagt sie Christo jhre noth / vnd ist jhre bitte / daß jhre
+besessene Tochter vom Teuffel möge erlöset vnd erfreiet werden. Also ist dieses
+hochbedrengten Weibes Gebet zwar kurtz / aber sehr herrlich vn&#x0303; viel drinnen
+begriffen / daß man sich drüber zuverwundern hat.</p>
+<p>Bey diesem Gebet hat sie die hoffnung / Christus werde
+<pb facs="#f0014"/>
+jhr guten
+bescheid geben / vnd wie er sich anderer angenom&#x0303;en / so werde er sich jhrer auch
+annemen: Aber im Evangelio stehet: Vnd er antwortet jhr kein Wort. Christus gehet für jhr
+für vber / vnd thut als wenn er sie weder sähe noch hörete / vnd schweiget stockstille.
+Das ist jhr abermahl eine schwere Anfechtung vnd Versuchung gewesen / denn sie jhr die
+gedancke&#x0303; hat können machen / er wölle gantz jhrer Gnade nicht / vnd ist groß
+wunder / daß sie nicht alßbald abgelassen / den zeterpfenning gegeben vnd davon
+gangen.</p>
+<p>Bey diesem Gebet des Cananeischen Weibleins lernen wir / wie wir vns in Nöten vnd Creutz
+/ wenn GOtt als ein Feind auff vns zuschlecht / verhalten sollen. Wir sollen vns zu dem
+kehren vnd wenden / der vns schlecht / Es. 9. Vnd sollen beten / das erfoddert das ander
+Gebot / wir sollen Gott in allen Nöten anruffen vnd Beten. Im 50. Ps. sagt GOtt: Ruff mich
+an in der Noth: Im 91. er rucht mich an: Matt 7. bittet / suchet / klopffet an. So habens
+die heiligen GOttes im Creutz gemacht: Jacob kam in noth / vn&#x0303; betete Gen. 32.
+Moses deßgleichen / das GOtt selber sagte / Mose / was schriestu zu mir? Exod. 14. David
+hat des Gebets auch nicht vergessen / wie aus seinen Psalmen zusehen / vnd im 18. spricht
+er: Wenn mir angst ist / so ruff ich den HErrn an: Das hat auch Josaphat gethan / 2.
+Chron. 20. Ja alle Heiligen GOttes / wie im 22. Psal. vnd Syr. 2. bekant wird. In dem
+Gebet aber sollen wir fein dem Cananeischen Weiblein folgen sie betete nicht alle in mit
+dem Munde / sondern schreiete aus hertze&#x0303; grund / das sollen wir auch thun: Hilff
+das nicht bete allein der Mund / hilff das es gehe aus hertzen grund: Sonsten sagt GOtt
+Esa. 29. darvmb daß dis Volck zu mir nahet mit sei nem Munde / vn&#x0303; mit seinen
+Lippen mich ehret / aber jhr Hertz ferne von mir ist / vnd mich fürchten nach Menschen
+Gebot / die sie lehren / so wil ich auch mit diesem Volck wunderlich
+<pb facs="#f0015"/>
+vmbgehen / etc. Sie nennet Christum Jehovah den HErrn vnd weiß / daß er Allmechtiger GOtt
+ist vnd helffen kan / daran sollen wir auch nicht zweifflen / denn er ist der HErr der
+Allmechtige GOtt dem kein ding vnmüglich ist / Luc. 1. Er kan vberschwenglich thun vber
+alles was wir bitten vnd verstehen / Eph 3. Sie rufft jhn auch an nicht allein als GOtt /
+sondern auch als Davids Sohn / daran sollen wirs auch nicht manglen lassen / jhn nicht
+allein nach seiner Göttlichen / sondern auch zu gleich nach seiner Menschlichen Natur als
+Gott vnnd Menschen in einer vnzertrenten Personen anruffen / wie auch die Weisen aus
+Morgenland daß Kindlein JEsus / wie sie es da haben gesehen ligen / an geberet haben /
+Luc. 2. sie begehret nicht das recht / sondern Gnade vnd Barmhertzigkeit / also wir auch:
+Wir ligen für dir mit vnserm Gebet / nicht auff vnser Gerechtigkeit / sondern auff deine
+grosse Barmhertzigkeit / Daniel. 9. Sie klaget Christo kurtz die Noth / wir sollen jhm
+auch fein kurtz vnsere Noth fürtragen / wie Christus selbst alle Noth Leiblich vnd
+Geistlich fein kurtz im Vater vnser zusammen gefasset hat.</p>
+<p>Vmb ein solch rechtschaffen Gebet / ists ein herrlich ding: Jacob. 5. des Gerechten Gebet
+vermag viel / wenn es ernstlith ist. Syr. 35. Das Gebet der Glenden dringet durch die
+Wolcken / vnndlesset nicht ab / biß hinzu komme / vnnd höret nicht an / ffbiß der höhest
+drein sehe: Psal: 45. Der HErr ist nahe allen / die jhn anruffen / allen die jhn mit ernst
+anruffen. Er thut was die Gottfürchtigen begehren / vnnd höret jhr schreyen / vnd hilfft
+jhnen. Augustinus schreibt: Oratio justi est clavis coeli, ascendit precatio, descendit
+Dei miseratio, das Gebet des Gerechten ist ein Schlüssel des Himmels / das Gebet steigt
+hinauff / vnd GOttes Barmhertzigkeit steigt hervnter. Das hat sich zu allen zeiten
+außgewiesen: Durchs Gebet bringt Jacob zu wege / daß seines Bruders. Hertz
+<pb facs="#f0016"/>
+geendert vn&#x0303; jhm freundlich wird. Durchs Gebet schlecht Moses die
+Amalekiter vnd Sieget / Exod: 17. Durchs Gebet helt Josua die Sonne am Himmel auff / damit
+er seinen Feinden desto best nach jagen vnd sie Dämpffen könte / Jos. 10. durchs Gebet
+erhelt Elias / das es Regnet vnd die Erde Frucht bringet / Jacob. 5. Durchs Gebet erlangt
+Hißkias seine Gesundheit / Esai. 38. vnd wer kan alle Exempel der Heilgen erzehlen / vnd
+gnugsamb besehrieben / was sie mit einem rechtschaffenen Gebet haben außgerichtet?
+Deßwegen sollen wir vns auch fleissig in allen nöhten ans Gebet halten / vnd sonderlich
+jetzo / da es wunderlich im Röm: Reich stehet / das Gebet muß das beste thun: Preces &amp;
+lacrymae sunt arma Ecclesiae, haben die Alten gesagt / die Wehr vn&#x0303; Waffen der
+Kirchen sein Gebet vnnd Threnen oder Buß / so mit Threnen oder Weinen geschicht. Darvmb
+ein jeder darzu sol hiermit vermanet seyn.</p>
+<p>Bey dem stillschweigen Christi aber sollen wir vns in GOttes Art vnd Weise recht lernen
+schicken. GOtt hat die Art an sich / daß er offt ein zeitlang still schweiget / das
+Geschicht / wenn er vns nicht fluchs auff vnser Gebet aus Nöten hilfft / sondern vns ein
+zeitlang in Nöten stecken lest. So hat Joseph in Egypten in der Dienstbarkeit vnd
+Gefängnis ohn zweiffel offt vnd viel gebetet / Aber Gott hat in die dreyzehen Jahr still
+geschwiegen. David hat auch viel ruffens vnd betens getrieben in seinem Elend vnd
+verfolgung / aber GOtt hat etliche Jahr still geschwiegen / wie er in seinen Psalmen /
+sonderlich aber im 13. klaget: HErr wie lang wiltu mein so gar vergessen? Wie lang
+verbirgestu dem Anlitz für mir? Wie lang sol ich sorgen in meiner Seele / etc. Also gehets
+noch vielen heutiges Tages: Manger ist ein Jahr zwey oder drey Kranck / oder wird
+verfolget / oder leidet Armut / oder ander Vnglück / vnd betet viel vnd offt / aber GOtt
+schweiget still /
+<pb facs="#f0017"/>
+vnd wird jhm mit der hülff nicht geantwortet. Das
+ist nu auch eine schwere anfechtu&#x0303;g vn&#x0303; versuchung / da bilden wir vns
+gemeinlich ein / GOtt wisse vnd sehe vnser Noth nicht / oder höre vnser Gebet nicht / oder
+könne oder wolle vns nicht helffen. Aber solchs ist Falsch vnd Vnrecht / den&#x0303; seine
+Ohren sind nicht dicke / daß er nicht solte hören können / so ist seine Hand auch nicht zu
+kurtz / daß er nicht solte helffen können / Esai: 59. Sondern GOtt hat seine vrsachen /
+warvmb er kein Wort antwortet / still schweiget vnd mit der hülff vns nicht alßbald
+auffwischet / als erstlich schweigt er offt darvmb still / denn die Leute die da beten /
+beten nicht in wahrer Bußfertigkeit / sondern leben in Sünden wieder jhr Gewissen / da
+macht mans mit der Vnbußfertigkeit selbst / daß GOtt schweigen muß vnd nicht hilfft: Wie
+Esai: 1. stehet: Wenn jhr schon ewer Hände außbreitet / verberge ich doch meine Augen vor
+euch / vnd ob jhr schon viel betet / höre ich euch doch nicht / denn ewre Hände sind vol
+Bluts: Vnd 59. cap. ewre Vntugent / scheiden euch vnd ewren GOtt von einander / vnd ewer
+Sünde verbergen dz angesicht von euch / daß jhr nicht gehöret werdet. Fürs ander /
+schweigt auch GOtt offt still / denn wir beten mang mahl wieder vns selbst: Manger bittet
+vmb Gesundheit / Gelt vnnd Gut / Herrligkeit vnd dergleichen / vnd wen&#x0303; ers bekehme
+/ so würde es jhm schetlich seyn / er würde dadurch fallen in Versuchung vnd Stricke / vnd
+viel thöriger vnd schädlicher Lüste / welche versencken die Menschen ins verderben vnd
+verdamnis / 1. Tim. 6. So haben die Söhne Zebedei vnrecht gebeten / Matth: 20. Daß einer
+zu Christi Rechten / der ander zu seiner Lincken möchte sitzen / vnd haben sich ein
+Weltlich Königreich eingebildet: Darvmb schweiget Christus / das ist / er gibts jhnen
+nicht / weiset sie ab / vnd sagt / jhr wisset nicht was jhr bittet: So wissen wirs auch im
+Leiblichen nicht / Rom: 8 Mir wissen nicht / was wir beten solle&#x0303; / wie sichs
+gebürt. Zu letzt schweiget auch Gott offt still / daß er vns auff die Prob setze, vnd
+auffmundere mit dem Gebet anzuhalte&#x0303; /
+<pb facs="#f0018"/>
+vnd spielet mit den
+seinen gleich wie Eltern mit jhren Kindern: Die verstecken sich bißweilen vnd lassen die
+Kinder suchen / oder stellen sich als wenn sie schlieffen oder Todt wehren / vnnd lassen
+die Kinder ein wenig ruffen / schreyen / vnd sich von jhnen rütteln vnd schütteln / vnd
+wenn sie den sehen / daß die Kinder fortfahren vnd nicht ablassen wollen / so wischen sie
+mit Frewden herfür / vnd thun was sie begehren. So machts GOtt auch.</p>
+<p>Derwegen sollen wir diese andere Anfechtung vnd Versuchung vom stillschweigen GOTtes
+darzu gebrauchen / daß wen&#x0303; GOtt zu vnserm Gebet lang stillschweiget vnd vns nicht
+fluchs aus den Nöthen hilfft / wir vns alßdann prüffen / ob wir auch in Vnbußfertigkeit
+beten / vn&#x0303; da wir das befinden vnd von vnserm Hertzen vnd Gewissen vber zeuget
+werde&#x0303; / solle&#x0303; wir Buß thun / wie wir Es: 1. vermahnet werde&#x0303;:
+Waschet euch / reiniget euch / etc. Vnd kom&#x0303;et den&#x0303; / etc. Oder sein wir
+nicht Vnbußfertig / so solle&#x0303; wir gede&#x0303;cken / ob wir auch im Zeitlichen
+etwas wieder vns selbst möchten beten vnd begehren / vnd es derwegen GOttes gnedigem
+Willen heimstellen vnd sagen / so du wilt / etc. Oder ist der beyden keins / so sollen wir
+wissen / GOtt setze vns mit seinem stillschweigen nur wie ein Vater sein Kind auff der
+Probe / vnd sollen derwegen mit gedult seiner gnedigen erhörung vnd hülff erwarten / wie
+im 27. Psalm stehet: Harre des HErrn / sey getrost vnd vnverzagt / vn&#x0303; harre der
+HErrn. Vnd wil vnsere Seele vngedüldig werden / so sollen wir sie mit David aus dem 42.
+Psalm ansprechen: Was betrübstu dich meine Seele / vnd bist so vnruhig in mir? Harre auff
+Gott / denn ich werde jhm noch dancken / daß er meines Angesichs hülffe vnd mein GOtt ist.
+Auch gnug vom Andern.</p>
+</div>
+<div>
+<head>Vom Dritten.<lb/>
+</head>
+<p>FVrs Dritte / da Christus so stillschweiget vnd fortangehet / treten die Jünger zu jhm /
+vnd thun für das Weib eine fürbitte vnd sagen: Laß sie doch von dir / denn sie
+<pb facs="#f0019"/>
+schreyet vns nach Hirauß wolle&#x0303; etliche von den Papisten
+schliesse / die verstorbene Heilgen bitten für vns im Himmel / darvmb sollen wir sie vmb
+hülff vnd fürbitte anruffen vnd ersuchen. Aber das folget gar nicht / denn es bitten hie
+nicht die verstorbene / sondern die lebendige Apostel für das Weib / vnd gesetzt / daß die
+verstorbenen für vns im Him&#x0303;el beten / davon wir aber in GOttes Wort nichts finden
+/ sondern Esai: 64. stehet viel mehr: Abraha&#x0303; weis von vns nicht / vnd Israel
+kennet vns nicht: Wenn sie nu schon für vns beten / sag ich / so folget doch nicht / daß
+wir sie anruffen vnd vmb hülff vnd fürbitte ersuchen sollen / denn so wenig das
+Cananeische Weiblein / die Apostel von wegen jhrer fürbitte angebetet / da sie gelebt / so
+wenig sollen wirs thun / da sie gestorben seyn / sonderlich weil wir den ernsten Befehl
+haben / du solt GOtt deinen HErrn anbeten vnd jhm allein dienen. Auff diese fürbitte gibt
+Christus den Jüngern eine sehr harte Antwort vn&#x0303; spricht: Ich bin nicht gesand /
+denn nur zu den verlornen Schaffen vom Hause Israel / alß wolte er sagen: Sie ist eine
+Heydin / ich aber bin vmb der Jüden willen gesand vnd kom&#x0303;en. Das ist nu abermahl
+eine sehr schreckliche ja die allerschrecklichste Anfechtung diesem Weibe gewesen / alß
+wenn sie nicht in die zahl der außerwehleten Kinder GOttes gehörete / vn&#x0303; Christus
+jhr weder Geistlich noch Leiblich helffen vnd sie Selig machen / ja gantz mit jhr nicht
+zuschaffen noch zu thun wolle haben. Zu dieser schweren anfechtung schweigt das arme
+Weiblein stock stille / weil sie jhr zu hoch / so lest sie dieselbe für vber rauschen /
+vnd erinnert sich ohn allen zweiffel / daß er ja andern Heyden wol ehe geholffen /
+derwegen werde diß also nicht zuverstehen seyn / wie es in jhren Ohren klinge / wie es
+auch nicht war / denn Christus war eben so wol die Heyden alß die Juden Selig zu machen
+gesand / aber seine Wunderwerck betreffent / so war er eigentlich gesand dieselbe in
+eigener Person bey den Juden / vnd nicht fürnemlich bey den Heyden zuverrichten / wie wol
+viele Heyden derselben gleichwol aus gnaden sein theilhafftig worden.</p>
+<pb facs="#f0020"/>
+<p>Bey der Jünger Fürbitte lernen wir / daß wir auch einer für den andern bitten oder
+Fürbitte thun sollen / denn das befichlt Paulus 1. Tim. 2. So ermane ich nu / daß man für
+allen dingen zu erst thut / bitte / gebet / Fürbitte vnd Dancksagung für alle Menschen /
+für die Könige vnd für alle Oberkeit / etc. Es ist auch das Vater vnser dahin gerichtet /
+gib vns vnser täglich Brot / vergib vns vnser Schult / führe vns nicht in Versuchung /
+erlöse vns vo&#x0303; Vbel / da wird jm&#x0303;er der neheste mit eingeschlossen / dessen
+wir mit gedencken sollen / so offt wir ein Vater vnser beten. So sollen wir auch vnsern
+Nehesten lieben als vns selber / wie wir na für vns selber beten / so ists auch billig daß
+wir für den Nehesten beten. Dz hat Abraham in acht genom&#x0303;en / Mose / Samuel /
+Stephanus / Act: 7. Ja vnser HErt vnd Heyland JEsus Christus selbst / Johan: 17. cap. vnd
+am Stam&#x0303; des heiliges Christus / vnnd sitzt nach zur rechten GOttes vnd vertrit vns
+/ Rom: 8. Solche fürbitten from&#x0303;er Leute vermögen viel / Abraham hat mit seiner
+Fürbitte erhalten / wenn nur zehen Gerechten zu Sodoma vnd Gomorra gewesen / GOtt würde
+der Sädte verschonet haben Gen: 18. Mose ist mit seiner Fürbitte eine Mawr wieder den Riß
+gewesen / vnd hat abgewendet den grim&#x0303;igen Zorn GOttes / daß die Kinder Israel
+nicht sind vertilget worden / Exod. 32. Samuel machte mit seiner Fürbitte / daß GOtt auff
+die Feinde einen grossen Donner ließ Donnern vnd sie verderbte / 1. Sam. 7. Durch der
+gemeine Fürbitte wird Petrus aus dem Gefengniß errettet / Act: 12. Derwegen sollen wir
+anderer Leute Fürbitte begehren / auch für sie wiedervmb fleissig bitten / vnnd es für
+eine schwere Sünde wieder Gott halten / wenn wirs nicht thun / wie Samuel zu verstehen
+gibt / 1. Sam 12. Es sey ferne von mir / sagt er / mich also an dem HErrn zu versündigen /
+daß ich solte ablassen für euch zu beten.</p>
+<p>Zum Andern / lernen wir hie abermahl einer schrecklichen Anfechtung von der ewigen
+Gnadenwahl vnd Seligkeit begeg-
+<pb facs="#f0021"/>
+nen / denn wie es nach der Vernunfft in
+vnsern Ohren klingt / da Christus sagt / ich bin nicht gesand denn nur zu den verlornen
+Schaffen vom Hause Israel / alß wenn diß Cananeische Weib / noch keiner von den Heyden zu
+den außerwehlete&#x0303; Kindern Gottes gehöre / also haben wir auch viele andere harte
+Sprüche in GOttes Wort / die mangen für den Kopff stossen / vnd schwere gedancken machen /
+alß Matth. 22. viel sind beruffen aber wenig sind außerwehlet: GOtt erbarme sich wes er
+wölle / Rom: 9. vnd dergleichen. Wen&#x0303; man nu die Vernunfft hiervber zu rath zeucht
+/ so kan sie nicht anders draus schliessen / alß GOtt wolle nur die wenigsten Selig vnd
+die meisten verdampt vnd verstossen haben vnd wolle sich jhrer gantz vnd gar nicht
+annemen. Das ist eine solche Anfeshtung darvber viele drauff gehen / Kleinmütig werden /
+verzweifflen vnd jhnen wol selbst das Leben nemen. Dieser Anfechtung zubegegnen / so
+sollen wir vns nicht mit Fleisch vnnd Blut besprechen / sondern vnsere Vernu&#x0303;fft
+gefangen nemen vnter den gehorsam Christi / 2. Cor. 10. Nicht viel Disputirens
+davo&#x0303; machen / sondern zu dem was vns zu hoch ist / mit dem Cananeischen Weiblein
+schweigen / vnd vns vnter des halten / erstlich an das allgemeine Verdienst vnsers HErrn
+vnd Heylands JEsu Christi / die Jude&#x0303; sein nicht allein verlorne Schaffe / sondern
+auch die Heyden vnd so alle Menschen / so ist auch Christus nicht allein vmb der Juden
+willen gesand / sondern auch vmb der Heyden willen / vnd hat für alle Menschen gnug
+gethan: Esai: 53 cap. Wir gingen alle in der jrre wie Schaffe / ein jeglicher sahe auff
+seinen weg / aber der Herr warff aller vnser Sünde auff jhn Es: 49. cap. Es ist ein
+geringes / daß du mein Knecht bist / die Stämme Jacob auff zurichten / vnd das
+verwarlosete in Israel wieder zubringen: Sondern ich habe dich auch zum Liecht der Heyden
+gemacht / dz du seyest mein Heil biß an der Welt ende: Luc: 2. Welchen du bereitet hast
+für allen Völckern / etc. Gal: 3. Hie ist kein Jude noch Grieche / hie ist kein Knecht
+noch Freyer / hie ist kein Mann noch
+<pb facs="#f0022"/>
+Weib / denn jhr seid alzumahl
+einer in Christo JEsu. 1. Tim. 2 Christus hat sich selbst gegeben für alle zur Erlösung.
+1. Johan. 2. Er ist die versünung für vnser Sände / nicht allein aber für die Vnsere /
+sondern auch für der gantzen Welt.</p>
+<p>Zum Andern / soll man sich halten an das allgemeine Wort / verheissungen / beruff vnd
+willen GOttes: Es: 55. Wolan / alle die jhr dürstig seid / kom&#x0303;et her / etc. Matth:
+11. Kom&#x0303;et her zu mir alle die jhr Mühselig vnnd Beladen seyd / ich wil euch
+erquicken. Matth. 28. vnd Marc. 16. Gehet hin in alle Welt / vnd Prediget das
+Evangeliu&#x0303; aller Creatur: Lehret alle Heyden vnd Teuffet sie / etc. Ezech: 33. So
+war als ich lebe / spricht der HErr HErr / ich habe keinen gefallen am Tode des Gottlosen
+/ sondern das sich der Gottlose bekehre von seinem Wesen vnnd Lebe. 1. Tim. 2. GOtt vnser
+Heyland wil / daß allen Menschen geholffen / oder wie in seiner Sprach stehet / daß alle
+Menschen Selig werden. 2. Pet. 3. GOtt hat gedult mit vns / vn&#x0303; wil nicht daß
+jemand verlohren werde / sondern das sich jederman zur Bussekehre.</p>
+<p>Zum Dritten / sol man sich halten an die Tauff / fröliche Absolution vnnd Abendmahl: Ein
+jeglicher ist auff den Namen JEsu Christi zur vergebung der Sünden Getaufft / Act: 2. ein
+jeglicher hat Christum in der Tauffe angezogen / wie viel ewer Getaufft sind / die haben
+Christum angezogen: Gal: 3. Ein jeglicher der von hertze&#x0303; Busse thut / höret in der
+Absolution die tröstliche Stim&#x0303;e / dir sind deine Sünde vergeben / welches
+warharfftig GOttes vergebung ist / denn was jhr auff Erden lösen werdet / das solim Himmel
+loß seyn / vnd welchen jhr die Sünde erlasset / denen sind sie erlassen / Matth. 16. vnd
+Johan. 20. Ein jeglicher empfengt im Abendmahl denn Leib Christi / denn er für vns aus
+Liebe in den Todt gegeben / vnd das Blut / daß er hat vergossen zur vergebung vnser
+Sünden. Wen&#x0303; man sich also hiran helt / so kan man die schwere anfechtungen von der
+ewigen Gnadenwahl vnd Seligkeit desto beß vberwinden / vnd wen&#x0303; da schon
+<pb facs="#f0023"/>
+vnser Hertz oder Vernunfft ein anders sagt / so sollen wir in achet
+nemen / was die Kirche singt: Sein Wort laß dir gewisser sein / vnd ob dein Hertz sprech
+lauter nein / so laß doch dir nicht grawen Ja sagt man / es stehe&#x0303; gleichwol da die
+harte Sprüche / wie macht mans dann damit? Geliebte im Herrn / denn Spruch Matth: 22.
+betreffent / viel sind beruffen / aber wenig sind außerwehlet / da sol man sehen auff das
+was fürher gehet. Da stehet / daß GOtt der Himmelß König eine Hochzeit gemachet vnd alles
+bereitet / vnd habe seine Knechte außgesand einzuladen wehn sie finden / dz ist alle
+Menschen / da wollen nu etzliche nicht kommen / sondern verachten die Hochzeit / Wort /
+Sacrament vnd Christum / vnd gehen hin einer auff seinen Acker / der ander zu
+sein&#x0303;er Hantieru&#x0303;g: Etliche aber machens nach gröber / greiffen die Knechte
+/ Hönen vnd Tödten sie: Einer aber vnter denen die sich eingestellet / hat kein
+Hochzeitlich Kleid an / vnd ist ein Heuchler vnd meinet Gott zubetriege&#x0303; / also
+hats Gott an sich nicht ma&#x0303;glen lassen / er hat alles bereitet / er hat alle
+beruffen lassen / sondern es hat an de&#x0303; Mensche&#x0303; gemangelt vn&#x0303;
+mangelt noch dran / vnd machens dieselben / das ob zwar viel beruffen / gleichwol wenig in
+den Himmel kommen vnd Selig werden. Wie auch Os: am 13. Gott sagt: Israel du bringst dich
+in Vnglück / denn dein Heil stehet allein bey mir: Vnd Christus Matth: 23. Wie offt hab
+ich deine Kinder versamlen wollen / wie eine Hänne versamlet jhre Küchlein vnter jhre
+Flügel / vnd jhr habt nicht gewolt.</p>
+<p>Denn Spruch aber Rom: 9. anlanget / GOtt erbarme sich wes er wölle / so stehet zun Röm:
+am 11. ferner die Erklerung: GOtt hat es alles beschlossen vnter den Vnglauben / auff daß
+er sich Aller erbarme. So soll mans mit andern dergleichen Sprüchen mehr machen / daß man
+jmmer einen neben den andern halte / vnd einen durch den andern erklere / vnd analogiam
+fidei in acht neme / hat jemand Weissagung oder Erklerung / so sey sie de&#x0303; Glauben
+ehnlich / Rom: 12. So hats kein noth. Felt dann aber
+<pb facs="#f0024"/>
+etwas weiter für
+/ wie dan&#x0303; in diesem hohen Artikel geschicht / darein man sich nicht schicken kan /
+darzu schweige man mit dem Cananeischen Weiblein stille / wie auch Paulus thut / Rom: 11.
+vnnd spare es biß in die himlische Schule / da es nicht mehr Stückwerck / wie hie wird
+seyn / sondern alles vollkommen: Vnd fang man diese Lehr nicht an à priori von
+forne&#x0303; / sondern à pasteriori von hinden von dem geoffenbareten willen vnd Wort
+GOttes / vnd sehe ein jeder für seine Person zu / daß er Buß thue vnd jhm seine Sünde
+lasse von hertzen Leid seyn / an JEsum Christum glaube / vnnd sich seines Verdienstes in
+warem Glauben tröste / vnd früchte der Busse thu vnd denn Glauben mit einem Gottseligen
+Leben vnd Wandel beweise: So hat er / so war als GOtt lebt / wie GOtt bey sich also selbst
+schwiret / Ezech: 33 an der ewigen Gnadenwahl vnd Seligkeit nicht zu zweifflen. Vnnd das
+gantze Wort GOttes vnd was jhm von demselben vorkömpt / mißbrauche er nicht zur sicherheit
+/ auch nicht zur Kleinmütigkeit vnd Verzweifflung / daß er wolte sagen oder vnd gedencken
+/ bin ich erwehlet / so schadet mir nichts / wie die Vernunfft vrteilet / bin ich nicht
+erwehlet / so hilfft mich alles nichts / denn darzu ist Gottes Wort nicht gegeben /
+sondern was zuvor geschrieben ist / daß ist vns zur Lehre geschrieben / auff daß wir durch
+gedult vnd trost der Schrifft hoffnung haben. Rom: 15. So viel auch vom
+dritte&#x0303;.</p>
+</div>
+<div>
+<head>Vom Vierden.<lb/>
+</head>
+<p>ZVm Vierden / so hette diß arme Weib vrsach gnug gehabt hinweg zugehen / vnd jhr bitten
+bleiben zulassen / denn Christus schweig nicht allein anfenglich stille / sondern gab noch
+darzu einen harten Bescheid von sich / er wehre jhrenthalben nicht kommen / aber sie lest
+sich solches alles nicht abschrecken / sondern helt an mit dem Gebet / vnd kömpt jhm neher
+/ vnd felt für Christi Füsse nieder vnd spricht: HErr hilff mir. Das Hertz / wie wir reden
+/ ist jhr so beklummen / daß sie nicht viel Wort kan
+<pb facs="#f0025"/>
+machen / ist auch
+im Gebet eben vmb viel Wort nicht zu thun / doch zeiget sie gleichwol jhres Hertzen
+meinung an / jhr begehr sey / daß jhr Christus helffe / vnd aus der grossen Angst vnd Not
+/ darinnen sie stecke / errette. Also wenn GOtt schon zu vns vom Himmel hervnter rieffe /
+ich bin deinenthalben nicht kommen / wie Christus hie sagt / er sey des Weibs halben nicht
+kommen / so sollen wir gleichwol nicht ablassen / sondern für GOtt niederfallen / vns für
+jhm demütigen / vnd nicht von jhm ablassen / biß vns geholffen vnd wir Selig werden.
+Darauff schilt sie nu Christus für ein Hund vnd spricht: Es ist nicht fein / daß man den
+Kindern das Brot neme vnd werffe es für die Hunde. Christus wil so viel sagen / die Juden
+sein GOttes Kinder / die Heyden aber Hunde / wie sich nu nicht geziemet / daß man das Brot
+/ daß den Kindern gehöret / den Hunden gebe / vn&#x0303; die Kinder lasse hungern vnd
+darben / so gebürt sichs auch nicht / daß ich den Juden denn Kindern GOttes meine
+Wunderwerck vnd Hülffe / jhr Brot neme / vnd sie euch Heyden vnd Hunden wiederfahren
+lasse. Das ist nu abermahl eine vber die masse schwere Anfechtung / daß das arme Weib
+hette mögen gedencken / wenn man mich wie einen Hund mit Peitzschen wil abspeisen / so
+ists zeit / daß ich mich packe vnd aus dem Staube mache. Aber solche gedancken hat sie
+nicht / sondern sie antwortet Christo / ja HErr / ich bekenne daß ich ein Hund bin / vnd
+nicht werth / daß du mich mit den Kindern Israel an denn Tisch setzest vnd michspeisest:
+Es essen aber die Hündlein von den Brosamen / die von jhrer Herren Tische fallen: Bin ich
+ein Hund / lieber HErr JEsu Christe / ist jhre meinung / so laß mir doch Hundgnade wieder
+fahren / mehr bitte vnd begehre ich nicht: Man gönnet ja den Hunden / daß sie vnterm Tisch
+stehen vnd auffwarten / vnd wenn ein Brosamlein oder Bröcklein hinvnterfelt / daß sie das
+auffsamlen / vnd es jhnen zum beste&#x0303; komme / also lieber HErr Christe gönne mir
+doch nur ein Brottsamlein / ein Krümlein deiner Gnade vnd Hülffe / so wil ich gern
+<pb facs="#f0026"/>
+zu frieden seyn / vnd dir dienen / dancken vnd auffwarten wie ein Hund
+seinem Herrn. Damit vberwindet sie Christum / vnd behelt denn Platz / wie wir im letzten
+Theil hören werden.</p>
+<p>Diß Stück sollen wir vns auch fein zu nutz machen. Erstlich / wie daß Weib mit dem Gebet
+angehalten vnd nicht auffgehöret / biß sie erhöret vnd jhr geholffen worden / so sollen
+wir auch nicht laß vnd müde im Gebet werden / sondern jmmer anhalten / desto inbrünstiger
+Beten / vnd auff GOtt desto härter dringen. Denn sin haben vnser gar wenig / wenn wir ein
+oder etliche mahl gebetet / vnd nicht erlangt haben / so lassen wir die Hände
+sinche&#x0303; / vnd das Gebet fallen vnd anstehen / es sagen auch wol etliche / was sol
+ich mehr Bete&#x0303; / hilfft doch alles nicht / einander mag mehr Beten / vnd
+dergleichen. Aber das ist vnrecht / Paulus sagt Rom: 12. Haltet an am Gebet: Vnd 1. Thes.
+5. Betet ohn vnterlaß / vnd Christus sagt Luc: 18. ein gleichniß davon / das man allezeit
+Beten vnd nicht laß werden sol / vnd sprach: Es war ein Richter in einer Stadt / der
+fürchte sich nicht für GOtt / vnd schewet sich für keinem Menschen. Es war aber eine
+Wittwe in derselben Stadt / die kam zu jhm vnd sprach: Rette mich von meinen Wiedersacher
+/ vn&#x0303; er wolte lange nicht: Darnach aber dacht er bey sich selbst / ob ich mich
+schon für GOtt nicht fürchte / nach für keinem Menschen schewe / dieweil aber diese Wittwe
+mir so viel mühe machet / wil ich sie retten / auff daß sie nicht zuletzt kom&#x0303;e /
+vnd vberteube mich. Da sprach der HErr / höret hie / was der vngerechte Richter sagt: Solt
+aber GOtt nicht auch retten seine Außerweleten / die zu jhm Tag vnd Nacht ruffen / vnd
+solte gedult darvber haben? Ich sage euch / er wird sie erretten in einer kürtz. So hat
+Abraham offt vnd viel mit dem Gebet angehalten / Gen 18. David Tag vnd Nacht viel Jahr /
+wie aus seinen Psalmen zusehen. Christus selbst Matth: 26. vnd Paulus 2. Cor. 12. Dafür
+ich dreymahl dem HErrn geflehet habe / etc. Daß wir nu so fleissig anhalten / hat GOtt
+nicht allein befohlen / sondern es gefelt jhm
+<pb facs="#f0027"/>
+auch wol / vnd kans
+leiden / er ist nicht wie wir gesinnet / wenn vns ein Betler nachleufft vnd vom Halse
+nicht wil / sondern helt instendig an so werden wir wol böß / vnd geben jhm desto weniger:
+Aber GOtt wird nicht böß drüber / sondern wir thun jhm einen angenehmen Dienst dran.
+Darvmb wir für Gottes Thür nicht auffhören / sondern mit Geilen vnd Betlen jmmer anhalten
+sollen / wie Christus andeutet / Luc. 11.</p>
+<p>Darnach lernen wir hie noch einer schweren Anfechtung von vnser Vnwirdigkeit begegnen.
+Wie hie Christus dem Cananeischen Weiblein fürwirfft / daß sie nicht GOttes Kind / sondern
+ein Hund sey / vnd nicht werth seines Tisches / Speise vnnd Hülff: Also wird manger von
+GOttes Wort in der Predigt vnd von seinem eigne&#x0303; Hertzen vberzeuget / daß er ein
+rechter Hu&#x0303;dt sey / der wiedergefressen / was er einmahl außgespeyet / 2. Pet 2. O
+GOtt wie offt werden wir zu solchen Hunden / denn wen&#x0303; wir zur Beicht / Absolution
+vnd Tisch des HErrn gehen / so sagen wir allemahl zu / wir wollen vns hinfort bessern /
+alle Sünde / Scha&#x0303;d vnd laster außpeyen / vnd vns dafür hüten / das halten jhrer
+viele so lang biß sie wieder aus der Kirchen kommen / oder jrgend etliche Tage / da gehts
+dann wieder an / seyn sie zuvor Gottloß gewesen / vnd haben in verachtung des Worts GOttes
+/ in vngehorsam / haß / fressen / sauffen / vnzucht / vngerechtigkeit / verleumdu&#x0303;g
+vnd andern Sünden gelebt / so fangen sie wieder an drinnen zuleben / daß sind die rechte
+Hunde vnd Sewe / davon an obgedachtem ort stehet: Es ist jhnen wieder fahren das ware
+Sprichwort: Der Hund frisset wieder was er gespeyet hat / vnd die Saw waltzet sich nach
+der Schwem&#x0303;e wieder im Kot. Wen&#x0303; man dann hernach wiedervmb wol solte zur
+Beicht vnd Absolution kommen / vnd zum Tisch des HErrn gehen / so wacht bey vielen das
+Gewissen auff / fallen drüber in schwere Anfechtung vnd Gedencken soltestu zur Beicht vnd
+Tisch des HErr mit den Kindern GOttes gehen / bistu doch ein Hund / vnd gehestu hinzu / so
+mustu dich be-
+<pb facs="#f0028"/>
+fahren / du werdest von GOtt wie ein Hund gehalten / vnnd
+das Abendmahl zum Gericht empfangen. Vnd da stützt dann manger / daß er wieder wie ein
+Hund zurücke leusst / vnd sich Beichtstuels vnd Tisches des Herrn enthelt / etliche fallen
+auch wol drüber in Verzweifflung / etliche aber in Sicherheit vnd werden gar zu Epicurern.
+Wie sol mans nu aber da machen / wenn man also durch GOttes Wort vnd die Predigt
+vberzeuget wird im Hertzen seiner Vnwirdigkeit halben vn&#x0303; das man ein Hund sey? Man
+sol sein diesem Cananeischen Weiblein folgen / da Christus sie für einen Hund schilt /
+verleugnet sie es nicht / sie wird auch nicht bitter vnd böß vnd flucht Christo / sondern
+sie sagt / Ja HErr / bekennet sich darzu / vnd erkennet jhre Vnwirdigkeit / vnnd bittet
+vmb ein Brotsamlein seiner Gnade: Also wenn vnser Gewissen vns vberzeuget / vnd das Hertz
+wird vns in der Predigt gerühret / wir haben vns wie Hunde bißanhero gehalten / offt
+besserung zu gesagt / aber nicht gehalten / sonder wol erger worde&#x0303; / so sollen
+wirs nicht leugnen / viel weniger Predigern fluchen vnd mit jhnen zürnen / wie viele thun
+/ denn so kan vns nicht geholffen werden / sondern wir sollen sagen ja HErr / vnsere
+Vnwirdigkeit erken&#x0303;en vnd bekennen / vnd vnsere Sünde vns von Hertzen lassen leid
+seyn / vnd vmb die Brotsamen der gnaden vnd Barmhertzigkeit Gottes anhalten / so treffen
+wirs recht / vnd wird gut mit vns: Wie 1. Johan. 1. geschrieben stehet: So wir sagen / wir
+haben keine Sünde / so verfüren wir vns selbst / vnd die Warheit ist nicht in vns: So wir
+aber vnsere Sünde bekennen / so ist er Trew vnnd Gerecht / daß er vns die Sünde vergibt
+vnd reiniget vns von aller Vntugend. David hats erfahren / vnd bezeugt es mit seinem
+Exempel im 32. Psalm. Er war zum Hunde worden / vnd hatte Ehebruch vnd Todtschlag begangen
+/ weches Nathan sein Hoffprediger ohn allen zweiffel offt gestrafft / vnd den Knüttel
+vnter die Hund geworffen / wie man sagt / aber David ist lange zeit hingangen / vn&#x0303;
+hat an das ja HErr nicht gewolt / sondern hat gemei-
+<pb facs="#f0029"/>
+net / er wolte es
+verschweigen / aber es ist jhm vbel bekom&#x0303;en / so ban er aber von Hertzen gesagt /
+ja HErr / ich habe dem HErrn gesundiget / ists besser mit jhm worden: Seine Wort in
+angezogenen Psalm lauten also: Da ichs wolt verschweigen / verschmathten meine Gebeine /
+durch mein täglich Heulen. Denn deine Hand war Tag vnd Nacht schwer auff mir / daß mein
+Schafft vertrockete / wie es im Sommer dürre wird Darvmb bekenne ich dir meine Sünde / vnd
+verhele meine Missethat nicht / ich sprach / ich wil dem HErrn meine Vbertrettung bekennen
+/ da vergabstu mir die Missethat meiner Sünde.</p>
+<p>Derwegen ist nu jemand hie in dieser Christlichen Versamlung / der zum Hund wehre worden
+/ der gehe in seinem Hertzen GOtt richtig vnter Augen / sage oder gedencke / Ja HErr / ich
+bin zum Hunde wieder worden / vnd nicht werth / daß du mich wieder zur Toffel deiner
+Gnaden lassest kommen / etc. Aber mache mich O GOtt vmb JEsus Christus willen der Brosamen
+deiner Gnad vnnd Barmhertzigkeit theilhafftig vnd vergib mir alle meine Sünde. Wer das
+thut / dem schwiret GOtt bey seinem leben / er sol vergebung der Sünden haben / Ezech: 33
+vnd sol jhm alle seine vorige Vngerechtigkeit vnd Sünd nicht schaden. Ja solche Hunde
+sollen nach der hertzlichen Buß mit den Kindern GOttes / Abraham / Isaac vnd Jacob im
+Himmelreich zu Tische sitzen / Matth 8. Das ist allen die wieder jhr Gewissen gesündiget
+vnd wieder ware Buß gethan / ein grösser Trost / dafür sie die Welt nicht nemen solten /
+man sol dan&#x0303; aber hinfort gleichwol zusehen / daß man nicht wieder zum Hund werde /
+sondern zur Danckdarkeit als ein Kind GOttes leben: Vnd die vermannung Christi / Johan: 5.
+in acht nemen: Gehe hin vnd Sündige nicht mehr / auff daß dir nicht etwas ergers
+wiederfahre. Auch so viel vom Vierden.</p>
+<pb facs="#f0030"/>
+</div>
+<div>
+<head>Vom Fünfften.<lb/>
+</head>
+<p>VOm Fünfften vnd Letzten mit wenig Worten. Lieber wie ists doch mit diesem Kampff vnd
+Streit zwischen Christo vnd dem Cananeischen Weiblein abgelauffen? Daß Weib hat Gesieget /
+welches ma&#x0303; an Christi Wort vn&#x0303; Werck oder hülff leichtlich kan abnemen. Die
+Wort Christi lauten also: O Weib dein Glaub ist groß / dir geschehe wie du wilt. Hie
+bricht Christus recht herfür / vnd kan sich nicht lenger frembd stellen gegen das arme
+Weib / vnd wil so viel zuverstehen geben / darvmb sey es jhm zuthun gewesen / daß jhr
+Glaub bewehret vnd recht an Tag sol kom&#x0303;en / vnd weil sie solchen grossen Glauben
+habe / so sol jhr gesthehen / wie sie wolle / gibt jhr damit Gewalt vber alles / wz sie
+nur begehre / daß sol jhr wiederfahren. Das Werck oder die hülff Christi stehet darinnen /
+jhre Tochter ist Gesund worden zu derselben Stunde / der Teuffel hat von jhr mässen
+weichen / vnd so hoch Mutter vnd Tochter betrübt sein gewesen / so hoch sein sie wiedervmb
+erfrewet. Hirauß sehen vnd venemen wir / was die versuchung GOttes bey den From&#x0303;en
+zuletzt für ein end gewin&#x0303;en / nemlich ein frölig gut vnd selig ende / im anfang
+zwar lesset sichs mit GOtt vbel an / alß wenn er vnser Feind wehre / vnd vnser gar kein
+Gnad wolte haben / aber er meinet es nicht von Hertzen / sondern er thuts darvmb / daß wir
+anhalten / ritterlich Kämpffen / bewehret werden / vnd biß ans ende bestendig bleiben /
+vnnd vnser Trübsal die zeitlich vnd leicht / 2 Cor: 4. eine ewige vnd vber all maß
+wichtige Herrligkeit schaffe. Jerem: 29. Ich weis wol was ich für gedancken vber euch
+habe, spricht der HErr / gedancke&#x0303; des Friedes vnd nicht des Leides / daß ich euch
+gebe das ende / daß jhr erwartet: In Klagliedern Jerem: 3. cap. GOtt plagt vnd betrübt die
+Menschen nicht von Hertzen. Derwege&#x0303; wenn sich schon GOtt nach so frembt stellet in
+vnserm Creutz vnd Vnglück / so sollen wir deßhalben nicht verzagen / sondern jm&#x0303;er
+anhalten / vnd
+<pb facs="#f0031"/>
+nicht zweifflen / er werde vns zuletzt wieder erfrewen
+/ wie Sara Tobiae 3. sagt: Das weis ich fürwar / wer GOtt dienet / der wird nach der
+Anfechtung getröstet / vnd aus der Trübsal erlöset / vnd nach der Züchtigu&#x0303;g findet
+er Gnade / den&#x0303; du hast nicht lust an vnserm verderben / den&#x0303; nach dem
+Vngewitter lessestu die Sonnen wieder scheinen / vnd nach dem Heulen vn&#x0303; Weinen
+vberschüttestu vns mit Frewden. Deinem Namen sey ewiglich ehere vnd lob / du GOtt Israel.
+So ists mit Jacob zugangen: Gen: 32. Da ringet GOtt gewaltig mit jhm / vnd stellet sich
+als wehre er sein ergster Feind / daß er ohn allen zweiffel grosse anfechtung gefühlet:
+Aber nach dem Jacob bestendig geblieben / vnd GOtt sich rechtschaffen an jhm versucht / da
+erlangt er den Segen / vnd die Sonne getzet jhm auff / vnd er nennet die stett Pniel /
+denn sagt er / ich habe GOtt von Angesicht gesehen / vnd meine Seele ist genesen. So muß
+dem Gerechten das Liecht jm&#x0303;er wieder auffgehen / vnd frewde den from&#x0303;en
+Hertzen / Psal. 97: den from&#x0303;en gehet das Liecht auff im Finsternis von dem
+gnedigen / Barmhertzigen vnd Gerechten / Psal: 112. Vnd Wenn ja das ende hie allzeit im
+Leiblichen nicht gut wird / so wirts doch gut im Geistlichen / das wenn man bestendig
+bleibt / die Seligkeit drauff folget. Derwegen sollen wir getrew sein biß in denn Todt /
+Apoc: 2. Verharre&#x0303;biß ans ende / Matth: 24. Eine gute Ritterschafft vben / glauben
+behalten vnd ein gut Gewissen / 1. Tim: 1. So werden wir endlich mit Paulo sagen
+Kön&#x0303;en 2. Tim: 4. ich habe einen guten Kampff geke&#x0303;pffet / ich hab denn
+Lauff vollendet / ich habe glauben gehalten / hinfurt ist mir beygelegt die Kron der
+Gerechtigkeit / welche mir der HErr an jenem Tage / der gerechte Richter geben wird /
+nicht mir ber allein / sondern auch allen / die seine erscheinung lieb haben. Darzu
+verhelff vns allen GOtt Vater / Sohn vnd heiligen Geist hochgelobt in ewigkeit / Amen.</p>
+<p>ENDE.</p>
+<pb facs="#f0032"/>
+</div>
+<div>
+<head>Errata können also corrigirt werden.<lb/>
+</head>
+</div>
+<div>
+<head>In der Antwortauff Irenicam Concionem.<lb/>
+</head>
+<l>A 3. 6. Contio liese Concio.</l>
+<l>B. 1. §. 4 der Hertzen / liese den Hertzen.</l>
+<l>B. 2. 6. das praevisae fidei / liese des.</l>
+<l>B. 3. lin. 8. das vorersehenden Glaubens / liese des vorersehenen</l>
+<l>B. 3. 6. der Persönlichen vneinigung / liese vereinigung.</l>
+<l>E. 1. l. 11. Da nu vnser Erlöser vnd jmmer oder ewiger Vater sagt in seinem Testament
+nicht gleubet / liese / da nu vnser Erlöser vnd jmmer oder ewiger Vater nicht sagt in
+seinem Testament gleubet.</l>
+</div>
+<div>
+<head>In der Predigt vom Cananeischen Weiblein.<lb/>
+</head>
+<l>A. 3. b hören wie / liese hören wir.</l>
+<l>B. 3. b. er rucht mich an / liese er rufft mich an.</l>
+<l>B. 4. lin. 12 Luc. 2 liese Matth. 2.</l>
+<l>E. 2. b. lin. 4. thut / liese thue.</l>
+<l>Ibidem lin. 14. am Stam des heiliges Christus / liese am Stam des heiligen Creutzes.</l>
+<l>E. 3. b. lin. 26. vnd 27. Welchen jhr die Sünde verlasset / denen sind sie verlassen /
+liese welchen jhr die Sünde erlasset / denen denen sind sie erlassen.</l>
+<l>E. 4. lin. 24. vnter Flügel / liese vnter jhre Flügel.</l>
+<l>E. 4. b. lin. 6. à pasteriori, liese posteriori.</l>
+<l>Ibidem lin. 17. sagen oder vnd gedencken / liese sagen oder gedencken.</l>
+</div>
+</body>
+</text>
+</TEI>

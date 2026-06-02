@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Eine Christliche Predig/ Bey der trawrigen Leichbegängnuß/ deß Gottseligen/ züchtigen/ Sinnreichen vnd wolgelehrten Jünglings/ David Nicolai von Augspurg</title>
+<author>
+<persName ref="http://d-nb.info/gnd/117399671">
+<surname>Winckelmann</surname>
+<forename>Johannes</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">24</measure>
+<measure type="tokens">4858</measure>
+<measure type="types">2070</measure>
+<measure type="characters">32652</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2025-10-24T10:13:24Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+<p>Dieses Werk steht unter der &#x201E;Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz&#x201C; (CC BY-SA).</p>
+</licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/523652</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/523652</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/523652</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/523652</idno>
+<idno type="DTADirName">523652</idno>
+<idno type="DTAID">200189</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-200189-4</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="M">Winckelmann, Johannes: Eine Christliche Predig/ Bey der trawrigen Leichbegängnuß. [Gießen], 1617.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Eine Christliche Predig/ Bey der trawrigen Leichbegängnuß/ deß Gottseligen/ züchtigen/ Sinnreichen vnd wolgelehrten Jünglings/ David Nicolai von Augspurg</title>
+<author>
+<persName ref="http://d-nb.info/gnd/117399671">
+<surname>Winckelmann</surname>
+<forename>Johannes</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1"/>
+</editionStmt>
+<extent>
+<measure type="pages">24</measure>
+</extent>
+<publicationStmt>
+<publisher><name>David Berg</name></publisher>
+<pubPlace>Gießen</pubPlace>
+<date type="publication">1617</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>Universitätsbibliothek Breslau </repository>
+<idno>
+<idno type="shelfmark">Universitätsbibliothek Breslau, 4 S 125/23 / 523652</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Leichenpredigt</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">aedit</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text><front>
+<pb facs="#f0001" n="[1]"/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b">Eine Chri&#x017F;tliche Predig/</hi></titlePart><lb/>
+<titlePart type="desc"><hi rendition="#b"><hi rendition="#in">B</hi>ey der trawrigen<lb/>
+Leichbega&#x0364;ngnuß/ deß Gott&#x017F;eli-<lb/>
+gen/ zu&#x0364;chtigen/ Sinnreichen vnd wolgeleh&#xA75B;-</hi><lb/>
+ten Ju&#x0364;nglings/ <hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">David Nicolai</hi></hi></hi> von Aug&#x017F;purg/<lb/>
+&#x017F;o den <formula notation="TeX">\frac{14}{4}</formula> <hi rendition="#aq">Decembris, Anno</hi> 1616. zu Gie&#x017F;&#x017F;en in He&#x017F;&#x017F;en/<lb/>
+von einem verwegnen Studenten/ genant/ Joachim Dat-<lb/>
+tenhor&#x017F;t/ von Hildeßhaim auß Braun&#x017F;chweig/ Nachtszeit<lb/>
+ja&#x0364;mmerlich vnnd vnuer&#x017F;chuldet er&#x017F;cho&#x017F;&#x017F;en/ vnnd hernacher<lb/>
+den <formula notation="TeX">\frac{18}{8}</formula> de&#x017F;&#x017F;elben/ mit gro&#x017F;&#x017F;er an&#x017F;ehenlicher Proce&#x017F;&#x017F;ion<lb/>
+Chri&#x017F;tlich allda zur Erden be&#x017F;tattet<lb/>
+worden.</titlePart></docTitle><lb/>
+<byline>Gehalten durch<lb/>
+<hi rendition="#b">Den Ehrwu&#x0364;rdigen/ Hochachtbarn vnnd</hi><lb/>
+Hochgelehrten Her&#xA75B;n/ <docAuthor>Johannem Winckelman&#x0303;</docAuthor>/ der<lb/>
+H. Schrifft Doctorem/ vnd &#x017F;elbiger <hi rendition="#aq">Vniuer-<lb/>
+&#x017F;itet Profe&#x017F;&#x017F;orem Primarium &amp;c.</hi><lb/>
+Vnd Jetzo/<lb/>
+Seinen betru&#x0364;bten Eltern vnnd Freund&#x017F;chafft zu tro&#x017F;t/<lb/>
+dem ver&#x017F;torbuen Ju&#x0364;ngling zur let&#x017F;ten ehr/ auch<lb/>
+anderen frommen Chri&#x017F;ten zur vnder&#xA75B;icht<lb/>
+an tag geben.</byline><lb/>
+<epigraph><cit><bibl><hi rendition="#i"><hi rendition="#aq">Sapientia 4. ver&#x017F;.</hi> 13.</hi></bibl><lb/>
+<quote>Er i&#x017F;t bald vollkommen worden/ vnd hat vil Jahr er-<lb/>
+fu&#x0364;llet/ dann &#x017F;ein Seel gefelt Gott/ darumb eilt er<lb/>
+mit jhm auß dem bo&#x0364;&#x017F;en leben.</quote><bibl/></cit></epigraph></titlePage></front><body><lb/>
+<pb facs="#f0002" n="[2]"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsSermon" n="1"><head/>  <div type="fsBibleVerse" n="2"><head><hi rendition="#b">Text.</hi></head><lb/>
+<cit><bibl><hi rendition="#c"><hi rendition="#fr">Prediger Salomon.</hi><lb/>
+<hi rendition="#aq"><hi rendition="#g"><hi rendition="#k">Capvt.</hi></hi> 9. V. 12.</hi></hi></bibl><lb/>
+<quote><hi rendition="#fr">Auch weiß der Men&#x017F;ch &#x017F;ein zeit nicht/<lb/>
+&#x017F;onder wie die Fi&#x017F;ch gefangen werden/<lb/>
+mit einem &#x017F;cha&#x0364;dlichen Hamen/ vnd wie<lb/>
+die Vo&#x0364;gel mit einem Strick gefangen<lb/>
+werden/ &#x017F;o werden die Men&#x017F;chen auch<lb/>
+beruckt zur bo&#x0364;&#x017F;en zeit/ wann &#x017F;ie plo&#x0364;tzlich<lb/>
+vber &#x017F;ie felt.</hi></quote></cit></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#b">Auß-</hi></fw><lb/>
+<pb facs="#f0003" n="1"/>
+<fw place="top" type="header"><hi rendition="#b">Chri&#x017F;tliche Leichpredig/</hi></fw><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsExordium" n="2"><head><hi rendition="#b">Außlegung.</hi></head><lb/>
+<p><hi rendition="#fr"><hi rendition="#in">W</hi>J&#xA75B; haben auß dem heutigen Euan-</hi><lb/>
+gelio/ von den Zeichen deß Ju&#x0364;ng&#x017F;ten tags/<lb/>
+geliebte im HEr&#xA75B;n geho&#x0364;rt/ daß der Ju&#x0364;ng-<lb/>
+&#x017F;te gro&#x017F;&#x017F;e Tag deß HERREN/ werde wie<lb/>
+ein Fall&#x017F;trick kommen/ vber alle die auff Er-<lb/>
+den wohnen. Der Todt/ wie Augu&#x017F;tinus<lb/>
+&#x017F;agt/ i&#x017F;t einem jeden &#x017F;ein Ju&#x0364;ng&#x017F;ter tag/ der<lb/>
+vberfellt auch vns Men&#x017F;chen/ bißweilen vrblo&#x0364;tzlich/ daß wie ein<lb/>
+Fi&#x017F;ch mit einem &#x017F;cha&#x0364;dlichen Hamen gefangen/ vnnd der Vogel<lb/>
+mit dem Kloben plo&#x0364;tzlich vberfallen/ <hi rendition="#fr">vnd hingeruckt</hi> wirdt/<lb/>
+al&#x017F;o werden wir auch durch den zeitlichen Todt zu zeiten/ vnuer-<lb/>
+&#x017F;ehens vberfallen vnd hingeruckt/ de&#x017F;&#x017F;en haben wir Gott erbarms<lb/>
+auch ein trawriges Exempel/ an dem jungen Ge&#x017F;ellen vnd Stu-<lb/>
+dio&#x017F;o/ <hi rendition="#aq">Dauide Nicolao</hi> von Aug&#x017F;purg/ welcher vor wenig ta-<lb/>
+gen/ mit anderen &#x017F;eines alters Jungenge&#x017F;ellen/ &#x017F;tudierens hal-<lb/>
+ben/ mit rath vnd bewilligung jhrer Obern vnd Eltern allhie an-<lb/>
+gelangt/ aber am nech&#x017F;t ver&#x017F;chinen Mitwoch bey na&#x0364;chtlicher<lb/>
+weil/ mit einem Schuß vnuer&#x017F;ehens getroffen/ daruon er &#x017F;ehr<lb/>
+bald hernach &#x017F;einen Gei&#x017F;t auffgeben/ Darbey wir erinnert wer-<lb/>
+den deß gro&#x017F;&#x017F;en Elends/ darinn wir arm&#x017F;elige Men&#x017F;chen &#x017F;tre-<lb/>
+ben/ daß wir dem wu&#x0364;ten deß bo&#x0364;&#x017F;en Feinds/ der ein Mo&#x0364;rder<lb/>
+i&#x017F;t/ Johan. am 8. vnd mancherley vnfa&#x0364;llen vnderworffen &#x017F;eyn/<lb/>
+dem&#x017F;elben <hi rendition="#aq">&#x017F;tudio&#x017F;o,</hi> &#x017F;eynd wir jhm jetzund &#x017F;eine letzte ehr zuerzei-<lb/>
+gen ver&#x017F;amblet/ damit wir nun etwas nutzlichs/ zn vn&#x017F;erer vn-<lb/>
+derwei&#x017F;ung vnd erbawung auß Gottes Wort ho&#x0364;ren mo&#x0364;gen/<lb/>
+<fw place="bottom" type="sig">A ij</fw><fw place="bottom" type="catch">wo&#x0364;llen</fw><lb/>
+<pb facs="#f0004" n="2"/>
+<fw place="top" type="header"><hi rendition="#b">Chri&#x017F;tliche Leichpredigt/</hi></fw><lb/>
+wo&#x0364;llen wir dir verle&#x017F;ene Wort/ auß dem Prediger Salomon<lb/>
+ku&#x0364;rtzlich mit einander/ in der Forcht deß HEr&#xA75B;en betrachten/ die<lb/>
+vns erinneren der vnbe&#x017F;tendigkeit vnd vngewißheit men&#x017F;chliches<lb/>
+Lebens/ vnd mancherley vnuer&#x017F;ehner Vnfa&#x0364;ll vnd Vnglu&#x0364;ck/ dem<lb/>
+vn&#x017F;er Leben vnderworffen i&#x017F;t/ vnd wie wir vns darein &#x017F;chicken &#x017F;ol-<lb/>
+len/ wi&#xA75B; wo&#x0364;llen den Text er&#x017F;tlich mit wenigen Worten erkla&#x0364;ren/<lb/>
+vnd dann nech&#x017F;t ein par Lehrpu&#x0364;nctlein mit heimb nemmen/ Gott<lb/>
+wo&#x0364;lle &#x017F;ein Gei&#x017F;t miltigklich hierzu verleyhen/ Amen.</p></div><lb/>
+<div type="fsMainPart" n="2"><head/>  <p>Erkla&#x0364;rung deß Terts: Auch weiß der Men&#x017F;ch &#x017F;eine Zeit<lb/>
+nicht/ &#xA75B;c. einmal i&#x017F;t allen Men&#x017F;chen aufferlegt zu &#x017F;terben/ Heb.<lb/>
+9. das i&#x017F;t der Weeg alles Flei&#x017F;ch/ 1. Reg. 2. es i&#x017F;t der alte Bund/<lb/>
+Men&#x017F;ch du mu&#x017F;t &#x017F;terben/ das wi&#x017F;&#x017F;en wir gar gewiß/ aber zu was<lb/>
+zeit vnd durch was Orth deß todes/ das ko&#x0364;nnen wir nicht wi&#x017F;&#x017F;en/<lb/>
+dann deß Men&#x017F;chen zeit &#x017F;tehet in Gottes Ha&#x0364;nden/ P&#x017F;al. 31. da-<lb/>
+her Moy&#x017F;es &#x017F;agt/ P&#x017F;al. 90. der du die Men&#x017F;chen la&#x0364;&#x017F;&#x017F;e&#x017F;t &#x017F;terben/<lb/>
+vnd &#x017F;prich&#x017F;t/ kompt wider jhr Men&#x017F;chenkinder. Diß fu&#x0364;hret vns<lb/>
+der Prediger Salomon allhie zu gemu&#x0364;th/ vnnd erinnert vns &#x017F;o<lb/>
+bald/ der mancherley vnfa&#x0364;llen vnd gefa&#x0364;hrlichkeiten/ deren wir<lb/>
+Men&#x017F;chen vnderworffen &#x017F;eyn/ al&#x017F;o daß ein Men&#x017F;ch offt kombt<lb/>
+vnuer&#x017F;ehens in Leyden vnd Noth/ vnd weiß nicht wie/ vnd muß<lb/>
+vrplo&#x0364;tzlich wider &#x017F;ein gedancken &#x017F;ein Leben enden/ da gehts jhnen<lb/>
+wie der Prediger &#x017F;agt/ gleich wie den Fi&#x017F;chen vnnd Vo&#x0364;gel/ es<lb/>
+wirdt ein Hamen ins Wa&#x017F;&#x017F;er geworffen/ der Fi&#x017F;ch ve&#xA75B;meint &#x017F;ein<lb/>
+Nahrung zugewinnen/ vnd ver&#x017F;chlingt den Hamen/ der Angel<lb/>
+der zer&#xA75B;ei&#x017F;t jhm den Bauch/ vnd wirdt gefangen/ das i&#x017F;t einem<lb/>
+wol ein &#x017F;cha&#x0364;dlicher Hamen. Ein Vogel vermeint auff einem auß-<lb/>
+geworffen Kloben auch &#x017F;ein Speiß zu&#x017F;uchen/ aber da wirdt der<lb/>
+Klob vber jhme zugeworffen/ vnd wirdt gefangen/ Al&#x017F;o &#x017F;agt der<lb/>
+Prediger/ auch werden die Men&#x017F;chen beruckt zur bo&#x0364;&#x017F;en zeit/ wen&#x0303;<lb/>
+&#x017F;ie plo&#x0364;tzlich vber &#x017F;ie felt/ mancher nimbt jhm etwas fu&#x0364;r/ oder ge-<lb/>
+het vnuer&#x017F;ehens an ein Orth/ aber zu vnglu&#x0364;ck&#x017F;eligen &#x017F;tunden vnd<lb/>
+<fw place="bottom" type="catch">zeit/</fw><lb/>
+<pb facs="#f0005" n="3"/>
+<fw place="top" type="header"><hi rendition="#b">Chri&#x017F;tliche Leichpredigt/</hi></fw><lb/>
+zeit/ daß er in noth vnnd gefahr kompt/ darinnen er &#x017F;ein Leben<lb/>
+ja&#x0364;mmerlich be&#x017F;chlie&#x017F;&#x017F;en muß/ daher ent&#x017F;tehet betru&#x0364;bnuß vnnd<lb/>
+hertzleid/ &#x017F;olches verhelt &#x017F;ich al&#x017F;o mit bo&#x0364;&#x017F;en vnd frommen/ ja den<lb/>
+Frommen trifft &#x017F;o bald das Vnglu&#x0364;ck/ als einen bo&#x0364;&#x017F;en Bueben/<lb/>
+darumb wirdt die zeit wol bo&#x0364;ß genennt/ von wegen &#x017F;olches vnuer-<lb/>
+&#x017F;ehnen Vnglu&#x0364;cks.</p><lb/>
+<div n="3"><head>1. Lehr</head> <p>La&#x017F;&#x017F;et vns demnach flei&#x017F;&#x017F;ig mercken die Wort deß<lb/>
+Predigers/ der Men&#x017F;ch weiß &#x017F;ein zeit nicht/ die vr&#x017F;ach i&#x017F;t/ daß<lb/>
+vn&#x017F;er Leben &#x017F;teht in GOttes Ha&#x0364;nden/ der Men&#x017F;ch hat &#x017F;ein be-<lb/>
+&#x017F;timpte zeit/ die zahl &#x017F;einer Monden &#x017F;tehet bey dir/ du ha&#x017F;t ein<lb/>
+Zil ge&#x017F;etzt/ das wird er nit vbergehn &#x017F;pricht Job/ all vn&#x017F;ere Tag<note place="right">Job. 14.</note><lb/>
+&#x017F;ein auff dein Buech ge&#x017F;chriben/ die noch werden &#x017F;ollen/ vnnd<lb/>
+der&#x017F;elben keiner da war/ gleich wie ein Topff i&#x017F;t/ in der Hand<note place="right">P&#x017F;al. 139.</note><lb/>
+deß To&#x0364;pffers/ der da macht hat/ jhn zuverbrechen/ oder zuerhal-<lb/>
+ten/ al&#x017F;o hat vn&#x017F;er HEr&#xA75B; Gott auch vn&#x017F;er Leben in &#x017F;einer Ge-<lb/>
+walt/ er hats macht zuerla&#x0364;ngeren oder abzuku&#x0364;rtzen/ wie ein We-<lb/>
+ber ein Faden abrei&#x017F;&#x017F;et/ E&#x017F;a. 38. Darumb nennet Syrach Gott<lb/>
+wol ein HEr&#xA75B;en &#x017F;eines Lebens/ vnd wir mit jhm im 23. Cap. Er<lb/>
+gibt Leben vnd Athem/ Job 10. Gott hat deinen Athem/ vnnd<lb/>
+alle deine Weeg in &#x017F;einer Ha&#x0364;nd/ &#x017F;agt Daniel der Prophet zum<lb/>
+Ko&#x0364;nig Bol&#x017F;atzer/ Daniel 5. Solches mu&#x0364;&#x017F;&#x017F;en wir erkennen vnd<lb/>
+vns erinnern/ in allen wunderbarlichen vnd gantz widerwertigen<lb/>
+Fa&#x0364;llen/ da wir wol vermeinen/ es gehe vngefa&#x0364;hr zu/ oder &#x017F;chreibt<lb/>
+es zu dem Glu&#x0364;ck/ oder wie der Prediger zuuor nach men&#x017F;chlichem<lb/>
+wohn redt/ daß zum lauffen nicht helffe &#x017F;chnell &#x017F;eyn/ zum Streit<lb/>
+helffe nicht &#x017F;tarck &#x017F;eyn/ zur Nahrung helffe nicht ge&#x017F;chickt &#x017F;eyn/<lb/>
+zum Reichthumb helffe nit klueg &#x017F;eyn/ daß einer angenemb &#x017F;eye/<lb/>
+helffe nicht daß er ein ding wol ko&#x0364;nne/ &#x017F;ondern alles lige an der<lb/>
+Zeit vnd Glu&#x0364;ck/ &#x017F;o i&#x017F;t doch alles Gottes <hi rendition="#aq">prouidens</hi> vnnd regie-<lb/>
+rung. Wir le&#x017F;en Exod. 21. vnd Deut. 19. Wann einer eines Le-<lb/>
+ben nicht nach&#x017F;telle/ vnd bringe jhn vmb/ als wann einer in eim<lb/>
+<fw place="bottom" type="sig">A iij</fw><fw place="bottom" type="catch">Wald</fw><lb/>
+<pb facs="#f0006" n="4"/>
+<fw type="header" place="top"><hi rendition="#b">Chri&#x017F;tliche Leichpredigt.</hi></fw><lb/>
+Wald ein Baum vmbhawet/ vnd die Axt fa&#x0364;llt jhm vnuer&#x017F;ehens<lb/>
+auß dem Stil/ vnd wirfft &#x017F;ein Nech&#x017F;ten daß er &#x017F;tirbt/ da &#x017F;agt da-<lb/>
+&#x017F;elb&#x017F;t die Schrifft/ Gott hab jhne la&#x017F;&#x017F;en in &#x017F;ein Hand fallen von<lb/>
+Vnge&#x017F;a&#x0364;hr/ vngefa&#x0364;hr vn&#x017F;erthalben/ aber &#x017F;einthalben nach ge-<lb/>
+wi&#x017F;&#x017F;er ver&#x017F;ehung vnnd verhengnus/ Al&#x017F;o gedenckt Luth: daß einer<lb/>
+&#x017F;einen Brueder/ der von eim wilden Schwein vberwa&#x0364;ltigt/ er-<lb/>
+retten wo&#x0364;llen/ vnd in dem er dem Schwein einen fang geben wil/<lb/>
+er&#x017F;ticht er &#x017F;einen Brueder vnuer&#x017F;ehens/ vnnd &#x017F;eynd der Fa&#x0364;ll vil<lb/>
+vnd mancherley/ vnd in gro&#x017F;&#x017F;er vngleichheit. Lutherus &#x017F;agt wol/<lb/>
+<hi rendition="#aq">Ita &#x017F;untres mortalium, vt cuilibet à proximo &#x017F;uo &#x017F;it peri-<lb/>
+culum,</hi> das i&#x017F;t: al&#x017F;o i&#x017F;t es vmb das thun der Men&#x017F;chen bewandt/<lb/>
+daß einem jegklichen von &#x017F;einem Nech&#x017F;ten ein Gefahr zu&#x017F;tehtt<lb/>
+kan/ vnd wie man &#x017F;agt/ ein jeder i&#x017F;t &#x017F;einem Nech&#x017F;ten ein Brand<lb/>
+&#x017F;chuldig/ Ja/ noch wol den Todt/ ich wil jetzt nicht &#x017F;agen/ daß<lb/>
+Gott einen frommen Men&#x017F;chen/ in eines Mo&#x0364;rders Hand fallen<lb/>
+le&#x017F;t/ Wie der fromme vnd gerechte Abel auffs Feld gehet/ zu &#x017F;ei-<lb/>
+nem Bruder Cain/ vnnd wirdt von jhme zu Todt ge&#x017F;chlagen/<lb/>
+warumb aber GOtt diß vnnd jenes verheng/ &#x017F;olches gebu&#x0364;rt vns<lb/>
+nicht fu&#x0364;rwitzig zuerfor&#x017F;chen/ er hat aller &#x017F;einer Werck vnd ver-<lb/>
+hengnuß vrfach/ vnd zwar kein Sperling auff die Erden fa&#x0364;llet<lb/>
+ohne Gottes willen/ Matth. 10. Ja wie <hi rendition="#aq">Tertulianus</hi> &#x017F;agt/ kein<lb/>
+Blat von einem Baum ohne Gottes vor&#x017F;ehung fa&#x0364;lt/ vil weniger<lb/>
+muß ohne Gottes willen vns Men&#x017F;chen ein Minut an vn&#x017F;erem<lb/>
+Leben abgehen/ darumb wir in allerley Zu&#x017F;ta&#x0364;nd/ wie GOtt der<lb/>
+<hi rendition="#g"><hi rendition="#k">Herr</hi></hi> vns die&#x017F;elbige zu&#x017F;chickt/ auff &#x017F;einen willen &#x017F;ehen &#x017F;ollen.<lb/>
+Was zwar bo&#x0364;&#x017F;e Leut anlangt/ da zeigt vns GOttes Wort vr-<lb/>
+&#x017F;ach &#x017F;einer Gericht an/ Blutgirige vnd fal&#x017F;che Leut werden jhr le-<lb/>
+ben nicht zur helfft bringen/ P&#x017F;al. 55. den Gottlo&#x017F;en wirdt das<lb/>
+Vnglu&#x0364;ck to&#x0364;dten/ dann deß Her&#xA75B;n Antlitz &#x017F;tehet wider die &#x017F;o bo&#x0364;&#x017F;es<lb/>
+thun/ das er jh&#xA75B; geda&#x0364;chtnus außrotte von der Erden/ P&#x017F;al. 34.<lb/>
+Die Gotlo&#x017F;en nemmen ein ende mit &#x017F;chrecken/ P&#x017F;al. 73. <hi rendition="#aq">Ger</hi><lb/>
+<fw type="catch" place="bottom">vnd</fw><lb/>
+<pb facs="#f0007" n="5"/>
+<fw type="header" place="top"><hi rendition="#b">Chri&#x017F;tliche Leichpredig.</hi></fw><lb/>
+vnd <hi rendition="#aq">Onan/</hi> Gen. 38. waren bo&#x0364;&#x017F;e Buben/ darumb to&#x0364;dtet &#x017F;ie der<lb/>
+HEr&#xA75B;. <hi rendition="#aq">Hophni</hi> vnd <hi rendition="#aq">Pinehas</hi> waren auch bo&#x0364;&#x017F;e Buben vnd rechte<lb/>
+Belials Kinder/ darumb &#x017F;trafft &#x017F;ie Gott/ daß &#x017F;ie im Krieg ja&#x0364;m-<lb/>
+merlich vmbkommen/ 1. Sam. 4. Ab&#x017F;olon der vngeratene Sohn<lb/>
+Dauids/ trib &#x017F;ein Vatter von Land vnd Leut ins Elend/ darumb<lb/>
+&#x017F;trafft jhn Gott/ daß er mit &#x017F;einen Haaren an einer Eychen han-<lb/>
+gen bleibt/ vnd wirdt von Joab mit 3. Spie&#x017F;&#x017F;en in &#x017F;ein Hertz ge-<lb/>
+&#x017F;tochen/ 2. Sam. 18. Al&#x017F;o verhengt GOtt/ daß bo&#x0364;&#x017F;e Gottlo&#x017F;e<lb/>
+Leut ein end nemmen mit &#x017F;chrecken. Aber vber fromme Leut/<lb/>
+verhengt Gott bißweiln auch etwas hartes/ daß &#x017F;ie vnuer&#x017F;ehens<lb/>
+einen bitteren Todestrunck thun mu&#x0364;&#x017F;&#x017F;en/ wie vom frommen vnd<lb/>
+gerechten Abel ge&#x017F;agt/ der fromme vnd gegen Dauid trewhertzige<lb/>
+Jonatan/ kombt eben &#x017F;o wol im Krieg/ auff den Berg Gibea<lb/>
+vmb/ wie &#x017F;ein Gottlo&#x017F;er Vatter Saul. 1 Sam. 31. Jo&#x017F;ias/ war<lb/>
+ein frommer vnnd Gott&#x017F;eliger Ko&#x0364;nig/ noch wirdt er auch im<lb/>
+Krieg wider Nacho/ dem Ko&#x0364;nig auß Egypten/ von den Schu&#x0364;tze&#x0303;<lb/>
+ge&#x017F;cho&#x017F;&#x017F;en/ vnd al&#x017F;o verwundet/ daß er daru&#x0364;ber &#x017F;ein Gei&#x017F;t auff-<lb/>
+geben muß. 2. Parab. 35. vnd der&#x017F;elbigen Exempel tragen &#x017F;ich<lb/>
+noch vil zu/ frag&#x017F;tu nach der vr&#x017F;ach/ warumb Gott der HEr&#xA75B;<lb/>
+&#x017F;olches verhenge/ &#x017F;o &#x017F;agen wir &#x017F;o vil/ daß fromme vnnd heilige<lb/>
+Leut/ auch jr ma&#x0364;ngel vnd gebrechen haben/ die Gott fu&#x0364;r &#x017F;ein H.<lb/>
+Ange&#x017F;icht &#x017F;tellet/ darumb &#x017F;teupet &#x017F;ie Gott/ vnd gibt jhnen biß-<lb/>
+weilen ein &#x017F;charpffen vnd harten &#x017F;treich/ das jhnen nit allein die<lb/>
+Augen vber gehn/ &#x017F;onder auch wol die Seele außfeh&#xA75B;et/ doch &#x017F;eyn<lb/>
+&#x017F;ie in Gottes Ha&#x0364;nd ge&#x017F;chlo&#x017F;&#x017F;en/ dauon &#x017F;tehet ein feiner &#x017F;p&#xA75B;uch/<lb/>
+im Buch der Weißheit am 3. Aber der gerechten Seelen &#x017F;eynd<lb/>
+in Gottes Ha&#x0364;nd/ vnnd kein Qual ru&#x0364;hret &#x017F;ie an/ fu&#x0364;r den vnuer-<lb/>
+&#x017F;ta&#x0364;ndigen/ werden &#x017F;ie ange&#x017F;ehen/ als &#x017F;turben &#x017F;ie/ vnnd jr ab&#x017F;chid<lb/>
+wirdt fu&#x0364;r ein Pein gerechnet/ vnd jhr hinfahrt vor ein verderben/<lb/>
+aber &#x017F;ie &#x017F;eynd im Friden/ Ob &#x017F;ie wol vor den Men&#x017F;chen vil leides<lb/>
+haben/ &#x017F;o &#x017F;eind &#x017F;ie doch gewi&#x017F;er hoffnung/ das &#x017F;ie nimmermeh&#xA75B;<lb/>
+<fw type="catch" place="bottom">&#x017F;terben</fw><lb/>
+<pb facs="#f0008" n="6"/>
+<fw type="header" place="top"><hi rendition="#b">Chri&#x017F;tliche Leichpredig.</hi></fw><lb/>
+&#x017F;terben/ &#x017F;ie werden ein wenig ge&#x017F;teupet/ aber vil guts wirdt jhnen<lb/>
+widerfahren/ den&#x0303; Gott ver&#x017F;ucht &#x017F;ie/ vnd findet daß &#x017F;ie &#x017F;ein werth<lb/>
+&#x017F;eynd:</p></div><lb/>
+<div n="3"><head>2. Lehr.</head><lb/>
+<p>Zum andern/ haben wir wol allhie zubedencken/ dieweil vil<lb/>
+vnd mancherley Vnfall vnd gefa&#x0364;hrlichkeiten/ denen wir arm&#x017F;eli-<lb/>
+ge Men&#x017F;chen vnderworffen &#x017F;eynd/ die vns der Prediger Sa-<lb/>
+lomon mit di&#x017F;en gleichnu&#x017F;&#x017F;en zu gemu&#x0364;th fu&#x0364;h&#xA75B;et: Wie die Fi&#x017F;ch ge-<lb/>
+fangen werden mit einem &#x017F;cha&#x0364;dlichen Hamen/ vnd wie die Vo&#x0364;-<lb/>
+gel mit dem Strick gefangen werden/ &#x017F;o werden auch die Men-<lb/>
+&#x017F;chen beruckt zur bo&#x0364;&#x017F;en zeit/ wann &#x017F;ie plo&#x0364;tzlich vber &#x017F;ie felt/ das i&#x017F;t<lb/>
+ein &#x017F;tuck deß gro&#x017F;&#x017F;en Elends/ darumb vn&#x017F;er Leben &#x017F;teht/ wie Sy-<lb/>
+rach 40. Cap. &#x017F;agt: in todes gefahr/ die Exempel vnd erfahrung<lb/>
+bezeugen diß vilfa&#x0364;ltig/ deß H. Mans Jobs 7. So&#x0364;hn vnnd 3.<lb/>
+To&#x0364;chteren/ waren lu&#x017F;tig vnd guter ding mit einander/ da wirfft<lb/>
+durch Gottes verhengnuß der bo&#x0364;&#x017F;e Feind/ durch ein grau&#x017F;amen<lb/>
+Wind/ das Hauß vber ein hauffen/ daß &#x017F;ie allzumal &#x017F;turben/<lb/>
+Hiob. 1. Abner der Feldober&#x017F;t/ vnd hernach Ama&#x017F;a 2. Sam. 3.<lb/>
+vnd 20. werden vnuer&#x017F;ehens vnder dem &#x017F;chein der Freund&#x017F;chafft<lb/>
+von Joab er&#x017F;tochen/ vnd vmb jhr Leben bracht. Vrias der He-<lb/>
+tither/ wirdt auß an&#x017F;tifftung vnd beuelch Dauids/ in dem Streit<lb/>
+vor der Stadt Rabba/ an einen gefa&#x0364;hrlichen Orth ge&#x017F;telt/ vnd<lb/>
+ja&#x0364;mmerlich vmb &#x017F;ein Leben bracht/ 2. Sam. 11. Jonatan vnnd<lb/>
+Saul/ kommen mit einander vmb auff dem Berg Giboa/ in<lb/>
+der Schlacht gegen den Phili&#x017F;teern/ 1. Sam. 31. A&#x017F;ael ein hur-<lb/>
+tiger Soldat/ Joabs Bruder/ wirdt von Abner durch&#x017F;tochen/<lb/>
+2. Sam. 2. Ab&#x017F;olon bleibt an einer Aichen hangen mit &#x017F;einen<lb/>
+Haaren/ vnd wirdt von Joab mit 3. Spie&#x017F;&#x017F;en durch&#x017F;tochen/ 2.<lb/>
+Sam. 18. vnuon&#x0303;o&#x0364;ten i&#x017F;ts/ mehr Exempel anzuziehen/ all dieweil<lb/>
+der&#x017F;elben vnuerhofften Vnfa&#x0364;llen &#x017F;ich leyder all zuvil zutragen/<lb/>
+mit bo&#x0364;&#x017F;en vnd frommen/ wie wir jetzunder auch eins vor Augen<lb/>
+haben/ es gehet wol ein <hi rendition="#aq">Studio&#x017F;us</hi> ins ku&#x0364;hl Bad/ vnd gerath in<lb/>
+<fw type="catch" place="bottom">ein</fw><lb/>
+<pb facs="#f0009" n="7"/>
+<fw type="header" place="top"><hi rendition="#b">Chri&#x017F;tliche Leichpredig/</hi></fw><lb/>
+ein Loch/ darinn er &#x017F;ein Leben la&#x017F;&#x017F;en muß. Di&#x017F;e Betrachtung<lb/>
+&#x017F;oll vns er&#x017F;tlich darzu dienen/ daß wir fu&#x0364;r&#x017F;ichtig &#x017F;eyn in all vn&#x017F;e-<lb/>
+rem thun vnd leben/ handel vnd wandel/ vnd vns Morgens vnd<lb/>
+Abends/ dem Allerho&#x0364;ch&#x017F;ten in &#x017F;ein &#x017F;chutz vnnd &#x017F;chirm beuelchen/<lb/>
+vnd jhn bitten/ daß er &#x017F;einen lieben Engeln beuelch thun wo&#x0364;lle/<lb/>
+die vns auff vn&#x017F;eren Weegen behu&#x0364;ten/ P&#x017F;al. 91. Darnach das<lb/>
+wir in vn&#x017F;eren wegen bleiben vnd vn&#x017F;ers beruffs warten/ <hi rendition="#aq">Factua<lb/>
+quæ tua, tua quæ non &#x017F;unt ea mitte,</hi> thue was dir beuolchen<lb/>
+i&#x017F;t/ vnd hu&#x0364;te dich vor dem fu&#x0364;rwitz. Jtem/ daß wir die gefahr mey-<lb/>
+den/ da<supplied>nn</supplied> wer die Gefahr liebt/ der wirdt darinn vmbkommen/<lb/>
+die nun das thun/ die haben &#x017F;ich deß &#x017F;chutzes Gottes/ vnd der hut<lb/>
+&#x017F;einer lieben Engel zu tro&#x0364;&#x017F;ten/ wie der P&#x017F;alm. 91. &#x017F;agt: Wer vn-<lb/>
+der dem Schirm deß Ho&#x0364;ch&#x017F;ten &#x017F;itzt/ vnnd vnder dem Schatten<lb/>
+deß Allma&#x0364;chtigen bleibt/ &#xA75B;c. Jtem/ Er hat &#x017F;einen Engeln befol-<lb/>
+hen/ &#xA75B;c. Verhengt alßdan&#x0303; Gott etwas vber vns/ wolan/ &#x017F;o &#x017F;eynd<lb/>
+wir in &#x017F;einer Hand/ darauß kein gefah&#xA75B;/ nichts vnuer&#x017F;ehens/ ja<lb/>
+der Todt &#x017F;elb&#x017F;t nicht/ vns rei&#x017F;&#x017F;en kan. Da hei&#x017F;t es/ wie Paulus &#x017F;a-<note place="right">Rom. 14.</note><lb/>
+get: Leben wir/ &#x017F;o leben wir dem Her&#xA75B;n/ &#xA75B;c. Wolte nun Gott/<lb/>
+daß diß &#x017F;tuck vn&#x017F;ere freuele Ge&#x017F;ellen wol beda&#x0364;chte&#x0303;/ die deß Nachts<lb/>
+<hi rendition="#aq">ga&#x017F;&#x017F;atum</hi> gehen/ <hi rendition="#aq">agieren</hi> andere/ machen ein vnruh/ &#x017F;chma&#x0364;hen<lb/>
+vnd &#x017F;cha&#x0364;nden &#x017F;ie/ werffen mit <hi rendition="#aq">penalen</hi> vmb &#x017F;ich/ daher Jammer<lb/>
+vnd noth ent&#x017F;tehet: Man vermahnt/ man &#x017F;trafft/ aber alles vmb-<lb/>
+&#x017F;on&#x017F;t/ So kompt dann Gott/ vnd verhengt vber einen oder den<lb/>
+andern etwas/ auch bißweilen vber vn&#x017F;chuldige/ daß man &#x017F;ich<lb/>
+dann gra&#x0364;men muß/ dahero betru&#x0364;bnuß vnd hertzleyd/ Eltern vnd<lb/>
+Freunden gemacht wird/ vnd das Hertzleyd jhnen dann &#x017F;elbs in<lb/>
+jhren Bue&#x017F;en zu Hauß kompt. Jch &#x017F;age nicht/ daß der gute <hi rendition="#aq">Stu-<lb/>
+dio&#x017F;us,</hi> dem wir jetzt zu &#x017F;einen letzten Eh&#xA75B;en er&#x017F;chinen &#x017F;eynd/ ein<lb/>
+&#x017F;olcher gewe&#x017F;en &#x017F;eye/ als der newlicher zeit anhero kommen/ vnnd<lb/>
+vn&#x017F;chuldig in di&#x017F;en vnfall gerathen i&#x017F;t/ &#x017F;onder ich rede es anderer<lb/>
+verwegnen Ge&#x017F;ellen wegen/ deren gleichwol eben damals/ als &#x017F;ich<lb/>
+<fw type="sig" place="bottom">B</fw><fw type="catch" place="bottom">di&#x017F;er</fw><lb/>
+<pb facs="#f0010" n="8"/>
+<fw type="header" place="top"><hi rendition="#b">Chri&#x017F;tliche Leichpredig.</hi></fw><lb/>
+di&#x017F;er trawrige vnfall begeben/ auff der Ga&#x017F;&#x017F;en gewe&#x017F;en/ vnd da-<lb/>
+hero vr&#x017F;p&#xA75B;u&#x0364;nglich der&#x017F;elbig verur&#x017F;acht/ Die&#x017F;elbige wird Gott ge-<lb/>
+wißlich finden.</p><lb/>
+<p>Darnach &#x017F;oll vns di&#x017F;e Betrachtung auch darzu dienen/ daß<lb/>
+wir vns hu&#x0364;ten/ vo&#xA75B; vnzeitlichem vrtheilen/ vnd nicht bald mit zu<lb/>
+platzen/ eben als ob die jenigen/ mit welchen &#x017F;olche Fa&#x0364;ll &#x017F;ich bege-<lb/>
+ben/ vo&#xA75B; andern Leuthen/ Schuldner gewe&#x017F;en &#x017F;eyn/ Son&#x017F;t wur-<lb/>
+den Jobs Kinder/ die der Vatter gewißlich in guter Zucht ge-<lb/>
+halten/ vnd fu&#x0364;r &#x017F;ie flei&#x017F;&#x017F;ig gebettet/ vnd geopffert/ auch vor ande-<lb/>
+ren/ den einfall deß Hauß/ vnnd &#x017F;chro&#x0364;cklichen Todt/ mit boßheit<lb/>
+verur&#x017F;acht haben: Jn gleichem auch der fromme vnnd gott&#x017F;elige<lb/>
+Jonathan/ Dauids Freund: Jtem/ der fromme vnnd gott&#x017F;elige<lb/>
+Jo&#x017F;ias/ Diß mu&#x0364;&#x017F;ten je bo&#x0364;&#x017F;e Buben gewe&#x017F;en &#x017F;eyn. Alß vn&#x017F;erm<lb/>
+Her&#xA75B;n Chri&#x017F;to etliche verku&#x0364;ndigten von den Galileern/ welcher<lb/>
+Blut Pilatus &#x017F;ampt jhrem Opffer vernicht hat/ &#x017F;p&#xA75B;icht er: Mei-<lb/>
+<note place="left">Luc. 13.</note>net jh&#xA75B;/ daß di&#x017F;e Galileer vo&#xA75B; allen Galileern/ Su&#x0364;nder gewe&#x017F;en<lb/>
+&#x017F;eyn/ dieweil &#x017F;ie diß erlitten haben? Jch &#x017F;age Nein/ Sondern ich<lb/>
+&#x017F;age euch/ So jh&#xA75B; euch nicht be&#x017F;&#x017F;ert/ werdet jh&#xA75B; auch alle al&#x017F;o vmb-<lb/>
+kommen: Oder meinet jh&#xA75B;/ daß die achtzehen/ auff welche der<lb/>
+Thurn in Siloa fu&#x0364;hl/ vnd er&#x017F;chlueg/ &#x017F;ie &#x017F;eyen &#x017F;chuldig gewe&#x017F;en/<lb/>
+vo&#xA75B; allen Men&#x017F;chen die zu Jeru&#x017F;alem wohnen? Jch &#x017F;age/ nein/<lb/>
+&#x017F;onder &#x017F;o jh&#xA75B; euch nit be&#x017F;&#x017F;ert/ werdet jh&#xA75B; auch alle al&#x017F;o vmbkom&#x0303;en.<lb/>
+Vnd zeigt der Her&#xA75B; Chri&#x017F;tus al&#x017F;o an/ es &#x017F;eye kein Men&#x017F;ch in Je-<lb/>
+ru&#x017F;alem/ der nit eines &#x017F;olchen vnfalls werth were/ wanns Gott<lb/>
+vber jhn verhengen &#x017F;olt. Es leh&#xA75B;t eben der Prediger Salomon<lb/>
+in di&#x017F;em Capitel/ daß man auß eu&#x017F;&#x017F;erlichem Zu&#x017F;tand/ er &#x017F;eye gut<lb/>
+oder bo&#x0364;ß/ nicht vrtheilen &#x017F;olle von deß Men&#x017F;chen Vn&#x017F;eligkeit/ o<supplied>-</supplied><lb/>
+der Seligkeit/ es begenet einem/ &#x017F;p&#xA75B;icht er/ wie dem andern/ dem<lb/>
+Gerechten/ wie dem Vngerechten/ dem Guten vnd Reinen/ wie<lb/>
+dem Vnreinen/ dem der da opffert/ wie dem der da nicht opffert/<lb/>
+wie es dem guten gehet/ &#x017F;o gehet es auch dem Su&#x0364;nder/ Ja S.<lb/>
+<fw type="catch" place="bottom">Petrus</fw><lb/>
+<pb facs="#f0011" n="9"/>
+<fw place="top" type="header"><hi rendition="#b">Chri&#x017F;tliche Predig/</hi></fw><lb/>
+Petrus &#x017F;agt: Es &#x017F;ey an dem/ daß &#x017F;ich das Gericht anfahe am<note place="right">1. Petri. 4.</note><lb/>
+Hauß Gottes. Derowegen &#x017F;ollen wir auch hieher ziehen den<lb/>
+Sp&#xA75B;uch S. Pauli: Wer bi&#x017F;t du/ der du eines frembden Knecht<note place="right">Rom. 14.</note><lb/>
+richte&#x017F;t/ &#x017F;tehet er/ &#x017F;o &#x017F;tehet er &#x017F;einem Her&#xA75B;n/ fellt er/ &#x017F;o fellt er &#x017F;ei-<lb/>
+nem Her&#xA75B;n/ er wird jhn wol wider auffrichten/ Gott der HEr&#xA75B;<lb/>
+hat &#x017F;ein vr&#x017F;ach/ warumb er al&#x017F;o mit eine&#x0303; fa&#x0364;hret vor dem andern/<lb/>
+doch aber wird er die Gottlo&#x017F;en bo&#x0364;&#x017F;en Buben wol wi&#x017F;&#x017F;en zu-<lb/>
+richten.</p><lb/>
+<p>Zum dritten/ dieweil vn&#x017F;er leben al&#x017F;o in Gottes Ha&#x0364;nden<lb/>
+&#x017F;tehet/ vnnd wir Men&#x017F;chen mancherley Vnfa&#x0364;ll vnderworffen<lb/>
+&#x017F;eyn/ &#x017F;o &#x017F;ollen wir al&#x017F;o leben/ als ob wir alle &#x017F;tund &#x017F;terben &#x017F;ollen<lb/>
+vnd dauon mu&#x0364;&#x017F;&#x017F;en/ darumb &#x017F;pricht Salomon: Ru&#x0364;hme dich nicht<note place="right">Prov. 27.</note><lb/>
+deß morgenden tags/ dann du wei&#x017F;t nicht was &#x017F;ich heut begeben<lb/>
+mag/ es kan &#x017F;ich noch vor Abends mit vns enden. Keiner kan &#x017F;a-<lb/>
+gen/ wann er deß Abends &#x017F;chlaffen gehet/ er wo&#x0364;lle deß Morgens<lb/>
+fri&#x017F;ch vnd ge&#x017F;und wider auff&#x017F;tehn/ oder wann einer deß Morgens<lb/>
+fri&#x017F;ch auff&#x017F;tehet/ er wo&#x0364;lle deß Abends widerumb fri&#x017F;ch vnd ge&#x017F;und<lb/>
+nider gehen/ derowegen &#x017F;agt wol S. Jacob in &#x017F;einer Epi&#x017F;tel am 4.<lb/>
+Cap. wolan die jhr nun &#x017F;agt/ heut oder morgen wo&#x0364;llen wir gehen<lb/>
+in die vnd in die Statt. Diß bedencken gar wenig die jenigen <hi rendition="#aq">Stu-<lb/>
+dio&#x017F;i,</hi> die &#x017F;ich al&#x017F;o ein ander anmahnen: Morgen wo&#x0364;llen wir hin-<lb/>
+gehn/ vnd dem vnd dem ein &#x017F;chmauß außfu&#x0364;hren/ vnd dem <hi rendition="#aq">pena-<lb/>
+li&#x017F;mum</hi> vertrincken/ die &#x017F;ollen &#x017F;ich di&#x017F;es Spruchs S. Jacobi er-<lb/>
+inneren/ daß di&#x017F;er ruhm bo&#x0364;ß ding &#x017F;ey/ vnnd auch di&#x017F;es Spruchs<lb/>
+deß Predigers/ daß wie ein Fi&#x017F;ch mit einem &#x017F;cha&#x0364;dlichen Hamen/<lb/>
+vnd ein Vogel mit einem Strick gefangen wirdt/ al&#x017F;o werde ein<lb/>
+Men&#x017F;ch beruckt von der bo&#x0364;&#x017F;en zeit/ w<supplied>a</supplied>nn &#x017F;ie vber jhn fall/ vnnd<lb/>
+derwegen jmmer zu in der Forcht deß HEr&#xA75B;n wandlen. Das &#x017F;ey<lb/>
+ge&#x017F;agt von dem verle&#x017F;enen Spruch deß Predigers Salomons.</p></div></div><lb/>
+<fw place="bottom" type="sig"><hi rendition="#aq">B</hi> 2</fw><fw place="bottom" type="catch"><hi rendition="#aq">Per&#x017F;o-</hi></fw><lb/>
+<pb facs="#f0012" n="10"/>
+<fw type="header" place="top"><hi rendition="#b">Ch&#xA75B;i&#x017F;tliche Leichp&#xA75B;redigt.</hi></fw><lb/>
+<div type="fsPersonalia" n="2"><head><hi rendition="#aq">Per&#x017F;onalia.</hi></head><lb/>
+<p><hi rendition="#in">J</hi>Ch hab im Eingang di&#x017F;er Predig vermeldet/ daß &#x017F;ich am<lb/>
+na&#x0364;ch&#x017F;t ver&#x017F;chinen Mittwochen/ den <formula notation="TeX">\frac{14}{4}</formula> die&#x017F;es Monats<lb/>
+<hi rendition="#aq">Decembris,</hi> ein trawriger vnfall/ mit einem geleh&#xA75B;ten/<lb/>
+vnd eh&#xA75B;lichen <hi rendition="#aq">Studio&#x017F;o, <hi rendition="#g"><hi rendition="#k">Davide</hi></hi></hi> Niggel/ von Aug&#x017F;purg/ bey<lb/>
+na&#x0364;chtlicher weil zugetragen/ daß er vnuer&#x017F;ehens mit einem &#x017F;chuß<lb/>
+von Sch&#xA75B;ot getroffen/ vnd bald hernach &#x017F;einen Ab&#x017F;chid von di&#x017F;er<lb/>
+Welt genommen/ Welchem &#x017F;eine letzte Ehr zu erzeigen/ vnnd<lb/>
+&#x017F;einen hinderla&#x017F;&#x017F;enen Leichnamb eh&#xA75B;lich vnd Ch&#xA75B;i&#x017F;tlich zur Erden<lb/>
+zu be&#x017F;tatten/ wir an jetzo ver&#x017F;ambler &#x017F;eyn. Der&#x017F;elbige <hi rendition="#aq">Studio&#x017F;us</hi><lb/>
+i&#x017F;t von Eh&#xA75B;lichen vnd Gott&#x017F;eligen Eltern/ Abraham Niggel/<lb/>
+teut&#x017F;chen Schul-vnnd Rechenmei&#x017F;ter/ vnnd der Tugent&#x017F;amen<lb/>
+Frawen Maria/ in jh&#xA75B;er &#x017F;tehenden Ehe im Jah&#xA75B; 1597. auff di&#x017F;e<lb/>
+Welt geboren/ vnd hernach dem Her&#xA75B;n Ch&#xA75B;i&#x017F;to/ durch die heilige<lb/>
+Tauff einuerleibt. Folgends/ als er zum ver&#x017F;tand kommen/ zu<lb/>
+S. Anna in die Schul ge&#x017F;u&#x0364;h&#xA75B;t/ damit er von &#x017F;einen kindlichen<lb/>
+tagen an zur Gott&#x017F;eligkeit vnd guten Ku&#x0364;n&#x017F;ten vnderwi&#x017F;en wur-<lb/>
+de. Dem&#x017F;elben ko&#x0364;nnen wir kein be&#x017F;&#x017F;er Lob vnd Zeugnuß geben/<lb/>
+als wie jhme &#x017F;eine liebe <hi rendition="#aq">Præceptores</hi> ein &#x017F;olches mitgetheilt:</p><lb/>
+<cit><quote><hi rendition="#aq"><hi rendition="#in">P</hi>Ræmium hoc (gloria) vti præ&#x017F;tanti&#x017F;&#x017F;imum, ita optabi-<lb/>
+li&#x017F;&#x017F;imum vnicê &#x017F;ibi propo&#x017F;uit, meritoq&#x0301;ue con&#x017F;ecutus<lb/>
+e&#x017F;t ornati&#x017F;&#x017F;imus Iuuenis <hi rendition="#k">David</hi> Niccolaus Augu&#x017F;tanus, qui<lb/>
+cum genero&#x017F;æ indolis, excel&#x017F;æq&#x0301;ue &#x017F;pei e&#x017F;&#x017F;et, in Collegium<lb/>
+no&#x017F;trum receptus, ac in numerum alumnorum, præceden-<lb/>
+te donorum animi &#x017F;ufficienti exploratione a&#x017F;citus per qua-<lb/>
+drien nium, cum &#x017F;ene&#x017F;tri tantos, tamque laudabiles in o-<lb/>
+mnibus ferè Philo&#x017F;ophiæ partibus, linguis item Cardinali-<lb/>
+bus, Latinâ, Græcâ, Hebræâ fecit progre&#x017F;&#x017F;us, vt non dubite-<lb/>
+mus, quin &#x017F;i diuino fauente &#x017F;piritu, cæpto modo in &#x017F;tudiis<lb/>
+perrexerit, in magnum olim virum, præclarumq&#x0301;ue Eccle-</hi><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">&#x017F;iæ</hi></fw><lb/>
+<pb facs="#f0013" n="11"/>
+<fw place="top" type="header"><hi rendition="#b">Ch&#xA75B;i&#x017F;tliche Leichp&#xA75B;edigt.</hi></fw><lb/>
+<hi rendition="#aq">&#x017F;iæ Dei organon &#x017F;it eua&#x017F;urus: in moribus verò tàm pium<lb/>
+mode&#x017F;tum, humilem, obedientem, &#x017F;obrium &#x017F;e&#x017F;e exhibuit,<lb/>
+vt eum (ni&#x017F;i animum, quod Deus auertat, mutauerit) bo-<lb/>
+norum omnium fauore ac patrocinio digni&#x017F;&#x017F;imum iudi.<lb/>
+cemus, &amp;c.</hi></quote><bibl/></cit><lb/>
+<p><hi rendition="#c">De&#x017F;&#x017F;en Summa in teut&#x017F;cher Sp&#xA75B;ach dahin laufft:</hi></p><lb/>
+<cit><quote>Daß di&#x017F;er junge Ge&#x017F;ell/ jhme Ch&#xA75B;i&#x017F;tlich vo&#xA75B;ge&#x017F;etzt/ nach Eh<supplied>r</supplied><lb/>
+vnd Tugendt zu &#x017F;treben. Dann dieweil von wegen &#x017F;eines vor-<lb/>
+trefflichen <hi rendition="#aq">ingenii</hi> vnd guter art/ gro&#x017F;&#x017F;e hoffnung an jhme ge-<lb/>
+leuchtet/ i&#x017F;t er vo&#xA75B; vierdte halb Jahren/ nach vo&#xA75B;gangner gnug&#x017F;a-<lb/>
+mer erfor&#x017F;chung &#x017F;einer Gaben vnd <hi rendition="#aq">profectum,</hi> in das Euange-<lb/>
+li&#x017F;che Collegium/ alda fu&#x0364;r ein <hi rendition="#aq">Alumnum</hi> auffgenommen wo&#xA75B;-<lb/>
+den/ darinnen er in allen <hi rendition="#aq">partibus Philo&#x017F;ophiæ,</hi> Jtem in den<lb/>
+Haupt&#x017F;p&#xA75B;achen der Lateini&#x017F;chen/ Griechi&#x017F;chen/ vnd Hebrai&#x017F;chen<lb/>
+al&#x017F;o ru&#x0364;hmlich vnd loblich zugenommen/ vnd proficiert/ daß mir<lb/>
+nicht zweifelt/ wann er durch bey&#x017F;tand deß heiligen Gei&#x017F;tes/ wie<lb/>
+er angefangen/ in &#x017F;einen <hi rendition="#aq">Studijs</hi> fortfah&#xA75B;e&#x0303; wird/ es werde auß jm<lb/>
+ein vo&#xA75B;trefflicher Man&#x0303; vnd heil&#x017F;amer Werckzeug der Kirchen<lb/>
+Gottes werden. Jn &#x017F;einem Leben vnd Sitten/ hat er &#x017F;ich Gott-<lb/>
+&#x017F;elig/ zu&#x0364;chtig/ demu&#x0364;tig/ geho&#xA75B;&#x017F;amb/ vnd nu&#x0364;chtern erzeigt/ daß<lb/>
+wo fern er nicht &#x017F;ein Gemu&#x0364;t/ daruor Gott &#x017F;eyn wo&#x0364;lle/ endern<lb/>
+wurde/ wir es darfu&#x0364;r halten/ daß er aller Eh&#xA75B;liebender vnd fu&#x0364;r-<lb/>
+nemer Leut gun&#x017F;t vnd befo&#x0364;rderung werth &#x017F;ey.</quote><bibl/></cit><lb/>
+<p><hi rendition="#c">Jn dem &#x017F;tim&#x0303;en beede/ jhm gegebne Zeugnuß vberein.</hi></p><lb/>
+<p>Der&#x017F;elbig &#x017F;o wol begabte junge Ge&#x017F;ell vnnd <hi rendition="#aq">Studio&#x017F;us</hi> ligt<lb/>
+nun da/ Ob nun Gott der HEr&#xA75B; nach &#x017F;einem allein wei&#x017F;en rath<lb/>
+ein hartes vnd &#x017F;charpffes &#x017F;teuplin vber jhn verhengt/ daß er plo&#x0364;tz-<lb/>
+lich al&#x017F;o mit einem Schuß getroffen: Jedoch/ weil nach dem<lb/>
+Sp&#xA75B;uch Augu&#x017F;tini: <hi rendition="#aq">Nulla mors pote&#x017F;t e&#x017F;&#x017F;e mala, quam bona<lb/>
+vita præce&#x017F;&#x017F;it,</hi> vnd er nach empfangenem Schuß &#x017F;ovil Anzeigen<lb/>
+<fw place="bottom" type="sig">B iij</fw><fw place="bottom" type="catch">&#x017F;einen</fw><lb/>
+<pb facs="#f0014" n="12"/>
+<fw place="top" type="header"><hi rendition="#b">Ch&#xA75B;i&#x017F;tliche Leichp&#xA75B;edigt.</hi></fw><lb/>
+&#x017F;einen vmb&#x017F;tehenden <hi rendition="#aq">Condi&#x017F;cipulis</hi> vnnd Mitt<hi rendition="#aq">&#x017F;tudio&#x017F;is,</hi> &#x017F;o jlln<lb/>
+zum Gebett vermahnet/ vnnd auch mit jhm gebettet/ nicht allein<lb/>
+gegeben/ daß ers wol vernemme/ &#x017F;ondern hat auch di&#x017F;e wort &#x017F;el-<lb/>
+be&#x017F;t gebraucht: Ach Her&#xA75B; Je&#x017F;u Chri&#x017F;te/ erbarm dich mein/ vnnd<lb/>
+vergib mir meine Su&#x0364;nd/ ich muß doch &#x017F;terben. So i&#x017F;t vns gar<lb/>
+kein zweifel/ daß der HEr&#xA75B; Chri&#x017F;tus Je&#x017F;us/ &#x017F;ein lieber Erlo&#x0364;&#x017F;er/<lb/>
+dem er &#x017F;ich befohlen/ habe als der rechte Ertzbi&#x017F;choff vnd Scho&#x0364;pf-<lb/>
+fer &#x017F;einer Seelen/ die&#x017F;elbe zu &#x017F;ich genommen/ vnd in die himme-<lb/>
+li&#x017F;che <hi rendition="#aq">Academiam transferiert,</hi> darinnen er/ wie das Buch der<lb/>
+Weißheit am vierdten Capittel meldet/ zeitlichen zu rechter<lb/>
+vollkommenheit gelangt. Das vbrige wo&#x0364;llen wir alles mitein-<lb/>
+ander Gott dem r<supplied>e</supplied>chten Richter/ vnd der Obrigkeit befehlen.</p><lb/>
+<p>Der allma&#x0364;chtige gu&#x0364;tige Gott vnnd Vatter vn&#x017F;ers HEr&#xA75B;n<lb/>
+Je&#x017F;u Ch&#xA75B;i&#x017F;ti/ wo&#x0364;lle vns alle auff den rechten/ guten vnnd ewigen<lb/>
+<hi rendition="#c">Weeg begleiten/ vnnd vus mit di&#x017F;em jungen Ge&#x017F;ellen ein<lb/>
+fro&#x0364;liche Auffer&#x017F;tehung verleyhen/ Amen.</hi></p><lb/>
+<p><hi rendition="#c"><hi rendition="#fr">Ende di&#x017F;er Predigt.</hi></hi></p></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="catch">Abraham</fw><lb/>
+<pb facs="#f0015" n="13"/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div type="fsEpicedia" n="1"><head/>  <div n="2"><head><hi rendition="#b">Abraham Niggel jme<lb/>
+&#x017F;elb&#x017F;ten vnd &#x017F;einen mit Creutzbru&#x0364;dern zu<lb/>
+&#x017F;onderm tro&#x017F;t/ &#x017F;einem lieben Sohn Dauid Nig-</hi><lb/>
+gel (Seligen) aber/ zu Chri&#x017F;t&#x017F;eliger Ehrnge-<lb/>
+da&#x0364;chtnuß ge&#x017F;telt.</head><lb/>
+<lg type="poem"><l><hi rendition="#in">W</hi>Jr bitten in der Letaney/</l><lb/>
+<l>Es wo&#x0364;l vns Gott der HEr&#xA75B; getrey</l><lb/>
+<l>Auß lauter va&#x0364;tterlichen Gu&#x0364;ten/</l><lb/>
+<l>Vor bo&#x0364;&#x017F;em &#x017F;chnellen Tod behu&#x0364;ten/</l><lb/>
+<l>Doch hat di&#x017F;es die meinung nicht/</l><lb/>
+<l>Wie mancher jm einbilt vnd dicht/</l><lb/>
+<l>Als wann all &#x017F;chnelle Todt bo&#x0364;ß wern/</l><lb/>
+<l>Sonder wir bitten Gott den HEr&#xA75B;n/</l><lb/>
+<l>Er wo&#x0364;ll vns vor dem ga&#x0364;hen Todt</l><lb/>
+<l>Behu&#x0364;ten/ da in &#x017F;chand vnd &#x017F;pott/</l><lb/>
+<l>Vnd Su&#x0364;nd werden ergriffen wir/</l><lb/>
+<l>Auch das bo&#x0364;ß lieben fu&#x0364;r vnd fu&#x0364;r/<note place="right">Schneller<lb/>
+ga&#x0364;her Tod i&#x017F;t<lb/>
+den vnbueß-<lb/>
+fertigen vnd<lb/>
+Gottlo&#x017F;en<lb/>
+gefa&#x0364;hrlich.</note></l><lb/>
+<l>Eilen &#x017F;elb&#x017F;ten zu dem verderbn/</l><lb/>
+<l>Vnd vnbußfertig dahin &#x017F;terbn/</l><lb/>
+<l>Wie der Baum felt nach der Schrifft &#x017F;ag/</l><lb/>
+<l>Er fall geleich gegen Mittag/</l><lb/>
+<l>(Das i&#x017F;t in dem Glauben bereit/</l><lb/>
+<l>Vnd in rechter Bußfertigkeit.)</l><lb/>
+<l>Oder gegen Mitternacht (das</l><lb/>
+<fw type="catch" place="bottom">J&#x017F;t</fw><lb/>
+<pb facs="#f0016" n="14"/>
+<fw type="header" place="top"><hi rendition="#b">Chri&#x017F;tliche Leichpredigt/</hi></fw><lb/>
+<l>J&#x017F;t in dem Vnglauben fu&#x0364;rbaß/</l><lb/>
+<l>Vnd in vnbußfertigkeit &#x017F;chwer)</l><lb/>
+<l>Da wirdt erligen/ wie der HEr&#xA75B;</l><lb/>
+<l>Den Men&#x017F;chen find in letzter &#x017F;tund/</l><lb/>
+<l>Al&#x017F;o wirdt er gericht im grund/</l><lb/>
+<l>Wer aber nun durch Gottes Gei&#x017F;t/</l><lb/>
+<l>Sich rechter Gottes forcht beflei&#x017F;t/</l><lb/>
+<l>Vnd gebrauchet der Sacrament/</l><lb/>
+<l>Auch verhar&#xA75B;et biß an das end/</l><lb/>
+<l>Vollendet &#x017F;ein lauff tugenthafft/</l><lb/>
+<l>Vbet ein gute Riter&#x017F;chafft/</l><lb/>
+<l>Helt Glauben liebet Gottes wort/</l><lb/>
+<l>Helt Chri&#x017F;tum fu&#x0364;r &#x017F;ein ho&#x0364;ch&#x017F;ten Hort/</l><lb/>
+<l>Di&#x017F;er gewißlich bringt daruon/</l><lb/>
+<l>Die vnuerwelcklich Ehrenkron/</l><lb/>
+<l>Mit &#x017F;olchen Leuten hats nit noth/</l><lb/>
+<l>Wann &#x017F;ie geleich mit &#x017F;chnellem Todt/</l><lb/>
+<l>Werden vberfallen ge&#x017F;chwind/</l><lb/>
+<l><note place="left">P&#x017F;al. 90.</note>Schnell dahiu fah&#xA75B;en wie der Wind/</l><lb/>
+<l>Dann Ch&#xA75B;iftus &#x017F;agt: mich wol vernim/</l><lb/>
+<l><note place="left">Joha. 10.</note>Meine Scha&#x0364;flein ho&#x0364;ren mein Stim/</l><lb/>
+<l><note xml:id="note1a" place="left" next="note1b">Den Buß-<lb/>
+fertigen vnd<lb/>
+Glaubige&#x0303; i&#x017F;t<lb/>
+ein &#x017F;chneller<lb/>
+vnner&#x017F;ehe-<lb/>
+ner Todt<lb/>
+nicht nach-</note>Vnd volgen mir auch nach darnebn/</l><lb/>
+<l>Jch gib jhnen das ewig lebn/</l><lb/>
+<l>Niemand kan &#x017F;ie auß meiner Hand/</l><lb/>
+<l>Mir rei&#x017F;&#x017F;en &#x017F;p&#xA75B;icht hie der Heyland/</l><lb/>
+<fw type="catch" place="bottom">Es</fw><lb/>
+<pb facs="#f0017" n="15"/>
+<fw type="header" place="top"><hi rendition="#b">Chri&#x017F;tliche Leichpredigt.</hi></fw><lb/>
+<l>Es i&#x017F;t nit der will (merck es wol)<note xml:id="note1b" prev="#note1a" place="right">theilig/ &#x017F;on<gap reason="illegible" unit="chars" quantity="1"/><lb/>
+vil meh&#xA75B;<lb/>
+nutzlich.</note></l><lb/>
+<l>Deß Vatters/ das hie einer &#x017F;oll/</l><lb/>
+<l>Vmbkommen von den klein&#x017F;ten gut/<note place="right">Matth. 18.</note></l><lb/>
+<l>Der gleich vertro&#x0364;&#x017F;tung Paulus thut/</l><lb/>
+<l>Der Gei&#x017F;t vertrittet vns zumal/</l><lb/>
+<l>(Jn eim &#x017F;olchen ge&#x017F;chwinden fal)</l><lb/>
+<l>Mit &#x017F;o&#x0364;hnlichem Seufftzen fu&#x0364;rwar/</l><lb/>
+<l>Es i&#x017F;t nichtes verdamlichs gar/</l><lb/>
+<l>An denen die in Ch&#xA75B;i&#x017F;to &#x017F;ein/</l><lb/>
+<l>Wer will von Gottes liebe rein/</l><lb/>
+<l>Vns &#x017F;cheiden/ Ang&#x017F;t/ Not vnd tru&#x0364;b&#x017F;al/<note place="right">Ro&#x0364;m. <supplied>3</supplied>.</note></l><lb/>
+<l>Hunger vnd allerley vnfal/</l><lb/>
+<l>Wieß Namen haben mit verdrie&#x017F;&#x017F;en/</l><lb/>
+<l>Es &#x017F;ey gleich &#x017F;chlagen oder Schie&#x017F;&#x017F;en/</l><lb/>
+<l>Jch bin gewiß/ ohn allen fel/</l><lb/>
+<l>Das weder Todt/ lang&#x017F;am noch &#x017F;chnell/</l><lb/>
+<l>Oder leben/ zu keiner fri&#x017F;t/</l><lb/>
+<l>Mich von Gottes lieb/ welche i&#x017F;t/</l><lb/>
+<l>Jn JESV Ch&#xA75B;i&#x017F;to vn&#x017F;rem Her&#xA75B;n/</l><lb/>
+<l>Mag &#x017F;cheiden oder thun abkeh&#xA75B;n/</l><lb/>
+<l>Ob es wol vor den Augen dein/</l><lb/>
+<l>Schro&#x0364;cklich thut anzu&#x017F;ehen &#x017F;ein/</l><lb/>
+<l>J&#x017F;ts doch vor den Augen des Her&#xA75B;en/</l><lb/>
+<l>Nit &#x017F;chro&#x0364;cklich/ &#x017F;onderen mit eh&#xA75B;en/</l><lb/>
+<l>Wirdet der Gelaubigen Todt/</l><lb/>
+<fw type="sig" place="bottom">C</fw><fw type="catch" place="bottom">Gar</fw><lb/>
+<pb facs="#f0018" n="16"/>
+<fw type="header" place="top"><hi rendition="#b">Ch&#xA75B;i&#x017F;tliche Leichp&#xA75B;edigt.</hi></fw><lb/>
+<l>Gar hoch vnd werth geacht fu&#x0364;r Gott/</l><lb/>
+<l>Vnd werden di&#x017F;e bald volkommen/</l><lb/>
+<l>Es muß den glaubigen vnd frommen/</l><lb/>
+<l>Alls zum be&#x017F;ten dienen allzeit/</l><lb/>
+<l>Vnbegreiflich i&#x017F;t &#x017F;ein weißheit/</l><lb/>
+<l>Gott i&#x017F;t gerecht &#x017F;ein gricht i&#x017F;t gut/</l><lb/>
+<l>Niemand er wol nit vnrecht thut/</l><lb/>
+<l>Er fordert das &#x017F;ein wann er will/</l><lb/>
+<l>Macht auch dar mit fein in der &#x017F;till/</l><lb/>
+<l>Was jhm gefellt vnd gedunckt gut/</l><lb/>
+<l>Ob es &#x017F;chon vn&#x017F;er Flei&#x017F;ch vnd Blut/</l><lb/>
+<l>Gedunckt zu hart gefah&#xA75B;en &#x017F;ein/</l><lb/>
+<l>Laßt er jhm doch nit reden ein/</l><lb/>
+<l>Dann er hat de&#x017F;&#x017F;en vr&#x017F;ach gnug/</l><lb/>
+<l>Ob gleich vermein&#x017F;t du ha&#x0364;tte&#x017F;t fug</l><lb/>
+<l>Diß Orts mit jhm zu di&#x017F;putieren/</l><lb/>
+<l>Wir&#x017F;t doch/ acht ich/ das recht verlieren/</l><lb/>
+<l>Will auch gar nit geb&#x0171;ren dir/</l><lb/>
+<l>Das du Gott mit recht nemme&#x017F;t f&#x0171;r/</l><lb/>
+<l>Darumb im Creutz/ ang&#x017F;t vnd tru&#x0364;b &#x017F;al/</l><lb/>
+<l>J&#x017F;t kein be&#x017F;&#x017F;rer rat in dem fal/</l><lb/>
+<l>Dann daß dich Gottes willen eben/</l><lb/>
+<l>Fein gehor&#x017F;amlich thu&#x0364;&#x017F;t ergeben/</l><lb/>
+<l>Vnd &#x017F;p&#xA75B;ich hie mit Dauid gemut<supplied>,</supplied></l><lb/>
+<l>Gott i&#x017F;t gerecht &#x017F;ein Gricht i&#x017F;t gut/</l><lb/>
+<fw type="catch" place="bottom">Sonder-</fw><lb/>
+<pb facs="#f0019" n="17"/>
+<fw place="top" type="header"><hi rendition="#b">Ch&#xA75B;i&#x017F;tliche Leichp&#xA75B;edigt.</hi></fw><lb/>
+<l>Sonderlich merck ein &#x017F;chneller Todt/</l><lb/>
+<l>Die Ch&#xA75B;i&#x017F;ten nit fu&#x0364;h&#xA75B;et in not/</l><lb/>
+<l>Vnd i&#x017F;t jhnen gar kein nachtheil/</l><lb/>
+<l>Sonder vil meh&#xA75B; zu jh&#xA75B;em heil/</l><lb/>
+<l>Ein &#x017F;eh&#xA75B; gro&#x017F;&#x017F;er vortheil vorab/</l><lb/>
+<l>Sondere gnad vnd Gottes gab/</l><lb/>
+<l>Gegen denen/ &#x017F;o offt mit zwang/</l><lb/>
+<l>Auff jh&#xA75B;em Siechbet ligen lang/</l><lb/>
+<l>Vnd ko&#x0364;nden doch er&#x017F;terben nicht/</l><lb/>
+<l>Gott vns in &#x017F;einem wort bericht/</l><lb/>
+<l>Die mich eh&#xA75B;en/ die will ich auch/</l><lb/>
+<l>Wider eh&#xA75B;en nach rechtem brauch/</l><lb/>
+<l>Weil aber recht glaubige Ch&#xA75B;i&#x017F;ten/</l><lb/>
+<l>Bey g&#x017F;undem leib zu allen fri&#x017F;ten/</l><lb/>
+<l>Den lieben Gott al&#x017F;o hoch eh&#xA75B;en/</l><lb/>
+<l>Das &#x017F;ie &#x017F;ein wo&#xA75B;t gar flei&#x017F;&#x017F;ig ho&#x0364;ren/</l><lb/>
+<l>Sacramenta gebrauchen recht/</l><lb/>
+<l>Verhalten &#x017F;ich als Gottes knecht/</l><lb/>
+<l>Eh&#xA75B;t &#x017F;ie Gott wider an der &#x017F;ta&#x0364;tt/</l><lb/>
+<l>Vnd &#x017F;ie nit lang auff dem Siechbett/</l><lb/>
+<l>Martert vnd quelet an dem end/</l><lb/>
+<l>Nimbt &#x017F;ie in den Him&#x0303;el behend/</l><lb/>
+<l>Das er in frewden leben &#x017F;oll/</l><lb/>
+<l>Des Grechten Seel gefellt Gott wol/</l><lb/>
+<l>Darumb nimbt er &#x017F;ie hin alßbald/</l><lb/>
+<fw place="bottom" type="sig">C ij</fw><fw place="bottom" type="catch">Al&#x017F;o</fw><lb/>
+<pb facs="#f0020" n="18"/>
+<fw place="top" type="header"><hi rendition="#b">Ch&#xA75B;i&#x017F;tliche Leichp&#xA75B;edigt.</hi></fw><lb/>
+<l>Al&#x017F;o hat Gott geleicher g&#x017F;talt/</l><lb/>
+<l>Johannem den Euangeli&#x017F;ten</l><lb/>
+<l>Vnd Apo&#x017F;tel/ vo&#xA75B; langen fri&#x017F;ten/</l><lb/>
+<l>Schnell hingenommen durch den Schlag/</l><lb/>
+<l>Nach laut der Hi&#x017F;torien &#x017F;ag/</l><lb/>
+<l>Welches end dem Polycarpo/</l><lb/>
+<l>So wolgefiehl/ war gleich&#x017F;amb fro/</l><lb/>
+<l>Vnd bat daru&#x0364;ber Gott den Her&#xA75B;n/</l><lb/>
+<l>Daß er jhm wo&#x0364;lle auch be&#x017F;chern/</l><lb/>
+<l>Ein &#x017F;ollichs &#x017F;eligs End derma&#x017F;&#x017F;en/</l><lb/>
+<l>Vnd jhne nit lang ligen la&#x017F;&#x017F;en/</l><lb/>
+<l>Sonderen jhm die Todesqual/</l><lb/>
+<l>Gna&#x0364;dig verku&#x0364;rtzen in dem fal/</l><lb/>
+<l>Solte Gott ein jeden mit zwang/</l><lb/>
+<l>Auff dem Bett la&#x017F;&#x017F;en ligen lang/</l><lb/>
+<l>Mo&#x0364;cht &#x017F;ich mancher am Her&#xA75B;en fron/</l><lb/>
+<l>Auch gar &#x017F;chwerlich vergreiffen thon/</l><lb/>
+<l>Als der Job vnd Jeremias/</l><lb/>
+<l>O lieber Gott/ gib gnad fu&#x0364;rbaß/</l><lb/>
+<l>Daß wir fu&#x0364;h&#xA75B;en ein Chri&#x017F;tlichs Lebn/</l><lb/>
+<l>Mit Leib vnd Seel vns dir ergebn/</l><lb/>
+<l>Auch bleiben im Glauben &#x017F;tandthafft/</l><lb/>
+<l>Vben ein gute Ritter&#x017F;chafft/</l><lb/>
+<l>Daß wir endtlich bringen daruon/</l><lb/>
+<l>Die vnuerwelcklich Eh&#xA75B;enkron/</l><lb/>
+<l>So du vns durch dein heiligs Sterbn/</l><lb/>
+<fw place="bottom" type="catch">Vnd</fw><lb/>
+<pb facs="#f0021" n="19"/>
+<fw place="top" type="header"><hi rendition="#b">Chri&#x017F;tliche Leichpredig.</hi></fw><lb/>
+<l>Vnd Auffer&#x017F;tehung thet&#x017F;t erwerbn/</l><lb/>
+<l>Gib daß vn&#x017F;er let&#x017F;ts wort mo&#x0364;g &#x017F;ein:</l><lb/>
+<l>Her&#xA75B; <hi rendition="#k">Je</hi>&#x017F;u/ in die Ha&#x0364;nde dein/</l><lb/>
+<l>Mein Leib vnd Seel befehlich ebn/</l><lb/>
+<l>Daß wir nach dem betru&#x0364;bten Lebn/</l><lb/>
+<l>Zu den mo&#x0364;gen ver&#x017F;amblet werdn/</l><lb/>
+<l>So wir alhie auff di&#x017F;er Erdn/</l><lb/>
+<l>Haben gar bald verla&#x017F;&#x017F;en mu&#x0364;&#x017F;&#x017F;en/</l><lb/>
+<l>Daß wir mit jhnen dort genie&#x017F;&#x017F;en/</l><lb/>
+<l>Die ewig Frewd vnd Seligkeit/</l><lb/>
+<l>Dahin vns all zu &#x017F;einer zeit</l><lb/>
+<l>Wo&#x0364;ll ve&#xA75B;helffen Gott Vatter fron/</l><lb/>
+<l>Vnd <hi rendition="#k">Je&#x017F;vs Christvs</hi> Gottes Son/</l><lb/>
+<l>Vnd Gott der heilig Gei&#x017F;t mit Namen/</l><lb/>
+<l>Amen/ Amen/ <hi rendition="#k">He</hi>r&#xA75B; <hi rendition="#k">Je</hi>&#x017F;u Amen.</l></lg></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="sig">C iij</fw><lb/>
+<pb facs="#f0022" n="20"/>
+<div n="2"><head>&#x0398;<hi rendition="#aq">P<gap reason="illegible" unit="chars" quantity="1"/>NOS.<lb/>
+IN LVCTVOSIS-<lb/>
+SIMVM AC PRÆMA-<lb/>
+TVRVM OBITVM IVVENIS VE-<lb/>
+rè pii, mode&#x017F;ti ingenio&#x017F;i, diligentis &amp; obedien-<lb/>
+tis <hi rendition="#g"><hi rendition="#k">Davidis Nicolai</hi></hi> Augu&#x017F;tani, à pe&#x017F;&#x017F;imo quodam<lb/>
+Latrone, dicto Ioachimo Datten hor&#x017F;t, &#x017F;tudio&#x017F;o, non Iuris,<lb/>
+&#x017F;ed &#x017F;celerum ac perfidiæ mi&#x017F;erabiliter interemti<lb/>
+Gie&#x017F;&#x017F;æ Ha&#x017F;&#x017F;orum. 4. Decemb.<lb/>
+Anno 1616.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">O</hi>Facinus dirum<hi rendition="#i">!</hi> in fandum<hi rendition="#i">!</hi> execrandum<hi rendition="#i">!</hi> horren-</hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#et">dumq&#x0301;;,</hi></hi></l><lb/>
+<l><hi rendition="#aq">O tri&#x017F;tes ca&#x017F;us<hi rendition="#i">!</hi> O qui Deus a&#x017F;picis i&#x017F;ta<hi rendition="#i">!</hi></hi></l><lb/>
+<l><hi rendition="#aq">A&#x017F;picis &amp; pateris?</hi></l><lb/>
+<l><hi rendition="#aq">Siccine flos Iuvenum, flos fragranti&#x017F;&#x017F;ime marces?</hi></l><lb/>
+<l><hi rendition="#aq">Siccine te &#x017F;celerata manus demi&#x017F;it ad vmbras?</hi></l><lb/>
+<l><hi rendition="#aq">Formo&#x017F;e ô faciem Iuvenis, formo&#x017F;ior intus<hi rendition="#i">!</hi></hi></l><lb/>
+<l><hi rendition="#aq">Siccine &#x017F;pes Patriæ dulcis, &#x017F;pes magna Parentum</hi></l><lb/>
+<l><hi rendition="#aq">Nicolaë cadis? Cadis optime Nicolaë?</hi></l><lb/>
+<l><hi rendition="#aq">Deliciumq&#x0301;; decusq&#x0301;; meum columenq&#x0301;; tuorum.</hi></l><lb/>
+<l><hi rendition="#aq">O præ&#x017F;tans Iuvenis, &#x017F;i quâ fata a&#x017F;pera rumpas:</hi></l><lb/>
+<l><hi rendition="#aq">Quò po&#x017F;&#x017F;is lap&#x017F;is &#x017F;ecli &#x017F;uccurrere rebus:</hi></l><lb/>
+<l><hi rendition="#aq">Aut &#x017F;i quem hæredem donorum forte relinquas</hi></l><lb/>
+<l><hi rendition="#aq">Ingenij<hi rendition="#i">!</hi> &#x017F;ed &#x017F;ic placitum, qui cuncta gubernat.</hi></l><lb/>
+<l><hi rendition="#aq">O&#x017F;tendunt patriæ te tantùm fata, neq&#x0301;; vltrà</hi></l><lb/>
+<l><hi rendition="#aq">E&#x017F;&#x017F;e &#x017F;inunt: O quem quantumq&#x0301;; ami&#x017F;imus? at te</hi></l><lb/>
+<l><hi rendition="#aq">At te latronum confidenti&#x017F;&#x017F;ime, nequam</hi></l><lb/>
+<fw place="bottom" type="catch"><hi rendition="#aq">Pe&#x017F;&#x017F;ime,</hi></fw><lb/>
+<pb facs="#f0023" n="21"/>
+<l><hi rendition="#aq">Pe&#x017F;&#x017F;ime, fax &#x017F;celerum, Fili Cacodæmonis<hi rendition="#i">!</hi> at te</hi></l><lb/>
+<l><hi rendition="#aq">Vindicis ira Dei in lucem protrudat apricam,</hi></l><lb/>
+<l><hi rendition="#aq">Pertrahat ad p&#x0153;nam in&#x017F;onti de &#x017F;anguine ju&#x017F;tam:</hi></l><lb/>
+<l><hi rendition="#aq">Et &#x017F;i qua e&#x017F;t (etenime&#x017F;t) c&#x0153;lis quæ talia curet</hi></l><lb/>
+<l><hi rendition="#aq">Iu&#x017F;titia &amp; Pietas, tibi præmia digna rependat.</hi></l><lb/>
+<l><hi rendition="#aq">Redde animam latro, profu&#x017F;um redde cruorem:</hi></l><lb/>
+<l><hi rendition="#aq">Redde quod inju&#x017F;tè rapui&#x017F;ti perfide latro:</hi></l><lb/>
+<l><hi rendition="#aq">Reddere non potis es: meritas igitur lue p&#x0153;nas:</hi></l><lb/>
+<l><hi rendition="#aq">Aut hîc aut quando e&#x017F;t Iudex venturus Ie&#x017F;us.</hi></l><lb/>
+<l><hi rendition="#aq">Interea Te, &#x017F;ancta Anima &amp; tantæ in&#x017F;cia culpæ</hi></l><lb/>
+<l><hi rendition="#aq">Su&#x017F;cipiat, foueatq&#x0301;; &#x017F;inu Deus, &amp; tibi mi&#x017F;cens,</hi></l><lb/>
+<l><hi rendition="#aq">Ba&#x017F;ia mille &amp; mille, paternâ ac voce &#x017F;alutans</hi></l><lb/>
+<l><hi rendition="#aq">Æternam ponat circum tua tempora laurum.</hi></l><lb/>
+<l><hi rendition="#aq">Viue valeq&#x0301;; Deo commendati&#x017F;&#x017F;ima, viue</hi></l><lb/>
+<l><hi rendition="#aq">Donec in extremâ vi&#x017F;ura es luce latronem:</hi></l><lb/>
+<l><hi rendition="#aq">Vi&#x017F;ura &amp; p&#x0153;nas non vllo fine luendas:</hi></l><lb/>
+<l><hi rendition="#aq">Ni fors interea mentem mutaueritille,</hi></l><lb/>
+<l><hi rendition="#aq">Et dederit &#x017F;celeris p&#x0153;nas hoc tempore dignas.</hi></l><lb/>
+<l><hi rendition="#aq">Tuq&#x0301;; ô præclarus &#x017F;anguis, quem viuere fas e&#x017F;t,</hi></l><lb/>
+<l><hi rendition="#aq">Ingentem è terra clamorem ad &#x017F;idera tolle,</hi></l><lb/>
+<l><hi rendition="#aq">Dum Pater omnipotens, qui temperat omnia ju&#x017F;tè,</hi></l><lb/>
+<l><hi rendition="#aq">Re&#x017F;piciat vindex, luctum mi&#x017F;eratus acervum,</hi></l><lb/>
+<l><hi rendition="#aq">Et p&#x0153;nas &#x017F;ubitò &#x017F;celerato à &#x017F;emine po&#x017F;cat.</hi></l><lb/>
+<l><hi rendition="#aq">Exoriare aliquis &#x017F;ummis è &#x017F;edibus vltor.</hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Di&#x017F;cipulo &#x017F;uo obedienti ac dilecto m&#x0153;&#x017F;tus p. Petrus<lb/>
+N. eyderlinus Collegij Ephorus.</hi></hi></hi></salute></closer></div><lb/>
+<fw type="catch" place="bottom"><hi rendition="#aq">Ana-</hi></fw><lb/>
+<pb facs="#f0024" n="22"/>
+<div n="2"><head><hi rendition="#aq"><hi rendition="#g"><hi rendition="#i">ANAGRAMM<supplied>A</supplied>.</hi><lb/>
+DAVIDES NICOLAIVS</hi><lb/>
+Vincis, diâ Deo laus.</hi></head><lb/>
+<lg type="poem"><l><hi rendition="#aq"><hi rendition="#in">Q</hi><hi rendition="#i">VI vix dum vitæ complesti lu&#x017F;tra quaterna,</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Vitæ, Augu&#x017F;ta, Deo quam duce, Sueua dabat:</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Æmulus Euriptdis, Ciceronis, Ari&#x017F;tophanis&#xA759;&#x0301;,</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Ießæi vatis, vatis &amp; Amramidæ:</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Omnibus &amp; Sophiæ &#x017F;tudijs propè deditus: omnes</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Ingenio &#x017F;uperans &amp; pietate tuos.</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Spes Præceptorum, Patriæ, &#x017F;pes magna Parentum</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Exemplum vitæ: tùm &#x017F;peculum Iuvenum.</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Ante diem ju&#x017F;tum &#x017F;celerato concidis ictu:</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Sic mors, Te vincit callida: quàm &#x017F;ubitò:</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Tu&#xA759;&#x0301; fide vincis Mundum, Satanæ&#xA759;&#x0301; furores,</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#aq"><hi rendition="#i">Quasque &#x017F;truit &#x017F;erpens callidus in&#x017F;idias.</hi></hi></hi></l><lb/>
+<l><hi rendition="#aq"><hi rendition="#i">Nunc vincis mortem, &#x017F;it diâ &amp; digna Deo laus:</hi></hi></l><lb/>
+<l><hi rendition="#et"><hi rendition="#i"><hi rendition="#aq">Mens tua jam c&#x0153;li &#x017F;ede triumfat ouans.</hi></hi></hi></l></lg><lb/>
+<closer><salute><hi rendition="#et"><hi rendition="#aq">P. M. P.</hi></hi></salute></closer></div></div><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</body><back>  <div type="imprint"><p><hi rendition="#c"><hi rendition="#aq">Augu&#x017F;tæ Vindelicorum.<lb/>
+<hi rendition="#i">Excudeba<gap reason="lost" unit="chars" quantity="1"/>t Dauid Berg.</hi><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<hi rendition="#c"> M. DC. <hi rendition="#g">XVII.</hi></hi></hi></hi></p></div></back><lb/>
+</text>  </TEI>
