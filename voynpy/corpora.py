@@ -3599,7 +3599,7 @@ german_legacy.df = german_legacy_df
 # French
 #----------
 # Rabelais: Pantagruel + Gargantual
-rabelaispath = _root / 'corpora/french/rabelais/rabelais.csv'
+rabelaispath = _root / 'corpora/french/legacy/rabelais/rabelais.csv'
 rabelais = reftext.from_textstring_csv_var1(rabelaispath, language = 'french', read_from_col = 3, comma_split_tokens = False)
 
 
