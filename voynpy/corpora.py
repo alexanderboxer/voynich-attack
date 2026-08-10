@@ -3598,9 +3598,101 @@ german_legacy.df = german_legacy_df
 #----------
 # French
 #----------
-# Rabelais: Pantagruel + Gargantual
+# Legacy Rabelais: Pantagruel + Gargantua, older ad-hoc CSV format.
+# Kept for backward-compat but EXCLUDED from the `french` aggregate per the
+# per-language convention (legacy items are individually loadable only).
 rabelaispath = _root / 'corpora/french/legacy/rabelais/rabelais.csv'
 rabelais = reftext.from_textstring_csv_var1(rabelaispath, language = 'french', read_from_col = 3, comma_split_tokens = False)
+
+# Individual French texts, sourced from Project Gutenberg and (for Rabelais)
+# Wikisource. Each is a sentence-level corpus_build CSV. See per-text
+# manifest.json for provenance, edition, and orthography notes.
+@_register('villon1461')
+def _load_villon1461():
+    path = _root / 'corpora/french/ProjectGutenberg/1461_villon_oeuvres/1461_villon_oeuvres.csv'
+    return reftext.from_corpus_build_csv(path, language='french')
+
+@_register('bonaventure1558')
+def _load_bonaventure1558():
+    path = _root / 'corpora/french/ProjectGutenberg/1558_bonaventure_perier/1558_bonaventure_perier.csv'
+    return reftext.from_corpus_build_csv(path, language='french')
+
+@_register('froissart1400a')
+def _load_froissart1400a():
+    # Chroniques Tome I, 2e partie (Livre I, both prologue redactions).
+    # Vol I 1re partie (#44453) is Luce's editorial apparatus and is NOT ingested.
+    path = _root / 'corpora/french/ProjectGutenberg/1400_froissart_chroniques_1b/1400_froissart_chroniques_1b.csv'
+    return reftext.from_corpus_build_csv(path, language='french')
+
+@_register('froissart1400b')
+def _load_froissart1400b():
+    # Chroniques Tome II (chapters XXXIV+).
+    path = _root / 'corpora/french/ProjectGutenberg/1400_froissart_chroniques_2/1400_froissart_chroniques_2.csv'
+    return reftext.from_corpus_build_csv(path, language='french')
+
+@_register('montaigne1580a')
+def _load_montaigne1580a():
+    # Essais Vol I: Livre I + Livre II ch. 1-6, original text only.
+    path = _root / 'corpora/french/ProjectGutenberg/1580_montaigne_livre_1/1580_montaigne_livre_1.csv'
+    return reftext.from_corpus_build_csv(path, language='french')
+
+@_register('montaigne1580b')
+def _load_montaigne1580b():
+    # Essais Vol II: Livre II ch. 7-35, original text only.
+    path = _root / 'corpora/french/ProjectGutenberg/1580_montaigne_livre_2/1580_montaigne_livre_2.csv'
+    return reftext.from_corpus_build_csv(path, language='french')
+
+@_register('montaigne1588')
+def _load_montaigne1588():
+    # Essais Vol III: Livre II ch. 36+ and Livre III (1588 first ed.), original only.
+    path = _root / 'corpora/french/ProjectGutenberg/1588_montaigne_livre_3/1588_montaigne_livre_3.csv'
+    return reftext.from_corpus_build_csv(path, language='french')
+
+@_register('gargantua1534')
+def _load_gargantua1534():
+    # Rabelais, Gargantua (Juste, Lyon 1535 printing of 1534 first ed.).
+    # Wikisource export 2021-06-11, preserved locally.
+    path = _root / 'corpora/french/Wikisource/1534_rabelais_gargantua/1534_rabelais_gargantua.csv'
+    return reftext.from_corpus_build_csv(path, language='french')
+
+@_register('pantagruel1532')
+def _load_pantagruel1532():
+    # Rabelais, Pantagruel (Nourry, Lyon ca. 1532 first ed.).
+    # Wikisource export 2021-06-11, preserved locally.
+    path = _root / 'corpora/french/Wikisource/1532_rabelais_pantagruel/1532_rabelais_pantagruel.csv'
+    return reftext.from_corpus_build_csv(path, language='french')
+
+_FRENCH_TEXTS: tuple[str, ...] = (
+    'villon1461',
+    'bonaventure1558',
+    'froissart1400a',
+    'froissart1400b',
+    'montaigne1580a',
+    'montaigne1580b',
+    'montaigne1588',
+    'gargantua1534',
+    'pantagruel1532',
+)
+
+@_register('french')
+def _load_french():
+    """Combined French reference corpus.
+
+    Includes 9 pre-1600 texts sourced from Project Gutenberg (Villon,
+    Bonaventure des Periers, Froissart, Montaigne) and Wikisource (Rabelais
+    Gargantua + Pantagruel). Legacy `rabelais` is NOT included per the
+    per-language legacy convention. See individual per-text manifest.json for
+    provenance and orthography notes.
+    """
+    parts = [(name, _get(name)) for name in _FRENCH_TEXTS]
+    tklist = [t for _, rt in parts for t in rt.tklist]
+    charlist = list(''.join(tklist))
+    rt = reftext.RefText('french', tklist, charlist)
+    rt.df = pd.concat(
+        [p.df.assign(doc=name) for name, p in parts],
+        ignore_index=True,
+    )[['doc', 'idx', 'par', 'line', 'par_end', 'textstring']]
+    return rt
 
 
 #----------
