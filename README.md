@@ -58,15 +58,16 @@ See [`transcription/LICENSE`](transcription/LICENSE) for terms (CC-BY 4.0).
 | **German** | Deutsches Textarchiv (DTA) + Luther Bibel 1545 (Zeno.org) | 559 | 14,148,299 |
 | **Latin** | Corpus Corporum (UZH) + Perseus classical | 71 | 4,349,322 |
 | **Dutch** | Digitale Bibliotheek voor de Nederlandse Letteren (DBNL) | 12 | 1,670,838 |
+| **French** | Project Gutenberg + Wikisource | 9 | 954,293 |
 | **English** | EEBO-TCP | 10 | 507,704 |
 | **Voynich** | own transcription | 1 | 33,669 |
 
 Additional smaller corpora are also available via `voynpy.corpora` —
-French, Spanish, Hebrew, Enochian, and some historical ciphers.
+Spanish, Hebrew, Enochian, and some historical ciphers.
 
 All corpora load lazily on first attribute access:
 
-    from voynpy.corpora import latin, german, dutch, english, vms
+    from voynpy.corpora import latin, german, dutch, english, french, vms
 
 Each reference text retains its **upstream license** (CC-BY, CC-BY-SA, or
 public-domain depending on the source). See each source's site for terms
