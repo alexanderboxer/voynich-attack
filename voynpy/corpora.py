@@ -3617,19 +3617,6 @@ def _load_bonaventure1558():
     path = _root / 'corpora/french/ProjectGutenberg/1558_bonaventure_perier/1558_bonaventure_perier.csv'
     return reftext.from_corpus_build_csv(path, language='french')
 
-@_register('froissart1400a')
-def _load_froissart1400a():
-    # Chroniques Tome I, 2e partie (Livre I, both prologue redactions).
-    # Vol I 1re partie (#44453) is Luce's editorial apparatus and is NOT ingested.
-    path = _root / 'corpora/french/ProjectGutenberg/1400_froissart_chroniques_1b/1400_froissart_chroniques_1b.csv'
-    return reftext.from_corpus_build_csv(path, language='french')
-
-@_register('froissart1400b')
-def _load_froissart1400b():
-    # Chroniques Tome II (chapters XXXIV+).
-    path = _root / 'corpora/french/ProjectGutenberg/1400_froissart_chroniques_2/1400_froissart_chroniques_2.csv'
-    return reftext.from_corpus_build_csv(path, language='french')
-
 @_register('montaigne1580a')
 def _load_montaigne1580a():
     # Essais Vol I: Livre I + Livre II ch. 1-6, original text only.
@@ -3665,8 +3652,6 @@ def _load_pantagruel1532():
 _FRENCH_TEXTS: tuple[str, ...] = (
     'villon1461',
     'bonaventure1558',
-    'froissart1400a',
-    'froissart1400b',
     'montaigne1580a',
     'montaigne1580b',
     'montaigne1588',
@@ -3678,11 +3663,11 @@ _FRENCH_TEXTS: tuple[str, ...] = (
 def _load_french():
     """Combined French reference corpus.
 
-    Includes 9 pre-1600 texts sourced from Project Gutenberg (Villon,
-    Bonaventure des Periers, Froissart, Montaigne) and Wikisource (Rabelais
-    Gargantua + Pantagruel). Legacy `rabelais` is NOT included per the
-    per-language legacy convention. See individual per-text manifest.json for
-    provenance and orthography notes.
+    Includes 7 pre-1600 texts sourced from Project Gutenberg (Villon,
+    Bonaventure des Periers, Montaigne x3) and Wikisource (Rabelais Gargantua
+    + Pantagruel). Legacy `rabelais` is NOT included per the per-language
+    legacy convention. See individual per-text manifest.json for provenance
+    and orthography notes.
     """
     parts = [(name, _get(name)) for name in _FRENCH_TEXTS]
     tklist = [t for _, rt in parts for t in rt.tklist]
