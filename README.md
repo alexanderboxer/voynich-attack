@@ -58,7 +58,7 @@ See [`transcription/LICENSE`](transcription/LICENSE) for terms (CC-BY 4.0).
 | **German** | Deutsches Textarchiv (DTA) + Luther Bibel 1545 (Zeno.org) | 559 | 14,148,299 |
 | **Latin** | Corpus Corporum (UZH) + Perseus classical | 71 | 4,349,322 |
 | **Dutch** | Digitale Bibliotheek voor de Nederlandse Letteren (DBNL) | 12 | 1,670,838 |
-| **French** | Project Gutenberg + Wikisource | 9 | 954,293 |
+| **French** | Project Gutenberg + Wikisource | 7 | 606,169 |
 | **English** | EEBO-TCP | 10 | 507,704 |
 | **Voynich** | own transcription | 1 | 33,669 |
 
